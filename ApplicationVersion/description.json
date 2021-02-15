@@ -1,0 +1,25 @@
+{
+  "generator": {
+   "name": "ThisAssembly",
+   "nuget": "https://www.nuget.org/packages/ThisAssembly",
+   "link": "https://www.clarius.org/ThisAssembly/",  
+   "author":"Daniel Cazzulino"   
+  },
+  "data":{
+	"goodFor":"versioning csproj",
+	"existingCode":[
+		"<PropertyGroup>",
+		"<Version>2021.2.15.800</Version>",
+		"</PropertyGroup>"
+	],
+	"generatedCode":[
+		"var strVersion=ThisAssembly.Info.Version;",
+		"Console.WriteLine(strVersion);"
+	]
+  },
+  "links":{
+	"blog":"",
+	"video":"",
+  }
+  
+}
