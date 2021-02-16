@@ -6,7 +6,7 @@
    "author":"Daniel Cazzulino"   
   },
   "data":{
-	"goodFor":"versioning csproj",
+	"goodFor":"The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.",
 	"existingCode":[
 		"<PropertyGroup>",
 		"<Version>2021.2.15.800</Version>",
@@ -50,8 +50,9 @@
 	]
   },
   "links":{
-	"blog":"",
-	"video":""
+	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
+	"video":"",
+	"example":"https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"
   }
   
 }
