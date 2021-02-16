@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,7 +8,6 @@
   <ItemGroup>
     <None Remove="post.txt" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="post.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -20,6 +19,6 @@
   </ItemGroup>
   <ItemGroup>
     <!-- extends watching group to include *.js files -->
-    <Watch Include="**\*.txt"  />
+    <Watch Include="**\*.txt" />
   </ItemGroup>
 </Project>

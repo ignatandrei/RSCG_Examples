@@ -2,14 +2,15 @@
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
-
+using Generator.Json;
 namespace Generator
 {
     class Program
     {
         static async Task Main(string[] args)
         {
-
+            
+            
             var templatePost = await File.ReadAllTextAsync("post.txt");
             string rootPath = @"E:\ignatandrei\RSCG_Examples\";
             string rootFolder = "Enum";
