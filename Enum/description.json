@@ -8,7 +8,7 @@
    "author":"Andrei Ignat"   
   },
   "data":{
-	"goodFor":"parsing enum",
+	"goodFor":"This will generate code to fast parsing a int or a string to an enum",
 	"existingCode":[
 		"[AutoEnum(template = EnumMethod.GenerateExtensionCode)]",
 		"public enum MathematicalOperation",
