@@ -1,5 +1,5 @@
 ﻿using System;
-using JsonToClass.Json.Person;
+using JsonToClass.Json.Persons;
 using Microsoft.Extensions.Configuration;
 
 namespace JsonToClass
@@ -11,11 +11,13 @@ namespace JsonToClass
             var p1 = new Person();
             p1.Blog = "http://msprogrammer.serviciipeweb.ro/";
             var config = new ConfigurationBuilder()
-              .AddJsonFile("person.json")
+              .AddJsonFile("persons.json")
               .Build();
 
             var p = config.Get<Person>();
             Console.WriteLine($"{p.FirstName}");
+
+            var p2 = Person.FromConfig(config);
         }
     }
 }
