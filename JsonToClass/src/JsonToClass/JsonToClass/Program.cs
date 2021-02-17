@@ -1,7 +1,13 @@
 ﻿using System;
 using JsonToClass.Json.Persons;
 using Microsoft.Extensions.Configuration;
-
+namespace JsonToClass.Json.Persons
+{
+    partial class Person
+    {
+        public string FullName() => FirstName + LastName;
+    }
+}
 namespace JsonToClass
 {
     class Program
