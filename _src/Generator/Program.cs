@@ -2,7 +2,6 @@
 using System.IO;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Generator.Json;
 namespace Generator
 {
     class Program
@@ -13,7 +12,7 @@ namespace Generator
             
             var templatePost = await File.ReadAllTextAsync("post.txt");
             string rootPath = @"E:\ignatandrei\RSCG_Examples\";
-            string rootFolder = "Enum";
+            string rootFolder = "JsonToClass";// "Enum";
             var folder =Path.Combine(rootPath, rootFolder); 
             var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
             var desc= JsonSerializer.Deserialize<Description>(text);
