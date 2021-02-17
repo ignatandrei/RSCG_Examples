@@ -1,1 +1,152 @@
-# RSCG_Examples
+# RSGC Name: Enum
+
+Nuget :
+    https://www.nuget.org/packages/AOPMethodsCommon/
+    https://www.nuget.org/packages/AOPMethodsGenerator/
+
+
+link : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
+
+
+author :Andrei Ignat
+
+
+## What can do
+
+This will generate code to fast parsing a int or a string to an enum
+
+## The code that you start with is 
+
+```
+
+    [AutoEnum(template = EnumMethod.GenerateExtensionCode)]
+
+    public enum MathematicalOperation
+
+    {
+
+    None=0,
+
+    Add=1,
+
+    Multiplication=2
+
+    }
+```
+
+The code that you will use is
+
+```csharp
+
+
+    var fromInt = enumMathematicalOperation.ParseExactMathematicalOperation(1);
+
+    var fromString = enumMathematicalOperation.ParseExactMathematicalOperation("add");
+
+    Console.WriteLine(fromInt + "-"+fromString);
+
+```
+
+The code that is generated is
+```csharp
+
+
+      [GeneratedCode("AOPMethods", "")] 
+
+      [CompilerGenerated]
+
+      public  static partial class enumMathematicalOperation{ 
+
+       /*
+
+        public static int idMathematicalOperation(){
+
+        System.Diagnostics.Debugger.Break();
+
+        return 1;
+
+        }
+
+        */
+
+        public static RSCG_Enum.MathematicalOperation ParseExactMathematicalOperation(this long value, RSCG_Enum.MathematicalOperation? defaultValue = null){
+
+                if(0 == value)
+
+                    return RSCG_Enum.MathematicalOperation.None;
+
+                        if(1 == value)
+
+                    return RSCG_Enum.MathematicalOperation.Add;
+
+                        if(2 == value)
+
+                    return RSCG_Enum.MathematicalOperation.Multiplication;
+
+            
+
+            if(defaultValue != null)
+
+                return defaultValue.Value;
+
+    
+
+            throw new ArgumentException("cannot find " + value +" for RSCG_Enum.MathematicalOperation  ");
+
+        }
+
+       
+
+        public static RSCG_Enum.MathematicalOperation ParseExactMathematicalOperation(this string value, RSCG_Enum.MathematicalOperation? defaultValue = null){
+
+            //trying to see if it is a value inside
+
+            //if(!string.IsNullOrWhiteSpace)
+
+            if(long.TryParse(value, out long valueParsed)){
+
+                return ParseExactMathematicalOperation(valueParsed);
+
+            }
+
+    
+
+                if(0==string.Compare("None" , value, StringComparison.InvariantCultureIgnoreCase))
+
+                    return RSCG_Enum.MathematicalOperation.None;
+
+                        if(0==string.Compare("Add" , value, StringComparison.InvariantCultureIgnoreCase))
+
+                    return RSCG_Enum.MathematicalOperation.Add;
+
+                        if(0==string.Compare("Multiplication" , value, StringComparison.InvariantCultureIgnoreCase))
+
+                    return RSCG_Enum.MathematicalOperation.Multiplication;
+
+            
+
+    
+
+            if(defaultValue != null)
+
+                return defaultValue.Value
+
+            throw new ArgumentException("cannot find " + value +" for RSCG_Enum.MathematicalOperation  ");
+
+        }
+
+        /*
+
+        
+
+        */
+
+        
+
+      }
+
+```
+
+
+Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum</a>
+

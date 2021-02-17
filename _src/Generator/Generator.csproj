@@ -7,8 +7,12 @@
 
   <ItemGroup>
     <None Remove="post.txt" />
+    <None Remove="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="readme.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="post.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -20,5 +24,8 @@
   <ItemGroup>
     <!-- extends watching group to include *.js files -->
     <Watch Include="**\*.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Watch Remove="readme.txt" />
   </ItemGroup>
 </Project>
