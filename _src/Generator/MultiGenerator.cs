@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Generator
@@ -12,7 +13,9 @@ namespace Generator
     {
         string[] generators;
         private readonly string rootPath;
+        private Description[] _AllDescriptions = null;
 
+        
         public MultiGenerator(string root)
         {
             generators = new string[]
@@ -23,19 +26,32 @@ namespace Generator
             };
             this.rootPath = root;
         }
+        private async Task<Description[]> AllDescriptions()
+        {
+            if (_AllDescriptions != null)
+                return _AllDescriptions;
+            var ss = new SemaphoreSlim(1, 1);
+            await ss.WaitAsync();
+            
+            if (_AllDescriptions != null)
+                return _AllDescriptions;
+
+            _AllDescriptions = await Task.WhenAll(generators.Select(async it => await Generate(it)).ToArray());
+            return _AllDescriptions;
+            
+        }
         public async Task GeneratePost()
         {
-            var gen = await Task.WhenAll(generators.Select(async it => await Generate(it)).ToArray());
-
+            var gen = await AllDescriptions();
             var posts = gen.Select(async it => await GeneratePost(it)).ToArray();
 
             await Task.WhenAll(posts);
             
 
         }
-        public async Task GenerateReadMe()
+        public async Task GenerateReadMeForEach()
         {
-            var gen = await Task.WhenAll(generators.Select(async it => await Generate(it)).ToArray());
+            var gen = await AllDescriptions();
 
             var posts = gen.Select(async it => await GenerateReadMe(it)).ToArray();
 
@@ -44,11 +60,19 @@ namespace Generator
 
         }
 
+        public async Task GenerateFrontReadMe()
+        {
+            var gen = await AllDescriptions();
+            var templatePost = await File.ReadAllTextAsync("frontReadme.txt");
+            var templateScriban = Scriban.Template.Parse(templatePost);
+            var output = templateScriban.Render(new { all = gen }, member => member.Name);
+            string readMe = Path.Combine(rootPath,  "readme.md");
+            await File.WriteAllTextAsync(readMe, output);
+
+        }
+
         private async Task<Description> Generate(string rootFolder)
         {
-
-            //string rootPath = @"E:\ignatandrei\RSCG_Examples\";/**/
-
             var folder = Path.Combine(rootPath, rootFolder);
             var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
             var desc = JsonSerializer.Deserialize<Description>(text);

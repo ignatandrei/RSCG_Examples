@@ -12,7 +12,8 @@ namespace Generator
 
             var m = new MultiGenerator(@"E:\ignatandrei\RSCG_Examples\");
             await m.GeneratePost();
-            await m.GenerateReadMe();
+            await m.GenerateReadMeForEach();
+            await m.GenerateFrontReadMe();
 
         }
         

@@ -1,1 +1,5 @@
-# RSCG_Examples
+#RSGC - Roslyn Source Code Generators with examples
+
+
+
+
