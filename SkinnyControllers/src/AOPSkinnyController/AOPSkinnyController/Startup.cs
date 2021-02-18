@@ -1,3 +1,4 @@
+using AOPSkinnyController.Classes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,7 @@ namespace AOPSkinnyController
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AOPSkinnyController", Version = "v1" });
             });
+            services.AddScoped<PersonRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +47,7 @@ namespace AOPSkinnyController
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
