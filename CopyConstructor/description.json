@@ -2,80 +2,61 @@
   "generator": {
    "name": "CopyConstructor + Deconstructor",
    "nuget": ["https://www.nuget.org/packages/AOPMethodsCommon/",
-			 "https://www.nuget.org/packages/AOPMethodsGenerator/"			  
-			],
+                "https://www.nuget.org/packages/AOPMethodsGenerator/"                 
+               ],
    "link": "http://msprogrammer.serviciipeweb.ro/category/roslyn/",  
    "author":"Andrei Ignat"   
   },
   "data":{
-	"goodFor":"This will generate code for a POCO to generate copy constructor and deconstructor",
-	"existingCode":[
-		"[AutoEnum(template = EnumMethod.GenerateExtensionCode)]",
-		"public enum MathematicalOperation",
-		"{",
-			"None=0,",
-			"Add=1,",
-			"Multiplication=2",
-		"}"
-	],
-	"usage":[
-		"var fromInt = enumMathematicalOperation.ParseExactMathematicalOperation(1);",
-		"var fromString = enumMathematicalOperation.ParseExactMathematicalOperation(\"add\");",
-		"Console.WriteLine(fromInt + \"-\"+fromString);"		
-	],
-	"generatedCode":[
-		"  [GeneratedCode(\"AOPMethods\", \"\")] ",
-"  [CompilerGenerated]",
-"  public  static partial class enumMathematicalOperation{ ",
-"   /*",
-"    public static int idMathematicalOperation(){",
-"    System.Diagnostics.Debugger.Break();",
-"    return 1;",
-"    }",
-"    */",
-"    public static RSCG_Enum.MathematicalOperation ParseExactMathematicalOperation(this long value, RSCG_Enum.MathematicalOperation? defaultValue = null){",
-"            if(0 == value)",
-"                return RSCG_Enum.MathematicalOperation.None;",
-"                    if(1 == value)",
-"                return RSCG_Enum.MathematicalOperation.Add;",
-"                    if(2 == value)",
-"                return RSCG_Enum.MathematicalOperation.Multiplication;",
-"        ",
-"        if(defaultValue != null)",
-"            return defaultValue.Value;",
+     "goodFor":"This will generate code for a POCO to generate copy constructor and deconstructor",
+     "existingCode":[
+"[AutoMethods(template = TemplateMethod.CustomTemplateFile, CustomTemplateFileName = \"CopyConstructorDestructor.txt\")]",
+"partial class Person",
+"{",
+"   public string FirstName { get; set; }",
+"   public string LastName { get; set; }",
+"}"
+     ],
+     "usage":[
+          
+"var pOldPerson = new Person();",
+"pOldPerson.FirstName = \"Andrei\";",
+"pOldPerson.LastName = \"Ignat\";",
+"var newPerson = new Person(pOldPerson);",
+"Console.WriteLine(newPerson.FirstName);",
+"var (_, last) = newPerson;",
+"Console.WriteLine(last);"
+          
+     ],
+     "generatedCode":[
+"public Person (){                                                          ",
+"   OnConstructor();",
+"}",
+"public Person(IPerson other):base(){ ",
+"     BeforeCopyConstructor(other);",
+"     CopyPropertiesFrom(other);",
+"     AfterCopyConstructor(other);",
+"          ",
+"}",
+"public void CopyPropertiesFrom(IPerson other){",
 "",
-"        throw new ArgumentException(\"cannot find \" + value +\" for RSCG_Enum.MathematicalOperation  \");",
-"    }",
-"   ",
-"    public static RSCG_Enum.MathematicalOperation ParseExactMathematicalOperation(this string value, RSCG_Enum.MathematicalOperation? defaultValue = null){",
-"        //trying to see if it is a value inside",
-"        //if(!string.IsNullOrWhiteSpace)",
-"        if(long.TryParse(value, out long valueParsed)){",
-"            return ParseExactMathematicalOperation(valueParsed);",
-"        }",
+"     this.FirstName = other.FirstName;            ",
+"     this.LastName = other.LastName;            ",
+"}    ",
 "",
-"            if(0==string.Compare(\"None\" , value, StringComparison.InvariantCultureIgnoreCase))",
-"                return RSCG_Enum.MathematicalOperation.None;",
-"                    if(0==string.Compare(\"Add\" , value, StringComparison.InvariantCultureIgnoreCase))",
-"                return RSCG_Enum.MathematicalOperation.Add;",
-"                    if(0==string.Compare(\"Multiplication\" , value, StringComparison.InvariantCultureIgnoreCase))",
-"                return RSCG_Enum.MathematicalOperation.Multiplication;",
-"        ",
 "",
-"        if(defaultValue != null)",
-"            return defaultValue.Value",
-"        throw new ArgumentException(\"cannot find \" + value +\" for RSCG_Enum.MathematicalOperation  \");",
-"    }",
-"    /*",
-"    ",
-"    */",
-"    ",
-"  }"
-	]
+"",
+" public void Deconstruct( out string FirstName, out string LastName)",
+" {",
+"     FirstName = this.FirstName;            ",
+"     LastName = this.LastName;            ",
+" }"
+
+     ]
   },
   "links":{
-	"blog":"",
-	"video":""
+     "blog":"",
+     "video":""
   }
   
 }

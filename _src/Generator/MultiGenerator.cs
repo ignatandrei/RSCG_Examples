@@ -23,6 +23,7 @@ namespace Generator
                 "ApplicationVersion",
                 "Enum",
                 "JsonToClass",
+                "CopyConstructor"
             };
             this.rootPath = root;
         }

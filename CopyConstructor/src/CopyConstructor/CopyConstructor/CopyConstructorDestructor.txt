@@ -14,10 +14,8 @@ using System.Runtime.CompilerServices;
 namespace {{NamespaceName}} {
 
     public interface I{{ClassName}}{
-     {{~ for pi in Properties ~}}
-         //{{pi.Original.DeclaredAccessibility}} a
-         {{pi.ReturnType}} {{pi.Name}} {get;set;}
-         
+     {{~ for pi in Properties ~}}         
+         {{pi.ReturnType}} {{pi.Name}} {get;set;}         
      {{~ end ~}}
     }
     

@@ -54,5 +54,21 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass
 
 </tr>
 
+<tr>
+<td>4</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor'>CopyConstructor + Deconstructor</a>
+</td>
+
+<td>This will generate code for a POCO to generate copy constructor and deconstructor</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor
+</a>
+</td>
+
+</tr>
+
 </table>
 
