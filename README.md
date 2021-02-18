@@ -78,6 +78,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor
 <tr>
 <td>5</td>
 <td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper'>GeneratedMapper</a>
+</td>
+
+<td>AutoMapping from a POCO to a DTO. Lots of customizations</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper
+</a>
+</td>
+
+</tr>
+
+<tr>
+<td>6</td>
+<td>
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder'>data-builder-generator</a>
 </td>
 

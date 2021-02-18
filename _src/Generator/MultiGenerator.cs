@@ -24,6 +24,7 @@ namespace Generator
                 "Enum",
                 "JsonToClass",
                 "CopyConstructor",
+                "DTOMapper",
                 "DP_Builder"
             };
             this.rootPath = root;
