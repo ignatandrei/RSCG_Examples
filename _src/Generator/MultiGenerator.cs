@@ -23,7 +23,8 @@ namespace Generator
                 "ApplicationVersion",
                 "Enum",
                 "JsonToClass",
-                "CopyConstructor"
+                "CopyConstructor",
+                "DP_Builder"
             };
             this.rootPath = root;
         }

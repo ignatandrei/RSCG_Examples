@@ -1,5 +1,10 @@
 # RSGC - Roslyn Source Code Generators with examples
 
+
+
+## Content
+
+
 <table>
 <tr>
 <td>Nr.</td><td>Name</td><td>Summary</td>
@@ -70,5 +75,29 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor
 
 </tr>
 
+<tr>
+<td>5</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder'>data-builder-generator</a>
+</td>
+
+<td>Implements the Builder Design pattern for any class. Useful , at least, for test projects </td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder
+</a>
+</td>
+
+</tr>
+
 </table>
+
+## Links for Source Generators
+
+https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
+
+https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.cookbook.md
+
+https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 

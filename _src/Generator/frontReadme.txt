@@ -1,4 +1,9 @@
 ﻿# RSGC - Roslyn Source Code Generators with examples
+
+
+
+## Content
+
 {{ index= 0}}
 <table>
 <tr>
@@ -25,4 +30,12 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/{{mi.rootFolder}}
 {{~ end ~}}
 
 </table>
+
+## Links for Source Generators
+
+https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
+
+https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.cookbook.md
+
+https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
