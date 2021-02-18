@@ -20,15 +20,15 @@ namespace DTOMapper
         public int ID { get; set; }
         public string Name{get; set;}
 
-        [MapWith(typeof(Resolver))]
+        [MapWith("Employees",typeof(ResolverLength))]
         public int EmployeesNr { get; set; }
 
     }
-    public class Resolver
+    public class ResolverLength
     {
-        public int Resolve(object input)
+        public int Resolve(List<string> input)
         {
-            return 10;
+            return ((input?.Count) ?? 0);
         }
     }
 
@@ -37,7 +37,10 @@ namespace DTOMapper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var dep = new DepartmentDTO();
+            dep.Name = "IT";
+            dep.ID = 1;
+            //SourceMapToExtensions.
         }
     }
 }
