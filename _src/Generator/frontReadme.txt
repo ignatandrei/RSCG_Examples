@@ -39,3 +39,9 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
+## Helper for see the files
+
+```   
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
+```
