@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AOPMethodsCommon" Version="2021.1.23.1000" />
+    <PackageReference Include="AOPMethodsGenerator" Version="2021.1.23.1000" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="CopyConstructorDestructor.txt" />
+  </ItemGroup>
+
+
+</Project>
