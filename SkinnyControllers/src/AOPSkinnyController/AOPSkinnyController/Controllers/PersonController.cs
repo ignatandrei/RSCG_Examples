@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AOPSkinnyController.Controllers
 {
-    [AutoActions(template = TemplateIndicator.AllPost, CustomTemplateFileName = "Controller.txt", FieldsName = new[] { "*" }, ExcludeFields = new[] { "_logger" })]
+    [AutoActions(template = TemplateIndicator.AllPostWithRecord, CustomTemplateFileName = "Controller.txt", FieldsName = new[] { "*" }, ExcludeFields = new[] { "_logger" })]
     [ApiController]
     [Route("[controller]/[action]")]
     public partial class PersonController : ControllerBase
@@ -21,6 +21,7 @@ namespace AOPSkinnyController.Controllers
         {
             this.pr = pr;
             _logger = logger;
+           
         }
 
     }

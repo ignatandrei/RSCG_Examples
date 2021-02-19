@@ -1,0 +1,64 @@
+{
+  "generator": {
+   "name": "Skinny Controllers",
+   "nuget": ["https://www.nuget.org/packages/SkinnyControllersCommon/",
+			 "https://www.nuget.org/packages/SkinnyControllersGenerator/"			  
+			],
+   "link": "http://msprogrammer.serviciipeweb.ro/category/roslyn/",  
+   "author":"Andrei Ignat"   
+  },
+  "data":{
+	"goodFor":"This will generate code for WebAPI for each method of a field in the controller",
+	"existingCode":[
+	"public class PersonRepository                          ",
+"{",
+"    public async Task<Person> Get(int id)",
+"    {",
+"        await Task.Delay(1000);",
+"        return new Person()",
+"        {",
+"            ID = id,",
+"            Name = \"Andrei \" + id",
+"        };",
+"    }",
+"",
+"    //add more functions here to make the demo",
+"}"
+
+
+	],
+	"usage":[
+		"[AutoActions(template = TemplateIndicator.AllPostWithRecord,  FieldsName = new[] { \"*\" }, ExcludeFields = new[] { \"_logger\" })] ",
+"[ApiController]",
+"[Route(\"[controller]/[action]\")]",
+"public partial class PersonController : ControllerBase",
+"{",
+"    private readonly PersonRepository pr;",
+"    private readonly ILogger<PersonController> _logger;",
+"",
+"    public PersonController(PersonRepository pr, ILogger<PersonController> logger)",
+"    {",
+"        this.pr = pr;",
+"        _logger = logger;",
+"    }",
+"",
+"}"
+	],
+	"generatedCode":[
+		"[HttpPost]                                                                                             ",
+"public System.Threading.Tasks.Task<AOPSkinnyController.Classes.Person> Get( recGet_143266108 data ){",
+"    ",
+"        return ",
+"    ",
+"    pr.Get(data.id);",
+"",
+"}"
+
+	]
+  },
+  "links":{
+	"blog":"",
+	"video":""
+  }
+  
+}

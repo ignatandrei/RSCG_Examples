@@ -94,6 +94,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper
 <tr>
 <td>6</td>
 <td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers'>Skinny Controllers</a>
+</td>
+
+<td>This will generate code for WebAPI for each method of a field in the controller</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers
+</a>
+</td>
+
+</tr>
+
+<tr>
+<td>7</td>
+<td>
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder'>data-builder-generator</a>
 </td>
 
@@ -117,3 +133,9 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
+## Helper for see the files
+
+```   
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
+```

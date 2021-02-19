@@ -25,6 +25,7 @@ namespace Generator
                 "JsonToClass",
                 "CopyConstructor",
                 "DTOMapper",
+                "SkinnyControllers",
                 "DP_Builder"
             };
             this.rootPath = root;
