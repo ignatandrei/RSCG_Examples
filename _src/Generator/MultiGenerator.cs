@@ -26,7 +26,8 @@ namespace Generator
                 "CopyConstructor",
                 "DTOMapper",
                 "SkinnyControllers",
-                "DP_Builder"
+                "DP_Builder",
+                "DynamicMocking"
             };
             this.rootPath = root;
         }

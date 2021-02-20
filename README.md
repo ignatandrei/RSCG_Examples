@@ -123,6 +123,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder
 
 </tr>
 
+<tr>
+<td>8</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking'>MockSourceGenerator</a>
+</td>
+
+<td>This will generate Mock classes directly for any interface - with your implementation.</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking
+</a>
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
