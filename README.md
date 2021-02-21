@@ -126,6 +126,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder
 <tr>
 <td>8</td>
 <td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject'>Metadata from object</a>
+</td>
+
+<td>This will generate code to retrieve the values of properties directly, not by reflection</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject
+</a>
+</td>
+
+</tr>
+
+<tr>
+<td>9</td>
+<td>
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking'>MockSourceGenerator</a>
 </td>
 

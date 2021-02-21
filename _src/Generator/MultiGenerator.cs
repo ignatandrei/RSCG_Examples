@@ -27,6 +27,7 @@ namespace Generator
                 "DTOMapper",
                 "SkinnyControllers",
                 "DP_Builder",
+                "MetadataFromObject",
                 "DynamicMocking"
             };
             this.rootPath = root;
