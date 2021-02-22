@@ -1,5 +1,6 @@
 ﻿using AOPMethodsCommon;
 using System;
+using System.Diagnostics;
 using System.Threading.Tasks;
 
 namespace MethodDecorator
@@ -15,12 +16,17 @@ namespace MethodDecorator
             return FirstName + " " + LastName;
         }
 
-        private Task prvDelay(int minValue)
-        {
+        //private Task prvDelay(int minValue)
+        //{
 
-            var waitMin = Task.Delay(Math.Abs(minValue));
-            return waitMin;
-        }
+        //    var waitMin = Task.Delay(Math.Abs(minValue));
+        //    return waitMin;
+        //}
+        //private Task prvDelayFix()
+        //{
+
+        //    return prvDelay(1000);
+        //}
 
     }
     class Program
@@ -31,8 +37,7 @@ namespace MethodDecorator
             p.FirstName = "Andrei";
             p.LastName = "Ignat";
             Console.WriteLine(p.FullName());
-            Console.ReadKey();
-            await Task.WhenAll( p.Delay(10000),p.Delay(5000));
+            //await Task.WhenAll( p.DelayFix(),p.Delay(5000));
         }
     }
 }

@@ -40,7 +40,7 @@ namespace {{NamespaceName}} {
         [CallerMemberName] string memberName = "",
         [CallerFilePath] string sourceFilePath = "",
         [CallerLineNumber] int sourceLineNumber = 0){
-            var sw=new Stopwatch();
+            var sw=Stopwatch.StartNew();
             try{
                 Console.WriteLine("--{{mi.Name}} start ");
                 Console.WriteLine("called from class :"+memberName );
