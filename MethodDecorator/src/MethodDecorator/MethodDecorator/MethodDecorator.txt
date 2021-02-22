@@ -21,7 +21,7 @@ namespace {{NamespaceName}} {
 
             strAwait = ""
             strAsync =""
-            if mi.ShouldUseAsync == true
+            if mi.CouldUseAsync == true
                 strAwait = " await "
                 strAsync  = " async "
             end
@@ -30,7 +30,7 @@ namespace {{NamespaceName}} {
                 separator = "," 
             end
             returnString = ""
-            if mi.ReturnsVoid == false 
+            if mi.CouldReturnVoidFromAsync == false 
                 returnString = " return "
             end
             }}

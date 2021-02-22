@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AOPMethodsCommon" Version="2021.2.22.1125" />
-    <PackageReference Include="AOPMethodsGenerator" Version="2021.2.22.1125" />
+    <PackageReference Include="AOPMethodsCommon" Version="2021.2.22.1941" />
+    <PackageReference Include="AOPMethodsGenerator" Version="2021.2.22.1941" />
   </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="MethodDecorator.txt" />
