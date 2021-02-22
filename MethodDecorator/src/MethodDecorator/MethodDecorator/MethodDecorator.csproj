@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AOPMethodsCommon" Version="2021.2.22.1125" />
+    <PackageReference Include="AOPMethodsGenerator" Version="2021.2.22.1125" />
+  </ItemGroup>
+  <ItemGroup>
+    <AdditionalFiles Include="MethodDecorator.txt" />
+    </ItemGroup>
+
+</Project>
