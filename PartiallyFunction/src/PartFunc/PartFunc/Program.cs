@@ -2,25 +2,22 @@
 
 namespace PartFunc
 {
-    public class Operations
+    public class Accounting
     {
-        public static int Add(int x, int y)
+        public static float Discount( float discount, float price)
         {
-            return x + y;
-        }
-        public static  int Multiply(int x, int y)
-        {
-            return x * y;
+            var val= price * (1- discount);
+            return val;
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            var add1 = Partially.Apply(Operations.Add, 1);
-            var m2 = Partially.Apply(Operations.Multiply, 2);
-            Console.WriteLine(m2(add1(10)));
-            Console.WriteLine(add1(m2(10)));
+            
+            var disc10Percent = Partially.Apply(Accounting.Discount, 1/10f);
+            Console.WriteLine(disc10Percent(disc10Percent(100)));
+            
         }
     }
 }
