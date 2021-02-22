@@ -1,0 +1,39 @@
+{
+  "generator": {
+   "name": "PartiallyApplied",
+   "nuget": ["https://www.nuget.org/packages/PartiallyApplied/"],
+   "link": "https://github.com/JasonBock/PartiallyApplied",  
+   "author":"Andrei Ignat"   
+  },
+  "data":{
+       "goodFor":"This will generate curry for your functions ",
+       "existingCode":[
+              "public class Accounting                                            ",
+"{",
+"    public static float Discount( float discount, float price)",
+"    {",
+"        var val= price * (1- discount);",
+"        return val;",
+"    }",
+"}"
+       ],
+       "usage":[
+
+"var disc10Percent = Partially.Apply(Accounting.Discount, 1/10f);",
+"Console.WriteLine(disc10Percent(disc10Percent(100)));"
+],
+       "generatedCode":[
+       "public static partial class Partially",
+"{",
+"       public static Func<float, float> Apply(Func<float, float, float> method, float discount) =>",
+"              new((price) => method(discount, price));",
+"}"
+       
+       ]
+  },
+  "links":{
+       "blog":"",
+       "video":""
+  }
+  
+}

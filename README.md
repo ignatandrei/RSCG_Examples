@@ -171,6 +171,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator
 
 </tr>
 
+<tr>
+<td>11</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction'>PartiallyApplied</a>
+</td>
+
+<td>This will generate curry for your functions </td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction
+</a>
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators

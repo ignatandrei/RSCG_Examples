@@ -29,7 +29,8 @@ namespace Generator
                 "DP_Builder",
                 "MetadataFromObject",
                 "DynamicMocking",
-                "MethodDecorator"
+                "MethodDecorator",
+                "PartiallyFunction"
             };
             this.rootPath = root;
         }
