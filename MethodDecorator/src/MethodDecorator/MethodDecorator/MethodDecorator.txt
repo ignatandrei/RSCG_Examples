@@ -34,7 +34,6 @@ namespace {{NamespaceName}} {
                 returnString = " return "
             end
             }}
-            //{{mi.ShouldUseAsync }}
         public {{strAsync}} {{mi.ReturnType}} {{mi.NewName}} ({{mi.parametersDefinitionCSharp }}
             {{separator}}  
         [CallerMemberName] string memberName = "",

@@ -28,7 +28,8 @@ namespace Generator
                 "SkinnyControllers",
                 "DP_Builder",
                 "MetadataFromObject",
-                "DynamicMocking"
+                "DynamicMocking",
+                "MethodDecorator"
             };
             this.rootPath = root;
         }

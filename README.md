@@ -155,6 +155,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking
 
 </tr>
 
+<tr>
+<td>10</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator'>Method decorator</a>
+</td>
+
+<td>This will generate code to decorate methods with anything you want ( stopwatch, logging , authorization...)</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator
+</a>
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
