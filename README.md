@@ -203,6 +203,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable
 
 </tr>
 
+<tr>
+<td>13</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator'>AutoInterface</a>
+</td>
+
+<td>Implement the Design Pattern Decorator. Based on template - you can modify the source code generated</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator
+</a>
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators

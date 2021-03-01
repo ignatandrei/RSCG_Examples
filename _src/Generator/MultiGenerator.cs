@@ -31,7 +31,8 @@ namespace Generator
                 "DynamicMocking",
                 "MethodDecorator",
                 "PartiallyFunction",
-                "IFormattable"
+                "IFormattable",
+                "DP_Decorator"
             };
             this.rootPath = root;
         }
