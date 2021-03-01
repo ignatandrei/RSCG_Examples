@@ -4,15 +4,15 @@ namespace DP_Decorator
 {
     public interface ICoffee
     {
-        public int Price { get; set; }
-        public string Description { get; set; }
+        public int Price { get; }
+        public string Description { get; }
     }
 
     public class SimpleCoffee : ICoffee
     {
         public SimpleCoffee()
         {
-            Price = 1;
+            Price = 3;
             Description = "Simple Coffee";
         }
         public int Price { get; set; }
@@ -43,8 +43,10 @@ namespace DP_Decorator
    get
    {
         {{ if property.name == 'Description'}}
-            var name = this.GetType().Name;
+            var name = this.GetType().Name.Replace(""Decorator"","""");
             return (({{interface}})this.{{references[0]}}).{{property.name}} + "" with "" + name;
+        {{else if property.name == 'Price'}}
+            return (({{interface}})this.{{references[0]}}).{{property.name}} + DecoratorPrice;
         {{else}}
           return (({{interface}})this.{{references[0]}}).{{property.name}};
         {{end}}
@@ -118,6 +120,7 @@ event {{event.type}} {{interface}}.{{event.name}}
         [BeaKona.AutoInterface(TemplateLanguage = "scriban", TemplateBody = SimpleCoffee.TemplateCoffeeDecorator)]
         private readonly ICoffee coffee;
 
+        public int DecoratorPrice { get; set; } = 1;
         public MilkDecorator(ICoffee coffee)
         {
             this.coffee = coffee;
@@ -132,6 +135,7 @@ event {{event.type}} {{interface}}.{{event.name}}
         [BeaKona.AutoInterface(TemplateLanguage = "scriban", TemplateBody = SimpleCoffee.TemplateCoffeeDecorator)]
         private readonly ICoffee coffee;
 
+        public int DecoratorPrice { get; set; } = 2;
         public ChocoDecorator(ICoffee coffee)
         {
             this.coffee = coffee;
@@ -145,11 +149,11 @@ event {{event.type}} {{interface}}.{{event.name}}
         static void Main(string[] args)
         {
             SimpleCoffee s = new SimpleCoffee();
-            Console.WriteLine(s.Description);
+            Console.WriteLine($"{s.Description} with Price {s.Price}");
             ICoffee withMilk = new MilkDecorator(s);
-            Console.WriteLine(withMilk.Description);
-            ICoffee withMilkAndChocok = new ChocoDecorator(withMilk);
-            Console.WriteLine(withMilkAndChocok.Description);
+            Console.WriteLine($"{withMilk.Description} Price {withMilk.Price}");
+            ICoffee withMilkAndChoco = new ChocoDecorator(withMilk);
+            Console.WriteLine($"{withMilkAndChoco.Description} Price {withMilkAndChoco.Price}");
 
         }
 
