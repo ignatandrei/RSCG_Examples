@@ -17,6 +17,7 @@ namespace DP_Decorator
         }
         public int Price { get; set; }
         public string Description { get; set; }
+        //alternate implementation at https://github.com/beakona/AutoInterface/issues/1#issuecomment-787963310
         public const string TemplateCoffeeDecorator = @"
 {{~for method in methods~}}
 {{method.is_async?""async "":""""}}{{method.return_type}} {{interface}}.{{method.name}}({{method.arguments_definition}})
