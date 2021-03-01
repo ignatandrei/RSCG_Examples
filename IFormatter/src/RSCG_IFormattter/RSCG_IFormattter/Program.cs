@@ -3,6 +3,8 @@ using System;
 
 namespace RSCG_IFormattter
 {
+    //adapted from https://haacked.com/archive/2009/01/14/named-formats-redux.aspx/
+
     [AutoMethods(CustomTemplateFileName = "CreateFormattable.txt", template = TemplateMethod.CustomTemplateFile)]
     partial class Department
     {
