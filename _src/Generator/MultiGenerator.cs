@@ -30,7 +30,8 @@ namespace Generator
                 "MetadataFromObject",
                 "DynamicMocking",
                 "MethodDecorator",
-                "PartiallyFunction"
+                "PartiallyFunction",
+                "IFormattable"
             };
             this.rootPath = root;
         }

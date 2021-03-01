@@ -187,6 +187,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction
 
 </tr>
 
+<tr>
+<td>12</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable'>IFormattable</a>
+</td>
+
+<td>This will generate code to add IFormattable to any class, based on the properties of the class</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable
+</a>
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
