@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BeaKona.AutoInterfaceGenerator" Version="1.0.9-preiew" />
+  </ItemGroup>
+
 </Project>
