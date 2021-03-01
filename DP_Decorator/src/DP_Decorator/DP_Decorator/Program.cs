@@ -2,45 +2,22 @@
 
 namespace DP_Decorator
 {
-        public interface ICoffee
+    public interface ICoffee
+    {
+        public int Price { get; set; }
+        public string Description { get; set; }
+    }
+
+    public class SimpleCoffee : ICoffee
+    {
+        public SimpleCoffee()
         {
-            public int Price { get; set; }
-            public string Description { get; set; }
+            Price = 1;
+            Description = "Simple Coffee";
         }
-        
-        public class SimpleCoffee : ICoffee
-        {
-            public SimpleCoffee()
-            {
-                Price = 1;
-                Description = "Simple";
-            }
-            public int Price { get ; set ; }
-            public string Description { get ; set ; }
-        }
-        public class EspressoCoffee : ICoffee
-        {
-            public EspressoCoffee()
-            {
-                Price = 2;
-                Description = "Espresson";
-            }
-            public int Price { get; set; }
-            public string Description { get; set; }
-        }
-
-
-        public partial class MilkDecorator: ICoffee
-        {
-            [BeaKona.AutoInterface(TemplateLanguage = "scriban", TemplateBody = TemplateBody)]
-            private readonly ICoffee coffee;
-
-            public MilkDecorator(ICoffee coffee)
-            {
-                this.coffee = coffee;
-            }
-
-            const string TemplateBody = @"
+        public int Price { get; set; }
+        public string Description { get; set; }
+        public const string TemplateCoffeeDecorator = @"
 {{~for method in methods~}}
 {{method.is_async?""async "":""""}}{{method.return_type}} {{interface}}.{{method.name}}({{method.arguments_definition}})
 {
@@ -123,19 +100,45 @@ event {{event.type}} {{interface}}.{{event.name}}
 
 {{~end~}}
 ";
-
+    }
+    public class EspressoCoffee : ICoffee
+    {
+        public EspressoCoffee()
+        {
+            Price = 2;
+            Description = "Espresson";
         }
-    //public class MilkDecorator : ICoffee
-    //{
-    //    private readonly ICoffee coffee;
-
-    //    public MilkDecorator(ICoffee coffee)
-    //    {
-    //        this.coffee = coffee;
-    //    }
+        public int Price { get; set; }
+        public string Description { get; set; }
+    }
 
 
-    //}
+    public partial class MilkDecorator : ICoffee
+    {
+        [BeaKona.AutoInterface(TemplateLanguage = "scriban", TemplateBody = SimpleCoffee.TemplateCoffeeDecorator)]
+        private readonly ICoffee coffee;
+
+        public MilkDecorator(ICoffee coffee)
+        {
+            this.coffee = coffee;
+        }
+
+
+
+    }
+
+    public partial class ChocoDecorator : ICoffee
+    {
+        [BeaKona.AutoInterface(TemplateLanguage = "scriban", TemplateBody = SimpleCoffee.TemplateCoffeeDecorator)]
+        private readonly ICoffee coffee;
+
+        public ChocoDecorator(ICoffee coffee)
+        {
+            this.coffee = coffee;
+        }
+
+
+    }
     class Program
     {
 
@@ -143,9 +146,12 @@ event {{event.type}} {{interface}}.{{event.name}}
         {
             SimpleCoffee s = new SimpleCoffee();
             Console.WriteLine(s.Description);
-            ICoffee m = new MilkDecorator(s);
-            Console.WriteLine(m.Description);
+            ICoffee withMilk = new MilkDecorator(s);
+            Console.WriteLine(withMilk.Description);
+            ICoffee withMilkAndChocok = new ChocoDecorator(withMilk);
+            Console.WriteLine(withMilkAndChocok.Description);
+
         }
-        
+
     }
 }
