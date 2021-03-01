@@ -32,6 +32,8 @@ namespace {{NamespaceName}} {
             {{~ end ~}}
             throw new ArgumentException("cannot find "+ val);
         }
+        
+        //adapted from https://haacked.com/archive/2009/01/14/named-formats-redux.aspx/
         private object Eval(string expression,IFormatProvider formatProvider)
         {
             if (expression.Contains("."))
