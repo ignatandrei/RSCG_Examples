@@ -27,7 +27,12 @@ namespace {{NamespaceName}} {
         {{
             isNumeric =((pi.ReturnType  ==  "short?" ) || (pi.ReturnType  ==  "short" ) || (pi.ReturnType  ==  "System.DateTime?" ) || (pi.ReturnType  ==  "System.DateTime" ) || (pi.ReturnType  ==  "int?" ) || (pi.ReturnType  ==  "int" ) || (pi.ReturnType  ==  "long")|| (pi.ReturnType  ==  "long?") )
             isString = (pi.ReturnType  ==  "string")
+            isNullable = isString || (string.contains pi.ReturnType "?" );
+            
         }}
+        {{ if isNullable  }}  
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_null()=> (it=>it.{{pi.Name}} == null);            
+        {{ end }}
         {{ if isString }}   
 
         public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Ends({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}}.StartsWith (value));

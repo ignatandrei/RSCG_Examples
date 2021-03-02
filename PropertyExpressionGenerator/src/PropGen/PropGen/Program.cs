@@ -49,14 +49,19 @@ namespace PropGen
                 cnt.Person.Add(p);
             }
             await cnt.SaveChangesAsync();
-            var s = Metadata_Person.expr_FirstName_Contains("asd");
 
+            
             var queryCnt = Metadata_Person.expr_FirstName_Contains("9");
             var p9 = await cnt.Person.Where(queryCnt).ToArrayAsync();
             Console.WriteLine(p9.Length);
+            
             var queryID = Metadata_Person.expr_ID_equal(7);
             var pId = await cnt.Person.FirstOrDefaultAsync(queryID);
             Console.WriteLine(pId.FirstName);
+
+            var nullBirthDateQuery = Metadata_Person.expr_DateOfBirth_null();
+            var birthNull = await cnt.Person.Where(nullBirthDateQuery).ToArrayAsync();
+            Console.WriteLine(birthNull.Length);
             //var p = new PersonList();
             //var q = p.Where(s.Compile());
         }
