@@ -22,8 +22,8 @@ namespace {{NamespaceName}} {
         //public const string prop_{{pi.Name}} = "{{pi.Name}}";    
         //public static readonly Func<{{ClassName}},{{retType}}> func_{{pi.Name}} = (it=>it.{{pi.Name}});
         //public static readonly Expression<Func<{{ClassName}},{{retType}}>> expr_{{pi.Name}} = (it=>it.{{pi.Name}});
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_equal({{retType}} value)=> (it=>it.{{pi.Name}} == value);
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_diff({{retType}} value)=> (it=>it.{{pi.Name}} != value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Equal({{retType}} value)=> (it=>it.{{pi.Name}} == value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Diff({{retType}} value)=> (it=>it.{{pi.Name}} != value);
         public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Contains(params {{retType}}[] value)=> (it=> value.Contains(it.{{pi.Name}}) );
         
         //{{retType}}
@@ -58,13 +58,23 @@ namespace {{NamespaceName}} {
 
         public static Expression<Func<{{ClassName}},bool>> FindEx(string nameProp, SearchCriteria search, object value)
         {
+            
+            {{~ for pi in Properties ~}}
+            {{ retType = pi.ReturnType }}
+            if(string.Compare("{{pi.Name}}",nameProp,StringComparison.CurrentCultureIgnoreCase) == 0)
             switch(search){
                 case SearchCriteria.None:
                     return null;
+                case SearchCriteria.Equal:
+                    var orig= ({{pi.ReturnType}}) value;
+                    return expr_{{pi.Name}}_Equal(orig);
                 default:
-                    throw new ArgumentException("cannot find case for "+search);
+                    throw new ArgumentException("cannot find for {{ pi.Name }} case  "+search);
             }
-            return null;
+            
+            {{end}}
+            throw new ArgumentException("cannot find property  "+nameProp);
+            
         }
 
     }

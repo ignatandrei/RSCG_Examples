@@ -66,7 +66,7 @@ namespace PropGen
             Console.WriteLine(pers.Length);
 
 
-            var queryID = Metadata_Person.expr_ID_equal(7);
+            var queryID = Metadata_Person.expr_ID_Equal(7);
             var pId = await cnt.Person.FirstOrDefaultAsync(queryID);
             Console.WriteLine(pId.FirstName);
 
@@ -79,8 +79,11 @@ namespace PropGen
             var nullBirthDateQuery = Metadata_Person.expr_DateOfBirth_null();
             var birthNull = await cnt.Person.Where(nullBirthDateQuery).ToArrayAsync();
             Console.WriteLine(birthNull.Length);
+            
+            var query = Metadata_Person.FindEx("ID", SearchCriteria.Equal, 99);
+            pers = await cnt.Person.Where(query).ToArrayAsync();
+            Console.WriteLine(pers.Length);
 
-            var query = Metadata_Person.FindEx("FirstName", SearchCriteria.Contains, "99");
 
         }
     }
