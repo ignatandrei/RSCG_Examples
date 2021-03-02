@@ -56,8 +56,14 @@ namespace {{NamespaceName}} {
         
         {{end}}
 
-        public static Expression<Func<{{ClassName}},bool>> FindEx(string nameProp, SearchCriteria s, object value)
+        public static Expression<Func<{{ClassName}},bool>> FindEx(string nameProp, SearchCriteria search, object value)
         {
+            switch(search){
+                case SearchCriteria.None:
+                    return null;
+                default:
+                    throw new ArgumentException("cannot find case for "+search);
+            }
             return null;
         }
 
