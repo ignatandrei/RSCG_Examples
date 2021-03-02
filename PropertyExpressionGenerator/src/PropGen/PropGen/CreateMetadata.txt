@@ -17,17 +17,18 @@ namespace {{NamespaceName}} {
     public partial class Metadata_{{ClassName}}{
     
         {{~ for pi in Properties ~}}
+        {{ retType = pi.ReturnType }}
         public const string prop_{{pi.Name}} = "{{pi.Name}}";    
-        public static readonly Func<{{ClassName}},{{pi.ReturnType}}> func_{{pi.Name}} = (it=>it.{{pi.Name}});
-        public static readonly Expression<Func<{{ClassName}},{{pi.ReturnType}}>> expr_{{pi.Name}} = (it=>it.{{pi.Name}});
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_equal({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}} == value);
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_diff({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}} != value);
-        //{{pi.ReturnType}}
+        public static readonly Func<{{ClassName}},{{retType}}> func_{{pi.Name}} = (it=>it.{{pi.Name}});
+        public static readonly Expression<Func<{{ClassName}},{{retType}}>> expr_{{pi.Name}} = (it=>it.{{pi.Name}});
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_equal({{retType}} value)=> (it=>it.{{pi.Name}} == value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_diff({{retType}} value)=> (it=>it.{{pi.Name}} != value);
+        //{{retType}}
         
         {{
-            isNumeric =((pi.ReturnType  ==  "short?" ) || (pi.ReturnType  ==  "short" ) || (pi.ReturnType  ==  "System.DateTime?" ) || (pi.ReturnType  ==  "System.DateTime" ) || (pi.ReturnType  ==  "int?" ) || (pi.ReturnType  ==  "int" ) || (pi.ReturnType  ==  "long")|| (pi.ReturnType  ==  "long?") )
-            isString = (pi.ReturnType  ==  "string")
-            isNullable = isString || (string.contains pi.ReturnType "?" );
+            isNumeric =((retType  ==  "short?" ) || (retType  ==  "short" ) || (retType  ==  "System.DateTime?" ) || (retType  ==  "System.DateTime" ) || (retType  ==  "int?" ) || (retType  ==  "int" ) || (retType  ==  "long")|| (retType  ==  "long?") )
+            isString = (retType  ==  "string")
+            isNullable = isString || (string.contains retType "?" );
             
         }}
         {{ if isNullable  }}  
@@ -35,16 +36,18 @@ namespace {{NamespaceName}} {
         {{ end }}
         {{ if isString }}   
 
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Ends({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}}.StartsWith (value));
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Starts({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}}.EndsWith(value));
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Contains({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}}.Contains(value));    
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_NullOrWhite()=> (it=>string.IsNullOrWhiteSpace(it.{{pi.Name}}));
+
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Ends({{retType}} value)=> (it=>it.{{pi.Name}}.StartsWith (value));
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Starts({{retType}} value)=> (it=>it.{{pi.Name}}.EndsWith(value));
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Contains({{retType}} value)=> (it=>it.{{pi.Name}}.Contains(value));    
         {{ end }}
         
         {{ if isNumeric  }}   
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Greater({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}} > value);
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_GreaterOrEqual({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}} >= value);
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Less({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}} < value);
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_LessOrEqual({{pi.ReturnType}} value)=> (it=>it.{{pi.Name}} <= value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Greater({{retType}} value)=> (it=>it.{{pi.Name}} > value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_GreaterOrEqual({{retType}} value)=> (it=>it.{{pi.Name}} >= value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Less({{retType}} value)=> (it=>it.{{pi.Name}} < value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_LessOrEqual({{retType}} value)=> (it=>it.{{pi.Name}} <= value);
         {{ end }}
         
         {{end}}

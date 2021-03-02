@@ -52,9 +52,15 @@ namespace PropGen
 
             
             var queryCnt = Metadata_Person.expr_FirstName_Contains("9");
-            var p9 = await cnt.Person.Where(queryCnt).ToArrayAsync();
-            Console.WriteLine(p9.Length);
-            
+            var pers= await cnt.Person.Where(queryCnt).ToArrayAsync();
+            Console.WriteLine(pers.Length);
+
+
+            queryCnt = Metadata_Person.expr_LastName_NullOrWhite();
+            pers = await cnt.Person.Where(queryCnt).ToArrayAsync();
+            Console.WriteLine(pers.Length);
+
+
             var queryID = Metadata_Person.expr_ID_equal(7);
             var pId = await cnt.Person.FirstOrDefaultAsync(queryID);
             Console.WriteLine(pId.FirstName);
