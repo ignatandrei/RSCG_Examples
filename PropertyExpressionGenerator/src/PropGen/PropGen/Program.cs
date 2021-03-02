@@ -24,13 +24,6 @@ namespace PropGen
 
 
     }
-    public class PersonList : List<Person>
-    {
-        public Expression<Func<Person,bool>> FindEx(string nameProp, SearchCriteria s, object value)
-        {
-            return null;
-        }
-    }
     class Program
     {
         static async Task Main(string[] args)
@@ -76,7 +69,7 @@ namespace PropGen
             Console.WriteLine(pers.Length);
 
 
-            var nullBirthDateQuery = Metadata_Person.expr_DateOfBirth_null();
+            var nullBirthDateQuery = Metadata_Person.expr_DateOfBirth_Null();
             var birthNull = await cnt.Person.Where(nullBirthDateQuery).ToArrayAsync();
             Console.WriteLine(birthNull.Length);
             
@@ -84,6 +77,9 @@ namespace PropGen
             pers = await cnt.Person.Where(query).ToArrayAsync();
             Console.WriteLine(pers.Length);
 
+            query = Metadata_Person.FindEx("DateOfBirth", SearchCriteria.FindNull);
+            pers = await cnt.Person.Where(query).ToArrayAsync();
+            Console.WriteLine(pers.Length);
 
         }
     }

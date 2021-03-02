@@ -19,6 +19,12 @@ namespace {{NamespaceName}} {
     
         {{~ for pi in Properties ~}}
         {{ retType = pi.ReturnType }}
+        {{
+            isNumeric =((retType  ==  "short?" ) || (retType  ==  "short" ) || (retType  ==  "System.DateTime?" ) || (retType  ==  "System.DateTime" ) || (retType  ==  "int?" ) || (retType  ==  "int" ) || (retType  ==  "long")|| (retType  ==  "long?") )
+            isString = (retType  ==  "string")
+            isNullable = isString || (string.contains retType "?" );
+            
+        }}
         //public const string prop_{{pi.Name}} = "{{pi.Name}}";    
         //public static readonly Func<{{ClassName}},{{retType}}> func_{{pi.Name}} = (it=>it.{{pi.Name}});
         //public static readonly Expression<Func<{{ClassName}},{{retType}}>> expr_{{pi.Name}} = (it=>it.{{pi.Name}});
@@ -28,14 +34,9 @@ namespace {{NamespaceName}} {
         
         //{{retType}}
         
-        {{
-            isNumeric =((retType  ==  "short?" ) || (retType  ==  "short" ) || (retType  ==  "System.DateTime?" ) || (retType  ==  "System.DateTime" ) || (retType  ==  "int?" ) || (retType  ==  "int" ) || (retType  ==  "long")|| (retType  ==  "long?") )
-            isString = (retType  ==  "string")
-            isNullable = isString || (string.contains retType "?" );
-            
-        }}
+        
         {{ if isNullable  }}  
-        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_null()=> (it=>it.{{pi.Name}} == null);            
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Null()=> (it=>it.{{pi.Name}} == null);            
         {{ end }}
         {{ if isString }}   
         
@@ -56,15 +57,25 @@ namespace {{NamespaceName}} {
         
         {{end}}
 
-        public static Expression<Func<{{ClassName}},bool>> FindEx(string nameProp, SearchCriteria search, object value)
+        public static Expression<Func<{{ClassName}},bool>> FindEx(string nameProp, SearchCriteria search, object value = null)
         {
             
             {{~ for pi in Properties ~}}
             {{ retType = pi.ReturnType }}
+            {{
+                isNumeric =((retType  ==  "short?" ) || (retType  ==  "short" ) || (retType  ==  "System.DateTime?" ) || (retType  ==  "System.DateTime" ) || (retType  ==  "int?" ) || (retType  ==  "int" ) || (retType  ==  "long")|| (retType  ==  "long?") )
+                isString = (retType  ==  "string")
+                isNullable = isString || (string.contains retType "?" );
+            
+            }}
             if(string.Compare("{{pi.Name}}",nameProp,StringComparison.CurrentCultureIgnoreCase) == 0)
             switch(search){
                 case SearchCriteria.None:
                     return null;
+                {{ if isNullable }}
+                case SearchCriteria.FindNull:
+                    return expr_{{pi.Name}}_Null();
+                {{ end }}
                 case SearchCriteria.Equal:
                     var orig= ({{pi.ReturnType}}) value;
                     return expr_{{pi.Name}}_Equal(orig);
