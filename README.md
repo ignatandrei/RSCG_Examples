@@ -219,6 +219,22 @@ https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator
 
 </tr>
 
+<tr>
+<td>14</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator'>IFormattable</a>
+</td>
+
+<td>This will generate code to add function to be used with Entity Framework to search for any property of a class</td>
+
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator'>
+https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator
+</a>
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
