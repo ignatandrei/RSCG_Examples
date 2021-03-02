@@ -78,9 +78,11 @@ namespace PropGen
             Console.WriteLine(pers.Length);
 
             query = Metadata_Person.FindEx("DateOfBirth", SearchCriteria.FindNull);
+            //var p1 = Expression<Person>.Lambda(query, queryID);
             pers = await cnt.Person.Where(query).ToArrayAsync();
             Console.WriteLine(pers.Length);
 
+            
         }
     }
 }
