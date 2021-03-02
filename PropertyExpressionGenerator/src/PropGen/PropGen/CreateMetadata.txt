@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.CodeDom.Compiler;
 using System.Runtime.CompilerServices;
 using System.Linq.Expressions;
+using System.Linq;
 namespace {{NamespaceName}} {
 
     [CompilerGenerated]
@@ -18,11 +19,13 @@ namespace {{NamespaceName}} {
     
         {{~ for pi in Properties ~}}
         {{ retType = pi.ReturnType }}
-        public const string prop_{{pi.Name}} = "{{pi.Name}}";    
-        public static readonly Func<{{ClassName}},{{retType}}> func_{{pi.Name}} = (it=>it.{{pi.Name}});
-        public static readonly Expression<Func<{{ClassName}},{{retType}}>> expr_{{pi.Name}} = (it=>it.{{pi.Name}});
+        //public const string prop_{{pi.Name}} = "{{pi.Name}}";    
+        //public static readonly Func<{{ClassName}},{{retType}}> func_{{pi.Name}} = (it=>it.{{pi.Name}});
+        //public static readonly Expression<Func<{{ClassName}},{{retType}}>> expr_{{pi.Name}} = (it=>it.{{pi.Name}});
         public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_equal({{retType}} value)=> (it=>it.{{pi.Name}} == value);
         public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_diff({{retType}} value)=> (it=>it.{{pi.Name}} != value);
+        public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_Contains(params {{retType}}[] value)=> (it=> value.Contains(it.{{pi.Name}}) );
+        
         //{{retType}}
         
         {{
@@ -35,6 +38,7 @@ namespace {{NamespaceName}} {
         public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_null()=> (it=>it.{{pi.Name}} == null);            
         {{ end }}
         {{ if isString }}   
+        
 
         public static Expression<Func<{{ClassName}},bool>> expr_{{pi.Name}}_NullOrWhite()=> (it=>string.IsNullOrWhiteSpace(it.{{pi.Name}}));
 
@@ -51,6 +55,12 @@ namespace {{NamespaceName}} {
         {{ end }}
         
         {{end}}
+
+        public static Expression<Func<{{ClassName}},bool>> FindEx(string nameProp, SearchCriteria s, object value)
+        {
+            return null;
+        }
+
     }
 
 }

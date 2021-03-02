@@ -19,8 +19,12 @@ namespace PropGen
 
         public DateTime? DateOfBirth {get;set;}
 
+        public static Expression<Func<Person, bool>> expr_LastName_Contains(string[] value) => (it => value.Contains(it.LastName));
+
+
+
     }
-        public class PersonList : List<Person>
+    public class PersonList : List<Person>
     {
         public Expression<Func<Person,bool>> FindEx(string nameProp, SearchCriteria s, object value)
         {
@@ -51,6 +55,7 @@ namespace PropGen
             await cnt.SaveChangesAsync();
 
             
+
             var queryCnt = Metadata_Person.expr_FirstName_Contains("9");
             var pers= await cnt.Person.Where(queryCnt).ToArrayAsync();
             Console.WriteLine(pers.Length);
@@ -65,11 +70,18 @@ namespace PropGen
             var pId = await cnt.Person.FirstOrDefaultAsync(queryID);
             Console.WriteLine(pId.FirstName);
 
+
+            queryID = Metadata_Person.expr_ID_Contains(7,9);
+            pers = await cnt.Person.Where(queryID).ToArrayAsync();
+            Console.WriteLine(pers.Length);
+
+
             var nullBirthDateQuery = Metadata_Person.expr_DateOfBirth_null();
             var birthNull = await cnt.Person.Where(nullBirthDateQuery).ToArrayAsync();
             Console.WriteLine(birthNull.Length);
-            //var p = new PersonList();
-            //var q = p.Where(s.Compile());
+
+            var query = Metadata_Person.FindEx("FirstName", SearchCriteria.Contains, "99");
+
         }
     }
 }
