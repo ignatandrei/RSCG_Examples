@@ -1,6 +1,6 @@
 {
   "generator": {
-   "name": "IFormattable",
+   "name": "Property Expression Generator",
    "nuget": ["https://www.nuget.org/packages/AOPMethodsCommon/",
 			 "https://www.nuget.org/packages/AOPMethodsGenerator/"			  
 			],

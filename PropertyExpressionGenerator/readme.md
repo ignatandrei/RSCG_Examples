@@ -1,4 +1,4 @@
-# RSGC Name: IFormattable
+# RSGC Name: Property Expression Generator
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/
