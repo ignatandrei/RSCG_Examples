@@ -2,7 +2,7 @@
 
 ## What is a Roslyn Source Code Generator
 
-A Roslyn Source Code Generator (RSGC ) is a program that generates code in the compile time, based on the previous source code and/or another data . This new source code is added to teh compilation and compile with the previous source code.
+A Roslyn Source Code Generator (RSCG ) is a program that generates code in the compile time, based on the previous source code and/or another data . This new source code is added to teh compilation and compile with the previous source code.
 
 ## How can I make a Roslyn Source Code Generator
 
