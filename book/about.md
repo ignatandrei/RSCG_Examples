@@ -21,6 +21,13 @@ For each chapter, you will find
 6.  Link to the downloadable code to practice
 
 
-## I have a suggestion for a new RGSC that is worth mentioning in this book . What can I do ? 
+## I have a suggestion for a new RSCG that is worth mentioning in this book . What can I do ? 
 
 Please send me an email to ignatandrei@yahoo.com
+
+## I want to make a RSCG that will be usefull. How can I do ? 
+
+In the  introduction I have put the links to get you started with RSCG . 
+
+And, if you bought this book from Amazon , you are entitled to have 1 hour free of consultancy with me . I can help you make one.
+

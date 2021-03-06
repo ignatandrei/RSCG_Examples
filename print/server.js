@@ -30,7 +30,7 @@ var markdownpdf = require("markdown-pdf");
 
 var mdDocs = [
 	"1-break.md",
-	"../README.md",
+	"../book/about.md",
 	"1-break.md",
 	"../book/whatIs.md",
 	"1-break.md",	
