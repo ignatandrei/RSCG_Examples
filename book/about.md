@@ -25,7 +25,7 @@ For each chapter, you will find
 
 Please send me an email to ignatandrei@yahoo.com
 
-## I want to make a RSCG that will be usefull. How can I do ? 
+## I want to make a RSCG that will be useful. How can I do ? 
 
 In the  introduction I have put the links to get you started with RSCG . 
 

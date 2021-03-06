@@ -6,7 +6,7 @@ exports.header = {
         var date = new Date();
         var str=date.getFullYear().toString() + pad2(date.getMonth() + 1) + pad2( date.getDate()) + pad2( date.getHours() ) + pad2( date.getMinutes() ) + pad2( date.getSeconds() ) ;
         str=date.getFullYear().toString() + pad2(date.getMonth() + 1) + pad2( date.getDate());
-        return "<small>Examples of usefull Roslyn Source Code Generator </small> <br />";
+        return "<small>Examples of useful Roslyn Source Code Generator </small> <br />";
     }
  };
 
