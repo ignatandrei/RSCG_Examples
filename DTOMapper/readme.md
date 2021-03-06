@@ -1,4 +1,4 @@
-# RSGC Name: GeneratedMapper
+# RSCG number 5 : GeneratedMapper
 
 Nuget :
     https://www.nuget.org/packages/GeneratedMapper/

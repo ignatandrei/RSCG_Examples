@@ -1,4 +1,4 @@
-# RSGC Name: ThisAssembly
+# RSCG number 1 : ThisAssembly
 
 Nuget :
     https://www.nuget.org/packages/ThisAssembly

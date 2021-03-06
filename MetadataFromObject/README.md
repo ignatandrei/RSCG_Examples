@@ -1,4 +1,4 @@
-# RSGC Name: Metadata from object
+# RSCG number 8 : Metadata from object
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/

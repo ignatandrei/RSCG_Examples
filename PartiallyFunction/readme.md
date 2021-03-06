@@ -1,4 +1,4 @@
-# RSGC Name: PartiallyApplied
+# RSCG number 11 : PartiallyApplied
 
 Nuget :
     https://www.nuget.org/packages/PartiallyApplied/

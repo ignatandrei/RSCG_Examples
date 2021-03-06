@@ -1,4 +1,4 @@
-# RSGC Name: data-builder-generator
+# RSCG number 7 : data-builder-generator
 
 Nuget :
     https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/

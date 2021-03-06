@@ -1,4 +1,4 @@
-# RSGC Name: CopyConstructor + Deconstructor
+# RSCG number 4 : CopyConstructor + Deconstructor
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/

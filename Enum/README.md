@@ -1,4 +1,4 @@
-# RSGC Name: Enum
+# RSCG number 2 : Enum
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/

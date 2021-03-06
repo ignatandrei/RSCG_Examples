@@ -1,4 +1,4 @@
-# RSGC Name: Method decorator
+# RSCG number 10 : Method decorator
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/

@@ -64,7 +64,7 @@ namespace Generator
         {
             var gen = await AllDescriptions();
 
-            var posts = gen.Select(async it => await GenerateReadMe(it)).ToArray();
+            var posts = gen.Select(async (it,i) => await GenerateReadMe(it,i)).ToArray();
 
             await Task.WhenAll(posts);
 
@@ -90,8 +90,9 @@ namespace Generator
             desc.rootFolder = rootFolder;
             return desc;
         }
-        private async Task GenerateReadMe(Description desc)
+        private async Task GenerateReadMe(Description desc,int nr )
         {
+            desc.Nr = nr;
             var templatePost = await File.ReadAllTextAsync("readme.txt");
             var templateScriban = Scriban.Template.Parse(templatePost);
             var output = templateScriban.Render(desc, member => member.Name);

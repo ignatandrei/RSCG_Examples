@@ -1,4 +1,4 @@
-﻿# RSGC Name: {{Generator.Name}}
+﻿# RSCG number {{Nr+1}} : {{Generator.Name}}
 
 Nuget :
 {{~ for mi in Generator.Nuget ~}}

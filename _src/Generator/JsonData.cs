@@ -47,6 +47,8 @@ namespace Generator
 
     public class Description
     {
+        public int Nr;
+
         [JsonPropertyName("generator")]
         public Generator Generator { get; set; }
 

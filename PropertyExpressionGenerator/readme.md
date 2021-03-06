@@ -1,4 +1,4 @@
-# RSGC Name: Property Expression Generator
+# RSCG number 14 : Property Expression Generator
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/

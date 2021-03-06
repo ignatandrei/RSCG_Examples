@@ -1,4 +1,4 @@
-# RSGC Name: Skinny Controllers
+# RSCG number 6 : Skinny Controllers
 
 Nuget :
     https://www.nuget.org/packages/SkinnyControllersCommon/

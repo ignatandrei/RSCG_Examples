@@ -1,4 +1,4 @@
-# RSGC Name: JsonByExampleGenerator
+# RSCG number 3 : JsonByExampleGenerator
 
 Nuget :
     https://www.nuget.org/packages/JsonByExampleGenerator/

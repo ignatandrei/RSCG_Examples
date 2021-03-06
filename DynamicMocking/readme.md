@@ -1,4 +1,4 @@
-# RSGC Name: MockSourceGenerator
+# RSCG number 9 : MockSourceGenerator
 
 Nuget :
     https://www.nuget.org/packages/MockSourceGenerator/

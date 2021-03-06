@@ -1,4 +1,4 @@
-# RSGC Name: IFormattable
+# RSCG number 12 : IFormattable
 
 Nuget :
     https://www.nuget.org/packages/AOPMethodsCommon/

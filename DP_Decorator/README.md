@@ -1,4 +1,4 @@
-# RSGC Name: AutoInterface
+# RSCG number 13 : AutoInterface
 
 Nuget :
     https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator
