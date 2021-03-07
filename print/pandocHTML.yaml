@@ -1,18 +1,20 @@
 from: gfm
 # reader: may be used instead of from:
-to: docx #html5
+# to: docx 
+# output-file:  index.docx
+to: gfm
+output-file:  index.md
 # writer: may be used instead of to:
 
 # leave blank for output to stdout:
-output-file: index.docx #index.html
+
+reference-doc: customWord.docx
+
 # leave blank for input from stdin, use [] for no input:
 input-files:
 - ../book/about.md 
-- 1-break.md
 - ../book/whatIs.md 
-- 1-break.md
 - ../ApplicationVersion/README.md 
-- 1-break.md
 - ../Enum/README.md
 - ../JsonToClass/README.md
 - ../CopyConstructor/README.md
