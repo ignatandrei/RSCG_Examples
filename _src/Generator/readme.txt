@@ -20,34 +20,25 @@ author :{{ Generator.Author }}
 
 
 <img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs.png' />
-
+<small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs' target='_blank'>code</a>
-
-
-```
-{{~ for mi in Data.ExistingCode }}
-    {{ mi }}
-{{~ end ~}}
-```
+</small>
 
 The code that you will use is
 
-```csharp
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/Usage.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/Usage.cs' target='_blank'>code</a>
+</small>
 
-{{~ for mi in Data.Usage }}
-    {{ mi }}
-{{~ end ~}}
 
-```
 
 The code that is generated is
-```csharp
 
-{{~ for mi in Data.GeneratedCode }}
-    {{ mi }}
-{{~ end ~}}
-
-```
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/GeneratedCode.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/GeneratedCode.cs' target='_blank'>code</a>
+</small>
 
 
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/{{rootFolder}}" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/{{rootFolder}}</a>

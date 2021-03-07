@@ -18,147 +18,25 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 
 
 <img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png' />
-
+<small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs' target='_blank'>code</a>
-
-
-```
-
-    public class Department                                    
-
-        {
-
-            public int ID { get; set; }
-
-            public string Name { get; set; }
-
-            
-
-            public List<string> Employees { get; set; }
-
-        }
-
-    
-
-        [IgnoreInTarget("Employees")]
-
-        [MapFrom(typeof(Department))]
-
-        public class DepartmentDTO
-
-        {
-
-            public int ID { get; set; }
-
-            public string Name{get; set;}
-
-    
-
-            [MapWith("Employees",typeof(ResolverLength))]
-
-            public int EmployeesNr { get; set; }
-
-    
-
-        }
-
-        public class ResolverLength
-
-        {
-
-            public int Resolve(List<string> input)
-
-            {
-
-                return ((input?.Count) ?? 0);
-
-            }
-
-        }
-```
+</small>
 
 The code that you will use is
 
-```csharp
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs' target='_blank'>code</a>
+</small>
 
 
-    static void Main(string[] args)                                
-
-    {
-
-        var dep = new Department();
-
-        dep.Name = "IT";
-
-        dep.ID = 1;
-
-        dep.Employees = new List<string>();
-
-        dep.Employees.Add("Andrei");
-
-        var dto = dep.MapToDepartmentDTO();
-
-        Console.WriteLine(dto.Name+"=>"+ dto.EmployeesNr);
-
-    }
-
-```
 
 The code that is generated is
-```csharp
 
-
-    namespace DTOMapper                                                                                                                                                                                                        
-
-    {
-
-        public static partial class DepartmentMapToExtensions
-
-        {
-
-            public static DTOMapper.DepartmentDTO MapToDepartmentDTO(this DTOMapper.Department self)
-
-            {
-
-                if (self is null)
-
-                {
-
-                    throw new ArgumentNullException(nameof(self), "DTOMapper.Department -> DTOMapper.DepartmentDTO: Source is null.");
-
-                }
-
-                
-
-                var resolverLength = new DTOMapper.ResolverLength();
-
-                
-
-                var target = new DTOMapper.DepartmentDTO
-
-                {
-
-                    ID = self.ID,
-
-                    Name = (self.Name ?? throw new GeneratedMapper.Exceptions.PropertyNullException("DTOMapper.Department -> DTOMapper.DepartmentDTO: Property Name is null.")),
-
-                    EmployeesNr = resolverLength.Resolve((self.Employees ?? throw new GeneratedMapper.Exceptions.PropertyNullException("DTOMapper.Department -> DTOMapper.DepartmentDTO: Property Employees is null."))),
-
-                };
-
-                
-
-                return target;
-
-            }
-
-        }
-
-    }
-
-    
-
-```
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs' target='_blank'>code</a>
+</small>
 
 
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper</a>

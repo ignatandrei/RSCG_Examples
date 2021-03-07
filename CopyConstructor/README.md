@@ -19,95 +19,25 @@ This will generate code for a POCO to generate copy constructor and deconstructo
 
 
 <img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs.png' />
-
+<small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs' target='_blank'>code</a>
-
-
-```
-
-    [AutoMethods(template = TemplateMethod.CustomTemplateFile, CustomTemplateFileName = "CopyConstructorDestructor.txt")]
-
-    partial class Person
-
-    {
-
-       public string FirstName { get; set; }
-
-       public string LastName { get; set; }
-
-    }
-```
+</small>
 
 The code that you will use is
 
-```csharp
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/Usage.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/Usage.cs' target='_blank'>code</a>
+</small>
 
 
-    var pOldPerson = new Person();
-
-    pOldPerson.FirstName = "Andrei";
-
-    pOldPerson.LastName = "Ignat";
-
-    var newPerson = new Person(pOldPerson);
-
-    Console.WriteLine(newPerson.FirstName);
-
-    var (_, last) = newPerson;
-
-    Console.WriteLine(last);
-
-```
 
 The code that is generated is
-```csharp
 
-
-    public Person (){                                                          
-
-       OnConstructor();
-
-    }
-
-    public Person(IPerson other):base(){ 
-
-         BeforeCopyConstructor(other);
-
-         CopyPropertiesFrom(other);
-
-         AfterCopyConstructor(other);
-
-              
-
-    }
-
-    public void CopyPropertiesFrom(IPerson other){
-
-    
-
-         this.FirstName = other.FirstName;            
-
-         this.LastName = other.LastName;            
-
-    }    
-
-    
-
-    
-
-    
-
-     public void Deconstruct( out string FirstName, out string LastName)
-
-     {
-
-         FirstName = this.FirstName;            
-
-         LastName = this.LastName;            
-
-     }
-
-```
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/GeneratedCode.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/GeneratedCode.cs' target='_blank'>code</a>
+</small>
 
 
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor</a>

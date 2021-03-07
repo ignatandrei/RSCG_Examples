@@ -18,79 +18,25 @@ This will generate C# classes from json files.
 
 
 <img src='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs.png' />
-
+<small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs' target='_blank'>code</a>
-
-
-```
-
-    {
-
-    "FirstName": "Andrei",
-
-    "LastName": "Ignat",
-
-    "Blog": "http://msprogrammer.serviciipeweb.ro/"
-```
+</small>
 
 The code that you will use is
 
-```csharp
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/Usage.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/Usage.cs' target='_blank'>code</a>
+</small>
 
 
-    var p1 = new Person();
-
-    p1.Blog = "http://msprogrammer.serviciipeweb.ro/";
-
-    var config = new ConfigurationBuilder()
-
-      .AddJsonFile("persons.json")
-
-      .Build();
-
-    
-
-    var p = config.Get<Person>();
-
-    var p2 = Person.FromConfig(config);
-
-```
 
 The code that is generated is
-```csharp
 
-
-    [DataContract(Name = "Person", Namespace = "JsonToClass.Json.Persons")]
-
-    public partial class Person
-
-    {
-
-    [DataMember(Name = "FirstName", EmitDefaultValue = false, Order = 0)]
-
-    public string FirstName { get; set; }
-
-    [DataMember(Name = "LastName", EmitDefaultValue = false, Order = 1)]
-
-    public string LastName { get; set; }
-
-    [DataMember(Name = "Blog", EmitDefaultValue = false, Order = 2)]
-
-    public string Blog { get; set; }
-
-    
-
-    public static Person FromConfig([System.Diagnostics.CodeAnalysis.NotNull] IConfiguration config)
-
-    {
-
-    return config.Get<Person>();
-
-    }
-
-    }
-
-```
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/GeneratedCode.cs.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/GeneratedCode.cs' target='_blank'>code</a>
+</small>
 
 
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass</a>
