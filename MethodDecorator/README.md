@@ -1,3 +1,4 @@
+
 # RSCG number 10 : Method decorator
 
 Nuget :
@@ -51,3 +52,4 @@ The code that is generated is
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator</a>
 
 All Generators: <a href="https://github.com/ignatandrei/RSCG_Examples/">https://github.com/ignatandrei/RSCG_Examples/</a>
+

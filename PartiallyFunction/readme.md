@@ -1,3 +1,4 @@
+
 # RSCG number 11 : PartiallyApplied
 
 Nuget :
@@ -50,3 +51,4 @@ The code that is generated is
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction</a>
 
 All Generators: <a href="https://github.com/ignatandrei/RSCG_Examples/">https://github.com/ignatandrei/RSCG_Examples/</a>
+

@@ -1,0 +1,74 @@
+from: markdown+emoji
+# reader: may be used instead of from:
+to: html5
+# writer: may be used instead of to:
+
+# leave blank for output to stdout:
+output-file:
+# leave blank for input from stdin, use [] for no input:
+input-files:
+- ../book/about.md 
+- ../book/whatIs.md 
+- ../ApplicationVersion/README.md 
+- ../Enum/README.md
+- ../JsonToClass/README.md
+- ../CopyConstructor/README.md
+- ../DTOMapper/readme.md
+- ../SkinnyControllers/README.md
+- ../DP_Builder/readme.md
+- ../MetadataFromObject/README.md
+- ../DynamicMocking/readme.md
+- ../MethodDecorator/README.md
+- ../PartiallyFunction/readme.md
+- ../IFormattable/readme.md
+- ../DP_Decorator/README.md
+- ../PropertyExpressionGenerator/readme.md
+- ../book/others.md
+
+# or you may use input-file: with a single value
+
+standalone: true
+self-contained: true
+
+
+# metadata values specified here are parsed as literal
+# string text, not markdown:
+metadata:
+  title:
+  - RSCG Examples
+  author:
+  - Andrei Ignat
+
+# Note that these take files, not their contents:
+include-before-body: []
+include-after-body: []
+include-in-header: []
+resource-path: ["."]
+
+# ERROR, WARNING, or INFO
+verbosity: INFO
+log-file: log.json
+
+table-of-contents: true
+toc-depth: 2
+# number-sections: true
+# a list of offsets at each heading level
+number-offset: [0,0,0,0,0,0]
+# toc: may also be used instead of table-of-contents:
+shift-heading-level-by: 1
+section-divs: true
+identifier-prefix: foo
+title-prefix: ""
+strip-empty-paragraphs: true
+# lf, crlf, or native
+eol: lf
+strip-comments: false
+indented-code-classes: []
+ascii: true
+default-image-extension: ".jpg"
+
+
+fail-if-warnings: false
+dump-args: false
+ignore-args: false
+trace: false

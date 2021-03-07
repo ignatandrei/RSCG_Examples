@@ -1,3 +1,4 @@
+
 # RSCG number 4 : CopyConstructor + Deconstructor
 
 Nuget :
@@ -51,3 +52,4 @@ The code that is generated is
 Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor</a>
 
 All Generators: <a href="https://github.com/ignatandrei/RSCG_Examples/">https://github.com/ignatandrei/RSCG_Examples/</a>
+
