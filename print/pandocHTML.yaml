@@ -2,8 +2,8 @@ from: gfm
 # reader: may be used instead of from:
 # to: docx 
 # output-file:  index.docx
-to: gfm
-output-file:  ../docs/index.md
+# to: gfm
+# output-file:  ../docs/index.md
 # writer: may be used instead of to:
 
 # leave blank for output to stdout:

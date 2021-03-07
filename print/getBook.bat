@@ -6,4 +6,6 @@ docker container rm print_rscg
 
 rem pandoc.exe -f markdown -s -o index.docx ../book/about.md ../book/whatIs.md ../ApplicationVersion/README.md --metadata title="RSCG examples" --toc
 # pandoc.exe  -d pandocHTML.yaml > ../docs/index.html
-pandoc.exe -d .\pandocHTML.yaml
+#pandoc.exe -d .\pandocHTML.yaml
+pandoc.exe -d pandocHTML.yaml -o ../docs/index.docx
+pandoc.exe -d pandocHTML.yaml -o ../docs/index.md -t gfm
