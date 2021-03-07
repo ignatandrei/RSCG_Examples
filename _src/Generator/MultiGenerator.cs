@@ -70,7 +70,26 @@ namespace Generator
 
 
         }
+        public async Task GenerateForImages(string folder)
+        {
+            var gen = await AllDescriptions();
 
+            var files = gen.Select(async (it, i) => await GenerateFiles(Path.Combine(folder,it.Generator.Name) ,it.Data)).ToArray();
+
+            await Task.WhenAll(files);
+
+        }
+        private async Task GenerateFiles(string folder, Data d)
+        {
+            if (!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
+            var nl = Environment.NewLine;
+            var f1 = File.WriteAllTextAsync(Path.Combine(folder, "GeneratedCode.cs"), string.Join(nl, d.GeneratedCode));
+            var f2 = File.WriteAllTextAsync(Path.Combine(folder, "ExistingCode.cs"), string.Join(nl, d.ExistingCode));
+            var f3 = File.WriteAllTextAsync(Path.Combine(folder, "Usage.cs"), string.Join(nl, d.Usage));
+
+            await Task.WhenAll(f1, f2, f3);
+        }
         public async Task GenerateFrontReadMe()
         {
             var gen = await AllDescriptions();
