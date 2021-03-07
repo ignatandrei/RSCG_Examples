@@ -3,7 +3,7 @@ from: gfm
 # to: docx 
 # output-file:  index.docx
 to: gfm
-output-file:  index.md
+output-file:  ../docs/index.md
 # writer: may be used instead of to:
 
 # leave blank for output to stdout:
@@ -29,6 +29,7 @@ input-files:
 - ../DP_Decorator/README.md
 - ../PropertyExpressionGenerator/readme.md
 - ../book/others.md
+- ../book/conclusion.md
 
 # or you may use input-file: with a single value
 # defaults:

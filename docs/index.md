@@ -24,6 +24,7 @@
 -   [RSCG number 14 : Property Expression
     Generator](#rscg-number-14--property-expression-generator)
 -   [RSCG - worth mention](#rscg---worth-mention)
+-   [Final Chapter](#final-chapter)
 
 ## About this book
 
@@ -783,3 +784,18 @@ want to look at:
 16. Web-Anchor <https://github.com/mattiasnordqvist/Web-Anchor>
 17. WrapperValueObject
     <https://github.com/martinothamar/WrapperValueObject>
+
+## Final Chapter
+
+### Conclusion
+
+I am happy that you have read / or practice / the RSCG presented in this
+book. I hope that inspired you to produce yours - and send me to review
+and maybe add to this book .
+
+### One hour of free consultancy
+
+If you bought this book from Amazon , you are entitled to have 1 hour
+free of consultancy with me .
+
+Thanks ! Andrei
