@@ -17,7 +17,7 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj.png' />
+![ThisAssembly](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj' target='_blank'>code</a>
 </small>
@@ -26,14 +26,14 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs.png' />
+![ThisAssembly](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs.png' />
+![ThisAssembly](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs' target='_blank'>code</a>
 </small>
@@ -42,7 +42,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs.png' />
+![ThisAssembly](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs' target='_blank'>code</a>
 </small>

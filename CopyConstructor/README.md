@@ -18,7 +18,7 @@ This will generate code for a POCO to generate copy constructor and deconstructo
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/The.csproj.png' />
+![CopyConstructor + Deconstructor](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/The.csproj' target='_blank'>code</a>
 </small>
@@ -27,14 +27,14 @@ This will generate code for a POCO to generate copy constructor and deconstructo
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs.png' />
+![CopyConstructor + Deconstructor](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/Usage.cs.png' />
+![CopyConstructor + Deconstructor](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/Usage.cs' target='_blank'>code</a>
 </small>
@@ -43,7 +43,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/GeneratedCode.cs.png' />
+![CopyConstructor + Deconstructor](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/GeneratedCode.cs' target='_blank'>code</a>
 </small>

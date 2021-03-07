@@ -17,7 +17,7 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj.png' />
+![AutoInterface](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj' target='_blank'>code</a>
 </small>
@@ -26,14 +26,14 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs.png' />
+![AutoInterface](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs.png' />
+![AutoInterface](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs' target='_blank'>code</a>
 </small>
@@ -42,7 +42,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs.png' />
+![AutoInterface](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs' target='_blank'>code</a>
 </small>

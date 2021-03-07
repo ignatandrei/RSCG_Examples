@@ -18,7 +18,7 @@ This will generate code to add IFormattable to any class, based on the propertie
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj.png' />
+![IFormattable](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj' target='_blank'>code</a>
 </small>
@@ -27,14 +27,14 @@ This will generate code to add IFormattable to any class, based on the propertie
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs.png' />
+![IFormattable](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/Usage.cs.png' />
+![IFormattable](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/Usage.cs' target='_blank'>code</a>
 </small>
@@ -43,7 +43,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs.png' />
+![IFormattable](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs' target='_blank'>code</a>
 </small>

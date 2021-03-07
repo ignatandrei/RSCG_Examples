@@ -19,7 +19,7 @@ author :{{ Generator.Author }}
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/The.csproj.png' />
+![{{Generator.Name}}](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/The.csproj' target='_blank'>code</a>
 </small>
@@ -28,14 +28,14 @@ author :{{ Generator.Author }}
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs.png' />
+![{{Generator.Name}}](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/Usage.cs.png' />
+![{{Generator.Name}}](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/Usage.cs' target='_blank'>code</a>
 </small>
@@ -44,7 +44,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/GeneratedCode.cs.png' />
+![{{Generator.Name}}](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/GeneratedCode.cs' target='_blank'>code</a>
 </small>

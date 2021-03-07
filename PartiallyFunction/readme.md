@@ -17,7 +17,7 @@ This will generate curry for your functions
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj.png' />
+![PartiallyApplied](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj' target='_blank'>code</a>
 </small>
@@ -26,14 +26,14 @@ This will generate curry for your functions
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs.png' />
+![PartiallyApplied](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs.png' />
+![PartiallyApplied](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs' target='_blank'>code</a>
 </small>
@@ -42,7 +42,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs.png' />
+![PartiallyApplied](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs' target='_blank'>code</a>
 </small>

@@ -18,7 +18,7 @@ This will generate code to retrieve the values of properties directly, not by re
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/The.csproj.png' />
+![Metadata from object](http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/The.csproj' target='_blank'>code</a>
 </small>
@@ -27,14 +27,14 @@ This will generate code to retrieve the values of properties directly, not by re
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/ExistingCode.cs.png' />
+![Metadata from object](http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/Usage.cs.png' />
+![Metadata from object](http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/Usage.cs' target='_blank'>code</a>
 </small>
@@ -43,7 +43,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/GeneratedCode.cs.png' />
+![Metadata from object](http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/GeneratedCode.cs' target='_blank'>code</a>
 </small>

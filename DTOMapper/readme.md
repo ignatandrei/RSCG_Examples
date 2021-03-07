@@ -17,7 +17,7 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 
 ## Here is the csproj with the references
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj.png' />
+![GeneratedMapper](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj' target='_blank'>code</a>
 </small>
@@ -26,14 +26,14 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 ## The code that you start with is 
 
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png' />
+![GeneratedMapper](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs' target='_blank'>code</a>
 </small>
 
 The code that you will use is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs.png' />
+![GeneratedMapper](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs' target='_blank'>code</a>
 </small>
@@ -42,7 +42,7 @@ The code that you will use is
 
 The code that is generated is
 
-<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs.png' />
+![GeneratedMapper](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs.png)
 <small>
 <a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs' target='_blank'>code</a>
 </small>

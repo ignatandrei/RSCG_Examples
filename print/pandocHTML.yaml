@@ -1,10 +1,10 @@
 from: markdown+emoji
 # reader: may be used instead of from:
-to: html5
+to: docx #html5
 # writer: may be used instead of to:
 
 # leave blank for output to stdout:
-output-file:
+output-file: index.docx #index.html
 # leave blank for input from stdin, use [] for no input:
 input-files:
 - ../book/about.md 
@@ -34,8 +34,7 @@ self-contained: true
 # metadata values specified here are parsed as literal
 # string text, not markdown:
 metadata:
-  title:
-  - RSCG Examples
+  title: RSCG Examples
   author:
   - Andrei Ignat
 
