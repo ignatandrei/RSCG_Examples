@@ -196,3 +196,6 @@ https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
 ```
+
+## Read all in one go
+[https://ignatandrei.github.io/RSCG_Examples/](https://ignatandrei.github.io/RSCG_Examples/)
