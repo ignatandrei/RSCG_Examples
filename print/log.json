@@ -357,26 +357,9 @@
         }
     },
     {
-        "type": "InlineNotRendered",
+        "type": "Fetching",
         "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "<small>"
-            ]
-        }
-    },
-    {
-        "type": "InlineNotRendered",
-        "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "</small>"
-            ]
-        }
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/The.csproj.png"
     },
     {
         "type": "InlineNotRendered",
@@ -401,6 +384,38 @@
         }
     },
     {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/ExistingCode.cs.png"
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "<small>"
+            ]
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "</small>"
+            ]
+        }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/Usage.cs.png"
+    },
+    {
         "type": "InlineNotRendered",
         "verbosity": "INFO",
         "contents": {
@@ -421,6 +436,11 @@
                 "<small>"
             ]
         }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/GeneratedCode.cs.png"
     },
     {
         "type": "InlineNotRendered",
@@ -553,26 +573,9 @@
         }
     },
     {
-        "type": "InlineNotRendered",
+        "type": "Fetching",
         "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "<small>"
-            ]
-        }
-    },
-    {
-        "type": "InlineNotRendered",
-        "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "</small>"
-            ]
-        }
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/The.csproj.png"
     },
     {
         "type": "InlineNotRendered",
@@ -597,6 +600,38 @@
         }
     },
     {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs.png"
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "<small>"
+            ]
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "</small>"
+            ]
+        }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/Usage.cs.png"
+    },
+    {
         "type": "InlineNotRendered",
         "verbosity": "INFO",
         "contents": {
@@ -617,6 +652,11 @@
                 "<small>"
             ]
         }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/GeneratedCode.cs.png"
     },
     {
         "type": "InlineNotRendered",
@@ -749,26 +789,9 @@
         }
     },
     {
-        "type": "InlineNotRendered",
+        "type": "Fetching",
         "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "<small>"
-            ]
-        }
-    },
-    {
-        "type": "InlineNotRendered",
-        "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "</small>"
-            ]
-        }
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/The.csproj.png"
     },
     {
         "type": "InlineNotRendered",
@@ -793,6 +816,38 @@
         }
     },
     {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/ExistingCode.cs.png"
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "<small>"
+            ]
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "</small>"
+            ]
+        }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/Usage.cs.png"
+    },
+    {
         "type": "InlineNotRendered",
         "verbosity": "INFO",
         "contents": {
@@ -813,6 +868,11 @@
                 "<small>"
             ]
         }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/GeneratedCode.cs.png"
     },
     {
         "type": "InlineNotRendered",
@@ -945,26 +1005,9 @@
         }
     },
     {
-        "type": "InlineNotRendered",
+        "type": "Fetching",
         "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "<small>"
-            ]
-        }
-    },
-    {
-        "type": "InlineNotRendered",
-        "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "</small>"
-            ]
-        }
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/The.csproj.png"
     },
     {
         "type": "InlineNotRendered",
@@ -989,6 +1032,38 @@
         }
     },
     {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs.png"
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "<small>"
+            ]
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "</small>"
+            ]
+        }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/Usage.cs.png"
+    },
+    {
         "type": "InlineNotRendered",
         "verbosity": "INFO",
         "contents": {
@@ -1009,6 +1084,11 @@
                 "<small>"
             ]
         }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/GeneratedCode.cs.png"
     },
     {
         "type": "InlineNotRendered",
@@ -1357,26 +1437,9 @@
         }
     },
     {
-        "type": "InlineNotRendered",
+        "type": "Fetching",
         "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "<small>"
-            ]
-        }
-    },
-    {
-        "type": "InlineNotRendered",
-        "verbosity": "INFO",
-        "contents": {
-            "t": "RawInline",
-            "c": [
-                "html",
-                "</small>"
-            ]
-        }
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/The.csproj.png"
     },
     {
         "type": "InlineNotRendered",
@@ -1401,6 +1464,38 @@
         }
     },
     {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs.png"
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "<small>"
+            ]
+        }
+    },
+    {
+        "type": "InlineNotRendered",
+        "verbosity": "INFO",
+        "contents": {
+            "t": "RawInline",
+            "c": [
+                "html",
+                "</small>"
+            ]
+        }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/Usage.cs.png"
+    },
+    {
         "type": "InlineNotRendered",
         "verbosity": "INFO",
         "contents": {
@@ -1421,6 +1516,11 @@
                 "<small>"
             ]
         }
+    },
+    {
+        "type": "Fetching",
+        "verbosity": "INFO",
+        "path": "http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/GeneratedCode.cs.png"
     },
     {
         "type": "InlineNotRendered",
