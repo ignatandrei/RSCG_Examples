@@ -70,6 +70,21 @@ namespace Generator
 
 
         }
+        public int GenerateCSPROJ(string folder, string rootDesc)
+        {
+            var f = Directory.GetFiles(rootDesc, "*.csproj", SearchOption.AllDirectories);
+            f = f.Where(it => !it.Contains("MatOps.csproj")).ToArray();
+            switch (f.Length)
+            {
+                case 1:
+                    var name = Path.GetFileName(f[0]);
+                    File.Copy(f[0], Path.Combine(folder, name),true);
+                    break;
+                default:
+                    throw new ArgumentException("more csproj at " + rootDesc);
+            }
+            return f.Length;
+        }
         public async Task GenerateForImages(string folder)
         {
             var gen = await AllDescriptions();
@@ -77,6 +92,8 @@ namespace Generator
             var files = gen.Select(async (it, i) => await GenerateFiles(Path.Combine(folder,it.Generator.Name) ,it.Data)).ToArray();
 
             await Task.WhenAll(files);
+            var csproj = gen.Select(it => GenerateCSPROJ(Path.Combine(folder, it.Generator.Name), Path.Combine(rootPath, it.rootFolder))).ToArray();
+
 
         }
         private async Task GenerateFiles(string folder, Data d)
@@ -86,8 +103,7 @@ namespace Generator
             var nl = Environment.NewLine;
             string filePath = "";
             filePath = Path.Combine(folder, "GeneratedCode.cs");
-            if (File.Exists(filePath + ".png"))
-                return;
+            
 
             var f1 = File.WriteAllTextAsync(Path.Combine(folder, "GeneratedCode.cs"), string.Join(nl, d.GeneratedCode));
             var f2 = File.WriteAllTextAsync(Path.Combine(folder, "ExistingCode.cs"), string.Join(nl, d.ExistingCode));
@@ -112,6 +128,7 @@ namespace Generator
             var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
             var desc = JsonSerializer.Deserialize<Description>(text);
             desc.rootFolder = rootFolder;
+            
             return desc;
         }
         private async Task GenerateReadMe(Description desc,int nr )
