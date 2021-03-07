@@ -78,6 +78,7 @@ namespace Generator
             {
                 case 1:
                     var name = Path.GetFileName(f[0]);
+                    name = "The.csproj";
                     File.Copy(f[0], Path.Combine(folder, name),true);
                     break;
                 default:
