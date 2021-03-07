@@ -17,6 +17,12 @@ This will generate code to add IFormattable to any class, based on the propertie
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [AutoMethods(CustomTemplateFileName = "CreateFormattable.txt", template = TemplateMethod.CustomTemplateFile)]                    

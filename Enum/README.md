@@ -17,6 +17,12 @@ This will generate code to fast parsing a int or a string to an enum
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [AutoEnum(template = EnumMethod.GenerateExtensionCode)]

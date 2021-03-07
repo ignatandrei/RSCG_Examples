@@ -17,6 +17,12 @@ This will generate code to retrieve the values of properties directly, not by re
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Metadata from object/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [AutoMethods(template = TemplateMethod.CustomTemplateFile, CustomTemplateFileName = "GenerateFromPOCO.txt")]

@@ -16,6 +16,12 @@ This will generate curry for your functions
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     public class Accounting                                            

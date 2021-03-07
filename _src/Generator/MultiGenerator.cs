@@ -84,6 +84,11 @@ namespace Generator
             if (!Directory.Exists(folder))
                 Directory.CreateDirectory(folder);
             var nl = Environment.NewLine;
+            string filePath = "";
+            filePath = Path.Combine(folder, "GeneratedCode.cs");
+            if (File.Exists(filePath + ".png"))
+                return;
+
             var f1 = File.WriteAllTextAsync(Path.Combine(folder, "GeneratedCode.cs"), string.Join(nl, d.GeneratedCode));
             var f2 = File.WriteAllTextAsync(Path.Combine(folder, "ExistingCode.cs"), string.Join(nl, d.ExistingCode));
             var f3 = File.WriteAllTextAsync(Path.Combine(folder, "Usage.cs"), string.Join(nl, d.Usage));

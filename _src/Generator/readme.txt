@@ -18,6 +18,12 @@ author :{{ Generator.Author }}
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 {{~ for mi in Data.ExistingCode }}
     {{ mi }}

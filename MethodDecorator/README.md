@@ -17,6 +17,12 @@ This will generate code to decorate methods with anything you want ( stopwatch, 
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Method decorator/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Method decorator/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [AutoMethods(template =TemplateMethod.CustomTemplateFile,MethodPrefix ="prv" ,CustomTemplateFileName ="MethodDecorator.txt")]

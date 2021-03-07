@@ -16,6 +16,12 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     public class Department                                    

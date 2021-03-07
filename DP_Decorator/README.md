@@ -16,6 +16,12 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     public interface ICoffee                                                                                               

@@ -16,6 +16,12 @@ This will generate C# classes from json files.
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     {

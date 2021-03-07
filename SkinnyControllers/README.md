@@ -17,6 +17,12 @@ This will generate code for WebAPI for each method of a field in the controller
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Skinny Controllers/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Skinny Controllers/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     public class PersonRepository                          

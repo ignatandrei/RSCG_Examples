@@ -16,6 +16,12 @@ This will generate Mock classes directly for any interface - with your implement
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     public interface IMatOps               

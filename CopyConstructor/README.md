@@ -17,6 +17,12 @@ This will generate code for a POCO to generate copy constructor and deconstructo
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor + Deconstructor/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [AutoMethods(template = TemplateMethod.CustomTemplateFile, CustomTemplateFileName = "CopyConstructorDestructor.txt")]

@@ -16,6 +16,12 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     <PropertyGroup>

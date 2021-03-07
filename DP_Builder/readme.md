@@ -16,6 +16,12 @@ Implements the Builder Design pattern for any class. Useful , at least, for test
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [GenerateDataBuilder]                               

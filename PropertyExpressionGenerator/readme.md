@@ -17,6 +17,12 @@ This will generate code to add function to be used with Entity Framework to sear
 
 ## The code that you start with is 
 
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Property Expression Generator/ExistingCode.cs.png' />
+
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Property Expression Generator/ExistingCode.cs' target='_blank'>code</a>
+
+
 ```
 
     [AutoMethods(template = TemplateMethod.CustomTemplateFile, CustomTemplateFileName = "CreateMetadata.txt")]
