@@ -15,6 +15,14 @@ author :Andrei Ignat
 
 This will generate code to fast parsing a int or a string to an enum
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Enum/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Enum/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

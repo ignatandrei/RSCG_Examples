@@ -15,6 +15,14 @@ author :Andrei Ignat
 
 This will generate code for WebAPI for each method of a field in the controller
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Skinny Controllers/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Skinny Controllers/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

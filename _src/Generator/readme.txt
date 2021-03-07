@@ -16,6 +16,14 @@ author :{{ Generator.Author }}
 
 {{ Data.GoodFor }}
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name}}/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

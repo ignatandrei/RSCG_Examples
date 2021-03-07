@@ -14,6 +14,14 @@ author :Thomas Bleijendaal
 
 AutoMapping from a POCO to a DTO. Lots of customizations
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

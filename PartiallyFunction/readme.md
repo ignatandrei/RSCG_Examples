@@ -14,6 +14,14 @@ author :Andrei Ignat
 
 This will generate curry for your functions 
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

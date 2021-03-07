@@ -15,6 +15,14 @@ author :Andrei Ignat
 
 This will generate code to add function to be used with Entity Framework to search for any property of a class
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Property Expression Generator/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Property Expression Generator/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

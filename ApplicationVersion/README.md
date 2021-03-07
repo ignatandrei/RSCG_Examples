@@ -14,6 +14,14 @@ author :Daniel Cazzulino
 
 The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

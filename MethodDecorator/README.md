@@ -15,6 +15,14 @@ author :Andrei Ignat
 
 This will generate code to decorate methods with anything you want ( stopwatch, logging , authorization...)
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/Method decorator/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/Method decorator/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

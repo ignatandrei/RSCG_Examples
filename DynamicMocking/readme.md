@@ -14,6 +14,14 @@ author :Robin Hermanussen
 
 This will generate Mock classes directly for any interface - with your implementation.
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

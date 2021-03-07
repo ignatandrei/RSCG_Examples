@@ -14,6 +14,14 @@ author :beakona
 
 Implement the Design Pattern Decorator. Based on template - you can modify the source code generated
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 

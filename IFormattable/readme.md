@@ -15,6 +15,14 @@ author :Andrei Ignat
 
 This will generate code to add IFormattable to any class, based on the properties of the class
 
+## Here is the csproj with the references
+
+<img src='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj.png' />
+<small>
+<a href='http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj' target='_blank'>code</a>
+</small>
+
+
 ## The code that you start with is 
 
 
