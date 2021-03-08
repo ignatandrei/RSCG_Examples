@@ -1,15 +1,6 @@
 
 # RSCG number 13 : AutoInterface
 
-Nuget :
-    https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator
-
-
-link : https://github.com/beakona/AutoInterface 
-
-
-author :beakona
-
 
 ## What RSCG AutoInterface can do
 
@@ -45,6 +36,15 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of AutoInterface is beakona
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator
+
+For more details and features please read : https://github.com/beakona/AutoInterface 
 
 
 ## Link to Example Code: 

@@ -1,15 +1,6 @@
 
 # RSCG number 3 : JsonByExampleGenerator
 
-Nuget :
-    https://www.nuget.org/packages/JsonByExampleGenerator/
-
-
-link : https://github.com/hermanussen/JsonByExampleGenerator/ 
-
-
-author :Robin Hermanussen
-
 
 ## What RSCG JsonByExampleGenerator can do
 
@@ -45,6 +36,15 @@ This will generate C# classes from json files.
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of JsonByExampleGenerator is Robin Hermanussen
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/JsonByExampleGenerator/
+
+For more details and features please read : https://github.com/hermanussen/JsonByExampleGenerator/ 
 
 
 ## Link to Example Code: 

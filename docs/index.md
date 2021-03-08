@@ -125,12 +125,6 @@ you can find the source code of the examples at
 
 ## RSCG number 1 : ThisAssembly
 
-Nuget : <https://www.nuget.org/packages/ThisAssembly>
-
-link : <https://www.clarius.org/ThisAssembly/>
-
-author :Daniel Cazzulino
-
 ### What RSCG ThisAssembly can do
 
 The ThisAssembly.Info allows you access to the Assembly Information as
@@ -165,18 +159,21 @@ see the assembly version right away in any project that I have.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of ThisAssembly is Daniel Cazzulino
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/ThisAssembly>
+
+For more details and features please read :
+<https://www.clarius.org/ThisAssembly/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion>](https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion)
 
 ## RSCG number 2 : Enum
-
-Nuget : <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG Enum can do
 
@@ -210,17 +207,22 @@ This will generate code to fast parsing a int or a string to an enum
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of Enum is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/AOPMethodsCommon/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum>](https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum)
 
 ## RSCG number 3 : JsonByExampleGenerator
-
-Nuget : <https://www.nuget.org/packages/JsonByExampleGenerator/>
-
-link : <https://github.com/hermanussen/JsonByExampleGenerator/>
-
-author :Robin Hermanussen
 
 ### What RSCG JsonByExampleGenerator can do
 
@@ -254,18 +256,21 @@ This will generate C\# classes from json files.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of JsonByExampleGenerator is Robin Hermanussen
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/JsonByExampleGenerator/>
+
+For more details and features please read :
+<https://github.com/hermanussen/JsonByExampleGenerator/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass>](https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass)
 
 ## RSCG number 4 : CopyConstructor + Deconstructor
-
-Nuget : <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG CopyConstructor + Deconstructor can do
 
@@ -300,17 +305,22 @@ deconstructor
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of CopyConstructor + Deconstructor is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/AOPMethodsCommon/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor>](https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor)
 
 ## RSCG number 5 : GeneratedMapper
-
-Nuget : <https://www.nuget.org/packages/GeneratedMapper/>
-
-link : <https://github.com/ThomasBleijendaal/GeneratedMapper>
-
-author :Thomas Bleijendaal
 
 ### What RSCG GeneratedMapper can do
 
@@ -344,18 +354,21 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of GeneratedMapper is Thomas Bleijendaal
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/GeneratedMapper/>
+
+For more details and features please read :
+<https://github.com/ThomasBleijendaal/GeneratedMapper>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper)
 
 ## RSCG number 6 : Skinny Controllers
-
-Nuget : <https://www.nuget.org/packages/SkinnyControllersCommon/>
-<https://www.nuget.org/packages/SkinnyControllersGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG Skinny Controllers can do
 
@@ -390,17 +403,22 @@ controller
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of Skinny Controllers is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/SkinnyControllersCommon/>
+<https://www.nuget.org/packages/SkinnyControllersGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers>](https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers)
 
 ## RSCG number 7 : data-builder-generator
-
-Nuget : <https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/>
-
-link : <https://github.com/dasMulli/data-builder-generator>
-
-author :Martin Andreas Ulrich
 
 ### What RSCG data-builder-generator can do
 
@@ -435,18 +453,21 @@ for test projects
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of data-builder-generator is Martin Andreas Ulrich
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/>
+
+For more details and features please read :
+<https://github.com/dasMulli/data-builder-generator>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder)
 
 ## RSCG number 8 : Metadata from object
-
-Nuget : <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG Metadata from object can do
 
@@ -481,17 +502,22 @@ not by reflection
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of Metadata from object is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/AOPMethodsCommon/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject>](https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject)
 
 ## RSCG number 9 : MockSourceGenerator
-
-Nuget : <https://www.nuget.org/packages/MockSourceGenerator/>
-
-link : <https://github.com/hermanussen/MockSourceGenerator/>
-
-author :Robin Hermanussen
 
 ### What RSCG MockSourceGenerator can do
 
@@ -526,18 +552,21 @@ implementation.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of MockSourceGenerator is Robin Hermanussen
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/MockSourceGenerator/>
+
+For more details and features please read :
+<https://github.com/hermanussen/MockSourceGenerator/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking)
 
 ## RSCG number 10 : Method decorator
-
-Nuget : <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG Method decorator can do
 
@@ -572,17 +601,22 @@ stopwatch, logging , authorization...)
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of Method decorator is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/AOPMethodsCommon/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator>](https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator)
 
 ## RSCG number 11 : PartiallyApplied
-
-Nuget : <https://www.nuget.org/packages/PartiallyApplied/>
-
-link : <https://github.com/JasonBock/PartiallyApplied>
-
-author :Andrei Ignat
 
 ### What RSCG PartiallyApplied can do
 
@@ -616,18 +650,21 @@ This will generate curry for your functions
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of PartiallyApplied is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/PartiallyApplied/>
+
+For more details and features please read :
+<https://github.com/JasonBock/PartiallyApplied>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction>](https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction)
 
 ## RSCG number 12 : IFormattable
-
-Nuget : <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG IFormattable can do
 
@@ -662,17 +699,22 @@ properties of the class
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of IFormattable is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/AOPMethodsCommon/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable>](https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable)
 
 ## RSCG number 13 : AutoInterface
-
-Nuget : <https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator>
-
-link : <https://github.com/beakona/AutoInterface>
-
-author :beakona
 
 ### What RSCG AutoInterface can do
 
@@ -707,18 +749,21 @@ modify the source code generated
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs)
 </small>
 
+### Details
+
+The author of AutoInterface is beakona
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator>
+
+For more details and features please read :
+<https://github.com/beakona/AutoInterface>
+
 ### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator)
 
 ## RSCG number 14 : Property Expression Generator
-
-Nuget : <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
-
-link : <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
-
-author :Andrei Ignat
 
 ### What RSCG Property Expression Generator can do
 
@@ -752,6 +797,17 @@ to search for any property of a class
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/GeneratedCode.cs)
 </small>
+
+### Details
+
+The author of Property Expression Generator is Andrei Ignat
+
+You cand find this generator at Nuget.org :
+<https://www.nuget.org/packages/AOPMethodsCommon/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/>
+
+For more details and features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
 

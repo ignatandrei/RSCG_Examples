@@ -1,15 +1,6 @@
 
 # RSCG number 1 : ThisAssembly
 
-Nuget :
-    https://www.nuget.org/packages/ThisAssembly
-
-
-link : https://www.clarius.org/ThisAssembly/ 
-
-
-author :Daniel Cazzulino
-
 
 ## What RSCG ThisAssembly can do
 
@@ -45,6 +36,15 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of ThisAssembly is Daniel Cazzulino
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/ThisAssembly
+
+For more details and features please read : https://www.clarius.org/ThisAssembly/ 
 
 
 ## Link to Example Code: 

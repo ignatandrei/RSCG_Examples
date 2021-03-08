@@ -1,15 +1,6 @@
 
 # RSCG number 9 : MockSourceGenerator
 
-Nuget :
-    https://www.nuget.org/packages/MockSourceGenerator/
-
-
-link : https://github.com/hermanussen/MockSourceGenerator/ 
-
-
-author :Robin Hermanussen
-
 
 ## What RSCG MockSourceGenerator can do
 
@@ -45,6 +36,15 @@ This will generate Mock classes directly for any interface - with your implement
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of MockSourceGenerator is Robin Hermanussen
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/MockSourceGenerator/
+
+For more details and features please read : https://github.com/hermanussen/MockSourceGenerator/ 
 
 
 ## Link to Example Code: 

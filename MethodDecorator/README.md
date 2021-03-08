@@ -1,16 +1,6 @@
 
 # RSCG number 10 : Method decorator
 
-Nuget :
-    https://www.nuget.org/packages/AOPMethodsCommon/
-    https://www.nuget.org/packages/AOPMethodsGenerator/
-
-
-link : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
-
-
-author :Andrei Ignat
-
 
 ## What RSCG Method decorator can do
 
@@ -46,6 +36,16 @@ This will generate code to decorate methods with anything you want ( stopwatch, 
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of Method decorator is Andrei Ignat
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+    https://www.nuget.org/packages/AOPMethodsGenerator/
+
+For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

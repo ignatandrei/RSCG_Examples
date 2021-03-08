@@ -1,16 +1,6 @@
 
 # RSCG number 12 : IFormattable
 
-Nuget :
-    https://www.nuget.org/packages/AOPMethodsCommon/
-    https://www.nuget.org/packages/AOPMethodsGenerator/
-
-
-link : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
-
-
-author :Andrei Ignat
-
 
 ## What RSCG IFormattable can do
 
@@ -46,6 +36,16 @@ This will generate code to add IFormattable to any class, based on the propertie
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of IFormattable is Andrei Ignat
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+    https://www.nuget.org/packages/AOPMethodsGenerator/
+
+For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

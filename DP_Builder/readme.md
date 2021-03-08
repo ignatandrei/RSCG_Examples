@@ -1,15 +1,6 @@
 
 # RSCG number 7 : data-builder-generator
 
-Nuget :
-    https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/
-
-
-link : https://github.com/dasMulli/data-builder-generator 
-
-
-author :Martin Andreas Ulrich
-
 
 ## What RSCG data-builder-generator can do
 
@@ -45,6 +36,15 @@ Implements the Builder Design pattern for any class. Useful , at least, for test
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of data-builder-generator is Martin Andreas Ulrich
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/
+
+For more details and features please read : https://github.com/dasMulli/data-builder-generator 
 
 
 ## Link to Example Code: 

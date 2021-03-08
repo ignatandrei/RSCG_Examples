@@ -1,15 +1,6 @@
 
 # RSCG number 11 : PartiallyApplied
 
-Nuget :
-    https://www.nuget.org/packages/PartiallyApplied/
-
-
-link : https://github.com/JasonBock/PartiallyApplied 
-
-
-author :Andrei Ignat
-
 
 ## What RSCG PartiallyApplied can do
 
@@ -45,6 +36,15 @@ This will generate curry for your functions
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of PartiallyApplied is Andrei Ignat
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/PartiallyApplied/
+
+For more details and features please read : https://github.com/JasonBock/PartiallyApplied 
 
 
 ## Link to Example Code: 

@@ -1,17 +1,6 @@
 ﻿
 # RSCG number {{Nr+1}} : {{Generator.Name}}
 
-Nuget :
-{{~ for mi in Generator.Nuget ~}}
-    {{ mi }}
-{{~ end ~}}
-
-
-link : {{Generator.Link}} 
-
-
-author :{{ Generator.Author }}
-
 
 ## What RSCG {{Generator.Name}} can do
 
@@ -47,6 +36,17 @@ author :{{ Generator.Author }}
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name | string.replace " " "%20"}}/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of {{Generator.Name }} is {{ Generator.Author }}
+
+You cand find this generator at Nuget.org : {{~ for mi in Generator.Nuget ~}}
+    {{ mi }}
+{{~ end ~}}
+
+For more details and features please read : {{Generator.Link}} 
 
 
 ## Link to Example Code: 

@@ -1,15 +1,6 @@
 
 # RSCG number 5 : GeneratedMapper
 
-Nuget :
-    https://www.nuget.org/packages/GeneratedMapper/
-
-
-link : https://github.com/ThomasBleijendaal/GeneratedMapper 
-
-
-author :Thomas Bleijendaal
-
 
 ## What RSCG GeneratedMapper can do
 
@@ -45,6 +36,15 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of GeneratedMapper is Thomas Bleijendaal
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/GeneratedMapper/
+
+For more details and features please read : https://github.com/ThomasBleijendaal/GeneratedMapper 
 
 
 ## Link to Example Code: 

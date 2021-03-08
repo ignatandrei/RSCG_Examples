@@ -1,16 +1,6 @@
 
 # RSCG number 8 : Metadata from object
 
-Nuget :
-    https://www.nuget.org/packages/AOPMethodsCommon/
-    https://www.nuget.org/packages/AOPMethodsGenerator/
-
-
-link : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
-
-
-author :Andrei Ignat
-
 
 ## What RSCG Metadata from object can do
 
@@ -46,6 +36,16 @@ This will generate code to retrieve the values of properties directly, not by re
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of Metadata from object is Andrei Ignat
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+    https://www.nuget.org/packages/AOPMethodsGenerator/
+
+For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

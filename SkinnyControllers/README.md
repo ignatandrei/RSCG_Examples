@@ -1,16 +1,6 @@
 
 # RSCG number 6 : Skinny Controllers
 
-Nuget :
-    https://www.nuget.org/packages/SkinnyControllersCommon/
-    https://www.nuget.org/packages/SkinnyControllersGenerator/
-
-
-link : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
-
-
-author :Andrei Ignat
-
 
 ## What RSCG Skinny Controllers can do
 
@@ -46,6 +36,16 @@ This will generate code for WebAPI for each method of a field in the controller
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of Skinny Controllers is Andrei Ignat
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/SkinnyControllersCommon/
+    https://www.nuget.org/packages/SkinnyControllersGenerator/
+
+For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

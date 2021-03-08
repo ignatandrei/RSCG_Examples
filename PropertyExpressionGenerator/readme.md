@@ -1,16 +1,6 @@
 
 # RSCG number 14 : Property Expression Generator
 
-Nuget :
-    https://www.nuget.org/packages/AOPMethodsCommon/
-    https://www.nuget.org/packages/AOPMethodsGenerator/
-
-
-link : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
-
-
-author :Andrei Ignat
-
 
 ## What RSCG Property Expression Generator can do
 
@@ -46,6 +36,16 @@ This will generate code to add function to be used with Entity Framework to sear
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/GeneratedCode.cs)
 </small>
+
+
+## Details
+
+The author of Property Expression Generator is Andrei Ignat
+
+You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+    https://www.nuget.org/packages/AOPMethodsGenerator/
+
+For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 
