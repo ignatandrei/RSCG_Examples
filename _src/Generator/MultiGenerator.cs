@@ -37,6 +37,8 @@ namespace Generator
             };
             this.rootPath = root;
         }
+
+
         private async Task<Description[]> AllDescriptions()
         {
             if (_AllDescriptions != null)
@@ -60,6 +62,28 @@ namespace Generator
             
 
         }
+        public async Task GenerateForEmail()
+        {
+            var gen = await AllDescriptions();
+            var posts = gen
+                .Where(it=>!it.Generator.Author.Contains("gnat"))
+                .Select(async it => await GenerateEmail(it))
+                .ToArray();
+            await Task.WhenAll(posts);
+
+        }
+
+        private async Task GenerateEmail(Description desc)
+        {
+            
+            var templatePost = await File.ReadAllTextAsync("email.txt");
+            var templateScriban = Scriban.Template.Parse(templatePost);
+            var output = templateScriban.Render(desc, member => member.Name);
+            string readMe = Path.Combine(rootPath, desc.rootFolder, "email.txt");
+            await File.WriteAllTextAsync(readMe, output);
+
+        }
+
         public async Task GenerateReadMeForEach()
         {
             var gen = await AllDescriptions();

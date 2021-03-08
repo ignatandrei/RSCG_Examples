@@ -198,4 +198,10 @@ https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 ```
 
 ## Read all in one go
+
 [https://ignatandrei.github.io/RSCG_Examples/](https://ignatandrei.github.io/RSCG_Examples/)
+
+## Free ebook
+
+[https://ignatandrei.github.io/RSCG_Examples/index.docx](https://ignatandrei.github.io/RSCG_Examples/index.docx)
+

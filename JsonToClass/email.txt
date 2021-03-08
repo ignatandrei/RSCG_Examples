@@ -1,0 +1,26 @@
+Hello Robin Hermanussen
+
+I have started a mini-e-book about Roslyn Source Code Generators(RSCG).
+
+Your RSCG , JsonByExampleGenerator from https://github.com/hermanussen/JsonByExampleGenerator/ , is between them at https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass
+
+I am thinking to add to the e-book the some more information regarding the RSCG from the authors of RSCG.
+
+So could you please answer to the following :
+
+1. Short info about you , Robin Hermanussen
+
+2. Why did you start this JsonByExampleGenerator  ?
+
+3. How do yourself use your JsonByExampleGenerator ?
+
+4. What other RSCG do you use ? 
+
+5. Any other feedback ?
+
+Thanks
+
+Andrei Ignat
+http://msprogrammer.serviciipeweb.ro/
+
+

@@ -1,0 +1,26 @@
+Hello Martin Andreas Ulrich
+
+I have started a mini-e-book about Roslyn Source Code Generators(RSCG).
+
+Your RSCG , data-builder-generator from https://github.com/dasMulli/data-builder-generator , is between them at https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder
+
+I am thinking to add to the e-book the some more information regarding the RSCG from the authors of RSCG.
+
+So could you please answer to the following :
+
+1. Short info about you , Martin Andreas Ulrich
+
+2. Why did you start this data-builder-generator  ?
+
+3. How do yourself use your data-builder-generator ?
+
+4. What other RSCG do you use ? 
+
+5. Any other feedback ?
+
+Thanks
+
+Andrei Ignat
+http://msprogrammer.serviciipeweb.ro/
+
+

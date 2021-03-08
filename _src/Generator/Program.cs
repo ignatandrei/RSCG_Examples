@@ -16,6 +16,7 @@ namespace Generator
             await m.GenerateReadMeForEach();
             await m.GenerateFrontReadMe();
             await m.GenerateForImages(Path.Combine(folder, "docs", "images"));
+            await m.GenerateForEmail();
         }
         
         
