@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -79,8 +80,9 @@ namespace Generator
             var templatePost = await File.ReadAllTextAsync("email.txt");
             var templateScriban = Scriban.Template.Parse(templatePost);
             var output = templateScriban.Render(desc, member => member.Name);
-            string readMe = Path.Combine(rootPath, desc.rootFolder, "email.txt");
-            await File.WriteAllTextAsync(readMe, output);
+            string email = Path.Combine(rootPath, desc.rootFolder, "email.txt");
+            await File.WriteAllTextAsync(email, output);
+            //Process.Start("notepad.exe",email);
 
         }
 
