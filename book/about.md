@@ -2,11 +2,11 @@
 
 ## Content of the book
 
-You will find in this book code examples about >10 Roslyn Source Code Generator (RSCG ) that can be usefull for you. That means, you will write more elegant and concise code - even if the generators code is not always nice to look.
+You will find in this book code examples about >10 Roslyn Source Code Generator (RSCG) that can be useful for you. That means, you will write more elegant and concise code - even if the generators code is not always nice to look.
 
-## Are those examples ready for production ?
+## Are those examples ready for production?
 
-I have done due diligence to test the RSCG that I have show to you here. However, I cannot guarantee that will fit your code . That means that you can test it for your case and, because all are open source on Github.com , you can contribute to improve them ;-)
+I have done due diligence to test the RSCG that I have shown to you here. However, I cannot guarantee that will fit your code. That means that you can test it for your case and, because all are open source on Github.com, you can contribute to improve them ;-)
 
 
 ## How to read this book
@@ -22,13 +22,13 @@ For each chapter, you will find
 7.  Link to the downloadable code to practice
 
 
-## I have a suggestion for a new RSCG that is worth mentioning in this book . What can I do ? 
+## I have a suggestion for a new RSCG that is worth mentioning in this book. What can I do? 
 
 Please send me an email to ignatandrei@yahoo.com
 
-## I want to make a RSCG that will be useful. How can I do ? 
+## I want to make a RSCG that will be useful. How can I do? 
 
-In the  introduction I have put the links to get you started with RSCG . 
+In the  introduction I have put the links to get you started with RSCG. 
 
-And, if you bought this book from Amazon , you are entitled to have 1 hour free of consultancy with me . I can help you make one.
+And, if you bought this book from Amazon, you are entitled to have 1 hour free of consultancy with me. I can help you make one.
 
