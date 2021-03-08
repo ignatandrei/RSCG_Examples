@@ -57,7 +57,7 @@ verbosity: INFO
 log-file: log.json
 
 table-of-contents: true
-toc-depth: 2
+toc-depth: 3
 # number-sections: true
 # a list of offsets at each heading level
 number-offset: [0,0,0,0,0,0]

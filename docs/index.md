@@ -1,30 +1,120 @@
 -   [About this book](#about-this-book)
+    -   [Content of the book](#content-of-the-book)
+    -   [Are those examples ready for
+        production?](#are-those-examples-ready-for-production)
+    -   [How to read this book](#how-to-read-this-book)
+    -   [I have a suggestion for a new RSCG that is worth mentioning in
+        this book. What can I
+        do?](#i-have-a-suggestion-for-a-new-rscg-that-is-worth-mentioning-in-this-book-what-can-i-do)
+    -   [I want to make a RSCG that will be useful. How can I
+        do?](#i-want-to-make-a-rscg-that-will-be-useful-how-can-i-do)
 -   [Introduction](#introduction)
+    -   [What is a Roslyn Source Code
+        Generator?](#what-is-a-roslyn-source-code-generator)
+    -   [How can I make a Roslyn Source Code
+        Generator?](#how-can-i-make-a-roslyn-source-code-generator)
+    -   [Show me some code for RSCG](#show-me-some-code-for-rscg)
+    -   [How the RSCG can help me to write faster / better the code
+        ?](#how-the-rscg-can-help-me-to-write-faster--better-the-code-)
 -   [RSCG number 1 : ThisAssembly](#rscg-number-1--thisassembly)
+    -   [What RSCG ThisAssembly can do](#what-rscg-thisassembly-can-do)
+    -   [Example code](#example-code)
+    -   [More details about RSCG
+        ThisAssembly](#more-details-about-rscg-thisassembly)
 -   [RSCG number 2 : Enum](#rscg-number-2--enum)
--   [RSCG number 3 :
-    JsonByExampleGenerator](#rscg-number-3--jsonbyexamplegenerator)
+    -   [What RSCG Enum can do](#what-rscg-enum-can-do)
+    -   [Example code](#example-code-1)
+    -   [More details about RSCG Enum](#more-details-about-rscg-enum)
+-   [RSCG number 3 : JsonByExampleGenerator
+    !](#rscg-number-3--jsonbyexamplegenerator-)
+    -   [What RSCG JsonByExampleGenerator can
+        do](#what-rscg-jsonbyexamplegenerator-can-do)
+    -   [Example code](#example-code-2)
+    -   [More details about RSCG
+        JsonByExampleGenerator](#more-details-about-rscg-jsonbyexamplegenerator)
+    -   [Author of JsonByExampleGenerator , Robin
+        Hermanussen](#author-of-jsonbyexamplegenerator--robin-hermanussen)
 -   [RSCG number 4 : CopyConstructor +
     Deconstructor](#rscg-number-4--copyconstructor--deconstructor)
+    -   [What RSCG CopyConstructor + Deconstructor can
+        do](#what-rscg-copyconstructor--deconstructor-can-do)
+    -   [Example code](#example-code-3)
+    -   [More details about RSCG CopyConstructor +
+        Deconstructor](#more-details-about-rscg-copyconstructor--deconstructor)
 -   [RSCG number 5 : GeneratedMapper](#rscg-number-5--generatedmapper)
+    -   [What RSCG GeneratedMapper can
+        do](#what-rscg-generatedmapper-can-do)
+    -   [Example code](#example-code-4)
+    -   [More details about RSCG
+        GeneratedMapper](#more-details-about-rscg-generatedmapper)
 -   [RSCG number 6 : Skinny
     Controllers](#rscg-number-6--skinny-controllers)
--   [RSCG number 7 :
-    data-builder-generator](#rscg-number-7--data-builder-generator)
+    -   [What RSCG Skinny Controllers can
+        do](#what-rscg-skinny-controllers-can-do)
+    -   [Example code](#example-code-5)
+    -   [More details about RSCG Skinny
+        Controllers](#more-details-about-rscg-skinny-controllers)
+-   [RSCG number 7 : data-builder-generator
+    !](#rscg-number-7--data-builder-generator-)
+    -   [What RSCG data-builder-generator can
+        do](#what-rscg-data-builder-generator-can-do)
+    -   [Example code](#example-code-6)
+    -   [More details about RSCG
+        data-builder-generator](#more-details-about-rscg-data-builder-generator)
+    -   [Author of data-builder-generator , Martin Andreas
+        Ulrich](#author-of-data-builder-generator--martin-andreas-ulrich)
 -   [RSCG number 8 : Metadata from
     object](#rscg-number-8--metadata-from-object)
--   [RSCG number 9 :
-    MockSourceGenerator](#rscg-number-9--mocksourcegenerator)
+    -   [What RSCG Metadata from object can
+        do](#what-rscg-metadata-from-object-can-do)
+    -   [Example code](#example-code-7)
+    -   [More details about RSCG Metadata from
+        object](#more-details-about-rscg-metadata-from-object)
+-   [RSCG number 9 : MockSourceGenerator
+    !](#rscg-number-9--mocksourcegenerator-)
+    -   [What RSCG MockSourceGenerator can
+        do](#what-rscg-mocksourcegenerator-can-do)
+    -   [Example code](#example-code-8)
+    -   [More details about RSCG
+        MockSourceGenerator](#more-details-about-rscg-mocksourcegenerator)
+    -   [Author of MockSourceGenerator , Robin
+        Hermanussen](#author-of-mocksourcegenerator--robin-hermanussen)
 -   [RSCG number 10 : Method
     decorator](#rscg-number-10--method-decorator)
+    -   [What RSCG Method decorator can
+        do](#what-rscg-method-decorator-can-do)
+    -   [Example code](#example-code-9)
+    -   [More details about RSCG Method
+        decorator](#more-details-about-rscg-method-decorator)
 -   [RSCG number 11 :
     PartiallyApplied](#rscg-number-11--partiallyapplied)
+    -   [What RSCG PartiallyApplied can
+        do](#what-rscg-partiallyapplied-can-do)
+    -   [Example code](#example-code-10)
+    -   [More details about RSCG
+        PartiallyApplied](#more-details-about-rscg-partiallyapplied)
 -   [RSCG number 12 : IFormattable](#rscg-number-12--iformattable)
+    -   [What RSCG IFormattable can do](#what-rscg-iformattable-can-do)
+    -   [Example code](#example-code-11)
+    -   [More details about RSCG
+        IFormattable](#more-details-about-rscg-iformattable)
 -   [RSCG number 13 : AutoInterface](#rscg-number-13--autointerface)
+    -   [What RSCG AutoInterface can
+        do](#what-rscg-autointerface-can-do)
+    -   [Example code](#example-code-12)
+    -   [More details about RSCG
+        AutoInterface](#more-details-about-rscg-autointerface)
 -   [RSCG number 14 : Property Expression
     Generator](#rscg-number-14--property-expression-generator)
+    -   [What RSCG Property Expression Generator can
+        do](#what-rscg-property-expression-generator-can-do)
+    -   [Example code](#example-code-13)
+    -   [More details about RSCG Property Expression
+        Generator](#more-details-about-rscg-property-expression-generator)
 -   [RSCG - worth mention](#rscg---worth-mention)
 -   [Final Chapter](#final-chapter)
+    -   [Conclusion](#conclusion)
+    -   [One hour of free consultancy](#one-hour-of-free-consultancy)
 
 ## About this book
 
@@ -131,28 +221,30 @@ The ThisAssembly.Info allows you access to the Assembly Information as
 constants, instead of going to reflection each time. I found useful to
 see the assembly version right away in any project that I have.
 
-### Here is the csproj with the references for RSCG ThisAssembly
+### Example code
+
+#### Here is the csproj with the references for RSCG ThisAssembly
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG ThisAssembly :
+#### The code below will use the RSCG ThisAssembly
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs)
 <small>
 
-### The code that is generated by RSCG ThisAssembly
+#### The code that is generated by RSCG ThisAssembly
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs.png)
 <small>
@@ -170,7 +262,7 @@ You cand find **RSCG ThisAssembly** at Nuget.org :
 For more usage features please read :
 <https://www.clarius.org/ThisAssembly/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion>](https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion)
 
@@ -180,28 +272,30 @@ For more usage features please read :
 
 This will generate code to fast parsing a int or a string to an enum
 
-### Here is the csproj with the references for RSCG Enum
+### Example code
+
+#### Here is the csproj with the references for RSCG Enum
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/Enum/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG Enum :
+#### The code below will use the RSCG Enum
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Enum/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/Usage.cs)
 <small>
 
-### The code that is generated by RSCG Enum
+#### The code that is generated by RSCG Enum
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/Enum/GeneratedCode.cs.png)
 <small>
@@ -220,38 +314,40 @@ You cand find **RSCG Enum** at Nuget.org :
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum>](https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum)
 
-## RSCG number 3 : JsonByExampleGenerator
+## RSCG number 3 : JsonByExampleGenerator !
 
 ### What RSCG JsonByExampleGenerator can do
 
 This will generate C\# classes from json files.
 
-### Here is the csproj with the references for RSCG JsonByExampleGenerator
+### Example code
+
+#### Here is the csproj with the references for RSCG JsonByExampleGenerator
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG JsonByExampleGenerator :
+#### The code below will use the RSCG JsonByExampleGenerator
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/Usage.cs)
 <small>
 
-### The code that is generated by RSCG JsonByExampleGenerator
+#### The code that is generated by RSCG JsonByExampleGenerator
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/GeneratedCode.cs.png)
 <small>
@@ -269,9 +365,42 @@ at <https://github.com/hermanussen/JsonByExampleGenerator/>
 For more usage features please read :
 <https://github.com/hermanussen/JsonByExampleGenerator/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass>](https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass)
+
+### Author of JsonByExampleGenerator , Robin Hermanussen
+
+#### Short info about you , Robin Hermanussen
+
+I'm a Software Architect at Iquality (software company in the
+Netherlands). I'm passionate about software development in general, but
+with a particular interest in .NET.
+
+#### Why did you start this JsonByExampleGenerator ?
+
+I have written a bunch of C\# analyzers in the past that served specific
+needs and now wanted to get some experience in writing source
+generators. It seemed like a good idea to me to generate classes based
+on example JSON, because it replaces a task that I often find a bit
+tedious; writing data contract classes and then tests to ensure they get
+properly (de)serialized with the JSON that I'm using.
+
+#### How do yourself use your JsonByExampleGenerator ?
+
+I'm not really using it in real world projects right now, as I'm not
+working on any projects that require it.
+
+#### What other RSCG do you use ?
+
+I've used ThisAssembly and a few others, for learning purposes.
+
+#### Any other feedback ?
+
+If anyone wants to use JsonByExampleGenerator and give me feedback from
+the real world, let me know! I'll be happy to help out with any issues
+or questions you may run into. Just add an issue to the project on
+GitHub to get in touch.
 
 ## RSCG number 4 : CopyConstructor + Deconstructor
 
@@ -280,28 +409,30 @@ For more usage features please read :
 This will generate code for a POCO to generate copy constructor and
 deconstructor
 
-### Here is the csproj with the references for RSCG CopyConstructor + Deconstructor
+### Example code
+
+#### Here is the csproj with the references for RSCG CopyConstructor + Deconstructor
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG CopyConstructor + Deconstructor :
+#### The code below will use the RSCG CopyConstructor + Deconstructor
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/Usage.cs)
 <small>
 
-### The code that is generated by RSCG CopyConstructor + Deconstructor
+#### The code that is generated by RSCG CopyConstructor + Deconstructor
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/GeneratedCode.cs.png)
 <small>
@@ -320,7 +451,7 @@ You cand find **RSCG CopyConstructor + Deconstructor** at Nuget.org :
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor>](https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor)
 
@@ -330,28 +461,30 @@ For more usage features please read :
 
 AutoMapping from a POCO to a DTO. Lots of customizations
 
-### Here is the csproj with the references for RSCG GeneratedMapper
+### Example code
+
+#### Here is the csproj with the references for RSCG GeneratedMapper
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG GeneratedMapper :
+#### The code below will use the RSCG GeneratedMapper
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs)
 <small>
 
-### The code that is generated by RSCG GeneratedMapper
+#### The code that is generated by RSCG GeneratedMapper
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs.png)
 <small>
@@ -369,7 +502,7 @@ You cand find **RSCG GeneratedMapper** at Nuget.org :
 For more usage features please read :
 <https://github.com/ThomasBleijendaal/GeneratedMapper>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper)
 
@@ -380,28 +513,30 @@ For more usage features please read :
 This will generate code for WebAPI for each method of a field in the
 controller
 
-### Here is the csproj with the references for RSCG Skinny Controllers
+### Example code
+
+#### Here is the csproj with the references for RSCG Skinny Controllers
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG Skinny Controllers :
+#### The code below will use the RSCG Skinny Controllers
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/Usage.cs)
 <small>
 
-### The code that is generated by RSCG Skinny Controllers
+#### The code that is generated by RSCG Skinny Controllers
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/GeneratedCode.cs.png)
 <small>
@@ -420,39 +555,41 @@ sources at <http://github.com/ignatandrei/aop_With_Roslyn/>
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers>](https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers)
 
-## RSCG number 7 : data-builder-generator
+## RSCG number 7 : data-builder-generator !
 
 ### What RSCG data-builder-generator can do
 
 Implements the Builder Design pattern for any class. Useful , at least,
 for test projects
 
-### Here is the csproj with the references for RSCG data-builder-generator
+### Example code
+
+#### Here is the csproj with the references for RSCG data-builder-generator
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG data-builder-generator :
+#### The code below will use the RSCG data-builder-generator
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/Usage.cs)
 <small>
 
-### The code that is generated by RSCG data-builder-generator
+#### The code that is generated by RSCG data-builder-generator
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/GeneratedCode.cs.png)
 <small>
@@ -470,9 +607,68 @@ sources at <https://github.com/dasMulli/data-builder-generator>
 For more usage features please read :
 <https://github.com/dasMulli/data-builder-generator>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder)
+
+### Author of data-builder-generator , Martin Andreas Ulrich
+
+#### Short info about you , Martin Andreas Ulrich
+
+I am a software engineer working on diverse tech stacks but focusing
+mostly on .NET in C\#, Web Technologies and iOS/Swift.
+
+I am a technology enthusiast who always works on improving development
+and DevOps processes at our company to make life easier for developers
+and help deliver high. I was awarded Microsoft MVP for community and
+open-source work around .NET Core.
+
+#### Why did you start this data-builder-generator ?
+
+#### How do yourself use your data-builder-generator ?
+
+In "enterprise" contexts (I hate that term) one usually has to deal with
+business logic working on data objects. Writing tests is really
+important in these contexts but creating lots of test data for various
+scenarios can be quite cumbersome. You usually have some set of defaults
+(e.g. a base order with a dummy customer and items, an insurance
+application from a dummy customer etc.) and then deviate from it a
+little for each scenario. This is where C\# 9 records would come in
+handy, but they were at the time not released and adopting them could be
+challenging (e.g. proper EF support while we're still on EF Core 3.1
+anyway) so we opted for a test data builder approach where the builder
+classes would be generated. I did something similar a few years back at
+a previous company based on
+<https://github.com/AArnott/CodeGeneration.Roslyn> (which is now
+archived in favor of rolsyn source generators) and decided that for a
+current project I'll have a go and try to create something similar based
+on roslyn. While there are still a few bugs in the generator (get-only
+properties for example), this works quite well just annotating all EF
+model POCOs and then creating a few default builders that can be used
+from tests (Think TestData.DefaultOrder.WithoutCustomerAddress().Build()
+- extension methods are useful here as well to reuse builder functions
+that have a business meaning (.WithChecksumMismatchingIBAN())). I hope
+that many of these concerns can be solved with records in the future, so
+each .WithXYZ() can be done as a proper with-expression. But until then,
+autogenerating builder patterns is a good approach. I wanted to hold off
+refactoring / fixing bugs for advanced use cases until a few first-party
+generators exist and we know what performance pitfalls to look out for.
+Since we were using them when generators were in preview, we also had to
+deal with breaking changes in the API which was a bit of pain.
+
+#### What other RSCG do you use ?
+
+Currently this is the only one. I hope that OpenAPI processing /
+generation will be a source generator soon - this is currently patched
+in via NSwag/MSBuild for some projects.
+
+#### Any other feedback ?
+
+As mentioned I hope that some patterns of how to implement fast source
+generators emerge. This one likely isn't the best but I wanted to hold
+off a few months before refactoring. I don't plan on making a huge deal
+out of it, I just thought it's good to put useful tools we're building
+on GitHub for discussion and maybe it helps someone else as well.
 
 ## RSCG number 8 : Metadata from object
 
@@ -481,28 +677,30 @@ For more usage features please read :
 This will generate code to retrieve the values of properties directly,
 not by reflection
 
-### Here is the csproj with the references for RSCG Metadata from object
+### Example code
+
+#### Here is the csproj with the references for RSCG Metadata from object
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG Metadata from object :
+#### The code below will use the RSCG Metadata from object
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/Usage.cs)
 <small>
 
-### The code that is generated by RSCG Metadata from object
+#### The code that is generated by RSCG Metadata from object
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/GeneratedCode.cs.png)
 <small>
@@ -521,39 +719,41 @@ You cand find **RSCG Metadata from object** at Nuget.org :
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject>](https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject)
 
-## RSCG number 9 : MockSourceGenerator
+## RSCG number 9 : MockSourceGenerator !
 
 ### What RSCG MockSourceGenerator can do
 
 This will generate Mock classes directly for any interface - with your
 implementation.
 
-### Here is the csproj with the references for RSCG MockSourceGenerator
+### Example code
+
+#### Here is the csproj with the references for RSCG MockSourceGenerator
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG MockSourceGenerator :
+#### The code below will use the RSCG MockSourceGenerator
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/Usage.cs)
 <small>
 
-### The code that is generated by RSCG MockSourceGenerator
+#### The code that is generated by RSCG MockSourceGenerator
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/GeneratedCode.cs.png)
 <small>
@@ -571,9 +771,43 @@ You cand find **RSCG MockSourceGenerator** at Nuget.org :
 For more usage features please read :
 <https://github.com/hermanussen/MockSourceGenerator/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking)
+
+### Author of MockSourceGenerator , Robin Hermanussen
+
+#### Short info about you , Robin Hermanussen
+
+I'm a Software Architect at Iquality (software company in the
+Netherlands). I'm passionate about software development in general, but
+with a particular interest in .NET.
+
+#### Why did you start this MockSourceGenerator ?
+
+I have written a bunch of C\# analyzers in the past that served specific
+needs and now wanted to get some experience in writing source
+generators. The thing about libraries like Moq or NSubstitute that I
+don't really like is how it takes so much code to set them up and then I
+don't find them very readable. MockSourceGenerator takes an approach
+that allows people to mock something in a single statement (with an
+object initializer) and I think it is more readable this way.
+
+#### How do yourself use your MockSourceGenerator ?
+
+I'm not really using it in real world projects right now, as I'm not
+working on any projects that require it.
+
+#### What other RSCG do you use ?
+
+I've used ThisAssembly and a few others, for learning purposes.
+
+#### Any other feedback ?
+
+If anyone wants to use MockSourceGenerator and give me feedback from the
+real world, let me know! I'll be happy to help out with any issues or
+questions you may run into. Just add an issue to the project on GitHub
+to get in touch.
 
 ## RSCG number 10 : Method decorator
 
@@ -582,28 +816,30 @@ For more usage features please read :
 This will generate code to decorate methods with anything you want (
 stopwatch, logging , authorization...)
 
-### Here is the csproj with the references for RSCG Method decorator
+### Example code
+
+#### Here is the csproj with the references for RSCG Method decorator
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG Method decorator :
+#### The code below will use the RSCG Method decorator
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/Usage.cs)
 <small>
 
-### The code that is generated by RSCG Method decorator
+#### The code that is generated by RSCG Method decorator
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/GeneratedCode.cs.png)
 <small>
@@ -622,7 +858,7 @@ You cand find **RSCG Method decorator** at Nuget.org :
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator>](https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator)
 
@@ -632,28 +868,30 @@ For more usage features please read :
 
 This will generate curry for your functions
 
-### Here is the csproj with the references for RSCG PartiallyApplied
+### Example code
+
+#### Here is the csproj with the references for RSCG PartiallyApplied
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG PartiallyApplied :
+#### The code below will use the RSCG PartiallyApplied
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs)
 <small>
 
-### The code that is generated by RSCG PartiallyApplied
+#### The code that is generated by RSCG PartiallyApplied
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs.png)
 <small>
@@ -671,7 +909,7 @@ You cand find **RSCG PartiallyApplied** at Nuget.org :
 For more usage features please read :
 <https://github.com/JasonBock/PartiallyApplied>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction>](https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction)
 
@@ -682,28 +920,30 @@ For more usage features please read :
 This will generate code to add IFormattable to any class, based on the
 properties of the class
 
-### Here is the csproj with the references for RSCG IFormattable
+### Example code
+
+#### Here is the csproj with the references for RSCG IFormattable
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG IFormattable :
+#### The code below will use the RSCG IFormattable
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/Usage.cs)
 <small>
 
-### The code that is generated by RSCG IFormattable
+#### The code that is generated by RSCG IFormattable
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs.png)
 <small>
@@ -722,7 +962,7 @@ You cand find **RSCG IFormattable** at Nuget.org :
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable>](https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable)
 
@@ -733,28 +973,30 @@ For more usage features please read :
 Implement the Design Pattern Decorator. Based on template - you can
 modify the source code generated
 
-### Here is the csproj with the references for RSCG AutoInterface
+### Example code
+
+#### Here is the csproj with the references for RSCG AutoInterface
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG AutoInterface :
+#### The code below will use the RSCG AutoInterface
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs)
 <small>
 
-### The code that is generated by RSCG AutoInterface
+#### The code that is generated by RSCG AutoInterface
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs.png)
 <small>
@@ -772,7 +1014,7 @@ sources at <https://github.com/beakona/AutoInterface>
 For more usage features please read :
 <https://github.com/beakona/AutoInterface>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator>](https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator)
 
@@ -783,28 +1025,30 @@ For more usage features please read :
 This will generate code to add function to be used with Entity Framework
 to search for any property of a class
 
-### Here is the csproj with the references for RSCG Property Expression Generator
+### Example code
+
+#### Here is the csproj with the references for RSCG Property Expression Generator
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/The.csproj.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/The.csproj)
 </small>
 
-### The initial code that you start with is
+#### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs)
 </small>
 
-### The next code will use the RSCG Property Expression Generator :
+#### The code below will use the RSCG Property Expression Generator
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/Usage.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/Usage.cs)
 <small>
 
-### The code that is generated by RSCG Property Expression Generator
+#### The code that is generated by RSCG Property Expression Generator
 
 ![gc](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/GeneratedCode.cs.png)
 <small>
@@ -823,7 +1067,7 @@ You cand find **RSCG Property Expression Generator** at Nuget.org :
 For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
-### Link to Example Code:
+#### Link to Example Code:
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator>](https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator)
 

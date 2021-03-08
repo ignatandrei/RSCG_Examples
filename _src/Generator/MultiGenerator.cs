@@ -155,7 +155,12 @@ namespace Generator
             var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
             var desc = JsonSerializer.Deserialize<Description>(text);
             desc.rootFolder = rootFolder;
-            
+            var auth = Path.Combine(folder, "author.md");
+            if (File.Exists(auth))
+            {
+                desc.HaveAuthorAnswered = true;
+                desc.authorMD = await File.ReadAllTextAsync(auth);
+            }
             return desc;
         }
         private async Task GenerateReadMe(Description desc,int nr )

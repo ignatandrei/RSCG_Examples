@@ -62,6 +62,10 @@ namespace Generator
         public Links Links { get; set; }
 
         public string rootFolder;
+
+        public bool HaveAuthorAnswered;
+
+        public string authorMD;
     }
 
 
