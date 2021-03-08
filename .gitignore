@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 print/pandoc.exe
 print/log.json
+.vscode/settings.json
