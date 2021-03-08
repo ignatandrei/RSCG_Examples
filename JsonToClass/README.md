@@ -1,5 +1,5 @@
 
-# RSCG number 3 : JsonByExampleGenerator !
+# RSCG number 3 : JsonByExampleGenerator 
 
 
 ## What RSCG JsonByExampleGenerator can do

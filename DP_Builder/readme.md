@@ -1,5 +1,5 @@
 
-# RSCG number 7 : data-builder-generator !
+# RSCG number 7 : data-builder-generator 
 
 
 ## What RSCG data-builder-generator can do

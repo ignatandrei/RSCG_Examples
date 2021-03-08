@@ -1,5 +1,5 @@
 
-# RSCG number 9 : MockSourceGenerator !
+# RSCG number 9 : MockSourceGenerator 
 
 
 ## What RSCG MockSourceGenerator can do
