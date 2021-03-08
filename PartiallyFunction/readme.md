@@ -14,7 +14,7 @@ This will generate curry for your functions
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate curry for your functions
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG PartiallyApplied :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ This will generate curry for your functions
 </small>
 
 
-## Details
+## More details about RSCG PartiallyApplied
 
-The author of PartiallyApplied is Andrei Ignat
+The author of **RSCG PartiallyApplied** is *Jason Bock*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/PartiallyApplied/
+You cand find **RSCG PartiallyApplied** at Nuget.org :    https://www.nuget.org/packages/PartiallyApplied/
+and the sources at https://github.com/JasonBock/PartiallyApplied
 
-For more details and features please read : https://github.com/JasonBock/PartiallyApplied 
+For more usage features please read : https://github.com/JasonBock/PartiallyApplied 
 
 
 ## Link to Example Code: 

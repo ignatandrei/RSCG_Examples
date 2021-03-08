@@ -4,7 +4,8 @@
    "nuget": ["https://www.nuget.org/packages/MockSourceGenerator/"	 		  
 			],
    "link": "https://github.com/hermanussen/MockSourceGenerator/",  
-   "author":"Robin Hermanussen"   
+   "author":"Robin Hermanussen"   ,
+   "source":"https://github.com/hermanussen/MockSourceGenerator/"
   },
   "data":{
 	"goodFor":"This will generate Mock classes directly for any interface - with your implementation.",

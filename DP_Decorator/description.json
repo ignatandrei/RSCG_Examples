@@ -3,7 +3,8 @@
    "name": "AutoInterface",
    "nuget": ["https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator"],
    "link": "https://github.com/beakona/AutoInterface",  
-   "author":"beakona"   
+   "author":"beakona"  ,
+   "source":"https://github.com/beakona/AutoInterface" 
   },
   "data":{
 	"goodFor":"Implement the Design Pattern Decorator. Based on template - you can modify the source code generated",

@@ -5,7 +5,8 @@
 			 "https://www.nuget.org/packages/SkinnyControllersGenerator/"			  
 			],
    "link": "http://msprogrammer.serviciipeweb.ro/category/roslyn/",  
-   "author":"Andrei Ignat"   
+   "author":"Andrei Ignat"   ,
+   "source":"http://github.com/ignatandrei/aop_With_Roslyn/"   
   },
   "data":{
 	"goodFor":"This will generate code for WebAPI for each method of a field in the controller",

@@ -138,14 +138,14 @@ see the assembly version right away in any project that I have.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG ThisAssembly :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs.png)
 <small>
@@ -159,14 +159,15 @@ see the assembly version right away in any project that I have.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG ThisAssembly
 
-The author of ThisAssembly is Daniel Cazzulino
+The author of **RSCG ThisAssembly** is *Daniel Cazzulino*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/ThisAssembly>
+You cand find **RSCG ThisAssembly** at Nuget.org :
+<https://www.nuget.org/packages/ThisAssembly> and the sources at
+<https://github.com/devlooped/ThisAssembly>
 
-For more details and features please read :
+For more usage features please read :
 <https://www.clarius.org/ThisAssembly/>
 
 ### Link to Example Code:
@@ -186,14 +187,14 @@ This will generate code to fast parsing a int or a string to an enum
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG Enum :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Enum/Usage.cs.png)
 <small>
@@ -207,15 +208,16 @@ This will generate code to fast parsing a int or a string to an enum
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG Enum
 
-The author of Enum is Andrei Ignat
+The author of **RSCG Enum** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG Enum** at Nuget.org :
 <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/> and the sources at
+<http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
@@ -235,14 +237,14 @@ This will generate C\# classes from json files.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG JsonByExampleGenerator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/Usage.cs.png)
 <small>
@@ -256,14 +258,15 @@ This will generate C\# classes from json files.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG JsonByExampleGenerator
 
-The author of JsonByExampleGenerator is Robin Hermanussen
+The author of **RSCG JsonByExampleGenerator** is *Robin Hermanussen*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/JsonByExampleGenerator/>
+You cand find **RSCG JsonByExampleGenerator** at Nuget.org :
+<https://www.nuget.org/packages/JsonByExampleGenerator/> and the sources
+at <https://github.com/hermanussen/JsonByExampleGenerator/>
 
-For more details and features please read :
+For more usage features please read :
 <https://github.com/hermanussen/JsonByExampleGenerator/>
 
 ### Link to Example Code:
@@ -284,14 +287,14 @@ deconstructor
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG CopyConstructor + Deconstructor :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/Usage.cs.png)
 <small>
@@ -305,15 +308,16 @@ deconstructor
 [code](http://ignatandrei.github.io/RSCG_Examples/images/CopyConstructor%20+%20Deconstructor/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG CopyConstructor + Deconstructor
 
-The author of CopyConstructor + Deconstructor is Andrei Ignat
+The author of **RSCG CopyConstructor + Deconstructor** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG CopyConstructor + Deconstructor** at Nuget.org :
 <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/> and the sources at
+<http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
@@ -333,14 +337,14 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG GeneratedMapper :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs.png)
 <small>
@@ -354,14 +358,15 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG GeneratedMapper
 
-The author of GeneratedMapper is Thomas Bleijendaal
+The author of **RSCG GeneratedMapper** is *Thomas Bleijendaal*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/GeneratedMapper/>
+You cand find **RSCG GeneratedMapper** at Nuget.org :
+<https://www.nuget.org/packages/GeneratedMapper/> and the sources at
+<https://github.com/ThomasBleijendaal/GeneratedMapper>
 
-For more details and features please read :
+For more usage features please read :
 <https://github.com/ThomasBleijendaal/GeneratedMapper>
 
 ### Link to Example Code:
@@ -382,14 +387,14 @@ controller
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG Skinny Controllers :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/Usage.cs.png)
 <small>
@@ -403,15 +408,16 @@ controller
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG Skinny Controllers
 
-The author of Skinny Controllers is Andrei Ignat
+The author of **RSCG Skinny Controllers** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG Skinny Controllers** at Nuget.org :
 <https://www.nuget.org/packages/SkinnyControllersCommon/>
-<https://www.nuget.org/packages/SkinnyControllersGenerator/>
+<https://www.nuget.org/packages/SkinnyControllersGenerator/> and the
+sources at <http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
@@ -432,14 +438,14 @@ for test projects
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG data-builder-generator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/Usage.cs.png)
 <small>
@@ -453,14 +459,15 @@ for test projects
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG data-builder-generator
 
-The author of data-builder-generator is Martin Andreas Ulrich
+The author of **RSCG data-builder-generator** is *Martin Andreas Ulrich*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/>
+You cand find **RSCG data-builder-generator** at Nuget.org :
+<https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/> and the
+sources at <https://github.com/dasMulli/data-builder-generator>
 
-For more details and features please read :
+For more usage features please read :
 <https://github.com/dasMulli/data-builder-generator>
 
 ### Link to Example Code:
@@ -481,14 +488,14 @@ not by reflection
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG Metadata from object :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/Usage.cs.png)
 <small>
@@ -502,15 +509,16 @@ not by reflection
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Metadata%20from%20object/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG Metadata from object
 
-The author of Metadata from object is Andrei Ignat
+The author of **RSCG Metadata from object** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG Metadata from object** at Nuget.org :
 <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/> and the sources at
+<http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
@@ -531,14 +539,14 @@ implementation.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG MockSourceGenerator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/Usage.cs.png)
 <small>
@@ -552,14 +560,15 @@ implementation.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG MockSourceGenerator
 
-The author of MockSourceGenerator is Robin Hermanussen
+The author of **RSCG MockSourceGenerator** is *Robin Hermanussen*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/MockSourceGenerator/>
+You cand find **RSCG MockSourceGenerator** at Nuget.org :
+<https://www.nuget.org/packages/MockSourceGenerator/> and the sources at
+<https://github.com/hermanussen/MockSourceGenerator/>
 
-For more details and features please read :
+For more usage features please read :
 <https://github.com/hermanussen/MockSourceGenerator/>
 
 ### Link to Example Code:
@@ -580,14 +589,14 @@ stopwatch, logging , authorization...)
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG Method decorator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/Usage.cs.png)
 <small>
@@ -601,15 +610,16 @@ stopwatch, logging , authorization...)
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG Method decorator
 
-The author of Method decorator is Andrei Ignat
+The author of **RSCG Method decorator** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG Method decorator** at Nuget.org :
 <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/> and the sources at
+<http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
@@ -629,14 +639,14 @@ This will generate curry for your functions
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG PartiallyApplied :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/Usage.cs.png)
 <small>
@@ -650,14 +660,15 @@ This will generate curry for your functions
 [code](http://ignatandrei.github.io/RSCG_Examples/images/PartiallyApplied/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG PartiallyApplied
 
-The author of PartiallyApplied is Andrei Ignat
+The author of **RSCG PartiallyApplied** is *Jason Bock*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/PartiallyApplied/>
+You cand find **RSCG PartiallyApplied** at Nuget.org :
+<https://www.nuget.org/packages/PartiallyApplied/> and the sources at
+<https://github.com/JasonBock/PartiallyApplied>
 
-For more details and features please read :
+For more usage features please read :
 <https://github.com/JasonBock/PartiallyApplied>
 
 ### Link to Example Code:
@@ -678,14 +689,14 @@ properties of the class
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG IFormattable :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/Usage.cs.png)
 <small>
@@ -699,15 +710,16 @@ properties of the class
 [code](http://ignatandrei.github.io/RSCG_Examples/images/IFormattable/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG IFormattable
 
-The author of IFormattable is Andrei Ignat
+The author of **RSCG IFormattable** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG IFormattable** at Nuget.org :
 <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/> and the sources at
+<http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:
@@ -728,14 +740,14 @@ modify the source code generated
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG AutoInterface :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs.png)
 <small>
@@ -749,14 +761,15 @@ modify the source code generated
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG AutoInterface
 
-The author of AutoInterface is beakona
+The author of **RSCG AutoInterface** is *beakona*
 
-You cand find this generator at Nuget.org :
-<https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator>
+You cand find **RSCG AutoInterface** at Nuget.org :
+<https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator> and the
+sources at <https://github.com/beakona/AutoInterface>
 
-For more details and features please read :
+For more usage features please read :
 <https://github.com/beakona/AutoInterface>
 
 ### Link to Example Code:
@@ -777,14 +790,14 @@ to search for any property of a class
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/The.csproj)
 </small>
 
-### The code that you start with is
+### The initial code that you start with is
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs.png)
 <small>
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs)
 </small>
 
-### The code that you will use is
+### The next code will use the RSCG Property Expression Generator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/Usage.cs.png)
 <small>
@@ -798,15 +811,16 @@ to search for any property of a class
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/GeneratedCode.cs)
 </small>
 
-### Details
+### More details about RSCG Property Expression Generator
 
-The author of Property Expression Generator is Andrei Ignat
+The author of **RSCG Property Expression Generator** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :
+You cand find **RSCG Property Expression Generator** at Nuget.org :
 <https://www.nuget.org/packages/AOPMethodsCommon/>
-<https://www.nuget.org/packages/AOPMethodsGenerator/>
+<https://www.nuget.org/packages/AOPMethodsGenerator/> and the sources at
+<http://github.com/ignatandrei/aop_With_Roslyn/>
 
-For more details and features please read :
+For more usage features please read :
 <http://msprogrammer.serviciipeweb.ro/category/roslyn/>
 
 ### Link to Example Code:

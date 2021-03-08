@@ -4,7 +4,8 @@
    "nuget": ["https://www.nuget.org/packages/JsonByExampleGenerator/"	 		  
 			],
    "link": "https://github.com/hermanussen/JsonByExampleGenerator/",  
-   "author":"Robin Hermanussen"   
+   "author":"Robin Hermanussen"   ,
+   "source":"https://github.com/hermanussen/JsonByExampleGenerator/"
   },
   "data":{
 	"goodFor":"This will generate C# classes from json files.",

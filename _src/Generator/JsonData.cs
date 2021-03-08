@@ -19,6 +19,9 @@ namespace Generator
 
         [JsonPropertyName("author")]
         public string Author { get; set; }
+
+        [JsonPropertyName("source")]
+        public string Source { get; set; }
     }
 
     public class Data

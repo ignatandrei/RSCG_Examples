@@ -3,7 +3,8 @@
    "name": "PartiallyApplied",
    "nuget": ["https://www.nuget.org/packages/PartiallyApplied/"],
    "link": "https://github.com/JasonBock/PartiallyApplied",  
-   "author":"Andrei Ignat"   
+   "author":"Jason Bock",
+   "source":"https://github.com/JasonBock/PartiallyApplied"   
   },
   "data":{
        "goodFor":"This will generate curry for your functions ",

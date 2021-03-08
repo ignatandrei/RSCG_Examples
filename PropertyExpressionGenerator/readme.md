@@ -14,7 +14,7 @@ This will generate code to add function to be used with Entity Framework to sear
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate code to add function to be used with Entity Framework to sear
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG Property Expression Generator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Property%20Expression%20Generator/Usage.cs.png)
 <small>
@@ -38,14 +38,15 @@ This will generate code to add function to be used with Entity Framework to sear
 </small>
 
 
-## Details
+## More details about RSCG Property Expression Generator
 
-The author of Property Expression Generator is Andrei Ignat
+The author of **RSCG Property Expression Generator** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+You cand find **RSCG Property Expression Generator** at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
     https://www.nuget.org/packages/AOPMethodsGenerator/
+and the sources at http://github.com/ignatandrei/aop_With_Roslyn/
 
-For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
+For more usage features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

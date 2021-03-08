@@ -6,7 +6,7 @@
 
 {{ Data.GoodFor }}
 
-## Here is the csproj with the references for RSCG {{Generator.Name}}
+## Here is the csproj with the references for RSCG {{Generator.Name }}
 
 ![csprj](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name | string.replace " " "%20"}}/The.csproj.png)
 <small>
@@ -14,7 +14,7 @@
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name | string.replace " " "%20"}}/ExistingCode.cs.png)
@@ -22,7 +22,7 @@
 [code](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name | string.replace " " "%20"}}/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG {{Generator.Name }} :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/{{Generator.Name | string.replace " " "%20"}}/Usage.cs.png)
 <small>
@@ -38,15 +38,15 @@
 </small>
 
 
-## Details
+## More details about RSCG {{Generator.Name }}
 
-The author of {{Generator.Name }} is {{ Generator.Author }}
+The author of **RSCG {{Generator.Name }}** is *{{ Generator.Author }}*
 
-You cand find this generator at Nuget.org : {{~ for mi in Generator.Nuget ~}}
+You cand find **RSCG {{Generator.Name }}** at Nuget.org : {{~ for mi in Generator.Nuget ~}}
     {{ mi }}
-{{~ end ~}}
+{{~ end ~}} and the sources at {{Generator.Source}}
 
-For more details and features please read : {{Generator.Link}} 
+For more usage features please read : {{Generator.Link}} 
 
 
 ## Link to Example Code: 

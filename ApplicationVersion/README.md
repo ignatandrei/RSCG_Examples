@@ -14,7 +14,7 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 [code](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG ThisAssembly :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/ThisAssembly/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ The ThisAssembly.Info allows you access to the Assembly Information as constants
 </small>
 
 
-## Details
+## More details about RSCG ThisAssembly
 
-The author of ThisAssembly is Daniel Cazzulino
+The author of **RSCG ThisAssembly** is *Daniel Cazzulino*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/ThisAssembly
+You cand find **RSCG ThisAssembly** at Nuget.org :    https://www.nuget.org/packages/ThisAssembly
+and the sources at https://github.com/devlooped/ThisAssembly
 
-For more details and features please read : https://www.clarius.org/ThisAssembly/ 
+For more usage features please read : https://www.clarius.org/ThisAssembly/ 
 
 
 ## Link to Example Code: 

@@ -14,7 +14,7 @@ This will generate code to fast parsing a int or a string to an enum
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate code to fast parsing a int or a string to an enum
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Enum/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG Enum :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Enum/Usage.cs.png)
 <small>
@@ -38,14 +38,15 @@ This will generate code to fast parsing a int or a string to an enum
 </small>
 
 
-## Details
+## More details about RSCG Enum
 
-The author of Enum is Andrei Ignat
+The author of **RSCG Enum** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+You cand find **RSCG Enum** at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
     https://www.nuget.org/packages/AOPMethodsGenerator/
+and the sources at http://github.com/ignatandrei/aop_With_Roslyn/
 
-For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
+For more usage features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

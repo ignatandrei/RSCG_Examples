@@ -14,7 +14,7 @@ This will generate C# classes from json files.
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate C# classes from json files.
 [code](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG JsonByExampleGenerator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/JsonByExampleGenerator/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ This will generate C# classes from json files.
 </small>
 
 
-## Details
+## More details about RSCG JsonByExampleGenerator
 
-The author of JsonByExampleGenerator is Robin Hermanussen
+The author of **RSCG JsonByExampleGenerator** is *Robin Hermanussen*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/JsonByExampleGenerator/
+You cand find **RSCG JsonByExampleGenerator** at Nuget.org :    https://www.nuget.org/packages/JsonByExampleGenerator/
+and the sources at https://github.com/hermanussen/JsonByExampleGenerator/
 
-For more details and features please read : https://github.com/hermanussen/JsonByExampleGenerator/ 
+For more usage features please read : https://github.com/hermanussen/JsonByExampleGenerator/ 
 
 
 ## Link to Example Code: 

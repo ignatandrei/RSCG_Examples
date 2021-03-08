@@ -14,7 +14,7 @@ This will generate code to decorate methods with anything you want ( stopwatch, 
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate code to decorate methods with anything you want ( stopwatch, 
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG Method decorator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Method%20decorator/Usage.cs.png)
 <small>
@@ -38,14 +38,15 @@ This will generate code to decorate methods with anything you want ( stopwatch, 
 </small>
 
 
-## Details
+## More details about RSCG Method decorator
 
-The author of Method decorator is Andrei Ignat
+The author of **RSCG Method decorator** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
+You cand find **RSCG Method decorator** at Nuget.org :    https://www.nuget.org/packages/AOPMethodsCommon/
     https://www.nuget.org/packages/AOPMethodsGenerator/
+and the sources at http://github.com/ignatandrei/aop_With_Roslyn/
 
-For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
+For more usage features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 

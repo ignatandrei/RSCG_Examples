@@ -3,7 +3,8 @@
    "name": "GeneratedMapper",
    "nuget": ["https://www.nuget.org/packages/GeneratedMapper/"],
    "link": "https://github.com/ThomasBleijendaal/GeneratedMapper",  
-   "author":"Thomas Bleijendaal"   
+   "author":"Thomas Bleijendaal"   ,
+   "source":"https://github.com/ThomasBleijendaal/GeneratedMapper"
   },
   "data":{
 	"goodFor":"AutoMapping from a POCO to a DTO. Lots of customizations",

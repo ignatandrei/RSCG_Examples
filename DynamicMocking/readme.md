@@ -14,7 +14,7 @@ This will generate Mock classes directly for any interface - with your implement
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate Mock classes directly for any interface - with your implement
 [code](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG MockSourceGenerator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/MockSourceGenerator/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ This will generate Mock classes directly for any interface - with your implement
 </small>
 
 
-## Details
+## More details about RSCG MockSourceGenerator
 
-The author of MockSourceGenerator is Robin Hermanussen
+The author of **RSCG MockSourceGenerator** is *Robin Hermanussen*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/MockSourceGenerator/
+You cand find **RSCG MockSourceGenerator** at Nuget.org :    https://www.nuget.org/packages/MockSourceGenerator/
+and the sources at https://github.com/hermanussen/MockSourceGenerator/
 
-For more details and features please read : https://github.com/hermanussen/MockSourceGenerator/ 
+For more usage features please read : https://github.com/hermanussen/MockSourceGenerator/ 
 
 
 ## Link to Example Code: 

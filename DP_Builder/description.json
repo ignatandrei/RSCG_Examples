@@ -3,7 +3,8 @@
    "name": "data-builder-generator",
    "nuget": ["https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/"],
    "link": "https://github.com/dasMulli/data-builder-generator",  
-   "author":"Martin Andreas Ulrich"   
+   "author":"Martin Andreas Ulrich"   ,
+   "source":"https://github.com/dasMulli/data-builder-generator"
   },
   "data":{
 	"goodFor":"Implements the Builder Design pattern for any class. Useful , at least, for test projects ",

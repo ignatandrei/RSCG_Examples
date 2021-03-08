@@ -3,7 +3,8 @@
    "name": "ThisAssembly",
    "nuget": ["https://www.nuget.org/packages/ThisAssembly"],
    "link": "https://www.clarius.org/ThisAssembly/",  
-   "author":"Daniel Cazzulino"   
+   "author":"Daniel Cazzulino" ,
+   "source":"https://www.clarius.org/ThisAssembly/"  
   },
   "data":{
 	"goodFor":"The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.",

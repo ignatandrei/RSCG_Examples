@@ -14,7 +14,7 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 [code](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG AutoInterface :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/AutoInterface/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ Implement the Design Pattern Decorator. Based on template - you can modify the s
 </small>
 
 
-## Details
+## More details about RSCG AutoInterface
 
-The author of AutoInterface is beakona
+The author of **RSCG AutoInterface** is *beakona*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator
+You cand find **RSCG AutoInterface** at Nuget.org :    https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator
+and the sources at https://github.com/beakona/AutoInterface
 
-For more details and features please read : https://github.com/beakona/AutoInterface 
+For more usage features please read : https://github.com/beakona/AutoInterface 
 
 
 ## Link to Example Code: 

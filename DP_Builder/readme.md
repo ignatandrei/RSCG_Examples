@@ -14,7 +14,7 @@ Implements the Builder Design pattern for any class. Useful , at least, for test
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ Implements the Builder Design pattern for any class. Useful , at least, for test
 [code](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG data-builder-generator :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/data-builder-generator/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ Implements the Builder Design pattern for any class. Useful , at least, for test
 </small>
 
 
-## Details
+## More details about RSCG data-builder-generator
 
-The author of data-builder-generator is Martin Andreas Ulrich
+The author of **RSCG data-builder-generator** is *Martin Andreas Ulrich*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/
+You cand find **RSCG data-builder-generator** at Nuget.org :    https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/
+and the sources at https://github.com/dasMulli/data-builder-generator
 
-For more details and features please read : https://github.com/dasMulli/data-builder-generator 
+For more usage features please read : https://github.com/dasMulli/data-builder-generator 
 
 
 ## Link to Example Code: 

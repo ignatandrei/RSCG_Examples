@@ -14,7 +14,7 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 [code](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG GeneratedMapper :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/GeneratedMapper/Usage.cs.png)
 <small>
@@ -38,13 +38,14 @@ AutoMapping from a POCO to a DTO. Lots of customizations
 </small>
 
 
-## Details
+## More details about RSCG GeneratedMapper
 
-The author of GeneratedMapper is Thomas Bleijendaal
+The author of **RSCG GeneratedMapper** is *Thomas Bleijendaal*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/GeneratedMapper/
+You cand find **RSCG GeneratedMapper** at Nuget.org :    https://www.nuget.org/packages/GeneratedMapper/
+and the sources at https://github.com/ThomasBleijendaal/GeneratedMapper
 
-For more details and features please read : https://github.com/ThomasBleijendaal/GeneratedMapper 
+For more usage features please read : https://github.com/ThomasBleijendaal/GeneratedMapper 
 
 
 ## Link to Example Code: 

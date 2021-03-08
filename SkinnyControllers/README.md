@@ -14,7 +14,7 @@ This will generate code for WebAPI for each method of a field in the controller
 </small>
 
 
-## The code that you start with is 
+## The initial code that you start with is 
 
 
 ![start](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs.png)
@@ -22,7 +22,7 @@ This will generate code for WebAPI for each method of a field in the controller
 [code](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/ExistingCode.cs)
 </small>
 
-## The code that you will use is
+## The next code will use the RSCG Skinny Controllers :
 
 ![usage](http://ignatandrei.github.io/RSCG_Examples/images/Skinny%20Controllers/Usage.cs.png)
 <small>
@@ -38,14 +38,15 @@ This will generate code for WebAPI for each method of a field in the controller
 </small>
 
 
-## Details
+## More details about RSCG Skinny Controllers
 
-The author of Skinny Controllers is Andrei Ignat
+The author of **RSCG Skinny Controllers** is *Andrei Ignat*
 
-You cand find this generator at Nuget.org :    https://www.nuget.org/packages/SkinnyControllersCommon/
+You cand find **RSCG Skinny Controllers** at Nuget.org :    https://www.nuget.org/packages/SkinnyControllersCommon/
     https://www.nuget.org/packages/SkinnyControllersGenerator/
+and the sources at http://github.com/ignatandrei/aop_With_Roslyn/
 
-For more details and features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
+For more usage features please read : http://msprogrammer.serviciipeweb.ro/category/roslyn/ 
 
 
 ## Link to Example Code: 
