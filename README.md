@@ -205,3 +205,6 @@ https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
 [https://ignatandrei.github.io/RSCG_Examples/index.docx](https://ignatandrei.github.io/RSCG_Examples/index.docx)
 
+## Support 
+
+If you have liked those examples, please buy the book in paperback or Kindle format from [Amazon](https://amzn.to/3d4gRgy)
