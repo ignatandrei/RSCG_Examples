@@ -8,6 +8,7 @@
         do?](#i-have-a-suggestion-for-a-new-rscg-that-is-worth-mentioning-in-this-book-what-can-i-do)
     -   [I want to make a RSCG that will be useful. How can I
         do?](#i-want-to-make-a-rscg-that-will-be-useful-how-can-i-do)
+    -   [I want the book / sponsor you](#i-want-the-book--sponsor-you)
 -   [Introduction](#introduction)
     -   [What is a Roslyn Source Code
         Generator?](#what-is-a-roslyn-source-code-generator)
@@ -158,6 +159,13 @@ In the introduction I have put the links to get you started with RSCG.
 
 And, if you bought this book from Amazon, you are entitled to have 1
 hour free of consultancy with me. I can help you make one.
+
+### I want the book / sponsor you
+
+Glad that you have asked. Please goto Amazon: <https://amzn.to/3f6gll3>
+
+( and this will remain free:
+<https://ignatandrei.github.io/RSCG_Examples/>)
 
 ## Introduction
 
@@ -1207,7 +1215,7 @@ and maybe add to this book .
 
 ### One hour of free consultancy
 
-If you bought this book from Amazon, you are entitled to have 1 hour
-free of consultancy with me.
+If you bought this book from Amazon, <https://amzn.to/3f6gll3>, you are
+entitled to have 1 hour free of consultancy with me.
 
 Thanks ! Andrei

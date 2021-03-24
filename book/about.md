@@ -32,3 +32,9 @@ In the  introduction I have put the links to get you started with RSCG.
 
 And, if you bought this book from Amazon, you are entitled to have 1 hour free of consultancy with me. I can help you make one.
 
+## I want the book / sponsor you
+
+Glad that you have asked.  Please goto  Amazon: https://amzn.to/3f6gll3
+
+( and this will remain free:  https://ignatandrei.github.io/RSCG_Examples/)
+
