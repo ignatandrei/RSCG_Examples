@@ -20,5 +20,7 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 16.	Web-Anchor	https://github.com/mattiasnordqvist/Web-Anchor
 17.	WrapperValueObject	https://github.com/martinothamar/WrapperValueObject
 18. Plant UML to C#  -  https://github.com/gabriele-tomassetti/code-generation-roslyn
+19. Strong Inject -  https://github.com/YairHalberstadt/stronginject
+20. https://github.com/thinktecture/article-roslyn-source-generators 
 
 
