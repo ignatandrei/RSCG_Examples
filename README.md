@@ -182,7 +182,19 @@
 
 </table>
 
-## Links for Source Generators
+Coming soon:
+
+.NET 6 JSON Serializer :
+
+https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/#libraries-jsonserializer-source-generation
+
+.NET 6 Logging:
+https://docs.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
+
+
+## Links for Roslyn Source Code Generators
+
+If you want to develop a custom RSCG , see the following documents:
 
 https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
 
