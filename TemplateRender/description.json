@@ -1,13 +1,13 @@
 {
   "generator": {
-   "name": "ThisAssembly",
-   "nuget": ["https://www.nuget.org/packages/ThisAssembly"],
-   "link": "https://www.clarius.org/ThisAssembly/",  
-   "author":"Daniel Cazzulino" ,
-   "source":"https://www.clarius.org/ThisAssembly/"  
+   "name": "Transplator",
+   "nuget": ["https://www.nuget.org/packages/Transplator/"],
+   "link": "https://github.com/atifaziz/Transplator/",  
+   "author":"Atif Aziz" ,
+   "source":"https://github.com/atifaziz/Transplator/"  
   },
   "data":{
-	"goodFor":"The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.",
+	"goodFor":"The Transplator is a small fast rendering engine to allow you to make rendering from any class instance.",
 	"existingCode":[
 		"<PropertyGroup>",
 		"<Version>2021.2.15.800</Version>",

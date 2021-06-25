@@ -24,6 +24,9 @@ namespace Rendering
             e.Name = "Andrei Ignat";
             e.Department = IT;
 
+            var render = EmployeeRendering.Render(e);
+            Console.WriteLine(render);
+
 
         }
     }
