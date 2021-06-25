@@ -1,0 +1,26 @@
+Hello Atif Aziz
+
+I have started a mini-e-book about Roslyn Source Code Generators(RSCG).
+
+Your RSCG , Transplator from https://github.com/atifaziz/Transplator/ , is between them at https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender
+
+I am thinking to add to the e-book the some more information regarding the RSCG from the authors of RSCG.
+
+So could you please answer to the following :
+
+1. Short info about you , Atif Aziz
+
+2. Why did you start this Transplator  ?
+
+3. How do yourself use your Transplator ?
+
+4. What other RSCG do you use ? 
+
+5. Any other feedback ?
+
+Thanks
+
+Andrei Ignat
+http://msprogrammer.serviciipeweb.ro/
+
+

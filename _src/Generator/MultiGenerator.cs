@@ -34,7 +34,8 @@ namespace Generator
                 "PartiallyFunction",
                 "IFormattable",
                 "DP_Decorator",
-                "PropertyExpressionGenerator"
+                "PropertyExpressionGenerator",
+                "TemplateRender"
             };
             this.rootPath = root;
         }

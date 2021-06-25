@@ -180,21 +180,21 @@
 
 </tr>
 
+<tr>
+<td>15</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender' target='_blank'>Transplator</a>
+</td>
+
+<td>The Transplator is a small fast rendering engine to allow you to make rendering from any class instance.</td>
+
+</td>
+
+</tr>
+
 </table>
 
-Coming soon:
-
-.NET 6 JSON Serializer :
-
-https://devblogs.microsoft.com/dotnet/announcing-net-6-preview-5/#libraries-jsonserializer-source-generation
-
-.NET 6 Logging:
-https://docs.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
-
-
-## Links for Roslyn Source Code Generators
-
-If you want to develop a custom RSCG , see the following documents:
+## Links for Source Generators
 
 https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
 
@@ -217,6 +217,3 @@ https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
 [https://ignatandrei.github.io/RSCG_Examples/index.docx](https://ignatandrei.github.io/RSCG_Examples/index.docx)
 
-## Support 
-
-If you have liked those examples, please buy the book in paperback or Kindle format from [Amazon](https://amzn.to/3d4gRgy)
