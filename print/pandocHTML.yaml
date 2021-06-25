@@ -28,6 +28,7 @@ input-files:
 - ../IFormattable/readme.md
 - ../DP_Decorator/README.md
 - ../PropertyExpressionGenerator/readme.md
+- ../TemplateRender/readme.md
 - ../book/others.md
 - ../book/conclusion.md
 
