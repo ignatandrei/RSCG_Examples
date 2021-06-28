@@ -22,5 +22,5 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 18. Plant UML to C#  -  https://github.com/gabriele-tomassetti/code-generation-roslyn
 19. Strong Inject -  https://github.com/YairHalberstadt/stronginject
 20. https://github.com/thinktecture/article-roslyn-source-generators 
-
+21. https://github.com/HamedFathi/MockableStaticGenerator
 
