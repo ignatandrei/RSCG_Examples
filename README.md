@@ -232,5 +232,8 @@ This is obsolete
 
 I can make a presentation for you with some of this RSCG. See https://ignatandrei.github.io/Presentations/RoslynSourceCodeGeneratorsprez.html
 
-<iframe src="https://github.com/sponsors/ignatandrei/card" title="Sponsor ignatandrei" height="225" width="600" style="border: 0;"></iframe>
+## Sponsorship
+
+If you liked this book, please https://github.com/sponsors/ignatandrei/
+
 
