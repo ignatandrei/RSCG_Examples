@@ -202,7 +202,18 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
+## Debug
+
+```xml
+<IsRoslynComponent>true</IsRoslynComponent>
+```
+
 ## Helper for see the files
+
+In VS , expand Analyzer ,then the RSCG and you will see the generated file(s).
+
+
+This is obsolete
 
 ```   
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
@@ -216,4 +227,10 @@ https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 ## Free ebook
 
 [https://ignatandrei.github.io/RSCG_Examples/index.docx](https://ignatandrei.github.io/RSCG_Examples/index.docx)
+
+## Free presentation
+
+I can make a presentation for you with some of this RSCG. See https://ignatandrei.github.io/Presentations/RoslynSourceCodeGeneratorsprez.html
+
+<iframe src="https://github.com/sponsors/ignatandrei/card" title="Sponsor ignatandrei" height="225" width="600" style="border: 0;"></iframe>
 
