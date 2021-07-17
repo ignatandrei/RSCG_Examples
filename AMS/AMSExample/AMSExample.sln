@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMSExample", "AMSExample\AMSExample.csproj", "{CC652E62-9622-452C-82F8-34E6EAC944B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAMSWebAPI", "TestAMSWebAPI\TestAMSWebAPI.csproj", "{D6C40BEE-3D23-4856-8F5E-983EA1C6648A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC652E62-9622-452C-82F8-34E6EAC944B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC652E62-9622-452C-82F8-34E6EAC944B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC652E62-9622-452C-82F8-34E6EAC944B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC652E62-9622-452C-82F8-34E6EAC944B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C40BEE-3D23-4856-8F5E-983EA1C6648A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C40BEE-3D23-4856-8F5E-983EA1C6648A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C40BEE-3D23-4856-8F5E-983EA1C6648A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C40BEE-3D23-4856-8F5E-983EA1C6648A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C91630EF-77FF-4709-AC21-44D7BDD7B420}
+	EndGlobalSection
+EndGlobal
