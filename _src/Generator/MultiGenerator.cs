@@ -36,7 +36,7 @@ namespace Generator
                 "DP_Decorator",
                 "PropertyExpressionGenerator",
                 "TemplateRender",
-                "ApplicationVersion"
+                "CI_Version"
             };
             this.rootPath = root;
         }

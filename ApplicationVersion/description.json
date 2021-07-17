@@ -1,71 +1,57 @@
 {
   "generator": {
-   "name": "RSCG_AMS",
-   "nuget": [
-   "https://www.nuget.org/packages/AMS_Base",
-   "https://www.nuget.org/packages/AMSWebAPI",
-   "https://www.nuget.org/packages/RSCG_AMS"
-   ],
-   "link": "https://github.com/ignatandrei/RSCG_AMS",  
-   "author":"Andrei Ignat"   ,
-   "source":"https://github.com/ignatandrei/RSCG_AMS"
+   "name": "ThisAssembly",
+   "nuget": ["https://www.nuget.org/packages/ThisAssembly"],
+   "link": "https://www.clarius.org/ThisAssembly/",  
+   "author":"Daniel Cazzulino"   ,
+   "source":"https://github.com/devlooped/ThisAssembly"
   },
   "data":{
-	"goodFor":"The AMS will add in the CI the version and creator to your project.See https://netcoreblockly.herokuapp.com/ams  for an example",	
+	"goodFor":"The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.",
 	"existingCode":[
-		    "<PackageReference Include=\"AMS_Base\"  />",
-    "<PackageReference Include=\"AMSWebAPI\"  />",
-    "<PackageReference Include=\"RSCG_AMS\"  ReferenceOutputAssembly=\"false\" OutputItemType=\"Analyzer\" />"
-
+		"<PropertyGroup>",
+		"<Version>2021.2.15.800</Version>",
+		"</PropertyGroup>"
 	],
 	"usage":[
-		    "app.UseEndpoints(endpoints =>",
-            "{",
-            "    endpoints.MapControllers();",
-            "    endpoints.UseAMS();",
-            "});"
-
+		"var strVersion=ThisAssembly.Info.Version;",
+		"Console.WriteLine(strVersion);"
 	],
 	"generatedCode":[
-"using System;",
-"using AMS_Base;",
-"namespace AMSExample { ",
-"    /// <summary>",
-"    /// this is the About My Software for 65788572124102115119116110",
+
+		"    /// <summary> ",
+"    /// Provides access to the current assembly information as pure constants, ",
+"    ///  without requiring reflection.",
 "    /// </summary>",
-"    public class XAboutMySoftware_65788572124102115119116110 :AboutMySoftware {",
+"    partial class ThisAssembly",
+"    {",
 "        /// <summary>",
-"        /// starts when this module is loaded and ",
-"        /// add the AMS tot the ",
+"        /// Gets the AssemblyInfo attributes.",
 "        /// </summary>",
-"        [System.Runtime.CompilerServices.ModuleInitializer]",
-"        public static void Add_AboutMySoftware_65788572124102115119116110(){",
-"            AboutMySoftware.AddDefinition(\"AMSExample\",new  XAboutMySoftware_65788572124102115119116110());  ",    
+"        [GeneratedCode(\"ThisAssembly.AssemblyInfo\", \"1.0.0\")]",
+"        [CompilerGenerated]",
+"        public static partial class Info",
+"        {",
+"            public const string Company = @\"RSCG_Version\";",
+"",
+"            public const string Configuration = @\"Debug\";",
+"",
+"            public const string FileVersion = @\"2021.2.15.800\";",
+"",
+"            public const string InformationalVersion = @\"2021.2.15.800\";",
+"",
+"            public const string Product = @\"RSCG_Version\";",
+"",
+"            public const string Title = @\"RSCG_Version\";",
+"",
+"            public const string Version = @\"2021.2.15.800\";",
+"",
 "        }",
-"        /// <summary>",
-"        /// constructor",
-"        /// for AMS 65788572124102115119116110",
-"        /// </summary>",
-"        public XAboutMySoftware_65788572124102115119116110(){",
-"            AssemblyName =\"AMSExample\" ; ",
-"            DateGenerated = DateTime.ParseExact(\"20210717034910\", \"yyyyMMddHHmmss\", null); ",
-"            CommitId  = \"not in a CI run\" ; ",
-"            RepoUrl =\"https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md\" ; ",
-"            CISourceControl = \"not in a CI run\" ; ",
-"            SourceCommit = \"https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md\" ; ",
-"            Authors= \"\";",
-"            Version= \"\";  ",  
-"            User = \"Surface1\";",
-"        }",
-"        ",
-"    }",
-"       ", 
-"}"
-		
+"    }"
 	]
   },
   "links":{
-	"blog":"http://msprogrammer.serviciipeweb.ro/category/ams/",
+	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
 	"video":"",
 	"example":"https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"
   }
