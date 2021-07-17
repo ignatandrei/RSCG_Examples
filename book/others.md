@@ -23,4 +23,5 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 19. Strong Inject -  https://github.com/YairHalberstadt/stronginject
 20. https://github.com/thinktecture/article-roslyn-source-generators 
 21. https://github.com/HamedFathi/MockableStaticGenerator
+22. https://github.com/mrtaikandi/MapTo/
 
