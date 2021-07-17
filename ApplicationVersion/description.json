@@ -1,57 +1,38 @@
 {
   "generator": {
-   "name": "ThisAssembly",
-   "nuget": ["https://www.nuget.org/packages/ThisAssembly"],
-   "link": "https://www.clarius.org/ThisAssembly/",  
-   "author":"Daniel Cazzulino"   ,
-   "source":"https://github.com/devlooped/ThisAssembly"
+   "name": "RSCG_AMS",
+   "nuget": [
+   "https://www.nuget.org/packages/AMS_Base",
+   "https://www.nuget.org/packages/AMSWebAPI",
+   "https://www.nuget.org/packages/RSCG_AMS"
+   ],
+   "link": "https://github.com/ignatandrei/RSCG_AMS",  
+   "author":"Andrei Ignat"   ,
+   "source":"https://github.com/ignatandrei/RSCG_AMS"
   },
   "data":{
-	"goodFor":"The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.",
+	"goodFor":"The AMS will add in the CI the version and creator to your project.See https://netcoreblockly.herokuapp.com/ams  for an example",	
 	"existingCode":[
-		"<PropertyGroup>",
-		"<Version>2021.2.15.800</Version>",
-		"</PropertyGroup>"
+		    "<PackageReference Include=\"AMS_Base\"  />",
+    "<PackageReference Include=\"AMSWebAPI\"  />",
+    "<PackageReference Include="RSCG_AMS"  ReferenceOutputAssembly=\"false\" OutputItemType=\"Analyzer\" />"
+
 	],
 	"usage":[
-		"var strVersion=ThisAssembly.Info.Version;",
-		"Console.WriteLine(strVersion);"
+		    "app.UseEndpoints(endpoints =>",
+            "{",
+            "    endpoints.MapControllers();",
+            "    endpoints.UseAMS();",
+            "});",
+
 	],
 	"generatedCode":[
 
-		"    /// <summary> ",
-"    /// Provides access to the current assembly information as pure constants, ",
-"    ///  without requiring reflection.",
-"    /// </summary>",
-"    partial class ThisAssembly",
-"    {",
-"        /// <summary>",
-"        /// Gets the AssemblyInfo attributes.",
-"        /// </summary>",
-"        [GeneratedCode(\"ThisAssembly.AssemblyInfo\", \"1.0.0\")]",
-"        [CompilerGenerated]",
-"        public static partial class Info",
-"        {",
-"            public const string Company = @\"RSCG_Version\";",
-"",
-"            public const string Configuration = @\"Debug\";",
-"",
-"            public const string FileVersion = @\"2021.2.15.800\";",
-"",
-"            public const string InformationalVersion = @\"2021.2.15.800\";",
-"",
-"            public const string Product = @\"RSCG_Version\";",
-"",
-"            public const string Title = @\"RSCG_Version\";",
-"",
-"            public const string Version = @\"2021.2.15.800\";",
-"",
-"        }",
-"    }"
+		
 	]
   },
   "links":{
-	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
+	"blog":"http://msprogrammer.serviciipeweb.ro/category/ams/",
 	"video":"",
 	"example":"https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"
   }
