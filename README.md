@@ -192,6 +192,18 @@
 
 </tr>
 
+<tr>
+<td>16</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version' target='_blank'>RSCG_AMS</a>
+</td>
+
+<td>The AMS will add in the CI the version and creator to your project.See https://netcoreblockly.herokuapp.com/ams  for an example</td>
+
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
@@ -202,18 +214,7 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
-## Debug
-
-```xml
-<IsRoslynComponent>true</IsRoslynComponent>
-```
-
 ## Helper for see the files
-
-In VS , expand Analyzer ,then the RSCG and you will see the generated file(s).
-
-
-This is obsolete
 
 ```   
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
@@ -227,13 +228,4 @@ This is obsolete
 ## Free ebook
 
 [https://ignatandrei.github.io/RSCG_Examples/index.docx](https://ignatandrei.github.io/RSCG_Examples/index.docx)
-
-## Free presentation
-
-I can make a presentation for you with some of this RSCG. See https://ignatandrei.github.io/Presentations/RoslynSourceCodeGeneratorsprez.html
-
-## Sponsorship
-
-If you liked this book, please https://github.com/sponsors/ignatandrei/
-
 

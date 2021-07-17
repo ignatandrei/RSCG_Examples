@@ -101,7 +101,10 @@ namespace Generator
         public int GenerateCSPROJ(string folder, string rootDesc)
         {
             var f = Directory.GetFiles(rootDesc, "*.csproj", SearchOption.AllDirectories);
-            f = f.Where(it => !it.Contains("MatOps.csproj")).ToArray();
+            f = f
+                    .Where(it => !it.Contains("MatOps.csproj"))
+                    .Where(it => !it.Contains("AMSExample.csproj"))
+               .ToArray();
             switch (f.Length)
             {
                 case 1:
