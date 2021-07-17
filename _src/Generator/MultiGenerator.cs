@@ -35,7 +35,8 @@ namespace Generator
                 "IFormattable",
                 "DP_Decorator",
                 "PropertyExpressionGenerator",
-                "TemplateRender"
+                "TemplateRender",
+                "ApplicationVersion"
             };
             this.rootPath = root;
         }

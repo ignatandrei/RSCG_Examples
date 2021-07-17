@@ -15,7 +15,7 @@
 	"existingCode":[
 		    "<PackageReference Include=\"AMS_Base\"  />",
     "<PackageReference Include=\"AMSWebAPI\"  />",
-    "<PackageReference Include="RSCG_AMS"  ReferenceOutputAssembly=\"false\" OutputItemType=\"Analyzer\" />"
+    "<PackageReference Include=\"RSCG_AMS\"  ReferenceOutputAssembly=\"false\" OutputItemType=\"Analyzer\" />"
 
 	],
 	"usage":[
@@ -23,7 +23,7 @@
             "{",
             "    endpoints.MapControllers();",
             "    endpoints.UseAMS();",
-            "});",
+            "});"
 
 	],
 	"generatedCode":[
