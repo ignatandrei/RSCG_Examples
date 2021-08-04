@@ -1,6 +1,6 @@
 using System;
 
-namespace GenHttpClient
+namespace BL
 {
     public class WeatherForecast
     {

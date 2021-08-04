@@ -1,4 +1,4 @@
-﻿using GenHttpClient;
+﻿using BL;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
