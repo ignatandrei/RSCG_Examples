@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using BL;
 using HttpClientGenerator.Shared;
 
 namespace GenHttpClient
@@ -26,7 +27,7 @@ namespace GenHttpClient
        [HttpGet("WeatherForecast/{id}")]
        public partial Task<WeatherForecast> GetWeather(int id);
 
-        [HttpPost("WeatherForecast")]
-        public partial Task<WeatherForecast[]> GetAllWeather();
+        //[HttpPost("WeatherForecast")]
+        //public partial Task<WeatherForecast[]> GetAllWeather();
     }
 }
