@@ -36,7 +36,8 @@ namespace Generator
                 "DP_Decorator",
                 "PropertyExpressionGenerator",
                 "TemplateRender",
-                "CI_Version"
+                "CI_Version",
+                "HttpClientCodeGenerator"
             };
             this.rootPath = root;
         }
@@ -104,6 +105,8 @@ namespace Generator
             f = f
                     .Where(it => !it.Contains("MatOps.csproj"))
                     .Where(it => !it.Contains("AMSExample.csproj"))
+                    .Where(it => !it.Contains("HttpClientTestWebSite.csproj"))
+                    .Where(it => !it.Contains("BL.csproj"))
                .ToArray();
             switch (f.Length)
             {

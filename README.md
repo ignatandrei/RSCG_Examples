@@ -204,6 +204,18 @@
 
 </tr>
 
+<tr>
+<td>17</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator' target='_blank'>HttpClientGenerator</a>
+</td>
+
+<td>HttpClientGenerator is a tool that uses Roslyn code generator feature to write boilerplate HttpClient code for you.</td>
+
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
