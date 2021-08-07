@@ -4,7 +4,11 @@ namespace BL
 {
     public class WeatherForecast
     {
-        //public DateTime Date { get; set; }
+        public WeatherForecast()
+        {
+            int i = 4;
+        }
+        public DateTime Date { get; set; }
 
         public int TemperatureC { get; set; }
 
