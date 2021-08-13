@@ -26,3 +26,9 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 22. https://github.com/mrtaikandi/MapTo/
 23. https://www.nuget.org/packages/Dnf.SourceGenerators/1.0.0 
 24. https://github.com/Flash0ver/F0.Generators
+25. https://github.com/giggio/sourceinject
+26. https://github.com/anton-yashin/LightMock.Generator
+27. https://github.com/sungaila/Cdelta
+28. https://github.com/robertturner/StaticProxyGenerator
+29. https://github.com/JoshDiDuca/CodeSourceGenerator/tree/master/examples
+30. 
