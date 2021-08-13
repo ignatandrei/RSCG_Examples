@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebFromQuery", "WebFromQuery\WebFromQuery.csproj", "{B61B2A89-8148-418D-98F7-3A5DD92DE124}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoslynQueryGenerator", "..\..\..\..\QueryViewer\src\RoslynQueryGenerator\RoslynQueryGenerator.csproj", "{6082BF09-93C2-419A-A63A-86A22285CD42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B61B2A89-8148-418D-98F7-3A5DD92DE124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61B2A89-8148-418D-98F7-3A5DD92DE124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61B2A89-8148-418D-98F7-3A5DD92DE124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61B2A89-8148-418D-98F7-3A5DD92DE124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6082BF09-93C2-419A-A63A-86A22285CD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6082BF09-93C2-419A-A63A-86A22285CD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6082BF09-93C2-419A-A63A-86A22285CD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6082BF09-93C2-419A-A63A-86A22285CD42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAA6ED35-F5FD-442B-8BC6-EEB93818965E}
+	EndGlobalSection
+EndGlobal

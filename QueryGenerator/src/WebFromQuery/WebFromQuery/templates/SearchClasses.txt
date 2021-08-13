@@ -1,0 +1,21 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using {{ namespaceName }}.Classes;
+using RoslynQueryGenerator;
+namespace  {{ namespaceName }}.Classes{
+    public interface IFind{
+    }
+    {{ for item in root.itemData }}
+                
+        {{ for query in item.queries }}
+        public class Find_{{item.Name}}_{{query.Name}}:IFind{
+            public SearchField[] Searches {get;set;}
+            
+        }
+        {{ end }}
+        
+    {{end}}
+}

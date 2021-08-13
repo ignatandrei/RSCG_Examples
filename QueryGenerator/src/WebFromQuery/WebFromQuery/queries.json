@@ -1,0 +1,18 @@
+{
+  "itemData": [
+    {
+      "Name": "Sqlite",
+      "connectionString": "Data Source=My.db",
+      "queriesData": [
+        {
+          "Ignore": false,
+          "Name": "MyName",
+          "QueryMultiline": [ "select * from Person" ],
+          "IDSearch": "id"
+  
+
+        }
+      ]
+    }
+  ]
+}

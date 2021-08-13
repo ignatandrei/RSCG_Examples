@@ -1,0 +1,139 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.Extensions.DependencyInjection;
+using {{ namespaceName }}.Classes;
+using RoslynQueryGenerator;
+namespace  {{ namespaceName }}{
+    public static class Extensions{
+        public static void AddFactoryGenerated(this IServiceCollection services){
+            {{ for item in root.itemData }}
+                services.AddDbContextFactory<ApplicationDbContext{{item.Name}}>(b =>
+                        b.UseSqlServer(@"{{item.connectionString}}"));
+            {{end}}
+        }
+
+        
+   
+    }
+    public static class QueryControllers{
+         
+        public static string[] Names = new string[]{
+            {{ for item in root.itemData }}       
+                "{{item.Name}}" {{ if ! for.last  }} , {{end}}
+            {{end}}
+        };
+
+        public static string Definition(string item , string queryName){
+             switch(item)
+            {            
+                {{ for item in root.itemData }}       
+                   
+                    case "{{item.Name}}" :
+                            switch(queryName){
+                            {{ for query1 in item.queries }}
+                                case "{{query1.Name}}":                                    
+                                    {
+                                    var str="";
+                                    {{ for str in query1.QueryMultiline}}
+                                    str += "{{str}}";
+                                    {{ end }}
+                                    return str;
+                                    }
+                            {{end}}
+                          
+                            
+                            }
+                          return "";
+                        
+                {{end}}
+            }
+            return null;
+        }
+        public static string FieldSearch(string item , string queryName){
+             switch(item)
+            {            
+                {{ for item in root.itemData }}       
+                   
+                    case "{{item.Name}}" :
+                            switch(queryName){
+                            {{ for query1 in item.queries }}
+                            {{ idQ = query1.IDSearch }}
+                                case "{{query1.Name}}":                                    
+                                    return "{{query1.IDSearch}}";//{{idQ}}
+                            {{end}}
+                          
+                            
+                            }
+                          return "";
+                        
+                {{end}}
+            }
+            return null;
+        }
+        public static string[] ActionsFor(string controllerName){
+            
+            switch(controllerName)
+            {            
+                {{ for item in root.itemData }}       
+                    case "{{item.Name}}" :
+                        return new string[]{
+                            {{ for query in item.queries }}
+                                "{{query.Name}}" {{ if ! for.last  }} , {{end}}
+                            {{ end }}
+                        };
+                {{end}}
+            }
+            return null;
+            
+        }
+        public static FieldDescription[] Fields(string itemName, string queryName){
+            
+            FieldDescription fd=null;
+            var fieldNames=new List<FieldDescription>();
+            switch(itemName?.ToUpper()){
+            {{ for item in root.itemData  }}
+                case "{{item.Name | string.upcase}}":
+                    switch(queryName?.ToUpper()){
+                    {{ for query in item.queries }} 
+                        case "{{query.Name | string.upcase}}":
+                        {
+                        SearchField sf;
+                        {{ for kv in query.Fields }}
+                            fd=new FieldDescription();
+                            fd.FieldName = "{{kv.Key}}";
+                            fd.FieldType ="{{kv.Value}}";
+                            fd.QueryName = "{{query.Name}}";
+                            fd.ItemName  = "{{item.Name}}";
+                            fieldNames.Add(fd);                        
+                            
+                            {{for defVal in query.DefaultValues }}
+                            {{ if defVal.FieldName  == kv.Key}}
+                            sf=new SearchField();
+                            sf.FieldName = "{{defVal.FieldName}}";
+                            sf.Value = "{{defVal.Value}}";
+                            sf.Criteria = SearchCriteria.{{defVal.CriteriaString }};
+                            sf.CriteriaString =  "{{defVal.CriteriaString }}";
+                            fd.DefaultValue= sf;
+                            {{end}}
+                            {{ end }}
+                        {{end}}    
+                        return fieldNames.ToArray();
+                        }
+                    {{end}}
+                        default://switch queryName
+                            return null;
+                    }//switch queryName
+
+                    break;//{{item.Name}}
+                    
+            {{end}} 
+                default:
+                    return null;
+            }//switch itemName
+            return null;
+        }
+    }
+}

@@ -1,0 +1,176 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using {{ namespaceName }}.Classes;
+//using {{ namespaceName }}.Models;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using RoslynQueryGenerator;
+namespace {{ namespaceName }}.Controllers
+{
+    [ApiController]
+    [Route("[controller]/[action]")]
+    
+    public partial class MetadataController : Controller
+    {
+        
+        [HttpGet]
+        public string[] ControllerNames(){
+            return QueryControllers.Names;
+        }
+
+        [HttpGet("{controllerName}")]
+        public string[] ActionsNames(string controllerName){
+            return QueryControllers.ActionsFor(controllerName);
+        }
+        [HttpGet("{controllerName}/{queryName}")]
+        public FieldDescription[] Fields(string controllerName,string queryName){
+            return QueryControllers.Fields(controllerName,queryName);
+        }
+
+        [HttpGet("{controllerName}/{queryName}")]
+        public string Definition(string controllerName,string queryName){
+            return QueryControllers.Definition(controllerName,queryName);
+        }
+        [HttpGet("{typeField}")]
+        public KeyValuePair<SearchCriteria,string>[] GetSearch(string typeField){
+            var lst=new List<KeyValuePair<SearchCriteria,string>>();
+            lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.None,SearchCriteria.None.ToString()));
+            lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.Equal,SearchCriteria.Equal.ToString()));
+            lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.Different,SearchCriteria.Different.ToString()));
+            var compare= new string[]{ "System.Int32"  ,"System.Int64"  , "System.Double","System.DateTime"};
+            if(compare.Contains(typeField)){
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.Less,SearchCriteria.Less.ToString()));
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.LessOrEqual,SearchCriteria.LessOrEqual.ToString()));
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.Greater,SearchCriteria.Greater.ToString()));
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.GreaterOrEqual,SearchCriteria.GreaterOrEqual.ToString()));
+            }
+            if(typeField == "System.String"){
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.Contains,SearchCriteria.Contains.ToString()));
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.StartsWith,SearchCriteria.StartsWith.ToString()));
+                lst.Add(new KeyValuePair<SearchCriteria,string>(SearchCriteria.EndsWith,SearchCriteria.EndsWith.ToString()));
+            }
+
+            return lst.ToArray();
+        }
+    }
+    {{ for item in root.itemData }}
+    
+    [ApiController]
+    [Route("[controller]/[action]")]
+    
+    public partial class {{item.Name}}Controller : Controller
+    {
+        partial void BeforeAction(string name);
+        partial void AfterAction(string name);
+        partial void ExceptionAction(string name, Exception ex);
+
+        public string[] ActionNames = new string[]
+        {
+            {{ for query in item.queries }}
+                "{{query.Name}}" {{ if for.last == false  }} , {{end}}
+            {{ end }}
+        };
+        private readonly ILogger<{{item.Name}}Controller> _logger;
+        [HttpGet]
+        public string[] DisplayIDs()
+        {
+            return ActionNames;
+        }
+        
+        {{ for query in item.queries }}
+
+        static Dictionary<string,Find_{{item.Name}}_{{query.Name}} > data{{query.Name}}=new Dictionary<string,Find_{{item.Name}}_{{query.Name}} >();
+
+        [HttpGet("{id}")]
+        public SearchField[] GetSearch{{query.Name}}(string id){
+            try{
+                BeforeAction(nameof(GetSearch{{query.Name}}));
+                if(data{{query.Name}}.ContainsKey(id))
+                    return data{{query.Name}}[id].Searches;
+                
+                FieldDescription[] data=QueryControllers.Fields("{{item.Name}}","{{query.Name}}");
+                var ret = data.Select(it=>it.DefaultValue).Where(it=>it != null).ToArray();
+                return ret;
+            }
+            catch(Exception ex){
+                ExceptionAction(nameof(GetSearch{{query.Name}}),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(GetSearch{{query.Name}}));
+            }
+        }
+        [HttpPost()]
+        public string SaveSearch{{query.Name}}(Find_{{item.Name}}_{{query.Name}}  searches){
+            
+            try{
+                BeforeAction(nameof(SaveSearch{{query.Name}}));
+             
+                var id= "keySave"+data{{query.Name}}.Count+1;
+                data{{query.Name}}[id]=searches;
+                return id;
+
+            }
+            catch(Exception ex){
+                ExceptionAction(nameof(SaveSearch{{query.Name}}),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(SaveSearch{{query.Name}}));
+            }
+        }
+
+        /* 
+        [HttpGet]
+        public async Task<ActionResult<DisplayData>> DisplayDataFor{{query.Name}}([FromServices] IDbContextFactory<ApplicationDbContext{{item.Name}}> context, string idSearch)
+        {
+            try{
+                BeforeAction(nameof(DisplayDataFor));
+             
+                //if(System.Diagnostics.Debugger.IsAttached)
+                  //  System.Diagnostics.Debugger.Break();
+                using var db = context.CreateDbContext();
+                var data = await db.DisplayDataFor("{{query.Name}}",idSearch,0);
+                Console.WriteLine(data.Values.Length);
+                return data;
+            }                
+            catch(Exception ex){
+                ExceptionAction(nameof(DisplayDataFor),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(DisplayDataFor));
+            }
+        }
+        */
+        [HttpPost]
+        public async Task<DisplayData> DisplayDataFor{{query.Name}}([FromServices] IDbContextFactory<ApplicationDbContext{{item.Name}}> context, Find_{{item.Name}}_{{query.Name}} find)
+        {
+            try{
+                BeforeAction(nameof(DisplayDataFor{{query.Name}}));
+             
+                //System.Diagnostics.Debug.Assert(false);
+                //if(System.Diagnostics.Debugger.IsAttached)
+                  //  System.Diagnostics.Debugger.Break();
+                
+                using var db = context.CreateDbContext();
+                var data = await db.DisplayDataFind{{query.Name}}(find);
+                return data;
+
+            }                
+            catch(Exception ex){
+                ExceptionAction(nameof(DisplayDataFor{{query.Name}}),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(DisplayDataFor{{query.Name}}));
+            }
+        }
+        {{end}}
+    }
+    {{end}}
+}

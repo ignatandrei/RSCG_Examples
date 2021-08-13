@@ -1,0 +1,237 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using RoslynQueryGenerator;
+namespace  {{ namespaceName }}.Classes{
+    
+    {{ for item in root.itemData }}
+    public partial class ApplicationDbContext{{item.Name}} : DbContext
+    {
+        partial void BeforeAction(string name);
+        partial void AfterAction(string name);
+        partial void ExceptionAction(string name, Exception ex);
+
+        public ApplicationDbContext{{item.Name}}(DbContextOptions<ApplicationDbContext{{item.Name}}> options)
+        : base(options)
+        {
+        }
+
+        {{ for query in item.queries }}
+        public DbSet<Dictionary<string, object>> {{query.Name}} => Set<Dictionary<string, object>>("{{query.Name}}");
+        public DbSet<Dictionary<string, object>> {{query.Name}}Find => Set<Dictionary<string, object>>("{{query.Name}}Find");
+        
+        public async Task<DisplayData> DisplayDataFind{{query.Name}}(Find_{{item.Name}}_{{query.Name}} findArr)
+        {
+            try{
+            BeforeAction(nameof(DisplayDataFind{{query.Name}}));
+            IQueryable<Dictionary<string, object>> returnValue = this.{{query.Name}};
+            FieldDescription[] fieldNames=QueryControllers.Fields("{{item.Name}}","{{query.Name}}");
+            if((findArr?.Searches?.Length??0)>0){
+                foreach(var s in findArr.Searches){
+                        switch(s.FieldName.ToUpper()){
+                        {{ for kv in query.Fields }}
+                        {{ 
+                            hasLess = 0
+                            hasString=0
+                            if "Int32" == kv.Value.Name 
+                                hasLess=1
+                            end
+                            if "Double" == kv.Value.Name 
+                                hasLess=1
+                            end
+                            if "DateTime" == kv.Value.Name 
+                                hasLess=1                                
+                            end
+                            if "String" == kv.Value.Name
+                                hasString=1
+                            end
+                         }}
+                            case "{{string.upcase(kv.Key)}}": 
+                            {
+                                var  value= Convert.To{{kv.Value.Name}}(s.Value);   
+                                switch(s.Criteria){
+                                    case SearchCriteria.Equal:
+                                        returnValue =returnValue.Where(it=>({{kv.Value.Name}})it["{{kv.Key}}"]==value);
+                                        break;
+                                    case SearchCriteria.Different:
+                                        returnValue =returnValue.Where(it=>({{kv.Value.Name}})it["{{kv.Key}}"]!=value);
+                                        break;
+                                    {{ if hasLess == 1 }}
+                                    case SearchCriteria.Less:
+                                        returnValue =returnValue.Where(it=>({{kv.Value.Name}})it["{{kv.Key}}"]<value);
+                                        break;
+                                    case SearchCriteria.LessOrEqual:
+                                        returnValue =returnValue.Where(it=>({{kv.Value.Name}})it["{{kv.Key}}"]<=value);
+                                        break;
+                                    case SearchCriteria.Greater:
+                                        returnValue =returnValue.Where(it=>({{kv.Value.Name}})it["{{kv.Key}}"]>value);
+                                        break;
+                                    case SearchCriteria.GreaterOrEqual:
+                                        returnValue =returnValue.Where(it=>({{kv.Value.Name}})it["{{kv.Key}}"]>=value);
+                                        break;
+                                    {{end}}
+                                    {{if hasString == 1}}
+                                    case SearchCriteria.Contains:
+                                        returnValue =returnValue.Where(it=>(({{kv.Value.Name}})it["{{kv.Key}}"]).Contains(value));
+                                        break;
+                                    case SearchCriteria.StartsWith:
+                                        returnValue =returnValue.Where(it=>(({{kv.Value.Name}})it["{{kv.Key}}"]).StartsWith(value));
+                                        break;
+                                    case SearchCriteria.EndsWith:
+                                        returnValue =returnValue.Where(it=>(({{kv.Value.Name}})it["{{kv.Key}}"]).EndsWith(value));
+                                        break;
+                                    {{end}}
+                                    default:
+                                        throw new ArgumentException($"not found {s.Criteria} for {s.FieldName} - type  {{kv.Value.Name}}");
+                                }
+                                break;
+                            }
+                        {{end}}
+                        default:
+                            throw new ArgumentException("do not know field "+ s.FieldName);
+                        
+                        }           
+                }
+            }
+             //if(System.Diagnostics.Debugger.IsAttached)
+             //       System.Diagnostics.Debugger.Break();
+               
+            IOrderedQueryable<Dictionary<string, object>> iq = null;
+            {{ for ob in query.Orders  }}
+                 
+                {{ if for.first == true  }}
+                    {{ if ob.Asc }}
+                        iq  =returnValue.OrderBy(it=>it["{{ob.FieldName}}"]);
+                    {{ else }}
+                        iq  =returnValue.OrderByDescending(it=>it["{{ob.FieldName}}"]);
+                    {{ end}}
+                {{ else }}
+                    {{ if ob.Asc }}
+                        iq = iq.ThenBy(it=>it["{{ob.FieldName}}"]);
+                    {{ else }}
+                        iq = iq.ThenByDescending(it=>it["{{ob.FieldName}}"]);
+                    {{ end}}
+                        
+                {{end }}
+            {{ end}}
+            if(iq != null)
+            {
+                returnValue = iq;
+            }
+            return new DisplayData()
+            {
+                QueryName = "{{query.Name}}",
+                ItemName = "{{item.Name}}",
+                FieldNames = fieldNames.ToArray(),
+                Values = await returnValue.ToArrayAsync()
+            };
+            }
+            catch(Exception ex){
+                ExceptionAction(nameof(DisplayDataFind{{query.Name}}),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(DisplayDataFind{{query.Name}}));
+            }
+
+
+        }
+        {{ end }}
+        public async Task<DisplayData> DisplayDataFor(string name, string valueForId, int maxResults)
+        {
+            try{
+            BeforeAction(nameof(DisplayDataFor));
+
+            IQueryable<Dictionary<string, object>> returnValue = null;
+            FieldDescription[] fieldNames;
+            name = name?.ToUpper();
+            string nameQueryFound="";
+            switch(name){
+                 {{ for query in item.queries }} 
+                  case "{{query.Name | string.upcase}}":
+                    fieldNames=QueryControllers.Fields("{{item.Name}}",name);
+
+                    returnValue = this.{{query.Name}};                    
+                    nameQueryFound = "{{query.Name}}";
+                    if((valueForId?.Length??0)>0){
+                        returnValue = this.{{query.Name}}Find;
+                        {{ for kv in query.Fields }}
+                            {{ if string.upcase(kv.Key) == string.upcase(query.IDSearch)}}
+                            //{{kv.Key}} {{query.IDSearch}}
+                            object value= Convert.To{{kv.Value.Name}}(valueForId);
+                            //{{kv.Value.Name}}.Parse(valueForId)
+                            returnValue =returnValue.Where(it=>it["{{kv.Key}}"]==value);
+                            {{end}}
+                         {{end}}
+                    }
+                    else{
+                        if(maxResults>0)
+                            returnValue = returnValue.Take(maxResults);
+                    }
+                    break; 
+
+                    {{end}}
+                                    
+                default:
+                    throw new ArgumentException("no not have "+name);
+            }
+            return new DisplayData()
+            {
+                QueryName = nameQueryFound,
+                ItemName = "{{item.Name}}",
+                FieldNames = fieldNames.ToArray(),
+                Values = await returnValue.ToArrayAsync()
+            };
+                       }
+            catch(Exception ex){
+                ExceptionAction(nameof(DisplayDataFor),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(DisplayDataFor));
+            }
+
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            try{
+            BeforeAction(nameof(OnModelCreating));
+
+            {{ for query in item.queries }}
+            modelBuilder.SharedTypeEntity<Dictionary<string, object>>("{{query.Name}}", b =>
+            {
+                b.ToSqlQuery(@"{{query.Query}}");
+                {{ for kv in query.Fields }}
+                b.IndexerProperty<{{kv.Value}}?>("{{kv.Key}}");                
+                {{ end }}
+                b.HasNoKey();
+            
+            });
+            modelBuilder.SharedTypeEntity<Dictionary<string, object>>("{{query.Name}}Find", b =>
+            {
+                b.ToSqlQuery(@"{{query.Query}}");
+                {{ for kv in query.Fields }}
+                b.IndexerProperty<{{kv.Value}}?>("{{kv.Key}}");                
+                {{ end }}
+                b.HasNoKey();
+            
+            });
+         
+            {{ end }}
+            base.OnModelCreating(modelBuilder);
+                        }
+            catch(Exception ex){
+                ExceptionAction(nameof(OnModelCreating),ex);
+                throw;
+            }
+            finally{
+                AfterAction(nameof(OnModelCreating));
+            }
+
+        }
+
+    }
+    {{end}}
+}
