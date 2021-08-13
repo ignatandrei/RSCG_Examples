@@ -25,3 +25,4 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 21. https://github.com/HamedFathi/MockableStaticGenerator
 22. https://github.com/mrtaikandi/MapTo/
 23. https://www.nuget.org/packages/Dnf.SourceGenerators/1.0.0 
+24. https://github.com/Flash0ver/F0.Generators
