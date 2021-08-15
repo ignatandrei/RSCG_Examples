@@ -228,6 +228,18 @@
 
 </tr>
 
+<tr>
+<td>19</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister' target='_blank'>SourceInject</a>
+</td>
+
+<td>Auto register services in startup</td>
+
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators

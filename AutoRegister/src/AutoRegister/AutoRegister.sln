@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRegister", "AutoRegister\AutoRegister.csproj", "{C1DB99B1-00C9-4BB6-A13E-943EE8B9018E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRegisterBL", "AutoRegisterBL\AutoRegisterBL.csproj", "{C2D1BA9B-56B0-4DB1-B709-0D32C642CE9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1DB99B1-00C9-4BB6-A13E-943EE8B9018E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DB99B1-00C9-4BB6-A13E-943EE8B9018E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DB99B1-00C9-4BB6-A13E-943EE8B9018E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DB99B1-00C9-4BB6-A13E-943EE8B9018E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D1BA9B-56B0-4DB1-B709-0D32C642CE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D1BA9B-56B0-4DB1-B709-0D32C642CE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D1BA9B-56B0-4DB1-B709-0D32C642CE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D1BA9B-56B0-4DB1-B709-0D32C642CE9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7260419B-D3FA-4428-ABC4-76978F1E4688}
+	EndGlobalSection
+EndGlobal

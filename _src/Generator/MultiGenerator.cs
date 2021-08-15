@@ -38,7 +38,8 @@ namespace Generator
                 "TemplateRender",
                 "CI_Version",
                 "HttpClientCodeGenerator",
-                "QueryGenerator"
+                "QueryGenerator",
+                "AutoRegister"
             };
             this.rootPath = root;
         }
