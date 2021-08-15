@@ -1,15 +1,29 @@
 {
   "itemData": [
     {
-      "Name": "Sqlite",
-      "connectionString": "Data Source=My.db",
+      "Name": "Department",
+      "connectionString": "Server=.;Database=TestData;User Id=sa;Password=<YourStrong@Passw0rd>;",
       "queriesData": [
         {
           "Ignore": false,
-          "Name": "MyName",
-          "QueryMultiline": [ "select * from Person" ],
-          "IDSearch": "id"
-  
+          "Name": "Dep",
+          "QueryMultiline": [ "select * from Department" ],
+          "IDSearch": "IDDepartment"
+
+
+        }
+      ]
+    },
+    {
+      "Name": "Emp",
+      "connectionString": "Server=.;Database=TestData;User Id=sa;Password=<YourStrong@Passw0rd>;",
+      "queriesData": [
+        {
+          "Ignore": false,
+          "Name": "Dep",
+          "QueryMultiline": [ "select * from Employee" ],
+          "IDSearch": "IDEmployee"
+
 
         }
       ]

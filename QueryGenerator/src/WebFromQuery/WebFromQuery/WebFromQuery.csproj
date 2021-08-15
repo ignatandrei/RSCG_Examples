@@ -5,12 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="MY.db" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.9" />
-    <!--<PackageReference Include="QueryGenerator" Version="2021.8.13.2036" />-->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.9" />
+    <PackageReference Include="QueryGenerator" Version="2021.8.13.2126" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
   </ItemGroup>
   <ItemGroup>
@@ -37,15 +33,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="MY.db">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <None Include="wwwroot\data-table.7eda0c04830dac128c76.svg" />
+    <None Include="wwwroot\main.4dcec7eae24205ed82af.js" />
+    <None Include="wwwroot\polyfills.67b993cc144b2da69bb8.js" />
+    <None Include="wwwroot\runtime.0e49e2b53282f40c8925.js" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\QueryViewer\src\RoslynQueryGenerator\RoslynQueryGenerator.csproj" OutputItemType="Analyzer" />
-  </ItemGroup>
-  <PropertyGroup>
+<PropertyGroup>
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
   </PropertyGroup>

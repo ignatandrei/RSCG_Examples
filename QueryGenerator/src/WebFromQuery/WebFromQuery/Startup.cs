@@ -32,6 +32,9 @@ namespace WebFromQuery
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebFromQuery", Version = "v1" });
             });
+            //TODO
+            services.AddFactoryGenerated();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +48,10 @@ namespace WebFromQuery
             }
 
             app.UseHttpsRedirection();
-
+            //TODO:
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+            
             app.UseRouting();
 
             app.UseAuthorization();
