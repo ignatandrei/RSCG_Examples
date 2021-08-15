@@ -133,6 +133,8 @@
     -   [Example code](#example-code-16)
     -   [More details about RSCG
         HttpClientGenerator](#more-details-about-rscg-httpclientgenerator)
+    -   [Author of HttpClientGenerator , Jalal Amini
+        Robati](#author-of-httpclientgenerator--jalal-amini-robati)
 -   [RSCG - worth mention](#rscg---worth-mention)
 -   [Final Chapter](#final-chapter)
     -   [Conclusion](#conclusion)
@@ -1352,6 +1354,31 @@ For more usage features please read :
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator>](https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator)
 
+### Author of HttpClientGenerator , Jalal Amini Robati
+
+1.  Short info about you , Jalal Amini Robati
+
+I am working as a senior software engineer at Alibaba Travels.
+
+2.  Why did you start this HttpClientGenerator ?
+
+I built HttpClientGenerator to help users stop writing HttpClient code.
+Currently, some users use tools like swaggergen which generates too much
+code that is hard to maintain.
+
+3.  How do yourself use your HttpClientGenerator ?
+
+I am going to use it in a high-traffic website on production when it
+gets mature enough. I mostly use it on my personal projects and look for
+feedback from developers for now.
+
+4.  What other RSCG do you use ?
+
+Since the RSCG is in the early stages, I don't know that many tools but
+I think it can be applied to many areas like DI, ORMs. Currently
+Dapper.AOT is using this feature that would make writing database code
+so much faster.
+
 ## RSCG - worth mention
 
 There are more RSCG that you could see - here is a list that you may
@@ -1386,6 +1413,13 @@ want to look at:
 21. <https://github.com/HamedFathi/MockableStaticGenerator>
 22. <https://github.com/mrtaikandi/MapTo/>
 23. <https://www.nuget.org/packages/Dnf.SourceGenerators/1.0.0>
+24. <https://github.com/Flash0ver/F0.Generators>
+25. <https://github.com/giggio/sourceinject>
+26. <https://github.com/anton-yashin/LightMock.Generator>
+27. <https://github.com/sungaila/Cdelta>
+28. <https://github.com/robertturner/StaticProxyGenerator>
+29. <https://github.com/JoshDiDuca/CodeSourceGenerator/tree/master/examples>
+30. 
 
 ## Final Chapter
 
