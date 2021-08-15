@@ -1,0 +1,58 @@
+{
+  "generator": {
+   "name": "DatabaseToWebAPI",
+   "nuget": ["https://www.nuget.org/packages/QueryGenerator/"
+               ],
+   "link": "http://msprogrammer.serviciipeweb.ro/category/roslyn/",  
+   "author":"Andrei Ignat",
+   "source":"https://github.com/ignatandrei/QueryViewer/"   
+  },
+  "data":{
+     "goodFor":"This will generate code (WebAPI/Swagger) for any table/view from SqlServer. You can see the table via Angular",
+     "existingCode":[
+"//add queries.json with all the connection string and tables necessary",
+"//add in templates folder the files to generate controllers",
+"using RoslynQueryGenerator;",
+"using System.Collections.Generic;",
+"//TODO : modify namespace",
+"namespace WebFromQuery.Classes",
+"{",
+"    public class FieldDescription",
+"    {",
+"        public string ItemName { get; set; }",
+"        public string QueryName { get; set; }",
+"",
+"        public string FieldName { get; set; }",
+"        public string FieldType { get; set; }",
+"",
+"        public SearchField DefaultValue { get; set; }",
+"    }",
+"    public class DisplayData",
+"    {",
+"        public string QueryName { get; set; }",
+"        public string ItemName { get; set; }",
+"        public FieldDescription[] FieldNames { get; set; }",
+"        public Dictionary<string, object>[] Values { get; set; }",
+"    }",
+"  ",
+"}",
+""
+     ],
+     "usage":[
+"//In Startup",
+"services.AddFactoryGenerated();",
+"app.UseDefaultFiles();",
+"app.UseStaticFiles();"
+          
+     ],
+     "generatedCode":[
+"//ApplicationDbContext : too much lines - see project",
+"//Controllers : too much lines - see project"
+     ]
+  },
+  "links":{
+     "blog":"",
+     "video":""
+  }
+  
+}

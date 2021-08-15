@@ -37,7 +37,8 @@ namespace Generator
                 "PropertyExpressionGenerator",
                 "TemplateRender",
                 "CI_Version",
-                "HttpClientCodeGenerator"
+                "HttpClientCodeGenerator",
+                "QueryGenerator"
             };
             this.rootPath = root;
         }

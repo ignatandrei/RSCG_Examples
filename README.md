@@ -216,6 +216,18 @@
 
 </tr>
 
+<tr>
+<td>18</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator' target='_blank'>DatabaseToWebAPI</a>
+</td>
+
+<td>This will generate code (WebAPI/Swagger) for any table/view from SqlServer. You can see the table via Angular</td>
+
+</td>
+
+</tr>
+
 </table>
 
 ## Links for Source Generators
