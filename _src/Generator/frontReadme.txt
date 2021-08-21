@@ -2,8 +2,11 @@
 # RSCG - Roslyn Source Code Generators with examples
 
 
-
 ## Content
+
+You have {{all.Length}} examples with source codes ( see below).
+
+Also, there are 33 more examples waiting to be discovered by you .
 
 {{ index= 0}}
 <table>
@@ -28,7 +31,9 @@
 
 </table>
 
-## Links for Source Generators
+## If you want to develop a Roslyn Source Code Generator
+
+### Documentation for Source Generators
 
 https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
 
@@ -36,11 +41,29 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
-## Helper for see the files
+### Helper for see the files
 
-```   
+```xml   
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
+```
+### Advanced debug
+
+In the RSCG project
+
+```xml
+ <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <IsRoslynComponent>true</IsRoslynComponent>
+  </PropertyGroup>
+```xml
+
+In the project
+
+```xml
+<ItemGroup>
+    <ProjectReference Include="Path_To_The.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+</ItemGroup>
 ```
 
 ## Read all in one go

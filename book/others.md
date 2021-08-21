@@ -32,3 +32,6 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 28. https://github.com/robertturner/StaticProxyGenerator
 29. https://github.com/JoshDiDuca/CodeSourceGenerator/tree/master/examples
 30. https://github.com/MelGrubb/BuilderGenerator
+31. https://github.com/wieslawsoltes/Svg.Skia
+32. https://github.com/marlond18/EMDD.KtEquatable
+33. https://github.com/petarpetrovt/fast-enum-string
