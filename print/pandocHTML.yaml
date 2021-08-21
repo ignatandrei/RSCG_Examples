@@ -31,6 +31,9 @@ input-files:
 - ../TemplateRender/readme.md
 - ../CI_Version/readme.md
 - ../HttpClientCodeGenerator/readme.md
+- ../QueryGenerator/readme.md
+- ../AutoRegister/readme.md
+- ../TinyTypes/readme.md
 - ../book/others.md
 - ../book/conclusion.md
 
