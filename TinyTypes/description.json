@@ -1,0 +1,58 @@
+{
+  "generator": {
+    "name": "BaseTypes",
+    "nuget": [ "https://www.nuget.org/packages/AndreasDorfer.BaseTypes/" ],
+    "link": "https://github.com/Andreas-Dorfer/base-types",
+    "author": "Andreas Dorfer",
+    "source": "https://github.com/Andreas-Dorfer/base-types"
+  },
+  "data": {
+    "goodFor": "Generated tiny types from any value type",
+    "existingCode": [
+"[Int] public partial record DepartmentId;",
+      "public Employee GetFromId(int idDepartment, int idEmployee)",
+"{",
+"    ",
+"    return new Employee()",
+"    {",
+"        ID = idEmployee,",
+"        DepartmentId = idDepartment,",
+"        Name = \"Andrei \" + idEmployee",
+"",
+"    };",
+"}",
+"public Employee GetFromId(DepartmentId departmentId,  EmployeeId employeeId)",
+"{",
+"    return GetFromId(departmentId, employeeId);",
+"}"
+
+    ],
+    "usage": [
+		"e.GetFromId(10, 34);",
+		"e.GetFromId(new DepartmentId(34), new EmployeeId(10));"
+    ],
+    "generatedCode": [
+      "[System.ComponentModel.TypeConverter(typeof(AD.BaseTypes.Converters.BaseTypeTypeConverter<DepartmentId, int>))]",
+"[System.Text.Json.Serialization.JsonConverter(typeof(AD.BaseTypes.Json.BaseTypeJsonConverter<DepartmentId, int>))]",
+"sealed partial record DepartmentId : System.IComparable<DepartmentId>, System.IComparable, AD.BaseTypes.IBaseType<int>",
+"{",
+"    public DepartmentId(int value)",
+"    {",
+"        this.Value = value;",
+"    }",
+"    public int Value { get; }",
+"    public override string ToString() => Value.ToString();",
+"    public int CompareTo(object? obj) => CompareTo(obj as DepartmentId);",
+"    public int CompareTo(DepartmentId? other) => other is null ? 1 : System.Collections.Generic.Comparer<int>.Default.Compare(Value, other.Value);",
+"    public static implicit operator int(DepartmentId item) => item.Value;",
+"    public static DepartmentId Create(int value) => new(value);",
+"}"
+    ]
+  },
+  "links": {
+    "blog": "",
+    "video": "",
+    "example": "https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes"
+  }
+  
+}

@@ -1,10 +1,13 @@
-﻿
+﻿{{ index= 0
+for mi in all 
+index= index+1
+ end }}
+
 # RSCG - Roslyn Source Code Generators with examples
 
 
 ## Content
-
-You have {{all.Length}} examples with source codes ( see below).
+You have {{index}} examples with source codes ( see below).
 
 Also, there are 33 more examples waiting to be discovered by you .
 

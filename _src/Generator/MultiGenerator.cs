@@ -39,7 +39,8 @@ namespace Generator
                 "CI_Version",
                 "HttpClientCodeGenerator",
                 "QueryGenerator",
-                "AutoRegister"
+                "AutoRegister",
+                "TinyTypes"
             };
             this.rootPath = root;
         }
@@ -109,6 +110,7 @@ namespace Generator
                     .Where(it => !it.Contains("AMSExample.csproj"))
                     .Where(it => !it.Contains("HttpClientTestWebSite.csproj"))
                     .Where(it => !it.Contains("BL.csproj"))
+                    .Where(it=> !it.Contains("TinyConsole.csproj"))
                .ToArray();
             switch (f.Length)
             {

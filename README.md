@@ -1,9 +1,12 @@
 
+
 # RSCG - Roslyn Source Code Generators with examples
 
 
-
 ## Content
+You have 20 examples with source codes ( see below).
+
+Also, there are 33 more examples waiting to be discovered by you .
 
 
 <table>
@@ -240,9 +243,23 @@
 
 </tr>
 
+<tr>
+<td>20</td>
+<td>
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes' target='_blank'>BaseTypes</a>
+</td>
+
+<td>Generated tiny types from any value type</td>
+
+</td>
+
+</tr>
+
 </table>
 
-## Links for Source Generators
+## If you want to develop a Roslyn Source Code Generator
+
+### Documentation for Source Generators
 
 https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
 
@@ -250,11 +267,29 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
-## Helper for see the files
+### Helper for see the files
 
-```   
+```xml   
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
+```
+### Advanced debug
+
+In the RSCG project
+
+```xml
+ <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <IsRoslynComponent>true</IsRoslynComponent>
+  </PropertyGroup>
+```xml
+
+In the project
+
+```xml
+<ItemGroup>
+    <ProjectReference Include="Path_To_The.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+</ItemGroup>
 ```
 
 ## Read all in one go
