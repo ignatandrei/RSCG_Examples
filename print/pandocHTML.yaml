@@ -13,6 +13,7 @@ reference-doc: customWord.docx
 # leave blank for input from stdin, use [] for no input:
 input-files:
 - ../book/about.md 
+- ../book/aboutAuthor.md
 - ../book/whatIs.md 
 - ../ApplicationVersion/README.md 
 - ../Enum/README.md
