@@ -1,4 +1,6 @@
-![Andrei](http://ignatandrei.github.io/andrei.jpeg)
+# About the author
+
+![Andrei](http://ignatandrei.github.io/RSCG_Examples/andrei.jpeg)
 
 
 My name is Andrei Ignat and I have 20+ years programming experience. 
