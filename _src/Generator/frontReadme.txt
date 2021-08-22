@@ -22,7 +22,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>{{index}}</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/{{mi.rootFolder}}' target='_blank'>{{ mi.Generator.Name }}</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-{{index}}--{{mi.Generator.Name | string.downcase }}' target='_blank'>See in action: {{ mi.Generator.Name }}</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/{{mi.rootFolder}}' target='_blank'>Source Code</a>
+<a href='{{mi.Generator.Source}}' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>{{mi.Data.GoodFor}}</td>

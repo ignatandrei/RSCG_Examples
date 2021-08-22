@@ -18,7 +18,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>1</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion' target='_blank'>ThisAssembly</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-1--thisassembly' target='_blank'>See in action: ThisAssembly</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion' target='_blank'>Source Code</a>
+<a href='https://github.com/devlooped/ThisAssembly' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time. I found useful to see the assembly version right away in any project that I have.</td>
@@ -30,7 +37,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>2</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum' target='_blank'>Enum</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-2--enum' target='_blank'>See in action: Enum</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code to fast parsing a int or a string to an enum</td>
@@ -42,7 +56,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>3</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass' target='_blank'>JsonByExampleGenerator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-3--jsonbyexamplegenerator' target='_blank'>See in action: JsonByExampleGenerator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass' target='_blank'>Source Code</a>
+<a href='https://github.com/hermanussen/JsonByExampleGenerator/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate C# classes from json files.</td>
@@ -54,7 +75,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>4</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor' target='_blank'>CopyConstructor + Deconstructor</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-4--copyconstructor + deconstructor' target='_blank'>See in action: CopyConstructor + Deconstructor</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code for a POCO to generate copy constructor and deconstructor</td>
@@ -66,7 +94,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>5</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper' target='_blank'>GeneratedMapper</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-5--generatedmapper' target='_blank'>See in action: GeneratedMapper</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper' target='_blank'>Source Code</a>
+<a href='https://github.com/ThomasBleijendaal/GeneratedMapper' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>AutoMapping from a POCO to a DTO. Lots of customizations</td>
@@ -78,7 +113,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>6</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers' target='_blank'>Skinny Controllers</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-6--skinny controllers' target='_blank'>See in action: Skinny Controllers</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code for WebAPI for each method of a field in the controller</td>
@@ -90,7 +132,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>7</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder' target='_blank'>data-builder-generator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-7--data-builder-generator' target='_blank'>See in action: data-builder-generator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder' target='_blank'>Source Code</a>
+<a href='https://github.com/dasMulli/data-builder-generator' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>Implements the Builder Design pattern for any class. Useful , at least, for test projects </td>
@@ -102,7 +151,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>8</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject' target='_blank'>Metadata from object</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-8--metadata from object' target='_blank'>See in action: Metadata from object</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code to retrieve the values of properties directly, not by reflection</td>
@@ -114,7 +170,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>9</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking' target='_blank'>MockSourceGenerator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-9--mocksourcegenerator' target='_blank'>See in action: MockSourceGenerator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking' target='_blank'>Source Code</a>
+<a href='https://github.com/hermanussen/MockSourceGenerator/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate Mock classes directly for any interface - with your implementation.</td>
@@ -126,7 +189,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>10</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator' target='_blank'>Method decorator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-10--method decorator' target='_blank'>See in action: Method decorator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code to decorate methods with anything you want ( stopwatch, logging , authorization...)</td>
@@ -138,7 +208,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>11</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction' target='_blank'>PartiallyApplied</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-11--partiallyapplied' target='_blank'>See in action: PartiallyApplied</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction' target='_blank'>Source Code</a>
+<a href='https://github.com/JasonBock/PartiallyApplied' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate curry for your functions </td>
@@ -150,7 +227,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>12</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable' target='_blank'>IFormattable</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-12--iformattable' target='_blank'>See in action: IFormattable</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code to add IFormattable to any class, based on the properties of the class</td>
@@ -162,7 +246,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>13</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator' target='_blank'>AutoInterface</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-13--autointerface' target='_blank'>See in action: AutoInterface</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator' target='_blank'>Source Code</a>
+<a href='https://github.com/beakona/AutoInterface' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>Implement the Design Pattern Decorator. Based on template - you can modify the source code generated</td>
@@ -174,7 +265,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>14</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator' target='_blank'>Property Expression Generator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-14--property expression generator' target='_blank'>See in action: Property Expression Generator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code to add function to be used with Entity Framework to search for any property of a class</td>
@@ -186,7 +284,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>15</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender' target='_blank'>Transplator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-15--transplator' target='_blank'>See in action: Transplator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender' target='_blank'>Source Code</a>
+<a href='https://github.com/atifaziz/Transplator/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>The Transplator is a small fast rendering engine to allow you to make rendering from any class instance.</td>
@@ -198,7 +303,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>16</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version' target='_blank'>RSCG_AMS</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-16--rscg_ams' target='_blank'>See in action: RSCG_AMS</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version' target='_blank'>Source Code</a>
+<a href='https://github.com/ignatandrei/RSCG_AMS' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>The AMS will add in the CI the version and creator to your project.See https://netcoreblockly.herokuapp.com/ams  for an example</td>
@@ -210,7 +322,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>17</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator' target='_blank'>HttpClientGenerator</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-17--httpclientgenerator' target='_blank'>See in action: HttpClientGenerator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator' target='_blank'>Source Code</a>
+<a href='https://github.com/Jalalx/HttpClientCodeGenerator' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>HttpClientGenerator is a tool that uses Roslyn code generator feature to write boilerplate HttpClient code for you.</td>
@@ -222,7 +341,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>18</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator' target='_blank'>DatabaseToWebAPI</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-18--databasetowebapi' target='_blank'>See in action: DatabaseToWebAPI</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator' target='_blank'>Source Code</a>
+<a href='https://github.com/ignatandrei/QueryViewer/' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>This will generate code (WebAPI/Swagger) for any table/view from SqlServer. You can see the table via Angular</td>
@@ -234,7 +360,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>19</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister' target='_blank'>SourceInject</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-19--sourceinject' target='_blank'>See in action: SourceInject</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister' target='_blank'>Source Code</a>
+<a href='https://github.com/giggio/sourceinject' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>Auto register services in startup</td>
@@ -246,7 +379,14 @@ Also, there are 33 more examples waiting to be discovered by you .
 <tr>
 <td>20</td>
 <td>
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes' target='_blank'>BaseTypes</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-20--basetypes' target='_blank'>See in action: BaseTypes</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes' target='_blank'>Source Code</a>
+<a href='https://github.com/Andreas-Dorfer/base-types' target='_blank'>Official Site</a>
+
+
 </td>
 
 <td>Generated tiny types from any value type</td>
