@@ -41,9 +41,12 @@ Other links:
 
 </table>
 
-## If you want to develop a Roslyn Source Code Generator
 
-### Documentation for Source Generators
+{{ other_roslyn}}
+
+# If you want to develop a Roslyn Source Code Generator
+
+## Documentation for Source Generators
 
 https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md
 
@@ -51,13 +54,13 @@ https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.coo
 
 https://github.com/dotnet/roslyn-sdk/tree/master/samples/CSharp/SourceGenerators
 
-### Helper for see the files
+## Helper for see the files
 
 ```xml   
     <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
     <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
 ```
-### Advanced debug
+## Advanced debug
 
 In the RSCG project
 
