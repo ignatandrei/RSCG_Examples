@@ -36,3 +36,4 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 32. https://github.com/marlond18/EMDD.KtEquatable
 33. https://github.com/petarpetrovt/fast-enum-string
 34. https://github.com/andrewlock/StronglyTypedId/
+35. https://github.com/vrenken/EtAlii.Generators/blob/main/Source/EtAlii.Generators.Stateless.Tests/README.md
