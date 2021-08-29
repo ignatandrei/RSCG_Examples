@@ -37,3 +37,7 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 33. https://github.com/petarpetrovt/fast-enum-string
 34. https://github.com/andrewlock/StronglyTypedId/
 35. https://github.com/vrenken/EtAlii.Generators/blob/main/Source/EtAlii.Generators.Stateless.Tests/README.md
+36. https://github.com/ashmind/SourceMock
+37. https://github.com/SergeyTeplyakov/StructRecordsGenerator
+38. https://github.com/mehmetakbulut/SignalR.Strong
+39. https://github.com/canton7/RestEase#using-resteasesourcegenerator
