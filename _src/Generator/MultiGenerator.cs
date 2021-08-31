@@ -113,6 +113,8 @@ namespace Generator
                     .Where(it => !it.Contains("BL.csproj"))
                     .Where(it=> !it.Contains("TinyConsole.csproj"))
                     .Where(it=>!it.Contains("DebtReal.csproj"))
+                    .Where(it => !it.Contains("DebtTest.csproj"))
+                    
                .ToArray();
             switch (f.Length)
             {
