@@ -8,14 +8,13 @@ namespace DebtTest
     public class UnitTest1
     {
         [Fact]
-        public async Task TestDebtIsNoPaid()
+        public void TestDebtIsNoPaid()
         {
             #region arrange
             var d = new Debt();
             d.DebtValue = 100;
-            d.NrMonthDebt = 5;
-            d.DateOfDebt = DateTime.Now.Date.AddDays(1).AddMonths(-1);
-            await Task.Delay(2*1000);
+            d.NrMonthDebt = 4;
+            d.DateOfDebt = DateTime.Now.Date.AddMonths(-d.NrMonthDebt + 1);
             #endregion
             #region assert
             Assert.Equal(DebtEnum.DebtInFault, d.DebtStatus());
@@ -23,19 +22,27 @@ namespace DebtTest
         }
 
         [Fact]
-        public void TestDebtIsNoPaidDI()
+        public void TestDebtIsNoPaidWithDI()
         {
             #region arrange
             var nrMonthDebt = 5;
-            var dateDebt = new clsISystem_DateTime(DateTime.Now.AddMonths(-nrMonthDebt), default, default);
-            var d = new DebtDI(dateDebt);
-            d.DebtValue = 100;
-            d.NrMonthDebt = nrMonthDebt;
-            d.DateOfDebt = DateTime.Now;
-            #endregion
-            #region assert
-            Assert.Equal(DebtEnum.DebtInFault, d.DebtStatus());
-            #endregion
+            //testing each month
+            var dateOfDebt = DateTime.Now.AddMonths(-nrMonthDebt); ;
+            var newDate = dateOfDebt;
+            while (newDate < DateTime.Now.AddDays(-1))
+            {
+                newDate = newDate.AddDays(1);
+                var dateDebt = new clsISystem_DateTime(newDate, default, default);
+                var d = new DebtDI(dateDebt);
+                d.DebtValue = 100;
+                d.MaxNrMonthsForReturningDebt = nrMonthDebt;
+                d.DateOfDebt = dateOfDebt;
+                #endregion
+                #region assert
+                Assert.Equal(DebtEnum.HasDebt, d.DebtStatus());
+                #endregion
+            }
+
         }
     }
 }
