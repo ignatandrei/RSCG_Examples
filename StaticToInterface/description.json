@@ -1,0 +1,61 @@
+{
+  "generator": {
+   "name": "Static To Interface",
+   "nuget": ["https://www.nuget.org/packages/RSCG_Static/"],
+   "link": "http://msprogrammer.serviciipeweb.ro/category/roslyn/",  
+   "author":"Andrei Ignat",
+   "source":"https://github.com/ignatandrei/RSCG_Static/"   
+  },
+  "data":{
+     "goodFor":"This will generate code for any static properties of a class to generate interface, record and a class with real behaviour",
+     "existingCode":[
+"public partial class Helpers",
+"{",
+"public partial ISystem_DateTime FromStaticDate();",
+"}"
+
+     ],
+     "usage":[
+   "var dateStatic1 = (new Helpers().FromStaticDate());//static        ",
+"var dateStatic2 = recISystem_DateTime.MakeNew();//static",
+"var dateVar3 = new clsISystem_DateTime(); //variable = real ",
+"await Task.Delay(10 * 1000);",
+"Console.WriteLine(dateStatic1.Now.Second);",
+"Console.WriteLine(dateStatic2.Now.Second);",
+"Console.WriteLine(dateVar3.Now.Second);"       
+     ],
+     "generatedCode":[
+"namespace RSCG_Static_Console { ",
+"public interface ISystem_DateTime {",
+"System.DateTime Now  {get;}",
+"System.DateTime UtcNow  {get;}",
+"System.DateTime Today  {get;}",
+"}// interface",
+"//now the partial class",
+"public record recISystem_DateTime (System.DateTime Now,System.DateTime UtcNow,System.DateTime Today) : ISystem_DateTime",
+"{ ",
+"public static recISystem_DateTime MakeNew() {",
+"return new recISystem_DateTime(System.DateTime.Now,System.DateTime.UtcNow,System.DateTime.Today);",
+"} //end makenew",
+"} //end record",
+"public class clsISystem_DateTime : ISystem_DateTime ",
+"{ ",
+"public  System.DateTime Now  {get { return System.DateTime.Now; } }",
+"public  System.DateTime UtcNow  {get { return System.DateTime.UtcNow; } }",
+"public  System.DateTime Today  {get { return System.DateTime.Today; } }",
+"} //end record",
+"partial class Program {",
+"public partial ISystem_DateTime FromStaticDate() {",
+"return recISystem_DateTime.MakeNew();",
+"} // method",
+"} // class",
+"} // namespace"
+
+     ]
+  },
+  "links":{
+     "blog":"",
+     "video":""
+  }
+  
+}
