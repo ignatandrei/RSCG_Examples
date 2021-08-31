@@ -4,7 +4,7 @@
 
 
 ## Content
-You have 20 examples with source codes ( see below).
+You have 21 examples with source codes ( see below).
 
 Also, there are 33 more examples waiting to be discovered by you .
 
@@ -379,7 +379,26 @@ Other links:
 <tr>
 <td>20</td>
 <td>
-<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-20--basetypes' target='_blank'>See in action: BaseTypes</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-20--static to interface' target='_blank'>See in action: Static To Interface</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/StaticToInterface' target='_blank'>Source Code</a>
+<a href='https://github.com/ignatandrei/RSCG_Static/' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will generate code for any static properties of a class to generate interface, record and a class with real behaviour</td>
+
+</td>
+
+</tr>
+
+<tr>
+<td>21</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-21--basetypes' target='_blank'>See in action: BaseTypes</a>
 
 
 Other links:
@@ -436,6 +455,11 @@ There are more RSCG that you could see - here is a list that you may want  to lo
 32. https://github.com/marlond18/EMDD.KtEquatable
 33. https://github.com/petarpetrovt/fast-enum-string
 34. https://github.com/andrewlock/StronglyTypedId/
+35. https://github.com/vrenken/EtAlii.Generators/blob/main/Source/EtAlii.Generators.Stateless.Tests/README.md
+36. https://github.com/ashmind/SourceMock
+37. https://github.com/SergeyTeplyakov/StructRecordsGenerator
+38. https://github.com/mehmetakbulut/SignalR.Strong
+39. https://github.com/canton7/RestEase#using-resteasesourcegenerator
 
 # If you want to develop a Roslyn Source Code Generator
 

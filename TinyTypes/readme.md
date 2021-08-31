@@ -1,5 +1,5 @@
 
-# RSCG number 20 : BaseTypes 
+# RSCG number 21 : BaseTypes 
 
 
 ## What RSCG BaseTypes can do

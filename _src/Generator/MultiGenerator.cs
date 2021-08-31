@@ -40,6 +40,7 @@ namespace Generator
                 "HttpClientCodeGenerator",
                 "QueryGenerator",
                 "AutoRegister",
+                "StaticToInterface",
                 "TinyTypes"
             };
             this.rootPath = root;
@@ -111,6 +112,7 @@ namespace Generator
                     .Where(it => !it.Contains("HttpClientTestWebSite.csproj"))
                     .Where(it => !it.Contains("BL.csproj"))
                     .Where(it=> !it.Contains("TinyConsole.csproj"))
+                    .Where(it=>!it.Contains("DebtReal.csproj"))
                .ToArray();
             switch (f.Length)
             {
