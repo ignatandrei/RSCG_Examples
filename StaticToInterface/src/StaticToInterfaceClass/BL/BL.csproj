@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RSCG_Static" Version="2021.8.31.113" OutputItemType="Analyzer" ReferenceOutputAssembly="false"  />
+    <PackageReference Include="RSCG_Static" Version="2021.8.31.2027" OutputItemType="Analyzer" ReferenceOutputAssembly="false"  />
   </ItemGroup>
 
 </Project>

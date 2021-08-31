@@ -32,7 +32,7 @@ namespace DebtTest
             while (newDate < DateTime.Now.AddDays(-1))
             {
                 newDate = newDate.AddDays(1);
-                var dateDebt = new clsISystem_DateTime(newDate, default, default);
+                var dateDebt = new recISystem_DateTime(newDate, default, default);
                 var d = new DebtDI(dateDebt);
                 d.DebtValue = 100;
                 d.MaxNrMonthsForReturningDebt = nrMonthDebt;
