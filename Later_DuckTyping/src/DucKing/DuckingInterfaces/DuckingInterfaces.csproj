@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DuckInterface" Version="0.1.3" />
+    <PackageReference Include="DuckInterface" Version="0.1.5" />
   </ItemGroup>
 
 </Project>

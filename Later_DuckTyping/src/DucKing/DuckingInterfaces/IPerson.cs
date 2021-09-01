@@ -2,6 +2,7 @@
 
 namespace DuckingInterfaces
 {
+    
     [Duckable]
     public interface IPerson
     {
