@@ -41,7 +41,8 @@ namespace Generator
                 "QueryGenerator",
                 "AutoRegister",
                 "StaticToInterface",
-                "TinyTypes"
+                "TinyTypes",
+                "appSettingsEditor"
             };
             this.rootPath = root;
         }

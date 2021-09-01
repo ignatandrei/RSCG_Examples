@@ -4,7 +4,7 @@
 
 
 ## Content
-You have 21 examples with source codes ( see below).
+You have 22 examples with source codes ( see below).
 
 Also, there are 33 more examples waiting to be discovered by you .
 
@@ -409,6 +409,25 @@ Other links:
 </td>
 
 <td>Generated tiny types from any value type</td>
+
+</td>
+
+</tr>
+
+<tr>
+<td>22</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-22--appsettingseditor' target='_blank'>See in action: AppSettingsEditor</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor' target='_blank'>Source Code</a>
+<a href='https://github.com/ignatandrei/appSettingsEditor' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will generate classes code from appsettings . Additionally , it generates API controller for  editing and an UI interface</td>
 
 </td>
 

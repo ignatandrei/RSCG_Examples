@@ -1,0 +1,1 @@
+endpoints.MapSettingsView<SettingsJson.appsettings>(Configuration);
