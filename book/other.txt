@@ -67,7 +67,7 @@
          "repository":"https://github.com/mrtaikandi/MapTo/"
       },
       {
-         "repository":"https://www.nuget.org/packages/Dnf.SourceGenerators/1.0.0"
+         "repository":"https://github.com/dominikjeske/Dnf.SourceGenerators"
       },
       {
          "repository":"https://github.com/Flash0ver/F0.Generators"
