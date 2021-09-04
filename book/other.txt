@@ -82,10 +82,7 @@
          "repository":"https://github.com/sungaila/Cdelta"
       },
       {
-         "repository":"https://github.com/robertturner/StaticProxyGenerator"
-      },
-      {
-         "repository":"https://github.com/JoshDiDuca/CodeSourceGenerator/tree/master/examples"
+         "repository":"https://github.com/JoshDiDuca/CodeSourceGenerator"
       },
       {
          "repository":"https://github.com/MelGrubb/BuilderGenerator"
