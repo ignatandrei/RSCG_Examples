@@ -1,5 +1,5 @@
 # Install-Module FormatMarkdownTable
-$others=  Get-Content -Raw -Path other.txt | ConvertFrom-Json
+$others=  Get-Content -Raw -Path other.txt1 | ConvertFrom-Json
 $data = $others.data
 #Write-Host $data
 [System.Collections.ArrayList]$allData = @()
@@ -14,13 +14,12 @@ $data | %{
  #Write-Host "processing" $apiResponse
  Write-Host "processing" $apiResponse.full_name	
  $allData.Add($apiResponse)
-	Write-Host "nr " $allData.Count
-
- break;
+	
+ 
  	
 }
+Write-Host "nr " $allData.Count
+#| Select full_name,html_url
+$allData  | Format-MarkdownTableTableStyle full_name,html_url,description -ShowMarkdown  
 
-Write-Host "!1nr " 
-
-#$mark = $allData | Format-MarkdownTableListStyle full_name, url
-#Write-Host $mark
+Write-Host 
