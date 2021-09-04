@@ -22,7 +22,7 @@
          "repository":"https://github.com/Zoxive/MemoizeSourceGenerator"
       },
       {
-         "repository":"https://github.com/Tyrrrz/MiniRazor/"
+         "repository":"https://github.com/Tyrrrz/MiniRazor"
       },
       {
          "repository":"https://github.com/thomas-girotto/MockGen"
@@ -64,7 +64,7 @@
          "repository":"https://github.com/HamedFathi/MockableStaticGenerator"
       },
       {
-         "repository":"https://github.com/mrtaikandi/MapTo/"
+         "repository":"https://github.com/mrtaikandi/MapTo"
       },
       {
          "repository":"https://github.com/dominikjeske/Dnf.SourceGenerators"
@@ -100,10 +100,10 @@
          "repository":"https://github.com/petarpetrovt/fast-enum-string"
       },
       {
-         "repository":"https://github.com/andrewlock/StronglyTypedId/"
+         "repository":"https://github.com/andrewlock/StronglyTypedId"
       },
       {
-         "repository":"https://github.com/vrenken/EtAlii.Generators/blob/main/Source/EtAlii.Generators.Stateless.Tests/README.md"
+         "repository":"https://github.com/vrenken/EtAlii.Generators"
       },
       {
          "repository":"https://github.com/ashmind/SourceMock"
