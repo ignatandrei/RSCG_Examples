@@ -1,0 +1,63 @@
+{
+  "generator": {
+   "name": "CopyConstructor + Deconstructor",
+   "nuget": ["https://www.nuget.org/packages/AOPMethodsCommon/",
+                "https://www.nuget.org/packages/AOPMethodsGenerator/"                 
+               ],
+   "link": "http://msprogrammer.serviciipeweb.ro/category/roslyn/",  
+   "author":"Andrei Ignat",
+   "source":"http://github.com/ignatandrei/aop_With_Roslyn/"   
+  },
+  "data":{
+     "goodFor":"This will generate code for a POCO to generate copy constructor and deconstructor",
+     "existingCode":[
+"[AutoMethods(template = TemplateMethod.CustomTemplateFile, CustomTemplateFileName = \"CopyConstructorDestructor.txt\")]",
+"partial class Person",
+"{",
+"   public string FirstName { get; set; }",
+"   public string LastName { get; set; }",
+"}"
+     ],
+     "usage":[
+          
+"var pOldPerson = new Person();",
+"pOldPerson.FirstName = \"Andrei\";",
+"pOldPerson.LastName = \"Ignat\";",
+"var newPerson = new Person(pOldPerson);",
+"Console.WriteLine(newPerson.FirstName);",
+"var (_, last) = newPerson;",
+"Console.WriteLine(last);"
+          
+     ],
+     "generatedCode":[
+"public Person (){                                                          ",
+"   OnConstructor();",
+"}",
+"public Person(IPerson other):base(){ ",
+"     BeforeCopyConstructor(other);",
+"     CopyPropertiesFrom(other);",
+"     AfterCopyConstructor(other);",
+"          ",
+"}",
+"public void CopyPropertiesFrom(IPerson other){",
+"",
+"     this.FirstName = other.FirstName;            ",
+"     this.LastName = other.LastName;            ",
+"}    ",
+"",
+"",
+"",
+" public void Deconstruct( out string FirstName, out string LastName)",
+" {",
+"     FirstName = this.FirstName;            ",
+"     LastName = this.LastName;            ",
+" }"
+
+     ]
+  },
+  "links":{
+     "blog":"",
+     "video":""
+  }
+  
+}
