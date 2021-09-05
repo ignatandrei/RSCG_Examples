@@ -1,6 +1,6 @@
 # Roslyn Source Code Generator (RSCG ) - others
 
-There are more awesome RSCG that you could use - here is a list of 39 RSCG that you may want  to look at:
+There are more awesome RSCG that you could use - here is a list of 41 RSCG that you may want  to look at:
 
 <table>
 <tr>
@@ -216,6 +216,16 @@ m server to client
 <tr>
 <td>
 39 </td><td> <a href="https://github.com/byme8/DuckInterface" target="_blank">byme8/DuckInterface </a> </td><td> Experiments for duck typing support in C#.
+</td>
+</tr>
+<tr>
+<td>
+40 </td><td> <a href="https://github.com/byme8/Apparatus.AOT.Reflection" target="_blank">byme8/Apparatus.AOT.Reflection </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+41 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
 </td>
 </tr>
 </table>
