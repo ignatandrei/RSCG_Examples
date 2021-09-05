@@ -4,10 +4,11 @@ Import-Module EPS
 
 
 
-$others=  Get-Content -Raw -Path "E:\ignatandrei\RSCG_Examples\book\other.txt1" | ConvertFrom-Json
+$others=  Get-Content -Raw -Path "E:\ignatandrei\RSCG_Examples\book\other.txt" | ConvertFrom-Json
 $data = $others.data
 #Write-Host $data
 [System.Collections.ArrayList]$allData = @()
+
 $i=0
 $data | %{
  

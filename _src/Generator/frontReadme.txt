@@ -2,14 +2,16 @@
 for mi in all 
 index= index+1
  end }}
-
-# RSCG - Roslyn Source Code Generators with examples
+ {{
+ linksRSCG = 39
+ }}
+# RSCG - {{index + linksRSCG }} examples of Roslyn Source Code Generators 
 
 
 ## Content
-You have {{index}} examples with source codes ( see below).
+You have {{index}} examples with my own source codes ( see below).
 
-Also, there are 33 more examples waiting to be discovered by you .
+Also, there are {{linksRSCG}} more examples waiting to be discovered/analyzed by you .
 
 {{ index= 0}}
 <table>

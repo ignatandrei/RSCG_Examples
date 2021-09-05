@@ -112,7 +112,11 @@
          "repository":"https://github.com/mehmetakbulut/SignalR.Strong"
       },
       {
-         "repository":"https://github.com/canton7/RestEase#using-resteasesourcegenerator"
+         "repository":"https://github.com/canton7/RestEase"
+      },
+	  {
+         "repository":"https://github.com/byme8/DuckInterface"
       }
+	  
    ]
 }
