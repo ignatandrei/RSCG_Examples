@@ -6,7 +6,7 @@ using System.Text;
 namespace CopyConstructor
 {
 
-    partial class Person
+    class Person
     {
         [Required]
         public string FirstName { get; set; }
