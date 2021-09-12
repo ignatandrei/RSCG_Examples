@@ -42,7 +42,8 @@ namespace Generator
                 "AutoRegister",
                 "StaticToInterface",
                 "TinyTypes",
-                "appSettingsEditor"
+                "appSettingsEditor",
+                "ApparatusAOT"
             };
             this.rootPath = root;
         }

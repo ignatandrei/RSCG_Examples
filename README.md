@@ -1,10 +1,10 @@
 
  
-# RSCG - 63 examples of Roslyn Source Code Generators 
+# RSCG - 64 examples of Roslyn Source Code Generators 
 
 
 ## Content
-You have 22 examples with my own source codes ( see below).
+You have 23 examples with my own source codes ( see below).
 
 Also, there are 41 more examples waiting to be discovered/analyzed by you .
 
@@ -428,6 +428,25 @@ Other links:
 </td>
 
 <td>This will generate classes code from appsettings . Additionally , it generates API controller for  editing and an UI interface</td>
+
+</td>
+
+</tr>
+
+<tr>
+<td>23</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-23--apparatusaot' target='_blank'>See in action: ApparatusAOT</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT' target='_blank'>Source Code</a>
+<a href='https://github.com/byme8/Apparatus.AOT.Reflection' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will generate code for investigating at runtime the properties of an object</td>
 
 </td>
 
