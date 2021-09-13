@@ -148,13 +148,27 @@
     -   [Example code](#example-code-18)
     -   [More details about RSCG
         SourceInject](#more-details-about-rscg-sourceinject)
--   [RSCG number 20 : BaseTypes](#rscg-number-20--basetypes)
+-   [RSCG number 21 : BaseTypes](#rscg-number-21--basetypes)
     -   [What RSCG BaseTypes can do](#what-rscg-basetypes-can-do)
     -   [Example code](#example-code-19)
     -   [More details about RSCG
         BaseTypes](#more-details-about-rscg-basetypes)
--   [RSCG - worth mention](#rscg---worth-mention)
--   [Final Chapter](#final-chapter)
+-   [RSCG number 22 :
+    AppSettingsEditor](#rscg-number-22--appsettingseditor)
+    -   [What RSCG AppSettingsEditor can
+        do](#what-rscg-appsettingseditor-can-do)
+    -   [Example code](#example-code-20)
+    -   [More details about RSCG
+        AppSettingsEditor](#more-details-about-rscg-appsettingseditor)
+-   [RSCG number 23 : ApparatusAOT](#rscg-number-23--apparatusaot)
+    -   [What RSCG ApparatusAOT can do](#what-rscg-apparatusaot-can-do)
+    -   [Example code](#example-code-21)
+    -   [More details about RSCG
+        ApparatusAOT](#more-details-about-rscg-apparatusaot)
+    -   [Author of ApparatusAOT , Stanislav
+        Silin](#author-of-apparatusaot--stanislav-silin)
+-   [Roslyn Source Code Generator (RSCG ) -
+    others](#roslyn-source-code-generator-rscg----others)
     -   [Conclusion](#conclusion)
     -   [One hour of free consultancy](#one-hour-of-free-consultancy)
 
@@ -1524,7 +1538,7 @@ For more usage features please read :
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister>](https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister)
 
-## RSCG number 20 : BaseTypes
+## RSCG number 21 : BaseTypes
 
 ### What RSCG BaseTypes can do
 
@@ -1575,52 +1589,368 @@ For more usage features please read :
 
 [<https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes>](https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes)
 
-## RSCG - worth mention
+## RSCG number 22 : AppSettingsEditor
 
-There are more RSCG that you could see - here is a list that you may
-want to look at:
+### What RSCG AppSettingsEditor can do
 
-1.  AutoEmbed <https://github.com/chsienki/AutoEmbed>
-2.  Cloneable <https://github.com/mostmand/Cloneable>
-3.  fonderie <https://github.com/jeromelaban/fonderie>
-4.  Generators.Blazor <https://github.com/excubo-ag/Generators.Blazor>
-5.  Generators.Grouping
-    <https://github.com/excubo-ag/Generators.Grouping>
-6.  JsonMergePatch <https://github.com/ladeak/JsonMergePatch>
-7.  MemoizeSourceGenerator
-    <https://github.com/Zoxive/MemoizeSourceGenerator>
-8.  MiniRazor <https://github.com/Tyrrrz/MiniRazor/>
-9.  MockGen <https://github.com/thomas-girotto/MockGen>
-10. ProxyGen <https://github.com/Sholtee/ProxyGen>
-11. Rocks <https://github.com/JasonBock/Rocks>
-12. RoslynWeave <https://github.com/Jishun/RoslynWeave>
-13. SmallSharp <https://github.com/devlooped/SmallSharp>
-14. StaticProxyGenerator
-    <https://github.com/robertturner/StaticProxyGenerator>
-15. ValueChangedGenerator
-    <https://github.com/ufcpp/ValueChangedGenerator>
-16. Web-Anchor <https://github.com/mattiasnordqvist/Web-Anchor>
-17. WrapperValueObject
-    <https://github.com/martinothamar/WrapperValueObject>
-18. Plant UML to C\# -
-    <https://github.com/gabriele-tomassetti/code-generation-roslyn>
-19. Strong Inject - <https://github.com/YairHalberstadt/stronginject>
-20. <https://github.com/thinktecture/article-roslyn-source-generators>
-21. <https://github.com/HamedFathi/MockableStaticGenerator>
-22. <https://github.com/mrtaikandi/MapTo/>
-23. <https://www.nuget.org/packages/Dnf.SourceGenerators/1.0.0>
-24. <https://github.com/Flash0ver/F0.Generators>
-25. <https://github.com/giggio/sourceinject>
-26. <https://github.com/anton-yashin/LightMock.Generator>
-27. <https://github.com/sungaila/Cdelta>
-28. <https://github.com/robertturner/StaticProxyGenerator>
-29. <https://github.com/JoshDiDuca/CodeSourceGenerator/tree/master/examples>
-30. <https://github.com/MelGrubb/BuilderGenerator>
-31. <https://github.com/wieslawsoltes/Svg.Skia>
-32. <https://github.com/marlond18/EMDD.KtEquatable>
-33. <https://github.com/petarpetrovt/fast-enum-string>
+This will generate classes code from appsettings . Additionally , it
+generates API controller for editing and an UI interface
 
-## Final Chapter
+### Example code
+
+#### Here is the csproj with the references for RSCG AppSettingsEditor
+
+![csprj](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/The.csproj.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/The.csproj)
+</small>
+
+#### The initial code that you start with is
+
+![start](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/ExistingCode.cs.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/ExistingCode.cs)
+</small>
+
+#### The code below will use the RSCG AppSettingsEditor
+
+![usage](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/Usage.cs.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/Usage.cs)
+<small>
+
+#### The code that is generated by RSCG AppSettingsEditor
+
+![gc](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/GeneratedCode.cs.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/AppSettingsEditor/GeneratedCode.cs)
+</small>
+
+### More details about RSCG AppSettingsEditor
+
+The author of **RSCG AppSettingsEditor** is *Andrei Ignat*
+
+You cand find **RSCG AppSettingsEditor** at Nuget.org :
+<https://www.nuget.org/packages/appSettingsEditor/> and the sources at
+<https://github.com/ignatandrei/appSettingsEditor>
+
+For more usage features please read :
+<http://msprogrammer.serviciipeweb.ro/category/roslyn/>
+
+#### Link to Example Code:
+
+[<https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor>](https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor)
+
+## RSCG number 23 : ApparatusAOT
+
+### What RSCG ApparatusAOT can do
+
+This will generate code for investigating at runtime the properties of
+an object
+
+### Example code
+
+#### Here is the csproj with the references for RSCG ApparatusAOT
+
+![csprj](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/The.csproj.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/The.csproj)
+</small>
+
+#### The initial code that you start with is
+
+![start](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/ExistingCode.cs.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/ExistingCode.cs)
+</small>
+
+#### The code below will use the RSCG ApparatusAOT
+
+![usage](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/Usage.cs.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/Usage.cs)
+<small>
+
+#### The code that is generated by RSCG ApparatusAOT
+
+![gc](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/GeneratedCode.cs.png)
+<small>
+[code](http://ignatandrei.github.io/RSCG_Examples/images/ApparatusAOT/GeneratedCode.cs)
+</small>
+
+### More details about RSCG ApparatusAOT
+
+The author of **RSCG ApparatusAOT** is *Stanislav Silin*
+
+You cand find **RSCG ApparatusAOT** at Nuget.org :
+<https://www.nuget.org/packages/Apparatus.AOT.Reflection/> and the
+sources at <https://github.com/byme8/Apparatus.AOT.Reflection>
+
+For more usage features please read :
+<https://github.com/byme8/Apparatus.AOT.Reflection>
+
+#### Link to Example Code:
+
+[<https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT>](https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT)
+
+### Author of ApparatusAOT , Stanislav Silin
+
+#### Short info about you , Stanislav Silin
+
+I am a software developer. Interested in the app architecture and
+performance optimizations
+
+#### Why did you start this ApparatusAOT ?
+
+I am constantly looking for ways how to reduce the amount of boilerplate
+code. So, I decided to make a place where I can put all my findings.
+Maybe they will be useful for someone else. 'Apparatus' is the name of a
+community/organization. The 'AOT' is just a suffix for the indication
+that the tool is intended for the AOT scenarios.
+
+#### How do yourself use your ApparatusAOT ?
+
+Right now, ZeroIoc is actively used in one commercial project. Other
+stuff like AOT.Reflection, DuckInterface in just experiments to
+investigate the possibility and effectiveness of such tools.
+
+#### What other RSCG do you use ?
+
+At the moment I don't use any of them.
+
+## Roslyn Source Code Generator (RSCG ) - others
+
+There are more awesome RSCG that you could use - here is a list of 41
+RSCG that you may want to look at:
+
+<table>
+<tr>
+<th>Nr</th>
+<th>Name</th>
+<th>Description </th>
+</tr>  
+<tr>
+<td>
+1 </td><td> <a href="https://github.com/chsienki/AutoEmbed" target="_blank">chsienki/AutoEmbed </a> </td><td> Source generator to easily embed and access files + directory trees
+</td>
+</tr>
+<tr>
+<td>
+2 </td><td> <a href="https://github.com/mostmand/Cloneable" target="_blank">mostmand/Cloneable </a> </td><td> Auto generate Clone method using C# Source Generator
+</td>
+</tr>
+<tr>
+<td>
+3 </td><td> <a href="https://github.com/jeromelaban/fonderie" target="_blank">jeromelaban/fonderie </a> </td><td> A source generator for the INotifyPropertyChanged interface using the Uno.SourceGenera
+tion framework
+</td>
+</tr>
+<tr>
+<td>
+4 </td><td> <a href="https://github.com/excubo-ag/Generators.Blazor" target="_blank">excubo-ag/Generators.Blazor </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+5 </td><td> <a href="https://github.com/excubo-ag/Generators.Grouping" target="_blank">excubo-ag/Generators.Grouping </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+6 </td><td> <a href="https://github.com/ladeak/JsonMergePatch" target="_blank">ladeak/JsonMergePatch </a> </td><td> Provides an implementation for Json Merge Patch, RFC7396. Library using C# source ge
+nerators to generate the types required for serialization. The Http package provides extension methods for HTTP requests, while the AspNetCore package provides an InputReader implementation.
+</td>
+</tr>
+<tr>
+<td>
+7 </td><td> <a href="https://github.com/Zoxive/MemoizeSourceGenerator" target="_blank">Zoxive/MemoizeSourceGenerator </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+8 </td><td> <a href="https://github.com/Tyrrrz/MiniRazor" target="_blank">Tyrrrz/MiniRazor </a> </td><td> Portable Razor compiler & code generator
+</td>
+</tr>
+<tr>
+<td>
+9 </td><td> <a href="https://github.com/thomas-girotto/MockGen" target="_blank">thomas-girotto/MockGen </a> </td><td> A C# mocking library based on source generators 
+</td>
+</tr>
+<tr>
+<td>
+10 </td><td> <a href="https://github.com/Sholtee/proxygen" target="_blank">Sholtee/proxygen </a> </td><td> .NET proxy generator powered by Roslyn
+</td>
+</tr>
+<tr>
+<td>
+11 </td><td> <a href="https://github.com/JasonBock/Rocks" target="_blank">JasonBock/Rocks </a> </td><td> A mocking library based on the Compiler APIs (Roslyn + Mocks)
+</td>
+</tr>
+<tr>
+<td>
+12 </td><td> <a href="https://github.com/Jishun/RoslynWeave" target="_blank">Jishun/RoslynWeave </a> </td><td> An AOP code generator
+</td>
+</tr>
+<tr>
+<td>
+13 </td><td> <a href="https://github.com/devlooped/SmallSharp" target="_blank">devlooped/SmallSharp </a> </td><td> Create, edit and run multiple C# 9.0 top-level programs  in the same project by just 
+selecting the startup program from the start  button.
+</td>
+</tr>
+<tr>
+<td>
+14 </td><td> <a href="https://github.com/robertturner/StaticProxyGenerator" target="_blank">robertturner/StaticProxyGenerator </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+15 </td><td> <a href="https://github.com/ufcpp/ValueChangedGenerator" target="_blank">ufcpp/ValueChangedGenerator </a> </td><td> Roslyn Code Fix / Source Generator for generating PropertyChanged from 
+inner struct members.
+</td>
+</tr>
+<tr>
+<td>
+16 </td><td> <a href="https://github.com/mattiasnordqvist/Web-Anchor" target="_blank">mattiasnordqvist/Web-Anchor </a> </td><td> Web Anchor provides type-safe, testable and flexible, runtime-generated
+ access to web resources.
+</td>
+</tr>
+<tr>
+<td>
+17 </td><td> <a href="https://github.com/martinothamar/WrapperValueObject" target="_blank">martinothamar/WrapperValueObject </a> </td><td> A .NET source generator for creating simple value objects wra
+pping primitive types.
+</td>
+</tr>
+<tr>
+<td>
+18 </td><td> <a href="https://github.com/gabriele-tomassetti/code-generation-roslyn" target="_blank">gabriele-tomassetti/code-generation-roslyn </a> </td><td> Code generation with Roslyn and parsing w
+ith Sprache 
+</td>
+</tr>
+<tr>
+<td>
+19 </td><td> <a href="https://github.com/YairHalberstadt/stronginject" target="_blank">YairHalberstadt/stronginject </a> </td><td> compile time dependency injection for .NET
+</td>
+</tr>
+<tr>
+<td>
+20 </td><td> <a href="https://github.com/thinktecture/article-roslyn-source-generators" target="_blank">thinktecture/article-roslyn-source-generators </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+21 </td><td> <a href="https://github.com/HamedFathi/MockableStaticGenerator" target="_blank">HamedFathi/MockableStaticGenerator </a> </td><td> A C# source generator to make an interface and a class wr
+apper to test static/extension methods.
+</td>
+</tr>
+<tr>
+<td>
+22 </td><td> <a href="https://github.com/mrtaikandi/MapTo" target="_blank">mrtaikandi/MapTo </a> </td><td> A convention based object to object mapper using Roslyn source generator.
+</td>
+</tr>
+<tr>
+<td>
+23 </td><td> <a href="https://github.com/dominikjeske/Dnf.SourceGenerators" target="_blank">dominikjeske/Dnf.SourceGenerators </a> </td><td> SourceGenerators
+</td>
+</tr>
+<tr>
+<td>
+24 </td><td> <a href="https://github.com/Flash0ver/F0.Generators" target="_blank">Flash0ver/F0.Generators </a> </td><td> The open source of truth for general-purpose C# source code generators.
+</td>
+</tr>
+<tr>
+<td>
+25 </td><td> <a href="https://github.com/giggio/sourceinject" target="_blank">giggio/sourceinject </a> </td><td> A source generator for C# that uses Roslyn (the C# compiler) to allow you to generate y
+our dependencies injection during compile time. 
+</td>
+</tr>
+<tr>
+<td>
+26 </td><td> <a href="https://github.com/anton-yashin/LightMock.Generator" target="_blank">anton-yashin/LightMock.Generator </a> </td><td> aot mock generator
+</td>
+</tr>
+<tr>
+<td>
+27 </td><td> <a href="https://github.com/sungaila/Cdelta" target="_blank">sungaila/Cdelta </a> </td><td> A C# source generator for finite-state machines ??? easily referenced as a Roslyn analyzer.
+</td>
+</tr>
+<tr>
+<td>
+28 </td><td> <a href="https://github.com/JoshDiDuca/CodeSourceGenerator" target="_blank">JoshDiDuca/CodeSourceGenerator </a> </td><td> Generates code from templates using the new roslyn source generat
+or.
+</td>
+</tr>
+<tr>
+<td>
+29 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+30 </td><td> <a href="https://github.com/wieslawsoltes/Svg.Skia" target="_blank">wieslawsoltes/Svg.Skia </a> </td><td> An SVG rendering library.
+</td>
+</tr>
+<tr>
+<td>
+31 </td><td> <a href="https://github.com/marlond18/EMDD.KtEquatable" target="_blank">marlond18/EMDD.KtEquatable </a> </td><td> C# 9.0 Source Generator for IEnumerable<T>
+</td>
+</tr>
+<tr>
+<td>
+32 </td><td> <a href="https://github.com/petarpetrovt/fast-enum-string" target="_blank">petarpetrovt/fast-enum-string </a> </td><td> A source generator for generating a faster extension method for con
+verting an enumeration value to string.
+</td>
+</tr>
+<tr>
+<td>
+33 </td><td> <a href="https://github.com/andrewlock/StronglyTypedId" target="_blank">andrewlock/StronglyTypedId </a> </td><td> A Rosyln-powered generator for strongly-typed IDs
+</td>
+</tr>
+<tr>
+<td>
+34 </td><td> <a href="https://github.com/vrenken/EtAlii.Generators" target="_blank">vrenken/EtAlii.Generators </a> </td><td> A set of Roslyn generators to simplify usage of some of the more mainstream
+ frameworks/libraries.
+</td>
+</tr>
+<tr>
+<td>
+35 </td><td> <a href="https://github.com/ashmind/SourceMock" target="_blank">ashmind/SourceMock </a> </td><td> SourceMock is a C# mocking framework based on source generators
+</td>
+</tr>
+<tr>
+<td>
+36 </td><td> <a href="https://github.com/SergeyTeplyakov/StructRecordsGenerator" target="_blank">SergeyTeplyakov/StructRecordsGenerator </a> </td><td> A set of generators helping dealing with structs 
+in C#
+</td>
+</tr>
+<tr>
+<td>
+37 </td><td> <a href="https://github.com/mehmetakbulut/SignalR.Strong" target="_blank">mehmetakbulut/SignalR.Strong </a> </td><td> Strongly-typed calls from client to server and handlers for calls fro
+m server to client
+</td>
+</tr>
+<tr>
+<td>
+38 </td><td> <a href="https://github.com/canton7/RestEase" target="_blank">canton7/RestEase </a> </td><td> Easy-to-use typesafe REST API client library for .NET Standard 1.1 and .NET Framework 4.5 and
+ higher, which is simple and customisable. Inspired by Refit
+</td>
+</tr>
+<tr>
+<td>
+39 </td><td> <a href="https://github.com/byme8/DuckInterface" target="_blank">byme8/DuckInterface </a> </td><td> Experiments for duck typing support in C#.
+</td>
+</tr>
+<tr>
+<td>
+40 </td><td> <a href="https://github.com/byme8/Apparatus.AOT.Reflection" target="_blank">byme8/Apparatus.AOT.Reflection </a> </td><td> 
+</td>
+</tr>
+<tr>
+<td>
+41 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
+</td>
+</tr>
+</table>
+# Final Chapter
 
 ### Conclusion
 

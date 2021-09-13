@@ -35,6 +35,8 @@ input-files:
 - ../QueryGenerator/readme.md
 - ../AutoRegister/readme.md
 - ../TinyTypes/readme.md
+- ../appSettingsEditor/readme.md
+- ../ApparatusAOT/readme.md
 - ../book/others.md
 - ../book/conclusion.md
 
