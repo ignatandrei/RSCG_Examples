@@ -1,0 +1,2 @@
+2>src\RSCG_TimeBombComment\Console_TimeBombComment\Program.cs(9,13,9,73): error TB: this is a comment transformed into an error
+2>src\RSCG_TimeBombComment\Console_TimeBombComment\Program.cs(10,13,10,40): warning TB: and this is a warning

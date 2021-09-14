@@ -1,10 +1,10 @@
 
  
-# RSCG - 64 examples of Roslyn Source Code Generators 
+# RSCG - 65 examples of Roslyn Source Code Generators 
 
 
 ## Content
-You have 23 examples with my own source codes ( see below).
+You have 24 examples with my own source codes ( see below).
 
 Also, there are 41 more examples waiting to be discovered/analyzed by you .
 
@@ -447,6 +447,25 @@ Other links:
 </td>
 
 <td>This will generate code for investigating at runtime the properties of an object</td>
+
+</td>
+
+</tr>
+
+<tr>
+<td>24</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-24--rscg_timebombcomment' target='_blank'>See in action: RSCG_TimeBombComment</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment' target='_blank'>Source Code</a>
+<a href='https://github.com/ignatandrei/RSCG_TimeBombComment' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will generate an error from the comment after a certain date</td>
 
 </td>
 

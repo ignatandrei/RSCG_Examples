@@ -43,7 +43,8 @@ namespace Generator
                 "StaticToInterface",
                 "TinyTypes",
                 "appSettingsEditor",
-                "ApparatusAOT"
+                "ApparatusAOT",
+                "TimeBombComment"
             };
             this.rootPath = root;
         }
