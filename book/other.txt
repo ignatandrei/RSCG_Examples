@@ -122,6 +122,9 @@
       },
       {
          "repository":"https://github.com/Cysharp/UnitGenerator"
+      },
+      {
+         "repository":"https://github.com/GeeWee/BoilerplateFree"
       }
 	  
    ]
