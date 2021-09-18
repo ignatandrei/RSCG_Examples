@@ -1,6 +1,6 @@
-# Roslyn Source Code Generator (RSCG ) - others
+# Roslyn Source Code Generator (RSCG ) - others Dave
 
-There are more awesome RSCG that you could use - here is a list of 41 RSCG that you may want  to look at:
+There are more awesome RSCG that you could use - here is a list of 43 RSCG that you may want  to look at:
 
 <table>
 <tr>
@@ -26,12 +26,15 @@ tion framework
 </tr>
 <tr>
 <td>
-4 </td><td> <a href="https://github.com/excubo-ag/Generators.Blazor" target="_blank">excubo-ag/Generators.Blazor </a> </td><td> 
+4 </td><td> <a href="https://github.com/excubo-ag/Generators.Blazor" target="_blank">excubo-ag/Generators.Blazor </a> </td><td> This project improves the performance of Blazor components using source 
+generators and provides helpful diagnostics.
 </td>
 </tr>
 <tr>
 <td>
-5 </td><td> <a href="https://github.com/excubo-ag/Generators.Grouping" target="_blank">excubo-ag/Generators.Grouping </a> </td><td> 
+5 </td><td> <a href="https://github.com/excubo-ag/Generators.Grouping" target="_blank">excubo-ag/Generators.Grouping </a> </td><td> Some APIs have a lot of methods. When they all reside in the same ob
+ject, finding the right API call can be a challenge to the users. But replacing the structure of the API from a monolithic API to an API with intuitively named and smaller groups would break existing 
+code. The solution is to offer both, without having to write the grouping yourself.
 </td>
 </tr>
 <tr>
@@ -78,7 +81,8 @@ selecting the startup program from the start  button.
 </tr>
 <tr>
 <td>
-14 </td><td> <a href="https://github.com/robertturner/StaticProxyGenerator" target="_blank">robertturner/StaticProxyGenerator </a> </td><td> 
+14 </td><td> <a href="https://github.com/robertturner/StaticProxyGenerator" target="_blank">robertturner/StaticProxyGenerator </a> </td><td> Interface proxy generator. At compile time creates class th
+at implements target interface. Instantiation of the generated class accepts an InterceptorHandler which is called for all method calls
 </td>
 </tr>
 <tr>
@@ -112,7 +116,8 @@ ith Sprache
 </tr>
 <tr>
 <td>
-20 </td><td> <a href="https://github.com/thinktecture/article-roslyn-source-generators" target="_blank">thinktecture/article-roslyn-source-generators </a> </td><td> 
+20 </td><td> <a href="https://github.com/thinktecture/article-roslyn-source-generators" target="_blank">thinktecture/article-roslyn-source-generators </a> </td><td> Roslyn Source Generators, Analyzers
+ and Code Fixes
 </td>
 </tr>
 <tr>
@@ -220,12 +225,24 @@ m server to client
 </tr>
 <tr>
 <td>
-40 </td><td> <a href="https://github.com/byme8/Apparatus.AOT.Reflection" target="_blank">byme8/Apparatus.AOT.Reflection </a> </td><td> 
+40 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
 </td>
 </tr>
 <tr>
 <td>
-41 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
+41 </td><td> <a href="https://github.com/Cysharp/UnitGenerator" target="_blank">Cysharp/UnitGenerator </a> </td><td> C# Source Generator to create value-object, inspired by units of measure.
+</td>
+</tr>
+<tr>
+<td>
+42 </td><td> <a href="https://github.com/GeeWee/boilerplatefree" target="_blank">GeeWee/boilerplatefree </a> </td><td> Remove boilerplate via C# 9 source generators and attributes. Allows you to auto-
+generate interfaces from classes, constructors from fields and more
+</td>
+</tr>
+<tr>
+<td>
+43 </td><td> <a href="https://github.com/GeeWee/boilerplatefree" target="_blank">GeeWee/boilerplatefree </a> </td><td> Remove boilerplate via C# 9 source generators and attributes. Allows you to auto-
+generate interfaces from classes, constructors from fields and more
 </td>
 </tr>
 </table>

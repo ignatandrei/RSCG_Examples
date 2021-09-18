@@ -1,9 +1,10 @@
 # Install-Module FormatMarkdownTable
-# Install-Module EPS
+#Install-Module EPS
 Import-Module EPS
 
-$generate = $true
-
+$generate = $false
+$dataMK= (Get-Content 'E:\ignatandrei\RSCG_Examples\book\data.txt' | Out-String | ConvertFrom-Json)
+Write-Host $dataMK.Count
 if($generate){
 remove-item "data.txt"
 $others=  Get-Content -Raw -Path "E:\ignatandrei\RSCG_Examples\book\other.txt" | ConvertFrom-Json
@@ -39,12 +40,17 @@ $dataMK = $allData  | Select Nr, full_name,html_url,description #Format-Markdown
 $dataMK | ConvertTo-Json | Out-File "data.txt"
 #$row =""
 
-Write-Host "number to display " $dataMK.Count
 }
+
+Write-Host "number to display " $dataMK.Count
+
+#$name = "Dave"
+
+#Invoke-EpsTemplate -Template 'Hello <%= $name %>!'
 
 
 $template = @'
-# Roslyn Source Code Generator (RSCG ) - others
+# Roslyn Source Code Generator (RSCG ) - others <%= $name %>
 
 There are more awesome RSCG that you could use - here is a list of <%= $dataMK.Count %> RSCG that you may want  to look at:
 
@@ -63,4 +69,5 @@ There are more awesome RSCG that you could use - here is a list of <%= $dataMK.C
 <% } -%>
 </table>
 '@
+
 Invoke-EpsTemplate -Template $template
