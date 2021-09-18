@@ -2,8 +2,10 @@
 # Install-Module EPS
 Import-Module EPS
 
+$generate = $true
 
-
+if($generate){
+remove-item "data.txt"
 $others=  Get-Content -Raw -Path "E:\ignatandrei\RSCG_Examples\book\other.txt" | ConvertFrom-Json
 $data = $others.data
 #Write-Host $data
@@ -22,19 +24,23 @@ $data | %{
  #Write-Host "processing" $apiResponse
  Write-Host "processing" $apiResponse.full_name	
  $apiResponse| add-member -Name "Nr" -value $i -MemberType NoteProperty
+
  
  $allData.Add($apiResponse)
 	
  
  	
 }
+
 Write-Host "nr loaded " $allData.Count
 ##| Select full_name,html_url
 $dataMK = $allData  | Select Nr, full_name,html_url,description #Format-MarkdownTableTableStyle Nr,full_name,html_url,description -ShowMarkdown  
 
+$dataMK | ConvertTo-Json | Out-File "data.txt"
 #$row =""
 
 Write-Host "number to display " $dataMK.Count
+}
 
 
 $template = @'
