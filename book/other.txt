@@ -127,8 +127,7 @@
          "repository":"https://github.com/GeeWee/BoilerplateFree"
       },
       {
-         "repository":"https://melgrubb.github.io/BuilderGenerator"
+         "repository":"https://github.com/melgrubb/BuilderGenerator"
       }
-	  
    ]
 }
