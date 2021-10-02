@@ -128,6 +128,15 @@
       },
       {
          "repository":"https://github.com/melgrubb/BuilderGenerator"
+      },
+      {
+         "repository":"https://github.com/panoukos41/ViewBindingsGenerator"
+      },
+      {
+         "repository":"https://github.com/alekshura/SourceMapper"
+      },
+      {
+         "repository":"https://github.com/Burgyn/MMLib.MediatR.Generators"
       }
    ]
 }
