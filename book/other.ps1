@@ -2,7 +2,7 @@
 #Install-Module EPS
 Import-Module EPS
 
-$generate = $false
+$generate = $true
 $dataMK= (Get-Content 'E:\ignatandrei\RSCG_Examples\book\data.txt' | Out-String | ConvertFrom-Json)
 Write-Host $dataMK.Count
 if($generate){
@@ -17,25 +17,39 @@ $data | %{
  
  $i=$i+1
  $repo= $_.repository
- Write-Host "processing" $repo
- $api = $repo.Replace("https://github.com","https://api.github.com/repos")
- Write-Host "processing" $api
- 
- $apiResponse = (curl  $api) | ConvertFrom-Json
- #Write-Host "processing" $apiResponse
- Write-Host "processing" $apiResponse.full_name	
- $apiResponse| add-member -Name "Nr" -value $i -MemberType NoteProperty
+ $found= $false
+ Write-Host "repo: " $repo
+ $dataMK | select html_url,full_name,description | foreach {
+	 #Write-Host $_.html_url
+	if($_.html_url -eq $repo){
+		$found=$true
+		$allData.Add($_)
+	}
+ }
 
  
- $allData.Add($apiResponse)
-	
+ Write-Host "processing" $repo
+ if($found)
+ {
+	#nothing , already added 
+ }
+ else{
+	 $api = $repo.Replace("https://github.com","https://api.github.com/repos")
+	 Write-Host "processing" $api
+	 
+	 $apiResponse = (curl  $api) | ConvertFrom-Json
+	 #Write-Host "processing" $apiResponse
+	 Write-Host "processing" $apiResponse.full_name	
+	 #$apiResponse| add-member -Name "Nr" -value $i -MemberType NoteProperty
+	 $allData.Add($apiResponse)
+ }
  
  	
 }
 
 Write-Host "nr loaded " $allData.Count
 ##| Select full_name,html_url
-$dataMK = $allData  | Select Nr, full_name,html_url,description #Format-MarkdownTableTableStyle Nr,full_name,html_url,description -ShowMarkdown  
+$dataMK = $allData  | Select full_name,html_url,description #Format-MarkdownTableTableStyle Nr,full_name,html_url,description -ShowMarkdown  
 
 $dataMK | ConvertTo-Json | Out-File "data.txt"
 #$row =""
