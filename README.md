@@ -1,10 +1,10 @@
 
  
-# RSCG - 65 examples of Roslyn Source Code Generators 
+# RSCG - 66 examples of Roslyn Source Code Generators 
 
 
 ## Content
-You have 24 examples with my own source codes ( see below).
+You have 25 examples with my own source codes ( see below).
 
 Also, there are 41 more examples waiting to be discovered/analyzed by you .
 
@@ -471,12 +471,31 @@ Other links:
 
 </tr>
 
+<tr>
+<td>25</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-25--structrecordsgenerator' target='_blank'>See in action: StructRecordsGenerator</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString' target='_blank'>Source Code</a>
+<a href='https://github.com/SergeyTeplyakov/StructRecordsGenerator' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will generate code .ToString. Usefull for debugging</td>
+
+</td>
+
+</tr>
+
 </table>
 
 
-# Roslyn Source Code Generator (RSCG ) - others
+# Roslyn Source Code Generator (RSCG ) - others 
 
-There are more awesome RSCG that you could use - here is a list of 41 RSCG that you may want  to look at:
+There are more awesome RSCG that you could use - here is a list of 53 RSCG that you may want  to look at:
 
 <table>
 <tr>
@@ -502,12 +521,15 @@ tion framework
 </tr>
 <tr>
 <td>
-4 </td><td> <a href="https://github.com/excubo-ag/Generators.Blazor" target="_blank">excubo-ag/Generators.Blazor </a> </td><td> 
+4 </td><td> <a href="https://github.com/excubo-ag/Generators.Blazor" target="_blank">excubo-ag/Generators.Blazor </a> </td><td> This project improves the performance of Blazor components using source 
+generators and provides helpful diagnostics.
 </td>
 </tr>
 <tr>
 <td>
-5 </td><td> <a href="https://github.com/excubo-ag/Generators.Grouping" target="_blank">excubo-ag/Generators.Grouping </a> </td><td> 
+5 </td><td> <a href="https://github.com/excubo-ag/Generators.Grouping" target="_blank">excubo-ag/Generators.Grouping </a> </td><td> Some APIs have a lot of methods. When they all reside in the same ob
+ject, finding the right API call can be a challenge to the users. But replacing the structure of the API from a monolithic API to an API with intuitively named and smaller groups would break existing 
+code. The solution is to offer both, without having to write the grouping yourself.
 </td>
 </tr>
 <tr>
@@ -518,7 +540,7 @@ nerators to generate the types required for serialization. The Http package prov
 </tr>
 <tr>
 <td>
-7 </td><td> <a href="https://github.com/Zoxive/MemoizeSourceGenerator" target="_blank">Zoxive/MemoizeSourceGenerator </a> </td><td> 
+7 </td><td> <a href="https://github.com/Zoxive/MemoizeSourceGenerator" target="_blank">Zoxive/MemoizeSourceGenerator </a> </td><td> Memoize
 </td>
 </tr>
 <tr>
@@ -554,7 +576,8 @@ selecting the startup program from the start  button.
 </tr>
 <tr>
 <td>
-14 </td><td> <a href="https://github.com/robertturner/StaticProxyGenerator" target="_blank">robertturner/StaticProxyGenerator </a> </td><td> 
+14 </td><td> <a href="https://github.com/robertturner/StaticProxyGenerator" target="_blank">robertturner/StaticProxyGenerator </a> </td><td> Interface proxy generator. At compile time creates class th
+at implements target interface. Instantiation of the generated class accepts an InterceptorHandler which is called for all method calls
 </td>
 </tr>
 <tr>
@@ -588,7 +611,8 @@ ith Sprache
 </tr>
 <tr>
 <td>
-20 </td><td> <a href="https://github.com/thinktecture/article-roslyn-source-generators" target="_blank">thinktecture/article-roslyn-source-generators </a> </td><td> 
+20 </td><td> <a href="https://github.com/thinktecture/article-roslyn-source-generators" target="_blank">thinktecture/article-roslyn-source-generators </a> </td><td> Roslyn Source Generators, Analyzers
+ and Code Fixes
 </td>
 </tr>
 <tr>
@@ -641,67 +665,131 @@ or.
 </tr>
 <tr>
 <td>
-30 </td><td> <a href="https://github.com/wieslawsoltes/Svg.Skia" target="_blank">wieslawsoltes/Svg.Skia </a> </td><td> An SVG rendering library.
+30 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
 </td>
 </tr>
 <tr>
 <td>
-31 </td><td> <a href="https://github.com/marlond18/EMDD.KtEquatable" target="_blank">marlond18/EMDD.KtEquatable </a> </td><td> C# 9.0 Source Generator for IEnumerable<T>
+31 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
 </td>
 </tr>
 <tr>
 <td>
-32 </td><td> <a href="https://github.com/petarpetrovt/fast-enum-string" target="_blank">petarpetrovt/fast-enum-string </a> </td><td> A source generator for generating a faster extension method for con
+32 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+33 </td><td> <a href="https://github.com/wieslawsoltes/Svg.Skia" target="_blank">wieslawsoltes/Svg.Skia </a> </td><td> An SVG rendering library.
+</td>
+</tr>
+<tr>
+<td>
+34 </td><td> <a href="https://github.com/marlond18/EMDD.KtEquatable" target="_blank">marlond18/EMDD.KtEquatable </a> </td><td> C# 9.0 Source Generator for IEnumerable<T>
+</td>
+</tr>
+<tr>
+<td>
+35 </td><td> <a href="https://github.com/petarpetrovt/fast-enum-string" target="_blank">petarpetrovt/fast-enum-string </a> </td><td> A source generator for generating a faster extension method for con
 verting an enumeration value to string.
 </td>
 </tr>
 <tr>
 <td>
-33 </td><td> <a href="https://github.com/andrewlock/StronglyTypedId" target="_blank">andrewlock/StronglyTypedId </a> </td><td> A Rosyln-powered generator for strongly-typed IDs
+36 </td><td> <a href="https://github.com/andrewlock/StronglyTypedId" target="_blank">andrewlock/StronglyTypedId </a> </td><td> A Rosyln-powered generator for strongly-typed IDs
 </td>
 </tr>
 <tr>
 <td>
-34 </td><td> <a href="https://github.com/vrenken/EtAlii.Generators" target="_blank">vrenken/EtAlii.Generators </a> </td><td> A set of Roslyn generators to simplify usage of some of the more mainstream
+37 </td><td> <a href="https://github.com/vrenken/EtAlii.Generators" target="_blank">vrenken/EtAlii.Generators </a> </td><td> A set of Roslyn generators to simplify usage of some of the more mainstream
  frameworks/libraries.
 </td>
 </tr>
 <tr>
 <td>
-35 </td><td> <a href="https://github.com/ashmind/SourceMock" target="_blank">ashmind/SourceMock </a> </td><td> SourceMock is a C# mocking framework based on source generators
+38 </td><td> <a href="https://github.com/ashmind/SourceMock" target="_blank">ashmind/SourceMock </a> </td><td> SourceMock is a C# mocking framework based on source generators
 </td>
 </tr>
 <tr>
 <td>
-36 </td><td> <a href="https://github.com/SergeyTeplyakov/StructRecordsGenerator" target="_blank">SergeyTeplyakov/StructRecordsGenerator </a> </td><td> A set of generators helping dealing with structs 
+39 </td><td> <a href="https://github.com/SergeyTeplyakov/StructRecordsGenerator" target="_blank">SergeyTeplyakov/StructRecordsGenerator </a> </td><td> A set of generators helping dealing with structs 
 in C#
 </td>
 </tr>
 <tr>
 <td>
-37 </td><td> <a href="https://github.com/mehmetakbulut/SignalR.Strong" target="_blank">mehmetakbulut/SignalR.Strong </a> </td><td> Strongly-typed calls from client to server and handlers for calls fro
+40 </td><td> <a href="https://github.com/mehmetakbulut/SignalR.Strong" target="_blank">mehmetakbulut/SignalR.Strong </a> </td><td> Strongly-typed calls from client to server and handlers for calls fro
 m server to client
 </td>
 </tr>
 <tr>
 <td>
-38 </td><td> <a href="https://github.com/canton7/RestEase" target="_blank">canton7/RestEase </a> </td><td> Easy-to-use typesafe REST API client library for .NET Standard 1.1 and .NET Framework 4.5 and
+41 </td><td> <a href="https://github.com/canton7/RestEase" target="_blank">canton7/RestEase </a> </td><td> Easy-to-use typesafe REST API client library for .NET Standard 1.1 and .NET Framework 4.5 and
  higher, which is simple and customisable. Inspired by Refit
 </td>
 </tr>
 <tr>
 <td>
-39 </td><td> <a href="https://github.com/byme8/DuckInterface" target="_blank">byme8/DuckInterface </a> </td><td> Experiments for duck typing support in C#.
+42 </td><td> <a href="https://github.com/byme8/DuckInterface" target="_blank">byme8/DuckInterface </a> </td><td> Experiments for duck typing support in C#.
 </td>
 </tr>
 <tr>
 <td>
-40 </td><td> <a href="https://github.com/byme8/Apparatus.AOT.Reflection" target="_blank">byme8/Apparatus.AOT.Reflection </a> </td><td> 
+43 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
 </td>
 </tr>
 <tr>
 <td>
-41 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
+44 </td><td> <a href="https://github.com/Cysharp/UnitGenerator" target="_blank">Cysharp/UnitGenerator </a> </td><td> C# Source Generator to create value-object, inspired by units of measure.
+</td>
+</tr>
+<tr>
+<td>
+45 </td><td> <a href="https://github.com/GeeWee/boilerplatefree" target="_blank">GeeWee/boilerplatefree </a> </td><td> Remove boilerplate via C# 9 source generators and attributes. Allows you to auto-
+generate interfaces from classes, constructors from fields and more
+</td>
+</tr>
+<tr>
+<td>
+46 </td><td> <a href="https://github.com/GeeWee/boilerplatefree" target="_blank">GeeWee/boilerplatefree </a> </td><td> Remove boilerplate via C# 9 source generators and attributes. Allows you to auto-
+generate interfaces from classes, constructors from fields and more
+</td>
+</tr>
+<tr>
+<td>
+47 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+48 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+49 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+50 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+51 </td><td> <a href="https://github.com/panoukos41/ViewBindingsGenerator" target="_blank">panoukos41/ViewBindingsGenerator </a> </td><td> A project that generates a partial class (view) for Activitie
+s/Fragments that will contain properties with the same name as their android:id in the xml view file.
+</td>
+</tr>
+<tr>
+<td>
+52 </td><td> <a href="https://github.com/alekshura/SourceMapper" target="_blank">alekshura/SourceMapper </a> </td><td> Mappings code generator based on attributes
+</td>
+</tr>
+<tr>
+<td>
+53 </td><td> <a href="https://github.com/Burgyn/MMLib.MediatR.Generators" target="_blank">Burgyn/MMLib.MediatR.Generators </a> </td><td> This generator generates controllers and their methods for you 
+based on your MediatR requests.
 </td>
 </tr>
 </table>

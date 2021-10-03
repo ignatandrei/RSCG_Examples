@@ -44,7 +44,8 @@ namespace Generator
                 "TinyTypes",
                 "appSettingsEditor",
                 "ApparatusAOT",
-                "TimeBombComment"
+                "TimeBombComment",
+                "DebuggerToString"
             };
             this.rootPath = root;
         }
