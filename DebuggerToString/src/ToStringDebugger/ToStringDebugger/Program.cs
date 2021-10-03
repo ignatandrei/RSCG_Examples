@@ -6,9 +6,8 @@ namespace ToStringDebugger
     {
         static void Main(string[] args)
         {
-            Person p = new Person();
-            p.Name = "Andrei";
-            //p.Foo();
+            var p = new Person();
+            p.FirstName = "Andrei";
             //put here a debug watch to see p
             Console.WriteLine(p.ToString());
         }
@@ -24,7 +23,8 @@ namespace ToStringDebugger
         //dummy
         private string s { get; set; }
         public int ID { get; set; }
-        public string Name { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         //dummy
         public static string NewID { get; set; }
     }
