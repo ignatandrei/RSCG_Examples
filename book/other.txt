@@ -106,9 +106,6 @@
          "repository":"https://github.com/ashmind/SourceMock"
       },
       {
-         "repository":"https://github.com/SergeyTeplyakov/StructRecordsGenerator"
-      },
-      {
          "repository":"https://github.com/mehmetakbulut/SignalR.Strong"
       },
       {
