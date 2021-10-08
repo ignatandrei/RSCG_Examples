@@ -1,12 +1,12 @@
 
  
-# RSCG - 66 examples of Roslyn Source Code Generators 
+# RSCG - 79 examples of Roslyn Source Code Generators 
 
 
 ## Content
-You have 25 examples with my own source codes ( see below).
+You have 26 examples with my own source codes ( see below).
 
-Also, there are 41 more examples waiting to be discovered/analyzed by you .
+Also, there are 53 more examples waiting to be discovered/analyzed by you .
 
 
 <table>
@@ -485,6 +485,25 @@ Other links:
 </td>
 
 <td>This will generate code .ToString. Usefull for debugging</td>
+
+</td>
+
+</tr>
+
+<tr>
+<td>26</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-26--boilerplatefree' target='_blank'>See in action: BoilerplateFree</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Class2Interface' target='_blank'>Source Code</a>
+<a href='https://github.com/GeeWee/boilerplatefree' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will generate interface from a class</td>
 
 </td>
 

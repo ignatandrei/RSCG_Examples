@@ -45,7 +45,8 @@ namespace Generator
                 "appSettingsEditor",
                 "ApparatusAOT",
                 "TimeBombComment",
-                "DebuggerToString"
+                "DebuggerToString",
+                "Class2Interface"
             };
             this.rootPath = root;
         }
