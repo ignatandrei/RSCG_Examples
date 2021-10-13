@@ -37,6 +37,8 @@ input-files:
 - ../TinyTypes/readme.md
 - ../appSettingsEditor/readme.md
 - ../ApparatusAOT/readme.md
+- ../TimeBombComment/readme.md
+- ../Class2Interface/readme.md
 - ../book/others.md
 - ../book/conclusion.md
 
