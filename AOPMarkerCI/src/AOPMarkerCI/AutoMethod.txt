@@ -53,7 +53,7 @@ namespace {{NamespaceName}} {
             {{ end}}
 
             try{
-                {{returnString}} {{  strAwait }} {{mi.NewName}}({{ mi.parametersCallCSharp }});
+                {{returnString}} {{  strAwait }} {{mi.Name}}({{ mi.parametersCallCSharp }});
             }
             catch(Exception ex){
                 Console.WriteLine($"--{{mi.NewName}} exception {ex.Message}");
@@ -61,7 +61,7 @@ namespace {{NamespaceName}} {
             }
             finally{
 				utcTime =System.DateTime.UtcNow;
-                Console.WriteLine("end method {{mi.Name}}");                
+                Console.WriteLine("end method {{mi.NewName}}");                
             }
 
 
