@@ -4,7 +4,7 @@ using System;
 namespace AOPMarkerCI
 {
     [AutoMethods(template = TemplateMethod.CustomTemplateFile, MethodPrefix = "auto", CustomTemplateFileName = "../AutoMethod.txt")]
-    class Program
+    partial class Program
     {
 
         static void Main(string[] args)
