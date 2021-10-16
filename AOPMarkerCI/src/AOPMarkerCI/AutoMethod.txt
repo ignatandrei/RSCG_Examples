@@ -38,7 +38,7 @@ namespace {{NamespaceName}} {
         public {{strAsync}} {{mi.ReturnType}} {{mi.NewName}} ({{mi.parametersDefinitionCSharp }}){
 			var utcTime =System.DateTime.UtcNow;
              
-			Console.WriteLine("start method {{mi.Name}} at " +utcTime);
+			Console.WriteLine("start method {{mi.NewName}} at " +utcTime);
             {{~ for miArg in mi.Parameters  ~}}
                 string val{{ miArg.Key }} ;
                 try{
@@ -53,10 +53,10 @@ namespace {{NamespaceName}} {
             {{ end}}
 
             try{
-                {{returnString}} {{  strAwait }} {{mi.Name}}({{ mi.parametersCallCSharp }});
+                {{returnString}} {{  strAwait }} {{mi.NewName}}({{ mi.parametersCallCSharp }});
             }
             catch(Exception ex){
-                Console.WriteLine($"--{{mi.Name}} exception {ex.Message}");
+                Console.WriteLine($"--{{mi.NewName}} exception {ex.Message}");
                 throw;
             }
             finally{
