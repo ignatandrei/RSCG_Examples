@@ -46,6 +46,7 @@ namespace Generator
                 "ApparatusAOT",
                 "TimeBombComment",
                 "DebuggerToString",
+                "AOPMarkerCI",
                 "Class2Interface"
             };
             this.rootPath = root;

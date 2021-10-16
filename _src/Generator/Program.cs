@@ -9,14 +9,20 @@ namespace Generator
     {
         static async Task Main(string[] args)
         {
-
-            string folder = @"E:\ignatandrei\RSCG_Examples\";
-            var m = new MultiGenerator(folder);
-            await m.GeneratePost();
-            await m.GenerateReadMeForEach();
-            await m.GenerateFrontReadMe();
-            await m.GenerateForImages(Path.Combine(folder, "docs", "images"));
-            await m.GenerateForEmail();
+            try
+            {
+                string folder = @"E:\ignatandrei\RSCG_Examples\";
+                var m = new MultiGenerator(folder);
+                await m.GeneratePost();
+                await m.GenerateReadMeForEach();
+                await m.GenerateFrontReadMe();
+                await m.GenerateForImages(Path.Combine(folder, "docs", "images"));
+                await m.GenerateForEmail();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("!!!!" + ex.Message);
+            }
         }
         
         

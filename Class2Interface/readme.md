@@ -1,5 +1,5 @@
 
-# RSCG number 26 : BoilerplateFree 
+# RSCG number 27 : BoilerplateFree 
 
 
 ## What RSCG BoilerplateFree can do

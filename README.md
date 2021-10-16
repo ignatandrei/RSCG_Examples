@@ -1,10 +1,10 @@
 
  
-# RSCG - 79 examples of Roslyn Source Code Generators 
+# RSCG - 80 examples of Roslyn Source Code Generators 
 
 
 ## Content
-You have 26 examples with my own source codes ( see below).
+You have 27 examples with my own source codes ( see below).
 
 Also, there are 53 more examples waiting to be discovered/analyzed by you .
 
@@ -493,7 +493,26 @@ Other links:
 <tr>
 <td>26</td>
 <td>
-<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-26--boilerplatefree' target='_blank'>See in action: BoilerplateFree</a>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-26--aopmarkerci' target='_blank'>See in action: AOPMarkerCI</a>
+
+
+Other links:
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI' target='_blank'>Source Code</a>
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
+
+
+</td>
+
+<td>This will tracing methods marked with AOPMarkerMethod in CI builds. Does not affect the code run by the programmer.</td>
+
+</td>
+
+</tr>
+
+<tr>
+<td>27</td>
+<td>
+<a href='https://ignatandrei.github.io/RSCG_Examples/#rscg-number-27--boilerplatefree' target='_blank'>See in action: BoilerplateFree</a>
 
 
 Other links:
