@@ -3,6 +3,7 @@ using System;
 
 namespace AOPMarkerCI
 {
+    [AutoMethods(template = TemplateMethod.CustomTemplateFile, MethodPrefix = "auto", CustomTemplateFileName = "../AutoMethod.txt")]
     partial class UnderTest
     {
         [AOPMarkerMethod]
