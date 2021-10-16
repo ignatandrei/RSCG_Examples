@@ -10,4 +10,8 @@
     <PackageReference Include="AOPMethodsGenerator" Version="2021.6.11.907" />
 
   </ItemGroup>
+  <PropertyGroup>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)Generated</CompilerGeneratedFilesOutputPath>
+  </PropertyGroup>
 </Project>

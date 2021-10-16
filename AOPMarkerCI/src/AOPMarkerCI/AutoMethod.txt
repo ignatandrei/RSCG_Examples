@@ -38,7 +38,7 @@ namespace {{NamespaceName}} {
         public {{strAsync}} {{mi.ReturnType}} {{mi.NewName}} ({{mi.parametersDefinitionCSharp }}){
 			var utcTime =System.DateTime.UtcNow;
              
-			Console.WriteLine("start method "+ mi.Name + " at " +utcTime);
+			Console.WriteLine("start method {{mi.Name}} at " +utcTime);
             {{~ for miArg in mi.Parameters  ~}}
                 string val{{ miArg.Key }} ;
                 try{
@@ -47,7 +47,7 @@ namespace {{NamespaceName}} {
                 catch(Exception ex){
                     val{{ miArg.Key }} = "Error serializing parameter {{ miArg.Key }} : "+ ex.Message;
                 }
-                Console.WriteLine("Argument_{{ miArg.Key }}",val{{ miArg.Key }});
+                Console.WriteLine("Argument_{{ miArg.Key }} :" + val{{ miArg.Key }});
                 
              
             {{ end}}
@@ -56,7 +56,7 @@ namespace {{NamespaceName}} {
                 {{returnString}} {{  strAwait }} {{mi.Name}}({{ mi.parametersCallCSharp }});
             }
             catch(Exception ex){
-                Console.WriteLine("--{{mi.Name}} exception ");
+                Console.WriteLine($"--{{mi.Name}} exception {ex.Message}");
                 throw;
             }
             finally{
