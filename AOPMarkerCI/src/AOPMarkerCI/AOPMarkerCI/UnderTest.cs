@@ -1,5 +1,6 @@
 ﻿using AOPMethodsCommon;
 using System;
+using System.Threading.Tasks;
 
 namespace AOPMarkerCI
 {
@@ -7,8 +8,9 @@ namespace AOPMarkerCI
     partial class UnderTest
     {
         [AOPMarkerMethod]
-        public int Method1()
+        public async Task<int> Method1()
         {
+            await Task.Delay(1000);
             var ret = Method2(DateTime.Now);
             return ret % 2 == 0 ? 1 : 0;
         }

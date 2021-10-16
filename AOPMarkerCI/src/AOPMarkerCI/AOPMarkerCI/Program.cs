@@ -1,16 +1,17 @@
 ﻿using AOPMethodsCommon;
 using System;
+using System.Threading.Tasks;
 
 namespace AOPMarkerCI
 {
-    partial class Program
+    class Program
     {
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine("Run the autoci file");
             var underTest = new UnderTest();
-            int i = underTest.Method1();
+            int i = await underTest.Method1();
             Console.WriteLine($"result:{i}");
         }
     }
