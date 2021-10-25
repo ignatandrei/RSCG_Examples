@@ -2,7 +2,7 @@
 
 ## Content of the book
 
-You will find in this book code examples about >10 Roslyn Source Code Generator (RSCG) that can be useful for you. That means, you will write more elegant and concise code - even if the generators code is not always nice to look.
+You will find in this book code examples 27 Roslyn Source Code Generator (RSCG) that can be useful for you. That means, you will write more elegant and concise code - even if the generators code is not always nice to look.
 
 ## Are those examples ready for production?
 
