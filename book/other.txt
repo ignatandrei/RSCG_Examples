@@ -134,6 +134,13 @@
       },
       {
          "repository":"https://github.com/Burgyn/MMLib.MediatR.Generators"
+      },
+      {
+         "repository":"https://github.com/canton7/PropertyChanged.SourceGenerator"
+      },
+      {
+         "repository":"https://github.com/raffaeler/SpeedyGenerators"
       }
+
    ]
 }
