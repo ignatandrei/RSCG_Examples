@@ -22,6 +22,19 @@ namespace Generator
 
         [JsonPropertyName("source")]
         public string Source { get; set; }
+
+        public string MarkdownLastCommit
+        {
+            get
+            {
+                var strShields = "https://img.shields.io";
+                var data = Source.Split("/",StringSplitOptions.RemoveEmptyEntries);
+                var site = data[1].Replace(".com", "");
+                var user = data[2];
+                var repo = data[3];
+                return $"![GitHub last commit]({strShields}/github/last-commit/{user}/{repo}?label=%20{user}%2F{repo}%20updated%3A)";
+            }
+        }
     }
 
     public class Data

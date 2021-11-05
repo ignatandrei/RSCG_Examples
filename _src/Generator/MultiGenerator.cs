@@ -165,7 +165,7 @@ namespace Generator
             var gen = await AllDescriptions();
             var templatePost = await File.ReadAllTextAsync("frontReadme.txt");
             var templateScriban = Scriban.Template.Parse(templatePost);
-            string other_roslyn = await File.ReadAllTextAsync(@"E:\ignatandrei\RSCG_Examples\book\others.md");
+            string other_roslyn = await File.ReadAllTextAsync(@"C:\Users\Surface1\Documents\GitHub\RSCG_Examples\book\others.md");
             var output = templateScriban.Render(new { all = gen, other_roslyn }, member => member.Name);
             string readMe = Path.Combine(rootPath,  "readme.md");
             await File.WriteAllTextAsync(readMe, output);

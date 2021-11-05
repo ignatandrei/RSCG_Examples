@@ -11,7 +11,7 @@ namespace Generator
         {
             try
             {
-                string folder = @"E:\ignatandrei\RSCG_Examples\";
+                string folder = @"C:\Users\Surface1\Documents\GitHub\RSCG_Examples";
                 var m = new MultiGenerator(folder);
                 await m.GeneratePost();
                 await m.GenerateReadMeForEach();
