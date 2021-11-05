@@ -28,10 +28,13 @@ Also, there are {{linksRSCG}} more examples waiting to be discovered/analyzed by
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/{{mi.rootFolder}}' target='_blank'>Source Code</a>
-<a href='{{mi.Generator.Source}}' target='_blank'>Official Site</a>
-{{mi.Generator.MarkdownLastCommit}} {{mi.Generator.MarkDownStars}}
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/{{mi.rootFolder}}' target='_blank'>Source Code</a>
+
+<a href='{{mi.Generator.Source}}' target='_blank'>Official Site
+{{mi.Generator.MarkdownLastCommit}} {{mi.Generator.MarkDownStars}}
+</a>
+{{mi.Generator.MarkDownNugetDownloads}}
 
 </td>
 

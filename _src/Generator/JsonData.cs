@@ -23,6 +23,19 @@ namespace Generator
         [JsonPropertyName("source")]
         public string Source { get; set; }
 
+        public string MarkDownNugetDownloads
+        {
+            get
+            {
+                if ((Nuget?.Length ?? 0) == 0)
+                    return "";
+                var l = "https://www.nuget.org/packages/".Length;
+                var name = Nuget[0].Substring(l);
+                if (name.EndsWith("/"))
+                    name = name.Substring(0, name.Length - 1);
+                return $"![Nuget](https://img.shields.io/nuget/dt/{name}?label=Nuget)";
+            }
+        }
         public string MarkdownLastCommit
         {
             get

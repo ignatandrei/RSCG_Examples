@@ -22,10 +22,13 @@ Also, there are 53 more examples waiting to be discovered/analyzed by you .
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion' target='_blank'>Source Code</a>
-<a href='https://github.com/devlooped/ThisAssembly' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion' target='_blank'>Source Code</a>
+
+<a href='https://github.com/devlooped/ThisAssembly' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=Nuget)
 
 </td>
 
@@ -42,10 +45,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -62,10 +68,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass' target='_blank'>Source Code</a>
-<a href='https://github.com/hermanussen/JsonByExampleGenerator/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/JsonByExampleGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/hermanussen/JsonByExampleGenerator?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass' target='_blank'>Source Code</a>
+
+<a href='https://github.com/hermanussen/JsonByExampleGenerator/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/JsonByExampleGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/hermanussen/JsonByExampleGenerator?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/JsonByExampleGenerator?label=Nuget)
 
 </td>
 
@@ -82,10 +91,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -102,10 +114,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper' target='_blank'>Source Code</a>
-<a href='https://github.com/ThomasBleijendaal/GeneratedMapper' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ThomasBleijendaal/GeneratedMapper?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ThomasBleijendaal/GeneratedMapper?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper' target='_blank'>Source Code</a>
+
+<a href='https://github.com/ThomasBleijendaal/GeneratedMapper' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ThomasBleijendaal/GeneratedMapper?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ThomasBleijendaal/GeneratedMapper?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/GeneratedMapper?label=Nuget)
 
 </td>
 
@@ -122,10 +137,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/SkinnyControllersCommon?label=Nuget)
 
 </td>
 
@@ -142,10 +160,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder' target='_blank'>Source Code</a>
-<a href='https://github.com/dasMulli/data-builder-generator' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/dasMulli/data-builder-generator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/dasMulli/data-builder-generator?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder' target='_blank'>Source Code</a>
+
+<a href='https://github.com/dasMulli/data-builder-generator' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/dasMulli/data-builder-generator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/dasMulli/data-builder-generator?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/DasMulli.DataBuilderGenerator?label=Nuget)
 
 </td>
 
@@ -162,10 +183,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -182,10 +206,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking' target='_blank'>Source Code</a>
-<a href='https://github.com/hermanussen/MockSourceGenerator/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/MockSourceGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/hermanussen/MockSourceGenerator?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking' target='_blank'>Source Code</a>
+
+<a href='https://github.com/hermanussen/MockSourceGenerator/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/MockSourceGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/hermanussen/MockSourceGenerator?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/MockSourceGenerator?label=Nuget)
 
 </td>
 
@@ -202,10 +229,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -222,10 +252,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction' target='_blank'>Source Code</a>
-<a href='https://github.com/JasonBock/PartiallyApplied' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/PartiallyApplied?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction' target='_blank'>Source Code</a>
+
+<a href='https://github.com/JasonBock/PartiallyApplied' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/PartiallyApplied?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/PartiallyApplied?label=Nuget)
 
 </td>
 
@@ -242,10 +275,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -262,10 +298,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator' target='_blank'>Source Code</a>
-<a href='https://github.com/beakona/AutoInterface' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/beakona/AutoInterface?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/beakona/AutoInterface?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator' target='_blank'>Source Code</a>
+
+<a href='https://github.com/beakona/AutoInterface' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/beakona/AutoInterface?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/beakona/AutoInterface?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/BeaKona.AutoInterfaceGenerator?label=Nuget)
 
 </td>
 
@@ -282,10 +321,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -302,10 +344,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender' target='_blank'>Source Code</a>
-<a href='https://github.com/atifaziz/Transplator/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/atifaziz/Transplator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/atifaziz/Transplator?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender' target='_blank'>Source Code</a>
+
+<a href='https://github.com/atifaziz/Transplator/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/atifaziz/Transplator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/atifaziz/Transplator?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/Transplator?label=Nuget)
 
 </td>
 
@@ -322,10 +367,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version' target='_blank'>Source Code</a>
-<a href='https://github.com/ignatandrei/RSCG_AMS' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_AMS?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_AMS?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version' target='_blank'>Source Code</a>
+
+<a href='https://github.com/ignatandrei/RSCG_AMS' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_AMS?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_AMS?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AMS_Base?label=Nuget)
 
 </td>
 
@@ -342,10 +390,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator' target='_blank'>Source Code</a>
-<a href='https://github.com/Jalalx/HttpClientCodeGenerator' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/Jalalx/HttpClientCodeGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/Jalalx/HttpClientCodeGenerator?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator' target='_blank'>Source Code</a>
+
+<a href='https://github.com/Jalalx/HttpClientCodeGenerator' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/Jalalx/HttpClientCodeGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/Jalalx/HttpClientCodeGenerator?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/HttpClientGenerator?label=Nuget)
 
 </td>
 
@@ -362,10 +413,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator' target='_blank'>Source Code</a>
-<a href='https://github.com/ignatandrei/QueryViewer/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/QueryViewer?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/QueryViewer?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator' target='_blank'>Source Code</a>
+
+<a href='https://github.com/ignatandrei/QueryViewer/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/QueryViewer?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/QueryViewer?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/QueryGenerator?label=Nuget)
 
 </td>
 
@@ -382,10 +436,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister' target='_blank'>Source Code</a>
-<a href='https://github.com/giggio/sourceinject' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/giggio/sourceinject?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/giggio/sourceinject?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister' target='_blank'>Source Code</a>
+
+<a href='https://github.com/giggio/sourceinject' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/giggio/sourceinject?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/giggio/sourceinject?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/SourceInject?label=Nuget)
 
 </td>
 
@@ -402,10 +459,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/StaticToInterface' target='_blank'>Source Code</a>
-<a href='https://github.com/ignatandrei/RSCG_Static/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Static?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/StaticToInterface' target='_blank'>Source Code</a>
+
+<a href='https://github.com/ignatandrei/RSCG_Static/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Static?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/RSCG_Static?label=Nuget)
 
 </td>
 
@@ -422,10 +482,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes' target='_blank'>Source Code</a>
-<a href='https://github.com/Andreas-Dorfer/base-types' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/Andreas-Dorfer/base-types?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/Andreas-Dorfer/base-types?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes' target='_blank'>Source Code</a>
+
+<a href='https://github.com/Andreas-Dorfer/base-types' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/Andreas-Dorfer/base-types?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/Andreas-Dorfer/base-types?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AndreasDorfer.BaseTypes?label=Nuget)
 
 </td>
 
@@ -442,10 +505,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor' target='_blank'>Source Code</a>
-<a href='https://github.com/ignatandrei/appSettingsEditor' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/appSettingsEditor?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/appSettingsEditor?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor' target='_blank'>Source Code</a>
+
+<a href='https://github.com/ignatandrei/appSettingsEditor' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/appSettingsEditor?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/appSettingsEditor?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/appSettingsEditor?label=Nuget)
 
 </td>
 
@@ -462,10 +528,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT' target='_blank'>Source Code</a>
-<a href='https://github.com/byme8/Apparatus.AOT.Reflection' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/byme8/Apparatus.AOT.Reflection?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/byme8/Apparatus.AOT.Reflection?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT' target='_blank'>Source Code</a>
+
+<a href='https://github.com/byme8/Apparatus.AOT.Reflection' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/byme8/Apparatus.AOT.Reflection?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/byme8/Apparatus.AOT.Reflection?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/Apparatus.AOT.Reflection?label=Nuget)
 
 </td>
 
@@ -482,10 +551,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment' target='_blank'>Source Code</a>
-<a href='https://github.com/ignatandrei/RSCG_TimeBombComment' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment' target='_blank'>Source Code</a>
+
+<a href='https://github.com/ignatandrei/RSCG_TimeBombComment' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/RSCG_TimeBombComment?label=Nuget)
 
 </td>
 
@@ -502,10 +574,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString' target='_blank'>Source Code</a>
-<a href='https://github.com/SergeyTeplyakov/StructRecordsGenerator' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/SergeyTeplyakov/StructRecordsGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/SergeyTeplyakov/StructRecordsGenerator?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString' target='_blank'>Source Code</a>
+
+<a href='https://github.com/SergeyTeplyakov/StructRecordsGenerator' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/SergeyTeplyakov/StructRecordsGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/SergeyTeplyakov/StructRecordsGenerator?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/StructRecordGenerator?label=Nuget)
 
 </td>
 
@@ -522,10 +597,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI' target='_blank'>Source Code</a>
-<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI' target='_blank'>Source Code</a>
+
+<a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/AOPMethodsCommon?label=Nuget)
 
 </td>
 
@@ -542,10 +620,13 @@ Other links:
 
 
 Other links:
-<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Class2Interface' target='_blank'>Source Code</a>
-<a href='https://github.com/GeeWee/boilerplatefree' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/GeeWee/boilerplatefree?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/GeeWee/boilerplatefree?style=social)
 
+<a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Class2Interface' target='_blank'>Source Code</a>
+
+<a href='https://github.com/GeeWee/boilerplatefree' target='_blank'>Official Site
+![GitHub last commit](https://img.shields.io/github/last-commit/GeeWee/boilerplatefree?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/GeeWee/boilerplatefree?style=social)
+</a>
+![Nuget](https://img.shields.io/nuget/dt/boilerplatefree?label=Nuget)
 
 </td>
 
