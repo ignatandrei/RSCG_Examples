@@ -24,7 +24,7 @@ Also, there are 53 more examples waiting to be discovered/analyzed by you .
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion' target='_blank'>Source Code</a>
 <a href='https://github.com/devlooped/ThisAssembly' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
 
 
 </td>
@@ -44,7 +44,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -64,7 +64,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToClass' target='_blank'>Source Code</a>
 <a href='https://github.com/hermanussen/JsonByExampleGenerator/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/JsonByExampleGenerator?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/JsonByExampleGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/hermanussen/JsonByExampleGenerator?style=social)
 
 
 </td>
@@ -84,7 +84,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -104,7 +104,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper' target='_blank'>Source Code</a>
 <a href='https://github.com/ThomasBleijendaal/GeneratedMapper' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ThomasBleijendaal/GeneratedMapper?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ThomasBleijendaal/GeneratedMapper?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ThomasBleijendaal/GeneratedMapper?style=social)
 
 
 </td>
@@ -124,7 +124,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -144,7 +144,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder' target='_blank'>Source Code</a>
 <a href='https://github.com/dasMulli/data-builder-generator' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/dasMulli/data-builder-generator?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/dasMulli/data-builder-generator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/dasMulli/data-builder-generator?style=social)
 
 
 </td>
@@ -164,7 +164,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -184,7 +184,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking' target='_blank'>Source Code</a>
 <a href='https://github.com/hermanussen/MockSourceGenerator/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/MockSourceGenerator?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/hermanussen/MockSourceGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/hermanussen/MockSourceGenerator?style=social)
 
 
 </td>
@@ -204,7 +204,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -224,7 +224,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction' target='_blank'>Source Code</a>
 <a href='https://github.com/JasonBock/PartiallyApplied' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/PartiallyApplied?style=social)
 
 
 </td>
@@ -244,7 +244,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -264,7 +264,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator' target='_blank'>Source Code</a>
 <a href='https://github.com/beakona/AutoInterface' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/beakona/AutoInterface?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/beakona/AutoInterface?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/beakona/AutoInterface?style=social)
 
 
 </td>
@@ -284,7 +284,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -304,7 +304,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender' target='_blank'>Source Code</a>
 <a href='https://github.com/atifaziz/Transplator/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/atifaziz/Transplator?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/atifaziz/Transplator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/atifaziz/Transplator?style=social)
 
 
 </td>
@@ -324,7 +324,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version' target='_blank'>Source Code</a>
 <a href='https://github.com/ignatandrei/RSCG_AMS' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_AMS?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_AMS?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_AMS?style=social)
 
 
 </td>
@@ -344,7 +344,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator' target='_blank'>Source Code</a>
 <a href='https://github.com/Jalalx/HttpClientCodeGenerator' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/Jalalx/HttpClientCodeGenerator?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/Jalalx/HttpClientCodeGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/Jalalx/HttpClientCodeGenerator?style=social)
 
 
 </td>
@@ -364,7 +364,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator' target='_blank'>Source Code</a>
 <a href='https://github.com/ignatandrei/QueryViewer/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/QueryViewer?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/QueryViewer?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/QueryViewer?style=social)
 
 
 </td>
@@ -384,7 +384,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister' target='_blank'>Source Code</a>
 <a href='https://github.com/giggio/sourceinject' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/giggio/sourceinject?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/giggio/sourceinject?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/giggio/sourceinject?style=social)
 
 
 </td>
@@ -404,7 +404,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/StaticToInterface' target='_blank'>Source Code</a>
 <a href='https://github.com/ignatandrei/RSCG_Static/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Static?style=social)
 
 
 </td>
@@ -424,7 +424,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes' target='_blank'>Source Code</a>
 <a href='https://github.com/Andreas-Dorfer/base-types' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/Andreas-Dorfer/base-types?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/Andreas-Dorfer/base-types?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/Andreas-Dorfer/base-types?style=social)
 
 
 </td>
@@ -444,7 +444,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor' target='_blank'>Source Code</a>
 <a href='https://github.com/ignatandrei/appSettingsEditor' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/appSettingsEditor?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/appSettingsEditor?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/appSettingsEditor?style=social)
 
 
 </td>
@@ -464,7 +464,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT' target='_blank'>Source Code</a>
 <a href='https://github.com/byme8/Apparatus.AOT.Reflection' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/byme8/Apparatus.AOT.Reflection?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/byme8/Apparatus.AOT.Reflection?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/byme8/Apparatus.AOT.Reflection?style=social)
 
 
 </td>
@@ -484,7 +484,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment' target='_blank'>Source Code</a>
 <a href='https://github.com/ignatandrei/RSCG_TimeBombComment' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social)
 
 
 </td>
@@ -504,7 +504,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString' target='_blank'>Source Code</a>
 <a href='https://github.com/SergeyTeplyakov/StructRecordsGenerator' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/SergeyTeplyakov/StructRecordsGenerator?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/SergeyTeplyakov/StructRecordsGenerator?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/SergeyTeplyakov/StructRecordsGenerator?style=social)
 
 
 </td>
@@ -524,7 +524,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI' target='_blank'>Source Code</a>
 <a href='http://github.com/ignatandrei/aop_With_Roslyn/' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/aop_With_Roslyn?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/aop_With_Roslyn?style=social)
 
 
 </td>
@@ -544,7 +544,7 @@ Other links:
 Other links:
 <a href='https://github.com/ignatandrei/RSCG_Examples/tree/main/Class2Interface' target='_blank'>Source Code</a>
 <a href='https://github.com/GeeWee/boilerplatefree' target='_blank'>Official Site</a>
-![GitHub last commit](https://img.shields.io/github/last-commit/GeeWee/boilerplatefree?label=updated)
+![GitHub last commit](https://img.shields.io/github/last-commit/GeeWee/boilerplatefree?label=updated) ![GitHub Repo stars](https://img.shields.io/github/stars/GeeWee/boilerplatefree?style=social)
 
 
 </td>

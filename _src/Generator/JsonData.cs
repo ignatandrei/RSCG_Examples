@@ -32,7 +32,19 @@ namespace Generator
                 var site = data[1].Replace(".com", "");
                 var user = data[2];
                 var repo = data[3];
-                return $"![GitHub last commit]({strShields}/github/last-commit/{user}/{repo}?label=updated)";
+                return $"![GitHub last commit]({strShields}/{site}/last-commit/{user}/{repo}?label=updated)";
+            }
+        }
+        public string MarkDownStars
+        {
+            get
+            {
+                var strShields = "https://img.shields.io";
+                var data = Source.Split("/", StringSplitOptions.RemoveEmptyEntries);
+                var site = data[1].Replace(".com", "");
+                var user = data[2];
+                var repo = data[3];
+                return $"![GitHub Repo stars]({strShields}/{site}/stars/{user}/{repo}?style=social)";
             }
         }
     }
