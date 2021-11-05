@@ -32,7 +32,7 @@ namespace Generator
                 var site = data[1].Replace(".com", "");
                 var user = data[2];
                 var repo = data[3];
-                return $"![GitHub last commit]({strShields}/github/last-commit/{user}/{repo}?label=%20{user}%2F{repo}%20updated%3A)";
+                return $"![GitHub last commit]({strShields}/github/last-commit/{user}/{repo}?label=updated)";
             }
         }
     }
