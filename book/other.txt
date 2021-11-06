@@ -140,6 +140,15 @@
       },
       {
          "repository":"https://github.com/raffaeler/SpeedyGenerators"
+      },
+      {
+         "repository":"https://github.com/stiankroknes/sourcegenerator-mediatr-proxy"
+      },
+      {
+         "repository":"https://github.com/CyAScott/MGen"
+      },
+      {
+         "repository":"https://github.com/GioviQ/SourceGenerators.AutoNotify"
       }
 
    ]
