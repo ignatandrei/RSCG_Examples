@@ -149,6 +149,9 @@
       },
       {
          "repository":"https://github.com/GioviQ/SourceGenerators.AutoNotify"
+      },
+      {
+         "repository":"https://github.com/as-ivanov/AppBlocks"
       }
 
    ]
