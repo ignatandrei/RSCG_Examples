@@ -1,6 +1,9 @@
 {
    "data":[
       {
+      	"repository":"https://github.com/khalidabuhakmeh/record-equality-source-generator/"
+      },
+      {
          "repository":"https://github.com/chsienki/AutoEmbed"
       },
       {
