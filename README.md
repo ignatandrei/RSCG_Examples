@@ -1,4 +1,4 @@
-# RSCG - 80 examples of Roslyn Source Code Generators 
+# RSCG - Examples of Roslyn Source Code Generators 
 
 
 ## Introduction
