@@ -33,6 +33,6 @@ jobs:
       uses: actions/upload-artifact@v3.1.2
       with:
         name: docsv2
-        path: 'src/v2/rscg_examples_site/build/*'
+        path: 'v2/rscg_examples_site/build/*'
         retention-days: 1
 
