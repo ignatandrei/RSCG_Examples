@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO.Compression;
 using System.Reflection.Emit;
 
 namespace Generator;
@@ -39,6 +40,11 @@ public class MultiGeneratorV2
         desc.Nr=nr;
         desc.rootFolder = folder;
         string sources = Path.Combine(desc.rootFolder, "src");
+        await CleanProject(sources);
+        var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
+        //Console.WriteLine(zipFile);
+        if (File.Exists(zipFile)) File.Delete(zipFile);
+        ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
         await BuildProject(sources);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj,SearchOption.AllDirectories);
         if(csprojItems.Length != 1)
@@ -52,7 +58,24 @@ public class MultiGeneratorV2
         //Console.WriteLine(desc.Data.outputFiles.ContentCsProj);
         return desc;
     }
+    private async Task<bool> CleanProject(string path)
+    {
+        //Console.WriteLine("Starting in" + path);
+        var psi = new ProcessStartInfo();
+        psi.WorkingDirectory = path;
+        psi.FileName = @"C:\Program Files\dotnet\dotnet.exe";
+        psi.WindowStyle = ProcessWindowStyle.Hidden;
+        psi.UseShellExecute = true;
+        psi.CreateNoWindow = true;
+        psi.Arguments = "clean";
+        var p = new Process();
+        p.StartInfo = psi;
 
+        p.Start();
+
+        await p.WaitForExitAsync();
+        return p.ExitCode == 0;
+    }
     private async Task<bool> BuildProject(string path)
     {
         //Console.WriteLine("Starting in" + path);

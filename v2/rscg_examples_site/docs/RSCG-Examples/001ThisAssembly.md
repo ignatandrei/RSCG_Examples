@@ -24,6 +24,8 @@ NuGet:
 https://www.nuget.org/packages/ThisAssembly
 
 You can find more details at https://www.clarius.org/ThisAssembly/
+
+Source : https://github.com/devlooped/ThisAssembly
 :::
 
 ### About
@@ -471,6 +473,9 @@ partial class ThisAssembly
 
 </Tabs>
 
+### Download 
+
+[Download Example ThisAssembly ](/sources/ThisAssembly.zip)
 
 
 

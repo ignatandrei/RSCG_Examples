@@ -26,6 +26,8 @@ NuGet:
 {{~ end ~}}
 
 You can find more details at {{Description.Generator.Link}}
+
+Source : {{ Description.Generator.Source }}
 :::
 
 ### About
@@ -81,6 +83,9 @@ You can find more details at {{Description.Generator.Link}}
 
 </Tabs>
 
+### Download 
+
+[Download Example {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
 
 
 
