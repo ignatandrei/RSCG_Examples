@@ -6,9 +6,12 @@ slug: /ThisAssembly
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
 
 
-## ThisAssembly - https://www.clarius.org/ThisAssembly/
+# ThisAssembly - https://www.clarius.org/ThisAssembly/
+
+<TOCInline toc={toc} />
 
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)

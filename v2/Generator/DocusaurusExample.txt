@@ -6,9 +6,11 @@ slug: /{{Description.Generator.Name}}
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
 
+# {{ Description.Generator.Name }} - {{Description.Generator.Link}}
 
-## {{ Description.Generator.Name }} - {{Description.Generator.Link}}
+<TOCInline toc={toc} />
 
 {{Description.Generator.MarkDownNugetDownloads}}
 {{Description.Generator.MarkdownLastCommit}}
