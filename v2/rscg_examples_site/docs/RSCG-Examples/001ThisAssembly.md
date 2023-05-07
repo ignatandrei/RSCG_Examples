@@ -14,14 +14,26 @@ import TabItem from '@theme/TabItem';
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
 
-## Details
-
+## Info
+:::info
 Author: Daniel Cazzulino
 
 NuGet: 
 https://www.nuget.org/packages/ThisAssembly
 
 You can find more details at https://www.clarius.org/ThisAssembly/
+:::
+
+## About
+:::note
+
+The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
+
+
+I found useful to see the assembly version right away in any project that I have.
+
+
+:::
 
 ## How to use
 
