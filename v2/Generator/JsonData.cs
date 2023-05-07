@@ -64,10 +64,10 @@ public class Data
     public string[] GoodFor { get; set; }
 
     [JsonPropertyName("csprojDemo")]
-    public string[] CSProj{ get; set; }
+    public string CSProj{ get; set; }
 
-    [JsonPropertyName("csFile")]
-    public string[] CsFile { get; set; }
+    [JsonPropertyName("csFiles")]
+    public string[] CsFiles { get; set; }
 
     public string GeneratedCode()
     {
@@ -97,10 +97,10 @@ public class Description
 
     [JsonPropertyName("links")]
     public Links Links { get; set; }
-
+    [JsonIgnore]
     public string rootFolder;
-
+    [JsonIgnore]
     public bool HaveAuthorAnswered;
-
+    [JsonIgnore]
     public string authorMD;
 }
