@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "badgen": "3.0.1",
-    "markdown-pdf": "10.0.0",
+    "markdown-pdf": "11.0.0",
     "node-sloc": "0.1.12",
     "pdf-merger-js": "3.0.5"
   }
