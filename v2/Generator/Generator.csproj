@@ -5,17 +5,21 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup >
+  <PropertyGroup>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="DocusaurusExample.txt" />
     <None Remove="email.txt" />
     <None Remove="frontReadme.txt" />
     <None Remove="post.txt" />
     <None Remove="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DocusaurusExample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="frontReadme.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -38,6 +42,7 @@
     <Watch Include="**\*.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Watch Remove="DocusaurusExample.txt" />
     <Watch Remove="email.txt" />
     <Watch Remove="frontReadme.txt" />
     <Watch Remove="readme.txt" />
