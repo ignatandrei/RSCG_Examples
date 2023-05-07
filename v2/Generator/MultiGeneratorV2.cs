@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using System.Reflection.Emit;
 
 namespace Generator;
 
@@ -36,8 +37,19 @@ public class MultiGeneratorV2
         var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
         var desc = JsonSerializer.Deserialize<Description>(text);
         desc.Nr=nr;
-        desc.rootFolder = folder;        
-        await BuildProject(Path.Combine(desc.rootFolder, "src"));
+        desc.rootFolder = folder;
+        string sources = Path.Combine(desc.rootFolder, "src");
+        await BuildProject(sources);
+        var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj,SearchOption.AllDirectories);
+        if(csprojItems.Length != 1)
+        {
+            throw new Exception($"cannot find {desc.Data.CSProj}");
+        }
+        var gen = desc.Data.outputFiles;
+        gen.fullPathToCsproj = csprojItems[0];
+        gen.csFiles = desc.Data.CsFiles;
+        await gen.GatherData();
+        //Console.WriteLine(desc.Data.outputFiles.ContentCsProj);
         return desc;
     }
 

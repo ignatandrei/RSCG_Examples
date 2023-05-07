@@ -11,8 +11,8 @@
 	"The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.",
 	"I found useful to see the assembly version right away in any project that I have."
 	],
-	"csprojDemo":"asd",
-	"csFiles":[""]
+	"csprojDemo":"RSCG_Version.csproj",
+	"csFiles":["Program.cs"]
   },
   "links":{
 	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
