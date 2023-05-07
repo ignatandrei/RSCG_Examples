@@ -1,0 +1,63 @@
+﻿&nbsp;
+
+&nbsp;
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="bottom" width="68"><b>name</b></td>
+<td valign="bottom" width="288">{{Generator.Name}}</td>
+</tr>
+<tr>
+<td valign="bottom" width="68"><b>nuget</b></td>
+<td valign="bottom" width="288">
+{{Generator.Nuget.Length}}
+{{~ for mi in Generator.Nuget ~}}
+    {{ mi }}
+{{~ end ~}}
+</td>
+</tr>
+<tr>
+<td valign="bottom" width="68"><b>link</b></td>
+<td valign="bottom" width="288">{{Generator.Link}}</td>
+</tr>
+<tr>
+<td valign="bottom" width="68"><b>author</b></td>
+<td valign="bottom" width="288">{{ Generator.Author }}</td>
+</tr>
+</tbody>
+</table>
+
+
+{{ Data.GoodFor }}
+&nbsp;
+
+The code that you start with is 
+[code lang="csharp"]
+{{~ for mi in Data.ExistingCode }}
+    {{ mi }}
+{{~ end ~}}
+
+
+[/code]
+The code that you will use is
+[code lang="csharp"]
+
+{{~ for mi in Data.Usage }}
+    {{ mi }}
+{{~ end ~}}
+
+[/code]
+&nbsp;
+
+The code that is generated is
+[code lang="csharp"]
+{{~ for mi in Data.GeneratedCode }}
+    {{ mi }}
+{{~ end ~}}
+
+[/code]
+
+
+Example Code: <a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/{{rootFolder}}" rel="noopener" target="_blank">https://github.com/ignatandrei/RSCG_Examples/tree/main/{{rootFolder}}</a>
+
+[table id=26 /]
