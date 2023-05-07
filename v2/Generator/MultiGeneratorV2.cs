@@ -1,19 +1,20 @@
-﻿using System.Diagnostics;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace Generator;
 
 public class MultiGeneratorV2
 {
 
-    string[] generators;
+    Dictionary<string, bool> generators;
     private readonly string rootPath;
     private Description[] _AllDescriptions = null;
     public MultiGeneratorV2(string root)
     {
         this.rootPath=root;
-        generators = new string[]
+        generators = new() 
         {
-            "ThisAssembly",
+            { "ThisAssembly",true }
 
         };
     }
@@ -21,7 +22,11 @@ public class MultiGeneratorV2
     public async Task GatherData()
     {
         string folderExamples = Path.Combine(rootPath, "rscg_examples");
-        _AllDescriptions = await Task.WhenAll(generators.Select((it,nr) => GatherData(nr+1,it,folderExamples)));
+        var tasks = generators
+            .Where(it=> it.Value)
+            .Select(it=>it.Key)
+            .Select((it, nr) => GatherData(nr + 1, it, folderExamples));
+        _AllDescriptions = await Task.WhenAll(tasks);
       
     }
 
@@ -58,7 +63,31 @@ public class MultiGeneratorV2
     internal async Task WroteDocusaurus()
     {
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        await ModifyDocusaurusTotalExamples(pathDocusaurus,generators.Count);
         await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it,pathDocusaurus )));
+    }
+
+    private async Task ModifyDocusaurusTotalExamples(string pathDocusaurus, int nr)
+    {
+        var index = Path.Combine(pathDocusaurus, "src", "components", "HomepageFeatures", "index.tsx");
+        var content = await File.ReadAllLinesAsync(index);
+        string newContent = "";
+        foreach(var line in content)
+        {
+            if (line.Contains("title:") && line.Contains("examples",StringComparison.InvariantCultureIgnoreCase))
+            {
+                newContent += $"title: '{nr} Examples',";
+
+            }
+            else
+            {
+                newContent += line;
+
+            }
+            newContent += Environment.NewLine;
+        }
+        await File.WriteAllTextAsync(index,newContent);
+
     }
 
     private async Task<bool> WroteDocusaurus(Description it, string pathDocusaurus)

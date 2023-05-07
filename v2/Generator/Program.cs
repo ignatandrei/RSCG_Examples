@@ -12,7 +12,7 @@
     //await m.GenerateForImages(Path.Combine(folder, "docs", "images"));
     //await m.GenerateForEmail();
 }
-catch (Exception ex)
+catch (Exception ex) 
 {
     Console.WriteLine("!!!!" + ex.Message);
 }
