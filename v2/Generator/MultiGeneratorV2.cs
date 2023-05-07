@@ -57,16 +57,21 @@ public class MultiGeneratorV2
 
     internal async Task WroteDocusaurus()
     {
-        await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it)));
+        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it,pathDocusaurus )));
     }
 
-    private async Task<bool> WroteDocusaurus(Description it)
+    private async Task<bool> WroteDocusaurus(Description it, string pathDocusaurus)
     {
         var template = await File.ReadAllTextAsync("DocusaurusExample.txt");
         var templateScriban = Scriban.Template.Parse(template);
         var output = templateScriban.Render(new {Description=it}, member => member.Name);
 
-        Console.WriteLine(output);
+        string folderToWrite = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples");
+        string file = it.Nr.ToString("00#") + it.Generator.Name+ ".md";
+        file=Path.Combine(folderToWrite,file);
+        await File.WriteAllTextAsync(file, output);
+        //Console.WriteLine(output);
         await Task.Delay(100);
         return true;
     }

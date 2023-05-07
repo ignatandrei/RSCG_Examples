@@ -2,5 +2,4 @@
 sidebar_position: {{ Description.Nr }}
 ---
 
-## {{ Description.Generator.Name }}
-
+## {{ Description.Generator.Name }} - {{Description.Generator.Link}}
