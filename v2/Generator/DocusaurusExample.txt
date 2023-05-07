@@ -14,7 +14,9 @@ import TabItem from '@theme/TabItem';
 {{Description.Generator.MarkdownLastCommit}}
 {{Description.Generator.MarkDownStars}}
 
-## Info
+## Details
+
+### Info
 :::info
 Author: {{Description.Generator.Author }}
 
@@ -26,7 +28,7 @@ NuGet:
 You can find more details at {{Description.Generator.Link}}
 :::
 
-## About
+### About
 :::note
 {{~ for item in Description.Data.GoodFor ~}}
 

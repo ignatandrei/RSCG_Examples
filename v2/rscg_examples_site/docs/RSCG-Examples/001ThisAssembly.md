@@ -14,7 +14,9 @@ import TabItem from '@theme/TabItem';
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
 
-## Info
+## Details
+
+### Info
 :::info
 Author: Daniel Cazzulino
 
@@ -24,7 +26,7 @@ https://www.nuget.org/packages/ThisAssembly
 You can find more details at https://www.clarius.org/ThisAssembly/
 :::
 
-## About
+### About
 :::note
 
 The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
