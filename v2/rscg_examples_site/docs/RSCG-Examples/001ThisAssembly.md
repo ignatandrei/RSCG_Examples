@@ -4,12 +4,15 @@ title: RSCG - ThisAssembly
 description: The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
 slug: /ThisAssembly
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
 ## ThisAssembly - https://www.clarius.org/ThisAssembly/
 
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
-
 
 ## Details
 
@@ -22,7 +25,11 @@ You can find more details at https://www.clarius.org/ThisAssembly/
 
 ## How to use
 
-### Example of the .csproj
+### Example 
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -46,19 +53,26 @@ You can find more details at https://www.clarius.org/ThisAssembly/
 </Project>
 
 ```
-### Example of how to use
 
-Program.cs
+</TabItem>
+
+  <TabItem value="Program.cs" label="Program.cs" >
 
 ```csharp
 var strVersion = ThisAssembly.Info.Version;
 System.Console.WriteLine(strVersion);
 
 ```
+  </TabItem>
+
+</Tabs>
 
 ### Generated Files
+<Tabs>
 
-ThisAssembly.AssemblyInfo.g.cs
+
+<TabItem value="ThisAssembly.AssemblyInfo.g.cs" label="ThisAssembly.AssemblyInfo.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -103,7 +117,12 @@ partial class ThisAssembly
     }
 }
 ```
-Branch.g.cs
+
+  </TabItem>
+
+
+<TabItem value="Branch.g.cs" label="Branch.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -130,7 +149,12 @@ partial class ThisAssembly
     }
 }
 ```
-Commit.g.cs
+
+  </TabItem>
+
+
+<TabItem value="Commit.g.cs" label="Commit.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -157,7 +181,12 @@ partial class ThisAssembly
     }
 }
 ```
-Root.g.cs
+
+  </TabItem>
+
+
+<TabItem value="Root.g.cs" label="Root.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -184,7 +213,12 @@ partial class ThisAssembly
     }
 }
 ```
-Sha.g.cs
+
+  </TabItem>
+
+
+<TabItem value="Sha.g.cs" label="Sha.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -211,7 +245,12 @@ partial class ThisAssembly
     }
 }
 ```
-Url.g.cs
+
+  </TabItem>
+
+
+<TabItem value="Url.g.cs" label="Url.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -238,7 +277,12 @@ partial class ThisAssembly
     }
 }
 ```
-ThisAssembly.Metadata.g.cs
+
+  </TabItem>
+
+
+<TabItem value="ThisAssembly.Metadata.g.cs" label="ThisAssembly.Metadata.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -269,7 +313,12 @@ partial class ThisAssembly
     }
 }
 ```
-ThisAssembly.Property.g.cs
+
+  </TabItem>
+
+
+<TabItem value="ThisAssembly.Property.g.cs" label="ThisAssembly.Property.g.cs" >
+
 
 ```csharp
 //------------------------------------------------------------------------------
@@ -315,7 +364,12 @@ partial class ThisAssembly
     }
 }
 ```
-ThisAssembly.Resources.EmbeddedResource.cs
+
+  </TabItem>
+
+
+<TabItem value="ThisAssembly.Resources.EmbeddedResource.cs" label="ThisAssembly.Resources.EmbeddedResource.cs" >
+
 
 ```csharp
 using System;
@@ -366,7 +420,12 @@ static class EmbeddedResource
     }
 }
 ```
-ThisAssembly.Strings.g.cs
+
+  </TabItem>
+
+
+<TabItem value="ThisAssembly.Strings.g.cs" label="ThisAssembly.Strings.g.cs" >
+
 
 ```csharp
 using System.Collections.Concurrent;
@@ -393,6 +452,10 @@ partial class ThisAssembly
 }
 ```
 
+  </TabItem>
+
+
+</Tabs>
 
 
 

@@ -4,12 +4,15 @@ title: RSCG - {{Description.Generator.Name}}
 description: {{Description.Data.GoodFor[0]}}
 slug: /{{Description.Generator.Name}}
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
 ## {{ Description.Generator.Name }} - {{Description.Generator.Link}}
 
 {{Description.Generator.MarkDownNugetDownloads}}
 {{Description.Generator.MarkdownLastCommit}}
 {{Description.Generator.MarkDownStars}}
-
 
 ## Details
 
@@ -24,31 +27,46 @@ You can find more details at {{Description.Generator.Link}}
 
 ## How to use
 
-### Example of the .csproj
+### Example 
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
 
 ```xml
 {{Description.Data.outputFiles.ContentCsProj}}
 ```
-### Example of how to use
+
+</TabItem>
 
 {{~ for fileContent in Description.Data.outputFiles.contentFiles ~}}
-{{fileContent.file}}
+  <TabItem value="{{fileContent.file}}" label="{{fileContent.file}}" >
 
 ```csharp
 {{fileContent.content}}
 ```
+  </TabItem>
+
 {{~ end ~}}
+</Tabs>
 
 ### Generated Files
+<Tabs>
 
 {{~ for fileContent in Description.Data.outputFiles.generatedFiles ~}}
-{{fileContent.file}}
+
+<TabItem value="{{fileContent.file}}" label="{{fileContent.file}}" >
+
 
 ```csharp
 {{fileContent.content}}
 ```
+
+  </TabItem>
+
 {{~ end ~}}
 
+</Tabs>
 
 
 
