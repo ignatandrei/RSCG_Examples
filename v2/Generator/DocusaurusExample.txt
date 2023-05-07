@@ -66,6 +66,9 @@ Source : {{ Description.Generator.Source }}
 </Tabs>
 
 ### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+
 <Tabs>
 
 {{~ for fileContent in Description.Data.outputFiles.generatedFiles ~}}
