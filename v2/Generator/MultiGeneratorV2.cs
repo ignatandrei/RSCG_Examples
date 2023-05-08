@@ -32,7 +32,22 @@ public class MultiGeneratorV2
         _AllDescriptions = await Task.WhenAll(tasks);
       
     }
+    public async Task CreateZip()
+    {
+        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, rootPath)));
 
+    }
+    private async Task<bool> CreateZipFiles(Description desc, string rootFolder)
+    {
+        string sources = Path.Combine(desc.rootFolder, "src");
+        await CleanProject(sources);
+        var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
+        //Console.WriteLine(zipFile);
+        if (File.Exists(zipFile)) File.Delete(zipFile);
+        ZipFile.CreateFromDirectory(sources, zipFile, CompressionLevel.SmallestSize, false);
+        return true;
+    }
     private async Task<Description> GatherData(int nr,string generator, string rootFolder)
     {
         var folder = Path.Combine(rootFolder,generator);
@@ -42,10 +57,10 @@ public class MultiGeneratorV2
         desc.rootFolder = folder;
         string sources = Path.Combine(desc.rootFolder, "src");
         await CleanProject(sources);
-        var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
-        //Console.WriteLine(zipFile);
-        if (File.Exists(zipFile)) File.Delete(zipFile);
-        ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
+        //var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
+        ////Console.WriteLine(zipFile);
+        //if (File.Exists(zipFile)) File.Delete(zipFile);
+        //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
         await BuildProject(sources);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj,SearchOption.AllDirectories);
         if(csprojItems.Length != 1)

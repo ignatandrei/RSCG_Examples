@@ -8,8 +8,11 @@
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");
     Console.WriteLine("y/n");
-    if (Console.ReadLine()=="y")
+    if (Console.ReadLine() == "y")
+    {
+        await m.CreateZip();
         await m.WrotePDF();
+    }
     //var m = new MultiGenerator(folder);
 
     //await m.GeneratePost();
