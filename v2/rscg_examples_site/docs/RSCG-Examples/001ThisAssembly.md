@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# ThisAssembly - https://www.clarius.org/ThisAssembly/
+# ThisAssembly  by Daniel Cazzulino
 
 <TOCInline toc={toc} />
 
@@ -49,6 +49,7 @@ I found useful to see the assembly version right away in any project that I have
 
 <TabItem value="csproj" label="CSharp Project">
 
+This is the CSharp Project that references ThisAssembly 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
@@ -75,6 +76,8 @@ I found useful to see the assembly version right away in any project that I have
 </TabItem>
 
   <TabItem value="Program.cs" label="Program.cs" >
+
+  This is the use of ThisAssembly in Program.cs
 
 ```csharp
 var strVersion = ThisAssembly.Info.Version;
@@ -485,7 +488,6 @@ partial class ThisAssembly
 ### Download PDF
 
 [Download PDF ThisAssembly ](/pdfs/ThisAssembly.pdf)
-
 
 
 

@@ -122,6 +122,11 @@ public class MultiGeneratorV2
         await ModifyDocusaurusTotalExamples(pathDocusaurus,generators.Count);
         await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it,pathDocusaurus )));
     }
+    internal async Task WrotePost()
+    {
+        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        await Task.WhenAll(_AllDescriptions.Select(it => WrotePost(it, pathDocusaurus)));
+    }
 
     private async Task ModifyDocusaurusTotalExamples(string pathDocusaurus, int nr)
     {
@@ -169,6 +174,20 @@ public class MultiGeneratorV2
         await p.WaitForExitAsync();
         return (p.ExitCode == 0);
 
+    }
+    private async Task<bool> WrotePost(Description it, string pathDocusaurus)
+    {
+        var template = await File.ReadAllTextAsync("newPost.txt");
+        var templateScriban = Scriban.Template.Parse(template);
+        var output = templateScriban.Render(new { Description = it }, member => member.Name);
+        string folderToWrite = Path.GetTempPath();
+        string file = it.Nr.ToString("00#") + it.Generator.Name + ".md";
+        file = Path.Combine(folderToWrite, file);
+        await File.WriteAllTextAsync(file, output);
+        Process.Start("notepad.exe", file);
+        //Console.WriteLine(output);
+        await Task.Delay(100);
+        return true;
     }
     private async Task<bool> WroteDocusaurus(Description it, string pathDocusaurus)
     {

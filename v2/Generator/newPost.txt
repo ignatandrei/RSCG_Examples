@@ -1,0 +1,68 @@
+﻿RSCG - {{Description.Generator.Name}} 
+&nbsp;
+&nbsp;
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="bottom" width="68"><b>name</b></td>
+<td valign="bottom" width="288">{{Description.Generator.Name}}</td>
+</tr>
+<tr>
+<td valign="bottom" width="68"><b>nuget</b></td>
+<td valign="bottom" width="288">
+{{~ for mi in Description.Generator.Nuget ~}}
+    <a href='{{ mi }}' target='_blank'>{{mi}}</a>
+{{~ end ~}}
+</td>
+</tr>
+<tr>
+<td valign="bottom" width="68"><b>link</b></td>
+<td valign="bottom" width="288">{{Description.Generator.Link}}</td>
+</tr>
+<tr>
+<td valign="bottom" width="68"><b>author</b></td>
+<td valign="bottom" width="288">{{ Description.Generator.Author }}</td>
+</tr>
+</tbody>
+</table>
+
+
+{{~ for item in Description.Data.GoodFor ~}}
+
+<p>{{item}}</p>
+
+{{~ end ~}}
+
+&nbsp;
+<p>This is how you can use {{Description.Generator.Name}} .
+</p>
+<p>
+The code that you start with is 
+</p>
+[code lang="xml"]
+
+{{Description.Data.outputFiles.ContentCsProj}}
+
+[/code]
+The code that you will use is
+
+{{~ for fileContent in Description.Data.outputFiles.contentFiles ~}}
+[code lang="csharp"]
+
+{{fileContent.content}}
+
+[/code]
+{{~ end ~}}
+
+&nbsp;
+
+The code that is generated is
+
+{{~ for fileContent in Description.Data.outputFiles.generatedFiles ~}}
+
+[code lang="csharp"]
+{{fileContent.content}}
+[/code]
+{{~ end ~}}
+
+

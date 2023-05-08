@@ -5,6 +5,7 @@
     await m.GatherData();
     
     await m.WroteDocusaurus();
+    await m.WrotePost(); 
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");
     Console.WriteLine("y/n");

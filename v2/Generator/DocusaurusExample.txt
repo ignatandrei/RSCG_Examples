@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# {{ Description.Generator.Name }} - {{Description.Generator.Link}}
+# {{ Description.Generator.Name }}  by {{Description.Generator.Author}}
 
 <TOCInline toc={toc} />
 
@@ -50,6 +50,7 @@ Source : {{ Description.Generator.Source }}
 
 <TabItem value="csproj" label="CSharp Project">
 
+This is the CSharp Project that references {{ Description.Generator.Name }} 
 ```xml
 {{Description.Data.outputFiles.ContentCsProj}}
 ```
@@ -58,6 +59,8 @@ Source : {{ Description.Generator.Source }}
 
 {{~ for fileContent in Description.Data.outputFiles.contentFiles ~}}
   <TabItem value="{{fileContent.file}}" label="{{fileContent.file}}" >
+
+  This is the use of {{ Description.Generator.Name }} in {{fileContent.file}}
 
 ```csharp
 {{fileContent.content}}

@@ -13,6 +13,7 @@
     <None Remove="DocusaurusExample.txt" />
     <None Remove="email.txt" />
     <None Remove="frontReadme.txt" />
+    <None Remove="newPost.txt" />
     <None Remove="post.txt" />
     <None Remove="readme.txt" />
   </ItemGroup>
@@ -24,6 +25,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="email.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="newPost.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="readme.txt">
@@ -45,6 +49,7 @@
     <Watch Remove="DocusaurusExample.txt" />
     <Watch Remove="email.txt" />
     <Watch Remove="frontReadme.txt" />
+    <Watch Remove="newPost.txt" />
     <Watch Remove="readme.txt" />
   </ItemGroup>
 </Project>
