@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.IO.Compression;
 using System.Reflection.Emit;
 
@@ -94,6 +95,11 @@ public class MultiGeneratorV2
         await p.WaitForExitAsync();
         return p.ExitCode == 0; 
     }
+    internal async Task WrotePDF()
+    {
+        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus)));
+    }
 
     internal async Task WroteDocusaurus()
     {
@@ -124,7 +130,31 @@ public class MultiGeneratorV2
         await File.WriteAllTextAsync(index,newContent);
 
     }
+    private async Task<bool> WrotePDF(Description it, string pathDocusaurus)
+    {
+        string folderToWrite = Path.Combine(pathDocusaurus, "static", "pdfs");
+        string file =  it.Generator.Name + ".pdf";
+        file = Path.Combine(folderToWrite, file);
 
+        var psi = new ProcessStartInfo();
+        psi.WorkingDirectory = @"C:\Program Files (x86)\Prince\engine\bin";
+        //psi.FileName = "cmd.exe";
+        psi.FileName = @"C:\Program Files (x86)\Prince\engine\bin\prince.exe";
+        psi.WindowStyle = ProcessWindowStyle.Hidden;
+        psi.UseShellExecute = false;
+        psi.CreateNoWindow = true;
+        psi.Arguments = $@"https://ignatandrei.github.io/RSCG_Examples/v2/docs/{it.Generator.Name} -o {file}";
+        
+        Console.WriteLine(psi.Arguments);
+        //psi.ArgumentList.Add("/K ");
+        //psi.ArgumentList.Add(@"C:\Program Files (x86)\Prince\engine\bin\prince.exe ");
+        var p = new Process();
+        p.StartInfo = psi;
+        p.Start();
+        await p.WaitForExitAsync();
+        return (p.ExitCode == 0);
+
+    }
     private async Task<bool> WroteDocusaurus(Description it, string pathDocusaurus)
     {
         var template = await File.ReadAllTextAsync("DocusaurusExample.txt");

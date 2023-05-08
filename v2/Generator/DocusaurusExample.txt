@@ -44,7 +44,7 @@ Source : {{ Description.Generator.Source }}
 
 ## How to use
 
-### Example 
+### Example ( source csproj, source files )
 
 <Tabs>
 
@@ -88,10 +88,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 </Tabs>
 
-### Download 
+### Download Example
 
 [Download Example {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
 
+### Download PDF
+
+[Download PDF {{Description.Generator.Name}} ](/pdfs/{{Description.Generator.Name}}.zip)
 
 
 

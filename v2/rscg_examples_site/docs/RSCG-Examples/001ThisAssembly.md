@@ -8,7 +8,6 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-
 # ThisAssembly - https://www.clarius.org/ThisAssembly/
 
 <TOCInline toc={toc} />
@@ -44,7 +43,7 @@ I found useful to see the assembly version right away in any project that I have
 
 ## How to use
 
-### Example 
+### Example ( source csproj, source files )
 
 <Tabs>
 
@@ -87,6 +86,9 @@ System.Console.WriteLine(strVersion);
 </Tabs>
 
 ### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+
 <Tabs>
 
 
@@ -476,10 +478,13 @@ partial class ThisAssembly
 
 </Tabs>
 
-### Download 
+### Download Example
 
 [Download Example ThisAssembly ](/sources/ThisAssembly.zip)
 
+### Download PDF
+
+[Download PDF ThisAssembly ](/pdfs/ThisAssembly.zip)
 
 
 
