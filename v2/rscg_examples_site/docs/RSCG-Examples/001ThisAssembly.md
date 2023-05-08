@@ -484,7 +484,7 @@ partial class ThisAssembly
 
 ### Download PDF
 
-[Download PDF ThisAssembly ](/pdfs/ThisAssembly.zip)
+[Download PDF ThisAssembly ](/pdfs/ThisAssembly.pdf)
 
 
 

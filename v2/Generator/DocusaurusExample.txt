@@ -94,8 +94,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 ### Download PDF
 
-[Download PDF {{Description.Generator.Name}} ](/pdfs/{{Description.Generator.Name}}.zip)
-
+[Download PDF {{Description.Generator.Name}} ](/pdfs/{{Description.Generator.Name}}.pdf)
 
 
 

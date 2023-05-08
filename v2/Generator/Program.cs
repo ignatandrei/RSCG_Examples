@@ -9,7 +9,7 @@
     Console.WriteLine("npm run serve");
     Console.WriteLine("y/n");
     if (Console.ReadLine()=="y")
-    await m.WrotePDF();
+        await m.WrotePDF();
     //var m = new MultiGenerator(folder);
 
     //await m.GeneratePost();
