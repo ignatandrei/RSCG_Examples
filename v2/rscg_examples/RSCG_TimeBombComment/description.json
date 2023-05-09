@@ -1,0 +1,26 @@
+{
+   "generator":{
+      "name":"RSCG_TimeBombComment",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_TimeBombComment/"
+      ],
+      "link":"http://msprogrammer.serviciipeweb.ro/category/roslyn/",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_TimeBombComment"
+   },
+   "data":{
+      "goodFor":["This will generate an error from the comment after a certain date"],
+      "existingCode":[
+         "//TB: 2021-09-13 this is a comment transformed into an error",
+         "//TB: and this is a warning",
+         "//TB: 9999-12-30 and this will not appear",
+         "Console.WriteLine(\"See the TB comment above ? \");"
+      ],
+      "csprojDemo":"Console_TimeBombComment.csproj",
+      "csFiles":["TestClass.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
