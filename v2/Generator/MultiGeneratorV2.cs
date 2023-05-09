@@ -14,11 +14,11 @@ public class MultiGeneratorV2
     private Description[] _AllDescriptions = null;
     public MultiGeneratorV2(string root)
     {
-        this.rootPath=root;
-        generators = new() 
+        this.rootPath = root;
+        generators = new()
         {
             { "ThisAssembly",true },
-            {"RSCG_TimeBombComment",true },
+            {"RSCG_TimeBombComment",true},
 
         };
     }
@@ -27,34 +27,34 @@ public class MultiGeneratorV2
     {
         string folderExamples = Path.Combine(rootPath, "rscg_examples");
         var tasks = generators
-            .Where(it=> it.Value)
-            .Select(it=>it.Key)
+            .Where(it => it.Value)
+            .Select(it => it.Key)
             .Select((it, nr) => GatherData(nr + 1, it, folderExamples));
         _AllDescriptions = await Task.WhenAll(tasks);
-      
+
     }
     public async Task CreateZip()
     {
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
-        await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, rootPath)));
+        await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, pathDocusaurus)));
 
     }
     private async Task<bool> CreateZipFiles(Description desc, string rootFolder)
     {
         string sources = Path.Combine(desc.rootFolder, "src");
         await CleanProject(sources);
-        var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
+        var zipFile = Path.Combine(rootFolder , "static", "sources", desc.Generator.Name + ".zip");
         //Console.WriteLine(zipFile);
         if (File.Exists(zipFile)) File.Delete(zipFile);
         ZipFile.CreateFromDirectory(sources, zipFile, CompressionLevel.SmallestSize, false);
         return true;
     }
-    private async Task<Description> GatherData(int nr,string generator, string rootFolder)
+    private async Task<Description> GatherData(int nr, string generator, string rootFolder)
     {
-        var folder = Path.Combine(rootFolder,generator);
+        var folder = Path.Combine(rootFolder, generator);
         var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
         var desc = JsonSerializer.Deserialize<Description>(text);
-        desc.Nr=nr;
+        desc.Nr = nr;
         desc.rootFolder = folder;
         string sources = Path.Combine(desc.rootFolder, "src");
         await CleanProject(sources);
@@ -63,8 +63,8 @@ public class MultiGeneratorV2
         //if (File.Exists(zipFile)) File.Delete(zipFile);
         //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
         await BuildProject(sources);
-        var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj,SearchOption.AllDirectories);
-        if(csprojItems.Length != 1)
+        var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);
+        if (csprojItems.Length != 1)
         {
             throw new Exception($"cannot find {desc.Data.CSProj}");
         }
@@ -99,17 +99,17 @@ public class MultiGeneratorV2
         var psi = new ProcessStartInfo();
         psi.WorkingDirectory = path;
         psi.FileName = @"C:\Program Files\dotnet\dotnet.exe";
-        psi.WindowStyle= ProcessWindowStyle.Hidden;
+        psi.WindowStyle = ProcessWindowStyle.Hidden;
         psi.UseShellExecute = true;
         psi.CreateNoWindow = true;
         psi.Arguments = "build";
         var p = new Process();
         p.StartInfo = psi;
-       
+
         p.Start();
-        
+
         await p.WaitForExitAsync();
-        return p.ExitCode == 0; 
+        return p.ExitCode == 0;
     }
     internal async Task WrotePDF()
     {
@@ -120,8 +120,8 @@ public class MultiGeneratorV2
     internal async Task WroteDocusaurus()
     {
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
-        await ModifyDocusaurusTotalExamples(pathDocusaurus,generators.Count);
-        await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it,pathDocusaurus )));
+        await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
+        await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it, pathDocusaurus)));
     }
     internal async Task WrotePost()
     {
@@ -129,7 +129,36 @@ public class MultiGeneratorV2
         await Task.WhenAll(_AllDescriptions.Select(it => WrotePost(it, pathDocusaurus)));
     }
 
-    private async Task ModifyDocusaurusTotalExamples(string pathDocusaurus, int nr)
+    private async Task ModifyDocusaurusTotalExamples(string pathDocusaurus, int nr) {
+        await ModifyDocusaurusIndex(pathDocusaurus, nr);
+        await ModifyDocusaurusAbout(pathDocusaurus, nr);
+    }
+
+    private async Task ModifyDocusaurusAbout(string pathDocusaurus, int nr)
+    {
+        var index = Path.Combine(pathDocusaurus, "docs", "About-This", "about.md");
+        var content = await File.ReadAllLinesAsync(index);
+        string newContent = "";
+        foreach (var line in content)
+        {
+            if (line.Contains("of ") && line.Contains("Roslyn Source Code Generator (RSCG)", StringComparison.InvariantCultureIgnoreCase))
+            {
+                newContent += $"of {nr} Roslyn Source Code Generator (RSCG)";
+
+            }
+            else
+            {
+                newContent += line;
+
+            }
+            newContent += Environment.NewLine;
+        }
+        await File.WriteAllTextAsync(index, newContent);
+
+
+
+    }
+    private async Task ModifyDocusaurusIndex(string pathDocusaurus, int nr)
     {
         var index = Path.Combine(pathDocusaurus, "src", "components", "HomepageFeatures", "index.tsx");
         var content = await File.ReadAllLinesAsync(index);
@@ -149,6 +178,8 @@ public class MultiGeneratorV2
             newContent += Environment.NewLine;
         }
         await File.WriteAllTextAsync(index,newContent);
+
+
 
     }
     private async Task<bool> WrotePDF(Description it, string pathDocusaurus)

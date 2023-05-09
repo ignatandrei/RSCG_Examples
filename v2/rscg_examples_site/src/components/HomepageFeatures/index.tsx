@@ -28,11 +28,11 @@ title: '2 Examples',
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Start with introduction',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize this with React. See github repository.
+        See <a href='docs/intro/'>Intro</a> to start with the basics.
       </>
     ),
   },

@@ -2,19 +2,74 @@
 sidebar_position: 1
 ---
 
-# Intro to Roslyn Source Code Generators
+# Introduction
 
-**RSCG** are Roslyn analyzers that allows you to create a source code generator that can run during compilation and generate new source code.
+## What is a Roslyn Source Code Generator?
 
-## Getting Started
+A Roslyn Source Code Generator (RSCG) is a program that generates code in the compile time, based on the previous source code and/or another data. This new source code is added to the compilation and compile with the previous source code.
 
-If you do not know RSCG , please read first links
+## How can I make a Roslyn Source Code Generator? 
 
-See examples at 
+For creating the RSCG you will simply create a .NET Standard 2.0 project, add those 2 references
+
+``` xml
+
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers"  PrivateAssets="all" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp"  />
+
+``` 
 
 
-### What you'll need
+and start implementing 
 
-.NET Core
+``` csharp
 
-## Start!
+public interface ISourceGenerator
+{
+    void Initialize(GeneratorInitializationContext context);
+    void Execute(GeneratorExecutionContext context);
+}
+
+```
+
+Start from examples at https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators
+Also, you can read the source code for the RSCG presented in this book.
+
+
+## Show me some code for RSCG
+
+Start read
+
+ https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md
+ 
+and
+
+https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md .
+
+After that, you can play with the examples from https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators or from https://sourcegen.dev/ (see AutoNotify in the dropdown)
+
+
+## How the RSCG can help me to write faster / better the code  ?
+
+Glad that you asked. You can see in action a RSCG for automatically generating code for automating testing (see DynamicMocking ) , parsing enum (see Enum ) , generating controllers actions from a interface ( SkinnyControllers ), currying functions and many more. In this book you will find more than 10 examples of some RSCG that can help you. Also, you can find the source code of the examples at  https://github.com/ignatandrei/RSCG_Examples.
+
+
+## More Links
+
+First iteration of RSCG: 
+
+https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/
+
+https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview
+
+Second iteration , incremental generators: https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md 
+
+Andrew Lock's blog post on source generators:  https://andrewlock.net/series/creating-a-source-generator/
+
+How to debug a RSCG: https://github.com/JoanComasFdz/dotnet-how-to-debug-source-generator-vs2022
+
+CheatSheet for RSCG: https://notanaverageman.github.io/2020/12/07/cs-source-generators-cheatsheet.html
+
+
+
+
