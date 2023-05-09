@@ -10,6 +10,7 @@ import TOCInline from '@theme/TOCInline';
 
 # {{ Description.Generator.Name }}  by {{Description.Generator.Author}}
 
+
 <TOCInline toc={toc} />
 
 {{Description.Generator.MarkDownNugetDownloads}}
@@ -91,6 +92,8 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 </Tabs>
 
+## Usefull
+
 ### Download Example
 
 [Download Example {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
@@ -99,5 +102,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 [Download PDF {{Description.Generator.Name}} ](/pdfs/{{Description.Generator.Name}}.pdf)
 
+### Share this page
 
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
 

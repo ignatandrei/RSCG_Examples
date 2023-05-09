@@ -10,6 +10,7 @@ import TOCInline from '@theme/TOCInline';
 
 # ThisAssembly  by Daniel Cazzulino
 
+
 <TOCInline toc={toc} />
 
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
@@ -481,6 +482,8 @@ partial class ThisAssembly
 
 </Tabs>
 
+## Usefull
+
 ### Download Example
 
 [Download Example ThisAssembly ](/sources/ThisAssembly.zip)
@@ -489,5 +492,7 @@ partial class ThisAssembly
 
 [Download PDF ThisAssembly ](/pdfs/ThisAssembly.pdf)
 
+### Share this page
 
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 

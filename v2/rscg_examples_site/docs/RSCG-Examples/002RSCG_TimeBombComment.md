@@ -10,6 +10,7 @@ import TOCInline from '@theme/TOCInline';
 
 # RSCG_TimeBombComment  by Andrei Ignat
 
+
 <TOCInline toc={toc} />
 
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_TimeBombComment?label=RSCG_TimeBombComment)](https://www.nuget.org/packages/RSCG_TimeBombComment/)
@@ -121,6 +122,8 @@ namespace Console_TimeBombComment {
 
 </Tabs>
 
+## Usefull
+
 ### Download Example
 
 [Download Example RSCG_TimeBombComment ](/sources/RSCG_TimeBombComment.zip)
@@ -129,5 +132,7 @@ namespace Console_TimeBombComment {
 
 [Download PDF RSCG_TimeBombComment ](/pdfs/RSCG_TimeBombComment.pdf)
 
+### Share this page
 
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
 
