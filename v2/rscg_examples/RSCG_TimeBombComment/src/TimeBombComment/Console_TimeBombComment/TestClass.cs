@@ -1,6 +1,6 @@
 ﻿namespace Console_TimeBombComment;
 
-internal class TestClass
+ internal partial class TestClass
 {
     [Obsolete("this will be obsolete",TB_20230508)]
     public int DataObsolete()
@@ -10,9 +10,10 @@ internal class TestClass
 
     public int CommentsWithErrors()
     {
+        //JFD: test
         //TB: 2021-09-13 this is a comment transformed into an error
         //TB: and this is a warning
-        //TB: 2022-12-30 and this should not appear yet
+        //TB: 2050-12-30 and this should not appear yet
         return 5;
     }
 }
