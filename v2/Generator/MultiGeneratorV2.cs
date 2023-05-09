@@ -17,7 +17,8 @@ public class MultiGeneratorV2
         this.rootPath=root;
         generators = new() 
         {
-            { "ThisAssembly",true }
+            { "ThisAssembly",true },
+            {"RSCG_TimeBombComment",true },
 
         };
     }

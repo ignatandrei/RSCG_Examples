@@ -1,6 +1,5 @@
 ﻿namespace Console_TimeBombComment;
-
- internal partial class TestClass
+internal partial class TestClass
 {
     [Obsolete("this will be obsolete",TB_20230508)]
     public int DataObsolete()
