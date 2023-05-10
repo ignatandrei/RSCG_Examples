@@ -21,8 +21,10 @@ public class MultiGeneratorV2
             {"RSCG_TimeBombComment",true},
             { "PartiallyApplied",true},
             {"Apparatus.AOT.Reflection",true }
-
-
+            //https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
+            //https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes
+            //https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators
+            //https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
         };
     }
 
