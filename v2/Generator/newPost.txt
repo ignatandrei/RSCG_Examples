@@ -65,4 +65,8 @@ The code that is generated is
 [/code]
 {{~ end ~}}
 
+Code and pdf at 
+<a href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}' >
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
+</a>
 

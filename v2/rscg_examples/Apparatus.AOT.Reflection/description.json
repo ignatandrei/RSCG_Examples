@@ -1,0 +1,22 @@
+{
+  "generator": {
+   "name": "ApparatusAOT",
+   "nuget": ["https://www.nuget.org/packages/Apparatus.AOT.Reflection/"             
+               ],
+   "link": "https://github.com/byme8/Apparatus.AOT.Reflection",  
+   "author":"Stanislav Silin",
+   "source":"https://github.com/byme8/Apparatus.AOT.Reflection"   
+  },
+  "data":{
+     "goodFor":["This will generate code for investigating at runtime the properties of an object"],
+     "csprojDemo":"ApparatusAOT.csproj",
+	"csFiles":["Program.cs","Person.cs"]
+
+     ]
+  },
+  "links":{
+     "blog":"",
+     "video":""
+  }
+  
+}

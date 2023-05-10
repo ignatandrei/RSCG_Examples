@@ -1,0 +1,19 @@
+{
+  "generator": {
+   "name": "PartiallyApplied",
+   "nuget": ["https://www.nuget.org/packages/PartiallyApplied/"],
+   "link": "https://github.com/JasonBock/PartiallyApplied",  
+   "author":"Jason Bock",
+   "source":"https://github.com/JasonBock/PartiallyApplied"   
+  },
+  "data":{
+       "goodFor":["This will generate curry for your functions "],       
+       "csprojDemo":"PartFunc.csproj",
+	"csFiles":["Program.cs", "Accounting.cs"]
+  },
+  "links":{
+       "blog":"",
+       "video":""
+  }
+  
+}

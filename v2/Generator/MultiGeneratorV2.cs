@@ -19,6 +19,9 @@ public class MultiGeneratorV2
         {
             { "ThisAssembly",true },
             {"RSCG_TimeBombComment",true},
+            { "PartiallyApplied",true},
+            {"Apparatus.AOT.Reflection",true }
+
 
         };
     }
