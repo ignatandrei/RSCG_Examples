@@ -24,6 +24,7 @@ public class MultiGeneratorV2
             //https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
             //https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes
             //https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators
+            //https://devblogs.microsoft.com/dotnet/regular-expression-improvements-in-dotnet-7/
             //https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
         };
     }
