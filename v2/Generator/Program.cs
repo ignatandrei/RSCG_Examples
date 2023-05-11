@@ -1,6 +1,6 @@
 ﻿try
 {
-    string folder = @"C:\Users\Surface1\Documents\GitHub\RSCG_Examples\v2";
+    string folder = @"C:\test\RSCG_Examples\v2";
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
     
