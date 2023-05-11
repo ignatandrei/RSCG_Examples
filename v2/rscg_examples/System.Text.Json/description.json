@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"System.Text.Json",
+      "nuget":[
+         "https://www.nuget.org/packages/System.Text.Json/"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/dotnet/runtime"
+   },
+   "data":{
+      "goodFor":["Json Serialize without reflection"],
+      "csprojDemo":"DemoSerializeJSON.csproj",
+      "csFiles":["Program.cs","WeatherForecast.cs","OptionsExampleContext.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
