@@ -17,15 +17,12 @@ public class MultiGeneratorV2
         this.rootPath = root;
         generators = new()
         {
-            { "ThisAssembly",true },
-            {"RSCG_TimeBombComment",true},
-            {"System.Text.Json",true }
+            { "ThisAssembly",false },
+            {"RSCG_TimeBombComment",false},
+            {"System.Text.Json",false },
+            {"System.Text.RegularExpressions",true },
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
-            //https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
-            //https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation-modes
-            //https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators
-            //https://devblogs.microsoft.com/dotnet/regular-expression-improvements-in-dotnet-7/
             //https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
         };
     }

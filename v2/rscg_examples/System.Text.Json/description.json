@@ -5,7 +5,7 @@
          "https://www.nuget.org/packages/System.Text.Json/"
       ],
       "link":"https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation",
-      "author":"Andrei Ignat",
+      "author":"Microsoft",
       "source":"https://github.com/dotnet/runtime"
    },
    "data":{

@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"System.Text.RegularExpressions",
+      "nuget":[
+         "https://www.nuget.org/packages/System.Text.RegularExpressions/"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators/",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/runtime"
+   },
+   "data":{
+      "goodFor":["Regex compiled"],
+      "csprojDemo":"DemoRegex.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
