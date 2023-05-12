@@ -17,13 +17,14 @@ public class MultiGeneratorV2
         this.rootPath = root;
         generators = new()
         {
-            { "ThisAssembly",false },
-            {"RSCG_TimeBombComment",false},
-            {"System.Text.Json",false },
+            { "ThisAssembly",true },
+            {"RSCG_TimeBombComment",true},
+            {"System.Text.Json",true },
             {"System.Text.RegularExpressions",true },
+            {"Microsoft.Extensions.Logging",true },
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
-            //https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator
+            
         };
     }
 
@@ -31,9 +32,12 @@ public class MultiGeneratorV2
     {
         string folderExamples = Path.Combine(rootPath, "rscg_examples");
         var tasks = generators
-            .Where(it => it.Value)
-            .Select(it => it.Key)
-            .Select((it, nr) => GatherData(nr + 1, it, folderExamples));
+            .Select(it => new { it.Key, it.Value })
+            .Select((it, nr) =>
+                it.Value ? GatherData(nr + 1, it.Key, folderExamples) : null)
+            .Where(it => it != null)
+            .ToArray();
+
         _AllDescriptions = await Task.WhenAll(tasks);
 
     }

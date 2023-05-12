@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 title: RSCG - System.Text.RegularExpressions
 description: Regex compiled
 slug: /System.Text.RegularExpressions
@@ -78,6 +78,30 @@ using Demo;
 //https://devblogs.microsoft.com/dotnet/regular-expression-improvements-in-dotnet-7/
 var x = "Abc";
 Console.WriteLine(DemoRegex.EvaluateText(x));
+```
+  </TabItem>
+
+  <TabItem value="WeatherForecast.cs" label="WeatherForecast.cs" >
+
+  This is the use of System.Text.RegularExpressions in WeatherForecast.cs
+
+```csharp
+using System.Text.RegularExpressions;
+
+namespace Demo;
+
+public partial class DemoRegex
+{
+    [GeneratedRegex("abc|def", RegexOptions.IgnoreCase, "en-US")]
+    private static partial Regex AbcOrDefGeneratedRegex();
+
+    public static bool EvaluateText(string text)
+    {
+        return (AbcOrDefGeneratedRegex().IsMatch(text));
+        
+    }
+}
+
 ```
   </TabItem>
 

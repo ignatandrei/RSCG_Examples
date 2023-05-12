@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Microsoft.Extensions.Logging",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.Extensions.Logging/"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator-generators/",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/runtime"
+   },
+   "data":{
+      "goodFor":["Logging defined and compiled"],
+      "csprojDemo":"DemoLogging.csproj",
+      "csFiles":["Program.cs","LogDemo.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -31,7 +31,7 @@ public class OutputFiles
         var outputGenFolder = Directory.GetDirectories(dir, "GeneratedX", SearchOption.AllDirectories);
         if (outputGenFolder.Length != 1)
         {
-            throw new Exception($"multiple output folders in {dir}");
+            throw new Exception($"{outputGenFolder.Length} output folders in {dir}");
         }
         var outputFiles = Directory.GetFiles(outputGenFolder[0], "*.cs", SearchOption.AllDirectories);
         contents = new();
