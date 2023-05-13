@@ -21,10 +21,14 @@ import TOCInline from '@theme/TOCInline';
 
 ### Info
 :::info
+
+Name: **RSCG_TimeBombComment**
+
 Author: Andrei Ignat
 
 NuGet: 
-https://www.nuget.org/packages/RSCG_TimeBombComment/
+*https://www.nuget.org/packages/RSCG_TimeBombComment/*   
+
 
 You can find more details at http://msprogrammer.serviciipeweb.ro/category/roslyn/
 
@@ -47,7 +51,7 @@ This will generate an error from the comment after a certain date
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references RSCG_TimeBombComment 
+This is the CSharp Project that references **RSCG_TimeBombComment**
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
@@ -69,7 +73,7 @@ This is the CSharp Project that references RSCG_TimeBombComment
 
   <TabItem value="TestClass.cs" label="TestClass.cs" >
 
-  This is the use of RSCG_TimeBombComment in TestClass.cs
+  This is the use of **RSCG_TimeBombComment** in *TestClass.cs*
 
 ```csharp
 namespace Console_TimeBombComment;
@@ -132,7 +136,13 @@ namespace Console_TimeBombComment {
 
 [Download PDF RSCG_TimeBombComment ](/pdfs/RSCG_TimeBombComment.pdf)
 
-### Share this page
+### Share RSCG_TimeBombComment 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_TimeBombComment&quote=RSCG_TimeBombComment" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_TimeBombComment&text=RSCG_TimeBombComment:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_TimeBombComment" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_TimeBombComment&title=RSCG_TimeBombComment" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_TimeBombComment&title=RSCG_TimeBombComment&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_TimeBombComment" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
-

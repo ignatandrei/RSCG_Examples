@@ -21,10 +21,14 @@ import TOCInline from '@theme/TOCInline';
 
 ### Info
 :::info
+
+Name: **CommunityToolkit.Mvvm**
+
 Author: Microsoft
 
 NuGet: 
-https://www.nuget.org/packages/CommunityToolkit.Mvvm
+*https://www.nuget.org/packages/CommunityToolkit.Mvvm*   
+
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/generators/overview
 
@@ -53,7 +57,7 @@ Also, this show that RSCG could generate multiple partial declarations
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references CommunityToolkit.Mvvm 
+This is the CSharp Project that references **CommunityToolkit.Mvvm**
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -79,7 +83,7 @@ This is the CSharp Project that references CommunityToolkit.Mvvm
 
   <TabItem value="Program.cs" label="Program.cs" >
 
-  This is the use of CommunityToolkit.Mvvm in Program.cs
+  This is the use of **CommunityToolkit.Mvvm** in *Program.cs*
 
 ```csharp
 // See https://aka.ms/new-console-template for more information
@@ -95,7 +99,7 @@ var x=myViewModel.SayHelloCommand;
 
   <TabItem value="MyViewModel.cs" label="MyViewModel.cs" >
 
-  This is the use of CommunityToolkit.Mvvm in MyViewModel.cs
+  This is the use of **CommunityToolkit.Mvvm** in *MyViewModel.cs*
 
 ```csharp
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -772,7 +776,13 @@ namespace test
 
 [Download PDF CommunityToolkit.Mvvm ](/pdfs/CommunityToolkit.Mvvm.pdf)
 
-### Share this page
+### Share CommunityToolkit.Mvvm 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FCommunityToolkit.Mvvm&quote=CommunityToolkit.Mvvm" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FCommunityToolkit.Mvvm&text=CommunityToolkit.Mvvm:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FCommunityToolkit.Mvvm" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FCommunityToolkit.Mvvm&title=CommunityToolkit.Mvvm" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FCommunityToolkit.Mvvm&title=CommunityToolkit.Mvvm&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FCommunityToolkit.Mvvm" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
-

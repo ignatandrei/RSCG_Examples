@@ -21,10 +21,14 @@ import TOCInline from '@theme/TOCInline';
 
 ### Info
 :::info
+
+Name: **Microsoft.Extensions.Logging**
+
 Author: Microsoft
 
 NuGet: 
-https://www.nuget.org/packages/Microsoft.Extensions.Logging/
+*https://www.nuget.org/packages/Microsoft.Extensions.Logging/*   
+
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator-generators/
 
@@ -47,7 +51,7 @@ Logging defined and compiled
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references Microsoft.Extensions.Logging 
+This is the CSharp Project that references **Microsoft.Extensions.Logging**
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -72,7 +76,7 @@ This is the CSharp Project that references Microsoft.Extensions.Logging
 
   <TabItem value="Program.cs" label="Program.cs" >
 
-  This is the use of Microsoft.Extensions.Logging in Program.cs
+  This is the use of **Microsoft.Extensions.Logging** in *Program.cs*
 
 ```csharp
 using System.Text.Json;
@@ -101,7 +105,7 @@ file readonly record struct SampleObject { }
 
   <TabItem value="LogDemo.cs" label="LogDemo.cs" >
 
-  This is the use of Microsoft.Extensions.Logging in LogDemo.cs
+  This is the use of **Microsoft.Extensions.Logging** in *LogDemo.cs*
 
 ```csharp
 using Microsoft.Extensions.Logging;
@@ -271,7 +275,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 [Download PDF Microsoft.Extensions.Logging ](/pdfs/Microsoft.Extensions.Logging.pdf)
 
-### Share this page
+### Share Microsoft.Extensions.Logging 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Logging&quote=Microsoft.Extensions.Logging" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Logging&text=Microsoft.Extensions.Logging:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Logging" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Logging&title=Microsoft.Extensions.Logging" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Logging&title=Microsoft.Extensions.Logging&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Logging" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
-

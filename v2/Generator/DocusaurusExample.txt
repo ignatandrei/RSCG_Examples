@@ -21,11 +21,15 @@ import TOCInline from '@theme/TOCInline';
 
 ### Info
 :::info
+
+Name: **{{Description.Generator.Name  }}**
+
 Author: {{Description.Generator.Author }}
 
 NuGet: 
 {{~ for nuget in Description.Generator.Nuget ~}}
-{{nuget}}
+*{{nuget}}*   
+
 {{~ end ~}}
 
 You can find more details at {{Description.Generator.Link}}
@@ -51,7 +55,7 @@ Source : {{ Description.Generator.Source }}
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references {{ Description.Generator.Name }} 
+This is the CSharp Project that references **{{ Description.Generator.Name }}**
 ```xml
 {{Description.Data.outputFiles.ContentCsProj}}
 ```
@@ -61,7 +65,7 @@ This is the CSharp Project that references {{ Description.Generator.Name }}
 {{~ for fileContent in Description.Data.outputFiles.contentFiles ~}}
   <TabItem value="{{fileContent.id}}" label="{{fileContent.file}}" >
 
-  This is the use of {{ Description.Generator.Name }} in {{fileContent.file}}
+  This is the use of **{{ Description.Generator.Name }}** in *{{fileContent.file}}*
 
 ```csharp
 {{fileContent.content}}
@@ -102,7 +106,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 [Download PDF {{Description.Generator.Name}} ](/pdfs/{{Description.Generator.Name}}.pdf)
 
-### Share this page
+### Share {{Description.Generator.Name}} 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2F{{Description.Generator.Name}}&quote={{Description.Generator.Name}}" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2F{{Description.Generator.Name}}&text={{Description.Generator.Name}}:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2F{{Description.Generator.Name}}" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2F{{Description.Generator.Name}}&title={{Description.Generator.Name}}" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2F{{Description.Generator.Name}}&title={{Description.Generator.Name}}&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2F{{Description.Generator.Name}}" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
-

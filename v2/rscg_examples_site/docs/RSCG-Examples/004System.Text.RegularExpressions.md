@@ -21,10 +21,14 @@ import TOCInline from '@theme/TOCInline';
 
 ### Info
 :::info
+
+Name: **System.Text.RegularExpressions**
+
 Author: Microsoft
 
 NuGet: 
-https://www.nuget.org/packages/System.Text.RegularExpressions/
+*https://www.nuget.org/packages/System.Text.RegularExpressions/*   
+
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators/
 
@@ -47,7 +51,7 @@ Regex compiled
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references System.Text.RegularExpressions 
+This is the CSharp Project that references **System.Text.RegularExpressions**
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -70,7 +74,7 @@ This is the CSharp Project that references System.Text.RegularExpressions
 
   <TabItem value="Program.cs" label="Program.cs" >
 
-  This is the use of System.Text.RegularExpressions in Program.cs
+  This is the use of **System.Text.RegularExpressions** in *Program.cs*
 
 ```csharp
 using Demo;
@@ -83,7 +87,7 @@ Console.WriteLine(DemoRegex.EvaluateText(x));
 
   <TabItem value="WeatherForecast.cs" label="WeatherForecast.cs" >
 
-  This is the use of System.Text.RegularExpressions in WeatherForecast.cs
+  This is the use of **System.Text.RegularExpressions** in *WeatherForecast.cs*
 
 ```csharp
 using System.Text.RegularExpressions;
@@ -324,7 +328,13 @@ namespace System.Text.RegularExpressions.Generated
 
 [Download PDF System.Text.RegularExpressions ](/pdfs/System.Text.RegularExpressions.pdf)
 
-### Share this page
+### Share System.Text.RegularExpressions 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FSystem.Text.RegularExpressions&quote=System.Text.RegularExpressions" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FSystem.Text.RegularExpressions&text=System.Text.RegularExpressions:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FSystem.Text.RegularExpressions" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FSystem.Text.RegularExpressions&title=System.Text.RegularExpressions" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FSystem.Text.RegularExpressions&title=System.Text.RegularExpressions&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FSystem.Text.RegularExpressions" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions
-

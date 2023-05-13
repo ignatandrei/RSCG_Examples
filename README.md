@@ -1,6 +1,6 @@
 # RSCG - Examples of Roslyn Source Code Generators 
 
-
+If you want to see them , please goto https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
 ## Introduction
 
 I have started this project/book in  2021 because I was impressed of Roslyn Source Code Generators(RSCG). In meantime Microsoft started to improve how we wrote RSCG ( see Incremental Generators) and C# / NET ( see namespaces and records).For this, a lot of examples of v1 are now invalid / not maintained

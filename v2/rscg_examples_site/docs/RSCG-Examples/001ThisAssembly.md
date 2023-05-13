@@ -21,10 +21,14 @@ import TOCInline from '@theme/TOCInline';
 
 ### Info
 :::info
+
+Name: **ThisAssembly**
+
 Author: Daniel Cazzulino
 
 NuGet: 
-https://www.nuget.org/packages/ThisAssembly
+*https://www.nuget.org/packages/ThisAssembly*   
+
 
 You can find more details at https://www.clarius.org/ThisAssembly/
 
@@ -50,7 +54,7 @@ I found useful to see the assembly version right away in any project that I have
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references ThisAssembly 
+This is the CSharp Project that references **ThisAssembly**
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
@@ -78,7 +82,7 @@ This is the CSharp Project that references ThisAssembly
 
   <TabItem value="Program.cs" label="Program.cs" >
 
-  This is the use of ThisAssembly in Program.cs
+  This is the use of **ThisAssembly** in *Program.cs*
 
 ```csharp
 var strVersion = ThisAssembly.Info.Version;
@@ -492,7 +496,13 @@ partial class ThisAssembly
 
 [Download PDF ThisAssembly ](/pdfs/ThisAssembly.pdf)
 
-### Share this page
+### Share ThisAssembly 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&quote=ThisAssembly" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&text=ThisAssembly:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&title=ThisAssembly" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&title=ThisAssembly&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
-
