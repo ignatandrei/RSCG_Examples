@@ -10,8 +10,7 @@ This is the list of {{ nr }} RSCG with examples .
 
 | No        | Name  | 
 | --------- | ----- | 
-|1| [Enum](https://www.nuget.org/packages/AOPMethodsCommon/) | [v1]( https://ignatandrei.github.io/RSCG_Examples/v1/
 {{~ for desc in all ~}} 
-|{{desc.Nr}}|[{{desc.Generator.Name}}](/{{desc.Generator.Name}})|
+|{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|
 {{~ end ~}}
 
