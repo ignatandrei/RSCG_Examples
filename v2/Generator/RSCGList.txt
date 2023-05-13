@@ -14,3 +14,4 @@ This is the list of {{ nr }} RSCG with examples .
 |{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|
 {{~ end ~}}
 
+You can see also the [v1](/docs/v1) 
