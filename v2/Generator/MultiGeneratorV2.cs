@@ -15,6 +15,7 @@ public class MultiGeneratorV2
     public MultiGeneratorV2(string root)
     {
         this.rootPath = root;
+        
         generators = new()
         {
             { "ThisAssembly",true },
@@ -22,6 +23,7 @@ public class MultiGeneratorV2
             {"System.Text.Json",true },
             {"System.Text.RegularExpressions",true },
             {"Microsoft.Extensions.Logging",true },
+            {"CommunityToolkit.Mvvm",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             
@@ -144,7 +146,7 @@ public class MultiGeneratorV2
 
     private async Task ModifyDocusaurusAbout(string pathDocusaurus, int nr)
     {
-        var index = Path.Combine(pathDocusaurus, "docs", "About-This", "about.md");
+        var index = Path.Combine(pathDocusaurus, "docs",  "about.md");
         var content = await File.ReadAllLinesAsync(index);
         string newContent = "";
         foreach (var line in content)

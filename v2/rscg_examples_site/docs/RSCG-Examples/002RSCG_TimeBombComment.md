@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 20
 title: RSCG - RSCG_TimeBombComment
 description: This will generate an error from the comment after a certain date
 slug: /RSCG_TimeBombComment
@@ -103,7 +103,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 <Tabs>
 
 
-<TabItem value="Obsolete_1.cs" label="Obsolete_1.cs" >
+<TabItem value="Obsolete_1.cs001" label="Obsolete_1.cs" >
 
 
 ```csharp

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 40
 title: RSCG - System.Text.RegularExpressions
 description: Regex compiled
 slug: /System.Text.RegularExpressions
@@ -114,7 +114,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 <Tabs>
 
 
-<TabItem value="RegexGenerator.g.cs" label="RegexGenerator.g.cs" >
+<TabItem value="RegexGenerator.g.cs001" label="RegexGenerator.g.cs" >
 
 
 ```csharp

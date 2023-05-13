@@ -1,0 +1,24 @@
+{
+  "generator": {
+   "name": "CommunityToolkit.Mvvm",
+   "nuget": ["https://www.nuget.org/packages/CommunityToolkit.Mvvm"],
+   "link": "https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/generators/overview",  
+   "author":"Microsoft"   ,
+   "source":"https://github.com/CommunityToolkit/dotnet"
+  },
+  "data":{
+	"goodFor":[
+	"Shows how to implement INotifyPropertyChanged,ObservableProperty and RelayCommand",
+	"Unfortunately , not yet a separate package just for those.",
+	"Also, this show that RSCG could generate multiple partial declarations"
+	],
+	"csprojDemo":"ToolkitMVVM.csproj",
+	"csFiles":["Program.cs","MyViewModel.cs"]
+  },
+  "links":{
+	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
+	"video":"",
+	"example":"https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"
+  }
+  
+}

@@ -1,5 +1,5 @@
 ﻿---
-sidebar_position: {{ Description.Nr }}
+sidebar_position: {{ Description.Nr * 10}}
 title: RSCG - {{Description.Generator.Name}}
 description: {{Description.Data.GoodFor[0]}}
 slug: /{{Description.Generator.Name}}
@@ -59,7 +59,7 @@ This is the CSharp Project that references {{ Description.Generator.Name }}
 </TabItem>
 
 {{~ for fileContent in Description.Data.outputFiles.contentFiles ~}}
-  <TabItem value="{{fileContent.file}}" label="{{fileContent.file}}" >
+  <TabItem value="{{fileContent.id}}" label="{{fileContent.file}}" >
 
   This is the use of {{ Description.Generator.Name }} in {{fileContent.file}}
 
@@ -79,7 +79,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 
 {{~ for fileContent in Description.Data.outputFiles.generatedFiles ~}}
 
-<TabItem value="{{fileContent.file}}" label="{{fileContent.file}}" >
+<TabItem value="{{fileContent.id}}" label="{{fileContent.file}}" >
 
 
 ```csharp

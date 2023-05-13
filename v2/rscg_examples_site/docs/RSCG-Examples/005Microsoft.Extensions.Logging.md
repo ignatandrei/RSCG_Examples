@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 50
 title: RSCG - Microsoft.Extensions.Logging
 description: Logging defined and compiled
 slug: /Microsoft.Extensions.Logging
@@ -157,7 +157,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 <Tabs>
 
 
-<TabItem value="LoggerMessage.g.cs" label="LoggerMessage.g.cs" >
+<TabItem value="LoggerMessage.g.cs001" label="LoggerMessage.g.cs" >
 
 
 ```csharp

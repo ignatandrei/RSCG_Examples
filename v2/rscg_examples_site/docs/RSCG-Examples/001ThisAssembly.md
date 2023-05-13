@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 10
 title: RSCG - ThisAssembly
 description: The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
 slug: /ThisAssembly
@@ -96,7 +96,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 <Tabs>
 
 
-<TabItem value="ThisAssembly.AssemblyInfo.g.cs" label="ThisAssembly.AssemblyInfo.g.cs" >
+<TabItem value="ThisAssembly.AssemblyInfo.g.cs001" label="ThisAssembly.AssemblyInfo.g.cs" >
 
 
 ```csharp
@@ -146,7 +146,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Branch.g.cs" label="Branch.g.cs" >
+<TabItem value="Branch.g.cs002" label="Branch.g.cs" >
 
 
 ```csharp
@@ -178,7 +178,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Commit.g.cs" label="Commit.g.cs" >
+<TabItem value="Commit.g.cs003" label="Commit.g.cs" >
 
 
 ```csharp
@@ -210,7 +210,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Root.g.cs" label="Root.g.cs" >
+<TabItem value="Root.g.cs004" label="Root.g.cs" >
 
 
 ```csharp
@@ -242,7 +242,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Sha.g.cs" label="Sha.g.cs" >
+<TabItem value="Sha.g.cs005" label="Sha.g.cs" >
 
 
 ```csharp
@@ -274,7 +274,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Url.g.cs" label="Url.g.cs" >
+<TabItem value="Url.g.cs006" label="Url.g.cs" >
 
 
 ```csharp
@@ -306,7 +306,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Metadata.g.cs" label="ThisAssembly.Metadata.g.cs" >
+<TabItem value="ThisAssembly.Metadata.g.cs007" label="ThisAssembly.Metadata.g.cs" >
 
 
 ```csharp
@@ -342,7 +342,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Property.g.cs" label="ThisAssembly.Property.g.cs" >
+<TabItem value="ThisAssembly.Property.g.cs008" label="ThisAssembly.Property.g.cs" >
 
 
 ```csharp
@@ -393,7 +393,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Resources.EmbeddedResource.cs" label="ThisAssembly.Resources.EmbeddedResource.cs" >
+<TabItem value="ThisAssembly.Resources.EmbeddedResource.cs009" label="ThisAssembly.Resources.EmbeddedResource.cs" >
 
 
 ```csharp
@@ -449,7 +449,7 @@ static class EmbeddedResource
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Strings.g.cs" label="ThisAssembly.Strings.g.cs" >
+<TabItem value="ThisAssembly.Strings.g.cs010" label="ThisAssembly.Strings.g.cs" >
 
 
 ```csharp

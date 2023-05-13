@@ -22,7 +22,8 @@ public class OutputFiles
             {
                 throw new Exception($"multiple files {file} in {dir}");
             }
-            FileWithContent f = new (Path.GetFileName(fileFound[0]), await File.ReadAllTextAsync(fileFound[0]));
+            string nameFile = Path.GetFileName(fileFound[0]);
+            FileWithContent f = new (nameFile,nameFile, await File.ReadAllTextAsync(fileFound[0]));
             contents.Add(f);
         }
         contentFiles = contents.ToArray();
@@ -32,11 +33,15 @@ public class OutputFiles
         {
             throw new Exception($"{outputGenFolder.Length} output folders in {dir}");
         }
-        var outputFiles = Directory.GetFiles(outputGenFolder[0], "*.cs", SearchOption.AllDirectories);
+        string folder = outputGenFolder[0];
+        var outputFiles = Directory.GetFiles(folder, "*.cs", SearchOption.AllDirectories);
         contents = new();
+        var nr = 0;
         foreach (var file in outputFiles)
         {
-            FileWithContent f = new(Path.GetFileName(file), await File.ReadAllTextAsync(file));
+            var nameFile = Path.GetFileName(file);
+            string id = nameFile + (++nr).ToString("00#");
+            FileWithContent f = new(id, nameFile, await File.ReadAllTextAsync(file));
             contents.Add(f);
 
         }
