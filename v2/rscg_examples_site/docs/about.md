@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 20
 title: About
 ---
 
@@ -38,13 +38,11 @@ Please send me an email to ignatandrei@yahoo.com
 
 In the  introduction I have put the links to get you started with RSCG. 
 
-And, if you bought this book from Amazon, you are entitled to have 1 hour free of consultancy with me. I can help you make one.
+## I want to contribute to the book. How can I do?
 
-## I want the book / sponsor you
+Please send me an email to ignatandrei@yahoo.com
 
-Glad that you have asked.  Please goto  Amazon: https://amzn.to/3f6gll3
+## I want to see the previous version of the book. Where can I find it?
 
-But you can read online :  https://ignatandrei.github.io/RSCG_Examples/v2 
-
-For v1 with .NET 5 see https://ignatandrei.github.io/RSCG_Examples/v1/index.docx)
+For v1 with .NET 5 see (docs/v1)
 
