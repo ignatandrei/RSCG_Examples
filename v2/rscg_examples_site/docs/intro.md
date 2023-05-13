@@ -66,6 +66,8 @@ Second iteration , incremental generators: https://github.com/dotnet/roslyn/blob
 
 Andrew Lock's blog post on source generators:  https://andrewlock.net/series/creating-a-source-generator/
 
+Jason Bock on constructing AutoDeconstruct : https://codemag.com/Article/2305061/Writing-Code-to-Generate-Code-in-C#
+
 How to debug a RSCG: https://github.com/JoanComasFdz/dotnet-how-to-debug-source-generator-vs2022
 
 CheatSheet for RSCG: https://notanaverageman.github.io/2020/12/07/cs-source-generators-cheatsheet.html

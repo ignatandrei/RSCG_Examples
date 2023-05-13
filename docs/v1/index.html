@@ -1,0 +1,2162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>index.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<ul>
+<li><a href="#about-this-book">About this book</a>
+<ul>
+<li><a href="#content-of-the-book">Content of the book</a></li>
+<li><a href="#are-those-examples-ready-for-production">Are those examples ready for
+production?</a></li>
+<li><a href="#how-to-read-this-book">How to read this book</a></li>
+<li><a href="#i-have-a-suggestion-for-a-new-rscg-that-is-worth-mentioning-in-this-book-what-can-i-do">I have a suggestion for a new RSCG that is worth mentioning in
+this book. What can I
+do?</a></li>
+<li><a href="#i-want-to-make-a-rscg-that-will-be-useful-how-can-i-do">I want to make a RSCG that will be useful. How can I
+do?</a></li>
+<li><a href="#i-want-the-book--sponsor-you">I want the book / sponsor you</a></li>
+</ul>
+</li>
+<li><a href="#about-the-author">About the author</a></li>
+<li><a href="#introduction">Introduction</a>
+<ul>
+<li><a href="#what-is-a-roslyn-source-code-generator">What is a Roslyn Source Code
+Generator?</a></li>
+<li><a href="#how-can-i-make-a-roslyn-source-code-generator">How can I make a Roslyn Source Code
+Generator?</a></li>
+<li><a href="#show-me-some-code-for-rscg">Show me some code for RSCG</a></li>
+<li><a href="#how-the-rscg-can-help-me-to-write-faster--better-the-code-">How the RSCG can help me to write faster / better the code
+?</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-1--thisassembly">RSCG number 1 : ThisAssembly</a>
+<ul>
+<li><a href="#what-rscg-thisassembly-can-do">What RSCG ThisAssembly can do</a></li>
+<li><a href="#example-code">Example code</a></li>
+<li><a href="#more-details-about-rscg-thisassembly">More details about RSCG
+ThisAssembly</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-2--enum">RSCG number 2 : Enum</a>
+<ul>
+<li><a href="#what-rscg-enum-can-do">What RSCG Enum can do</a></li>
+<li><a href="#example-code-1">Example code</a></li>
+<li><a href="#more-details-about-rscg-enum">More details about RSCG Enum</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-3--jsonbyexamplegenerator">RSCG number 3 :
+JsonByExampleGenerator</a>
+<ul>
+<li><a href="#what-rscg-jsonbyexamplegenerator-can-do">What RSCG JsonByExampleGenerator can
+do</a></li>
+<li><a href="#example-code-2">Example code</a></li>
+<li><a href="#more-details-about-rscg-jsonbyexamplegenerator">More details about RSCG
+JsonByExampleGenerator</a></li>
+<li><a href="#author-of-jsonbyexamplegenerator--robin-hermanussen">Author of JsonByExampleGenerator , Robin
+Hermanussen</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-4--copyconstructor--deconstructor">RSCG number 4 : CopyConstructor +
+Deconstructor</a>
+<ul>
+<li><a href="#what-rscg-copyconstructor--deconstructor-can-do">What RSCG CopyConstructor + Deconstructor can
+do</a></li>
+<li><a href="#example-code-3">Example code</a></li>
+<li><a href="#more-details-about-rscg-copyconstructor--deconstructor">More details about RSCG CopyConstructor +
+Deconstructor</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-5--generatedmapper">RSCG number 5 : GeneratedMapper</a>
+<ul>
+<li><a href="#what-rscg-generatedmapper-can-do">What RSCG GeneratedMapper can
+do</a></li>
+<li><a href="#example-code-4">Example code</a></li>
+<li><a href="#more-details-about-rscg-generatedmapper">More details about RSCG
+GeneratedMapper</a></li>
+<li><a href="#author-of-generatedmapper--thomas-bleijendaal">Author of GeneratedMapper , Thomas
+Bleijendaal</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-6--skinny-controllers">RSCG number 6 : Skinny
+Controllers</a>
+<ul>
+<li><a href="#what-rscg-skinny-controllers-can-do">What RSCG Skinny Controllers can
+do</a></li>
+<li><a href="#example-code-5">Example code</a></li>
+<li><a href="#more-details-about-rscg-skinny-controllers">More details about RSCG Skinny
+Controllers</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-7--data-builder-generator">RSCG number 7 :
+data-builder-generator</a>
+<ul>
+<li><a href="#what-rscg-data-builder-generator-can-do">What RSCG data-builder-generator can
+do</a></li>
+<li><a href="#example-code-6">Example code</a></li>
+<li><a href="#more-details-about-rscg-data-builder-generator">More details about RSCG
+data-builder-generator</a></li>
+<li><a href="#author-of-data-builder-generator--martin-andreas-ulrich">Author of data-builder-generator , Martin Andreas
+Ulrich</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-8--metadata-from-object">RSCG number 8 : Metadata from
+object</a>
+<ul>
+<li><a href="#what-rscg-metadata-from-object-can-do">What RSCG Metadata from object can
+do</a></li>
+<li><a href="#example-code-7">Example code</a></li>
+<li><a href="#more-details-about-rscg-metadata-from-object">More details about RSCG Metadata from
+object</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-9--mocksourcegenerator">RSCG number 9 :
+MockSourceGenerator</a>
+<ul>
+<li><a href="#what-rscg-mocksourcegenerator-can-do">What RSCG MockSourceGenerator can
+do</a></li>
+<li><a href="#example-code-8">Example code</a></li>
+<li><a href="#more-details-about-rscg-mocksourcegenerator">More details about RSCG
+MockSourceGenerator</a></li>
+<li><a href="#author-of-mocksourcegenerator--robin-hermanussen">Author of MockSourceGenerator , Robin
+Hermanussen</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-10--method-decorator">RSCG number 10 : Method
+decorator</a>
+<ul>
+<li><a href="#what-rscg-method-decorator-can-do">What RSCG Method decorator can
+do</a></li>
+<li><a href="#example-code-9">Example code</a></li>
+<li><a href="#more-details-about-rscg-method-decorator">More details about RSCG Method
+decorator</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-11--partiallyapplied">RSCG number 11 :
+PartiallyApplied</a>
+<ul>
+<li><a href="#what-rscg-partiallyapplied-can-do">What RSCG PartiallyApplied can
+do</a></li>
+<li><a href="#example-code-10">Example code</a></li>
+<li><a href="#more-details-about-rscg-partiallyapplied">More details about RSCG
+PartiallyApplied</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-12--iformattable">RSCG number 12 : IFormattable</a>
+<ul>
+<li><a href="#what-rscg-iformattable-can-do">What RSCG IFormattable can do</a></li>
+<li><a href="#example-code-11">Example code</a></li>
+<li><a href="#more-details-about-rscg-iformattable">More details about RSCG
+IFormattable</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-13--autointerface">RSCG number 13 : AutoInterface</a>
+<ul>
+<li><a href="#what-rscg-autointerface-can-do">What RSCG AutoInterface can
+do</a></li>
+<li><a href="#example-code-12">Example code</a></li>
+<li><a href="#more-details-about-rscg-autointerface">More details about RSCG
+AutoInterface</a></li>
+<li><a href="#author-of-autointerface--beakona">Author of AutoInterface ,
+beakona</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-14--property-expression-generator">RSCG number 14 : Property Expression
+Generator</a>
+<ul>
+<li><a href="#what-rscg-property-expression-generator-can-do">What RSCG Property Expression Generator can
+do</a></li>
+<li><a href="#example-code-13">Example code</a></li>
+<li><a href="#more-details-about-rscg-property-expression-generator">More details about RSCG Property Expression
+Generator</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-15--transplator">RSCG number 15 : Transplator</a>
+<ul>
+<li><a href="#what-rscg-transplator-can-do">What RSCG Transplator can do</a></li>
+<li><a href="#example-code-14">Example code</a></li>
+<li><a href="#more-details-about-rscg-transplator">More details about RSCG
+Transplator</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-16--rscg_ams">RSCG number 16 : RSCG_AMS</a>
+<ul>
+<li><a href="#what-rscg-rscg_ams-can-do">What RSCG RSCG_AMS can do</a></li>
+<li><a href="#example-code-15">Example code</a></li>
+<li><a href="#more-details-about-rscg-rscg_ams">More details about RSCG
+RSCG_AMS</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-17--httpclientgenerator">RSCG number 17 :
+HttpClientGenerator</a>
+<ul>
+<li><a href="#what-rscg-httpclientgenerator-can-do">What RSCG HttpClientGenerator can
+do</a></li>
+<li><a href="#example-code-16">Example code</a></li>
+<li><a href="#more-details-about-rscg-httpclientgenerator">More details about RSCG
+HttpClientGenerator</a></li>
+<li><a href="#author-of-httpclientgenerator--jalal-amini-robati">Author of HttpClientGenerator , Jalal Amini
+Robati</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-18--databasetowebapi">RSCG number 18 :
+DatabaseToWebAPI</a>
+<ul>
+<li><a href="#what-rscg-databasetowebapi-can-do">What RSCG DatabaseToWebAPI can
+do</a></li>
+<li><a href="#example-code-17">Example code</a></li>
+<li><a href="#more-details-about-rscg-databasetowebapi">More details about RSCG
+DatabaseToWebAPI</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-19--sourceinject">RSCG number 19 : SourceInject</a>
+<ul>
+<li><a href="#what-rscg-sourceinject-can-do">What RSCG SourceInject can do</a></li>
+<li><a href="#example-code-18">Example code</a></li>
+<li><a href="#more-details-about-rscg-sourceinject">More details about RSCG
+SourceInject</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-21--basetypes">RSCG number 21 : BaseTypes</a>
+<ul>
+<li><a href="#what-rscg-basetypes-can-do">What RSCG BaseTypes can do</a></li>
+<li><a href="#example-code-19">Example code</a></li>
+<li><a href="#more-details-about-rscg-basetypes">More details about RSCG
+BaseTypes</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-22--appsettingseditor">RSCG number 22 :
+AppSettingsEditor</a>
+<ul>
+<li><a href="#what-rscg-appsettingseditor-can-do">What RSCG AppSettingsEditor can
+do</a></li>
+<li><a href="#example-code-20">Example code</a></li>
+<li><a href="#more-details-about-rscg-appsettingseditor">More details about RSCG
+AppSettingsEditor</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-23--apparatusaot">RSCG number 23 : ApparatusAOT</a>
+<ul>
+<li><a href="#what-rscg-apparatusaot-can-do">What RSCG ApparatusAOT can do</a></li>
+<li><a href="#example-code-21">Example code</a></li>
+<li><a href="#more-details-about-rscg-apparatusaot">More details about RSCG
+ApparatusAOT</a></li>
+<li><a href="#author-of-apparatusaot--stanislav-silin">Author of ApparatusAOT , Stanislav
+Silin</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-24--rscg_timebombcomment">RSCG number 24 :
+RSCG_TimeBombComment</a>
+<ul>
+<li><a href="#what-rscg-rscg_timebombcomment-can-do">What RSCG RSCG_TimeBombComment can
+do</a></li>
+<li><a href="#example-code-22">Example code</a></li>
+<li><a href="#more-details-about-rscg-rscg_timebombcomment">More details about RSCG
+RSCG_TimeBombComment</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-25--structrecordsgenerator">RSCG number 25 :
+StructRecordsGenerator</a>
+<ul>
+<li><a href="#what-rscg-structrecordsgenerator-can-do">What RSCG StructRecordsGenerator can
+do</a></li>
+<li><a href="#example-code-23">Example code</a></li>
+<li><a href="#more-details-about-rscg-structrecordsgenerator">More details about RSCG
+StructRecordsGenerator</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-26--aopmarkerci">RSCG number 26 : AOPMarkerCI</a>
+<ul>
+<li><a href="#what-rscg-aopmarkerci-can-do">What RSCG AOPMarkerCI can do</a></li>
+<li><a href="#example-code-24">Example code</a></li>
+<li><a href="#more-details-about-rscg-aopmarkerci">More details about RSCG
+AOPMarkerCI</a></li>
+</ul>
+</li>
+<li><a href="#rscg-number-27--boilerplatefree">RSCG number 27 : BoilerplateFree</a>
+<ul>
+<li><a href="#what-rscg-boilerplatefree-can-do">What RSCG BoilerplateFree can
+do</a></li>
+<li><a href="#example-code-25">Example code</a></li>
+<li><a href="#more-details-about-rscg-boilerplatefree">More details about RSCG
+BoilerplateFree</a></li>
+<li><a href="#author-of-boilerplatefree--gustav-wengel">Author of BoilerplateFree , Gustav
+Wengel</a></li>
+</ul>
+</li>
+<li><a href="#roslyn-source-code-generator-rscg----others">Roslyn Source Code Generator (RSCG ) -
+others</a>
+<ul>
+<li><a href="#conclusion">Conclusion</a></li>
+<li><a href="#one-hour-of-free-consultancy">One hour of free consultancy</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="about-this-book">About this book</h2>
+<h3 id="content-of-the-book">Content of the book</h3>
+<p>You will find in this book code examples about &gt;10 Roslyn Source Code
+Generator (RSCG) that can be useful for you. That means, you will write
+more elegant and concise code - even if the generators code is not
+always nice to look.</p>
+<h3 id="are-those-examples-ready-for-production">Are those examples ready for production?</h3>
+<p>I have done due diligence to test the RSCG that I have shown to you
+here. However, I cannot guarantee that will fit your code. That means
+that you can test it for your case and, because all are open source on
+Github.com, you can contribute to improve them <img class="emoji" alt="wink" src="data:image/png;base64,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" /></p>
+<h3 id="how-to-read-this-book">How to read this book</h3>
+<p>For each chapter, you will find</p>
+<ol>
+<li>Name of the RSCG and link to the NuGet package / GitHub repository</li>
+<li>What the RSCG can do</li>
+<li>What you need to include in .csproj file</li>
+<li>What will be the initial code</li>
+<li>How to use the Code generated by RSCG</li>
+<li>Code Generated by RSCG</li>
+<li>Link to the downloadable code to practice</li>
+</ol>
+<h3 id="i-have-a-suggestion-for-a-new-rscg-that-is-worth-mentioning-in-this-book-what-can-i-do">I have a suggestion for a new RSCG that is worth mentioning in this book. What can I do?</h3>
+<p>Please send me an email to <a href="mailto:ignatandrei@yahoo.com">ignatandrei@yahoo.com</a></p>
+<h3 id="i-want-to-make-a-rscg-that-will-be-useful-how-can-i-do">I want to make a RSCG that will be useful. How can I do?</h3>
+<p>In the introduction I have put the links to get you started with RSCG.</p>
+<p>And, if you bought this book from Amazon, you are entitled to have 1
+hour free of consultancy with me. I can help you make one.</p>
+<h3 id="i-want-the-book--sponsor-you">I want the book / sponsor you</h3>
+<p>Glad that you have asked. Please goto Amazon: <a href="https://amzn.to/3f6gll3">https://amzn.to/3f6gll3</a></p>
+<p>( and this will remain free:
+<a href="https://ignatandrei.github.io/RSCG_Examples/">https://ignatandrei.github.io/RSCG_Examples/</a>)</p>
+<h2 id="about-the-author">About the author</h2>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/andrei.jpeg" alt="Andrei"></p>
+<p>My name is Andrei Ignat and I have 20+ years programming experience.</p>
+<p>I have started from VB3 , passed via plain old ASP</p>
+<p>I am C# Microsoft Most Valuable Professional, and also
+<a href="https://forums.asp.net">https://forums.asp.net</a> moderator .</p>
+<p>Before that I was a teacher.</p>
+<p>I am available also on</p>
+<p>LinkedIN : <a href="http://ro.linkedin.com/in/ignatandrei">http://ro.linkedin.com/in/ignatandrei</a></p>
+<p>Facebook : <a href="http://www.facebook.com/ignat.andrei">http://www.facebook.com/ignat.andrei</a></p>
+<p>Twitter: <a href="http://twitter.com/ignatandrei">http://twitter.com/ignatandrei</a></p>
+<p>You can ask me any .NET related question . I will be glad to answer
+– if I know the answer. If not, I will learn.</p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="what-is-a-roslyn-source-code-generator">What is a Roslyn Source Code Generator?</h3>
+<p>A Roslyn Source Code Generator (RSCG) is a program that generates code
+in the compile time, based on the previous source code and/or another
+data. This new source code is added to the compilation and compile with
+the previous source code.</p>
+<h3 id="how-can-i-make-a-roslyn-source-code-generator">How can I make a Roslyn Source Code Generator?</h3>
+<p>For creating the RSCG you will simply create a .NET Standard 2.0
+project, add those 2 references</p>
+<pre class="hljs"><code><div>    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Microsoft.CodeAnalysis.Analyzers"</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">"3.3.1"</span> <span class="hljs-attr">PrivateAssets</span>=<span class="hljs-string">"all"</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">PackageReference</span> <span class="hljs-attr">Include</span>=<span class="hljs-string">"Microsoft.CodeAnalysis.CSharp"</span> <span class="hljs-attr">Version</span>=<span class="hljs-string">"3.8.0"</span> /&gt;</span>
+</div></code></pre>
+<p>and start implementing</p>
+<pre class="hljs"><code><div><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title">ISourceGenerator</span>
+{
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Initialize</span>(<span class="hljs-params">GeneratorInitializationContext context</span>)</span>;
+    <span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Execute</span>(<span class="hljs-params">GeneratorExecutionContext context</span>)</span>;
+}
+</div></code></pre>
+<p>Start from examples at
+<a href="https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators">https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators</a>
+Also, you can read the source code for the RSCG presented in this book.</p>
+<h3 id="show-me-some-code-for-rscg">Show me some code for RSCG</h3>
+<p>Start read</p>
+<p><a href="https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md">https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md</a></p>
+<p>and</p>
+<p><a href="https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md">https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md</a>
+.</p>
+<p>After that, you can play with the examples from
+<a href="https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators">https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators</a>
+or from <a href="https://sourcegen.dev/">https://sourcegen.dev/</a> (see AutoNotify in the dropdown)</p>
+<h3 id="how-the-rscg-can-help-me-to-write-faster--better-the-code">How the RSCG can help me to write faster / better the code ?</h3>
+<p>Glad that you asked. You can see in action a RSCG for automatically
+generating code for automating testing (see DynamicMocking ) , parsing
+enum (see Enum ) , generating controllers actions from a interface (
+SkinnyControllers ), currying functions and many more. In this book you
+will find more than 10 examples of some RSCG that can help you. Also,
+you can find the source code of the examples at
+<a href="https://github.com/ignatandrei/RSCG_Examples">https://github.com/ignatandrei/RSCG_Examples</a>.</p>
+<h2 id="rscg-number-1--thisassembly">RSCG number 1 : ThisAssembly</h2>
+<h3 id="what-rscg-thisassembly-can-do">What RSCG ThisAssembly can do</h3>
+<p>The ThisAssembly.Info allows you access to the Assembly Information as
+constants, instead of going to reflection each time. I found useful to
+see the assembly version right away in any project that I have.</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-thisassembly">Here is the csproj with the references for RSCG ThisAssembly</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-thisassembly">The code below will use the RSCG ThisAssembly</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-thisassembly">The code that is generated by RSCG ThisAssembly</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ThisAssembly/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-thisassembly">More details about RSCG ThisAssembly</h3>
+<p>The author of <strong>RSCG ThisAssembly</strong> is <em>Daniel Cazzulino</em></p>
+<p>You cand find <strong>RSCG ThisAssembly</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/ThisAssembly">https://www.nuget.org/packages/ThisAssembly</a> and the sources at
+<a href="https://github.com/devlooped/ThisAssembly">https://github.com/devlooped/ThisAssembly</a></p>
+<p>For more usage features please read :
+<a href="https://www.clarius.org/ThisAssembly/">https://www.clarius.org/ThisAssembly/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion">https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion</a></a></p>
+<h2 id="rscg-number-2--enum">RSCG number 2 : Enum</h2>
+<h3 id="what-rscg-enum-can-do">What RSCG Enum can do</h3>
+<p>This will generate code to fast parsing a int or a string to an enum</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-enum">Here is the csproj with the references for RSCG Enum</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-enum">The code below will use the RSCG Enum</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-enum">The code that is generated by RSCG Enum</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Enum/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-enum">More details about RSCG Enum</h3>
+<p>The author of <strong>RSCG Enum</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG Enum</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum">https://github.com/ignatandrei/RSCG_Examples/tree/main/Enum</a></a></p>
+<h2 id="rscg-number-3--jsonbyexamplegenerator">RSCG number 3 : JsonByExampleGenerator</h2>
+<h3 id="what-rscg-jsonbyexamplegenerator-can-do">What RSCG JsonByExampleGenerator can do</h3>
+<p>This will generate C# a_class_bes from json files.</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-jsonbyexamplegenerator">Here is the csproj with the references for RSCG JsonByExampleGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-jsonbyexamplegenerator">The code below will use the RSCG JsonByExampleGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-jsonbyexamplegenerator">The code that is generated by RSCG JsonByExampleGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/JsonByExampleGenerator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-jsonbyexamplegenerator">More details about RSCG JsonByExampleGenerator</h3>
+<p>The author of <strong>RSCG JsonByExampleGenerator</strong> is <em>Robin Hermanussen</em></p>
+<p>You cand find <strong>RSCG JsonByExampleGenerator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/JsonByExampleGenerator/">https://www.nuget.org/packages/JsonByExampleGenerator/</a> and the sources
+at <a href="https://github.com/hermanussen/JsonByExampleGenerator/">https://github.com/hermanussen/JsonByExampleGenerator/</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/hermanussen/JsonByExampleGenerator/">https://github.com/hermanussen/JsonByExampleGenerator/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToa_class_b"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToa_class_b">https://github.com/ignatandrei/RSCG_Examples/tree/main/JsonToa_class_b</a></a></p>
+<h3 id="author-of-jsonbyexamplegenerator--robin-hermanussen">Author of JsonByExampleGenerator , Robin Hermanussen</h3>
+<h4 id="short-info-about-you--robin-hermanussen">Short info about you , Robin Hermanussen</h4>
+<p>I'm a Software Architect at Iquality (software company in the
+Netherlands). I'm passionate about software development in general, but
+with a particular interest in .NET.</p>
+<h4 id="why-did-you-start-this-jsonbyexamplegenerator">Why did you start this JsonByExampleGenerator ?</h4>
+<p>I have written a bunch of C# analyzers in the past that served specific
+needs and now wanted to get some experience in writing source
+generators. It seemed like a good idea to me to generate a_class_bes based
+on example JSON, because it replaces a task that I often find a bit
+tedious; writing data contract a_class_bes and then tests to ensure they get
+properly (de)serialized with the JSON that I'm using.</p>
+<h4 id="how-do-yourself-use-your-jsonbyexamplegenerator">How do yourself use your JsonByExampleGenerator ?</h4>
+<p>I'm not really using it in real world projects right now, as I'm not
+working on any projects that require it.</p>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>I've used ThisAssembly and a few others, for learning purposes.</p>
+<h4 id="any-other-feedback">Any other feedback ?</h4>
+<p>If anyone wants to use JsonByExampleGenerator and give me feedback from
+the real world, let me know! I'll be happy to help out with any issues
+or questions you may run into. Just add an issue to the project on
+GitHub to get in touch.</p>
+<h2 id="rscg-number-4--copyconstructor--deconstructor">RSCG number 4 : CopyConstructor + Deconstructor</h2>
+<h3 id="what-rscg-copyconstructor--deconstructor-can-do">What RSCG CopyConstructor + Deconstructor can do</h3>
+<p>This will generate code for a POCO to generate copy constructor and
+deconstructor</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-copyconstructor--deconstructor">Here is the csproj with the references for RSCG CopyConstructor + Deconstructor</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor + Deconstructor/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor%20+%20Deconstructor/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor + Deconstructor/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor%20+%20Deconstructor/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-copyconstructor--deconstructor">The code below will use the RSCG CopyConstructor + Deconstructor</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor + Deconstructor/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor%20+%20Deconstructor/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-copyconstructor--deconstructor">The code that is generated by RSCG CopyConstructor + Deconstructor</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor + Deconstructor/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/CopyConstructor%20+%20Deconstructor/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-copyconstructor--deconstructor">More details about RSCG CopyConstructor + Deconstructor</h3>
+<p>The author of <strong>RSCG CopyConstructor + Deconstructor</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG CopyConstructor + Deconstructor</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor">https://github.com/ignatandrei/RSCG_Examples/tree/main/CopyConstructor</a></a></p>
+<h2 id="rscg-number-5--generatedmapper">RSCG number 5 : GeneratedMapper</h2>
+<h3 id="what-rscg-generatedmapper-can-do">What RSCG GeneratedMapper can do</h3>
+<p>AutoMapping from a POCO to a DTO. Lots of customizations</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-generatedmapper">Here is the csproj with the references for RSCG GeneratedMapper</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-generatedmapper">The code below will use the RSCG GeneratedMapper</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-generatedmapper">The code that is generated by RSCG GeneratedMapper</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/GeneratedMapper/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-generatedmapper">More details about RSCG GeneratedMapper</h3>
+<p>The author of <strong>RSCG GeneratedMapper</strong> is <em>Thomas Bleijendaal</em></p>
+<p>You cand find <strong>RSCG GeneratedMapper</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/GeneratedMapper/">https://www.nuget.org/packages/GeneratedMapper/</a> and the sources at
+<a href="https://github.com/ThomasBleijendaal/GeneratedMapper">https://github.com/ThomasBleijendaal/GeneratedMapper</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/ThomasBleijendaal/GeneratedMapper">https://github.com/ThomasBleijendaal/GeneratedMapper</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper">https://github.com/ignatandrei/RSCG_Examples/tree/main/DTOMapper</a></a></p>
+<h3 id="author-of-generatedmapper--thomas-bleijendaal">Author of GeneratedMapper , Thomas Bleijendaal</h3>
+<h4 id="short-info-about-you--thomas-bleijendaal">Short info about you , Thomas Bleijendaal</h4>
+<p>I'm Thomas Bleijendaal, I'm a .NET developer working for Triple in
+Alkmaar, The Netherlands.</p>
+<h4 id="why-did-you-start-this-generatedmapper">Why did you start this GeneratedMapper ?</h4>
+<p>I've started GeneratedMapper to get more familiar with source
+generation. While the tooling is a bit rough now, I do believe that this
+feature can really bring a lot of value to .NET.</p>
+<p>I've been burned before by a lot of hard-to-find bugs caused by badly
+behaving mappers and runtime surprises from badly handled
+null-references. I wanted to create a object-to-object mapper that would
+be very picky and raise compilation errors instead of runtime
+exceptions. Being able to see what the mapper will do by simply
+inspecting the code is very handy, and makes you trust your mapper even
+more.</p>
+<h4 id="how-do-yourself-use-your-generatedmapper">How do yourself use your GeneratedMapper ?</h4>
+<p>I use the GeneratedMapper in a project where I map models coming from
+Contentful to DTOs that are used in views. I've also tried to use it in
+another project, but because that targeted an older runtime I could not
+make that work. But, since I could copy all the generated mappers and
+maintain those manually, switching away from it wasn't that bad. I think
+that is also very valuable of code generation, you still have a copy of
+what a generator made for you.</p>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>I haven't really used any other RSCGs yet, other than a metadata
+generator that Microsoft made for the out-of-process .NET-based Azure
+Functions (<a href="https://github.com/Azure/azure-functions-dotnet-worker/">https://github.com/Azure/azure-functions-dotnet-worker/</a>).
+That stuff is all very preview still, so it could be removed from the
+product, but it's cool to see Microsoft starting to use it too.</p>
+<h4 id="any-other-feedback">Any other feedback ?</h4>
+<p>Cool book!</p>
+<h2 id="rscg-number-6--skinny-controllers">RSCG number 6 : Skinny Controllers</h2>
+<h3 id="what-rscg-skinny-controllers-can-do">What RSCG Skinny Controllers can do</h3>
+<p>This will generate code for WebAPI for each method of a field in the
+controller</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-skinny-controllers">Here is the csproj with the references for RSCG Skinny Controllers</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny Controllers/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny%20Controllers/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny Controllers/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny%20Controllers/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-skinny-controllers">The code below will use the RSCG Skinny Controllers</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny Controllers/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny%20Controllers/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-skinny-controllers">The code that is generated by RSCG Skinny Controllers</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny Controllers/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Skinny%20Controllers/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-skinny-controllers">More details about RSCG Skinny Controllers</h3>
+<p>The author of <strong>RSCG Skinny Controllers</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG Skinny Controllers</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/SkinnyControllersCommon/">https://www.nuget.org/packages/SkinnyControllersCommon/</a>
+<a href="https://www.nuget.org/packages/SkinnyControllersGenerator/">https://www.nuget.org/packages/SkinnyControllersGenerator/</a> and the
+sources at <a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers">https://github.com/ignatandrei/RSCG_Examples/tree/main/SkinnyControllers</a></a></p>
+<h2 id="rscg-number-7--data-builder-generator">RSCG number 7 : data-builder-generator</h2>
+<h3 id="what-rscg-data-builder-generator-can-do">What RSCG data-builder-generator can do</h3>
+<p>Implements the Builder Design pattern for any a_class_b. Useful , at least,
+for test projects</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-data-builder-generator">Here is the csproj with the references for RSCG data-builder-generator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-data-builder-generator">The code below will use the RSCG data-builder-generator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-data-builder-generator">The code that is generated by RSCG data-builder-generator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/data-builder-generator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-data-builder-generator">More details about RSCG data-builder-generator</h3>
+<p>The author of <strong>RSCG data-builder-generator</strong> is <em>Martin Andreas Ulrich</em></p>
+<p>You cand find <strong>RSCG data-builder-generator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/">https://www.nuget.org/packages/DasMulli.DataBuilderGenerator/</a> and the
+sources at <a href="https://github.com/dasMulli/data-builder-generator">https://github.com/dasMulli/data-builder-generator</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/dasMulli/data-builder-generator">https://github.com/dasMulli/data-builder-generator</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder">https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Builder</a></a></p>
+<h3 id="author-of-data-builder-generator--martin-andreas-ulrich">Author of data-builder-generator , Martin Andreas Ulrich</h3>
+<h4 id="short-info-about-you--martin-andreas-ulrich">Short info about you , Martin Andreas Ulrich</h4>
+<p>I am a software engineer working on diverse tech stacks but focusing
+mostly on .NET in C#, Web Technologies and iOS/Swift.</p>
+<p>I am a technology enthusiast who always works on improving development
+and DevOps processes at our company to make life easier for developers
+and help deliver high. I was awarded Microsoft MVP for community and
+open-source work around .NET Core.</p>
+<h4 id="why-did-you-start-this-data-builder-generator">Why did you start this data-builder-generator ?</h4>
+<h4 id="how-do-yourself-use-your-data-builder-generator">How do yourself use your data-builder-generator ?</h4>
+<p>In &quot;enterprise&quot; contexts (I hate that term) one usually has to deal with
+business logic working on data objects. Writing tests is really
+important in these contexts but creating lots of test data for various
+scenarios can be quite cumbersome. You usually have some set of defaults
+(e.g. a base order with a dummy customer and items, an insurance
+application from a dummy customer etc.) and then deviate from it a
+little for each scenario. This is where C# 9 records would come in
+handy, but they were at the time not released and adopting them could be
+challenging (e.g. proper EF support while we're still on EF Core 3.1
+anyway) so we opted for a test data builder approach where the builder
+a_class_bes would be generated. I did something similar a few years back at
+a previous company based on
+<a href="https://github.com/AArnott/CodeGeneration.Roslyn">https://github.com/AArnott/CodeGeneration.Roslyn</a> (which is now
+archived in favor of rolsyn source generators) and decided that for a
+current project I'll have a go and try to create something similar based
+on roslyn. While there are still a few bugs in the generator (get-only
+properties for example), this works quite well just annotating all EF
+model POCOs and then creating a few default builders that can be used
+from tests (Think TestData.DefaultOrder.WithoutCustomerAddress().Build()</p>
+<ul>
+<li>extension methods are useful here as well to reuse builder functions
+that have a business meaning (.WithChecksumMismatchingIBAN())). I hope
+that many of these concerns can be solved with records in the future, so
+each .WithXYZ() can be done as a proper with-expression. But until then,
+autogenerating builder patterns is a good approach. I wanted to hold off
+refactoring / fixing bugs for advanced use cases until a few first-party
+generators exist and we know what performance pitfalls to look out for.
+Since we were using them when generators were in preview, we also had to
+deal with breaking changes in the API which was a bit of pain.</li>
+</ul>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>Currently this is the only one. I hope that OpenAPI processing /
+generation will be a source generator soon - this is currently patched
+in via NSwag/MSBuild for some projects.</p>
+<h4 id="any-other-feedback">Any other feedback ?</h4>
+<p>As mentioned I hope that some patterns of how to implement fast source
+generators emerge. This one likely isn't the best but I wanted to hold
+off a few months before refactoring. I don't plan on making a huge deal
+out of it, I just thought it's good to put useful tools we're building
+on GitHub for discussion and maybe it helps someone else as well.</p>
+<h2 id="rscg-number-8--metadata-from-object">RSCG number 8 : Metadata from object</h2>
+<h3 id="what-rscg-metadata-from-object-can-do">What RSCG Metadata from object can do</h3>
+<p>This will generate code to retrieve the values of properties directly,
+not by reflection</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-metadata-from-object">Here is the csproj with the references for RSCG Metadata from object</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata from object/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata%20from%20object/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata from object/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata%20from%20object/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-metadata-from-object">The code below will use the RSCG Metadata from object</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata from object/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata%20from%20object/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-metadata-from-object">The code that is generated by RSCG Metadata from object</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata from object/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Metadata%20from%20object/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-metadata-from-object">More details about RSCG Metadata from object</h3>
+<p>The author of <strong>RSCG Metadata from object</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG Metadata from object</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject">https://github.com/ignatandrei/RSCG_Examples/tree/main/MetadataFromObject</a></a></p>
+<h2 id="rscg-number-9--mocksourcegenerator">RSCG number 9 : MockSourceGenerator</h2>
+<h3 id="what-rscg-mocksourcegenerator-can-do">What RSCG MockSourceGenerator can do</h3>
+<p>This will generate Mock a_class_bes directly for any interface - with your
+implementation.</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-mocksourcegenerator">Here is the csproj with the references for RSCG MockSourceGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-mocksourcegenerator">The code below will use the RSCG MockSourceGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-mocksourcegenerator">The code that is generated by RSCG MockSourceGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/MockSourceGenerator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-mocksourcegenerator">More details about RSCG MockSourceGenerator</h3>
+<p>The author of <strong>RSCG MockSourceGenerator</strong> is <em>Robin Hermanussen</em></p>
+<p>You cand find <strong>RSCG MockSourceGenerator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/MockSourceGenerator/">https://www.nuget.org/packages/MockSourceGenerator/</a> and the sources at
+<a href="https://github.com/hermanussen/MockSourceGenerator/">https://github.com/hermanussen/MockSourceGenerator/</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/hermanussen/MockSourceGenerator/">https://github.com/hermanussen/MockSourceGenerator/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking">https://github.com/ignatandrei/RSCG_Examples/tree/main/DynamicMocking</a></a></p>
+<h3 id="author-of-mocksourcegenerator--robin-hermanussen">Author of MockSourceGenerator , Robin Hermanussen</h3>
+<h4 id="short-info-about-you--robin-hermanussen">Short info about you , Robin Hermanussen</h4>
+<p>I'm a Software Architect at Iquality (software company in the
+Netherlands). I'm passionate about software development in general, but
+with a particular interest in .NET.</p>
+<h4 id="why-did-you-start-this-mocksourcegenerator">Why did you start this MockSourceGenerator ?</h4>
+<p>I have written a bunch of C# analyzers in the past that served specific
+needs and now wanted to get some experience in writing source
+generators. The thing about libraries like Moq or NSubstitute that I
+don't really like is how it takes so much code to set them up and then I
+don't find them very readable. MockSourceGenerator takes an approach
+that allows people to mock something in a single statement (with an
+object initializer) and I think it is more readable this way.</p>
+<h4 id="how-do-yourself-use-your-mocksourcegenerator">How do yourself use your MockSourceGenerator ?</h4>
+<p>I'm not really using it in real world projects right now, as I'm not
+working on any projects that require it.</p>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>I've used ThisAssembly and a few others, for learning purposes.</p>
+<h4 id="any-other-feedback">Any other feedback ?</h4>
+<p>If anyone wants to use MockSourceGenerator and give me feedback from the
+real world, let me know! I'll be happy to help out with any issues or
+questions you may run into. Just add an issue to the project on GitHub
+to get in touch.</p>
+<h2 id="rscg-number-10--method-decorator">RSCG number 10 : Method decorator</h2>
+<h3 id="what-rscg-method-decorator-can-do">What RSCG Method decorator can do</h3>
+<p>This will generate code to decorate methods with anything you want (
+stopwatch, logging , authorization...)</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-method-decorator">Here is the csproj with the references for RSCG Method decorator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method decorator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method%20decorator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method decorator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method%20decorator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-method-decorator">The code below will use the RSCG Method decorator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method decorator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method%20decorator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-method-decorator">The code that is generated by RSCG Method decorator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method decorator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Method%20decorator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-method-decorator">More details about RSCG Method decorator</h3>
+<p>The author of <strong>RSCG Method decorator</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG Method decorator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator">https://github.com/ignatandrei/RSCG_Examples/tree/main/MethodDecorator</a></a></p>
+<h2 id="rscg-number-11--partiallyapplied">RSCG number 11 : PartiallyApplied</h2>
+<h3 id="what-rscg-partiallyapplied-can-do">What RSCG PartiallyApplied can do</h3>
+<p>This will generate curry for your functions</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-partiallyapplied">Here is the csproj with the references for RSCG PartiallyApplied</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-partiallyapplied">The code below will use the RSCG PartiallyApplied</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-partiallyapplied">The code that is generated by RSCG PartiallyApplied</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/PartiallyApplied/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-partiallyapplied">More details about RSCG PartiallyApplied</h3>
+<p>The author of <strong>RSCG PartiallyApplied</strong> is <em>Jason Bock</em></p>
+<p>You cand find <strong>RSCG PartiallyApplied</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/PartiallyApplied/">https://www.nuget.org/packages/PartiallyApplied/</a> and the sources at
+<a href="https://github.com/JasonBock/PartiallyApplied">https://github.com/JasonBock/PartiallyApplied</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/JasonBock/PartiallyApplied">https://github.com/JasonBock/PartiallyApplied</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction">https://github.com/ignatandrei/RSCG_Examples/tree/main/PartiallyFunction</a></a></p>
+<h2 id="rscg-number-12--iformattable">RSCG number 12 : IFormattable</h2>
+<h3 id="what-rscg-iformattable-can-do">What RSCG IFormattable can do</h3>
+<p>This will generate code to add IFormattable to any a_class_b, based on the
+properties of the a_class_b</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-iformattable">Here is the csproj with the references for RSCG IFormattable</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-iformattable">The code below will use the RSCG IFormattable</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-iformattable">The code that is generated by RSCG IFormattable</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/IFormattable/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-iformattable">More details about RSCG IFormattable</h3>
+<p>The author of <strong>RSCG IFormattable</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG IFormattable</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable">https://github.com/ignatandrei/RSCG_Examples/tree/main/IFormattable</a></a></p>
+<h2 id="rscg-number-13--autointerface">RSCG number 13 : AutoInterface</h2>
+<h3 id="what-rscg-autointerface-can-do">What RSCG AutoInterface can do</h3>
+<p>Implement the Design Pattern Decorator. Based on template - you can
+modify the source code generated</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-autointerface">Here is the csproj with the references for RSCG AutoInterface</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-autointerface">The code below will use the RSCG AutoInterface</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-autointerface">The code that is generated by RSCG AutoInterface</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AutoInterface/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-autointerface">More details about RSCG AutoInterface</h3>
+<p>The author of <strong>RSCG AutoInterface</strong> is <em>beakona</em></p>
+<p>You cand find <strong>RSCG AutoInterface</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator">https://www.nuget.org/packages/BeaKona.AutoInterfaceGenerator</a> and the
+sources at <a href="https://github.com/beakona/AutoInterface">https://github.com/beakona/AutoInterface</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/beakona/AutoInterface">https://github.com/beakona/AutoInterface</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator">https://github.com/ignatandrei/RSCG_Examples/tree/main/DP_Decorator</a></a></p>
+<h3 id="author-of-autointerface--beakona">Author of AutoInterface , beakona</h3>
+<h4 id="short-info-about-you--beakona">Short info about you , beakona</h4>
+<p>I am a dad and software developer with more than 15 years of working
+experience in various industries and technologies. I am working mostly
+on embedded and desktop solutions mainly in C and C#.</p>
+<h4 id="why-did-you-start-this-autointerface">Why did you start this AutoInterface ?</h4>
+<p>After the Source Generator public announcement, I decided to give them a
+try. I realized that Source Generators would allow us to explore
+composition-over-inheritance in its new form (from C# perspective).
+Technically, this approach uses interface invocation (which impacts
+performance) but one can view it as one form of composition. I consider
+myself a language designer and I wanted to explore the mechanics of this
+approach (regardless of poor performance) on existing and reputable
+language that I use daily.</p>
+<h4 id="how-do-yourself-use-your-autointerface">How do yourself use your AutoInterface ?</h4>
+<p>I use it experimentally as a tool that allows a a_class_b to be
+composed-of-members and yet acts as inherited-as. Young and experimental
+languages have similar concepts as an alternative to inheritance. Those
+who find this interesting can explore the approach chosen by Jonathan
+Blow in its language Jai</p>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>There is only one Source Generator that I use in production; AutoCoder
+and it is not public because I didn't find time to make it configurable
+and polished. It automatically implements ICoding interface for the
+target a_class_b (Bridge pattern). I have been using this approach for years
+because the existing infrastructure does not work for me. The main
+concept is inspired by Foundation framework a_class_b NSCoder but is
+implemented in the C# way. Abstraction-side has two directions
+IEncoding/IDecoding and there are two implementers: IEncoder
+and IDecoder. AutoCoder acts on behalf of the abstraction
+side by offering targeted fields/properties to IEncoder/IDecoder. The
+author of IEncoder/IDecoder can decide what, how, when, and in which
+context to encode/decode. In other words, AutoCoder automates boring
+stuff and does not make typos.</p>
+<h4 id="any-other-feedback">Any other feedback ?</h4>
+<p>If you have special, funny, or helpful paragraphs that acts like mentor
+or life coach concept I think there is worth mentioning TED talk: Why
+you will fail to have a great career by Larry Smith or book: &quot;Hold on to
+Your Kids: Why Parents Need to Matter More Than Peers&quot;, 2019, by Dr.
+Gabor Maté and Gordon Neufeld.</p>
+<h2 id="rscg-number-14--property-expression-generator">RSCG number 14 : Property Expression Generator</h2>
+<h3 id="what-rscg-property-expression-generator-can-do">What RSCG Property Expression Generator can do</h3>
+<p>This will generate code to add function to be used with Entity Framework
+to search for any property of a a_class_b</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-property-expression-generator">Here is the csproj with the references for RSCG Property Expression Generator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property Expression Generator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property%20Expression%20Generator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property Expression Generator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property%20Expression%20Generator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-property-expression-generator">The code below will use the RSCG Property Expression Generator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property Expression Generator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property%20Expression%20Generator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-property-expression-generator">The code that is generated by RSCG Property Expression Generator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property Expression Generator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Property%20Expression%20Generator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-property-expression-generator">More details about RSCG Property Expression Generator</h3>
+<p>The author of <strong>RSCG Property Expression Generator</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG Property Expression Generator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator">https://github.com/ignatandrei/RSCG_Examples/tree/main/PropertyExpressionGenerator</a></a></p>
+<h2 id="rscg-number-15--transplator">RSCG number 15 : Transplator</h2>
+<h3 id="what-rscg-transplator-can-do">What RSCG Transplator can do</h3>
+<p>The Transplator is a small fast rendering engine to allow you to make
+rendering from any a_class_b instance.</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-transplator">Here is the csproj with the references for RSCG Transplator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-transplator">The code below will use the RSCG Transplator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-transplator">The code that is generated by RSCG Transplator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/Transplator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-transplator">More details about RSCG Transplator</h3>
+<p>The author of <strong>RSCG Transplator</strong> is <em>Atif Aziz</em></p>
+<p>You cand find <strong>RSCG Transplator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/Transplator/">https://www.nuget.org/packages/Transplator/</a> and the sources at
+<a href="https://github.com/atifaziz/Transplator/">https://github.com/atifaziz/Transplator/</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/atifaziz/Transplator/">https://github.com/atifaziz/Transplator/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender">https://github.com/ignatandrei/RSCG_Examples/tree/main/TemplateRender</a></a></p>
+<h2 id="rscg-number-16--rscgams">RSCG number 16 : RSCG_AMS</h2>
+<h3 id="what-rscg-rscgams-can-do">What RSCG RSCG_AMS can do</h3>
+<p>The AMS will add in the CI the version and creator to your project.See
+<a href="https://netcoreblockly.herokuapp.com/ams">https://netcoreblockly.herokuapp.com/ams</a> for an example</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-rscgams">Here is the csproj with the references for RSCG RSCG_AMS</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-rscgams">The code below will use the RSCG RSCG_AMS</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-rscgams">The code that is generated by RSCG RSCG_AMS</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_AMS/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-rscgams">More details about RSCG RSCG_AMS</h3>
+<p>The author of <strong>RSCG RSCG_AMS</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG RSCG_AMS</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AMS_Base">https://www.nuget.org/packages/AMS_Base</a>
+<a href="https://www.nuget.org/packages/AMSWebAPI">https://www.nuget.org/packages/AMSWebAPI</a>
+<a href="https://www.nuget.org/packages/RSCG_AMS">https://www.nuget.org/packages/RSCG_AMS</a> and the sources at
+<a href="https://github.com/ignatandrei/RSCG_AMS">https://github.com/ignatandrei/RSCG_AMS</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/ignatandrei/RSCG_AMS">https://github.com/ignatandrei/RSCG_AMS</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version">https://github.com/ignatandrei/RSCG_Examples/tree/main/CI_Version</a></a></p>
+<h2 id="rscg-number-17--httpclientgenerator">RSCG number 17 : HttpClientGenerator</h2>
+<h3 id="what-rscg-httpclientgenerator-can-do">What RSCG HttpClientGenerator can do</h3>
+<p>HttpClientGenerator is a tool that uses Roslyn code generator feature to
+write boilerplate HttpClient code for you.</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-httpclientgenerator">Here is the csproj with the references for RSCG HttpClientGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-httpclientgenerator">The code below will use the RSCG HttpClientGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-httpclientgenerator">The code that is generated by RSCG HttpClientGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/HttpClientGenerator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-httpclientgenerator">More details about RSCG HttpClientGenerator</h3>
+<p>The author of <strong>RSCG HttpClientGenerator</strong> is <em>Jalal Amini Robati</em></p>
+<p>You cand find <strong>RSCG HttpClientGenerator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/HttpClientGenerator/">https://www.nuget.org/packages/HttpClientGenerator/</a> and the sources at
+<a href="https://github.com/Jalalx/HttpClientCodeGenerator">https://github.com/Jalalx/HttpClientCodeGenerator</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/Jalalx/HttpClientCodeGenerator">https://github.com/Jalalx/HttpClientCodeGenerator</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator">https://github.com/ignatandrei/RSCG_Examples/tree/main/HttpClientCodeGenerator</a></a></p>
+<h3 id="author-of-httpclientgenerator--jalal-amini-robati">Author of HttpClientGenerator , Jalal Amini Robati</h3>
+<ol>
+<li>Short info about you , Jalal Amini Robati</li>
+</ol>
+<p>I am working as a senior software engineer at Alibaba Travels.</p>
+<ol start="2">
+<li>Why did you start this HttpClientGenerator ?</li>
+</ol>
+<p>I built HttpClientGenerator to help users stop writing HttpClient code.
+Currently, some users use tools like swaggergen which generates too much
+code that is hard to maintain.</p>
+<ol start="3">
+<li>How do yourself use your HttpClientGenerator ?</li>
+</ol>
+<p>I am going to use it in a high-traffic website on production when it
+gets mature enough. I mostly use it on my personal projects and look for
+feedback from developers for now.</p>
+<ol start="4">
+<li>What other RSCG do you use ?</li>
+</ol>
+<p>Since the RSCG is in the early stages, I don't know that many tools but
+I think it can be applied to many areas like DI, ORMs. Currently
+Dapper.AOT is using this feature that would make writing database code
+so much faster.</p>
+<h2 id="rscg-number-18--databasetowebapi">RSCG number 18 : DatabaseToWebAPI</h2>
+<h3 id="what-rscg-databasetowebapi-can-do">What RSCG DatabaseToWebAPI can do</h3>
+<p>This will generate code (WebAPI/Swagger) for any table/view from
+SqlServer. You can see the table via Angular</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-databasetowebapi">Here is the csproj with the references for RSCG DatabaseToWebAPI</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-databasetowebapi">The code below will use the RSCG DatabaseToWebAPI</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-databasetowebapi">The code that is generated by RSCG DatabaseToWebAPI</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/DatabaseToWebAPI/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-databasetowebapi">More details about RSCG DatabaseToWebAPI</h3>
+<p>The author of <strong>RSCG DatabaseToWebAPI</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG DatabaseToWebAPI</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/QueryGenerator/">https://www.nuget.org/packages/QueryGenerator/</a> and the sources at
+<a href="https://github.com/ignatandrei/QueryViewer/">https://github.com/ignatandrei/QueryViewer/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator">https://github.com/ignatandrei/RSCG_Examples/tree/main/QueryGenerator</a></a></p>
+<h2 id="rscg-number-19--sourceinject">RSCG number 19 : SourceInject</h2>
+<h3 id="what-rscg-sourceinject-can-do">What RSCG SourceInject can do</h3>
+<p>Auto register services in startup</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-sourceinject">Here is the csproj with the references for RSCG SourceInject</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-sourceinject">The code below will use the RSCG SourceInject</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-sourceinject">The code that is generated by RSCG SourceInject</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/SourceInject/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-sourceinject">More details about RSCG SourceInject</h3>
+<p>The author of <strong>RSCG SourceInject</strong> is <em>Giovanni Bassi</em></p>
+<p>You cand find <strong>RSCG SourceInject</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/SourceInject/">https://www.nuget.org/packages/SourceInject/</a> and the sources at
+<a href="https://github.com/giggio/sourceinject">https://github.com/giggio/sourceinject</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/giggio/sourceinject">https://github.com/giggio/sourceinject</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister">https://github.com/ignatandrei/RSCG_Examples/tree/main/AutoRegister</a></a></p>
+<h2 id="rscg-number-21--basetypes">RSCG number 21 : BaseTypes</h2>
+<h3 id="what-rscg-basetypes-can-do">What RSCG BaseTypes can do</h3>
+<p>Generated tiny types from any value type</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-basetypes">Here is the csproj with the references for RSCG BaseTypes</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-basetypes">The code below will use the RSCG BaseTypes</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-basetypes">The code that is generated by RSCG BaseTypes</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BaseTypes/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-basetypes">More details about RSCG BaseTypes</h3>
+<p>The author of <strong>RSCG BaseTypes</strong> is <em>Andreas Dorfer</em></p>
+<p>You cand find <strong>RSCG BaseTypes</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AndreasDorfer.BaseTypes/">https://www.nuget.org/packages/AndreasDorfer.BaseTypes/</a> and the
+sources at <a href="https://github.com/Andreas-Dorfer/base-types">https://github.com/Andreas-Dorfer/base-types</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/Andreas-Dorfer/base-types">https://github.com/Andreas-Dorfer/base-types</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes">https://github.com/ignatandrei/RSCG_Examples/tree/main/TinyTypes</a></a></p>
+<h2 id="rscg-number-22--appsettingseditor">RSCG number 22 : AppSettingsEditor</h2>
+<h3 id="what-rscg-appsettingseditor-can-do">What RSCG AppSettingsEditor can do</h3>
+<p>This will generate a_class_bes code from appsettings . Additionally , it
+generates API controller for editing and an UI interface</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-appsettingseditor">Here is the csproj with the references for RSCG AppSettingsEditor</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-appsettingseditor">The code below will use the RSCG AppSettingsEditor</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-appsettingseditor">The code that is generated by RSCG AppSettingsEditor</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AppSettingsEditor/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-appsettingseditor">More details about RSCG AppSettingsEditor</h3>
+<p>The author of <strong>RSCG AppSettingsEditor</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG AppSettingsEditor</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/appSettingsEditor/">https://www.nuget.org/packages/appSettingsEditor/</a> and the sources at
+<a href="https://github.com/ignatandrei/appSettingsEditor">https://github.com/ignatandrei/appSettingsEditor</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor">https://github.com/ignatandrei/RSCG_Examples/tree/main/appSettingsEditor</a></a></p>
+<h2 id="rscg-number-23--apparatusaot">RSCG number 23 : ApparatusAOT</h2>
+<h3 id="what-rscg-apparatusaot-can-do">What RSCG ApparatusAOT can do</h3>
+<p>This will generate code for investigating at runtime the properties of
+an object</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-apparatusaot">Here is the csproj with the references for RSCG ApparatusAOT</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-apparatusaot">The code below will use the RSCG ApparatusAOT</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-apparatusaot">The code that is generated by RSCG ApparatusAOT</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/ApparatusAOT/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-apparatusaot">More details about RSCG ApparatusAOT</h3>
+<p>The author of <strong>RSCG ApparatusAOT</strong> is <em>Stanislav Silin</em></p>
+<p>You cand find <strong>RSCG ApparatusAOT</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/Apparatus.AOT.Reflection/">https://www.nuget.org/packages/Apparatus.AOT.Reflection/</a> and the
+sources at <a href="https://github.com/byme8/Apparatus.AOT.Reflection">https://github.com/byme8/Apparatus.AOT.Reflection</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/byme8/Apparatus.AOT.Reflection">https://github.com/byme8/Apparatus.AOT.Reflection</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT">https://github.com/ignatandrei/RSCG_Examples/tree/main/ApparatusAOT</a></a></p>
+<h3 id="author-of-apparatusaot--stanislav-silin">Author of ApparatusAOT , Stanislav Silin</h3>
+<h4 id="short-info-about-you--stanislav-silin">Short info about you , Stanislav Silin</h4>
+<p>I am a software developer. Interested in the app architecture and
+performance optimizations</p>
+<h4 id="why-did-you-start-this-apparatusaot">Why did you start this ApparatusAOT ?</h4>
+<p>I am constantly looking for ways how to reduce the amount of boilerplate
+code. So, I decided to make a place where I can put all my findings.
+Maybe they will be useful for someone else. 'Apparatus' is the name of a
+community/organization. The 'AOT' is just a suffix for the indication
+that the tool is intended for the AOT scenarios.</p>
+<h4 id="how-do-yourself-use-your-apparatusaot">How do yourself use your ApparatusAOT ?</h4>
+<p>Right now, ZeroIoc is actively used in one commercial project. Other
+stuff like AOT.Reflection, DuckInterface in just experiments to
+investigate the possibility and effectiveness of such tools.</p>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>At the moment I don't use any of them.</p>
+<h2 id="rscg-number-24--rscgtimebombcomment">RSCG number 24 : RSCG_TimeBombComment</h2>
+<h3 id="what-rscg-rscgtimebombcomment-can-do">What RSCG RSCG_TimeBombComment can do</h3>
+<p>This will generate an error from the comment after a certain date</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-rscgtimebombcomment">Here is the csproj with the references for RSCG RSCG_TimeBombComment</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-rscgtimebombcomment">The code below will use the RSCG RSCG_TimeBombComment</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-rscgtimebombcomment">The code that is generated by RSCG RSCG_TimeBombComment</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/RSCG_TimeBombComment/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-rscgtimebombcomment">More details about RSCG RSCG_TimeBombComment</h3>
+<p>The author of <strong>RSCG RSCG_TimeBombComment</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG RSCG_TimeBombComment</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/RSCG_TimeBombComment/">https://www.nuget.org/packages/RSCG_TimeBombComment/</a> and the sources
+at <a href="https://github.com/ignatandrei/RSCG_TimeBombComment">https://github.com/ignatandrei/RSCG_TimeBombComment</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment">https://github.com/ignatandrei/RSCG_Examples/tree/main/TimeBombComment</a></a></p>
+<h2 id="rscg-number-25--structrecordsgenerator">RSCG number 25 : StructRecordsGenerator</h2>
+<h3 id="what-rscg-structrecordsgenerator-can-do">What RSCG StructRecordsGenerator can do</h3>
+<p>This will generate code .ToString. Usefull for debugging</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-structrecordsgenerator">Here is the csproj with the references for RSCG StructRecordsGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-structrecordsgenerator">The code below will use the RSCG StructRecordsGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-structrecordsgenerator">The code that is generated by RSCG StructRecordsGenerator</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/StructRecordsGenerator/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-structrecordsgenerator">More details about RSCG StructRecordsGenerator</h3>
+<p>The author of <strong>RSCG StructRecordsGenerator</strong> is <em>Sergey Teplyakov</em></p>
+<p>You cand find <strong>RSCG StructRecordsGenerator</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/StructRecordGenerator/">https://www.nuget.org/packages/StructRecordGenerator/</a> and the sources
+at <a href="https://github.com/SergeyTeplyakov/StructRecordsGenerator">https://github.com/SergeyTeplyakov/StructRecordsGenerator</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/SergeyTeplyakov/StructRecordsGenerator">https://github.com/SergeyTeplyakov/StructRecordsGenerator</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString">https://github.com/ignatandrei/RSCG_Examples/tree/main/DebuggerToString</a></a></p>
+<h2 id="rscg-number-26--aopmarkerci">RSCG number 26 : AOPMarkerCI</h2>
+<h3 id="what-rscg-aopmarkerci-can-do">What RSCG AOPMarkerCI can do</h3>
+<p>This will tracing methods marked with AOPMarkerMethod in CI builds. Does
+not affect the code run by the programmer.</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-aopmarkerci">Here is the csproj with the references for RSCG AOPMarkerCI</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-aopmarkerci">The code below will use the RSCG AOPMarkerCI</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-aopmarkerci">The code that is generated by RSCG AOPMarkerCI</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/AOPMarkerCI/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-aopmarkerci">More details about RSCG AOPMarkerCI</h3>
+<p>The author of <strong>RSCG AOPMarkerCI</strong> is <em>Andrei Ignat</em></p>
+<p>You cand find <strong>RSCG AOPMarkerCI</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/AOPMethodsCommon/">https://www.nuget.org/packages/AOPMethodsCommon/</a>
+<a href="https://www.nuget.org/packages/AOPMethodsGenerator/">https://www.nuget.org/packages/AOPMethodsGenerator/</a> and the sources at
+<a href="http://github.com/ignatandrei/aop_With_Roslyn/">http://github.com/ignatandrei/aop_With_Roslyn/</a></p>
+<p>For more usage features please read :
+<a href="http://msprogrammer.serviciipeweb.ro/category/roslyn/">http://msprogrammer.serviciipeweb.ro/category/roslyn/</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI">https://github.com/ignatandrei/RSCG_Examples/tree/main/AOPMarkerCI</a></a></p>
+<h2 id="rscg-number-27--boilerplatefree">RSCG number 27 : BoilerplateFree</h2>
+<h3 id="what-rscg-boilerplatefree-can-do">What RSCG BoilerplateFree can do</h3>
+<p>This will generate interface from a a_class_b</p>
+<h3 id="example-code">Example code</h3>
+<h4 id="here-is-the-csproj-with-the-references-for-rscg-boilerplatefree">Here is the csproj with the references for RSCG BoilerplateFree</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/The.csproj.png" alt="csprj">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/The.csproj">code</a>
+</small></p>
+<h4 id="the-initial-code-that-you-start-with-is">The initial code that you start with is</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/ExistingCode.cs.png" alt="start">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/ExistingCode.cs">code</a>
+</small></p>
+<h4 id="the-code-below-will-use-the-rscg-boilerplatefree">The code below will use the RSCG BoilerplateFree</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/Usage.cs.png" alt="usage">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/Usage.cs">code</a>
+<small></p>
+<h4 id="the-code-that-is-generated-by-rscg-boilerplatefree">The code that is generated by RSCG BoilerplateFree</h4>
+<p><img src="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/GeneratedCode.cs.png" alt="gc">
+<small>
+<a href="http://ignatandrei.github.io/RSCG_Examples/v1/images/BoilerplateFree/GeneratedCode.cs">code</a>
+</small></p>
+<h3 id="more-details-about-rscg-boilerplatefree">More details about RSCG BoilerplateFree</h3>
+<p>The author of <strong>RSCG BoilerplateFree</strong> is <em>Gustav Wengel</em></p>
+<p>You cand find <strong>RSCG BoilerplateFree</strong> at Nuget.org :
+<a href="https://www.nuget.org/packages/boilerplatefree">https://www.nuget.org/packages/boilerplatefree</a> and the sources at
+<a href="https://github.com/GeeWee/boilerplatefree">https://github.com/GeeWee/boilerplatefree</a></p>
+<p>For more usage features please read :
+<a href="https://github.com/GeeWee/boilerplatefree">https://github.com/GeeWee/boilerplatefree</a></p>
+<h4 id="link-to-example-code">Link to Example Code:</h4>
+<p><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/a_class_b2Interface"><a href="https://github.com/ignatandrei/RSCG_Examples/tree/main/a_class_b2Interface">https://github.com/ignatandrei/RSCG_Examples/tree/main/a_class_b2Interface</a></a></p>
+<h3 id="author-of-boilerplatefree--gustav-wengel">Author of BoilerplateFree , Gustav Wengel</h3>
+<h4 id="short-info-about-you--gustav-wengel">Short info about you , Gustav Wengel</h4>
+<p>I'm a 28 year old software developer from Aarhus, Denmark. I work
+primarily within CleanTech as I think the climate emergency is one of
+the most pressing issues we face currently. I've worked with C# and
+.NET for about two years.</p>
+<h4 id="why-did-you-start-this-boilerplatefree">Why did you start this BoilerplateFree ?</h4>
+<p>Because I thought some of the limitations that the C# language offers
+sucked. I saw things like Project Lombok in the Java space that made the
+language much more ergonomic, and I wanted to see if I could bring some
+of that stuff into the C# space.</p>
+<h4 id="how-do-yourself-use-your-boilerplatefree">How do yourself use your BoilerplateFree ?</h4>
+<p>I use it for a few small-scale production projects. I think the jury is
+still out whether or not using source generators this way is a good idea
+or not, but so far it's been a real positive experience.</p>
+<h4 id="what-other-rscg-do-you-use">What other RSCG do you use ?</h4>
+<p>None yet.</p>
+<h4 id="any-other-feedback">Any other feedback ?</h4>
+<p>Nope!</p>
+<h2 id="roslyn-source-code-generator-rscg----others">Roslyn Source Code Generator (RSCG ) - others</h2>
+<p>There are more awesome RSCG that you could use - here is a list of 53
+RSCG that you may want to look at:</p>
+<table>
+<tr>
+<th>Nr</th>
+<th>Name</th>
+<th>Description </th>
+</tr>  
+<tr>
+<td>
+1 </td><td> <a href="https://github.com/chsienki/AutoEmbed" target="_blank">chsienki/AutoEmbed </a> </td><td> Source generator to easily embed and access files + directory trees
+</td>
+</tr>
+<tr>
+<td>
+2 </td><td> <a href="https://github.com/mostmand/Cloneable" target="_blank">mostmand/Cloneable </a> </td><td> Auto generate Clone method using C# Source Generator
+</td>
+</tr>
+<tr>
+<td>
+3 </td><td> <a href="https://github.com/jeromelaban/fonderie" target="_blank">jeromelaban/fonderie </a> </td><td> A source generator for the INotifyPropertyChanged interface using the Uno.SourceGenera
+tion framework
+</td>
+</tr>
+<tr>
+<td>
+4 </td><td> <a href="https://github.com/excubo-ag/Generators.Blazor" target="_blank">excubo-ag/Generators.Blazor </a> </td><td> This project improves the performance of Blazor components using source 
+generators and provides helpful diagnostics.
+</td>
+</tr>
+<tr>
+<td>
+5 </td><td> <a href="https://github.com/excubo-ag/Generators.Grouping" target="_blank">excubo-ag/Generators.Grouping </a> </td><td> Some APIs have a lot of methods. When they all reside in the same ob
+ject, finding the right API call can be a challenge to the users. But replacing the structure of the API from a monolithic API to an API with intuitively named and smaller groups would break existing 
+code. The solution is to offer both, without having to write the grouping yourself.
+</td>
+</tr>
+<tr>
+<td>
+6 </td><td> <a href="https://github.com/ladeak/JsonMergePatch" target="_blank">ladeak/JsonMergePatch </a> </td><td> Provides an implementation for Json Merge Patch, RFC7396. Library using C# source ge
+nerators to generate the types required for serialization. The Http package provides extension methods for HTTP requests, while the AspNetCore package provides an InputReader implementation.
+</td>
+</tr>
+<tr>
+<td>
+7 </td><td> <a href="https://github.com/Zoxive/MemoizeSourceGenerator" target="_blank">Zoxive/MemoizeSourceGenerator </a> </td><td> Memoize
+</td>
+</tr>
+<tr>
+<td>
+8 </td><td> <a href="https://github.com/Tyrrrz/MiniRazor" target="_blank">Tyrrrz/MiniRazor </a> </td><td> Portable Razor compiler & code generator
+</td>
+</tr>
+<tr>
+<td>
+9 </td><td> <a href="https://github.com/thomas-girotto/MockGen" target="_blank">thomas-girotto/MockGen </a> </td><td> A C# mocking library based on source generators 
+</td>
+</tr>
+<tr>
+<td>
+10 </td><td> <a href="https://github.com/Sholtee/proxygen" target="_blank">Sholtee/proxygen </a> </td><td> .NET proxy generator powered by Roslyn
+</td>
+</tr>
+<tr>
+<td>
+11 </td><td> <a href="https://github.com/JasonBock/Rocks" target="_blank">JasonBock/Rocks </a> </td><td> A mocking library based on the Compiler APIs (Roslyn + Mocks)
+</td>
+</tr>
+<tr>
+<td>
+12 </td><td> <a href="https://github.com/Jishun/RoslynWeave" target="_blank">Jishun/RoslynWeave </a> </td><td> An AOP code generator
+</td>
+</tr>
+<tr>
+<td>
+13 </td><td> <a href="https://github.com/devlooped/SmallSharp" target="_blank">devlooped/SmallSharp </a> </td><td> Create, edit and run multiple C# 9.0 top-level programs  in the same project by just 
+selecting the startup program from the start  button.
+</td>
+</tr>
+<tr>
+<td>
+14 </td><td> <a href="https://github.com/robertturner/StaticProxyGenerator" target="_blank">robertturner/StaticProxyGenerator </a> </td><td> Interface proxy generator. At compile time creates a_class_b th
+at implements target interface. Instantiation of the generated a_class_b accepts an InterceptorHandler which is called for all method calls
+</td>
+</tr>
+<tr>
+<td>
+15 </td><td> <a href="https://github.com/ufcpp/ValueChangedGenerator" target="_blank">ufcpp/ValueChangedGenerator </a> </td><td> Roslyn Code Fix / Source Generator for generating PropertyChanged from 
+inner struct members.
+</td>
+</tr>
+<tr>
+<td>
+16 </td><td> <a href="https://github.com/mattiasnordqvist/Web-Anchor" target="_blank">mattiasnordqvist/Web-Anchor </a> </td><td> Web Anchor provides type-safe, testable and flexible, runtime-generated
+ access to web resources.
+</td>
+</tr>
+<tr>
+<td>
+17 </td><td> <a href="https://github.com/martinothamar/WrapperValueObject" target="_blank">martinothamar/WrapperValueObject </a> </td><td> A .NET source generator for creating simple value objects wra
+pping primitive types.
+</td>
+</tr>
+<tr>
+<td>
+18 </td><td> <a href="https://github.com/gabriele-tomassetti/code-generation-roslyn" target="_blank">gabriele-tomassetti/code-generation-roslyn </a> </td><td> Code generation with Roslyn and parsing w
+ith Sprache 
+</td>
+</tr>
+<tr>
+<td>
+19 </td><td> <a href="https://github.com/YairHalberstadt/stronginject" target="_blank">YairHalberstadt/stronginject </a> </td><td> compile time dependency injection for .NET
+</td>
+</tr>
+<tr>
+<td>
+20 </td><td> <a href="https://github.com/thinktecture/article-roslyn-source-generators" target="_blank">thinktecture/article-roslyn-source-generators </a> </td><td> Roslyn Source Generators, Analyzers
+ and Code Fixes
+</td>
+</tr>
+<tr>
+<td>
+21 </td><td> <a href="https://github.com/HamedFathi/MockableStaticGenerator" target="_blank">HamedFathi/MockableStaticGenerator </a> </td><td> A C# source generator to make an interface and a a_class_b wr
+apper to test static/extension methods.
+</td>
+</tr>
+<tr>
+<td>
+22 </td><td> <a href="https://github.com/mrtaikandi/MapTo" target="_blank">mrtaikandi/MapTo </a> </td><td> A convention based object to object mapper using Roslyn source generator.
+</td>
+</tr>
+<tr>
+<td>
+23 </td><td> <a href="https://github.com/dominikjeske/Dnf.SourceGenerators" target="_blank">dominikjeske/Dnf.SourceGenerators </a> </td><td> SourceGenerators
+</td>
+</tr>
+<tr>
+<td>
+24 </td><td> <a href="https://github.com/Flash0ver/F0.Generators" target="_blank">Flash0ver/F0.Generators </a> </td><td> The open source of truth for general-purpose C# source code generators.
+</td>
+</tr>
+<tr>
+<td>
+25 </td><td> <a href="https://github.com/giggio/sourceinject" target="_blank">giggio/sourceinject </a> </td><td> A source generator for C# that uses Roslyn (the C# compiler) to allow you to generate y
+our dependencies injection during compile time. 
+</td>
+</tr>
+<tr>
+<td>
+26 </td><td> <a href="https://github.com/anton-yashin/LightMock.Generator" target="_blank">anton-yashin/LightMock.Generator </a> </td><td> aot mock generator
+</td>
+</tr>
+<tr>
+<td>
+27 </td><td> <a href="https://github.com/sungaila/Cdelta" target="_blank">sungaila/Cdelta </a> </td><td> A C# source generator for finite-state machines ??? easily referenced as a Roslyn analyzer.
+</td>
+</tr>
+<tr>
+<td>
+28 </td><td> <a href="https://github.com/JoshDiDuca/CodeSourceGenerator" target="_blank">JoshDiDuca/CodeSourceGenerator </a> </td><td> Generates code from templates using the new roslyn source generat
+or.
+</td>
+</tr>
+<tr>
+<td>
+29 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+30 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+31 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+32 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+33 </td><td> <a href="https://github.com/wieslawsoltes/Svg.Skia" target="_blank">wieslawsoltes/Svg.Skia </a> </td><td> An SVG rendering library.
+</td>
+</tr>
+<tr>
+<td>
+34 </td><td> <a href="https://github.com/marlond18/EMDD.KtEquatable" target="_blank">marlond18/EMDD.KtEquatable </a> </td><td> C# 9.0 Source Generator for IEnumerable of T
+</td>
+</tr>
+<tr>
+<td>
+35 </td><td> <a href="https://github.com/petarpetrovt/fast-enum-string" target="_blank">petarpetrovt/fast-enum-string </a> </td><td> A source generator for generating a faster extension method for con
+verting an enumeration value to string.
+</td>
+</tr>
+<tr>
+<td>
+36 </td><td> <a href="https://github.com/andrewlock/StronglyTypedId" target="_blank">andrewlock/StronglyTypedId </a> </td><td> A Rosyln-powered generator for strongly-typed IDs
+</td>
+</tr>
+<tr>
+<td>
+37 </td><td> <a href="https://github.com/vrenken/EtAlii.Generators" target="_blank">vrenken/EtAlii.Generators </a> </td><td> A set of Roslyn generators to simplify usage of some of the more mainstream
+ frameworks/libraries.
+</td>
+</tr>
+<tr>
+<td>
+38 </td><td> <a href="https://github.com/ashmind/SourceMock" target="_blank">ashmind/SourceMock </a> </td><td> SourceMock is a C# mocking framework based on source generators
+</td>
+</tr>
+<tr>
+<td>
+39 </td><td> <a href="https://github.com/SergeyTeplyakov/StructRecordsGenerator" target="_blank">SergeyTeplyakov/StructRecordsGenerator </a> </td><td> A set of generators helping dealing with structs 
+in C#
+</td>
+</tr>
+<tr>
+<td>
+40 </td><td> <a href="https://github.com/mehmetakbulut/SignalR.Strong" target="_blank">mehmetakbulut/SignalR.Strong </a> </td><td> Strongly-typed calls from client to server and handlers for calls fro
+m server to client
+</td>
+</tr>
+<tr>
+<td>
+41 </td><td> <a href="https://github.com/canton7/RestEase" target="_blank">canton7/RestEase </a> </td><td> Easy-to-use typesafe REST API client library for .NET Standard 1.1 and .NET Framework 4.5 and
+ higher, which is simple and customisable. Inspired by Refit
+</td>
+</tr>
+<tr>
+<td>
+42 </td><td> <a href="https://github.com/byme8/DuckInterface" target="_blank">byme8/DuckInterface </a> </td><td> Experiments for duck typing support in C#.
+</td>
+</tr>
+<tr>
+<td>
+43 </td><td> <a href="https://github.com/byme8/ZeroIoC" target="_blank">byme8/ZeroIoC </a> </td><td> ZeroIoC is reflectionless IoC Container for .NET
+</td>
+</tr>
+<tr>
+<td>
+44 </td><td> <a href="https://github.com/Cysharp/UnitGenerator" target="_blank">Cysharp/UnitGenerator </a> </td><td> C# Source Generator to create value-object, inspired by units of measure.
+</td>
+</tr>
+<tr>
+<td>
+45 </td><td> <a href="https://github.com/GeeWee/boilerplatefree" target="_blank">GeeWee/boilerplatefree </a> </td><td> Remove boilerplate via C# 9 source generators and attributes. Allows you to auto-
+generate interfaces from a_class_bes, constructors from fields and more
+</td>
+</tr>
+<tr>
+<td>
+46 </td><td> <a href="https://github.com/GeeWee/boilerplatefree" target="_blank">GeeWee/boilerplatefree </a> </td><td> Remove boilerplate via C# 9 source generators and attributes. Allows you to auto-
+generate interfaces from a_class_bes, constructors from fields and more
+</td>
+</tr>
+<tr>
+<td>
+47 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+48 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+49 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+50 </td><td> <a href="https://github.com/MelGrubb/BuilderGenerator" target="_blank">MelGrubb/BuilderGenerator </a> </td><td> A source-generator-based implementation of the Builder pattern
+</td>
+</tr>
+<tr>
+<td>
+51 </td><td> <a href="https://github.com/panoukos41/ViewBindingsGenerator" target="_blank">panoukos41/ViewBindingsGenerator </a> </td><td> A project that generates a partial a_class_b (view) for Activitie
+s/Fragments that will contain properties with the same name as their android:id in the xml view file.
+</td>
+</tr>
+<tr>
+<td>
+52 </td><td> <a href="https://github.com/alekshura/SourceMapper" target="_blank">alekshura/SourceMapper </a> </td><td> Mappings code generator based on attributes
+</td>
+</tr>
+<tr>
+<td>
+53 </td><td> <a href="https://github.com/Burgyn/MMLib.MediatR.Generators" target="_blank">Burgyn/MMLib.MediatR.Generators </a> </td><td> This generator generates controllers and their methods for you 
+based on your MediatR requests.
+</td>
+</tr>
+</table>
+# Final Chapter
+<h3 id="conclusion">Conclusion</h3>
+<p>I am happy that you have read / or practice / the RSCG presented in this
+book. I hope that inspired you to produce yours - and send me to review
+and maybe add to this book .</p>
+<h3 id="one-hour-of-free-consultancy">One hour of free consultancy</h3>
+<p>If you bought this book from Amazon, <a href="https://amzn.to/3f6gll3">https://amzn.to/3f6gll3</a>, you are
+entitled to have 1 hour free of consultancy with me.</p>
+<p>Thanks ! Andrei</p>
+
+</body>
+</html>
