@@ -5,7 +5,7 @@ class MultiGenerator
 {
     string[] generators;
     private readonly string rootPath;
-    private Description[] _AllDescriptions = null;
+    private DescriptionOld[] _AllDescriptions = null;
 
     
     public MultiGenerator(string root)
@@ -13,38 +13,38 @@ class MultiGenerator
         generators = new string[]
         {
             "ThisAssembly",
-            //"Enum",
-            //"JsonToClass",
-            //"CopyConstructor",
-            //"DTOMapper",
-            //"SkinnyControllers",
-            //"DP_Builder",
-            //"MetadataFromObject",
-            //"DynamicMocking",
-            //"MethodDecorator",
-            //"PartiallyFunction",
-            //"IFormattable",
-            //"DP_Decorator",
-            //"PropertyExpressionGenerator",
-            //"TemplateRender",
-            //"CI_Version",
-            //"HttpClientCodeGenerator",
-            //"QueryGenerator",
-            //"AutoRegister",
-            //"StaticToInterface",
-            //"TinyTypes",
-            //"appSettingsEditor",
-            //"ApparatusAOT",
-            //"TimeBombComment",
-            //"DebuggerToString",
-            //"AOPMarkerCI",
-            //"Class2Interface"
+            "Enum",
+            "JsonToClass",
+            "CopyConstructor",
+            "DTOMapper",
+            "SkinnyControllers",
+            "DP_Builder",
+            "MetadataFromObject",
+            "DynamicMocking",
+            "MethodDecorator",
+            "PartiallyFunction",
+            "IFormattable",
+            "DP_Decorator",
+            "PropertyExpressionGenerator",
+            "TemplateRender",
+            "CI_Version",
+            "HttpClientCodeGenerator",
+            "QueryGenerator",
+            "AutoRegister",
+            "StaticToInterface",
+            "TinyTypes",
+            "appSettingsEditor",
+            "ApparatusAOT",
+            "TimeBombComment",
+            "DebuggerToString",
+            "AOPMarkerCI",
+            "Class2Interface"
         };
         this.rootPath = root;
     }
 
 
-    private async Task<Description[]> AllDescriptions()
+    public async Task<DescriptionOld[]> AllDescriptions()
     {
         if (_AllDescriptions != null)
             return _AllDescriptions;
@@ -78,7 +78,7 @@ class MultiGenerator
 
     }
 
-    private async Task GenerateEmail(Description desc)
+    private async Task GenerateEmail(DescriptionOld desc)
     {
         
         var templatePost = await File.ReadAllTextAsync("email.txt");
@@ -136,7 +136,7 @@ class MultiGenerator
 
 
     }
-    private async Task GenerateFiles(string folder, Data d)
+    private async Task GenerateFiles(string folder, DataOld d)
     {
         if (!Directory.Exists(folder))
             Directory.CreateDirectory(folder);
@@ -164,11 +164,13 @@ class MultiGenerator
 
     }
 
-    private async Task<Description> Generate(string rootFolder)
+    private async Task<DescriptionOld> Generate(string rootFolder)
     {
         var folder = Path.Combine(rootPath, rootFolder);
+        if (!Directory.Exists(folder))
+            return null;
         var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
-        var desc = JsonSerializer.Deserialize<Description>(text);
+        var desc = JsonSerializer.Deserialize<DescriptionOld>(text);
         desc.rootFolder = rootFolder;
         var auth = Path.Combine(folder, "author.md");
         if (File.Exists(auth))
@@ -178,7 +180,7 @@ class MultiGenerator
         }
         return desc;
     }
-    private async Task GenerateReadMe(Description desc,int nr )
+    private async Task GenerateReadMe(DescriptionOld desc,int nr )
     {
         desc.Nr = nr;
         var templatePost = await File.ReadAllTextAsync("readme.txt");
@@ -188,7 +190,7 @@ class MultiGenerator
         await File.WriteAllTextAsync(readMe, output);
 
     }
-    private async Task GeneratePost(Description desc)
+    private async Task GeneratePost(DescriptionOld desc)
     {
         var templatePost = await File.ReadAllTextAsync("post.txt");
         var templateScriban = Scriban.Template.Parse(templatePost);
