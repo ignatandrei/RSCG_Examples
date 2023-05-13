@@ -132,7 +132,26 @@ public class MultiGeneratorV2
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
         await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it, pathDocusaurus)));
+        if(!await WroteIndexListOfRSCG(this.rootPath))
+        {
+            Console.WriteLine(" please make true to all to write index");
+        }
     }
+
+    private async Task<bool> WroteIndexListOfRSCG(string rootPath)
+    {
+        if (generators.Any(it => !it.Value))
+            return false;
+        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        var pathIndex = Path.Combine(pathDocusaurus,"docs", "indexRSCG.md");
+        var template = await File.ReadAllTextAsync("RSCGList.txt");
+        var templateScriban = Scriban.Template.Parse(template);
+        var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions }, member => member.Name);
+        await File.WriteAllTextAsync(pathIndex, output);
+        
+        return true;
+    }
+
     internal async Task WrotePost()
     {
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");

@@ -16,8 +16,12 @@
     <None Remove="newPost.txt" />
     <None Remove="post.txt" />
     <None Remove="readme.txt" />
+    <None Remove="RSCGList.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="RSCGList.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="DocusaurusExample.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -51,5 +55,6 @@
     <Watch Remove="frontReadme.txt" />
     <Watch Remove="newPost.txt" />
     <Watch Remove="readme.txt" />
+    <Watch Remove="RSCGList.txt" />
   </ItemGroup>
 </Project>
