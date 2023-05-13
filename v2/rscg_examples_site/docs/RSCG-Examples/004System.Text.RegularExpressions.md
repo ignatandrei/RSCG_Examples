@@ -321,8 +321,11 @@ namespace System.Text.RegularExpressions.Generated
 ## Usefull
 
 ### Download Example
+:::tip
 
 [Download Example System.Text.RegularExpressions ](/sources/System.Text.RegularExpressions.zip)
+
+:::
 
 ### Download PDF
 

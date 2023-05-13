@@ -489,8 +489,11 @@ partial class ThisAssembly
 ## Usefull
 
 ### Download Example
+:::tip
 
 [Download Example ThisAssembly ](/sources/ThisAssembly.zip)
+
+:::
 
 ### Download PDF
 

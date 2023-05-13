@@ -129,8 +129,11 @@ namespace Console_TimeBombComment {
 ## Usefull
 
 ### Download Example
+:::tip
 
 [Download Example RSCG_TimeBombComment ](/sources/RSCG_TimeBombComment.zip)
+
+:::
 
 ### Download PDF
 

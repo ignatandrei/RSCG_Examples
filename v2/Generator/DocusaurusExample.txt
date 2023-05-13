@@ -99,8 +99,11 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 ## Usefull
 
 ### Download Example
+:::tip
 
 [Download Example {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
+
+:::
 
 ### Download PDF
 

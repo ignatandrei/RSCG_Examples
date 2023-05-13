@@ -268,8 +268,11 @@ Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
 ## Usefull
 
 ### Download Example
+:::tip
 
 [Download Example Microsoft.Extensions.Logging ](/sources/Microsoft.Extensions.Logging.zip)
+
+:::
 
 ### Download PDF
 

@@ -943,8 +943,11 @@ namespace System.Text.RegularExpressions.Generated
 ## Usefull
 
 ### Download Example
+:::tip
 
 [Download Example System.Text.Json ](/sources/System.Text.Json.zip)
+
+:::
 
 ### Download PDF
 
