@@ -72,6 +72,8 @@ How to debug a RSCG: https://github.com/JoanComasFdz/dotnet-how-to-debug-source-
 
 CheatSheet for RSCG: https://notanaverageman.github.io/2020/12/07/cs-source-generators-cheatsheet.html
 
+Pawel Gerr on RSCG: https://www.thinktecture.com/en/net/roslyn-source-generators-introduction/
+
 
 
 
