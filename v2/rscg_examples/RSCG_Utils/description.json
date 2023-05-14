@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"RSCG_Utils",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_Utils"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_Utils"
+   },
+   "data":{
+      "goodFor":["Add files as C# consts"],
+      "csprojDemo":"DemoRSCG_Utils.csproj",
+      "csFiles":["Program.cs","data.gen.txt"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 40
+sidebar_position: 50
 title: RSCG - System.Text.RegularExpressions
 description: Regex compiled
 slug: /System.Text.RegularExpressions

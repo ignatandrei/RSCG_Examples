@@ -21,6 +21,7 @@ public class MultiGeneratorV2
             { "ThisAssembly",true },
             {"RSCG_TimeBombComment",true},
             {"System.Text.Json",true },
+            {"RSCG_Utils",true },
             {"System.Text.RegularExpressions",true },
             {"Microsoft.Extensions.Logging",true },
             {"CommunityToolkit.Mvvm",true }

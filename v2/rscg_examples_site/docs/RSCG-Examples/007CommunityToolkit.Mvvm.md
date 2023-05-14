@@ -1,5 +1,5 @@
 ---
-sidebar_position: 60
+sidebar_position: 70
 title: RSCG - CommunityToolkit.Mvvm
 description: Shows how to implement INotifyPropertyChanged,ObservableProperty and RelayCommand
 slug: /CommunityToolkit.Mvvm
