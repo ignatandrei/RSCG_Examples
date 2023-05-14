@@ -23,6 +23,7 @@ public class MultiGeneratorV2
             {"System.Text.Json",true },
             {"RSCG_Utils",true },
             {"System.Text.RegularExpressions",true },
+            {"SkinnyControllersCommon",true },
             {"Microsoft.Extensions.Logging",true },
             {"CommunityToolkit.Mvvm",true }
             //{ "PartiallyApplied",true},
@@ -258,7 +259,7 @@ public class MultiGeneratorV2
         var output = templateScriban.Render(new {Description=it}, member => member.Name);
 
         string folderToWrite = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples");
-        string file = it.Nr.ToString("00#") + it.Generator.Name+ ".md";
+        string file = it.Generator.Name+ ".md";
         file=Path.Combine(folderToWrite,file);
         await File.WriteAllTextAsync(file, output);
         //Console.WriteLine(output);

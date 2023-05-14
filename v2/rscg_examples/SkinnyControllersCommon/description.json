@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"SkinnyControllersCommon",
+      "nuget":[
+         "https://www.nuget.org/packages/SkinnyControllersCommon"
+      ],
+      "link":"https://github.com/ignatandrei/SkinnyControllersGenerator/",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/SkinnyControllersGenerator/"
+   },
+   "data":{
+      "goodFor":["Automatically add controllers actions for any class injected in constructor"],
+      "csprojDemo":"SkinnyControllersDemo.csproj",
+      "csFiles":["Program.cs","WeatherForecastController.cs","WeatherActions.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
