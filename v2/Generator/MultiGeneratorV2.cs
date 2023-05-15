@@ -268,4 +268,16 @@ public class MultiGeneratorV2
         await Task.Delay(100);
         return true;
     }
+
+    internal async Task WriteFrontReadMe(DescriptionOld[] oldDesc)
+    {
+        oldDesc = oldDesc.Where(ut => ut != null).ToArray();
+        var readMe = Path.Combine(rootPath, "..", "README.md");
+        var template = await File.ReadAllTextAsync("frontReadmeNew.txt");
+        var templateScriban = Scriban.Template.Parse(template);
+        var output = templateScriban.Render(new {oldDesc, nr = _AllDescriptions.Length, all = _AllDescriptions }, member => member.Name);
+        await File.WriteAllTextAsync(readMe, output);
+    }
+
+    
 }     

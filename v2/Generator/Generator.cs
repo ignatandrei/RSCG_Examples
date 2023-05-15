@@ -8,6 +8,24 @@ public class CSharp
 
 public class Generator
 {
+    [JsonIgnore]
+    public string NameForBookmark
+    {
+        get
+        {
+            var bookmark = Name.ToLower();
+            bookmark = bookmark.Replace(" + ", "--");
+            bookmark = bookmark.Replace(" ", "-");
+            return bookmark;
+        }
+    }
+    public string NugetFirst
+    {
+        get
+        {
+            return Nuget[0];
+        }
+    }
     [JsonPropertyName("name")]
     public string Name { get; set; }
 

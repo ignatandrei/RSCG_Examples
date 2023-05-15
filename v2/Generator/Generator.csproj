@@ -13,12 +13,16 @@
     <None Remove="DocusaurusExample.txt" />
     <None Remove="email.txt" />
     <None Remove="frontReadme.txt" />
+    <None Remove="frontReadmeNew.txt" />
     <None Remove="newPost.txt" />
     <None Remove="post.txt" />
     <None Remove="readme.txt" />
     <None Remove="RSCGList.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="frontReadmeNew.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="RSCGList.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -53,6 +57,7 @@
     <Watch Remove="DocusaurusExample.txt" />
     <Watch Remove="email.txt" />
     <Watch Remove="frontReadme.txt" />
+    <Watch Remove="frontReadmeNew.txt" />
     <Watch Remove="newPost.txt" />
     <Watch Remove="readme.txt" />
     <Watch Remove="RSCGList.txt" />

@@ -1,14 +1,18 @@
 ﻿try
 {
-    //var m1 = new MultiGenerator(@"C:\test\RSCG_Examples\v1");
-    //var a = await m1.AllDescriptions();
-
+    var old = new MultiGenerator(@"C:\test\RSCG_Examples\v1");
+    var oldDesc = await old.AllDescriptions();
+    oldDesc = oldDesc.Select((desc, i) =>
+    {
+        if(desc != null) desc.Nr = i;
+        return desc;
+    }).ToArray();
     //var text = a
     //    .Select((desc, i) =>
     //    { 
     //        if(desc==null)
     //            return string.Empty;
-            
+
     //        var bookmark = desc.Generator.Name.ToLower();
     //        bookmark = bookmark.Replace(" + ", "--");
     //        bookmark = bookmark.Replace(" ", "-");
@@ -25,7 +29,8 @@
     await m.GatherData();
     
     await m.WroteDocusaurus();
-    await m.WrotePost(); 
+    //await m.WrotePost();
+    await m.WriteFrontReadMe(oldDesc);
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");
     Console.WriteLine("y/n");
