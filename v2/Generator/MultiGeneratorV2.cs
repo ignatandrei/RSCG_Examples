@@ -25,7 +25,8 @@ public class MultiGeneratorV2
             {"System.Text.RegularExpressions",true },
             {"SkinnyControllersCommon",true },
             {"Microsoft.Extensions.Logging",true },
-            {"CommunityToolkit.Mvvm",true }
+            {"CommunityToolkit.Mvvm",true },
+            {"AutoDeconstruct",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             

@@ -1,0 +1,22 @@
+{
+  "generator": {
+   "name": "AutoDeconstruct",
+   "nuget": ["https://www.nuget.org/packages/AutoDeconstruct"],
+   "link": "https://github.com/JasonBock/AutoDeconstruct/blob/main/docs/Overview.md",  
+   "author":"Jason Bock"   ,
+   "source":"https://github.com/jasonbock/autodeconstruct"
+  },
+  "data":{
+	"goodFor":[
+	"Automatically add deconstruct for all types in an assembly"
+	],
+	"csprojDemo":"AutoDeconstructDemo.csproj",
+	"csFiles":["Program.cs","Person.cs"]
+  },
+  "links":{
+	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
+	"video":"",
+	"example":"https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"
+  }
+  
+}

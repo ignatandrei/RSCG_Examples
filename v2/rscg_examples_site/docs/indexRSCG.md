@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 8 RSCG with examples .
+This is the list of 9 RSCG with examples .
 
 
 | No        | Name  | 
@@ -18,5 +18,6 @@ This is the list of 8 RSCG with examples .
 |6|[SkinnyControllersCommon](/docs/SkinnyControllersCommon)|
 |7|[Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)|
 |8|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|
+|9|[AutoDeconstruct](/docs/AutoDeconstruct)|
 
 You can see also the [v1](/docs/v1) 

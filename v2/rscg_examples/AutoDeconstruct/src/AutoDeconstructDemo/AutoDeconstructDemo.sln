@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeconstructDemo", "AutoDeconstructDemo\AutoDeconstructDemo.csproj", "{40FEB2D6-5C85-4C22-BD26-EB3EF71F52F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FEB2D6-5C85-4C22-BD26-EB3EF71F52F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FEB2D6-5C85-4C22-BD26-EB3EF71F52F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FEB2D6-5C85-4C22-BD26-EB3EF71F52F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FEB2D6-5C85-4C22-BD26-EB3EF71F52F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {666B6EE4-73D8-4A2C-80E6-B2ACA4BB3B79}
+	EndGlobalSection
+EndGlobal
