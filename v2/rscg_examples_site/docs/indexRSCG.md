@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 10 RSCG with examples .
+This is the list of 11 RSCG with examples .
 
 
 | No        | Name  | 
@@ -20,6 +20,7 @@ This is the list of 10 RSCG with examples .
 |8|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|
 |9|[AutoDeconstruct](/docs/AutoDeconstruct)|
 |10|[System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)|
+|11|[QuickConstructor](/docs/QuickConstructor)|
 
 You can see also the [v1](/docs/v1) 
 

@@ -1,0 +1,23 @@
+{
+  "generator": {
+   "name": "QuickConstructor",
+   "nuget": ["https://www.nuget.org/packages/QuickConstructor"],
+   "link": "https://github.com/flavien/QuickConstructor",  
+   "author":"Flavien Charlon",   
+   "source":"https://github.com/flavien/QuickConstructor"
+  },
+  "data":{
+	"goodFor":[
+	"Fast add constructors that are read only FIELDS",
+	"Has multiple other features"
+	],
+	"csprojDemo":"QuickConstructorDemo.csproj",
+	"csFiles":["Program.cs","Person.cs"]
+  },
+  "links":{
+	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",
+	"video":"",
+	"example":"https://github.com/ignatandrei/RSCG_Examples/tree/main/ApplicationVersion"
+  }
+  
+}
