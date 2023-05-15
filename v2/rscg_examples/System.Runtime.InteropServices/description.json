@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"System.Runtime.InteropServices",
+      "nuget":[
+         "https://www.nuget.org/packages/System.Runtime.InteropServices/"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/standard/native-interop/pinvoke-source-generation",
+      "author":"Microsoft",
+      "source":"https://www.nuget.org/packages/System.Runtime.InteropServices/"
+   },
+   "data":{
+      "goodFor":["Generate PInvoke calls"],
+      "csprojDemo":"LibraryImportDemo.csproj",
+      "csFiles":["Program.cs","DemoMsgBox.cs","globals.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

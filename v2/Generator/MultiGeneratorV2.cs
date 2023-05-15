@@ -26,7 +26,8 @@ public class MultiGeneratorV2
             {"SkinnyControllersCommon",true },
             {"Microsoft.Extensions.Logging",true },
             {"CommunityToolkit.Mvvm",true },
-            {"AutoDeconstruct",true }
+            {"AutoDeconstruct",true },
+            {"System.Runtime.InteropServices",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             
