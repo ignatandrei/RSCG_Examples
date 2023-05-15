@@ -27,7 +27,8 @@ public class MultiGeneratorV2
             {"Microsoft.Extensions.Logging",true },
             {"CommunityToolkit.Mvvm",true },
             {"AutoDeconstruct",true },
-            {"System.Runtime.InteropServices",true }
+            {"System.Runtime.InteropServices",true },
+            {"QuickConstructor",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             
@@ -59,7 +60,13 @@ public class MultiGeneratorV2
         await CleanProject(sources);
         var zipFile = Path.Combine(rootFolder , "static", "sources", desc.Generator.Name + ".zip");
         //Console.WriteLine(zipFile);
-        if (File.Exists(zipFile)) File.Delete(zipFile);
+        if (File.Exists(zipFile))
+        {
+            if(new FileInfo(zipFile).Length <3)
+                File.Delete(zipFile);
+            else
+                return false;
+        }
         ZipFile.CreateFromDirectory(sources, zipFile, CompressionLevel.SmallestSize, false);
         return true;
     }
@@ -220,7 +227,13 @@ public class MultiGeneratorV2
         string folderToWrite = Path.Combine(pathDocusaurus, "static", "pdfs");
         string file =  it.Generator.Name + ".pdf";
         file = Path.Combine(folderToWrite, file);
-
+        if (File.Exists(file))
+        {
+            if (new FileInfo(file).Length < 3)
+                File.Delete(file);
+            else
+                return false;
+        }
         var psi = new ProcessStartInfo();
         psi.WorkingDirectory = @"C:\Program Files (x86)\Prince\engine\bin";
         //psi.FileName = "cmd.exe";

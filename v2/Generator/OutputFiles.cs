@@ -18,9 +18,10 @@ public class OutputFiles
         foreach (var file in csFiles)
         {
             var fileFound = Directory.GetFiles(dir, file, SearchOption.AllDirectories);
+            fileFound = fileFound.Where(it => !it.Contains("GeneratedX")).ToArray();
             if(fileFound.Length != 1)
             {
-                throw new Exception($"multiple files {file} in {dir}");
+                throw new Exception($"must have 1, but {fileFound.Length}  files {file} in {dir}");
             }
             string nameFile = Path.GetFileName(fileFound[0]);
             FileWithContent f = new (nameFile,nameFile, await File.ReadAllTextAsync(fileFound[0]));

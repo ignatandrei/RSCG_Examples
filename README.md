@@ -1,10 +1,10 @@
-# RSCG - 10 Examples of Roslyn Source Code Generators 
+# RSCG - 11 Examples of Roslyn Source Code Generators 
 
 If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 10 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 11 Roslyn Source Code Generators that I have tested you can see and download example:
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -19,6 +19,7 @@ This are the 10 Roslyn Source Code Generators that I have tested you can see and
 |8|[CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm | [https://www.nuget.org/packages/CommunityToolkit.Mvvm]({desc.Generator.Nuget.First()}) | Microsoft|
 |9|[AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct | [https://www.nuget.org/packages/AutoDeconstruct]({desc.Generator.Nuget.First()}) | Jason Bock|
 |10|[System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices | [https://www.nuget.org/packages/System.Runtime.InteropServices/]({desc.Generator.Nuget.First()}) | Microsoft|
+|11|[QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor | [https://www.nuget.org/packages/QuickConstructor]({desc.Generator.Nuget.First()}) | Flavien Charlon|
 
 
 ## Old examples made with ISourceGenerator 
