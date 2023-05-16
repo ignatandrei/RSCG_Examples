@@ -28,7 +28,8 @@ public class MultiGeneratorV2
             {"CommunityToolkit.Mvvm",true },
             {"AutoDeconstruct",true },
             {"System.Runtime.InteropServices",true },
-            {"QuickConstructor",true }
+            {"QuickConstructor",true },
+            {"AutoCtor",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             

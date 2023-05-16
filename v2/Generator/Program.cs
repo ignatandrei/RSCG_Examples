@@ -1,6 +1,44 @@
 ﻿try
 {
-    var old = new MultiGenerator(@"C:\test\RSCG_Examples\v1");
+    string originalFolder = @"C:\test\RSCG_Examples";
+    Console.WriteLine("New generator?(press enter for none)");
+    var newGen = Console.ReadLine();
+    if (!string.IsNullOrWhiteSpace(newGen))
+    {
+
+        var f = Path.Combine(originalFolder, "v2");
+        var staticWeb= Path.Combine(f, "rscg_examples_site", "static");
+        await File.WriteAllTextAsync(Path.Combine(staticWeb, "pdfs", $"{newGen}.pdf"), "");
+        await File.WriteAllTextAsync(Path.Combine(staticWeb, "sources", $"{newGen}.zip"), "");
+        var examples = Path.Combine(f, "rscg_examples", newGen);
+        Directory.CreateDirectory(examples);
+        Directory.CreateDirectory(Path.Combine(examples,"src"));
+        await File.WriteAllTextAsync(Path.Combine(examples,"description.json"), 
+$$"""
+{
+   "generator":{
+      "name":"{{newGen}}",
+      "nuget":[
+         "https://www.nuget.org/packages/{{newGen}}/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":".csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
+""");
+        return;
+    }
+    var old = new MultiGenerator(Path.Combine(originalFolder,"v1"));
     var oldDesc = await old.AllDescriptions();
     oldDesc = oldDesc.Select((desc, i) =>
     {
@@ -24,7 +62,7 @@
     //if (a.Length>0)
     //    return;
 
-    string folder = @"C:\test\RSCG_Examples\v2";
+    string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
     
