@@ -32,8 +32,8 @@ public class MultiGeneratorV2
             {"AutoCtor",true },
             { "dunet",true },
             {"Vogen",true },
-            {"RazorBlade",true }
-            //{ "PartiallyApplied",true},
+            {"RazorBlade",true },
+            { "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             
         };

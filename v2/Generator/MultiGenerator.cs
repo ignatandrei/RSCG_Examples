@@ -21,7 +21,7 @@ class MultiGenerator
             "MetadataFromObject",
             "DynamicMocking",
             "MethodDecorator",
-            "PartiallyFunction",
+            //"PartiallyFunction",
             "IFormattable",
             "DP_Decorator",
             "PropertyExpressionGenerator",

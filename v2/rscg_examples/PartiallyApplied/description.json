@@ -1,19 +1,20 @@
 {
-  "generator": {
-   "name": "PartiallyApplied",
-   "nuget": ["https://www.nuget.org/packages/PartiallyApplied/"],
-   "link": "https://github.com/JasonBock/PartiallyApplied",  
-   "author":"Jason Bock",
-   "source":"https://github.com/JasonBock/PartiallyApplied"   
-  },
-  "data":{
-       "goodFor":["This will generate curry for your functions "],       
-       "csprojDemo":"PartFunc.csproj",
-	"csFiles":["Program.cs", "Accounting.cs"]
-  },
-  "links":{
-       "blog":"",
-       "video":""
-  }
-  
+   "generator":{
+      "name":"PartiallyApplied",
+      "nuget":[
+         "https://www.nuget.org/packages/PartiallyApplied/"
+      ],
+      "link":"https://github.com/JasonBock/PartiallyApplied/blob/main/docs/Quickstart.md",
+      "author":"Jason Bock",
+      "source":"https://github.com/JasonBock/PartiallyApplied"
+   },
+   "data":{
+      "goodFor":["If you need to curry functions, you can use this package"],
+      "csprojDemo":"PartFunc.csproj",
+      "csFiles":["Program.cs","Accounting.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
 }

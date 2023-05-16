@@ -6,7 +6,7 @@ title: About
 ## Content 
 
 You will find here code examples 
-of 15 Roslyn Source Code Generator (RSCG)
+of 16 Roslyn Source Code Generator (RSCG)
 that can be useful for you. That means, you will write more elegant and concise code - even if the generators code is not always nice to look.
 
 ## Are those examples ready for production?
