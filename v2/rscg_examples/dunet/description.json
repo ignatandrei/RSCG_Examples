@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"dunet",
+      "nuget":[
+         "https://www.nuget.org/packages/dunet/"
+      ],
+      "link":"https://github.com/domn1995/dunet",
+      "author":"Domn Werner",
+      "source":"https://github.com/domn1995/dunet"
+   },
+   "data":{
+      "goodFor":["Add union types to C#  - similar with F#/TS discriminated unions",
+   "Check his examples-  awesome"],
+      "csprojDemo":"duneDemo.csproj",
+      "csFiles":["Program.cs","Recognize.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
