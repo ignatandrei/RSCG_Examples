@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"Vogen",
+      "nuget":[
+         "https://www.nuget.org/packages/Vogen/"
+      ],
+      "link":"https://dunnhq.com/posts/2021/primitive-obsession/",
+      "author":"Steve Dunn",
+      "source":"https://github.com/SteveDunn/Vogen"
+   },
+   "data":{
+      "goodFor":["Transform values( e.g. int) into classes",
+	  "If you know what are ValueObject,that is one solution" ],
+      "csprojDemo":"VogenDemo.csproj",
+      "csFiles":["Program.cs","PersonId.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

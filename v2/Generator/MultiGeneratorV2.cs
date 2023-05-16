@@ -30,7 +30,8 @@ public class MultiGeneratorV2
             {"System.Runtime.InteropServices",true },
             {"QuickConstructor",true },
             {"AutoCtor",true },
-            { "dunet",true }
+            { "dunet",true },
+            {"Vogen",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             
