@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"AutoCtor",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoCtor/"
+      ],
+      "link":"",
+      "author":"Cameron MacFarland",
+      "source":"https://github.com/distantcam/AutoCtor"
+   },
+   "data":{
+      "goodFor":["Generate constructor from non-initialized fields"],
+      "csprojDemo":"AutoCtorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
