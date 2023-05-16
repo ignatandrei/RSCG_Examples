@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"RazorBlade",
+      "nuget":[
+         "https://www.nuget.org/packages/RazorBlade/"
+      ],
+      "link":"https://github.com/ltrzesniewski/RazorBlade",
+      "author":"Lucas Trzesniewski",
+      "source":"https://github.com/ltrzesniewski/RazorBlade"
+   },
+   "data":{
+      "goodFor":["Fast templating with Razor syntax",
+   "Do not forget to put into AdditionalFiles section of csproj file"],
+      "csprojDemo":"RazorBladeDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDisplay.cshtml"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
