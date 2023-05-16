@@ -29,7 +29,8 @@ public class MultiGeneratorV2
             {"AutoDeconstruct",true },
             {"System.Runtime.InteropServices",true },
             {"QuickConstructor",true },
-            {"AutoCtor",true }
+            {"AutoCtor",true },
+            { "dunet",true }
             //{ "PartiallyApplied",true},
             //{"Apparatus.AOT.Reflection",true }
             

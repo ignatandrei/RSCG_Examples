@@ -1,10 +1,10 @@
-# RSCG - 12 Examples of Roslyn Source Code Generators 
+# RSCG - 13 Examples of Roslyn Source Code Generators 
 
 If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 12 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 13 Roslyn Source Code Generators that I have tested you can see and download example:
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -21,6 +21,7 @@ This are the 12 Roslyn Source Code Generators that I have tested you can see and
 |10|[System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices | [https://www.nuget.org/packages/System.Runtime.InteropServices/]({desc.Generator.Nuget.First()}) | Microsoft|
 |11|[QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor | [https://www.nuget.org/packages/QuickConstructor]({desc.Generator.Nuget.First()}) | Flavien Charlon|
 |12|[AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor | [https://www.nuget.org/packages/AutoCtor/]({desc.Generator.Nuget.First()}) | Cameron MacFarland|
+|13|[dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet | [https://www.nuget.org/packages/dunet/]({desc.Generator.Nuget.First()}) | Domn Werner|
 
 
 ## Old examples made with ISourceGenerator 
@@ -35,26 +36,24 @@ This is the list
 |2| [JsonByExampleGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-3--jsonbyexamplegenerator) |"
 |3| [CopyConstructor + Deconstructor]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-4--copyconstructor--deconstructor) |"
 |4| [GeneratedMapper]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-5--generatedmapper) |"
-|5| [Skinny Controllers]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-6--skinny-controllers) |"
-|6| [data-builder-generator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-7--data-builder-generator) |"
-|7| [Metadata from object]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-8--metadata-from-object) |"
-|8| [MockSourceGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-9--mocksourcegenerator) |"
-|9| [Method decorator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-10--method-decorator) |"
-|10| [PartiallyApplied]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-11--partiallyapplied) |"
-|11| [IFormattable]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-12--iformattable) |"
-|12| [AutoInterface]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-13--autointerface) |"
-|13| [Property Expression Generator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-14--property-expression-generator) |"
-|14| [Transplator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-15--transplator) |"
-|15| [RSCG_AMS]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-16--rscg_ams) |"
-|16| [HttpClientGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-17--httpclientgenerator) |"
-|17| [DatabaseToWebAPI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-18--databasetowebapi) |"
-|18| [SourceInject]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-19--sourceinject) |"
-|19| [Static To Interface]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-20--static-to-interface) |"
-|20| [BaseTypes]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-21--basetypes) |"
-|21| [AppSettingsEditor]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-22--appsettingseditor) |"
-|22| [ApparatusAOT]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-23--apparatusaot) |"
-|23| [RSCG_TimeBombComment]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-24--rscg_timebombcomment) |"
-|24| [StructRecordsGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-25--structrecordsgenerator) |"
-|25| [AOPMarkerCI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-26--aopmarkerci) |"
-|26| [BoilerplateFree]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-27--boilerplatefree) |"
+|5| [data-builder-generator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-6--data-builder-generator) |"
+|6| [Metadata from object]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-7--metadata-from-object) |"
+|7| [MockSourceGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-8--mocksourcegenerator) |"
+|8| [Method decorator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-9--method-decorator) |"
+|9| [PartiallyApplied]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-10--partiallyapplied) |"
+|10| [IFormattable]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-11--iformattable) |"
+|11| [AutoInterface]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-12--autointerface) |"
+|12| [Property Expression Generator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-13--property-expression-generator) |"
+|13| [Transplator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-14--transplator) |"
+|14| [RSCG_AMS]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-15--rscg_ams) |"
+|15| [HttpClientGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-16--httpclientgenerator) |"
+|16| [DatabaseToWebAPI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-17--databasetowebapi) |"
+|17| [SourceInject]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-18--sourceinject) |"
+|18| [Static To Interface]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-19--static-to-interface) |"
+|19| [BaseTypes]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-20--basetypes) |"
+|20| [AppSettingsEditor]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-21--appsettingseditor) |"
+|21| [ApparatusAOT]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-22--apparatusaot) |"
+|22| [StructRecordsGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-23--structrecordsgenerator) |"
+|23| [AOPMarkerCI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-24--aopmarkerci) |"
+|24| [BoilerplateFree]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-25--boilerplatefree) |"
 
