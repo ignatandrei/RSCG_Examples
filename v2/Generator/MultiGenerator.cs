@@ -17,7 +17,6 @@ class MultiGenerator
             "JsonToClass",
             "CopyConstructor",
             "DTOMapper",
-            "SkinnyControllers",
             "DP_Builder",
             "MetadataFromObject",
             "DynamicMocking",
@@ -35,7 +34,6 @@ class MultiGenerator
             "TinyTypes",
             "appSettingsEditor",
             "ApparatusAOT",
-            "TimeBombComment",
             "DebuggerToString",
             "AOPMarkerCI",
             "Class2Interface"
