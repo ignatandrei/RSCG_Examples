@@ -27,7 +27,7 @@ $$"""
    },
    "data":{
       "goodFor":[""],
-      "csprojDemo":".csproj",
+      "csprojDemo":"{{newGen}}Demo.csproj",
       "csFiles":["Program.cs"]
    },
    "links":{
