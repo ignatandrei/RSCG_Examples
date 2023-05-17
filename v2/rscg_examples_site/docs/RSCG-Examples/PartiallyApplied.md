@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # PartiallyApplied  by Jason Bock
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/PartiallyApplied?label=PartiallyApplied)](https://www.nuget.org/packages/PartiallyApplied/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated)](https://github.com/JasonBock/PartiallyApplied)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/PartiallyApplied?style=social)
@@ -61,7 +61,7 @@ This is the CSharp Project that references **PartiallyApplied**
   </PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -119,7 +119,7 @@ public class Accounting
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

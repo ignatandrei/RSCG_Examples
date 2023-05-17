@@ -1,10 +1,10 @@
-# RSCG - 16 Examples of Roslyn Source Code Generators 
+# RSCG - 17 Examples of Roslyn Source Code Generators 
 
 If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 16 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 17 Roslyn Source Code Generators that I have tested you can see and download example:
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -25,6 +25,7 @@ This are the 16 Roslyn Source Code Generators that I have tested you can see and
 |14|[Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen | [https://www.nuget.org/packages/Vogen/]({desc.Generator.Nuget.First()}) | Steve Dunn|
 |15|[RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade | [https://www.nuget.org/packages/RazorBlade/]({desc.Generator.Nuget.First()}) | Lucas Trzesniewski|
 |16|[PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied | [https://www.nuget.org/packages/PartiallyApplied/]({desc.Generator.Nuget.First()}) | Jason Bock|
+|17|[ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT | [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.Nuget.First()}) | Stanislav Silin|
 
 
 ## Old examples made with ISourceGenerator 

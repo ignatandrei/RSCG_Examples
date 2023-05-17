@@ -18,7 +18,7 @@ public class OutputFiles
         foreach (var file in csFiles)
         {
             var fileFound = Directory.GetFiles(dir, file, SearchOption.AllDirectories);
-            fileFound = fileFound.Where(it => !it.Contains("GeneratedX")).ToArray();
+            fileFound = fileFound.Where(it => !it.Contains("GX")).ToArray();
             if(fileFound.Length != 1)
             {
                 throw new Exception($"must have 1, but {fileFound.Length}  files {file} in {dir}");
@@ -29,7 +29,7 @@ public class OutputFiles
         }
         contentFiles = contents.ToArray();
         
-        var outputGenFolder = Directory.GetDirectories(dir, "GeneratedX", SearchOption.AllDirectories);
+        var outputGenFolder = Directory.GetDirectories(dir, "GX", SearchOption.AllDirectories);
         if (outputGenFolder.Length != 1)
         {
             throw new Exception($"{outputGenFolder.Length} output folders in {dir}");

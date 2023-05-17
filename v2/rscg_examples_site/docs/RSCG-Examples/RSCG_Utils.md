@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # RSCG_Utils  by Ignat Andrei
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Utils?label=RSCG_Utils)](https://www.nuget.org/packages/RSCG_Utils)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Utils?label=updated)](https://github.com/ignatandrei/RSCG_Utils)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social)
@@ -72,7 +72,7 @@ This is the CSharp Project that references **RSCG_Utils**
 
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 
 
@@ -108,7 +108,7 @@ as C# const
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

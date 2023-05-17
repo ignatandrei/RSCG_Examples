@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # QuickConstructor  by Flavien Charlon
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/QuickConstructor?label=QuickConstructor)](https://www.nuget.org/packages/QuickConstructor)
 [![GitHub last commit](https://img.shields.io/github/last-commit/flavien/QuickConstructor?label=updated)](https://github.com/flavien/QuickConstructor)
 ![GitHub Repo stars](https://img.shields.io/github/stars/flavien/QuickConstructor?style=social)
@@ -70,7 +70,7 @@ This is the CSharp Project that references **QuickConstructor**
   </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 </Project>
 
@@ -114,7 +114,7 @@ internal partial class Person
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

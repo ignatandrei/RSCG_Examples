@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # System.Runtime.InteropServices  by Microsoft
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 [![GitHub last commit](https://img.shields.io/www.nuget.org/last-commit/packages/System.Runtime.InteropServices?label=updated)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 ![GitHub Repo stars](https://img.shields.io/www.nuget.org/stars/packages/System.Runtime.InteropServices?style=social)
@@ -63,7 +63,7 @@ This is the CSharp Project that references **System.Runtime.InteropServices**
   </PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	</PropertyGroup>
 </Project>
@@ -120,7 +120,7 @@ global using System.Runtime.InteropServices;
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

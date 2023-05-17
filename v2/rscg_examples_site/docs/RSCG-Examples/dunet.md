@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # dunet  by Domn Werner
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/dunet?label=dunet)](https://www.nuget.org/packages/dunet/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/domn1995/dunet?label=updated)](https://github.com/domn1995/dunet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/domn1995/dunet?style=social)
@@ -73,7 +73,7 @@ This is the CSharp Project that references **dunet**
 	</ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 
 </Project>
@@ -165,7 +165,7 @@ partial record WhatIsTheString
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

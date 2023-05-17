@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # SkinnyControllersCommon  by Ignat Andrei
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/SkinnyControllersCommon?label=SkinnyControllersCommon)](https://www.nuget.org/packages/SkinnyControllersCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/SkinnyControllersGenerator?label=updated)](https://github.com/ignatandrei/SkinnyControllersGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/SkinnyControllersGenerator?style=social)
@@ -67,7 +67,7 @@ This is the CSharp Project that references **SkinnyControllersCommon**
   </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 </Project>
 
@@ -178,7 +178,7 @@ namespace SkinnyControllersDemo.Controllers
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

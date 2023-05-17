@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # {{ Description.Generator.Name }}  by {{Description.Generator.Author}}
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 {{Description.Generator.MarkDownNugetDownloads}}
 {{Description.Generator.MarkdownLastCommit}}
 {{Description.Generator.MarkDownStars}}
@@ -77,7 +77,7 @@ This is the CSharp Project that references **{{ Description.Generator.Name }}**
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

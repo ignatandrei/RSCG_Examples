@@ -5,7 +5,7 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="RSCG_TimeBombComment" Version="2023.5.9.2110" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />

@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # AutoCtor  by Cameron MacFarland
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/AutoCtor?label=AutoCtor)](https://www.nuget.org/packages/AutoCtor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/distantcam/AutoCtor?label=updated)](https://github.com/distantcam/AutoCtor)
 ![GitHub Repo stars](https://img.shields.io/github/stars/distantcam/AutoCtor?style=social)
@@ -63,7 +63,7 @@ This is the CSharp Project that references **AutoCtor**
   </PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="AutoCtor" Version="1.0.0" />
@@ -113,7 +113,7 @@ internal partial class Person
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

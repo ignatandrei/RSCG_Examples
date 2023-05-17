@@ -12,7 +12,7 @@
      "csprojDemo":"ApparatusAOT.csproj",
 	"csFiles":["Program.cs","Person.cs"]
 
-     ]
+     
   },
   "links":{
      "blog":"",

@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # AutoDeconstruct  by Jason Bock
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/AutoDeconstruct?label=AutoDeconstruct)](https://www.nuget.org/packages/AutoDeconstruct)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jasonbock/autodeconstruct?label=updated)](https://github.com/jasonbock/autodeconstruct)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jasonbock/autodeconstruct?style=social)
@@ -67,7 +67,7 @@ This is the CSharp Project that references **AutoDeconstruct**
   </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 </Project>
 
@@ -120,7 +120,7 @@ public class TestPerson
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

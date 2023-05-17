@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # Microsoft.Extensions.Logging  by Microsoft
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Logging?label=Microsoft.Extensions.Logging)](https://www.nuget.org/packages/Microsoft.Extensions.Logging/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -63,7 +63,7 @@ This is the CSharp Project that references **Microsoft.Extensions.Logging**
   </PropertyGroup>
 	<PropertyGroup>
         <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-        <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+        <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
     </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
@@ -156,7 +156,7 @@ public partial class LoggingSample
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

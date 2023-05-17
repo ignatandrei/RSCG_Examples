@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # ThisAssembly  by Daniel Cazzulino
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
@@ -63,7 +63,7 @@ This is the CSharp Project that references **ThisAssembly**
 	</PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 	<PropertyGroup>
 		<Version>2023.5.7.800</Version>
@@ -95,7 +95,7 @@ System.Console.WriteLine(strVersion);
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

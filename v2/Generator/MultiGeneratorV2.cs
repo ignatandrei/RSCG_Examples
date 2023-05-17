@@ -34,8 +34,8 @@ public class MultiGeneratorV2
             {"Vogen",true },
             {"RazorBlade",true },
             { "PartiallyApplied",true},
-            //{"Apparatus.AOT.Reflection",true }
-            
+            {"Apparatus.AOT.Reflection",true }
+
         };
     }
 

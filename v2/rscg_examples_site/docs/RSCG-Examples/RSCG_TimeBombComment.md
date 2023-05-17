@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # RSCG_TimeBombComment  by Andrei Ignat
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_TimeBombComment?label=RSCG_TimeBombComment)](https://www.nuget.org/packages/RSCG_TimeBombComment/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated)](https://github.com/ignatandrei/RSCG_TimeBombComment)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social)
@@ -60,7 +60,7 @@ This is the CSharp Project that references **RSCG_TimeBombComment**
 	</PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="RSCG_TimeBombComment" Version="2023.5.9.2110" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
@@ -102,7 +102,7 @@ internal partial class TestClass
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 

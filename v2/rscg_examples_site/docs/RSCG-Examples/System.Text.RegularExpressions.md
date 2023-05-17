@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # System.Text.RegularExpressions  by Microsoft
 
-
+<!---
 <TOCInline toc={toc} />
-
+-->
 [![Nuget](https://img.shields.io/nuget/dt/System.Text.RegularExpressions?label=System.Text.RegularExpressions)](https://www.nuget.org/packages/System.Text.RegularExpressions/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -63,7 +63,7 @@ This is the CSharp Project that references **System.Text.RegularExpressions**
   </PropertyGroup>
 	<PropertyGroup>
         <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-        <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GeneratedX</CompilerGeneratedFilesOutputPath>
+        <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
     </PropertyGroup>
 
 </Project>
@@ -113,7 +113,7 @@ public partial class DemoRegex
 
 ### Generated Files
 
-Those are taken from $(BaseIntermediateOutputPath)\GeneratedX
+Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
 
