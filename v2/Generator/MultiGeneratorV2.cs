@@ -70,7 +70,7 @@ public class MultiGeneratorV2
         //    else
         //        return false;
         //}
-        return true;
+        //return true;
     }
     private async Task<bool> CreateZipFiles(Description desc, string rootFolder)
     {

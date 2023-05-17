@@ -83,14 +83,28 @@ using Apparatus.AOT.Reflection;
 using ApparatusDemo;
 using System;
 
-var pOldPerson = new Person();
-pOldPerson.FirstName = "Andrei";
+Person p1 = new();
+p1.FirstName = "Andrei1";
+p1.LastName = "Ignat1";
 
-var prop = pOldPerson.GetProperties().Values;
+Person p2 = new ();
+p2.FirstName = "Andrei2";
+p2.LastName = "Ignat2";
+
+var prop =p1.GetProperties().Values;
 foreach (var item in prop)
 {
     Console.WriteLine($"{item.Name} Attr: {item.Attributes.Length} value {item.Name}");
-    if (item.TryGetValue(pOldPerson, out var val))
+    if (item.TryGetValue(p1, out var val))
+    {
+        Console.WriteLine("value : " + val);
+    }
+
+}
+foreach (var item in prop)
+{
+    Console.WriteLine($"{item.Name} Attr: {item.Attributes.Length} value {item.Name}");
+    if (item.TryGetValue(p2, out var val))
     {
         Console.WriteLine("value : " + val);
     }
@@ -108,7 +122,8 @@ foreach (var item in prop)
 using System.ComponentModel.DataAnnotations;
 namespace ApparatusDemo;
 class Person
-{    
+{
+    [Required]
     public string FirstName { get; set; }
     public string LastName { get; set; }
 }
@@ -148,7 +163,7 @@ namespace Apparatus.AOT.Reflection
                         "FirstName", 
                         new global::System.Attribute[] 
                         {
-                            
+                            new global::System.ComponentModel.DataAnnotations.RequiredAttribute(),
                         }, 
                         instance => instance.FirstName, (instance, value) => instance.FirstName = value)
                 },

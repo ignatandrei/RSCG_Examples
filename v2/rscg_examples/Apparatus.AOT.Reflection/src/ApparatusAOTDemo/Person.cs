@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace ApparatusDemo;
 class Person
-{    
+{
+    [Required]
     public string FirstName { get; set; }
     public string LastName { get; set; }
 }
