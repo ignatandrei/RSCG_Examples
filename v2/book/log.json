@@ -1,0 +1,499 @@
+[
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/ThisAssembly/generated/ThisAssembly.AssemblyInfo.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/System.Text.Json/generated/OptionsExampleContext.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/System.Text.Json/generated/OptionsExampleContext.WeatherForecast.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/System.Text.RegularExpressions/csFiles/Program.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/System.Text.RegularExpressions/generated/RegexGenerator.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/Microsoft.Extensions.Logging/generated/LoggerMessage.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/dunet/generated/duneDemo.WhatIsTheString.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/dunet/generated/duneDemo.WhatIsTheStringMatchExtensions.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/Vogen/generated/DemoVogen_PersonId.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/RazorBlade/generated/HtmlTemplate.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/RazorBlade/generated/PlainTextTemplate.g.cs.png"
+    },
+    {
+        "type": "CouldNotFetchResource",
+        "verbosity": "WARNING",
+        "message": "replacing image with description",
+        "path": "images/RazorBlade/generated/RazorTemplate.g.cs.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\03b91f77bacce8c8c62711203ef85c204b2356c2.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\067baa1346ba21f3824770be81db3fb50235008f.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\0d1de36f28053526972307a055d6f2c6fd572685.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\14b76a5b4a9821a4d8491d11494dbc76c7aaa9f0.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\15088e2c91c1f18aa055939eab30b448cd696340.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\18386c686e02c6c61bb90376abdedba56c5e494e.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\1a4a77051f09bd459435d6e6dfeac682bea35068.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\1bf7b7d69b9427ae0009ebd8748c94d73ec64925.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\214cdbc22aa7201443bc642c3a93d3ec22114ad9.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\25531dfb7f2173a1ce5f4a15023b991aeef499b5.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\25d57d796b832f8226ed2f65bcbc11a732285ec5.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\2a22bd6457ec65f7d671f73472f21f01b087d2c3.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\2d10f0e460649b0bcf45e6e1c81f7e354986ebf2.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\2eec2715c05c6a92e754f68ae6589b694e941dad.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\31cf6e76e365620113a0fa9179c56a0b363a0949.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\3793328f37db24fd1db658920f94ad7c8d0be2b5.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\38531039ace732222dbda55f4eb5df6f9a17a6b3.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\38879f8cd0a9c0c68c96c6d51c437eb8ee41d160.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\4264fb5e15fc8a8834696d656c69a0b1808d817c.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\4546a40329d8cb28ba9f68dd03544e2c02cb9ea0.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\485fd81e59357e52a30a2650177dd5a423142411.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\4af61681199acab6ee164125860b72e17ccf2f0a.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\4b24d4a33de3980370db5ae4bff7bfe52c53c716.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\4ea369b9bb841c7b8b3296a7100b7ec58362e13b.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\4ed7535e28b41e4d23cd804aaf9158cc0292e0cc.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\53361a9234ab7f09f9cce4edeaafec470bbed4b5.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\58dcdf60819962319e954f7678ea986e9888f9f2.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\5c52ed5edfe3af636172c1cf758d860c5ade3052.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\634b1eb114a7f41a4af3a0581582bb5aa6109496.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\635339be31178f8b548d5efee84220adaf695c8f.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\65a9c7e6642d9ee16556c89285d288b9cff2d2f3.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\6b0008d708806e28e03f4d9a358e98d48764450d.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\6ea1858bd1c312a1e9034ba9fd3231b9dce59186.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\6eeb7c7533713f86a83cf5bca89cd192df2617a2.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\6f17fc97a5c4474ef275185f95f9cd3357ff53ea.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\7046f55fc94bd9d42ed89f5943fa47bcecc12a8e.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\71e66f04153f1b8f69bbaf05894f5ad9beab928c.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\72e540a3bed06b98eabd301d98a10eaa7b26db09.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\7856809e5dc10726a337e63d546e2f3d3bc79214.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\79d600d8f9ebf79ddc05a5f4d5bbd01a76e4c621.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\7d3a7d5b3de6f7450803981851af3456083d74fd.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\7fa579f0f2fb81dd17ea24bf9f4035022c6aea89.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\7fbcbbd9a152a4cd3e6fc2aaee0244a85fa13652.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\802fbf296d985f5ffd0669e8893fd98151d0673f.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\81bb290f341e49d3903a4988a6c2443308c0197a.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\846a8686ace428419ad916427e8ce435f52e833a.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8626f99d129db2cd385a4ea5ba8e569eaa183167.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8765c53a93a7ba8a4b4d8bcf36eeab60424ea0bc.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8a063ee1088e752578dccf9ce3eafbfa843fa622.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8a46f0c70a4f1df7298959d813eddac18bfe29a6.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8e943994ae031256c5bddb9f42c146596b369c46.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8ea929a72e78271582c5d9eb960c4ebb603ac98e.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8ed30e4d316182aaa905a22367a749f82492d25c.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\8f099925d6170144dd65d44f9d1acaed36460fa9.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\9945db1f7e7fd9ad3acbf8503be835dbecd94317.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\9b23ce4b4048fa8c5d88bfd80ae4a7f1c8492f08.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\9d915e6d769cfc56f1bc5af80cecbf29fe313840.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\a1dea6560812a0833bf833d1466f926943853478.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\aaf69cd022d2fde9d41dc4ce94e5e50ba50590b6.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\abedb346e1eaefbe0e89c429ba32f6138e964300.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\ad2cfd6b3d7356aa07041c9c8f133fb604689a8c.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\b32ee327e35d68f8738481a8cd1fc7646bba8803.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\b5597ec441e9970e09d882d6837dea12eadeb002.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\c5206f6e812994ba2449fce728bf500de1c7103e.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\c7a2cd1585a2bdeee69f5029ef1ecf488161addf.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\cd9027bed375d4bfe9a8d4251955851e9bbc6b72.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\cfa8a5a8c87f6eb5ea10504fb6b62af58004063c.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\d2dd90478826449c1f74bab61cd57257160c3c0c.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\d39cdead087a950acf32f9d4179391e96b764102.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\d4867c310965b7e1574c40ce84c5a40990875a3d.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\d877611f5ef9fbfda4af50f7195a1bbad35d7a6a.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\dc3830f1290801f055018b9eefad42cf5a70d0b9.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\dcc93fda91c8284570d777231242c294e80902cf.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\dde1cc8b2daaf6da4ea5e23cc3df8e9b60af6d06.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\e165d3f7f2e3dd7883165137574bfdb0664b43c5.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\e229f26cdf95782025e06f0bc4afcc82d83bcdd2.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\e42c2f15e25ce9d227ed403f401b94e85f00669a.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\ef73f7d2afa4b7daa07eb17798728e709b56c504.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\f3d32d0d33a2fce15949c1f6188a9bf5e905fd52.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\f6cd9888d99863eecbaf2cd9ada77e95d8c62090.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\f73eb02ec4351125392f0aceb8f261bdc2e503e8.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\faaa70281dce113b7f201a8a3a8bc83394b6f23b.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\fad1a91307b8c2da3a2de1dc6fc741d68025daed.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\fcc4f4696eeacacd3d5ce2ee52d399c7e2e2dc3b.png"
+    },
+    {
+        "type": "Extracting",
+        "verbosity": "INFO",
+        "path": "C:/Users/Surface1/AppData/Local/Temp/tex2pdf.-ad405c4aa5147664\\fdcb563daf4d6163c19b43b5acabe6c2fb751fef.png"
+    }
+]

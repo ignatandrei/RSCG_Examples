@@ -72,7 +72,7 @@ This is the CSharp Project that references **System.Runtime.InteropServices**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **System.Runtime.InteropServices** in *Program.cs*
 
@@ -83,7 +83,7 @@ WriteLine(MessageBoxW_LI(IntPtr.Zero, "asd", "asd", 1));
 ```
   </TabItem>
 
-  <TabItem value="DemoMsgBox.cs" label="DemoMsgBox.cs" >
+  <TabItem value="" label="DemoMsgBox.cs" >
 
   This is the use of **System.Runtime.InteropServices** in *DemoMsgBox.cs*
 
@@ -104,7 +104,7 @@ StringMarshalling = StringMarshalling.Utf16)]
 ```
   </TabItem>
 
-  <TabItem value="globals.cs" label="globals.cs" >
+  <TabItem value="" label="globals.cs" >
 
   This is the use of **System.Runtime.InteropServices** in *globals.cs*
 
@@ -125,7 +125,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="LibraryImports.g.cs001" label="LibraryImports.g.cs" >
+<TabItem value="" label="LibraryImports.g.cs" >
 
 
 ```csharp

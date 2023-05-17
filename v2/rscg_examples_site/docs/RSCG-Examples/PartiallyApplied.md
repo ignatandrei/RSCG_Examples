@@ -74,7 +74,7 @@ This is the CSharp Project that references **PartiallyApplied**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **PartiallyApplied** in *Program.cs*
 
@@ -96,7 +96,7 @@ class Program
 ```
   </TabItem>
 
-  <TabItem value="Accounting.cs" label="Accounting.cs" >
+  <TabItem value="" label="Accounting.cs" >
 
   This is the use of **PartiallyApplied** in *Accounting.cs*
 
@@ -124,7 +124,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="Partially.g.cs001" label="Partially.g.cs" >
+<TabItem value="" label="Partially.g.cs" >
 
 
 ```csharp

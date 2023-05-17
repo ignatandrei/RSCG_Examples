@@ -4,20 +4,27 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
-
+	
   <PropertyGroup>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
-
+	<ItemGroup>
+		<AdditionalFiles Include="pandocHTML.cshtml" />
+		<AdditionalFiles Include="RSCG_List.cshtml" />
+		<AdditionalFiles Include="RSCG_Item.cshtml" />
+	</ItemGroup>
   <ItemGroup>
     <None Remove="DocusaurusExample.txt" />
     <None Remove="email.txt" />
     <None Remove="frontReadme.txt" />
     <None Remove="frontReadmeNew.txt" />
     <None Remove="newPost.txt" />
+    <None Remove="pandocHTML.cshtml" />
     <None Remove="post.txt" />
     <None Remove="readme.txt" />
     <None Remove="RSCGList.txt" />
+    <None Remove="RSCG_Item.cshtml" />
+    <None Remove="RSCG_List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="frontReadmeNew.txt">
@@ -47,6 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="RazorBlade" Version="0.4.3" />
     <PackageReference Include="Scriban" Version="5.7.0" />
   </ItemGroup>
   <ItemGroup>

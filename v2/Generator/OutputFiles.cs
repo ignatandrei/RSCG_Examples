@@ -24,7 +24,7 @@ public class OutputFiles
                 throw new Exception($"must have 1, but {fileFound.Length}  files {file} in {dir}");
             }
             string nameFile = Path.GetFileName(fileFound[0]);
-            FileWithContent f = new (nameFile,nameFile, await File.ReadAllTextAsync(fileFound[0]));
+            FileWithContent f = new(fileFound[0],nameFile, await File.ReadAllTextAsync(fileFound[0]));
             contents.Add(f);
         }
         contentFiles = contents.ToArray();
@@ -42,7 +42,7 @@ public class OutputFiles
         {
             var nameFile = Path.GetFileName(file);
             string id = nameFile + (++nr).ToString("00#");
-            FileWithContent f = new(id, nameFile, await File.ReadAllTextAsync(file));
+            FileWithContent f = new(file, nameFile, await File.ReadAllTextAsync(file));
             contents.Add(f);
 
         }

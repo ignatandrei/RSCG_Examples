@@ -81,7 +81,7 @@ This is the CSharp Project that references **CommunityToolkit.Mvvm**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **CommunityToolkit.Mvvm** in *Program.cs*
 
@@ -97,7 +97,7 @@ var x=myViewModel.SayHelloCommand;
 ```
   </TabItem>
 
-  <TabItem value="MyViewModel.cs" label="MyViewModel.cs" >
+  <TabItem value="" label="MyViewModel.cs" >
 
   This is the use of **CommunityToolkit.Mvvm** in *MyViewModel.cs*
 
@@ -132,7 +132,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="test.MyViewModel.g.cs001" label="test.MyViewModel.g.cs" >
+<TabItem value="" label="test.MyViewModel.g.cs" >
 
 
 ```csharp
@@ -646,7 +646,7 @@ namespace test
   </TabItem>
 
 
-<TabItem value="test.MyViewModel.g.cs002" label="test.MyViewModel.g.cs" >
+<TabItem value="" label="test.MyViewModel.g.cs" >
 
 
 ```csharp
@@ -707,7 +707,7 @@ namespace test
   </TabItem>
 
 
-<TabItem value="__KnownINotifyPropertyChangedArgs.g.cs003" label="__KnownINotifyPropertyChangedArgs.g.cs" >
+<TabItem value="" label="__KnownINotifyPropertyChangedArgs.g.cs" >
 
 
 ```csharp
@@ -738,7 +738,7 @@ namespace CommunityToolkit.Mvvm.ComponentModel.__Internals
   </TabItem>
 
 
-<TabItem value="test.MyViewModel.SayHello.g.cs004" label="test.MyViewModel.SayHello.g.cs" >
+<TabItem value="" label="test.MyViewModel.SayHello.g.cs" >
 
 
 ```csharp

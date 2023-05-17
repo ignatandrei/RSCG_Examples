@@ -74,7 +74,7 @@ This is the CSharp Project that references **AutoCtor**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **AutoCtor** in *Program.cs*
 
@@ -89,7 +89,7 @@ var p = new Person("Andrei", "Ignat");
 ```
   </TabItem>
 
-  <TabItem value="Person.cs" label="Person.cs" >
+  <TabItem value="" label="Person.cs" >
 
   This is the use of **AutoCtor** in *Person.cs*
 
@@ -118,7 +118,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="AutoConstructAttribute.g.cs001" label="AutoConstructAttribute.g.cs" >
+<TabItem value="" label="AutoConstructAttribute.g.cs" >
 
 
 ```csharp
@@ -151,7 +151,7 @@ namespace AutoCtor
   </TabItem>
 
 
-<TabItem value="AutoCtorDemo.Person.g.cs002" label="AutoCtorDemo.Person.g.cs" >
+<TabItem value="" label="AutoCtorDemo.Person.g.cs" >
 
 
 ```csharp

@@ -71,7 +71,7 @@ This is the CSharp Project that references **RSCG_TimeBombComment**
 
 </TabItem>
 
-  <TabItem value="TestClass.cs" label="TestClass.cs" >
+  <TabItem value="" label="TestClass.cs" >
 
   This is the use of **RSCG_TimeBombComment** in *TestClass.cs*
 
@@ -107,7 +107,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="Obsolete_1.cs001" label="Obsolete_1.cs" >
+<TabItem value="" label="Obsolete_1.cs" >
 
 
 ```csharp

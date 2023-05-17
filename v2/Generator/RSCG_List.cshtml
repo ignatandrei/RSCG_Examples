@@ -1,0 +1,46 @@
+@inherits RazorBlade.HtmlTemplate<Description[]>;
+<head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+    <h1>
+This is the list of @Model.Length RSCG with examples .
+    </h1>
+
+<table >
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+    </tr>
+    @foreach(var desc in Model)
+    {
+            var link = $"examples/{desc.Generator.Name}.html";
+            <tr>
+            <td>@desc.Nr</td>
+            <td><a href="@link">@desc.Generator.Name</a></td>
+        </tr>
+    }
+</table>
+
+
+<p>
+    You can see the whole list online at
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+</body>

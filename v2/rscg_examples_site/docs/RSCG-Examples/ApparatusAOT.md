@@ -74,7 +74,7 @@ This is the CSharp Project that references **ApparatusAOT**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **ApparatusAOT** in *Program.cs*
 
@@ -114,7 +114,7 @@ foreach (var item in prop)
 ```
   </TabItem>
 
-  <TabItem value="Person.cs" label="Person.cs" >
+  <TabItem value="" label="Person.cs" >
 
   This is the use of **ApparatusAOT** in *Person.cs*
 
@@ -139,7 +139,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="ApparatusDemo_PersonExtensions.cs001" label="ApparatusDemo_PersonExtensions.cs" >
+<TabItem value="" label="ApparatusDemo_PersonExtensions.cs" >
 
 
 ```csharp

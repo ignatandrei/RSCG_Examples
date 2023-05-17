@@ -72,7 +72,7 @@ This is the CSharp Project that references **System.Text.Json**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **System.Text.Json** in *Program.cs*
 
@@ -118,7 +118,7 @@ Console.WriteLine(jsonString);
 ```
   </TabItem>
 
-  <TabItem value="WeatherForecast.cs" label="WeatherForecast.cs" >
+  <TabItem value="" label="WeatherForecast.cs" >
 
   This is the use of **System.Text.Json** in *WeatherForecast.cs*
 
@@ -135,7 +135,7 @@ public class WeatherForecast
 ```
   </TabItem>
 
-  <TabItem value="OptionsExampleContext.cs" label="OptionsExampleContext.cs" >
+  <TabItem value="" label="OptionsExampleContext.cs" >
 
   This is the use of **System.Text.Json** in *OptionsExampleContext.cs*
 
@@ -161,7 +161,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="OptionsExampleContext.DateTime.g.cs001" label="OptionsExampleContext.DateTime.g.cs" >
+<TabItem value="" label="OptionsExampleContext.DateTime.g.cs" >
 
 
 ```csharp
@@ -215,7 +215,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="OptionsExampleContext.g.cs002" label="OptionsExampleContext.g.cs" >
+<TabItem value="" label="OptionsExampleContext.g.cs" >
 
 
 ```csharp
@@ -298,7 +298,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="OptionsExampleContext.GetJsonTypeInfo.g.cs003" label="OptionsExampleContext.GetJsonTypeInfo.g.cs" >
+<TabItem value="" label="OptionsExampleContext.GetJsonTypeInfo.g.cs" >
 
 
 ```csharp
@@ -373,7 +373,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="OptionsExampleContext.Int32.g.cs004" label="OptionsExampleContext.Int32.g.cs" >
+<TabItem value="" label="OptionsExampleContext.Int32.g.cs" >
 
 
 ```csharp
@@ -427,7 +427,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="OptionsExampleContext.PropertyNames.g.cs005" label="OptionsExampleContext.PropertyNames.g.cs" >
+<TabItem value="" label="OptionsExampleContext.PropertyNames.g.cs" >
 
 
 ```csharp
@@ -455,7 +455,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="OptionsExampleContext.String.g.cs006" label="OptionsExampleContext.String.g.cs" >
+<TabItem value="" label="OptionsExampleContext.String.g.cs" >
 
 
 ```csharp
@@ -509,7 +509,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="OptionsExampleContext.WeatherForecast.g.cs007" label="OptionsExampleContext.WeatherForecast.g.cs" >
+<TabItem value="" label="OptionsExampleContext.WeatherForecast.g.cs" >
 
 
 ```csharp

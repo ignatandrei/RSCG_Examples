@@ -1,0 +1,82 @@
+
+from: html
+# reader: may be used instead of from:
+# to: docx
+# output-file:  index.docx
+# to: gfm
+# output-file:  ../docs/index.md
+# writer: may be used instead of to:
+
+# leave blank for output to stdout:
+
+reference-doc: customWord.docx
+
+# leave blank for input from stdin, use [] for no input:
+input-files:
+- list.html
+- examples/ThisAssembly.html
+- examples/RSCG_TimeBombComment.html
+- examples/System.Text.Json.html
+- examples/RSCG_Utils.html
+- examples/System.Text.RegularExpressions.html
+- examples/SkinnyControllersCommon.html
+- examples/Microsoft.Extensions.Logging.html
+- examples/CommunityToolkit.Mvvm.html
+- examples/AutoDeconstruct.html
+- examples/System.Runtime.InteropServices.html
+- examples/QuickConstructor.html
+- examples/AutoCtor.html
+- examples/dunet.html
+- examples/Vogen.html
+- examples/RazorBlade.html
+- examples/PartiallyApplied.html
+- examples/ApparatusAOT.html
+
+# or you may use input-file: with a single value
+# defaults:
+# - customWord.docx
+
+standalone: true
+self-contained: true
+
+
+# metadata values specified here are parsed as literal
+# string text, not markdown:
+metadata:
+  title: RSCG Examples
+  author:
+  - Andrei Ignat
+
+# Note that these take files, not their contents:
+include-before-body: []
+include-after-body: []
+include-in-header: []
+resource-path: [".","examples","examples/images"]
+
+# ERROR, WARNING, or INFO
+verbosity: INFO
+log-file: log.json
+
+table-of-contents: true
+toc-depth: 3
+# number-sections: true
+# a list of offsets at each heading level
+number-offset: [0,0,0,0,0,0]
+# toc: may also be used instead of table-of-contents:
+shift-heading-level-by: 1
+section-divs: true
+identifier-prefix: foo
+title-prefix: ""
+strip-empty-paragraphs: true
+# lf, crlf, or native
+eol: lf
+strip-comments: false
+indented-code-classes: []
+ascii: true
+default-image-extension: ".jpg"
+
+
+fail-if-warnings: false
+dump-args: false
+ignore-args: false
+trace: false

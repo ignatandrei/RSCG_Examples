@@ -2,4 +2,4 @@
 
 namespace Generator;
 
-public record FileWithContent(string id, string file, string content);
+public record FileWithContent(string fullPathFile, string file, string content);

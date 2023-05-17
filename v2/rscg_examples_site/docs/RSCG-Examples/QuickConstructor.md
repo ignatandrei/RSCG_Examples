@@ -78,7 +78,7 @@ This is the CSharp Project that references **QuickConstructor**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **QuickConstructor** in *Program.cs*
 
@@ -89,7 +89,7 @@ var p = new Person("Andrei", "Ignat");
 ```
   </TabItem>
 
-  <TabItem value="Person.cs" label="Person.cs" >
+  <TabItem value="" label="Person.cs" >
 
   This is the use of **QuickConstructor** in *Person.cs*
 
@@ -119,7 +119,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="Person.cs001" label="Person.cs" >
+<TabItem value="" label="Person.cs" >
 
 
 ```csharp

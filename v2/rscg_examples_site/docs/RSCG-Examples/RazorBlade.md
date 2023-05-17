@@ -80,7 +80,7 @@ This is the CSharp Project that references **RazorBlade**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **RazorBlade** in *Program.cs*
 
@@ -100,7 +100,7 @@ Console.WriteLine(result);
 ```
   </TabItem>
 
-  <TabItem value="Person.cs" label="Person.cs" >
+  <TabItem value="" label="Person.cs" >
 
   This is the use of **RazorBlade** in *Person.cs*
 
@@ -120,7 +120,7 @@ public class Person
 ```
   </TabItem>
 
-  <TabItem value="PersonDisplay.cshtml" label="PersonDisplay.cshtml" >
+  <TabItem value="" label="PersonDisplay.cshtml" >
 
   This is the use of **RazorBlade** in *PersonDisplay.cshtml*
 
@@ -145,7 +145,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="Attributes.g.cs001" label="Attributes.g.cs" >
+<TabItem value="" label="Attributes.g.cs" >
 
 
 ```csharp
@@ -190,7 +190,7 @@ internal sealed class ConditionalOnAsyncAttribute : Attribute
   </TabItem>
 
 
-<TabItem value="HtmlHelper.g.cs002" label="HtmlHelper.g.cs" >
+<TabItem value="" label="HtmlHelper.g.cs" >
 
 
 ```csharp
@@ -277,7 +277,7 @@ internal sealed class HtmlHelper
   </TabItem>
 
 
-<TabItem value="HtmlString.g.cs003" label="HtmlString.g.cs" >
+<TabItem value="" label="HtmlString.g.cs" >
 
 
 ```csharp
@@ -315,7 +315,7 @@ internal sealed class HtmlString : IEncodedContent
   </TabItem>
 
 
-<TabItem value="HtmlTemplate.g.cs004" label="HtmlTemplate.g.cs" >
+<TabItem value="" label="HtmlTemplate.g.cs" >
 
 
 ```csharp
@@ -523,7 +523,7 @@ internal abstract class HtmlTemplate<TModel> : HtmlTemplate
   </TabItem>
 
 
-<TabItem value="IEncodedContent.g.cs005" label="IEncodedContent.g.cs" >
+<TabItem value="" label="IEncodedContent.g.cs" >
 
 
 ```csharp
@@ -552,7 +552,7 @@ internal interface IEncodedContent
   </TabItem>
 
 
-<TabItem value="PlainTextTemplate.g.cs006" label="PlainTextTemplate.g.cs" >
+<TabItem value="" label="PlainTextTemplate.g.cs" >
 
 
 ```csharp
@@ -648,7 +648,7 @@ internal abstract class PlainTextTemplate<TModel> : PlainTextTemplate
   </TabItem>
 
 
-<TabItem value="RazorTemplate.g.cs007" label="RazorTemplate.g.cs" >
+<TabItem value="" label="RazorTemplate.g.cs" >
 
 
 ```csharp
@@ -829,7 +829,7 @@ internal abstract class RazorTemplate : IEncodedContent
   </TabItem>
 
 
-<TabItem value="RazorBladeDemo.PersonDisplay.Razor.g.cs008" label="RazorBladeDemo.PersonDisplay.Razor.g.cs" >
+<TabItem value="" label="RazorBladeDemo.PersonDisplay.Razor.g.cs" >
 
 
 ```csharp
@@ -888,7 +888,7 @@ Write(Model.FullName());
   </TabItem>
 
 
-<TabItem value="RazorBladeDemo.PersonDisplay.RazorBlade.g.cs009" label="RazorBladeDemo.PersonDisplay.RazorBlade.g.cs" >
+<TabItem value="" label="RazorBladeDemo.PersonDisplay.RazorBlade.g.cs" >
 
 
 ```csharp

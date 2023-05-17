@@ -72,7 +72,7 @@ This is the CSharp Project that references **System.Text.RegularExpressions**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **System.Text.RegularExpressions** in *Program.cs*
 
@@ -85,7 +85,7 @@ Console.WriteLine(DemoRegex.EvaluateText(x));
 ```
   </TabItem>
 
-  <TabItem value="WeatherForecast.cs" label="WeatherForecast.cs" >
+  <TabItem value="" label="WeatherForecast.cs" >
 
   This is the use of **System.Text.RegularExpressions** in *WeatherForecast.cs*
 
@@ -118,7 +118,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="RegexGenerator.g.cs001" label="RegexGenerator.g.cs" >
+<TabItem value="" label="RegexGenerator.g.cs" >
 
 
 ```csharp

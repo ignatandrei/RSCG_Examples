@@ -1,4 +1,6 @@
-﻿try
+﻿using System.Runtime.InteropServices;
+
+try
 {
     string originalFolder = @"C:\test\RSCG_Examples";
     Console.WriteLine("New generator?(press enter for none)");
@@ -67,16 +69,18 @@ $$"""
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
     
-    await m.WroteDocusaurus();
+    //await m.WroteDocusaurus();
     //await m.WrotePost();
     await m.WriteFrontReadMe(oldDesc);
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");
     Console.WriteLine("y/n");
-    if (Console.ReadLine() == "y")
+    //if (Console.ReadLine() == "y")
     {
-        await m.CreateZip();
-        await m.WrotePDF();
+        //await m.CreateZip();
+        //await m.CreateImageFiles();
+        await m.CreateHTMLBook();
+        //await m.WrotePDF();
     }
     //var m = new MultiGenerator(folder);
 

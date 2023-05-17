@@ -1,0 +1,58 @@
+@inherits RazorBlade.HtmlTemplate<Description>;
+
+<h1>RSCG nr @Model.Nr :  @Model.Generator.Name</h1>
+
+<h2>Info</h2>
+Nuget : <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.NugetFirst</a>
+
+<p>You can find more details at : <a href="@Model.Generator.Link" target="_blank"> @Model.Generator.Link</a></p>
+
+<p>Author :@Model.Generator.Author</p>
+
+<p>Source : <a href="@Model.Generator.Source" target="_blank">@Model.Generator.Source</a> </p>
+
+<h2>About</h2>
+
+@string.Join("",Model.Data.GoodFor)
+
+<h2>
+    How to use
+</h2>
+@{
+    var nameCsprojPng = $"images/{Model.Generator.Name}/{Model.Data.CSProj}.png";
+}
+<h3>
+    Add reference to the  <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.Name</a> in the csproj
+</h3>
+<img src="@nameCsprojPng" width="580" height="580" />
+
+<h3>This was for me the starting code</h3>
+@foreach (var item in Model.Data.CsFiles)
+{
+    var name = $"images/{Model.Generator.Name}/csFiles/{item}.png";
+   <br />
+    <img src="@name" width="580" height="580" />
+}
+<h3>And here are the generated files</h3>
+@foreach (var oFile in Model.Data.outputFiles.generatedFiles)
+{
+    var name = $"images/{Model.Generator.Name}/generated/{oFile.file}.png";
+    <br />
+    <img src="@name" width="580" height="580" />
+}
+
+<p>
+    You can download the code and this page as pdf from
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/@Model.Generator.Name'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/@Model.Generator.Name
+    </a>
+</p>
+
+
+<p>
+    You can see the whole list at 
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+

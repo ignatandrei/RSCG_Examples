@@ -90,12 +90,12 @@ public class MultiGeneratorV2
         desc.Nr = nr;
         desc.rootFolder = folder;
         string sources = Path.Combine(desc.rootFolder, "src");
-        await CleanProject(sources);
+        //await CleanProject(sources);
         //var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
         ////Console.WriteLine(zipFile);
         //if (File.Exists(zipFile)) File.Delete(zipFile);
         //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
-        await BuildProject(sources);
+        //await BuildProject(sources);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);
         if (csprojItems.Length != 1)
         {
@@ -118,11 +118,12 @@ public class MultiGeneratorV2
         psi.UseShellExecute = true;
         psi.CreateNoWindow = true;
         psi.Arguments = "clean";
+        
         var p = new Process();
         p.StartInfo = psi;
 
         p.Start();
-
+        p.PriorityClass = ProcessPriorityClass.RealTime;
         await p.WaitForExitAsync();
         return p.ExitCode == 0;
     }
@@ -140,7 +141,7 @@ public class MultiGeneratorV2
         p.StartInfo = psi;
 
         p.Start();
-
+        p.PriorityClass = ProcessPriorityClass.RealTime;
         await p.WaitForExitAsync();
         return p.ExitCode == 0;
     }
@@ -149,7 +150,86 @@ public class MultiGeneratorV2
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus)));
     }
+    internal async Task CreateHTMLBook()
+    {
+        var pathBook= Path.Combine(this.rootPath, "book");
+        await Task.WhenAll(_AllDescriptions.Select(it => CreateHTMLBook(it,Path.Combine( pathBook, "examples"))));
+        var list = new RSCG_List(_AllDescriptions);
+        var data = list.Render();
+        await File.WriteAllTextAsync(Path.Combine(pathBook, "list.html"), data);
 
+        var pandocYML = new pandocHTML(_AllDescriptions);
+        var pandoc= pandocYML.Render();
+        await File.WriteAllTextAsync(Path.Combine(pathBook, "pandocHTML.yaml"), pandoc);
+        //pandoc.exe -d pandocHTML.yaml -o index.docx
+
+    }
+
+    private async Task CreateHTMLBook(Description it, string pathBook)
+    {
+        var item = new RSCG_Item(it);
+        var data = item.Render();
+        await File.WriteAllTextAsync(Path.Combine(pathBook, it.Generator.Name + ".html"),data);
+    }
+
+    internal async Task CreateImageFiles()
+    {
+        var pathImages = Path.Combine(this.rootPath, "book","examples","images");
+        foreach(var item in _AllDescriptions)
+        {
+            await CreateImageFiles(item, pathImages);
+        }
+        
+    }
+
+    private async Task CreateImageFiles(Description it, string pathImages)
+    {
+        var name = it.Generator.Name;
+        var folderToGenerate = Path.Combine(pathImages, name);
+        if (!Directory.Exists(name))
+            Directory.CreateDirectory(name);
+        var csproj = it.Data.outputFiles.fullPathToCsproj;
+        await CreateCarbonFile(csproj, Path.Combine(folderToGenerate, it.Data.CSProj));
+        string  csFiles=Path.Combine(folderToGenerate, "csFiles");
+        if (!Directory.Exists(csFiles))
+            Directory.CreateDirectory(csFiles);
+
+        foreach (var item in it.Data.outputFiles.contentFiles)
+        {
+            await CreateCarbonFile(item.fullPathFile,Path.Combine(csFiles, Path.GetFileName(item.fullPathFile)));
+        }
+
+        string generated = Path.Combine(folderToGenerate, "generated");
+        if (!Directory.Exists(generated))
+            Directory.CreateDirectory(generated);
+
+        foreach (var gen in it.Data.outputFiles.generatedFiles)
+        {
+            await CreateCarbonFile(gen.fullPathFile, Path.Combine(generated, Path.GetFileName(gen.fullPathFile)));
+        }
+
+
+
+    }
+    private async Task<bool> CreateCarbonFile(string imageFile, string destination)
+    {
+        var psi = new ProcessStartInfo();
+        //psi.WorkingDirectory = @"carbon-now.cmd";
+        //psi.FileName = "cmd.exe";
+        psi.FileName = @"carbon-now.cmd";
+        psi.WindowStyle = ProcessWindowStyle.Hidden;
+        psi.UseShellExecute = false;
+        psi.CreateNoWindow = true;
+        psi.Arguments = $"{imageFile} -l {Path.GetDirectoryName(destination)} -t {Path.GetFileName(destination)}";
+
+        Console.WriteLine(psi.Arguments);
+        var p = new Process();
+        p.StartInfo = psi;
+        p.Start();
+        await p.WaitForExitAsync();
+        return (p.ExitCode == 0);
+
+    }
     internal async Task WroteDocusaurus()
     {
         var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");

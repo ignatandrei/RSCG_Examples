@@ -75,7 +75,7 @@ This is the CSharp Project that references **SkinnyControllersCommon**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **SkinnyControllersCommon** in *Program.cs*
 
@@ -111,7 +111,7 @@ app.Run();
 ```
   </TabItem>
 
-  <TabItem value="WeatherForecastController.cs" label="WeatherForecastController.cs" >
+  <TabItem value="" label="WeatherForecastController.cs" >
 
   This is the use of **SkinnyControllersCommon** in *WeatherForecastController.cs*
 
@@ -141,7 +141,7 @@ public partial class WeatherForecastController : ControllerBase
 ```
   </TabItem>
 
-  <TabItem value="WeatherActions.cs" label="WeatherActions.cs" >
+  <TabItem value="" label="WeatherActions.cs" >
 
   This is the use of **SkinnyControllersCommon** in *WeatherActions.cs*
 
@@ -183,7 +183,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="WeatherForecastController.autogenerate.cs001" label="WeatherForecastController.autogenerate.cs" >
+<TabItem value="" label="WeatherForecastController.autogenerate.cs" >
 
 
 ```csharp

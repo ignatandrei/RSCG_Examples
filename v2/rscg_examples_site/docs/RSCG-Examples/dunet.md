@@ -82,7 +82,7 @@ This is the CSharp Project that references **dunet**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **dunet** in *Program.cs*
 
@@ -123,7 +123,7 @@ Console.WriteLine(x);
 ```
   </TabItem>
 
-  <TabItem value="Recognize.cs" label="Recognize.cs" >
+  <TabItem value="" label="Recognize.cs" >
 
   This is the use of **dunet** in *Recognize.cs*
 
@@ -170,7 +170,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="UnionAttribute.g.cs001" label="UnionAttribute.g.cs" >
+<TabItem value="" label="UnionAttribute.g.cs" >
 
 
 ```csharp
@@ -188,7 +188,7 @@ internal sealed class UnionAttribute : Attribute {}
   </TabItem>
 
 
-<TabItem value="duneDemo.WhatIsTheString.g.cs002" label="duneDemo.WhatIsTheString.g.cs" >
+<TabItem value="" label="duneDemo.WhatIsTheString.g.cs" >
 
 
 ```csharp
@@ -718,7 +718,7 @@ abstract partial record WhatIsTheString
   </TabItem>
 
 
-<TabItem value="duneDemo.WhatIsTheStringMatchExtensions.g.cs003" label="duneDemo.WhatIsTheStringMatchExtensions.g.cs" >
+<TabItem value="" label="duneDemo.WhatIsTheStringMatchExtensions.g.cs" >
 
 
 ```csharp

@@ -78,7 +78,7 @@ This is the CSharp Project that references **Vogen**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **Vogen** in *Program.cs*
 
@@ -99,7 +99,7 @@ Console.WriteLine(p == p2);
 ```
   </TabItem>
 
-  <TabItem value="PersonId.cs" label="PersonId.cs" >
+  <TabItem value="" label="PersonId.cs" >
 
   This is the use of **Vogen** in *PersonId.cs*
 
@@ -123,7 +123,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="DemoVogen_PersonId.g.cs001" label="DemoVogen_PersonId.g.cs" >
+<TabItem value="" label="DemoVogen_PersonId.g.cs" >
 
 
 ```csharp

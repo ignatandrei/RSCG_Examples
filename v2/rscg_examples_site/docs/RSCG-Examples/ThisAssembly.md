@@ -80,7 +80,7 @@ This is the CSharp Project that references **ThisAssembly**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **ThisAssembly** in *Program.cs*
 
@@ -100,7 +100,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="ThisAssembly.AssemblyInfo.g.cs001" label="ThisAssembly.AssemblyInfo.g.cs" >
+<TabItem value="" label="ThisAssembly.AssemblyInfo.g.cs" >
 
 
 ```csharp
@@ -150,7 +150,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Branch.g.cs002" label="Branch.g.cs" >
+<TabItem value="" label="Branch.g.cs" >
 
 
 ```csharp
@@ -182,7 +182,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Commit.g.cs003" label="Commit.g.cs" >
+<TabItem value="" label="Commit.g.cs" >
 
 
 ```csharp
@@ -214,7 +214,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Root.g.cs004" label="Root.g.cs" >
+<TabItem value="" label="Root.g.cs" >
 
 
 ```csharp
@@ -246,7 +246,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Sha.g.cs005" label="Sha.g.cs" >
+<TabItem value="" label="Sha.g.cs" >
 
 
 ```csharp
@@ -278,7 +278,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="Url.g.cs006" label="Url.g.cs" >
+<TabItem value="" label="Url.g.cs" >
 
 
 ```csharp
@@ -310,7 +310,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Metadata.g.cs007" label="ThisAssembly.Metadata.g.cs" >
+<TabItem value="" label="ThisAssembly.Metadata.g.cs" >
 
 
 ```csharp
@@ -346,7 +346,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Property.g.cs008" label="ThisAssembly.Property.g.cs" >
+<TabItem value="" label="ThisAssembly.Property.g.cs" >
 
 
 ```csharp
@@ -397,7 +397,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Resources.EmbeddedResource.cs009" label="ThisAssembly.Resources.EmbeddedResource.cs" >
+<TabItem value="" label="ThisAssembly.Resources.EmbeddedResource.cs" >
 
 
 ```csharp
@@ -453,7 +453,7 @@ static class EmbeddedResource
   </TabItem>
 
 
-<TabItem value="ThisAssembly.Strings.g.cs010" label="ThisAssembly.Strings.g.cs" >
+<TabItem value="" label="ThisAssembly.Strings.g.cs" >
 
 
 ```csharp

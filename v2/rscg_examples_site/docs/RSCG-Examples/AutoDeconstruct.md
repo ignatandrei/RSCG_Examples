@@ -75,7 +75,7 @@ This is the CSharp Project that references **AutoDeconstruct**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **AutoDeconstruct** in *Program.cs*
 
@@ -90,7 +90,7 @@ Console.WriteLine($"Last name is {l}");
 ```
   </TabItem>
 
-  <TabItem value="Person.cs" label="Person.cs" >
+  <TabItem value="" label="Person.cs" >
 
   This is the use of **AutoDeconstruct** in *Person.cs*
 
@@ -125,7 +125,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="AutoDeconstruct.g.cs001" label="AutoDeconstruct.g.cs" >
+<TabItem value="" label="AutoDeconstruct.g.cs" >
 
 
 ```csharp

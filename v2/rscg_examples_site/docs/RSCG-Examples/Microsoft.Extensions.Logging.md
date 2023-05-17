@@ -74,7 +74,7 @@ This is the CSharp Project that references **Microsoft.Extensions.Logging**
 
 </TabItem>
 
-  <TabItem value="Program.cs" label="Program.cs" >
+  <TabItem value="" label="Program.cs" >
 
   This is the use of **Microsoft.Extensions.Logging** in *Program.cs*
 
@@ -103,7 +103,7 @@ file readonly record struct SampleObject { }
 ```
   </TabItem>
 
-  <TabItem value="LogDemo.cs" label="LogDemo.cs" >
+  <TabItem value="" label="LogDemo.cs" >
 
   This is the use of **Microsoft.Extensions.Logging** in *LogDemo.cs*
 
@@ -161,7 +161,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="LoggerMessage.g.cs001" label="LoggerMessage.g.cs" >
+<TabItem value="" label="LoggerMessage.g.cs" >
 
 
 ```csharp
