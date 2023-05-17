@@ -54,7 +54,7 @@ public class MultiGeneratorV2
     }
     public async Task CreateZip()
     {
-        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, pathDocusaurus)));
 
     }
@@ -145,14 +145,27 @@ public class MultiGeneratorV2
         await p.WaitForExitAsync();
         return p.ExitCode == 0;
     }
-    internal async Task WrotePDF()
+    private string pathDocusaurus
     {
-        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
-        await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus)));
+        get
+        {
+            return Path.Combine(this.rootPath, "rscg_examples_site");
+        }
+    }
+    private string pathBook
+    {
+        get
+        {
+            return Path.Combine(this.rootPath, "book");
+        }
+    }
+    internal async Task WrotePDFs()
+    {
+        
+        await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
     }
     internal async Task CreateHTMLBook()
     {
-        var pathBook = Path.Combine(this.rootPath, "book");
         await Task.WhenAll(_AllDescriptions.Select(it => CreateHTMLBook(it, Path.Combine(pathBook, "examples"))));
         var list = new RSCG_List(_AllDescriptions);
         var data = list.Render();
@@ -162,6 +175,7 @@ public class MultiGeneratorV2
         var pandoc = pandocYML.Render();
         await File.WriteAllTextAsync(Path.Combine(pathBook, "pandocHTML.yaml"), pandoc);
         //pandoc.exe -d pandocHTML.yaml -o index.docx
+        //pandoc.exe -d pandocHTML.yaml -o index.html
 
     }
 
@@ -174,7 +188,7 @@ public class MultiGeneratorV2
 
     internal async Task CreateImageFiles()
     {
-        var pathImages = Path.Combine(this.rootPath, "book", "examples", "images");
+        var pathImages = Path.Combine(pathBook, "examples", "images");
         foreach (var item in _AllDescriptions)
         {
             await CreateImageFile(item, pathImages);
@@ -234,9 +248,9 @@ public class MultiGeneratorV2
         return (p.ExitCode == 0);
 
     }
-    internal async Task WroteDocusaurus()
+    internal async Task WroteDocusaurusAll()
     {
-        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
         await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it, pathDocusaurus)));
         if(!await WroteIndexListOfRSCG(this.rootPath))
@@ -249,7 +263,7 @@ public class MultiGeneratorV2
     {
         if (generators.Any(it => !it.Value))
             return false;
-        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         var pathIndex = Path.Combine(pathDocusaurus,"docs", "indexRSCG.md");
         var template = await File.ReadAllTextAsync("RSCGList.txt");
         var templateScriban = Scriban.Template.Parse(template);
@@ -261,7 +275,7 @@ public class MultiGeneratorV2
 
     internal async Task WrotePost()
     {
-        var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await Task.WhenAll(_AllDescriptions.Select(it => WrotePost(it, pathDocusaurus)));
     }
 
@@ -318,21 +332,25 @@ public class MultiGeneratorV2
 
 
     }
-    private async Task<bool> WrotePDF(Description it, string pathDocusaurus)
+    private async Task<bool> WrotePDF(Description it, string pathOfDocusaurus,string pathOfBook)
     {
-        string folderToWrite = Path.Combine(pathDocusaurus, "static", "pdfs");
-        string file =  it.Generator.Name + ".pdf";
+        string folderToWrite = Path.Combine(pathOfDocusaurus, "static", "pdfs");
+        string file = it.Generator.Name + ".pdf";
         file = Path.Combine(folderToWrite, file);
         if (!Write(file)) return false;
         var psi = new ProcessStartInfo();
-        psi.WorkingDirectory = @"C:\Program Files (x86)\Prince\engine\bin";
+        psi.WorkingDirectory = Path.Combine(pathOfBook, "examples");
         //psi.FileName = "cmd.exe";
-        psi.FileName = @"C:\Program Files (x86)\Prince\engine\bin\prince.exe";
+        psi.FileName = Path.Combine(pathOfBook, "pandoc.exe");
         psi.WindowStyle = ProcessWindowStyle.Hidden;
         psi.UseShellExecute = false;
         psi.CreateNoWindow = true;
-        psi.Arguments = $@"https://ignatandrei.github.io/RSCG_Examples/v2/docs/{it.Generator.Name} -o {file}";
-        
+        string output = Path.Combine(pathOfDocusaurus, "static", "pdfs", it.Generator.Name+".pdf");
+        Console.WriteLine($"writing {output} ");
+
+
+        psi.Arguments = $@"{it.Generator.Name}.html -f html -t pdf -o {output}";
+
         Console.WriteLine(psi.Arguments);
         //psi.ArgumentList.Add("/K ");
         //psi.ArgumentList.Add(@"C:\Program Files (x86)\Prince\engine\bin\prince.exe ");
@@ -343,6 +361,31 @@ public class MultiGeneratorV2
         return (p.ExitCode == 0);
 
     }
+    //private async Task<bool> WrotePDF(Description it, string pathDocusaurus)
+    //{
+    //    string folderToWrite = Path.Combine(pathDocusaurus, "static", "pdfs");
+    //    string file =  it.Generator.Name + ".pdf";
+    //    file = Path.Combine(folderToWrite, file);
+    //    if (!Write(file)) return false;
+    //    var psi = new ProcessStartInfo();
+    //    psi.WorkingDirectory = @"C:\Program Files (x86)\Prince\engine\bin";
+    //    //psi.FileName = "cmd.exe";
+    //    psi.FileName = @"C:\Program Files (x86)\Prince\engine\bin\prince.exe";
+    //    psi.WindowStyle = ProcessWindowStyle.Hidden;
+    //    psi.UseShellExecute = false;
+    //    psi.CreateNoWindow = true;
+    //    psi.Arguments = $@"https://ignatandrei.github.io/RSCG_Examples/v2/docs/{it.Generator.Name} -o {file}";
+
+    //    Console.WriteLine(psi.Arguments);
+    //    //psi.ArgumentList.Add("/K ");
+    //    //psi.ArgumentList.Add(@"C:\Program Files (x86)\Prince\engine\bin\prince.exe ");
+    //    var p = new Process();
+    //    p.StartInfo = psi;
+    //    p.Start();
+    //    await p.WaitForExitAsync();
+    //    return (p.ExitCode == 0);
+
+    //}
     private async Task<bool> WrotePost(Description it, string pathDocusaurus)
     {
         var template = await File.ReadAllTextAsync("newPost.txt");

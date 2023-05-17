@@ -81,7 +81,7 @@ This is the CSharp Project that references **CommunityToolkit.Mvvm**
 
 </TabItem>
 
-  <TabItem value="" label="Program.cs" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\CommunityToolkit.Mvvm\src\ToolkitMVVM\Program.cs" label="Program.cs" >
 
   This is the use of **CommunityToolkit.Mvvm** in *Program.cs*
 
@@ -97,7 +97,7 @@ var x=myViewModel.SayHelloCommand;
 ```
   </TabItem>
 
-  <TabItem value="" label="MyViewModel.cs" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\CommunityToolkit.Mvvm\src\ToolkitMVVM\MyViewModel.cs" label="MyViewModel.cs" >
 
   This is the use of **CommunityToolkit.Mvvm** in *MyViewModel.cs*
 
@@ -132,7 +132,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="" label="test.MyViewModel.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\CommunityToolkit.Mvvm\src\ToolkitMVVM\obj\GX\CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.INotifyPropertyChangedGenerator\test.MyViewModel.g.cs" label="test.MyViewModel.g.cs" >
 
 
 ```csharp
@@ -646,7 +646,7 @@ namespace test
   </TabItem>
 
 
-<TabItem value="" label="test.MyViewModel.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\CommunityToolkit.Mvvm\src\ToolkitMVVM\obj\GX\CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\test.MyViewModel.g.cs" label="test.MyViewModel.g.cs" >
 
 
 ```csharp
@@ -707,7 +707,7 @@ namespace test
   </TabItem>
 
 
-<TabItem value="" label="__KnownINotifyPropertyChangedArgs.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\CommunityToolkit.Mvvm\src\ToolkitMVVM\obj\GX\CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\__KnownINotifyPropertyChangedArgs.g.cs" label="__KnownINotifyPropertyChangedArgs.g.cs" >
 
 
 ```csharp
@@ -738,7 +738,7 @@ namespace CommunityToolkit.Mvvm.ComponentModel.__Internals
   </TabItem>
 
 
-<TabItem value="" label="test.MyViewModel.SayHello.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\CommunityToolkit.Mvvm\src\ToolkitMVVM\obj\GX\CommunityToolkit.Mvvm.SourceGenerators\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\test.MyViewModel.SayHello.g.cs" label="test.MyViewModel.SayHello.g.cs" >
 
 
 ```csharp

@@ -69,7 +69,8 @@ $$"""
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
     
-    //await m.WroteDocusaurus();
+    await m.WroteDocusaurusAll();
+    
     //await m.WrotePost();
     await m.WriteFrontReadMe(oldDesc);
     Console.WriteLine("npm run build");
@@ -78,9 +79,9 @@ $$"""
     //if (Console.ReadLine() == "y")
     {
         //await m.CreateZip();
-        await m.CreateImageFiles();
+        //await m.CreateImageFiles();
         await m.CreateHTMLBook();
-        //await m.WrotePDF();
+        await m.WrotePDFs();
     }
     //var m = new MultiGenerator(folder);
 

@@ -26,19 +26,28 @@ Nuget : <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.N
 </h3>
 <img src="@nameCsprojPng" width="580" height="580" />
 
-<h3>This was for me the starting code</h3>
+<h3>This was for me the <b>starting</b> code</h3>
 @foreach (var item in Model.Data.CsFiles)
 {
     var name = $"images/{Model.Generator.Name}/csFiles/{item}.png";
-   <br />
+    <text>
+        <br />
+        I have <b>coded</b> the file @item
+        <br />
     <img src="@name" width="580" height="580" />
+    <hr />
+    </text>
 }
-<h3>And here are the generated files</h3>
+<h3>And here are the <i>generated</i> files</h3>
 @foreach (var oFile in Model.Data.outputFiles.generatedFiles)
 {
     var name = $"images/{Model.Generator.Name}/generated/{oFile.file}.png";
-    <br />
+    <text>
+        <br />
+        The file <i>generated</i> is @oFile.file
+        <br />
     <img src="@name" width="580" height="580" />
+    </text>
 }
 
 <p>

@@ -82,7 +82,7 @@ This is the CSharp Project that references **RSCG_Utils**
 
 </TabItem>
 
-  <TabItem value="" label="Program.cs" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\Program.cs" label="Program.cs" >
 
   This is the use of **RSCG_Utils** in *Program.cs*
 
@@ -93,7 +93,7 @@ Console.Write(dataFromFile);
 ```
   </TabItem>
 
-  <TabItem value="" label="data.gen.txt" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\data.gen.txt" label="data.gen.txt" >
 
   This is the use of **RSCG_Utils** in *data.gen.txt*
 
@@ -113,7 +113,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="" label="MyAdditionalFiles.data.gen.txt.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\obj\GX\RSCG_Utils\RSCG_Utils.AdditionalFilesGenerator\MyAdditionalFiles.data.gen.txt.cs" label="MyAdditionalFiles.data.gen.txt.cs" >
 
 
 ```csharp

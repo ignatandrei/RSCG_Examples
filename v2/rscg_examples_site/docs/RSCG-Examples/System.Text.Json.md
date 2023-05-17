@@ -72,7 +72,7 @@ This is the CSharp Project that references **System.Text.Json**
 
 </TabItem>
 
-  <TabItem value="" label="Program.cs" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\Program.cs" label="Program.cs" >
 
   This is the use of **System.Text.Json** in *Program.cs*
 
@@ -118,7 +118,7 @@ Console.WriteLine(jsonString);
 ```
   </TabItem>
 
-  <TabItem value="" label="WeatherForecast.cs" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\WeatherForecast.cs" label="WeatherForecast.cs" >
 
   This is the use of **System.Text.Json** in *WeatherForecast.cs*
 
@@ -135,7 +135,7 @@ public class WeatherForecast
 ```
   </TabItem>
 
-  <TabItem value="" label="OptionsExampleContext.cs" >
+  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\OptionsExampleContext.cs" label="OptionsExampleContext.cs" >
 
   This is the use of **System.Text.Json** in *OptionsExampleContext.cs*
 
@@ -161,7 +161,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="" label="OptionsExampleContext.DateTime.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.DateTime.g.cs" label="OptionsExampleContext.DateTime.g.cs" >
 
 
 ```csharp
@@ -215,7 +215,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="" label="OptionsExampleContext.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.g.cs" label="OptionsExampleContext.g.cs" >
 
 
 ```csharp
@@ -298,7 +298,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="" label="OptionsExampleContext.GetJsonTypeInfo.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.GetJsonTypeInfo.g.cs" label="OptionsExampleContext.GetJsonTypeInfo.g.cs" >
 
 
 ```csharp
@@ -373,7 +373,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="" label="OptionsExampleContext.Int32.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.Int32.g.cs" label="OptionsExampleContext.Int32.g.cs" >
 
 
 ```csharp
@@ -427,7 +427,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="" label="OptionsExampleContext.PropertyNames.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.PropertyNames.g.cs" label="OptionsExampleContext.PropertyNames.g.cs" >
 
 
 ```csharp
@@ -455,7 +455,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="" label="OptionsExampleContext.String.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.String.g.cs" label="OptionsExampleContext.String.g.cs" >
 
 
 ```csharp
@@ -509,7 +509,7 @@ namespace JsonSerializerOptionsExample
   </TabItem>
 
 
-<TabItem value="" label="OptionsExampleContext.WeatherForecast.g.cs" >
+<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\System.Text.Json\src\DemoSerializeJSON\obj\GX\System.Text.Json.SourceGeneration\System.Text.Json.SourceGeneration.JsonSourceGenerator\OptionsExampleContext.WeatherForecast.g.cs" label="OptionsExampleContext.WeatherForecast.g.cs" >
 
 
 ```csharp
