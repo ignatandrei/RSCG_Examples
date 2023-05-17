@@ -13,7 +13,7 @@ reference-doc: customWord.docx
 
 # leave blank for input from stdin, use [] for no input:
 input-files:
-- list.html
+
 - examples/ThisAssembly.html
 - examples/RSCG_TimeBombComment.html
 - examples/System.Text.Json.html

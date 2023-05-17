@@ -69,7 +69,7 @@ $$"""
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
     
-    await m.WroteDocusaurusAll();
+    //await m.WroteDocusaurusAll();
     
     //await m.WrotePost();
     await m.WriteFrontReadMe(oldDesc);
@@ -81,7 +81,7 @@ $$"""
         //await m.CreateZip();
         //await m.CreateImageFiles();
         await m.CreateHTMLBook();
-        await m.WrotePDFs();
+        //await m.WrotePDFs();
     }
     //var m = new MultiGenerator(folder);
 

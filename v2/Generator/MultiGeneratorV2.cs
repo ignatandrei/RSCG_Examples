@@ -176,8 +176,30 @@ public class MultiGeneratorV2
         await File.WriteAllTextAsync(Path.Combine(pathBook, "pandocHTML.yaml"), pandoc);
         //pandoc.exe -d pandocHTML.yaml -o index.docx
         //pandoc.exe -d pandocHTML.yaml -o index.html
+        await WroteIndex(pathBook);
+    }
+    private async Task<bool> WroteIndex(string pathOfBook)
+    {
+        var psi = new ProcessStartInfo();
+        psi.WorkingDirectory = pathOfBook;
+        //psi.FileName = "cmd.exe";
+        psi.FileName = Path.Combine(pathOfBook, "pandoc.exe");
+        psi.WindowStyle = ProcessWindowStyle.Hidden;
+        psi.UseShellExecute = false;
+        psi.CreateNoWindow = true;
+        psi.Arguments = $@"-d  pandocHTML.yaml  -o index.html";
+
+        Console.WriteLine(psi.Arguments);
+        //psi.ArgumentList.Add("/K ");
+        //psi.ArgumentList.Add(@"C:\Program Files (x86)\Prince\engine\bin\prince.exe ");
+        var p = new Process();
+        p.StartInfo = psi;
+        p.Start();
+        await p.WaitForExitAsync();
+        return (p.ExitCode == 0);
 
     }
+
 
     private async Task CreateHTMLBook(Description it, string pathBook)
     {
@@ -185,7 +207,7 @@ public class MultiGeneratorV2
         var data = item.Render();
         await File.WriteAllTextAsync(Path.Combine(pathBook, it.Generator.Name + ".html"), data);
     }
-
+    
     internal async Task CreateImageFiles()
     {
         var pathImages = Path.Combine(pathBook, "examples", "images");
