@@ -15,7 +15,7 @@ public class MultiGeneratorV2
     public MultiGeneratorV2(string root)
     {
         this.rootPath = root;
-        
+
         generators = new()
         {
             { "ThisAssembly",true },
@@ -76,9 +76,9 @@ public class MultiGeneratorV2
     {
         string sources = Path.Combine(desc.rootFolder, "src");
         await CleanProject(sources);
-        var zipFile = Path.Combine(rootFolder , "static", "sources", desc.Generator.Name + ".zip");
+        var zipFile = Path.Combine(rootFolder, "static", "sources", desc.Generator.Name + ".zip");
         //Console.WriteLine(zipFile);
-        if(!Write(zipFile)) return false;
+        if (!Write(zipFile)) return false;
         ZipFile.CreateFromDirectory(sources, zipFile, CompressionLevel.SmallestSize, false);
         return true;
     }
@@ -118,7 +118,7 @@ public class MultiGeneratorV2
         psi.UseShellExecute = true;
         psi.CreateNoWindow = true;
         psi.Arguments = "clean";
-        
+
         var p = new Process();
         p.StartInfo = psi;
 
@@ -152,14 +152,14 @@ public class MultiGeneratorV2
     }
     internal async Task CreateHTMLBook()
     {
-        var pathBook= Path.Combine(this.rootPath, "book");
-        await Task.WhenAll(_AllDescriptions.Select(it => CreateHTMLBook(it,Path.Combine( pathBook, "examples"))));
+        var pathBook = Path.Combine(this.rootPath, "book");
+        await Task.WhenAll(_AllDescriptions.Select(it => CreateHTMLBook(it, Path.Combine(pathBook, "examples"))));
         var list = new RSCG_List(_AllDescriptions);
         var data = list.Render();
         await File.WriteAllTextAsync(Path.Combine(pathBook, "list.html"), data);
 
         var pandocYML = new pandocHTML(_AllDescriptions);
-        var pandoc= pandocYML.Render();
+        var pandoc = pandocYML.Render();
         await File.WriteAllTextAsync(Path.Combine(pathBook, "pandocHTML.yaml"), pandoc);
         //pandoc.exe -d pandocHTML.yaml -o index.docx
 
@@ -169,20 +169,20 @@ public class MultiGeneratorV2
     {
         var item = new RSCG_Item(it);
         var data = item.Render();
-        await File.WriteAllTextAsync(Path.Combine(pathBook, it.Generator.Name + ".html"),data);
+        await File.WriteAllTextAsync(Path.Combine(pathBook, it.Generator.Name + ".html"), data);
     }
 
     internal async Task CreateImageFiles()
     {
-        var pathImages = Path.Combine(this.rootPath, "book","examples","images");
-        foreach(var item in _AllDescriptions)
+        var pathImages = Path.Combine(this.rootPath, "book", "examples", "images");
+        foreach (var item in _AllDescriptions)
         {
-            await CreateImageFiles(item, pathImages);
+            await CreateImageFile(item, pathImages);
         }
-        
+
     }
 
-    private async Task CreateImageFiles(Description it, string pathImages)
+    private async Task CreateImageFile(Description it, string pathImages)
     {
         var name = it.Generator.Name;
         var folderToGenerate = Path.Combine(pathImages, name);
@@ -190,13 +190,13 @@ public class MultiGeneratorV2
             Directory.CreateDirectory(name);
         var csproj = it.Data.outputFiles.fullPathToCsproj;
         await CreateCarbonFile(csproj, Path.Combine(folderToGenerate, it.Data.CSProj));
-        string  csFiles=Path.Combine(folderToGenerate, "csFiles");
+        string csFiles = Path.Combine(folderToGenerate, "csFiles");
         if (!Directory.Exists(csFiles))
             Directory.CreateDirectory(csFiles);
 
         foreach (var item in it.Data.outputFiles.contentFiles)
         {
-            await CreateCarbonFile(item.fullPathFile,Path.Combine(csFiles, Path.GetFileName(item.fullPathFile)));
+            await CreateCarbonFile(item.fullPathFile, Path.Combine(csFiles, Path.GetFileName(item.fullPathFile)));
         }
 
         string generated = Path.Combine(folderToGenerate, "generated");
@@ -213,7 +213,11 @@ public class MultiGeneratorV2
     }
     private async Task<bool> CreateCarbonFile(string imageFile, string destination)
     {
-        var psi = new ProcessStartInfo();
+        var nameFileImg = Path.GetFileName(destination);
+        if (File.Exists(destination) || File.Exists(destination + ".png"))
+            return false;
+        //if (destination.Contains("RazorTemplate.g.cs")) return true;
+        ProcessStartInfo psi = new ();
         //psi.WorkingDirectory = @"carbon-now.cmd";
         //psi.FileName = "cmd.exe";
         psi.FileName = @"carbon-now.cmd";

@@ -351,3 +351,4 @@ MigrationBackup/
 print/pandoc.exe
 print/log.json
 .vscode/settings.json
+v2/book/log.json

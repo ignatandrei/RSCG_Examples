@@ -78,7 +78,7 @@ $$"""
     //if (Console.ReadLine() == "y")
     {
         //await m.CreateZip();
-        //await m.CreateImageFiles();
+        await m.CreateImageFiles();
         await m.CreateHTMLBook();
         //await m.WrotePDF();
     }
