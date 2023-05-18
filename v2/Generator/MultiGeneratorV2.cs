@@ -1,13 +1,35 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
 using System.Reflection.Emit;
 
+
 namespace Generator;
 
 public class MultiGeneratorV2
 {
+    string[] rscgNoExamples = new[]
+    {
+"AutoEmbed https://github.com/chsienki/AutoEmbed                           "
+,"Cloneable https://github.com/mostmand/Cloneable                           "
+,"fonderie https://github.com/jeromelaban/fonderie                          "
+,"Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          "
+,"Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      "
+,"JsonMergePatch https://github.com/ladeak/JsonMergePatch                   "
+,"MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   "
+,"MiniRazor https://github.com/Tyrrrz/MiniRazor/                            "
+,"MockGen https://github.com/thomas-girotto/MockGen                         "
+,"ProxyGen https://github.com/Sholtee/ProxyGen                             "
+,"Rocks https://github.com/JasonBock/Rocks                                 "
+,"RoslynWeave https://github.com/Jishun/RoslynWeave                        "
+,"SmallSharp https://github.com/devlooped/SmallSharp                       "
+,"StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator" 
+,"ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator"
+,"Web-Anchor https://github.com/mattiasnordqvist/Web-Anchor"
+,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject"
+    };
 
     Dictionary<string, bool> generators;
     private readonly string rootPath;
@@ -274,6 +296,7 @@ public class MultiGeneratorV2
     {
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
+        await ModifyDocusaurusWithoutExamples(pathDocusaurus);
         await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it, pathDocusaurus)));
         if(!await WroteIndexListOfRSCG(this.rootPath))
         {
@@ -305,7 +328,13 @@ public class MultiGeneratorV2
         await ModifyDocusaurusIndex(pathDocusaurus, nr);
         await ModifyDocusaurusAbout(pathDocusaurus, nr);
     }
-
+    private async Task ModifyDocusaurusWithoutExamples(string pathDocusaurus)
+    {
+        var noEx = new NoExamples(rscgNoExamples);
+        var text = noEx.Render();
+        var index = Path.Combine(pathDocusaurus, "docs", "NoExamples.md");
+        await File.WriteAllTextAsync(index,text);
+    }
     private async Task ModifyDocusaurusAbout(string pathDocusaurus, int nr)
     {
         var index = Path.Combine(pathDocusaurus, "docs",  "about.md");
@@ -443,7 +472,13 @@ public class MultiGeneratorV2
         var readMe = Path.Combine(rootPath, "..", "README.md");
         var template = await File.ReadAllTextAsync("frontReadmeNew.txt");
         var templateScriban = Scriban.Template.Parse(template);
-        var output = templateScriban.Render(new {oldDesc, nr = _AllDescriptions.Length, all = _AllDescriptions }, member => member.Name);
+        var output = templateScriban.Render(
+            new {
+                rscgNoExamples,
+                oldDesc, 
+                nr = _AllDescriptions.Length, 
+                all = _AllDescriptions }, 
+            member => member.Name);
         await File.WriteAllTextAsync(readMe, output);
     }
 

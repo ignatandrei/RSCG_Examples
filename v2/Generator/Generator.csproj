@@ -9,6 +9,7 @@
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
 	<ItemGroup>
+		<AdditionalFiles Include="NoExamples.cshtml" />
 		<AdditionalFiles Include="pandocHTML.cshtml" />
 		<AdditionalFiles Include="RSCG_List.cshtml" />
 		<AdditionalFiles Include="RSCG_Item.cshtml" />

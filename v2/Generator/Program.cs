@@ -40,6 +40,7 @@ $$"""
 """);
         return;
     }
+    
     Console.WriteLine("generating data");
     var old = new MultiGenerator(Path.Combine(originalFolder,"v1"));
     var oldDesc = await old.AllDescriptions();
@@ -69,7 +70,7 @@ $$"""
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
     
-    //await m.WroteDocusaurusAll();
+    await m.WroteDocusaurusAll();
     
     //await m.WrotePost();
     await m.WriteFrontReadMe(oldDesc);

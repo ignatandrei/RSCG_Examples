@@ -14,6 +14,15 @@ This are the {{nr}} Roslyn Source Code Generators that I have tested you can see
 {{~ end ~}}
 
 
+## Not tested yet 
+
+{{~ for noex in rscgNoExamples ~}} 
+
+{{for.index+1}}) {{noex}}
+
+{{~ end ~}}
+
+
 ## Old examples made with ISourceGenerator 
 
 For historical reasons, I will keep the old examples in a separate folder - see  https://github.com/ignatandrei/RSCG_Examples/tree/main/v1  folder.

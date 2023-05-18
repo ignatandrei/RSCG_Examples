@@ -1,0 +1,14 @@
+@inherits RazorBlade.HtmlTemplate<string[]>;
+
+---
+sidebar_position: 60
+title: 'RSCG Without Examples'
+---
+
+## Other RSCG without examples
+
+@for(var i=0;i<Model.Length;i++)
+{
+    string data = $"{i + 1}){Model[i]}{Environment.NewLine}{Environment.NewLine}";
+    @data
+}
