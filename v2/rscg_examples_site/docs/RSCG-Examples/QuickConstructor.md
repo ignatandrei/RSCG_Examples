@@ -1,6 +1,6 @@
 ---
 sidebar_position: 120
-title: RSCG - QuickConstructor
+title: 12 - QuickConstructor
 description: Fast add constructors that are read only FIELDS
 slug: /QuickConstructor
 ---

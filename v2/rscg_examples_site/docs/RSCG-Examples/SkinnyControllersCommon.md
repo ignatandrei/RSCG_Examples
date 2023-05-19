@@ -1,6 +1,6 @@
 ---
 sidebar_position: 60
-title: RSCG - SkinnyControllersCommon
+title: 06 - SkinnyControllersCommon
 description: Automatically add controllers actions for any class injected in constructor
 slug: /SkinnyControllersCommon
 ---

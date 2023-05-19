@@ -1,6 +1,6 @@
 ---
 sidebar_position: 140
-title: RSCG - dunet
+title: 14 - dunet
 description: Add union types to C#  - similar with F#/TS discriminated unions
 slug: /dunet
 ---

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 80
-title: RSCG - RSCG_Static
+title: 08 - RSCG_Static
 description: Generate interfaces and classes from static classes
 slug: /RSCG_Static
 ---

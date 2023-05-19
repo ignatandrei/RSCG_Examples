@@ -1,6 +1,6 @@
 ---
 sidebar_position: 170
-title: RSCG - PartiallyApplied
+title: 17 - PartiallyApplied
 description: If you need to curry functions, you can use this package
 slug: /PartiallyApplied
 ---

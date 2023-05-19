@@ -1,6 +1,6 @@
 ---
 sidebar_position: 70
-title: RSCG - Microsoft.Extensions.Logging
+title: 07 - Microsoft.Extensions.Logging
 description: Logging defined and compiled
 slug: /Microsoft.Extensions.Logging
 ---

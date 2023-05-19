@@ -1,6 +1,6 @@
 ---
 sidebar_position: 20
-title: RSCG - RSCG_TimeBombComment
+title: 02 - RSCG_TimeBombComment
 description: This will generate an error from the comment after a certain date
 slug: /RSCG_TimeBombComment
 ---

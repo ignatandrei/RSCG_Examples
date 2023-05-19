@@ -1,6 +1,6 @@
 ---
 sidebar_position: 160
-title: RSCG - RazorBlade
+title: 16 - RazorBlade
 description: Fast templating with Razor syntax
 slug: /RazorBlade
 ---

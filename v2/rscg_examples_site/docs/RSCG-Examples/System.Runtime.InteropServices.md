@@ -1,6 +1,6 @@
 ---
 sidebar_position: 110
-title: RSCG - System.Runtime.InteropServices
+title: 11 - System.Runtime.InteropServices
 description: Generate PInvoke calls
 slug: /System.Runtime.InteropServices
 ---

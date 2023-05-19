@@ -1,6 +1,6 @@
 ---
 sidebar_position: 10
-title: RSCG - ThisAssembly
+title: 01 - ThisAssembly
 description: The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
 slug: /ThisAssembly
 ---

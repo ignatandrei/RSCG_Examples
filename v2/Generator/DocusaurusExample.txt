@@ -1,6 +1,6 @@
 ﻿---
 sidebar_position: {{ Description.Nr * 10}}
-title: RSCG - {{Description.Generator.Name}}
+title: {{Description.Nr | math.format "0#"}} - {{Description.Generator.Name}}
 description: {{Description.Data.GoodFor[0]}}
 slug: /{{Description.Generator.Name}}
 ---

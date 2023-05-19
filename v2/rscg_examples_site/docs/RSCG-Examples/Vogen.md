@@ -1,6 +1,6 @@
 ---
 sidebar_position: 150
-title: RSCG - Vogen
+title: 15 - Vogen
 description: Transform values( e.g. int) into classes
 slug: /Vogen
 ---

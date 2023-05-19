@@ -1,6 +1,6 @@
 ---
 sidebar_position: 30
-title: RSCG - System.Text.Json
+title: 03 - System.Text.Json
 description: Json Serialize without reflection
 slug: /System.Text.Json
 ---

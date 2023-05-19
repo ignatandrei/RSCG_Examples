@@ -1,6 +1,6 @@
 ---
 sidebar_position: 100
-title: RSCG - AutoDeconstruct
+title: 10 - AutoDeconstruct
 description: Automatically add deconstruct for all types in an assembly
 slug: /AutoDeconstruct
 ---
