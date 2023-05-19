@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"RSCG_Static",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_Static/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_Static",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_Static"
+   },
+   "data":{
+      "goodFor":["Generate interfaces and classes from static classes"],
+      "csprojDemo":"RSCG_StaticDemo.csproj",
+      "csFiles":["Program.cs","StaticToInterface.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

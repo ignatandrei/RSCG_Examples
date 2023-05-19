@@ -47,6 +47,7 @@ public class MultiGeneratorV2
             {"System.Text.RegularExpressions",true },
             {"SkinnyControllersCommon",true },
             {"Microsoft.Extensions.Logging",true },
+            {"RSCG_Static",true },
             {"CommunityToolkit.Mvvm",true },
             {"AutoDeconstruct",true },
             {"System.Runtime.InteropServices",true },
@@ -82,7 +83,7 @@ public class MultiGeneratorV2
     }
     bool Write(string zipFileOrPdf)
     {
-        return true;
+        return false;
         //if (File.Exists(zipFileOrPdf))
         //{
         //    if (new FileInfo(zipFileOrPdf).Length < 3){

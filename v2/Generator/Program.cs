@@ -79,10 +79,10 @@ $$"""
     Console.WriteLine("y/n");
     //if (Console.ReadLine() == "y")
     {
-        //await m.CreateZip();
-        //await m.CreateImageFiles();
+        await m.CreateZip();
+        await m.CreateImageFiles();
         await m.CreateHTMLBook();
-        //await m.WrotePDFs();
+        await m.WrotePDFs();
     }
     //var m = new MultiGenerator(folder);
 
