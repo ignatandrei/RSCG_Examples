@@ -1,5 +1,5 @@
 ---
-sidebar_position: 120
+sidebar_position: 130
 title: RSCG - AutoCtor
 description: Generate constructor from non-initialized fields
 slug: /AutoCtor

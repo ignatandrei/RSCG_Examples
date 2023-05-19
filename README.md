@@ -1,10 +1,10 @@
-# RSCG - 17 Examples of Roslyn Source Code Generators 
+# RSCG - 18 Examples of Roslyn Source Code Generators 
 
 If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 17 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 18 Roslyn Source Code Generators that I have tested you can see and download example:
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -16,16 +16,17 @@ This are the 17 Roslyn Source Code Generators that I have tested you can see and
 |5|[System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions | [https://www.nuget.org/packages/System.Text.RegularExpressions/]({desc.Generator.Nuget.First()}) | Microsoft|
 |6|[SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon | [https://www.nuget.org/packages/SkinnyControllersCommon]({desc.Generator.Nuget.First()}) | Ignat Andrei|
 |7|[Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging | [https://www.nuget.org/packages/Microsoft.Extensions.Logging/]({desc.Generator.Nuget.First()}) | Microsoft|
-|8|[CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm | [https://www.nuget.org/packages/CommunityToolkit.Mvvm]({desc.Generator.Nuget.First()}) | Microsoft|
-|9|[AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct | [https://www.nuget.org/packages/AutoDeconstruct]({desc.Generator.Nuget.First()}) | Jason Bock|
-|10|[System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices | [https://www.nuget.org/packages/System.Runtime.InteropServices/]({desc.Generator.Nuget.First()}) | Microsoft|
-|11|[QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor | [https://www.nuget.org/packages/QuickConstructor]({desc.Generator.Nuget.First()}) | Flavien Charlon|
-|12|[AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor | [https://www.nuget.org/packages/AutoCtor/]({desc.Generator.Nuget.First()}) | Cameron MacFarland|
-|13|[dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet | [https://www.nuget.org/packages/dunet/]({desc.Generator.Nuget.First()}) | Domn Werner|
-|14|[Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen | [https://www.nuget.org/packages/Vogen/]({desc.Generator.Nuget.First()}) | Steve Dunn|
-|15|[RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade | [https://www.nuget.org/packages/RazorBlade/]({desc.Generator.Nuget.First()}) | Lucas Trzesniewski|
-|16|[PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied | [https://www.nuget.org/packages/PartiallyApplied/]({desc.Generator.Nuget.First()}) | Jason Bock|
-|17|[ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT | [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.Nuget.First()}) | Stanislav Silin|
+|8|[RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static | [https://www.nuget.org/packages/RSCG_Static/]({desc.Generator.Nuget.First()}) | Andrei Ignat|
+|9|[CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm | [https://www.nuget.org/packages/CommunityToolkit.Mvvm]({desc.Generator.Nuget.First()}) | Microsoft|
+|10|[AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct | [https://www.nuget.org/packages/AutoDeconstruct]({desc.Generator.Nuget.First()}) | Jason Bock|
+|11|[System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices | [https://www.nuget.org/packages/System.Runtime.InteropServices/]({desc.Generator.Nuget.First()}) | Microsoft|
+|12|[QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor | [https://www.nuget.org/packages/QuickConstructor]({desc.Generator.Nuget.First()}) | Flavien Charlon|
+|13|[AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor | [https://www.nuget.org/packages/AutoCtor/]({desc.Generator.Nuget.First()}) | Cameron MacFarland|
+|14|[dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet | [https://www.nuget.org/packages/dunet/]({desc.Generator.Nuget.First()}) | Domn Werner|
+|15|[Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen | [https://www.nuget.org/packages/Vogen/]({desc.Generator.Nuget.First()}) | Steve Dunn|
+|16|[RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade | [https://www.nuget.org/packages/RazorBlade/]({desc.Generator.Nuget.First()}) | Lucas Trzesniewski|
+|17|[PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied | [https://www.nuget.org/packages/PartiallyApplied/]({desc.Generator.Nuget.First()}) | Jason Bock|
+|18|[ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT | [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.Nuget.First()}) | Stanislav Silin|
 
 
 ## Not tested yet 

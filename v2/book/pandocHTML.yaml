@@ -21,6 +21,7 @@ input-files:
 - examples/System.Text.RegularExpressions.html
 - examples/SkinnyControllersCommon.html
 - examples/Microsoft.Extensions.Logging.html
+- examples/RSCG_Static.html
 - examples/CommunityToolkit.Mvvm.html
 - examples/AutoDeconstruct.html
 - examples/System.Runtime.InteropServices.html

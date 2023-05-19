@@ -1,5 +1,5 @@
 ---
-sidebar_position: 160
+sidebar_position: 170
 title: RSCG - PartiallyApplied
 description: If you need to curry functions, you can use this package
 slug: /PartiallyApplied

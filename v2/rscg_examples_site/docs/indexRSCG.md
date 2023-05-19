@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 17 RSCG with examples .
+This is the list of 18 RSCG with examples .
 
 
 | No        | Name  | 
@@ -17,16 +17,17 @@ This is the list of 17 RSCG with examples .
 |5|[System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)|
 |6|[SkinnyControllersCommon](/docs/SkinnyControllersCommon)|
 |7|[Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)|
-|8|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|
-|9|[AutoDeconstruct](/docs/AutoDeconstruct)|
-|10|[System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)|
-|11|[QuickConstructor](/docs/QuickConstructor)|
-|12|[AutoCtor](/docs/AutoCtor)|
-|13|[dunet](/docs/dunet)|
-|14|[Vogen](/docs/Vogen)|
-|15|[RazorBlade](/docs/RazorBlade)|
-|16|[PartiallyApplied](/docs/PartiallyApplied)|
-|17|[ApparatusAOT](/docs/ApparatusAOT)|
+|8|[RSCG_Static](/docs/RSCG_Static)|
+|9|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|
+|10|[AutoDeconstruct](/docs/AutoDeconstruct)|
+|11|[System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)|
+|12|[QuickConstructor](/docs/QuickConstructor)|
+|13|[AutoCtor](/docs/AutoCtor)|
+|14|[dunet](/docs/dunet)|
+|15|[Vogen](/docs/Vogen)|
+|16|[RazorBlade](/docs/RazorBlade)|
+|17|[PartiallyApplied](/docs/PartiallyApplied)|
+|18|[ApparatusAOT](/docs/ApparatusAOT)|
 
 You can see also the [v1](/docs/v1) 
 
