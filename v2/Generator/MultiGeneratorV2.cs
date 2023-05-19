@@ -83,17 +83,18 @@ public class MultiGeneratorV2
     }
     bool Write(string zipFileOrPdf)
     {
-        return false;
-        //if (File.Exists(zipFileOrPdf))
-        //{
-        //    if (new FileInfo(zipFileOrPdf).Length < 3){
-        //        File.Delete(zipFileOrPdf);
-        //        return true;
-        //    }
-        //    else
-        //        return false;
-        //}
-        //return true;
+        //return false;
+        if (File.Exists(zipFileOrPdf))
+        {
+            if (new FileInfo(zipFileOrPdf).Length < 3)
+            {
+                File.Delete(zipFileOrPdf);
+                return true;
+            }
+            else
+                return false;
+        }
+        return true;
     }
     private async Task<bool> CreateZipFiles(Description desc, string rootFolder)
     {

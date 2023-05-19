@@ -1,7 +1,7 @@
 
 ---
 sidebar_position: 60
-title: 'RSCG Without Examples'
+title: RSCG Without Examples
 ---
 
 ## Other RSCG without examples
