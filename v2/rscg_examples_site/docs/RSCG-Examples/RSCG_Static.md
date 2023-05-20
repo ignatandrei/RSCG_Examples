@@ -52,7 +52,7 @@ Generate interfaces and classes from static classes
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RSCG_Static**
-```xml
+```xml showLineNumbers 
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
@@ -79,7 +79,7 @@ This is the CSharp Project that references **RSCG_Static**
 
   This is the use of **RSCG_Static** in *Program.cs*
 
-```csharp
+```csharp showLineNumbers 
 using RSCG_StaticDemo;
 //for DI, register
 //ISystem_DateTime  with transient for new clsSystem_DateTime()
@@ -100,7 +100,7 @@ Console.WriteLine(dateVar.Now.Second);
 
   This is the use of **RSCG_Static** in *StaticToInterface.cs*
 
-```csharp
+```csharp showLineNumbers 
 namespace RSCG_StaticDemo;
 
 public partial class StaticToInterface
@@ -123,7 +123,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\RSCG_StaticDemo\obj\GX\RSCG_Static\RSCG_Static.GenerateFromStaticIncremental\GenerateInterfaceFromDate.cs" label="GenerateInterfaceFromDate.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 
 #nullable enable
  namespace RSCG_StaticDemo {
@@ -156,10 +156,10 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example RSCG_Static ](/sources/RSCG_Static.zip)
+[Download Example project RSCG_Static ](/sources/RSCG_Static.zip)
 
 :::
 

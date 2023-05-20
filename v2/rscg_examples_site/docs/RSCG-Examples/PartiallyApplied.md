@@ -52,7 +52,7 @@ If you need to curry functions, you can use this package
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **PartiallyApplied**
-```xml
+```xml showLineNumbers 
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -78,7 +78,7 @@ This is the CSharp Project that references **PartiallyApplied**
 
   This is the use of **PartiallyApplied** in *Program.cs*
 
-```csharp
+```csharp showLineNumbers 
 using System;
 
 namespace PartFunc;
@@ -100,7 +100,7 @@ class Program
 
   This is the use of **PartiallyApplied** in *Accounting.cs*
 
-```csharp
+```csharp showLineNumbers 
 namespace PartFunc;
 
 public class Accounting
@@ -127,7 +127,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\obj\GX\PartiallyApplied\PartiallyApplied.PartiallyAppliedGenerator\Partially.g.cs" label="Partially.g.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 using System;
 
 #nullable enable
@@ -146,10 +146,10 @@ public static partial class Partially
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example PartiallyApplied ](/sources/PartiallyApplied.zip)
+[Download Example project PartiallyApplied ](/sources/PartiallyApplied.zip)
 
 :::
 

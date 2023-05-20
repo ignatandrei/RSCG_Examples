@@ -14,7 +14,7 @@ title: '18 Examples',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Examples with code source and instructions to run them.
+         <a href='docs/List-of-RSCG/'>Examples</a> with code source and instructions to run them.
       </>
     ),
   },
@@ -28,11 +28,11 @@ title: '18 Examples',
     ),
   },
   {
-    title: 'Start with introduction',
+    title: 'New to Source Code Generation?',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        See <a href='docs/intro/'>Intro</a> to start with the basics.
+        See <a href='docs/intro/'>Intro</a> to start with the basics in C#.
       </>
     ),
   },

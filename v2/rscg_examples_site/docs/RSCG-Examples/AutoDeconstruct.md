@@ -52,7 +52,7 @@ Automatically add deconstruct for all types in an assembly
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **AutoDeconstruct**
-```xml
+```xml showLineNumbers 
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -79,7 +79,7 @@ This is the CSharp Project that references **AutoDeconstruct**
 
   This is the use of **AutoDeconstruct** in *Program.cs*
 
-```csharp
+```csharp showLineNumbers 
 // See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 var p = new Person();
@@ -94,7 +94,7 @@ Console.WriteLine($"Last name is {l}");
 
   This is the use of **AutoDeconstruct** in *Person.cs*
 
-```csharp
+```csharp showLineNumbers 
 // See https://aka.ms/new-console-template for more information
 using AutoDeconstruct;
 
@@ -128,7 +128,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\obj\GX\AutoDeconstruct\AutoDeconstruct.AutoDeconstructGenerator\AutoDeconstruct.g.cs" label="AutoDeconstruct.g.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 #nullable enable
 
 public static partial class PersonExtensions
@@ -150,10 +150,10 @@ public static partial class PersonExtensions
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example AutoDeconstruct ](/sources/AutoDeconstruct.zip)
+[Download Example project AutoDeconstruct ](/sources/AutoDeconstruct.zip)
 
 :::
 

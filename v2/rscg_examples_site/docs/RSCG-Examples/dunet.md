@@ -55,7 +55,7 @@ Check his examples-  awesome
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **dunet**
-```xml
+```xml showLineNumbers 
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
@@ -86,7 +86,7 @@ This is the CSharp Project that references **dunet**
 
   This is the use of **dunet** in *Program.cs*
 
-```csharp
+```csharp showLineNumbers 
 // See https://github.com/domn1995/dunet for more examples
 using duneDemo;
 Console.WriteLine(WhatIsTheString.FromString("1"));
@@ -127,7 +127,7 @@ Console.WriteLine(x);
 
   This is the use of **dunet** in *Recognize.cs*
 
-```csharp
+```csharp showLineNumbers 
 using Dunet;
 namespace duneDemo;
 
@@ -173,7 +173,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionAttributeGeneration.UnionAttributeGenerator\UnionAttribute.g.cs" label="UnionAttribute.g.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 using System;
 
 namespace Dunet;
@@ -191,7 +191,7 @@ internal sealed class UnionAttribute : Attribute {}
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionGeneration.UnionGenerator\duneDemo.WhatIsTheString.g.cs" label="duneDemo.WhatIsTheString.g.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 #pragma warning disable 1591
 namespace duneDemo;
 abstract partial record WhatIsTheString
@@ -721,7 +721,7 @@ abstract partial record WhatIsTheString
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionGeneration.UnionGenerator\duneDemo.WhatIsTheStringMatchExtensions.g.cs" label="duneDemo.WhatIsTheStringMatchExtensions.g.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 #pragma warning disable 1591
 
 namespace duneDemo;
@@ -968,10 +968,10 @@ internal static class WhatIsTheStringMatchExtensions
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example dunet ](/sources/dunet.zip)
+[Download Example project dunet ](/sources/dunet.zip)
 
 :::
 

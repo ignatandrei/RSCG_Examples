@@ -52,7 +52,7 @@ Add files as C# consts
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RSCG_Utils**
-```xml
+```xml showLineNumbers 
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -86,7 +86,7 @@ This is the CSharp Project that references **RSCG_Utils**
 
   This is the use of **RSCG_Utils** in *Program.cs*
 
-```csharp
+```csharp showLineNumbers 
 Console.WriteLine("Hello, World!");
 string dataFromFile = MyAdditionalFiles.data_gen_txt;
 Console.Write(dataFromFile);
@@ -97,7 +97,7 @@ Console.Write(dataFromFile);
 
   This is the use of **RSCG_Utils** in *data.gen.txt*
 
-```csharp
+```csharp showLineNumbers 
 This is a data
 That you will retrieve
 as C# const
@@ -116,7 +116,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\obj\GX\RSCG_Utils\RSCG_Utils.AdditionalFilesGenerator\MyAdditionalFiles.data.gen.txt.cs" label="MyAdditionalFiles.data.gen.txt.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 
     public static partial class MyAdditionalFiles
     {
@@ -136,10 +136,10 @@ as C# const
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example RSCG_Utils ](/sources/RSCG_Utils.zip)
+[Download Example project RSCG_Utils ](/sources/RSCG_Utils.zip)
 
 :::
 

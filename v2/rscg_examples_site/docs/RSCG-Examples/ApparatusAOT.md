@@ -52,7 +52,7 @@ This will generate code for investigating at runtime the properties of an object
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **ApparatusAOT**
-```xml
+```xml showLineNumbers 
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
@@ -78,7 +78,7 @@ This is the CSharp Project that references **ApparatusAOT**
 
   This is the use of **ApparatusAOT** in *Program.cs*
 
-```csharp
+```csharp showLineNumbers 
 using Apparatus.AOT.Reflection;
 using ApparatusDemo;
 using System;
@@ -118,7 +118,7 @@ foreach (var item in prop)
 
   This is the use of **ApparatusAOT** in *Person.cs*
 
-```csharp
+```csharp showLineNumbers 
 using System.ComponentModel.DataAnnotations;
 namespace ApparatusDemo;
 class Person
@@ -142,7 +142,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\obj\GX\Apparatus.AOT.Reflection.SourceGenerator\Apparatus.AOT.Reflection.SourceGenerator.AotPropertiesReflectionSourceGenerator\ApparatusDemo_PersonExtensions.cs" label="ApparatusDemo_PersonExtensions.cs" >
 
 
-```csharp
+```csharp showLineNumbers 
 
 using System;
 using System.Linq;
@@ -194,10 +194,10 @@ namespace Apparatus.AOT.Reflection
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example ApparatusAOT ](/sources/ApparatusAOT.zip)
+[Download Example project ApparatusAOT ](/sources/ApparatusAOT.zip)
 
 :::
 

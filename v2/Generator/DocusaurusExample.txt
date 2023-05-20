@@ -56,7 +56,7 @@ Source : {{ Description.Generator.Source }}
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **{{ Description.Generator.Name }}**
-```xml
+```xml showLineNumbers 
 {{Description.Data.outputFiles.ContentCsProj}}
 ```
 
@@ -67,7 +67,7 @@ This is the CSharp Project that references **{{ Description.Generator.Name }}**
 
   This is the use of **{{ Description.Generator.Name }}** in *{{fileContent.file}}*
 
-```csharp
+```csharp showLineNumbers 
 {{fileContent.content}}
 ```
   </TabItem>
@@ -86,7 +86,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="{{fileContent.fullPathFile}}" label="{{fileContent.file}}" >
 
 
-```csharp
+```csharp showLineNumbers 
 {{fileContent.content}}
 ```
 
@@ -98,10 +98,10 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 ## Usefull
 
-### Download Example
+### Download Example (.NET  C# )
 :::tip
 
-[Download Example {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
+[Download Example project {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
 
 :::
 
