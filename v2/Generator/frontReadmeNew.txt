@@ -35,3 +35,13 @@ This is the list
 |{{for.index+1}}| [{{descOld.Generator.Name}}]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-{{descOld.Nr+1}}--{{descOld.Generator.NameForBookmark}}) |"
 {{~ end ~}}
 
+
+## Want to help ? 
+
+https://github.com/ignatandrei/RSCG_Examples/labels/good%20first%20issue
+
+## Contributors welcome
+
+If you are an author of a Source Generator, please make an issue to contact you
+
+Also, if you think of better organizing of code, please make an issue to contact you
