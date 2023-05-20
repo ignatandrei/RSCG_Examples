@@ -1,5 +1,7 @@
 ﻿
 
+using System.Xml;
+
 namespace Generator;
 
 public class OutputFiles
@@ -10,10 +12,41 @@ public class OutputFiles
     public string[] csFiles { get; set; }
     public FileWithContent[] contentFiles { get; set; }
     public FileWithContent[] generatedFiles { get; set; }
-    public async Task GatherData()
+    public int LineInCSproj;
+    public string ScribanLineInCSproj
     {
+        get
+        {
+            return "{" + (LineInCSproj + 1) + "}";
+        }
+    }
+
+    public async Task GatherData(string nuget)
+    {
+        var excludedProjectsWithLine = new[]{
+            "DemoRegex.csproj",
+            "DemoSerializeJSON.csproj",
+            "LibraryImportDemo.csproj"
+        };
         ContentCsProj = await File.ReadAllTextAsync(fullPathToCsproj);
-        var dir=Path.GetDirectoryName(fullPathToCsproj);
+        if (!excludedProjectsWithLine.Any(it => fullPathToCsproj.Contains(it)))
+        {
+
+
+            LineInCSproj = ContentCsProj
+                .Split("\n")
+                .Select((it, i) => new { it, i })
+                .Where(it => it.it.Contains(nuget,StringComparison.InvariantCultureIgnoreCase))
+                .Select(a => a.i)
+                .FirstOrDefault();
+
+            //DemoSerializeJSON has .net core inside
+            if (LineInCSproj == 0)
+            {
+                throw new ArgumentException($"cannot find {nuget} in {fullPathToCsproj}");
+            }
+        }
+        var dir =Path.GetDirectoryName(fullPathToCsproj);
         List<FileWithContent> contents = new();
         foreach (var file in csFiles)
         {

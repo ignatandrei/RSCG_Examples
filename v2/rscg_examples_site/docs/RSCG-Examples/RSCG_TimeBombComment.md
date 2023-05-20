@@ -52,7 +52,7 @@ This will generate an error from the comment after a certain date
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RSCG_TimeBombComment**
-```xml showLineNumbers 
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>

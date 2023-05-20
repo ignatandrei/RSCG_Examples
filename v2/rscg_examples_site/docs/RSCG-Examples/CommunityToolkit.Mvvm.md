@@ -58,7 +58,7 @@ Also, this show that RSCG could generate multiple partial declarations
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **CommunityToolkit.Mvvm**
-```xml showLineNumbers 
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

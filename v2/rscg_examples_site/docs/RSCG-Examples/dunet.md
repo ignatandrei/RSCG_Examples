@@ -55,7 +55,7 @@ Check his examples-  awesome
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **dunet**
-```xml showLineNumbers 
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>

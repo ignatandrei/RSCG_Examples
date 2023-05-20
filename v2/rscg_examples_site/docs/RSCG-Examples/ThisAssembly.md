@@ -55,7 +55,7 @@ I found useful to see the assembly version right away in any project that I have
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **ThisAssembly**
-```xml showLineNumbers 
+```xml showLineNumbers {14}
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>

@@ -55,7 +55,7 @@ Do not forget to put into AdditionalFiles section of csproj file
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RazorBlade**
-```xml showLineNumbers 
+```xml showLineNumbers {10}
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>

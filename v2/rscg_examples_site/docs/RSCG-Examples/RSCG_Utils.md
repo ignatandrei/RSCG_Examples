@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 <!---
 <TOCInline toc={toc} />
 -->
-[![Nuget](https://img.shields.io/nuget/dt/RSCG_Utils?label=RSCG_Utils)](https://www.nuget.org/packages/RSCG_Utils)
+[![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Utils?label=updated)](https://github.com/ignatandrei/RSCG_Utils)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social)
 
@@ -27,7 +27,7 @@ Name: **RSCG_Utils**
 Author: Ignat Andrei
 
 NuGet: 
-*https://www.nuget.org/packages/RSCG_Utils*   
+*https://www.nuget.org/packages/rscgutils*   
 
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
@@ -52,7 +52,7 @@ Add files as C# consts
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RSCG_Utils**
-```xml showLineNumbers 
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

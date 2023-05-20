@@ -55,7 +55,7 @@ If you know what are ValueObject,that is one solution
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **Vogen**
-```xml showLineNumbers 
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

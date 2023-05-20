@@ -52,7 +52,7 @@ Automatically add controllers actions for any class injected in constructor
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **SkinnyControllersCommon**
-```xml showLineNumbers 
+```xml showLineNumbers {10}
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>

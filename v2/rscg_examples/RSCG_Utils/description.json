@@ -2,7 +2,7 @@
    "generator":{
       "name":"RSCG_Utils",
       "nuget":[
-         "https://www.nuget.org/packages/RSCG_Utils"
+         "https://www.nuget.org/packages/rscgutils"
       ],
       "link":"https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation",
       "author":"Ignat Andrei",

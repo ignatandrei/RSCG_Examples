@@ -52,7 +52,7 @@ If you need to curry functions, you can use this package
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **PartiallyApplied**
-```xml showLineNumbers 
+```xml showLineNumbers {13}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

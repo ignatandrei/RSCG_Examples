@@ -56,7 +56,7 @@ Source : {{ Description.Generator.Source }}
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **{{ Description.Generator.Name }}**
-```xml showLineNumbers 
+```xml showLineNumbers {{Description.Data.outputFiles.ScribanLineInCSproj}}
 {{Description.Data.outputFiles.ContentCsProj}}
 ```
 

@@ -52,7 +52,7 @@ Logging defined and compiled
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **Microsoft.Extensions.Logging**
-```xml showLineNumbers 
+```xml showLineNumbers {14}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

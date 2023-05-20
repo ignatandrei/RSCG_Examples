@@ -52,7 +52,7 @@ Generate PInvoke calls
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **System.Runtime.InteropServices**
-```xml showLineNumbers 
+```xml showLineNumbers {1}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

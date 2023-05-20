@@ -52,7 +52,7 @@ This will generate code for investigating at runtime the properties of an object
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **ApparatusAOT**
-```xml showLineNumbers 
+```xml showLineNumbers {9}
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>

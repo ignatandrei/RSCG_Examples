@@ -52,7 +52,7 @@ Regex compiled
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **System.Text.RegularExpressions**
-```xml showLineNumbers 
+```xml showLineNumbers {1}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

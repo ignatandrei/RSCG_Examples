@@ -52,7 +52,7 @@ Generate interfaces and classes from static classes
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RSCG_Static**
-```xml showLineNumbers 
+```xml showLineNumbers {14}
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>

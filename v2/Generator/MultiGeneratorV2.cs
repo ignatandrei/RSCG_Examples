@@ -125,10 +125,16 @@ public class MultiGeneratorV2
         {
             throw new Exception($"cannot find {desc.Data.CSProj}");
         }
-        var gen = desc.Data.outputFiles;
-        gen.fullPathToCsproj = csprojItems[0];
-        gen.csFiles = desc.Data.CsFiles;
-        await gen.GatherData();
+        var output = desc.Data.outputFiles;
+        output.fullPathToCsproj = csprojItems[0];
+        output.csFiles = desc.Data.CsFiles;
+        var nugetName = desc.Generator.NugetFirst;
+        nugetName = nugetName
+            .Split("/")
+            .Where(it=>!string.IsNullOrWhiteSpace(it))
+            .Last();
+        await output.GatherData(nugetName);
+        
         //Console.WriteLine(desc.Data.outputFiles.ContentCsProj);
         return desc;
     }
@@ -294,7 +300,7 @@ public class MultiGeneratorV2
         return (p.ExitCode == 0);
 
     }
-    internal async Task WroteDocusaurusAll()
+    internal async Task<bool> WroteDocusaurusAll()
     {
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
@@ -304,6 +310,7 @@ public class MultiGeneratorV2
         {
             Console.WriteLine(" please make true to all to write index");
         }
+        return true;
     }
 
     private async Task<bool> WroteIndexListOfRSCG(string rootPath)
