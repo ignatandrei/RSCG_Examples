@@ -69,10 +69,10 @@ $$"""
     string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
-    await m.WrotePost();
-    if (await m.WroteDocusaurusAll()) return;
-    
-    
+    //await m.WrotePost();
+    //if (await m.WroteDocusaurusAll()) return;
+    await m.WroteDocusaurusAll();
+
     await m.WriteFrontReadMe(oldDesc);
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");

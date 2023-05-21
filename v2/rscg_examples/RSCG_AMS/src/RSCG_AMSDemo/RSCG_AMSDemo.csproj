@@ -11,8 +11,8 @@
 		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="AMS_Base" Version="2022.5.25.1154" />
-    <PackageReference Include="RSCG_AMS" Version="2022.5.25.1154" />
+    <PackageReference Include="AMS_Base" Version="2023.5.21.1551" />
+    <PackageReference Include="RSCG_AMS" Version="2023.5.21.1551" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
   </ItemGroup>
 
 </Project>

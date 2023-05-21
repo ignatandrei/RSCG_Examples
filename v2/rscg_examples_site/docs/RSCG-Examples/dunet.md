@@ -1,6 +1,6 @@
 ---
-sidebar_position: 140
-title: 14 - dunet
+sidebar_position: 150
+title: 15 - dunet
 description: Add union types to C#  - similar with F#/TS discriminated unions
 slug: /dunet
 ---

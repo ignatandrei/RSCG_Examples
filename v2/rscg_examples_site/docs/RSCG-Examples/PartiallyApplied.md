@@ -1,6 +1,6 @@
 ---
-sidebar_position: 170
-title: 17 - PartiallyApplied
+sidebar_position: 180
+title: 18 - PartiallyApplied
 description: If you need to curry functions, you can use this package
 slug: /PartiallyApplied
 ---

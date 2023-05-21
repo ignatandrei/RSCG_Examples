@@ -4,14 +4,14 @@
       "nuget":[
          "https://www.nuget.org/packages/RSCG_AMS/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/ignatandrei/RSCG_AMS",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_AMS"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Automatically registering the version, ci, commit id"],
       "csprojDemo":"RSCG_AMSDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","globals.cs"]
    },
    "links":{
       "blog":"",

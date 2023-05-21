@@ -23,6 +23,7 @@ input-files:
 - examples/Microsoft.Extensions.Logging.html
 - examples/RSCG_Static.html
 - examples/CommunityToolkit.Mvvm.html
+- examples/RSCG_AMS.html
 - examples/AutoDeconstruct.html
 - examples/System.Runtime.InteropServices.html
 - examples/QuickConstructor.html

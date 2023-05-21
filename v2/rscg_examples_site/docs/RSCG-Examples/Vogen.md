@@ -1,6 +1,6 @@
 ---
-sidebar_position: 150
-title: 15 - Vogen
+sidebar_position: 160
+title: 16 - Vogen
 description: Transform values( e.g. int) into classes
 slug: /Vogen
 ---

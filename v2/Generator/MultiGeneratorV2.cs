@@ -61,6 +61,11 @@ public class MultiGeneratorV2
             {"Apparatus.AOT.Reflection",true }
 
         };
+
+        //foreach(var v in generators)
+        //{
+        //    generators[v.Key] =  (v.Key == "RSCG_AMS");
+        //}
     }
 
     public async Task GatherData()

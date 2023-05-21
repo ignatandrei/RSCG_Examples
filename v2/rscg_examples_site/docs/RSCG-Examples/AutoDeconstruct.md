@@ -1,6 +1,6 @@
 ---
-sidebar_position: 100
-title: 10 - AutoDeconstruct
+sidebar_position: 110
+title: 11 - AutoDeconstruct
 description: Automatically add deconstruct for all types in an assembly
 slug: /AutoDeconstruct
 ---
