@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"RSCG_AMS",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_AMS/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"RSCG_AMSDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

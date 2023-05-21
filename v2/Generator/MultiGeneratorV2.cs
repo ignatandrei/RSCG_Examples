@@ -49,6 +49,7 @@ public class MultiGeneratorV2
             {"Microsoft.Extensions.Logging",true },
             {"RSCG_Static",true },
             {"CommunityToolkit.Mvvm",true },
+            {"RSCG_AMS",true },
             {"AutoDeconstruct",true },
             {"System.Runtime.InteropServices",true },
             {"QuickConstructor",true },
