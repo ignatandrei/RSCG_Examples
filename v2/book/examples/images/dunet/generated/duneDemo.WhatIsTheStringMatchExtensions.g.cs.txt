@@ -1,0 +1,236 @@
+#pragma warning disable 1591
+
+namespace duneDemo;
+
+internal static class WhatIsTheStringMatchExtensions
+{
+    public static async System.Threading.Tasks.Task<TMatchOutput> MatchAsync<TMatchOutput>(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsString, TMatchOutput> @isString,
+        System.Func<WhatIsTheString.IsLong, TMatchOutput> @isLong,
+        System.Func<WhatIsTheString.IsDate, TMatchOutput> @isDate,
+        System.Func<WhatIsTheString.IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+    )
+    => (await unionTask.ConfigureAwait(false)).Match(
+            @isString,
+            @isLong,
+            @isDate,
+            @isNullWhiteSpace
+        );
+    public static async System.Threading.Tasks.ValueTask<TMatchOutput> MatchAsync<TMatchOutput>(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsString, TMatchOutput> @isString,
+        System.Func<WhatIsTheString.IsLong, TMatchOutput> @isLong,
+        System.Func<WhatIsTheString.IsDate, TMatchOutput> @isDate,
+        System.Func<WhatIsTheString.IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+    )
+    => (await unionTask.ConfigureAwait(false)).Match(
+            @isString,
+            @isLong,
+            @isDate,
+            @isNullWhiteSpace
+        );
+    public static async System.Threading.Tasks.Task MatchAsync(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsString> @isString,
+        System.Action<WhatIsTheString.IsLong> @isLong,
+        System.Action<WhatIsTheString.IsDate> @isDate,
+        System.Action<WhatIsTheString.IsNullWhiteSpace> @isNullWhiteSpace
+    )
+    => (await unionTask.ConfigureAwait(false)).Match(
+            @isString,
+            @isLong,
+            @isDate,
+            @isNullWhiteSpace
+        );
+    public static async System.Threading.Tasks.ValueTask MatchAsync(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsString> @isString,
+        System.Action<WhatIsTheString.IsLong> @isLong,
+        System.Action<WhatIsTheString.IsDate> @isDate,
+        System.Action<WhatIsTheString.IsNullWhiteSpace> @isNullWhiteSpace
+    )
+    => (await unionTask.ConfigureAwait(false)).Match(
+            @isString,
+            @isLong,
+            @isDate,
+            @isNullWhiteSpace
+        );
+    public static async System.Threading.Tasks.Task<TMatchOutput> MatchIsStringAsync<TMatchOutput>(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsString, TMatchOutput> @isString,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsString(
+                    @isString,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task<TMatchOutput> MatchIsLongAsync<TMatchOutput>(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsLong, TMatchOutput> @isLong,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsLong(
+                    @isLong,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task<TMatchOutput> MatchIsDateAsync<TMatchOutput>(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsDate, TMatchOutput> @isDate,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsDate(
+                    @isDate,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task<TMatchOutput> MatchIsNullWhiteSpaceAsync<TMatchOutput>(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsNullWhiteSpace(
+                    @isNullWhiteSpace,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask<TMatchOutput> MatchIsStringAsync<TMatchOutput>(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsString, TMatchOutput> @isString,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsString(
+                    @isString,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask<TMatchOutput> MatchIsLongAsync<TMatchOutput>(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsLong, TMatchOutput> @isLong,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsLong(
+                    @isLong,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask<TMatchOutput> MatchIsDateAsync<TMatchOutput>(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsDate, TMatchOutput> @isDate,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsDate(
+                    @isDate,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask<TMatchOutput> MatchIsNullWhiteSpaceAsync<TMatchOutput>(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Func<WhatIsTheString.IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+        System.Func<TMatchOutput> @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsNullWhiteSpace(
+                    @isNullWhiteSpace,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task MatchIsStringAsync(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsString> @isString,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsString(
+                    @isString,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task MatchIsLongAsync(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsLong> @isLong,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsLong(
+                    @isLong,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task MatchIsDateAsync(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsDate> @isDate,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsDate(
+                    @isDate,
+                    @else
+                );
+    public static async System.Threading.Tasks.Task MatchIsNullWhiteSpaceAsync(
+        this System.Threading.Tasks.Task<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsNullWhiteSpace> @isNullWhiteSpace,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsNullWhiteSpace(
+                    @isNullWhiteSpace,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask MatchIsStringAsync(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsString> @isString,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsString(
+                    @isString,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask MatchIsLongAsync(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsLong> @isLong,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsLong(
+                    @isLong,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask MatchIsDateAsync(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsDate> @isDate,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsDate(
+                    @isDate,
+                    @else
+                );
+    public static async System.Threading.Tasks.ValueTask MatchIsNullWhiteSpaceAsync(
+        this System.Threading.Tasks.ValueTask<WhatIsTheString> unionTask,
+        System.Action<WhatIsTheString.IsNullWhiteSpace> @isNullWhiteSpace,
+        System.Action @else
+    )
+        =>
+            (await unionTask.ConfigureAwait(false))
+                .MatchIsNullWhiteSpace(
+                    @isNullWhiteSpace,
+                    @else
+                );
+}
+#pragma warning restore 1591

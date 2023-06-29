@@ -1,0 +1,8 @@
+@using RazorBladeDemo;
+@inherits RazorBlade.HtmlTemplate<Person>;
+
+This is the @Model.FirstName @Model.LastName
+
+<br />
+
+This should be full name of @Model.FullName()

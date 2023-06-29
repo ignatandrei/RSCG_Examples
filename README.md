@@ -1,10 +1,10 @@
-# RSCG - 19 Examples of Roslyn Source Code Generators 
+# RSCG - 20 Examples of Roslyn Source Code Generators 
 
 If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 19 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 20 Roslyn Source Code Generators that I have tested you can see and download example:
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -28,6 +28,7 @@ This are the 19 Roslyn Source Code Generators that I have tested you can see and
 |17|[RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade | [https://www.nuget.org/packages/RazorBlade/]({desc.Generator.Nuget.First()}) | Lucas Trzesniewski|
 |18|[PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied | [https://www.nuget.org/packages/PartiallyApplied/]({desc.Generator.Nuget.First()}) | Jason Bock|
 |19|[ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT | [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.Nuget.First()}) | Stanislav Silin|
+|20|[NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators | [https://www.nuget.org/packages/NetEscapades.EnumGenerators/]({desc.Generator.Nuget.First()}) | Andrew Lock|
 
 
 ## Not tested yet 

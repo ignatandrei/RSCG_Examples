@@ -9,7 +9,7 @@
       "source":"https://github.com/andrewlock/NetEscapades.EnumGenerators"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Running fast tostring and other  features for enum"],
       "csprojDemo":"TestEnumEscapades.csproj",
       "csFiles":["Program.cs","InstallType.cs","AddToCoffee.cs"]
    },

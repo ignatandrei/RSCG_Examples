@@ -1,0 +1,8 @@
+
+namespace Console_TimeBombComment {
+    partial class TestClass { 
+        const bool TB_20230508 = true;
+    }
+}
+
+                

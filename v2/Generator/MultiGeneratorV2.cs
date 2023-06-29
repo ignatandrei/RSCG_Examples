@@ -243,7 +243,14 @@ public class MultiGeneratorV2
         {
             await CreateImageFile(item, pathImages);
         }
-
+        var textNoImages = Directory.GetFiles(pathImages, "*.txt",SearchOption.AllDirectories);
+        foreach(var txt in textNoImages)
+        {
+            if(!File.Exists(txt.Substring(0,txt.Length-4)+".png"))
+            {
+                Console.WriteLine($"PLEASE MAKE IMAGE FOR {txt}");
+            }
+        }
     }
 
     private async Task CreateImageFile(Description it, string pathImages)
@@ -278,8 +285,14 @@ public class MultiGeneratorV2
     private async Task<bool> CreateCarbonFile(string imageFile, string destination)
     {
         var nameFileImg = Path.GetFileName(destination);
+            
         if (File.Exists(destination) || File.Exists(destination + ".png"))
             return false;
+        if (!File.Exists(destination + ".txt"))
+        {
+            await File.WriteAllTextAsync(destination + ".txt", File.ReadAllText(imageFile));
+        }
+
         //if (destination.Contains("RazorTemplate.g.cs")) return true;
         ProcessStartInfo psi = new ();
         //psi.WorkingDirectory = @"carbon-now.cmd";

@@ -1,0 +1,520 @@
+#pragma warning disable 1591
+namespace duneDemo;
+abstract partial record WhatIsTheString
+{
+    private WhatIsTheString() {}
+
+    public abstract TMatchOutput Match<TMatchOutput>(
+        System.Func<IsString, TMatchOutput> @isString,
+        System.Func<IsLong, TMatchOutput> @isLong,
+        System.Func<IsDate, TMatchOutput> @isDate,
+        System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+    );
+    public abstract void Match(
+        System.Action<IsString> @isString,
+        System.Action<IsLong> @isLong,
+        System.Action<IsDate> @isDate,
+        System.Action<IsNullWhiteSpace> @isNullWhiteSpace
+    );
+
+    public abstract TMatchOutput Match<TState, TMatchOutput>(
+        TState state,
+        System.Func<TState, IsString, TMatchOutput> @isString,
+        System.Func<TState, IsLong, TMatchOutput> @isLong,
+        System.Func<TState, IsDate, TMatchOutput> @isDate,
+        System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+    );
+    public abstract void Match<TState>(
+        TState state,
+        System.Action<TState, IsString> @isString,
+        System.Action<TState, IsLong> @isLong,
+        System.Action<TState, IsDate> @isDate,
+        System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace
+    );
+
+    public abstract TMatchOutput MatchIsString<TMatchOutput>(
+        System.Func<IsString, TMatchOutput> @isString,
+        System.Func<TMatchOutput> @else
+    );
+    public abstract TMatchOutput MatchIsLong<TMatchOutput>(
+        System.Func<IsLong, TMatchOutput> @isLong,
+        System.Func<TMatchOutput> @else
+    );
+    public abstract TMatchOutput MatchIsDate<TMatchOutput>(
+        System.Func<IsDate, TMatchOutput> @isDate,
+        System.Func<TMatchOutput> @else
+    );
+    public abstract TMatchOutput MatchIsNullWhiteSpace<TMatchOutput>(
+        System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+        System.Func<TMatchOutput> @else
+    );
+
+    public abstract void MatchIsString(
+        System.Action<IsString> @isString,
+        System.Action @else
+    );
+    public abstract void MatchIsLong(
+        System.Action<IsLong> @isLong,
+        System.Action @else
+    );
+    public abstract void MatchIsDate(
+        System.Action<IsDate> @isDate,
+        System.Action @else
+    );
+    public abstract void MatchIsNullWhiteSpace(
+        System.Action<IsNullWhiteSpace> @isNullWhiteSpace,
+        System.Action @else
+    );
+
+    public abstract TMatchOutput MatchIsString<TState, TMatchOutput>(
+        TState state,
+        System.Func<TState, IsString, TMatchOutput> @isString,
+        System.Func<TState, TMatchOutput> @else
+    );
+    public abstract TMatchOutput MatchIsLong<TState, TMatchOutput>(
+        TState state,
+        System.Func<TState, IsLong, TMatchOutput> @isLong,
+        System.Func<TState, TMatchOutput> @else
+    );
+    public abstract TMatchOutput MatchIsDate<TState, TMatchOutput>(
+        TState state,
+        System.Func<TState, IsDate, TMatchOutput> @isDate,
+        System.Func<TState, TMatchOutput> @else
+    );
+    public abstract TMatchOutput MatchIsNullWhiteSpace<TState, TMatchOutput>(
+        TState state,
+        System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+        System.Func<TState, TMatchOutput> @else
+    );
+
+    public abstract void MatchIsString<TState>(
+        TState state,
+        System.Action<TState, IsString> @isString,
+        System.Action<TState> @else
+    );
+    public abstract void MatchIsLong<TState>(
+        TState state,
+        System.Action<TState, IsLong> @isLong,
+        System.Action<TState> @else
+    );
+    public abstract void MatchIsDate<TState>(
+        TState state,
+        System.Action<TState, IsDate> @isDate,
+        System.Action<TState> @else
+    );
+    public abstract void MatchIsNullWhiteSpace<TState>(
+        TState state,
+        System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace,
+        System.Action<TState> @else
+    );
+
+    public sealed partial record IsString : WhatIsTheString
+    {
+        public override TMatchOutput Match<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isString(this);
+        public override void Match(
+            System.Action<IsString> @isString,
+            System.Action<IsLong> @isLong,
+            System.Action<IsDate> @isDate,
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isString(this);
+        public override TMatchOutput Match<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isString(state, this);
+        public override void Match<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isString(state, this);
+        public override TMatchOutput MatchIsString<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<TMatchOutput> @else
+        ) => @isString(this);
+        public override TMatchOutput MatchIsLong<TMatchOutput>(
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsDate<TMatchOutput>(
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsNullWhiteSpace<TMatchOutput>(
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override void MatchIsString(
+            System.Action<IsString> @isString,
+            System.Action @else
+        ) => @isString(this);
+        public override void MatchIsLong(
+            System.Action<IsLong> @isLong,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsDate(
+            System.Action<IsDate> @isDate,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsNullWhiteSpace(
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action @else
+        ) => @else();
+        public override TMatchOutput MatchIsString<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, TMatchOutput> @else
+        ) => @isString(state, this);
+        public override TMatchOutput MatchIsLong<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsDate<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsNullWhiteSpace<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override void MatchIsString<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState> @else
+        ) => @isString(state, this);
+        public override void MatchIsLong<TState>(
+        TState state,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsDate<TState>(
+        TState state,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsNullWhiteSpace<TState>(
+        TState state,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action<TState> @else
+        ) => @else(state);
+    }
+
+    public sealed partial record IsLong : WhatIsTheString
+    {
+        public override TMatchOutput Match<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isLong(this);
+        public override void Match(
+            System.Action<IsString> @isString,
+            System.Action<IsLong> @isLong,
+            System.Action<IsDate> @isDate,
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isLong(this);
+        public override TMatchOutput Match<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isLong(state, this);
+        public override void Match<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isLong(state, this);
+        public override TMatchOutput MatchIsString<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsLong<TMatchOutput>(
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<TMatchOutput> @else
+        ) => @isLong(this);
+        public override TMatchOutput MatchIsDate<TMatchOutput>(
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsNullWhiteSpace<TMatchOutput>(
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override void MatchIsString(
+            System.Action<IsString> @isString,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsLong(
+            System.Action<IsLong> @isLong,
+            System.Action @else
+        ) => @isLong(this);
+        public override void MatchIsDate(
+            System.Action<IsDate> @isDate,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsNullWhiteSpace(
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action @else
+        ) => @else();
+        public override TMatchOutput MatchIsString<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsLong<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, TMatchOutput> @else
+        ) => @isLong(state, this);
+        public override TMatchOutput MatchIsDate<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsNullWhiteSpace<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override void MatchIsString<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsLong<TState>(
+        TState state,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState> @else
+        ) => @isLong(state, this);
+        public override void MatchIsDate<TState>(
+        TState state,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsNullWhiteSpace<TState>(
+        TState state,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action<TState> @else
+        ) => @else(state);
+    }
+
+    public sealed partial record IsDate : WhatIsTheString
+    {
+        public override TMatchOutput Match<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isDate(this);
+        public override void Match(
+            System.Action<IsString> @isString,
+            System.Action<IsLong> @isLong,
+            System.Action<IsDate> @isDate,
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isDate(this);
+        public override TMatchOutput Match<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isDate(state, this);
+        public override void Match<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isDate(state, this);
+        public override TMatchOutput MatchIsString<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsLong<TMatchOutput>(
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsDate<TMatchOutput>(
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<TMatchOutput> @else
+        ) => @isDate(this);
+        public override TMatchOutput MatchIsNullWhiteSpace<TMatchOutput>(
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override void MatchIsString(
+            System.Action<IsString> @isString,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsLong(
+            System.Action<IsLong> @isLong,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsDate(
+            System.Action<IsDate> @isDate,
+            System.Action @else
+        ) => @isDate(this);
+        public override void MatchIsNullWhiteSpace(
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action @else
+        ) => @else();
+        public override TMatchOutput MatchIsString<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsLong<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsDate<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, TMatchOutput> @else
+        ) => @isDate(state, this);
+        public override TMatchOutput MatchIsNullWhiteSpace<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override void MatchIsString<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsLong<TState>(
+        TState state,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsDate<TState>(
+        TState state,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState> @else
+        ) => @isDate(state, this);
+        public override void MatchIsNullWhiteSpace<TState>(
+        TState state,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action<TState> @else
+        ) => @else(state);
+    }
+
+    public sealed partial record IsNullWhiteSpace : WhatIsTheString
+    {
+        public override TMatchOutput Match<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isNullWhiteSpace(this);
+        public override void Match(
+            System.Action<IsString> @isString,
+            System.Action<IsLong> @isLong,
+            System.Action<IsDate> @isDate,
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isNullWhiteSpace(this);
+        public override TMatchOutput Match<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace
+        ) => @isNullWhiteSpace(state, this);
+        public override void Match<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace
+        ) => @isNullWhiteSpace(state, this);
+        public override TMatchOutput MatchIsString<TMatchOutput>(
+            System.Func<IsString, TMatchOutput> @isString,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsLong<TMatchOutput>(
+            System.Func<IsLong, TMatchOutput> @isLong,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsDate<TMatchOutput>(
+            System.Func<IsDate, TMatchOutput> @isDate,
+            System.Func<TMatchOutput> @else
+        ) => @else();
+        public override TMatchOutput MatchIsNullWhiteSpace<TMatchOutput>(
+            System.Func<IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TMatchOutput> @else
+        ) => @isNullWhiteSpace(this);
+        public override void MatchIsString(
+            System.Action<IsString> @isString,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsLong(
+            System.Action<IsLong> @isLong,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsDate(
+            System.Action<IsDate> @isDate,
+            System.Action @else
+        ) => @else();
+        public override void MatchIsNullWhiteSpace(
+            System.Action<IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action @else
+        ) => @isNullWhiteSpace(this);
+        public override TMatchOutput MatchIsString<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsString, TMatchOutput> @isString,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsLong<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsLong, TMatchOutput> @isLong,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsDate<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsDate, TMatchOutput> @isDate,
+            System.Func<TState, TMatchOutput> @else
+        ) => @else(state);
+        public override TMatchOutput MatchIsNullWhiteSpace<TState, TMatchOutput>(
+        TState state,
+            System.Func<TState, IsNullWhiteSpace, TMatchOutput> @isNullWhiteSpace,
+            System.Func<TState, TMatchOutput> @else
+        ) => @isNullWhiteSpace(state, this);
+        public override void MatchIsString<TState>(
+        TState state,
+            System.Action<TState, IsString> @isString,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsLong<TState>(
+        TState state,
+            System.Action<TState, IsLong> @isLong,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsDate<TState>(
+        TState state,
+            System.Action<TState, IsDate> @isDate,
+            System.Action<TState> @else
+        ) => @else(state);
+        public override void MatchIsNullWhiteSpace<TState>(
+        TState state,
+            System.Action<TState, IsNullWhiteSpace> @isNullWhiteSpace,
+            System.Action<TState> @else
+        ) => @isNullWhiteSpace(state, this);
+    }
+
+}
+#pragma warning restore 1591

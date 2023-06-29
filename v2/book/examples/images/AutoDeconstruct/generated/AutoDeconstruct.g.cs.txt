@@ -1,0 +1,11 @@
+#nullable enable
+
+public static partial class PersonExtensions
+{
+	public static void Deconstruct(this global::Person @self, out string? @firstName, out string? @lastName, out string? @title)
+	{
+		global::System.ArgumentNullException.ThrowIfNull(@self);
+		(@firstName, @lastName, @title) =
+			(@self.FirstName, @self.LastName, @self.Title);
+	}
+}
