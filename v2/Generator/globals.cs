@@ -7,3 +7,6 @@ global using System.Threading;
 global using System.Threading.Tasks;
 global using Generator;
 global using System.Collections.Generic;
+global using System.Diagnostics;
+global using System.IO.Compression;
+global using System.Reflection.Emit;

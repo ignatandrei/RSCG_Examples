@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"NetEscapades.EnumGenerators",
+      "nuget":[
+         "https://www.nuget.org/packages/NetEscapades.EnumGenerators/"
+      ],
+      "link":"https://andrewlock.net/netescapades-enumgenerators-a-source-generator-for-enum-performance/",
+      "author":"Andrew Lock",
+      "source":"https://github.com/andrewlock/NetEscapades.EnumGenerators"
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"TestEnumEscapades.csproj",
+      "csFiles":["Program.cs","InstallType.cs","AddToCoffee.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

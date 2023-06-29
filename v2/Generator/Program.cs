@@ -69,7 +69,7 @@ $$"""
     string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
     await m.GatherData();
-    //await m.WrotePost();
+    await m.WrotePost();
     //if (await m.WroteDocusaurusAll()) return;
     await m.WroteDocusaurusAll();
 

@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.IO.Compression;
-using System.Reflection.Emit;
-
-
-namespace Generator;
+﻿namespace Generator;
 
 public class MultiGeneratorV2
 {
@@ -58,8 +50,8 @@ public class MultiGeneratorV2
             {"Vogen",true },
             {"RazorBlade",true },
             { "PartiallyApplied",true},
-            {"Apparatus.AOT.Reflection",true }
-
+            {"Apparatus.AOT.Reflection",true },
+            {"NetEscapades.EnumGenerators",true }
         };
 
         //foreach(var v in generators)
