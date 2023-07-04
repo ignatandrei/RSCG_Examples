@@ -1,0 +1,26 @@
+namespace RSCG_FunctionsWithDIDemo
+{ 
+public partial class TestDIMyClass
+{ 
+private TestDI1 _TestDI1;
+private TestDI2 _TestDI2;
+public TestDIMyClass  
+
+(TestDI1 _TestDI1,TestDI2 _TestDI2)
+ { 
+this._TestDI1=_TestDI1;
+this._TestDI2=_TestDI2;
+
+ } //end constructor 
+
+//making call to TestMyFunc1
+public bool TestMyFunc1(int  x,int  y){ 
+var t1 = this._TestDI1  ;
+if(t1 == null) throw new ArgumentException(" service TestDI1  is null in TestDIMyClass ");
+var t2 = this._TestDI2  ;
+if(t2 == null) throw new ArgumentException(" service TestDI2  is null in TestDIMyClass ");
+return  TestMyFunc1(t1,t2,x,y);
+}
+
+ }//class
+ }//namespace

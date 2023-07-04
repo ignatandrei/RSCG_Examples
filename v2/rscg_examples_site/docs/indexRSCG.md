@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 20 RSCG with examples .
+This is the list of 21 RSCG with examples .
 
 
 | No        | Name  | 
@@ -30,6 +30,7 @@ This is the list of 20 RSCG with examples .
 |18|[PartiallyApplied](/docs/PartiallyApplied)|
 |19|[ApparatusAOT](/docs/ApparatusAOT)|
 |20|[NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)|
+|21|[RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)|
 
 You can see also the [v1](/docs/v1) 
 

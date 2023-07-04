@@ -4,14 +4,14 @@
       "nuget":[
          "https://www.nuget.org/packages/RSCG_FunctionsWithDI/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/ignatandrei/functionsdi",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/functionsdi"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Generating functions that have parameters from services"],
       "csprojDemo":"RSCG_FunctionsWithDIDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","TestDI1.cs","TestDI2.cs","TestDIMyClass.cs"]
    },
    "links":{
       "blog":"",
