@@ -51,7 +51,8 @@ public class MultiGeneratorV2
             {"RazorBlade",true },
             { "PartiallyApplied",true},
             {"Apparatus.AOT.Reflection",true },
-            {"NetEscapades.EnumGenerators",true }
+            {"NetEscapades.EnumGenerators",true },
+            {"RSCG_FunctionsWithDI",true }
         };
 
         //foreach(var v in generators)
