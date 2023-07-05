@@ -19,8 +19,7 @@ For creating the RSCG you will simply create a .NET Standard 2.0 project, add th
 
 ``` 
 
-
-and start implementing 
+For tutorials , it is easiear to start implementing ,even if deprecated
 
 ``` csharp
 
@@ -32,9 +31,18 @@ public interface ISourceGenerator
 
 ```
 
+After you understand , you can start with v2 IIncrementalGenerator : 
+https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md
+
+
+
 Start from examples at https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators
+
 Also, you can read the source code for the RSCG presented in this book.
 
+
+
+#
 
 ## Show me some code for RSCG
 
@@ -49,9 +57,22 @@ https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookb
 After that, you can play with the examples from https://github.com/dotnet/roslyn-sdk/tree/main/samples/CSharp/SourceGenerators or from https://sourcegen.dev/ (see AutoNotify in the dropdown)
 
 
+Second iteration , incremental generators: https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md 
+
+
+
 ## How the RSCG can help me to write faster / better the code  ?
 
 Glad that you asked. You can see in action a RSCG for automatically generating code for automating testing (see DynamicMocking ) , parsing enum (see Enum ) , generating controllers actions from a interface ( SkinnyControllers ), currying functions and many more. In this book you will find more than 10 examples of some RSCG that can help you. Also, you can find the source code of the examples at  https://github.com/ignatandrei/RSCG_Examples.
+
+# Is Microsoft using Roslyn Source Code Generators ?
+
+Yes , Microsoft is developing more Generators - for getting rid of reflection - and other tasks.
+
+https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code
+
+https://github.com/search?q=org%3Adotnet+IIncrementalGenerator+language%3AC%23&type=code&l=C%23&p=2
+
 
 
 ## More Links
@@ -65,6 +86,7 @@ https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-ove
 Second iteration , incremental generators: https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md 
 
 Andrew Lock's blog post on source generators:  https://andrewlock.net/series/creating-a-source-generator/
+
 
 Jason Bock on constructing AutoDeconstruct : https://codemag.com/Article/2305061/Writing-Code-to-Generate-Code-in-C#
 
