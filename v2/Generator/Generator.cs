@@ -1,10 +1,5 @@
 ﻿
 namespace Generator;
-public class CSharp
-{
-    public string FileCsproj;
-    public string[] OutputFiles;
-}
 
 public class Generator
 {
@@ -13,6 +8,7 @@ public class Generator
     {
         get
         {
+            ArgumentNullException.ThrowIfNull(Name);
             var bookmark = Name.ToLower();
             bookmark = bookmark.Replace(" + ", "--");
             bookmark = bookmark.Replace(" ", "-");
@@ -23,23 +19,26 @@ public class Generator
     {
         get
         {
+            ArgumentNullException.ThrowIfNull(Nuget);
+            if(Nuget.Length == 0)
+                throw new ArgumentOutOfRangeException(nameof(Nuget));
             return Nuget[0];
         }
     }
     [JsonPropertyName("name")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     [JsonPropertyName("nuget")]
-    public string[] Nuget { get; set; }
+    public string[]? Nuget { get; set; }
 
     [JsonPropertyName("link")]
-    public string Link { get; set; }
+    public string? Link { get; set; }
 
     [JsonPropertyName("author")]
-    public string Author { get; set; }
+    public string? Author { get; set; }
 
     [JsonPropertyName("source")]
-    public string Source { get; set; }
+    public string? Source { get; set; }
 
     public string MarkDownNugetDownloads
     {
@@ -48,7 +47,8 @@ public class Generator
             var ret = "";
             if ((Nuget?.Length ?? 0) == 0)
                 return ret;
-            foreach(var item in Nuget)
+            ArgumentNullException.ThrowIfNull(Nuget);
+            foreach (var item in Nuget)
             {
                 var l = "https://www.nuget.org/packages/".Length;
                 var name = item.Substring(l);
@@ -63,6 +63,7 @@ public class Generator
     {
         get
         {
+            ArgumentNullException.ThrowIfNull(Source);
             var strShields = "https://img.shields.io";
             var data = Source.Split("/",StringSplitOptions.RemoveEmptyEntries);
             var site = data[1].Replace(".com", "");
@@ -75,6 +76,7 @@ public class Generator
     {
         get
         {
+            ArgumentNullException.ThrowIfNull(Source);
             var strShields = "https://img.shields.io";
             var data = Source.Split("/", StringSplitOptions.RemoveEmptyEntries);
             var site = data[1].Replace(".com", "");

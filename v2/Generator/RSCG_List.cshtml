@@ -26,8 +26,12 @@ This is the list of @Model.Length RSCG with examples .
         <th>No</th>
         <th>Name</th>
     </tr>
+    
     @foreach(var desc in Model)
     {
+
+            ArgumentNullException.ThrowIfNull(desc.Generator);
+
             var link = $"examples/{desc.Generator.Name}.html";
             <tr>
             <td>@desc.Nr</td>

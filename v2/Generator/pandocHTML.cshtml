@@ -17,6 +17,7 @@ input-files:
 
 @foreach (var desc in Model)
 {
+    ArgumentNullException.ThrowIfNull(desc.Generator);
     var link = $"- examples/{desc.Generator.Name}.html" +Environment.NewLine;
     @link
 

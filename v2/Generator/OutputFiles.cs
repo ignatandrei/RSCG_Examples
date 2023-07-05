@@ -6,12 +6,12 @@ namespace Generator;
 
 public class OutputFiles
 {
-    public string fullPathToCsproj { get; set; }
+    public string? fullPathToCsproj { get; set; }
 
-    public string ContentCsProj { get;internal set; }
-    public string[] csFiles { get; set; }
-    public FileWithContent[] contentFiles { get; set; }
-    public FileWithContent[] generatedFiles { get; set; }
+    public string? ContentCsProj { get;internal set; }
+    public string[]? csFiles { get; set; }
+    public FileWithContent[]? contentFiles { get; set; }
+    public FileWithContent[]? generatedFiles { get; set; }
     public int LineInCSproj;
     public string ScribanLineInCSproj
     {
@@ -28,6 +28,7 @@ public class OutputFiles
             "DemoSerializeJSON.csproj",
             "LibraryImportDemo.csproj"
         };
+        ArgumentNullException.ThrowIfNull(fullPathToCsproj);
         ContentCsProj = await File.ReadAllTextAsync(fullPathToCsproj);
         if (!excludedProjectsWithLine.Any(it => fullPathToCsproj.Contains(it)))
         {
@@ -47,7 +48,9 @@ public class OutputFiles
             }
         }
         var dir =Path.GetDirectoryName(fullPathToCsproj);
-        List<FileWithContent> contents = new();
+        ArgumentNullException.ThrowIfNull(dir);
+        List <FileWithContent> contents = new();
+        ArgumentNullException.ThrowIfNull(csFiles);
         foreach (var file in csFiles)
         {
             var fileFound = Directory.GetFiles(dir, file, SearchOption.AllDirectories);

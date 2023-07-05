@@ -5,7 +5,7 @@ class MultiGenerator
 {
     string[] generators;
     private readonly string rootPath;
-    private DescriptionOld[] _AllDescriptions = null;
+    private DescriptionOld?[]? _AllDescriptions = null;
 
     
     public MultiGenerator(string root)
@@ -42,7 +42,7 @@ class MultiGenerator
     }
 
 
-    public async Task<DescriptionOld[]> AllDescriptions()
+    public async Task<DescriptionOld?[]> AllDescriptions()
     {
         if (_AllDescriptions != null)
             return _AllDescriptions;
@@ -53,28 +53,29 @@ class MultiGenerator
             return _AllDescriptions;
 
         _AllDescriptions = await Task.WhenAll(generators.Select(async it => await Generate(it)).ToArray());
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         return _AllDescriptions;
         
     }
     public async Task GeneratePost()
     {
         var gen = await AllDescriptions();
-        var posts = gen.Select(async it => await GeneratePost(it)).ToArray();
+        var posts = gen.Select(async it => await GeneratePost(it!)).ToArray();
 
         await Task.WhenAll(posts);
         
 
     }
-    public async Task GenerateForEmail()
-    {
-        var gen = await AllDescriptions();
-        var posts = gen
-            .Where(it=>!it.Generator.Author.Contains("gnat"))
-            .Select(async it => await GenerateEmail(it))
-            .ToArray();
-        await Task.WhenAll(posts);
+    //public async Task GenerateForEmail()
+    //{
+    //    var gen = await AllDescriptions();
+    //    var posts = gen
+    //        .Where(it=>!it.Generator.Author.Contains("gnat"))
+    //        .Select(async it => await GenerateEmail(it))
+    //        .ToArray();
+    //    await Task.WhenAll(posts);
 
-    }
+    //}
 
     private async Task GenerateEmail(DescriptionOld desc)
     {
@@ -82,7 +83,7 @@ class MultiGenerator
         var templatePost = await File.ReadAllTextAsync("email.txt");
         var templateScriban = Scriban.Template.Parse(templatePost);
         var output = templateScriban.Render(desc, member => member.Name);
-        string email = Path.Combine(rootPath, desc.rootFolder, "email.txt");
+        string email = Path.Combine(rootPath, desc.rootFolder!, "email.txt");
         await File.WriteAllTextAsync(email, output);
         //Process.Start("notepad.exe",email);
 
@@ -92,7 +93,12 @@ class MultiGenerator
     {
         var gen = await AllDescriptions();
 
-        var posts = gen.Select(async (it,i) => await GenerateReadMe(it,i)).ToArray();
+        var posts = gen.Select(async (it,i) =>
+            {
+                ArgumentNullException.ThrowIfNull(it);
+                return await GenerateReadMe(it, i);
+            }
+            ).ToArray();
 
         await Task.WhenAll(posts);
 
@@ -123,17 +129,22 @@ class MultiGenerator
         }
         return f.Length;
     }
-    public async Task GenerateForImages(string folder)
-    {
-        var gen = await AllDescriptions();
+    //public async Task GenerateForImages(string folder)
+    //{
+    //    var gen = await AllDescriptions();
+    //    ArgumentNullException.ThrowIfNull(gen);
+        
+    //    var files = gen.Select(async (it, i) => await GenerateFiles(Path.Combine(folder,it.Generator.Name) ,it.Data)).ToArray();
 
-        var files = gen.Select(async (it, i) => await GenerateFiles(Path.Combine(folder,it.Generator.Name) ,it.Data)).ToArray();
+    //    await Task.WhenAll(files);
+    //    var csproj = gen
+    //        .Select(it => { 
+    //            GenerateCSPROJ(Path.Combine(folder, it.Generator.Name), 
+    //                Path.Combine(rootPath, it.rootFolder)))
+    //        .ToArray();
 
-        await Task.WhenAll(files);
-        var csproj = gen.Select(it => GenerateCSPROJ(Path.Combine(folder, it.Generator.Name), Path.Combine(rootPath, it.rootFolder))).ToArray();
 
-
-    }
+    //}
     private async Task GenerateFiles(string folder, DataOld d)
     {
         if (!Directory.Exists(folder))
@@ -162,13 +173,14 @@ class MultiGenerator
 
     }
 
-    private async Task<DescriptionOld> Generate(string rootFolder)
+    private async Task<DescriptionOld?> Generate(string rootFolder)
     {
         var folder = Path.Combine(rootPath, rootFolder);
         if (!Directory.Exists(folder))
             return null;
         var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
         var desc = JsonSerializer.Deserialize<DescriptionOld>(text);
+        ArgumentNullException.ThrowIfNull(desc);
         desc.rootFolder = rootFolder;
         var auth = Path.Combine(folder, "author.md");
         if (File.Exists(auth))
@@ -178,14 +190,15 @@ class MultiGenerator
         }
         return desc;
     }
-    private async Task GenerateReadMe(DescriptionOld desc,int nr )
+    private async Task<string> GenerateReadMe(DescriptionOld desc,int nr )
     {
         desc.Nr = nr;
         var templatePost = await File.ReadAllTextAsync("readme.txt");
         var templateScriban = Scriban.Template.Parse(templatePost);
         var output = templateScriban.Render(desc, member => member.Name);
-        string readMe = Path.Combine(rootPath, desc.rootFolder,"readme.md");
+        string readMe = Path.Combine(rootPath, desc.rootFolder!,"readme.md");
         await File.WriteAllTextAsync(readMe, output);
+        return readMe;
 
     }
     private async Task GeneratePost(DescriptionOld desc)

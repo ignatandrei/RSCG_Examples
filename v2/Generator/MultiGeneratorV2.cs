@@ -25,7 +25,7 @@ public class MultiGeneratorV2
 
     Dictionary<string, bool> generators;
     private readonly string rootPath;
-    private Description[] _AllDescriptions = null;
+    private Description[]? _AllDescriptions = null;
     public MultiGeneratorV2(string root)
     {
         this.rootPath = root;
@@ -70,12 +70,18 @@ public class MultiGeneratorV2
                 it.Value ? GatherData(nr + 1, it.Key, folderExamples) : null)
             .Where(it => it != null)
             .ToArray();
-
-        _AllDescriptions = await Task.WhenAll(tasks);
+        ArgumentNullException.ThrowIfNull(tasks);
+        var data=await Task.WhenAll(tasks!);
+        ArgumentNullException.ThrowIfNull(data);
+        _AllDescriptions  = data
+            .Where(it=>it !=null)
+            .Select(it=>it!)
+            .ToArray();
 
     }
     public async Task CreateZip()
     {
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, pathDocusaurus)));
 
@@ -97,8 +103,10 @@ public class MultiGeneratorV2
     }
     private async Task<bool> CreateZipFiles(Description desc, string rootFolder)
     {
+        ArgumentNullException.ThrowIfNull(desc.rootFolder);
         string sources = Path.Combine(desc.rootFolder, "src");
         await CleanProject(sources);
+        ArgumentNullException.ThrowIfNull(desc.Generator);
         var zipFile = Path.Combine(rootFolder, "static", "sources", desc.Generator.Name + ".zip");
         //Console.WriteLine(zipFile);
         if (!Write(zipFile)) return false;
@@ -110,6 +118,7 @@ public class MultiGeneratorV2
         var folder = Path.Combine(rootFolder, generator);
         var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
         var desc = JsonSerializer.Deserialize<Description>(text);
+        ArgumentNullException.ThrowIfNull(desc);
         desc.Nr = nr;
         desc.rootFolder = folder;
         string sources = Path.Combine(desc.rootFolder, "src");
@@ -119,6 +128,8 @@ public class MultiGeneratorV2
         //if (File.Exists(zipFile)) File.Delete(zipFile);
         //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
         //await BuildProject(sources);
+        ArgumentNullException.ThrowIfNull(desc.Data);
+        ArgumentNullException.ThrowIfNull(desc.Data.CSProj);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);
         if (csprojItems.Length != 1)
         {
@@ -126,7 +137,10 @@ public class MultiGeneratorV2
         }
         var output = desc.Data.outputFiles;
         output.fullPathToCsproj = csprojItems[0];
+        ArgumentNullException.ThrowIfNull(desc.Data);
+        ArgumentNullException.ThrowIfNull(desc.Data.CsFiles);
         output.csFiles = desc.Data.CsFiles;
+        ArgumentNullException.ThrowIfNull(desc.Generator);
         var nugetName = desc.Generator.NugetFirst;
         nugetName = nugetName
             .Split("/")
@@ -190,11 +204,12 @@ public class MultiGeneratorV2
     }
     internal async Task WrotePDFs()
     {
-        
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
     }
     internal async Task CreateHTMLBook()
     {
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.WhenAll(_AllDescriptions.Select(it => CreateHTMLBook(it, Path.Combine(pathBook, "examples"))));
         var list = new RSCG_List(_AllDescriptions);
         var data = list.Render();
@@ -232,6 +247,7 @@ public class MultiGeneratorV2
 
     private async Task CreateHTMLBook(Description it, string pathBook)
     {
+        ArgumentNullException.ThrowIfNull(it.Generator);
         var item = new RSCG_Item(it);
         var data = item.Render();
         await File.WriteAllTextAsync(Path.Combine(pathBook, it.Generator.Name + ".html"), data);
@@ -240,6 +256,7 @@ public class MultiGeneratorV2
     internal async Task CreateImageFiles()
     {
         var pathImages = Path.Combine(pathBook, "examples", "images");
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         foreach (var item in _AllDescriptions)
         {
             await CreateImageFile(item, pathImages);
@@ -256,16 +273,23 @@ public class MultiGeneratorV2
 
     private async Task CreateImageFile(Description it, string pathImages)
     {
+        ArgumentNullException.ThrowIfNull(it.Generator);
         var name = it.Generator.Name;
+        ArgumentNullException.ThrowIfNull(name);
         var folderToGenerate = Path.Combine(pathImages, name);
         if (!Directory.Exists(name))
             Directory.CreateDirectory(name);
+        ArgumentNullException.ThrowIfNull(it.Data);
         var csproj = it.Data.outputFiles.fullPathToCsproj;
+        ArgumentNullException.ThrowIfNull(it.Data.CSProj);
+        ArgumentNullException.ThrowIfNull(csproj);
         await CreateCarbonFile(csproj, Path.Combine(folderToGenerate, it.Data.CSProj));
         string csFiles = Path.Combine(folderToGenerate, "csFiles");
         if (!Directory.Exists(csFiles))
             Directory.CreateDirectory(csFiles);
-
+        ArgumentNullException.ThrowIfNull(it.Data);
+        ArgumentNullException.ThrowIfNull(it.Data.outputFiles);
+        ArgumentNullException.ThrowIfNull(it.Data.outputFiles.contentFiles);
         foreach (var item in it.Data.outputFiles.contentFiles)
         {
             await CreateCarbonFile(item.fullPathFile, Path.Combine(csFiles, Path.GetFileName(item.fullPathFile)));
@@ -274,7 +298,9 @@ public class MultiGeneratorV2
         string generated = Path.Combine(folderToGenerate, "generated");
         if (!Directory.Exists(generated))
             Directory.CreateDirectory(generated);
-
+        ArgumentNullException.ThrowIfNull(it.Data);
+        ArgumentNullException.ThrowIfNull(it.Data.outputFiles);
+        ArgumentNullException.ThrowIfNull(it.Data.outputFiles.generatedFiles);
         foreach (var gen in it.Data.outputFiles.generatedFiles)
         {
             await CreateCarbonFile(gen.fullPathFile, Path.Combine(generated, Path.GetFileName(gen.fullPathFile)));
@@ -317,6 +343,7 @@ public class MultiGeneratorV2
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
         await ModifyDocusaurusWithoutExamples(pathDocusaurus);
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it, pathDocusaurus)));
         if(!await WroteIndexListOfRSCG(this.rootPath))
         {
@@ -333,6 +360,7 @@ public class MultiGeneratorV2
         var pathIndex = Path.Combine(pathDocusaurus,"docs", "indexRSCG.md");
         var template = await File.ReadAllTextAsync("RSCGList.txt");
         var templateScriban = Scriban.Template.Parse(template);
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions }, member => member.Name);
         await File.WriteAllTextAsync(pathIndex, output);
         
@@ -342,6 +370,7 @@ public class MultiGeneratorV2
     internal async Task WrotePost()
     {
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.WhenAll(_AllDescriptions.Select(it => WrotePost(it, pathDocusaurus)));
     }
 
@@ -407,6 +436,7 @@ public class MultiGeneratorV2
     private async Task<bool> WrotePDF(Description it, string pathOfDocusaurus,string pathOfBook)
     {
         string folderToWrite = Path.Combine(pathOfDocusaurus, "static", "pdfs");
+        ArgumentNullException.ThrowIfNull(it.Generator);
         string file = it.Generator.Name + ".pdf";
         file = Path.Combine(folderToWrite, file);
         if (!Write(file)) return false;
@@ -464,6 +494,7 @@ public class MultiGeneratorV2
         var templateScriban = Scriban.Template.Parse(template);
         var output = templateScriban.Render(new { Description = it }, member => member.Name);
         string folderToWrite = Path.GetTempPath();
+        ArgumentNullException.ThrowIfNull(it.Generator);
         string file = it.Nr.ToString("00#") + it.Generator.Name + ".md";
         file = Path.Combine(folderToWrite, file);
         await File.WriteAllTextAsync(file, output);
@@ -479,6 +510,7 @@ public class MultiGeneratorV2
         var output = templateScriban.Render(new {Description=it}, member => member.Name);
 
         string folderToWrite = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples");
+        ArgumentNullException.ThrowIfNull(it.Generator);
         string file = it.Generator.Name+ ".md";
         file=Path.Combine(folderToWrite,file);
         await File.WriteAllTextAsync(file, output);
@@ -487,12 +519,13 @@ public class MultiGeneratorV2
         return true;
     }
 
-    internal async Task WriteFrontReadMe(DescriptionOld[] oldDesc)
+    internal async Task WriteFrontReadMe(DescriptionOld?[] oldDesc)
     {
         oldDesc = oldDesc.Where(ut => ut != null).ToArray();
         var readMe = Path.Combine(rootPath, "..", "README.md");
         var template = await File.ReadAllTextAsync("frontReadmeNew.txt");
         var templateScriban = Scriban.Template.Parse(template);
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
         var output = templateScriban.Render(
             new {
                 rscgNoExamples,
@@ -503,5 +536,23 @@ public class MultiGeneratorV2
         await File.WriteAllTextAsync(readMe, output);
     }
 
-    
+    internal async Task<long> GenerateMSFT()
+    {
+        string folderMSFT = Path.Combine(rootPath, "rscg_examples","Microsoft");
+
+        ByMicrosoft msft = new(folderMSFT);
+        var data= (await msft.Search()).ToList();
+        data.Sort((a,b) => a.NameGenerator.CompareTo(b.NameGenerator));
+        
+        string folderWithDocs = Path.Combine(rootPath, "rscg_examples_site", "Microsoft");
+        foreach (var ff in data)
+        {
+            var item = new ItemMSFT(ff);
+            var file = await item.RenderAsync();
+            
+        }
+        //var item = new MicrosoftItem(it);t
+        //var data = item.Render();
+        return data.Count;
+    }
 }     

@@ -1,6 +1,12 @@
 @inherits RazorBlade.HtmlTemplate<Description>;
 
-<h1>RSCG nr @Model.Nr :  @Model.Generator.Name</h1>
+
+<h1>
+    @{
+        ArgumentNullException.ThrowIfNull(Model.Generator);
+
+    }
+    RSCG nr @Model.Nr :  @Model.Generator.Name</h1>
 
 <h2>Info</h2>
 Nuget : <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.NugetFirst</a>
@@ -12,13 +18,17 @@ Nuget : <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.N
 <p>Source : <a href="@Model.Generator.Source" target="_blank">@Model.Generator.Source</a> </p>
 
 <h2>About</h2>
-
+@{
+    ArgumentNullException.ThrowIfNull(Model.Data);
+    ArgumentNullException.ThrowIfNull(Model.Data.GoodFor);
+}
 @string.Join("",Model.Data.GoodFor)
 
 <h2>
     How to use
 </h2>
 @{
+    ArgumentNullException.ThrowIfNull(Model.Data.CSProj);
     var nameCsprojPng = $"images/{Model.Generator.Name}/{Model.Data.CSProj}.png";
 }
 <h3>
@@ -27,6 +37,9 @@ Nuget : <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.N
 <img src="@nameCsprojPng" width="580" height="580" />
 
 <h3>This was for me the <b>starting</b> code</h3>
+@{
+    ArgumentNullException.ThrowIfNull(Model.Data.CsFiles);
+}
 @foreach (var item in Model.Data.CsFiles)
 {
     var name = $"images/{Model.Generator.Name}/csFiles/{item}.png";
@@ -39,6 +52,10 @@ Nuget : <a href="@Model.Generator.NugetFirst" target="_blank">@Model.Generator.N
     </text>
 }
 <h3>And here are the <i>generated</i> files</h3>
+@{
+    ArgumentNullException.ThrowIfNull(Model.Data.outputFiles);
+    ArgumentNullException.ThrowIfNull(Model.Data.outputFiles.generatedFiles);
+}
 @foreach (var oFile in Model.Data.outputFiles.generatedFiles)
 {
     var name = $"images/{Model.Generator.Name}/generated/{oFile.file}.png";

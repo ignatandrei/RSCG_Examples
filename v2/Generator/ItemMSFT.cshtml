@@ -1,0 +1,36 @@
+@inherits RazorBlade.HtmlTemplate<FoundFile>;
+---
+sidebar_position: @Model.NrFile 
+title: @Model.NrFile - @Raw(Model.NameGenerator)
+description: @Raw(Model.NameGenerator)
+slug: /Microsoft/@Raw(Model.NameGenerator)
+---
+
+# @Raw(Model.NameGenerator)
+
+
+##  Original Code
+
+The code that will be improved by generation is :
+```csharp showLineNumbers
+@Raw(File.ReadAllText( Model.filePath))
+```
+
+## Generated Code
+
+The code that is written is
+```csharp showLineNumbers
+@Raw(File.ReadAllText( Model.generatedPath))
+```
+
+## More details
+
+Csharp Project: @Model.csProjPath
+
+<p>
+    You can see the whole list at 
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+

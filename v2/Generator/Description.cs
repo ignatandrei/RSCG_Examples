@@ -6,17 +6,17 @@ public class Description
     public int Nr;
 
     [JsonPropertyName("generator")]
-    public Generator Generator { get; set; }
+    public Generator? Generator { get; set; } 
 
     [JsonPropertyName("data")]
-    public Data Data { get; set; }
+    public Data? Data { get; set; }
 
     [JsonPropertyName("links")]
-    public Links Links { get; set; }
+    public Links? Links { get; set; }
     [JsonIgnore]
-    public string rootFolder;
+    public string? rootFolder;
     [JsonIgnore]
     public bool HaveAuthorAnswered;
     [JsonIgnore]
-    public string authorMD;
+    public string? authorMD;
 }

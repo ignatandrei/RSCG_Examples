@@ -4,7 +4,7 @@ try
 {
     string originalFolder = @"C:\test\RSCG_Examples";
     Console.WriteLine("New generator?(press enter for none)");
-    var newGen = Console.ReadLine();
+    var newGen = "";// Console.ReadLine();
     if (!string.IsNullOrWhiteSpace(newGen))
     {
 
@@ -44,7 +44,10 @@ $$"""
     Console.WriteLine("generating data");
     var old = new MultiGenerator(Path.Combine(originalFolder,"v1"));
     var oldDesc = await old.AllDescriptions();
-    oldDesc = oldDesc.Select((desc, i) =>
+    ArgumentNullException.ThrowIfNull(oldDesc);
+    oldDesc = oldDesc
+        .Where(it=>it !=null)
+        .Select((desc, i) =>
     {
         if(desc != null) desc.Nr = i;
         return desc;
@@ -68,6 +71,11 @@ $$"""
 
     string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
+    long nr = await m.GenerateMSFT();
+    Console.WriteLine(nr);
+    int x = 1;
+    if (x==1)
+        throw new ArgumentException("test");
     await m.GatherData();
     await m.WrotePost();
     //if (await m.WroteDocusaurusAll()) return;

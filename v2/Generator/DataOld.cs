@@ -5,13 +5,13 @@ namespace Generator;
 public class DataOld
 {
     [JsonPropertyName("goodFor")]
-    public string GoodFor { get; set; }
+    public string? GoodFor { get; set; }
 
     [JsonPropertyName("csprojDemo")]
-    public string CSProj { get; set; }
+    public string? CSProj { get; set; }
 
     [JsonPropertyName("csFiles")]
-    public string[] CsFiles { get; set; }
+    public string[]? CsFiles { get; set; }
 
     [JsonIgnore]
     public OutputFiles outputFiles { get; set; } = new();
