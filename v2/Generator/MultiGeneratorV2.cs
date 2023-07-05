@@ -544,12 +544,15 @@ public class MultiGeneratorV2
         var data= (await msft.Search()).ToList();
         data.Sort((a,b) => a.NameGenerator.CompareTo(b.NameGenerator));
         
-        string folderWithDocs = Path.Combine(rootPath, "rscg_examples_site", "Microsoft");
+        string folderWithDocs = Path.Combine(rootPath, "rscg_examples_site","docs", "Microsoft");
         foreach (var ff in data)
         {
             var item = new ItemMSFT(ff);
-            var file = await item.RenderAsync();
-            
+            var fileContents = await item.RenderAsync();
+            var nameFile = Path.Combine(folderWithDocs, ff.NameGenerator.Replace(FoundFile.sepShow,"_"));
+            nameFile += ".md";
+            //Console.WriteLine(nameFile);
+            await File.WriteAllTextAsync(nameFile, fileContents);
         }
         //var item = new MicrosoftItem(it);t
         //var data = item.Render();

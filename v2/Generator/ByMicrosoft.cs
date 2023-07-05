@@ -18,6 +18,7 @@ internal record FoundFile(string filePath, string csProjPath,string generatedPat
             return Path.GetFileName(generatedPath);
         }
     }
+    public static string sepShow = "=>";
     public string NameGenerator
     {
         get
@@ -28,7 +29,7 @@ internal record FoundFile(string filePath, string csProjPath,string generatedPat
              
             var endFile = generatedPath.IndexOf(NameFileGenerated);
             var data=generatedPath.Substring(whereGX+found.Length,endFile-whereGX-found.Length);
-            var sepShow = "=>";
+            
             data = string.Join(sepShow, data.Split(sep));
             if (data.EndsWith(sepShow))
                 data = data.Substring(0, data.Length - sepShow.Length);
