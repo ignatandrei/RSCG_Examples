@@ -53,7 +53,8 @@ public class MultiGeneratorV2
             { "PartiallyApplied",true},
             {"Apparatus.AOT.Reflection",true },
             {"NetEscapades.EnumGenerators",true },
-            {"RSCG_FunctionsWithDI",true }
+            {"RSCG_FunctionsWithDI",true },
+            {"Microsoft.NET.Sdk.Razor.SourceGenerators",true }
         };
 
         //foreach(var v in generators)
@@ -143,6 +144,7 @@ public class MultiGeneratorV2
         output.csFiles = desc.Data.CsFiles;
         ArgumentNullException.ThrowIfNull(desc.Generator);
         var nugetName = desc.Generator.NugetFirst;
+        if(!string.IsNullOrWhiteSpace(nugetName))
         nugetName = nugetName
             .Split("/")
             .Where(it=>!string.IsNullOrWhiteSpace(it))

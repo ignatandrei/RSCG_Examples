@@ -1,10 +1,10 @@
-# RSCG - 21 Examples of Roslyn Source Code Generators  / 6 created by Microsoft
+# RSCG - 22 Examples of Roslyn Source Code Generators  / 6 created by Microsoft
 
 If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 21 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 22 Roslyn Source Code Generators that I have tested you can see and download example:
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -30,6 +30,7 @@ This are the 21 Roslyn Source Code Generators that I have tested you can see and
 |19|[ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT | [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.Nuget.First()}) | Stanislav Silin|
 |20|[NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators | [https://www.nuget.org/packages/NetEscapades.EnumGenerators/]({desc.Generator.Nuget.First()}) | Andrew Lock|
 |21|[RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI | [https://www.nuget.org/packages/RSCG_FunctionsWithDI/]({desc.Generator.Nuget.First()}) | Andrei Ignat|
+|22|[Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators | []({desc.Generator.Nuget.First()}) | Microsoft|
 
 
 ## Roslyn Source Code Generators created by Microsoft 

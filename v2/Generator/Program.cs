@@ -74,13 +74,13 @@ $$"""
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :"+nr);
     await m.GatherData();
-    //await m.WrotePost();
-    //await m.WroteDocusaurusAll();
+    await m.WrotePost();
+    await m.WroteDocusaurusAll();
 
     await m.WriteFrontReadMe(oldDesc);
-    int x = 1;
-    if (x == 1)
-        throw new ArgumentException("test");
+    //int x = 1;
+    //if (x == 1)
+    //    throw new ArgumentException("test");
 
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");

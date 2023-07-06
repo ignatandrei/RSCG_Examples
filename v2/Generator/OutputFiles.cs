@@ -30,6 +30,7 @@ public class OutputFiles
         };
         ArgumentNullException.ThrowIfNull(fullPathToCsproj);
         ContentCsProj = await File.ReadAllTextAsync(fullPathToCsproj);
+        if(!string.IsNullOrWhiteSpace(nuget))
         if (!excludedProjectsWithLine.Any(it => fullPathToCsproj.Contains(it)))
         {
 

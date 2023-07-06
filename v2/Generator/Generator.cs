@@ -63,6 +63,8 @@ public class Generator
     {
         get
         {
+            if ((Source?.Length ?? 0) == 0)
+                return "";
             ArgumentNullException.ThrowIfNull(Source);
             var strShields = "https://img.shields.io";
             var data = Source.Split("/",StringSplitOptions.RemoveEmptyEntries);
@@ -76,6 +78,8 @@ public class Generator
     {
         get
         {
+            if ((Source?.Length ?? 0) == 0)
+                return "";
             ArgumentNullException.ThrowIfNull(Source);
             var strShields = "https://img.shields.io";
             var data = Source.Split("/", StringSplitOptions.RemoveEmptyEntries);
