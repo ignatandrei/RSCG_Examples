@@ -84,8 +84,8 @@ $$"""
 
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");
-    Console.WriteLine("y/n");
-    //if (Console.ReadLine() == "y")
+    Console.WriteLine("Zip, image, html, pdf : y/n");
+    if (Console.ReadLine() == "y")
     {
         await m.CreateZip();
         await m.CreateImageFiles();

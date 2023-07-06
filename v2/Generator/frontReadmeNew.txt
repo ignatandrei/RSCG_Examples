@@ -4,7 +4,8 @@ If you want to see them , please goto  ***[List V2](https://ignatandrei.github.i
 
 ## Content 
 
-This are the {{nr}} Roslyn Source Code Generators that I have tested you can see and download example:
+This are the {{nr}} Roslyn Source Code Generators that I have tested you can see and download source code example.
+( including {{MSFT_RSCG_NR}} from Microsoft )
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -22,8 +23,6 @@ You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that M
 {{~ for msft in MSFT_RSCG ~}} 
 |{{msft.NrFile}}|[{{msft.NameGenerator}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/{{msft.NameGenerator}})| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/{{msft.NameGenerator}} |
 {{~ end ~}}
-
-
 
 
 ## Not tested yet 

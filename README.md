@@ -4,7 +4,8 @@ If you want to see them , please goto  ***[List V2](https://ignatandrei.github.i
 
 ## Content 
 
-This are the 23 Roslyn Source Code Generators that I have tested you can see and download example:
+This are the 23 Roslyn Source Code Generators that I have tested you can see and download source code example.
+( including 6 from Microsoft )
 
 
 | No        | Name  | Link | Nuget |Author|
@@ -45,8 +46,6 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 |9257|[Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator |
 |9264|[Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator |
 |9967|[Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator |
-
-
 
 
 ## Not tested yet 
