@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Microsoft.NET.Sdk.Razor.SourceGenerators",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.NET.Sdk.Razor.SourceGenerators/"
+      ],
+      "link":"No",
+      "author":"Microsoft",
+      "source":"NO"
+   },
+   "data":{
+      "goodFor":["Generating razor/cshtml pages to cs pages"],
+      "csprojDemo":"Microsoft.NET.Sdk.Razor.SourceGeneratorsDemo.csproj",
+      "csFiles":["Program.cs","Error.cshtml","Index.cshtml","Privacy.cshtml","_Layout.cshtml","_ValidationScriptsPartial.cshtml","_ViewImports.cshtml",	"_ViewStart.cshtml"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
