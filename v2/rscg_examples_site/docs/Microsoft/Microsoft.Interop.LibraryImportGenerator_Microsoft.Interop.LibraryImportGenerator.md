@@ -1,6 +1,6 @@
 ---
-sidebar_position: 178721054 
-title: 178721054 - Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
+sidebar_position: 2020121929 
+title: 2020121929 - Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
 description: Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
 slug: /Microsoft/Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
 ---

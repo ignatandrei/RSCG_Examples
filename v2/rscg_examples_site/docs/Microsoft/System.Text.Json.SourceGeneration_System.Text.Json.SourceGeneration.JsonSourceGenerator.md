@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1066860997 
-title: 1066860997 - System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
+sidebar_position: 506750711 
+title: 506750711 - System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
 description: System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
 slug: /Microsoft/System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
 ---

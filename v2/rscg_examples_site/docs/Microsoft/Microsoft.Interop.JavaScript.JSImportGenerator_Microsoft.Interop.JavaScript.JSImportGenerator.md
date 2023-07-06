@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2054499360 
-title: 2054499360 - Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
+sidebar_position: 82705155 
+title: 82705155 - Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
 description: Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
 slug: /Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
 ---
