@@ -72,16 +72,16 @@ $$"""
     string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
     long nr = await m.GenerateMSFT();
-    Console.WriteLine(nr);
-    int x = 1;
-    if (x==1)
-        throw new ArgumentException("test");
+    Console.WriteLine("RSCG used by MSFT :"+nr);
     await m.GatherData();
-    await m.WrotePost();
-    //if (await m.WroteDocusaurusAll()) return;
-    await m.WroteDocusaurusAll();
+    //await m.WrotePost();
+    //await m.WroteDocusaurusAll();
 
     await m.WriteFrontReadMe(oldDesc);
+    int x = 1;
+    if (x == 1)
+        throw new ArgumentException("test");
+
     Console.WriteLine("npm run build");
     Console.WriteLine("npm run serve");
     Console.WriteLine("y/n");

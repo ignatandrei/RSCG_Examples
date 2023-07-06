@@ -26,6 +26,7 @@ public class MultiGeneratorV2
     Dictionary<string, bool> generators;
     private readonly string rootPath;
     private Description[]? _AllDescriptions = null;
+    private FoundFile[]? MicrosoftRSCG= null;
     public MultiGeneratorV2(string root)
     {
         this.rootPath = root;
@@ -526,12 +527,16 @@ public class MultiGeneratorV2
         var template = await File.ReadAllTextAsync("frontReadmeNew.txt");
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        ArgumentNullException.ThrowIfNull(MicrosoftRSCG);
         var output = templateScriban.Render(
             new {
                 rscgNoExamples,
                 oldDesc, 
                 nr = _AllDescriptions.Length, 
-                all = _AllDescriptions }, 
+                all = _AllDescriptions ,
+                MSFT_RSCG= MicrosoftRSCG,
+                MSFT_RSCG_NR= MicrosoftRSCG.Length
+            }, 
             member => member.Name);
         await File.WriteAllTextAsync(readMe, output);
     }
@@ -541,6 +546,7 @@ public class MultiGeneratorV2
         string folderMSFT = Path.Combine(rootPath, "rscg_examples","Microsoft");
 
         ByMicrosoft msft = new(folderMSFT);
+        this.MicrosoftRSCG = await msft.Search();
         var nr = await msft.WriteFiles(Path.Combine(rootPath, "rscg_examples_site"));
         return nr;
         //var data= (await msft.Search()).ToList();

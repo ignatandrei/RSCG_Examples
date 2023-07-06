@@ -68,6 +68,7 @@
     <!-- extends watching group to include *.js files -->
     <!-- <Watch Include="**\*.txt" /> -->
 	  <Watch Include="**\*.cshtml" />
+      <Watch Include="**\*.txt"/>
   </ItemGroup>
   <ItemGroup>
     <Watch Remove="DocusaurusExample.txt" />

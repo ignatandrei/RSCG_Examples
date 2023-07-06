@@ -6,7 +6,8 @@ internal record FoundFile(string filePath, string csProjPath,string generatedPat
     {
         get
         {
-            return Math.Abs(NameGenerator.GetHashCode());
+            var nr =NameGenerator.ToCharArray().Select(it => (int)it).Sum();
+            return nr;
         }
     }
     public string NameFileGenerated

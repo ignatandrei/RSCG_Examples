@@ -28,21 +28,16 @@ internal class ByMicrosoft
         }
         return data.Count;
     }
-    public async Task<FoundFile[]> Search()
+    private async Task<FoundFile[]> fromFiles(string[] files)
     {
-        if (cache != null)
-            return cache;
-
-        var files=Directory.GetFiles(searchFolder,"*.cs",SearchOption.AllDirectories);
-        
-        var lstTasks =  files
-            .Select(async it =>new {  name = it, lines= await File.ReadAllLinesAsync(it) })
+        var lstTasks = files
+            .Select(async it => new { name = it, lines = await File.ReadAllLinesAsync(it) })
             .ToArray();
         var dataFiles = await Task.WhenAll(lstTasks);
         var dataFilesWithNr1 = dataFiles
             .Select(it =>
-            new { it.name, it.lines, line= it.lines.FirstOrDefault(it => it.Contains(genString),"") })            
-            .Where(it=>it.line.Length>0)
+            new { it.name, it.lines, line = it.lines.FirstOrDefault(it => it.Contains(genString), "") })
+            .Where(it => it.line.Length > 0)
             .ToArray();
 
         var dataFilesWithNr2 = dataFiles
@@ -50,12 +45,26 @@ internal class ByMicrosoft
             new { it.name, it.lines, line = it.lines.LastOrDefault(it => it.Contains(genString), "") })
             .Where(it => it.line.Length > 0)
             .ToArray();
-        var dataFilesWithNr = 
+        var dataFilesWithNr =
             dataFilesWithNr1.Union(dataFilesWithNr2).ToArray();
         var data = dataFilesWithNr
-            .Select(it =>FoundFile.createFoundFile(searchFolder, it.name, it.line.Replace(genString,"").Trim()))
+            .Select(it => FoundFile.createFoundFile(searchFolder, it.name, it.line.Replace(genString, "").Trim()))
             .ToArray();
-        cache = data;
+
         return data;
+    }
+    public async Task<FoundFile[]> Search()
+    {
+        if (cache != null)
+            return cache;
+
+        var files=Directory.GetFiles(searchFolder,"*.cs",SearchOption.AllDirectories);
+        var data1 = await fromFiles(files);
+
+        files = Directory.GetFiles(searchFolder, "*.razor", SearchOption.AllDirectories);
+        var data2 = await fromFiles(files);
+
+        cache = data1.Union(data2).ToArray();
+        return cache;
     }
 }
