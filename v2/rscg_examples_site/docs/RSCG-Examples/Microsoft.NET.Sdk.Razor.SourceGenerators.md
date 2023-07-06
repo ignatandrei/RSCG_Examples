@@ -1,6 +1,6 @@
 ---
-sidebar_position: 220
-title: 22 - Microsoft.NET.Sdk.Razor.SourceGenerators
+sidebar_position: 230
+title: 23 - Microsoft.NET.Sdk.Razor.SourceGenerators
 description: Generating razor/cshtml pages to cs pages
 slug: /Microsoft.NET.Sdk.Razor.SourceGenerators
 ---

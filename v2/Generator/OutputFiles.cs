@@ -72,7 +72,16 @@ public class OutputFiles
             throw new Exception($"{outputGenFolder.Length} output folders in {dir}");
         }
         string folder = outputGenFolder[0];
+        //var generators = Directory.GetDirectories(folder);
+        //if (generators.Length > 1)
+        //{
+        //    generators = generators.Where(it => it != "Microsoft.NET.Sdk.Razor.SourceGenerators").ToArray();
+        //    if (generators.Length > 1) { 
+        //        throw new ArgumentException($"more than 1 generated folder for {folder}");
+        //    }
+        //}
         var outputFiles = Directory.GetFiles(folder, "*.cs", SearchOption.AllDirectories);
+        
         contents = new();
         var nr = 0;
         foreach (var file in outputFiles)

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 210
-title: 21 - RSCG_FunctionsWithDI
+sidebar_position: 220
+title: 22 - RSCG_FunctionsWithDI
 description: Generating functions that have parameters from services
 slug: /RSCG_FunctionsWithDI
 ---

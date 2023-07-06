@@ -34,6 +34,7 @@ input-files:
 - examples/PartiallyApplied.html
 - examples/ApparatusAOT.html
 - examples/NetEscapades.EnumGenerators.html
+- examples/Microsoft.Interop.JavaScript.JSImportGenerator.html
 - examples/RSCG_FunctionsWithDI.html
 - examples/Microsoft.NET.Sdk.Razor.SourceGenerators.html
 

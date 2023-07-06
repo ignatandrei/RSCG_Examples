@@ -53,13 +53,14 @@ public class MultiGeneratorV2
             { "PartiallyApplied",true},
             {"Apparatus.AOT.Reflection",true },
             {"NetEscapades.EnumGenerators",true },
+            {"Microsoft.Interop.JavaScript.JSImportGenerator",true },
             {"RSCG_FunctionsWithDI",true },
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",true }
         };
 
-        //foreach(var v in generators)
+        //foreach (var v in generators)
         //{
-        //    generators[v.Key] =  (v.Key == "RSCG_AMS");
+        //    generators[v.Key] = (v.Key == "Microsoft.Interop.JavaScript.JSImportGenerator");
         //}
     }
 

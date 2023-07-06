@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Microsoft.Interop.JavaScript.JSImportGenerator",
+      "nuget":[
+         ""
+      ],
+      "link":"",
+      "author":"Microsoft",
+      "source":""
+   },
+   "data":{
+      "goodFor":["Generating partial JSimport / JSExport in C# form"],
+      "csprojDemo":"TestBlazor.csproj",
+      "csFiles":["Program.cs","Index.razor.cs","Index.razor","index.razor.js"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
