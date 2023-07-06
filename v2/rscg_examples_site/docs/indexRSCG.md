@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 21 RSCG with examples .
+This is the list of 22 RSCG with examples .
 
 
 | No        | Name  | 
@@ -31,6 +31,7 @@ This is the list of 21 RSCG with examples .
 |19|[ApparatusAOT](/docs/ApparatusAOT)|
 |20|[NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)|
 |21|[RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)|
+|22|[Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|
 
 You can see also the [v1](/docs/v1) 
 

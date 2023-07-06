@@ -35,6 +35,7 @@ input-files:
 - examples/ApparatusAOT.html
 - examples/NetEscapades.EnumGenerators.html
 - examples/RSCG_FunctionsWithDI.html
+- examples/Microsoft.NET.Sdk.Razor.SourceGenerators.html
 
 # or you may use input-file: with a single value
 # defaults:

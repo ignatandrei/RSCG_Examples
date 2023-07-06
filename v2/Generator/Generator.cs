@@ -50,6 +50,9 @@ public class Generator
             ArgumentNullException.ThrowIfNull(Nuget);
             foreach (var item in Nuget)
             {
+                if (string.IsNullOrWhiteSpace(item))
+                    continue;
+
                 var l = "https://www.nuget.org/packages/".Length;
                 var name = item.Substring(l);
                 if (name.EndsWith("/"))

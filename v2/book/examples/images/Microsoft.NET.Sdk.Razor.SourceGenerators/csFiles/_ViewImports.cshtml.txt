@@ -1,0 +1,3 @@
+@using RazorAppDemo
+@namespace RazorAppDemo.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
