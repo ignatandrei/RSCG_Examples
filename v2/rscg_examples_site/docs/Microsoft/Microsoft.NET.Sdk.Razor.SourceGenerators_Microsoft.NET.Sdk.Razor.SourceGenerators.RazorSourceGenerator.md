@@ -1,11 +1,11 @@
 ---
-sidebar_position: 9967 
-title: 9967 - Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
-description: Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
-slug: /Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
+sidebar_position: 9939 
+title: 9939 - Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
+description: Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
+slug: /Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
 ---
 
-# Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
+# Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator
 
 
 ##  Original Code

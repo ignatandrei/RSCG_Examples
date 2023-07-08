@@ -38,12 +38,12 @@ If you are interested in Microsoft RSCG, please see
 
 | No        | Name  | 
 | --------- | ----- | 
-|9707|[System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator](/docs/Microsoft/System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator)|
-|8689|[System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator](/docs/Microsoft/System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator)|
-|8271|[Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator](/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator)|
-|9257|[Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator)|
-|9264|[Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator)|
-|9967|[Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)|
+|9679|[System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator](/docs/Microsoft/System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator)|
+|8661|[System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator](/docs/Microsoft/System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator)|
+|8243|[Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator](/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator)|
+|9229|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator)|
+|9236|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator)|
+|9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)|
 
 
 

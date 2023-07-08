@@ -1,11 +1,11 @@
 ---
-sidebar_position: 8689 
-title: 8689 - System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
-description: System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
-slug: /Microsoft/System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
+sidebar_position: 8661 
+title: 8661 - System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator
+description: System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator
+slug: /Microsoft/System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator
 ---
 
-# System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator
+# System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator
 
 
 ##  Original Code

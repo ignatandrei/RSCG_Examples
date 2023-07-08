@@ -1,11 +1,11 @@
 ---
-sidebar_position: 9707 
-title: 9707 - System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator
-description: System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator
-slug: /Microsoft/System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator
+sidebar_position: 9679 
+title: 9679 - System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator
+description: System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator
+slug: /Microsoft/System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator
 ---
 
-# System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator
+# System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator
 
 
 ##  Original Code

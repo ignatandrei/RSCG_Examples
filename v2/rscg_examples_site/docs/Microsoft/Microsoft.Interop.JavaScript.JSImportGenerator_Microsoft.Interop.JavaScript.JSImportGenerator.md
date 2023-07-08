@@ -1,11 +1,11 @@
 ---
-sidebar_position: 9257 
-title: 9257 - Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
-description: Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
-slug: /Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
+sidebar_position: 9229 
+title: 9229 - Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator
+description: Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator
+slug: /Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator
 ---
 
-# Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator
+# Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator
 
 
 ##  Original Code

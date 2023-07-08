@@ -1,11 +1,11 @@
 ---
-sidebar_position: 8271 
-title: 8271 - Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
-description: Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
-slug: /Microsoft/Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
+sidebar_position: 8243 
+title: 8243 - Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator
+description: Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator
+slug: /Microsoft/Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator
 ---
 
-# Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator
+# Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator
 
 
 ##  Original Code

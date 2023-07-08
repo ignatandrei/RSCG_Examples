@@ -17,7 +17,7 @@ internal record FoundFile(string filePath, string csProjPath,string generatedPat
             return Path.GetFileName(generatedPath);
         }
     }
-    public static string sepShow = "=>";
+    public static string sepShow = "_";
     public string NameGenerator
     {
         get
