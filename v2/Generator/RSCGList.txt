@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of {{ nr }} RSCG with examples .
+This is the list of {{ nr }} ( {{nrMSFT}} from Microsoft) RSCG with examples 
 
 
 | No        | Name  | 
@@ -13,6 +13,16 @@ This is the list of {{ nr }} RSCG with examples .
 {{~ for desc in all ~}} 
 |{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|
 {{~ end ~}}
+
+If you are interested in Microsoft RSCG, please see
+
+| No        | Name  | 
+| --------- | ----- | 
+{{~ for file in MSFT ~}} 
+|{{file.NrFile}}|[{{file.NameGenerator}}](/docs/Microsoft/{{file.NameGenerator}})|
+{{~ end ~}}
+
+
 
 You can see also the [v1](/docs/v1) 
 

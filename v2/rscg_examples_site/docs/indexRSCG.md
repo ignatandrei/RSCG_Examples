@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 23 RSCG with examples .
+This is the list of 23 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | 
@@ -33,6 +33,19 @@ This is the list of 23 RSCG with examples .
 |21|[Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)|
 |22|[RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)|
 |23|[Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|
+
+If you are interested in Microsoft RSCG, please see
+
+| No        | Name  | 
+| --------- | ----- | 
+|9707|[System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator](/docs/Microsoft/System.Text.RegularExpressions.Generator=>System.Text.RegularExpressions.Generator.RegexGenerator)|
+|8689|[System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator](/docs/Microsoft/System.Text.Json.SourceGeneration=>System.Text.Json.SourceGeneration.JsonSourceGenerator)|
+|8271|[Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator](/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator=>Microsoft.Interop.LibraryImportGenerator)|
+|9257|[Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSImportGenerator)|
+|9264|[Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator=>Microsoft.Interop.JavaScript.JSExportGenerator)|
+|9967|[Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators=>Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)|
+
+
 
 You can see also the [v1](/docs/v1) 
 

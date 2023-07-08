@@ -365,7 +365,7 @@ public class MultiGeneratorV2
         var template = await File.ReadAllTextAsync("RSCGList.txt");
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions }, member => member.Name);
+        var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG }, member => member.Name);
         await File.WriteAllTextAsync(pathIndex, output);
         
         return true;
@@ -422,7 +422,7 @@ public class MultiGeneratorV2
         {
             if (line.Contains("title:") && line.Contains("examples",StringComparison.InvariantCultureIgnoreCase))
             {
-                newContent += $"title: '{nr} Examples',";
+                newContent += $"title: '{nr} Examples ({MicrosoftRSCG?.Length} from MSFT)',";
 
             }
             else
