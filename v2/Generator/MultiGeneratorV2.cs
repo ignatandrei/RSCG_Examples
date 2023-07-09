@@ -110,6 +110,19 @@ public class MultiGeneratorV2
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, pathDocusaurus)));
 
+        //create the microsoft zip
+        Description d = new Description();
+        var strRoot = _AllDescriptions.First().rootFolder;
+        ArgumentException.ThrowIfNullOrEmpty(strRoot);
+        var dirInfo = new DirectoryInfo(strRoot);
+        ArgumentNullException.ThrowIfNull(dirInfo);
+        ArgumentNullException.ThrowIfNull(dirInfo.Parent);
+        ArgumentException.ThrowIfNullOrEmpty(dirInfo.Parent.FullName);
+        d.rootFolder = Path.Combine(dirInfo.Parent.FullName,"Microsoft");
+        d.Generator = new();
+        d.Generator.Name = "Microsoft";
+        await CreateZipFiles(d, pathDocusaurus);
+
     }
     bool Write(string zipFileOrPdf)
     {
