@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Rocks",
+      "nuget":[
+         "https://www.nuget.org/packages/Rocks/"
+      ],
+      "link":"https://github.com/JasonBock/Rocks/blob/main/docs/Quickstart.md",
+      "author":"Json Bock",
+      "source":"https://github.com/JasonBock/Rocks/"
+   },
+   "data":{
+      "goodFor":["Creating mocks for testing interfaces/classes"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["TestClock.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

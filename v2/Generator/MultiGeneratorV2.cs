@@ -14,7 +14,6 @@ public class MultiGeneratorV2
 ,"MiniRazor https://github.com/Tyrrrz/MiniRazor/                            "
 ,"MockGen https://github.com/thomas-girotto/MockGen                         "
 ,"ProxyGen https://github.com/Sholtee/ProxyGen                             "
-,"Rocks https://github.com/JasonBock/Rocks                                 "
 ,"RoslynWeave https://github.com/Jishun/RoslynWeave                        "
 ,"SmallSharp https://github.com/devlooped/SmallSharp                       "
 ,"StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator" 
@@ -23,7 +22,6 @@ public class MultiGeneratorV2
 ,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject"
 ,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",
 "TypealizR https://github.com/earloc/TypealizR",
-"Rocks https://github.com/JasonBock/Rocks",
 "DeeDee https://github.com/joh-pot/DeeDee",
 "StrongInject https://github.com/YairHalberstadt/stronginject/",
 "MemoryPack https://github.com/Cysharp/MemoryPack",
@@ -76,7 +74,8 @@ public class MultiGeneratorV2
             {"NetEscapades.EnumGenerators",true },
             {"Microsoft.Interop.JavaScript.JSImportGenerator",true },
             {"RSCG_FunctionsWithDI",true },
-            {"Microsoft.NET.Sdk.Razor.SourceGenerators",true }
+            {"Microsoft.NET.Sdk.Razor.SourceGenerators",true },
+            {"Rocks" ,true}
         };
 
         //foreach (var v in generators)
@@ -554,6 +553,7 @@ public class MultiGeneratorV2
         ArgumentNullException.ThrowIfNull(MicrosoftRSCG);
         var output = templateScriban.Render(
             new {
+                nrNoExamples = rscgNoExamples.Length,
                 rscgNoExamples,
                 oldDesc, 
                 nr = _AllDescriptions.Length, 
