@@ -1,39 +1,276 @@
 # RSCG - 24 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 34 in queue
 
-If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
+If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
 This are the 24 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
 
+### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
 
-| No        | Name  | Link | Nuget |Author|
-| --------- | ----- | -----| ----- |----- |  
-|1|[ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly | [https://www.nuget.org/packages/ThisAssembly]({desc.Generator.Nuget.First()}) | Daniel Cazzulino|
-|2|[RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment | [https://www.nuget.org/packages/RSCG_TimeBombComment/]({desc.Generator.Nuget.First()}) | Andrei Ignat|
-|3|[System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json | [https://www.nuget.org/packages/System.Text.Json/]({desc.Generator.Nuget.First()}) | Microsoft|
-|4|[RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils | [https://www.nuget.org/packages/rscgutils]({desc.Generator.Nuget.First()}) | Ignat Andrei|
-|5|[System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions | [https://www.nuget.org/packages/System.Text.RegularExpressions/]({desc.Generator.Nuget.First()}) | Microsoft|
-|6|[SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon | [https://www.nuget.org/packages/SkinnyControllersCommon]({desc.Generator.Nuget.First()}) | Ignat Andrei|
-|7|[Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging | [https://www.nuget.org/packages/Microsoft.Extensions.Logging/]({desc.Generator.Nuget.First()}) | Microsoft|
-|8|[RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static | [https://www.nuget.org/packages/RSCG_Static/]({desc.Generator.Nuget.First()}) | Andrei Ignat|
-|9|[CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm | [https://www.nuget.org/packages/CommunityToolkit.Mvvm]({desc.Generator.Nuget.First()}) | Microsoft|
-|10|[RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS | [https://www.nuget.org/packages/RSCG_AMS/]({desc.Generator.Nuget.First()}) | Ignat Andrei|
-|11|[AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct | [https://www.nuget.org/packages/AutoDeconstruct]({desc.Generator.Nuget.First()}) | Jason Bock|
-|12|[System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices | [https://www.nuget.org/packages/System.Runtime.InteropServices/]({desc.Generator.Nuget.First()}) | Microsoft|
-|13|[QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor | [https://www.nuget.org/packages/QuickConstructor]({desc.Generator.Nuget.First()}) | Flavien Charlon|
-|14|[AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor | [https://www.nuget.org/packages/AutoCtor/]({desc.Generator.Nuget.First()}) | Cameron MacFarland|
-|15|[dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet | [https://www.nuget.org/packages/dunet/]({desc.Generator.Nuget.First()}) | Domn Werner|
-|16|[Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen | [https://www.nuget.org/packages/Vogen/]({desc.Generator.Nuget.First()}) | Steve Dunn|
-|17|[RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade | [https://www.nuget.org/packages/RazorBlade/]({desc.Generator.Nuget.First()}) | Lucas Trzesniewski|
-|18|[PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied | [https://www.nuget.org/packages/PartiallyApplied/]({desc.Generator.Nuget.First()}) | Jason Bock|
-|19|[ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT | [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.Nuget.First()}) | Stanislav Silin|
-|20|[NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators | [https://www.nuget.org/packages/NetEscapades.EnumGenerators/]({desc.Generator.Nuget.First()}) | Andrew Lock|
-|21|[Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator | []({desc.Generator.Nuget.First()}) | Microsoft|
-|22|[RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI | [https://www.nuget.org/packages/RSCG_FunctionsWithDI/]({desc.Generator.Nuget.First()}) | Andrei Ignat|
-|23|[Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators | []({desc.Generator.Nuget.First()}) | Microsoft|
-|24|[Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks | [https://www.nuget.org/packages/Rocks/]({desc.Generator.Nuget.First()}) | Json Bock|
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
+
+
+Nuget: [https://www.nuget.org/packages/ThisAssembly]({desc.Generator.NugetFirst}) 
+
+
+Author: Daniel Cazzulino
+
+Source: [https://github.com/devlooped/ThisAssembly](desc.Generator.Source)
+### 2. [RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)
+
+
+Nuget: [https://www.nuget.org/packages/RSCG_TimeBombComment/]({desc.Generator.NugetFirst}) 
+
+
+Author: Andrei Ignat
+
+Source: [https://github.com/ignatandrei/RSCG_TimeBombComment](desc.Generator.Source)
+### 3. [System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
+
+
+Nuget: [https://www.nuget.org/packages/System.Text.Json/]({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [https://github.com/dotnet/runtime](desc.Generator.Source)
+### 4. [RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)
+
+
+Nuget: [https://www.nuget.org/packages/rscgutils]({desc.Generator.NugetFirst}) 
+
+
+Author: Ignat Andrei
+
+Source: [https://github.com/ignatandrei/RSCG_Utils](desc.Generator.Source)
+### 5. [System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
+
+
+Nuget: [https://www.nuget.org/packages/System.Text.RegularExpressions/]({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [https://github.com/dotnet/runtime](desc.Generator.Source)
+### 6. [SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)
+
+
+Nuget: [https://www.nuget.org/packages/SkinnyControllersCommon]({desc.Generator.NugetFirst}) 
+
+
+Author: Ignat Andrei
+
+Source: [https://github.com/ignatandrei/SkinnyControllersGenerator/](desc.Generator.Source)
+### 7. [Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
+
+
+Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Logging/]({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [https://github.com/dotnet/runtime](desc.Generator.Source)
+### 8. [RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)
+
+
+Nuget: [https://www.nuget.org/packages/RSCG_Static/]({desc.Generator.NugetFirst}) 
+
+
+Author: Andrei Ignat
+
+Source: [https://github.com/ignatandrei/RSCG_Static](desc.Generator.Source)
+### 9. [CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
+
+
+Nuget: [https://www.nuget.org/packages/CommunityToolkit.Mvvm]({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [https://github.com/CommunityToolkit/dotnet](desc.Generator.Source)
+### 10. [RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)
+
+
+Nuget: [https://www.nuget.org/packages/RSCG_AMS/]({desc.Generator.NugetFirst}) 
+
+
+Author: Ignat Andrei
+
+Source: [https://github.com/ignatandrei/RSCG_AMS](desc.Generator.Source)
+### 11. [AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)
+
+
+Nuget: [https://www.nuget.org/packages/AutoDeconstruct]({desc.Generator.NugetFirst}) 
+
+
+Author: Jason Bock
+
+Source: [https://github.com/jasonbock/autodeconstruct](desc.Generator.Source)
+### 12. [System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
+
+
+Nuget: [https://www.nuget.org/packages/System.Runtime.InteropServices/]({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [https://www.nuget.org/packages/System.Runtime.InteropServices/](desc.Generator.Source)
+### 13. [QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)
+
+
+Nuget: [https://www.nuget.org/packages/QuickConstructor]({desc.Generator.NugetFirst}) 
+
+
+Author: Flavien Charlon
+
+Source: [https://github.com/flavien/QuickConstructor](desc.Generator.Source)
+### 14. [AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)
+
+
+Nuget: [https://www.nuget.org/packages/AutoCtor/]({desc.Generator.NugetFirst}) 
+
+
+Author: Cameron MacFarland
+
+Source: [https://github.com/distantcam/AutoCtor](desc.Generator.Source)
+### 15. [dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)
+
+
+Nuget: [https://www.nuget.org/packages/dunet/]({desc.Generator.NugetFirst}) 
+
+
+Author: Domn Werner
+
+Source: [https://github.com/domn1995/dunet](desc.Generator.Source)
+### 16. [Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)
+
+
+Nuget: [https://www.nuget.org/packages/Vogen/]({desc.Generator.NugetFirst}) 
+
+
+Author: Steve Dunn
+
+Source: [https://github.com/SteveDunn/Vogen](desc.Generator.Source)
+### 17. [RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)
+
+
+Nuget: [https://www.nuget.org/packages/RazorBlade/]({desc.Generator.NugetFirst}) 
+
+
+Author: Lucas Trzesniewski
+
+Source: [https://github.com/ltrzesniewski/RazorBlade](desc.Generator.Source)
+### 18. [PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)
+
+
+Nuget: [https://www.nuget.org/packages/PartiallyApplied/]({desc.Generator.NugetFirst}) 
+
+
+Author: Jason Bock
+
+Source: [https://github.com/JasonBock/PartiallyApplied](desc.Generator.Source)
+### 19. [ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)
+
+
+Nuget: [https://www.nuget.org/packages/Apparatus.AOT.Reflection/]({desc.Generator.NugetFirst}) 
+
+
+Author: Stanislav Silin
+
+Source: [https://github.com/byme8/Apparatus.AOT.Reflection](desc.Generator.Source)
+### 20. [NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)
+
+
+Nuget: [https://www.nuget.org/packages/NetEscapades.EnumGenerators/]({desc.Generator.NugetFirst}) 
+
+
+Author: Andrew Lock
+
+Source: [https://github.com/andrewlock/NetEscapades.EnumGenerators](desc.Generator.Source)
+### 21. [Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+
+
+Nuget: []({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [](desc.Generator.Source)
+### 22. [RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)
+
+
+Nuget: [https://www.nuget.org/packages/RSCG_FunctionsWithDI/]({desc.Generator.NugetFirst}) 
+
+
+Author: Andrei Ignat
+
+Source: [https://github.com/ignatandrei/functionsdi](desc.Generator.Source)
+### 23. [Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+Nuget: []({desc.Generator.NugetFirst}) 
+
+
+Author: Microsoft
+
+Source: [](desc.Generator.Source)
+### 24. [Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)
+
+
+Nuget: [https://www.nuget.org/packages/Rocks/]({desc.Generator.NugetFirst}) 
+
+
+Author: Json Bock
+
+Source: [https://github.com/JasonBock/Rocks/](desc.Generator.Source)
 
 
 ## Roslyn Source Code Generators created by Microsoft 

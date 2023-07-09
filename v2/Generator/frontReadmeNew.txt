@@ -1,17 +1,24 @@
 ﻿# RSCG - {{nr}} Examples of Roslyn Source Code Generators  / {{MSFT_RSCG_NR}} created by Microsoft / {{nrNoExamples}} in queue
 
-If you want to see them , please goto  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
+If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
 This are the {{nr}} Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including {{MSFT_RSCG_NR}} from Microsoft )
 
-
-| No        | Name  | Link | Nuget |Author|
-| --------- | ----- | -----| ----- |----- |  
 {{~ for desc in all ~}} 
-|{{desc.Nr}}|[{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})| https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}} | [{{desc.Generator.NugetFirst}}]({desc.Generator.Nuget.First()}) | {{desc.Generator.Author}}|
+### {{desc.Nr}}. [{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
+
+
+Nuget: [{{desc.Generator.NugetFirst}}]({desc.Generator.NugetFirst}) 
+
+
+Author: {{desc.Generator.Author}}
+
+Source: [{{desc.Generator.Source}}](desc.Generator.Source)
 {{~ end ~}}
 
 
