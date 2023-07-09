@@ -40,3 +40,23 @@ title: RSCG Without Examples
 
 17)WrapperValueObject https://github.com/martinothamar/WrapperValueObject
 
+18)ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator
+
+19)TypealizR https://github.com/earloc/TypealizR
+
+20)Rocks https://github.com/JasonBock/Rocks
+
+21)DeeDee https://github.com/joh-pot/DeeDee
+
+22)StrongInject https://github.com/YairHalberstadt/stronginject/
+
+23)MemoryPack https://github.com/Cysharp/MemoryPack
+
+24)Lombok.NET https://github.com/CollinAlpert/Lombok.NET
+
+25)DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
+
+26)Matryoshki https://github.com/krasin-ga/matryoshki
+
+27)EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
+

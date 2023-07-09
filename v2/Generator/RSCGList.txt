@@ -22,6 +22,7 @@ If you are interested in Microsoft RSCG, please see
 |{{file.NrFile}}|[{{file.NameGenerator}}](/docs/Microsoft/{{file.NameGenerator}})|
 {{~ end ~}}
 
+If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 
 
 You can see also the [v1](/docs/v1) 

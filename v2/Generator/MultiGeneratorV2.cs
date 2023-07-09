@@ -2,8 +2,8 @@
 
 public class MultiGeneratorV2
 {
-    string[] rscgNoExamples = new[]
-    {
+    string[] rscgNoExamples = new[] {
+       
 "AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,"Cloneable https://github.com/mostmand/Cloneable                           "
 ,"fonderie https://github.com/jeromelaban/fonderie                          "
@@ -21,6 +21,16 @@ public class MultiGeneratorV2
 ,"ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator"
 ,"Web-Anchor https://github.com/mattiasnordqvist/Web-Anchor"
 ,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject"
+,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",
+        "TypealizR https://github.com/earloc/TypealizR",
+     "Rocks https://github.com/JasonBock/Rocks",
+        "DeeDee https://github.com/joh-pot/DeeDee",
+        "StrongInject https://github.com/YairHalberstadt/stronginject/",
+        "MemoryPack https://github.com/Cysharp/MemoryPack",
+        "Lombok.NET https://github.com/CollinAlpert/Lombok.NET",
+        "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
+"Matryoshki https://github.com/krasin-ga/matryoshki",
+"EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp"
     };
 
     Dictionary<string, bool> generators;

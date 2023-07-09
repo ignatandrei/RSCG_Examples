@@ -45,6 +45,7 @@ If you are interested in Microsoft RSCG, please see
 |9236|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator](/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator)|
 |9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)|
 
+If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 
 
 You can see also the [v1](/docs/v1) 
