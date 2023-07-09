@@ -132,6 +132,33 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 27) EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
 
 
+28) Intellenum https://github.com/SteveDunn/Intellenum
+
+
+29) Mediator https://github.com/martinothamar/Mediator
+
+
+30) Tinyhand https://github.com/archi-Doc/Tinyhand
+
+
+31) Podimo.ConstEmbed https://github.com/podimo/Podimo.ConstEmbed
+
+
+32) Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
+
+
+33) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
+
+
+34) Mapperly https://github.com/riok/mapperly
+
+
+35) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+
+
+36) SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/
+
+
 
 ## Old examples made with ISourceGenerator 
 

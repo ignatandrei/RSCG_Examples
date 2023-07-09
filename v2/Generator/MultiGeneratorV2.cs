@@ -22,15 +22,26 @@ public class MultiGeneratorV2
 ,"Web-Anchor https://github.com/mattiasnordqvist/Web-Anchor"
 ,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject"
 ,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",
-        "TypealizR https://github.com/earloc/TypealizR",
-     "Rocks https://github.com/JasonBock/Rocks",
-        "DeeDee https://github.com/joh-pot/DeeDee",
-        "StrongInject https://github.com/YairHalberstadt/stronginject/",
-        "MemoryPack https://github.com/Cysharp/MemoryPack",
-        "Lombok.NET https://github.com/CollinAlpert/Lombok.NET",
-        "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
+"TypealizR https://github.com/earloc/TypealizR",
+"Rocks https://github.com/JasonBock/Rocks",
+"DeeDee https://github.com/joh-pot/DeeDee",
+"StrongInject https://github.com/YairHalberstadt/stronginject/",
+"MemoryPack https://github.com/Cysharp/MemoryPack",
+"Lombok.NET https://github.com/CollinAlpert/Lombok.NET",
+"DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
 "Matryoshki https://github.com/krasin-ga/matryoshki",
-"EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp"
+"EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp",
+"Intellenum https://github.com/SteveDunn/Intellenum",
+"Mediator https://github.com/martinothamar/Mediator",
+"Tinyhand https://github.com/archi-Doc/Tinyhand",
+"Podimo.ConstEmbed https://github.com/podimo/Podimo.ConstEmbed",
+"Morris.Moxy https://github.com/mrpmorris/Morris.Moxy",
+"Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",
+"Mapperly https://github.com/riok/mapperly",
+"Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
+"SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/"
+
+
     };
 
     Dictionary<string, bool> generators;
