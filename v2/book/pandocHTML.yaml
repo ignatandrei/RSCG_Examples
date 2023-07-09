@@ -37,6 +37,7 @@ input-files:
 - examples/Microsoft.Interop.JavaScript.JSImportGenerator.html
 - examples/RSCG_FunctionsWithDI.html
 - examples/Microsoft.NET.Sdk.Razor.SourceGenerators.html
+- examples/Rocks.html
 
 # or you may use input-file: with a single value
 # defaults:

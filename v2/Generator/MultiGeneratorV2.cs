@@ -1,4 +1,6 @@
-﻿namespace Generator;
+﻿using System.Net.NetworkInformation;
+
+namespace Generator;
 
 public class MultiGeneratorV2
 {
@@ -279,6 +281,22 @@ public class MultiGeneratorV2
     
     internal async Task CreateImageFiles()
     {
+        try
+        {
+            Ping p = new();
+            var pr = p.Send("www.yahoo.com");
+            if (pr.Status != IPStatus.Success)
+            {
+                Console.WriteLine("no internet");
+                return;
+            }
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine("no internet" + ex.Message);
+            return;
+        }
+
         var pathImages = Path.Combine(pathBook, "examples", "images");
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         foreach (var item in _AllDescriptions)
