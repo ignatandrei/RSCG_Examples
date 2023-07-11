@@ -78,7 +78,7 @@ public class MultiGeneratorV2
             {"RSCG_FunctionsWithDI",true },
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",true },
             {"Rocks" ,true},
-            //{"mapperly",true },
+            {"mapperly",true },
         };
 
         //foreach (var v in generators)

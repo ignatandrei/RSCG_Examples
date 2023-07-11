@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 24 ( 6 from Microsoft) RSCG with examples 
+This is the list of 25 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | 
@@ -34,6 +34,7 @@ This is the list of 24 ( 6 from Microsoft) RSCG with examples
 |22|[RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)|
 |23|[Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|
 |24|[Rocks](/docs/Rocks)|
+|25|[mapperly](/docs/mapperly)|
 
 If you are interested in Microsoft RSCG, please see
 

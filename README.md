@@ -1,10 +1,10 @@
-# RSCG - 24 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 34 in queue
+# RSCG - 25 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 34 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 24 Roslyn Source Code Generators that I have tested you can see and download source code example.
+This are the 25 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
 
 ### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
@@ -271,6 +271,17 @@ Nuget: [https://www.nuget.org/packages/Rocks/]({desc.Generator.NugetFirst})
 Author: Json Bock
 
 Source: [https://github.com/JasonBock/Rocks/](desc.Generator.Source)
+### 25. [mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
+
+
+Nuget: [https://www.nuget.org/packages/mapperly/]({desc.Generator.NugetFirst}) 
+
+
+Author: Riok
+
+Source: [https://github.com/riok/mapperly](desc.Generator.Source)
 
 
 ## Roslyn Source Code Generators created by Microsoft 
