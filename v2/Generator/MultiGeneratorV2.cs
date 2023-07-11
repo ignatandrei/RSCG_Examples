@@ -77,7 +77,8 @@ public class MultiGeneratorV2
             {"Microsoft.Interop.JavaScript.JSImportGenerator",true },
             {"RSCG_FunctionsWithDI",true },
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",true },
-            {"Rocks" ,true}
+            {"Rocks" ,true},
+            //{"mapperly",true },
         };
 
         //foreach (var v in generators)

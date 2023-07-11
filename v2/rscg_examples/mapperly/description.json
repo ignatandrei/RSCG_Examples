@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"mapperly",
+      "nuget":[
+         "https://www.nuget.org/packages/mapperly/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"mapperlyDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

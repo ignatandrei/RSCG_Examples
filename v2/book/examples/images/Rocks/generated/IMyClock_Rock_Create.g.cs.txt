@@ -1,0 +1,80 @@
+using Rocks.Extensions;
+using System.Collections.Generic;
+using System.Collections.Immutable;
+#nullable enable
+
+namespace MockRock
+{
+	internal static class CreateExpectationsOfIMyClockExtensions
+	{
+		internal static global::Rocks.Expectations.MethodExpectations<global::MockRock.IMyClock> Methods(this global::Rocks.Expectations.Expectations<global::MockRock.IMyClock> @self) =>
+			new(@self);
+		
+		internal static global::MockRock.IMyClock Instance(this global::Rocks.Expectations.Expectations<global::MockRock.IMyClock> @self)
+		{
+			if (!@self.WasInstanceInvoked)
+			{
+				@self.WasInstanceInvoked = true;
+				var @mock = new RockIMyClock(@self);
+				@self.MockType = @mock.GetType();
+				return @mock;
+			}
+			else
+			{
+				throw new global::Rocks.Exceptions.NewMockInstanceException("Can only create a new mock once.");
+			}
+		}
+		
+		private sealed class RockIMyClock
+			: global::MockRock.IMyClock
+		{
+			private readonly global::System.Collections.Generic.Dictionary<int, global::System.Collections.Generic.List<global::Rocks.HandlerInformation>> handlers;
+			
+			public RockIMyClock(global::Rocks.Expectations.Expectations<global::MockRock.IMyClock> @expectations)
+			{
+				this.handlers = @expectations.Handlers;
+			}
+			
+			[global::Rocks.MemberIdentifier(0, "global::System.DateTime GetNow()")]
+			public global::System.DateTime GetNow()
+			{
+				if (this.handlers.TryGetValue(0, out var @methodHandlers))
+				{
+					var @methodHandler = @methodHandlers[0];
+					@methodHandler.IncrementCallCount();
+					var @result = @methodHandler.Method is not null ?
+						((global::System.Func<global::System.DateTime>)@methodHandler.Method)() :
+						((global::Rocks.HandlerInformation<global::System.DateTime>)@methodHandler).ReturnValue;
+					return @result!;
+				}
+				
+				throw new global::Rocks.Exceptions.ExpectationException("No handlers were found for global::System.DateTime GetNow()");
+			}
+			
+			[global::Rocks.MemberIdentifier(1, "global::System.DateTime GetUtcNow()")]
+			public global::System.DateTime GetUtcNow()
+			{
+				if (this.handlers.TryGetValue(1, out var @methodHandlers))
+				{
+					var @methodHandler = @methodHandlers[0];
+					@methodHandler.IncrementCallCount();
+					var @result = @methodHandler.Method is not null ?
+						((global::System.Func<global::System.DateTime>)@methodHandler.Method)() :
+						((global::Rocks.HandlerInformation<global::System.DateTime>)@methodHandler).ReturnValue;
+					return @result!;
+				}
+				
+				throw new global::Rocks.Exceptions.ExpectationException("No handlers were found for global::System.DateTime GetUtcNow()");
+			}
+			
+		}
+	}
+	
+	internal static class MethodExpectationsOfIMyClockExtensions
+	{
+		internal static global::Rocks.MethodAdornments<global::MockRock.IMyClock, global::System.Func<global::System.DateTime>, global::System.DateTime> GetNow(this global::Rocks.Expectations.MethodExpectations<global::MockRock.IMyClock> @self) =>
+			new global::Rocks.MethodAdornments<global::MockRock.IMyClock, global::System.Func<global::System.DateTime>, global::System.DateTime>(@self.Add<global::System.DateTime>(0, new global::System.Collections.Generic.List<global::Rocks.Argument>()));
+		internal static global::Rocks.MethodAdornments<global::MockRock.IMyClock, global::System.Func<global::System.DateTime>, global::System.DateTime> GetUtcNow(this global::Rocks.Expectations.MethodExpectations<global::MockRock.IMyClock> @self) =>
+			new global::Rocks.MethodAdornments<global::MockRock.IMyClock, global::System.Func<global::System.DateTime>, global::System.DateTime>(@self.Add<global::System.DateTime>(1, new global::System.Collections.Generic.List<global::Rocks.Argument>()));
+	}
+}
