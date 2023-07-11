@@ -228,7 +228,8 @@ namespace System.Text.RegularExpressions.Generated
 
 ## More details
 
-Csharp Project: C:\test\RSCG_Examples\v2\rscg_examples\Microsoft\DemoRegex\DemoRegex.csproj
+Csharp Project: See DemoRegex.csproj from [/sources/Microsoft.zip](/sources/Microsoft.zip)
+
 
 <p>
     You can see the whole list at 

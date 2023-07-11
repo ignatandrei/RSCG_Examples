@@ -43,7 +43,7 @@ namespace TestBlazor.Pages
 {
     public partial class CallJavaScript1
     {
-        internal static unsafe void __Wrapper_GetMessageFromDotnet_1421716367(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
+        internal static unsafe void __Wrapper_GetMessageFromDotnet_1380913775(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
         {
             string s;
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __arg_exception = ref __arguments_buffer[0];
@@ -65,12 +65,12 @@ namespace TestBlazor.Pages
         }
 
         [global::System.Runtime.CompilerServices.ModuleInitializerAttribute]
-        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_1421716367", typeof(TestBlazor.Pages.CallJavaScript1))]
-        internal static void __Register_GetMessageFromDotnet_1421716367()
+        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_1380913775", typeof(TestBlazor.Pages.CallJavaScript1))]
+        internal static void __Register_GetMessageFromDotnet_1380913775()
         {
             if (global::System.Runtime.InteropServices.RuntimeInformation.OSArchitecture != global::System.Runtime.InteropServices.Architecture.Wasm)
                 return;
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 1421716367, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 1380913775, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
         }
     }
 }
@@ -79,7 +79,8 @@ namespace TestBlazor.Pages
 
 ## More details
 
-Csharp Project: C:\test\RSCG_Examples\v2\rscg_examples\Microsoft\TestBlazor\TestBlazor.csproj
+Csharp Project: See TestBlazor.csproj from [/sources/Microsoft.zip](/sources/Microsoft.zip)
+
 
 <p>
     You can see the whole list at 

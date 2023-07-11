@@ -10,6 +10,13 @@ internal record FoundFile(string filePath, string csProjPath,string generatedPat
             return nr;
         }
     }
+    public string NameProj
+    {
+        get
+        {
+            return Path.GetFileName(csProjPath);
+        }
+    }
     public string NameFileGenerated
     {
         get

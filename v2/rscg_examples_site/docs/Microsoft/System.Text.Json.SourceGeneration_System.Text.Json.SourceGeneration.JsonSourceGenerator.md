@@ -170,7 +170,8 @@ namespace JsonSerializerOptionsExample
 
 ## More details
 
-Csharp Project: C:\test\RSCG_Examples\v2\rscg_examples\Microsoft\DemoSerializeJSON\DemoSerializeJSON.csproj
+Csharp Project: See DemoSerializeJSON.csproj from [/sources/Microsoft.zip](/sources/Microsoft.zip)
+
 
 <p>
     You can see the whole list at 
