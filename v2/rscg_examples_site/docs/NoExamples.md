@@ -62,13 +62,9 @@ title: RSCG Without Examples
 
 28)Tinyhand https://github.com/archi-Doc/Tinyhand
 
-29)Podimo.ConstEmbed https://github.com/podimo/Podimo.ConstEmbed
+29)Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
 
-30)Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
+30)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
-31)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-32)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
-
-33)SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/
+31)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 

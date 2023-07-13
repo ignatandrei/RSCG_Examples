@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Podimo.ConstEmbed",
+      "nuget":[
+         "https://www.nuget.org/packages/Podimo.ConstEmbed/"
+      ],
+      "link":"https://github.com/podimo/Podimo.ConstEmbed",
+      "author":"Podimo",
+      "source":"https://github.com/podimo/Podimo.ConstEmbed"
+   },
+   "data":{
+      "goodFor":["File content transformed to constants"],
+      "csprojDemo":"PodimoConstEmbedDemo.csproj",
+      "csFiles":["Program.cs","createDB.sql"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

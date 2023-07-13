@@ -34,11 +34,10 @@ public class MultiGeneratorV2
 "Intellenum https://github.com/SteveDunn/Intellenum",
 "Mediator https://github.com/martinothamar/Mediator",
 "Tinyhand https://github.com/archi-Doc/Tinyhand",
-"Podimo.ConstEmbed https://github.com/podimo/Podimo.ConstEmbed",
 "Morris.Moxy https://github.com/mrpmorris/Morris.Moxy",
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
-"SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/"
+
 
 
     };
@@ -78,6 +77,7 @@ public class MultiGeneratorV2
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",true },
             {"Rocks" ,true},
             {"mapperly",true },
+            {"Podimo.ConstEmbed",true }
         };
 
         //foreach (var v in generators)

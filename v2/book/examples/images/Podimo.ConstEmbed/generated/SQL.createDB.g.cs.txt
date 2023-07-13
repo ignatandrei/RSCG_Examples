@@ -1,0 +1,11 @@
+namespace MyAppNamespace
+{
+    public static partial class SQL
+    {
+        public const string createDB = @"create database Andrei;
+GO;
+use Andrei;
+GO;
+";
+    }
+}
