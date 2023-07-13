@@ -259,7 +259,7 @@ public class MultiGeneratorV2
         await File.WriteAllTextAsync(Path.Combine(pathBook, "pandocHTML.yaml"), pandoc);
         //pandoc.exe -d pandocHTML.yaml -o index.docx
         //pandoc.exe -d pandocHTML.yaml -o index.html
-        await WroteIndex(pathBook);
+        //await WroteIndex(pathBook);
     }
     private async Task<bool> WroteIndex(string pathOfBook)
     {
