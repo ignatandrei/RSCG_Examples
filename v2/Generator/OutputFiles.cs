@@ -45,7 +45,7 @@ public class OutputFiles
             //DemoSerializeJSON has .net core inside
             if (LineInCSproj == 0)
             {
-                throw new ArgumentException($"cannot find {nuget} in {fullPathToCsproj}");
+                throw new ArgumentException($"cannot find {nuget} nuget in {fullPathToCsproj}");
             }
         }
         var dir =Path.GetDirectoryName(fullPathToCsproj);

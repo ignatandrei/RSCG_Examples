@@ -30,7 +30,6 @@ public class MultiGeneratorV2
 "Lombok.NET https://github.com/CollinAlpert/Lombok.NET",
 "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
 "Matryoshki https://github.com/krasin-ga/matryoshki",
-"EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp",
 "Intellenum https://github.com/SteveDunn/Intellenum",
 "Mediator https://github.com/martinothamar/Mediator",
 "Tinyhand https://github.com/archi-Doc/Tinyhand",
@@ -77,7 +76,8 @@ public class MultiGeneratorV2
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",true },
             {"Rocks" ,true},
             {"mapperly",true },
-            {"Podimo.ConstEmbed",true }
+            {"Podimo.ConstEmbed",true },
+            {"EmbeddingResourceCSharp",true }
         };
 
         //foreach (var v in generators)

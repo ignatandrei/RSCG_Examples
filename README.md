@@ -1,10 +1,10 @@
-# RSCG - 26 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 31 in queue
+# RSCG - 27 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 30 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-This are the 26 Roslyn Source Code Generators that I have tested you can see and download source code example.
+This are the 27 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
 
 ### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
@@ -293,6 +293,17 @@ Nuget: [https://www.nuget.org/packages/Podimo.ConstEmbed/]({desc.Generator.Nuget
 Author: Podimo
 
 Source: [https://github.com/podimo/Podimo.ConstEmbed](desc.Generator.Source)
+### 27. [EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp)
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp)
+
+
+Nuget: [https://www.nuget.org/packages/EmbedResourceCSharp/]({desc.Generator.NugetFirst}) 
+
+
+Author: pCYSl5EDgo
+
+Source: [https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp](desc.Generator.Source)
 
 
 ## Roslyn Source Code Generators created by Microsoft 
@@ -383,25 +394,22 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 24) Matryoshki https://github.com/krasin-ga/matryoshki
 
 
-25) EmbeddingResourceCSharp https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
+25) Intellenum https://github.com/SteveDunn/Intellenum
 
 
-26) Intellenum https://github.com/SteveDunn/Intellenum
+26) Mediator https://github.com/martinothamar/Mediator
 
 
-27) Mediator https://github.com/martinothamar/Mediator
+27) Tinyhand https://github.com/archi-Doc/Tinyhand
 
 
-28) Tinyhand https://github.com/archi-Doc/Tinyhand
+28) Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
 
 
-29) Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
+29) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
 
-30) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-
-31) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+30) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
 

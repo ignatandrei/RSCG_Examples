@@ -1,0 +1,37 @@
+namespace EmbedResourceCSharp
+{
+    internal enum PathSeparator
+    {
+        AsIs,
+        Slash,
+        BackSlash,
+    }
+
+    [global::System.AttributeUsage(global::System.AttributeTargets.Method, AllowMultiple = false)]
+    internal sealed class FileEmbedAttribute : global::System.Attribute
+    {
+        public string Path { get; }
+
+        public FileEmbedAttribute(string path)
+        {
+            Path = path;
+        }
+    }
+
+    [global::System.AttributeUsage(global::System.AttributeTargets.Method, AllowMultiple = false)]
+    internal sealed class FolderEmbedAttribute : global::System.Attribute
+    {
+        public string Path { get; private set; }
+        public string Filter { get; private set; }
+        public global::System.IO.SearchOption Option { get; private set; }
+        public PathSeparator Separator { get; private set; }
+
+        public FolderEmbedAttribute(string path, string filter = "*", global::System.IO.SearchOption option = global::System.IO.SearchOption.AllDirectories, PathSeparator separator = PathSeparator.Slash)
+        {
+            Path = path;
+            Filter = filter;
+            Option = option;
+            Separator = separator;
+        }
+    }
+}

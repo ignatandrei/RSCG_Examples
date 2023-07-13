@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"EmbedResourceCSharp",
+      "nuget":[
+         "https://www.nuget.org/packages/EmbedResourceCSharp/"
+      ],
+      "link":"https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp",
+      "author":"pCYSl5EDgo",
+      "source":"https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp"
+   },
+   "data":{
+      "goodFor":["reading embedded resources fast"],
+      "csprojDemo":"EmbeddingResourceCSharpDemo.csproj",
+      "csFiles":["Program.cs","MyResource.cs","createDB.txt"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
