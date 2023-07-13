@@ -37,7 +37,6 @@ public class MultiGeneratorV2
 "Podimo.ConstEmbed https://github.com/podimo/Podimo.ConstEmbed",
 "Morris.Moxy https://github.com/mrpmorris/Morris.Moxy",
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",
-"Mapperly https://github.com/riok/mapperly",
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
 "SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/"
 

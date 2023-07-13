@@ -1,4 +1,4 @@
-# RSCG - 25 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 34 in queue
+# RSCG - 25 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 33 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -276,7 +276,7 @@ Source: [https://github.com/JasonBock/Rocks/](desc.Generator.Source)
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
 
 
-Nuget: [https://www.nuget.org/packages/mapperly/]({desc.Generator.NugetFirst}) 
+Nuget: [https://www.nuget.org/packages/Riok.Mapperly/]({desc.Generator.NugetFirst}) 
 
 
 Author: Riok
@@ -393,13 +393,10 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 31) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
 
-32) Mapperly https://github.com/riok/mapperly
+32) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
-33) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
-
-
-34) SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/
+33) SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/
 
 
 

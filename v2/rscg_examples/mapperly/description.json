@@ -2,7 +2,7 @@
    "generator":{
       "name":"mapperly",
       "nuget":[
-         "https://www.nuget.org/packages/mapperly/"
+         "https://www.nuget.org/packages/Riok.Mapperly/"
       ],
       "link":"https://mapperly.riok.app/docs/getting-started/installation/",
       "author":"Riok",

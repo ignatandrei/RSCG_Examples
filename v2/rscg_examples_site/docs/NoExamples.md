@@ -68,9 +68,7 @@ title: RSCG Without Examples
 
 31)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
-32)Mapperly https://github.com/riok/mapperly
+32)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
-33)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
-
-34)SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/
+33)SpeedyGenerators https://github.com/raffaeler/SpeedyGenerators/
 
