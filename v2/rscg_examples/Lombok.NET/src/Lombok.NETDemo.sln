@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lombok.NETDemo", "Lombok.NETDemo\Lombok.NETDemo.csproj", "{015EDADD-0913-439A-BDCC-0DB3A5967FF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{015EDADD-0913-439A-BDCC-0DB3A5967FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015EDADD-0913-439A-BDCC-0DB3A5967FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015EDADD-0913-439A-BDCC-0DB3A5967FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015EDADD-0913-439A-BDCC-0DB3A5967FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333A8FF6-FE52-4F84-A70A-3EB6E33A245B}
+	EndGlobalSection
+EndGlobal

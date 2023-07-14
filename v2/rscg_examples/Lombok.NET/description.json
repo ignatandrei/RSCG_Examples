@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Lombok.NET",
+      "nuget":[
+         "https://www.nuget.org/packages/Lombok.NET/"
+      ],
+      "link":"https://github.com/CollinAlpert/Lombok.NET",
+      "author":"Colin Alpert",
+      "source":"https://github.com/CollinAlpert/Lombok.NET"
+   },
+   "data":{
+      "goodFor":["Generating toString from props/fields. Other demos on site"],
+      "csprojDemo":"Lombok.NETDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

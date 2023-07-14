@@ -27,7 +27,6 @@ public class MultiGeneratorV2
 "DeeDee https://github.com/joh-pot/DeeDee",
 "StrongInject https://github.com/YairHalberstadt/stronginject/",
 "MemoryPack https://github.com/Cysharp/MemoryPack",
-"Lombok.NET https://github.com/CollinAlpert/Lombok.NET",
 "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
 "Matryoshki https://github.com/krasin-ga/matryoshki",
 "Intellenum https://github.com/SteveDunn/Intellenum",
@@ -77,7 +76,8 @@ public class MultiGeneratorV2
             {"Rocks" ,true},
             {"mapperly",true },
             {"Podimo.ConstEmbed",true },
-            {"EmbeddingResourceCSharp",true }
+            {"EmbeddingResourceCSharp",true },
+            {"Lombok.NET",true }
         };
 
         //foreach (var v in generators)
