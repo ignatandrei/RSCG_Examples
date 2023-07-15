@@ -35,11 +35,12 @@ public class MultiGeneratorV2
 "Morris.Moxy https://github.com/mrpmorris/Morris.Moxy",
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
-
+"Refit https://github.com/reactiveui/refit",
 
 
     };
-
+    //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
+    //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
     Dictionary<string, bool> generators;
     private readonly string rootPath;
     private Description[]? _AllDescriptions = null;

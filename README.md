@@ -1,4 +1,4 @@
-# RSCG - 28 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 29 in queue
+# RSCG - 28 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 30 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -418,6 +418,9 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 
 
 29) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+
+
+30) Refit https://github.com/reactiveui/refit
 
 
 

@@ -87,6 +87,7 @@ $$"""
     Console.WriteLine("Zip, image, html, pdf : y/n");
     if (Console.ReadLine() == "y")
     {
+        //await m.WrotePost();
         await m.CreateZip();
         await m.CreateImageFiles();
         await m.CreateHTMLBook();
