@@ -3,6 +3,10 @@
 try
 {
     string originalFolder = @"C:\test\RSCG_Examples";
+    if (!Directory.Exists(originalFolder))
+    {
+        originalFolder = @"C:\gth\RSCG_Examples";
+    }
     Console.WriteLine("New generator?(press enter for none)");
     var newGen =  Console.ReadLine();
     if (!string.IsNullOrWhiteSpace(newGen))

@@ -163,10 +163,15 @@ class MultiGenerator
     }
     public async Task GenerateFrontReadMe()
     {
+        string f1 = @"C:\Users\Surface1\Documents\GitHub\RSCG_Examples\book\others.md";
+        if (!File.Exists(f1))
+        {
+            f1 = @"C:\gth\RSCG_Examples\v1\book\others.md";
+        }
         var gen = await AllDescriptions();
         var templatePost = await File.ReadAllTextAsync("frontReadme.txt");
         var templateScriban = Scriban.Template.Parse(templatePost);
-        string other_roslyn = await File.ReadAllTextAsync(@"C:\Users\Surface1\Documents\GitHub\RSCG_Examples\book\others.md");
+        string other_roslyn = await File.ReadAllTextAsync(f1);
         var output = templateScriban.Render(new { all = gen, other_roslyn }, member => member.Name);
         string readMe = Path.Combine(rootPath,  "readme.md");
         await File.WriteAllTextAsync(readMe, output);
