@@ -1,7 +1,6 @@
 ﻿using System.Net.NetworkInformation;
 
 namespace Generator;
-
 public class MultiGeneratorV2
 {
     string[] rscgNoExamples = new[] {
@@ -41,44 +40,46 @@ public class MultiGeneratorV2
     };
     //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
     //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
-    Dictionary<string, bool> generators;
+    Dictionary<string, GeneratorData> generators;
     private readonly string rootPath;
     private Description[]? _AllDescriptions = null;
     private FoundFile[]? MicrosoftRSCG= null;
     public MultiGeneratorV2(string root)
     {
         this.rootPath = root;
-
+        DateTime dtStart = new(2023, 04, 16);
+        GeneratorData before = new(true, dtStart);
         generators = new()
         {
-            { "ThisAssembly",true },
-            {"RSCG_TimeBombComment",true},
-            {"System.Text.Json",true },
-            {"RSCG_Utils",true },
-            {"System.Text.RegularExpressions",true },
-            {"SkinnyControllersCommon",true },
-            {"Microsoft.Extensions.Logging",true },
-            {"RSCG_Static",true },
-            {"CommunityToolkit.Mvvm",true },
-            {"RSCG_AMS",true },
-            {"AutoDeconstruct",true },
-            {"System.Runtime.InteropServices",true },
-            {"QuickConstructor",true },
-            {"AutoCtor",true },
-            { "dunet",true },
-            {"Vogen",true },
-            {"RazorBlade",true },
-            { "PartiallyApplied",true},
-            {"Apparatus.AOT.Reflection",true },
-            {"NetEscapades.EnumGenerators",true },
-            {"Microsoft.Interop.JavaScript.JSImportGenerator",true },
-            {"RSCG_FunctionsWithDI",true },
-            {"Microsoft.NET.Sdk.Razor.SourceGenerators",true },
-            {"Rocks" ,true},
-            {"mapperly",true },
-            {"Podimo.ConstEmbed",true },
-            {"EmbeddingResourceCSharp",true },
-            {"Lombok.NET",true }
+            { "ThisAssembly",before },
+            {"RSCG_TimeBombComment",before},
+            {"System.Text.Json",before },
+            {"RSCG_Utils",before },
+            {"System.Text.RegularExpressions",before },
+            {"SkinnyControllersCommon",before },
+            {"Microsoft.Extensions.Logging",before },
+            {"RSCG_Static",before },
+            {"CommunityToolkit.Mvvm",before },
+            {"RSCG_AMS",before },
+            {"AutoDeconstruct",before },
+            {"System.Runtime.InteropServices",before },
+            {"QuickConstructor",before },
+            {"AutoCtor",before },
+            { "dunet",before },
+            {"Vogen",before },
+            {"RazorBlade",before },
+            { "PartiallyApplied",new(true,dtStart)},
+            {"Apparatus.AOT.Reflection",before },
+            {"NetEscapades.EnumGenerators",before },
+            {"Microsoft.Interop.JavaScript.JSImportGenerator",before },
+            {"RSCG_FunctionsWithDI",before },
+            {"Microsoft.NET.Sdk.Razor.SourceGenerators",before },
+            {"Rocks" ,before},
+            {"mapperly",before },
+            {"Podimo.ConstEmbed",before },
+            {"EmbeddingResourceCSharp",before },
+            {"Lombok.NET",before },
+            //{"ad",new(true,new(2023,16,4))
         };
 
         //foreach (var v in generators)
@@ -93,7 +94,7 @@ public class MultiGeneratorV2
         var tasks = generators
             .Select(it => new { it.Key, it.Value })
             .Select((it, nr) =>
-                it.Value ? GatherData(nr + 1, it.Key, folderExamples) : null)
+                it.Value.show ? GatherData(nr + 1, it.Key, folderExamples,it.Value.dtStart) : null)
             .Where(it => it != null)
             .ToArray();
         ArgumentNullException.ThrowIfNull(tasks);
@@ -152,7 +153,7 @@ public class MultiGeneratorV2
         ZipFile.CreateFromDirectory(sources, zipFile, CompressionLevel.SmallestSize, false);
         return true;
     }
-    private async Task<Description> GatherData(int nr, string generator, string rootFolder)
+    private async Task<Description> GatherData(int nr, string generator, string rootFolder,DateTime generatedDate)
     {
         var folder = Path.Combine(rootFolder, generator);
         var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
@@ -160,6 +161,7 @@ public class MultiGeneratorV2
         ArgumentNullException.ThrowIfNull(desc);
         desc.Nr = nr;
         desc.rootFolder = folder;
+        desc.generatedDate = generatedDate;
         string sources = Path.Combine(desc.rootFolder, "src");
         //await CleanProject(sources);
         //var zipFile = Path.Combine(rootFolder + "_site", "static", "sources", desc.Generator.Name + ".zip");
@@ -410,7 +412,7 @@ public class MultiGeneratorV2
 
     private async Task<bool> WroteIndexListOfRSCG(string rootPath)
     {
-        if (generators.Any(it => !it.Value))
+        if (generators.Any(it => !it.Value.show))
             return false;
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         var pathIndex = Path.Combine(pathDocusaurus,"docs", "indexRSCG.md");

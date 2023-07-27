@@ -14,6 +14,9 @@ public class Description
     [JsonPropertyName("links")]
     public Links? Links { get; set; }
     [JsonIgnore]
+    public DateTime generatedDate { get; internal set; }
+
+    [JsonIgnore]
     public string? rootFolder;
     [JsonIgnore]
     public bool HaveAuthorAnswered;

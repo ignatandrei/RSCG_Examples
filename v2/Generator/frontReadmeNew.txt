@@ -4,12 +4,12 @@ If you want to go to documentation , please click  ***[List V2](https://ignatand
 
 ## Content 
 
-This are the {{nr}} Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the {{nr}} Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including {{MSFT_RSCG_NR}} from Microsoft )
 
 {{~ for desc in all ~}} 
 ### {{desc.Nr}}. [{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
-
+generated: desc.generatedDate
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
 
 
