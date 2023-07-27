@@ -75,7 +75,7 @@ This is the CSharp Project that references **Lombok.NET**
 
 </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Lombok.NET\src\Lombok.NETDemo\Program.cs" label="Program.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Lombok.NET\src\Lombok.NETDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Lombok.NET** in *Program.cs*
 
@@ -91,7 +91,7 @@ Console.WriteLine(p.ToString());
 ```
   </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Lombok.NET\src\Lombok.NETDemo\Person.cs" label="Person.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Lombok.NET\src\Lombok.NETDemo\Person.cs" label="Person.cs" >
 
   This is the use of **Lombok.NET** in *Person.cs*
 
@@ -132,7 +132,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Lombok.NET\src\Lombok.NETDemo\obj\GX\Lombok.NET\Lombok.NET.MethodGenerators.ToStringGenerator\Lombok_NETDemo_Person.g.cs" label="Lombok_NETDemo_Person.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Lombok.NET\src\Lombok.NETDemo\obj\GX\Lombok.NET\Lombok.NET.MethodGenerators.ToStringGenerator\Lombok_NETDemo_Person.g.cs" label="Lombok_NETDemo_Person.g.cs" >
 
 
 ```csharp showLineNumbers 

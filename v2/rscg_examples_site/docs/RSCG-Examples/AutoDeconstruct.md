@@ -75,7 +75,7 @@ This is the CSharp Project that references **AutoDeconstruct**
 
 </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\Program.cs" label="Program.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\Program.cs" label="Program.cs" >
 
   This is the use of **AutoDeconstruct** in *Program.cs*
 
@@ -90,7 +90,7 @@ Console.WriteLine($"Last name is {l}");
 ```
   </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\Person.cs" label="Person.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\Person.cs" label="Person.cs" >
 
   This is the use of **AutoDeconstruct** in *Person.cs*
 
@@ -125,7 +125,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\obj\GX\AutoDeconstruct\AutoDeconstruct.AutoDeconstructGenerator\AutoDeconstruct.g.cs" label="AutoDeconstruct.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDeconstruct\src\AutoDeconstructDemo\obj\GX\AutoDeconstruct\AutoDeconstruct.AutoDeconstructGenerator\AutoDeconstruct.g.cs" label="AutoDeconstruct.g.cs" >
 
 
 ```csharp showLineNumbers 

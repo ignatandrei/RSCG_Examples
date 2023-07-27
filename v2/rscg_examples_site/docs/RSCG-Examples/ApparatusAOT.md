@@ -74,7 +74,7 @@ This is the CSharp Project that references **ApparatusAOT**
 
 </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\Program.cs" label="Program.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\Program.cs" label="Program.cs" >
 
   This is the use of **ApparatusAOT** in *Program.cs*
 
@@ -114,7 +114,7 @@ foreach (var item in prop)
 ```
   </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\Person.cs" label="Person.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\Person.cs" label="Person.cs" >
 
   This is the use of **ApparatusAOT** in *Person.cs*
 
@@ -139,7 +139,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\obj\GX\Apparatus.AOT.Reflection.SourceGenerator\Apparatus.AOT.Reflection.SourceGenerator.AotPropertiesReflectionSourceGenerator\ApparatusDemo_PersonExtensions.cs" label="ApparatusDemo_PersonExtensions.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Apparatus.AOT.Reflection\src\ApparatusAOTDemo\obj\GX\Apparatus.AOT.Reflection.SourceGenerator\Apparatus.AOT.Reflection.SourceGenerator.AotPropertiesReflectionSourceGenerator\ApparatusDemo_PersonExtensions.cs" label="ApparatusDemo_PersonExtensions.cs" >
 
 
 ```csharp showLineNumbers 

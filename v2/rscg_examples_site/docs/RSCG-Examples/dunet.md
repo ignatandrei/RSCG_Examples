@@ -82,7 +82,7 @@ This is the CSharp Project that references **dunet**
 
 </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\Program.cs" label="Program.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\Program.cs" label="Program.cs" >
 
   This is the use of **dunet** in *Program.cs*
 
@@ -123,7 +123,7 @@ Console.WriteLine(x);
 ```
   </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\Recognize.cs" label="Recognize.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\Recognize.cs" label="Recognize.cs" >
 
   This is the use of **dunet** in *Recognize.cs*
 
@@ -170,7 +170,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionAttributeGeneration.UnionAttributeGenerator\UnionAttribute.g.cs" label="UnionAttribute.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionAttributeGeneration.UnionAttributeGenerator\UnionAttribute.g.cs" label="UnionAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -188,7 +188,7 @@ internal sealed class UnionAttribute : Attribute {}
   </TabItem>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionGeneration.UnionGenerator\duneDemo.WhatIsTheString.g.cs" label="duneDemo.WhatIsTheString.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionGeneration.UnionGenerator\duneDemo.WhatIsTheString.g.cs" label="duneDemo.WhatIsTheString.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -718,7 +718,7 @@ abstract partial record WhatIsTheString
   </TabItem>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionGeneration.UnionGenerator\duneDemo.WhatIsTheStringMatchExtensions.g.cs" label="duneDemo.WhatIsTheStringMatchExtensions.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\dunet\src\duneDemo\obj\GX\Dunet\Dunet.UnionGeneration.UnionGenerator\duneDemo.WhatIsTheStringMatchExtensions.g.cs" label="duneDemo.WhatIsTheStringMatchExtensions.g.cs" >
 
 
 ```csharp showLineNumbers 

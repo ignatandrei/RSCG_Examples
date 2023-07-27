@@ -602,7 +602,7 @@ public class MultiGeneratorV2
     internal async Task<long> GenerateMSFT()
     {
         string folderMSFT = Path.Combine(rootPath, "rscg_examples","Microsoft");
-
+        await BuildProject(Path.Combine(folderMSFT, "src"));
         ByMicrosoft msft = new(folderMSFT);
         this.MicrosoftRSCG = await msft.Search();
         var nr = await msft.WriteFiles(Path.Combine(rootPath, "rscg_examples_site"));

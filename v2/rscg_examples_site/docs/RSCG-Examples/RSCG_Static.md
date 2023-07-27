@@ -75,7 +75,7 @@ This is the CSharp Project that references **RSCG_Static**
 
 </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\RSCG_StaticDemo\Program.cs" label="Program.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\Program.cs" label="Program.cs" >
 
   This is the use of **RSCG_Static** in *Program.cs*
 
@@ -96,7 +96,7 @@ Console.WriteLine(dateVar.Now.Second);
 ```
   </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\RSCG_StaticDemo\StaticToInterface.cs" label="StaticToInterface.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\StaticToInterface.cs" label="StaticToInterface.cs" >
 
   This is the use of **RSCG_Static** in *StaticToInterface.cs*
 
@@ -120,7 +120,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\RSCG_StaticDemo\obj\GX\RSCG_Static\RSCG_Static.GenerateFromStaticIncremental\GenerateInterfaceFromDate.cs" label="GenerateInterfaceFromDate.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Static\src\RSCG_StaticDemo\obj\GX\RSCG_Static\RSCG_Static.GenerateFromStaticIncremental\GenerateInterfaceFromDate.cs" label="GenerateInterfaceFromDate.cs" >
 
 
 ```csharp showLineNumbers 

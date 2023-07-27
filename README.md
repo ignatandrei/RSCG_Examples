@@ -4,10 +4,11 @@ If you want to go to documentation , please click  ***[List V2](https://ignatand
 
 ## Content 
 
-This are the 28 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 28 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
 
 ### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
 
@@ -19,6 +20,7 @@ Author: Daniel Cazzulino
 
 Source: [https://github.com/devlooped/ThisAssembly](desc.Generator.Source)
 ### 2. [RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)
 
@@ -30,6 +32,7 @@ Author: Andrei Ignat
 
 Source: [https://github.com/ignatandrei/RSCG_TimeBombComment](desc.Generator.Source)
 ### 3. [System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
 
@@ -41,6 +44,7 @@ Author: Microsoft
 
 Source: [https://github.com/dotnet/runtime](desc.Generator.Source)
 ### 4. [RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)
 
@@ -52,6 +56,7 @@ Author: Ignat Andrei
 
 Source: [https://github.com/ignatandrei/RSCG_Utils](desc.Generator.Source)
 ### 5. [System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
 
@@ -63,6 +68,7 @@ Author: Microsoft
 
 Source: [https://github.com/dotnet/runtime](desc.Generator.Source)
 ### 6. [SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)
 
@@ -74,6 +80,7 @@ Author: Ignat Andrei
 
 Source: [https://github.com/ignatandrei/SkinnyControllersGenerator/](desc.Generator.Source)
 ### 7. [Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
 
@@ -85,6 +92,7 @@ Author: Microsoft
 
 Source: [https://github.com/dotnet/runtime](desc.Generator.Source)
 ### 8. [RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)
 
@@ -96,6 +104,7 @@ Author: Andrei Ignat
 
 Source: [https://github.com/ignatandrei/RSCG_Static](desc.Generator.Source)
 ### 9. [CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
 
@@ -107,6 +116,7 @@ Author: Microsoft
 
 Source: [https://github.com/CommunityToolkit/dotnet](desc.Generator.Source)
 ### 10. [RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)
 
@@ -118,6 +128,7 @@ Author: Ignat Andrei
 
 Source: [https://github.com/ignatandrei/RSCG_AMS](desc.Generator.Source)
 ### 11. [AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)
 
@@ -129,6 +140,7 @@ Author: Jason Bock
 
 Source: [https://github.com/jasonbock/autodeconstruct](desc.Generator.Source)
 ### 12. [System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
 
@@ -140,6 +152,7 @@ Author: Microsoft
 
 Source: [https://www.nuget.org/packages/System.Runtime.InteropServices/](desc.Generator.Source)
 ### 13. [QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)
 
@@ -151,6 +164,7 @@ Author: Flavien Charlon
 
 Source: [https://github.com/flavien/QuickConstructor](desc.Generator.Source)
 ### 14. [AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)
 
@@ -162,6 +176,7 @@ Author: Cameron MacFarland
 
 Source: [https://github.com/distantcam/AutoCtor](desc.Generator.Source)
 ### 15. [dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)
 
@@ -173,6 +188,7 @@ Author: Domn Werner
 
 Source: [https://github.com/domn1995/dunet](desc.Generator.Source)
 ### 16. [Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)
 
@@ -184,6 +200,7 @@ Author: Steve Dunn
 
 Source: [https://github.com/SteveDunn/Vogen](desc.Generator.Source)
 ### 17. [RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)
 
@@ -195,6 +212,7 @@ Author: Lucas Trzesniewski
 
 Source: [https://github.com/ltrzesniewski/RazorBlade](desc.Generator.Source)
 ### 18. [PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)
 
@@ -206,6 +224,7 @@ Author: Jason Bock
 
 Source: [https://github.com/JasonBock/PartiallyApplied](desc.Generator.Source)
 ### 19. [ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)
 
@@ -217,6 +236,7 @@ Author: Stanislav Silin
 
 Source: [https://github.com/byme8/Apparatus.AOT.Reflection](desc.Generator.Source)
 ### 20. [NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)
 
@@ -228,6 +248,7 @@ Author: Andrew Lock
 
 Source: [https://github.com/andrewlock/NetEscapades.EnumGenerators](desc.Generator.Source)
 ### 21. [Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
@@ -239,6 +260,7 @@ Author: Microsoft
 
 Source: [](desc.Generator.Source)
 ### 22. [RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)
 
@@ -250,6 +272,7 @@ Author: Andrei Ignat
 
 Source: [https://github.com/ignatandrei/functionsdi](desc.Generator.Source)
 ### 23. [Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
@@ -261,6 +284,7 @@ Author: Microsoft
 
 Source: [](desc.Generator.Source)
 ### 24. [Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)
 
@@ -272,6 +296,7 @@ Author: Json Bock
 
 Source: [https://github.com/JasonBock/Rocks/](desc.Generator.Source)
 ### 25. [mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
 
@@ -283,6 +308,7 @@ Author: Riok
 
 Source: [https://github.com/riok/mapperly](desc.Generator.Source)
 ### 26. [Podimo.ConstEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed)
 
@@ -294,6 +320,7 @@ Author: Podimo
 
 Source: [https://github.com/podimo/Podimo.ConstEmbed](desc.Generator.Source)
 ### 27. [EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp)
 
@@ -305,6 +332,7 @@ Author: pCYSl5EDgo
 
 Source: [https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp](desc.Generator.Source)
 ### 28. [Lombok.NET](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET)
+generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET)
 

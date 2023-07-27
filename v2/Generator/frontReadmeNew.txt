@@ -9,7 +9,8 @@ Those are the {{nr}} Roslyn Source Code Generators that I have tested you can se
 
 {{~ for desc in all ~}} 
 ### {{desc.Nr}}. [{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
-generated: desc.generatedDate
+generated: {{desc.generatedDate  | date.to_string '%F => %d %B %Y' }}
+
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
 
 

@@ -86,7 +86,7 @@ This is the CSharp Project that references **Rocks**
 
 </TabItem>
 
-  <TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Rocks\src\TestClock\TestClock.cs" label="TestClock.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Rocks\src\TestClock\TestClock.cs" label="TestClock.cs" >
 
   This is the use of **Rocks** in *TestClock.cs*
 
@@ -121,7 +121,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\test\RSCG_Examples\v2\rscg_examples\Rocks\src\TestClock\obj\GX\Rocks\Rocks.RockCreateGenerator\IMyClock_Rock_Create.g.cs" label="IMyClock_Rock_Create.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Rocks\src\TestClock\obj\GX\Rocks\Rocks.RockCreateGenerator\IMyClock_Rock_Create.g.cs" label="IMyClock_Rock_Create.g.cs" >
 
 
 ```csharp showLineNumbers 
