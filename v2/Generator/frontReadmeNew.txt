@@ -12,7 +12,7 @@ Those are the {{nr}} Roslyn Source Code Generators that I have tested you can se
 
 Author: {{desc.Generator.Author}}
 
-{{desc.DescriptionNuget}}
+{{desc.DescriptionNuget}} 
 
 Nuget: [{{desc.Generator.NugetFirst}}]({{desc.Generator.NugetFirst}}) 
 

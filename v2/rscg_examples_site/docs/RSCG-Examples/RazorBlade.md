@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **RazorBlade**
 
+Compile Razor templates at build-time without a dependency on ASP.NET.
+
 Author: Lucas Trzesniewski
 
 NuGet: 

@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **SkinnyControllersCommon**
 
+** C# 9.0 ONLY **
+
 Author: Ignat Andrei
 
 NuGet: 

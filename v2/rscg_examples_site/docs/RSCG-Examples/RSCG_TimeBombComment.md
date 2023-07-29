@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **RSCG_TimeBombComment**
 
+This package make a time bomb from comment.
+
 Author: Andrei Ignat
 
 NuGet: 

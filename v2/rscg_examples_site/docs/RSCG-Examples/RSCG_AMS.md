@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **RSCG_AMS**
 
+This package lets you put record the commit , date , and more for your software .
+
 Author: Ignat Andrei
 
 NuGet: 

@@ -11,7 +11,7 @@ Those are the 28 Roslyn Source Code Generators that I have tested you can see an
 
 Author: Daniel Cazzulino
 
-Meta-package that includes all ThisAssembly.* packages.
+Meta-package that includes all ThisAssembly.* packages. 
 
 Nuget: [https://www.nuget.org/packages/ThisAssembly](https://www.nuget.org/packages/ThisAssembly) 
 
@@ -28,7 +28,7 @@ Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped
 
 Author: Andrei Ignat
 
-This package make a time bomb from comment.
+This package make a time bomb from comment. 
 
 Nuget: [https://www.nuget.org/packages/RSCG_TimeBombComment/](https://www.nuget.org/packages/RSCG_TimeBombComment/) 
 
@@ -45,7 +45,7 @@ Source: [https://github.com/ignatandrei/RSCG_TimeBombComment](https://github.com
 
 Author: Microsoft
 
-A minimalistic and fast JSON parser/deserializer, for full .NET
+A minimalistic and fast JSON parser/deserializer, for full .NET 
 
 Nuget: [https://www.nuget.org/packages/System.Text.Json/](https://www.nuget.org/packages/System.Text.Json/) 
 
@@ -62,7 +62,7 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 Author: Ignat Andrei
 
-Additional files as strings
+Additional files as strings 
 
 Nuget: [https://www.nuget.org/packages/rscgutils](https://www.nuget.org/packages/rscgutils) 
 
@@ -87,7 +87,7 @@ System.Text.RegularExpressions.RegexOptions
 System.Text.RegularExpressions.Match
 System.Text.RegularExpressions.Group
 System.Text.RegularExpressions.Capture
-System.Text.RegularExpressions.MatchEvaluator
+System.Text.RegularExpressions.MatchEvaluator 
 
 Nuget: [https://www.nuget.org/packages/System.Text.RegularExpressions/](https://www.nuget.org/packages/System.Text.RegularExpressions/) 
 
@@ -104,7 +104,7 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 Author: Ignat Andrei
 
-** C# 9.0 ONLY **
+** C# 9.0 ONLY ** 
 
 Nuget: [https://www.nuget.org/packages/SkinnyControllersCommon](https://www.nuget.org/packages/SkinnyControllersCommon) 
 
@@ -121,7 +121,7 @@ Source: [https://github.com/ignatandrei/SkinnyControllersGenerator/](https://git
 
 Author: Microsoft
 
-Logging infrastructure.
+Logging infrastructure. 
 
 Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Logging/](https://www.nuget.org/packages/Microsoft.Extensions.Logging/) 
 
@@ -138,7 +138,7 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 Author: Andrei Ignat
 
-This package make you an interface and  record from static properties / methods
+This package make you an interface and  record from static properties / methods 
 
 Nuget: [https://www.nuget.org/packages/RSCG_Static/](https://www.nuget.org/packages/RSCG_Static/) 
 
@@ -163,7 +163,7 @@ This package includes a .NET Standard MVVM library with helpers such as:
       - AsyncRelayCommand: a delegate command supporting asynchronous operations and cancellation.
       - WeakReferenceMessenger: a messaging system to exchange messages through different loosely-coupled objects.
       - StrongReferenceMessenger: a high-performance messaging system that trades weak references for speed.
-      - Ioc: a helper class to configure dependency injection service containers.
+      - Ioc: a helper class to configure dependency injection service containers. 
 
 Nuget: [https://www.nuget.org/packages/CommunityToolkit.Mvvm](https://www.nuget.org/packages/CommunityToolkit.Mvvm) 
 
@@ -180,7 +180,7 @@ Source: [https://github.com/CommunityToolkit/dotnet](https://github.com/Communit
 
 Author: Ignat Andrei
 
-This package lets you put record the commit , date , and more for your software .
+This package lets you put record the commit , date , and more for your software . 
 
 Nuget: [https://www.nuget.org/packages/RSCG_AMS/](https://www.nuget.org/packages/RSCG_AMS/) 
 
@@ -197,7 +197,7 @@ Source: [https://github.com/ignatandrei/RSCG_AMS](https://github.com/ignatandrei
 
 Author: Jason Bock
 
-Generates deconstruction methods for type definitions.
+Generates deconstruction methods for type definitions. 
 
 Nuget: [https://www.nuget.org/packages/AutoDeconstruct](https://www.nuget.org/packages/AutoDeconstruct) 
 
@@ -221,7 +221,7 @@ System.Runtime.InteropServices.GCHandle
 System.Runtime.InteropServices.GuidAttribute
 System.Runtime.InteropServices.COMException
 System.DllNotFoundException
-System.Runtime.InteropServices.DllImportAttribute
+System.Runtime.InteropServices.DllImportAttribute 
 
 Nuget: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https://www.nuget.org/packages/System.Runtime.InteropServices/) 
 
@@ -238,7 +238,7 @@ Source: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https:/
 
 Author: Flavien Charlon
 
-Source generator that automatically creates a constructor from the fields and properties of a class.
+Source generator that automatically creates a constructor from the fields and properties of a class. 
 
 Nuget: [https://www.nuget.org/packages/QuickConstructor](https://www.nuget.org/packages/QuickConstructor) 
 
@@ -255,7 +255,7 @@ Source: [https://github.com/flavien/QuickConstructor](https://github.com/flavien
 
 Author: Cameron MacFarland
 
-Source Generator to automatically create a constructor with all the readonly fields set.
+Source Generator to automatically create a constructor with all the readonly fields set. 
 
 Nuget: [https://www.nuget.org/packages/AutoCtor/](https://www.nuget.org/packages/AutoCtor/) 
 
@@ -272,7 +272,7 @@ Source: [https://github.com/distantcam/AutoCtor](https://github.com/distantcam/A
 
 Author: Domn Werner
 
-A simple source generator for discriminated unions in C#.
+A simple source generator for discriminated unions in C#. 
 
 Nuget: [https://www.nuget.org/packages/dunet/](https://www.nuget.org/packages/dunet/) 
 
@@ -306,7 +306,7 @@ This package contains a Souce Generator which generates Value Objects that wrap 
       var customerId = CustomerId.From(42);
       ```
 
-      Validation is in just one place. You can't introduce bad objects into your domain, therefore you can assume that in your domain every ValueObject is valid.
+      Validation is in just one place. You can't introduce bad objects into your domain, therefore you can assume that in your domain every ValueObject is valid. 
 
 Nuget: [https://www.nuget.org/packages/Vogen/](https://www.nuget.org/packages/Vogen/) 
 
@@ -323,7 +323,7 @@ Source: [https://github.com/SteveDunn/Vogen](https://github.com/SteveDunn/Vogen)
 
 Author: Lucas Trzesniewski
 
-Compile Razor templates at build-time without a dependency on ASP.NET.
+Compile Razor templates at build-time without a dependency on ASP.NET. 
 
 Nuget: [https://www.nuget.org/packages/RazorBlade/](https://www.nuget.org/packages/RazorBlade/) 
 
@@ -340,7 +340,7 @@ Source: [https://github.com/ltrzesniewski/RazorBlade](https://github.com/ltrzesn
 
 Author: Jason Bock
 
-A way to do partial function application in C#
+A way to do partial function application in C# 
 
 Nuget: [https://www.nuget.org/packages/PartiallyApplied/](https://www.nuget.org/packages/PartiallyApplied/) 
 
@@ -357,7 +357,7 @@ Source: [https://github.com/JasonBock/PartiallyApplied](https://github.com/Jason
 
 Author: Stanislav Silin
 
-Apparatus.AOT.Reflection
+Apparatus.AOT.Reflection 
 
 Nuget: [https://www.nuget.org/packages/Apparatus.AOT.Reflection/](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) 
 
@@ -374,7 +374,7 @@ Source: [https://github.com/byme8/Apparatus.AOT.Reflection](https://github.com/b
 
 Author: Andrew Lock
 
-A source generator for creating helper extension methods on enums using a [EnumExtensions] attribute
+A source generator for creating helper extension methods on enums using a [EnumExtensions] attribute 
 
 Nuget: [https://www.nuget.org/packages/NetEscapades.EnumGenerators/](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) 
 
@@ -391,7 +391,7 @@ Source: [https://github.com/andrewlock/NetEscapades.EnumGenerators](https://gith
 
 Author: Microsoft
 
-
+ 
 
 Nuget: []() 
 
@@ -408,7 +408,7 @@ Source: []()
 
 Author: Andrei Ignat
 
-Generate correct functions from  [FromServices]
+Generate correct functions from  [FromServices] 
 
 Nuget: [https://www.nuget.org/packages/RSCG_FunctionsWithDI/](https://www.nuget.org/packages/RSCG_FunctionsWithDI/) 
 
@@ -425,7 +425,7 @@ Source: [https://github.com/ignatandrei/functionsdi](https://github.com/ignatand
 
 Author: Microsoft
 
-
+ 
 
 Nuget: []() 
 
@@ -442,7 +442,7 @@ Source: []()
 
 Author: Json Bock
 
-A mocking library based on the Compiler API.
+A mocking library based on the Compiler API. 
 
 Nuget: [https://www.nuget.org/packages/Rocks/](https://www.nuget.org/packages/Rocks/) 
 
@@ -461,7 +461,7 @@ Author: Riok
 
 A .NET source generator for generating object mappings.
       Trimming save.
-      Inspired by MapStruct.
+      Inspired by MapStruct. 
 
 Nuget: [https://www.nuget.org/packages/Riok.Mapperly/](https://www.nuget.org/packages/Riok.Mapperly/) 
 
@@ -482,7 +482,7 @@ A source generator that turns additional files into file constants in a generate
             This is an alternative approach to embedding files in C# source manually,
             or loading them manually as embedded resources via reflection.
             With ConstEmbed, you will never have to see a runtime error because you mistyped the name,
-            as the constants are evaluated at compile-time.
+            as the constants are evaluated at compile-time. 
 
 Nuget: [https://www.nuget.org/packages/Podimo.ConstEmbed/](https://www.nuget.org/packages/Podimo.ConstEmbed/) 
 
@@ -499,7 +499,7 @@ Source: [https://github.com/podimo/Podimo.ConstEmbed](https://github.com/podimo/
 
 Author: pCYSl5EDgo
 
-SourceGenerator for resource file embedding with EmbedResourceCSharp.
+SourceGenerator for resource file embedding with EmbedResourceCSharp. 
 
 Nuget: [https://www.nuget.org/packages/EmbedResourceCSharp/](https://www.nuget.org/packages/EmbedResourceCSharp/) 
 
@@ -516,7 +516,7 @@ Source: [https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp](https://github.c
 
 Author: Colin Alpert
 
-This library is to .NET what Lombok is to Java. It generates constructors and other fun stuff using Source Generators for those classes you specify special attributes for.
+This library is to .NET what Lombok is to Java. It generates constructors and other fun stuff using Source Generators for those classes you specify special attributes for. 
 
 Nuget: [https://www.nuget.org/packages/Lombok.NET/](https://www.nuget.org/packages/Lombok.NET/) 
 

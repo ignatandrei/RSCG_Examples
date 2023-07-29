@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **Microsoft.Extensions.Logging**
 
+Logging infrastructure.
+
 Author: Microsoft
 
 NuGet: 

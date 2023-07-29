@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **AutoDeconstruct**
 
+Generates deconstruction methods for type definitions.
+
 Author: Jason Bock
 
 NuGet: 

@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **ThisAssembly**
 
+Meta-package that includes all ThisAssembly.* packages.
+
 Author: Daniel Cazzulino
 
 NuGet: 

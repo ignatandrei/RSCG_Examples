@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **QuickConstructor**
 
+Source generator that automatically creates a constructor from the fields and properties of a class.
+
 Author: Flavien Charlon
 
 NuGet: 

@@ -24,6 +24,12 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **Podimo.ConstEmbed**
 
+A source generator that turns additional files into file constants in a generated namespace.
+            This is an alternative approach to embedding files in C# source manually,
+            or loading them manually as embedded resources via reflection.
+            With ConstEmbed, you will never have to see a runtime error because you mistyped the name,
+            as the constants are evaluated at compile-time.
+
 Author: Podimo
 
 NuGet: 

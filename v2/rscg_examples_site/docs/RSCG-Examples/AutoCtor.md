@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **AutoCtor**
 
+Source Generator to automatically create a constructor with all the readonly fields set.
+
 Author: Cameron MacFarland
 
 NuGet: 

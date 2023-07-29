@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **PartiallyApplied**
 
+A way to do partial function application in C#
+
 Author: Jason Bock
 
 NuGet: 

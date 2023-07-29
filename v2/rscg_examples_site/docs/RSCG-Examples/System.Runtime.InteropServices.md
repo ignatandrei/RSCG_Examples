@@ -24,6 +24,15 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **System.Runtime.InteropServices**
 
+Provides types that support COM interop and platform invoke services.
+
+Commonly Used Types:
+System.Runtime.InteropServices.GCHandle
+System.Runtime.InteropServices.GuidAttribute
+System.Runtime.InteropServices.COMException
+System.DllNotFoundException
+System.Runtime.InteropServices.DllImportAttribute
+
 Author: Microsoft
 
 NuGet: 

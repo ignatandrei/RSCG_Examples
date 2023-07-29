@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **RSCG_Static**
 
+This package make you an interface and  record from static properties / methods
+
 Author: Andrei Ignat
 
 NuGet: 

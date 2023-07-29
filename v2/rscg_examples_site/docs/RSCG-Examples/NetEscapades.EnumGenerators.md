@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **NetEscapades.EnumGenerators**
 
+A source generator for creating helper extension methods on enums using a [EnumExtensions] attribute
+
 Author: Andrew Lock
 
 NuGet: 

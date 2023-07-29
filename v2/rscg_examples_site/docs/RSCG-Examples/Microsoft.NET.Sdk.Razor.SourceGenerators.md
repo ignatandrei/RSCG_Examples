@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **Microsoft.NET.Sdk.Razor.SourceGenerators**
 
+
+
 Author: Microsoft
 
 NuGet: 

@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **RSCG_FunctionsWithDI**
 
+Generate correct functions from  [FromServices]
+
 Author: Andrei Ignat
 
 NuGet: 

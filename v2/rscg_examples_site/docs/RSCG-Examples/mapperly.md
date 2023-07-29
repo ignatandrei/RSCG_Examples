@@ -24,6 +24,10 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **mapperly**
 
+A .NET source generator for generating object mappings.
+      Trimming save.
+      Inspired by MapStruct.
+
 Author: Riok
 
 NuGet: 

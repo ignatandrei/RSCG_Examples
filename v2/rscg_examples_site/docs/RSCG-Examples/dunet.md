@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **dunet**
 
+A simple source generator for discriminated unions in C#.
+
 Author: Domn Werner
 
 NuGet: 

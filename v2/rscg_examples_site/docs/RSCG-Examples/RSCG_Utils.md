@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **RSCG_Utils**
 
+Additional files as strings
+
 Author: Ignat Andrei
 
 NuGet: 

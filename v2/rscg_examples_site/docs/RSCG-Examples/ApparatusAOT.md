@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **ApparatusAOT**
 
+Apparatus.AOT.Reflection
+
 Author: Stanislav Silin
 
 NuGet: 

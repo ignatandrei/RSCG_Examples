@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **Rocks**
 
+A mocking library based on the Compiler API.
+
 Author: Json Bock
 
 NuGet: 

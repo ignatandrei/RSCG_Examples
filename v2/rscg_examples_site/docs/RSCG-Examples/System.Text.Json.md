@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **System.Text.Json**
 
+A minimalistic and fast JSON parser/deserializer, for full .NET
+
 Author: Microsoft
 
 NuGet: 

@@ -24,6 +24,8 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **EmbedResourceCSharp**
 
+SourceGenerator for resource file embedding with EmbedResourceCSharp.
+
 Author: pCYSl5EDgo
 
 NuGet: 
