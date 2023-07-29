@@ -25,6 +25,10 @@ public class Generator
             return Nuget[0];
         }
     }
+    public string NameNugetFirst()
+    {
+        return this.NamePackage(this.NugetFirst);
+    }
     [JsonPropertyName("name")]
     public string? Name { get; set; }
 
@@ -39,7 +43,15 @@ public class Generator
 
     [JsonPropertyName("source")]
     public string? Source { get; set; }
+    public string NamePackage(string item)
+    {
+        var l = "https://www.nuget.org/packages/".Length;
+        var name = item.Substring(l);
+        if (name.EndsWith("/"))
+            name = name.Substring(0, name.Length - 1);
 
+        return name;
+    }
     public string MarkDownNugetDownloads
     {
         get
@@ -52,11 +64,11 @@ public class Generator
             {
                 if (string.IsNullOrWhiteSpace(item))
                     continue;
-
-                var l = "https://www.nuget.org/packages/".Length;
-                var name = item.Substring(l);
-                if (name.EndsWith("/"))
-                    name = name.Substring(0, name.Length - 1);
+                var name = this.NamePackage(item);
+                //var l = "https://www.nuget.org/packages/".Length;
+                //var name = item.Substring(l);
+                //if (name.EndsWith("/"))
+                //    name = name.Substring(0, name.Length - 1);
                 ret+= $"[![Nuget](https://img.shields.io/nuget/dt/{name}?label={name})]({item})";
             }
             return ret;

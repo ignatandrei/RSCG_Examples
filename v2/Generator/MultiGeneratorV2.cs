@@ -1,4 +1,6 @@
-﻿using System.Net.NetworkInformation;
+﻿using System.Net;
+using System.Net.Http;
+using System.Net.NetworkInformation;
 
 namespace Generator;
 public class MultiGeneratorV2
@@ -106,6 +108,57 @@ public class MultiGeneratorV2
             .ToArray();
 
     }
+    public async Task<long> GrabDescriptionFromNuget()
+    {
+        var t = _AllDescriptions!
+            .Select(it => GrabDescriptionFromNuget(it))
+            .ToArray(); 
+        var desc= await Task.WhenAll(t);   
+        foreach(var item in _AllDescriptions!)
+        {
+            var nameFile = Path.Combine(item.rootFolder!, "nuget.txt");
+            if(File.Exists(nameFile))
+                item.DescriptionNuget = await File.ReadAllTextAsync(nameFile);
+        }
+        return desc.Length;
+    }
+    public async Task<string?> GrabDescriptionFromNuget(Description d)
+    {
+        var nameFile = Path.Combine(d.rootFolder!, "nuget.txt");
+        if(File.Exists(nameFile))
+            return nameFile;
+        if (d.Generator!.NugetFirst.Length == 0)
+            return nameFile;
+        var namePackage = d.Generator!.NameNugetFirst().ToLower();
+     
+        var url = $"https://api.nuget.org/v3/registration5-gz-semver2/{namePackage}/index.json";
+        var handler = new HttpClientHandler
+        {
+            AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
+        };
+        HttpClient _client = new(handler);
+     
+        var response = await _client.GetAsync(url);
+        var data=await response.Content.ReadAsStringAsync();
+        var answer= JsonDocument.Parse(data);
+        var items = answer.RootElement.GetProperty("items");
+        foreach (var item in items.EnumerateArray())
+        {
+            var newItems = item.GetProperty("items");
+            foreach (var newItem in newItems.EnumerateArray())
+            {
+                var cat=newItem.GetProperty("catalogEntry");
+                var desc=cat.GetProperty("description").GetString();
+                if (!string.IsNullOrEmpty(desc))
+                {
+                    await File.WriteAllTextAsync(nameFile, desc);
+                    return nameFile;
+                }
+            }
+        }
+        return "";
+    }
+
     public async Task CreateZip()
     {
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
@@ -598,6 +651,7 @@ public class MultiGeneratorV2
             member => member.Name);
         await File.WriteAllTextAsync(readMe, output);
     }
+    
 
     internal async Task<long> GenerateMSFT()
     {

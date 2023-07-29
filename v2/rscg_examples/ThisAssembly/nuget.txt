@@ -1,0 +1,1 @@
+Meta-package that includes all ThisAssembly.* packages.

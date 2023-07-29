@@ -22,4 +22,7 @@ public class Description
     public bool HaveAuthorAnswered;
     [JsonIgnore]
     public string? authorMD;
+
+    [JsonIgnore]
+    public string? DescriptionNuget;
 }

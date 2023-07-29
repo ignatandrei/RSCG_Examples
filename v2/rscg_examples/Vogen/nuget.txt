@@ -1,0 +1,18 @@
+This package contains a Souce Generator which generates Value Objects that wrap simple primitives such as int, string, double etc.
+
+      A ValueObject is a strongly typed (strongly, not stringly) domain object that is immutable.
+
+      Instead of `int customerId = 42;` we have `var customerId = CustomerId.From(42);`
+
+      To use, just create something like this:
+
+      ```csharp
+      [ValueObject(typeof(int))]
+      public partial struct CustomerId
+      {
+      }
+
+      var customerId = CustomerId.From(42);
+      ```
+
+      Validation is in just one place. You can't introduce bad objects into your domain, therefore you can assume that in your domain every ValueObject is valid.

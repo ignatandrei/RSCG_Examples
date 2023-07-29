@@ -78,6 +78,7 @@ $$"""
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :"+nr);
     await m.GatherData();
+    await m.GrabDescriptionFromNuget();
     //await m.WrotePost();     
     await m.WroteDocusaurusAll();
 

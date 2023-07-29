@@ -1,0 +1,1 @@
+Source Generator to automatically create a constructor with all the readonly fields set.

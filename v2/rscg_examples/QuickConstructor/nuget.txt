@@ -1,0 +1,1 @@
+Source generator that automatically creates a constructor from the fields and properties of a class.

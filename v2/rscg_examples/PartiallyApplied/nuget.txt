@@ -1,0 +1,1 @@
+A way to do partial function application in C#

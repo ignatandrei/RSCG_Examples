@@ -1,0 +1,1 @@
+A source generator for creating helper extension methods on enums using a [EnumExtensions] attribute

@@ -1,0 +1,3 @@
+A .NET source generator for generating object mappings.
+      Trimming save.
+      Inspired by MapStruct.

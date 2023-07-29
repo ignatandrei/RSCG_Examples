@@ -1,0 +1,1 @@
+SourceGenerator for resource file embedding with EmbedResourceCSharp.

@@ -1,0 +1,1 @@
+Generates deconstruction methods for type definitions.

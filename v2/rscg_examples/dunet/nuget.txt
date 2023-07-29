@@ -1,0 +1,1 @@
+A simple source generator for discriminated unions in C#.

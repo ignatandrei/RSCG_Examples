@@ -1,0 +1,1 @@
+Compile Razor templates at build-time without a dependency on ASP.NET.

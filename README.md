@@ -8,339 +8,525 @@ Those are the 28 Roslyn Source Code Generators that I have tested you can see an
 ( including 6 from Microsoft )
 
 ### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
+
+Author: Daniel Cazzulino
+
+Meta-package that includes all ThisAssembly.* packages.
+
+Nuget: [https://www.nuget.org/packages/ThisAssembly](https://www.nuget.org/packages/ThisAssembly) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
 
 
-Nuget: [https://www.nuget.org/packages/ThisAssembly](https://www.nuget.org/packages/ThisAssembly) 
 
 
-Author: Daniel Cazzulino
 
 Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped/ThisAssembly)
 ### 2. [RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)
+
+Author: Andrei Ignat
+
+This package make a time bomb from comment.
+
+Nuget: [https://www.nuget.org/packages/RSCG_TimeBombComment/](https://www.nuget.org/packages/RSCG_TimeBombComment/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)
 
 
-Nuget: [https://www.nuget.org/packages/RSCG_TimeBombComment/](https://www.nuget.org/packages/RSCG_TimeBombComment/) 
 
 
-Author: Andrei Ignat
 
 Source: [https://github.com/ignatandrei/RSCG_TimeBombComment](https://github.com/ignatandrei/RSCG_TimeBombComment)
 ### 3. [System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
+
+Author: Microsoft
+
+A minimalistic and fast JSON parser/deserializer, for full .NET
+
+Nuget: [https://www.nuget.org/packages/System.Text.Json/](https://www.nuget.org/packages/System.Text.Json/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
 
 
-Nuget: [https://www.nuget.org/packages/System.Text.Json/](https://www.nuget.org/packages/System.Text.Json/) 
 
 
-Author: Microsoft
 
 Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 ### 4. [RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)
+
+Author: Ignat Andrei
+
+Additional files as strings
+
+Nuget: [https://www.nuget.org/packages/rscgutils](https://www.nuget.org/packages/rscgutils) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)
 
 
-Nuget: [https://www.nuget.org/packages/rscgutils](https://www.nuget.org/packages/rscgutils) 
 
 
-Author: Ignat Andrei
 
 Source: [https://github.com/ignatandrei/RSCG_Utils](https://github.com/ignatandrei/RSCG_Utils)
 ### 5. [System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
+
+Author: Microsoft
+
+Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator
+
+Nuget: [https://www.nuget.org/packages/System.Text.RegularExpressions/](https://www.nuget.org/packages/System.Text.RegularExpressions/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
 
 
-Nuget: [https://www.nuget.org/packages/System.Text.RegularExpressions/](https://www.nuget.org/packages/System.Text.RegularExpressions/) 
 
 
-Author: Microsoft
 
 Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 ### 6. [SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)
+
+Author: Ignat Andrei
+
+** C# 9.0 ONLY **
+
+Nuget: [https://www.nuget.org/packages/SkinnyControllersCommon](https://www.nuget.org/packages/SkinnyControllersCommon) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon)
 
 
-Nuget: [https://www.nuget.org/packages/SkinnyControllersCommon](https://www.nuget.org/packages/SkinnyControllersCommon) 
 
 
-Author: Ignat Andrei
 
 Source: [https://github.com/ignatandrei/SkinnyControllersGenerator/](https://github.com/ignatandrei/SkinnyControllersGenerator/)
 ### 7. [Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
+
+Author: Microsoft
+
+Logging infrastructure.
+
+Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Logging/](https://www.nuget.org/packages/Microsoft.Extensions.Logging/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
 
 
-Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Logging/](https://www.nuget.org/packages/Microsoft.Extensions.Logging/) 
 
 
-Author: Microsoft
 
 Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 ### 8. [RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)
+
+Author: Andrei Ignat
+
+This package make you an interface and  record from static properties / methods
+
+Nuget: [https://www.nuget.org/packages/RSCG_Static/](https://www.nuget.org/packages/RSCG_Static/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static)
 
 
-Nuget: [https://www.nuget.org/packages/RSCG_Static/](https://www.nuget.org/packages/RSCG_Static/) 
 
 
-Author: Andrei Ignat
 
 Source: [https://github.com/ignatandrei/RSCG_Static](https://github.com/ignatandrei/RSCG_Static)
 ### 9. [CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
+
+Author: Microsoft
+
+This package includes a .NET Standard MVVM library with helpers such as:
+      - ObservableObject: a base class for objects implementing the INotifyPropertyChanged interface.
+      - ObservableRecipient: a base class for observable objects with support for the IMessenger service.
+      - ObservableValidator: a base class for objects implementing the INotifyDataErrorInfo interface.
+      - RelayCommand: a simple delegate command implementing the ICommand interface.
+      - AsyncRelayCommand: a delegate command supporting asynchronous operations and cancellation.
+      - WeakReferenceMessenger: a messaging system to exchange messages through different loosely-coupled objects.
+      - StrongReferenceMessenger: a high-performance messaging system that trades weak references for speed.
+      - Ioc: a helper class to configure dependency injection service containers.
+
+Nuget: [https://www.nuget.org/packages/CommunityToolkit.Mvvm](https://www.nuget.org/packages/CommunityToolkit.Mvvm) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
 
 
-Nuget: [https://www.nuget.org/packages/CommunityToolkit.Mvvm](https://www.nuget.org/packages/CommunityToolkit.Mvvm) 
 
 
-Author: Microsoft
 
 Source: [https://github.com/CommunityToolkit/dotnet](https://github.com/CommunityToolkit/dotnet)
 ### 10. [RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)
+
+Author: Ignat Andrei
+
+This package lets you put record the commit , date , and more for your software .
+
+Nuget: [https://www.nuget.org/packages/RSCG_AMS/](https://www.nuget.org/packages/RSCG_AMS/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)
 
 
-Nuget: [https://www.nuget.org/packages/RSCG_AMS/](https://www.nuget.org/packages/RSCG_AMS/) 
 
 
-Author: Ignat Andrei
 
 Source: [https://github.com/ignatandrei/RSCG_AMS](https://github.com/ignatandrei/RSCG_AMS)
 ### 11. [AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)
+
+Author: Jason Bock
+
+Generates deconstruction methods for type definitions.
+
+Nuget: [https://www.nuget.org/packages/AutoDeconstruct](https://www.nuget.org/packages/AutoDeconstruct) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct)
 
 
-Nuget: [https://www.nuget.org/packages/AutoDeconstruct](https://www.nuget.org/packages/AutoDeconstruct) 
 
 
-Author: Jason Bock
 
 Source: [https://github.com/jasonbock/autodeconstruct](https://github.com/jasonbock/autodeconstruct)
 ### 12. [System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
+
+Author: Microsoft
+
+Provides types that support COM interop and platform invoke services.
+
+Commonly Used Types:
+System.Runtime.InteropServices.GCHandle
+System.Runtime.InteropServices.GuidAttribute
+System.Runtime.InteropServices.COMException
+System.DllNotFoundException
+System.Runtime.InteropServices.DllImportAttribute
+
+Nuget: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https://www.nuget.org/packages/System.Runtime.InteropServices/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
 
 
-Nuget: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https://www.nuget.org/packages/System.Runtime.InteropServices/) 
 
 
-Author: Microsoft
 
 Source: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 ### 13. [QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)
+
+Author: Flavien Charlon
+
+Source generator that automatically creates a constructor from the fields and properties of a class.
+
+Nuget: [https://www.nuget.org/packages/QuickConstructor](https://www.nuget.org/packages/QuickConstructor) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor)
 
 
-Nuget: [https://www.nuget.org/packages/QuickConstructor](https://www.nuget.org/packages/QuickConstructor) 
 
 
-Author: Flavien Charlon
 
 Source: [https://github.com/flavien/QuickConstructor](https://github.com/flavien/QuickConstructor)
 ### 14. [AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)
+
+Author: Cameron MacFarland
+
+Source Generator to automatically create a constructor with all the readonly fields set.
+
+Nuget: [https://www.nuget.org/packages/AutoCtor/](https://www.nuget.org/packages/AutoCtor/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)
 
 
-Nuget: [https://www.nuget.org/packages/AutoCtor/](https://www.nuget.org/packages/AutoCtor/) 
 
 
-Author: Cameron MacFarland
 
 Source: [https://github.com/distantcam/AutoCtor](https://github.com/distantcam/AutoCtor)
 ### 15. [dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)
+
+Author: Domn Werner
+
+A simple source generator for discriminated unions in C#.
+
+Nuget: [https://www.nuget.org/packages/dunet/](https://www.nuget.org/packages/dunet/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)
 
 
-Nuget: [https://www.nuget.org/packages/dunet/](https://www.nuget.org/packages/dunet/) 
 
 
-Author: Domn Werner
 
 Source: [https://github.com/domn1995/dunet](https://github.com/domn1995/dunet)
 ### 16. [Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)
+
+Author: Steve Dunn
+
+This package contains a Souce Generator which generates Value Objects that wrap simple primitives such as int, string, double etc.
+
+      A ValueObject is a strongly typed (strongly, not stringly) domain object that is immutable.
+
+      Instead of `int customerId = 42;` we have `var customerId = CustomerId.From(42);`
+
+      To use, just create something like this:
+
+      ```csharp
+      [ValueObject(typeof(int))]
+      public partial struct CustomerId
+      {
+      }
+
+      var customerId = CustomerId.From(42);
+      ```
+
+      Validation is in just one place. You can't introduce bad objects into your domain, therefore you can assume that in your domain every ValueObject is valid.
+
+Nuget: [https://www.nuget.org/packages/Vogen/](https://www.nuget.org/packages/Vogen/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen)
 
 
-Nuget: [https://www.nuget.org/packages/Vogen/](https://www.nuget.org/packages/Vogen/) 
 
 
-Author: Steve Dunn
 
 Source: [https://github.com/SteveDunn/Vogen](https://github.com/SteveDunn/Vogen)
 ### 17. [RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)
+
+Author: Lucas Trzesniewski
+
+Compile Razor templates at build-time without a dependency on ASP.NET.
+
+Nuget: [https://www.nuget.org/packages/RazorBlade/](https://www.nuget.org/packages/RazorBlade/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade)
 
 
-Nuget: [https://www.nuget.org/packages/RazorBlade/](https://www.nuget.org/packages/RazorBlade/) 
 
 
-Author: Lucas Trzesniewski
 
 Source: [https://github.com/ltrzesniewski/RazorBlade](https://github.com/ltrzesniewski/RazorBlade)
 ### 18. [PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)
+
+Author: Jason Bock
+
+A way to do partial function application in C#
+
+Nuget: [https://www.nuget.org/packages/PartiallyApplied/](https://www.nuget.org/packages/PartiallyApplied/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied)
 
 
-Nuget: [https://www.nuget.org/packages/PartiallyApplied/](https://www.nuget.org/packages/PartiallyApplied/) 
 
 
-Author: Jason Bock
 
 Source: [https://github.com/JasonBock/PartiallyApplied](https://github.com/JasonBock/PartiallyApplied)
 ### 19. [ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)
+
+Author: Stanislav Silin
+
+Apparatus.AOT.Reflection
+
+Nuget: [https://www.nuget.org/packages/Apparatus.AOT.Reflection/](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)
 
 
-Nuget: [https://www.nuget.org/packages/Apparatus.AOT.Reflection/](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) 
 
 
-Author: Stanislav Silin
 
 Source: [https://github.com/byme8/Apparatus.AOT.Reflection](https://github.com/byme8/Apparatus.AOT.Reflection)
 ### 20. [NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)
+
+Author: Andrew Lock
+
+A source generator for creating helper extension methods on enums using a [EnumExtensions] attribute
+
+Nuget: [https://www.nuget.org/packages/NetEscapades.EnumGenerators/](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators)
 
 
-Nuget: [https://www.nuget.org/packages/NetEscapades.EnumGenerators/](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) 
 
 
-Author: Andrew Lock
 
 Source: [https://github.com/andrewlock/NetEscapades.EnumGenerators](https://github.com/andrewlock/NetEscapades.EnumGenerators)
 ### 21. [Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+
+Author: Microsoft
+
+
+
+Nuget: []() 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 
-Nuget: []() 
 
 
-Author: Microsoft
 
 Source: []()
 ### 22. [RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)
+
+Author: Andrei Ignat
+
+Generate correct functions from  [FromServices]
+
+Nuget: [https://www.nuget.org/packages/RSCG_FunctionsWithDI/](https://www.nuget.org/packages/RSCG_FunctionsWithDI/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)
 
 
-Nuget: [https://www.nuget.org/packages/RSCG_FunctionsWithDI/](https://www.nuget.org/packages/RSCG_FunctionsWithDI/) 
 
 
-Author: Andrei Ignat
 
 Source: [https://github.com/ignatandrei/functionsdi](https://github.com/ignatandrei/functionsdi)
 ### 23. [Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+Author: Microsoft
+
+
+
+Nuget: []() 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
-Nuget: []() 
 
 
-Author: Microsoft
 
 Source: []()
 ### 24. [Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)
+
+Author: Json Bock
+
+A mocking library based on the Compiler API.
+
+Nuget: [https://www.nuget.org/packages/Rocks/](https://www.nuget.org/packages/Rocks/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks)
 
 
-Nuget: [https://www.nuget.org/packages/Rocks/](https://www.nuget.org/packages/Rocks/) 
 
 
-Author: Json Bock
 
 Source: [https://github.com/JasonBock/Rocks/](https://github.com/JasonBock/Rocks/)
 ### 25. [mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
+
+Author: Riok
+
+A .NET source generator for generating object mappings.
+      Trimming save.
+      Inspired by MapStruct.
+
+Nuget: [https://www.nuget.org/packages/Riok.Mapperly/](https://www.nuget.org/packages/Riok.Mapperly/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)
 
 
-Nuget: [https://www.nuget.org/packages/Riok.Mapperly/](https://www.nuget.org/packages/Riok.Mapperly/) 
 
 
-Author: Riok
 
 Source: [https://github.com/riok/mapperly](https://github.com/riok/mapperly)
 ### 26. [Podimo.ConstEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed)
+
+Author: Podimo
+
+A source generator that turns additional files into file constants in a generated namespace.
+            This is an alternative approach to embedding files in C# source manually,
+            or loading them manually as embedded resources via reflection.
+            With ConstEmbed, you will never have to see a runtime error because you mistyped the name,
+            as the constants are evaluated at compile-time.
+
+Nuget: [https://www.nuget.org/packages/Podimo.ConstEmbed/](https://www.nuget.org/packages/Podimo.ConstEmbed/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed)
 
 
-Nuget: [https://www.nuget.org/packages/Podimo.ConstEmbed/](https://www.nuget.org/packages/Podimo.ConstEmbed/) 
 
 
-Author: Podimo
 
 Source: [https://github.com/podimo/Podimo.ConstEmbed](https://github.com/podimo/Podimo.ConstEmbed)
 ### 27. [EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp)
+
+Author: pCYSl5EDgo
+
+SourceGenerator for resource file embedding with EmbedResourceCSharp.
+
+Nuget: [https://www.nuget.org/packages/EmbedResourceCSharp/](https://www.nuget.org/packages/EmbedResourceCSharp/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp)
 
 
-Nuget: [https://www.nuget.org/packages/EmbedResourceCSharp/](https://www.nuget.org/packages/EmbedResourceCSharp/) 
 
 
-Author: pCYSl5EDgo
 
 Source: [https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp](https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp)
 ### 28. [Lombok.NET](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET)
+
+Author: Colin Alpert
+
+This library is to .NET what Lombok is to Java. It generates constructors and other fun stuff using Source Generators for those classes you specify special attributes for.
+
+Nuget: [https://www.nuget.org/packages/Lombok.NET/](https://www.nuget.org/packages/Lombok.NET/) 
+
 generated: 2023-04-16 => 16 April 2023
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET)
 
 
-Nuget: [https://www.nuget.org/packages/Lombok.NET/](https://www.nuget.org/packages/Lombok.NET/) 
 
 
-Author: Colin Alpert
 
 Source: [https://github.com/CollinAlpert/Lombok.NET](https://github.com/CollinAlpert/Lombok.NET)
 
