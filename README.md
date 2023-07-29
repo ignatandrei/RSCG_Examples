@@ -531,7 +531,7 @@ Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET](https://i
 Source: [https://github.com/CollinAlpert/Lombok.NET](https://github.com/CollinAlpert/Lombok.NET)
 ### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq)
 
-Author: 
+Author: Vyacheslav Brevnov
 
 ORM Gedaq is roslyn generator of methods for obtaining data from databases. 
 
@@ -545,7 +545,7 @@ Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq](https://ignata
 
 
 
-Source: []()
+Source: [https://github.com/SoftStoneDevelop/Gedaq](https://github.com/SoftStoneDevelop/Gedaq)
 
 
 ## Roslyn Source Code Generators created by Microsoft 

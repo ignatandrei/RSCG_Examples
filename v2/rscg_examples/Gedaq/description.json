@@ -4,12 +4,12 @@
       "nuget":[
          "https://www.nuget.org/packages/Gedaq/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/SoftStoneDevelop/Gedaq",
+      "author":"Vyacheslav Brevnov",
+      "source":"https://github.com/SoftStoneDevelop/Gedaq"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Generating code from attribute query"],
       "csprojDemo":"GedaqDemoConsole.csproj",
       "csFiles":["Program.cs","Person.cs","GetData.cs"]
    },

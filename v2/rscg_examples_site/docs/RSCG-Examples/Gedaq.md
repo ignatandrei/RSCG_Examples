@@ -1,21 +1,21 @@
 ---
 sidebar_position: 290
 title: 29 - Gedaq
-description: 
+description: Generating code from attribute query
 slug: /Gedaq
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# Gedaq  by 
+# Gedaq  by Vyacheslav Brevnov
 
 <!---
 <TOCInline toc={toc} />
 -->
 [![Nuget](https://img.shields.io/nuget/dt/Gedaq?label=Gedaq)](https://www.nuget.org/packages/Gedaq/)
-
-
+[![GitHub last commit](https://img.shields.io/github/last-commit/SoftStoneDevelop/Gedaq?label=updated)](https://github.com/SoftStoneDevelop/Gedaq)
+![GitHub Repo stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?style=social)
 
 ## Details
 
@@ -26,21 +26,21 @@ Name: **Gedaq**
 
 ORM Gedaq is roslyn generator of methods for obtaining data from databases.
 
-Author: 
+Author: Vyacheslav Brevnov
 
 NuGet: 
 *https://www.nuget.org/packages/Gedaq/*   
 
 
-You can find more details at 
+You can find more details at https://github.com/SoftStoneDevelop/Gedaq
 
-Source : 
+Source : https://github.com/SoftStoneDevelop/Gedaq
 :::
 
 ### About
 :::note
 
-
+Generating code from attribute query
 
 
 :::
