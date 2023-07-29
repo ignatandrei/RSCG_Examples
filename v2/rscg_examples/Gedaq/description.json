@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Gedaq",
+      "nuget":[
+         "https://www.nuget.org/packages/Gedaq/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"GedaqDemoConsole.csproj",
+      "csFiles":["Program.cs","Person.cs","GetData.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

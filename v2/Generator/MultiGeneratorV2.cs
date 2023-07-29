@@ -81,7 +81,8 @@ public class MultiGeneratorV2
             {"Podimo.ConstEmbed",before },
             {"EmbeddingResourceCSharp",before },
             {"Lombok.NET",before },
-            //{"ad",new(true,new(2023,16,4))
+            {"Gedaq", new(true,new(2023,7,29))}
+            //{"ad",new(true,new(2023,16,4)) 
         };
 
         //foreach (var v in generators)
@@ -300,7 +301,9 @@ public class MultiGeneratorV2
     internal async Task WrotePDFs()
     {
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
+        await Task.Delay(1000);
+        return; 
+        //await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
     }
     internal async Task CreateHTMLBook()
     {

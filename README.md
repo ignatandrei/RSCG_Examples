@@ -1,10 +1,10 @@
-# RSCG - 28 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 30 in queue
+# RSCG - 29 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 30 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 28 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 29 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
 
 ### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)
@@ -529,6 +529,23 @@ Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET](https://i
 
 
 Source: [https://github.com/CollinAlpert/Lombok.NET](https://github.com/CollinAlpert/Lombok.NET)
+### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq)
+
+Author: 
+
+ORM Gedaq is roslyn generator of methods for obtaining data from databases. 
+
+Nuget: [https://www.nuget.org/packages/Gedaq/](https://www.nuget.org/packages/Gedaq/) 
+
+generated: 2023-07-29 => 29 July 2023
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq)
+
+
+
+
+
+Source: []()
 
 
 ## Roslyn Source Code Generators created by Microsoft 

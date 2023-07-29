@@ -43,7 +43,7 @@ namespace TestBlazor.Pages
 {
     public partial class CallJavaScript1
     {
-        internal static unsafe void __Wrapper_GetMessageFromDotnet_962733327(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
+        internal static unsafe void __Wrapper_GetMessageFromDotnet_984744527(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
         {
             string s;
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __arg_exception = ref __arguments_buffer[0];
@@ -65,12 +65,12 @@ namespace TestBlazor.Pages
         }
 
         [global::System.Runtime.CompilerServices.ModuleInitializerAttribute]
-        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_962733327", typeof(TestBlazor.Pages.CallJavaScript1))]
-        internal static void __Register_GetMessageFromDotnet_962733327()
+        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_984744527", typeof(TestBlazor.Pages.CallJavaScript1))]
+        internal static void __Register_GetMessageFromDotnet_984744527()
         {
             if (global::System.Runtime.InteropServices.RuntimeInformation.OSArchitecture != global::System.Runtime.InteropServices.Architecture.Wasm)
                 return;
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 962733327, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 984744527, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
         }
     }
 }

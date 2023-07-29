@@ -1,0 +1,31 @@
+
+using Microsoft.Data.SqlClient;
+
+namespace GedaqDemoConsole;
+
+public partial class GetData
+{
+    string connectionString = "asdasd";
+
+    [Gedaq.SqlClient.Attributes.Query(
+        @"
+SELECT 
+    p.id,
+    p.firstname,
+FROM person p
+"
+    ,
+        "GetPersons",
+        typeof(Person)
+        ),
+        ]
+    public void Method()
+    {
+        using (var sql = new SqlConnection(connectionString))
+        {
+            sql.Open();
+
+            var persons = GetPersons(sql, 48).ToList();//using generated method
+        }
+    }
+}

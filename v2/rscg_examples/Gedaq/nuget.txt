@@ -1,0 +1,1 @@
+ORM Gedaq is roslyn generator of methods for obtaining data from databases.
