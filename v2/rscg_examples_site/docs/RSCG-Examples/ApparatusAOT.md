@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/byme8/Apparatus.AOT.Reflection
 
 Source : https://github.com/byme8/Apparatus.AOT.Reflection
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

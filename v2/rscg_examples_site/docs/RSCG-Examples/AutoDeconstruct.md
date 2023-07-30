@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/JasonBock/AutoDeconstruct/blob/main/docs/Overview.md
 
 Source : https://github.com/jasonbock/autodeconstruct
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

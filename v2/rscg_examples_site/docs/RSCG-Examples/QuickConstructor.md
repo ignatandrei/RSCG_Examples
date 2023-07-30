@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/flavien/QuickConstructor
 
 Source : https://github.com/flavien/QuickConstructor
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

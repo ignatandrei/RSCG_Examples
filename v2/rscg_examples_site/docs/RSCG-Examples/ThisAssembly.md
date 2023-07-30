@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://www.clarius.org/ThisAssembly/
 
 Source : https://github.com/devlooped/ThisAssembly
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

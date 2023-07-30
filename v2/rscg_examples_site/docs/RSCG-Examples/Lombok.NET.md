@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/CollinAlpert/Lombok.NET
 
 Source : https://github.com/CollinAlpert/Lombok.NET
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

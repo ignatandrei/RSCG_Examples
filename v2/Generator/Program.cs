@@ -79,6 +79,8 @@ $$"""
     Console.WriteLine("RSCG used by MSFT :"+nr);
     await m.GatherData();
     await m.GrabDescriptionFromNuget();
+    await m.GrabReadMe();
+
     //await m.WrotePost();     
     await m.WroteDocusaurusAll();
 

@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/ignatandrei/RSCG_Static
 
 Source : https://github.com/ignatandrei/RSCG_Static
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

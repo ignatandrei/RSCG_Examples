@@ -39,6 +39,14 @@ NuGet:
 You can find more details at https://github.com/podimo/Podimo.ConstEmbed
 
 Source : https://github.com/podimo/Podimo.ConstEmbed
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

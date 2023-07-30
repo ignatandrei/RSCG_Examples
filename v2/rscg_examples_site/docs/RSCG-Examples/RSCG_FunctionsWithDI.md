@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/ignatandrei/functionsdi
 
 Source : https://github.com/ignatandrei/functionsdi
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

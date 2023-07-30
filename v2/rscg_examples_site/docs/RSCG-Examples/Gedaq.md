@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/SoftStoneDevelop/Gedaq
 
 Source : https://github.com/SoftStoneDevelop/Gedaq
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

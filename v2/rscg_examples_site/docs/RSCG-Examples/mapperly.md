@@ -37,6 +37,14 @@ NuGet:
 You can find more details at https://mapperly.riok.app/docs/getting-started/installation/
 
 Source : https://github.com/riok/mapperly
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

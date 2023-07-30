@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator-generators/
 
 Source : https://github.com/dotnet/runtime
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

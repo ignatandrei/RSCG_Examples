@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/domn1995/dunet
 
 Source : https://github.com/domn1995/dunet
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

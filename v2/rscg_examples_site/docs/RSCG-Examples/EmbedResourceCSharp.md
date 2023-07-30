@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
 
 Source : https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

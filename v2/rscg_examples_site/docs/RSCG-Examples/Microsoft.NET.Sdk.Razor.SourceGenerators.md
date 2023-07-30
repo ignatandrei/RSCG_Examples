@@ -35,6 +35,14 @@ NuGet:
 You can find more details at 
 
 Source : 
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

@@ -35,6 +35,14 @@ NuGet:
 You can find more details at http://msprogrammer.serviciipeweb.ro/category/roslyn/
 
 Source : https://github.com/ignatandrei/RSCG_TimeBombComment
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

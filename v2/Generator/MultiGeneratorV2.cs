@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Http;
 using System.Net.NetworkInformation;
 
@@ -109,6 +110,71 @@ public class MultiGeneratorV2
             .ToArray();
 
     }
+    public async Task<string?> GrabReadMe()
+    {
+        var t = _AllDescriptions!
+            .Select(it => GrabReadMe(it))
+            .ToArray();
+        var desc = await Task.WhenAll(t);
+        foreach(var it in _AllDescriptions!)
+        {
+            var nameFile = Path.Combine(it.rootFolder!, "readme.txt");
+            if (!File.Exists(nameFile))
+                continue;
+            it.OriginalReadme= await File.ReadAllTextAsync(nameFile);
+
+        }
+        return "";
+    }
+    async Task<string?> GrabReadMe(Description d)
+    {
+        var source = d.Generator?.Source;
+        if(string.IsNullOrWhiteSpace(source))
+            return null;
+
+        var nameFile = Path.Combine(d.rootFolder!, "readme.txt");
+        if (File.Exists(nameFile))
+            return nameFile;
+
+        var data = await tryToGetReadme(source);
+        if (data == null) return null;
+        await File.WriteAllTextAsync(nameFile, data);
+        return nameFile;
+    }
+    async Task<string?> tryToGetMasterOrMain(HttpClient httpClient,string FullUrl)
+    {
+        var response = await httpClient.GetAsync(FullUrl);
+        if(response.StatusCode == HttpStatusCode.OK) return await response.Content.ReadAsStringAsync();
+        FullUrl = FullUrl.Replace("/main/", "/master/");
+        response = await httpClient.GetAsync(FullUrl);
+        if (response.StatusCode == HttpStatusCode.OK) return await response.Content.ReadAsStringAsync();
+        return null;
+    }
+    async Task<string?> tryToGetReadme(string source)
+    {
+        if(!source.StartsWith("https://github.com/"))
+            return null;
+        var url = source.Replace("https://github.com/", "https://raw.githubusercontent.com/");
+        url += "/main/";
+        HttpClientHandler handler = new ()
+        {
+            AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
+        };
+        using HttpClient httpClient = new (handler);
+        
+        var response = await tryToGetMasterOrMain(httpClient,url+"README.md");
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response    = await tryToGetMasterOrMain(httpClient,(url + "readme.md"));
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response =  await tryToGetMasterOrMain(httpClient,(url + "Readme.md"));
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);
+        return null;
+
+    }
     public async Task<long> GrabDescriptionFromNuget()
     {
         var t = _AllDescriptions!
@@ -123,7 +189,7 @@ public class MultiGeneratorV2
         }
         return desc.Length;
     }
-    public async Task<string?> GrabDescriptionFromNuget(Description d)
+    async Task<string?> GrabDescriptionFromNuget(Description d)
     {
         var nameFile = Path.Combine(d.rootFolder!, "nuget.txt");
         if(File.Exists(nameFile))
@@ -619,6 +685,7 @@ public class MultiGeneratorV2
     }
     private async Task<bool> WroteDocusaurus(Description it, string pathDocusaurus)
     {
+        
         var template = await File.ReadAllTextAsync("DocusaurusExample.txt");
         var templateScriban = Scriban.Template.Parse(template);
         var output = templateScriban.Render(new {Description=it}, member => member.Name);
@@ -628,7 +695,8 @@ public class MultiGeneratorV2
         string file = it.Generator.Name+ ".md";
         file=Path.Combine(folderToWrite,file);
         await File.WriteAllTextAsync(file, output);
-        //Console.WriteLine(output);
+        await File.WriteAllTextAsync(Path.Combine(folderToWrite, it.Generator.Name + "_readme.md"), it.OriginalReadme);
+         //Console.WriteLine(output);
         await Task.Delay(100);
         return true;
     }

@@ -25,4 +25,6 @@ public class Description
 
     [JsonIgnore]
     public string? DescriptionNuget;
+    [JsonIgnore]
+    public string? OriginalReadme;
 }

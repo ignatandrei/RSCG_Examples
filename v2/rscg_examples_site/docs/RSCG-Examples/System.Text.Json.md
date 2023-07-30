@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
 
 Source : https://github.com/dotnet/runtime
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

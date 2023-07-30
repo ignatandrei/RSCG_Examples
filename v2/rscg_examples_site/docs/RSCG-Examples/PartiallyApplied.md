@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/JasonBock/PartiallyApplied/blob/main/docs/Quickstart.md
 
 Source : https://github.com/JasonBock/PartiallyApplied
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

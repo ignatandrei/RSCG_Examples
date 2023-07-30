@@ -42,6 +42,14 @@ NuGet:
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/native-interop/pinvoke-source-generation
 
 Source : https://www.nuget.org/packages/System.Runtime.InteropServices/
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

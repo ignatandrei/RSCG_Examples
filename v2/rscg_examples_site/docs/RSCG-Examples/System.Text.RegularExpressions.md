@@ -43,6 +43,14 @@ NuGet:
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators/
 
 Source : https://github.com/dotnet/runtime
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

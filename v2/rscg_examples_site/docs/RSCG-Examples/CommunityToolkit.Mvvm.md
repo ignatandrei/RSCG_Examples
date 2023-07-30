@@ -43,6 +43,14 @@ NuGet:
 You can find more details at https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/generators/overview
 
 Source : https://github.com/CommunityToolkit/dotnet
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

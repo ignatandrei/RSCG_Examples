@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://andrewlock.net/netescapades-enumgenerators-a-source-generator-for-enum-performance/
 
 Source : https://github.com/andrewlock/NetEscapades.EnumGenerators
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

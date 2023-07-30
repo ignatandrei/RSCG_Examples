@@ -37,6 +37,14 @@ NuGet:
 You can find more details at {{Description.Generator.Link}}
 
 Source : {{ Description.Generator.Source }}
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

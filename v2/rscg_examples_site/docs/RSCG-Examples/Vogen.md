@@ -52,6 +52,14 @@ NuGet:
 You can find more details at https://dunnhq.com/posts/2021/primitive-obsession/
 
 Source : https://github.com/SteveDunn/Vogen
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About

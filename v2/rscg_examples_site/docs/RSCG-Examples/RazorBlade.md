@@ -35,6 +35,14 @@ NuGet:
 You can find more details at https://github.com/ltrzesniewski/RazorBlade
 
 Source : https://github.com/ltrzesniewski/RazorBlade
+
+:::
+
+### Original Readme
+:::note
+
+Here you will find the original readme
+
 :::
 
 ### About
