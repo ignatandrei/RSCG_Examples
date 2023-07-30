@@ -405,15 +405,6 @@ public partial class Parent1
 var variant1 = new Parent1.Parent2.Nested.Variant1();
 ```
 
-## Samples
-
-- [Area Calculator](./samples/AreaCalculator/Program.cs)
-- [Serialization/Deserialization](./samples/Serialization/Program.cs)
-- [Option Monad](./samples/OptionMonad/Program.cs)
-- [Web Client](./samples/PokemonClient/PokeClient.cs)
-- [Recursive Expressions](./samples/ExpressionCalculator/Program.cs)
-- [Recursive Expressions with Stateful Matching](./samples/ExpressionCalculatorWithState/Program.cs)
-
 
 :::
 

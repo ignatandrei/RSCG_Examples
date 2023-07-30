@@ -52,11 +52,11 @@ This project is a [Source Generator](https://docs.microsoft.com/en-us/dotnet/csh
 ## Using
 
 We use project files to control the generation of constants.
-You can see how these are used in [Podimo.ExampleConsoleApp](examples/Podimo.ExampleConsoleApp/Podimo.ExampleConsoleApp.csproj).
+You can see how these are used in Podimo.ExampleConsoleApp.
 
 ## License
 
-See [LICENSE-APACHE](LICENSE-APACHE), [LICENSE-MIT](LICENSE-MIT).
+See LICENSE-APACHE, LICENSE-MIT.
 
 
 :::

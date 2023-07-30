@@ -52,8 +52,7 @@ Source : https://github.com/SoftStoneDevelop/Gedaq
   [![Nuget](https://img.shields.io/nuget/v/Gedaq?logo=Gedaq)](https://www.nuget.org/packages/Gedaq/)
   [![Downloads](https://img.shields.io/nuget/dt/Gedaq.svg)](https://www.nuget.org/packages/Gedaq/)
   [![Stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?color=brightgreen)](https://github.com/SoftStoneDevelop/Gedaq/stargazers)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
+  [License](https://img.shields.io/badge/license-MIT-blue.svg)
 </h3>
 
 Generator for obtaining and mapping data from the database.
