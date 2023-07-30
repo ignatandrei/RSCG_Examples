@@ -41,7 +41,7 @@ Source : https://github.com/ignatandrei/RSCG_AMS
 ### Original Readme
 :::note
 
-Here you will find the original readme
+
 
 :::
 

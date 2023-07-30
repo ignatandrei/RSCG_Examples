@@ -43,7 +43,7 @@ Source : {{ Description.Generator.Source }}
 ### Original Readme
 :::note
 
-Here you will find the original readme
+{{Description.OriginalReadme}}
 
 :::
 

@@ -6,7 +6,7 @@ public class Generator
     [JsonIgnore]
     public string NameForBookmark
     {
-        get
+        get 
         {
             ArgumentNullException.ThrowIfNull(Name);
             var bookmark = Name.ToLower();
