@@ -368,8 +368,8 @@ public class MultiGeneratorV2
     {
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.Delay(1000);
-        return; 
-        //await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
+        //return; 
+        await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
     }
     internal async Task CreateHTMLBook()
     {
@@ -508,7 +508,7 @@ public class MultiGeneratorV2
         psi.WindowStyle = ProcessWindowStyle.Hidden;
         psi.UseShellExecute = false;
         psi.CreateNoWindow = true;
-        psi.Arguments = $"{imageFile} -l {Path.GetDirectoryName(destination)} -t {Path.GetFileName(destination)}";
+        psi.Arguments = $"{imageFile} --save-to {Path.GetDirectoryName(destination)} --save-as {Path.GetFileName(destination)}";
 
         Console.WriteLine(psi.Arguments);
         var p = new Process();
