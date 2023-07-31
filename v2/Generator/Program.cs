@@ -1,5 +1,27 @@
-﻿using System.Runtime.InteropServices;
+﻿using Generator;
+using System.Runtime.InteropServices;
 
+//var t = Task.FromResult(2);
+//var x = new TaskWithData<string, int>("asd", t);
+//var a = await x;
+//if (a.res == 2)
+//{
+//    Console.WriteLine("asdasd");
+//    return;
+//}
+
+var t = Task.FromResult(2);
+var x = new TaskWithData<string, int>("asd", t);
+var y = new TaskWithData<string, int>("asd1", Task.FromResult(7));
+var x1=await x;
+var y1=await y;
+
+//var a = await Task.WhenAll(x, y);
+//if (a.res == 2)
+//{
+//    Console.WriteLine("asdasd");
+//    return;
+//}
 try
 {
     string originalFolder = @"C:\test\RSCG_Examples";

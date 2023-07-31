@@ -177,14 +177,26 @@ public class MultiGeneratorV2
     }
     public async Task<long> GrabDescriptionFromNuget()
     {
+        //ArgumentNullException.ThrowIfNull(_AllDescriptions);
+
+        //var t = _AllDescriptions.Select(
+        //    it => new TaskWithData<Description, string?>(it, GrabDescriptionFromNuget(it))
+        //    )
+        //    .ToArray();
+        //var desc = await Task.WhenAll(t);
+
+        //return t.Length;
+
+
+
         var t = _AllDescriptions!
             .Select(it => GrabDescriptionFromNuget(it))
-            .ToArray(); 
-        var desc= await Task.WhenAll(t);   
-        foreach(var item in _AllDescriptions!)
+            .ToArray();
+        var desc = await Task.WhenAll(t);
+        foreach (var item in _AllDescriptions!)
         {
             var nameFile = Path.Combine(item.rootFolder!, "nuget.txt");
-            if(File.Exists(nameFile))
+            if (File.Exists(nameFile))
                 item.DescriptionNuget = await File.ReadAllTextAsync(nameFile);
         }
         return desc.Length;

@@ -63,12 +63,14 @@
   <ItemGroup>
     <PackageReference Include="RazorBlade" Version="0.4.3" />
     <PackageReference Include="Scriban" Version="5.7.0" />
+    <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
   </ItemGroup>
   <ItemGroup>
     <!-- extends watching group to include *.js files -->
     <!-- <Watch Include="**\*.txt" /> -->
 	  <Watch Include="**\*.cshtml" />
-      <Watch Include="**\*.txt"/>
+      <Watch Include="**\*.txt" />
   </ItemGroup>
   <ItemGroup>
     <Watch Remove="DocusaurusExample.txt" />
