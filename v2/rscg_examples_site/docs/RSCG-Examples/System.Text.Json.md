@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # System.Text.Json  by Microsoft
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/System.Text.Json?label=System.Text.Json)](https://www.nuget.org/packages/System.Text.Json/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)

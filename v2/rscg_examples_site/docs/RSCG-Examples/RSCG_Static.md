@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # RSCG_Static  by Andrei Ignat
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Static?label=RSCG_Static)](https://www.nuget.org/packages/RSCG_Static/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated)](https://github.com/ignatandrei/RSCG_Static)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Static?style=social)

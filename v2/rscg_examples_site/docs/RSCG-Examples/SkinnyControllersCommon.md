@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # SkinnyControllersCommon  by Ignat Andrei
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/SkinnyControllersCommon?label=SkinnyControllersCommon)](https://www.nuget.org/packages/SkinnyControllersCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/SkinnyControllersGenerator?label=updated)](https://github.com/ignatandrei/SkinnyControllersGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/SkinnyControllersGenerator?style=social)

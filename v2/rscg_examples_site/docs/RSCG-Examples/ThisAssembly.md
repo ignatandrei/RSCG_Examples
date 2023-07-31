@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # ThisAssembly  by Daniel Cazzulino
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)

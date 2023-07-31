@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # CommunityToolkit.Mvvm  by Microsoft
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/CommunityToolkit.Mvvm?label=CommunityToolkit.Mvvm)](https://www.nuget.org/packages/CommunityToolkit.Mvvm)
 [![GitHub last commit](https://img.shields.io/github/last-commit/CommunityToolkit/dotnet?label=updated)](https://github.com/CommunityToolkit/dotnet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/CommunityToolkit/dotnet?style=social)

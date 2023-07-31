@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # mapperly  by Riok
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/Riok.Mapperly?label=Riok.Mapperly)](https://www.nuget.org/packages/Riok.Mapperly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/riok/mapperly?label=updated)](https://github.com/riok/mapperly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/riok/mapperly?style=social)

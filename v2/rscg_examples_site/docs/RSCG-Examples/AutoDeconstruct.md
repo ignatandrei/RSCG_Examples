@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # AutoDeconstruct  by Jason Bock
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/AutoDeconstruct?label=AutoDeconstruct)](https://www.nuget.org/packages/AutoDeconstruct)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jasonbock/autodeconstruct?label=updated)](https://github.com/jasonbock/autodeconstruct)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jasonbock/autodeconstruct?style=social)

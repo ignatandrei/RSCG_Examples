@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # Microsoft.Interop.JavaScript.JSImportGenerator  by Microsoft
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 
 
 

@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # {{ Description.Generator.Name }}  by {{Description.Generator.Author}}
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 {{Description.Generator.MarkDownNugetDownloads}}
 {{Description.Generator.MarkdownLastCommit}}
 {{Description.Generator.MarkDownStars}}

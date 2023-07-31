@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # Podimo.ConstEmbed  by Podimo
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/Podimo.ConstEmbed?label=Podimo.ConstEmbed)](https://www.nuget.org/packages/Podimo.ConstEmbed/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/podimo/Podimo.ConstEmbed?label=updated)](https://github.com/podimo/Podimo.ConstEmbed)
 ![GitHub Repo stars](https://img.shields.io/github/stars/podimo/Podimo.ConstEmbed?style=social)

@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # Rocks  by Json Bock
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/Rocks?label=Rocks)](https://www.nuget.org/packages/Rocks/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/Rocks?label=updated)](https://github.com/JasonBock/Rocks/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/Rocks?style=social)

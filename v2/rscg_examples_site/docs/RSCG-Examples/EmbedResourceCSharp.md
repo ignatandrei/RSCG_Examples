@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # EmbedResourceCSharp  by pCYSl5EDgo
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/EmbedResourceCSharp?label=EmbedResourceCSharp)](https://www.nuget.org/packages/EmbedResourceCSharp/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/pCYSl5EDgo/EmbeddingResourceCSharp?label=updated)](https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pCYSl5EDgo/EmbeddingResourceCSharp?style=social)

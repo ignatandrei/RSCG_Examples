@@ -10,9 +10,9 @@ import TOCInline from '@theme/TOCInline';
 
 # Gedaq  by Vyacheslav Brevnov
 
-<!---
+
 <TOCInline toc={toc} />
--->
+
 [![Nuget](https://img.shields.io/nuget/dt/Gedaq?label=Gedaq)](https://www.nuget.org/packages/Gedaq/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SoftStoneDevelop/Gedaq?label=updated)](https://github.com/SoftStoneDevelop/Gedaq)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?style=social)
