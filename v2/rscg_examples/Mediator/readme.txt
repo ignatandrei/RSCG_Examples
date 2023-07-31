@@ -81,10 +81,6 @@ See [benchmarks code](/benchmarks/Mediator.Benchmarks/Request) for more details 
 > A current limitation of this library is that performance degrades significantly for projects with a large number of messages (>500)
 > There is ongoing work on resolving this for version 3.0 ([#48](https://github.com/martinothamar/Mediator/issues/48)).
 
-![Requests benchmark](/img/request_benchmark.png "Requests benchmark")
-
-![Stream benchmark](/img/stream_benchmark.png "Stream benchmark")
-
 ## 3. Usage and abstractions
 
 There are two NuGet packages needed to use this library
@@ -491,11 +487,11 @@ Since this is a source generator, diagnostics are also included. Examples below
 
 * Missing request handler
 
-![Missing request handler](/img/missing_request_handler.png "Missing request handler")
+Missing request handler
 
 * Multiple request handlers found
 
-![Multiple request handlers found](/img/multiple_request_handlers.png "Multiple request handlers found")
+Multiple request handlers found
 
 
 ## 6. Differences from [MediatR](https://github.com/jbogard/MediatR)

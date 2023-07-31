@@ -84,6 +84,10 @@ See this great video by [@Elfocrash / Nick Chapsas](https://github.com/Elfocrash
 
 ## Table of Contents
 
+- [Mediator  by Martin Othamar](#mediator--by-martin-othamar)
+  - [Details](#details)
+    - [Info](#info)
+    - [Original Readme](#original-readme)
 - [Mediator](#mediator)
   - [Table of Contents](#table-of-contents)
   - [2. Benchmarks](#2-benchmarks)
@@ -106,6 +110,14 @@ See this great video by [@Elfocrash / Nick Chapsas](https://github.com/Elfocrash
     - [4.9. Use streaming messages](#49-use-streaming-messages)
   - [5. Diagnostics](#5-diagnostics)
   - [6. Differences from MediatR](#6-differences-from-mediatr)
+    - [About](#about)
+  - [How to use](#how-to-use)
+    - [Example ( source csproj, source files )](#example--source-csproj-source-files-)
+    - [Generated Files](#generated-files)
+  - [Usefull](#usefull)
+    - [Download Example (.NET  C# )](#download-example-net--c-)
+    - [Download PDF](#download-pdf)
+    - [Share Mediator](#share-mediator)
 
 ## 2. Benchmarks
 
@@ -125,10 +137,6 @@ See [benchmarks code](/benchmarks/Mediator.Benchmarks/Request) for more details 
 >
 > A current limitation of this library is that performance degrades significantly for projects with a large number of messages (>500)
 > There is ongoing work on resolving this for version 3.0 ([#48](https://github.com/martinothamar/Mediator/issues/48)).
-
-![Requests benchmark](/img/request_benchmark.png "Requests benchmark")
-
-![Stream benchmark](/img/stream_benchmark.png "Stream benchmark")
 
 ## 3. Usage and abstractions
 
@@ -536,11 +544,11 @@ Since this is a source generator, diagnostics are also included. Examples below
 
 * Missing request handler
 
-![Missing request handler](/img/missing_request_handler.png "Missing request handler")
+Missing request handler
 
 * Multiple request handlers found
 
-![Multiple request handlers found](/img/multiple_request_handlers.png "Multiple request handlers found")
+Multiple request handlers found
 
 
 ## 6. Differences from [MediatR](https://github.com/jbogard/MediatR)
@@ -628,6 +636,57 @@ Console.WriteLine("ID: " + id);
 Console.WriteLine(request);
 Console.WriteLine(response);
 
+
+```
+  </TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\GenericLoggerHandler.cs" label="GenericLoggerHandler.cs" >
+
+  This is the use of **Mediator** in *GenericLoggerHandler.cs*
+
+```csharp showLineNumbers 
+public sealed class GenericLoggerHandler<TMessage, TResponse> : IPipelineBehavior<TMessage, TResponse>
+    where TMessage : IMessage
+{
+    public async ValueTask<TResponse> Handle(TMessage message, CancellationToken cancellationToken, MessageHandlerDelegate<TMessage, TResponse> next)    
+    {
+        Console.WriteLine("1) Running logger handler");
+        try
+        {
+            var response = await next(message, cancellationToken);
+            Console.WriteLine("5) No error!");
+            return response;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("error:"+ex.Message);
+            throw;
+        }
+    }
+
+}
+```
+  </TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\PingPong.cs" label="PingPong.cs" >
+
+  This is the use of **Mediator** in *PingPong.cs*
+
+```csharp showLineNumbers 
+
+public sealed record Ping(Guid Id) : IRequest<Pong>;
+
+public sealed record Pong(Guid Id);
+
+
+public sealed class PingHandler : IRequestHandler<Ping, Pong>
+{
+    public ValueTask<Pong> Handle(Ping request, CancellationToken cancellationToken)
+    {
+        Console.WriteLine("4) Returning pong!");
+        return new ValueTask<Pong>(new Pong(request.Id));
+    }
+}
 
 ```
   </TabItem>
