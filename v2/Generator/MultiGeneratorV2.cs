@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Net.NetworkInformation;
 
 namespace Generator;
-public class MultiGeneratorV2
+public class MultiGeneratorV2 
 {
     string[] rscgNoExamples = new[] {
        
@@ -581,7 +581,10 @@ public class MultiGeneratorV2
     {
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        await Task.WhenAll(_AllDescriptions.Select(it => WrotePost(it, pathDocusaurus)));
+        await Task.WhenAll(_AllDescriptions
+            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 7)
+            .Select(it => WrotePost(it, pathDocusaurus))
+            .ToArray());
     }
 
     private async Task ModifyDocusaurusTotalExamples(string pathDocusaurus, int nr) {

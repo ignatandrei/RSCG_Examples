@@ -104,7 +104,7 @@ $$"""
     await m.GrabDescriptionFromNuget();
     await m.GrabReadMe();
 
-    //await m.WrotePost();     
+    await m.WrotePost();     
     await m.WroteDocusaurusAll();
 
     await m.WriteFrontReadMe(oldDesc);

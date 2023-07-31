@@ -21,7 +21,7 @@ Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy](https://i
 
 
 
-Source: [ https://github.com/mrpmorris/Morris.Moxy]( https://github.com/mrpmorris/Morris.Moxy)
+Source: [https://github.com/mrpmorris/Morris.Moxy](https://github.com/mrpmorris/Morris.Moxy)
 ### 30. [Refit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit) generated on : 2023-07-31 => 31 July 2023
 
 Author: ReactiveUI

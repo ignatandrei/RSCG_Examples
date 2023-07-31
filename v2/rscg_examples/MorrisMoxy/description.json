@@ -6,7 +6,7 @@
       ],
       "link":" https://github.com/mrpmorris/Morris.Moxy",
       "author":"Peter Morris",
-      "source":" https://github.com/mrpmorris/Morris.Moxy"
+      "source":"https://github.com/mrpmorris/Morris.Moxy"
    },
    "data":{
       "goodFor":["Generate C# code for classes from template using attributes"],
