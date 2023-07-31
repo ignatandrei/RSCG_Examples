@@ -108,6 +108,11 @@ public class MultiGeneratorV2
             .Where(it=>it !=null)
             .Select(it=>it!)
             .ToArray();
+        var l = _AllDescriptions.Length;
+        foreach (var item in _AllDescriptions)
+        {
+            item.ReverseNr = l - item.Nr;
+        }
 
     }
     public async Task<string?> GrabReadMe()
@@ -118,6 +123,10 @@ public class MultiGeneratorV2
             .ToArray();
 
         var desc = await Task.WhenAll(t);
+        foreach(var it in desc)
+        {
+            it.data.OriginalReadme = it.res;
+        }
         //foreach(var it in _AllDescriptions!)
         //{
         //    var nameFile = Path.Combine(it.rootFolder!, "readme.txt");

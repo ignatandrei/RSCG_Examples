@@ -4,7 +4,7 @@ namespace Generator;
 public class Description
 {
     public int Nr;
-
+    public int ReverseNr;
     [JsonPropertyName("generator")]
     public Generator? Generator { get; set; } 
 

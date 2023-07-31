@@ -9,7 +9,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Generator;
 public static class Extensions
-{
+{ 
     //public static TaskWithData<TData, TResult> GetAwaiter<TData, TResult>(this Task<TResult> taskToExecute, TData tag)
     //{
     //    return new TaskWithData<TData, TResult>(tag, taskToExecute);
