@@ -34,7 +34,6 @@ public class MultiGeneratorV2
 "Intellenum https://github.com/SteveDunn/Intellenum",
 "Mediator https://github.com/martinothamar/Mediator",
 "Tinyhand https://github.com/archi-Doc/Tinyhand",
-"Morris.Moxy https://github.com/mrpmorris/Morris.Moxy",
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
 
@@ -82,7 +81,8 @@ public class MultiGeneratorV2
             {"EmbeddingResourceCSharp",before },
             {"Lombok.NET",before },
             {"Gedaq", new(true,new(2023,7,29))},
-            {"Refit",new(true,new(2023,7,31)) }, 
+            {"Refit",new(true,new(2023,7,31)) },
+            {"Morris.Moxy", new(true,new(2023,8,1))}
             //{"ad",new(true,new(2023,16,4)) 
         };
 

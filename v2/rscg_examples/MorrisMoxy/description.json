@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"MorrisMoxy",
+      "nuget":[
+         "https://www.nuget.org/packages/Morris.Moxy/"
+      ],
+      "link":" https://github.com/mrpmorris/Morris.Moxy",
+      "author":"Peter Morris",
+      "source":" https://github.com/mrpmorris/Morris.Moxy"
+   },
+   "data":{
+      "goodFor":["Generate C# code for classes from template using attributes"],
+      "csprojDemo":"MorrisMoxyDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

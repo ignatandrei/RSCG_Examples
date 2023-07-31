@@ -1,0 +1,6 @@
+﻿
+namespace MorrisMoxyDemo;
+[IDName]
+partial class Department
+{
+}
