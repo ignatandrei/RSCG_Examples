@@ -74,7 +74,7 @@ I've also included the [MessagePipe](https://github.com/Cysharp/MessagePipe) lib
 * `<SendRequest | Stream>_IMediator`: call through the `IMediator` interface in this library
 * `<SendRequest | Stream>_MediatR`: the [MediatR](https://github.com/jbogard/MediatR) library
 
-See [benchmarks code](/benchmarks/Mediator.Benchmarks/Request) for more details on the measurement.
+See benchmarks code for more details on the measurement.
 
 > **Warning**
 >
@@ -94,8 +94,8 @@ and then use the `Mediator.Abstractions` package wherever you define message typ
 Standard message handlers are automatically picked up and added to the DI container in the generated `AddMediator` method.
 *Pipeline behaviors need to be added manually (including pre/post/exception behaviors).*
 
-For example implementations, see the [/samples](/samples) folder.
-See the [ASP.NET Core clean architecture sample](/samples/ASPNET_Core_CleanArchitecture) for a more real world setup.
+For example implementations, see the samples folder.
+See the ASP.NET Core clean architecture sample for a more real world setup.
 
 ### 3.1. Message types
 

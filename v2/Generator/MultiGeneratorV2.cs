@@ -121,7 +121,7 @@ public class MultiGeneratorV2
         var t = _AllDescriptions
             .Select(it =>GrabReadMe(it).AddData(it))
             .ToArray();
-
+        //t = _AllDescriptions.SelectTaskWithData(GrabReadMe).ToArray();
         var desc = await Task.WhenAll(t);
         foreach(var it in desc)
         {
