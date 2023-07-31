@@ -33,8 +33,8 @@ public class MultiGeneratorV2
 "Matryoshki https://github.com/krasin-ga/matryoshki",
 "Intellenum https://github.com/SteveDunn/Intellenum",
 "Mediator https://github.com/martinothamar/Mediator",
-"Tinyhand https://github.com/archi-Doc/Tinyhand",
-"Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",
+"Tinyhand https://github.com/archi-Doc/Tinyhand",//tried, need documentation
+"Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling", //too complicated, record may take care
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
 
 
@@ -83,6 +83,7 @@ public class MultiGeneratorV2
             {"Gedaq", new(true,new(2023,7,29))},
             {"Refit",new(true,new(2023,7,31)) },
             {"MorrisMoxy", new(true,new(2023,8,1))},
+            {"Mediator" , new(true,new(2023,8,2))},
             //{"ad",new(true,new(2023,16,4)) 
         };
 

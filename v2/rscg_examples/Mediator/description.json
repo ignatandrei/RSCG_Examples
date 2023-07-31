@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"Mediator",
+      "nuget":[
+         "https://www.nuget.org/packages/Mediator.SourceGenerator",
+         "https://www.nuget.org/packages/Mediator.Abstractions"
+      ],
+      "link":"https://github.com/martinothamar/Mediator",
+      "author":"Martin Othamar",
+      "source":"https://github.com/martinothamar/Mediator"
+   },
+   "data":{
+      "goodFor":["Gnerating mediator data without reflection"],
+      "csprojDemo":"MediatorDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

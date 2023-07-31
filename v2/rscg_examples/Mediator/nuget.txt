@@ -1,0 +1,1 @@
+A high performance .NET Mediator pattern implemenation using source generation.

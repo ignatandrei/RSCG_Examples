@@ -1,11 +1,27 @@
-# RSCG - 31 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 28 in queue
+# RSCG - 32 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 28 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 31 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 32 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 32. [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator) generated on : 2023-08-02 => 02 August 2023
+
+Author: Martin Othamar
+
+A high performance .NET Mediator pattern implemenation using source generation. 
+
+Nuget: [https://www.nuget.org/packages/Mediator.SourceGenerator](https://www.nuget.org/packages/Mediator.SourceGenerator) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator)
+
+
+
+
+
+Source: [https://github.com/martinothamar/Mediator](https://github.com/martinothamar/Mediator)
 ### 31. [MorrisMoxy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy) generated on : 2023-08-01 => 01 August 2023
 
 Author: Peter Morris
