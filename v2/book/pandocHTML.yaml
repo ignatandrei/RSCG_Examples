@@ -45,6 +45,7 @@ input-files:
 - examples/Gedaq.html
 - examples/Refit.html
 - examples/MorrisMoxy.html
+- examples/Mediator.html
 
 # or you may use input-file: with a single value
 # defaults:

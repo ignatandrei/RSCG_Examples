@@ -12,7 +12,7 @@
    "data":{
       "goodFor":["Gnerating mediator data without reflection"],
       "csprojDemo":"MediatorDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","GenericLoggerHandler.cs","PingPong.cs"]
    },
    "links":{
       "blog":"",
