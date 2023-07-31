@@ -34,7 +34,7 @@ public class MultiGeneratorV2
 "Intellenum https://github.com/SteveDunn/Intellenum",
 "Tinyhand https://github.com/archi-Doc/Tinyhand",//tried, need documentation
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling", //too complicated, record may take care
-"Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
+"Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",//too complicated for me
 
 
     };
