@@ -112,18 +112,20 @@ public class MultiGeneratorV2
     }
     public async Task<string?> GrabReadMe()
     {
-        var t = _AllDescriptions!
-            .Select(it => GrabReadMe(it))
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        var t = _AllDescriptions
+            .Select(it =>GrabReadMe(it).AddData(it))
             .ToArray();
-        var desc = await Task.WhenAll(t);
-        foreach(var it in _AllDescriptions!)
-        {
-            var nameFile = Path.Combine(it.rootFolder!, "readme.txt");
-            if (!File.Exists(nameFile))
-                continue;
-            it.OriginalReadme= await File.ReadAllTextAsync(nameFile);
 
-        }
+        var desc = await Task.WhenAll(t);
+        //foreach(var it in _AllDescriptions!)
+        //{
+        //    var nameFile = Path.Combine(it.rootFolder!, "readme.txt");
+        //    if (!File.Exists(nameFile))
+        //        continue;
+        //    it.OriginalReadme= await File.ReadAllTextAsync(nameFile);
+
+        //}
         return "";
     }
     async Task<string?> GrabReadMe(Description d)
@@ -134,12 +136,12 @@ public class MultiGeneratorV2
 
         var nameFile = Path.Combine(d.rootFolder!, "readme.txt");
         if (File.Exists(nameFile))
-            return nameFile;
+            return await File.ReadAllTextAsync(nameFile);
 
         var data = await tryToGetReadme(source);
         if (data == null) return null;
         await File.WriteAllTextAsync(nameFile, data);
-        return nameFile;
+        return data;
     }
     async Task<string?> tryToGetMasterOrMain(HttpClient httpClient,string FullUrl)
     {
@@ -177,37 +179,44 @@ public class MultiGeneratorV2
     }
     public async Task<long> GrabDescriptionFromNuget()
     {
-        //ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
 
-        //var t = _AllDescriptions.Select(
-        //    it => new TaskWithData<Description, string?>(it, GrabDescriptionFromNuget(it))
-        //    )
+        var t = _AllDescriptions.Select(
+            it => new TaskWithData<Description, string?>(it, GrabDescriptionFromNuget(it))
+            )
+            .Select(td=>td.GetTask())            
+            .ToArray();
+
+        var desc = await Task.WhenAll(t);
+        foreach (var item in desc)
+        {
+            item.data.DescriptionNuget = item.res;
+        }
+        return t.Length;
+
+
+
+        //var t = _AllDescriptions!
+        //    .Select(it => GrabDescriptionFromNuget(it))
         //    .ToArray();
         //var desc = await Task.WhenAll(t);
-
-        //return t.Length;
-
-
-
-        var t = _AllDescriptions!
-            .Select(it => GrabDescriptionFromNuget(it))
-            .ToArray();
-        var desc = await Task.WhenAll(t);
-        foreach (var item in _AllDescriptions!)
-        {
-            var nameFile = Path.Combine(item.rootFolder!, "nuget.txt");
-            if (File.Exists(nameFile))
-                item.DescriptionNuget = await File.ReadAllTextAsync(nameFile);
-        }
-        return desc.Length;
+        //foreach (var item in _AllDescriptions!)
+        //{
+        //    var nameFile = Path.Combine(item.rootFolder!, "nuget.txt");
+        //    if (File.Exists(nameFile))
+        //        item.DescriptionNuget = await File.ReadAllTextAsync(nameFile);
+        //}
+        //return desc.Length;
     }
     async Task<string?> GrabDescriptionFromNuget(Description d)
     {
         var nameFile = Path.Combine(d.rootFolder!, "nuget.txt");
         if(File.Exists(nameFile))
-            return nameFile;
+            return await File.ReadAllTextAsync(nameFile);
+
         if (d.Generator!.NugetFirst.Length == 0)
-            return nameFile;
+            return "";
+
         var namePackage = d.Generator!.NameNugetFirst().ToLower();
      
         var url = $"https://api.nuget.org/v3/registration5-gz-semver2/{namePackage}/index.json";
@@ -231,7 +240,7 @@ public class MultiGeneratorV2
                 if (!string.IsNullOrEmpty(desc))
                 {
                     await File.WriteAllTextAsync(nameFile, desc);
-                    return nameFile;
+                    return desc;
                 }
             }
         }

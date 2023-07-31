@@ -10,14 +10,15 @@ using System.Runtime.InteropServices;
 //    return;
 //}
 
-var t = Task.FromResult(2);
-var x = new TaskWithData<string, int>("asd", t);
-var y = new TaskWithData<string, int>("asd1", Task.FromResult(7));
-var x1=await x;
-var y1=await y;
+//var t = Task.FromResult(2);
+//var x = new TaskWithData<string, int>("asd", t);
+//var y = new TaskWithData<string, int>("asd1", Task.FromResult(7));
+//var x1=await x;
+////var y1=await y;
 
-//var a = await Task.WhenAll(x, y);
-//if (a.res == 2)
+//var a = await Task.WhenAll(x.GetTask(), y.GetTask());
+
+//if (x1.res == 2)
 //{
 //    Console.WriteLine("asdasd");
 //    return;
