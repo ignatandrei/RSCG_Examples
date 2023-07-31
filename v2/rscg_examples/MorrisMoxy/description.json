@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generate C# code for classes from template using attributes"],
       "csprojDemo":"MorrisMoxyDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","Employee.cs","Department.cs"]
    },
    "links":{
       "blog":"",

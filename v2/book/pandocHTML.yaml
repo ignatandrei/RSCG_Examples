@@ -44,6 +44,7 @@ input-files:
 - examples/Lombok.NET.html
 - examples/Gedaq.html
 - examples/Refit.html
+- examples/MorrisMoxy.html
 
 # or you may use input-file: with a single value
 # defaults:

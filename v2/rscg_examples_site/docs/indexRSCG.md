@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 30 ( 6 from Microsoft) RSCG with examples 
+This is the list of 31 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | 
@@ -40,6 +40,7 @@ This is the list of 30 ( 6 from Microsoft) RSCG with examples
 |28|[Lombok.NET](/docs/Lombok.NET)|
 |29|[Gedaq](/docs/Gedaq)|
 |30|[Refit](/docs/Refit)|
+|31|[MorrisMoxy](/docs/MorrisMoxy)|
 
 If you are interested in Microsoft RSCG, please see
 

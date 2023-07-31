@@ -82,7 +82,7 @@ public class MultiGeneratorV2
             {"Lombok.NET",before },
             {"Gedaq", new(true,new(2023,7,29))},
             {"Refit",new(true,new(2023,7,31)) },
-            {"Morris.Moxy", new(true,new(2023,8,1))}
+            {"MorrisMoxy", new(true,new(2023,8,1))},
             //{"ad",new(true,new(2023,16,4)) 
         };
 

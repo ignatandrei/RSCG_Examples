@@ -1,11 +1,27 @@
-# RSCG - 30 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 29 in queue
+# RSCG - 31 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 28 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 30 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 31 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 31. [MorrisMoxy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy) generated on : 2023-08-01 => 01 August 2023
+
+Author: Peter Morris
+
+A C# mix-in code generator 
+
+Nuget: [https://www.nuget.org/packages/Morris.Moxy/](https://www.nuget.org/packages/Morris.Moxy/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy)
+
+
+
+
+
+Source: [ https://github.com/mrpmorris/Morris.Moxy]( https://github.com/mrpmorris/Morris.Moxy)
 ### 30. [Refit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit) generated on : 2023-07-31 => 31 July 2023
 
 Author: ReactiveUI
@@ -628,13 +644,10 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 26) Tinyhand https://github.com/archi-Doc/Tinyhand
 
 
-27) Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
+27) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
 
-28) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-
-29) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+28) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
 

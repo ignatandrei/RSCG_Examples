@@ -58,9 +58,7 @@ title: RSCG Without Examples
 
 26)Tinyhand https://github.com/archi-Doc/Tinyhand
 
-27)Morris.Moxy https://github.com/mrpmorris/Morris.Moxy
+27)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
-28)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-29)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+28)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
