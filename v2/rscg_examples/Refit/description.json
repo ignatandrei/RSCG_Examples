@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Refit",
+      "nuget":[
+         "https://www.nuget.org/packages/Refit/"
+      ],
+      "link":"https://github.com/reactiveui/refit",
+      "author":"ReactiveUI",
+      "source":"https://github.com/reactiveui/refit"
+   },
+   "data":{
+      "goodFor":["Generates code for retrieving data from HTTP API"],
+      "csprojDemo":"RefitDemo.csproj",
+      "csFiles":["Program.cs","Post.cs","IFindPosts.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

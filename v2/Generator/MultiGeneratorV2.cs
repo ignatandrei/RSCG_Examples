@@ -39,7 +39,6 @@ public class MultiGeneratorV2
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
 "Refit https://github.com/reactiveui/refit",
 
-
     };
     //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
     //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
@@ -82,7 +81,8 @@ public class MultiGeneratorV2
             {"Podimo.ConstEmbed",before },
             {"EmbeddingResourceCSharp",before },
             {"Lombok.NET",before },
-            {"Gedaq", new(true,new(2023,7,29))}
+            {"Gedaq", new(true,new(2023,7,29))},
+            {"Refit",new(true,new(2023,7,31)) }, 
             //{"ad",new(true,new(2023,16,4)) 
         };
 

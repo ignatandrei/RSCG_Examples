@@ -1,11 +1,27 @@
-# RSCG - 29 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 30 in queue
+# RSCG - 30 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 30 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 29 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 30 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 30. [Refit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit) generated on : 2023-07-31 => 31 July 2023
+
+Author: ReactiveUI
+
+The automatic type-safe REST library for Xamarin and .NET 
+
+Nuget: [https://www.nuget.org/packages/Refit/](https://www.nuget.org/packages/Refit/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit)
+
+
+
+
+
+Source: [https://github.com/reactiveui/refit](https://github.com/reactiveui/refit)
 ### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq) generated on : 2023-07-29 => 29 July 2023
 
 Author: Vyacheslav Brevnov
