@@ -64,5 +64,3 @@ title: RSCG Without Examples
 
 29)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
-30)Refit https://github.com/reactiveui/refit
-
