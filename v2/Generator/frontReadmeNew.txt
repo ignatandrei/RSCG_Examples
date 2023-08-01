@@ -46,7 +46,7 @@ You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that M
 
 {{~ for descNoExample in rscgNoExamples ~}} 
 
-{{for.index+1}}| [{{descNoExample.NameRSCG}}]( descNoExample.SiteRSCG) "
+{{for.index+1}}) [{{descNoExample.NameRSCG}}]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
 
 Why I have not tested : {{descNoExample.why}}
 

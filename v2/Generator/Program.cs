@@ -100,7 +100,18 @@ $$"""
     var m = new MultiGeneratorV2(folder);
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :"+nr);
-    await m.GatherData();
+    var sources = await m.GatherData();
+    var all = sources!.Union(m.SourceNoRSCG()).ToArray();
+    for (int i = 0; i < all.Length; i++)
+    {
+       var item = all[i];
+       if(item.EndsWith("/"))
+        {
+            all[i] = item.Substring(0, item.Length - 1);
+        }
+    }
+    var text=string.Join(Environment.NewLine, all);
+    
     await m.GrabDescriptionFromNuget();
     await m.GrabReadMe();
 

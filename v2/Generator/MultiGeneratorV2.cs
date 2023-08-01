@@ -31,6 +31,130 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator","too complicated for me")
 
 
+,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper"," not yet analyzed")
+,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService"," not yet analyzed")
+,new ("AnyOf https://github.com/StefH/AnyOf"," not yet analyzed")
+,new ("AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable"," not yet analyzed")
+,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md"," not yet analyzed")
+,new ("AutoInterface https://github.com/beakona/AutoInterface"," not yet analyzed")
+,new ("AutoRegisterInject https://github.com/patrickklaeren/AutoRegisterInject"," not yet analyzed")
+,new ("Avalonia.NameGenerator https://github.com/AvaloniaUI/Avalonia.NameGenerator"," not yet analyzed")
+,new ("avatar https://github.com/kzu/avatar"," not yet analyzed")
+,new ("Azura https://github.com/Lucina/Azura"," not yet analyzed")
+,new ("BetterEnums https://github.com/Ceiridge/BetterEnums"," not yet analyzed")
+,new ("BigMachines https://github.com/archi-Doc/BigMachines"," not yet analyzed")
+,new ("BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator"," not yet analyzed")
+,new ("BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons"," not yet analyzed")
+,new ("boilerplatezero https://github.com/IGood/boilerplatezero"," not yet analyzed")
+,new ("Breezy https://github.com/Ludovicdln/Breezy"," not yet analyzed")
+,new ("Buildenator https://github.com/progala2/Buildenator"," not yet analyzed")
+,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp"," not yet analyzed")
+,new ("CoreWCF https://github.com/CoreWCF/CoreWCF"," not yet analyzed")
+,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation"," not yet analyzed")
+,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator"," not yet analyzed")
+,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management"," not yet analyzed")
+,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators"," not yet analyzed")
+,new ("docopt.net https://github.com/docopt/docopt.net"," not yet analyzed")
+,new ("dot-env-generator https://github.com/RainwayApp/dot-env-generator"," not yet analyzed")
+,new ("dotVariant https://github.com/mknejp/dotvariant"," not yet analyzed")
+,new ("Durian https://github.com/piotrstenke/Durian"," not yet analyzed")
+,new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator"," not yet analyzed")
+,new ("EnumClass https://github.com/ashenBlade/EnumClass"," not yet analyzed")
+,new ("EnumerationClassGenerator https://github.com/HamedFathi/EnumerationClassGenerator"," not yet analyzed")
+,new ("EnumFastToStringDotNet https://github.com/Spinnernicholas/EnumFastToStringDotNet"," not yet analyzed")
+,new ("EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator"," not yet analyzed")
+,new ("Fairy https://github.com/hermanussen/Fairy"," not yet analyzed")
+,new ("FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator"," not yet analyzed")
+,new ("FastGenericNew https://github.com/Nyrest/FastGenericNew"," not yet analyzed")
+,new ("Flattening https://github.com/Kros-sk/Kros.Generators.Flattening"," not yet analyzed")
+,new ("FluentBuilder https://github.com/StefH/FluentBuilder"," not yet analyzed")
+,new ("GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries"," not yet analyzed")
+,new ("Generator.Equals https://github.com/diegofrata/Generator.Equals"," not yet analyzed")
+,new ("GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator"," not yet analyzed")
+,new ("Gobie https://github.com/GobieGenerator/Gobie"," not yet analyzed")
+,new ("GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools"," not yet analyzed")
+,new ("GrpcInjection https://github.com/juniorporfirio/grpcinjection"," not yet analyzed")
+,new ("-  [GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server"," not yet analyzed")
+,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator"," not yet analyzed")
+,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator"," not yet analyzed")
+,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator"," not yet analyzed")
+,new ("Immutype https://github.com/DevTeam/Immutype"," not yet analyzed")
+,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET"," not yet analyzed")
+,new ("Injectio https://github.com/loresoft/Injectio"," not yet analyzed")
+,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator"," not yet analyzed")
+,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator"," not yet analyzed")
+,new ("Jab https://github.com/pakrym/jab"," not yet analyzed")
+,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator"," not yet analyzed")
+,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator"," not yet analyzed")
+,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator"," not yet analyzed")
+,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator"," not yet analyzed")
+,new ("JsonSrcGen https://github.com/trampster/JsonSrcGen"," not yet analyzed")
+,new ("kli.Localize https://github.com/kl1mm/localize"," not yet analyzed")
+,new ("lambdajection https://github.com/cythral/lambdajection"," not yet analyzed")
+,new ("Lazysh https://github.com/B1Z0N/LazyshGen"," not yet analyzed")
+,new ("LinqGen https://github.com/cathei/LinqGen"," not yet analyzed")
+,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator"," not yet analyzed")
+,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI"," not yet analyzed")
+,new ("MapDataReader https://github.com/jitbit/MapDataReader"," not yet analyzed")
+,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions"," not yet analyzed")
+,new ("MapTo https://github.com/mrtaikandi/MapTo"," not yet analyzed")
+,new ("MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators"," not yet analyzed")
+,new ("MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator"," not yet analyzed")
+,new ("MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator"," not yet analyzed")
+,new ("MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator"," not yet analyzed")
+,new ("MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE"," not yet analyzed")
+,new ("MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator"," not yet analyzed")
+,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator"," not yet analyzed")
+,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor"," not yet analyzed")
+,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen"," not yet analyzed")
+,new ("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes"," not yet analyzed")
+,new ("Navitski.Crystalized https://github.com/AlexNav73/Navitski.Crystalized"," not yet analyzed")
+,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface"," not yet analyzed")
+,new ("NextGenMapper https://github.com/DedAnton/NextGenMapper"," not yet analyzed")
+,new ("Plastic https://github.com/sang-hyeon/Plastic"," not yet analyzed")
+,new ("PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor"," not yet analyzed")
+,new ("PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator"," not yet analyzed")
+,new ("PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator"," not yet analyzed")
+,new ("PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator"," not yet analyzed")
+,new ("ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator"," not yet analyzed")
+,new ("Pure.DI https://github.com/DevTeam/Pure.DI"," not yet analyzed")
+,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator"," not yet analyzed")
+,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," not yet analyzed")
+,new ("Ridge https://github.com/Melchy/Ridge"," not yet analyzed")
+,new ("ScenarioTests https://github.com/koenbeuk/ScenarioTests"," not yet analyzed")
+,new ("SerdeDn serde-sn) https://github.com/agocke/serde-dn"," not yet analyzed")
+,new ("SmallSharp https://github.com/kzu/SmallSharp"," not yet analyzed")
+,new ("SmartAnnotations https://github.com/fiseni/SmartAnnotations"," not yet analyzed")
+,new ("SourceApi https://github.com/alekshura/SourceApi"," not yet analyzed")
+,new ("SourceConfig https://github.com/alekshura/SourceConfig"," not yet analyzed")
+,new ("SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery"," not yet analyzed")
+,new ("SourceInject https://github.com/giggio/sourceinject/"," not yet analyzed")
+,new ("SourceMapper https://github.com/paiden/SourceMapper/"," not yet analyzed")
+,new ("SourceMapper https://github.com/alekshura/SourceMapper"," not yet analyzed")
+,new ("SpreadCheetah https://github.com/sveinungf/spreadcheetah"," not yet analyzed")
+,new ("SqlMarshal https://github.com/kant2002/SqlMarshal"," not yet analyzed")
+,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator"," not yet analyzed")
+,new ("StackXML https://github.com/ZingBallyhoo/StackXML"," not yet analyzed")
+,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator"," not yet analyzed")
+,new ("Strongly https://github.com/lucasteles/Strongly"," not yet analyzed")
+,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources"," not yet analyzed")
+,new ("StructPacker https://github.com/RudolfKurka/StructPacker"," not yet analyzed")
+,new ("Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia"," not yet analyzed")
+,new ("SyncMethodGenerator https://github.com/zompinc/sync-method-generator"," not yet analyzed")
+,new ("TeuJson https://github.com/Terria-K/TeuJson"," not yet analyzed")
+,new ("ThisAssembly https://github.com/kzu/ThisAssembly"," not yet analyzed")
+,new ("Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc"," not yet analyzed")
+,new ("ToString https://github.com/Burgyn/MMLib.ToString"," not yet analyzed")
+,new ("Transplator https://github.com/atifaziz/Transplator"," not yet analyzed")
+,new ("TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator"," not yet analyzed")
+,new ("TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator"," not yet analyzed")
+,new ("ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator"," not yet analyzed")
+,new ("ValueLink https://github.com/archi-Doc/ValueLink"," not yet analyzed")
+,new ("ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator"," not yet analyzed")
+,new ("Visor https://github.com/Tinkoff/Visor"," not yet analyzed")
+
+
+
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -41,7 +165,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
     private FoundFile[]? MicrosoftRSCG= null;
     public MultiGeneratorV2(string root)
     {
-        
+        rscgNoExamples = rscgNoExamples.OrderBy(it => it.name).ToArray();
+
         this.rootPath = root;
         DateTime dtStart = new(2023, 04, 16);
         GeneratorData before = new(true, dtStart);
@@ -92,7 +217,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         //}
     }
 
-    public async Task GatherData()
+    public async Task<string[]?> GatherData()
     {
         string folderExamples = Path.Combine(rootPath, "rscg_examples");
         var tasks = generators
@@ -113,7 +238,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         {
             item.ReverseNr = l - item.Nr;
         }
+        return _AllDescriptions!.Select(it => it.Generator!.Source!).ToArray();
 
+    }
+    public string[] SourceNoRSCG()
+    {
+        return rscgNoExamples.Select(it=>it.SiteRSCG).ToArray();
     }
     public async Task<string?> GrabReadMe()
     {
@@ -596,8 +726,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
     }
     private async Task ModifyDocusaurusWithoutExamples(string pathDocusaurus)
     {
-        var data = rscgNoExamples.OrderBy(it => it.name).ToArray();
-        var noEx = new NoExamples(data);
+        var noEx = new NoExamples(rscgNoExamples);
         var text = noEx.Render();
         var index = Path.Combine(pathDocusaurus, "docs", "NoExamples.md");
         await File.WriteAllTextAsync(index,text);

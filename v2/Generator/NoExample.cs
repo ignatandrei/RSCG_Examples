@@ -11,21 +11,17 @@ public record NoExample(string name, string why)
     {
         get
         {
-            if (_nameRSCG == null)
-            {
-
-
-                _nameRSCG = name.Split(" ", StringSplitOptions.RemoveEmptyEntries).First().Trim();
-
-            }
+            _nameRSCG ??= name.Split(" ", StringSplitOptions.RemoveEmptyEntries).First().Trim();
             return _nameRSCG;
         }
     }
+    private string? _site = null;
     public string SiteRSCG
     {
         get
         {
-            return name.Split(" ", StringSplitOptions.RemoveEmptyEntries).Last().Trim();
+            _site ??= name.Split(" ", StringSplitOptions.RemoveEmptyEntries).Last().Trim();
+            return _site;
         }
     }
 }
