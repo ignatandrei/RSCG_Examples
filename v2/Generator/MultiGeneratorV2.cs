@@ -83,6 +83,7 @@ public class MultiGeneratorV2
             {"Mediator" , new(true,new(2023,8,2))},
             {"Matryoshki" , new(true,new(2023,8,3))},
             {"MemoryPack" , new(true,new(2023,8,4))},
+            {"DeeDee" , new(true,new(2023,8,5))},
             //{"ad",new(true,new(2023,16,4)) 
         };
 

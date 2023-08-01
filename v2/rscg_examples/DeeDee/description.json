@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"DeeDee",
+      "nuget":[
+         "https://www.nuget.org/packages/DeeDee/"
+      ],
+      "link":"https://github.com/joh-pot/DeeDee/",
+      "author":"",
+      "source":"https://github.com/joh-pot/DeeDee/"
+   },
+   "data":{
+      "goodFor":["Mediatr generated data"],
+      "csprojDemo":"DeeDeeDemo.csproj",
+      "csFiles":["Program.cs","PingPong.cs","GenericLoggerHandler"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
