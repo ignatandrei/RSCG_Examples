@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"ProxyGen",
+      "nuget":[
+         "https://www.nuget.org/packages/ProxyGen.net/"
+      ],
+      "link":"https://github.com/Sholtee/ProxyGen",
+      "author":"Dénes Solti",
+      "source":"https://github.com/Sholtee/ProxyGen"
+   },
+   "data":{
+      "goodFor":["intercepting and duck typing"],
+      "csprojDemo":"ProxyGenDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","IPerson.cs","globals.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

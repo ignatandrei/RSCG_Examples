@@ -17,15 +17,11 @@ public class MultiGeneratorV2
 ,"MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   "
 ,"MiniRazor https://github.com/Tyrrrz/MiniRazor/                            "
 ,"MockGen https://github.com/thomas-girotto/MockGen                         "
-,"ProxyGen https://github.com/Sholtee/ProxyGen                             "
-,"RoslynWeave https://github.com/Jishun/RoslynWeave                        "
-,"SmallSharp https://github.com/devlooped/SmallSharp                       "
-,"StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator" 
-,"ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator"
-,"Web-Anchor https://github.com/mattiasnordqvist/Web-Anchor"
-,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject"
-,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",
-"TypealizR https://github.com/earloc/TypealizR",
+,"RoslynWeave https://github.com/Jishun/RoslynWeave                        "//old ISourceGenerator
+,"StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator" //old ISourceGenerator
+,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject" //not maintained as in readme
+,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",//seems complicated with output file
+"TypealizR https://github.com/earloc/TypealizR",//depends on Microsoft.Extensions.Localization
 "StrongInject https://github.com/YairHalberstadt/stronginject/",//too complicated
 "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",//example with MAUI
 "Intellenum https://github.com/SteveDunn/Intellenum",//not understand how to use 
@@ -83,6 +79,7 @@ public class MultiGeneratorV2
             {"Matryoshki" , new(true,new(2023,8,3))},
             {"MemoryPack" , new(true,new(2023,8,4))},
             {"DeeDee" , new(true,new(2023,8,5))},
+            {"ProxyGen", new(true,new(2023,8,6))}, 
             //{"ad",new(true,new(2023,16,4)) 
         };
 
