@@ -11,7 +11,8 @@ inDescOrder =  all  | array.sort "ReverseNr"
 ~}} 
 {{~ for desc in inDescOrder  ~}} 
 ### {{desc.Nr}}. [{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}) generated on : {{desc.generatedDate  | date.to_string '%F => %d %B %Y' }}
-
+<details>
+  <summary>Expand</summary>
 Author: {{desc.Generator.Author}}
 
 {{desc.DescriptionNuget}} 
@@ -21,11 +22,10 @@ Nuget: [{{desc.Generator.NugetFirst}}]({{desc.Generator.NugetFirst}})
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}})
 
-
-
-
-
 Source: [{{desc.Generator.Source}}]({{desc.Generator.Source}})
+
+</details>
+
 {{~ end ~}}
 
 

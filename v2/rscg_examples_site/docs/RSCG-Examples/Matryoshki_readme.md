@@ -220,7 +220,7 @@ It is not possible to assign names to the classes when using `INesting`. The gen
 
 ## License
 
-This project is licensed under the [MIT license](LICENSE).
+This project is licensed under the MIT license.
 
 
 

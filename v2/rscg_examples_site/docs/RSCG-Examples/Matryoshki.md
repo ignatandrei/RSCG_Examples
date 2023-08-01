@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# Matryoshki  by 
+# Matryoshki  by Georgy Krasin
 
 
 <TOCInline toc={toc} />
@@ -26,7 +26,7 @@ Name: **Matryoshki**
 
 Metaprogramming framework based on C# source generators
 
-Author: 
+Author: Georgy Krasin
 
 NuGet: 
 *https://www.nuget.org/packages/Matryoshki/*   
@@ -263,7 +263,7 @@ It is not possible to assign names to the classes when using `INesting`. The gen
 
 ## License
 
-This project is licensed under the [MIT license](LICENSE).
+This project is licensed under the MIT license.
 
 
 
