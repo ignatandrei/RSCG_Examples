@@ -648,64 +648,125 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 ## Not tested yet 
 
 
-1) AutoEmbed https://github.com/chsienki/AutoEmbed                           
+
+1| [AutoEmbed]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-2) Cloneable https://github.com/mostmand/Cloneable                           
+
+2| [Cloneable]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-3) fonderie https://github.com/jeromelaban/fonderie                          
+
+3| [fonderie]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-4) Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          
+
+4| [Generators.Blazor]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-5) Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      
+
+5| [Generators.Grouping]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-6) JsonMergePatch https://github.com/ladeak/JsonMergePatch                   
+
+6| [JsonMergePatch]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-7) MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   
+
+7| [MemoizeSourceGenerator]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-8) MiniRazor https://github.com/Tyrrrz/MiniRazor/                            
+
+8| [MiniRazor]( descNoExample.SiteRSCG) "
+
+Why I have not tested : archived
 
 
-9) MockGen https://github.com/thomas-girotto/MockGen                         
+
+9| [MockGen]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-10) RoslynWeave https://github.com/Jishun/RoslynWeave                        
+
+10| [RoslynWeave]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-11) StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator
+
+11| [StaticProxyGenerator]( descNoExample.SiteRSCG) "
+
+Why I have not tested : old ISourceGenerator
 
 
-12) WrapperValueObject https://github.com/martinothamar/WrapperValueObject
+
+12| [WrapperValueObject]( descNoExample.SiteRSCG) "
+
+Why I have not tested : not maintained as in readme
 
 
-13) ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator
+
+13| [ApiClientGenerator]( descNoExample.SiteRSCG) "
+
+Why I have not tested : seems complicated with output file
 
 
-14) TypealizR https://github.com/earloc/TypealizR
+
+14| [TypealizR]( descNoExample.SiteRSCG) "
+
+Why I have not tested : depends on Microsoft.Extensions.Localization
 
 
-15) StrongInject https://github.com/YairHalberstadt/stronginject/
+
+15| [StrongInject]( descNoExample.SiteRSCG) "
+
+Why I have not tested : too complicated
 
 
-16) DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
+
+16| [DependencyPropertyGenerator]( descNoExample.SiteRSCG) "
+
+Why I have not tested : example with MAUI
 
 
-17) Intellenum https://github.com/SteveDunn/Intellenum
+
+17| [Intellenum]( descNoExample.SiteRSCG) "
+
+Why I have not tested : not understand how to use 
 
 
-18) Tinyhand https://github.com/archi-Doc/Tinyhand
+
+18| [Tinyhand]( descNoExample.SiteRSCG) "
+
+Why I have not tested : tried, need documentation
 
 
-19) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
+
+19| [Architect.DomainModeling]( descNoExample.SiteRSCG) "
+
+Why I have not tested : too complicated, record may take care
 
 
-20) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+
+20| [Maui.BindableProperty.Generator]( descNoExample.SiteRSCG) "
+
+Why I have not tested : too complicated for me
+
 
 
 

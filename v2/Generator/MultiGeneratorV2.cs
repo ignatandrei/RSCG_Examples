@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.NetworkInformation;
@@ -6,39 +7,41 @@ using System.Net.NetworkInformation;
 namespace Generator;
 public class MultiGeneratorV2 
 {
-    string[] rscgNoExamples = new[] {
+    NoExample[] rscgNoExamples = new NoExample[] {
 
-"AutoEmbed https://github.com/chsienki/AutoEmbed                           "//old ISourceGenerator
-,"Cloneable https://github.com/mostmand/Cloneable                           "//old ISourceGenerator
-,"fonderie https://github.com/jeromelaban/fonderie                          "//old ISourceGenerator
-,"Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          "//old ISourceGenerator
-,"Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      "//old ISourceGenerator
-,"JsonMergePatch https://github.com/ladeak/JsonMergePatch                   "//old ISourceGenerator
-,"MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   "//old ISourceGenerator
-,"MiniRazor https://github.com/Tyrrrz/MiniRazor/                            "//archived
-,"MockGen https://github.com/thomas-girotto/MockGen                         "//old ISourceGenerator
-,"RoslynWeave https://github.com/Jishun/RoslynWeave                        "//old ISourceGenerator
-,"StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator" //old ISourceGenerator
-,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject" //not maintained as in readme
-,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",//seems complicated with output file
-"TypealizR https://github.com/earloc/TypealizR",//depends on Microsoft.Extensions.Localization
-"StrongInject https://github.com/YairHalberstadt/stronginject/",//too complicated
-"DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",//example with MAUI
-"Intellenum https://github.com/SteveDunn/Intellenum",//not understand how to use 
-"Tinyhand https://github.com/archi-Doc/Tinyhand",//tried, need documentation
-"Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling", //too complicated, record may take care
-"Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",//too complicated for me
+new("AutoEmbed https://github.com/chsienki/AutoEmbed                           ","old ISourceGenerator")
+,new("Cloneable https://github.com/mostmand/Cloneable                           ","old ISourceGenerator")
+,new("fonderie https://github.com/jeromelaban/fonderie                          ","old ISourceGenerator")
+,new("Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          ","old ISourceGenerator")
+,new("Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      ","old ISourceGenerator")
+,new("JsonMergePatch https://github.com/ladeak/JsonMergePatch                   ","old ISourceGenerator")
+,new("MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   ","old ISourceGenerator")
+,new("MiniRazor https://github.com/Tyrrrz/MiniRazor/                            ","archived")
+,new("MockGen https://github.com/thomas-girotto/MockGen                         ","old ISourceGenerator")
+,new("RoslynWeave https://github.com/Jishun/RoslynWeave                        ","old ISourceGenerator")
+,new("StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator","old ISourceGenerator")
+,new("WrapperValueObject https://github.com/martinothamar/WrapperValueObject","not maintained as in readme")
+,new("ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator","seems complicated with output file")
+,new("TypealizR https://github.com/earloc/TypealizR","depends on Microsoft.Extensions.Localization")
+,new("StrongInject https://github.com/YairHalberstadt/stronginject/","too complicated")
+,new("DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator","example with MAUI")
+,new("Intellenum https://github.com/SteveDunn/Intellenum","not understand how to use ")
+,new("Tinyhand https://github.com/archi-Doc/Tinyhand","tried, need documentation")
+,new("Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling","too complicated, record may take care")
+,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator","too complicated for me")
 
 
     };
-    //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
-    //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
-    Dictionary<string, GeneratorData> generators;
+    
+     //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
+     //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
+     Dictionary<string, GeneratorData> generators;
     private readonly string rootPath;
     private Description[]? _AllDescriptions = null;
     private FoundFile[]? MicrosoftRSCG= null;
     public MultiGeneratorV2(string root)
     {
+        
         this.rootPath = root;
         DateTime dtStart = new(2023, 04, 16);
         GeneratorData before = new(true, dtStart);
@@ -593,7 +596,8 @@ public class MultiGeneratorV2
     }
     private async Task ModifyDocusaurusWithoutExamples(string pathDocusaurus)
     {
-        var noEx = new NoExamples(rscgNoExamples);
+        var data = rscgNoExamples.OrderBy(it => it.name).ToArray();
+        var noEx = new NoExamples(data);
         var text = noEx.Render();
         var index = Path.Combine(pathDocusaurus, "docs", "NoExamples.md");
         await File.WriteAllTextAsync(index,text);
@@ -745,7 +749,7 @@ public class MultiGeneratorV2
         var output = templateScriban.Render(
             new {
                 nrNoExamples = rscgNoExamples.Length,
-                rscgNoExamples,
+                rscgNoExamples, 
                 oldDesc, 
                 nr = _AllDescriptions.Length, 
                 all = _AllDescriptions ,

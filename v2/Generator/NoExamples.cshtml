@@ -1,4 +1,4 @@
-@inherits RazorBlade.HtmlTemplate<string[]>;
+@inherits RazorBlade.HtmlTemplate<NoExample[]>;
 
 ---
 sidebar_position: 60
@@ -9,6 +9,9 @@ title: RSCG Without Examples
 
 @for(var i=0;i<Model.Length;i++)
 {
-    string data = $"{i + 1}){Model[i]}{Environment.NewLine}{Environment.NewLine}";
-    @data
+    string data = $"{i + 1}){Model[i].NameRSCG} {Model[i].SiteRSCG}  {Environment.NewLine}{Environment.NewLine}";
+    @Raw(data)  @Raw("Why I have not put example: "+Model[i].why)
+
+    @Raw($"{Environment.NewLine}{Environment.NewLine}")
+
 }
