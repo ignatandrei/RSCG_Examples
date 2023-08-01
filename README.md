@@ -21,7 +21,7 @@ Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki](https://i
 
 
 
-Source: [https://github.com/krasin-ga/matryoshki/tree/main](https://github.com/krasin-ga/matryoshki/tree/main)
+Source: [https://github.com/krasin-ga/matryoshki/](https://github.com/krasin-ga/matryoshki/)
 ### 32. [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator) generated on : 2023-08-02 => 02 August 2023
 
 Author: Martin Othamar
