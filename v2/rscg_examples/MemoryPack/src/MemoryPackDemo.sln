@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryPackDemo", "MemoryPackDemo\MemoryPackDemo.csproj", "{EC283E06-F08F-4BA0-A1C4-DC1E52AB642B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC283E06-F08F-4BA0-A1C4-DC1E52AB642B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC283E06-F08F-4BA0-A1C4-DC1E52AB642B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC283E06-F08F-4BA0-A1C4-DC1E52AB642B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC283E06-F08F-4BA0-A1C4-DC1E52AB642B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D0F1EB8-0F1A-4AB4-B1A7-5CF0610CAF46}
+	EndGlobalSection
+EndGlobal

@@ -1,11 +1,27 @@
-# RSCG - 33 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 26 in queue
+# RSCG - 34 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 26 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 33 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 34 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 34. [MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack) generated on : 2023-08-04 => 04 August 2023
+<details>
+  <summary>Expand</summary>
+Author: 
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/MemoryPack/](https://www.nuget.org/packages/MemoryPack/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack)
+
+Source: []()
+
+</details>
+
 ### 33. [Matryoshki](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki) generated on : 2023-08-03 => 03 August 2023
 <details>
   <summary>Expand</summary>

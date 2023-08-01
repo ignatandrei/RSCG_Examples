@@ -29,7 +29,7 @@ public class MultiGeneratorV2
 "DeeDee https://github.com/joh-pot/DeeDee",
 "StrongInject https://github.com/YairHalberstadt/stronginject/",
 "MemoryPack https://github.com/Cysharp/MemoryPack",
-"DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
+"DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",//example with MAUI
 "Intellenum https://github.com/SteveDunn/Intellenum",//not understand how to use 
 "Tinyhand https://github.com/archi-Doc/Tinyhand",//tried, need documentation
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling", //too complicated, record may take care
@@ -83,6 +83,7 @@ public class MultiGeneratorV2
             {"MorrisMoxy", new(true,new(2023,8,1))},
             {"Mediator" , new(true,new(2023,8,2))},
             {"Matryoshki" , new(true,new(2023,8,3))},
+            {"MemoryPack" , new(true,new(2023,8,4))},
             //{"ad",new(true,new(2023,16,4)) 
         };
 

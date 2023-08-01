@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"MemoryPack",
+      "nuget":[
+         "https://www.nuget.org/packages/MemoryPack/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"MemoryPackDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
