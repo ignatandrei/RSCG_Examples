@@ -1,0 +1,12 @@
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+using DeeDee.Models;
+
+namespace DeeDeeDemo.DeeDee.Generated.Models
+{
+    public interface IDispatcher
+    {
+        public Pong Send(Ping request);
+    }
+}
