@@ -27,8 +27,7 @@ public class MultiGeneratorV2
 ,"ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",
 "TypealizR https://github.com/earloc/TypealizR",
 "DeeDee https://github.com/joh-pot/DeeDee",
-"StrongInject https://github.com/YairHalberstadt/stronginject/",
-"MemoryPack https://github.com/Cysharp/MemoryPack",
+"StrongInject https://github.com/YairHalberstadt/stronginject/",//too complicated
 "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",//example with MAUI
 "Intellenum https://github.com/SteveDunn/Intellenum",//not understand how to use 
 "Tinyhand https://github.com/archi-Doc/Tinyhand",//tried, need documentation
