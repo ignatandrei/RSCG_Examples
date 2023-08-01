@@ -649,847 +649,847 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 
 
 
-1) [-]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+1) [AdaskoTheBeAsT.Identity.Dapper]( https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper) , https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper 
 
 Why I have not tested :  not yet analyzed
 
 
 
-2) [AdaskoTheBeAsT.Identity.Dapper]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+2) [AjaxService.Gen]( https://github.com/MrAliSalehi/AjaxService) , https://github.com/MrAliSalehi/AjaxService 
 
 Why I have not tested :  not yet analyzed
 
 
 
-3) [AjaxService.Gen]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+3) [AnyOf]( https://github.com/StefH/AnyOf) , https://github.com/StefH/AnyOf 
 
 Why I have not tested :  not yet analyzed
 
 
 
-4) [AnyOf]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
-
-Why I have not tested :  not yet analyzed
-
-
-
-5) [ApiClientGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+4) [ApiClientGenerator]( https://github.com/surgicalcoder/ApiClientGenerator) , https://github.com/surgicalcoder/ApiClientGenerator 
 
 Why I have not tested : seems complicated with output file
 
 
 
-6) [Architect.DomainModeling]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+5) [Architect.DomainModeling]( https://github.com/TheArchitectDev/Architect.DomainModeling) , https://github.com/TheArchitectDev/Architect.DomainModeling 
 
 Why I have not tested : too complicated, record may take care
 
 
 
-7) [AutoDeconstructable]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+6) [AutoDeconstructable]( https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable) , https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable 
 
 Why I have not tested :  not yet analyzed
 
 
 
-8) [AutoEmbed]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+7) [AutoEmbed]( https://github.com/chsienki/AutoEmbed) , https://github.com/chsienki/AutoEmbed 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-9) [AutoFilterer.Generators]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+8) [AutoFilterer.Generators]( https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md) , https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md 
 
 Why I have not tested :  not yet analyzed
 
 
 
-10) [AutoInterface]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+9) [AutoInterface]( https://github.com/beakona/AutoInterface) , https://github.com/beakona/AutoInterface 
 
 Why I have not tested :  not yet analyzed
 
 
 
-11) [AutoRegisterInject]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+10) [AutoRegisterInject]( https://github.com/patrickklaeren/AutoRegisterInject) , https://github.com/patrickklaeren/AutoRegisterInject 
 
 Why I have not tested :  not yet analyzed
 
 
 
-12) [Avalonia.NameGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+11) [Avalonia.NameGenerator]( https://github.com/AvaloniaUI/Avalonia.NameGenerator) , https://github.com/AvaloniaUI/Avalonia.NameGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-13) [avatar]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+12) [avatar]( https://github.com/kzu/avatar) , https://github.com/kzu/avatar 
 
 Why I have not tested :  not yet analyzed
 
 
 
-14) [Azura]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+13) [Azura]( https://github.com/Lucina/Azura) , https://github.com/Lucina/Azura 
 
 Why I have not tested :  not yet analyzed
 
 
 
-15) [BetterEnums]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+14) [BetterEnums]( https://github.com/Ceiridge/BetterEnums) , https://github.com/Ceiridge/BetterEnums 
 
 Why I have not tested :  not yet analyzed
 
 
 
-16) [BigMachines]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+15) [BigMachines]( https://github.com/archi-Doc/BigMachines) , https://github.com/archi-Doc/BigMachines 
 
 Why I have not tested :  not yet analyzed
 
 
 
-17) [BlazorInteropGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+16) [BlazorInteropGenerator]( https://github.com/surgicalcoder/BlazorInteropGenerator) , https://github.com/surgicalcoder/BlazorInteropGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-18) [BlazorOcticons]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+17) [BlazorOcticons]( https://github.com/BlazorOcticons/BlazorOcticons) , https://github.com/BlazorOcticons/BlazorOcticons 
 
 Why I have not tested :  not yet analyzed
 
 
 
-19) [boilerplatezero]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+18) [boilerplatezero]( https://github.com/IGood/boilerplatezero) , https://github.com/IGood/boilerplatezero 
 
 Why I have not tested :  not yet analyzed
 
 
 
-20) [Breezy]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+19) [Breezy]( https://github.com/Ludovicdln/Breezy) , https://github.com/Ludovicdln/Breezy 
 
 Why I have not tested :  not yet analyzed
 
 
 
-21) [Buildenator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+20) [Buildenator]( https://github.com/progala2/Buildenator) , https://github.com/progala2/Buildenator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-22) [Cloneable]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+21) [Cloneable]( https://github.com/mostmand/Cloneable) , https://github.com/mostmand/Cloneable 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-23) [ComputeSharp]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+22) [ComputeSharp]( https://github.com/Sergio0694/ComputeSharp) , https://github.com/Sergio0694/ComputeSharp 
 
 Why I have not tested :  not yet analyzed
 
 
 
-24) [CoreWCF]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+23) [CoreWCF]( https://github.com/CoreWCF/CoreWCF) , https://github.com/CoreWCF/CoreWCF 
 
 Why I have not tested :  not yet analyzed
 
 
 
-25) [Credfeto.Enumeration.Source.Generation]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+24) [Credfeto.Enumeration.Source.Generation]( https://github.com/credfeto/credfeto-enum-source-generation) , https://github.com/credfeto/credfeto-enum-source-generation 
 
 Why I have not tested :  not yet analyzed
 
 
 
-26) [Data]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+25) [Data]( https://github.com/dasMulli/data-builder-generator) , https://github.com/dasMulli/data-builder-generator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-27) [DependencyManagement]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+26) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
 
 Why I have not tested :  not yet analyzed
 
 
 
-28) [DependencyPropertyGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+27) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
 
 Why I have not tested : example with MAUI
 
 
 
-29) [DevExpress.Mvvm.CodeGenerators]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+28) [DevExpress.Mvvm.CodeGenerators]( https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators) , https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators 
 
 Why I have not tested :  not yet analyzed
 
 
 
-30) [docopt.net]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+29) [docopt.net]( https://github.com/docopt/docopt.net) , https://github.com/docopt/docopt.net 
 
 Why I have not tested :  not yet analyzed
 
 
 
-31) [dot-env-generator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+30) [dot-env-generator]( https://github.com/RainwayApp/dot-env-generator) , https://github.com/RainwayApp/dot-env-generator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-32) [dotVariant]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+31) [dotVariant]( https://github.com/mknejp/dotvariant) , https://github.com/mknejp/dotvariant 
 
 Why I have not tested :  not yet analyzed
 
 
 
-33) [Durian]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+32) [Durian]( https://github.com/piotrstenke/Durian) , https://github.com/piotrstenke/Durian 
 
 Why I have not tested :  not yet analyzed
 
 
 
-34) [Enum.Source.Generator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+33) [Enum.Source.Generator]( https://github.com/EngRajabi/Enum.Source.Generator) , https://github.com/EngRajabi/Enum.Source.Generator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-35) [EnumClass]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+34) [EnumClass]( https://github.com/ashenBlade/EnumClass) , https://github.com/ashenBlade/EnumClass 
 
 Why I have not tested :  not yet analyzed
 
 
 
-36) [EnumerationClassGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+35) [EnumerationClassGenerator]( https://github.com/HamedFathi/EnumerationClassGenerator) , https://github.com/HamedFathi/EnumerationClassGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-37) [EnumFastToStringDotNet]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+36) [EnumFastToStringDotNet]( https://github.com/Spinnernicholas/EnumFastToStringDotNet) , https://github.com/Spinnernicholas/EnumFastToStringDotNet 
 
 Why I have not tested :  not yet analyzed
 
 
 
-38) [EnumUtilitiesGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+37) [EnumUtilitiesGenerator]( https://github.com/leoformaggi/enum-utilities-generator) , https://github.com/leoformaggi/enum-utilities-generator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-39) [Fairy]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+38) [Fairy]( https://github.com/hermanussen/Fairy) , https://github.com/hermanussen/Fairy 
 
 Why I have not tested :  not yet analyzed
 
 
 
-40) [FastEnumGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+39) [FastEnumGenerator]( https://github.com/musictopia2/FastEnumGenerator) , https://github.com/musictopia2/FastEnumGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-41) [FastGenericNew]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+40) [FastGenericNew]( https://github.com/Nyrest/FastGenericNew) , https://github.com/Nyrest/FastGenericNew 
 
 Why I have not tested :  not yet analyzed
 
 
 
-42) [Flattening]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+41) [Flattening]( https://github.com/Kros-sk/Kros.Generators.Flattening) , https://github.com/Kros-sk/Kros.Generators.Flattening 
 
 Why I have not tested :  not yet analyzed
 
 
 
-43) [FluentBuilder]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+42) [FluentBuilder]( https://github.com/StefH/FluentBuilder) , https://github.com/StefH/FluentBuilder 
 
 Why I have not tested :  not yet analyzed
 
 
 
-44) [fonderie]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+43) [fonderie]( https://github.com/jeromelaban/fonderie) , https://github.com/jeromelaban/fonderie 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-45) [GenerateHelperLibraries]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+44) [GenerateHelperLibraries]( https://github.com/musictopia2/GenerateHelperLibraries) , https://github.com/musictopia2/GenerateHelperLibraries 
 
 Why I have not tested :  not yet analyzed
 
 
 
-46) [Generator.Equals]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+45) [Generator.Equals]( https://github.com/diegofrata/Generator.Equals) , https://github.com/diegofrata/Generator.Equals 
 
 Why I have not tested :  not yet analyzed
 
 
 
-47) [Generators.Blazor]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+46) [Generators.Blazor]( https://github.com/excubo-ag/Generators.Blazor) , https://github.com/excubo-ag/Generators.Blazor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-48) [Generators.Grouping]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+47) [Generators.Grouping]( https://github.com/excubo-ag/Generators.Grouping) , https://github.com/excubo-ag/Generators.Grouping 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-49) [GitBuildInfo.SourceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+48) [GitBuildInfo.SourceGenerator]( https://github.com/Elskom/GitBuildInfo.SourceGenerator) , https://github.com/Elskom/GitBuildInfo.SourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-50) [Gobie]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+49) [Gobie]( https://github.com/GobieGenerator/Gobie) , https://github.com/GobieGenerator/Gobie 
 
 Why I have not tested :  not yet analyzed
 
 
 
-51) [GraphQL.Tools]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+50) [GraphQL.Tools]( https://github.com/MoienTajik/GraphQL.Tools) , https://github.com/MoienTajik/GraphQL.Tools 
 
 Why I have not tested :  not yet analyzed
 
 
 
-52) [GrpcInjection]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+51) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 
 
 Why I have not tested :  not yet analyzed
 
 
 
-53) [H.NSwag.Generator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+52) [GrpcInjection]( https://github.com/juniorporfirio/grpcinjection) , https://github.com/juniorporfirio/grpcinjection 
 
 Why I have not tested :  not yet analyzed
 
 
 
-54) [HttpClientCodeGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+53) [H.NSwag.Generator]( https://github.com/HavenDV/H.NSwag.Generator) , https://github.com/HavenDV/H.NSwag.Generator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-55) [IDisposableGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+54) [HttpClientCodeGenerator]( https://github.com/Jalalx/HttpClientCodeGenerator) , https://github.com/Jalalx/HttpClientCodeGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-56) [Immutype]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+55) [IDisposableGenerator]( https://github.com/Elskom/IDisposableGenerator) , https://github.com/Elskom/IDisposableGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-57) [Imp.NET]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+56) [Immutype]( https://github.com/DevTeam/Immutype) , https://github.com/DevTeam/Immutype 
 
 Why I have not tested :  not yet analyzed
 
 
 
-58) [Injectio]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+57) [Imp.NET]( https://github.com/DouglasDwyer/Imp.NET) , https://github.com/DouglasDwyer/Imp.NET 
 
 Why I have not tested :  not yet analyzed
 
 
 
-59) [Intellenum]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+58) [Injectio]( https://github.com/loresoft/Injectio) , https://github.com/loresoft/Injectio 
+
+Why I have not tested :  not yet analyzed
+
+
+
+59) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
 
 Why I have not tested : not understand how to use 
 
 
 
-60) [InterfaceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+60) [InterfaceGenerator]( https://github.com/daver32/InterfaceGenerator) , https://github.com/daver32/InterfaceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-61) [IoTHubClientGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+61) [IoTHubClientGenerator]( https://github.com/alonf/IoTHubClientGenerator) , https://github.com/alonf/IoTHubClientGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-62) [Jab]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+62) [Jab]( https://github.com/pakrym/jab) , https://github.com/pakrym/jab 
 
 Why I have not tested :  not yet analyzed
 
 
 
-63) [JsonByExampleGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+63) [JsonByExampleGenerator]( https://github.com/hermanussen/JsonByExampleGenerator) , https://github.com/hermanussen/JsonByExampleGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-64) [JsonDeserializeResourceSourceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+64) [JsonDeserializeResourceSourceGenerator]( https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator) , https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-65) [JsonMergePatch]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+65) [JsonMergePatch]( https://github.com/ladeak/JsonMergePatch) , https://github.com/ladeak/JsonMergePatch 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-66) [JsonPolymorphicGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+66) [JsonPolymorphicGenerator]( https://github.com/surgicalcoder/JsonPolymorphicGenerator) , https://github.com/surgicalcoder/JsonPolymorphicGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-67) [JsonSerializerContextGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+67) [JsonSerializerContextGenerator]( https://github.com/musictopia2/JsonSerializerContextGenerator) , https://github.com/musictopia2/JsonSerializerContextGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-68) [JsonSrcGen]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+68) [JsonSrcGen]( https://github.com/trampster/JsonSrcGen) , https://github.com/trampster/JsonSrcGen 
 
 Why I have not tested :  not yet analyzed
 
 
 
-69) [kli.Localize]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+69) [kli.Localize]( https://github.com/kl1mm/localize) , https://github.com/kl1mm/localize 
 
 Why I have not tested :  not yet analyzed
 
 
 
-70) [lambdajection]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+70) [lambdajection]( https://github.com/cythral/lambdajection) , https://github.com/cythral/lambdajection 
 
 Why I have not tested :  not yet analyzed
 
 
 
-71) [Lazysh]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+71) [Lazysh]( https://github.com/B1Z0N/LazyshGen) , https://github.com/B1Z0N/LazyshGen 
 
 Why I have not tested :  not yet analyzed
 
 
 
-72) [LinqGen]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+72) [LinqGen]( https://github.com/cathei/LinqGen) , https://github.com/cathei/LinqGen 
 
 Why I have not tested :  not yet analyzed
 
 
 
-73) [LoggingDecoratorGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+73) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-74) [M31.FluentAPI]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+74) [M31.FluentAPI]( https://github.com/m31coding/M31.FluentAPI) , https://github.com/m31coding/M31.FluentAPI 
 
 Why I have not tested :  not yet analyzed
 
 
 
-75) [MapDataReader]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+75) [MapDataReader]( https://github.com/jitbit/MapDataReader) , https://github.com/jitbit/MapDataReader 
 
 Why I have not tested :  not yet analyzed
 
 
 
-76) [MappingCloningExtensions]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+76) [MappingCloningExtensions]( https://github.com/musictopia2/MappingCloningExtensions) , https://github.com/musictopia2/MappingCloningExtensions 
 
 Why I have not tested :  not yet analyzed
 
 
 
-77) [MapTo]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+77) [MapTo]( https://github.com/mrtaikandi/MapTo) , https://github.com/mrtaikandi/MapTo 
 
 Why I have not tested :  not yet analyzed
 
 
 
-78) [Maui.BindableProperty.Generator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+78) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
 
 Why I have not tested : too complicated for me
 
 
 
-79) [MediatR]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+79) [MediatR]( https://github.com/Burgyn/MMLib.MediatR.Generators) , https://github.com/Burgyn/MMLib.MediatR.Generators 
 
 Why I have not tested :  not yet analyzed
 
 
 
-80) [MemberAccessGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+80) [MemberAccessGenerator]( https://github.com/ufcpp/MemberAccessGenerator) , https://github.com/ufcpp/MemberAccessGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-81) [MemoizeSourceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+81) [MemoizeSourceGenerator]( https://github.com/Zoxive/MemoizeSourceGenerator) , https://github.com/Zoxive/MemoizeSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-82) [MiniRazor]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+82) [MiniRazor]( https://github.com/Tyrrrz/MiniRazor/) , https://github.com/Tyrrrz/MiniRazor/ 
 
 Why I have not tested : archived
 
 
 
-83) [MockableStaticGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+83) [MockableStaticGenerator]( https://github.com/HamedFathi/MockableStaticGenerator) , https://github.com/HamedFathi/MockableStaticGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-84) [MockGen]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+84) [MockGen]( https://github.com/thomas-girotto/MockGen) , https://github.com/thomas-girotto/MockGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-85) [MockSourceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+85) [MockSourceGenerator]( https://github.com/hermanussen/MockSourceGenerator) , https://github.com/hermanussen/MockSourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-86) [MrMeeseeks.DIE]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+86) [MrMeeseeks.DIE]( https://github.com/Yeah69/MrMeeseeks.DIE) , https://github.com/Yeah69/MrMeeseeks.DIE 
 
 Why I have not tested :  not yet analyzed
 
 
 
-87) [MrMeeseeks.ResXToViewModelGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+87) [MrMeeseeks.ResXToViewModelGenerator]( https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator) , https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-88) [MrMeeseeks.StaticDelegateGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+88) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-89) [MrMeeseeks.Visitor]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+89) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
 
 Why I have not tested :  not yet analyzed
 
 
 
-90) [MvvmGen]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+90) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
 
 Why I have not tested :  not yet analyzed
 
 
 
-91) [N.SourceGenerators.UnionTypes]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+91) [N.SourceGenerators.UnionTypes]( https://github.com/Ne4to/N.SourceGenerators.UnionTypes) , https://github.com/Ne4to/N.SourceGenerators.UnionTypes 
 
 Why I have not tested :  not yet analyzed
 
 
 
-92) [Navitski.Crystalized]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+92) [Navitski.Crystalized]( https://github.com/AlexNav73/Navitski.Crystalized) , https://github.com/AlexNav73/Navitski.Crystalized 
 
 Why I have not tested :  not yet analyzed
 
 
 
-93) [net_automatic_interface]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+93) [net_automatic_interface]( https://github.com/codecentric/net_automatic_interface) , https://github.com/codecentric/net_automatic_interface 
 
 Why I have not tested :  not yet analyzed
 
 
 
-94) [NextGenMapper]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+94) [NextGenMapper]( https://github.com/DedAnton/NextGenMapper) , https://github.com/DedAnton/NextGenMapper 
 
 Why I have not tested :  not yet analyzed
 
 
 
-95) [Plastic]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+95) [Plastic]( https://github.com/sang-hyeon/Plastic) , https://github.com/sang-hyeon/Plastic 
 
 Why I have not tested :  not yet analyzed
 
 
 
-96) [PrimaryConstructor]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+96) [PrimaryConstructor]( https://github.com/chaowlert/PrimaryConstructor) , https://github.com/chaowlert/PrimaryConstructor 
 
 Why I have not tested :  not yet analyzed
 
 
 
-97) [PrimitiveStaticDataGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+97) [PrimitiveStaticDataGenerator]( https://github.com/iiweis/PrimitiveStaticDataGenerator) , https://github.com/iiweis/PrimitiveStaticDataGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-98) [PrintMembersGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+98) [PrintMembersGenerator]( https://github.com/Youssef1313/PrintMembersGenerator) , https://github.com/Youssef1313/PrintMembersGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-99) [PropertyChanged.SourceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+99) [PropertyChanged.SourceGenerator]( https://github.com/canton7/PropertyChanged.SourceGenerator) , https://github.com/canton7/PropertyChanged.SourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-100) [ProxyInterfaceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+100) [ProxyInterfaceGenerator]( https://github.com/StefH/ProxyInterfaceSourceGenerator) , https://github.com/StefH/ProxyInterfaceSourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-101) [Pure.DI]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+101) [Pure.DI]( https://github.com/DevTeam/Pure.DI) , https://github.com/DevTeam/Pure.DI 
 
 Why I have not tested :  not yet analyzed
 
 
 
-102) [RazorPageRouteGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+102) [RazorPageRouteGenerator]( https://github.com/surgicalcoder/RazorPageRouteGenerator) , https://github.com/surgicalcoder/RazorPageRouteGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-103) [ResXGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+103) [ResXGenerator]( https://github.com/ycanardeau/ResXGenerator) , https://github.com/ycanardeau/ResXGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-104) [Ridge]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+104) [Ridge]( https://github.com/Melchy/Ridge) , https://github.com/Melchy/Ridge 
 
 Why I have not tested :  not yet analyzed
 
 
 
-105) [RoslynWeave]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+105) [RoslynWeave]( https://github.com/Jishun/RoslynWeave) , https://github.com/Jishun/RoslynWeave 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-106) [ScenarioTests]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+106) [ScenarioTests]( https://github.com/koenbeuk/ScenarioTests) , https://github.com/koenbeuk/ScenarioTests 
 
 Why I have not tested :  not yet analyzed
 
 
 
-107) [SerdeDn]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+107) [SerdeDn]( https://github.com/agocke/serde-dn) , https://github.com/agocke/serde-dn 
 
 Why I have not tested :  not yet analyzed
 
 
 
-108) [SmallSharp]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+108) [SmallSharp]( https://github.com/kzu/SmallSharp) , https://github.com/kzu/SmallSharp 
 
 Why I have not tested :  not yet analyzed
 
 
 
-109) [SmartAnnotations]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+109) [SmartAnnotations]( https://github.com/fiseni/SmartAnnotations) , https://github.com/fiseni/SmartAnnotations 
 
 Why I have not tested :  not yet analyzed
 
 
 
-110) [SourceApi]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+110) [SourceApi]( https://github.com/alekshura/SourceApi) , https://github.com/alekshura/SourceApi 
 
 Why I have not tested :  not yet analyzed
 
 
 
-111) [SourceConfig]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+111) [SourceConfig]( https://github.com/alekshura/SourceConfig) , https://github.com/alekshura/SourceConfig 
 
 Why I have not tested :  not yet analyzed
 
 
 
-112) [SourceGeneratorQuery]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+112) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
 
 Why I have not tested :  not yet analyzed
 
 
 
-113) [SourceInject]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+113) [SourceInject]( https://github.com/giggio/sourceinject/) , https://github.com/giggio/sourceinject/ 
 
 Why I have not tested :  not yet analyzed
 
 
 
-114) [SourceMapper]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+114) [SourceMapper]( https://github.com/alekshura/SourceMapper) , https://github.com/alekshura/SourceMapper 
 
 Why I have not tested :  not yet analyzed
 
 
 
-115) [SourceMapper]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+115) [SourceMapper]( https://github.com/paiden/SourceMapper/) , https://github.com/paiden/SourceMapper/ 
 
 Why I have not tested :  not yet analyzed
 
 
 
-116) [SpreadCheetah]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+116) [SpreadCheetah]( https://github.com/sveinungf/spreadcheetah) , https://github.com/sveinungf/spreadcheetah 
 
 Why I have not tested :  not yet analyzed
 
 
 
-117) [SqlMarshal]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+117) [SqlMarshal]( https://github.com/kant2002/SqlMarshal) , https://github.com/kant2002/SqlMarshal 
 
 Why I have not tested :  not yet analyzed
 
 
 
-118) [ST.NSwag.ServerSourceGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+118) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-119) [StackXML]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+119) [StackXML]( https://github.com/ZingBallyhoo/StackXML) , https://github.com/ZingBallyhoo/StackXML 
 
 Why I have not tested :  not yet analyzed
 
 
 
-120) [StaticProxyGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+120) [StaticProxyGenerator]( https://github.com/robertturner/StaticProxyGenerator) , https://github.com/robertturner/StaticProxyGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-121) [StringLiteralGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+121) [StringLiteralGenerator]( https://github.com/ufcpp/StringLiteralGenerator) , https://github.com/ufcpp/StringLiteralGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-122) [StrongInject]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+122) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : too complicated
 
 
 
-123) [Strongly]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+123) [Strongly]( https://github.com/lucasteles/Strongly) , https://github.com/lucasteles/Strongly 
 
 Why I have not tested :  not yet analyzed
 
 
 
-124) [StronglyTypedEmbeddedResources]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+124) [StronglyTypedEmbeddedResources]( https://github.com/surgicalcoder/StronglyTypedEmbeddedResources) , https://github.com/surgicalcoder/StronglyTypedEmbeddedResources 
 
 Why I have not tested :  not yet analyzed
 
 
 
-125) [StructPacker]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+125) [StructPacker]( https://github.com/RudolfKurka/StructPacker) , https://github.com/RudolfKurka/StructPacker 
 
 Why I have not tested :  not yet analyzed
 
 
 
-126) [Svg]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+126) [Svg]( https://github.com/wieslawsoltes/Svg.Skia) , https://github.com/wieslawsoltes/Svg.Skia 
 
 Why I have not tested :  not yet analyzed
 
 
 
-127) [SyncMethodGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+127) [SyncMethodGenerator]( https://github.com/zompinc/sync-method-generator) , https://github.com/zompinc/sync-method-generator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-128) [TeuJson]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+128) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested :  not yet analyzed
 
 
 
-129) [ThisAssembly]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+129) [ThisAssembly]( https://github.com/kzu/ThisAssembly) , https://github.com/kzu/ThisAssembly 
 
 Why I have not tested :  not yet analyzed
 
 
 
-130) [Thunderboltloc]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+130) [Thunderboltloc]( https://github.com/AlyElhaddad/ThunderboltIoc) , https://github.com/AlyElhaddad/ThunderboltIoc 
 
 Why I have not tested :  not yet analyzed
 
 
 
-131) [Tinyhand]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+131) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
 
 
-132) [ToString]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+132) [ToString]( https://github.com/Burgyn/MMLib.ToString) , https://github.com/Burgyn/MMLib.ToString 
 
 Why I have not tested :  not yet analyzed
 
 
 
-133) [Transplator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+133) [Transplator]( https://github.com/atifaziz/Transplator) , https://github.com/atifaziz/Transplator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-134) [TupleOverloadGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+134) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-135) [TxtToListGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+135) [TxtToListGenerator]( https://github.com/musictopia2/TxtToListGenerator) , https://github.com/musictopia2/TxtToListGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-136) [TypealizR]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+136) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 
 
-137) [ValueChangedGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+137) [ValueChangedGenerator]( https://github.com/ufcpp/ValueChangedGenerator) , https://github.com/ufcpp/ValueChangedGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-138) [ValueLink]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+138) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested :  not yet analyzed
 
 
 
-139) [ValueObjectGenerator]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+139) [ValueObjectGenerator]( https://github.com/RyotaMurohoshi/ValueObjectGenerator) , https://github.com/RyotaMurohoshi/ValueObjectGenerator 
 
 Why I have not tested :  not yet analyzed
 
 
 
-140) [Visor]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+140) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested :  not yet analyzed
 
 
 
-141) [WrapperValueObject]( descNoExample.SiteRSCG) , descNoExample.SiteRSCG 
+141) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

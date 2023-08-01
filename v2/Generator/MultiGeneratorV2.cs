@@ -29,8 +29,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Tinyhand https://github.com/archi-Doc/Tinyhand","tried, need documentation")
 ,new("Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling","too complicated, record may take care")
 ,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator","too complicated for me")
-
-
 ,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper"," not yet analyzed")
 ,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService"," not yet analyzed")
 ,new ("AnyOf https://github.com/StefH/AnyOf"," not yet analyzed")
@@ -74,7 +72,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Gobie https://github.com/GobieGenerator/Gobie"," not yet analyzed")
 ,new ("GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools"," not yet analyzed")
 ,new ("GrpcInjection https://github.com/juniorporfirio/grpcinjection"," not yet analyzed")
-,new ("-  [GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server"," not yet analyzed")
+,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server"," not yet analyzed")
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator"," not yet analyzed")
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator"," not yet analyzed")
 ,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator"," not yet analyzed")
