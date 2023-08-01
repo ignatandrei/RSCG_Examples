@@ -4,14 +4,14 @@
       "nuget":[
          "https://www.nuget.org/packages/MemoryPack/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/Cysharp/MemoryPack",
+      "author":"Cysharp, Inc",
+      "source":"https://github.com/Cysharp/MemoryPack"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Efficient serializer"],
       "csprojDemo":"MemoryPackDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","Person.cs"]
    },
    "links":{
       "blog":"",

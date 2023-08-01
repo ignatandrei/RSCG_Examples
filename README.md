@@ -9,7 +9,7 @@ Those are the 34 Roslyn Source Code Generators that I have tested you can see an
 ### 34. [MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack) generated on : 2023-08-04 => 04 August 2023
 <details>
   <summary>Expand</summary>
-Author: 
+Author: Cysharp, Inc
 
 Package Description 
 
@@ -18,7 +18,7 @@ Nuget: [https://www.nuget.org/packages/MemoryPack/](https://www.nuget.org/packag
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack)
 
-Source: []()
+Source: [https://github.com/Cysharp/MemoryPack](https://github.com/Cysharp/MemoryPack)
 
 </details>
 

@@ -47,6 +47,7 @@ input-files:
 - examples/MorrisMoxy.html
 - examples/Mediator.html
 - examples/Matryoshki.html
+- examples/MemoryPack.html
 
 # or you may use input-file: with a single value
 # defaults:
