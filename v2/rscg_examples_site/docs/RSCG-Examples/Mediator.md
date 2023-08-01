@@ -84,10 +84,6 @@ See this great video by [@Elfocrash / Nick Chapsas](https://github.com/Elfocrash
 
 ## Table of Contents
 
-- [Mediator  by Martin Othamar](#mediator--by-martin-othamar)
-  - [Details](#details)
-    - [Info](#info)
-    - [Original Readme](#original-readme)
 - [Mediator](#mediator)
   - [Table of Contents](#table-of-contents)
   - [2. Benchmarks](#2-benchmarks)
@@ -110,14 +106,6 @@ See this great video by [@Elfocrash / Nick Chapsas](https://github.com/Elfocrash
     - [4.9. Use streaming messages](#49-use-streaming-messages)
   - [5. Diagnostics](#5-diagnostics)
   - [6. Differences from MediatR](#6-differences-from-mediatr)
-    - [About](#about)
-  - [How to use](#how-to-use)
-    - [Example ( source csproj, source files )](#example--source-csproj-source-files-)
-    - [Generated Files](#generated-files)
-  - [Usefull](#usefull)
-    - [Download Example (.NET  C# )](#download-example-net--c-)
-    - [Download PDF](#download-pdf)
-    - [Share Mediator](#share-mediator)
 
 ## 2. Benchmarks
 

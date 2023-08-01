@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Matryoshki",
+      "nuget":[
+         "https://www.nuget.org/packages/Matryoshki/"
+      ],
+      "link":"https://github.com/krasin-ga/matryoshki/tree/main",
+      "author":"",
+      "source":"https://github.com/krasin-ga/matryoshki/tree/main"
+   },
+   "data":{
+      "goodFor":["Adding decorators to an implementation of interface"],
+      "csprojDemo":"MatryoshkiDemo.csproj",
+      "csFiles":["Program.cs","AddLog.cs","IPerson.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

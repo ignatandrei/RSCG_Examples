@@ -30,8 +30,7 @@ public class MultiGeneratorV2
 "StrongInject https://github.com/YairHalberstadt/stronginject/",
 "MemoryPack https://github.com/Cysharp/MemoryPack",
 "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
-"Matryoshki https://github.com/krasin-ga/matryoshki",
-"Intellenum https://github.com/SteveDunn/Intellenum",
+"Intellenum https://github.com/SteveDunn/Intellenum",//not understand how to use 
 "Tinyhand https://github.com/archi-Doc/Tinyhand",//tried, need documentation
 "Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling", //too complicated, record may take care
 "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",//too complicated for me
@@ -83,6 +82,7 @@ public class MultiGeneratorV2
             {"Refit",new(true,new(2023,7,31)) },
             {"MorrisMoxy", new(true,new(2023,8,1))},
             {"Mediator" , new(true,new(2023,8,2))},
+            {"Matryoshki" , new(true,new(2023,8,3))},
             //{"ad",new(true,new(2023,16,4)) 
         };
 
