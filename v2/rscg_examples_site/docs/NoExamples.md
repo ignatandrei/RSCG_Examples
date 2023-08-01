@@ -42,17 +42,15 @@ title: RSCG Without Examples
 
 18)TypealizR https://github.com/earloc/TypealizR
 
-19)DeeDee https://github.com/joh-pot/DeeDee
+19)StrongInject https://github.com/YairHalberstadt/stronginject/
 
-20)StrongInject https://github.com/YairHalberstadt/stronginject/
+20)DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
 
-21)DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
+21)Intellenum https://github.com/SteveDunn/Intellenum
 
-22)Intellenum https://github.com/SteveDunn/Intellenum
+22)Tinyhand https://github.com/archi-Doc/Tinyhand
 
-23)Tinyhand https://github.com/archi-Doc/Tinyhand
+23)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
-24)Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-25)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+24)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 

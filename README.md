@@ -1,11 +1,27 @@
-# RSCG - 34 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 25 in queue
+# RSCG - 35 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 24 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 34 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 35 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) generated on : 2023-08-05 => 05 August 2023
+<details>
+  <summary>Expand</summary>
+Author: 
+
+Mediator pattern using source generation for .NET 
+
+Nuget: [https://www.nuget.org/packages/DeeDee/](https://www.nuget.org/packages/DeeDee/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee)
+
+Source: [https://github.com/joh-pot/DeeDee/](https://github.com/joh-pot/DeeDee/)
+
+</details>
+
 ### 34. [MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack) generated on : 2023-08-04 => 04 August 2023
 <details>
   <summary>Expand</summary>
@@ -668,25 +684,22 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 18) TypealizR https://github.com/earloc/TypealizR
 
 
-19) DeeDee https://github.com/joh-pot/DeeDee
+19) StrongInject https://github.com/YairHalberstadt/stronginject/
 
 
-20) StrongInject https://github.com/YairHalberstadt/stronginject/
+20) DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
 
 
-21) DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
+21) Intellenum https://github.com/SteveDunn/Intellenum
 
 
-22) Intellenum https://github.com/SteveDunn/Intellenum
+22) Tinyhand https://github.com/archi-Doc/Tinyhand
 
 
-23) Tinyhand https://github.com/archi-Doc/Tinyhand
+23) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
 
-24) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-
-25) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+24) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
 

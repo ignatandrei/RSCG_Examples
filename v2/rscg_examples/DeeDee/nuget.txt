@@ -1,0 +1,1 @@
+Mediator pattern using source generation for .NET

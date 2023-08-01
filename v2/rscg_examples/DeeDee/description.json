@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Mediatr generated data"],
       "csprojDemo":"DeeDeeDemo.csproj",
-      "csFiles":["Program.cs","PingPong.cs","GenericLoggerHandler"]
+      "csFiles":["Program.cs","PingPong.cs","GenericLoggerHandler.cs"]
    },
    "links":{
       "blog":"",
