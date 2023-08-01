@@ -53,8 +53,23 @@ Why I have not tested : {{descNoExample.why}}
 
 {{~ end ~}}
 
+## Do not want to test
 
-## Old examples made with ISourceGenerator 
+Those examples are made with old ISourceGenerator. 
+Until they implement IIncrementalGenerator , I do not want to test it ( performance reasons ) 
+
+{{~ for descNoExample in rscgNoExamplesOld ~}} 
+
+{{for.index+1}}) [{{descNoExample.NameRSCG}}]( {{descNoExample.SiteRSCG}}) , {{descNoExample.SiteRSCG}} 
+
+Why I have not tested : {{descNoExample.why}}
+
+
+{{~ end ~}}
+
+
+
+## V1: Old examples made with ISourceGenerator 
 
 For historical reasons, I will keep the old examples in a separate folder - see  https://github.com/ignatandrei/RSCG_Examples/tree/main/v1  folder.
 
