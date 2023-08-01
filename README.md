@@ -1,6 +1,8 @@
 # RSCG - 36 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 20 in queue
 
-If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
+If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
+
+If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
 
 ## Content 
 
@@ -25,7 +27,7 @@ Source: [https://github.com/Sholtee/ProxyGen](https://github.com/Sholtee/ProxyGe
 ### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) generated on : 2023-08-05 => 05 August 2023
 <details>
   <summary>Expand</summary>
-Author: 
+Author: joh-pot
 
 Mediator pattern using source generation for .NET 
 

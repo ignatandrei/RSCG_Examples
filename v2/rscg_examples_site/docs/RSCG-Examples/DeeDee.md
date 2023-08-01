@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# DeeDee  by 
+# DeeDee  by joh-pot
 
 
 <TOCInline toc={toc} />
@@ -26,7 +26,7 @@ Name: **DeeDee**
 
 Mediator pattern using source generation for .NET
 
-Author: 
+Author: joh-pot
 
 NuGet: 
 *https://www.nuget.org/packages/DeeDee/*   

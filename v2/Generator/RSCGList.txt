@@ -5,14 +5,21 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
+## {{ nr }} RSCG with examples 
+
 This is the list of {{ nr }} ( {{nrMSFT}} from Microsoft) RSCG with examples 
 
+{{~ 
+inDescOrder =  all  | array.sort "ReverseNr"
+~}} 
 
-| No        | Name  | 
-| --------- | ----- | 
-{{~ for desc in all ~}} 
-|{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|
+| No        | Name  | Date |
+| --------- | ----- | ---- |
+{{~ for desc in inDescOrder ~}} 
+|{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|{{desc.generatedDate  | date.to_string '%F => %d %B %Y' }} |
 {{~ end ~}}
+
+## Created by Microsoft
 
 If you are interested in Microsoft RSCG, please see
 

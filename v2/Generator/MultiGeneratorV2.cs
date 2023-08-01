@@ -7,16 +7,16 @@ namespace Generator;
 public class MultiGeneratorV2 
 {
     string[] rscgNoExamples = new[] {
-       
-"AutoEmbed https://github.com/chsienki/AutoEmbed                           "
-,"Cloneable https://github.com/mostmand/Cloneable                           "
-,"fonderie https://github.com/jeromelaban/fonderie                          "
-,"Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          "
-,"Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      "
-,"JsonMergePatch https://github.com/ladeak/JsonMergePatch                   "
-,"MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   "
-,"MiniRazor https://github.com/Tyrrrz/MiniRazor/                            "
-,"MockGen https://github.com/thomas-girotto/MockGen                         "
+
+"AutoEmbed https://github.com/chsienki/AutoEmbed                           "//old ISourceGenerator
+,"Cloneable https://github.com/mostmand/Cloneable                           "//old ISourceGenerator
+,"fonderie https://github.com/jeromelaban/fonderie                          "//old ISourceGenerator
+,"Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          "//old ISourceGenerator
+,"Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      "//old ISourceGenerator
+,"JsonMergePatch https://github.com/ladeak/JsonMergePatch                   "//old ISourceGenerator
+,"MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   "//old ISourceGenerator
+,"MiniRazor https://github.com/Tyrrrz/MiniRazor/                            "//archived
+,"MockGen https://github.com/thomas-girotto/MockGen                         "//old ISourceGenerator
 ,"RoslynWeave https://github.com/Jishun/RoslynWeave                        "//old ISourceGenerator
 ,"StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator" //old ISourceGenerator
 ,"WrapperValueObject https://github.com/martinothamar/WrapperValueObject" //not maintained as in readme
