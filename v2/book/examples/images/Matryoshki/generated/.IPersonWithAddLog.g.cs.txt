@@ -1,0 +1,84 @@
+using System;
+using MatryoshkiDemo;
+
+#nullable enable
+public class IPersonWithAddLog : MatryoshkiDemo.IPerson
+{
+    private readonly MatryoshkiDemo.IPerson _inner;
+    public IPersonWithAddLog(MatryoshkiDemo.IPerson inner)
+    {
+        _inner = inner;
+    }
+
+    private static readonly string[] MethodParameterNamesForPropertyFirstName = new string[]
+    {
+    };
+    public string? FirstName
+    {
+        get
+        {
+            Console.WriteLine($"Hello, {"FirstName"}!");
+            return _inner.FirstName;
+        }
+
+        set
+        {
+            Console.WriteLine($"Hello, {"FirstName"}!");
+            {
+                Matryoshki.Abstractions.Nothing.FromPropertyAction(_inner, value, static (@innerΔΔΔ, @valueΔΔΔ) => @innerΔΔΔ.FirstName = @valueΔΔΔ);
+                return;
+            }
+        }
+    }
+
+    private static readonly string[] MethodParameterNamesForPropertyID = new string[]
+    {
+    };
+    public int ID
+    {
+        get
+        {
+            Console.WriteLine($"Hello, {"ID"}!");
+            return _inner.ID;
+        }
+
+        set
+        {
+            Console.WriteLine($"Hello, {"ID"}!");
+            {
+                Matryoshki.Abstractions.Nothing.FromPropertyAction(_inner, value, static (@innerΔΔΔ, @valueΔΔΔ) => @innerΔΔΔ.ID = @valueΔΔΔ);
+                return;
+            }
+        }
+    }
+
+    private static readonly string[] MethodParameterNamesForPropertyLastName = new string[]
+    {
+    };
+    public string? LastName
+    {
+        get
+        {
+            Console.WriteLine($"Hello, {"LastName"}!");
+            return _inner.LastName;
+        }
+
+        set
+        {
+            Console.WriteLine($"Hello, {"LastName"}!");
+            {
+                Matryoshki.Abstractions.Nothing.FromPropertyAction(_inner, value, static (@innerΔΔΔ, @valueΔΔΔ) => @innerΔΔΔ.LastName = @valueΔΔΔ);
+                return;
+            }
+        }
+    }
+
+    private static readonly string[] MethodParameterNamesForMethodFullName = new string[]
+    {
+    };
+    public string FullName()
+    {
+        Console.WriteLine($"Hello, {"FullName"}!");
+        return _inner.FullName();
+    }
+}

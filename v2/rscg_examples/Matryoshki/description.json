@@ -4,9 +4,9 @@
       "nuget":[
          "https://www.nuget.org/packages/Matryoshki/"
       ],
-      "link":"https://github.com/krasin-ga/matryoshki/tree/main",
+      "link":"https://github.com/krasin-ga/matryoshki/",
       "author":"",
-      "source":"https://github.com/krasin-ga/matryoshki/tree/main"
+      "source":"https://github.com/krasin-ga/matryoshki/"
    },
    "data":{
       "goodFor":["Adding decorators to an implementation of interface"],

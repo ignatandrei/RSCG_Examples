@@ -1,0 +1,27 @@
+using System;
+
+#nullable enable
+public interface IPerson
+{
+    int ID { get; set; }
+
+    string? FirstName { get; set; }
+
+    string? LastName { get; set; }
+
+    string FullName();
+    public class Adapter : IPerson
+    {
+        private readonly MatryoshkiDemo.Person _inner;
+        public Adapter(MatryoshkiDemo.Person inner)
+        {
+            _inner = inner;
+        }
+
+        public int ID { get => _inner.ID; set => _inner.ID = value; }
+        public string? FirstName { get => _inner.FirstName; set => _inner.FirstName = value; }
+        public string? LastName { get => _inner.LastName; set => _inner.LastName = value; }
+
+        public string FullName() => _inner.FullName();
+    }
+}
