@@ -1,0 +1,31 @@
+#pragma warning disable
+[global::System.CodeDom.Compiler.GeneratedCodeAttribute("ProxyGen.NET", "8.2.1.0"), global::System.Diagnostics.DebuggerNonUserCodeAttribute, global::System.Runtime.CompilerServices.CompilerGeneratedAttribute]
+internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Utils.Proxy.Internals.DuckBase<global::ProxyGenDemo.Person>, global::ProxyGenDemo.IPerson
+{
+    public Duck_BB1E45629CF5010E4068E5BFBB7EF53B(global::ProxyGenDemo.Person target) : base(target)
+    {
+    }
+
+    [global::System.Runtime.CompilerServices.MethodImplAttribute(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+    global::System.String global::ProxyGenDemo.IPerson.FullName() => this.Target.FullName();
+    global::System.String global::ProxyGenDemo.IPerson.FirstName {[global::System.Runtime.CompilerServices.MethodImplAttribute(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        get => this.Target.FirstName; [global::System.Runtime.CompilerServices.MethodImplAttribute(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        set => this.Target.FirstName = value; }
+
+    global::System.String global::ProxyGenDemo.IPerson.LastName {[global::System.Runtime.CompilerServices.MethodImplAttribute(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        get => this.Target.LastName; [global::System.Runtime.CompilerServices.MethodImplAttribute(global::System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        set => this.Target.LastName = value; }
+
+    public static readonly global::System.Func<global::System.Object, global::System.Object> __Activator = tuple =>
+    {
+        switch (tuple)
+        {
+            case global::System.Tuple<global::ProxyGenDemo.Person> t0:
+                return new global::Duck_BB1E45629CF5010E4068E5BFBB7EF53B(t0.Item1);
+            default:
+                throw new global::System.MissingMethodException("Constructor with the given layout cannot be found.");
+        }
+    };
+    [global::System.Runtime.CompilerServices.ModuleInitializerAttribute]
+    public static void Initialize() => global::Solti.Utils.Proxy.Internals.LoadedTypes.Register(typeof(global::Duck_BB1E45629CF5010E4068E5BFBB7EF53B));
+}

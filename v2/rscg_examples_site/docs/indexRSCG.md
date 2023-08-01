@@ -5,7 +5,7 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-This is the list of 35 ( 6 from Microsoft) RSCG with examples 
+This is the list of 36 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | 
@@ -45,6 +45,7 @@ This is the list of 35 ( 6 from Microsoft) RSCG with examples
 |33|[Matryoshki](/docs/Matryoshki)|
 |34|[MemoryPack](/docs/MemoryPack)|
 |35|[DeeDee](/docs/DeeDee)|
+|36|[ProxyGen](/docs/ProxyGen)|
 
 If you are interested in Microsoft RSCG, please see
 

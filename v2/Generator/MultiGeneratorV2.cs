@@ -80,7 +80,7 @@ public class MultiGeneratorV2
             {"MemoryPack" , new(true,new(2023,8,4))},
             {"DeeDee" , new(true,new(2023,8,5))},
             {"ProxyGen", new(true,new(2023,8,6))}, 
-            //{"ad",new(true,new(2023,16,4)) 
+            
         };
 
         //foreach (var v in generators)
@@ -177,6 +177,9 @@ public class MultiGeneratorV2
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         response =  await tryToGetMasterOrMain(httpClient,(url + "Readme.md"));
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response = await tryToGetMasterOrMain(httpClient, url + "README.MD");
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);

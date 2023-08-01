@@ -1,11 +1,27 @@
-# RSCG - 35 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 24 in queue
+# RSCG - 36 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 20 in queue
 
 If you want to go to documentation , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 ## Content 
 
-Those are the 35 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 36 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 36. [ProxyGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen) generated on : 2023-08-06 => 06 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Dénes Solti
+
+.NET proxy generator powered by Roslyn 
+
+Nuget: [https://www.nuget.org/packages/ProxyGen.net/](https://www.nuget.org/packages/ProxyGen.net/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen)
+
+Source: [https://github.com/Sholtee/ProxyGen](https://github.com/Sholtee/ProxyGen)
+
+</details>
+
 ### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) generated on : 2023-08-05 => 05 August 2023
 <details>
   <summary>Expand</summary>
@@ -657,49 +673,37 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 9) MockGen https://github.com/thomas-girotto/MockGen                         
 
 
-10) ProxyGen https://github.com/Sholtee/ProxyGen                             
+10) RoslynWeave https://github.com/Jishun/RoslynWeave                        
 
 
-11) RoslynWeave https://github.com/Jishun/RoslynWeave                        
+11) StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator
 
 
-12) SmallSharp https://github.com/devlooped/SmallSharp                       
+12) WrapperValueObject https://github.com/martinothamar/WrapperValueObject
 
 
-13) StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator
+13) ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator
 
 
-14) ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator
+14) TypealizR https://github.com/earloc/TypealizR
 
 
-15) Web-Anchor https://github.com/mattiasnordqvist/Web-Anchor
+15) StrongInject https://github.com/YairHalberstadt/stronginject/
 
 
-16) WrapperValueObject https://github.com/martinothamar/WrapperValueObject
+16) DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
 
 
-17) ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator
+17) Intellenum https://github.com/SteveDunn/Intellenum
 
 
-18) TypealizR https://github.com/earloc/TypealizR
+18) Tinyhand https://github.com/archi-Doc/Tinyhand
 
 
-19) StrongInject https://github.com/YairHalberstadt/stronginject/
+19) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
 
 
-20) DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator
-
-
-21) Intellenum https://github.com/SteveDunn/Intellenum
-
-
-22) Tinyhand https://github.com/archi-Doc/Tinyhand
-
-
-23) Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling
-
-
-24) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
+20) Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
 
