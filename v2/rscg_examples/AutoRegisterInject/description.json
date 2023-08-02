@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"AutoRegisterInject",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoRegisterInject/"
+      ],
+      "link":"https://github.com/patrickklaeren/AutoRegisterInject",
+      "author":"Patrick Klaeren",
+      "source":"https://github.com/patrickklaeren/AutoRegisterInject"
+   },
+   "data":{
+      "goodFor":["Generating class DI registration from attributes"],
+      "csprojDemo":"AutoRegisterInjectDemo.csproj",
+      "csFiles":["Program.cs","Database.cs","IDatabase.cs","DatabaseCon.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

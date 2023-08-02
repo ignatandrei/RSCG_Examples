@@ -1,0 +1,1 @@
+C# Source Generator to automatically register dependencies in Microsoft Dependency Injection Service Collection

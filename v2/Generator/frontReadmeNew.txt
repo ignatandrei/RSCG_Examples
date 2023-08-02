@@ -1,8 +1,12 @@
-﻿# RSCG - {{nr}} Examples of Roslyn Source Code Generators  / {{MSFT_RSCG_NR}} created by Microsoft / {{nrNoExamples}} in queue
+﻿# RSCG - {{nr}} Examples of Roslyn Source Code Generators  / {{MSFT_RSCG_NR}} created by Microsoft / {{nrNoExamples}} to be analyzed
 
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
+
+If you have a Roslyn Source Code Generator, please create an issue.
+
+If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 

@@ -30,13 +30,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Tinyhand https://github.com/archi-Doc/Tinyhand","tried, need documentation")
 ,new("Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling","too complicated, record may take care")
 ,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator","too complicated for me")
-,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper"," not yet analyzed")
-,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService"," not yet analyzed")
+,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper","too complicated for me")
+,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService",old)
 ,new ("AnyOf https://github.com/StefH/AnyOf",old)
-,new ("AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable"," not yet analyzed")
-,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md"," not yet analyzed")
+,new ("AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable",old)
+,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md",old)
 ,new ("AutoInterface https://github.com/beakona/AutoInterface",old)
-,new ("AutoRegisterInject https://github.com/patrickklaeren/AutoRegisterInject"," not yet analyzed")
 ,new ("Avalonia.NameGenerator https://github.com/AvaloniaUI/Avalonia.NameGenerator",old)
 ,new ("avatar https://github.com/kzu/avatar","archived")
 ,new ("Azura https://github.com/cyriaca/Azura"," not yet analyzed")
@@ -205,8 +204,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Matryoshki" , new(true,new(2023,8,3))},
             {"MemoryPack" , new(true,new(2023,8,4))},
             {"DeeDee" , new(true,new(2023,8,5))},
-            {"ProxyGen", new(true,new(2023,8,6))}, 
-            
+            {"ProxyGen", new(true,new(2023,8,6))},
+            {"AutoRegisterInject" , new(true,new(2023,8,7))},
         };
 
         //foreach (var v in generators)
@@ -877,7 +876,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             new {
                 nrNoExamples = rscgNoExamples.Length,
                 rscgNoExamples = rscgNoExamples.Where(it => it.why != old).ToArray(),
-                rscgNoExamplesOld = rscgNoExamples.Where(it=>it.why == old).ToArray(),
+                rscgNoExamplesOld = rscgNoExamples.Where(it=>it.why == old).ToArray(),                
                 oldDesc, 
                 nr = _AllDescriptions.Length, 
                 all = _AllDescriptions ,
