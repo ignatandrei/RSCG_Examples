@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"EnumClass",
+      "nuget":[
+         "https://www.nuget.org/packages/EnumClass.Generator/"
+      ],
+      "link":"https://github.com/ashenBlade/EnumClass",
+      "author":"ashen.Blade",
+      "source":"https://github.com/ashenBlade/EnumClass"
+   },
+   "data":{
+      "goodFor":["enum 2 class"],
+      "csprojDemo":"EnumClassDemo.csproj",
+      "csFiles":["Program.cs","Colors.cs","RedEnumValue.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,0 +1,6 @@
+Inspired by kotlin's enum class, this package provides incremental generator that can create classes from enum declaration. 
+All you have to do is to add [EnumClass] attribute to your enum. 
+Features:
+- Override default ToString
+- Add specific behaviour (methods) to each member
+- Polymorphic Switch implementation
