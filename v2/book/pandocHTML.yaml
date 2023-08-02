@@ -50,6 +50,7 @@ input-files:
 - examples/MemoryPack.html
 - examples/DeeDee.html
 - examples/ProxyGen.html
+- examples/AutoRegisterInject.html
 
 # or you may use input-file: with a single value
 # defaults:
