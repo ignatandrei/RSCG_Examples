@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Breezy",
+      "nuget":[
+         "https://www.nuget.org/packages/Breezy.SourceGenerator/"
+      ],
+      "link":"https://github.com/Ludovicdln/Breezy",
+      "author":"Ludovicdln",
+      "source":"https://github.com/Ludovicdln/Breezy"
+   },
+   "data":{
+      "goodFor":["ORM Mapper"],
+      "csprojDemo":"BreezyDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","globals.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

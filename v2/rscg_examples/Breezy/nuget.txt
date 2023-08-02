@@ -1,0 +1,1 @@
+Breezy is a lightweight Object-Relational Mapping (ORM) library for mapping objects using Source Generator in C#.It provides seamless asynchronous operations for enhanced performance.
