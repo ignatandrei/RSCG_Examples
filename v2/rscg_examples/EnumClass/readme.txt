@@ -1,4 +1,3 @@
-![logo](icon.png "Enum Class Generator Logo" )
 
 # `enum class` Generator
 

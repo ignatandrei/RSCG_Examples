@@ -46,7 +46,6 @@ Source : https://github.com/ashenBlade/EnumClass
 ### Original Readme
 :::note
 
-![logo](icon.png "Enum Class Generator Logo" )
 
 # `enum class` Generator
 
