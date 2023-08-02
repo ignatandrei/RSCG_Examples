@@ -47,7 +47,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator",old)
 ,new ("BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons",old)
 ,new ("boilerplatezero https://github.com/IGood/boilerplatezero","not yet ready to test something that depends on WPF")
-,new ("Breezy https://github.com/Ludovicdln/Breezy","TBD Dapper like generator")
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
 ,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
 ,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
@@ -208,7 +207,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"DeeDee" , new(true,new(2023,8,5))},
             {"ProxyGen", new(true,new(2023,8,6))},
             {"AutoRegisterInject" , new(true,new(2023,8,7))},
-            {"EnumClass" , new(true,new(2023,8,8))}, 
+            {"EnumClass" , new(true,new(2023,8,8))},
+            {"Breezy", new(true,new(2023,8,9))},
         };
 
         //foreach (var v in generators)

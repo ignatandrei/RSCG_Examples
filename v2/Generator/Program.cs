@@ -42,6 +42,8 @@ try
         var examples = Path.Combine(f, "rscg_examples", newGen);
         Directory.CreateDirectory(examples);
         Directory.CreateDirectory(Path.Combine(examples,"src"));
+        var images = Path.Combine(f, "book", "examples", "images", newGen);
+        if(!Directory.Exists(images)) { Directory.CreateDirectory(images); }
         await File.WriteAllTextAsync(Path.Combine(examples,"description.json"), 
 $$"""
 {
