@@ -60,7 +60,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("dotVariant https://github.com/mknejp/dotvariant",old)
 ,new ("Durian https://github.com/piotrstenke/Durian",old)
 ,new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
-,new ("EnumClass https://github.com/ashenBlade/EnumClass"," Enum 2 class . TBD")
 ,new ("EnumerationClassGenerator https://github.com/HamedFathi/EnumerationClassGenerator",old)
 ,new ("EnumFastToStringDotNet https://github.com/Spinnernicholas/EnumFastToStringDotNet",old)
 ,new ("EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator",old)
@@ -209,6 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"DeeDee" , new(true,new(2023,8,5))},
             {"ProxyGen", new(true,new(2023,8,6))},
             {"AutoRegisterInject" , new(true,new(2023,8,7))},
+            {"EnumClass" , new(true,new(2023,8,8))}, 
         };
 
         //foreach (var v in generators)
