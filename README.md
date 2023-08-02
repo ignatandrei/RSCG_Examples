@@ -673,336 +673,392 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 
 Why I have not tested : too complicated for me
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=AdaskoTheBeAsT.Identity.Dapper&body=https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper
 
 
 2) [ApiClientGenerator]( https://github.com/surgicalcoder/ApiClientGenerator) , https://github.com/surgicalcoder/ApiClientGenerator 
 
 Why I have not tested : seems complicated with output file
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ApiClientGenerator&body=https://github.com/surgicalcoder/ApiClientGenerator
 
 
 3) [Architect.DomainModeling]( https://github.com/TheArchitectDev/Architect.DomainModeling) , https://github.com/TheArchitectDev/Architect.DomainModeling 
 
 Why I have not tested : too complicated, record may take care
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Architect.DomainModeling&body=https://github.com/TheArchitectDev/Architect.DomainModeling
 
 
 4) [avatar]( https://github.com/kzu/avatar) , https://github.com/kzu/avatar 
 
 Why I have not tested : archived
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=avatar&body=https://github.com/kzu/avatar
 
 
 5) [Azura]( https://github.com/cyriaca/Azura) , https://github.com/cyriaca/Azura 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Azura&body=https://github.com/cyriaca/Azura
 
 
 6) [BigMachines]( https://github.com/archi-Doc/BigMachines) , https://github.com/archi-Doc/BigMachines 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=BigMachines&body=https://github.com/archi-Doc/BigMachines
 
 
 7) [boilerplatezero]( https://github.com/IGood/boilerplatezero) , https://github.com/IGood/boilerplatezero 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=boilerplatezero&body=https://github.com/IGood/boilerplatezero
 
 
 8) [Breezy]( https://github.com/Ludovicdln/Breezy) , https://github.com/Ludovicdln/Breezy 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Breezy&body=https://github.com/Ludovicdln/Breezy
 
 
 9) [ComputeSharp]( https://github.com/Sergio0694/ComputeSharp) , https://github.com/Sergio0694/ComputeSharp 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ComputeSharp&body=https://github.com/Sergio0694/ComputeSharp
 
 
 10) [CoreWCF]( https://github.com/CoreWCF/CoreWCF) , https://github.com/CoreWCF/CoreWCF 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=CoreWCF&body=https://github.com/CoreWCF/CoreWCF
 
 
 11) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyManagement&body=https://github.com/essy-ecosystem/dependency-management
 
 
 12) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
 
 Why I have not tested : example with MAUI
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyPropertyGenerator&body=https://github.com/HavenDV/DependencyPropertyGenerator
 
 
 13) [EnumClass]( https://github.com/ashenBlade/EnumClass) , https://github.com/ashenBlade/EnumClass 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=EnumClass&body=https://github.com/ashenBlade/EnumClass
 
 
 14) [FastEnumGenerator]( https://github.com/musictopia2/FastEnumGenerator) , https://github.com/musictopia2/FastEnumGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastEnumGenerator&body=https://github.com/musictopia2/FastEnumGenerator
 
 
 15) [FastGenericNew]( https://github.com/Nyrest/FastGenericNew) , https://github.com/Nyrest/FastGenericNew 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastGenericNew&body=https://github.com/Nyrest/FastGenericNew
 
 
 16) [Generator.Equals]( https://github.com/diegofrata/Generator.Equals) , https://github.com/diegofrata/Generator.Equals 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Generator.Equals&body=https://github.com/diegofrata/Generator.Equals
 
 
 17) [Gobie]( https://github.com/GobieGenerator/Gobie) , https://github.com/GobieGenerator/Gobie 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Gobie&body=https://github.com/GobieGenerator/Gobie
 
 
 18) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=GRPC-Mock-Server&body=https://github.com/cezarypiatek/GRPC-Mock-Server
 
 
 19) [H.NSwag.Generator]( https://github.com/HavenDV/H.NSwag.Generator) , https://github.com/HavenDV/H.NSwag.Generator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=H.NSwag.Generator&body=https://github.com/HavenDV/H.NSwag.Generator
 
 
 20) [IDisposableGenerator]( https://github.com/Elskom/IDisposableGenerator) , https://github.com/Elskom/IDisposableGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=IDisposableGenerator&body=https://github.com/Elskom/IDisposableGenerator
 
 
 21) [Immutype]( https://github.com/DevTeam/Immutype) , https://github.com/DevTeam/Immutype 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Immutype&body=https://github.com/DevTeam/Immutype
 
 
 22) [Injectio]( https://github.com/loresoft/Injectio) , https://github.com/loresoft/Injectio 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Injectio&body=https://github.com/loresoft/Injectio
 
 
 23) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
 
 Why I have not tested : not understand how to use 
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Intellenum&body=https://github.com/SteveDunn/Intellenum
 
 
 24) [Jab]( https://github.com/pakrym/jab) , https://github.com/pakrym/jab 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Jab&body=https://github.com/pakrym/jab
 
 
 25) [JsonDeserializeResourceSourceGenerator]( https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator) , https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=JsonDeserializeResourceSourceGenerator&body=https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator
 
 
 26) [JsonSerializerContextGenerator]( https://github.com/musictopia2/JsonSerializerContextGenerator) , https://github.com/musictopia2/JsonSerializerContextGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=JsonSerializerContextGenerator&body=https://github.com/musictopia2/JsonSerializerContextGenerator
 
 
 27) [LinqGen]( https://github.com/cathei/LinqGen) , https://github.com/cathei/LinqGen 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LinqGen&body=https://github.com/cathei/LinqGen
 
 
 28) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LoggingDecoratorGenerator&body=https://github.com/DavidFineboym/LoggingDecoratorGenerator
 
 
 29) [MappingCloningExtensions]( https://github.com/musictopia2/MappingCloningExtensions) , https://github.com/musictopia2/MappingCloningExtensions 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MappingCloningExtensions&body=https://github.com/musictopia2/MappingCloningExtensions
 
 
 30) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
 
 Why I have not tested : too complicated for me
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Maui.BindableProperty.Generator&body=https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
 31) [MiniRazor]( https://github.com/Tyrrrz/MiniRazor/) , https://github.com/Tyrrrz/MiniRazor/ 
 
 Why I have not tested : archived
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MiniRazor&body=https://github.com/Tyrrrz/MiniRazor/
 
 
 32) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MrMeeseeks.StaticDelegateGenerator&body=https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator
 
 
 33) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MrMeeseeks.Visitor&body=https://github.com/Yeah69/MrMeeseeks.Visitor
 
 
 34) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MvvmGen&body=https://github.com/thomasclaudiushuber/mvvmgen
 
 
 35) [Navitski.Crystalized]( https://github.com/AlexNav73/Navitski.Crystalized) , https://github.com/AlexNav73/Navitski.Crystalized 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Navitski.Crystalized&body=https://github.com/AlexNav73/Navitski.Crystalized
 
 
 36) [NextGenMapper]( https://github.com/DedAnton/NextGenMapper) , https://github.com/DedAnton/NextGenMapper 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=NextGenMapper&body=https://github.com/DedAnton/NextGenMapper
 
 
 37) [PropertyChanged.SourceGenerator]( https://github.com/canton7/PropertyChanged.SourceGenerator) , https://github.com/canton7/PropertyChanged.SourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PropertyChanged.SourceGenerator&body=https://github.com/canton7/PropertyChanged.SourceGenerator
 
 
 38) [Pure.DI]( https://github.com/DevTeam/Pure.DI) , https://github.com/DevTeam/Pure.DI 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Pure.DI&body=https://github.com/DevTeam/Pure.DI
 
 
 39) [ResXGenerator]( https://github.com/ycanardeau/ResXGenerator) , https://github.com/ycanardeau/ResXGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ResXGenerator&body=https://github.com/ycanardeau/ResXGenerator
 
 
 40) [Ridge]( https://github.com/Melchy/Ridge) , https://github.com/Melchy/Ridge 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Ridge&body=https://github.com/Melchy/Ridge
 
 
 41) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SerdeDn&body=https://github.com/serdedotnet/serde
 
 
 42) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SourceGeneratorQuery&body=https://github.com/roeibajayo/SourceGeneratorQuery
 
 
 43) [SpreadCheetah]( https://github.com/sveinungf/spreadcheetah) , https://github.com/sveinungf/spreadcheetah 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SpreadCheetah&body=https://github.com/sveinungf/spreadcheetah
 
 
 44) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ST.NSwag.ServerSourceGenerator&body=https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator
 
 
 45) [StringLiteralGenerator]( https://github.com/ufcpp/StringLiteralGenerator) , https://github.com/ufcpp/StringLiteralGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StringLiteralGenerator&body=https://github.com/ufcpp/StringLiteralGenerator
 
 
 46) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : too complicated
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StrongInject&body=https://github.com/YairHalberstadt/stronginject/
 
 
 47) [Strongly]( https://github.com/lucasteles/Strongly) , https://github.com/lucasteles/Strongly 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Strongly&body=https://github.com/lucasteles/Strongly
 
 
 48) [SyncMethodGenerator]( https://github.com/zompinc/sync-method-generator) , https://github.com/zompinc/sync-method-generator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SyncMethodGenerator&body=https://github.com/zompinc/sync-method-generator
 
 
 49) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TeuJson&body=https://github.com/Terria-K/TeuJson
 
 
 50) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tinyhand&body=https://github.com/archi-Doc/Tinyhand
 
 
 51) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
 52) [TxtToListGenerator]( https://github.com/musictopia2/TxtToListGenerator) , https://github.com/musictopia2/TxtToListGenerator 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TxtToListGenerator&body=https://github.com/musictopia2/TxtToListGenerator
 
 
 53) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
 54) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
 55) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested :  not yet analyzed
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
 56) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WrapperValueObject&body=https://github.com/martinothamar/WrapperValueObject
 
 
 ## Do not want to test

@@ -54,6 +54,7 @@ You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that M
 
 Why I have not tested : {{descNoExample.why}}
 
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title={{descNoExample.NameRSCG}}&body={{descNoExample.SiteRSCG}}
 
 {{~ end ~}}
 
