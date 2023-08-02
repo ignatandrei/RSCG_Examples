@@ -8,6 +8,9 @@ namespace Generator;
 public class MultiGeneratorV2 
 {
     const string old = "old ISourceGenerator";
+    const string archived = "archived";
+    const string inspirational = "not having nuget, but having IIncrementalGenerator";
+    const string noReadMe = "no readme";
     NoExample[] rscgNoExamples = new NoExample[] {
 
 new("AutoEmbed https://github.com/chsienki/AutoEmbed                           ",old)
@@ -17,7 +20,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      ",old)
 ,new("JsonMergePatch https://github.com/ladeak/JsonMergePatch                   ",old)
 ,new("MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   ",old)
-,new("MiniRazor https://github.com/Tyrrrz/MiniRazor/                            ","archived")
+,new("MiniRazor https://github.com/Tyrrrz/MiniRazor/                            ",archived)
 ,new("MockGen https://github.com/thomas-girotto/MockGen                         ",old)
 ,new("RoslynWeave https://github.com/Jishun/RoslynWeave                        ",old)
 ,new("StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator",old)
@@ -37,64 +40,64 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md",old)
 ,new ("AutoInterface https://github.com/beakona/AutoInterface",old)
 ,new ("Avalonia.NameGenerator https://github.com/AvaloniaUI/Avalonia.NameGenerator",old)
-,new ("avatar https://github.com/kzu/avatar","archived")
-,new ("Azura https://github.com/cyriaca/Azura"," not yet analyzed")
+,new ("avatar https://github.com/kzu/avatar",archived)
+,new ("Azura https://github.com/cyriaca/Azura"," System.Text.Json has already not refelection serializer")
 ,new ("BetterEnums https://github.com/Ceiridge/BetterEnums",old)
-,new ("BigMachines https://github.com/archi-Doc/BigMachines"," not yet analyzed")
+,new ("BigMachines https://github.com/archi-Doc/BigMachines","state machine - full of features. To be analyzed ASAP")
 ,new ("BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator",old)
 ,new ("BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons",old)
-,new ("boilerplatezero https://github.com/IGood/boilerplatezero"," not yet analyzed")
-,new ("Breezy https://github.com/Ludovicdln/Breezy"," not yet analyzed")
+,new ("boilerplatezero https://github.com/IGood/boilerplatezero","not yet ready to test something that depends on WPF")
+,new ("Breezy https://github.com/Ludovicdln/Breezy","TBD Dapper like generator")
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
-,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp"," not yet analyzed")
-,new ("CoreWCF https://github.com/CoreWCF/CoreWCF"," not yet analyzed")
+,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
+,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
 ,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",old)
 ,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator",old)
-,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management"," not yet analyzed")
+,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management","DI container. To be analyzed")
 ,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",old)
 ,new ("docopt.net https://github.com/docopt/docopt.net",old)
 ,new ("dot-env-generator https://github.com/betwixt-labs/dot-env-generator",old)
 ,new ("dotVariant https://github.com/mknejp/dotvariant",old)
 ,new ("Durian https://github.com/piotrstenke/Durian",old)
 ,new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
-,new ("EnumClass https://github.com/ashenBlade/EnumClass"," not yet analyzed")
+,new ("EnumClass https://github.com/ashenBlade/EnumClass"," Enum 2 class . TBD")
 ,new ("EnumerationClassGenerator https://github.com/HamedFathi/EnumerationClassGenerator",old)
 ,new ("EnumFastToStringDotNet https://github.com/Spinnernicholas/EnumFastToStringDotNet",old)
 ,new ("EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator",old)
 ,new ("Fairy https://github.com/hermanussen/Fairy",old)
-,new ("FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator"," not yet analyzed")
-,new ("FastGenericNew https://github.com/Nyrest/FastGenericNew"," not yet analyzed")
+,new ("FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator",noReadMe)
+,new ("FastGenericNew https://github.com/Nyrest/FastGenericNew","creating instances . TBD")
 ,new ("Flattening https://github.com/Kros-sk/Kros.Generators.Flattening",old)
 ,new ("FluentBuilder https://github.com/StefH/FluentBuilder",old)
 ,new ("GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries",old)
-,new ("Generator.Equals https://github.com/diegofrata/Generator.Equals"," not yet analyzed")
+,new ("Generator.Equals https://github.com/diegofrata/Generator.Equals","equality comparer generator. TBD")
 ,new ("GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator",old)
-,new ("Gobie https://github.com/GobieGenerator/Gobie"," not yet analyzed")
+,new ("Gobie https://github.com/GobieGenerator/Gobie","templating for RSCG. TBD")
 ,new ("GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools",old)
 ,new ("GrpcInjection https://github.com/juniorporfirio/grpcinjection",old)
-,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server"," not yet analyzed")
+,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server","interesting, too complicated")
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
-,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator"," not yet analyzed")
-,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator"," not yet analyzed")
-,new ("Immutype https://github.com/DevTeam/Immutype"," not yet analyzed")
+,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","TBD")
+,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","IDisposable;TBD")
+,new ("Immutype https://github.com/DevTeam/Immutype"," builder generator")
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
-,new ("Injectio https://github.com/loresoft/Injectio"," not yet analyzed")
+,new ("Injectio https://github.com/loresoft/Injectio","DI attributes to code, TBD")
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
-,new ("Jab https://github.com/pakrym/jab"," not yet analyzed")
+,new ("Jab https://github.com/pakrym/jab","DI container, ASAP")
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
-,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator"," not yet analyzed")
+,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
 ,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",old)
-,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator"," not yet analyzed")
+,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
 ,new ("JsonSrcGen https://github.com/trampster/JsonSrcGen",old)
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
 ,new ("lambdajection https://github.com/cythral/lambdajection",old)
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
-,new ("LinqGen https://github.com/cathei/LinqGen"," not yet analyzed")
-,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator"," not yet analyzed")
+,new ("LinqGen https://github.com/cathei/LinqGen","Linq Generator, TBD")
+,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
 ,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",old)
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
-,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions"," not yet analyzed")
+,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
 ,new ("MapTo https://github.com/mrtaikandi/MapTo",old)
 ,new ("MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators",old)
 ,new ("MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator",old)
@@ -102,53 +105,53 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator",old)
 ,new ("MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE",old)
 ,new ("MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator",old)
-,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator"," not yet analyzed")
-,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor"," not yet analyzed")
-,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen"," not yet analyzed")
+,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator","TBD,interface for injecting static classes")
+,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor","Visitor pattern, TBD")
+,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen"," ASAP, depends on WPF")
 ,new ("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes",old)
-,new ("Navitski.Crystalized https://github.com/AlexNav73/Navitski.Crystalized"," not yet analyzed")
+,new ("Navitski.Crystalized https://github.com/AlexNav73/CoreCraft"," JSON to classes, ASAP")
 ,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface",old)
-,new ("NextGenMapper https://github.com/DedAnton/NextGenMapper"," not yet analyzed")
+,new ("NextGenMapper https://github.com/DedAnton/NextGenMapper","mapper, TBD")
 ,new ("Plastic https://github.com/sang-hyeon/Plastic",old)
 ,new ("PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor",old)
 ,new ("PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator",old)
 ,new ("PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator",old)
-,new ("PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator"," not yet analyzed")
+,new ("PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator","INotifyPropertyChanged, TBD")
 ,new ("ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator",old)
-,new ("Pure.DI https://github.com/DevTeam/Pure.DI"," not yet analyzed")
+,new ("Pure.DI https://github.com/DevTeam/Pure.DI","DI Container, ASAP")
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
-,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," not yet analyzed")
-,new ("Ridge https://github.com/Melchy/Ridge"," not yet analyzed")
+,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," resource manager to classes,TBD")
+,new ("Ridge https://github.com/Melchy/Ridge","test controllers fast,TBD")
 ,new ("ScenarioTests https://github.com/koenbeuk/ScenarioTests",old)
-,new ("SerdeDn serde-sn) https://github.com/serdedotnet/serde"," not yet analyzed")
+,new ("SerdeDn serde-sn) https://github.com/serdedotnet/serde","serializer, ASAP")
 ,new ("SmallSharp https://github.com/devlooped/SmallSharp",old)
 ,new ("SmartAnnotations https://github.com/fiseni/SmartAnnotations",old)
 ,new ("SourceApi https://github.com/alekshura/SourceApi",old)
 ,new ("SourceConfig https://github.com/alekshura/SourceConfig",old)
-,new ("SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery"," not yet analyzed")
+,new ("SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery","RSCG Helper, TBD")
 ,new ("SourceInject https://github.com/giggio/sourceinject/",old)
 ,new ("SourceMapper https://github.com/paiden/SourceMapper/",old)
 ,new ("SourceMapper https://github.com/alekshura/SourceMapper",old)
-,new ("SpreadCheetah https://github.com/sveinungf/spreadcheetah"," not yet analyzed")
+,new ("SpreadCheetah https://github.com/sveinungf/spreadcheetah","generating Excel, TBD")
 ,new ("SqlMarshal https://github.com/kant2002/SqlMarshal",old)
-,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator"," not yet analyzed")
+,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swag 2 ?,ASAP")
 ,new ("StackXML https://github.com/ZingBallyhoo/StackXML",old)
-,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator"," not yet analyzed")
-,new ("Strongly https://github.com/lucasteles/Strongly"," not yet analyzed")
+,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator","string 2 utf8")
+,new ("Strongly https://github.com/lucasteles/Strongly"," strongly-typed entity IDs, TBD")
 ,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",old)
 ,new ("StructPacker https://github.com/RudolfKurka/StructPacker",old)
 ,new ("Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia",old)
-,new ("SyncMethodGenerator https://github.com/zompinc/sync-method-generator"," not yet analyzed")
-,new ("TeuJson https://github.com/Terria-K/TeuJson"," not yet analyzed")
+,new ("SyncMethodGenerator https://github.com/zompinc/sync-method-generator","async 2 sync, TBD")
+,new ("TeuJson https://github.com/Terria-K/TeuJson","json a class, was done in System.Text.Json")
 ,new ("Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc",old)
 ,new ("ToString https://github.com/Burgyn/MMLib.ToString",old)
 ,new ("Transplator https://github.com/atifaziz/Transplator",old)
-,new ("TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator"," not yet analyzed")
-,new ("TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator"," not yet analyzed")
+,new ("TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator","roo complicated")
+,new ("TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator",noReadMe)
 ,new ("ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator",old)
-,new ("ValueLink https://github.com/archi-Doc/ValueLink"," not yet analyzed")
+,new ("ValueLink https://github.com/archi-Doc/ValueLink","too complicated")
 ,new ("ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator",old)
-,new ("Visor https://github.com/Tinkoff/Visor"," not yet analyzed")
+,new ("Visor https://github.com/Tinkoff/Visor","too complicated")
 
 
 
@@ -872,18 +875,20 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         ArgumentNullException.ThrowIfNull(MicrosoftRSCG);
+        string[] notShow =new[] { old, archived, inspirational, noReadMe };
         var output = templateScriban.Render(
             new {
                 nrNoExamples = rscgNoExamples.Length,
-                rscgNoExamples = rscgNoExamples.Where(it => it.why != old).ToArray(),
-                rscgNoExamplesOld = rscgNoExamples.Where(it=>it.why == old).ToArray(),                
-                oldDesc, 
-                nr = _AllDescriptions.Length, 
-                all = _AllDescriptions ,
-                MSFT_RSCG= MicrosoftRSCG,
-                MSFT_RSCG_NR= MicrosoftRSCG.Length
-            }, 
-            member => member.Name);
+                rscgNoExamples = rscgNoExamples.Where(it => !notShow.Contains(it.why)).ToArray(),
+                nrOld = rscgNoExamples.Where(it => notShow.Contains(it.why)).Count(),
+                rscgNoExamplesOld = rscgNoExamples.Where(it => notShow.Contains(it.why)).ToArray(),
+                oldDesc,
+                nr = _AllDescriptions.Length,
+                all = _AllDescriptions,
+                MSFT_RSCG = MicrosoftRSCG,
+                MSFT_RSCG_NR = MicrosoftRSCG.Length
+            },
+            member => member.Name); 
         await File.WriteAllTextAsync(readMe, output);
     }
     

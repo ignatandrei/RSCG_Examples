@@ -1,5 +1,6 @@
-﻿# RSCG - {{nr}} Examples of Roslyn Source Code Generators  / {{MSFT_RSCG_NR}} created by Microsoft / {{nrNoExamples}} to be analyzed
-
+﻿# RSCG - {{nr}} Examples of Roslyn Source Code Generators  / {{MSFT_RSCG_NR}} created by Microsoft / 
+{{nrNoExamples- nrOld}} in queue / {{ nrOld }} that have problems
+ 
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
@@ -45,7 +46,7 @@ You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that M
 {{~ end ~}}
 
 
-## Not tested yet 
+## To be tested {{nrNoExamples-nrOld}}
 
 
 {{~ for descNoExample in rscgNoExamples ~}} 
@@ -58,10 +59,9 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title={{descNoExample.Na
 
 {{~ end ~}}
 
-## Do not want to test
+## Do not want to test {{nrOld}}
 
-Those examples are made with old ISourceGenerator. 
-Until they implement IIncrementalGenerator , I do not want to test it ( performance reasons ) 
+Those examples are made with old ISourceGenerator or have other problems 
 
 {{~ for descNoExample in rscgNoExamplesOld ~}} 
 
