@@ -44,7 +44,7 @@ Source : https://github.com/DevTeam/Immutype
 # Immutype
 
 [![NuGet](https://buildstats.info/nuget/Immutype)](https://www.nuget.org/packages/Immutype)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 [<img src="http://teamcity.jetbrains.com/app/rest/builds/buildType:(id:OpenSourceProjects_DevTeam_Immutype_BuildAndTestBuildType)/statusIcon"/>](http://teamcity.jetbrains.com/viewType.html?buildTypeId=OpenSourceProjects_DevTeam_Immutype_BuildAndTestBuildType&guest=1)
 
 _Immutype_ is [.NET code generator](https://docs.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/source-generators-overview) creating extension methods for records, structures, and classes marked by the attribute `````[Immutype.Target]````` to efficiently operate with instances of these types like with immutable ones.
