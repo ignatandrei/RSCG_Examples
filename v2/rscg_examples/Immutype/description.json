@@ -9,7 +9,7 @@
       "source":"https://github.com/DevTeam/Immutype"
    },
    "data":{
-      "goodFor":["Immutable from constructors "],
+      "goodFor":["Immutable from constructors"],
       "csprojDemo":"ImmutypeDemo.csproj",
       "csFiles":["Program.cs","Person.cs"]
    },
