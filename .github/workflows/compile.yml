@@ -1,0 +1,31 @@
+name: BuildDocusaurus
+
+on:
+    workflow_call:
+        inputs:
+            nodeVersion:
+              required: true
+              type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.13.0]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: compile workflow, Use Node.js ${{ inputs.nodeVersion }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ inputs.nodeVersion }}
+        # cache: 'npm'
+    - run: |
+        cd v2 
+        cd rscg_examples_site
+        npm i
+        npm run build 
+        
