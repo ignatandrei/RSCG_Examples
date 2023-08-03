@@ -715,7 +715,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.WhenAll(_AllDescriptions
-            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 7)
+            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 2)
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }

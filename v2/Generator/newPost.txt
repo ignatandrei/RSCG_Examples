@@ -17,7 +17,7 @@
 </tr>
 <tr>
 <td valign="bottom" width="68"><b>link</b></td>
-<td valign="bottom" width="288">{{Description.Generator.Link}}</td>
+<td valign="bottom" width="288"><a target='_blank' href='{{Description.Generator.Link}}'>{{Description.Generator.Link}}</a></td>
 </tr>
 <tr>
 <td valign="bottom" width="68"><b>author</b></td>
