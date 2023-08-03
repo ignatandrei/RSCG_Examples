@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"GeneratorEquals",
+      "nuget":[
+         "https://www.nuget.org/packages/Generator.Equals/"
+      ],
+      "link":"https://github.com/diegofrata/Generator.Equals",
+      "author":"Diego Frato",
+      "source":"https://github.com/diegofrata/Generator.Equals"
+   },
+   "data":{
+      "goodFor":["Generating Equals from properties"],
+      "csprojDemo":"GeneratorEqualsDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
