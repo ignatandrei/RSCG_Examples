@@ -24,7 +24,7 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **GeneratorEquals**
 
-A source code generator for automatically implementing IEquatable<T> using only attributes.
+A source code generator for automatically implementing IEquatable using only attributes.
 
 Author: Diego Frato
 
@@ -146,7 +146,7 @@ public string[] Fruits { get; set; } // Fruits have to be in the same order for 
 
 This equality comparer will compare properties as a sequence instead of a reference. This works just like ```Enumerable.SequenceEqual```, which assumes both lists are of the same size and same sort.
 
-Bear in mind that the property has to implement IEnumerable<T> and the that the items themselves implement equality (you can use Generator.Equals in the items too!).
+Bear in mind that the property has to implement IEnumerable and the that the items themselves implement equality (you can use Generator.Equals in the items too!).
 
 ### UnorderedEquality
 
@@ -160,7 +160,7 @@ public IDictionary<string, object> Properties { get; set; } // Works with dictio
 
 This equality comparer will compare properties as an unordered sequence instead of a reference. This works just like ```Enumerable.SequenceEqual```, but it does not care about the order as long as the all values (including the repetitions) are present.
 
-As with OrderedEquality, bear in mind that the property (or key and values if using a dictionary) has to implement IEnumerable<T> and the that the items themselves implement equality (you can use Generator.Equals in the items too!).
+As with OrderedEquality, bear in mind that the property (or key and values if using a dictionary) has to implement IEnumerable and the that the items themselves implement equality (you can use Generator.Equals in the items too!).
 
 ### SetEquality
 
@@ -212,9 +212,9 @@ public string Name2 { get; set; } // Will use StringComparer.OrdinalIgnoreCase t
 This attribute allows you to specify a custom comparer for a particular property. For it to work, the type passed as an
 argument to CustomEqualityAttribute should fulfill AT LEAST one of the following:
 
-* Have a static field/property named Default returning a valid IEqualityComparer<T> instance for the target type;
-* Have a static field/property with the same name passed to the CustomComparerAttribute returning a valid IEqualityComparer<T> instance for the target type;
-* Implement IEqualityComparer<T> and expose a parameterless constructor.
+* Have a static field/property named Default returning a valid IEqualityComparer instance for the target type;
+* Have a static field/property with the same name passed to the CustomComparerAttribute returning a valid IEqualityComparer instance for the target type;
+* Implement IEqualityComparer and expose a parameterless constructor.
 
 ## Advanced Options
 

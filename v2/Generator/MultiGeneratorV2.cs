@@ -209,6 +209,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Breezy", new(true,new(2023,8,9))},
             {"FastGenericNew" , new(true,new(2023,8,10))},
             {"GeneratorEquals", new(true,new(2023,8,11))},
+
         };
 
         //foreach (var v in generators)
