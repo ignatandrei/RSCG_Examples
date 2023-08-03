@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"spreadcheetah",
+      "nuget":[
+         "https://www.nuget.org/packages/spreadcheetah/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"spreadcheetahDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
