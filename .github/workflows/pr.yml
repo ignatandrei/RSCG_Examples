@@ -1,0 +1,28 @@
+name: BuildPR
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  call-workflow-passing-data:
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: ./.github/workflows/compile.yml
+    with:
+      nodeVersion: ${{ matrix.node-version }}
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.13.0]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - run: |
+        echo 'done'

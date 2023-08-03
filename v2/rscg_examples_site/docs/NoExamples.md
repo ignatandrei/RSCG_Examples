@@ -150,407 +150,403 @@ Why I have not put example: old ISourceGenerator
 
 Why I have not put example: no readme
 
-37)FastGenericNew https://github.com/Nyrest/FastGenericNew  
-
-Why I have not put example: creating instances . TBD
-
-38)Flattening https://github.com/Kros-sk/Kros.Generators.Flattening  
+37)Flattening https://github.com/Kros-sk/Kros.Generators.Flattening  
 
 Why I have not put example: old ISourceGenerator
 
-39)FluentBuilder https://github.com/StefH/FluentBuilder  
+38)FluentBuilder https://github.com/StefH/FluentBuilder  
 
 Why I have not put example: old ISourceGenerator
 
-40)fonderie https://github.com/jeromelaban/fonderie  
+39)fonderie https://github.com/jeromelaban/fonderie  
 
 Why I have not put example: old ISourceGenerator
 
-41)GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries  
+40)GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries  
 
 Why I have not put example: old ISourceGenerator
 
-42)Generator.Equals https://github.com/diegofrata/Generator.Equals  
+41)Generator.Equals https://github.com/diegofrata/Generator.Equals  
 
 Why I have not put example: equality comparer generator. TBD
 
-43)Generators.Blazor https://github.com/excubo-ag/Generators.Blazor  
+42)Generators.Blazor https://github.com/excubo-ag/Generators.Blazor  
 
 Why I have not put example: old ISourceGenerator
 
-44)Generators.Grouping https://github.com/excubo-ag/Generators.Grouping  
+43)Generators.Grouping https://github.com/excubo-ag/Generators.Grouping  
 
 Why I have not put example: old ISourceGenerator
 
-45)GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator  
+44)GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-46)Gobie https://github.com/GobieGenerator/Gobie  
+45)Gobie https://github.com/GobieGenerator/Gobie  
 
 Why I have not put example: templating for RSCG. TBD
 
-47)GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools  
+46)GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools  
 
 Why I have not put example: old ISourceGenerator
 
-48)GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server  
+47)GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server  
 
 Why I have not put example: interesting, too complicated
 
-49)GrpcInjection https://github.com/juniorporfirio/grpcinjection  
+48)GrpcInjection https://github.com/juniorporfirio/grpcinjection  
 
 Why I have not put example: old ISourceGenerator
 
-50)H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator  
+49)H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator  
 
 Why I have not put example: TBD
 
-51)HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator  
+50)HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-52)IDisposableGenerator https://github.com/Elskom/IDisposableGenerator  
+51)IDisposableGenerator https://github.com/Elskom/IDisposableGenerator  
 
 Why I have not put example: IDisposable;TBD
 
-53)Immutype https://github.com/DevTeam/Immutype  
+52)Immutype https://github.com/DevTeam/Immutype  
 
 Why I have not put example:  builder generator
 
-54)Imp.NET https://github.com/DouglasDwyer/Imp.NET  
+53)Imp.NET https://github.com/DouglasDwyer/Imp.NET  
 
 Why I have not put example: old ISourceGenerator
 
-55)Injectio https://github.com/loresoft/Injectio  
+54)Injectio https://github.com/loresoft/Injectio  
 
 Why I have not put example: DI attributes to code, TBD
 
-56)Intellenum https://github.com/SteveDunn/Intellenum  
+55)Intellenum https://github.com/SteveDunn/Intellenum  
 
 Why I have not put example: not understand how to use 
 
-57)InterfaceGenerator https://github.com/daver32/InterfaceGenerator  
+56)InterfaceGenerator https://github.com/daver32/InterfaceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-58)IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator  
+57)IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-59)Jab https://github.com/pakrym/jab  
+58)Jab https://github.com/pakrym/jab  
 
 Why I have not put example: DI container, ASAP
 
-60)JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator  
+59)JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-61)JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator  
+60)JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator  
 
 Why I have not put example: no readme
 
-62)JsonMergePatch https://github.com/ladeak/JsonMergePatch  
+61)JsonMergePatch https://github.com/ladeak/JsonMergePatch  
 
 Why I have not put example: old ISourceGenerator
 
-63)JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator  
+62)JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-64)JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator  
+63)JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator  
 
 Why I have not put example: no readme
 
-65)JsonSrcGen https://github.com/trampster/JsonSrcGen  
+64)JsonSrcGen https://github.com/trampster/JsonSrcGen  
 
 Why I have not put example: old ISourceGenerator
 
-66)kli.Localize https://github.com/kl1mm/localize  
+65)kli.Localize https://github.com/kl1mm/localize  
 
 Why I have not put example: old ISourceGenerator
 
-67)lambdajection https://github.com/cythral/lambdajection  
+66)lambdajection https://github.com/cythral/lambdajection  
 
 Why I have not put example: old ISourceGenerator
 
-68)Lazysh https://github.com/B1Z0N/LazyshGen  
+67)Lazysh https://github.com/B1Z0N/LazyshGen  
 
 Why I have not put example: old ISourceGenerator
 
-69)LinqGen https://github.com/cathei/LinqGen  
+68)LinqGen https://github.com/cathei/LinqGen  
 
 Why I have not put example: Linq Generator, TBD
 
-70)LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator  
+69)LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator  
 
 Why I have not put example: Microsoft have done same feature
 
-71)M31.FluentAPI https://github.com/m31coding/M31.FluentAPI  
+70)M31.FluentAPI https://github.com/m31coding/M31.FluentAPI  
 
 Why I have not put example: old ISourceGenerator
 
-72)MapDataReader https://github.com/jitbit/MapDataReader  
+71)MapDataReader https://github.com/jitbit/MapDataReader  
 
 Why I have not put example: old ISourceGenerator
 
-73)MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions  
+72)MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions  
 
 Why I have not put example: no readme
 
-74)MapTo https://github.com/mrtaikandi/MapTo  
+73)MapTo https://github.com/mrtaikandi/MapTo  
 
 Why I have not put example: old ISourceGenerator
 
-75)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator  
+74)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator  
 
 Why I have not put example: too complicated for me
 
-76)MediatR https://github.com/Burgyn/MMLib.MediatR.Generators  
+75)MediatR https://github.com/Burgyn/MMLib.MediatR.Generators  
 
 Why I have not put example: old ISourceGenerator
 
-77)MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator  
+76)MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-78)MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator  
+77)MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-79)MiniRazor https://github.com/Tyrrrz/MiniRazor/  
+78)MiniRazor https://github.com/Tyrrrz/MiniRazor/  
 
 Why I have not put example: archived
 
-80)MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator  
+79)MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-81)MockGen https://github.com/thomas-girotto/MockGen  
+80)MockGen https://github.com/thomas-girotto/MockGen  
 
 Why I have not put example: old ISourceGenerator
 
-82)MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator  
+81)MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-83)MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE  
+82)MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE  
 
 Why I have not put example: old ISourceGenerator
 
-84)MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator  
+83)MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-85)MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator  
+84)MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator  
 
 Why I have not put example: TBD,interface for injecting static classes
 
-86)MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor  
+85)MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor  
 
 Why I have not put example: Visitor pattern, TBD
 
-87)MvvmGen https://github.com/thomasclaudiushuber/mvvmgen  
+86)MvvmGen https://github.com/thomasclaudiushuber/mvvmgen  
 
 Why I have not put example:  ASAP, depends on WPF
 
-88)N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes  
+87)N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes  
 
 Why I have not put example: old ISourceGenerator
 
-89)Navitski.Crystalized https://github.com/AlexNav73/CoreCraft  
+88)Navitski.Crystalized https://github.com/AlexNav73/CoreCraft  
 
 Why I have not put example:  JSON to classes, ASAP
 
-90)net_automatic_interface https://github.com/codecentric/net_automatic_interface  
+89)net_automatic_interface https://github.com/codecentric/net_automatic_interface  
 
 Why I have not put example: old ISourceGenerator
 
-91)NextGenMapper https://github.com/DedAnton/NextGenMapper  
+90)NextGenMapper https://github.com/DedAnton/NextGenMapper  
 
 Why I have not put example: mapper, TBD
 
-92)Plastic https://github.com/sang-hyeon/Plastic  
+91)Plastic https://github.com/sang-hyeon/Plastic  
 
 Why I have not put example: old ISourceGenerator
 
-93)PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor  
+92)PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor  
 
 Why I have not put example: old ISourceGenerator
 
-94)PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator  
+93)PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-95)PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator  
+94)PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-96)PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator  
+95)PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator  
 
 Why I have not put example: INotifyPropertyChanged, TBD
 
-97)ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator  
+96)ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-98)Pure.DI https://github.com/DevTeam/Pure.DI  
+97)Pure.DI https://github.com/DevTeam/Pure.DI  
 
 Why I have not put example: DI Container, ASAP
 
-99)RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator  
+98)RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-100)ResXGenerator https://github.com/ycanardeau/ResXGenerator  
+99)ResXGenerator https://github.com/ycanardeau/ResXGenerator  
 
 Why I have not put example:  resource manager to classes,TBD
 
-101)Ridge https://github.com/Melchy/Ridge  
+100)Ridge https://github.com/Melchy/Ridge  
 
 Why I have not put example: test controllers fast,TBD
 
-102)RoslynWeave https://github.com/Jishun/RoslynWeave  
+101)RoslynWeave https://github.com/Jishun/RoslynWeave  
 
 Why I have not put example: old ISourceGenerator
 
-103)ScenarioTests https://github.com/koenbeuk/ScenarioTests  
+102)ScenarioTests https://github.com/koenbeuk/ScenarioTests  
 
 Why I have not put example: old ISourceGenerator
 
-104)SerdeDn https://github.com/serdedotnet/serde  
+103)SerdeDn https://github.com/serdedotnet/serde  
 
 Why I have not put example: serializer, ASAP
 
-105)SmallSharp https://github.com/devlooped/SmallSharp  
+104)SmallSharp https://github.com/devlooped/SmallSharp  
 
 Why I have not put example: old ISourceGenerator
 
-106)SmartAnnotations https://github.com/fiseni/SmartAnnotations  
+105)SmartAnnotations https://github.com/fiseni/SmartAnnotations  
 
 Why I have not put example: old ISourceGenerator
 
-107)SourceApi https://github.com/alekshura/SourceApi  
+106)SourceApi https://github.com/alekshura/SourceApi  
 
 Why I have not put example: old ISourceGenerator
 
-108)SourceConfig https://github.com/alekshura/SourceConfig  
+107)SourceConfig https://github.com/alekshura/SourceConfig  
 
 Why I have not put example: old ISourceGenerator
 
-109)SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery  
+108)SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery  
 
 Why I have not put example: RSCG Helper, TBD
 
-110)SourceInject https://github.com/giggio/sourceinject/  
+109)SourceInject https://github.com/giggio/sourceinject/  
 
 Why I have not put example: old ISourceGenerator
 
-111)SourceMapper https://github.com/alekshura/SourceMapper  
+110)SourceMapper https://github.com/alekshura/SourceMapper  
 
 Why I have not put example: old ISourceGenerator
 
-112)SourceMapper https://github.com/paiden/SourceMapper/  
+111)SourceMapper https://github.com/paiden/SourceMapper/  
 
 Why I have not put example: old ISourceGenerator
 
-113)SpreadCheetah https://github.com/sveinungf/spreadcheetah  
+112)SpreadCheetah https://github.com/sveinungf/spreadcheetah  
 
 Why I have not put example: generating Excel, TBD
 
-114)SqlMarshal https://github.com/kant2002/SqlMarshal  
+113)SqlMarshal https://github.com/kant2002/SqlMarshal  
 
 Why I have not put example: old ISourceGenerator
 
-115)ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator  
+114)ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator  
 
 Why I have not put example: swag 2 ?,ASAP
 
-116)StackXML https://github.com/ZingBallyhoo/StackXML  
+115)StackXML https://github.com/ZingBallyhoo/StackXML  
 
 Why I have not put example: old ISourceGenerator
 
-117)StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator  
+116)StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-118)StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator  
+117)StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator  
 
 Why I have not put example: string 2 utf8
 
-119)StrongInject https://github.com/YairHalberstadt/stronginject/  
+118)StrongInject https://github.com/YairHalberstadt/stronginject/  
 
 Why I have not put example: too complicated
 
-120)Strongly https://github.com/lucasteles/Strongly  
+119)Strongly https://github.com/lucasteles/Strongly  
 
 Why I have not put example:  strongly-typed entity IDs, TBD
 
-121)StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources  
+120)StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources  
 
 Why I have not put example: old ISourceGenerator
 
-122)StructPacker https://github.com/RudolfKurka/StructPacker  
+121)StructPacker https://github.com/RudolfKurka/StructPacker  
 
 Why I have not put example: old ISourceGenerator
 
-123)Svg https://github.com/wieslawsoltes/Svg.Skia  
+122)Svg https://github.com/wieslawsoltes/Svg.Skia  
 
 Why I have not put example: old ISourceGenerator
 
-124)SyncMethodGenerator https://github.com/zompinc/sync-method-generator  
+123)SyncMethodGenerator https://github.com/zompinc/sync-method-generator  
 
 Why I have not put example: async 2 sync, TBD
 
-125)TeuJson https://github.com/Terria-K/TeuJson  
+124)TeuJson https://github.com/Terria-K/TeuJson  
 
 Why I have not put example: json a class, was done in System.Text.Json
 
-126)Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc  
+125)Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc  
 
 Why I have not put example: old ISourceGenerator
 
-127)Tinyhand https://github.com/archi-Doc/Tinyhand  
+126)Tinyhand https://github.com/archi-Doc/Tinyhand  
 
 Why I have not put example: tried, need documentation
 
-128)ToString https://github.com/Burgyn/MMLib.ToString  
+127)ToString https://github.com/Burgyn/MMLib.ToString  
 
 Why I have not put example: old ISourceGenerator
 
-129)Transplator https://github.com/atifaziz/Transplator  
+128)Transplator https://github.com/atifaziz/Transplator  
 
 Why I have not put example: old ISourceGenerator
 
-130)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
+129)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
 
 Why I have not put example: roo complicated
 
-131)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
+130)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
 
 Why I have not put example: no readme
 
-132)TypealizR https://github.com/earloc/TypealizR  
+131)TypealizR https://github.com/earloc/TypealizR  
 
 Why I have not put example: depends on Microsoft.Extensions.Localization
 
-133)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
+132)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-134)ValueLink https://github.com/archi-Doc/ValueLink  
+133)ValueLink https://github.com/archi-Doc/ValueLink  
 
 Why I have not put example: too complicated
 
-135)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
+134)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-136)Visor https://github.com/Tinkoff/Visor  
+135)Visor https://github.com/Tinkoff/Visor  
 
 Why I have not put example: too complicated
 
-137)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
+136)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
 Why I have not put example: not maintained as in readme
 

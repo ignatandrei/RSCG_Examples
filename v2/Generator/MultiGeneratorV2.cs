@@ -64,7 +64,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator",old)
 ,new ("Fairy https://github.com/hermanussen/Fairy",old)
 ,new ("FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator",noReadMe)
-,new ("FastGenericNew https://github.com/Nyrest/FastGenericNew","creating instances . TBD")
 ,new ("Flattening https://github.com/Kros-sk/Kros.Generators.Flattening",old)
 ,new ("FluentBuilder https://github.com/StefH/FluentBuilder",old)
 ,new ("GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries",old)
@@ -77,7 +76,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","TBD")
 ,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","IDisposable;TBD")
-,new ("Immutype https://github.com/DevTeam/Immutype"," builder generator")
+,new ("Immutype https://github.com/DevTeam/Immutype"," builder generator,TBD")
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("Injectio https://github.com/loresoft/Injectio","DI attributes to code, TBD")
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
@@ -209,6 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AutoRegisterInject" , new(true,new(2023,8,7))},
             {"EnumClass" , new(true,new(2023,8,8))},
             {"Breezy", new(true,new(2023,8,9))},
+            {"FastGenericNew" , new(true,new(2023,8,10))},
         };
 
         //foreach (var v in generators)

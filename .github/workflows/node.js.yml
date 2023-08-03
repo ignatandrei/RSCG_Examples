@@ -1,12 +1,19 @@
-name: BuildDocusaurus
+name: BuildAndDeploy
 
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
+
+  call-workflow-passing-data:
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: ./.github/workflows/compile.yml
+    with:
+      nodeVersion: ${{ matrix.node-version }}
+
   build:
 
     runs-on: ubuntu-latest
@@ -17,17 +24,17 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        # cache: 'npm'
-    - run: |
-        cd v2 
-        cd rscg_examples_site
-        npm i
-        npm run build 
+    # - uses: actions/checkout@v3
+    # - name: Use Node.js ${{ matrix.node-version }}
+    #   uses: actions/setup-node@v3
+    #   with:
+    #     node-version: ${{ matrix.node-version }}
+    #     # cache: 'npm'
+    # - run: |
+    #     cd v2 
+    #     cd rscg_examples_site
+    #     npm i
+    #     npm run build 
         
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.2
