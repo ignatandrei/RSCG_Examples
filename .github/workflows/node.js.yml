@@ -15,7 +15,9 @@ jobs:
       nodeVersion: ${{ matrix.node-version }}
 
   build:
-
+    needs:
+      - call-workflow-passing-data
+      
     runs-on: ubuntu-latest
 
     strategy:
