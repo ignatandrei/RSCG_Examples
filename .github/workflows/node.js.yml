@@ -12,31 +12,26 @@ jobs:
       pull-requests: write
     uses: ./.github/workflows/compile.yml
     with:
-      nodeVersion: ${{ matrix.node-version }}
+      nodeVersion: 18.13.0
 
   build:
     needs:
-      - call-workflow-passing-data
-      
+      - call-workflow-passing-data      
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.13.0]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    # - uses: actions/checkout@v3
-    # - name: Use Node.js ${{ matrix.node-version }}
-    #   uses: actions/setup-node@v3
-    #   with:
-    #     node-version: ${{ matrix.node-version }}
-    #     # cache: 'npm'
-    # - run: |
-    #     cd v2 
-    #     cd rscg_examples_site
-    #     npm i
-    #     npm run build 
+    - uses: actions/checkout@v3
+    - name: Use Node.js 
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18.13.0
+        # cache: 'npm'
+    - run: |
+        cd v2 
+        cd rscg_examples_site
+        npm i
+        npm run build 
         
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.1.2
