@@ -56,6 +56,7 @@ input-files:
 - examples/FastGenericNew.html
 - examples/GeneratorEquals.html
 - examples/Immutype.html
+- examples/spreadcheetah.html
 
 # or you may use input-file: with a single value
 # defaults:

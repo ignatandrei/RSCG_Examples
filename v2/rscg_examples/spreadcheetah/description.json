@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"spreadcheetah",
+      "nuget":[
+         "https://www.nuget.org/packages/spreadcheetah/"
+      ],
+      "link":"https://github.com/sveinungf/spreadcheetah",
+      "author":"Sveinung",
+      "source":"https://github.com/sveinungf/spreadcheetah"
+   },
+   "data":{
+      "goodFor":["generating Excel from objects"],
+      "csprojDemo":"spreadcheetahDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

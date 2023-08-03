@@ -127,7 +127,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("SourceInject https://github.com/giggio/sourceinject/",old)
 ,new ("SourceMapper https://github.com/paiden/SourceMapper/",old)
 ,new ("SourceMapper https://github.com/alekshura/SourceMapper",old)
-,new ("SpreadCheetah https://github.com/sveinungf/spreadcheetah","generating Excel, TBD")
 ,new ("SqlMarshal https://github.com/kant2002/SqlMarshal",old)
 ,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swag 2 ?,ASAP")
 ,new ("StackXML https://github.com/ZingBallyhoo/StackXML",old)
@@ -209,7 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"FastGenericNew" , new(true,new(2023,8,10))},
             {"GeneratorEquals", new(true,new(2023,8,11))},
             {"Immutype",  new(true,new(2023,8,11))},
-
+            {"spreadcheetah" ,  new(true,new(2023,8,11))},
         };
 
         //foreach (var v in generators)
