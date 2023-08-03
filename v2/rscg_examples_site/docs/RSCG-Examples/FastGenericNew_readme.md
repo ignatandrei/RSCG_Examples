@@ -117,4 +117,4 @@ AMD Ryzen 9 3900X, 1 CPU, 24 logical and 12 physical cores
 
 ## 📜 License
 
-FastGenericNew is licensed under the [MIT](LICENSE) license.
+FastGenericNew is licensed under the MIT license.
