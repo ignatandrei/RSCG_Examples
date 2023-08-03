@@ -1,0 +1,12 @@
+Configurable Source Generator of FastGenericNew
+Minimum required: .NET Standard 2.0 & C# 8.0
+The ultimate fast alternative to Activator.CreateInstance
+
+Up to 50x faster than Activator.CreateInstance
+Generic Parameters Support
+Non-Public Constructor Support
+No Generic Constraints
+TryGetValue-like TryFastNew API
+Link Mode PublishTrimmed Support
+C# 8 Nullable Support
+C# 10 Parameterless struct constructors Support (Both invokes or not)

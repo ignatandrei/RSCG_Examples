@@ -2,16 +2,16 @@
    "generator":{
       "name":"FastGenericNew",
       "nuget":[
-         "https://www.nuget.org/packages/FastGenericNew/"
+         "https://www.nuget.org/packages/FastGenericNew.SourceGenerator/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/Nyrest/FastGenericNew",
+      "author":"Boring3 Nyrest",
+      "source":"https://github.com/Nyrest/FastGenericNew"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Creating instances fast. As generator show source code. Otherwise could be a dll"],
       "csprojDemo":"FastGenericNewDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","Person.cs"]
    },
    "links":{
       "blog":"",

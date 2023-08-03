@@ -208,6 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AutoRegisterInject" , new(true,new(2023,8,7))},
             {"EnumClass" , new(true,new(2023,8,8))},
             {"Breezy", new(true,new(2023,8,9))},
+            {"FastGenericNew" , new(true,new(2023,8,10))}, 
         };
 
         //foreach (var v in generators)
