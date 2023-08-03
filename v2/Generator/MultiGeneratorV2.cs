@@ -76,7 +76,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","TBD")
 ,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","IDisposable;TBD")
-,new ("Immutype https://github.com/DevTeam/Immutype"," builder generator")
+,new ("Immutype https://github.com/DevTeam/Immutype"," builder generator,TBD")
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("Injectio https://github.com/loresoft/Injectio","DI attributes to code, TBD")
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
@@ -208,7 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AutoRegisterInject" , new(true,new(2023,8,7))},
             {"EnumClass" , new(true,new(2023,8,8))},
             {"Breezy", new(true,new(2023,8,9))},
-            {"FastGenericNew" , new(true,new(2023,8,10))}, 
+            {"FastGenericNew" , new(true,new(2023,8,10))},
         };
 
         //foreach (var v in generators)

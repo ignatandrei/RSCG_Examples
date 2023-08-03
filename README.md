@@ -20,9 +20,9 @@ Author: Boring3 Nyrest
 
 Configurable Source Generator of FastGenericNew
 Minimum required: .NET Standard 2.0 & C# 8.0
-The ultimate fast alternative to Activator.CreateInstance<T>
+The ultimate fast alternative to Activator.CreateInstance
 
-Up to 50x faster than Activator.CreateInstance<T>
+Up to 50x faster than Activator.CreateInstance
 Generic Parameters Support
 Non-Public Constructor Support
 No Generic Constraints
