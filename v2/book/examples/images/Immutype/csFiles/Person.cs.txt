@@ -1,0 +1,17 @@
+namespace ImmutypeDemo;
+
+[Immutype.Target]
+internal class Person
+{
+    public string? FirstName;
+    public Person()
+    {
+    }
+    public Person(string? FirstName,string LastName)
+    {
+        this.FirstName = FirstName;
+        this.LastName = LastName;
+    }
+    public int ID { get; set; }
+    public string? LastName { get; set;}
+}
