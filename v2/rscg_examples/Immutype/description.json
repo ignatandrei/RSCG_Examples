@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Immutype",
+      "nuget":[
+         "https://www.nuget.org/packages/Immutype/"
+      ],
+      "link":"https://github.com/DevTeam/Immutype",
+      "author":"Nikolay Pianikov ",
+      "source":"https://github.com/DevTeam/Immutype"
+   },
+   "data":{
+      "goodFor":["Immutable from constructors"],
+      "csprojDemo":"ImmutypeDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -5,13 +5,14 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-## 41 RSCG with examples 
+## 42 RSCG with examples 
 
-This is the list of 41 ( 6 from Microsoft) RSCG with examples 
+This is the list of 42 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | Date |
 | --------- | ----- | ---- |
+|42|[Immutype](/docs/Immutype)|2023-08-11 => 11 August 2023 |
 |41|[GeneratorEquals](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 |
 |40|[FastGenericNew](/docs/FastGenericNew)|2023-08-10 => 10 August 2023 |
 |39|[Breezy](/docs/Breezy)|2023-08-09 => 09 August 2023 |

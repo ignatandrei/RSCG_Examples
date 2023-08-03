@@ -1,5 +1,5 @@
-# RSCG - 41 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
-43 in queue / 92 that have problems
+# RSCG - 42 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+42 in queue / 92 that have problems
  
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -11,14 +11,30 @@ If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 
-Those are the 41 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 42 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 42. [Immutype](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype) generated on : 2023-08-11 => 11 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Nikolay Pianikov 
+
+Immutable for .NET. 
+
+Nuget: [https://www.nuget.org/packages/Immutype/](https://www.nuget.org/packages/Immutype/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype)
+
+Source: [https://github.com/DevTeam/Immutype](https://github.com/DevTeam/Immutype)
+
+</details>
+
 ### 41. [GeneratorEquals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals) generated on : 2023-08-11 => 11 August 2023
 <details>
   <summary>Expand</summary>
 Author: Diego Frato
 
-A source code generator for automatically implementing IEquatable<T> using only attributes. 
+A source code generator for automatically implementing IEquatable using only attributes. 
 
 Nuget: [https://www.nuget.org/packages/Generator.Equals/](https://www.nuget.org/packages/Generator.Equals/) 
 
@@ -746,7 +762,7 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 |9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator |
 
 
-## To be tested 43
+## To be tested 42
 
 
 
@@ -829,222 +845,215 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=H.NSwag.Generator&
 
 12) [IDisposableGenerator]( https://github.com/Elskom/IDisposableGenerator) , https://github.com/Elskom/IDisposableGenerator 
 
-Why I have not tested : IDisposable;TBD
+Why I have not tested : cannot reproduce;TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=IDisposableGenerator&body=https://github.com/Elskom/IDisposableGenerator
 
 
-13) [Immutype]( https://github.com/DevTeam/Immutype) , https://github.com/DevTeam/Immutype 
-
-Why I have not tested :  builder generator,TBD
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Immutype&body=https://github.com/DevTeam/Immutype
-
-
-14) [Injectio]( https://github.com/loresoft/Injectio) , https://github.com/loresoft/Injectio 
+13) [Injectio]( https://github.com/loresoft/Injectio) , https://github.com/loresoft/Injectio 
 
 Why I have not tested : DI attributes to code, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Injectio&body=https://github.com/loresoft/Injectio
 
 
-15) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
+14) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
 
 Why I have not tested : not understand how to use 
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Intellenum&body=https://github.com/SteveDunn/Intellenum
 
 
-16) [Jab]( https://github.com/pakrym/jab) , https://github.com/pakrym/jab 
+15) [Jab]( https://github.com/pakrym/jab) , https://github.com/pakrym/jab 
 
 Why I have not tested : DI container, ASAP
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Jab&body=https://github.com/pakrym/jab
 
 
-17) [LinqGen]( https://github.com/cathei/LinqGen) , https://github.com/cathei/LinqGen 
+16) [LinqGen]( https://github.com/cathei/LinqGen) , https://github.com/cathei/LinqGen 
 
 Why I have not tested : Linq Generator, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LinqGen&body=https://github.com/cathei/LinqGen
 
 
-18) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
+17) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
 
 Why I have not tested : Microsoft have done same feature
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LoggingDecoratorGenerator&body=https://github.com/DavidFineboym/LoggingDecoratorGenerator
 
 
-19) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
+18) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
 
 Why I have not tested : too complicated for me
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Maui.BindableProperty.Generator&body=https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
-20) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
+19) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
 
 Why I have not tested : TBD,interface for injecting static classes
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MrMeeseeks.StaticDelegateGenerator&body=https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator
 
 
-21) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
+20) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
 
 Why I have not tested : Visitor pattern, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MrMeeseeks.Visitor&body=https://github.com/Yeah69/MrMeeseeks.Visitor
 
 
-22) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
+21) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
 
 Why I have not tested :  ASAP, depends on WPF
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MvvmGen&body=https://github.com/thomasclaudiushuber/mvvmgen
 
 
-23) [Navitski.Crystalized]( https://github.com/AlexNav73/CoreCraft) , https://github.com/AlexNav73/CoreCraft 
+22) [Navitski.Crystalized]( https://github.com/AlexNav73/CoreCraft) , https://github.com/AlexNav73/CoreCraft 
 
 Why I have not tested :  JSON to classes, ASAP
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Navitski.Crystalized&body=https://github.com/AlexNav73/CoreCraft
 
 
-24) [NextGenMapper]( https://github.com/DedAnton/NextGenMapper) , https://github.com/DedAnton/NextGenMapper 
+23) [NextGenMapper]( https://github.com/DedAnton/NextGenMapper) , https://github.com/DedAnton/NextGenMapper 
 
 Why I have not tested : mapper, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=NextGenMapper&body=https://github.com/DedAnton/NextGenMapper
 
 
-25) [PropertyChanged.SourceGenerator]( https://github.com/canton7/PropertyChanged.SourceGenerator) , https://github.com/canton7/PropertyChanged.SourceGenerator 
+24) [PropertyChanged.SourceGenerator]( https://github.com/canton7/PropertyChanged.SourceGenerator) , https://github.com/canton7/PropertyChanged.SourceGenerator 
 
 Why I have not tested : INotifyPropertyChanged, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PropertyChanged.SourceGenerator&body=https://github.com/canton7/PropertyChanged.SourceGenerator
 
 
-26) [Pure.DI]( https://github.com/DevTeam/Pure.DI) , https://github.com/DevTeam/Pure.DI 
+25) [Pure.DI]( https://github.com/DevTeam/Pure.DI) , https://github.com/DevTeam/Pure.DI 
 
 Why I have not tested : DI Container, ASAP
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Pure.DI&body=https://github.com/DevTeam/Pure.DI
 
 
-27) [ResXGenerator]( https://github.com/ycanardeau/ResXGenerator) , https://github.com/ycanardeau/ResXGenerator 
+26) [ResXGenerator]( https://github.com/ycanardeau/ResXGenerator) , https://github.com/ycanardeau/ResXGenerator 
 
 Why I have not tested :  resource manager to classes,TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ResXGenerator&body=https://github.com/ycanardeau/ResXGenerator
 
 
-28) [Ridge]( https://github.com/Melchy/Ridge) , https://github.com/Melchy/Ridge 
+27) [Ridge]( https://github.com/Melchy/Ridge) , https://github.com/Melchy/Ridge 
 
 Why I have not tested : test controllers fast,TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Ridge&body=https://github.com/Melchy/Ridge
 
 
-29) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
+28) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
 
 Why I have not tested : serializer, ASAP
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SerdeDn&body=https://github.com/serdedotnet/serde
 
 
-30) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
+29) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
 
 Why I have not tested : RSCG Helper, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SourceGeneratorQuery&body=https://github.com/roeibajayo/SourceGeneratorQuery
 
 
-31) [SpreadCheetah]( https://github.com/sveinungf/spreadcheetah) , https://github.com/sveinungf/spreadcheetah 
+30) [SpreadCheetah]( https://github.com/sveinungf/spreadcheetah) , https://github.com/sveinungf/spreadcheetah 
 
 Why I have not tested : generating Excel, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SpreadCheetah&body=https://github.com/sveinungf/spreadcheetah
 
 
-32) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
+31) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested : swag 2 ?,ASAP
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ST.NSwag.ServerSourceGenerator&body=https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator
 
 
-33) [StringLiteralGenerator]( https://github.com/ufcpp/StringLiteralGenerator) , https://github.com/ufcpp/StringLiteralGenerator 
+32) [StringLiteralGenerator]( https://github.com/ufcpp/StringLiteralGenerator) , https://github.com/ufcpp/StringLiteralGenerator 
 
 Why I have not tested : string 2 utf8
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StringLiteralGenerator&body=https://github.com/ufcpp/StringLiteralGenerator
 
 
-34) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
+33) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StrongInject&body=https://github.com/YairHalberstadt/stronginject/
 
 
-35) [Strongly]( https://github.com/lucasteles/Strongly) , https://github.com/lucasteles/Strongly 
+34) [Strongly]( https://github.com/lucasteles/Strongly) , https://github.com/lucasteles/Strongly 
 
 Why I have not tested :  strongly-typed entity IDs, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Strongly&body=https://github.com/lucasteles/Strongly
 
 
-36) [SyncMethodGenerator]( https://github.com/zompinc/sync-method-generator) , https://github.com/zompinc/sync-method-generator 
+35) [SyncMethodGenerator]( https://github.com/zompinc/sync-method-generator) , https://github.com/zompinc/sync-method-generator 
 
 Why I have not tested : async 2 sync, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SyncMethodGenerator&body=https://github.com/zompinc/sync-method-generator
 
 
-37) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
+36) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested : json a class, was done in System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TeuJson&body=https://github.com/Terria-K/TeuJson
 
 
-38) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
+37) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tinyhand&body=https://github.com/archi-Doc/Tinyhand
 
 
-39) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+38) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested : roo complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
-40) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
+39) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-41) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+40) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-42) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+41) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-43) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+42) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 
