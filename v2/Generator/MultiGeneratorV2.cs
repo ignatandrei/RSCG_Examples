@@ -67,7 +67,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Flattening https://github.com/Kros-sk/Kros.Generators.Flattening",old)
 ,new ("FluentBuilder https://github.com/StefH/FluentBuilder",old)
 ,new ("GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries",old)
-,new ("Generator.Equals https://github.com/diegofrata/Generator.Equals","equality comparer generator. TBD")
 ,new ("GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator",old)
 ,new ("Gobie https://github.com/GobieGenerator/Gobie","templating for RSCG. TBD")
 ,new ("GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools",old)
@@ -209,6 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"EnumClass" , new(true,new(2023,8,8))},
             {"Breezy", new(true,new(2023,8,9))},
             {"FastGenericNew" , new(true,new(2023,8,10))},
+            {"GeneratorEquals", new(true,new(2023,8,11))},
         };
 
         //foreach (var v in generators)

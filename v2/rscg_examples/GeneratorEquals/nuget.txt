@@ -1,0 +1,1 @@
+A source code generator for automatically implementing IEquatable<T> using only attributes.
