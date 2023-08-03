@@ -64,7 +64,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator",old)
 ,new ("Fairy https://github.com/hermanussen/Fairy",old)
 ,new ("FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator",noReadMe)
-,new ("FastGenericNew https://github.com/Nyrest/FastGenericNew","creating instances . TBD")
 ,new ("Flattening https://github.com/Kros-sk/Kros.Generators.Flattening",old)
 ,new ("FluentBuilder https://github.com/StefH/FluentBuilder",old)
 ,new ("GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries",old)

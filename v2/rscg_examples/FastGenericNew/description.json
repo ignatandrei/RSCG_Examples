@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"FastGenericNew",
+      "nuget":[
+         "https://www.nuget.org/packages/FastGenericNew/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"FastGenericNewDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
