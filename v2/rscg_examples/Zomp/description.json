@@ -2,7 +2,7 @@
    "generator":{
       "name":"Zomp",
       "nuget":[
-         "https://www.nuget.org/packages/Zomp/"
+         "https://www.nuget.org/packages/Zomp.SyncMethodGenerator/"
       ],
       "link":"https://github.com/zompinc/sync-method-generator",
       "author":"Zomp Inc.",
