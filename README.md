@@ -1,4 +1,4 @@
-# RSCG - 44 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 45 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 40 in queue / 92 that have problems
  
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
@@ -11,9 +11,25 @@ If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 
-Those are the 44 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 45 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
-### 44. [Zomp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp) generated on : 2023-08-13 => 13 August 2023
+### 45. [BenutomoAutomaticDisposeImplSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator) generated on : 2023-08-15 => 15 August 2023
+<details>
+  <summary>Expand</summary>
+Author: benutomo
+
+A Source Generator that automatically implements the Dispose method of IDisposable and the DisposeAsync method of IAsyncDisposable. 
+
+Nuget: [https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+
+Source: [https://github.com/benutomo-dev/RoslynComponents](https://github.com/benutomo-dev/RoslynComponents)
+
+</details>
+
+### 44. [Zomp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp) generated on : 2023-08-14 => 14 August 2023
 <details>
   <summary>Expand</summary>
 Author: Zomp Inc.

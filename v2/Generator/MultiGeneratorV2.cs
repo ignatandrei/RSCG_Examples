@@ -209,7 +209,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Immutype",  new(true,new(2023,8,12))},
             {"spreadcheetah" ,  new(true,new(2023,8,13))},
             {"zomp" ,  new(true,new(2023,8,14))},
-            {"BenutomoAutomaticDisposeImplSourceGenerator", new(true,new(2023,8,15))},
+            {"IDisp", new(true,new(2023,8,15))},
         };
           
         //foreach (var v in generators)

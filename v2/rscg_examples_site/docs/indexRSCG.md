@@ -5,14 +5,15 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-## 44 RSCG with examples 
+## 45 RSCG with examples 
 
-This is the list of 44 ( 6 from Microsoft) RSCG with examples 
+This is the list of 45 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | Date |
 | --------- | ----- | ---- |
-|44|[Zomp](/docs/Zomp)|2023-08-13 => 13 August 2023 |
+|45|[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)|2023-08-15 => 15 August 2023 |
+|44|[Zomp](/docs/Zomp)|2023-08-14 => 14 August 2023 |
 |43|[spreadcheetah](/docs/spreadcheetah)|2023-08-13 => 13 August 2023 |
 |42|[Immutype](/docs/Immutype)|2023-08-12 => 12 August 2023 |
 |41|[GeneratorEquals](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 |

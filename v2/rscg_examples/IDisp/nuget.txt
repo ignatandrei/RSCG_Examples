@@ -1,0 +1,1 @@
+A Source Generator that automatically implements the Dispose method of IDisposable and the DisposeAsync method of IAsyncDisposable.
