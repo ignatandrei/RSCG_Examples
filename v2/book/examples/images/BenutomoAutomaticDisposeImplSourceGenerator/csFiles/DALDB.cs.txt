@@ -1,0 +1,17 @@
+namespace IDisposableGeneratorDemo;
+using Benutomo;
+
+[AutomaticDisposeImpl]
+partial class DALDB :IDisposable
+{
+    [EnableAutomaticDispose]
+    private readonly ConnectionDB cn;
+    [EnableAutomaticDispose]
+    private readonly ConnectionDB cn1;
+
+    public DALDB()
+    {
+        cn = new ConnectionDB();
+        cn1=new ConnectionDB();
+    }
+}

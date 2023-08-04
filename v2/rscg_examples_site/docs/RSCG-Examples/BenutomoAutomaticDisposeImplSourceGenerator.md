@@ -47,13 +47,13 @@ C#のRoslynコンパイラ用のアナライザ/ソースジェネレータで�
 
 ## 一覧
 
-- [AutomaticDisposeImpl](#automaticdisposeimpl)<br>
+- [AutomaticDisposeImpl](#automaticdisposeimpl)<br />
   C#で`IDisposable`と`IAsyncDisposable`の実装パターンに対応するメソッドを自動実装するソースジェネレータ
-- [AutomaticNotifyPropertyChangedImpl](#automaticnotifypropertychangedimpl)<br>
+- [AutomaticNotifyPropertyChangedImpl](#automaticnotifypropertychangedimpl)<br />
   C#で`INotifyPropertyChanged`などの変更通知付きプロパティの実装を補助するソースジェネレータ
-- [CancellationAnalyzer](#cancellationanalyzer)<br>
+- [CancellationAnalyzer](#cancellationanalyzer)<br />
   キャンセルトークンの適切な引き渡しとキャンセルトークン付きのシグネチャのメソッドの優先的使用を補助するためのアナライザ
-- [Cs0436Relaxation](#cs0436relaxation)<br>
+- [Cs0436Relaxation](#cs0436relaxation)<br />
   ソースジェネレータが生成したクラス等を含むアセンブリ同士でInternalsVisbleTo属性が指定されている場合に発生する場合があるCS0436警告を適切に緩和(ソースジェネレータ起因でない報告のみを別IDで再警告)するためのアナライザ
 
 ## AutomaticDisposeImpl
