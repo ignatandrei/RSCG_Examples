@@ -13,7 +13,7 @@ If you want to help, please let me know ( again, create an issue).
 
 Those are the 43 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
-### 43. [spreadcheetah](https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah) generated on : 2023-08-11 => 11 August 2023
+### 43. [spreadcheetah](https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah) generated on : 2023-08-13 => 13 August 2023
 <details>
   <summary>Expand</summary>
 Author: Sveinung
@@ -29,7 +29,7 @@ Source: [https://github.com/sveinungf/spreadcheetah](https://github.com/sveinung
 
 </details>
 
-### 42. [Immutype](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype) generated on : 2023-08-11 => 11 August 2023
+### 42. [Immutype](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype) generated on : 2023-08-12 => 12 August 2023
 <details>
   <summary>Expand</summary>
 Author: Nikolay Pianikov 
@@ -1015,7 +1015,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Strongly&body=http
 
 34) [SyncMethodGenerator]( https://github.com/zompinc/sync-method-generator) , https://github.com/zompinc/sync-method-generator 
 
-Why I have not tested : async 2 sync, TBD
+Why I have not tested : async 2 sync,https://github.com/zompinc/sync-method-generator/issues/9, TBD
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SyncMethodGenerator&body=https://github.com/zompinc/sync-method-generator
 

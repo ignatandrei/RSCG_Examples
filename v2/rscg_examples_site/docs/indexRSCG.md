@@ -12,8 +12,8 @@ This is the list of 43 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date |
 | --------- | ----- | ---- |
-|43|[spreadcheetah](/docs/spreadcheetah)|2023-08-11 => 11 August 2023 |
-|42|[Immutype](/docs/Immutype)|2023-08-11 => 11 August 2023 |
+|43|[spreadcheetah](/docs/spreadcheetah)|2023-08-13 => 13 August 2023 |
+|42|[Immutype](/docs/Immutype)|2023-08-12 => 12 August 2023 |
 |41|[GeneratorEquals](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 |
 |40|[FastGenericNew](/docs/FastGenericNew)|2023-08-10 => 10 August 2023 |
 |39|[Breezy](/docs/Breezy)|2023-08-09 => 09 August 2023 |

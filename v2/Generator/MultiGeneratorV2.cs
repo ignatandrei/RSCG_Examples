@@ -135,7 +135,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",old)
 ,new ("StructPacker https://github.com/RudolfKurka/StructPacker",old)
 ,new ("Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia",old)
-,new ("SyncMethodGenerator https://github.com/zompinc/sync-method-generator","async 2 sync, TBD")
+,new ("SyncMethodGenerator https://github.com/zompinc/sync-method-generator","async 2 sync,https://github.com/zompinc/sync-method-generator/issues/9, TBD")
 ,new ("TeuJson https://github.com/Terria-K/TeuJson","json a class, was done in System.Text.Json")
 ,new ("Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc",old)
 ,new ("ToString https://github.com/Burgyn/MMLib.ToString",old)
@@ -207,10 +207,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Breezy", new(true,new(2023,8,9))},
             {"FastGenericNew" , new(true,new(2023,8,10))},
             {"GeneratorEquals", new(true,new(2023,8,11))},
-            {"Immutype",  new(true,new(2023,8,11))},
-            {"spreadcheetah" ,  new(true,new(2023,8,11))},
+            {"Immutype",  new(true,new(2023,8,12))},
+            {"spreadcheetah" ,  new(true,new(2023,8,13))}, 
         };
-
+          
         //foreach (var v in generators)
         //{
         //    generators[v.Key] = (v.Key == "Microsoft.Interop.JavaScript.JSImportGenerator");

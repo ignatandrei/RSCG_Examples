@@ -484,7 +484,7 @@ Why I have not put example: old ISourceGenerator
 
 120)SyncMethodGenerator https://github.com/zompinc/sync-method-generator  
 
-Why I have not put example: async 2 sync, TBD
+Why I have not put example: async 2 sync,https://github.com/zompinc/sync-method-generator/issues/9, TBD
 
 121)TeuJson https://github.com/Terria-K/TeuJson  
 
