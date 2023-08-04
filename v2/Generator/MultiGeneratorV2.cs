@@ -208,7 +208,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"GeneratorEquals", new(true,new(2023,8,11))},
             {"Immutype",  new(true,new(2023,8,12))},
             {"spreadcheetah" ,  new(true,new(2023,8,13))},
-            {"zomp" ,  new(true,new(2023,8,13))},
+            {"zomp" ,  new(true,new(2023,8,14))},
+            {"BenutomoAutomaticDisposeImplSourceGenerator", new(true,new(2023,8,15))},
         };
           
         //foreach (var v in generators)
