@@ -204,7 +204,7 @@ Why I have not put example: old ISourceGenerator
 
 50)IDisposableGenerator https://github.com/Elskom/IDisposableGenerator  
 
-Why I have not put example: cannot reproduce;TBD
+Why I have not put example: cannot reproduce
 
 51)Imp.NET https://github.com/DouglasDwyer/Imp.NET  
 
@@ -332,11 +332,11 @@ Why I have not put example: old ISourceGenerator
 
 82)MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator  
 
-Why I have not put example: TBD,interface for injecting static classes
+Why I have not put example: old ISourceGenerator
 
 83)MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor  
 
-Why I have not put example: Visitor pattern, TBD
+Why I have not put example: old ISourceGenerator
 
 84)MvvmGen https://github.com/thomasclaudiushuber/mvvmgen  
 
