@@ -1,5 +1,5 @@
-# RSCG - 43 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
-41 in queue / 92 that have problems
+# RSCG - 44 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+40 in queue / 92 that have problems
  
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -11,8 +11,24 @@ If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 
-Those are the 43 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 44 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 44. [Zomp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp) generated on : 2023-08-13 => 13 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Zomp Inc.
+
+Image generator 
+
+Nuget: [https://www.nuget.org/packages/Zomp.SyncMethodGenerator/](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp)
+
+Source: [https://github.com/zompinc/sync-method-generator](https://github.com/zompinc/sync-method-generator)
+
+</details>
+
 ### 43. [spreadcheetah](https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah) generated on : 2023-08-13 => 13 August 2023
 <details>
   <summary>Expand</summary>
@@ -778,7 +794,7 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 |9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator |
 
 
-## To be tested 41
+## To be tested 40
 
 
 
@@ -1013,56 +1029,49 @@ Why I have not tested :  strongly-typed entity IDs, TBD
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Strongly&body=https://github.com/lucasteles/Strongly
 
 
-34) [SyncMethodGenerator]( https://github.com/zompinc/sync-method-generator) , https://github.com/zompinc/sync-method-generator 
-
-Why I have not tested : async 2 sync,https://github.com/zompinc/sync-method-generator/issues/9, TBD
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SyncMethodGenerator&body=https://github.com/zompinc/sync-method-generator
-
-
-35) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
+34) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested : json a class, was done in System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TeuJson&body=https://github.com/Terria-K/TeuJson
 
 
-36) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
+35) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tinyhand&body=https://github.com/archi-Doc/Tinyhand
 
 
-37) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+36) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested : roo complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
-38) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
+37) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-39) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+38) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-40) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+39) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-41) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+40) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

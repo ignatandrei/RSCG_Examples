@@ -482,59 +482,55 @@ Why I have not put example: old ISourceGenerator
 
 Why I have not put example: old ISourceGenerator
 
-120)SyncMethodGenerator https://github.com/zompinc/sync-method-generator  
-
-Why I have not put example: async 2 sync,https://github.com/zompinc/sync-method-generator/issues/9, TBD
-
-121)TeuJson https://github.com/Terria-K/TeuJson  
+120)TeuJson https://github.com/Terria-K/TeuJson  
 
 Why I have not put example: json a class, was done in System.Text.Json
 
-122)Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc  
+121)Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc  
 
 Why I have not put example: old ISourceGenerator
 
-123)Tinyhand https://github.com/archi-Doc/Tinyhand  
+122)Tinyhand https://github.com/archi-Doc/Tinyhand  
 
 Why I have not put example: tried, need documentation
 
-124)ToString https://github.com/Burgyn/MMLib.ToString  
+123)ToString https://github.com/Burgyn/MMLib.ToString  
 
 Why I have not put example: old ISourceGenerator
 
-125)Transplator https://github.com/atifaziz/Transplator  
+124)Transplator https://github.com/atifaziz/Transplator  
 
 Why I have not put example: old ISourceGenerator
 
-126)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
+125)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
 
 Why I have not put example: roo complicated
 
-127)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
+126)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
 
 Why I have not put example: no readme
 
-128)TypealizR https://github.com/earloc/TypealizR  
+127)TypealizR https://github.com/earloc/TypealizR  
 
 Why I have not put example: depends on Microsoft.Extensions.Localization
 
-129)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
+128)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-130)ValueLink https://github.com/archi-Doc/ValueLink  
+129)ValueLink https://github.com/archi-Doc/ValueLink  
 
 Why I have not put example: too complicated
 
-131)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
+130)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-132)Visor https://github.com/Tinkoff/Visor  
+131)Visor https://github.com/Tinkoff/Visor  
 
 Why I have not put example: too complicated
 
-133)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
+132)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
 Why I have not put example: not maintained as in readme
 
