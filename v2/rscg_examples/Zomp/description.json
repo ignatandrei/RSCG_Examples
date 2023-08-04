@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Zomp",
+      "nuget":[
+         "https://www.nuget.org/packages/Zomp/"
+      ],
+      "link":"https://github.com/zompinc/sync-method-generator",
+      "author":"Zomp Inc.",
+      "source":"https://github.com/zompinc/sync-method-generator"
+   },
+   "data":{
+      "goodFor":["Generating Sync method from async"],
+      "csprojDemo":"ZompDemo.csproj",
+      "csFiles":["Program.cs","Writer.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

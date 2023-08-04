@@ -208,7 +208,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"FastGenericNew" , new(true,new(2023,8,10))},
             {"GeneratorEquals", new(true,new(2023,8,11))},
             {"Immutype",  new(true,new(2023,8,12))},
-            {"spreadcheetah" ,  new(true,new(2023,8,13))}, 
+            {"spreadcheetah" ,  new(true,new(2023,8,13))},
+            {"zomp" ,  new(true,new(2023,8,13))},
         };
           
         //foreach (var v in generators)
