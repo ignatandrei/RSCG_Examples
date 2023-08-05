@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Strongly",
+      "nuget":[
+         "https://www.nuget.org/packages/Strongly/"
+      ],
+      "link":"https://github.com/lucasteles/Strongly/",
+      "author":"Lucas Teles",
+      "source":"https://github.com/lucasteles/Strongly/"
+   },
+   "data":{
+      "goodFor":["Generate and customize strong id structs"],
+      "csprojDemo":"StronglyDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

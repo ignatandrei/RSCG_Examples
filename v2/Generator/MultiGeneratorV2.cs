@@ -109,7 +109,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor",old)
 ,new ("PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator",old)
 ,new ("PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator",old)
-,new ("PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator","INotifyPropertyChanged, TBD")
 ,new ("ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator",old)
 ,new ("Pure.DI https://github.com/DevTeam/Pure.DI","DI Container, ASAP")
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
@@ -211,6 +210,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"NextGenMapper" , new(true,new(2023,8,16))},
             {"Injectio" , new(true,new(2023,8,17))},
             {"PropChange", new(true,new(2023,8,18))},
+            {"Strongly", new(true,new(2023,8,19))},
         };
           
         //foreach (var v in generators)
