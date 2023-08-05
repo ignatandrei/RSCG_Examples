@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Injectio",
+      "nuget":[
+         "https://www.nuget.org/packages/Injectio/"
+      ],
+      "link":"https://github.com/loresoft/Injectio",
+      "author":"LoreSoft",
+      "source":"https://github.com/loresoft/Injectio"
+   },
+   "data":{
+      "goodFor":["Attributes to DI helper"],
+      "csprojDemo":"InjectioDemo.csproj",
+      "csFiles":["Program.cs","Database.cs","IDatabase.cs","DatabaseCon.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

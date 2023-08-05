@@ -76,7 +76,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","TBD")
 ,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","cannot reproduce")
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
-,new ("Injectio https://github.com/loresoft/Injectio","DI attributes to code, TBD")
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
 ,new ("Jab https://github.com/pakrym/jab","DI container, ASAP")
@@ -209,7 +208,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"spreadcheetah" ,  new(true,new(2023,8,13))},
             {"zomp" ,  new(true,new(2023,8,14))},
             {"IDisp", new(true,new(2023,8,15))},
-            {"NextGenMapper" , new(true,new(2023,8,15))}, 
+            {"NextGenMapper" , new(true,new(2023,8,16))},
+            {"Injectio" , new(true,new(2023,8,17))},
         };
           
         //foreach (var v in generators)
