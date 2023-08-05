@@ -1,6 +1,6 @@
 {
    "generator":{
-      "name":"Zomp",
+      "name":"SyncMethodGenerator",
       "nuget":[
          "https://www.nuget.org/packages/Zomp.SyncMethodGenerator/"
       ],

@@ -45,7 +45,7 @@ Source: [https://github.com/benutomo-dev/RoslynComponents](https://github.com/be
 
 </details>
 
-### 44. [Zomp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp) generated on : 2023-08-14 => 14 August 2023
+### 44. [SyncMethodGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator) generated on : 2023-08-14 => 14 August 2023
 <details>
   <summary>Expand</summary>
 Author: Zomp Inc.
@@ -55,7 +55,7 @@ Image generator
 Nuget: [https://www.nuget.org/packages/Zomp.SyncMethodGenerator/](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/) 
 
 
-Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Zomp)
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator)
 
 Source: [https://github.com/zompinc/sync-method-generator](https://github.com/zompinc/sync-method-generator)
 
