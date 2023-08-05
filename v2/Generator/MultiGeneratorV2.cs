@@ -862,7 +862,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         string file = it.Generator.Name+ ".md";
         file=Path.Combine(folderToWrite,file);
         await File.WriteAllTextAsync(file, output);
-        await File.WriteAllTextAsync(Path.Combine(folderToWrite, it.Generator.Name + "_readme.md"), it.OriginalReadme);
+        //await File.WriteAllTextAsync(Path.Combine(folderToWrite, it.Generator.Name + "_readme.md"), it.OriginalReadme);
          //Console.WriteLine(output);
         await Task.Delay(100);
         return true;
