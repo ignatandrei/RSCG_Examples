@@ -109,7 +109,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor",old)
 ,new ("PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator",old)
 ,new ("PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator",old)
-,new ("PropertyChanged.SourceGenerator https://github.com/canton7/PropertyChanged.SourceGenerator","INotifyPropertyChanged, TBD")
 ,new ("ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator",old)
 ,new ("Pure.DI https://github.com/DevTeam/Pure.DI","DI Container, ASAP")
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
@@ -129,7 +128,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swag 2 ?,ASAP")
 ,new ("StackXML https://github.com/ZingBallyhoo/StackXML",old)
 ,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator","string 2 utf8")
-,new ("Strongly https://github.com/lucasteles/Strongly"," strongly-typed entity IDs, TBD")
 ,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",old)
 ,new ("StructPacker https://github.com/RudolfKurka/StructPacker",old)
 ,new ("Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia",old)
@@ -211,6 +209,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"NextGenMapper" , new(true,new(2023,8,16))},
             {"Injectio" , new(true,new(2023,8,17))},
             {"PropChange", new(true,new(2023,8,18))},
+            {"Strongly", new(true,new(2023,8,19))},
         };
           
         //foreach (var v in generators)

@@ -62,6 +62,7 @@ input-files:
 - examples/NextGenMapper.html
 - examples/Injectio.html
 - examples/PropertyChangedSourceGenerator.html
+- examples/Strongly.html
 
 # or you may use input-file: with a single value
 # defaults:

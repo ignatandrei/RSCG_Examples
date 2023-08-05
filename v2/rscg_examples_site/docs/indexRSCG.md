@@ -5,13 +5,14 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-## 48 RSCG with examples 
+## 49 RSCG with examples 
 
-This is the list of 48 ( 6 from Microsoft) RSCG with examples 
+This is the list of 49 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | Date |
 | --------- | ----- | ---- |
+|49|[Strongly](/docs/Strongly)|2023-08-19 => 19 August 2023 |
 |48|[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)|2023-08-18 => 18 August 2023 |
 |47|[Injectio](/docs/Injectio)|2023-08-17 => 17 August 2023 |
 |46|[NextGenMapper](/docs/NextGenMapper)|2023-08-16 => 16 August 2023 |
