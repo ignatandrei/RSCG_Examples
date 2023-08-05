@@ -1,0 +1,19 @@
+#nullable enable
+using NextGenMapper.Extensions;
+
+namespace NextGenMapper
+{
+    internal static partial class Mapper
+    {
+        internal static NextGenMapperDemo.PersonDTO MapWith<To>
+        (
+            this NextGenMapperDemo.Person source,
+            NextGenMapperDemo.Country BirthCountry
+        )
+        => new NextGenMapperDemo.PersonDTO
+        {
+            Name = source.Name,
+            BirthCountry = BirthCountry
+        };
+    }
+}
