@@ -1,4 +1,4 @@
-# RSCG - 47 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 48 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 36 in queue / 94 that have problems
  
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
@@ -11,8 +11,24 @@ If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 
-Those are the 47 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 48 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 48. [PropertyChangedSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator) generated on : 2023-08-18 => 18 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Antony Male
+
+TODO 
+
+Nuget: [https://www.nuget.org/packages/PropertyChanged.SourceGenerator/](https://www.nuget.org/packages/PropertyChanged.SourceGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator)
+
+Source: [https://github.com/canton7/PropertyChanged.SourceGenerator](https://github.com/canton7/PropertyChanged.SourceGenerator)
+
+</details>
+
 ### 47. [Injectio](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio) generated on : 2023-08-17 => 17 August 2023
 <details>
   <summary>Expand</summary>
