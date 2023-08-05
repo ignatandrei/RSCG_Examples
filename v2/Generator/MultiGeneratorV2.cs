@@ -128,7 +128,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swag 2 ?,ASAP")
 ,new ("StackXML https://github.com/ZingBallyhoo/StackXML",old)
 ,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator","string 2 utf8")
-,new ("Strongly https://github.com/lucasteles/Strongly"," strongly-typed entity IDs, TBD")
 ,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",old)
 ,new ("StructPacker https://github.com/RudolfKurka/StructPacker",old)
 ,new ("Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia",old)
