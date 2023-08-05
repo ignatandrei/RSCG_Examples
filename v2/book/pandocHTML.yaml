@@ -59,6 +59,7 @@ input-files:
 - examples/spreadcheetah.html
 - examples/Zomp.html
 - examples/BenutomoAutomaticDisposeImplSourceGenerator.html
+- examples/NextGenMapper.html
 
 # or you may use input-file: with a single value
 # defaults:
