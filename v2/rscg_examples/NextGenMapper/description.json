@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"NextGenMapper",
+      "nuget":[
+         "https://www.nuget.org/packages/NextGenMapper/"
+      ],
+      "link":"https://github.com/DedAnton/NextGenMapper",
+      "author":"Anton Ryabchikov",
+      "source":"https://github.com/DedAnton/NextGenMapper"
+   },
+   "data":{
+      "goodFor":["Automating generating mapping between classes"],
+      "csprojDemo":"NextGenMapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

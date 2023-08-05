@@ -106,7 +106,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes",old)
 ,new ("Navitski.Crystalized https://github.com/AlexNav73/CoreCraft"," JSON to classes, ASAP")
 ,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface",old)
-,new ("NextGenMapper https://github.com/DedAnton/NextGenMapper","mapper, TBD")
 ,new ("Plastic https://github.com/sang-hyeon/Plastic",old)
 ,new ("PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor",old)
 ,new ("PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator",old)
@@ -210,6 +209,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"spreadcheetah" ,  new(true,new(2023,8,13))},
             {"zomp" ,  new(true,new(2023,8,14))},
             {"IDisp", new(true,new(2023,8,15))},
+            {"NextGenMapper" , new(true,new(2023,8,15))},
         };
           
         //foreach (var v in generators)
