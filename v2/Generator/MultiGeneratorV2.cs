@@ -210,6 +210,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"IDisp", new(true,new(2023,8,15))},
             {"NextGenMapper" , new(true,new(2023,8,16))},
             {"Injectio" , new(true,new(2023,8,17))},
+            {"PropChange", new(true,new(2023,8,18))},
         };
           
         //foreach (var v in generators)
