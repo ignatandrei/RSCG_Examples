@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/category/rscg-examples">
+            to="/docs/List-of-RSCG">
             See examples 
           </Link>
         </div>
