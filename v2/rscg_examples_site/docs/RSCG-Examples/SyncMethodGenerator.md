@@ -24,7 +24,7 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **SyncMethodGenerator**
 
-Image generator
+Sync Method Generator
 
 Author: Zomp Inc.
 

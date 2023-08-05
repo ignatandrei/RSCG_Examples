@@ -50,7 +50,7 @@ Source: [https://github.com/benutomo-dev/RoslynComponents](https://github.com/be
   <summary>Expand</summary>
 Author: Zomp Inc.
 
-Image generator 
+Sync Method Generator 
 
 Nuget: [https://www.nuget.org/packages/Zomp.SyncMethodGenerator/](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/) 
 

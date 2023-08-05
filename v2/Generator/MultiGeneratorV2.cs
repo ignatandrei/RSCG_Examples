@@ -209,7 +209,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"spreadcheetah" ,  new(true,new(2023,8,13))},
             {"zomp" ,  new(true,new(2023,8,14))},
             {"IDisp", new(true,new(2023,8,15))},
-            {"NextGenMapper" , new(true,new(2023,8,15))},
+            {"NextGenMapper" , new(true,new(2023,8,15))}, 
         };
           
         //foreach (var v in generators)

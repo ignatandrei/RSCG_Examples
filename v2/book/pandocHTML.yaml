@@ -57,7 +57,7 @@ input-files:
 - examples/GeneratorEquals.html
 - examples/Immutype.html
 - examples/spreadcheetah.html
-- examples/Zomp.html
+- examples/SyncMethodGenerator.html
 - examples/BenutomoAutomaticDisposeImplSourceGenerator.html
 - examples/NextGenMapper.html
 

@@ -1,1 +1,1 @@
-Image generator
+Sync Method Generator
