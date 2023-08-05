@@ -60,6 +60,7 @@ input-files:
 - examples/SyncMethodGenerator.html
 - examples/BenutomoAutomaticDisposeImplSourceGenerator.html
 - examples/NextGenMapper.html
+- examples/Injectio.html
 
 # or you may use input-file: with a single value
 # defaults:
