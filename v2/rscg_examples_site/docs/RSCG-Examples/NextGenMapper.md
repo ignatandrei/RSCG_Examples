@@ -42,15 +42,15 @@ Source : https://github.com/DedAnton/NextGenMapper
 :::note
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/36799941/191375272-27b0034d-0418-44a6-95c6-802b863de2b3.svg" width="242" height="242">
+    <img src="https://user-images.githubusercontent.com/36799941/191375272-27b0034d-0418-44a6-95c6-802b863de2b3.svg" width="242" height="242" />
 </p>
 <p align="center">
     <a href="https://opensource.org/licenses/MIT">
-        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+        <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/>
     </a>
-    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/DedAnton/NextGenMapper?include_prereleases">
+    <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/DedAnton/NextGenMapper?include_prereleases" />
     <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fwww.tinkoff.ru%2Fcf%2F3ySZ9DEsxfL">
-        <img src="https://img.shields.io/badge/%24-donate-9cf" alt="donate">
+        <img src="https://img.shields.io/badge/%24-donate-9cf" alt="donate" />
     </a>
     <h4 align="center">Extremely fast and lightweight minimalistic object mapper generated on the fly</h4>
 </p>
@@ -87,7 +87,7 @@ Console.WriteLine(destination);
 record Source(string Name, int Age);
 record Destination(string Name, int Age);
 ```
-<br>
+<br />
 
 To customize the mapping of certain properties, call the `MapWith` method and pass the value of the overridden property as an argument
 ```c#
@@ -102,7 +102,7 @@ Console.WriteLine(destination);
 record Source(string FirstName, string LastName, int Age);
 record Destination(string Name, int Age);
 ```
-<br>
+<br />
 
 In order for NextGenMapper to use your mapping when mapping other objects, you need to create a partial class `Mapper` in the `NextGenMapper` namespace and add the `Map` method with your implementation to it
 ```c#
@@ -114,7 +114,7 @@ internal static partial class Mapper
         => source.MapWith<Destination>(name: source.FirstName + ' ' + source.LastName);
 }
 ```
-<br>
+<br />
 
 The following collection types are currently supported: `List<T>`, `Array<T>`, `ICollection<T>`, `IEnumerable<T>`, `IList<T>`, `IReadOnlyCollection<T>`, `IReadOnlyList<T>`, `ImmutableArray<T>`, `ImmutableList<T>`, `IImmutableList<T>`
 ```c#
@@ -122,7 +122,7 @@ var sourceCollection = new List<Source> { new("Anton", 25) };
 
 var destination = sourceCollection.Map<List<Destination>>();
 ```
-<br>
+<br />
 
 Enums can also be mapped
 ```c#
@@ -130,13 +130,13 @@ var source = Source.EnumValue;
 
 var destination = source.Map<Destination>();
 ```
-<br>
+<br />
 
 Projection for IQueryable supported
 ```c#
 _dbContext.Users.Project<UserDestination>().ToList();
 ```
-<br>
+<br />
 
 > **Note**: 
 > Due to the use of new technology, some versions of Visual Studio can sometimes experience problems with syntax highlighting if IntelliCode says an error, but the solution was build without errors is to simply restart Visual Studio
