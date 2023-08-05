@@ -48,6 +48,7 @@ You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that M
 
 ## To be tested {{nrNoExamples-nrOld}}
 
+Please help with those by providing a simple example :
 
 {{~ for descNoExample in rscgNoExamples ~}} 
 

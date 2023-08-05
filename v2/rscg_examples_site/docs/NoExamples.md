@@ -196,7 +196,7 @@ Why I have not put example: old ISourceGenerator
 
 48)H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator  
 
-Why I have not put example: TBD
+Why I have not put example: nswag , TBD
 
 49)HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator  
 
@@ -224,7 +224,7 @@ Why I have not put example: old ISourceGenerator
 
 55)Jab https://github.com/pakrym/jab  
 
-Why I have not put example: DI container, ASAP
+Why I have not put example: Service + DI container. I use the one from MSFT
 
 56)JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator  
 
@@ -264,7 +264,7 @@ Why I have not put example: old ISourceGenerator
 
 65)LinqGen https://github.com/cathei/LinqGen  
 
-Why I have not put example: Linq Generator, TBD
+Why I have not put example: Linq Generator, too complicated for me
 
 66)LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator  
 
@@ -336,7 +336,7 @@ Why I have not put example: old ISourceGenerator
 
 83)MvvmGen https://github.com/thomasclaudiushuber/mvvmgen  
 
-Why I have not put example:  ASAP, depends on WPF
+Why I have not put example:  depends on WPF, too complicated for me
 
 84)N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes  
 
@@ -344,7 +344,7 @@ Why I have not put example: old ISourceGenerator
 
 85)Navitski.Crystalized https://github.com/AlexNav73/CoreCraft  
 
-Why I have not put example:  JSON to classes, ASAP
+Why I have not put example:  JSON to classes. Waiting for .NET 8 to see if MSFT has done natively
 
 86)net_automatic_interface https://github.com/codecentric/net_automatic_interface  
 
@@ -372,7 +372,7 @@ Why I have not put example: old ISourceGenerator
 
 92)Pure.DI https://github.com/DevTeam/Pure.DI  
 
-Why I have not put example: DI Container, ASAP
+Why I have not put example: Object Graph implementation, too complicated
 
 93)RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator  
 
@@ -380,7 +380,7 @@ Why I have not put example: old ISourceGenerator
 
 94)ResXGenerator https://github.com/ycanardeau/ResXGenerator  
 
-Why I have not put example:  resource manager to classes,TBD
+Why I have not put example:  resource manager to classes. Why I cannot have the resx generate classes? 
 
 95)Ridge https://github.com/Melchy/Ridge  
 
@@ -396,7 +396,7 @@ Why I have not put example: old ISourceGenerator
 
 98)SerdeDn https://github.com/serdedotnet/serde  
 
-Why I have not put example: serializer, ASAP
+Why I have not put example: serializer. Done by MSFT with System.Text.Json
 
 99)SmallSharp https://github.com/devlooped/SmallSharp  
 
@@ -436,7 +436,7 @@ Why I have not put example: old ISourceGenerator
 
 108)ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator  
 
-Why I have not put example: swag 2 ?,ASAP
+Why I have not put example: swagger,TBD
 
 109)StackXML https://github.com/ZingBallyhoo/StackXML  
 
@@ -454,71 +454,67 @@ Why I have not put example: string 2 utf8
 
 Why I have not put example: too complicated
 
-113)Strongly https://github.com/lucasteles/Strongly  
-
-Why I have not put example:  strongly-typed entity IDs, TBD
-
-114)StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources  
+113)StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources  
 
 Why I have not put example: old ISourceGenerator
 
-115)StructPacker https://github.com/RudolfKurka/StructPacker  
+114)StructPacker https://github.com/RudolfKurka/StructPacker  
 
 Why I have not put example: old ISourceGenerator
 
-116)Svg https://github.com/wieslawsoltes/Svg.Skia  
+115)Svg https://github.com/wieslawsoltes/Svg.Skia  
 
 Why I have not put example: old ISourceGenerator
 
-117)TeuJson https://github.com/Terria-K/TeuJson  
+116)TeuJson https://github.com/Terria-K/TeuJson  
 
 Why I have not put example: json a class, was done in System.Text.Json
 
-118)Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc  
+117)Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc  
 
 Why I have not put example: old ISourceGenerator
 
-119)Tinyhand https://github.com/archi-Doc/Tinyhand  
+118)Tinyhand https://github.com/archi-Doc/Tinyhand  
 
 Why I have not put example: tried, need documentation
 
-120)ToString https://github.com/Burgyn/MMLib.ToString  
+119)ToString https://github.com/Burgyn/MMLib.ToString  
 
 Why I have not put example: old ISourceGenerator
 
-121)Transplator https://github.com/atifaziz/Transplator  
+120)Transplator https://github.com/atifaziz/Transplator  
 
 Why I have not put example: old ISourceGenerator
 
-122)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
+121)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
 
 Why I have not put example: roo complicated
 
-123)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
+122)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
 
 Why I have not put example: no readme
 
-124)TypealizR https://github.com/earloc/TypealizR  
+123)TypealizR https://github.com/earloc/TypealizR  
 
 Why I have not put example: depends on Microsoft.Extensions.Localization
 
-125)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
+124)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-126)ValueLink https://github.com/archi-Doc/ValueLink  
+125)ValueLink https://github.com/archi-Doc/ValueLink  
 
 Why I have not put example: too complicated
 
-127)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
+126)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-128)Visor https://github.com/Tinkoff/Visor  
+127)Visor https://github.com/Tinkoff/Visor  
 
 Why I have not put example: too complicated
 
-129)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
+128)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
 Why I have not put example: not maintained as in readme
 
