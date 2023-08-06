@@ -1,4 +1,4 @@
-# RSCG - 50 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 51 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 33 in queue / 94 that have problems
  
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
@@ -11,8 +11,24 @@ If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 
-Those are the 50 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 51 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 51. [OneOf](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf) generated on : 2023-08-19 => 19 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Harry McIntyre
+
+This source generator automaticly implements OneOfBase hierarchies 
+
+Nuget: [https://www.nuget.org/packages/OneOf.SourceGenerator](https://www.nuget.org/packages/OneOf.SourceGenerator) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf)
+
+Source: [https://github.com/mcintyre321/OneOf](https://github.com/mcintyre321/OneOf)
+
+</details>
+
 ### 50. [Ridge](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge) generated on : 2023-08-19 => 19 August 2023
 <details>
   <summary>Expand</summary>

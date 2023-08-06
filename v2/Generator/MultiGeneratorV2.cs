@@ -139,7 +139,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator",old)
 ,new ("ValueLink https://github.com/archi-Doc/ValueLink","too complicated")
 ,new ("ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator",old)
-,new ("Visor https://github.com/Tinkoff/Visor","too complicated")
+,new ("Visor https://github.com/Tinkoff/Visor","too complicated"),
 
 
 
@@ -209,7 +209,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Injectio" , new(true,new(2023,8,17))},
             {"PropChange", new(true,new(2023,8,18))},
             {"Strongly", new(true,new(2023,8,19))},
-            {"Ridge" , new(true,new(2023,8,19))}, 
+            {"Ridge" , new(true,new(2023,8,19))},
+            {"OneOf", new(true,new(2023,8,20))}, 
         };
           
         //foreach (var v in generators)

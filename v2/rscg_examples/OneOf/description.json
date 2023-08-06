@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"OneOf",
+      "nuget":[
+         "https://www.nuget.org/packages/OneOf.SourceGenerator",
+         "https://www.nuget.org/packages/OneOf/"
+      ],
+      "link":"https://github.com/mcintyre321/OneOf",
+      "author":"Harry McIntyre",
+      "source":"https://github.com/mcintyre321/OneOf"
+   },
+   "data":{
+      "goodFor":["Functional discriminated unions"],
+      "csprojDemo":"OneOfDemo.csproj",
+      "csFiles":["Program.cs","StringOrNumber.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

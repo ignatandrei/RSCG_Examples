@@ -37,7 +37,7 @@ try
 
         var f = Path.Combine(originalFolder, "v2");
         var staticWeb= Path.Combine(f, "rscg_examples_site", "static");
-        await File.WriteAllTextAsync(Path.Combine(staticWeb, "pdfs", $"{newGen}.pdf"), "");
+        //await File.WriteAllTextAsync(Path.Combine(staticWeb, "pdfs", $"{newGen}.pdf"), "");
         await File.WriteAllTextAsync(Path.Combine(staticWeb, "sources", $"{newGen}.zip"), "");
         var examples = Path.Combine(f, "rscg_examples", newGen);
         Directory.CreateDirectory(examples);
