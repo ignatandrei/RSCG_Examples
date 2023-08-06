@@ -56,9 +56,18 @@ public class OutputFiles
         {
             var fileFound = Directory.GetFiles(dir, file, SearchOption.AllDirectories);
             fileFound = fileFound.Where(it => !it.Contains("GX")).ToArray();
-            if(fileFound.Length != 1)
+            if (fileFound.Length == 0)
             {
-                throw new Exception($"must have 1, but {fileFound.Length}  files {file} in {dir}");
+                //go a dir upper
+                var dirParent = new DirectoryInfo(dir).Parent;
+                ArgumentNullException.ThrowIfNull(dirParent);
+                fileFound = Directory.GetFiles(dirParent.FullName, file, SearchOption.AllDirectories);
+                fileFound = fileFound.Where(it => !it.Contains("GX")).ToArray();
+
+            }
+            if (fileFound.Length != 1)
+            {
+                throw new Exception($"must have 1, but {fileFound.Length}  files search {file} in {dir} for GX");
             }
             string nameFile = Path.GetFileName(fileFound[0]);
             FileWithContent f = new(fileFound[0],nameFile, await File.ReadAllTextAsync(fileFound[0]));

@@ -1003,15 +1003,13 @@ namespace PropChangeDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project PropertyChangedSourceGenerator ](/sources/PropertyChangedSourceGenerator.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF PropertyChangedSourceGenerator ](/pdfs/PropertyChangedSourceGenerator.pdf)
 
 ### Share PropertyChangedSourceGenerator 
 

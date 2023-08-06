@@ -272,15 +272,13 @@ namespace MockRock
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Rocks ](/sources/Rocks.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Rocks ](/pdfs/Rocks.pdf)
 
 ### Share Rocks 
 

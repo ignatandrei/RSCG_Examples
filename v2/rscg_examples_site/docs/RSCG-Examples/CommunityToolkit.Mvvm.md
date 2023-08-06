@@ -842,15 +842,13 @@ namespace test
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project CommunityToolkit.Mvvm ](/sources/CommunityToolkit.Mvvm.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF CommunityToolkit.Mvvm ](/pdfs/CommunityToolkit.Mvvm.pdf)
 
 ### Share CommunityToolkit.Mvvm 
 

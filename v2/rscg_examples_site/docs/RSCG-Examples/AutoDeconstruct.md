@@ -169,15 +169,13 @@ public static partial class PersonExtensions
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project AutoDeconstruct ](/sources/AutoDeconstruct.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF AutoDeconstruct ](/pdfs/AutoDeconstruct.pdf)
 
 ### Share AutoDeconstruct 
 

@@ -349,15 +349,13 @@ namespace AutoCtorDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project AutoCtor ](/sources/AutoCtor.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF AutoCtor ](/pdfs/AutoCtor.pdf)
 
 ### Share AutoCtor 
 

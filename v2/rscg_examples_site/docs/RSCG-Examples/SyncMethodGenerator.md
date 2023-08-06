@@ -264,15 +264,13 @@ partial class Writer
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project SyncMethodGenerator ](/sources/SyncMethodGenerator.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF SyncMethodGenerator ](/pdfs/SyncMethodGenerator.pdf)
 
 ### Share SyncMethodGenerator 
 

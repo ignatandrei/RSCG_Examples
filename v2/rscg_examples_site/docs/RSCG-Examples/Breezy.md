@@ -960,15 +960,13 @@ public sealed class TableAttribute : Attribute
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Breezy ](/sources/Breezy.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Breezy ](/pdfs/Breezy.pdf)
 
 ### Share Breezy 
 

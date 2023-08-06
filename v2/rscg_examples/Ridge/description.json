@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Ridge",
+      "nuget":[
+         "https://www.nuget.org/packages/Ridge/"
+      ],
+      "link":"https://github.com/Melchy/Ridge",
+      "author":"Michal Motyčka",
+      "source":"https://github.com/Melchy/Ridge"
+   },
+   "data":{
+      "goodFor":["Generating test classes for controllers"],
+      "csprojDemo":"RidgeDemoWebApp.csproj",
+      "csFiles":["Program.cs","WeatherForecastController.cs","BasicTests.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

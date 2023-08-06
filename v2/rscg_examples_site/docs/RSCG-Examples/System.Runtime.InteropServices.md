@@ -182,15 +182,13 @@ unsafe partial class DemoImport
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project System.Runtime.InteropServices ](/sources/System.Runtime.InteropServices.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF System.Runtime.InteropServices ](/pdfs/System.Runtime.InteropServices.pdf)
 
 ### Share System.Runtime.InteropServices 
 

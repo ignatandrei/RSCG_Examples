@@ -353,15 +353,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Microsoft.Extensions.Logging ](/sources/Microsoft.Extensions.Logging.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Microsoft.Extensions.Logging ](/pdfs/Microsoft.Extensions.Logging.pdf)
 
 ### Share Microsoft.Extensions.Logging 
 

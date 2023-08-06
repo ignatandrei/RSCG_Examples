@@ -467,15 +467,13 @@ namespace NextGenMapper
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project NextGenMapper ](/sources/NextGenMapper.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF NextGenMapper ](/pdfs/NextGenMapper.pdf)
 
 ### Share NextGenMapper 
 

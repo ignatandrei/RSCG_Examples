@@ -386,15 +386,13 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project DeeDee ](/sources/DeeDee.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF DeeDee ](/pdfs/DeeDee.pdf)
 
 ### Share DeeDee 
 

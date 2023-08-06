@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RidgeDemoWebApp", "RidgeDemoWebApp\RidgeDemoWebApp.csproj", "{288D5FD3-DC36-4E6D-9405-CA073F0363EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRidgeApp", "TestRidgeApp\TestRidgeApp.csproj", "{DE65FC1D-C9DA-4C2F-8080-1BB763FCD5A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{288D5FD3-DC36-4E6D-9405-CA073F0363EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288D5FD3-DC36-4E6D-9405-CA073F0363EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288D5FD3-DC36-4E6D-9405-CA073F0363EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288D5FD3-DC36-4E6D-9405-CA073F0363EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE65FC1D-C9DA-4C2F-8080-1BB763FCD5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE65FC1D-C9DA-4C2F-8080-1BB763FCD5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE65FC1D-C9DA-4C2F-8080-1BB763FCD5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE65FC1D-C9DA-4C2F-8080-1BB763FCD5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13B4742F-8737-4B97-82F1-98912669FB4C}
+	EndGlobalSection
+EndGlobal

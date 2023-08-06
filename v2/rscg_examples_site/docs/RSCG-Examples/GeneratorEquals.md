@@ -445,15 +445,13 @@ namespace GeneratorEqualsDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project GeneratorEquals ](/sources/GeneratorEquals.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF GeneratorEquals ](/pdfs/GeneratorEquals.pdf)
 
 ### Share GeneratorEquals 
 

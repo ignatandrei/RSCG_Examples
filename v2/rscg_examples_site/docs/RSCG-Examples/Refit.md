@@ -1561,15 +1561,13 @@ namespace RefitDemoRefitInternalGenerated
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Refit ](/sources/Refit.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Refit ](/pdfs/Refit.pdf)
 
 ### Share Refit 
 

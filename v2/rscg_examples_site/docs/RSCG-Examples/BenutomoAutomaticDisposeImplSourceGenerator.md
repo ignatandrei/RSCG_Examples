@@ -786,15 +786,13 @@ namespace Benutomo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project BenutomoAutomaticDisposeImplSourceGenerator ](/sources/BenutomoAutomaticDisposeImplSourceGenerator.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF BenutomoAutomaticDisposeImplSourceGenerator ](/pdfs/BenutomoAutomaticDisposeImplSourceGenerator.pdf)
 
 ### Share BenutomoAutomaticDisposeImplSourceGenerator 
 

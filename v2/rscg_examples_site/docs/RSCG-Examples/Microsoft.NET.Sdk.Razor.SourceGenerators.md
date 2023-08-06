@@ -1178,15 +1178,13 @@ using RazorAppDemo;
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Microsoft.NET.Sdk.Razor.SourceGenerators ](/sources/Microsoft.NET.Sdk.Razor.SourceGenerators.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Microsoft.NET.Sdk.Razor.SourceGenerators ](/pdfs/Microsoft.NET.Sdk.Razor.SourceGenerators.pdf)
 
 ### Share Microsoft.NET.Sdk.Razor.SourceGenerators 
 

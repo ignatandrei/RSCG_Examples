@@ -885,15 +885,13 @@ partial class ThisAssembly
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project ThisAssembly ](/sources/ThisAssembly.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF ThisAssembly ](/pdfs/ThisAssembly.pdf)
 
 ### Share ThisAssembly 
 

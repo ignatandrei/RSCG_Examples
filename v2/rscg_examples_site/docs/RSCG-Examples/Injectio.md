@@ -450,15 +450,13 @@ namespace Microsoft.Extensions.DependencyInjection
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Injectio ](/sources/Injectio.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Injectio ](/pdfs/Injectio.pdf)
 
 ### Share Injectio 
 

@@ -285,15 +285,13 @@ namespace MorrisMoxyDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project MorrisMoxy ](/sources/MorrisMoxy.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF MorrisMoxy ](/pdfs/MorrisMoxy.pdf)
 
 ### Share MorrisMoxy 
 

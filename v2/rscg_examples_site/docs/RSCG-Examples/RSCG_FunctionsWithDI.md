@@ -357,15 +357,13 @@ return  TestMyFunc1(t1,t2,x,y);
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project RSCG_FunctionsWithDI ](/sources/RSCG_FunctionsWithDI.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF RSCG_FunctionsWithDI ](/pdfs/RSCG_FunctionsWithDI.pdf)
 
 ### Share RSCG_FunctionsWithDI 
 

@@ -1062,15 +1062,13 @@ namespace RazorBladeDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project RazorBlade ](/sources/RazorBlade.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF RazorBlade ](/pdfs/RazorBlade.pdf)
 
 ### Share RazorBlade 
 

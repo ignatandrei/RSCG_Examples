@@ -319,15 +319,13 @@ namespace EmbeddingResourceCSharpDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project EmbedResourceCSharp ](/sources/EmbedResourceCSharp.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF EmbedResourceCSharp ](/pdfs/EmbedResourceCSharp.pdf)
 
 ### Share EmbedResourceCSharp 
 
