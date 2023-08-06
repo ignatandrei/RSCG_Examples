@@ -65,6 +65,7 @@ input-files:
 - examples/Strongly.html
 - examples/Ridge.html
 - examples/OneOf.html
+- examples/Gobie.html
 
 # or you may use input-file: with a single value
 # defaults:
