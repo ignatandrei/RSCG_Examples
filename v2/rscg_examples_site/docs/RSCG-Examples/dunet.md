@@ -1342,15 +1342,13 @@ internal static class WhatIsTheStringMatchExtensions
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project dunet ](/sources/dunet.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF dunet ](/pdfs/dunet.pdf)
 
 ### Share dunet 
 

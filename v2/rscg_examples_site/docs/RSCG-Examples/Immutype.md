@@ -666,15 +666,13 @@ return new ImmutypeDemo.Person( it.FirstName,LastName);}}
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Immutype ](/sources/Immutype.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Immutype ](/pdfs/Immutype.pdf)
 
 ### Share Immutype 
 

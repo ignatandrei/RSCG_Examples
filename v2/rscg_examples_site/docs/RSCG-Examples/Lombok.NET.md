@@ -437,15 +437,13 @@ public partial class Person
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Lombok.NET ](/sources/Lombok.NET.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Lombok.NET ](/pdfs/Lombok.NET.pdf)
 
 ### Share Lombok.NET 
 

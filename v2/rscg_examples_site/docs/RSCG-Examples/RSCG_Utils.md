@@ -198,15 +198,13 @@ as C# const
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project RSCG_Utils ](/sources/RSCG_Utils.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF RSCG_Utils ](/pdfs/RSCG_Utils.pdf)
 
 ### Share RSCG_Utils 
 

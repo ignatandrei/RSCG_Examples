@@ -414,15 +414,13 @@ namespace System.Text.RegularExpressions.Generated
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project System.Text.RegularExpressions ](/sources/System.Text.RegularExpressions.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF System.Text.RegularExpressions ](/pdfs/System.Text.RegularExpressions.pdf)
 
 ### Share System.Text.RegularExpressions 
 

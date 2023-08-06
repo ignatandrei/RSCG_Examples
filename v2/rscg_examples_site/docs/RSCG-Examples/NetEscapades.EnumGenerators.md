@@ -1310,15 +1310,13 @@ using System;
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project NetEscapades.EnumGenerators ](/sources/NetEscapades.EnumGenerators.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF NetEscapades.EnumGenerators ](/pdfs/NetEscapades.EnumGenerators.pdf)
 
 ### Share NetEscapades.EnumGenerators 
 

@@ -600,15 +600,13 @@ FROM person p
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Gedaq ](/sources/Gedaq.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Gedaq ](/pdfs/Gedaq.pdf)
 
 ### Share Gedaq 
 

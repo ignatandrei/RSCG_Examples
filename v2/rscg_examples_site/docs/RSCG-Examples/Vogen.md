@@ -1344,15 +1344,13 @@ namespace DemoVogen
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Vogen ](/sources/Vogen.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Vogen ](/pdfs/Vogen.pdf)
 
 ### Share Vogen 
 

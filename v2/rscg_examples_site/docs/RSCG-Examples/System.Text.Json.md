@@ -747,15 +747,13 @@ namespace JsonSerializerOptionsExample
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project System.Text.Json ](/sources/System.Text.Json.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF System.Text.Json ](/pdfs/System.Text.Json.pdf)
 
 ### Share System.Text.Json 
 

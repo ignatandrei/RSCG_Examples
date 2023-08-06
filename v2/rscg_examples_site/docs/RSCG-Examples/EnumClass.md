@@ -1062,15 +1062,13 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project EnumClass ](/sources/EnumClass.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF EnumClass ](/pdfs/EnumClass.pdf)
 
 ### Share EnumClass 
 

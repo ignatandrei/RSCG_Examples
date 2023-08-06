@@ -212,15 +212,13 @@ namespace Console_TimeBombComment {
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project RSCG_TimeBombComment ](/sources/RSCG_TimeBombComment.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF RSCG_TimeBombComment ](/pdfs/RSCG_TimeBombComment.pdf)
 
 ### Share RSCG_TimeBombComment 
 

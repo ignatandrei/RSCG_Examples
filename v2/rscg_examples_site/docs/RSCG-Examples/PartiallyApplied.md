@@ -181,15 +181,13 @@ public static partial class Partially
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project PartiallyApplied ](/sources/PartiallyApplied.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF PartiallyApplied ](/pdfs/PartiallyApplied.pdf)
 
 ### Share PartiallyApplied 
 

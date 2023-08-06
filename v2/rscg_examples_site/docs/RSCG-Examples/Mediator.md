@@ -1636,15 +1636,13 @@ namespace Mediator
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Mediator ](/sources/Mediator.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Mediator ](/pdfs/Mediator.pdf)
 
 ### Share Mediator 
 

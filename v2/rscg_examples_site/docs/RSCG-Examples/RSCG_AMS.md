@@ -462,15 +462,13 @@ namespace AMS_Base
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project RSCG_AMS ](/sources/RSCG_AMS.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF RSCG_AMS ](/pdfs/RSCG_AMS.pdf)
 
 ### Share RSCG_AMS 
 

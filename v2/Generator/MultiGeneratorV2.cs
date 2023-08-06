@@ -43,7 +43,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("avatar https://github.com/kzu/avatar",archived)
 ,new ("Azura https://github.com/cyriaca/Azura"," System.Text.Json has already not refelection serializer")
 ,new ("BetterEnums https://github.com/Ceiridge/BetterEnums",old)
-,new ("BigMachines https://github.com/archi-Doc/BigMachines","state machine - full of features. To be analyzed ASAP")
+,new ("BigMachines https://github.com/archi-Doc/BigMachines","state machine - full of features. To be analyzed , TBD")
 ,new ("BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator",old)
 ,new ("BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons",old)
 ,new ("boilerplatezero https://github.com/IGood/boilerplatezero","not yet ready to test something that depends on WPF")
@@ -113,7 +113,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Pure.DI https://github.com/DevTeam/Pure.DI","Object Graph implementation, too complicated")
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
 ,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," resource manager to classes. Why I cannot have the resx generate classes? ")
-,new ("Ridge https://github.com/Melchy/Ridge","test controllers fast,TBD")
+,new ("c https://github.com/Melchy/Ridge","test controllers fast,TBD")
 ,new ("ScenarioTests https://github.com/koenbeuk/ScenarioTests",old)
 ,new ("SerdeDn serde-sn) https://github.com/serdedotnet/serde","serializer. Done by MSFT with System.Text.Json")
 ,new ("SmallSharp https://github.com/devlooped/SmallSharp",old)
@@ -210,6 +210,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Injectio" , new(true,new(2023,8,17))},
             {"PropChange", new(true,new(2023,8,18))},
             {"Strongly", new(true,new(2023,8,19))},
+            {"Ridge" , new(true,new(2023,8,19))}, 
         };
           
         //foreach (var v in generators)

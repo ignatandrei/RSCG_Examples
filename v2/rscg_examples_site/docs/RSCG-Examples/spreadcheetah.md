@@ -415,15 +415,13 @@ namespace spreadcheetahDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project spreadcheetah ](/sources/spreadcheetah.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF spreadcheetah ](/pdfs/spreadcheetah.pdf)
 
 ### Share spreadcheetah 
 

@@ -655,15 +655,13 @@ public class PersonMatryoshka : MatryoshkiDemo.IPerson
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Matryoshki ](/sources/Matryoshki.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Matryoshki ](/pdfs/Matryoshki.pdf)
 
 ### Share Matryoshki 
 

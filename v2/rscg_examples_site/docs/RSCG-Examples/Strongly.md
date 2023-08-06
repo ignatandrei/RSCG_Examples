@@ -1098,15 +1098,13 @@ namespace Strongly
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Strongly ](/sources/Strongly.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Strongly ](/pdfs/Strongly.pdf)
 
 ### Share Strongly 
 

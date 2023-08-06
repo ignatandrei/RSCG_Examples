@@ -364,15 +364,13 @@ serviceCollection.AddSingleton<AutoRegisterInjectDemo.DatabaseCon>();
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project AutoRegisterInject ](/sources/AutoRegisterInject.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF AutoRegisterInject ](/pdfs/AutoRegisterInject.pdf)
 
 ### Share AutoRegisterInject 
 

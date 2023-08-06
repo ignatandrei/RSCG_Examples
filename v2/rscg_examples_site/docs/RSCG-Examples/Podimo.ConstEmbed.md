@@ -174,15 +174,13 @@ GO;
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Podimo.ConstEmbed ](/sources/Podimo.ConstEmbed.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Podimo.ConstEmbed ](/pdfs/Podimo.ConstEmbed.pdf)
 
 ### Share Podimo.ConstEmbed 
 

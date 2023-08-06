@@ -2094,15 +2094,13 @@ namespace @FastGenericNew
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project FastGenericNew ](/sources/FastGenericNew.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF FastGenericNew ](/pdfs/FastGenericNew.pdf)
 
 ### Share FastGenericNew 
 

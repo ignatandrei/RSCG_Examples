@@ -1709,15 +1709,13 @@ partial class Person : IMemoryPackable<Person>
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project MemoryPack ](/sources/MemoryPack.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF MemoryPack ](/pdfs/MemoryPack.pdf)
 
 ### Share MemoryPack 
 

@@ -377,15 +377,13 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project ProxyGen ](/sources/ProxyGen.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF ProxyGen ](/pdfs/ProxyGen.pdf)
 
 ### Share ProxyGen 
 

@@ -199,15 +199,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project RSCG_Static ](/sources/RSCG_Static.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF RSCG_Static ](/pdfs/RSCG_Static.pdf)
 
 ### Share RSCG_Static 
 

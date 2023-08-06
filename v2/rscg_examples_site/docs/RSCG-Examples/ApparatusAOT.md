@@ -514,15 +514,13 @@ namespace Apparatus.AOT.Reflection
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project ApparatusAOT ](/sources/ApparatusAOT.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF ApparatusAOT ](/pdfs/ApparatusAOT.pdf)
 
 ### Share ApparatusAOT 
 

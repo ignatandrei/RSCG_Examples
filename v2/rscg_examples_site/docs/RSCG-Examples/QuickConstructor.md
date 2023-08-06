@@ -406,15 +406,13 @@ namespace QuickConstructorDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project QuickConstructor ](/sources/QuickConstructor.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF QuickConstructor ](/pdfs/QuickConstructor.pdf)
 
 ### Share QuickConstructor 
 

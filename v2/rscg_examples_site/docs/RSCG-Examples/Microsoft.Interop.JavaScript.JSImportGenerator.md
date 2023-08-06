@@ -842,15 +842,13 @@ using System.Runtime.InteropServices.JavaScript;
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project Microsoft.Interop.JavaScript.JSImportGenerator ](/sources/Microsoft.Interop.JavaScript.JSImportGenerator.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF Microsoft.Interop.JavaScript.JSImportGenerator ](/pdfs/Microsoft.Interop.JavaScript.JSImportGenerator.pdf)
 
 ### Share Microsoft.Interop.JavaScript.JSImportGenerator 
 

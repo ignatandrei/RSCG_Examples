@@ -332,15 +332,13 @@ namespace SkinnyControllersDemo.Controllers {
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project SkinnyControllersCommon ](/sources/SkinnyControllersCommon.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF SkinnyControllersCommon ](/pdfs/SkinnyControllersCommon.pdf)
 
 ### Share SkinnyControllersCommon 
 

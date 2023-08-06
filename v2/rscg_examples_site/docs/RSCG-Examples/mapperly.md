@@ -258,15 +258,13 @@ namespace mapperlyDemo
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project mapperly ](/sources/mapperly.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF mapperly ](/pdfs/mapperly.pdf)
 
 ### Share mapperly 
 
