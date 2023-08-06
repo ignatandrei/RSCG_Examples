@@ -113,7 +113,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Pure.DI https://github.com/DevTeam/Pure.DI","Object Graph implementation, too complicated")
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
 ,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," resource manager to classes. Why I cannot have the resx generate classes? ")
-,new ("c https://github.com/Melchy/Ridge","test controllers fast,TBD")
 ,new ("ScenarioTests https://github.com/koenbeuk/ScenarioTests",old)
 ,new ("SerdeDn serde-sn) https://github.com/serdedotnet/serde","serializer. Done by MSFT with System.Text.Json")
 ,new ("SmallSharp https://github.com/devlooped/SmallSharp",old)
