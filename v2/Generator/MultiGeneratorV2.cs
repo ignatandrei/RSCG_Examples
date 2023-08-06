@@ -532,8 +532,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
     {
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         await Task.Delay(1000);
-        //return; 
-        await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
+        return; 
+        //await Task.WhenAll(_AllDescriptions.Select(it => WrotePDF(it, pathDocusaurus,pathBook)));
     }
     internal async Task CreateHTMLBook()
     {

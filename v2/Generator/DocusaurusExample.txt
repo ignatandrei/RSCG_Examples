@@ -109,15 +109,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 ## Usefull
 
 ### Download Example (.NET  C# )
+
 :::tip
 
 [Download Example project {{Description.Generator.Name}} ](/sources/{{Description.Generator.Name}}.zip)
 
 :::
 
-### Download PDF
-
-[Download PDF {{Description.Generator.Name}} ](/pdfs/{{Description.Generator.Name}}.pdf)
 
 ### Share {{Description.Generator.Name}} 
 
