@@ -5,15 +5,16 @@ description: the how list
 slug: /List-of-RSCG
 ---
 
-## 51 RSCG with examples 
+## 52 RSCG with examples 
 
-This is the list of 51 ( 6 from Microsoft) RSCG with examples 
+This is the list of 52 ( 6 from Microsoft) RSCG with examples 
 
 
 | No        | Name  | Date |
 | --------- | ----- | ---- |
-|51|[OneOf](/docs/OneOf)|2023-08-19 => 19 August 2023 |
-|50|[Ridge](/docs/Ridge)|2023-08-19 => 19 August 2023 |
+|52|[Gobie](/docs/Gobie)|2023-08-22 => 22 August 2023 |
+|51|[OneOf](/docs/OneOf)|2023-08-21 => 21 August 2023 |
+|50|[Ridge](/docs/Ridge)|2023-08-20 => 20 August 2023 |
 |49|[Strongly](/docs/Strongly)|2023-08-19 => 19 August 2023 |
 |48|[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)|2023-08-18 => 18 August 2023 |
 |47|[Injectio](/docs/Injectio)|2023-08-17 => 17 August 2023 |

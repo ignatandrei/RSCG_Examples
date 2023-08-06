@@ -43,7 +43,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("avatar https://github.com/kzu/avatar",archived)
 ,new ("Azura https://github.com/cyriaca/Azura"," System.Text.Json has already not refelection serializer")
 ,new ("BetterEnums https://github.com/Ceiridge/BetterEnums",old)
-,new ("BigMachines https://github.com/archi-Doc/BigMachines","state machine - full of features. To be analyzed , TBD")
+,new ("BigMachines https://github.com/archi-Doc/BigMachines","state machine - full of features. To be analyzed , need help")
 ,new ("BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator",old)
 ,new ("BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons",old)
 ,new ("boilerplatezero https://github.com/IGood/boilerplatezero","not yet ready to test something that depends on WPF")
@@ -68,12 +68,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("FluentBuilder https://github.com/StefH/FluentBuilder",old)
 ,new ("GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries",old)
 ,new ("GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator",old)
-,new ("Gobie https://github.com/GobieGenerator/Gobie","templating for RSCG. TBD")
 ,new ("GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools",old)
 ,new ("GrpcInjection https://github.com/juniorporfirio/grpcinjection",old)
 ,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server","interesting, too complicated")
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
-,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , TBD")
+,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , need help")
 ,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","cannot reproduce")
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
@@ -119,12 +118,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("SmartAnnotations https://github.com/fiseni/SmartAnnotations",old)
 ,new ("SourceApi https://github.com/alekshura/SourceApi",old)
 ,new ("SourceConfig https://github.com/alekshura/SourceConfig",old)
-,new ("SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery","RSCG Helper, TBD")
+,new ("SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery",old)
 ,new ("SourceInject https://github.com/giggio/sourceinject/",old)
 ,new ("SourceMapper https://github.com/paiden/SourceMapper/",old)
 ,new ("SourceMapper https://github.com/alekshura/SourceMapper",old)
 ,new ("SqlMarshal https://github.com/kant2002/SqlMarshal",old)
-,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swagger,TBD")
+,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swagger,need help")
 ,new ("StackXML https://github.com/ZingBallyhoo/StackXML",old)
 ,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator","string 2 utf8")
 ,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",old)
@@ -209,8 +208,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Injectio" , new(true,new(2023,8,17))},
             {"PropChange", new(true,new(2023,8,18))},
             {"Strongly", new(true,new(2023,8,19))},
-            {"Ridge" , new(true,new(2023,8,19))},
-            {"OneOf", new(true,new(2023,8,20))}, 
+            {"Ridge" , new(true,new(2023,8,20))},
+            {"OneOf", new(true,new(2023,8,21))},
+            {"Gobie" , new(true,new(2023,8,22))},
         };
           
         //foreach (var v in generators)

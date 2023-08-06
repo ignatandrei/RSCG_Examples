@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Gobie",
+      "nuget":[
+         "https://www.nuget.org/packages/Gobie/"
+      ],
+      "link":"https://github.com/GobieGenerator/Gobie/",
+      "author":"Mike Conrad",
+      "source":"https://github.com/GobieGenerator/Gobie/"
+   },
+   "data":{
+      "goodFor":["templating for classes , fields ..."],
+      "csprojDemo":"GobieDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","ClassGenAddId.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

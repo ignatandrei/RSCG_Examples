@@ -1,0 +1,7 @@
+using System;
+
+namespace GobieDemo;
+partial class Person
+{
+    public int Id { get; set; }
+}

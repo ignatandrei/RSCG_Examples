@@ -1,0 +1,21 @@
+﻿
+
+using Gobie;
+
+namespace GobieDemo;
+[GobieGeneratorName("ClassGenAddId")]
+public sealed class ClassGenAddId : GobieClassGenerator
+{
+    [GobieFileTemplate("ID")]
+    private const string LogString = @"
+         using System;
+
+            namespace {{ClassNamespace}};
+
+            partial  class {{ClassName}}
+            {
+                public int Id { get; set; }
+            }
+    
+    ";
+}
