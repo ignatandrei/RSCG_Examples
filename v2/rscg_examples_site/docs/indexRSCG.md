@@ -1,11 +1,11 @@
 ---
 sidebar_position: 25
 title: List of RSCG
-description: the how list
+description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
 
-## 52 RSCG with examples 
+## 52 RSCG with examples in descending chronological order
 
 This is the list of 52 ( 6 from Microsoft) RSCG with examples 
 

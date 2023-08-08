@@ -1,11 +1,11 @@
 ﻿---
 sidebar_position: 25
 title: List of RSCG
-description: the how list
+description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
 
-## {{ nr }} RSCG with examples 
+## {{ nr }} RSCG with examples in descending chronological order
 
 This is the list of {{ nr }} ( {{nrMSFT}} from Microsoft) RSCG with examples 
 

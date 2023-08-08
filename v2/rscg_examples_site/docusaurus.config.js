@@ -9,7 +9,10 @@ const config = {
   title: 'RSCG Examples',
   tagline: 'Roslyn Source Code Generator Examples',
   favicon: 'img/favicon.ico',
-
+  markdown:{
+    mermaid:true
+  },
+  themes: ['@docusaurus/theme-mermaid'],
   // Set the production url of your site here
   url: 'https://ignatandrei.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served

@@ -27,11 +27,15 @@
     <None Remove="post.txt" />
     <None Remove="readme.txt" />
     <None Remove="RSCGList.txt" />
+    <None Remove="RSCGListMermaid.txt" />
     <None Remove="RSCG_Item.cshtml" />
     <None Remove="RSCG_List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="frontReadmeNew.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RSCGListMermaid.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="RSCGList.txt">
@@ -80,5 +84,6 @@
     <Watch Remove="newPost.txt" />
     <Watch Remove="readme.txt" />
     <Watch Remove="RSCGList.txt" />
+    <Watch Remove="RSCGListMermaid.txt" />
   </ItemGroup>
 </Project>

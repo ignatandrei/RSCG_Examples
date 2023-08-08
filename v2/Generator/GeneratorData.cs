@@ -32,6 +32,7 @@ public enum Category
     Templating,
     Tests,
     Database,
-    API
+    API,
+
 }
 

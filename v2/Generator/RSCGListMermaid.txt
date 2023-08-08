@@ -1,0 +1,21 @@
+﻿---
+sidebar_position: 30
+title: {{nr}} RSCG by category 
+description: {{nr}} RSCG by category 
+slug: /rscg-examples
+---
+
+import DocCardList from '@theme/DocCardList';
+
+[See time based list](/docs/List-of-RSCG)
+
+```mermaid 
+flowchart LR;
+
+{{~ for rscg in all ~}}
+    {{ rscg.GeneratorData.Category }}--> {{rscg.Generator.Name}}
+{{~ end ~}}
+   
+```
+
+<DocCardList />

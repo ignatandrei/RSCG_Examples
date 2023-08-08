@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Scriban.Parsing;
+using System;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.NetworkInformation;
+using System.Reflection;
 using System.Text;
 
 namespace Generator;
@@ -712,8 +714,20 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG }, member => member.Name);
-        await File.WriteAllTextAsync(pathIndex, output);
-        
+        await File.WriteAllTextAsync(pathIndex, output);        
+        //now the mermaid 
+        var templateMermaidText = await File.ReadAllTextAsync("RSCGListMermaid.txt");
+        var templateMermaid = Scriban.Template.Parse(templateMermaidText)  ;
+        var categs = _AllDescriptions
+            .Select(it=>it.GeneratorData?.Category??Category.None)
+            .Distinct()
+            .Select(it=>it.ToString())
+            .OrderBy(it=>it).ToArray();
+        var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all= _AllDescriptions },
+            memberRenamer:(MemberInfo mi)=> mi.Name);
+        var pathIndexMermaid = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples", "index.md");
+        await File.WriteAllTextAsync(pathIndexMermaid, outputMermaid);
+
         return true;
     }
 
@@ -944,7 +958,5 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             sb.AppendLine($"{it.Nr},{it.GeneratorKey}, {it.Generator.Source},{it.GeneratorData.Category}");
         }
         await File.WriteAllTextAsync(fileName,sb.ToString());
-
-
     }
 }     
