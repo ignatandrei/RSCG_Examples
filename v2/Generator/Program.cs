@@ -113,7 +113,7 @@ $$"""
         }
     }
     var text=string.Join(Environment.NewLine, all);
-    
+    await m.WriteAllIntoFile("all.csv");
     await m.GrabDescriptionFromNuget();
     await m.GrabReadMe();
 

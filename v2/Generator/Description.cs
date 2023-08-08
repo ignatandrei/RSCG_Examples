@@ -15,6 +15,8 @@ public class Description
     public Links? Links { get; set; }
     [JsonIgnore]
     public DateTime generatedDate { get; internal set; }
+    public string? GeneratorKey { get; internal set; }
+    public GeneratorData? GeneratorData { get; internal set; }
 
     [JsonIgnore]
     public string? rootFolder;

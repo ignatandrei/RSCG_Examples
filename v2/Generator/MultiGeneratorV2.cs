@@ -1,8 +1,10 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Net.NetworkInformation;
+using System.Text;
 
 namespace Generator;
 public class MultiGeneratorV2 
@@ -159,57 +161,57 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         GeneratorData before = new(true, dtStart);
         generators = new()
         {
-            { "ThisAssembly",before },
-            {"RSCG_TimeBombComment",before},
-            {"System.Text.Json",before },
-            {"RSCG_Utils",before },
-            {"System.Text.RegularExpressions",before },
-            {"SkinnyControllersCommon",before },
-            {"Microsoft.Extensions.Logging",before },
-            {"RSCG_Static",before },
-            {"CommunityToolkit.Mvvm",before },
-            {"RSCG_AMS",before },
-            {"AutoDeconstruct",before },
-            {"System.Runtime.InteropServices",before },
-            {"QuickConstructor",before },
-            {"AutoCtor",before },
-            { "dunet",before },
-            {"Vogen",before },
-            {"RazorBlade",before },
-            { "PartiallyApplied",new(true,dtStart)},
-            {"Apparatus.AOT.Reflection",before },
-            {"NetEscapades.EnumGenerators",before },
-            {"Microsoft.Interop.JavaScript.JSImportGenerator",before },
-            {"RSCG_FunctionsWithDI",before },
-            {"Microsoft.NET.Sdk.Razor.SourceGenerators",before },
-            {"Rocks" ,before},
-            {"mapperly",before },
-            {"Podimo.ConstEmbed",before },
-            {"EmbeddingResourceCSharp",before },
-            {"Lombok.NET",before },
-            {"Gedaq", new(true,new(2023,7,29))},
-            {"Refit",new(true,new(2023,7,31)) },
-            {"MorrisMoxy", new(true,new(2023,8,1))},
+            { "ThisAssembly",before.PutCategory(Category.EnhancementProject) },
+            {"RSCG_TimeBombComment",before.PutCategory(Category.EnhancementProject)},
+            {"System.Text.Json",before.PutCategory(Category.EnhancementClass) },
+            {"RSCG_Utils",before.PutCategory(Category.FilesToCode) },
+            {"System.Text.RegularExpressions",before.PutCategory(Category.EnhancementClass) },
+            {"SkinnyControllersCommon",before.PutCategory(Category.EnhancementClass) },
+            {"Microsoft.Extensions.Logging",before.PutCategory(Category.EnhancementClass) },
+            {"RSCG_Static",before.PutCategory(Category.EnhancementClass) },
+            {"CommunityToolkit.Mvvm",before.PutCategory(Category.EnhancementClass) },
+            {"RSCG_AMS",before.PutCategory(Category.EnhancementProject) },
+            {"AutoDeconstruct",before.PutCategory(Category.EnhancementClass) },
+            {"System.Runtime.InteropServices",before.PutCategory(Category.EnhancementClass) },
+            {"QuickConstructor",before.PutCategory(Category.EnhancementClass) },
+            {"AutoCtor",before.PutCategory(Category.EnhancementClass) },
+            { "dunet",before.PutCategory(Category.FunctionalProgramming)},
+            {"Vogen",before.PutCategory(Category.PrimitiveObsession) },
+            {"RazorBlade",before.PutCategory(Category.Templating) },
+            { "PartiallyApplied",before.PutCategory(Category.FunctionalProgramming)},
+            {"Apparatus.AOT.Reflection",before.PutCategory(Category.EnhancementClass) },
+            {"NetEscapades.EnumGenerators",before.PutCategory(Category.EnhancementClass) },
+            {"Microsoft.Interop.JavaScript.JSImportGenerator",before.PutCategory(Category.EnhancementClass) },
+            {"RSCG_FunctionsWithDI",before.PutCategory(Category.EnhancementProject) },
+            {"Microsoft.NET.Sdk.Razor.SourceGenerators",before.PutCategory(Category.Templating) },
+            {"Rocks" ,before.PutCategory(Category.Tests)},
+            {"mapperly",before.PutCategory(Category.EnhancementProject) },
+            {"Podimo.ConstEmbed",before.PutCategory(Category.FilesToCode) },
+            {"EmbeddingResourceCSharp",before.PutCategory(Category.FilesToCode) },
+            {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
+            {"Gedaq", new   (true,new(2023,7,29),Category.Database)},
+            {"Refit",new(true,new(2023,7,31),Category.API) },
+            {"MorrisMoxy", new(true,new(2023,8,1), Category.EnhancementClass)},
             {"Mediator" , new(true,new(2023,8,2))},
             {"Matryoshki" , new(true,new(2023,8,3))},
             {"MemoryPack" , new(true,new(2023,8,4))},
             {"DeeDee" , new(true,new(2023,8,5))},
             {"ProxyGen", new(true,new(2023,8,6))},
-            {"AutoRegisterInject" , new(true,new(2023,8,7))},
-            {"EnumClass" , new(true,new(2023,8,8))},
+            {"AutoRegisterInject" , new(true,new(2023,8,7), Category.DependencyInjection)},
+            {"EnumClass" , new(true,new(2023,8,8), Category.EnhancementClass)},
             {"Breezy", new(true,new(2023,8,9))},
-            {"FastGenericNew" , new(true,new(2023,8,10))},
-            {"GeneratorEquals", new(true,new(2023,8,11))},
-            {"Immutype",  new(true,new(2023,8,12))},
-            {"spreadcheetah" ,  new(true,new(2023,8,13))},
-            {"zomp" ,  new(true,new(2023,8,14))},
-            {"IDisp", new(true,new(2023,8,15))},
-            {"NextGenMapper" , new(true,new(2023,8,16))},
-            {"Injectio" , new(true,new(2023,8,17))},
-            {"PropChange", new(true,new(2023,8,18))},
-            {"Strongly", new(true,new(2023,8,19))},
+            {"FastGenericNew" , new(true,new(2023,8,10),Category.EnhancementClass)},
+            {"GeneratorEquals", new(true,new(2023,8,11),Category.EnhancementClass)},
+            {"Immutype",  new(true,new(2023,8,12), Category.EnhancementClass)},
+            {"spreadcheetah" ,  new(true,new(2023,8,13),Category.Templating)},
+            {"zomp" ,  new(true,new(2023,8,14),Category.EnhancementClass)},
+            {"IDisp", new(true,new(2023,8,15),Category.EnhancementClass)},
+            {"NextGenMapper" , new(true,new(2023,8,16),Category.EnhancementProject)},
+            {"Injectio" , new(true,new(2023,8,17),Category.DependencyInjection)},
+            {"PropChange", new(true,new(2023,8,18), Category.EnhancementClass)},
+            {"Strongly", new(true,new(2023,8,19), Category.PrimitiveObsession)},
             {"Ridge" , new(true,new(2023,8,20))},
-            {"OneOf", new(true,new(2023,8,21))},
+            {"OneOf", new(true,new(2023,8,21), Category.FunctionalProgramming)},
             {"Gobie" , new(true,new(2023,8,22))},
         };
           
@@ -239,6 +241,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         foreach (var item in _AllDescriptions)
         {
             item.ReverseNr = l - item.Nr;
+            
+            item.GeneratorData = generators.ValueOf(item.GeneratorKey??"");
         }
         return _AllDescriptions!.Select(it => it.Generator!.Source!).ToArray();
 
@@ -445,6 +449,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var desc = JsonSerializer.Deserialize<Description>(text);
         ArgumentNullException.ThrowIfNull(desc);
         desc.Nr = nr;
+        desc.GeneratorKey = generator;
         desc.rootFolder = folder;
         desc.generatedDate = generatedDate;
         string sources = Path.Combine(desc.rootFolder, "src");
@@ -714,10 +719,14 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 
     internal async Task WrotePost()
     {
+        await Task.Delay(1000);
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        var x = 0;
+        x++;
+        if(x>2)
         await Task.WhenAll(_AllDescriptions
-            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 2)
+            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < -5)
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }
@@ -919,5 +928,23 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ////var item = new MicrosoftItem(it);t
         ////var data = item.Render();
         //return data.Count;
+    }
+
+    internal async Task WriteAllIntoFile(string fileName)
+    {
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        
+        StringBuilder sb = new ();
+        sb.AppendLine("Nr,Key,Source,Category"); 
+        foreach (var it in _AllDescriptions)
+        {
+            ArgumentNullException.ThrowIfNull(it);
+            ArgumentNullException.ThrowIfNull(it.Generator);
+            ArgumentNullException.ThrowIfNull(it.GeneratorData);
+            sb.AppendLine($"{it.Nr},{it.GeneratorKey}, {it.Generator.Source},{it.GeneratorData.Category}");
+        }
+        await File.WriteAllTextAsync(fileName,sb.ToString());
+
+
     }
 }     

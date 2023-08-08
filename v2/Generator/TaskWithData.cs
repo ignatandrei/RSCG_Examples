@@ -9,7 +9,16 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Generator;
 public static class Extensions
-{ 
+{
+    //to do: add this
+    public static Value ValueOf<TKey, Value>(this Dictionary<TKey, Value> dict, TKey key, [CallerArgumentExpression("dict")] string? paramName = null)
+       where TKey : notnull
+    {
+        ArgumentNullException.ThrowIfNull(dict, paramName);
+        if (!dict.ContainsKey(key))
+            throw new ArgumentException(paramName);
+        return dict[key];
+    }
     //public static TaskWithData<TData, TResult> GetAwaiter<TData, TResult>(this Task<TResult> taskToExecute, TData tag)
     //{
     //    return new TaskWithData<TData, TResult>(tag, taskToExecute);
