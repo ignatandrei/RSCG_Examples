@@ -30,6 +30,8 @@ public enum Category
     FunctionalProgramming,
     PrimitiveObsession,
     Templating,
-    Tests
+    Tests,
+    Database,
+    API
 }
 
