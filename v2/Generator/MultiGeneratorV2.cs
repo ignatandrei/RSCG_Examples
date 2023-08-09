@@ -1,4 +1,5 @@
-﻿using Scriban.Parsing;
+﻿using ArrayToExcel;
+using Scriban.Parsing;
 using System;
 using System.IO;
 using System.Linq;
@@ -735,26 +736,31 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             memberRenamer:(MemberInfo mi)=> mi.Name);
         var pathIndexMermaid = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples", "index.md");
         await File.WriteAllTextAsync(pathIndexMermaid, outputMermaid);
+        var allRSCG = _AllDescriptions.Select(it =>
+            new {
+                Name = it.Generator?.Name ?? "",
+                Link = "https://ignatandrei.github.io/RSCG_Examples/v2/docs/" + it.GeneratorKey,
+                NuGet = it.Generator?.NugetFirst ?? "",
+                Source = it.Generator?.Source ?? "",
+                Category = (it.GeneratorData?.Category ?? Category.None).ToString(),
+                AddedOn = (it.generatedDate.ToString("s"))
+            }).ToArray();
         var jsonObj = new
         {
             CodeSource = "https://github.com/ignatandrei/RSCG_Examples",
             Site= "https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-            All= _AllDescriptions.Select(it =>
-            new {
-                Name= it.Generator?.Name??"",
-                Link= "https://ignatandrei.github.io/RSCG_Examples/v2/docs/"+it.GeneratorKey,
-                NuGet=it.Generator?.NugetFirst??"",
-                Source=it.Generator?.Source??"",
-                Category=(it.GeneratorData?.Category??Category.None).ToString(),
-                AddedOn=(it.generatedDate.ToString("s"))
-            }).ToArray(),
+            All= allRSCG,
         };
+
         var textJson =JsonSerializer.Serialize(jsonObj,new JsonSerializerOptions()
         {
             WriteIndented = true,
         });
-        var jsonPath = Path.Combine(pathDocusaurus, "static","exports","RSCG.json");
-        await File.WriteAllTextAsync(jsonPath, textJson); 
+        var jsonPath = Path.Combine(pathDocusaurus, "static","exports");
+        await File.WriteAllTextAsync(Path.Combine(jsonPath, "RSCG.json"), textJson);
+        var excel = allRSCG.ToExcel();
+        await File.WriteAllBytesAsync(Path.Combine(jsonPath,"RSCG.xlsx"), excel);
+
         return true;
     }
 

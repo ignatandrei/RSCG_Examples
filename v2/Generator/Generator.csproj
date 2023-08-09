@@ -65,6 +65,7 @@
 		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="ArrayToExcel" Version="2.2.2" />
     <PackageReference Include="RazorBlade" Version="0.4.3" />
     <PackageReference Include="Scriban" Version="5.7.0" />
     <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
