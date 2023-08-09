@@ -9,7 +9,7 @@
       "source":"https://github.com/sveinungf/spreadcheetah"
    },
    "data":{
-      "goodFor":["generating Excel from objects"],
+      "goodFor":["generating Excel from objects","does not work with DateTime"],
       "csprojDemo":"spreadcheetahDemo.csproj",
       "csFiles":["Program.cs","Person.cs"]
    },

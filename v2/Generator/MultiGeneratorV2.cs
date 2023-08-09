@@ -724,11 +724,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             .Select(it=>it.ToString())
             .OrderBy(it=>it).ToArray();
         var all = _AllDescriptions.OrderBy(it => (it.GeneratorData?.Category ?? Category.None).ToString());
-        var categDict=_AllDescriptions
+        var categDict=all
             .GroupBy(it=> (it.GeneratorData?.Category ?? Category.None).ToString())
             .ToDictionary(it=>it.Key,it=>it.ToArray());
 
-        var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all,categDict }, 
+        var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all,categDict}, 
             memberRenamer:(MemberInfo mi)=> mi.Name);
         var pathIndexMermaid = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples", "index.md");
         await File.WriteAllTextAsync(pathIndexMermaid, outputMermaid);

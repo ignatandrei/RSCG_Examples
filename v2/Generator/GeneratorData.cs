@@ -24,7 +24,7 @@ public enum Category
 {
     None=0,
     EnhancementProject,
-    Constructor,
+    Constructor, 
     EnhancementClass ,
     Mapper,
     DependencyInjection,

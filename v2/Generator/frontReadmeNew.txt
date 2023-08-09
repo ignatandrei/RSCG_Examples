@@ -5,6 +5,8 @@ If you want to see examples , please click  ***[List V2](https://ignatandrei.git
 
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
 
+If you want to see by category, please click ***[category](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples)***
+
 If you have a Roslyn Source Code Generator, please create an issue.
 
 If you want to help, please let me know ( again, create an issue).

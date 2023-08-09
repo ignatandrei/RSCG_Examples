@@ -19,11 +19,15 @@ title: '52 Examples (6 from MSFT)',
     ),
   },
   {
-    title: 'Convenient - E-book and search',
+    title: 'Convenient - category and search',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        You can download the entire documentation as an e-book or search for keywords.
+        You can search for keywords( see upper right textbox).
+
+
+        Also, you have the items organized by <a href='docs/List-of-RSCG'>time</a> or by <a href='docs/rscg-examples'>category</a>
+
       </>
     ),
   },
