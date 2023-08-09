@@ -713,7 +713,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var template = await File.ReadAllTextAsync("RSCGList.txt");
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG }, member => member.Name);
+        var output = templateScriban.Render(
+            new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG },
+            member => member.Name);
         await File.WriteAllTextAsync(pathIndex, output);
         //now the mermaid 
         
@@ -742,13 +744,16 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
                 Name= it.Generator?.Name??"",
                 Link= "https://ignatandrei.github.io/RSCG_Examples/v2/docs/"+it.GeneratorKey,
                 NuGet=it.Generator?.NugetFirst??"",
+                Source=it.Generator?.Source??"",
+                Category=(it.GeneratorData?.Category??Category.None).ToString(),
+                AddedOn=(it.generatedDate.ToString("s"))
             }).ToArray(),
         };
-        var textJson = System.Text.Json.JsonSerializer.Serialize(jsonObj,new JsonSerializerOptions()
+        var textJson =JsonSerializer.Serialize(jsonObj,new JsonSerializerOptions()
         {
             WriteIndented = true,
         });
-        var jsonPath = Path.Combine(pathDocusaurus, "static", "RSCG.json");
+        var jsonPath = Path.Combine(pathDocusaurus, "static","exports","RSCG.json");
         await File.WriteAllTextAsync(jsonPath, textJson); 
         return true;
     }

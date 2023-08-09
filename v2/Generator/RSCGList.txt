@@ -9,14 +9,17 @@ slug: /List-of-RSCG
 
 This is the list of {{ nr }} ( {{nrMSFT}} from Microsoft) RSCG with examples 
 
+[See as json](/exports/RSCG.json)
+
+
 {{~ 
 inDescOrder =  all  | array.sort "ReverseNr"
 ~}} 
 
-| No        | Name  | Date |
-| --------- | ----- | ---- |
+| No        | Name  | Date | Category |
+| --------- | ----- | ---- | -------- |  
 {{~ for desc in inDescOrder ~}} 
-|{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|{{desc.generatedDate  | date.to_string '%F => %d %B %Y' }} |
+|{{desc.Nr}}|[{{desc.Generator.Name}}](/docs/{{desc.Generator.Name}})|{{desc.generatedDate  | date.to_string '%F => %d %B %Y' }} | {{desc.GeneratorData.Category}} |
 {{~ end ~}}
 
 ## Created by Microsoft
