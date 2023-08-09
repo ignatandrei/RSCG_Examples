@@ -214,6 +214,9 @@ Some of these libraries have multiple ways of achieving the same result, but to 
 generating Excel from objects
 
 
+does not work with DateTime
+
+
 :::
 
 ## How to use

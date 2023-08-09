@@ -714,8 +714,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         var output = templateScriban.Render(new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG }, member => member.Name);
-        await File.WriteAllTextAsync(pathIndex, output);        
+        await File.WriteAllTextAsync(pathIndex, output);
         //now the mermaid 
+        
         var templateMermaidText = await File.ReadAllTextAsync("RSCGListMermaid.txt");
         var templateMermaid = Scriban.Template.Parse(templateMermaidText)  ;
         var categs = _AllDescriptions
@@ -727,12 +728,28 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var categDict=all
             .GroupBy(it=> (it.GeneratorData?.Category ?? Category.None).ToString())
             .ToDictionary(it=>it.Key,it=>it.ToArray());
-
+        //this.MicrosoftRSCG
         var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all,categDict}, 
             memberRenamer:(MemberInfo mi)=> mi.Name);
         var pathIndexMermaid = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples", "index.md");
         await File.WriteAllTextAsync(pathIndexMermaid, outputMermaid);
-
+        var jsonObj = new
+        {
+            CodeSource = "https://github.com/ignatandrei/RSCG_Examples",
+            Site= "https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+            All= _AllDescriptions.Select(it =>
+            new {
+                Name= it.Generator?.Name??"",
+                Link= "https://ignatandrei.github.io/RSCG_Examples/v2/docs/"+it.GeneratorKey,
+                NuGet=it.Generator?.NugetFirst??"",
+            }).ToArray(),
+        };
+        var textJson = System.Text.Json.JsonSerializer.Serialize(jsonObj,new JsonSerializerOptions()
+        {
+            WriteIndented = true,
+        });
+        var jsonPath = Path.Combine(pathDocusaurus, "static", "RSCG.json");
+        await File.WriteAllTextAsync(jsonPath, textJson); 
         return true;
     }
 
