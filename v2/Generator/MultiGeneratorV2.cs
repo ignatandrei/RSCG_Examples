@@ -173,10 +173,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_Static",before.PutCategory(Category.EnhancementClass) },
             {"CommunityToolkit.Mvvm",before.PutCategory(Category.EnhancementClass) },
             {"RSCG_AMS",before.PutCategory(Category.EnhancementProject) },
-            {"AutoDeconstruct",before.PutCategory(Category.EnhancementClass) },
+            {"AutoDeconstruct",before.PutCategory(Category.Constructor) },
             {"System.Runtime.InteropServices",before.PutCategory(Category.EnhancementClass) },
-            {"QuickConstructor",before.PutCategory(Category.EnhancementClass) },
-            {"AutoCtor",before.PutCategory(Category.EnhancementClass) },
+            {"QuickConstructor",before.PutCategory(Category.Constructor) },
+            {"AutoCtor",before.PutCategory(Category.Constructor) },
             { "dunet",before.PutCategory(Category.FunctionalProgramming)},
             {"Vogen",before.PutCategory(Category.PrimitiveObsession) },
             {"RazorBlade",before.PutCategory(Category.Templating) },
@@ -187,7 +187,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_FunctionsWithDI",before.PutCategory(Category.EnhancementProject) },
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",before.PutCategory(Category.Templating) },
             {"Rocks" ,before.PutCategory(Category.Tests)},
-            {"mapperly",before.PutCategory(Category.EnhancementProject) },
+            {"mapperly",before.PutCategory(Category.Mapper) },
             {"Podimo.ConstEmbed",before.PutCategory(Category.FilesToCode) },
             {"EmbeddingResourceCSharp",before.PutCategory(Category.FilesToCode) },
             {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
@@ -208,7 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"spreadcheetah" ,  new(true,new(2023,8,13),Category.Templating)},
             {"zomp" ,  new(true,new(2023,8,14),Category.EnhancementClass)},
             {"IDisp", new(true,new(2023,8,15),Category.EnhancementClass)},
-            {"NextGenMapper" , new(true,new(2023,8,16),Category.EnhancementProject)},
+            {"NextGenMapper" , new(true,new(2023,8,16),Category.Mapper)},
             {"Injectio" , new(true,new(2023,8,17),Category.DependencyInjection)},
             {"PropChange", new(true,new(2023,8,18), Category.EnhancementClass)},
             {"Strongly", new(true,new(2023,8,19), Category.PrimitiveObsession)},
@@ -723,7 +723,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             .Distinct()
             .Select(it=>it.ToString())
             .OrderBy(it=>it).ToArray();
-        var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all= _AllDescriptions },
+        var all = _AllDescriptions.OrderBy(it => (it.GeneratorData?.Category ?? Category.None).ToString());
+        var categDict=_AllDescriptions
+            .GroupBy(it=> (it.GeneratorData?.Category ?? Category.None).ToString())
+            .ToDictionary(it=>it.Key,it=>it.ToArray());
+
+        var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all,categDict }, 
             memberRenamer:(MemberInfo mi)=> mi.Name);
         var pathIndexMermaid = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples", "index.md");
         await File.WriteAllTextAsync(pathIndexMermaid, outputMermaid);

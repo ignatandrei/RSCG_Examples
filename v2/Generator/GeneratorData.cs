@@ -8,8 +8,8 @@ public record GeneratorData(bool show,DateTime dtStart)
     public Category Category { get; set; }
     public GeneratorData PutCategory(Category category)
     {
-        this.Category = category;
-        return this;
+        var cat=new GeneratorData(show,dtStart,category);        
+        return cat;
     }
     public string DateString
     {
@@ -24,7 +24,9 @@ public enum Category
 {
     None=0,
     EnhancementProject,
+    Constructor,
     EnhancementClass ,
+    Mapper,
     DependencyInjection,
     FilesToCode,
     FunctionalProgramming,

@@ -9,11 +9,14 @@ import DocCardList from '@theme/DocCardList';
 
 [See time based list](/docs/List-of-RSCG)
 
+{{categDict.size}}
+
 ```mermaid 
 flowchart LR;
 
 {{~ for rscg in all ~}}
-    {{ rscg.GeneratorData.Category }}--> {{rscg.Generator.Name}}
+
+    {{ rscg.GeneratorData.Category }}--> {{rscg.Generator.Name}}(({{rscg.Generator.Name}}))
 {{~ end ~}}
    
 ```
