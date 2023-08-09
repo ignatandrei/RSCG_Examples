@@ -1,0 +1,266 @@
+{
+  "CodeSource": "https://github.com/ignatandrei/RSCG_Examples",
+  "Site": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+  "All": [
+    {
+      "Name": "ThisAssembly",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly",
+      "NuGet": "https://www.nuget.org/packages/ThisAssembly"
+    },
+    {
+      "Name": "RSCG_TimeBombComment",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment",
+      "NuGet": "https://www.nuget.org/packages/RSCG_TimeBombComment/"
+    },
+    {
+      "Name": "System.Text.Json",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json",
+      "NuGet": "https://www.nuget.org/packages/System.Text.Json/"
+    },
+    {
+      "Name": "RSCG_Utils",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils",
+      "NuGet": "https://www.nuget.org/packages/rscgutils"
+    },
+    {
+      "Name": "System.Text.RegularExpressions",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions",
+      "NuGet": "https://www.nuget.org/packages/System.Text.RegularExpressions/"
+    },
+    {
+      "Name": "SkinnyControllersCommon",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon",
+      "NuGet": "https://www.nuget.org/packages/SkinnyControllersCommon"
+    },
+    {
+      "Name": "Microsoft.Extensions.Logging",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.Extensions.Logging/"
+    },
+    {
+      "Name": "RSCG_Static",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static",
+      "NuGet": "https://www.nuget.org/packages/RSCG_Static/"
+    },
+    {
+      "Name": "CommunityToolkit.Mvvm",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm",
+      "NuGet": "https://www.nuget.org/packages/CommunityToolkit.Mvvm"
+    },
+    {
+      "Name": "RSCG_AMS",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS",
+      "NuGet": "https://www.nuget.org/packages/RSCG_AMS/"
+    },
+    {
+      "Name": "AutoDeconstruct",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct",
+      "NuGet": "https://www.nuget.org/packages/AutoDeconstruct"
+    },
+    {
+      "Name": "System.Runtime.InteropServices",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices",
+      "NuGet": "https://www.nuget.org/packages/System.Runtime.InteropServices/"
+    },
+    {
+      "Name": "QuickConstructor",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor",
+      "NuGet": "https://www.nuget.org/packages/QuickConstructor"
+    },
+    {
+      "Name": "AutoCtor",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor",
+      "NuGet": "https://www.nuget.org/packages/AutoCtor/"
+    },
+    {
+      "Name": "dunet",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet",
+      "NuGet": "https://www.nuget.org/packages/dunet/"
+    },
+    {
+      "Name": "Vogen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen",
+      "NuGet": "https://www.nuget.org/packages/Vogen/"
+    },
+    {
+      "Name": "RazorBlade",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade",
+      "NuGet": "https://www.nuget.org/packages/RazorBlade/"
+    },
+    {
+      "Name": "PartiallyApplied",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied",
+      "NuGet": "https://www.nuget.org/packages/PartiallyApplied/"
+    },
+    {
+      "Name": "ApparatusAOT",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Apparatus.AOT.Reflection",
+      "NuGet": "https://www.nuget.org/packages/Apparatus.AOT.Reflection/"
+    },
+    {
+      "Name": "NetEscapades.EnumGenerators",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators",
+      "NuGet": "https://www.nuget.org/packages/NetEscapades.EnumGenerators/"
+    },
+    {
+      "Name": "Microsoft.Interop.JavaScript.JSImportGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator",
+      "NuGet": ""
+    },
+    {
+      "Name": "RSCG_FunctionsWithDI",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI",
+      "NuGet": "https://www.nuget.org/packages/RSCG_FunctionsWithDI/"
+    },
+    {
+      "Name": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators",
+      "NuGet": ""
+    },
+    {
+      "Name": "Rocks",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks",
+      "NuGet": "https://www.nuget.org/packages/Rocks/"
+    },
+    {
+      "Name": "mapperly",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly",
+      "NuGet": "https://www.nuget.org/packages/Riok.Mapperly/"
+    },
+    {
+      "Name": "Podimo.ConstEmbed",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed",
+      "NuGet": "https://www.nuget.org/packages/Podimo.ConstEmbed/"
+    },
+    {
+      "Name": "EmbedResourceCSharp",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbeddingResourceCSharp",
+      "NuGet": "https://www.nuget.org/packages/EmbedResourceCSharp/"
+    },
+    {
+      "Name": "Lombok.NET",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET",
+      "NuGet": "https://www.nuget.org/packages/Lombok.NET/"
+    },
+    {
+      "Name": "Gedaq",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq",
+      "NuGet": "https://www.nuget.org/packages/Gedaq/"
+    },
+    {
+      "Name": "Refit",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit",
+      "NuGet": "https://www.nuget.org/packages/Refit/"
+    },
+    {
+      "Name": "MorrisMoxy",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy",
+      "NuGet": "https://www.nuget.org/packages/Morris.Moxy/"
+    },
+    {
+      "Name": "Mediator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator",
+      "NuGet": "https://www.nuget.org/packages/Mediator.SourceGenerator"
+    },
+    {
+      "Name": "Matryoshki",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki",
+      "NuGet": "https://www.nuget.org/packages/Matryoshki/"
+    },
+    {
+      "Name": "MemoryPack",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack",
+      "NuGet": "https://www.nuget.org/packages/MemoryPack/"
+    },
+    {
+      "Name": "DeeDee",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee",
+      "NuGet": "https://www.nuget.org/packages/DeeDee/"
+    },
+    {
+      "Name": "ProxyGen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen",
+      "NuGet": "https://www.nuget.org/packages/ProxyGen.net/"
+    },
+    {
+      "Name": "AutoRegisterInject",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoRegisterInject",
+      "NuGet": "https://www.nuget.org/packages/AutoRegisterInject/"
+    },
+    {
+      "Name": "EnumClass",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass",
+      "NuGet": "https://www.nuget.org/packages/EnumClass.Generator/"
+    },
+    {
+      "Name": "Breezy",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy",
+      "NuGet": "https://www.nuget.org/packages/Breezy.SourceGenerator/"
+    },
+    {
+      "Name": "FastGenericNew",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew",
+      "NuGet": "https://www.nuget.org/packages/FastGenericNew.SourceGenerator/"
+    },
+    {
+      "Name": "GeneratorEquals",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals",
+      "NuGet": "https://www.nuget.org/packages/Generator.Equals/"
+    },
+    {
+      "Name": "Immutype",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype",
+      "NuGet": "https://www.nuget.org/packages/Immutype/"
+    },
+    {
+      "Name": "spreadcheetah",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah",
+      "NuGet": "https://www.nuget.org/packages/spreadcheetah/"
+    },
+    {
+      "Name": "SyncMethodGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/zomp",
+      "NuGet": "https://www.nuget.org/packages/Zomp.SyncMethodGenerator/"
+    },
+    {
+      "Name": "BenutomoAutomaticDisposeImplSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisp",
+      "NuGet": "https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/"
+    },
+    {
+      "Name": "NextGenMapper",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper",
+      "NuGet": "https://www.nuget.org/packages/NextGenMapper/"
+    },
+    {
+      "Name": "Injectio",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio",
+      "NuGet": "https://www.nuget.org/packages/Injectio/"
+    },
+    {
+      "Name": "PropertyChangedSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropChange",
+      "NuGet": "https://www.nuget.org/packages/PropertyChanged.SourceGenerator/"
+    },
+    {
+      "Name": "Strongly",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly",
+      "NuGet": "https://www.nuget.org/packages/Strongly/"
+    },
+    {
+      "Name": "Ridge",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge",
+      "NuGet": "https://www.nuget.org/packages/Ridge/"
+    },
+    {
+      "Name": "OneOf",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf",
+      "NuGet": "https://www.nuget.org/packages/OneOf.SourceGenerator"
+    },
+    {
+      "Name": "Gobie",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie",
+      "NuGet": "https://www.nuget.org/packages/Gobie/"
+    }
+  ]
+}
