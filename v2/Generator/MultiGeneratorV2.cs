@@ -758,7 +758,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         });
         var jsonPath = Path.Combine(pathDocusaurus, "static","exports");
         await File.WriteAllTextAsync(Path.Combine(jsonPath, "RSCG.json"), textJson);
-        var excel = allRSCG.ToExcel();
+        var excel = allRSCG.ToExcel(a =>
+        {
+            a.SheetName("RSCG");
+            a.ColumnFilter(x => true);
+        });
         await File.WriteAllBytesAsync(Path.Combine(jsonPath,"RSCG.xlsx"), excel);
 
         return true;

@@ -9,7 +9,7 @@ slug: /List-of-RSCG
 
 This is the list of {{ nr }} ( {{nrMSFT}} from Microsoft) RSCG with examples 
 
-[See as json](/exports/RSCG.json)
+[See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
 
 {{~ 
