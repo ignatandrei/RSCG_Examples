@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 52 RSCG by category 
-description: 52 RSCG by category 
+title: 53 RSCG by category 
+description: 53 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -10,11 +10,16 @@ import DocCardList from '@theme/DocCardList';
 [See time based list](/docs/List-of-RSCG)
 
 <details>
-  <summary>API =>examples:1</summary>
+  <summary>API =>examples:2</summary>
         
 
 
 [Refit](/docs/Refit)
+
+        
+
+
+[RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 </details>
     
@@ -324,6 +329,8 @@ flowchart LR;
 
 
     API--> Refit((Refit))
+
+    API--> RSCG_WebAPIExports((RSCG_WebAPIExports))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 

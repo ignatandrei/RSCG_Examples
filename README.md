@@ -1,4 +1,4 @@
-# RSCG - 52 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 53 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 31 in queue / 95 that have problems
  
 If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
@@ -13,8 +13,24 @@ If you want to help, please let me know ( again, create an issue).
 
 ## Content 
 
-Those are the 52 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 53 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 53. [RSCG_WebAPIExports](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports) generated on : 2023-08-23 => 23 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Andrei Ignat
+
+Add Excel export to your WebAPI 
+
+Nuget: [https://www.nuget.org/packages/RSCG_WebAPIExports/](https://www.nuget.org/packages/RSCG_WebAPIExports/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports)
+
+Source: [https://github.com/ignatandrei/RSCG_WebAPIExports/](https://github.com/ignatandrei/RSCG_WebAPIExports/)
+
+</details>
+
 ### 52. [Gobie](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie) generated on : 2023-08-22 => 22 August 2023
 <details>
   <summary>Expand</summary>

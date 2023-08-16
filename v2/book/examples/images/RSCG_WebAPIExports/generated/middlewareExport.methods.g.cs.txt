@@ -1,0 +1,8 @@
+namespace WebApiExportToFile;
+
+public static partial class Extensions
+{
+   static partial  void AddReturnTypesFromGenerator(){
+       MiddlewareExportToFile.AddReturnType(typeof(RSCG_WebAPIExportsDemo.WeatherForecast[])); 
+   }
+}

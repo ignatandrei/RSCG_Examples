@@ -40,11 +40,11 @@ The code that is written is
 namespace TestBlazor
 {
     #line hidden
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
+    using global::System;
+    using global::System.Collections.Generic;
+    using global::System.Linq;
+    using global::System.Threading.Tasks;
+    using global::Microsoft.AspNetCore.Components;
 #nullable restore
 #line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft\src\TestBlazor\_Imports.razor"
 using System.Net.Http;

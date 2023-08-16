@@ -216,6 +216,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Ridge" , new(true,new(2023,8,20),Category.Tests)},
             {"OneOf", new(true,new(2023,8,21), Category.FunctionalProgramming)},
             {"Gobie" , new(true,new(2023,8,22),Category.Templating)},
+            {"RSCG_WebAPIExports", new(true,new(2023,8,23),Category.API)},
         };
           
         //foreach (var v in generators)

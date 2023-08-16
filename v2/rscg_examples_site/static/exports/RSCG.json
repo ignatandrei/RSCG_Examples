@@ -417,6 +417,14 @@
       "Source": "https://github.com/GobieGenerator/Gobie/",
       "Category": "Templating",
       "AddedOn": "2023-08-22T00:00:00"
+    },
+    {
+      "Name": "RSCG_WebAPIExports",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports",
+      "NuGet": "https://www.nuget.org/packages/RSCG_WebAPIExports/",
+      "Source": "https://github.com/ignatandrei/RSCG_WebAPIExports/",
+      "Category": "API",
+      "AddedOn": "2023-08-23T00:00:00"
     }
   ]
 }
