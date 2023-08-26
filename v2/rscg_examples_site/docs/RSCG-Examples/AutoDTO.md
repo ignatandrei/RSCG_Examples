@@ -266,6 +266,22 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\obj\GX\AutoDto.SourceGen\AutoDto.SourceGen.DtoFromBlGenerator\DepartmentDTO.g.cs" label="DepartmentDTO.g.cs" >
+
+
+```csharp showLineNumbers 
+namespace AutoDTODemo;
+
+public partial class DepartmentDTO
+{
+public System.Int32 ID { get; set; }
+public System.String Name { get; set; }
+}
+```
+
+  </TabItem>
+
+
 </Tabs>
 
 ## Usefull
