@@ -1,0 +1,1 @@
+Auto copy properties from bl mode to dto

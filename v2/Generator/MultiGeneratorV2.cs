@@ -12,10 +12,12 @@ using System.Text;
 namespace Generator;
 public class MultiGeneratorV2 
 {
+    const string tooComplicated = "too complicated for me, need help";
     const string old = "old ISourceGenerator";
     const string archived = "archived";
     const string inspirational = "not having nuget, but having IIncrementalGenerator";
     const string noReadMe = "no readme";
+    const string later = "later";
     NoExample[] rscgNoExamples = new NoExample[] {
 
 new("AutoEmbed https://github.com/chsienki/AutoEmbed                           ",old)
@@ -32,13 +34,13 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WrapperValueObject https://github.com/martinothamar/WrapperValueObject","not maintained as in readme")
 ,new("ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator","seems complicated with output file")
 ,new("TypealizR https://github.com/earloc/TypealizR","depends on Microsoft.Extensions.Localization")
-,new("StrongInject https://github.com/YairHalberstadt/stronginject/","too complicated")
+,new("StrongInject https://github.com/YairHalberstadt/stronginject/",tooComplicated)
 ,new("DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator","example with MAUI")
 ,new("Intellenum https://github.com/SteveDunn/Intellenum","not understand how to use ")
 ,new("Tinyhand https://github.com/archi-Doc/Tinyhand","tried, need documentation")
-,new("Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling","too complicated, record may take care")
-,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator","too complicated for me")
-,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper","too complicated for me")
+,new("Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",tooComplicated)
+,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",tooComplicated)
+,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper",tooComplicated)
 ,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService",old)
 ,new ("AnyOf https://github.com/StefH/AnyOf",old)
 ,new ("AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable",old)
@@ -75,7 +77,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator",old)
 ,new ("GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools",old)
 ,new ("GrpcInjection https://github.com/juniorporfirio/grpcinjection",old)
-,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server","interesting, too complicated")
+,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server",tooComplicated)
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , need help")
 ,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","cannot reproduce")
@@ -91,7 +93,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
 ,new ("lambdajection https://github.com/cythral/lambdajection",old)
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
-,new ("LinqGen https://github.com/cathei/LinqGen","Linq Generator, too complicated for me")
+,new ("LinqGen https://github.com/cathei/LinqGen",tooComplicated)
 ,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
 ,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",old)
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
@@ -105,7 +107,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator",old)
 ,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator",old)
 ,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor",old)
-,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen"," depends on WPF, too complicated for me")
+,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen",tooComplicated)
 ,new ("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes",old)
 ,new ("Navitski.Crystalized https://github.com/AlexNav73/CoreCraft"," JSON to classes. Waiting for .NET 8 to see if MSFT has done natively")
 ,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface",old)
@@ -114,7 +116,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator",old)
 ,new ("PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator",old)
 ,new ("ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator",old)
-,new ("Pure.DI https://github.com/DevTeam/Pure.DI","Object Graph implementation, too complicated")
+,new ("Pure.DI https://github.com/DevTeam/Pure.DI",tooComplicated)
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
 ,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," resource manager to classes. Why I cannot have the resx generate classes? ")
 ,new ("ScenarioTests https://github.com/koenbeuk/ScenarioTests",old)
@@ -141,9 +143,16 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator","roo complicated")
 ,new ("TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator",noReadMe)
 ,new ("ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator",old)
-,new ("ValueLink https://github.com/archi-Doc/ValueLink","too complicated")
+,new ("ValueLink https://github.com/archi-Doc/ValueLink",tooComplicated)
 ,new ("ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator",old)
-,new ("Visor https://github.com/Tinkoff/Visor","too complicated"),
+,new ("Visor https://github.com/Tinkoff/Visor",tooComplicated)
+,new("PolySharp https://github.com/Sergio0694/PolySharp",tooComplicated)
+,new ("SafeRouting, https://github.com/daviddotcs/safe-routing",later)
+,new ("Figgle, https://github.com/drewnoakes/figgle",old)
+,new ("Protobuf Source Generator,https://github.com/ladeak/ProtobufSourceGenerator",later)
+,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
+,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
+
 
 
 
@@ -217,6 +226,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"OneOf", new(true,new(2023,8,21), Category.FunctionalProgramming)},
             {"Gobie" , new(true,new(2023,8,22),Category.Templating)},
             {"RSCG_WebAPIExports", new(true,new(2023,8,23),Category.API)},
+            {"AutoDTO",new (true,new (2023,8,28),Category.Mapper) }
         };
           
         //foreach (var v in generators)

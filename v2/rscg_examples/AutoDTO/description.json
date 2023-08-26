@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"AutoDTO",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoDTO/"
+      ],
+      "link":"https://github.com/Ohorodnikov/AutoDto",
+      "author":"Ohorodnikov",
+      "source":"https://github.com/Ohorodnikov/AutoDto"
+   },
+   "data":{
+      "goodFor":["Generate DTO classes from business/ef classes"],
+      "csprojDemo":"AutoDTODemo.csproj",
+      "csFiles":["Program.cs","Department.cs","DepartmentDTO.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

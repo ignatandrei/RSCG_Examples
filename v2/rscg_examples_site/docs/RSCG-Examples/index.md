@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 53 RSCG by category 
-description: 53 RSCG by category 
+title: 54 RSCG by category 
+description: 54 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -257,7 +257,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:2</summary>
+  <summary>Mapper =>examples:3</summary>
         
 
 
@@ -267,6 +267,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [NextGenMapper](/docs/NextGenMapper)
+
+        
+
+
+[AutoDTO](/docs/AutoDTO)
 
 </details>
     
@@ -417,6 +422,8 @@ flowchart LR;
     Mapper--> mapperly((mapperly))
 
     Mapper--> NextGenMapper((NextGenMapper))
+
+    Mapper--> AutoDTO((AutoDTO))
 
     PrimitiveObsession--> Vogen((Vogen))
 

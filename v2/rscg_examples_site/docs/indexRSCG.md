@@ -5,9 +5,9 @@ description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
 
-## 53 RSCG with examples in descending chronological order
+## 54 RSCG with examples in descending chronological order
 
-This is the list of 53 ( 6 from Microsoft) RSCG with examples 
+This is the list of 54 ( 6 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -15,6 +15,7 @@ This is the list of 53 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|54|[AutoDTO](/docs/AutoDTO)|2023-08-28 => 28 August 2023 | Mapper |
 |53|[RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)|2023-08-23 => 23 August 2023 | API |
 |52|[Gobie](/docs/Gobie)|2023-08-22 => 22 August 2023 | Templating |
 |51|[OneOf](/docs/OneOf)|2023-08-21 => 21 August 2023 | FunctionalProgramming |

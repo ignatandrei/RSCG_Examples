@@ -96,6 +96,9 @@ CheatSheet for RSCG: https://notanaverageman.github.io/2020/12/07/cs-source-gene
 
 Pawel Gerr on RSCG: https://www.thinktecture.com/en/net/roslyn-source-generators-introduction/
 
+Unity: https://docs.unity3d.com/Packages/com.unity.roslyn@0.2/manual/index.html
+
+
 
 
 
