@@ -15,7 +15,7 @@ This is the list of 54 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|54|[AutoDTO](/docs/AutoDTO)|2023-08-28 => 28 August 2023 | Mapper |
+|54|[AutoDTO](/docs/AutoDTO)|2023-08-24 => 24 August 2023 | Mapper |
 |53|[RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)|2023-08-23 => 23 August 2023 | API |
 |52|[Gobie](/docs/Gobie)|2023-08-22 => 22 August 2023 | Templating |
 |51|[OneOf](/docs/OneOf)|2023-08-21 => 21 August 2023 | FunctionalProgramming |

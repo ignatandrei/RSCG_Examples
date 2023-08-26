@@ -15,7 +15,7 @@ If you want to help, please let me know ( again, create an issue).
 
 Those are the 54 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
-### 54. [AutoDTO](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO) generated on : 2023-08-28 => 28 August 2023
+### 54. [AutoDTO](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO) generated on : 2023-08-24 => 24 August 2023
 <details>
   <summary>Expand</summary>
 Author: Ohorodnikov

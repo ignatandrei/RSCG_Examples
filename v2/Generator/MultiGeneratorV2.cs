@@ -226,7 +226,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"OneOf", new(true,new(2023,8,21), Category.FunctionalProgramming)},
             {"Gobie" , new(true,new(2023,8,22),Category.Templating)},
             {"RSCG_WebAPIExports", new(true,new(2023,8,23),Category.API)},
-            {"AutoDTO",new (true,new (2023,8,28),Category.Mapper) }
+            {"AutoDTO",new (true,new (2023,8,24),Category.Mapper) }
         };
           
         //foreach (var v in generators)
@@ -786,9 +786,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         var x = 0;
         x++;
-        if(x>2)
+        //if(x>2)
         await Task.WhenAll(_AllDescriptions
-            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < -5)
+            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 5)
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }
