@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 54 RSCG by category 
-description: 54 RSCG by category 
+title: 55 RSCG by category 
+description: 55 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -71,7 +71,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:20</summary>
+  <summary>EnhancementClass =>examples:21</summary>
         
 
 
@@ -171,6 +171,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+
+        
+
+
+[M31.FluentAPI](/docs/M31.FluentAPI)
 
 </details>
     
@@ -390,6 +395,8 @@ flowchart LR;
     EnhancementClass--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 
     EnhancementClass--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
+
+    EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
