@@ -153,9 +153,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
 ,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
 , new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later)
-,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",later)
-,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",later)
-,new("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI", later)
+,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",old)
+,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", later)
 
 
@@ -230,7 +229,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"OneOf", new(true,new(2023,8,21), Category.FunctionalProgramming)},
             {"Gobie" , new(true,new(2023,8,22),Category.Templating)},
             {"RSCG_WebAPIExports", new(true,new(2023,8,23),Category.API)},
-            {"AutoDTO",new (true,new (2023,8,24),Category.Mapper) }
+            {"AutoDTO",new (true,new (2023,8,24),Category.Mapper) },
+            {"M31FluentAPI",new(true,new (2023,8,25),Category.EnhancementClass)},
         };
           
         //foreach (var v in generators)

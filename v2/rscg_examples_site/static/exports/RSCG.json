@@ -433,6 +433,14 @@
       "Source": "https://github.com/Ohorodnikov/AutoDto",
       "Category": "Mapper",
       "AddedOn": "2023-08-24T00:00:00"
+    },
+    {
+      "Name": "M31.FluentAPI",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31FluentAPI",
+      "NuGet": "https://www.nuget.org/packages/M31.FluentAPI/",
+      "Source": "https://github.com/m31coding/M31.FluentAPI",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-08-25T00:00:00"
     }
   ]
 }
