@@ -213,6 +213,22 @@ partial class Department
 ```
   </TabItem>
 
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MorrisMoxy\src\MorrisMoxyDemo\mixin\IDName.mixin" label="IDName.mixin" >
+
+  This is the use of **MorrisMoxy** in *IDName.mixin*
+
+```csharp showLineNumbers 
+namespace {{ moxy.Class.Namespace }}
+{
+  partial class {{ moxy.Class.Name}}
+  {
+    public string Name {get;set;}
+    public long  ID { get; set; }
+  }
+}
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files

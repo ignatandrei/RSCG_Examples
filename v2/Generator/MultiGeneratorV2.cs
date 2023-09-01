@@ -152,7 +152,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Protobuf Source Generator,https://github.com/ladeak/ProtobufSourceGenerator",later)
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
 ,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
-
+, new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later)
+,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",later)
+,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",later)
+,new("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI", later)
+,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", later)
 
 
 
