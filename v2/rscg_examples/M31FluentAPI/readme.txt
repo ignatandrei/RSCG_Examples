@@ -41,7 +41,7 @@ The code can then be found in the `obj/Generated` folder.
 
 # Usage
 
-If you use this library for the first time I recommend that you read the storybook: [M31.FluentApi.Storybook.csproj>Program.cs](src/M31.FluentApi.Storybook/Program.cs).
+If you use this library for the first time I recommend that you read the storybook: Program.cs.
 
 Here is an example that uses all of the available attributes:
 
