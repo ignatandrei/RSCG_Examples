@@ -1,7 +1,6 @@
 # RSCG - 55 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
-39 in queue / 97 that have problems
- 
-If you want to see examples , please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
+
+If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
 
@@ -9,7 +8,7 @@ If you want to see by category, please click ***[category](https://ignatandrei.g
 
 If you have a Roslyn Source Code Generator, please create an issue.
 
-If you want to help, create an issue and see below .
+If you want to help, see below .
 
 ## Content 
 
