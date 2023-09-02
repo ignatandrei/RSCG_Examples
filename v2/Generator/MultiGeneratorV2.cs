@@ -963,7 +963,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
                 nr = _AllDescriptions.Length,
                 all = _AllDescriptions,
                 MSFT_RSCG = MicrosoftRSCG,
-                MSFT_RSCG_NR = MicrosoftRSCG.Length
+                MSFT_RSCG_NR = MicrosoftRSCG.Length,
             },
             member => member.Name); 
         await File.WriteAllTextAsync(readMe, output);

@@ -9,7 +9,7 @@ If you want to see by category, please click ***[category](https://ignatandrei.g
 
 If you have a Roslyn Source Code Generator, please create an issue.
 
-If you want to help, please let me know ( again, create an issue).
+If you want to help, create an issue and see below .
 
 ## Content 
 
@@ -48,7 +48,7 @@ You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that M
 {{~ end ~}}
 
 
-## To be tested {{nrNoExamples-nrOld}}
+## Contributors Welcome for those
 
 Please help with those by providing a simple example :
 
@@ -64,6 +64,9 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title={{descNoExample.Na
 
 ## Do not want to test {{nrOld}}
 
+<details>
+  <summary>Expand</summary>
+
 Those examples are made with old ISourceGenerator or have other problems 
 
 {{~ for descNoExample in rscgNoExamplesOld ~}} 
@@ -75,13 +78,15 @@ Why I have not tested : {{descNoExample.why}}
 
 {{~ end ~}}
 
-
+</details>
 
 ## V1: Old examples made with ISourceGenerator 
 
 For historical reasons, I will keep the old examples in a separate folder - see  https://github.com/ignatandrei/RSCG_Examples/tree/main/v1  folder.
 
 This is the list 
+<details>
+  <summary>Expand</summary>
 
 | No        | Name  |
 | --------- | ----- |
@@ -89,13 +94,5 @@ This is the list
 |{{for.index+1}}| [{{descOld.Generator.Name}}]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-{{descOld.Nr+1}}--{{descOld.Generator.NameForBookmark}}) |"
 {{~ end ~}}
 
+</details>
 
-## Want to help ? 
-
-https://github.com/ignatandrei/RSCG_Examples/labels/good%20first%20issue
-
-## Contributors welcome
-
-If you are an author of a Source Generator, please make an issue to contact you
-
-Also, if you think of better organizing of code, please make an issue to contact you

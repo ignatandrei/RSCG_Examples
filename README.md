@@ -9,7 +9,7 @@ If you want to see by category, please click ***[category](https://ignatandrei.g
 
 If you have a Roslyn Source Code Generator, please create an issue.
 
-If you want to help, please let me know ( again, create an issue).
+If you want to help, create an issue and see below .
 
 ## Content 
 
@@ -972,7 +972,7 @@ You can find also the 6 from Roslyn Source Code Generators that Microsoft wrote 
 |9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator |
 
 
-## To be tested 39
+## Contributors Welcome for those
 
 Please help with those by providing a simple example :
 
@@ -1042,7 +1042,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyProperty
 
 10) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
 
-Why I have not tested : later
+Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastEndpoints&body=https://github.com/FastEndpoints/FastEndpoints
 
@@ -1251,6 +1251,9 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WrapperValueObject
 
 
 ## Do not want to test 97
+
+<details>
+  <summary>Expand</summary>
 
 Those examples are made with old ISourceGenerator or have other problems 
 
@@ -1837,13 +1840,15 @@ Why I have not tested : old ISourceGenerator
 
 
 
-
+</details>
 
 ## V1: Old examples made with ISourceGenerator 
 
 For historical reasons, I will keep the old examples in a separate folder - see  https://github.com/ignatandrei/RSCG_Examples/tree/main/v1  folder.
 
 This is the list 
+<details>
+  <summary>Expand</summary>
 
 | No        | Name  |
 | --------- | ----- |
@@ -1871,13 +1876,5 @@ This is the list
 |22| [AOPMarkerCI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-22--aopmarkerci) |"
 |23| [BoilerplateFree]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-23--boilerplatefree) |"
 
+</details>
 
-## Want to help ? 
-
-https://github.com/ignatandrei/RSCG_Examples/labels/good%20first%20issue
-
-## Contributors welcome
-
-If you are an author of a Source Generator, please make an issue to contact you
-
-Also, if you think of better organizing of code, please make an issue to contact you

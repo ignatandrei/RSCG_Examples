@@ -51,3 +51,6 @@ Nr,Key,Source,Category
 50,Ridge, https://github.com/Melchy/Ridge,Tests
 51,OneOf, https://github.com/mcintyre321/OneOf,FunctionalProgramming
 52,Gobie, https://github.com/GobieGenerator/Gobie/,Templating
+53,RSCG_WebAPIExports, https://github.com/ignatandrei/RSCG_WebAPIExports/,API
+54,AutoDTO, https://github.com/Ohorodnikov/AutoDto,Mapper
+55,M31FluentAPI, https://github.com/m31coding/M31.FluentAPI,EnhancementClass
