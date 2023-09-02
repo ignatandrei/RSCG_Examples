@@ -1217,7 +1217,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tortuga.Shipwright
 
 35) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
-Why I have not tested : roo complicated
+Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
@@ -1250,7 +1250,7 @@ Why I have not tested : not maintained as in readme
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WrapperValueObject&body=https://github.com/martinothamar/WrapperValueObject
 
 
-## Do not want to test 97
+## Do not want to test 97 ( old ISourceGenerator )
 
 <details>
   <summary>Expand</summary>

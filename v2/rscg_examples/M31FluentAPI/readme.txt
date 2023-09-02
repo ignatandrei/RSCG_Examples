@@ -85,7 +85,7 @@ public class Student
  }
 ```
 
-![fluent-api-usage](media/fluent-api.gif)
+
 
 You may have a look at the generated code for this example: [CreateStudent.g.cs](src/M31.FluentApi.Tests/CodeGeneration/TestClasses/StudentClass/CreateStudent.g.cs). Note that if you use private members or properties with a private set accessor, as it is the case in this example, the generated code will use reflection in order to set the properties 'by force'.
 

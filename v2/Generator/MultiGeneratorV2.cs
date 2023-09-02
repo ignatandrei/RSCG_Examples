@@ -140,7 +140,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc",old)
 ,new ("ToString https://github.com/Burgyn/MMLib.ToString",old)
 ,new ("Transplator https://github.com/atifaziz/Transplator",old)
-,new ("TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator","roo complicated")
+,new ("TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator",tooComplicated)
 ,new ("TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator",noReadMe)
 ,new ("ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator",old)
 ,new ("ValueLink https://github.com/archi-Doc/ValueLink",tooComplicated)
@@ -233,7 +233,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"M31FluentAPI",new(true,new (2023,8,25),Category.EnhancementClass)},
         };
           
-        //foreach (var v in generators)
+        //foreach (var v in generators) 
         //{
         //    generators[v.Key] = (v.Key == "Microsoft.Interop.JavaScript.JSImportGenerator");
         //}

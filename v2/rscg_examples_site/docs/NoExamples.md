@@ -516,7 +516,7 @@ Why I have not put example: old ISourceGenerator
 
 128)TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator  
 
-Why I have not put example: roo complicated
+Why I have not put example: too complicated for me, need help
 
 129)TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator  
 

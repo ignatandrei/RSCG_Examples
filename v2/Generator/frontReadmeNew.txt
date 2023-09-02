@@ -62,7 +62,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title={{descNoExample.Na
 
 {{~ end ~}}
 
-## Do not want to test {{nrOld}}
+## Do not want to test {{nrOld}} ( old ISourceGenerator )
 
 <details>
   <summary>Expand</summary>
