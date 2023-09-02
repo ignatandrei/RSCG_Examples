@@ -87,7 +87,7 @@ public class Student
 
 
 
-You may have a look at the generated code for this example: [CreateStudent.g.cs](src/M31.FluentApi.Tests/CodeGeneration/TestClasses/StudentClass/CreateStudent.g.cs). Note that if you use private members or properties with a private set accessor, as it is the case in this example, the generated code will use reflection in order to set the properties 'by force'.
+You may have a look at the generated code for this example: CreateStudent.g.cs
 
 ## Attributes
 
@@ -132,7 +132,7 @@ Can be used instead of a `FluentMember` attribute if the decorated member is of 
     string withItem = "With{SingularName}",
     string withZeroItems = "WithZero{Name}")
 
-Can be used instead of a `FluentMember` attribute if the decorated member is a collection. This attribute generates methods for setting multiple items, one item and zero items. The supported collection types can be seen in the source file [CollectionInference.cs](src/M31.FluentApi.Generator/SourceGenerators/Collections/CollectionInference.cs). 
+Can be used instead of a `FluentMember` attribute if the decorated member is a collection. This attribute generates methods for setting multiple items, one item and zero items. The supported collection types can be seen in the source file CollectionInference.cs. 
 
 ---
 
