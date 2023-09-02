@@ -155,7 +155,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later)
 ,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",old)
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
-,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", later)
+,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
 
 
 
