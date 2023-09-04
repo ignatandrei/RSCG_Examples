@@ -1,4 +1,4 @@
-# RSCG - 55 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 56 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -12,8 +12,24 @@ If you want to help, see below .
 
 ## Content 
 
-Those are the 55 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 56 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 56. [Roozie.AutoInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface) generated on : 2023-08-26 => 26 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Alex Russak
+
+C# source generator to generate an interface for a class 
+
+Nuget: [https://www.nuget.org/packages/Roozie.AutoInterface/](https://www.nuget.org/packages/Roozie.AutoInterface/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface)
+
+Source: [https://github.com/AlexRussak/Roozie.AutoInterface](https://github.com/AlexRussak/Roozie.AutoInterface)
+
+</details>
+
 ### 55. [M31.FluentAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI) generated on : 2023-08-25 => 25 August 2023
 <details>
   <summary>Expand</summary>

@@ -441,6 +441,14 @@
       "Source": "https://github.com/m31coding/M31.FluentAPI",
       "Category": "EnhancementClass",
       "AddedOn": "2023-08-25T00:00:00"
+    },
+    {
+      "Name": "Roozie.AutoInterface",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface",
+      "NuGet": "https://www.nuget.org/packages/Roozie.AutoInterface/",
+      "Source": "https://github.com/AlexRussak/Roozie.AutoInterface",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-08-26T00:00:00"
     }
   ]
 }

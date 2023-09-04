@@ -231,6 +231,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_WebAPIExports", new(true,new(2023,8,23),Category.API)},
             {"AutoDTO",new (true,new (2023,8,24),Category.Mapper) },
             {"M31FluentAPI",new(true,new (2023,8,25),Category.EnhancementClass)},
+            {"Roozie.AutoInterface",new GeneratorData(true,new(2023,8,26),Category.EnhancementClass) },
+        
         };
           
         //foreach (var v in generators) 

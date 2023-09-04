@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Roozie.AutoInterface",
+      "nuget":[
+         "https://www.nuget.org/packages/Roozie.AutoInterface/"
+      ],
+      "link":"https://github.com/AlexRussak/Roozie.AutoInterface",
+      "author":"Alex Russak",
+      "source":"https://github.com/AlexRussak/Roozie.AutoInterface"
+   },
+   "data":{
+      "goodFor":["Generating interfaces from project"],
+      "csprojDemo":"Roozie.AutoInterfaceDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

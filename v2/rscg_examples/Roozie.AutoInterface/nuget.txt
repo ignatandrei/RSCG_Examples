@@ -1,0 +1,1 @@
+C# source generator to generate an interface for a class

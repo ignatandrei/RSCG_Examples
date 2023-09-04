@@ -54,3 +54,4 @@ Nr,Key,Source,Category
 53,RSCG_WebAPIExports, https://github.com/ignatandrei/RSCG_WebAPIExports/,API
 54,AutoDTO, https://github.com/Ohorodnikov/AutoDto,Mapper
 55,M31FluentAPI, https://github.com/m31coding/M31.FluentAPI,EnhancementClass
+56,Roozie.AutoInterface, https://github.com/AlexRussak/Roozie.AutoInterface,EnhancementClass

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 55 RSCG by category 
-description: 55 RSCG by category 
+title: 56 RSCG by category 
+description: 56 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -71,7 +71,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:21</summary>
+  <summary>EnhancementClass =>examples:22</summary>
         
 
 
@@ -176,6 +176,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [M31.FluentAPI](/docs/M31.FluentAPI)
+
+        
+
+
+[Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 </details>
     
@@ -397,6 +402,8 @@ flowchart LR;
     EnhancementClass--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
 
     EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
+
+    EnhancementClass--> Roozie.AutoInterface((Roozie.AutoInterface))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
