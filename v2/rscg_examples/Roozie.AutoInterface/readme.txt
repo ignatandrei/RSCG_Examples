@@ -39,7 +39,7 @@ public class MyClass
 You can now use the generated interface in your code.
 If the class is `partial`, the interface will be automatically implemented.
 
-Check out the tests ([1](/Roozie.AutoInterface.Tests), [2](/Roozie.AutoInterface.Tests.Integration)) for examples.
+Check out the tests  for examples.
 
 ## Configuration
 
