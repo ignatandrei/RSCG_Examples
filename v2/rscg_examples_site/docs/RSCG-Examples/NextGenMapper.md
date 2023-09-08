@@ -485,3 +485,12 @@ namespace NextGenMapper
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper
+
+## In the same category (Mapper)
+
+
+### [AutoDTO](/docs/AutoDTO)
+
+
+### [mapperly](/docs/mapperly)
+

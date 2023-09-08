@@ -431,3 +431,12 @@ public class MiddlewareExportToFile : IMiddleware
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports
+
+## In the same category (API)
+
+
+### [Refit](/docs/Refit)
+
+
+### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+

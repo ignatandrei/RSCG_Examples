@@ -367,3 +367,12 @@ namespace AutoCtorDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor
+
+## In the same category (Constructor)
+
+
+### [AutoDeconstruct](/docs/AutoDeconstruct)
+
+
+### [QuickConstructor](/docs/QuickConstructor)
+

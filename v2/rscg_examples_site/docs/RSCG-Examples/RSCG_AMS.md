@@ -480,3 +480,27 @@ namespace AMS_Base
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS
+
+## In the same category (EnhancementProject)
+
+
+### [DeeDee](/docs/DeeDee)
+
+
+### [Matryoshki](/docs/Matryoshki)
+
+
+### [Mediator](/docs/Mediator)
+
+
+### [ProxyGen](/docs/ProxyGen)
+
+
+### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+
+
+### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+
+
+### [ThisAssembly](/docs/ThisAssembly)
+

@@ -337,3 +337,12 @@ namespace EmbeddingResourceCSharpDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp
+
+## In the same category (FilesToCode)
+
+
+### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
+
+
+### [RSCG_Utils](/docs/RSCG_Utils)
+

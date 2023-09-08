@@ -305,3 +305,12 @@ public System.String Name { get; set; }
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
+
+## In the same category (Mapper)
+
+
+### [mapperly](/docs/mapperly)
+
+
+### [NextGenMapper](/docs/NextGenMapper)
+

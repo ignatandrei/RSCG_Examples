@@ -436,3 +436,15 @@ namespace spreadcheetahDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah
+
+## In the same category (Templating)
+
+
+### [Gobie](/docs/Gobie)
+
+
+### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+### [RazorBlade](/docs/RazorBlade)
+

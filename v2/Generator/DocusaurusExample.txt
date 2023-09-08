@@ -127,3 +127,11 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
+
+## In the same category ({{category}})
+
+{{~ for rscgV in otherDesc ~}}
+
+### [{{rscgV.Generator.Name}}](/docs/{{rscgV.Generator.Name}})
+
+{{~ end ~}}

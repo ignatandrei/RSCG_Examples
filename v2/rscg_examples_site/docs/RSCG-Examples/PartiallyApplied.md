@@ -199,3 +199,12 @@ public static partial class Partially
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied
+
+## In the same category (FunctionalProgramming)
+
+
+### [dunet](/docs/dunet)
+
+
+### [OneOf](/docs/OneOf)
+

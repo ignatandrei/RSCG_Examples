@@ -47,7 +47,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon",
       "NuGet": "https://www.nuget.org/packages/SkinnyControllersCommon",
       "Source": "https://github.com/ignatandrei/SkinnyControllersGenerator/",
-      "Category": "EnhancementClass",
+      "Category": "API",
       "AddedOn": "2023-04-16T00:00:00"
     },
     {

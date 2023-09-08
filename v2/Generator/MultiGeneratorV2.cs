@@ -181,7 +181,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"System.Text.Json",before.PutCategory(Category.EnhancementClass) },
             {"RSCG_Utils",before.PutCategory(Category.FilesToCode) },
             {"System.Text.RegularExpressions",before.PutCategory(Category.EnhancementClass) },
-            {"SkinnyControllersCommon",before.PutCategory(Category.EnhancementClass) },
+            {"SkinnyControllersCommon",before.PutCategory(Category.API) },
             {"Microsoft.Extensions.Logging",before.PutCategory(Category.EnhancementClass) },
             {"RSCG_Static",before.PutCategory(Category.EnhancementClass) },
             {"CommunityToolkit.Mvvm",before.PutCategory(Category.EnhancementClass) },
@@ -422,7 +422,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, pathDocusaurus)));
 
         //create the microsoft zip
-        Description d = new Description();
+        Description d = new ();
         var strRoot = _AllDescriptions.First().rootFolder;
         ArgumentException.ThrowIfNullOrEmpty(strRoot);
         var dirInfo = new DirectoryInfo(strRoot);
@@ -930,11 +930,19 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
     }
     private async Task<bool> WroteDocusaurus(Description it, string pathDocusaurus)
     {
-        
+        ArgumentNullException.ThrowIfNull(it.GeneratorData);
+
+        var category = it.GeneratorData.Category;
+        var otherDesc  = _AllDescriptions!
+            .Where(it=>it.GeneratorData?.Category == category)
+            .Where(loop=>loop.Generator?.Name != it.Generator?.Name)
+            .OrderBy(it=>it.Generator?.Name)
+            .ToArray();
+         
         var template = await File.ReadAllTextAsync("DocusaurusExample.txt");
         var templateScriban = Scriban.Template.Parse(template);
-        var output = templateScriban.Render(new {Description=it}, member => member.Name);
-
+        var output = templateScriban.Render(new {Description=it, otherDesc, category}, member => member.Name);
+            
         string folderToWrite = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples");
         ArgumentNullException.ThrowIfNull(it.Generator);
         string file = it.Generator.Name+ ".md";
