@@ -673,3 +673,27 @@ public class PersonMatryoshka : MatryoshkiDemo.IPerson
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki
+
+## In the same category (EnhancementProject)
+
+
+### [DeeDee](/docs/DeeDee)
+
+
+### [Mediator](/docs/Mediator)
+
+
+### [ProxyGen](/docs/ProxyGen)
+
+
+### [RSCG_AMS](/docs/RSCG_AMS)
+
+
+### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+
+
+### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+
+
+### [ThisAssembly](/docs/ThisAssembly)
+

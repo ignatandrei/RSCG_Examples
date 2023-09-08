@@ -404,3 +404,12 @@ namespace OneOfDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf
+
+## In the same category (FunctionalProgramming)
+
+
+### [dunet](/docs/dunet)
+
+
+### [PartiallyApplied](/docs/PartiallyApplied)
+

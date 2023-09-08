@@ -424,3 +424,12 @@ namespace QuickConstructorDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor
+
+## In the same category (Constructor)
+
+
+### [AutoCtor](/docs/AutoCtor)
+
+
+### [AutoDeconstruct](/docs/AutoDeconstruct)
+

@@ -254,3 +254,15 @@ namespace Gobie
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
+
+## In the same category (Templating)
+
+
+### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+### [RazorBlade](/docs/RazorBlade)
+
+
+### [spreadcheetah](/docs/spreadcheetah)
+

@@ -468,3 +468,9 @@ namespace Microsoft.Extensions.DependencyInjection
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio
+
+## In the same category (DependencyInjection)
+
+
+### [AutoRegisterInject](/docs/AutoRegisterInject)
+

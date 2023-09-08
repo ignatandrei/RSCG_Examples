@@ -216,3 +216,12 @@ as C# const
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
+
+## In the same category (FilesToCode)
+
+
+### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+
+
+### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
+

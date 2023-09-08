@@ -4,7 +4,7 @@ Nr,Key,Source,Category
 3,System.Text.Json, https://github.com/dotnet/runtime,EnhancementClass
 4,RSCG_Utils, https://github.com/ignatandrei/RSCG_Utils,FilesToCode
 5,System.Text.RegularExpressions, https://github.com/dotnet/runtime,EnhancementClass
-6,SkinnyControllersCommon, https://github.com/ignatandrei/SkinnyControllersGenerator/,EnhancementClass
+6,SkinnyControllersCommon, https://github.com/ignatandrei/SkinnyControllersGenerator/,API
 7,Microsoft.Extensions.Logging, https://github.com/dotnet/runtime,EnhancementClass
 8,RSCG_Static, https://github.com/ignatandrei/RSCG_Static,EnhancementClass
 9,CommunityToolkit.Mvvm, https://github.com/CommunityToolkit/dotnet,EnhancementClass

@@ -276,3 +276,12 @@ namespace mapperlyDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
+
+## In the same category (Mapper)
+
+
+### [AutoDTO](/docs/AutoDTO)
+
+
+### [NextGenMapper](/docs/NextGenMapper)
+

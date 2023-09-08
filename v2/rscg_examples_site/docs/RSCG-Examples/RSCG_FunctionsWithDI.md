@@ -375,3 +375,27 @@ return  TestMyFunc1(t1,t2,x,y);
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
+
+## In the same category (EnhancementProject)
+
+
+### [DeeDee](/docs/DeeDee)
+
+
+### [Matryoshki](/docs/Matryoshki)
+
+
+### [Mediator](/docs/Mediator)
+
+
+### [ProxyGen](/docs/ProxyGen)
+
+
+### [RSCG_AMS](/docs/RSCG_AMS)
+
+
+### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+
+
+### [ThisAssembly](/docs/ThisAssembly)
+

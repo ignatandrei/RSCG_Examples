@@ -187,3 +187,12 @@ public static partial class PersonExtensions
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct
+
+## In the same category (Constructor)
+
+
+### [AutoCtor](/docs/AutoCtor)
+
+
+### [QuickConstructor](/docs/QuickConstructor)
+

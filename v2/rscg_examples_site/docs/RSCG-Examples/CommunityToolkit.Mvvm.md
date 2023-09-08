@@ -860,3 +860,66 @@ namespace test
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
+
+## In the same category (EnhancementClass)
+
+
+### [ApparatusAOT](/docs/ApparatusAOT)
+
+
+### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+
+
+### [EnumClass](/docs/EnumClass)
+
+
+### [FastGenericNew](/docs/FastGenericNew)
+
+
+### [GeneratorEquals](/docs/GeneratorEquals)
+
+
+### [Immutype](/docs/Immutype)
+
+
+### [Lombok.NET](/docs/Lombok.NET)
+
+
+### [M31.FluentAPI](/docs/M31.FluentAPI)
+
+
+### [MemoryPack](/docs/MemoryPack)
+
+
+### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
+
+
+### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+
+
+### [MorrisMoxy](/docs/MorrisMoxy)
+
+
+### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+
+
+### [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+
+
+### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+
+
+### [RSCG_Static](/docs/RSCG_Static)
+
+
+### [SyncMethodGenerator](/docs/SyncMethodGenerator)
+
+
+### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
+
+
+### [System.Text.Json](/docs/System.Text.Json)
+
+
+### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+

@@ -1360,3 +1360,12 @@ internal static class WhatIsTheStringMatchExtensions
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet
+
+## In the same category (FunctionalProgramming)
+
+
+### [OneOf](/docs/OneOf)
+
+
+### [PartiallyApplied](/docs/PartiallyApplied)
+

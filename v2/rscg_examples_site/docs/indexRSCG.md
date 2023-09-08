@@ -65,7 +65,7 @@ This is the list of 56 ( 6 from Microsoft) RSCG with examples
 |9|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |8|[RSCG_Static](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |7|[Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | EnhancementClass |
-|6|[SkinnyControllersCommon](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|6|[SkinnyControllersCommon](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | API |
 |5|[System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |4|[RSCG_Utils](/docs/RSCG_Utils)|2023-04-16 => 16 April 2023 | FilesToCode |
 |3|[System.Text.Json](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | EnhancementClass |

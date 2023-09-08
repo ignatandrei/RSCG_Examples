@@ -192,3 +192,12 @@ GO;
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed
+
+## In the same category (FilesToCode)
+
+
+### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+
+
+### [RSCG_Utils](/docs/RSCG_Utils)
+

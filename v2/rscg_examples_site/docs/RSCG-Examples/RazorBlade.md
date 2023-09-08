@@ -1080,3 +1080,15 @@ namespace RazorBladeDemo
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade
+
+## In the same category (Templating)
+
+
+### [Gobie](/docs/Gobie)
+
+
+### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+### [spreadcheetah](/docs/spreadcheetah)
+

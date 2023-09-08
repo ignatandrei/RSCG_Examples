@@ -10,7 +10,12 @@ import DocCardList from '@theme/DocCardList';
 [See time based list](/docs/List-of-RSCG)
 
 <details>
-  <summary>API =>examples:2</summary>
+  <summary>API =>examples:3</summary>
+        
+
+
+[SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+
         
 
 
@@ -71,7 +76,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:22</summary>
+  <summary>EnhancementClass =>examples:21</summary>
         
 
 
@@ -81,11 +86,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
-
-        
-
-
-[SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 
         
 
@@ -343,6 +343,8 @@ import DocCardList from '@theme/DocCardList';
 flowchart LR;
 
 
+    API--> SkinnyControllersCommon((SkinnyControllersCommon))
+
     API--> Refit((Refit))
 
     API--> RSCG_WebAPIExports((RSCG_WebAPIExports))
@@ -364,8 +366,6 @@ flowchart LR;
     EnhancementClass--> System.Text.Json((System.Text.Json))
 
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
-
-    EnhancementClass--> SkinnyControllersCommon((SkinnyControllersCommon))
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
 

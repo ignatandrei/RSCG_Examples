@@ -1196,3 +1196,15 @@ using RazorAppDemo;
 </ul>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators
+
+## In the same category (Templating)
+
+
+### [Gobie](/docs/Gobie)
+
+
+### [RazorBlade](/docs/RazorBlade)
+
+
+### [spreadcheetah](/docs/spreadcheetah)
+
