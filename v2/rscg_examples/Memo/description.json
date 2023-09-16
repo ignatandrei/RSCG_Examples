@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"RSCG_Utils_Memo",
+      "nuget":[
+         "https://www.nuget.org/packages/rscgutils"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_Utils"
+   },
+   "data":{
+      "goodFor":["Memo the function result"],
+      "csprojDemo":"DemoRSCG_UtilsMemo.csproj",
+      "csFiles":["Program.cs","fib.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

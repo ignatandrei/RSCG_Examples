@@ -1,4 +1,4 @@
-# RSCG - 56 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 57 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -12,8 +12,24 @@ If you want to help, see below .
 
 ## Content 
 
-Those are the 56 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 57 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 57. [RSCG_Utils_Memo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo) generated on : 2023-08-27 => 27 August 2023
+<details>
+  <summary>Expand</summary>
+Author: Ignat Andrei
+
+Additional files as strings 
+
+Nuget: [https://www.nuget.org/packages/rscgutils](https://www.nuget.org/packages/rscgutils) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo)
+
+Source: [https://github.com/ignatandrei/RSCG_Utils](https://github.com/ignatandrei/RSCG_Utils)
+
+</details>
+
 ### 56. [Roozie.AutoInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface) generated on : 2023-08-26 => 26 August 2023
 <details>
   <summary>Expand</summary>

@@ -449,6 +449,14 @@
       "Source": "https://github.com/AlexRussak/Roozie.AutoInterface",
       "Category": "EnhancementClass",
       "AddedOn": "2023-08-26T00:00:00"
+    },
+    {
+      "Name": "RSCG_Utils_Memo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Memo",
+      "NuGet": "https://www.nuget.org/packages/rscgutils",
+      "Source": "https://github.com/ignatandrei/RSCG_Utils",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2023-08-27T00:00:00"
     }
   ]
 }

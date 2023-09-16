@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRSCG_UtilsMemo", "DemoRSCG_UtilsMemo\DemoRSCG_UtilsMemo.csproj", "{96CAC634-BA21-4B25-A7D4-D46E899954CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96CAC634-BA21-4B25-A7D4-D46E899954CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96CAC634-BA21-4B25-A7D4-D46E899954CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96CAC634-BA21-4B25-A7D4-D46E899954CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96CAC634-BA21-4B25-A7D4-D46E899954CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EA73134-E45E-4C91-BD0A-626C5CCB367E}
+	EndGlobalSection
+EndGlobal

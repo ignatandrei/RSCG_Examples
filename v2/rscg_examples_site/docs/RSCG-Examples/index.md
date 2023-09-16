@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 56 RSCG by category 
-description: 56 RSCG by category 
+title: 57 RSCG by category 
+description: 57 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -248,7 +248,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>FunctionalProgramming =>examples:3</summary>
+  <summary>FunctionalProgramming =>examples:4</summary>
         
 
 
@@ -263,6 +263,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [OneOf](/docs/OneOf)
+
+        
+
+
+[RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
 </details>
     
@@ -432,6 +437,8 @@ flowchart LR;
     FunctionalProgramming--> PartiallyApplied((PartiallyApplied))
 
     FunctionalProgramming--> OneOf((OneOf))
+
+    FunctionalProgramming--> RSCG_Utils_Memo((RSCG_Utils_Memo))
 
     Mapper--> mapperly((mapperly))
 
