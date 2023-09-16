@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"ThisAssembly_Resources",
+      "nuget":[
+         "https://www.nuget.org/packages/ThisAssembly.Resources/"
+      ],
+      "link":"https://www.clarius.org/ThisAssembly/",
+      "author":"Daniel Cazzulino",
+      "source":"https://github.com/devlooped/ThisAssembly"
+   },
+   "data":{
+      "goodFor":["Embed resources to file"],
+      "csprojDemo":"ThisAssembly_ResourcesDemo.csproj",
+      "csFiles":["Program.cs","mytext.sql"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

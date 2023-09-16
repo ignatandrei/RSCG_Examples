@@ -71,6 +71,7 @@ input-files:
 - examples/M31.FluentAPI.html
 - examples/Roozie.AutoInterface.html
 - examples/RSCG_Utils_Memo.html
+- examples/ThisAssembly_Resources.html
 
 # or you may use input-file: with a single value
 # defaults:

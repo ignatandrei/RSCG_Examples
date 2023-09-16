@@ -346,3 +346,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp
 
 ### [RSCG_Utils](/docs/RSCG_Utils)
 
+
+### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+

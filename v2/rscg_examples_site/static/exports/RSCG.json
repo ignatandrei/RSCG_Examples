@@ -457,6 +457,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_Utils",
       "Category": "FunctionalProgramming",
       "AddedOn": "2023-08-27T00:00:00"
+    },
+    {
+      "Name": "ThisAssembly_Resources",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources",
+      "NuGet": "https://www.nuget.org/packages/ThisAssembly.Resources/",
+      "Source": "https://github.com/devlooped/ThisAssembly",
+      "Category": "FilesToCode",
+      "AddedOn": "2023-09-16T00:00:00"
     }
   ]
 }

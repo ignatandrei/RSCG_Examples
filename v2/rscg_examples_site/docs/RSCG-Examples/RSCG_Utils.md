@@ -225,3 +225,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
 
 ### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
+
+### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+

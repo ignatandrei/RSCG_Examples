@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 57 RSCG by category 
-description: 57 RSCG by category 
+title: 58 RSCG by category 
+description: 58 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -229,7 +229,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>FilesToCode =>examples:3</summary>
+  <summary>FilesToCode =>examples:4</summary>
         
 
 
@@ -244,6 +244,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+
+        
+
+
+[ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
 </details>
     
@@ -431,6 +436,8 @@ flowchart LR;
     FilesToCode--> Podimo.ConstEmbed((Podimo.ConstEmbed))
 
     FilesToCode--> EmbedResourceCSharp((EmbedResourceCSharp))
+
+    FilesToCode--> ThisAssembly_Resources((ThisAssembly_Resources))
 
     FunctionalProgramming--> dunet((dunet))
 

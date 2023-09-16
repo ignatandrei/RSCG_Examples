@@ -5,9 +5,9 @@ description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
 
-## 57 RSCG with examples in descending chronological order
+## 58 RSCG with examples in descending chronological order
 
-This is the list of 57 ( 6 from Microsoft) RSCG with examples 
+This is the list of 58 ( 6 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -15,6 +15,7 @@ This is the list of 57 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|58|[ThisAssembly_Resources](/docs/ThisAssembly_Resources)|2023-09-16 => 16 September 2023 | FilesToCode |
 |57|[RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)|2023-08-27 => 27 August 2023 | FunctionalProgramming |
 |56|[Roozie.AutoInterface](/docs/Roozie.AutoInterface)|2023-08-26 => 26 August 2023 | EnhancementClass |
 |55|[M31.FluentAPI](/docs/M31.FluentAPI)|2023-08-25 => 25 August 2023 | EnhancementClass |

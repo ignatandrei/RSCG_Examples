@@ -233,7 +233,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"M31FluentAPI",new(true,new (2023,8,25),Category.EnhancementClass)},
             {"Roozie.AutoInterface",new GeneratorData(true,new(2023,8,26),Category.EnhancementClass) },
             {"Memo",new GeneratorData(true,new(2023,8,27),Category.FunctionalProgramming) },
- 
+            {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },        
         };
           
         //foreach (var v in generators) 

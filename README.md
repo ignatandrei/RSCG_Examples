@@ -1,4 +1,4 @@
-# RSCG - 57 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 58 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -12,8 +12,26 @@ If you want to help, see below .
 
 ## Content 
 
-Those are the 57 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 58 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 58. [ThisAssembly_Resources](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources) generated on : 2023-09-16 => 16 September 2023
+<details>
+  <summary>Expand</summary>
+Author: Daniel Cazzulino
+
+** C# 9.0+ ONLY **
+      This package generates a static `ThisAssembly.Resources` class with public
+      properties exposing `string` and `Stream` shortcuts to access embedded resources. 
+
+Nuget: [https://www.nuget.org/packages/ThisAssembly.Resources/](https://www.nuget.org/packages/ThisAssembly.Resources/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources)
+
+Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped/ThisAssembly)
+
+</details>
+
 ### 57. [RSCG_Utils_Memo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo) generated on : 2023-08-27 => 27 August 2023
 <details>
   <summary>Expand</summary>
