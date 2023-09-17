@@ -1,0 +1,40 @@
+@inherits RazorBlade.HtmlTemplate<Description>;
+@{
+    var nr = Model.Data!.CsFiles!.Length;
+    var generator = Model.Generator!;
+    var devenv=@"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe";
+    devenv=devenv.Replace("\\","\\\\");
+    int nrStep=1;
+}
+{
+    "step_@(nrStep++)_text1": "Welcome to Roslyn Examples",
+    "step_@(nrStep++)_text10": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+
+"step_@(nrStep++)_text20": "Today I will present @generator.Name  that is good for @string.Join(Environment.NewLine,Model.Data!.GoodFor!) .",
+"step_@(nrStep++)_exec1":"explorer.exe @generator.NugetFirst",
+"step_@(nrStep++)_text30": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/@generator.Name)",
+"step_@(nrStep++)_exec3":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@generator.Name)",
+"step_@(nrStep++)_text35":" Here is the code ",
+"step_@(nrStep++)_exec5":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\","\\\\")",
+"step_@(nrStep++)_text40": "So , let's start the project ",
+"step_@(nrStep++)_exec10": "'@devenv' @Model.Data.outputFiles.fullPathToCsproj.Replace("\\","\\\\")]",
+
+"step_@(nrStep++)_text50": "You put the  [@generator.NameNugetFirst()](@generator.NugetFirst) into the csproj ",
+
+"step_@(nrStep++)_exec20": "'@devenv' /edit @Model.Data.outputFiles.fullPathToCsproj.Replace("\\","\\\\")]",
+
+"step_@(nrStep++)_text60": "I have used the @generator.Name in those files",
+
+@for(var i = nr - 1; i >= 0; i--)
+{
+    var ex ="exec" + (30 + (nr-i) *10); 
+<text>
+"step_@(nrStep++)_@ex":"'@devenv' /edit @Model.Data!.outputFiles!.contentFiles![i].fullPathFile.Replace("\\","\\\\")",
+</text>
+
+}
+
+"step_@(nrStep++)_text70":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+"step_@(nrStep++)_text5000":""
+
+}

@@ -10,6 +10,7 @@
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
 	<ItemGroup>
+		<AdditionalFiles Include="VideoScenario.cshtml" />
 		<AdditionalFiles Include="NoExamples.cshtml" />
 		<AdditionalFiles Include="pandocHTML.cshtml" />
 		<AdditionalFiles Include="ItemMSFT.cshtml" />
@@ -76,15 +77,5 @@
     <!-- <Watch Include="**\*.txt" /> -->
 	  <Watch Include="**\*.cshtml" />
       <Watch Include="**\*.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Watch Remove="DocusaurusExample.txt" />
-    <Watch Remove="email.txt" />
-    <Watch Remove="frontReadme.txt" />
-    <Watch Remove="frontReadmeNew.txt" />
-    <Watch Remove="newPost.txt" />
-    <Watch Remove="readme.txt" />
-    <Watch Remove="RSCGList.txt" />
-    <Watch Remove="RSCGListMermaid.txt" />
   </ItemGroup>
 </Project>

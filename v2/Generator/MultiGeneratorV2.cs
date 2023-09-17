@@ -1022,4 +1022,27 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         }
         await File.WriteAllTextAsync(fileName,sb.ToString());
     }
+
+    internal async Task WriteVideo()
+    {
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        await Task.WhenAll(_AllDescriptions.Select(it => WriteVideo(it)));
+
+
+    }
+
+    private async Task WriteVideo(Description it)
+    {
+        VideoScenario vid = new VideoScenario(it);
+        try
+        {
+            var data = await vid.RenderAsync();
+            var nameFile = Path.Combine(it.rootFolder!, "video.md");
+            await File.WriteAllTextAsync(nameFile, data);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine("error for " + it.Generator?.Name??"" + " " + ex.Message);
+        }
+    }
 }     
