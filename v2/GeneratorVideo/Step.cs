@@ -1,4 +1,5 @@
 ﻿namespace GeneratorVideo;
+
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal abstract record Step(string text, string value):IParsable<Step>
 {
@@ -36,7 +37,10 @@ internal abstract record Step(string text, string value):IParsable<Step>
                 break;
             case "hide":
                 result=new StepHide(split[0], split[1]);
-                break; 
+                break;
+            case "browser":
+                result = new StepBrowser(split[0], split[1]);
+                break;
             default:
                 return false;
         }

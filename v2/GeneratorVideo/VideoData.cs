@@ -29,8 +29,10 @@ internal class VideoData
         foreach (var step in execSteps) {
             try
             {
-                Console.WriteLine("executing " + step.Number + "=>" + step.value);
+                Console.WriteLine("executing " + step.Number);// + "=>" + step.value);
                 await step.Execute();
+                Console.WriteLine("press any key to continue");
+                Console.ReadLine();
             }
             catch(Exception ex) 
             {

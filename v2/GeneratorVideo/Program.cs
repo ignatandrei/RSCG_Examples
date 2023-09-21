@@ -18,6 +18,7 @@ foreach (string folder in folders)
     var v=new VideoData(file);
     Console.WriteLine("nr steps :"+await v.Analyze());
     Console.WriteLine(await v.Execute());
+
 }
 
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
