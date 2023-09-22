@@ -1,7 +1,4 @@
-﻿using Generator;
-using System.Runtime.InteropServices;
-
-//var t = Task.FromResult(2);
+﻿//var t = Task.FromResult(2);
 //var x = new TaskWithData<string, int>("asd", t);
 //var a = await x;
 //if (a.res == 2)

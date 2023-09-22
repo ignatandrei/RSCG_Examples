@@ -156,7 +156,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",old)
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
-
+, new ("ControllerGenerator https://github.com/cloud0259/ControllerGenerator",later)
+,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", later)
+,new ("SourceGenerator.Helper.CopyCode https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode",later)
+,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 
 
     };
