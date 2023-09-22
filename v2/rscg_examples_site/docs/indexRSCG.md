@@ -25,7 +25,7 @@ This is the list of 58 ( 6 from Microsoft) RSCG with examples
 |51|[OneOf](/docs/OneOf)|2023-08-21 => 21 August 2023 | FunctionalProgramming |
 |50|[Ridge](/docs/Ridge)|2023-08-20 => 20 August 2023 | Tests |
 |49|[Strongly](/docs/Strongly)|2023-08-19 => 19 August 2023 | PrimitiveObsession |
-|48|[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)|2023-08-18 => 18 August 2023 | EnhancementClass |
+|48|[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)|2023-08-18 => 18 August 2023 | MVVM |
 |47|[Injectio](/docs/Injectio)|2023-08-17 => 17 August 2023 | DependencyInjection |
 |46|[NextGenMapper](/docs/NextGenMapper)|2023-08-16 => 16 August 2023 | Mapper |
 |45|[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)|2023-08-15 => 15 August 2023 | EnhancementClass |
@@ -64,7 +64,7 @@ This is the list of 58 ( 6 from Microsoft) RSCG with examples
 |12|[System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |11|[AutoDeconstruct](/docs/AutoDeconstruct)|2023-04-16 => 16 April 2023 | Constructor |
 |10|[RSCG_AMS](/docs/RSCG_AMS)|2023-04-16 => 16 April 2023 | EnhancementProject |
-|9|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|9|[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | MVVM |
 |8|[RSCG_Static](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |7|[Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |6|[SkinnyControllersCommon](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | API |

@@ -71,7 +71,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm",
       "NuGet": "https://www.nuget.org/packages/CommunityToolkit.Mvvm",
       "Source": "https://github.com/CommunityToolkit/dotnet",
-      "Category": "EnhancementClass",
+      "Category": "MVVM",
       "AddedOn": "2023-04-16T00:00:00"
     },
     {
@@ -383,7 +383,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropChange",
       "NuGet": "https://www.nuget.org/packages/PropertyChanged.SourceGenerator/",
       "Source": "https://github.com/canton7/PropertyChanged.SourceGenerator",
-      "Category": "EnhancementClass",
+      "Category": "MVVM",
       "AddedOn": "2023-08-18T00:00:00"
     },
     {

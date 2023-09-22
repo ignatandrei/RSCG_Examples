@@ -76,7 +76,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:21</summary>
+  <summary>EnhancementClass =>examples:19</summary>
         
 
 
@@ -96,11 +96,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_Static](/docs/RSCG_Static)
-
-        
-
-
-[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
 
         
 
@@ -166,11 +161,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-        
-
-
-[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
 
         
 
@@ -296,6 +286,20 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
+  <summary>MVVM =>examples:2</summary>
+        
+
+
+[CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
+
+        
+
+
+[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+
+</details>
+    
+<details>
   <summary>PrimitiveObsession =>examples:2</summary>
         
 
@@ -381,8 +385,6 @@ flowchart LR;
 
     EnhancementClass--> RSCG_Static((RSCG_Static))
 
-    EnhancementClass--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
-
     EnhancementClass--> System.Runtime.InteropServices((System.Runtime.InteropServices))
 
     EnhancementClass--> ApparatusAOT((ApparatusAOT))
@@ -408,8 +410,6 @@ flowchart LR;
     EnhancementClass--> SyncMethodGenerator((SyncMethodGenerator))
 
     EnhancementClass--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
-
-    EnhancementClass--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
 
     EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
 
@@ -452,6 +452,10 @@ flowchart LR;
     Mapper--> NextGenMapper((NextGenMapper))
 
     Mapper--> AutoDTO((AutoDTO))
+
+    MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
+
+    MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
 
     PrimitiveObsession--> Vogen((Vogen))
 
