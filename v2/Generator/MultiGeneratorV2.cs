@@ -148,7 +148,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator",old)
 ,new ("Visor https://github.com/Tinkoff/Visor",tooComplicated)
 ,new("PolySharp https://github.com/Sergio0694/PolySharp",tooComplicated)
-,new ("SafeRouting, https://github.com/daviddotcs/safe-routing",later)
 ,new ("Figgle, https://github.com/drewnoakes/figgle",old)
 ,new ("Protobuf Source Generator,https://github.com/ladeak/ProtobufSourceGenerator",later)
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
@@ -237,7 +236,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Roozie.AutoInterface",new GeneratorData(true,new(2023,8,26),Category.EnhancementClass) },
             {"Memo",new GeneratorData(true,new(2023,8,27),Category.FunctionalProgramming) },
             {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },
-            {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.EnhancementProject) }
+            {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.EnhancementProject) },
+            {"SafeRouting",new(true,new(2023,09,23)) }
         };
           
         //foreach (var v in generators) 

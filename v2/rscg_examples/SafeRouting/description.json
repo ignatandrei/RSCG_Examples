@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"SafeRouting",
+      "nuget":[
+         "https://www.nuget.org/packages/SafeRouting/"
+      ],
+      "link":"https://github.com/daviddotcs/safe-routing",
+      "author":"David Wake",
+      "source":"https://github.com/daviddotcs/safe-routing"
+   },
+   "data":{
+      "goodFor":["Safe Routing for MVC"],
+      "csprojDemo":"SafeRoutingDemo.csproj",
+      "csFiles":["_ViewImports.cshtml","_Layout.cshtml"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

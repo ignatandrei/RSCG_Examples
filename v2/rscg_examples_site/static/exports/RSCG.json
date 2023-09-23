@@ -473,6 +473,14 @@
       "Source": "https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode",
       "Category": "EnhancementProject",
       "AddedOn": "2023-09-17T00:00:00"
+    },
+    {
+      "Name": "SafeRouting",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting",
+      "NuGet": "https://www.nuget.org/packages/SafeRouting/",
+      "Source": "https://github.com/daviddotcs/safe-routing",
+      "Category": "None",
+      "AddedOn": "2023-09-23T00:00:00"
     }
   ]
 }

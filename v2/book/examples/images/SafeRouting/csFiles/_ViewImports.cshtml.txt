@@ -1,0 +1,4 @@
+@using SafeRoutingDemo
+@using SafeRoutingDemo.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper SafeRouting.TagHelpers.*, SafeRouting.Common
