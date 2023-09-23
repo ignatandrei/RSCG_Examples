@@ -927,3 +927,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 
 ### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
+
+### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+

@@ -502,5 +502,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS
 ### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
 
+### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+
+
 ### [ThisAssembly](/docs/ThisAssembly)
 

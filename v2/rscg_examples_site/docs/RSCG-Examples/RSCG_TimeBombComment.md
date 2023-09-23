@@ -252,5 +252,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
 ### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
 
+### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+
+
 ### [ThisAssembly](/docs/ThisAssembly)
 
