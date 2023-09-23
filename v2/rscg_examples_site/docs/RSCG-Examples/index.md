@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 59 RSCG by category 
-description: 59 RSCG by category 
+title: 60 RSCG by category 
+description: 60 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -305,6 +305,15 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
+  <summary>None =>examples:1</summary>
+        
+
+
+[SafeRouting](/docs/SafeRouting)
+
+</details>
+    
+<details>
   <summary>PrimitiveObsession =>examples:2</summary>
         
 
@@ -463,6 +472,8 @@ flowchart LR;
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
     MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
+
+    None--> SafeRouting((SafeRouting))
 
     PrimitiveObsession--> Vogen((Vogen))
 

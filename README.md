@@ -1,6 +1,6 @@
-# RSCG - 59 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 60 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-09-17 => 17 September 2023
+## Latest Update : 2023-09-23 => 23 September 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -14,8 +14,24 @@ If you want to help, see below .
 
 ## Content 
 
-Those are the 59 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 60 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 60. [SafeRouting](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting) generated on : 2023-09-23 => 23 September 2023
+<details>
+  <summary>Expand</summary>
+Author: David Wake
+
+Generates strongly-typed route information for ASP.NET Core razor pages and MVC controllers. 
+
+Nuget: [https://www.nuget.org/packages/SafeRouting/](https://www.nuget.org/packages/SafeRouting/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting)
+
+Source: [https://github.com/daviddotcs/safe-routing](https://github.com/daviddotcs/safe-routing)
+
+</details>
+
 ### 59. [SourceGenerator.Helper.CopyCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode) generated on : 2023-09-17 => 17 September 2023
 <details>
   <summary>Expand</summary>
@@ -1240,98 +1256,91 @@ Why I have not tested :  resource manager to classes. Why I cannot have the resx
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ResXGenerator&body=https://github.com/ycanardeau/ResXGenerator
 
 
-29) [SafeRouting,]( https://github.com/daviddotcs/safe-routing) , https://github.com/daviddotcs/safe-routing 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SafeRouting,&body=https://github.com/daviddotcs/safe-routing
-
-
-30) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
+29) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
 
 Why I have not tested : serializer. Done by MSFT with System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SerdeDn&body=https://github.com/serdedotnet/serde
 
 
-31) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
+30) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested : swagger,need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ST.NSwag.ServerSourceGenerator&body=https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator
 
 
-32) [StringLiteralGenerator]( https://github.com/ufcpp/StringLiteralGenerator) , https://github.com/ufcpp/StringLiteralGenerator 
+31) [StringLiteralGenerator]( https://github.com/ufcpp/StringLiteralGenerator) , https://github.com/ufcpp/StringLiteralGenerator 
 
 Why I have not tested : string 2 utf8
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StringLiteralGenerator&body=https://github.com/ufcpp/StringLiteralGenerator
 
 
-33) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
+32) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StrongInject&body=https://github.com/YairHalberstadt/stronginject/
 
 
-34) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
+33) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested : json a class, was done in System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TeuJson&body=https://github.com/Terria-K/TeuJson
 
 
-35) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
+34) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tinyhand&body=https://github.com/archi-Doc/Tinyhand
 
 
-36) [Tortuga.Shipwright]( https://github.com/TortugaResearch/Tortuga.Shipwright) , https://github.com/TortugaResearch/Tortuga.Shipwright 
+35) [Tortuga.Shipwright]( https://github.com/TortugaResearch/Tortuga.Shipwright) , https://github.com/TortugaResearch/Tortuga.Shipwright 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tortuga.Shipwright&body=https://github.com/TortugaResearch/Tortuga.Shipwright
 
 
-37) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+36) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
-38) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
+37) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-39) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+38) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-40) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+39) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-41) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
+40) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
 
 Why I have not tested : less than net 7
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WinUI-ObservableSettings&body=https://github.com/JasonWei512/WinUI-ObservableSettings
 
 
-42) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+41) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 
