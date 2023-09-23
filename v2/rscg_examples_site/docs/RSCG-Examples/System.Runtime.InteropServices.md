@@ -252,8 +252,5 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServic
 ### [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
 
-### [System.Text.Json](/docs/System.Text.Json)
-
-
 ### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 

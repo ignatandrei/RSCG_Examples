@@ -149,7 +149,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Visor https://github.com/Tinkoff/Visor",tooComplicated)
 ,new("PolySharp https://github.com/Sergio0694/PolySharp",tooComplicated)
 ,new ("Figgle, https://github.com/drewnoakes/figgle",old)
-,new ("Protobuf Source Generator,https://github.com/ladeak/ProtobufSourceGenerator",later)
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
 ,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
 , new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later)
@@ -180,7 +179,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         {
             { "ThisAssembly",before.PutCategory(Category.EnhancementProject) },
             {"RSCG_TimeBombComment",before.PutCategory(Category.EnhancementProject)},
-            {"System.Text.Json",before.PutCategory(Category.EnhancementClass) },
+            {"System.Text.Json",before.PutCategory(Category.Serializer) },
             {"RSCG_Utils",before.PutCategory(Category.FilesToCode) },
             {"System.Text.RegularExpressions",before.PutCategory(Category.EnhancementClass) },
             {"SkinnyControllersCommon",before.PutCategory(Category.API) },
@@ -237,7 +236,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Memo",new GeneratorData(true,new(2023,8,27),Category.FunctionalProgramming) },
             {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },
             {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.EnhancementProject) },
-            {"SafeRouting",new(true,new(2023,09,23),Category.API) }
+            {"SafeRouting",new(true,new(2023,09,23),Category.API) },
+            {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

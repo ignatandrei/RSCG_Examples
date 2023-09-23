@@ -5,9 +5,9 @@ description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
 
-## 60 RSCG with examples in descending chronological order
+## 61 RSCG with examples in descending chronological order
 
-This is the list of 60 ( 6 from Microsoft) RSCG with examples 
+This is the list of 61 ( 6 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -15,6 +15,7 @@ This is the list of 60 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|61|[ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)|2023-09-24 => 24 September 2023 | Serializer |
 |60|[SafeRouting](/docs/SafeRouting)|2023-09-23 => 23 September 2023 | API |
 |59|[SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)|2023-09-17 => 17 September 2023 | EnhancementProject |
 |58|[ThisAssembly_Resources](/docs/ThisAssembly_Resources)|2023-09-16 => 16 September 2023 | FilesToCode |
@@ -72,7 +73,7 @@ This is the list of 60 ( 6 from Microsoft) RSCG with examples
 |6|[SkinnyControllersCommon](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | API |
 |5|[System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |4|[RSCG_Utils](/docs/RSCG_Utils)|2023-04-16 => 16 April 2023 | FilesToCode |
-|3|[System.Text.Json](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|3|[System.Text.Json](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | Serializer |
 |2|[RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | EnhancementProject |
 |1|[ThisAssembly](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | EnhancementProject |
 

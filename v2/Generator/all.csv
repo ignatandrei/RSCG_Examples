@@ -1,7 +1,7 @@
 Nr,Key,Source,Category
 1,ThisAssembly, https://github.com/devlooped/ThisAssembly,EnhancementProject
 2,RSCG_TimeBombComment, https://github.com/ignatandrei/RSCG_TimeBombComment,EnhancementProject
-3,System.Text.Json, https://github.com/dotnet/runtime,EnhancementClass
+3,System.Text.Json, https://github.com/dotnet/runtime,Serializer
 4,RSCG_Utils, https://github.com/ignatandrei/RSCG_Utils,FilesToCode
 5,System.Text.RegularExpressions, https://github.com/dotnet/runtime,EnhancementClass
 6,SkinnyControllersCommon, https://github.com/ignatandrei/SkinnyControllersGenerator/,API
@@ -59,3 +59,4 @@ Nr,Key,Source,Category
 58,ThisAssembly_Resources, https://github.com/devlooped/ThisAssembly,FilesToCode
 59,SourceGenerator.Helper.CopyCode, https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode,EnhancementProject
 60,SafeRouting, https://github.com/daviddotcs/safe-routing,API
+61,ProtobufSourceGenerator, https://github.com/ladeak/ProtobufSourceGenerator,Serializer

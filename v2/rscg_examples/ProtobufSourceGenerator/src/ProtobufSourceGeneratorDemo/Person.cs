@@ -1,0 +1,10 @@
+﻿using ProtoBuf;
+
+namespace ProtobufSourceGeneratorDemo;
+
+[ProtoContract]
+public partial class Person
+{
+    [ProtoMember(1)]
+    public string? Name { get; set; }
+}
