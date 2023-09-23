@@ -1,0 +1,2 @@
+﻿Console.WriteLine(SourceGenerator.Helper.CopyCode.Copy.SourceGenerator_Helper_CopyCodeDemoNumberAttribute);
+Console.WriteLine(SourceGenerator.Helper.CopyCode.Copy.SourceGenerator_Helper_CopyCodeDemoPerson);

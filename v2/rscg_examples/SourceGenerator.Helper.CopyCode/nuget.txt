@@ -1,0 +1,1 @@
+This Generator is intendede to generate text that a source generator can use to emit source to its generation. (See ReadMe)

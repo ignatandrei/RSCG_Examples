@@ -7,7 +7,7 @@ Nr,Key,Source,Category
 6,SkinnyControllersCommon, https://github.com/ignatandrei/SkinnyControllersGenerator/,API
 7,Microsoft.Extensions.Logging, https://github.com/dotnet/runtime,EnhancementClass
 8,RSCG_Static, https://github.com/ignatandrei/RSCG_Static,EnhancementClass
-9,CommunityToolkit.Mvvm, https://github.com/CommunityToolkit/dotnet,EnhancementClass
+9,CommunityToolkit.Mvvm, https://github.com/CommunityToolkit/dotnet,MVVM
 10,RSCG_AMS, https://github.com/ignatandrei/RSCG_AMS,EnhancementProject
 11,AutoDeconstruct, https://github.com/jasonbock/autodeconstruct,Constructor
 12,System.Runtime.InteropServices, https://www.nuget.org/packages/System.Runtime.InteropServices/,EnhancementClass
@@ -46,7 +46,7 @@ Nr,Key,Source,Category
 45,IDisp, https://github.com/benutomo-dev/RoslynComponents,EnhancementClass
 46,NextGenMapper, https://github.com/DedAnton/NextGenMapper,Mapper
 47,Injectio, https://github.com/loresoft/Injectio,DependencyInjection
-48,PropChange, https://github.com/canton7/PropertyChanged.SourceGenerator,EnhancementClass
+48,PropChange, https://github.com/canton7/PropertyChanged.SourceGenerator,MVVM
 49,Strongly, https://github.com/lucasteles/Strongly/,PrimitiveObsession
 50,Ridge, https://github.com/Melchy/Ridge,Tests
 51,OneOf, https://github.com/mcintyre321/OneOf,FunctionalProgramming
@@ -57,3 +57,4 @@ Nr,Key,Source,Category
 56,Roozie.AutoInterface, https://github.com/AlexRussak/Roozie.AutoInterface,EnhancementClass
 57,Memo, https://github.com/ignatandrei/RSCG_Utils,FunctionalProgramming
 58,ThisAssembly_Resources, https://github.com/devlooped/ThisAssembly,FilesToCode
+59,SourceGenerator.Helper.CopyCode, https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode,EnhancementProject

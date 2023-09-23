@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"SourceGenerator.Helper.CopyCode",
+      "nuget":[
+         "https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/"
+      ],
+      "link":"https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode",
+      "author":"Patrick Kranz",
+      "source":"https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode"
+   },
+   "data":{
+      "goodFor":["Transform Code to string"],
+      "csprojDemo":"SourceGenerator_Helper_CopyCodeDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
