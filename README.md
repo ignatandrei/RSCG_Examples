@@ -1,5 +1,7 @@
 # RSCG - 59 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
+## Latest Update : 2023-09-17 => 17 September 2023
+
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
@@ -1324,7 +1326,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https:/
 
 41) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
 
-Why I have not tested : later
+Why I have not tested : less than net 7
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WinUI-ObservableSettings&body=https://github.com/JasonWei512/WinUI-ObservableSettings
 

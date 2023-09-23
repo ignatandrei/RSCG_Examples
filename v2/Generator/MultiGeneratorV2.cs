@@ -18,6 +18,7 @@ public class MultiGeneratorV2
     const string inspirational = "not having nuget, but having IIncrementalGenerator";
     const string noReadMe = "no readme";
     const string later = "later";
+    const string lessNet7 = "less than net 7";
     NoExample[] rscgNoExamples = new NoExample[] {
 
 new("AutoEmbed https://github.com/chsienki/AutoEmbed                           ",old)
@@ -157,7 +158,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
 , new ("ControllerGenerator https://github.com/cloud0259/ControllerGenerator",later)
-,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", later)
+,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 
 
@@ -978,6 +979,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
                 all = _AllDescriptions,
                 MSFT_RSCG = MicrosoftRSCG,
                 MSFT_RSCG_NR = MicrosoftRSCG.Length,
+                LatestUpdate = _AllDescriptions.Max(it=>it!.GeneratorData!.dtStart)
             },
             member => member.Name); 
         await File.WriteAllTextAsync(readMe, output);

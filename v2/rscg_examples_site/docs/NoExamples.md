@@ -552,7 +552,7 @@ Why I have not put example: too complicated for me, need help
 
 137)WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings  
 
-Why I have not put example: later
+Why I have not put example: less than net 7
 
 138)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
