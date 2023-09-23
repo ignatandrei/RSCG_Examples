@@ -1586,5 +1586,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit
 ### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
+### [SafeRouting](/docs/SafeRouting)
+
+
 ### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

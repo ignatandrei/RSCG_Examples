@@ -237,9 +237,13 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Memo",new GeneratorData(true,new(2023,8,27),Category.FunctionalProgramming) },
             {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },
             {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.EnhancementProject) },
-            {"SafeRouting",new(true,new(2023,09,23)) }
+            {"SafeRouting",new(true,new(2023,09,23),Category.API) }
         };
-          
+        var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
+        if (noCategory.Length > 0)
+        {
+            throw new ArgumentException("please put category on " + noCategory[0].Key);
+        }
         //foreach (var v in generators) 
         //{
         //    generators[v.Key] = (v.Key == "Microsoft.Interop.JavaScript.JSImportGenerator");

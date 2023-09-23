@@ -10,7 +10,7 @@ import DocCardList from '@theme/DocCardList';
 [See time based list](/docs/List-of-RSCG)
 
 <details>
-  <summary>API =>examples:3</summary>
+  <summary>API =>examples:4</summary>
         
 
 
@@ -25,6 +25,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+
+        
+
+
+[SafeRouting](/docs/SafeRouting)
 
 </details>
     
@@ -305,15 +310,6 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>None =>examples:1</summary>
-        
-
-
-[SafeRouting](/docs/SafeRouting)
-
-</details>
-    
-<details>
   <summary>PrimitiveObsession =>examples:2</summary>
         
 
@@ -376,6 +372,8 @@ flowchart LR;
     API--> Refit((Refit))
 
     API--> RSCG_WebAPIExports((RSCG_WebAPIExports))
+
+    API--> SafeRouting((SafeRouting))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 
@@ -472,8 +470,6 @@ flowchart LR;
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
     MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
-
-    None--> SafeRouting((SafeRouting))
 
     PrimitiveObsession--> Vogen((Vogen))
 

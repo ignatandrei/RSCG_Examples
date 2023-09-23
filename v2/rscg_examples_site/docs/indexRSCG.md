@@ -15,7 +15,7 @@ This is the list of 60 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|60|[SafeRouting](/docs/SafeRouting)|2023-09-23 => 23 September 2023 | None |
+|60|[SafeRouting](/docs/SafeRouting)|2023-09-23 => 23 September 2023 | API |
 |59|[SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)|2023-09-17 => 17 September 2023 | EnhancementProject |
 |58|[ThisAssembly_Resources](/docs/ThisAssembly_Resources)|2023-09-16 => 16 September 2023 | FilesToCode |
 |57|[RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)|2023-08-27 => 27 August 2023 | FunctionalProgramming |

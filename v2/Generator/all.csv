@@ -58,4 +58,4 @@ Nr,Key,Source,Category
 57,Memo, https://github.com/ignatandrei/RSCG_Utils,FunctionalProgramming
 58,ThisAssembly_Resources, https://github.com/devlooped/ThisAssembly,FilesToCode
 59,SourceGenerator.Helper.CopyCode, https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode,EnhancementProject
-60,SafeRouting, https://github.com/daviddotcs/safe-routing,None
+60,SafeRouting, https://github.com/daviddotcs/safe-routing,API
