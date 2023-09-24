@@ -160,7 +160,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
-, new NoExample("DudNet https://github.com/jwshyns/DudNet",later)
+, new NoExample("DudNet https://github.com/jwshyns/DudNet"," version> 1.1.0, see branch with errors")
 
     };
     
