@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"`",
+      "nuget":[
+         "https://www.nuget.org/packages/`/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"`Demo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
