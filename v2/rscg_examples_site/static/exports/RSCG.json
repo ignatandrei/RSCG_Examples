@@ -23,7 +23,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json",
       "NuGet": "https://www.nuget.org/packages/System.Text.Json/",
       "Source": "https://github.com/dotnet/runtime",
-      "Category": "EnhancementClass",
+      "Category": "Serializer",
       "AddedOn": "2023-04-16T00:00:00"
     },
     {
@@ -481,6 +481,14 @@
       "Source": "https://github.com/daviddotcs/safe-routing",
       "Category": "API",
       "AddedOn": "2023-09-23T00:00:00"
+    },
+    {
+      "Name": "ProtobufSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/",
+      "Source": "https://github.com/ladeak/ProtobufSourceGenerator",
+      "Category": "Serializer",
+      "AddedOn": "2023-09-24T00:00:00"
     }
   ]
 }

@@ -2164,8 +2164,5 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew
 ### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
 
 
-### [System.Text.Json](/docs/System.Text.Json)
-
-
 ### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 

@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"ProtobufSourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/"
+      ],
+      "link":"https://github.com/ladeak/ProtobufSourceGenerator",
+      "author":"Laszlo Deak",
+      "source":"https://github.com/ladeak/ProtobufSourceGenerator"
+   },
+   "data":{
+      "goodFor":["Serializing a class to protobuf"],
+      "csprojDemo":"ProtobufSourceGeneratorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

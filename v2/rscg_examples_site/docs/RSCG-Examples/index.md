@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 60 RSCG by category 
-description: 60 RSCG by category 
+title: 61 RSCG by category 
+description: 61 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -81,12 +81,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:19</summary>
-        
-
-
-[System.Text.Json](/docs/System.Text.Json)
-
+  <summary>EnhancementClass =>examples:18</summary>
         
 
 
@@ -324,6 +319,20 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
+  <summary>Serializer =>examples:2</summary>
+        
+
+
+[System.Text.Json](/docs/System.Text.Json)
+
+        
+
+
+[ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+
+</details>
+    
+<details>
   <summary>Templating =>examples:4</summary>
         
 
@@ -388,8 +397,6 @@ flowchart LR;
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 
     DependencyInjection--> Injectio((Injectio))
-
-    EnhancementClass--> System.Text.Json((System.Text.Json))
 
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 
@@ -474,6 +481,10 @@ flowchart LR;
     PrimitiveObsession--> Vogen((Vogen))
 
     PrimitiveObsession--> Strongly((Strongly))
+
+    Serializer--> System.Text.Json((System.Text.Json))
+
+    Serializer--> ProtobufSourceGenerator((ProtobufSourceGenerator))
 
     Templating--> RazorBlade((RazorBlade))
 
