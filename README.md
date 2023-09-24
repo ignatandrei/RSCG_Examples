@@ -1134,7 +1134,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=boilerplatezero&bo
 
 9) [ControllerGenerator]( https://github.com/cloud0259/ControllerGenerator) , https://github.com/cloud0259/ControllerGenerator 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ControllerGenerator&body=https://github.com/cloud0259/ControllerGenerator
 
@@ -1246,7 +1246,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PolySharp&body=htt
 
 25) [PrimaryParameter]( https://github.com/FaustVX/PrimaryParameter) , https://github.com/FaustVX/PrimaryParameter 
 
-Why I have not tested : later
+Why I have not tested : later in .net 8
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PrimaryParameter&body=https://github.com/FaustVX/PrimaryParameter
 
@@ -1356,7 +1356,7 @@ Why I have not tested : not maintained as in readme
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WrapperValueObject&body=https://github.com/martinothamar/WrapperValueObject
 
 
-## Do not want to test 97 ( old ISourceGenerator )
+## Do not want to test 98 ( old ISourceGenerator )
 
 <details>
   <summary>Expand</summary>
@@ -1460,487 +1460,493 @@ Why I have not tested : old ISourceGenerator
 
 
 
-17) [Data]( https://github.com/dasMulli/data-builder-generator) , https://github.com/dasMulli/data-builder-generator 
+17) [CSV-Parser-Generator]( https://github.com/LokiMidgard/CSV-Parser-Generator) , https://github.com/LokiMidgard/CSV-Parser-Generator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-18) [DevExpress.Mvvm.CodeGenerators]( https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators) , https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators 
+18) [Data]( https://github.com/dasMulli/data-builder-generator) , https://github.com/dasMulli/data-builder-generator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-19) [docopt.net]( https://github.com/docopt/docopt.net) , https://github.com/docopt/docopt.net 
+19) [DevExpress.Mvvm.CodeGenerators]( https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators) , https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-20) [dot-env-generator]( https://github.com/betwixt-labs/dot-env-generator) , https://github.com/betwixt-labs/dot-env-generator 
+20) [docopt.net]( https://github.com/docopt/docopt.net) , https://github.com/docopt/docopt.net 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-21) [dotVariant]( https://github.com/mknejp/dotvariant) , https://github.com/mknejp/dotvariant 
+21) [dot-env-generator]( https://github.com/betwixt-labs/dot-env-generator) , https://github.com/betwixt-labs/dot-env-generator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-22) [Durian]( https://github.com/piotrstenke/Durian) , https://github.com/piotrstenke/Durian 
+22) [dotVariant]( https://github.com/mknejp/dotvariant) , https://github.com/mknejp/dotvariant 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-23) [Enum.Source.Generator]( https://github.com/EngRajabi/Enum.Source.Generator) , https://github.com/EngRajabi/Enum.Source.Generator 
+23) [Durian]( https://github.com/piotrstenke/Durian) , https://github.com/piotrstenke/Durian 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-24) [EnumerationClassGenerator]( https://github.com/HamedFathi/EnumerationClassGenerator) , https://github.com/HamedFathi/EnumerationClassGenerator 
+24) [Enum.Source.Generator]( https://github.com/EngRajabi/Enum.Source.Generator) , https://github.com/EngRajabi/Enum.Source.Generator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-25) [EnumFastToStringDotNet]( https://github.com/Spinnernicholas/EnumFastToStringDotNet) , https://github.com/Spinnernicholas/EnumFastToStringDotNet 
+25) [EnumerationClassGenerator]( https://github.com/HamedFathi/EnumerationClassGenerator) , https://github.com/HamedFathi/EnumerationClassGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-26) [EnumUtilitiesGenerator]( https://github.com/leoformaggi/enum-utilities-generator) , https://github.com/leoformaggi/enum-utilities-generator 
+26) [EnumFastToStringDotNet]( https://github.com/Spinnernicholas/EnumFastToStringDotNet) , https://github.com/Spinnernicholas/EnumFastToStringDotNet 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-27) [Fairy]( https://github.com/hermanussen/Fairy) , https://github.com/hermanussen/Fairy 
+27) [EnumUtilitiesGenerator]( https://github.com/leoformaggi/enum-utilities-generator) , https://github.com/leoformaggi/enum-utilities-generator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-28) [FastEnumGenerator]( https://github.com/musictopia2/FastEnumGenerator) , https://github.com/musictopia2/FastEnumGenerator 
+28) [Fairy]( https://github.com/hermanussen/Fairy) , https://github.com/hermanussen/Fairy 
+
+Why I have not tested : old ISourceGenerator
+
+
+
+29) [FastEnumGenerator]( https://github.com/musictopia2/FastEnumGenerator) , https://github.com/musictopia2/FastEnumGenerator 
 
 Why I have not tested : no readme
 
 
 
-29) [Figgle,]( https://github.com/drewnoakes/figgle) , https://github.com/drewnoakes/figgle 
+30) [Figgle,]( https://github.com/drewnoakes/figgle) , https://github.com/drewnoakes/figgle 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-30) [Flattening]( https://github.com/Kros-sk/Kros.Generators.Flattening) , https://github.com/Kros-sk/Kros.Generators.Flattening 
+31) [Flattening]( https://github.com/Kros-sk/Kros.Generators.Flattening) , https://github.com/Kros-sk/Kros.Generators.Flattening 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-31) [FluentBuilder]( https://github.com/StefH/FluentBuilder) , https://github.com/StefH/FluentBuilder 
+32) [FluentBuilder]( https://github.com/StefH/FluentBuilder) , https://github.com/StefH/FluentBuilder 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-32) [fonderie]( https://github.com/jeromelaban/fonderie) , https://github.com/jeromelaban/fonderie 
+33) [fonderie]( https://github.com/jeromelaban/fonderie) , https://github.com/jeromelaban/fonderie 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-33) [GenerateHelperLibraries]( https://github.com/musictopia2/GenerateHelperLibraries) , https://github.com/musictopia2/GenerateHelperLibraries 
+34) [GenerateHelperLibraries]( https://github.com/musictopia2/GenerateHelperLibraries) , https://github.com/musictopia2/GenerateHelperLibraries 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-34) [Generators.Blazor]( https://github.com/excubo-ag/Generators.Blazor) , https://github.com/excubo-ag/Generators.Blazor 
+35) [Generators.Blazor]( https://github.com/excubo-ag/Generators.Blazor) , https://github.com/excubo-ag/Generators.Blazor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-35) [Generators.Grouping]( https://github.com/excubo-ag/Generators.Grouping) , https://github.com/excubo-ag/Generators.Grouping 
+36) [Generators.Grouping]( https://github.com/excubo-ag/Generators.Grouping) , https://github.com/excubo-ag/Generators.Grouping 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-36) [GitBuildInfo.SourceGenerator]( https://github.com/Elskom/GitBuildInfo.SourceGenerator) , https://github.com/Elskom/GitBuildInfo.SourceGenerator 
+37) [GitBuildInfo.SourceGenerator]( https://github.com/Elskom/GitBuildInfo.SourceGenerator) , https://github.com/Elskom/GitBuildInfo.SourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-37) [GraphQL.Tools]( https://github.com/MoienTajik/GraphQL.Tools) , https://github.com/MoienTajik/GraphQL.Tools 
+38) [GraphQL.Tools]( https://github.com/MoienTajik/GraphQL.Tools) , https://github.com/MoienTajik/GraphQL.Tools 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-38) [GrpcInjection]( https://github.com/juniorporfirio/grpcinjection) , https://github.com/juniorporfirio/grpcinjection 
+39) [GrpcInjection]( https://github.com/juniorporfirio/grpcinjection) , https://github.com/juniorporfirio/grpcinjection 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-39) [HttpClientCodeGenerator]( https://github.com/Jalalx/HttpClientCodeGenerator) , https://github.com/Jalalx/HttpClientCodeGenerator 
+40) [HttpClientCodeGenerator]( https://github.com/Jalalx/HttpClientCodeGenerator) , https://github.com/Jalalx/HttpClientCodeGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-40) [Imp.NET]( https://github.com/DouglasDwyer/Imp.NET) , https://github.com/DouglasDwyer/Imp.NET 
+41) [Imp.NET]( https://github.com/DouglasDwyer/Imp.NET) , https://github.com/DouglasDwyer/Imp.NET 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-41) [InterfaceGenerator]( https://github.com/daver32/InterfaceGenerator) , https://github.com/daver32/InterfaceGenerator 
+42) [InterfaceGenerator]( https://github.com/daver32/InterfaceGenerator) , https://github.com/daver32/InterfaceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-42) [IoTHubClientGenerator]( https://github.com/alonf/IoTHubClientGenerator) , https://github.com/alonf/IoTHubClientGenerator 
+43) [IoTHubClientGenerator]( https://github.com/alonf/IoTHubClientGenerator) , https://github.com/alonf/IoTHubClientGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-43) [JsonByExampleGenerator]( https://github.com/hermanussen/JsonByExampleGenerator) , https://github.com/hermanussen/JsonByExampleGenerator 
+44) [JsonByExampleGenerator]( https://github.com/hermanussen/JsonByExampleGenerator) , https://github.com/hermanussen/JsonByExampleGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-44) [JsonDeserializeResourceSourceGenerator]( https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator) , https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator 
+45) [JsonDeserializeResourceSourceGenerator]( https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator) , https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator 
 
 Why I have not tested : no readme
 
 
 
-45) [JsonMergePatch]( https://github.com/ladeak/JsonMergePatch) , https://github.com/ladeak/JsonMergePatch 
+46) [JsonMergePatch]( https://github.com/ladeak/JsonMergePatch) , https://github.com/ladeak/JsonMergePatch 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-46) [JsonPolymorphicGenerator]( https://github.com/surgicalcoder/JsonPolymorphicGenerator) , https://github.com/surgicalcoder/JsonPolymorphicGenerator 
+47) [JsonPolymorphicGenerator]( https://github.com/surgicalcoder/JsonPolymorphicGenerator) , https://github.com/surgicalcoder/JsonPolymorphicGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-47) [JsonSerializerContextGenerator]( https://github.com/musictopia2/JsonSerializerContextGenerator) , https://github.com/musictopia2/JsonSerializerContextGenerator 
+48) [JsonSerializerContextGenerator]( https://github.com/musictopia2/JsonSerializerContextGenerator) , https://github.com/musictopia2/JsonSerializerContextGenerator 
 
 Why I have not tested : no readme
 
 
 
-48) [JsonSrcGen]( https://github.com/trampster/JsonSrcGen) , https://github.com/trampster/JsonSrcGen 
+49) [JsonSrcGen]( https://github.com/trampster/JsonSrcGen) , https://github.com/trampster/JsonSrcGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-49) [kli.Localize]( https://github.com/kl1mm/localize) , https://github.com/kl1mm/localize 
+50) [kli.Localize]( https://github.com/kl1mm/localize) , https://github.com/kl1mm/localize 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-50) [lambdajection]( https://github.com/cythral/lambdajection) , https://github.com/cythral/lambdajection 
+51) [lambdajection]( https://github.com/cythral/lambdajection) , https://github.com/cythral/lambdajection 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-51) [Lazysh]( https://github.com/B1Z0N/LazyshGen) , https://github.com/B1Z0N/LazyshGen 
+52) [Lazysh]( https://github.com/B1Z0N/LazyshGen) , https://github.com/B1Z0N/LazyshGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-52) [M31.FluentAPI]( https://github.com/m31coding/M31.FluentAPI) , https://github.com/m31coding/M31.FluentAPI 
+53) [M31.FluentAPI]( https://github.com/m31coding/M31.FluentAPI) , https://github.com/m31coding/M31.FluentAPI 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-53) [MapDataReader]( https://github.com/jitbit/MapDataReader) , https://github.com/jitbit/MapDataReader 
+54) [MapDataReader]( https://github.com/jitbit/MapDataReader) , https://github.com/jitbit/MapDataReader 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-54) [MappingCloningExtensions]( https://github.com/musictopia2/MappingCloningExtensions) , https://github.com/musictopia2/MappingCloningExtensions 
+55) [MappingCloningExtensions]( https://github.com/musictopia2/MappingCloningExtensions) , https://github.com/musictopia2/MappingCloningExtensions 
 
 Why I have not tested : no readme
 
 
 
-55) [MapTo]( https://github.com/mrtaikandi/MapTo) , https://github.com/mrtaikandi/MapTo 
+56) [MapTo]( https://github.com/mrtaikandi/MapTo) , https://github.com/mrtaikandi/MapTo 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-56) [MediatR]( https://github.com/Burgyn/MMLib.MediatR.Generators) , https://github.com/Burgyn/MMLib.MediatR.Generators 
+57) [MediatR]( https://github.com/Burgyn/MMLib.MediatR.Generators) , https://github.com/Burgyn/MMLib.MediatR.Generators 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-57) [MemberAccessGenerator]( https://github.com/ufcpp/MemberAccessGenerator) , https://github.com/ufcpp/MemberAccessGenerator 
+58) [MemberAccessGenerator]( https://github.com/ufcpp/MemberAccessGenerator) , https://github.com/ufcpp/MemberAccessGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-58) [MemoizeSourceGenerator]( https://github.com/Zoxive/MemoizeSourceGenerator) , https://github.com/Zoxive/MemoizeSourceGenerator 
+59) [MemoizeSourceGenerator]( https://github.com/Zoxive/MemoizeSourceGenerator) , https://github.com/Zoxive/MemoizeSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-59) [MiniRazor]( https://github.com/Tyrrrz/MiniRazor/) , https://github.com/Tyrrrz/MiniRazor/ 
+60) [MiniRazor]( https://github.com/Tyrrrz/MiniRazor/) , https://github.com/Tyrrrz/MiniRazor/ 
 
 Why I have not tested : archived
 
 
 
-60) [MockableStaticGenerator]( https://github.com/HamedFathi/MockableStaticGenerator) , https://github.com/HamedFathi/MockableStaticGenerator 
+61) [MockableStaticGenerator]( https://github.com/HamedFathi/MockableStaticGenerator) , https://github.com/HamedFathi/MockableStaticGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-61) [MockGen]( https://github.com/thomas-girotto/MockGen) , https://github.com/thomas-girotto/MockGen 
+62) [MockGen]( https://github.com/thomas-girotto/MockGen) , https://github.com/thomas-girotto/MockGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-62) [MockSourceGenerator]( https://github.com/hermanussen/MockSourceGenerator) , https://github.com/hermanussen/MockSourceGenerator 
+63) [MockSourceGenerator]( https://github.com/hermanussen/MockSourceGenerator) , https://github.com/hermanussen/MockSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-63) [MrMeeseeks.DIE]( https://github.com/Yeah69/MrMeeseeks.DIE) , https://github.com/Yeah69/MrMeeseeks.DIE 
+64) [MrMeeseeks.DIE]( https://github.com/Yeah69/MrMeeseeks.DIE) , https://github.com/Yeah69/MrMeeseeks.DIE 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-64) [MrMeeseeks.ResXToViewModelGenerator]( https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator) , https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator 
+65) [MrMeeseeks.ResXToViewModelGenerator]( https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator) , https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-65) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
+66) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-66) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
+67) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-67) [N.SourceGenerators.UnionTypes]( https://github.com/Ne4to/N.SourceGenerators.UnionTypes) , https://github.com/Ne4to/N.SourceGenerators.UnionTypes 
+68) [N.SourceGenerators.UnionTypes]( https://github.com/Ne4to/N.SourceGenerators.UnionTypes) , https://github.com/Ne4to/N.SourceGenerators.UnionTypes 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-68) [net_automatic_interface]( https://github.com/codecentric/net_automatic_interface) , https://github.com/codecentric/net_automatic_interface 
+69) [net_automatic_interface]( https://github.com/codecentric/net_automatic_interface) , https://github.com/codecentric/net_automatic_interface 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-69) [Plastic]( https://github.com/sang-hyeon/Plastic) , https://github.com/sang-hyeon/Plastic 
+70) [Plastic]( https://github.com/sang-hyeon/Plastic) , https://github.com/sang-hyeon/Plastic 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-70) [PrimaryConstructor]( https://github.com/chaowlert/PrimaryConstructor) , https://github.com/chaowlert/PrimaryConstructor 
+71) [PrimaryConstructor]( https://github.com/chaowlert/PrimaryConstructor) , https://github.com/chaowlert/PrimaryConstructor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-71) [PrimitiveStaticDataGenerator]( https://github.com/iiweis/PrimitiveStaticDataGenerator) , https://github.com/iiweis/PrimitiveStaticDataGenerator 
+72) [PrimitiveStaticDataGenerator]( https://github.com/iiweis/PrimitiveStaticDataGenerator) , https://github.com/iiweis/PrimitiveStaticDataGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-72) [PrintMembersGenerator]( https://github.com/Youssef1313/PrintMembersGenerator) , https://github.com/Youssef1313/PrintMembersGenerator 
+73) [PrintMembersGenerator]( https://github.com/Youssef1313/PrintMembersGenerator) , https://github.com/Youssef1313/PrintMembersGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-73) [ProxyInterfaceGenerator]( https://github.com/StefH/ProxyInterfaceSourceGenerator) , https://github.com/StefH/ProxyInterfaceSourceGenerator 
+74) [ProxyInterfaceGenerator]( https://github.com/StefH/ProxyInterfaceSourceGenerator) , https://github.com/StefH/ProxyInterfaceSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-74) [RazorPageRouteGenerator]( https://github.com/surgicalcoder/RazorPageRouteGenerator) , https://github.com/surgicalcoder/RazorPageRouteGenerator 
+75) [RazorPageRouteGenerator]( https://github.com/surgicalcoder/RazorPageRouteGenerator) , https://github.com/surgicalcoder/RazorPageRouteGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-75) [RoslynWeave]( https://github.com/Jishun/RoslynWeave) , https://github.com/Jishun/RoslynWeave 
+76) [RoslynWeave]( https://github.com/Jishun/RoslynWeave) , https://github.com/Jishun/RoslynWeave 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-76) [ScenarioTests]( https://github.com/koenbeuk/ScenarioTests) , https://github.com/koenbeuk/ScenarioTests 
+77) [ScenarioTests]( https://github.com/koenbeuk/ScenarioTests) , https://github.com/koenbeuk/ScenarioTests 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-77) [SmallSharp]( https://github.com/devlooped/SmallSharp) , https://github.com/devlooped/SmallSharp 
+78) [SmallSharp]( https://github.com/devlooped/SmallSharp) , https://github.com/devlooped/SmallSharp 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-78) [SmartAnnotations]( https://github.com/fiseni/SmartAnnotations) , https://github.com/fiseni/SmartAnnotations 
+79) [SmartAnnotations]( https://github.com/fiseni/SmartAnnotations) , https://github.com/fiseni/SmartAnnotations 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-79) [SourceApi]( https://github.com/alekshura/SourceApi) , https://github.com/alekshura/SourceApi 
+80) [SourceApi]( https://github.com/alekshura/SourceApi) , https://github.com/alekshura/SourceApi 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-80) [SourceConfig]( https://github.com/alekshura/SourceConfig) , https://github.com/alekshura/SourceConfig 
+81) [SourceConfig]( https://github.com/alekshura/SourceConfig) , https://github.com/alekshura/SourceConfig 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-81) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
+82) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-82) [SourceInject]( https://github.com/giggio/sourceinject/) , https://github.com/giggio/sourceinject/ 
+83) [SourceInject]( https://github.com/giggio/sourceinject/) , https://github.com/giggio/sourceinject/ 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-83) [SourceMapper]( https://github.com/alekshura/SourceMapper) , https://github.com/alekshura/SourceMapper 
+84) [SourceMapper]( https://github.com/alekshura/SourceMapper) , https://github.com/alekshura/SourceMapper 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-84) [SourceMapper]( https://github.com/paiden/SourceMapper/) , https://github.com/paiden/SourceMapper/ 
+85) [SourceMapper]( https://github.com/paiden/SourceMapper/) , https://github.com/paiden/SourceMapper/ 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-85) [SqlMarshal]( https://github.com/kant2002/SqlMarshal) , https://github.com/kant2002/SqlMarshal 
+86) [SqlMarshal]( https://github.com/kant2002/SqlMarshal) , https://github.com/kant2002/SqlMarshal 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-86) [StackXML]( https://github.com/ZingBallyhoo/StackXML) , https://github.com/ZingBallyhoo/StackXML 
+87) [StackXML]( https://github.com/ZingBallyhoo/StackXML) , https://github.com/ZingBallyhoo/StackXML 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-87) [StaticProxyGenerator]( https://github.com/robertturner/StaticProxyGenerator) , https://github.com/robertturner/StaticProxyGenerator 
+88) [StaticProxyGenerator]( https://github.com/robertturner/StaticProxyGenerator) , https://github.com/robertturner/StaticProxyGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-88) [StronglyTypedEmbeddedResources]( https://github.com/surgicalcoder/StronglyTypedEmbeddedResources) , https://github.com/surgicalcoder/StronglyTypedEmbeddedResources 
+89) [StronglyTypedEmbeddedResources]( https://github.com/surgicalcoder/StronglyTypedEmbeddedResources) , https://github.com/surgicalcoder/StronglyTypedEmbeddedResources 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-89) [StructPacker]( https://github.com/RudolfKurka/StructPacker) , https://github.com/RudolfKurka/StructPacker 
+90) [StructPacker]( https://github.com/RudolfKurka/StructPacker) , https://github.com/RudolfKurka/StructPacker 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-90) [Svg]( https://github.com/wieslawsoltes/Svg.Skia) , https://github.com/wieslawsoltes/Svg.Skia 
+91) [Svg]( https://github.com/wieslawsoltes/Svg.Skia) , https://github.com/wieslawsoltes/Svg.Skia 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-91) [Thunderboltloc]( https://github.com/AlyElhaddad/ThunderboltIoc) , https://github.com/AlyElhaddad/ThunderboltIoc 
+92) [Thunderboltloc]( https://github.com/AlyElhaddad/ThunderboltIoc) , https://github.com/AlyElhaddad/ThunderboltIoc 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-92) [ToString]( https://github.com/Burgyn/MMLib.ToString) , https://github.com/Burgyn/MMLib.ToString 
+93) [ToString]( https://github.com/Burgyn/MMLib.ToString) , https://github.com/Burgyn/MMLib.ToString 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-93) [Transplator]( https://github.com/atifaziz/Transplator) , https://github.com/atifaziz/Transplator 
+94) [Transplator]( https://github.com/atifaziz/Transplator) , https://github.com/atifaziz/Transplator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-94) [TxtToListGenerator]( https://github.com/musictopia2/TxtToListGenerator) , https://github.com/musictopia2/TxtToListGenerator 
+95) [TxtToListGenerator]( https://github.com/musictopia2/TxtToListGenerator) , https://github.com/musictopia2/TxtToListGenerator 
 
 Why I have not tested : no readme
 
 
 
-95) [ValueChangedGenerator]( https://github.com/ufcpp/ValueChangedGenerator) , https://github.com/ufcpp/ValueChangedGenerator 
+96) [ValueChangedGenerator]( https://github.com/ufcpp/ValueChangedGenerator) , https://github.com/ufcpp/ValueChangedGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-96) [ValueObjectGenerator]( https://github.com/RyotaMurohoshi/ValueObjectGenerator) , https://github.com/RyotaMurohoshi/ValueObjectGenerator 
+97) [ValueObjectGenerator]( https://github.com/RyotaMurohoshi/ValueObjectGenerator) , https://github.com/RyotaMurohoshi/ValueObjectGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-97) [Xtz.StronglyTyped]( https://github.com/dev-experience/Xtz.StronglyTyped) , https://github.com/dev-experience/Xtz.StronglyTyped 
+98) [Xtz.StronglyTyped]( https://github.com/dev-experience/Xtz.StronglyTyped) , https://github.com/dev-experience/Xtz.StronglyTyped 
 
 Why I have not tested : old ISourceGenerator
 

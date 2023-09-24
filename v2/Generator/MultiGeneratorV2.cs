@@ -18,6 +18,7 @@ public class MultiGeneratorV2
     const string inspirational = "not having nuget, but having IIncrementalGenerator";
     const string noReadMe = "no readme";
     const string later = "later";
+    const string WaitingForIssue = "issue opened";
     const string lessNet7 = "less than net 7";
     NoExample[] rscgNoExamples = new NoExample[] {
 
@@ -151,13 +152,14 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Figgle, https://github.com/drewnoakes/figgle",old)
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
 ,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
-, new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later)
+, new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later + " in .net 8")
 ,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",old)
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
-, new ("ControllerGenerator https://github.com/cloud0259/ControllerGenerator",later)
+, new ("ControllerGenerator https://github.com/cloud0259/ControllerGenerator",WaitingForIssue)
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
+,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
 
 
     };
