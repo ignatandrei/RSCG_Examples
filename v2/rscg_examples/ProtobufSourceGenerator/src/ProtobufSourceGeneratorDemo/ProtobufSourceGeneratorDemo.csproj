@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="LaDeak.ProtobufSourceGenerator" Version="1.5.0" OutputItemType="Analyzer" ReferenceOutputAssembly="true"  />
+		<PackageReference Include="LaDeak.ProtobufSourceGenerator" Version="1.5.1" OutputItemType="Analyzer" ReferenceOutputAssembly="true" />
 		<PackageReference Include="protobuf-net" Version="3.2.26" />
 	</ItemGroup>
 	<PropertyGroup>
