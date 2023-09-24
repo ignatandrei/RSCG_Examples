@@ -5,6 +5,8 @@ namespace ProtobufSourceGeneratorDemo;
 [ProtoContract]
 public partial class Person
 {
-    [ProtoMember(1)]
+    
+    public int Id { get; set; }
     public string? Name { get; set; }
 }
+

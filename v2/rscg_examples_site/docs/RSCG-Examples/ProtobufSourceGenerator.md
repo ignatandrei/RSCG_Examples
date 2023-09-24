@@ -200,7 +200,6 @@ Serializing a class to protobuf
 ### Example ( source csproj, source files )
 
 <Tabs>
-
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **ProtobufSourceGenerator**
