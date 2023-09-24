@@ -4,6 +4,11 @@ title: List of RSCG
 description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<head>
+  <script src={useBaseUrl('/js/mailerlite.js')} />;
+</head>
 
 ## 60 RSCG with examples in descending chronological order
 
@@ -11,6 +16,9 @@ This is the list of 60 ( 6 from Microsoft) RSCG with examples
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
+<div className="ml-embedded" data-form="P8l1V8"></div>
+
+## Complete list
 
 
 | No        | Name  | Date | Category |
