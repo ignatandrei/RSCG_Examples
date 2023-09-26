@@ -12,6 +12,8 @@ If you have a Roslyn Source Code Generator, please create an issue.
 
 If you want to help, see below .
 
+If you want to be notified each time I add a new RSCG example , please click https://dashboard.mailerlite.com/forms/611357/100178843411678256/share
+
 ## Content 
 
 Those are the {{nr}} Roslyn Source Code Generators that I have tested you can see and download source code example.

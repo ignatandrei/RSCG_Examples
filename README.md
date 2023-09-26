@@ -12,6 +12,8 @@ If you have a Roslyn Source Code Generator, please create an issue.
 
 If you want to help, see below .
 
+If you want to be notified each time I add a new RSCG example , please click https://dashboard.mailerlite.com/forms/611357/100178843411678256/share
+
 ## Content 
 
 Those are the 61 Roslyn Source Code Generators that I have tested you can see and download source code example.
@@ -1155,7 +1157,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyProperty
 
 12) [DudNet]( https://github.com/jwshyns/DudNet) , https://github.com/jwshyns/DudNet 
 
-Why I have not tested : later
+Why I have not tested :  version> 1.1.0, see branch with errors
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DudNet&body=https://github.com/jwshyns/DudNet
 

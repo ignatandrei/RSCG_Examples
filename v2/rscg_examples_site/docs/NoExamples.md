@@ -140,7 +140,7 @@ Why I have not put example: old ISourceGenerator
 
 34)DudNet https://github.com/jwshyns/DudNet  
 
-Why I have not put example: later
+Why I have not put example:  version> 1.1.0, see branch with errors
 
 35)Durian https://github.com/piotrstenke/Durian  
 
