@@ -60,3 +60,4 @@ Nr,Key,Source,Category
 59,SourceGenerator.Helper.CopyCode, https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode,EnhancementProject
 60,SafeRouting, https://github.com/daviddotcs/safe-routing,API
 61,ProtobufSourceGenerator, https://github.com/ladeak/ProtobufSourceGenerator,Serializer
+62,RSCG_Decorator, https://github.com/ignatandrei/RSCG_Decorator,EnhancementClass

@@ -903,6 +903,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
+### [RSCG_Decorator](/docs/RSCG_Decorator)
+
+
 ### [RSCG_Static](/docs/RSCG_Static)
 
 

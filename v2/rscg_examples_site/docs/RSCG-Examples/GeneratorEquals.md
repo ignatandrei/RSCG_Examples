@@ -506,6 +506,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
+### [RSCG_Decorator](/docs/RSCG_Decorator)
+
+
 ### [RSCG_Static](/docs/RSCG_Static)
 
 

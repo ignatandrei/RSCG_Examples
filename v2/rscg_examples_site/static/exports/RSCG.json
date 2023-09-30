@@ -489,6 +489,14 @@
       "Source": "https://github.com/ladeak/ProtobufSourceGenerator",
       "Category": "Serializer",
       "AddedOn": "2023-09-24T00:00:00"
+    },
+    {
+      "Name": "RSCG_Decorator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator",
+      "NuGet": "https://www.nuget.org/packages/RSCG_Decorator/",
+      "Source": "https://github.com/ignatandrei/RSCG_Decorator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-09-30T00:00:00"
     }
   ]
 }

@@ -239,7 +239,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },
             {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.EnhancementProject) },
             {"SafeRouting",new(true,new(2023,09,23),Category.API) },
-            {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) }
+            {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) },
+            {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
+             
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

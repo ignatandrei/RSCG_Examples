@@ -1,6 +1,6 @@
-# RSCG - 61 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 62 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-09-24 => 24 September 2023
+## Latest Update : 2023-09-30 => 30 September 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 61 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 62 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 62. [RSCG_Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator) generated on : 2023-09-30 => 30 September 2023
+<details>
+  <summary>Expand</summary>
+Author: Andrei Ignat
+
+Roslyn Decorator for a class- intercept methods 
+
+Nuget: [https://www.nuget.org/packages/RSCG_Decorator/](https://www.nuget.org/packages/RSCG_Decorator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator)
+
+Source: [https://github.com/ignatandrei/RSCG_Decorator](https://github.com/ignatandrei/RSCG_Decorator)
+
+</details>
+
 ### 61. [ProtobufSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator) generated on : 2023-09-24 => 24 September 2023
 <details>
   <summary>Expand</summary>

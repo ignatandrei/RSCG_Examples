@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="RSCG_Decorator" Version="7.2023.930.2116" OutputItemType="Analyzer" ReferenceOutputAssembly="false"  />
+	  <PackageReference Include="RSCG_DecoratorCommon" Version="7.2023.930.2116" />
+  </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>

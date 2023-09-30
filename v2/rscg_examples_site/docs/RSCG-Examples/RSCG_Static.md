@@ -263,6 +263,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
+### [RSCG_Decorator](/docs/RSCG_Decorator)
+
+
 ### [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
 
