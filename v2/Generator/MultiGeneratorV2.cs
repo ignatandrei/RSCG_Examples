@@ -236,8 +236,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Roozie.AutoInterface",new GeneratorData(true,new(2023,8,26),Category.EnhancementClass) },
             {"Memo",new GeneratorData(true,new(2023,8,27),Category.FunctionalProgramming) },
             {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },
-            {"ControllerGenerator", new GeneratorData(true,new(2023,9,17),Category.API) },
-
+            {"Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
+             
         };
           
         //foreach (var v in generators) 

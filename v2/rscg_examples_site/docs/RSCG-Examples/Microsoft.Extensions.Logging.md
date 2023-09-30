@@ -384,6 +384,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 ### [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
 
 
+### [Decorator](/docs/Decorator)
+
+
 ### [EnumClass](/docs/EnumClass)
 
 

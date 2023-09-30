@@ -57,3 +57,4 @@ Nr,Key,Source,Category
 56,Roozie.AutoInterface, https://github.com/AlexRussak/Roozie.AutoInterface,EnhancementClass
 57,Memo, https://github.com/ignatandrei/RSCG_Utils,FunctionalProgramming
 58,ThisAssembly_Resources, https://github.com/devlooped/ThisAssembly,FilesToCode
+59,Decorator, https://github.com/ignatandrei/RSCG_Decorator,EnhancementClass

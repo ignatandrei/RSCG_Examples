@@ -1093,6 +1093,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 ### [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
 
 
+### [Decorator](/docs/Decorator)
+
+
 ### [FastGenericNew](/docs/FastGenericNew)
 
 

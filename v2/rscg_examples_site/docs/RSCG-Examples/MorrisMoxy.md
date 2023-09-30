@@ -332,6 +332,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 ### [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
 
 
+### [Decorator](/docs/Decorator)
+
+
 ### [EnumClass](/docs/EnumClass)
 
 

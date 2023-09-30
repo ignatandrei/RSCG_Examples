@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Decorator",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_Decorator/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_Decorator",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_Decorator"
+   },
+   "data":{
+      "goodFor":["Intercept methods - start, stop,exception"],
+      "csprojDemo":"RSCG_DecoratorTestConsole.csproj",
+      "csFiles":["Program.cs","PersonLogger.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

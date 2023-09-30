@@ -46,9 +46,9 @@ namespace TestBlazor.Pages
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.JavaScript.JSImportGenerator", "7.0.8.42427")]
         internal static partial string GetWelcomeMessage(string s)
         {
-            if (__signature_GetWelcomeMessage_1494740719 == null)
+            if (__signature_GetWelcomeMessage_501960401 == null)
             {
-                __signature_GetWelcomeMessage_1494740719 = global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindJSFunction("getMessage", "CallJavaScript1", new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+                __signature_GetWelcomeMessage_501960401 = global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindJSFunction("getMessage", "CallJavaScript1", new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
             }
 
             global::System.Span<global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument> __arguments_buffer = stackalloc global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument[3];
@@ -60,14 +60,14 @@ namespace TestBlazor.Pages
             // Setup - Perform required setup.
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __s_native__js_arg = ref __arguments_buffer[2];
             __s_native__js_arg.ToJS(s);
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.InvokeJS(__signature_GetWelcomeMessage_1494740719, __arguments_buffer);
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.InvokeJS(__signature_GetWelcomeMessage_501960401, __arguments_buffer);
             // Unmarshal - Convert native data to managed data.
             __arg_return.ToManaged(out __retVal);
             return __retVal;
         }
 
         [global::System.ThreadStaticAttribute]
-        static global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding __signature_GetWelcomeMessage_1494740719;
+        static global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding __signature_GetWelcomeMessage_501960401;
     }
 }
 

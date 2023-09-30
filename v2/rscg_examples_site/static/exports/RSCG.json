@@ -465,6 +465,14 @@
       "Source": "https://github.com/devlooped/ThisAssembly",
       "Category": "FilesToCode",
       "AddedOn": "2023-09-16T00:00:00"
+    },
+    {
+      "Name": "Decorator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Decorator",
+      "NuGet": "https://www.nuget.org/packages/RSCG_Decorator/",
+      "Source": "https://github.com/ignatandrei/RSCG_Decorator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-09-30T00:00:00"
     }
   ]
 }
