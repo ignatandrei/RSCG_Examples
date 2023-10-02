@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 63 RSCG by category 
-description: 63 RSCG by category 
+title: 64 RSCG by category 
+description: 64 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -229,7 +229,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>FilesToCode =>examples:4</summary>
+  <summary>FilesToCode =>examples:5</summary>
         
 
 
@@ -249,6 +249,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+
+        
+
+
+[ResXGenerator](/docs/ResXGenerator)
 
 </details>
     
@@ -475,6 +480,8 @@ flowchart LR;
     FilesToCode--> EmbedResourceCSharp((EmbedResourceCSharp))
 
     FilesToCode--> ThisAssembly_Resources((ThisAssembly_Resources))
+
+    FilesToCode--> ResXGenerator((ResXGenerator))
 
     FunctionalProgramming--> dunet((dunet))
 

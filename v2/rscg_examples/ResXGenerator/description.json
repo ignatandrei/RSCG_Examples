@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"ResXGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Aigamo.ResXGenerator/"
+      ],
+      "link":"https://github.com/ycanardeau/ResXGenerator",
+      "author":"Aigamo",
+      "source":"https://github.com/ycanardeau/ResXGenerator"
+   },
+   "data":{
+      "goodFor":["Resources as string"],
+      "csprojDemo":"ResXDemo.csproj",
+      "csFiles":["Program.cs","GenResources.resx","GenResources.Designer.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

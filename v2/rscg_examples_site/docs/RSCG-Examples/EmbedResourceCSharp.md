@@ -344,6 +344,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp
 ### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 
+### [ResXGenerator](/docs/ResXGenerator)
+
+
 ### [RSCG_Utils](/docs/RSCG_Utils)
 
 
