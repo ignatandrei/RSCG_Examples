@@ -77,6 +77,7 @@ input-files:
 - examples/ProtobufSourceGenerator.html
 - examples/RSCG_Decorator.html
 - examples/StringLiteral.html
+- examples/ResXGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

@@ -120,7 +120,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator",old)
 ,new ("Pure.DI https://github.com/DevTeam/Pure.DI",tooComplicated)
 ,new ("RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",old)
-,new ("ResXGenerator https://github.com/ycanardeau/ResXGenerator"," resource manager to classes. Why I cannot have the resx generate classes? ")
 ,new ("ScenarioTests https://github.com/koenbeuk/ScenarioTests",old)
 ,new ("SerdeDn serde-sn) https://github.com/serdedotnet/serde","serializer. Done by MSFT with System.Text.Json")
 ,new ("SmallSharp https://github.com/devlooped/SmallSharp",old)
@@ -244,7 +243,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"SafeRouting",new(true,new(2023,09,23),Category.API) },
             {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) },
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
-            {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) }
+            {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
+            {"ResXGenerator", new GeneratorData(true,new(2023,10,2),Category.FilesToCode) },
              
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

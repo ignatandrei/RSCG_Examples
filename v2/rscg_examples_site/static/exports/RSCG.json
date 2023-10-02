@@ -505,6 +505,14 @@
       "Source": "https://github.com/ufcpp/StringLiteralGenerator",
       "Category": "Optimizer",
       "AddedOn": "2023-10-01T00:00:00"
+    },
+    {
+      "Name": "ResXGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator",
+      "NuGet": "https://www.nuget.org/packages/Aigamo.ResXGenerator/",
+      "Source": "https://github.com/ycanardeau/ResXGenerator",
+      "Category": "FilesToCode",
+      "AddedOn": "2023-10-02T00:00:00"
     }
   ]
 }

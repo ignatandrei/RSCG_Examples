@@ -1,0 +1,1 @@
+ResX Designer Source Generator.

@@ -62,3 +62,4 @@ Nr,Key,Source,Category
 61,ProtobufSourceGenerator, https://github.com/ladeak/ProtobufSourceGenerator,Serializer
 62,RSCG_Decorator, https://github.com/ignatandrei/RSCG_Decorator,EnhancementClass
 63,StringLiteral, https://github.com/ufcpp/StringLiteralGenerator,Optimizer
+64,ResXGenerator, https://github.com/ycanardeau/ResXGenerator,FilesToCode
