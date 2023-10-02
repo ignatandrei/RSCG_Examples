@@ -82,7 +82,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server",tooComplicated)
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , need help")
-,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","cannot reproduce")
+,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator",WaitingForIssue)
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
@@ -161,9 +161,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new NoExample("DudNet https://github.com/jwshyns/DudNet"," version> 1.1.0, see branch with errors")
 ,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
-,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
-
-
+,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
+,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
