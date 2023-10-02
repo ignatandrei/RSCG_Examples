@@ -36,7 +36,7 @@ title: '65 Examples (6 from MSFT)',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        See <a href='docs/intro/'>Intro</a> to start with the basics in C#.
+        See <a href='docs/intro'>Intro</a> to start with the basics in C#.
       </>
     ),
   },
