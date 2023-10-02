@@ -68,8 +68,10 @@ $$"""
     }
     
     Console.WriteLine("generating data");
-    var old = new MultiGenerator(Path.Combine(originalFolder,"v1"));
+    MultiGenerator? old = new MultiGenerator(Path.Combine(originalFolder,"v1"));
+    
     var oldDesc = await old.AllDescriptions();
+    //maybe find the old ones if there are new
     ArgumentNullException.ThrowIfNull(oldDesc);
     oldDesc = oldDesc
         .Where(it=>it !=null)
@@ -97,6 +99,7 @@ $$"""
 
     string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
+    //await m.OpenFindIIncremental();
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :"+nr);
     var sources = await m.GatherData();

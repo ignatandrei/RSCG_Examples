@@ -59,7 +59,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
 ,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
 ,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
-,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",old)
+,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",later)
 ,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator",old)
 ,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management","DI container. To be analyzed")
 ,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",old)
@@ -89,7 +89,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Jab https://github.com/pakrym/jab","Service + DI container. I use the one from MSFT")
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
 ,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
-,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",old)
+,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",later)
 ,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
 ,new ("JsonSrcGen https://github.com/trampster/JsonSrcGen",old)
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
@@ -97,10 +97,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
 ,new ("LinqGen https://github.com/cathei/LinqGen",tooComplicated)
 ,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
-,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",old)
+,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",later)
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
 ,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
-,new ("MapTo https://github.com/mrtaikandi/MapTo",old)
+,new ("MapTo https://github.com/mrtaikandi/MapTo",later)
 ,new ("MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators",old)
 ,new ("MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator",old)
 ,new ("MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator",old)
@@ -257,7 +257,22 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         //    generators[v.Key] = (v.Key == "Microsoft.Interop.JavaScript.JSImportGenerator");
         //}
     }
-
+    public async Task OpenFindIIncremental()
+    {
+        var data= rscgNoExamples.Where(it=>it.why== old).ToArray();
+        foreach (var item in data)
+        {
+            string url = item.FindIIncremental();
+            var ps = new ProcessStartInfo(url)
+            {
+                UseShellExecute = true,
+                Verb = "open",
+                
+            };
+            Process.Start(ps);
+            await Task.Delay(1000 * Random.Shared.Next(1,5));
+        }
+    }
     public async Task<string[]?> GatherData()
     {
         string folderExamples = Path.Combine(rootPath, "rscg_examples");
