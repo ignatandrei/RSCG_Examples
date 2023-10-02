@@ -80,6 +80,7 @@ $$"""
         if(desc != null) desc.Nr = i;
         return desc;
     }).ToArray();
+    await old.OpenFindIIncremental();
     //var text = a
     //    .Select((desc, i) =>
     //    { 
