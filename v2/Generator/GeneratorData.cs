@@ -37,7 +37,8 @@ public enum Category
     Database,
     API,
     Serializer,
-    Optimizer
+    Optimizer,
+    Disposer
 
 }
 

@@ -1,6 +1,6 @@
-# RSCG - 64 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 65 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-02 => 02 October 2023
+## Latest Update : 2023-10-03 => 03 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 64 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 65 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 65. [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer) generated on : 2023-10-03 => 03 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Hakan Fıstık
+
+A source generator for creating best-practice Disposing boilerplate using a [Disposable] attribute 
+
+Nuget: [https://www.nuget.org/packages/Disposer/](https://www.nuget.org/packages/Disposer/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer)
+
+Source: [https://github.com/HakamFostok/Disposer](https://github.com/HakamFostok/Disposer)
+
+</details>
+
 ### 64. [ResXGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator) generated on : 2023-10-02 => 02 October 2023
 <details>
   <summary>Expand</summary>

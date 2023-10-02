@@ -536,9 +536,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT
 ## In the same category (EnhancementClass)
 
 
-### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-
 ### [EnumClass](/docs/EnumClass)
 
 

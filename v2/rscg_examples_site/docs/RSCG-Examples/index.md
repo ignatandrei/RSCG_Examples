@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 64 RSCG by category 
-description: 64 RSCG by category 
+title: 65 RSCG by category 
+description: 65 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -81,7 +81,21 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:19</summary>
+  <summary>Disposer =>examples:2</summary>
+        
+
+
+[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+
+        
+
+
+[Disposer](/docs/Disposer)
+
+</details>
+    
+<details>
+  <summary>EnhancementClass =>examples:18</summary>
         
 
 
@@ -156,11 +170,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-        
-
-
-[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
 
         
 
@@ -417,6 +426,10 @@ flowchart LR;
 
     DependencyInjection--> Injectio((Injectio))
 
+    Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
+
+    Disposer--> Disposer((Disposer))
+
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
@@ -446,8 +459,6 @@ flowchart LR;
     EnhancementClass--> Immutype((Immutype))
 
     EnhancementClass--> SyncMethodGenerator((SyncMethodGenerator))
-
-    EnhancementClass--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 
     EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
 

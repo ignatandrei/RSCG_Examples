@@ -224,7 +224,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Immutype",  new(true,new(2023,8,12), Category.EnhancementClass)},
             {"spreadcheetah" ,  new(true,new(2023,8,13),Category.Templating)},
             {"zomp" ,  new(true,new(2023,8,14),Category.EnhancementClass)},
-            {"IDisp", new(true,new(2023,8,15),Category.EnhancementClass)},
+            {"IDisp", new(true,new(2023,8,15),Category.Disposer)},
             {"NextGenMapper" , new(true,new(2023,8,16),Category.Mapper)},
             {"Injectio" , new(true,new(2023,8,17),Category.DependencyInjection)},
             {"PropChange", new(true,new(2023,8,18), Category.MVVM)},
@@ -243,8 +243,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) },
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
-            {"ResXGenerator", new GeneratorData(true,new(2023,10,2),Category.FilesToCode) },
-             
+            {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
+            {"Disposer",new(true, new(2023,10,3),Category.Disposer) },             
+        
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

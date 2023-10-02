@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Disposer",
+      "nuget":[
+         "https://www.nuget.org/packages/Disposer/"
+      ],
+      "link":"https://github.com/HakamFostok/Disposer",
+      "author":"Hakan Fıstık",
+      "source":"https://github.com/HakamFostok/Disposer"
+   },
+   "data":{
+      "goodFor":["Generates partials for dispose resources"],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","ConnectionDB.cs","DALDB.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
