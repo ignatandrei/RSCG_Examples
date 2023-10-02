@@ -1087,6 +1087,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [BuilderGenerator](/docs/BuilderGenerator)
+
+
 ### [FastGenericNew](/docs/FastGenericNew)
 
 

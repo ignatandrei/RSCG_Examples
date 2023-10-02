@@ -691,6 +691,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [BuilderGenerator](/docs/BuilderGenerator)
+
+
 ### [EnumClass](/docs/EnumClass)
 
 

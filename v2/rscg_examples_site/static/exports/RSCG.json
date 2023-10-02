@@ -521,6 +521,14 @@
       "Source": "https://github.com/HakamFostok/Disposer",
       "Category": "Disposer",
       "AddedOn": "2023-10-03T00:00:00"
+    },
+    {
+      "Name": "BuilderGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator",
+      "NuGet": "https://www.nuget.org/packages/BuilderGenerator/",
+      "Source": "https://github.com/MelGrubb/BuilderGenerator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-10-04T00:00:00"
     }
   ]
 }

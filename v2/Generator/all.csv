@@ -64,3 +64,4 @@ Nr,Key,Source,Category
 63,StringLiteral, https://github.com/ufcpp/StringLiteralGenerator,Optimizer
 64,ResXGenerator, https://github.com/ycanardeau/ResXGenerator,FilesToCode
 65,Disposer, https://github.com/HakamFostok/Disposer,Disposer
+66,BuilderGenerator, https://github.com/MelGrubb/BuilderGenerator,EnhancementClass
