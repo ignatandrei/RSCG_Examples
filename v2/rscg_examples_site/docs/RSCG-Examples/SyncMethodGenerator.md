@@ -289,9 +289,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
-### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-
 ### [EnumClass](/docs/EnumClass)
 
 

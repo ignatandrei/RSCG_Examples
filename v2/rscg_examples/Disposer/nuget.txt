@@ -1,0 +1,1 @@
+A source generator for creating best-practice Disposing boilerplate using a [Disposable] attribute

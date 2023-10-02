@@ -207,9 +207,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServic
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
-### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-
 ### [EnumClass](/docs/EnumClass)
 
 
