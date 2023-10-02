@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"StringLiteral",
+      "nuget":[
+         "https://www.nuget.org/packages/StringLiteralGenerator/"
+      ],
+      "link":"https://github.com/ufcpp/StringLiteralGenerator",
+      "author":"Nobuyuki Iwanaga",
+      "source":"https://github.com/ufcpp/StringLiteralGenerator"
+   },
+   "data":{
+      "goodFor":["Optimizing memory for strings"],
+      "csprojDemo":"StringLiteralDemo.csproj",
+      "csFiles":["Program.cs","LiteralConstants.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

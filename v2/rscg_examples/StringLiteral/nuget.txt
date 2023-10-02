@@ -1,0 +1,1 @@
+A C# Source Generator for optimizing UTF-8 binaries.

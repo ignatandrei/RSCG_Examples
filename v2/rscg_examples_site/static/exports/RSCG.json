@@ -497,6 +497,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_Decorator",
       "Category": "EnhancementClass",
       "AddedOn": "2023-09-30T00:00:00"
+    },
+    {
+      "Name": "StringLiteral",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral",
+      "NuGet": "https://www.nuget.org/packages/StringLiteralGenerator/",
+      "Source": "https://github.com/ufcpp/StringLiteralGenerator",
+      "Category": "Optimizer",
+      "AddedOn": "2023-10-01T00:00:00"
     }
   ]
 }

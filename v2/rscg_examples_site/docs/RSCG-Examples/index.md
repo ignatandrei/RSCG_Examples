@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 62 RSCG by category 
-description: 62 RSCG by category 
+title: 63 RSCG by category 
+description: 63 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -310,6 +310,15 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
+  <summary>Optimizer =>examples:1</summary>
+        
+
+
+[StringLiteral](/docs/StringLiteral)
+
+</details>
+    
+<details>
   <summary>PrimitiveObsession =>examples:2</summary>
         
 
@@ -484,6 +493,8 @@ flowchart LR;
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
     MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
+
+    Optimizer--> StringLiteral((StringLiteral))
 
     PrimitiveObsession--> Vogen((Vogen))
 

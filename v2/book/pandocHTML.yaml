@@ -76,6 +76,7 @@ input-files:
 - examples/SafeRouting.html
 - examples/ProtobufSourceGenerator.html
 - examples/RSCG_Decorator.html
+- examples/StringLiteral.html
 
 # or you may use input-file: with a single value
 # defaults:
