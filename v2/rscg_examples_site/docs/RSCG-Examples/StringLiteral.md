@@ -1,0 +1,258 @@
+---
+sidebar_position: 630
+title: 63 - StringLiteral
+description: Optimizing memory for strings
+slug: /StringLiteral
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+
+# StringLiteral  by Nobuyuki Iwanaga
+
+
+<TOCInline toc={toc} />
+
+[![Nuget](https://img.shields.io/nuget/dt/StringLiteralGenerator?label=StringLiteralGenerator)](https://www.nuget.org/packages/StringLiteralGenerator/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ufcpp/StringLiteralGenerator?label=updated)](https://github.com/ufcpp/StringLiteralGenerator)
+![GitHub Repo stars](https://img.shields.io/github/stars/ufcpp/StringLiteralGenerator?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **StringLiteral**
+
+A C# Source Generator for optimizing UTF-8 binaries.
+
+Author: Nobuyuki Iwanaga
+
+NuGet: 
+*https://www.nuget.org/packages/StringLiteralGenerator/*   
+
+
+You can find more details at https://github.com/ufcpp/StringLiteralGenerator
+
+Source : https://github.com/ufcpp/StringLiteralGenerator
+
+:::
+
+### Original Readme
+:::note
+
+# C# StringLiteralGenerator
+
+A C# [Source Generator](https://github.com/dotnet/roslyn/blob/master/docs/features/source-generators.md) for optimizing UTF-8 binaries.
+
+Original source (manually written):
+
+```cs
+namespace Sample
+{
+    partial class Literals
+    {
+        [StringLiteral.Utf8Attribute("aαあ😊")]
+        public static partial System.ReadOnlySpan<byte> S();
+    }
+}
+```
+
+Generated source:
+
+```cs
+namespace Sample
+{
+    partial class Literals
+    {
+        public static partial System.ReadOnlySpan<byte> S() => new byte[] {97, 206, 177, 227, 129, 130, 240, 159, 152, 138, };
+    }
+}
+```
+
+- Generates UTF-8 binary data from string literals (UTF-16).
+- The UTF-8 data is optimized to avoid allocation. see: [C# ReadOnlySpan and static data](https://vcsjones.dev/2019/02/01/csharp-readonly-span-bytes-static/)
+
+## NuGet
+
+[![NuGet](https://img.shields.io/nuget/v/StringLiteralGenerator?style=flat-square)](https://www.nuget.org/packages/StringLiteralGenerator)
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StringLiteralGenerator" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>
+```
+
+For versions earlier than .NET 5 SDK RC2 you may also need to add a reference to `Microsoft.Net.Compilers.Toolset`.
+So the `csproj` may look like this:
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="StringLiteralGenerator" Version="1.0.0-preiew" />
+        <PackageReference Include="Microsoft.Net.Compilers.Toolset" Version="3.8.0-4.final" PrivateAssets="all" />
+    </ItemGroup>
+
+</Project>
+```
+
+
+:::
+
+### About
+:::note
+
+Optimizing memory for strings
+
+
+:::
+
+## How to use
+
+### Example ( source csproj, source files )
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **StringLiteral**
+```xml showLineNumbers {11}
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StringLiteralGenerator" Version="2.0.0" />
+  </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\Program.cs" label="Program.cs" >
+
+  This is the use of **StringLiteral** in *Program.cs*
+
+```csharp showLineNumbers 
+using StringLiteralDemo;
+using System.Text;
+
+Console.WriteLine(Encoding.UTF8.GetString(LiteralConstants.MyName()));
+
+```
+  </TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\LiteralConstants.cs" label="LiteralConstants.cs" >
+
+  This is the use of **StringLiteral** in *LiteralConstants.cs*
+
+```csharp showLineNumbers 
+namespace StringLiteralDemo;
+
+partial class LiteralConstants
+{
+    [StringLiteral.Utf8Attribute("Andrei Ignat")]
+    public static partial System.ReadOnlySpan<byte> MyName();
+}
+
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+
+<Tabs>
+
+
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\obj\GX\StringLiteralGenerator\StringLiteralGenerator.Utf8StringLiteralGenerator\StringLiteralDemo_LiteralConstants_utf8literal.cs" label="StringLiteralDemo_LiteralConstants_utf8literal.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated />
+namespace StringLiteralDemo
+{
+partial class LiteralConstants
+{
+    public static partial System.ReadOnlySpan<byte> MyName() => new byte[] {65, 110, 100, 114, 101, 105, 32, 73, 103, 110, 97, 116, };
+}
+}
+
+```
+
+  </TabItem>
+
+
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\obj\GX\StringLiteralGenerator\StringLiteralGenerator.Utf8StringLiteralGenerator\Utf8Attribute.cs" label="Utf8Attribute.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated />
+using System;
+namespace StringLiteral
+{
+    [System.Diagnostics.Conditional("COMPILE_TIME_ONLY")]
+    [AttributeUsage(AttributeTargets.Method, Inherited = false, AllowMultiple = false)]
+    sealed class Utf8Attribute : Attribute
+    {
+        public Utf8Attribute(string s) { }
+    }
+}
+
+```
+
+  </TabItem>
+
+
+</Tabs>
+
+## Usefull
+
+### Download Example (.NET  C# )
+
+:::tip
+
+[Download Example project StringLiteral ](/sources/StringLiteral.zip)
+
+:::
+
+
+### Share StringLiteral 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FStringLiteral&quote=StringLiteral" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FStringLiteral&text=StringLiteral:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FStringLiteral" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FStringLiteral&title=StringLiteral" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FStringLiteral&title=StringLiteral&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FStringLiteral" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral
+
+## In the same category (Optimizer)
+

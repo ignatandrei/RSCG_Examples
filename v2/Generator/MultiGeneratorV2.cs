@@ -134,7 +134,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("SqlMarshal https://github.com/kant2002/SqlMarshal",old)
 ,new ("ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator","swagger,need help")
 ,new ("StackXML https://github.com/ZingBallyhoo/StackXML",old)
-,new ("StringLiteralGenerator https://github.com/ufcpp/StringLiteralGenerator","string 2 utf8")
 ,new ("StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",old)
 ,new ("StructPacker https://github.com/RudolfKurka/StructPacker",old)
 ,new ("Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia",old)
@@ -164,6 +163,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
+
 
     };
     
@@ -244,6 +244,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"SafeRouting",new(true,new(2023,09,23),Category.API) },
             {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) },
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
+            {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) }
              
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

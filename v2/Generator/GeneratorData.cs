@@ -36,7 +36,8 @@ public enum Category
     Tests,
     Database,
     API,
-    Serializer
+    Serializer,
+    Optimizer
 
 }
 
