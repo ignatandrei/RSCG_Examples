@@ -82,7 +82,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server",tooComplicated)
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , need help")
-,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator","cannot reproduce")
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
@@ -244,8 +243,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) },
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
-            {"ResXGenerator", new GeneratorData(true,new(2023,10,2),Category.FilesToCode) },
-             
+            {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
+            {"IDisposableGenerator" ,new (true,new(2023,10,3),Category.EnhancementClass)},
+        
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
