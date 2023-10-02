@@ -21,7 +21,7 @@
 "step_16_text": "I have used the Gedaq in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\GetData.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\PersonRepository.cs",
     
         "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Person.cs",
     
