@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating code from attribute query"],
       "csprojDemo":"GedaqDemoConsole.csproj",
-      "csFiles":["Program.cs","Person.cs","PersonRepository.cs"]
+      "csFiles":["Model/Person.cs", "Model/Address.cs","Example1/ExampleRun.cs","Example1/PersonRepository.cs", "Example2/ExampleRun.cs","Example2/PersonRepository.cs", "Example3/ExampleRun.cs","Example3/PersonRepository.cs"]
    },
    "links":{
       "blog":"",
