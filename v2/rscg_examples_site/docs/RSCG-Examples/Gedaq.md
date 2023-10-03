@@ -348,8 +348,6 @@ WHERE
 </TabItem>
 </Tabs>
 
-### Generated Files
-
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
@@ -840,8 +838,6 @@ WHERE
 </TabItem>
 
 </Tabs>
-
-### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
@@ -1426,8 +1422,6 @@ VALUES (
 </TabItem>
 
 </Tabs>
-
-### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
