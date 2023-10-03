@@ -1,0 +1,49 @@
+using System;
+using System.CodeDom.Compiler;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
+
+namespace EnumClassDemo;
+
+[GeneratedCode(tool: "Credfeto.Enumeration.Source.Generation.EnumGenerator", version: "1.1.0.138+a4e45a10ca3da5e916ae17843913bfff8c33cdef")]
+public static class ColorsGeneratedExtensions
+{
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static string GetName(this Colors value)
+    {
+        return value switch
+        {
+            Colors.None => nameof(Colors.None),
+            Colors.Red => nameof(Colors.Red),
+            Colors.Green => nameof(Colors.Green),
+            Colors.Blue => nameof(Colors.Blue),
+            _ => ThrowInvalidEnumMemberException(value: value)
+        };
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static string GetDescription(this Colors value)
+    {
+        return value switch
+        {
+            Colors.None => "This should be never seen",
+            _ => GetName(value)
+        };
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static bool IsDefined(this Colors value)
+    {
+        return value is Colors.None or Colors.Red or Colors.Green or Colors.Blue;
+    }
+
+    public static string ThrowInvalidEnumMemberException(this Colors value)
+    {
+        #if NET7_0_OR_GREATER
+        throw new UnreachableException(message: "Colors: Unknown enum member");
+        #else
+        throw new ArgumentOutOfRangeException(nameof(value), actualValue: value, message: "Unknown enum member");
+        #endif
+    }
+}

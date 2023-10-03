@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 66 RSCG by category 
-description: 66 RSCG by category 
+title: 67 RSCG by category 
+description: 67 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -239,6 +239,15 @@ import DocCardList from '@theme/DocCardList';
 
 
 [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+
+</details>
+    
+<details>
+  <summary>Enum =>examples:1</summary>
+        
+
+
+[CredFetoEnum](/docs/CredFetoEnum)
 
 </details>
     
@@ -490,6 +499,8 @@ flowchart LR;
     EnhancementProject--> ProxyGen((ProxyGen))
 
     EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
+
+    Enum--> CredFetoEnum((CredFetoEnum))
 
     FilesToCode--> RSCG_Utils((RSCG_Utils))
 

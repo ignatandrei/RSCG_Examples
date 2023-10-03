@@ -38,7 +38,8 @@ public enum Category
     API,
     Serializer,
     Optimizer,
-    Disposer
+    Disposer,
+    Enum
 
 }
 

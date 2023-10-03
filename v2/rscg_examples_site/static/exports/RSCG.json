@@ -529,6 +529,14 @@
       "Source": "https://github.com/MelGrubb/BuilderGenerator",
       "Category": "EnhancementClass",
       "AddedOn": "2023-10-04T00:00:00"
+    },
+    {
+      "Name": "CredFetoEnum",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum",
+      "NuGet": "https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/",
+      "Source": "https://github.com/credfeto/credfeto-enum-source-generation",
+      "Category": "Enum",
+      "AddedOn": "2023-10-05T00:00:00"
     }
   ]
 }

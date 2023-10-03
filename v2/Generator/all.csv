@@ -65,3 +65,4 @@ Nr,Key,Source,Category
 64,ResXGenerator, https://github.com/ycanardeau/ResXGenerator,FilesToCode
 65,Disposer, https://github.com/HakamFostok/Disposer,Disposer
 66,BuilderGenerator, https://github.com/MelGrubb/BuilderGenerator,EnhancementClass
+67,CredFetoEnum, https://github.com/credfeto/credfeto-enum-source-generation,Enum

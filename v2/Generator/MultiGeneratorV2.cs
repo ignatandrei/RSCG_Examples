@@ -59,7 +59,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
 ,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
 ,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
-,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",later)
 ,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator",old)
 ,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management","DI container. To be analyzed")
 ,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",old)
@@ -245,7 +244,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
             {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
-            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) }
+            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
+            {"CredFetoEnum", new(true,new(2023,10,5),Category.Enum) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -336,9 +336,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         {
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             return text;
-        }
-            ;
+        };
 
         var data = await tryToGetReadme(source);
         if (data == null) return null;
@@ -435,10 +435,25 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var data=await response.Content.ReadAsStringAsync();
         var answer= JsonDocument.Parse(data);
         var items = answer.RootElement.GetProperty("items");
-        foreach (var item in items.EnumerateArray())
+        var itemLast = items.EnumerateArray()
+            .OrderByDescending(it=>it.GetProperty("commitTimeStamp").GetString())
+            .First();
+        //foreach (var item in items.EnumerateArray())
         {
-            var newItems = item.GetProperty("items");
-            foreach (var newItem in newItems.EnumerateArray())
+            if(!itemLast.TryGetProperty("items", out _))
+            {
+                var newLink = itemLast.GetProperty("@id").GetString();
+                response = await _client.GetAsync(newLink);
+                data = await response.Content.ReadAsStringAsync();
+                answer = JsonDocument.Parse(data);
+                itemLast = answer.RootElement;
+                //itemLast = items.EnumerateArray()
+                //    .OrderByDescending(it => it.GetProperty("commitTimeStamp").GetString())
+                //    .First();
+
+            }
+            var newItems = itemLast.GetProperty("items");
+            foreach (var newItem in newItems.EnumerateArray().OrderByDescending(it => it.GetProperty("commitTimeStamp").GetString()))
             {
                 var cat=newItem.GetProperty("catalogEntry");
                 var desc=cat.GetProperty("description").GetString();
