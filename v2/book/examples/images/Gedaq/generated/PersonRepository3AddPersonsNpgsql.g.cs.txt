@@ -1,0 +1,218 @@
+
+using Npgsql;
+using System;
+using System.Data;
+using System.Collections;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
+
+namespace GedaqDemoConsole.Example3
+{
+    public  partial class PersonRepository3
+    {
+        
+        public  System.Int32 AddPersons(
+            Npgsql.NpgsqlConnection connection,
+            System.Int32 id,
+            System.String firstname,
+            int? timeout = null
+        )
+        {
+            bool needClose = connection.State == ConnectionState.Closed;
+            if(needClose)
+            {
+                connection.Open();
+            }
+            NpgsqlCommand command = null;
+            try
+            {
+                command =
+                CreateAddPersonsCommand(connection
+                , false)
+                ;
+                SetAddPersonsParametrs(
+                    command,
+                    id,
+                    firstname,
+                    timeout
+                    );
+                var result = (System.Int32)command.ExecuteNonQuery();
+                return result;
+            }
+            finally
+            {
+                if (needClose)
+                {
+                    connection.Close();
+                }
+                if(command != null)
+                {
+                    command.Parameters.Clear();
+                    command.Dispose();
+                }
+            }
+        }
+        
+        public  async ValueTask<System.Int32> AddPersonsAsync(
+            Npgsql.NpgsqlConnection connection,
+            System.Int32 id,
+            System.String firstname,
+            int? timeout = null,
+            CancellationToken cancellationToken = default
+        )
+        {
+            bool needClose = connection.State == ConnectionState.Closed;
+            if(needClose)
+            {
+                await connection.OpenAsync(cancellationToken).ConfigureAwait(false);
+            }
+            NpgsqlCommand command = null;
+            try
+            {
+                command =
+                await CreateAddPersonsCommandAsync(connection
+                , false, cancellationToken)
+                ;
+                SetAddPersonsParametrs(
+                    command,
+                    id,
+                    firstname,
+                    timeout
+                    );
+                var result = (System.Int32)await command.ExecuteNonQueryAsync(cancellationToken).ConfigureAwait(false);
+                return result;
+            }
+            finally
+            {
+                if (needClose)
+                {
+                    await connection.CloseAsync().ConfigureAwait(false);
+                }
+                if(command != null)
+                {
+                    command.Parameters.Clear();
+                    await command.DisposeAsync().ConfigureAwait(false);
+                }
+            }
+        }
+
+        public  NpgsqlCommand CreateAddPersonsCommand(
+            Npgsql.NpgsqlConnection connection,
+            bool prepare = false
+        )
+        {
+            var command = connection.CreateCommand();
+            command.CommandText = @"
+
+INSERT INTO person(
+	id,
+    firstname
+)
+VALUES (
+    $1,
+    $2
+)
+
+"
+;
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+                {
+                var parametr = new NpgsqlParameter<System.String>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            if(prepare)
+            {
+                try
+                {
+                    command.Prepare();
+                }
+                catch
+                {
+                    command.Dispose();
+                    throw;
+                }
+            }
+            return command;
+        }
+
+        public  async ValueTask<NpgsqlCommand> CreateAddPersonsCommandAsync(
+            Npgsql.NpgsqlConnection connection,
+            bool prepare = false,
+            CancellationToken cancellationToken = default
+        )
+        {
+            var command = connection.CreateCommand();
+            command.CommandText = @"
+
+INSERT INTO person(
+	id,
+    firstname
+)
+VALUES (
+    $1,
+    $2
+)
+
+"
+;
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+                {
+                var parametr = new NpgsqlParameter<System.String>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            if(prepare)
+            {
+                try
+                {
+                    await command.PrepareAsync(cancellationToken).ConfigureAwait(false);
+                }
+                catch
+                {  
+                    await command.DisposeAsync().ConfigureAwait(false);
+                    throw;
+                }
+            }
+            return command;
+        }
+
+        public  void SetAddPersonsParametrs(
+            NpgsqlCommand command,
+            System.Int32 id,
+            System.String firstname,
+            int? timeout = null
+            )
+        {
+
+            if(timeout.HasValue)
+            {
+                command.CommandTimeout = timeout.Value;
+            }
+                ((NpgsqlParameter<System.Int32>)command.Parameters[0]).TypedValue = id;
+            if(firstname == null)
+            {
+                ((NpgsqlParameter<System.String>)command.Parameters[1]).TypedValue = null;
+            }
+            else
+            {
+                ((NpgsqlParameter<System.String>)command.Parameters[1]).TypedValue = firstname;
+            }
+        }
+
+    }
+}
