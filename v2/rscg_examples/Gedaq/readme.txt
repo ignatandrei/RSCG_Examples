@@ -9,7 +9,8 @@
   [![Nuget](https://img.shields.io/nuget/v/Gedaq?logo=Gedaq)](https://www.nuget.org/packages/Gedaq/)
   [![Downloads](https://img.shields.io/nuget/dt/Gedaq.svg)](https://www.nuget.org/packages/Gedaq/)
   [![Stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?color=brightgreen)](https://github.com/SoftStoneDevelop/Gedaq/stargazers)
-  [License](https://img.shields.io/badge/license-MIT-blue.svg)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 </h3>
 
 Generator for obtaining and mapping data from the database.
@@ -127,21 +128,6 @@ var personsAsync =
 | **Gedaq.Npgsql** |   **30** | **1,366.2 ms** |  **1.00** | **396.28 MB** |        **1.00** |
 |       Dapper |   30 | 2,276.7 ms |  1.67 | 451.22 MB |        1.14 |
 |    DapperAOT |   30 | 2,279.6 ms |  1.67 | 451.22 MB |        1.14 |
-
-## NativeAOT .NET 7 Benchmark:
-|       Method | Size |       Mean | Ratio | Allocated | Alloc Ratio |
-|------------- |----- |-----------:|------:|----------:|------------:|
-| **Gedaq.Npgsql** |   **10** |   **433.6 ms** |  **1.00** | **132.08 MB** |        **1.00** |
-|       Dapper |   10 |         NA |     ? |        NA |           ? |
-|    DapperAOT |   10 |         NA |     ? |        NA |           ? |
-|              |      |            |       |           |             |
-| **Gedaq.Npgsql** |   **20** |   **927.6 ms** |  **1.00** | **264.16 MB** |        **1.00** |
-|       Dapper |   20 |         NA |     ? |        NA |           ? |
-|    DapperAOT |   20 |         NA |     ? |        NA |           ? |
-|              |      |            |       |           |             |
-| **Gedaq.Npgsql** |   **30** | **1,367.9 ms** |  **1.00** | **396.25 MB** |        **1.00** |
-|       Dapper |   30 |         NA |     ? |        NA |           ? |
-|    DapperAOT |   30 |         NA |     ? |        NA |           ? |
 
 But with Gedaq, we can prepare the command in advance.
 ```C#

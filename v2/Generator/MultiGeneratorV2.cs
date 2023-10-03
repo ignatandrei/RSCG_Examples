@@ -208,7 +208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Podimo.ConstEmbed",before.PutCategory(Category.FilesToCode) },
             {"EmbeddingResourceCSharp",before.PutCategory(Category.FilesToCode) },
             {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
-            {"Gedaq", new   (true,new(2023,7,29),Category.Database)},
+            {"Gedaq", new (true,new(2023,10,3),Category.Database)},
             {"Refit",new(true,new(2023,7,31),Category.API) },
             {"MorrisMoxy", new(true,new(2023,8,1), Category.EnhancementClass)},
             {"Mediator" , new(true,new(2023,8,2), Category.EnhancementProject)},
@@ -333,7 +333,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 
         var nameFile = Path.Combine(d.rootFolder!, "readme.txt");
         if (File.Exists(nameFile))
-            return await File.ReadAllTextAsync(nameFile);
+        {
+            var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            return text;
+        }
+            ;
 
         var data = await tryToGetReadme(source);
         if (data == null) return null;

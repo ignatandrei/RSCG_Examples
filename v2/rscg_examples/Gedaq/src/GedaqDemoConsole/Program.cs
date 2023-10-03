@@ -1,6 +1,4 @@
-﻿using GedaqDemoConsole;
+﻿
+using GedaqDemoConsole.Example1;
 
-var data = new GetData();
-
-var list=data.GetPersons();
-
+await ExampleRun.Run();
