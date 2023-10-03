@@ -314,8 +314,8 @@ namespace GedaqDemoConsole.Example1
 
   Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
 
-```csharp showLineNumbers 
-
+```csharp showLineNumbers
+ 
 using Gedaq.Common.Enums;
 using GedaqDemoConsole.Model;
 
@@ -328,7 +328,13 @@ namespace GedaqDemoConsole.Example1
 SELECT 
     p.id,
     p.firstname,
+~StartInner::Address:Id~
+    a.id,
+    a.street,
+    a.city
+~EndInner::Address~
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 ",
@@ -343,6 +349,7 @@ WHERE
         }
     }
 }
+
 ```
 
 </TabItem>
@@ -413,6 +420,35 @@ namespace GedaqDemoConsole.Example1
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -495,6 +531,35 @@ namespace GedaqDemoConsole.Example1
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -544,7 +609,13 @@ namespace GedaqDemoConsole.Example1
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 
@@ -583,7 +654,13 @@ WHERE
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 
@@ -636,6 +713,35 @@ WHERE
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -692,6 +798,35 @@ WHERE
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -736,6 +871,7 @@ WHERE
 
     }
 }
+
 ```
 
 </TabItem>
@@ -804,7 +940,13 @@ namespace GedaqDemoConsole.Example2
 SELECT 
     p.id,
     p.firstname,
+~StartInner::Address:Id~
+    a.id,
+    a.street,
+    a.city
+~EndInner::Address~
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 ",
@@ -845,6 +987,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository2BatchPersonsNpgsql.g.cs" label="PersonRepository2BatchPersonsNpgsql.g.cs" >
 
 ```csharp showLineNumbers 
+
 
 using Npgsql;
 using System;
@@ -1007,6 +1150,35 @@ namespace GedaqDemoConsole.Example2
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
             }
@@ -1036,6 +1208,35 @@ namespace GedaqDemoConsole.Example2
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
             }
@@ -1062,6 +1263,35 @@ namespace GedaqDemoConsole.Example2
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
             }
@@ -1088,6 +1318,35 @@ namespace GedaqDemoConsole.Example2
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
             }
@@ -1105,7 +1364,13 @@ namespace GedaqDemoConsole.Example2
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 
@@ -1125,7 +1390,13 @@ WHERE
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 
@@ -1167,7 +1438,13 @@ WHERE
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 
@@ -1187,7 +1464,13 @@ WHERE
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 
@@ -1303,6 +1586,7 @@ WHERE
 
     }
 }
+
 ```
 </TabItem>
 
@@ -1378,7 +1662,13 @@ namespace GedaqDemoConsole.Example3
 SELECT 
     p.id,
     p.firstname,
+~StartInner::Address:Id~
+    a.id,
+    a.street,
+    a.city
+~EndInner::Address~
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 ",
             methodName: "GetPersons",
             queryMapType: typeof(Person),
@@ -1713,6 +2003,7 @@ VALUES (
 
 ```csharp showLineNumbers 
 
+
 using Npgsql;
 using System;
 using System.Data;
@@ -1766,6 +2057,7 @@ namespace GedaqDemoConsole.Example3
 
     }
 }
+
 
 ```
 
@@ -1830,6 +2122,35 @@ namespace GedaqDemoConsole.Example3
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -1910,6 +2231,35 @@ namespace GedaqDemoConsole.Example3
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -1959,7 +2309,13 @@ namespace GedaqDemoConsole.Example3
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 
 "
 ;
@@ -1990,7 +2346,13 @@ FROM person p
 SELECT 
     p.id,
     p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 
 "
 ;
@@ -2035,6 +2397,35 @@ FROM person p
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }
@@ -2091,6 +2482,35 @@ FROM person p
                                  item = new GedaqDemoConsole.Model.Person();
                             }
                             item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
                         } 
                     yield return item;
                 }

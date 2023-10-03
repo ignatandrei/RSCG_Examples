@@ -10,7 +10,13 @@ namespace GedaqDemoConsole.Example1
 SELECT 
     p.id,
     p.firstname,
+~StartInner::Address:Id~
+    a.id,
+    a.street,
+    a.city
+~EndInner::Address~
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 WHERE
     p.id = $1
 ",

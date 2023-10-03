@@ -22,7 +22,13 @@ namespace GedaqDemoConsole.Example3
 SELECT 
     p.id,
     p.firstname,
+~StartInner::Address:Id~
+    a.id,
+    a.street,
+    a.city
+~EndInner::Address~
 FROM person p
+LEFT JOIN address a ON a.id = p.address_id
 ",
             methodName: "GetPersons",
             queryMapType: typeof(Person),
