@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"BuilderGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/BuilderGenerator/"
+      ],
+      "link":"https://github.com/MelGrubb/BuilderGenerator",
+      "author":"Mell Grubb",
+      "source":"https://github.com/MelGrubb/BuilderGenerator"
+   },
+   "data":{
+      "goodFor":["Generating Builder class for an object"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonBuilder.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

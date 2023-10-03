@@ -163,10 +163,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-, new NoExample("BuilderGenerator https://github.com/MelGrubb/BuilderGenerator",later)
-
-
-
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -248,8 +244,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
             {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
-            {"Disposer",new(true, new(2023,10,3),Category.Disposer) },             
-        
+            {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
+            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

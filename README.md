@@ -1,6 +1,6 @@
-# RSCG - 65 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 66 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-03 => 03 October 2023
+## Latest Update : 2023-10-04 => 04 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 65 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 66 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 66. [BuilderGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator) generated on : 2023-10-04 => 04 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Mell Grubb
+
+Generates builder classes for testing and/or seed data. 
+
+Nuget: [https://www.nuget.org/packages/BuilderGenerator/](https://www.nuget.org/packages/BuilderGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator)
+
+Source: [https://github.com/MelGrubb/BuilderGenerator](https://github.com/MelGrubb/BuilderGenerator)
+
+</details>
+
 ### 65. [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer) generated on : 2023-10-03 => 03 October 2023
 <details>
   <summary>Expand</summary>
