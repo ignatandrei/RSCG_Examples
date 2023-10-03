@@ -232,7 +232,7 @@
       "NuGet": "https://www.nuget.org/packages/Gedaq/",
       "Source": "https://github.com/SoftStoneDevelop/Gedaq",
       "Category": "Database",
-      "AddedOn": "2023-07-29T00:00:00"
+      "AddedOn": "2023-10-03T00:00:00"
     },
     {
       "Name": "Refit",

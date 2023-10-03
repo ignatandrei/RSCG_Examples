@@ -52,7 +52,8 @@ Source : https://github.com/SoftStoneDevelop/Gedaq
   [![Nuget](https://img.shields.io/nuget/v/Gedaq?logo=Gedaq)](https://www.nuget.org/packages/Gedaq/)
   [![Downloads](https://img.shields.io/nuget/dt/Gedaq.svg)](https://www.nuget.org/packages/Gedaq/)
   [![Stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?color=brightgreen)](https://github.com/SoftStoneDevelop/Gedaq/stargazers)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SoftStoneDevelop/Gedaq/blob/main/LICENSE)
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 </h3>
 
 Generator for obtaining and mapping data from the database.
@@ -200,12 +201,14 @@ Generating code from attribute query
 
 ## How to use
 
-<Tabs>
-<TabItem value="csproj" label="CSharp Project">
-	
-This is the CSharp Project that references **Gedaq**
+### Example ( source csproj, source files )
 
-```xml showLineNumbers {14}
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **Gedaq**
+```xml showLineNumbers {12}
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -222,35 +225,14 @@ This is the CSharp Project that references **Gedaq**
 	</ItemGroup>
 </Project>
 ```
+
 </TabItem>
-	
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Address.cs" label="Address.cs" >
-	
-Address Model class used for mapping
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Person.cs" label="Person.cs" >
+
+  This is the use of **Gedaq** in *Person.cs*
 
 ```csharp showLineNumbers 
-
-namespace GedaqDemoConsole.Model
-{
-    public class Address
-    {
-        public int Id { get; set; }
-
-        public string Street { get; set; }
-
-        public string City { get; set; }
-    }
-}
-
-```
-</TabItem>
-	
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Person.cs" label="Person.cs" >
-	
-Person Model class used for mapping
-
-```csharp showLineNumbers 
-
 namespace GedaqDemoConsole.Model
 {
     public class Person
@@ -266,18 +248,31 @@ namespace GedaqDemoConsole.Model
         public Address Address { get; set; }
     }
 }
-
 ```
-</TabItem>	
-</Tabs>
+  </TabItem>
 
-<details>
-<summary>Query(Example1)</summary>
-	
-<Tabs>
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\ExampleRun.cs" label="ExampleRun.cs" >
-		
-  Using Generated(**Gedaq**) Methods in *ExampleRun.cs*
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Address.cs" label="Address.cs" >
+
+  This is the use of **Gedaq** in *Address.cs*
+
+```csharp showLineNumbers 
+namespace GedaqDemoConsole.Model
+{
+    public class Address
+    {
+        public int Id { get; set; }
+
+        public string Street { get; set; }
+
+        public string City { get; set; }
+    }
+}
+```
+  </TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\ExampleRun.cs" label="ExampleRun.cs" >
+
+  This is the use of **Gedaq** in *ExampleRun.cs*
 
 ```csharp showLineNumbers 
 using GedaqDemoConsole.Model;
@@ -306,16 +301,14 @@ namespace GedaqDemoConsole.Example1
         }
     }
 }
-
 ```
-</TabItem>
+  </TabItem>
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\PersonRepository.cs" label="PersonRepository.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\PersonRepository.cs" label="PersonRepository.cs" >
 
-  Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
+  This is the use of **Gedaq** in *PersonRepository.cs*
 
-```csharp showLineNumbers
- 
+```csharp showLineNumbers 
 using Gedaq.Common.Enums;
 using GedaqDemoConsole.Model;
 
@@ -349,547 +342,14 @@ WHERE
         }
     }
 }
-
 ```
+  </TabItem>
 
-</TabItem>
-</Tabs>
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\ExampleRun.cs" label="ExampleRun.cs" >
 
-Those are taken from $(BaseIntermediateOutputPath)\GX
-
-<Tabs>
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepositoryGetPersonNpgsql.g.cs" label="PersonRepositoryGetPersonNpgsql.g.cs" >
+  This is the use of **Gedaq** in *ExampleRun.cs*
 
 ```csharp showLineNumbers 
-
-
-using Npgsql;
-using System;
-using System.Data;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Runtime.CompilerServices;
-
-namespace GedaqDemoConsole.Example1
-{
-    public  partial class PersonRepository
-    {
-        
-        public  IEnumerable<GedaqDemoConsole.Model.Person> GetPerson(
-            Npgsql.NpgsqlConnection connection,
-            System.Int32 person_id,
-            int? timeout = null
-        )
-        {
-            bool needClose = connection.State == ConnectionState.Closed;
-            if(needClose)
-            {
-                connection.Open();
-            }
-            NpgsqlCommand command = null;
-            NpgsqlDataReader reader = null;
-            try
-            {
-                command =
-                CreateGetPersonCommand(connection
-                , false)
-                ;
-                SetGetPersonParametrs(
-                    command,
-                    person_id,
-                    timeout
-                    );
-                reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    var item = new GedaqDemoConsole.Model.Person();
-                        if(!reader.IsDBNull(0))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.Id = reader.GetFieldValue<System.Int32>(0);
-                        }
-                        if(!reader.IsDBNull(1))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.FirstName = reader.GetFieldValue<System.String>(1);
-                        }
-                        if(!reader.IsDBNull(2))
-                        {
-                            var item1 = new GedaqDemoConsole.Model.Address();
-                            if(!reader.IsDBNull(2))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Id = reader.GetFieldValue<System.Int32>(2);
-                        }
-                            if(!reader.IsDBNull(3))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Street = reader.GetFieldValue<System.String>(3);
-                        }
-                            if(!reader.IsDBNull(4))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.City = reader.GetFieldValue<System.String>(4);
-                        }
-                            item.Address = item1;
-                        } 
-                    yield return item;
-                }
-
-                while (reader.NextResult())
-                {
-                }
-
-                reader.Dispose();
-                reader = null;
-            }
-            finally
-            {
-                if (reader != null)
-                {
-                    if (!reader.IsClosed)
-                    {
-                        try 
-                        {
-                            command.Cancel();
-                        }
-                        catch { /* ignore */ }
-                    }
-                
-                    reader.Dispose();
-                }
-                if (needClose)
-                {
-                    connection.Close();
-                }
-                if(command != null)
-                {
-                    command.Parameters.Clear();
-                    command.Dispose();
-                }
-            }
-        }
-        
-        public  async IAsyncEnumerable<GedaqDemoConsole.Model.Person> GetPersonAsync(
-            Npgsql.NpgsqlConnection connection,
-            System.Int32 person_id,
-            int? timeout = null,
-            [EnumeratorCancellation] CancellationToken cancellationToken = default
-        )
-        {
-            bool needClose = connection.State == ConnectionState.Closed;
-            if(needClose)
-            {
-                await connection.OpenAsync(cancellationToken).ConfigureAwait(false);
-            }
-            NpgsqlCommand command = null;
-            NpgsqlDataReader reader = null;
-            try
-            {
-                command =
-                await CreateGetPersonCommandAsync(connection
-                , false, cancellationToken)
-                ;
-                SetGetPersonParametrs(
-                    command,
-                    person_id,
-                    timeout
-                    );
-                reader = await command.ExecuteReaderAsync(cancellationToken).ConfigureAwait(false);
-                while (await reader.ReadAsync(cancellationToken).ConfigureAwait(false))
-                {
-                    var item = new GedaqDemoConsole.Model.Person();
-                        if(!reader.IsDBNull(0))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.Id = reader.GetFieldValue<System.Int32>(0);
-                        }
-                        if(!reader.IsDBNull(1))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.FirstName = reader.GetFieldValue<System.String>(1);
-                        }
-                        if(!reader.IsDBNull(2))
-                        {
-                            var item1 = new GedaqDemoConsole.Model.Address();
-                            if(!reader.IsDBNull(2))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Id = reader.GetFieldValue<System.Int32>(2);
-                        }
-                            if(!reader.IsDBNull(3))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Street = reader.GetFieldValue<System.String>(3);
-                        }
-                            if(!reader.IsDBNull(4))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.City = reader.GetFieldValue<System.String>(4);
-                        }
-                            item.Address = item1;
-                        } 
-                    yield return item;
-                }
-
-                while (await reader.NextResultAsync(cancellationToken).ConfigureAwait(false))
-                {
-                }
-
-                await reader.DisposeAsync().ConfigureAwait(false);
-                reader = null;
-            }
-            finally
-            {
-                if (reader != null)
-                {
-                    if (!reader.IsClosed)
-                    {
-                        try 
-                        {
-                            command.Cancel();
-                        }
-                        catch { /* ignore */ }
-                    }
-                
-                    await reader.DisposeAsync().ConfigureAwait(false);
-                }
-                if (needClose)
-                {
-                    await connection.CloseAsync().ConfigureAwait(false);
-                }
-                if(command != null)
-                {
-                    command.Parameters.Clear();
-                    await command.DisposeAsync().ConfigureAwait(false);
-                }
-            }
-        }
-
-        public  NpgsqlCommand CreateGetPersonCommand(
-            Npgsql.NpgsqlConnection connection,
-            bool prepare = false
-        )
-        {
-            var command = connection.CreateCommand();
-            command.CommandText = @"
-
-SELECT 
-    p.id,
-    p.firstname,
-
-    a.id,
-    a.street,
-    a.city
-
-FROM person p
-LEFT JOIN address a ON a.id = p.address_id
-WHERE
-    p.id = $1
-
-"
-;
-                {
-                var parametr = new NpgsqlParameter<System.Int32>();
-
-                command.Parameters.Add(parametr);
-
-                }
-            if(prepare)
-            {
-                try
-                {
-                    command.Prepare();
-                }
-                catch
-                {
-                    command.Dispose();
-                    throw;
-                }
-            }
-            return command;
-        }
-
-        public  async ValueTask<NpgsqlCommand> CreateGetPersonCommandAsync(
-            Npgsql.NpgsqlConnection connection,
-            bool prepare = false,
-            CancellationToken cancellationToken = default
-        )
-        {
-            var command = connection.CreateCommand();
-            command.CommandText = @"
-
-SELECT 
-    p.id,
-    p.firstname,
-
-    a.id,
-    a.street,
-    a.city
-
-FROM person p
-LEFT JOIN address a ON a.id = p.address_id
-WHERE
-    p.id = $1
-
-"
-;
-                {
-                var parametr = new NpgsqlParameter<System.Int32>();
-
-                command.Parameters.Add(parametr);
-
-                }
-            if(prepare)
-            {
-                try
-                {
-                    await command.PrepareAsync(cancellationToken).ConfigureAwait(false);
-                }
-                catch
-                {  
-                    await command.DisposeAsync().ConfigureAwait(false);
-                    throw;
-                }
-            }
-            return command;
-        }
-
-        public  IEnumerable<GedaqDemoConsole.Model.Person> ExecuteGetPersonCommand(
-            NpgsqlCommand command
-            )
-        {
-            NpgsqlDataReader reader = null;
-            try
-            {
-                reader = command.ExecuteReader();
-                while (reader.Read())
-                {
-                    var item = new GedaqDemoConsole.Model.Person();
-                        if(!reader.IsDBNull(0))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.Id = reader.GetFieldValue<System.Int32>(0);
-                        }
-                        if(!reader.IsDBNull(1))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.FirstName = reader.GetFieldValue<System.String>(1);
-                        }
-                        if(!reader.IsDBNull(2))
-                        {
-                            var item1 = new GedaqDemoConsole.Model.Address();
-                            if(!reader.IsDBNull(2))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Id = reader.GetFieldValue<System.Int32>(2);
-                        }
-                            if(!reader.IsDBNull(3))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Street = reader.GetFieldValue<System.String>(3);
-                        }
-                            if(!reader.IsDBNull(4))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.City = reader.GetFieldValue<System.String>(4);
-                        }
-                            item.Address = item1;
-                        } 
-                    yield return item;
-                }
-
-                while (reader.NextResult())
-                {
-                }
-                reader.Dispose();
-                reader = null;
-            }
-            finally
-            {
-                if (reader != null)
-                {
-                    if (!reader.IsClosed)
-                    {
-                        try 
-                        {
-                            command.Cancel();
-                        }
-                        catch { /* ignore */ }
-                    }
-                
-                    reader.Dispose();
-                }
-            }
-        }
-
-        public  async IAsyncEnumerable<GedaqDemoConsole.Model.Person> ExecuteGetPersonCommandAsync(
-            NpgsqlCommand command,
-            [EnumeratorCancellation] CancellationToken cancellationToken = default
-
-            )
-        {
-            NpgsqlDataReader reader = null;
-            try
-            {
-                reader = await command.ExecuteReaderAsync(cancellationToken).ConfigureAwait(false);
-                while (await reader.ReadAsync(cancellationToken).ConfigureAwait(false))
-                {
-                    var item = new GedaqDemoConsole.Model.Person();
-                        if(!reader.IsDBNull(0))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.Id = reader.GetFieldValue<System.Int32>(0);
-                        }
-                        if(!reader.IsDBNull(1))
-                        {
-                            if(item == null)
-                            {
-                                 item = new GedaqDemoConsole.Model.Person();
-                            }
-                            item.FirstName = reader.GetFieldValue<System.String>(1);
-                        }
-                        if(!reader.IsDBNull(2))
-                        {
-                            var item1 = new GedaqDemoConsole.Model.Address();
-                            if(!reader.IsDBNull(2))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Id = reader.GetFieldValue<System.Int32>(2);
-                        }
-                            if(!reader.IsDBNull(3))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.Street = reader.GetFieldValue<System.String>(3);
-                        }
-                            if(!reader.IsDBNull(4))
-                        {
-                                if(item1 == null)
-                                {
-                                     item1 = new GedaqDemoConsole.Model.Address();
-                                }
-                                item1.City = reader.GetFieldValue<System.String>(4);
-                        }
-                            item.Address = item1;
-                        } 
-                    yield return item;
-                }
-
-                while (await reader.NextResultAsync(cancellationToken).ConfigureAwait(false))
-                {
-                }
-                await reader.DisposeAsync().ConfigureAwait(false);
-                reader = null;
-            }
-            finally
-            {
-                if (reader != null)
-                {
-                    if (!reader.IsClosed)
-                    {
-                        try 
-                        {
-                            command.Cancel();
-                        }
-                        catch { /* ignore */ }
-                    }
-                
-                    await reader.DisposeAsync().ConfigureAwait(false);
-                }
-            }
-        }
-
-        public  void SetGetPersonParametrs(
-            NpgsqlCommand command,
-            System.Int32 person_id,
-            int? timeout = null
-            )
-        {
-
-            if(timeout.HasValue)
-            {
-                command.CommandTimeout = timeout.Value;
-            }
-                ((NpgsqlParameter<System.Int32>)command.Parameters[0]).TypedValue = person_id;
-        }
-
-    }
-}
-
-```
-
-</TabItem>
-
-</Tabs>
-
-</details>
-
-<details>
-<summary>BatchQuery(Example2)</summary>
-	
-<Tabs>
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\ExampleRun.cs" label="ExampleRun.cs" >
-		
-  Using Generated(**Gedaq**) Methods in *ExampleRun.cs*
-
-```csharp showLineNumbers
-
 using GedaqDemoConsole.Model;
 using Npgsql;
 
@@ -918,16 +378,14 @@ namespace GedaqDemoConsole.Example2
         }
     }
 }
-
 ```
-</TabItem>
+  </TabItem>
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\PersonRepository.cs" label="PersonRepository.cs" >
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\PersonRepository.cs" label="PersonRepository.cs" >
 
-  Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
+  This is the use of **Gedaq** in *PersonRepository.cs*
 
 ```csharp showLineNumbers 
-
 using Gedaq.Common.Enums;
 using GedaqDemoConsole.Model;
 
@@ -975,19 +433,131 @@ WHERE
         }
     }
 }
-
 ```
-</TabItem>
+  </TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\ExampleRun.cs" label="ExampleRun.cs" >
+
+  This is the use of **Gedaq** in *ExampleRun.cs*
+
+```csharp showLineNumbers 
+using GedaqDemoConsole.Model;
+using Npgsql;
+
+namespace GedaqDemoConsole.Example3
+{
+    internal class ExampleRun
+    {
+        public static async Task Run()
+        {
+            var repository = new PersonRepository3();
+            var queryRepository = (IQueryPersonRepository)repository;
+            var commandRepository = (ICommandPersonRepository)repository;
+
+            await using (var connection = new NpgsqlConnection("you connection string"))
+            {
+                IEnumerable<Person> list = queryRepository.GetPersons(connection: connection);
+                IAsyncEnumerable<Person> listAsync = queryRepository.GetPersonsAsync(connection: connection);
+
+                commandRepository.AddPersons(connection: connection, id: 1, firstname: "name1");
+                await commandRepository.AddPersonsAsync(connection: connection, id: 2, firstname: "name2");
+            }
+        }
+    }
+}
+```
+  </TabItem>
+
+  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\PersonRepository.cs" label="PersonRepository.cs" >
+
+  This is the use of **Gedaq** in *PersonRepository.cs*
+
+```csharp showLineNumbers 
+using Gedaq.Common.Enums;
+using GedaqDemoConsole.Model;
+
+namespace GedaqDemoConsole.Example3
+{
+    public partial interface IPersonRepository : IQueryPersonRepository, ICommandPersonRepository
+    {
+    }
+
+    public partial interface IQueryPersonRepository
+    {
+    }
+
+    public partial interface ICommandPersonRepository
+    {
+    }
+
+    public partial class PersonRepository3 : IPersonRepository
+    {
+        [Gedaq.Npgsql.Attributes.Query(
+            query: @"
+SELECT 
+    p.id,
+    p.firstname,
+~StartInner::Address:Id~
+    a.id,
+    a.street,
+    a.city
+~EndInner::Address~
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+",
+            methodName: "GetPersons",
+            queryMapType: typeof(Person),
+            methodType: MethodType.Sync | MethodType.Async,
+            accessModifier: AccessModifier.Public,
+            asPartInterface: typeof(IQueryPersonRepository)
+            )
+            ]
+        private void GetPersonsConfig()
+        {
+        }
+
+        [Gedaq.Npgsql.Attributes.Query(
+            query: @"
+INSERT INTO person(
+	id,
+    firstname
+)
+VALUES (
+    $1,
+    $2
+)
+",
+            methodName: "AddPersons",
+            queryMapType: typeof(Person),
+            methodType: MethodType.Sync | MethodType.Async,
+            accessModifier: AccessModifier.Public,
+            queryType: QueryType.NonQuery,
+            asPartInterface: typeof(ICommandPersonRepository)
+            ),
+            Gedaq.Npgsql.Attributes.Parametr(typeof(int), position: 1, methodParametrName: "id"),
+            Gedaq.Npgsql.Attributes.Parametr(typeof(string), position: 2, methodParametrName: "firstname")
+            ]
+        private void AddPersonsConfig()
+        {
+        }
+    }
+}
+```
+  </TabItem>
 
 </Tabs>
+
+### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
+
+
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository2BatchPersonsNpgsql.g.cs" label="PersonRepository2BatchPersonsNpgsql.g.cs" >
 
-```csharp showLineNumbers 
 
+```csharp showLineNumbers 
 
 using Npgsql;
 using System;
@@ -1586,137 +1156,13 @@ WHERE
 
     }
 }
-
 ```
-</TabItem>
 
-</Tabs>
+  </TabItem>
 
-</details>
 
-<details>
-<summary>CQRS(Example3)</summary>
-	
-<Tabs>
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\ExampleRun.cs" label="ExampleRun.cs" >
-		
-  Using Generated(**Gedaq**) Methods in *ExampleRun.cs*
-
-```csharp showLineNumbers
-
-using GedaqDemoConsole.Model;
-using Npgsql;
-
-namespace GedaqDemoConsole.Example3
-{
-    internal class ExampleRun
-    {
-        public static async Task Run()
-        {
-            var repository = new PersonRepository3();
-            var queryRepository = (IQueryPersonRepository)repository;
-            var commandRepository = (ICommandPersonRepository)repository;
-
-            await using (var connection = new NpgsqlConnection("you connection string"))
-            {
-                IEnumerable<Person> list = queryRepository.GetPersons(connection: connection);
-                IAsyncEnumerable<Person> listAsync = queryRepository.GetPersonsAsync(connection: connection);
-
-                commandRepository.AddPersons(connection: connection, id: 1, firstname: "name1");
-                await commandRepository.AddPersonsAsync(connection: connection, id: 2, firstname: "name2");
-            }
-        }
-    }
-}
-
-```
-</TabItem>
-
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\PersonRepository.cs" label="PersonRepository.cs" >
-
-  Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
-
-```csharp showLineNumbers 
-
-using Gedaq.Common.Enums;
-using GedaqDemoConsole.Model;
-
-namespace GedaqDemoConsole.Example3
-{
-    public partial interface IPersonRepository : IQueryPersonRepository, ICommandPersonRepository
-    {
-    }
-
-    public partial interface IQueryPersonRepository
-    {
-    }
-
-    public partial interface ICommandPersonRepository
-    {
-    }
-
-    public partial class PersonRepository3 : IPersonRepository
-    {
-        [Gedaq.Npgsql.Attributes.Query(
-            query: @"
-SELECT 
-    p.id,
-    p.firstname,
-~StartInner::Address:Id~
-    a.id,
-    a.street,
-    a.city
-~EndInner::Address~
-FROM person p
-LEFT JOIN address a ON a.id = p.address_id
-",
-            methodName: "GetPersons",
-            queryMapType: typeof(Person),
-            methodType: MethodType.Sync | MethodType.Async,
-            accessModifier: AccessModifier.Public,
-            asPartInterface: typeof(IQueryPersonRepository)
-            )
-            ]
-        private void GetPersonsConfig()
-        {
-        }
-
-        [Gedaq.Npgsql.Attributes.Query(
-            query: @"
-INSERT INTO person(
-	id,
-    firstname
-)
-VALUES (
-    $1,
-    $2
-)
-",
-            methodName: "AddPersons",
-            queryMapType: typeof(Person),
-            methodType: MethodType.Sync | MethodType.Async,
-            accessModifier: AccessModifier.Public,
-            queryType: QueryType.NonQuery,
-            asPartInterface: typeof(ICommandPersonRepository)
-            ),
-            Gedaq.Npgsql.Attributes.Parametr(typeof(int), position: 1, methodParametrName: "id"),
-            Gedaq.Npgsql.Attributes.Parametr(typeof(string), position: 2, methodParametrName: "firstname")
-            ]
-        private void AddPersonsConfig()
-        {
-        }
-    }
-}
-
-```
-</TabItem>
-
-</Tabs>
-
-Those are taken from $(BaseIntermediateOutputPath)\GX
-
-<Tabs>
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3AddPersonsICommandPersonRepository.g.cs" label="PersonRepository3AddPersonsICommandPersonRepository.g.cs" >
+
 
 ```csharp showLineNumbers 
 
@@ -1771,9 +1217,12 @@ namespace GedaqDemoConsole.Example3
 }
 
 ```
-</TabItem>
-	
+
+  </TabItem>
+
+
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3AddPersonsNpgsql.g.cs" label="PersonRepository3AddPersonsNpgsql.g.cs" >
+
 
 ```csharp showLineNumbers 
 
@@ -1994,15 +1443,15 @@ VALUES (
 
     }
 }
-
 ```
 
-</TabItem>
-	
+  </TabItem>
+
+
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3GetPersonsIQueryPersonRepository.g.cs" label="PersonRepository3GetPersonsIQueryPersonRepository.g.cs" >
 
-```csharp showLineNumbers 
 
+```csharp showLineNumbers 
 
 using Npgsql;
 using System;
@@ -2058,12 +1507,13 @@ namespace GedaqDemoConsole.Example3
     }
 }
 
-
 ```
 
-</TabItem>
-	
+  </TabItem>
+
+
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3GetPersonsNpgsql.g.cs" label="PersonRepository3GetPersonsNpgsql.g.cs" >
+
 
 ```csharp showLineNumbers 
 
@@ -2553,14 +2003,530 @@ LEFT JOIN address a ON a.id = p.address_id
 
     }
 }
-
 ```
 
-</TabItem>
+  </TabItem>
+
+
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepositoryGetPersonNpgsql.g.cs" label="PersonRepositoryGetPersonNpgsql.g.cs" >
+
+
+```csharp showLineNumbers 
+
+using Npgsql;
+using System;
+using System.Data;
+using System.Collections;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
+
+namespace GedaqDemoConsole.Example1
+{
+    public  partial class PersonRepository
+    {
+        
+        public  IEnumerable<GedaqDemoConsole.Model.Person> GetPerson(
+            Npgsql.NpgsqlConnection connection,
+            System.Int32 person_id,
+            int? timeout = null
+        )
+        {
+            bool needClose = connection.State == ConnectionState.Closed;
+            if(needClose)
+            {
+                connection.Open();
+            }
+            NpgsqlCommand command = null;
+            NpgsqlDataReader reader = null;
+            try
+            {
+                command =
+                CreateGetPersonCommand(connection
+                , false)
+                ;
+                SetGetPersonParametrs(
+                    command,
+                    person_id,
+                    timeout
+                    );
+                reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+                }
+
+                while (reader.NextResult())
+                {
+                }
+
+                reader.Dispose();
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            command.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    reader.Dispose();
+                }
+                if (needClose)
+                {
+                    connection.Close();
+                }
+                if(command != null)
+                {
+                    command.Parameters.Clear();
+                    command.Dispose();
+                }
+            }
+        }
+        
+        public  async IAsyncEnumerable<GedaqDemoConsole.Model.Person> GetPersonAsync(
+            Npgsql.NpgsqlConnection connection,
+            System.Int32 person_id,
+            int? timeout = null,
+            [EnumeratorCancellation] CancellationToken cancellationToken = default
+        )
+        {
+            bool needClose = connection.State == ConnectionState.Closed;
+            if(needClose)
+            {
+                await connection.OpenAsync(cancellationToken).ConfigureAwait(false);
+            }
+            NpgsqlCommand command = null;
+            NpgsqlDataReader reader = null;
+            try
+            {
+                command =
+                await CreateGetPersonCommandAsync(connection
+                , false, cancellationToken)
+                ;
+                SetGetPersonParametrs(
+                    command,
+                    person_id,
+                    timeout
+                    );
+                reader = await command.ExecuteReaderAsync(cancellationToken).ConfigureAwait(false);
+                while (await reader.ReadAsync(cancellationToken).ConfigureAwait(false))
+                {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+                }
+
+                while (await reader.NextResultAsync(cancellationToken).ConfigureAwait(false))
+                {
+                }
+
+                await reader.DisposeAsync().ConfigureAwait(false);
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            command.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    await reader.DisposeAsync().ConfigureAwait(false);
+                }
+                if (needClose)
+                {
+                    await connection.CloseAsync().ConfigureAwait(false);
+                }
+                if(command != null)
+                {
+                    command.Parameters.Clear();
+                    await command.DisposeAsync().ConfigureAwait(false);
+                }
+            }
+        }
+
+        public  NpgsqlCommand CreateGetPersonCommand(
+            Npgsql.NpgsqlConnection connection,
+            bool prepare = false
+        )
+        {
+            var command = connection.CreateCommand();
+            command.CommandText = @"
+
+SELECT 
+    p.id,
+    p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+WHERE
+    p.id = $1
+
+"
+;
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            if(prepare)
+            {
+                try
+                {
+                    command.Prepare();
+                }
+                catch
+                {
+                    command.Dispose();
+                    throw;
+                }
+            }
+            return command;
+        }
+
+        public  async ValueTask<NpgsqlCommand> CreateGetPersonCommandAsync(
+            Npgsql.NpgsqlConnection connection,
+            bool prepare = false,
+            CancellationToken cancellationToken = default
+        )
+        {
+            var command = connection.CreateCommand();
+            command.CommandText = @"
+
+SELECT 
+    p.id,
+    p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+WHERE
+    p.id = $1
+
+"
+;
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            if(prepare)
+            {
+                try
+                {
+                    await command.PrepareAsync(cancellationToken).ConfigureAwait(false);
+                }
+                catch
+                {  
+                    await command.DisposeAsync().ConfigureAwait(false);
+                    throw;
+                }
+            }
+            return command;
+        }
+
+        public  IEnumerable<GedaqDemoConsole.Model.Person> ExecuteGetPersonCommand(
+            NpgsqlCommand command
+            )
+        {
+            NpgsqlDataReader reader = null;
+            try
+            {
+                reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+                }
+
+                while (reader.NextResult())
+                {
+                }
+                reader.Dispose();
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            command.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    reader.Dispose();
+                }
+            }
+        }
+
+        public  async IAsyncEnumerable<GedaqDemoConsole.Model.Person> ExecuteGetPersonCommandAsync(
+            NpgsqlCommand command,
+            [EnumeratorCancellation] CancellationToken cancellationToken = default
+
+            )
+        {
+            NpgsqlDataReader reader = null;
+            try
+            {
+                reader = await command.ExecuteReaderAsync(cancellationToken).ConfigureAwait(false);
+                while (await reader.ReadAsync(cancellationToken).ConfigureAwait(false))
+                {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+                }
+
+                while (await reader.NextResultAsync(cancellationToken).ConfigureAwait(false))
+                {
+                }
+                await reader.DisposeAsync().ConfigureAwait(false);
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            command.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    await reader.DisposeAsync().ConfigureAwait(false);
+                }
+            }
+        }
+
+        public  void SetGetPersonParametrs(
+            NpgsqlCommand command,
+            System.Int32 person_id,
+            int? timeout = null
+            )
+        {
+
+            if(timeout.HasValue)
+            {
+                command.CommandTimeout = timeout.Value;
+            }
+                ((NpgsqlParameter<System.Int32>)command.Parameters[0]).TypedValue = person_id;
+        }
+
+    }
+}
+```
+
+  </TabItem>
+
 
 </Tabs>
-
-</details>
 
 ## Usefull
 
@@ -2588,3 +2554,4 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq
 
 
 ### [Breezy](/docs/Breezy)
+
