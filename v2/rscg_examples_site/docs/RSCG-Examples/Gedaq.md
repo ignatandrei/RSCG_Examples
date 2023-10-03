@@ -201,8 +201,10 @@ Generating code from attribute query
 ## How to use
 
 <Tabs>
-	<TabItem value="csproj" label="CSharp Project">
+<TabItem value="csproj" label="CSharp Project">
+	
 This is the CSharp Project that references **Gedaq**
+
 ```xml showLineNumbers {14}
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
@@ -220,13 +222,14 @@ This is the CSharp Project that references **Gedaq**
 	</ItemGroup>
 </Project>
 ```
-	</TabItem>
+</TabItem>
 	
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Address.cs" label="Address.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Address.cs" label="Address.cs" >
 	
-Person Model class used for mapping
+Address Model class used for mapping
 
 ```csharp showLineNumbers 
+
 namespace GedaqDemoConsole.Model
 {
     public class Address
@@ -238,11 +241,16 @@ namespace GedaqDemoConsole.Model
         public string City { get; set; }
     }
 }
+
 ```
-	</TabItem>
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Person.cs" label="Person.cs" >
+</TabItem>
+	
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Model\Person.cs" label="Person.cs" >
+	
 Person Model class used for mapping
+
 ```csharp showLineNumbers 
+
 namespace GedaqDemoConsole.Model
 {
     public class Person
@@ -258,15 +266,16 @@ namespace GedaqDemoConsole.Model
         public Address Address { get; set; }
     }
 }
+
 ```
-	</TabItem>
+</TabItem>	
 </Tabs>
 
 <details>
-	<summary>Query(Example1)</summary>
+<summary>Query(Example1)</summary>
 	
-	<Tabs>
-		<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\ExampleRun.cs" label="ExampleRun.cs" >
+<Tabs>
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\ExampleRun.cs" label="ExampleRun.cs" >
 		
   Using Generated(**Gedaq**) Methods in *ExampleRun.cs*
 
@@ -297,14 +306,16 @@ namespace GedaqDemoConsole.Example1
         }
     }
 }
-```
-		</TabItem>
 
-		<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\PersonRepository.cs" label="PersonRepository.cs" >
+```
+</TabItem>
+
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example1\PersonRepository.cs" label="PersonRepository.cs" >
 
   Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
 
 ```csharp showLineNumbers 
+
 using Gedaq.Common.Enums;
 using GedaqDemoConsole.Model;
 
@@ -333,7 +344,8 @@ WHERE
     }
 }
 ```
-		</TabItem>
+
+</TabItem>
 </Tabs>
 
 ### Generated Files
@@ -341,7 +353,8 @@ WHERE
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepositoryGetPersonNpgsql.g.cs" label="PersonRepositoryGetPersonNpgsql.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepositoryGetPersonNpgsql.g.cs" label="PersonRepositoryGetPersonNpgsql.g.cs" >
+
 ```csharp showLineNumbers 
 
 
@@ -726,20 +739,23 @@ WHERE
     }
 }
 ```
-	</TabItem>
+
+</TabItem>
+
 </Tabs>
 
 </details>
 
 <details>
-	<summary>BatchQuery(Example2)</summary>
+<summary>BatchQuery(Example2)</summary>
 	
-	<Tabs>
-		<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\ExampleRun.cs" label="ExampleRun.cs" >
+<Tabs>
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\ExampleRun.cs" label="ExampleRun.cs" >
 		
   Using Generated(**Gedaq**) Methods in *ExampleRun.cs*
 
 ```csharp showLineNumbers
+
 using GedaqDemoConsole.Model;
 using Npgsql;
 
@@ -768,14 +784,16 @@ namespace GedaqDemoConsole.Example2
         }
     }
 }
-```
-		</TabItem>
 
-		<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\PersonRepository.cs" label="PersonRepository.cs" >
+```
+</TabItem>
+
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example2\PersonRepository.cs" label="PersonRepository.cs" >
 
   Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
 
 ```csharp showLineNumbers 
+
 using Gedaq.Common.Enums;
 using GedaqDemoConsole.Model;
 
@@ -817,8 +835,10 @@ WHERE
         }
     }
 }
+
 ```
-		</TabItem>
+</TabItem>
+
 </Tabs>
 
 ### Generated Files
@@ -826,7 +846,8 @@ WHERE
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository2BatchPersonsNpgsql.g.cs" label="PersonRepository2BatchPersonsNpgsql.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository2BatchPersonsNpgsql.g.cs" label="PersonRepository2BatchPersonsNpgsql.g.cs" >
+
 ```csharp showLineNumbers 
 
 using Npgsql;
@@ -1287,20 +1308,22 @@ WHERE
     }
 }
 ```
-	</TabItem>
+</TabItem>
+
 </Tabs>
 
 </details>
 
 <details>
-	<summary>CQRS(Example3)</summary>
+<summary>CQRS(Example3)</summary>
 	
-	<Tabs>
-		<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\ExampleRun.cs" label="ExampleRun.cs" >
+<Tabs>
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\ExampleRun.cs" label="ExampleRun.cs" >
 		
   Using Generated(**Gedaq**) Methods in *ExampleRun.cs*
 
 ```csharp showLineNumbers
+
 using GedaqDemoConsole.Model;
 using Npgsql;
 
@@ -1325,14 +1348,16 @@ namespace GedaqDemoConsole.Example3
         }
     }
 }
-```
-		</TabItem>
 
-		<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\PersonRepository.cs" label="PersonRepository.cs" >
+```
+</TabItem>
+
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\Example3\PersonRepository.cs" label="PersonRepository.cs" >
 
   Repository where attributes(**Gedaq**) for code generation are configured in *PersonRepository.cs*
 
 ```csharp showLineNumbers 
+
 using Gedaq.Common.Enums;
 using GedaqDemoConsole.Model;
 
@@ -1396,8 +1421,10 @@ VALUES (
         }
     }
 }
+
 ```
-		</TabItem>
+</TabItem>
+
 </Tabs>
 
 ### Generated Files
@@ -1405,7 +1432,8 @@ VALUES (
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3AddPersonsICommandPersonRepository.g.cs" label="PersonRepository3AddPersonsICommandPersonRepository.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3AddPersonsICommandPersonRepository.g.cs" label="PersonRepository3AddPersonsICommandPersonRepository.g.cs" >
+
 ```csharp showLineNumbers 
 
 using Npgsql;
@@ -1459,9 +1487,10 @@ namespace GedaqDemoConsole.Example3
 }
 
 ```
-	</TabItem>
+</TabItem>
 	
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3AddPersonsNpgsql.g.cs" label="PersonRepository3AddPersonsNpgsql.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3AddPersonsNpgsql.g.cs" label="PersonRepository3AddPersonsNpgsql.g.cs" >
+
 ```csharp showLineNumbers 
 
 using Npgsql;
@@ -1681,10 +1710,13 @@ VALUES (
 
     }
 }
+
 ```
-	</TabItem>
+
+</TabItem>
 	
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3GetPersonsIQueryPersonRepository.g.cs" label="PersonRepository3GetPersonsIQueryPersonRepository.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3GetPersonsIQueryPersonRepository.g.cs" label="PersonRepository3GetPersonsIQueryPersonRepository.g.cs" >
+
 ```csharp showLineNumbers 
 
 using Npgsql;
@@ -1742,9 +1774,11 @@ namespace GedaqDemoConsole.Example3
 }
 
 ```
-	</TabItem>
+
+</TabItem>
 	
-	<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3GetPersonsNpgsql.g.cs" label="PersonRepository3GetPersonsNpgsql.g.cs" >
+<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gedaq\src\GedaqDemoConsole\obj\GX\Gedaq\Gedaq.Gedaq\PersonRepository3GetPersonsNpgsql.g.cs" label="PersonRepository3GetPersonsNpgsql.g.cs" >
+
 ```csharp showLineNumbers 
 
 using Npgsql;
@@ -2105,8 +2139,11 @@ FROM person p
 
     }
 }
+
 ```
-	</TabItem>
+
+</TabItem>
+
 </Tabs>
 
 </details>
