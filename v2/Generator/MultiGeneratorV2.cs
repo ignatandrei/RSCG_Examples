@@ -337,7 +337,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 
         var nameFile = Path.Combine(d.rootFolder!, "readme.txt");
         if (File.Exists(nameFile))
-            return await File.ReadAllTextAsync(nameFile);
+        {
+            var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            return text;
+        }
+            ;
 
         var data = await tryToGetReadme(source);
         if (data == null) return null;
