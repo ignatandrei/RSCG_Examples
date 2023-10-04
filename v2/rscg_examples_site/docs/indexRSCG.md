@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 64 RSCG with examples in descending chronological order
+## 67 RSCG with examples in descending chronological order
 
-This is the list of 64 ( 6 from Microsoft) RSCG with examples 
+This is the list of 67 ( 6 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,9 @@ This is the list of 64 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|67|[MapTo](/docs/MapTo)|2023-10-05 => 05 October 2023 | Mapper |
+|66|[BuilderGenerator](/docs/BuilderGenerator)|2023-10-04 => 04 October 2023 | EnhancementClass |
+|65|[Disposer](/docs/Disposer)|2023-10-03 => 03 October 2023 | Disposer |
 |64|[ResXGenerator](/docs/ResXGenerator)|2023-10-02 => 02 October 2023 | FilesToCode |
 |63|[StringLiteral](/docs/StringLiteral)|2023-10-01 => 01 October 2023 | Optimizer |
 |62|[RSCG_Decorator](/docs/RSCG_Decorator)|2023-09-30 => 30 September 2023 | EnhancementClass |
@@ -42,7 +45,7 @@ This is the list of 64 ( 6 from Microsoft) RSCG with examples
 |48|[PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)|2023-08-18 => 18 August 2023 | MVVM |
 |47|[Injectio](/docs/Injectio)|2023-08-17 => 17 August 2023 | DependencyInjection |
 |46|[NextGenMapper](/docs/NextGenMapper)|2023-08-16 => 16 August 2023 | Mapper |
-|45|[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)|2023-08-15 => 15 August 2023 | EnhancementClass |
+|45|[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)|2023-08-15 => 15 August 2023 | Disposer |
 |44|[SyncMethodGenerator](/docs/SyncMethodGenerator)|2023-08-14 => 14 August 2023 | EnhancementClass |
 |43|[spreadcheetah](/docs/spreadcheetah)|2023-08-13 => 13 August 2023 | Templating |
 |42|[Immutype](/docs/Immutype)|2023-08-12 => 12 August 2023 | EnhancementClass |
@@ -58,7 +61,7 @@ This is the list of 64 ( 6 from Microsoft) RSCG with examples
 |32|[Mediator](/docs/Mediator)|2023-08-02 => 02 August 2023 | EnhancementProject |
 |31|[MorrisMoxy](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | EnhancementClass |
 |30|[Refit](/docs/Refit)|2023-07-31 => 31 July 2023 | API |
-|29|[Gedaq](/docs/Gedaq)|2023-07-29 => 29 July 2023 | Database |
+|29|[Gedaq](/docs/Gedaq)|2023-10-03 => 03 October 2023 | Database |
 |28|[Lombok.NET](/docs/Lombok.NET)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |27|[EmbedResourceCSharp](/docs/EmbedResourceCSharp)|2023-04-16 => 16 April 2023 | FilesToCode |
 |26|[Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)|2023-04-16 => 16 April 2023 | FilesToCode |

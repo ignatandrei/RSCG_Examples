@@ -1,0 +1,12 @@
+using System.Text.Json.Serialization;
+
+namespace JsonPolymorphicGeneratorDemo
+{
+    [JsonDerivedType(typeof(JsonPolymorphicGeneratorDemo.Teacher), "Teacher")]
+    [JsonDerivedType(typeof(JsonPolymorphicGeneratorDemo.Student), "Student")]
+    public partial class Person
+    {
+    }
+}
+
+

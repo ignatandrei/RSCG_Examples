@@ -257,7 +257,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
-### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+### [BuilderGenerator](/docs/BuilderGenerator)
 
 
 ### [EnumClass](/docs/EnumClass)

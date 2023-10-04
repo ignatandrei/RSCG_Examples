@@ -232,7 +232,7 @@
       "NuGet": "https://www.nuget.org/packages/Gedaq/",
       "Source": "https://github.com/SoftStoneDevelop/Gedaq",
       "Category": "Database",
-      "AddedOn": "2023-07-29T00:00:00"
+      "AddedOn": "2023-10-03T00:00:00"
     },
     {
       "Name": "Refit",
@@ -359,7 +359,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisp",
       "NuGet": "https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/",
       "Source": "https://github.com/benutomo-dev/RoslynComponents",
-      "Category": "EnhancementClass",
+      "Category": "Disposer",
       "AddedOn": "2023-08-15T00:00:00"
     },
     {
@@ -513,6 +513,30 @@
       "Source": "https://github.com/ycanardeau/ResXGenerator",
       "Category": "FilesToCode",
       "AddedOn": "2023-10-02T00:00:00"
+    },
+    {
+      "Name": "Disposer",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer",
+      "NuGet": "https://www.nuget.org/packages/Disposer/",
+      "Source": "https://github.com/HakamFostok/Disposer",
+      "Category": "Disposer",
+      "AddedOn": "2023-10-03T00:00:00"
+    },
+    {
+      "Name": "BuilderGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator",
+      "NuGet": "https://www.nuget.org/packages/BuilderGenerator/",
+      "Source": "https://github.com/MelGrubb/BuilderGenerator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-10-04T00:00:00"
+    },
+    {
+      "Name": "MapTo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo",
+      "NuGet": "https://www.nuget.org/packages/MapTo/",
+      "Source": "https://github.com/mrtaikandi/MapTo",
+      "Category": "Mapper",
+      "AddedOn": "2023-10-05T00:00:00"
     }
   ]
 }

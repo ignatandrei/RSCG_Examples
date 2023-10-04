@@ -215,4 +215,23 @@ class MultiGenerator
 
     }
 
+    internal async Task OpenFindIIncremental()
+    {
+        
+            var data = _AllDescriptions!.Where(it=>it!=null).ToArray();
+            foreach (var item in data)
+            {
+                string url = item!.FindIIncremental();
+                if (string.IsNullOrWhiteSpace(url)) continue;
+                var ps = new ProcessStartInfo(url)
+                {
+                    UseShellExecute = true,
+                    Verb = "open",
+
+                };
+                Process.Start(ps);
+                await Task.Delay(1000 * Random.Shared.Next(1, 5));
+            }
+        
+    }
 }

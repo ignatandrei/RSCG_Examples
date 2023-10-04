@@ -21,13 +21,23 @@
 "step_16_text": "I have used the Gedaq in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\GetData.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example3\\PersonRepository.cs",
     
-        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Person.cs",
+        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example3\\ExampleRun.cs",
     
-        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Program.cs",
+        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example2\\PersonRepository.cs",
     
-"step_20_hide": "hide"
+        "step_20_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example2\\ExampleRun.cs",
+    
+        "step_21_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example1\\PersonRepository.cs",
+    
+        "step_22_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example1\\ExampleRun.cs",
+    
+        "step_23_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Model\\Address.cs",
+    
+        "step_24_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Model\\Person.cs",
+    
+"step_25_hide": "hide"
 
 
 }

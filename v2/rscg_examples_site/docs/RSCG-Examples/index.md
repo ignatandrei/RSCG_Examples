@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 64 RSCG by category 
-description: 64 RSCG by category 
+title: 67 RSCG by category 
+description: 67 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -77,6 +77,20 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Injectio](/docs/Injectio)
+
+</details>
+    
+<details>
+  <summary>Disposer =>examples:2</summary>
+        
+
+
+[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+
+        
+
+
+[Disposer](/docs/Disposer)
 
 </details>
     
@@ -160,11 +174,6 @@ import DocCardList from '@theme/DocCardList';
         
 
 
-[BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-        
-
-
 [M31.FluentAPI](/docs/M31.FluentAPI)
 
         
@@ -176,6 +185,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_Decorator](/docs/RSCG_Decorator)
+
+        
+
+
+[BuilderGenerator](/docs/BuilderGenerator)
 
 </details>
     
@@ -282,7 +296,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:3</summary>
+  <summary>Mapper =>examples:4</summary>
         
 
 
@@ -297,6 +311,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoDTO](/docs/AutoDTO)
+
+        
+
+
+[MapTo](/docs/MapTo)
 
 </details>
     
@@ -417,6 +436,10 @@ flowchart LR;
 
     DependencyInjection--> Injectio((Injectio))
 
+    Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
+
+    Disposer--> Disposer((Disposer))
+
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
@@ -447,13 +470,13 @@ flowchart LR;
 
     EnhancementClass--> SyncMethodGenerator((SyncMethodGenerator))
 
-    EnhancementClass--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
-
     EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
 
     EnhancementClass--> Roozie.AutoInterface((Roozie.AutoInterface))
 
     EnhancementClass--> RSCG_Decorator((RSCG_Decorator))
+
+    EnhancementClass--> BuilderGenerator((BuilderGenerator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
@@ -496,6 +519,8 @@ flowchart LR;
     Mapper--> NextGenMapper((NextGenMapper))
 
     Mapper--> AutoDTO((AutoDTO))
+
+    Mapper--> MapTo((MapTo))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 

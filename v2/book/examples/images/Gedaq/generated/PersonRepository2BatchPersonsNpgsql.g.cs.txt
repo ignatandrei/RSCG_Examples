@@ -1,0 +1,598 @@
+
+using Npgsql;
+using System;
+using System.Data;
+using System.Collections;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
+
+namespace GedaqDemoConsole.Example2
+{
+    public  partial class PersonRepository2
+    {
+        
+        public  IEnumerable<IEnumerable<GedaqDemoConsole.Model.Person>> BatchPersons(
+            Npgsql.NpgsqlConnection connection,
+            System.Int32 person_idBatch1,
+            System.Int32 person_idBatch2,
+            int? timeout = null
+            )
+        {
+            bool needClose = connection.State == ConnectionState.Closed;
+            if(needClose)
+            {
+                connection.Open();
+            }
+            NpgsqlBatch batch = null;
+            NpgsqlDataReader reader = null;
+            try
+            {
+                batch = 
+                CreateBatchPersonsBatch(connection
+                , false)
+                ;
+                SetBatchPersonsParametrs(
+                    batch,
+                    person_idBatch1,
+                    person_idBatch2,
+                    timeout
+                    );
+                reader = batch.ExecuteReader();
+                yield return BatchItem0(reader);
+                reader.NextResult();
+                yield return BatchItem1(reader);
+                reader.NextResult();
+                reader.Dispose();
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            batch.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    reader.Dispose();
+                }
+                if (needClose)
+                {
+                    connection.Close();
+                }
+                if(batch != null)
+                {
+                    batch.BatchCommands.Clear();
+                    batch.Dispose();
+                }
+            }
+        }
+        
+        public  async IAsyncEnumerable<IAsyncEnumerable<GedaqDemoConsole.Model.Person>> BatchPersonsAsync(
+            Npgsql.NpgsqlConnection connection,
+            System.Int32 person_idBatch1,
+            System.Int32 person_idBatch2,
+            int? timeout = null,
+            [EnumeratorCancellation] CancellationToken cancellationToken = default
+            )
+        {
+            bool needClose = connection.State == ConnectionState.Closed;
+            if(needClose)
+            {
+                await connection.OpenAsync(cancellationToken).ConfigureAwait(false);
+            }
+            NpgsqlBatch batch = null;
+            NpgsqlDataReader reader = null;
+            try
+            {
+                batch = 
+                await CreateBatchPersonsBatchAsync(connection
+                , false, cancellationToken)
+                ;
+                SetBatchPersonsParametrs(
+                    batch,
+                    person_idBatch1,
+                    person_idBatch2,
+                    timeout
+                    );
+                reader = await batch.ExecuteReaderAsync(cancellationToken).ConfigureAwait(false);
+                yield return BatchItem0Async(reader, cancellationToken);
+                await reader.NextResultAsync(cancellationToken).ConfigureAwait(false);
+                yield return BatchItem1Async(reader, cancellationToken);
+                await reader.NextResultAsync(cancellationToken).ConfigureAwait(false);
+                await reader.DisposeAsync().ConfigureAwait(false);
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            batch.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    await reader.DisposeAsync().ConfigureAwait(false);
+                }
+                if (needClose)
+                {
+                    await connection.CloseAsync().ConfigureAwait(false);
+                }
+                if(batch != null)
+                {
+                    batch.BatchCommands.Clear();
+                    await batch.DisposeAsync().ConfigureAwait(false);
+                }
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static async IAsyncEnumerable<GedaqDemoConsole.Model.Person> BatchItem0Async(
+            NpgsqlDataReader reader,
+            [EnumeratorCancellation] CancellationToken cancellationToken = default
+            )
+        {
+            while(await reader.ReadAsync(cancellationToken).ConfigureAwait(false))
+            {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static async IAsyncEnumerable<GedaqDemoConsole.Model.Person> BatchItem1Async(
+            NpgsqlDataReader reader,
+            [EnumeratorCancellation] CancellationToken cancellationToken = default
+            )
+        {
+            while(await reader.ReadAsync(cancellationToken).ConfigureAwait(false))
+            {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static IEnumerable<GedaqDemoConsole.Model.Person> BatchItem0(NpgsqlDataReader reader)
+        {
+            while(reader.Read())
+            {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private static IEnumerable<GedaqDemoConsole.Model.Person> BatchItem1(NpgsqlDataReader reader)
+        {
+            while(reader.Read())
+            {
+                    var item = new GedaqDemoConsole.Model.Person();
+                        if(!reader.IsDBNull(0))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.Id = reader.GetFieldValue<System.Int32>(0);
+                        }
+                        if(!reader.IsDBNull(1))
+                        {
+                            if(item == null)
+                            {
+                                 item = new GedaqDemoConsole.Model.Person();
+                            }
+                            item.FirstName = reader.GetFieldValue<System.String>(1);
+                        }
+                        if(!reader.IsDBNull(2))
+                        {
+                            var item1 = new GedaqDemoConsole.Model.Address();
+                            if(!reader.IsDBNull(2))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Id = reader.GetFieldValue<System.Int32>(2);
+                        }
+                            if(!reader.IsDBNull(3))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.Street = reader.GetFieldValue<System.String>(3);
+                        }
+                            if(!reader.IsDBNull(4))
+                        {
+                                if(item1 == null)
+                                {
+                                     item1 = new GedaqDemoConsole.Model.Address();
+                                }
+                                item1.City = reader.GetFieldValue<System.String>(4);
+                        }
+                            item.Address = item1;
+                        } 
+                    yield return item;
+            }
+        }
+
+        public  NpgsqlBatch CreateBatchPersonsBatch(
+            Npgsql.NpgsqlConnection connection,
+            bool prepare = false
+            )
+        {
+            var batch = connection.CreateBatch();
+            var command = batch.CreateBatchCommand();
+            command.CommandText = @"
+
+SELECT 
+    p.id,
+    p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+WHERE
+    p.id = $1
+
+";
+            {
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            }
+            batch.BatchCommands.Add(command);
+            command = batch.CreateBatchCommand();
+            command.CommandText = @"
+
+SELECT 
+    p.id,
+    p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+WHERE
+    p.id = $1
+
+";
+            {
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            }
+            batch.BatchCommands.Add(command);
+            if(prepare)
+            {
+                try
+                {
+                    batch.Prepare();
+                }
+                catch
+                {
+                    batch.Dispose();
+                    throw;
+                }
+            }
+            return batch;
+        }
+
+        public  async ValueTask<NpgsqlBatch> CreateBatchPersonsBatchAsync(
+            Npgsql.NpgsqlConnection connection,
+            bool prepare = false,
+            CancellationToken cancellationToken = default
+            )
+        {
+            var batch = connection.CreateBatch();
+            var command = batch.CreateBatchCommand();
+            command.CommandText = @"
+
+SELECT 
+    p.id,
+    p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+WHERE
+    p.id = $1
+
+";
+            {
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            }
+            batch.BatchCommands.Add(command);
+            command = batch.CreateBatchCommand();
+            command.CommandText = @"
+
+SELECT 
+    p.id,
+    p.firstname,
+
+    a.id,
+    a.street,
+    a.city
+
+FROM person p
+LEFT JOIN address a ON a.id = p.address_id
+WHERE
+    p.id = $1
+
+";
+            {
+                {
+                var parametr = new NpgsqlParameter<System.Int32>();
+
+                command.Parameters.Add(parametr);
+
+                }
+            }
+            batch.BatchCommands.Add(command);
+            if(prepare)
+            {
+                try
+                {
+                    await batch.PrepareAsync(cancellationToken).ConfigureAwait(false);
+                }
+                catch
+                {  
+                    await batch.DisposeAsync().ConfigureAwait(false);
+                    throw;
+                }
+            }
+            return batch;
+        }
+
+        public  void SetBatchPersonsParametrs(
+            NpgsqlBatch batch,
+            System.Int32 person_idBatch1,
+            System.Int32 person_idBatch2,
+            int? timeout = null
+            )
+        {
+
+            if(timeout.HasValue)
+            {
+                batch.Timeout = timeout.Value;
+            }
+            var batchCommand = batch.BatchCommands[0];
+            ((NpgsqlParameter<System.Int32>)batchCommand.Parameters[0]).TypedValue = person_idBatch1;
+            batchCommand = batch.BatchCommands[1];
+            ((NpgsqlParameter<System.Int32>)batchCommand.Parameters[0]).TypedValue = person_idBatch2;
+        }
+
+        public  IEnumerable<IEnumerable<GedaqDemoConsole.Model.Person>> ExecuteBatchPersonsBatch(
+            NpgsqlBatch batch
+            )
+        {
+            NpgsqlDataReader reader = null;
+            try
+            {
+                reader = batch.ExecuteReader();
+                yield return BatchItem0(reader);
+                reader.NextResult();
+                yield return BatchItem1(reader);
+                reader.NextResult();
+                reader.Dispose();
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            batch.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    reader.Dispose();
+                }
+            }
+        }
+
+        public  async IAsyncEnumerable<IAsyncEnumerable<GedaqDemoConsole.Model.Person>> ExecuteBatchPersonsBatchAsync(
+            NpgsqlBatch batch,
+            [EnumeratorCancellation] CancellationToken cancellationToken = default
+            )
+        {
+            NpgsqlDataReader reader = null;
+            try
+            {
+                reader = await batch.ExecuteReaderAsync(cancellationToken).ConfigureAwait(false);
+                yield return BatchItem0Async(reader, cancellationToken);
+                await reader.NextResultAsync(cancellationToken).ConfigureAwait(false);
+                yield return BatchItem1Async(reader, cancellationToken);
+                await reader.NextResultAsync(cancellationToken).ConfigureAwait(false);
+                await reader.DisposeAsync().ConfigureAwait(false);
+                reader = null;
+            }
+            finally
+            {
+                if (reader != null)
+                {
+                    if (!reader.IsClosed)
+                    {
+                        try 
+                        {
+                            batch.Cancel();
+                        }
+                        catch { /* ignore */ }
+                    }
+                
+                    await reader.DisposeAsync().ConfigureAwait(false);
+                }
+            }
+        }
+
+    }
+}

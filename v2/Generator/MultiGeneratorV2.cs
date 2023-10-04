@@ -59,7 +59,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
 ,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
 ,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
-,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",old)
+,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",later)
 ,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator",old)
 ,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management","DI container. To be analyzed")
 ,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",old)
@@ -82,13 +82,14 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server",tooComplicated)
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , need help")
+,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator",WaitingForIssue)
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
 ,new ("Jab https://github.com/pakrym/jab","Service + DI container. I use the one from MSFT")
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
 ,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
-,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",old)
+,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",later)
 ,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
 ,new ("JsonSrcGen https://github.com/trampster/JsonSrcGen",old)
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
@@ -96,10 +97,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
 ,new ("LinqGen https://github.com/cathei/LinqGen",tooComplicated)
 ,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
-,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",old)
+,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",later)
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
 ,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
-,new ("MapTo https://github.com/mrtaikandi/MapTo",old)
 ,new ("MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators",old)
 ,new ("MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator",old)
 ,new ("MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator",old)
@@ -160,10 +160,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new NoExample("DudNet https://github.com/jwshyns/DudNet"," version> 1.1.0, see branch with errors")
 ,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
-,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
-
-
-    };
+,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
+,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
+,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
+, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",later)
+,new NoExample("DisposableHelpers https://github.com/Kiryuumaru/DisposableHelpers",later)
+};
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
      //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
@@ -208,7 +210,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Podimo.ConstEmbed",before.PutCategory(Category.FilesToCode) },
             {"EmbeddingResourceCSharp",before.PutCategory(Category.FilesToCode) },
             {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
-            {"Gedaq", new   (true,new(2023,7,29),Category.Database)},
+            {"Gedaq", new (true,new(2023,7,29),Category.Database)},
             {"Refit",new(true,new(2023,7,31),Category.API) },
             {"MorrisMoxy", new(true,new(2023,8,1), Category.EnhancementClass)},
             {"Mediator" , new(true,new(2023,8,2), Category.EnhancementProject)},
@@ -224,7 +226,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Immutype",  new(true,new(2023,8,12), Category.EnhancementClass)},
             {"spreadcheetah" ,  new(true,new(2023,8,13),Category.Templating)},
             {"zomp" ,  new(true,new(2023,8,14),Category.EnhancementClass)},
-            {"IDisp", new(true,new(2023,8,15),Category.EnhancementClass)},
+            {"IDisp", new(true,new(2023,8,15),Category.Disposer)},
             {"NextGenMapper" , new(true,new(2023,8,16),Category.Mapper)},
             {"Injectio" , new(true,new(2023,8,17),Category.DependencyInjection)},
             {"PropChange", new(true,new(2023,8,18), Category.MVVM)},
@@ -244,8 +246,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
             {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
-            {"IDisposableGenerator" ,new (true,new(2023,10,3),Category.EnhancementClass)},
-        
+            {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
+            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
+            {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
+            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  )}
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -257,7 +261,22 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         //    generators[v.Key] = (v.Key == "Microsoft.Interop.JavaScript.JSImportGenerator");
         //}
     }
-
+    public async Task OpenFindIIncremental()
+    {
+        var data= rscgNoExamples.Where(it=>it.why== old).ToArray();
+        foreach (var item in data)
+        {
+            string url = item.FindIIncremental();
+            var ps = new ProcessStartInfo(url)
+            {
+                UseShellExecute = true,
+                Verb = "open",
+                
+            };
+            Process.Start(ps);
+            await Task.Delay(1000 * Random.Shared.Next(1,5));
+        }
+    }
     public async Task<string[]?> GatherData()
     {
         string folderExamples = Path.Combine(rootPath, "rscg_examples");
@@ -318,7 +337,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 
         var nameFile = Path.Combine(d.rootFolder!, "readme.txt");
         if (File.Exists(nameFile))
-            return await File.ReadAllTextAsync(nameFile);
+        {
+            var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            return text;
+        }
+            ;
 
         var data = await tryToGetReadme(source);
         if (data == null) return null;

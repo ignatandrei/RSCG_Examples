@@ -1,0 +1,26 @@
+using System.Text.Json.Serialization;
+
+namespace JsonPolymorphicGeneratorDemo;
+
+[JsonPolymorphic]
+public abstract partial class Person
+{
+    
+    public string? Name { get; set; }
+    public abstract string Data();
+}
+
+public class Teacher : Person
+{
+    public override string Data()
+    {
+        return "Class Teacher:" + Name;
+    }
+}
+public class Student : Person
+{
+    public override string Data()
+    {
+        return "Class Student:" + Name;
+    }
+}

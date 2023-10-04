@@ -224,7 +224,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
-### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+### [BuilderGenerator](/docs/BuilderGenerator)
 
 
 ### [EnumClass](/docs/EnumClass)
