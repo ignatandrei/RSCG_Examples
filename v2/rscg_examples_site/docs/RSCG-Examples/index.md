@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 66 RSCG by category 
-description: 66 RSCG by category 
+title: 67 RSCG by category 
+description: 67 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -296,7 +296,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:3</summary>
+  <summary>Mapper =>examples:4</summary>
         
 
 
@@ -311,6 +311,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoDTO](/docs/AutoDTO)
+
+        
+
+
+[MapTo](/docs/MapTo)
 
 </details>
     
@@ -514,6 +519,8 @@ flowchart LR;
     Mapper--> NextGenMapper((NextGenMapper))
 
     Mapper--> AutoDTO((AutoDTO))
+
+    Mapper--> MapTo((MapTo))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 

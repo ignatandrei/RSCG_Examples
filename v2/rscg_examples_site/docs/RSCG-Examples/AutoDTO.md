@@ -312,5 +312,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 ### [mapperly](/docs/mapperly)
 
 
+### [MapTo](/docs/MapTo)
+
+
 ### [NextGenMapper](/docs/NextGenMapper)
 
