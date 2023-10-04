@@ -162,7 +162,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-    };
+,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
+, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",later)
+,new NoExample("DisposableHelpers https://github.com/Kiryuumaru/DisposableHelpers",later)
+};
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
      //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
@@ -207,7 +210,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Podimo.ConstEmbed",before.PutCategory(Category.FilesToCode) },
             {"EmbeddingResourceCSharp",before.PutCategory(Category.FilesToCode) },
             {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
-            {"Gedaq", new (true,new(2023,10,3),Category.Database)},
+            {"Gedaq", new (true,new(2023,7,29),Category.Database)},
             {"Refit",new(true,new(2023,7,31),Category.API) },
             {"MorrisMoxy", new(true,new(2023,8,1), Category.EnhancementClass)},
             {"Mediator" , new(true,new(2023,8,2), Category.EnhancementProject)},
@@ -246,6 +249,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
             {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
             {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
+            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

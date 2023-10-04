@@ -104,4 +104,6 @@ https://github.com/amis92/csharp-source-generators
 
 https://github.com/ironcev/awesome-roslyn#source-generators
 
+Nuget:
 
+https://www.nuget.org/packages?q=Tags%3A%22SourceGenerator%22
