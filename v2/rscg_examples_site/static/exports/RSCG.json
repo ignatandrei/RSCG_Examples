@@ -529,6 +529,14 @@
       "Source": "https://github.com/MelGrubb/BuilderGenerator",
       "Category": "EnhancementClass",
       "AddedOn": "2023-10-04T00:00:00"
+    },
+    {
+      "Name": "MapTo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo",
+      "NuGet": "https://www.nuget.org/packages/MapTo/",
+      "Source": "https://github.com/mrtaikandi/MapTo",
+      "Category": "Mapper",
+      "AddedOn": "2023-10-05T00:00:00"
     }
   ]
 }

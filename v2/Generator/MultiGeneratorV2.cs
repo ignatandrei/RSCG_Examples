@@ -100,7 +100,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",later)
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
 ,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
-,new ("MapTo https://github.com/mrtaikandi/MapTo",later)
 ,new ("MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators",old)
 ,new ("MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator",old)
 ,new ("MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator",old)
@@ -245,7 +244,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
             {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
-            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) }
+            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
+            {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
