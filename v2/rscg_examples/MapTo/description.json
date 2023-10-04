@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"MapTo",
+      "nuget":[
+         "https://www.nuget.org/packages/MapTo/"
+      ],
+      "link":"https://github.com/mrtaikandi/MapTo",
+      "author":"Mohammedreza Taikandi",
+      "source":"https://github.com/mrtaikandi/MapTo"
+   },
+   "data":{
+      "goodFor":["AutoGenerate Mapping"],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
