@@ -165,6 +165,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",later)
 ,new NoExample("DisposableHelpers https://github.com/Kiryuumaru/DisposableHelpers",later)
+, new NoExample("MagicMap https://github.com/bramerdaniel/MagicMap/",later)
 };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
