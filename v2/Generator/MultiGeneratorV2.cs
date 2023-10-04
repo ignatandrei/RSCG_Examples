@@ -249,7 +249,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
             {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
             {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
-            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  }
+            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  )}
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
