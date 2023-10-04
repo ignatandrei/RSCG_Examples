@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"IDisposableGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/IDisposableGenerator/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":["https://github.com/Elskom/IDisposableGenerator"],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
