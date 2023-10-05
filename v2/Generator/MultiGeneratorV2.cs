@@ -157,7 +157,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
-, new NoExample("DudNet https://github.com/jwshyns/DudNet"," version> 1.1.0, see branch with errors")
+, new NoExample("DudNet https://github.com/jwshyns/DudNet",WaitingForIssue)
 ,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
