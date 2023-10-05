@@ -4,12 +4,12 @@
       "nuget":[
          "https://www.nuget.org/packages/IDisposableGenerator/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/Elskom/IDisposableGenerator",
+      "author":"Els_kom Official Organization",
+      "source":"https://github.com/Elskom/IDisposableGenerator"
    },
    "data":{
-      "goodFor":["https://github.com/Elskom/IDisposableGenerator"],
+      "goodFor":["Generating disposable"],
       "csprojDemo":"IDisp.csproj",
       "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"]
    },

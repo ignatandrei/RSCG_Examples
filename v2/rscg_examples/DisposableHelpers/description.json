@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"DisposableHelpers",
+      "nuget":[
+         "https://www.nuget.org/packages/DisposableHelpers/"
+      ],
+      "link":"https://github.com/Kiryuumaru/DisposableHelpers",
+      "author":"Clynt Neiko Rupinta",
+      "source":"https://github.com/Kiryuumaru/DisposableHelpers"
+   },
+   "data":{
+      "goodFor":["Generating boilerplate for thread safe Dispose"],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

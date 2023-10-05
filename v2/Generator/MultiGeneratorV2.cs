@@ -89,7 +89,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Jab https://github.com/pakrym/jab","Service + DI container. I use the one from MSFT")
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
 ,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
-,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",later)
 ,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
 ,new ("JsonSrcGen https://github.com/trampster/JsonSrcGen",old)
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
@@ -164,7 +163,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",later)
-,new NoExample("DisposableHelpers https://github.com/Kiryuumaru/DisposableHelpers",later)
 };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -250,8 +248,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
             {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
             {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  )},
-            //{"IDisposableGenerator", new (true,new(2023,10,7),Category.Disposer  )},
-            //{"MagicMap" ,new(true,new(2023,10,8),asdkfjlhn        ][\IOUDFSHGHJJIIHJOHJICategory.Mapper)},
+            //{"MagicMap" ,new(true,new(2023,10,7),Category.Mapper)},
+            //{"DisposableHelpers",new(true,new(2023,10,8),Category.Disposer) }
+
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

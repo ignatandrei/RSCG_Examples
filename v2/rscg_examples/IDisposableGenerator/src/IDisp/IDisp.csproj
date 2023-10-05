@@ -11,7 +11,7 @@
         <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
     </PropertyGroup>
 	 <ItemGroup>
-	   <PackageReference Include="IDisposableGenerator" Version="1.1.1">
+	   <PackageReference Include="IDisposableGenerator" Version="1.1.1" OutputItemType="Analyzer"  >
 	     <PrivateAssets>all</PrivateAssets>
 	     <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	   </PackageReference>

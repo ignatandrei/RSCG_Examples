@@ -67,5 +67,3 @@ Nr,Key,Source,Category
 66,BuilderGenerator, https://github.com/MelGrubb/BuilderGenerator,EnhancementClass
 67,MapTo, https://github.com/mrtaikandi/MapTo,Mapper
 68,JsonPolymorphicGenerator, https://github.com/surgicalcoder/JsonPolymorphicGenerator,Mapper
-69,IDisposableGenerator, ,Disposer
-70,MagicMap, https://github.com/bramerdaniel/MagicMap,Mapper
