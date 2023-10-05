@@ -18,7 +18,7 @@ I have also verified that the RSCG are working with .NET 7.
 Also verified that works with namespaces and classes.
 
 
-## How to read this book
+## How to use this site
 
 For each RSCG, you will find 
 
@@ -30,7 +30,7 @@ For each RSCG, you will find
 6.  Link to the downloadable code to practice
 
 
-## I have a suggestion for a new RSCG that is worth mentioning in this book. What can I do? 
+## I have a suggestion for a new RSCG that is worth mentioning in this site. What can I do? 
 
 Please send me an email to ignatandrei@yahoo.com
 
@@ -38,11 +38,14 @@ Please send me an email to ignatandrei@yahoo.com
 
 In the  introduction I have put the links to get you started with RSCG. 
 
-## I want to contribute to the book. How can I do?
+## I want to contribute to the site. How can I do?
 
 Please send me an email to ignatandrei@yahoo.com
 
-## I want to see the previous version of the book. Where can I find it?
+## Did you wrote any RSCG ? 
+
+Full disclosure: Yes, and they are presented here.
+## I want to see the previous version of the site. Where can I find it?
 
 For v1 with .NET 5 see (docs/v1)
 

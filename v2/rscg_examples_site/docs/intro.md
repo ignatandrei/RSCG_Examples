@@ -87,6 +87,8 @@ Second iteration , incremental generators: https://github.com/dotnet/roslyn/blob
 
 Andrew Lock's blog post on source generators:  https://andrewlock.net/series/creating-a-source-generator/
 
+Also please read 
+https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-generator-marker-attribute-problem-part2/
 
 Jason Bock on constructing AutoDeconstruct : https://codemag.com/Article/2305061/Writing-Code-to-Generate-Code-in-C#
 
