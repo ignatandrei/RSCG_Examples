@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"MagicMap",
+      "nuget":[
+         "https://www.nuget.org/packages/MagicMap/"
+      ],
+      "link":"https://github.com/bramerdaniel/MagicMap",
+      "author":"Bramer Daniel",
+      "source":"https://github.com/bramerdaniel/MagicMap"
+   },
+   "data":{
+      "goodFor":["Auto mapping "],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
