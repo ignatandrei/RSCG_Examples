@@ -250,8 +250,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
             {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
             {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  )},
-            {"IDisposableGenerator", new (true,new(2023,10,7),Category.Disposer  )},
-            {"MagicMap" ,new(true,new(2023,10,8),Category.Mapper)},
+            //{"IDisposableGenerator", new (true,new(2023,10,7),Category.Disposer  )},
+            //{"MagicMap" ,new(true,new(2023,10,8),asdkfjlhn        ][\IOUDFSHGHJJIIHJOHJICategory.Mapper)},
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

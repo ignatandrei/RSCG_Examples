@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 67 RSCG by category 
-description: 67 RSCG by category 
+title: 68 RSCG by category 
+description: 68 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -296,7 +296,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:4</summary>
+  <summary>Mapper =>examples:5</summary>
         
 
 
@@ -316,6 +316,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MapTo](/docs/MapTo)
+
+        
+
+
+[JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 </details>
     
@@ -521,6 +526,8 @@ flowchart LR;
     Mapper--> AutoDTO((AutoDTO))
 
     Mapper--> MapTo((MapTo))
+
+    Mapper--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 

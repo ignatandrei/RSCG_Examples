@@ -316,30 +316,6 @@ public static class PersonMapToExtensions
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MapTo\src\mapperDemo\obj\GX\Riok.Mapperly\Riok.Mapperly.MapperGenerator\PersonMapper.g.cs" label="PersonMapper.g.cs" >
-
-
-```csharp showLineNumbers 
-#nullable enable
-namespace mapperlyDemo
-{
-    public partial class PersonMapper
-    {
-        public partial global::mapperlyDemo.PersonDTO Person2PersonDTO(global::Person p)
-        {
-            var target = new global::mapperlyDemo.PersonDTO();
-            target.ID = p.ID;
-            target.FirstName = p.FirstName;
-            target.LastName = p.LastName;
-            return target;
-        }
-    }
-}
-```
-
-  </TabItem>
-
-
 </Tabs>
 
 ## Usefull
@@ -368,6 +344,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo
 
 
 ### [AutoDTO](/docs/AutoDTO)
+
+
+### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 
 ### [mapperly](/docs/mapperly)

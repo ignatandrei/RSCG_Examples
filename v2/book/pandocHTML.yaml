@@ -82,8 +82,6 @@ input-files:
 - examples/BuilderGenerator.html
 - examples/MapTo.html
 - examples/JsonPolymorphicGenerator.html
-- examples/IDisposableGenerator.html
-- examples/MagicMap.html
 
 # or you may use input-file: with a single value
 # defaults:
