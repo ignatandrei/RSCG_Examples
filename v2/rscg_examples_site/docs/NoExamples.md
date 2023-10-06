@@ -548,7 +548,7 @@ Why I have not put example: old ISourceGenerator
 
 136)VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 137)Visor https://github.com/Tinkoff/Visor  
 

@@ -246,17 +246,11 @@ namespace JsonPolymorphicGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator
 
-## In the same category (Mapper)
+## In the same category (Serializer)
 
 
-### [AutoDTO](/docs/AutoDTO)
+### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
 
-### [mapperly](/docs/mapperly)
-
-
-### [MapTo](/docs/MapTo)
-
-
-### [NextGenMapper](/docs/NextGenMapper)
+### [System.Text.Json](/docs/System.Text.Json)
 

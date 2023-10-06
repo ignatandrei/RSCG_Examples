@@ -161,7 +161,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
-, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",later)
+, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
 };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -246,7 +246,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
             {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
             {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
-            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Mapper  )},
+            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Serializer  )},
             //{"MagicMap" ,new(true,new(2023,10,7),Category.Mapper)},
             //{"DisposableHelpers",new(true,new(2023,10,8),Category.Disposer) }
 

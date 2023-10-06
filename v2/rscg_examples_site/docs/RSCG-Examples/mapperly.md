@@ -283,9 +283,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
 ### [AutoDTO](/docs/AutoDTO)
 
 
-### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-
 ### [MapTo](/docs/MapTo)
 
 

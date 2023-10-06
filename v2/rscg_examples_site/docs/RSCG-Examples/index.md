@@ -296,7 +296,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:5</summary>
+  <summary>Mapper =>examples:4</summary>
         
 
 
@@ -316,11 +316,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MapTo](/docs/MapTo)
-
-        
-
-
-[JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 </details>
     
@@ -362,7 +357,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Serializer =>examples:2</summary>
+  <summary>Serializer =>examples:3</summary>
         
 
 
@@ -372,6 +367,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+
+        
+
+
+[JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 </details>
     
@@ -527,8 +527,6 @@ flowchart LR;
 
     Mapper--> MapTo((MapTo))
 
-    Mapper--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
-
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
     MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
@@ -542,6 +540,8 @@ flowchart LR;
     Serializer--> System.Text.Json((System.Text.Json))
 
     Serializer--> ProtobufSourceGenerator((ProtobufSourceGenerator))
+
+    Serializer--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
 
     Templating--> RazorBlade((RazorBlade))
 

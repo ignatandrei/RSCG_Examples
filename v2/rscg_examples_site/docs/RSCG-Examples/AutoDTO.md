@@ -309,9 +309,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 ## In the same category (Mapper)
 
 
-### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-
 ### [mapperly](/docs/mapperly)
 
 

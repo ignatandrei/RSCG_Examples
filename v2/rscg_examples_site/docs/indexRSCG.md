@@ -23,7 +23,7 @@ This is the list of 68 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|68|[JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)|2023-10-06 => 06 October 2023 | Mapper |
+|68|[JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)|2023-10-06 => 06 October 2023 | Serializer |
 |67|[MapTo](/docs/MapTo)|2023-10-05 => 05 October 2023 | Mapper |
 |66|[BuilderGenerator](/docs/BuilderGenerator)|2023-10-04 => 04 October 2023 | EnhancementClass |
 |65|[Disposer](/docs/Disposer)|2023-10-03 => 03 October 2023 | Disposer |
