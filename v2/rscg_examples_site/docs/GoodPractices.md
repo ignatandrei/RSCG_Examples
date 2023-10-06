@@ -32,4 +32,9 @@ https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-gen
 
  ## Add nullable enable
  
+TODO: add example
+
+ ## Add reference to another package when need just for compilation
+
  
+TODO: add example

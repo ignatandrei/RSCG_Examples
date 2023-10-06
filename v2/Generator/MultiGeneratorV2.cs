@@ -209,7 +209,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
             {"Gedaq", new (true,new(2023,7,29),Category.Database)},
             {"Refit",new(true,new(2023,7,31),Category.API) },
-            {"MorrisMoxy", new(true,new(2023,8,1), Category.EnhancementClass)},
+            {"MorrisMoxy", new(true,new(2023,8,1), Category.Templating)},
             {"Mediator" , new(true,new(2023,8,2), Category.EnhancementProject)},
             {"Matryoshki" , new(true,new(2023,8,3), Category.EnhancementProject)},
             {"MemoryPack" , new(true,new(2023,8,4), Category.EnhancementClass)},
