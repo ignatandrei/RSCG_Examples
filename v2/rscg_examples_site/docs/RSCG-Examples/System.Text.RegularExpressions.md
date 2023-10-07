@@ -463,6 +463,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressio
 ### [MemoryPack](/docs/MemoryPack)
 
 
+### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
+
+
 ### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
 

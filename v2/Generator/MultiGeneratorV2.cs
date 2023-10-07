@@ -162,7 +162,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
-,new NoExample("Meziantou.Polyfill https://github.com/meziantou/Meziantou.Polyfill", tooComplicated)
 , new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",later)
 , new NoExample("UnitGenerator https://github.com/Cysharp/UnitGenerator",later)
     };
@@ -252,8 +251,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Serializer  )},
             {"RSCG_Templating",new(true,new(2023,10,7),Category.Templating) },
             {"MagicMap" ,new(true,new(2023,10,8),Category.Mapper)},
-            {"DisposableHelpers",new(true,new(2023,10,9),Category.Disposer) }
-
+            {"DisposableHelpers",new(true,new(2023,10,9),Category.Disposer) },
+            {"Poly",new(true,new(2023,10,10),Category.EnhancementClass) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
