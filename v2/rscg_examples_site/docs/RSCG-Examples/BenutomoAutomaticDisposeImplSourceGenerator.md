@@ -808,5 +808,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImpl
 ## In the same category (Disposer)
 
 
+### [DisposableHelpers](/docs/DisposableHelpers)
+
+
 ### [Disposer](/docs/Disposer)
 

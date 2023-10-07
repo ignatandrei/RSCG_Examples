@@ -68,3 +68,5 @@ Nr,Key,Source,Category
 67,MapTo, https://github.com/mrtaikandi/MapTo,Mapper
 68,JsonPolymorphicGenerator, https://github.com/surgicalcoder/JsonPolymorphicGenerator,Serializer
 69,RSCG_Templating, https://github.com/ignatandrei/rscg_templating/,Templating
+70,MagicMap, https://github.com/bramerdaniel/MagicMap,Mapper
+71,DisposableHelpers, https://github.com/Kiryuumaru/DisposableHelpers,Disposer

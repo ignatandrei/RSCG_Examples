@@ -1,6 +1,6 @@
-# RSCG - 69 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 71 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-07 => 07 October 2023
+## Latest Update : 2023-10-09 => 09 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,40 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 69 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 71 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 71. [DisposableHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers) generated on : 2023-10-09 => 09 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Clynt Neiko Rupinta
+
+Disposable helpers for IDisposable and IAsyncDisposable. 
+
+Nuget: [https://www.nuget.org/packages/DisposableHelpers/](https://www.nuget.org/packages/DisposableHelpers/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers)
+
+Source: [https://github.com/Kiryuumaru/DisposableHelpers](https://github.com/Kiryuumaru/DisposableHelpers)
+
+</details>
+
+### 70. [MagicMap](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap) generated on : 2023-10-08 => 08 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Bramer Daniel
+
+Helper utility for generating type mapper classes and more 
+
+Nuget: [https://www.nuget.org/packages/MagicMap/](https://www.nuget.org/packages/MagicMap/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap)
+
+Source: [https://github.com/bramerdaniel/MagicMap](https://github.com/bramerdaniel/MagicMap)
+
+</details>
+
 ### 69. [RSCG_Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating) generated on : 2023-10-07 => 07 October 2023
 <details>
   <summary>Expand</summary>

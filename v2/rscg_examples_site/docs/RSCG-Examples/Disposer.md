@@ -669,3 +669,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer
 
 ### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
 
+
+### [DisposableHelpers](/docs/DisposableHelpers)
+

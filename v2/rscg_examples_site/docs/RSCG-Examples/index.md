@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 69 RSCG by category 
-description: 69 RSCG by category 
+title: 71 RSCG by category 
+description: 71 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -81,7 +81,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Disposer =>examples:2</summary>
+  <summary>Disposer =>examples:3</summary>
         
 
 
@@ -91,6 +91,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Disposer](/docs/Disposer)
+
+        
+
+
+[DisposableHelpers](/docs/DisposableHelpers)
 
 </details>
     
@@ -291,7 +296,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:4</summary>
+  <summary>Mapper =>examples:5</summary>
         
 
 
@@ -311,6 +316,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MapTo](/docs/MapTo)
+
+        
+
+
+[MagicMap](/docs/MagicMap)
 
 </details>
     
@@ -450,6 +460,8 @@ flowchart LR;
 
     Disposer--> Disposer((Disposer))
 
+    Disposer--> DisposableHelpers((DisposableHelpers))
+
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
@@ -529,6 +541,8 @@ flowchart LR;
     Mapper--> AutoDTO((AutoDTO))
 
     Mapper--> MapTo((MapTo))
+
+    Mapper--> MagicMap((MagicMap))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 

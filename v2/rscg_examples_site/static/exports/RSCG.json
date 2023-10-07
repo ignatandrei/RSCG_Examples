@@ -553,6 +553,22 @@
       "Source": "https://github.com/ignatandrei/rscg_templating/",
       "Category": "Templating",
       "AddedOn": "2023-10-07T00:00:00"
+    },
+    {
+      "Name": "MagicMap",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap",
+      "NuGet": "https://www.nuget.org/packages/MagicMap/",
+      "Source": "https://github.com/bramerdaniel/MagicMap",
+      "Category": "Mapper",
+      "AddedOn": "2023-10-08T00:00:00"
+    },
+    {
+      "Name": "DisposableHelpers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers",
+      "NuGet": "https://www.nuget.org/packages/DisposableHelpers/",
+      "Source": "https://github.com/Kiryuumaru/DisposableHelpers",
+      "Category": "Disposer",
+      "AddedOn": "2023-10-09T00:00:00"
     }
   ]
 }
