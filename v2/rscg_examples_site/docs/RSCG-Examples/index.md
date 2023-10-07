@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 71 RSCG by category 
-description: 71 RSCG by category 
+title: 72 RSCG by category 
+description: 72 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -100,7 +100,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:18</summary>
+  <summary>EnhancementClass =>examples:19</summary>
         
 
 
@@ -190,6 +190,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [BuilderGenerator](/docs/BuilderGenerator)
+
+        
+
+
+[Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
 </details>
     
@@ -497,6 +502,8 @@ flowchart LR;
     EnhancementClass--> RSCG_Decorator((RSCG_Decorator))
 
     EnhancementClass--> BuilderGenerator((BuilderGenerator))
+
+    EnhancementClass--> Meziantou.Polyfill((Meziantou.Polyfill))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

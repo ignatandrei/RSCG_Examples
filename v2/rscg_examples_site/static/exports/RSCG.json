@@ -569,6 +569,14 @@
       "Source": "https://github.com/Kiryuumaru/DisposableHelpers",
       "Category": "Disposer",
       "AddedOn": "2023-10-09T00:00:00"
+    },
+    {
+      "Name": "Meziantou.Polyfill",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Poly",
+      "NuGet": "https://www.nuget.org/packages/Meziantou.Polyfill/",
+      "Source": "https://github.com/meziantou/Meziantou.Polyfill",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-10-10T00:00:00"
     }
   ]
 }

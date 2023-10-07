@@ -70,3 +70,4 @@ Nr,Key,Source,Category
 69,RSCG_Templating, https://github.com/ignatandrei/rscg_templating/,Templating
 70,MagicMap, https://github.com/bramerdaniel/MagicMap,Mapper
 71,DisposableHelpers, https://github.com/Kiryuumaru/DisposableHelpers,Disposer
+72,Poly, https://github.com/meziantou/Meziantou.Polyfill,EnhancementClass
