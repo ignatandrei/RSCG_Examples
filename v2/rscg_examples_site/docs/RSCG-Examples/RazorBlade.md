@@ -1093,5 +1093,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade
 ### [MorrisMoxy](/docs/MorrisMoxy)
 
 
+### [RSCG_Templating](/docs/RSCG_Templating)
+
+
 ### [spreadcheetah](/docs/spreadcheetah)
 

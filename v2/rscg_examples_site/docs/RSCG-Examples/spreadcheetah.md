@@ -451,3 +451,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah
 
 ### [RazorBlade](/docs/RazorBlade)
 
+
+### [RSCG_Templating](/docs/RSCG_Templating)
+

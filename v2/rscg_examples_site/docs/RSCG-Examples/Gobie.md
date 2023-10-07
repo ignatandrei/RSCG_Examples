@@ -267,5 +267,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 ### [RazorBlade](/docs/RazorBlade)
 
 
+### [RSCG_Templating](/docs/RSCG_Templating)
+
+
 ### [spreadcheetah](/docs/spreadcheetah)
 
