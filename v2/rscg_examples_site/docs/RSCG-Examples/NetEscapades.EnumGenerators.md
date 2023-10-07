@@ -1365,9 +1365,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 
-### [MorrisMoxy](/docs/MorrisMoxy)
-
-
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 

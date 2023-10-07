@@ -320,59 +320,17 @@ namespace MorrisMoxyDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 
-## In the same category (EnhancementClass)
+## In the same category (Templating)
 
 
-### [ApparatusAOT](/docs/ApparatusAOT)
+### [Gobie](/docs/Gobie)
 
 
-### [BuilderGenerator](/docs/BuilderGenerator)
+### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
-### [EnumClass](/docs/EnumClass)
+### [RazorBlade](/docs/RazorBlade)
 
 
-### [FastGenericNew](/docs/FastGenericNew)
-
-
-### [GeneratorEquals](/docs/GeneratorEquals)
-
-
-### [Immutype](/docs/Immutype)
-
-
-### [Lombok.NET](/docs/Lombok.NET)
-
-
-### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-### [MemoryPack](/docs/MemoryPack)
-
-
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-### [RSCG_Static](/docs/RSCG_Static)
-
-
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+### [spreadcheetah](/docs/spreadcheetah)
 

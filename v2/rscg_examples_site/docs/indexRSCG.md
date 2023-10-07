@@ -60,7 +60,7 @@ This is the list of 68 ( 6 from Microsoft) RSCG with examples
 |34|[MemoryPack](/docs/MemoryPack)|2023-08-04 => 04 August 2023 | EnhancementClass |
 |33|[Matryoshki](/docs/Matryoshki)|2023-08-03 => 03 August 2023 | EnhancementProject |
 |32|[Mediator](/docs/Mediator)|2023-08-02 => 02 August 2023 | EnhancementProject |
-|31|[MorrisMoxy](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | EnhancementClass |
+|31|[MorrisMoxy](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | Templating |
 |30|[Refit](/docs/Refit)|2023-07-31 => 31 July 2023 | API |
 |29|[Gedaq](/docs/Gedaq)|2023-07-29 => 29 July 2023 | Database |
 |28|[Lombok.NET](/docs/Lombok.NET)|2023-04-16 => 16 April 2023 | EnhancementClass |

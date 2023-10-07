@@ -95,7 +95,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:19</summary>
+  <summary>EnhancementClass =>examples:18</summary>
         
 
 
@@ -135,11 +135,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Lombok.NET](/docs/Lombok.NET)
-
-        
-
-
-[MorrisMoxy](/docs/MorrisMoxy)
 
         
 
@@ -376,7 +371,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Templating =>examples:4</summary>
+  <summary>Templating =>examples:5</summary>
         
 
 
@@ -386,6 +381,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+        
+
+
+[MorrisMoxy](/docs/MorrisMoxy)
 
         
 
@@ -460,8 +460,6 @@ flowchart LR;
     EnhancementClass--> Microsoft.Interop.JavaScript.JSImportGenerator((Microsoft.Interop.JavaScript.JSImportGenerator))
 
     EnhancementClass--> Lombok.NET((Lombok.NET))
-
-    EnhancementClass--> MorrisMoxy((MorrisMoxy))
 
     EnhancementClass--> MemoryPack((MemoryPack))
 
@@ -546,6 +544,8 @@ flowchart LR;
     Templating--> RazorBlade((RazorBlade))
 
     Templating--> Microsoft.NET.Sdk.Razor.SourceGenerators((Microsoft.NET.Sdk.Razor.SourceGenerators))
+
+    Templating--> MorrisMoxy((MorrisMoxy))
 
     Templating--> spreadcheetah((spreadcheetah))
 

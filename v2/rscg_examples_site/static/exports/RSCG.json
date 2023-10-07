@@ -247,7 +247,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy",
       "NuGet": "https://www.nuget.org/packages/Morris.Moxy/",
       "Source": "https://github.com/mrpmorris/Morris.Moxy",
-      "Category": "EnhancementClass",
+      "Category": "Templating",
       "AddedOn": "2023-08-01T00:00:00"
     },
     {
