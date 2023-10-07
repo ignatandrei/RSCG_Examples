@@ -162,7 +162,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
-};
+,new NoExample("Meziantou.Polyfill https://github.com/meziantou/Meziantou.Polyfill", tooComplicated)
+, new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",later)
+, new NoExample("UnitGenerator https://github.com/Cysharp/UnitGenerator",later)
+    };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
      //https://github.com/search?q=repo%3ACommunityToolkit%2Fdotnet++IIncrementalGenerator&type=code
