@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 68 RSCG by category 
-description: 68 RSCG by category 
+title: 69 RSCG by category 
+description: 69 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -371,7 +371,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Templating =>examples:5</summary>
+  <summary>Templating =>examples:6</summary>
         
 
 
@@ -396,6 +396,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Gobie](/docs/Gobie)
+
+        
+
+
+[RSCG_Templating](/docs/RSCG_Templating)
 
 </details>
     
@@ -550,6 +555,8 @@ flowchart LR;
     Templating--> spreadcheetah((spreadcheetah))
 
     Templating--> Gobie((Gobie))
+
+    Templating--> RSCG_Templating((RSCG_Templating))
 
     Tests--> Rocks((Rocks))
 

@@ -545,6 +545,14 @@
       "Source": "https://github.com/surgicalcoder/JsonPolymorphicGenerator",
       "Category": "Serializer",
       "AddedOn": "2023-10-06T00:00:00"
+    },
+    {
+      "Name": "RSCG_Templating",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating",
+      "NuGet": "https://www.nuget.org/packages/RSCG_Templating/",
+      "Source": "https://github.com/ignatandrei/rscg_templating/",
+      "Category": "Templating",
+      "AddedOn": "2023-10-07T00:00:00"
     }
   ]
 }

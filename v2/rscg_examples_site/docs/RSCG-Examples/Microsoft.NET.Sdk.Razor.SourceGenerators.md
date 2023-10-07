@@ -1209,5 +1209,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.Sour
 ### [RazorBlade](/docs/RazorBlade)
 
 
+### [RSCG_Templating](/docs/RSCG_Templating)
+
+
 ### [spreadcheetah](/docs/spreadcheetah)
 
