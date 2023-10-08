@@ -59,6 +59,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
 ,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
 ,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
+,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",WaitingForIssue)
 ,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator",old)
 ,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management","DI container. To be analyzed")
 ,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",old)
@@ -88,7 +89,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Jab https://github.com/pakrym/jab","Service + DI container. I use the one from MSFT")
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
 ,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
-,new ("JsonPolymorphicGenerator https://github.com/surgicalcoder/JsonPolymorphicGenerator",later)
 ,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
 ,new ("JsonSrcGen https://github.com/trampster/JsonSrcGen",old)
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
@@ -96,10 +96,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
 ,new ("LinqGen https://github.com/cathei/LinqGen",tooComplicated)
 ,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
-,new ("M31.FluentAPI https://github.com/m31coding/M31.FluentAPI",later)
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
 ,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
-,new ("MapTo https://github.com/mrtaikandi/MapTo",later)
 ,new ("MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators",old)
 ,new ("MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator",old)
 ,new ("MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator",old)
@@ -157,11 +155,15 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
-, new NoExample("DudNet https://github.com/jwshyns/DudNet"," version> 1.1.0, see branch with errors")
+, new NoExample("DudNet https://github.com/jwshyns/DudNet",WaitingForIssue)
 ,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
+,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
+, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
+, new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",later)
+, new NoExample("UnitGenerator https://github.com/Cysharp/UnitGenerator",later)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -207,9 +209,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Podimo.ConstEmbed",before.PutCategory(Category.FilesToCode) },
             {"EmbeddingResourceCSharp",before.PutCategory(Category.FilesToCode) },
             {"Lombok.NET",before.PutCategory(Category.EnhancementClass) },
-            {"Gedaq", new (true,new(2023,10,3),Category.Database)},
+            {"Gedaq", new (true,new(2023,7,29),Category.Database)},
             {"Refit",new(true,new(2023,7,31),Category.API) },
-            {"MorrisMoxy", new(true,new(2023,8,1), Category.EnhancementClass)},
+            {"MorrisMoxy", new(true,new(2023,8,1), Category.Templating)},
             {"Mediator" , new(true,new(2023,8,2), Category.EnhancementProject)},
             {"Matryoshki" , new(true,new(2023,8,3), Category.EnhancementProject)},
             {"MemoryPack" , new(true,new(2023,8,4), Category.EnhancementClass)},
@@ -245,7 +247,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
             {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
-            {"CredFetoEnum", new(true,new(2023,10,5),Category.Enum) },
+            {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
+            {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Serializer  )},
+            {"RSCG_Templating",new(true,new(2023,10,7),Category.Templating) },
+            {"MagicMap" ,new(true,new(2023,10,8),Category.Mapper)},
+            {"DisposableHelpers",new(true,new(2023,10,9),Category.Disposer) },
+            {"Poly",new(true,new(2023,10,10),Category.EnhancementClass) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -336,9 +343,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         {
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
-            text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             return text;
-        };
+        }
+            ;
 
         var data = await tryToGetReadme(source);
         if (data == null) return null;
@@ -435,25 +442,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var data=await response.Content.ReadAsStringAsync();
         var answer= JsonDocument.Parse(data);
         var items = answer.RootElement.GetProperty("items");
-        var itemLast = items.EnumerateArray()
-            .OrderByDescending(it=>it.GetProperty("commitTimeStamp").GetString())
-            .First();
-        //foreach (var item in items.EnumerateArray())
+        foreach (var item in items.EnumerateArray())
         {
-            if(!itemLast.TryGetProperty("items", out _))
-            {
-                var newLink = itemLast.GetProperty("@id").GetString();
-                response = await _client.GetAsync(newLink);
-                data = await response.Content.ReadAsStringAsync();
-                answer = JsonDocument.Parse(data);
-                itemLast = answer.RootElement;
-                //itemLast = items.EnumerateArray()
-                //    .OrderByDescending(it => it.GetProperty("commitTimeStamp").GetString())
-                //    .First();
-
-            }
-            var newItems = itemLast.GetProperty("items");
-            foreach (var newItem in newItems.EnumerateArray().OrderByDescending(it => it.GetProperty("commitTimeStamp").GetString()))
+            var newItems = item.GetProperty("items");
+            foreach (var newItem in newItems.EnumerateArray())
             {
                 var cat=newItem.GetProperty("catalogEntry");
                 var desc=cat.GetProperty("description").GetString();

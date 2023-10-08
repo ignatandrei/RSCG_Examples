@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_Templating",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_Templating/",
+         "https://www.nuget.org/packages/RSCG_TemplatingCommon"
+
+      ],
+      "link":"https://github.com/ignatandrei/rscg_templating/",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/rscg_templating/"
+   },
+   "data":{
+      "goodFor":["Templating every your data ( starting with class)"],
+      "csprojDemo":"RSCG_TemplatingDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

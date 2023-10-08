@@ -29,7 +29,7 @@ Nr,Key,Source,Category
 28,Lombok.NET, https://github.com/CollinAlpert/Lombok.NET,EnhancementClass
 29,Gedaq, https://github.com/SoftStoneDevelop/Gedaq,Database
 30,Refit, https://github.com/reactiveui/refit,API
-31,MorrisMoxy, https://github.com/mrpmorris/Morris.Moxy,EnhancementClass
+31,MorrisMoxy, https://github.com/mrpmorris/Morris.Moxy,Templating
 32,Mediator, https://github.com/martinothamar/Mediator,EnhancementProject
 33,Matryoshki, https://github.com/krasin-ga/matryoshki/,EnhancementProject
 34,MemoryPack, https://github.com/Cysharp/MemoryPack,EnhancementClass
@@ -65,4 +65,9 @@ Nr,Key,Source,Category
 64,ResXGenerator, https://github.com/ycanardeau/ResXGenerator,FilesToCode
 65,Disposer, https://github.com/HakamFostok/Disposer,Disposer
 66,BuilderGenerator, https://github.com/MelGrubb/BuilderGenerator,EnhancementClass
-67,CredFetoEnum, https://github.com/credfeto/credfeto-enum-source-generation,Enum
+67,MapTo, https://github.com/mrtaikandi/MapTo,Mapper
+68,JsonPolymorphicGenerator, https://github.com/surgicalcoder/JsonPolymorphicGenerator,Serializer
+69,RSCG_Templating, https://github.com/ignatandrei/rscg_templating/,Templating
+70,MagicMap, https://github.com/bramerdaniel/MagicMap,Mapper
+71,DisposableHelpers, https://github.com/Kiryuumaru/DisposableHelpers,Disposer
+72,Poly, https://github.com/meziantou/Meziantou.Polyfill,EnhancementClass

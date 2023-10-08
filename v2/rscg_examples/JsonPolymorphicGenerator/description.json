@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"JsonPolymorphicGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/"
+      ],
+      "link":"https://github.com/surgicalcoder/JsonPolymorphicGenerator",
+      "author":"surgicalcoder",
+      "source":"https://github.com/surgicalcoder/JsonPolymorphicGenerator"
+   },
+   "data":{
+      "goodFor":["Generating JsonDerivedType to be added to the base class"],
+      "csprojDemo":"JsonPolymorphicGeneratorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

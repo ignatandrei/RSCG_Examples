@@ -283,5 +283,11 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
 ### [AutoDTO](/docs/AutoDTO)
 
 
+### [MagicMap](/docs/MagicMap)
+
+
+### [MapTo](/docs/MapTo)
+
+
 ### [NextGenMapper](/docs/NextGenMapper)
 

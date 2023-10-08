@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 67 RSCG by category 
-description: 67 RSCG by category 
+title: 72 RSCG by category 
+description: 72 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -81,7 +81,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Disposer =>examples:2</summary>
+  <summary>Disposer =>examples:3</summary>
         
 
 
@@ -91,6 +91,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Disposer](/docs/Disposer)
+
+        
+
+
+[DisposableHelpers](/docs/DisposableHelpers)
 
 </details>
     
@@ -135,11 +140,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Lombok.NET](/docs/Lombok.NET)
-
-        
-
-
-[MorrisMoxy](/docs/MorrisMoxy)
 
         
 
@@ -191,6 +191,11 @@ import DocCardList from '@theme/DocCardList';
 
 [BuilderGenerator](/docs/BuilderGenerator)
 
+        
+
+
+[Meziantou.Polyfill](/docs/Meziantou.Polyfill)
+
 </details>
     
 <details>
@@ -239,15 +244,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
-
-</details>
-    
-<details>
-  <summary>Enum =>examples:1</summary>
-        
-
-
-[CredFetoEnum](/docs/CredFetoEnum)
 
 </details>
     
@@ -305,7 +301,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Mapper =>examples:3</summary>
+  <summary>Mapper =>examples:5</summary>
         
 
 
@@ -320,6 +316,16 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoDTO](/docs/AutoDTO)
+
+        
+
+
+[MapTo](/docs/MapTo)
+
+        
+
+
+[MagicMap](/docs/MagicMap)
 
 </details>
     
@@ -361,7 +367,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Serializer =>examples:2</summary>
+  <summary>Serializer =>examples:3</summary>
         
 
 
@@ -372,10 +378,15 @@ import DocCardList from '@theme/DocCardList';
 
 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
+        
+
+
+[JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
+
 </details>
     
 <details>
-  <summary>Templating =>examples:4</summary>
+  <summary>Templating =>examples:6</summary>
         
 
 
@@ -389,12 +400,22 @@ import DocCardList from '@theme/DocCardList';
         
 
 
+[MorrisMoxy](/docs/MorrisMoxy)
+
+        
+
+
 [spreadcheetah](/docs/spreadcheetah)
 
         
 
 
 [Gobie](/docs/Gobie)
+
+        
+
+
+[RSCG_Templating](/docs/RSCG_Templating)
 
 </details>
     
@@ -444,6 +465,8 @@ flowchart LR;
 
     Disposer--> Disposer((Disposer))
 
+    Disposer--> DisposableHelpers((DisposableHelpers))
+
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
@@ -459,8 +482,6 @@ flowchart LR;
     EnhancementClass--> Microsoft.Interop.JavaScript.JSImportGenerator((Microsoft.Interop.JavaScript.JSImportGenerator))
 
     EnhancementClass--> Lombok.NET((Lombok.NET))
-
-    EnhancementClass--> MorrisMoxy((MorrisMoxy))
 
     EnhancementClass--> MemoryPack((MemoryPack))
 
@@ -482,6 +503,8 @@ flowchart LR;
 
     EnhancementClass--> BuilderGenerator((BuilderGenerator))
 
+    EnhancementClass--> Meziantou.Polyfill((Meziantou.Polyfill))
+
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
     EnhancementProject--> RSCG_TimeBombComment((RSCG_TimeBombComment))
@@ -499,8 +522,6 @@ flowchart LR;
     EnhancementProject--> ProxyGen((ProxyGen))
 
     EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
-
-    Enum--> CredFetoEnum((CredFetoEnum))
 
     FilesToCode--> RSCG_Utils((RSCG_Utils))
 
@@ -526,6 +547,10 @@ flowchart LR;
 
     Mapper--> AutoDTO((AutoDTO))
 
+    Mapper--> MapTo((MapTo))
+
+    Mapper--> MagicMap((MagicMap))
+
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
     MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
@@ -540,13 +565,19 @@ flowchart LR;
 
     Serializer--> ProtobufSourceGenerator((ProtobufSourceGenerator))
 
+    Serializer--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
+
     Templating--> RazorBlade((RazorBlade))
 
     Templating--> Microsoft.NET.Sdk.Razor.SourceGenerators((Microsoft.NET.Sdk.Razor.SourceGenerators))
 
+    Templating--> MorrisMoxy((MorrisMoxy))
+
     Templating--> spreadcheetah((spreadcheetah))
 
     Templating--> Gobie((Gobie))
+
+    Templating--> RSCG_Templating((RSCG_Templating))
 
     Tests--> Rocks((Rocks))
 

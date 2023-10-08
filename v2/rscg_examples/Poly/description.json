@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Meziantou.Polyfill",
+      "nuget":[
+         "https://www.nuget.org/packages/Meziantou.Polyfill/"
+      ],
+      "link":"https://www.meziantou.net/polyfills-in-dotnet-to-ease-multi-targeting.htm",
+      "author":"Gérald Barré",
+      "source":"https://github.com/meziantou/Meziantou.Polyfill"
+   },
+   "data":{
+      "goodFor":["Generating polyfills that you can see source without de-compiling "],
+      "csprojDemo":"PolyDemo.csproj",
+      "csFiles":["Program.cs","StartProcess.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

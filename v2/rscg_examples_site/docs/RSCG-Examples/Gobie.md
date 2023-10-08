@@ -261,7 +261,13 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 ### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
+### [MorrisMoxy](/docs/MorrisMoxy)
+
+
 ### [RazorBlade](/docs/RazorBlade)
+
+
+### [RSCG_Templating](/docs/RSCG_Templating)
 
 
 ### [spreadcheetah](/docs/spreadcheetah)

@@ -1,6 +1,6 @@
-# RSCG - 67 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 72 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-05 => 05 October 2023
+## Latest Update : 2023-10-10 => 10 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,21 +16,101 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 67 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 72 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
-### 67. [CredFetoEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum) generated on : 2023-10-05 => 05 October 2023
+### 72. [Meziantou.Polyfill](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill) generated on : 2023-10-10 => 10 October 2023
 <details>
   <summary>Expand</summary>
-Author: Mark Ridgwell
+Author: Gérald Barré
 
-Source code generator for Enums. 
+Source Generator to help multi-targeting projects. 
 
-Nuget: [https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) 
+Nuget: [https://www.nuget.org/packages/Meziantou.Polyfill/](https://www.nuget.org/packages/Meziantou.Polyfill/) 
 
 
-Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum)
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill)
 
-Source: [https://github.com/credfeto/credfeto-enum-source-generation](https://github.com/credfeto/credfeto-enum-source-generation)
+Source: [https://github.com/meziantou/Meziantou.Polyfill](https://github.com/meziantou/Meziantou.Polyfill)
+
+</details>
+
+### 71. [DisposableHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers) generated on : 2023-10-09 => 09 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Clynt Neiko Rupinta
+
+Disposable helpers for IDisposable and IAsyncDisposable. 
+
+Nuget: [https://www.nuget.org/packages/DisposableHelpers/](https://www.nuget.org/packages/DisposableHelpers/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers)
+
+Source: [https://github.com/Kiryuumaru/DisposableHelpers](https://github.com/Kiryuumaru/DisposableHelpers)
+
+</details>
+
+### 70. [MagicMap](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap) generated on : 2023-10-08 => 08 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Bramer Daniel
+
+Helper utility for generating type mapper classes and more 
+
+Nuget: [https://www.nuget.org/packages/MagicMap/](https://www.nuget.org/packages/MagicMap/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap)
+
+Source: [https://github.com/bramerdaniel/MagicMap](https://github.com/bramerdaniel/MagicMap)
+
+</details>
+
+### 69. [RSCG_Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating) generated on : 2023-10-07 => 07 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Andrei Ignat
+
+Roslyn Templating for all 
+
+Nuget: [https://www.nuget.org/packages/RSCG_Templating/](https://www.nuget.org/packages/RSCG_Templating/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating)
+
+Source: [https://github.com/ignatandrei/rscg_templating/](https://github.com/ignatandrei/rscg_templating/)
+
+</details>
+
+### 68. [JsonPolymorphicGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator) generated on : 2023-10-06 => 06 October 2023
+<details>
+  <summary>Expand</summary>
+Author: surgicalcoder
+
+Source Code Generator for System.Text.Json JsonDerivedType attributes on polymorphic classes 
+
+Nuget: [https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator)
+
+Source: [https://github.com/surgicalcoder/JsonPolymorphicGenerator](https://github.com/surgicalcoder/JsonPolymorphicGenerator)
+
+</details>
+
+### 67. [MapTo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo) generated on : 2023-10-05 => 05 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Mohammedreza Taikandi
+
+An object to object mapping generator using Roslyn source generator. 
+
+Nuget: [https://www.nuget.org/packages/MapTo/](https://www.nuget.org/packages/MapTo/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo)
+
+Source: [https://github.com/mrtaikandi/MapTo](https://github.com/mrtaikandi/MapTo)
 
 </details>
 
@@ -644,7 +724,7 @@ Source: [https://github.com/reactiveui/refit](https://github.com/reactiveui/refi
 
 </details>
 
-### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq) generated on : 2023-10-03 => 03 October 2023
+### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq) generated on : 2023-07-29 => 29 July 2023
 <details>
   <summary>Expand</summary>
 Author: Vyacheslav Brevnov
@@ -1237,137 +1317,137 @@ Why I have not tested : issue opened
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ControllerGenerator&body=https://github.com/cloud0259/ControllerGenerator
 
 
-10) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
+10) [Credfeto.Enumeration.Source.Generation]( https://github.com/credfeto/credfeto-enum-source-generation) , https://github.com/credfeto/credfeto-enum-source-generation 
+
+Why I have not tested : issue opened
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Credfeto.Enumeration.Source.Generation&body=https://github.com/credfeto/credfeto-enum-source-generation
+
+
+11) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
 
 Why I have not tested : DI container. To be analyzed
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyManagement&body=https://github.com/essy-ecosystem/dependency-management
 
 
-11) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
+12) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
 
 Why I have not tested : example with MAUI
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyPropertyGenerator&body=https://github.com/HavenDV/DependencyPropertyGenerator
 
 
-12) [DudNet]( https://github.com/jwshyns/DudNet) , https://github.com/jwshyns/DudNet 
+13) [DudNet]( https://github.com/jwshyns/DudNet) , https://github.com/jwshyns/DudNet 
 
-Why I have not tested :  version> 1.1.0, see branch with errors
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DudNet&body=https://github.com/jwshyns/DudNet
 
 
-13) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
+14) [DynamicsMapper]( https://github.com/YonatanCohavi/DynamicsMapper) , https://github.com/YonatanCohavi/DynamicsMapper 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DynamicsMapper&body=https://github.com/YonatanCohavi/DynamicsMapper
+
+
+15) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastEndpoints&body=https://github.com/FastEndpoints/FastEndpoints
 
 
-14) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
+16) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FluentAssertions.Eventual&body=https://github.com/mazharenko/FluentAssertions.Eventual
 
 
-15) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 
+17) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=GRPC-Mock-Server&body=https://github.com/cezarypiatek/GRPC-Mock-Server
 
 
-16) [H.NSwag.Generator]( https://github.com/HavenDV/H.NSwag.Generator) , https://github.com/HavenDV/H.NSwag.Generator 
+18) [H.NSwag.Generator]( https://github.com/HavenDV/H.NSwag.Generator) , https://github.com/HavenDV/H.NSwag.Generator 
 
 Why I have not tested : nswag , need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=H.NSwag.Generator&body=https://github.com/HavenDV/H.NSwag.Generator
 
 
-17) [IDisposableGenerator]( https://github.com/Elskom/IDisposableGenerator) , https://github.com/Elskom/IDisposableGenerator 
+19) [IDisposableGenerator]( https://github.com/Elskom/IDisposableGenerator) , https://github.com/Elskom/IDisposableGenerator 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=IDisposableGenerator&body=https://github.com/Elskom/IDisposableGenerator
 
 
-18) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
+20) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
 
 Why I have not tested : not understand how to use 
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Intellenum&body=https://github.com/SteveDunn/Intellenum
 
 
-19) [Jab]( https://github.com/pakrym/jab) , https://github.com/pakrym/jab 
+21) [Jab]( https://github.com/pakrym/jab) , https://github.com/pakrym/jab 
 
 Why I have not tested : Service + DI container. I use the one from MSFT
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Jab&body=https://github.com/pakrym/jab
 
 
-20) [Jos.Enumeration,]( https://github.com/joseftw/jos.enumeration) , https://github.com/joseftw/jos.enumeration 
+22) [Jos.Enumeration,]( https://github.com/joseftw/jos.enumeration) , https://github.com/joseftw/jos.enumeration 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Jos.Enumeration,&body=https://github.com/joseftw/jos.enumeration
 
 
-21) [JsonPolymorphicGenerator]( https://github.com/surgicalcoder/JsonPolymorphicGenerator) , https://github.com/surgicalcoder/JsonPolymorphicGenerator 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=JsonPolymorphicGenerator&body=https://github.com/surgicalcoder/JsonPolymorphicGenerator
-
-
-22) [LinqGen]( https://github.com/cathei/LinqGen) , https://github.com/cathei/LinqGen 
+23) [LinqGen]( https://github.com/cathei/LinqGen) , https://github.com/cathei/LinqGen 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LinqGen&body=https://github.com/cathei/LinqGen
 
 
-23) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
+24) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
 
 Why I have not tested : Microsoft have done same feature
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LoggingDecoratorGenerator&body=https://github.com/DavidFineboym/LoggingDecoratorGenerator
 
 
-24) [M31.FluentAPI]( https://github.com/m31coding/M31.FluentAPI) , https://github.com/m31coding/M31.FluentAPI 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=M31.FluentAPI&body=https://github.com/m31coding/M31.FluentAPI
-
-
-25) [MapTo]( https://github.com/mrtaikandi/MapTo) , https://github.com/mrtaikandi/MapTo 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MapTo&body=https://github.com/mrtaikandi/MapTo
-
-
-26) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
+25) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Maui.BindableProperty.Generator&body=https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
-27) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
+26) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MvvmGen&body=https://github.com/thomasclaudiushuber/mvvmgen
 
 
-28) [Navitski.Crystalized]( https://github.com/AlexNav73/CoreCraft) , https://github.com/AlexNav73/CoreCraft 
+27) [Navitski.Crystalized]( https://github.com/AlexNav73/CoreCraft) , https://github.com/AlexNav73/CoreCraft 
 
 Why I have not tested :  JSON to classes. Waiting for .NET 8 to see if MSFT has done natively
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Navitski.Crystalized&body=https://github.com/AlexNav73/CoreCraft
+
+
+28) [PolymorphicJsonSourceGenerator]( https://github.com/harrhp/PolymorphicJsonSourceGenerator/) , https://github.com/harrhp/PolymorphicJsonSourceGenerator/ 
+
+Why I have not tested : work just with records
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PolymorphicJsonSourceGenerator&body=https://github.com/harrhp/PolymorphicJsonSourceGenerator/
 
 
 29) [PolySharp]( https://github.com/Sergio0694/PolySharp) , https://github.com/Sergio0694/PolySharp 
@@ -1447,28 +1527,42 @@ Why I have not tested : depends on Microsoft.Extensions.Localization
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-40) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+40) [UnitGenerator]( https://github.com/Cysharp/UnitGenerator) , https://github.com/Cysharp/UnitGenerator 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=UnitGenerator&body=https://github.com/Cysharp/UnitGenerator
+
+
+41) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-41) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+42) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
+
+Why I have not tested : issue opened
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=VisitorPatternGenerator&body=https://github.com/hikarin522/VisitorPatternGenerator/
+
+
+43) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-42) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
+44) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
 
 Why I have not tested : less than net 7
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WinUI-ObservableSettings&body=https://github.com/JasonWei512/WinUI-ObservableSettings
 
 
-43) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+45) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

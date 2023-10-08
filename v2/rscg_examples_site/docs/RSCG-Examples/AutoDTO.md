@@ -309,7 +309,13 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 ## In the same category (Mapper)
 
 
+### [MagicMap](/docs/MagicMap)
+
+
 ### [mapperly](/docs/mapperly)
+
+
+### [MapTo](/docs/MapTo)
 
 
 ### [NextGenMapper](/docs/NextGenMapper)

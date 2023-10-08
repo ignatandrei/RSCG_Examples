@@ -232,7 +232,7 @@
       "NuGet": "https://www.nuget.org/packages/Gedaq/",
       "Source": "https://github.com/SoftStoneDevelop/Gedaq",
       "Category": "Database",
-      "AddedOn": "2023-10-03T00:00:00"
+      "AddedOn": "2023-07-29T00:00:00"
     },
     {
       "Name": "Refit",
@@ -247,7 +247,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy",
       "NuGet": "https://www.nuget.org/packages/Morris.Moxy/",
       "Source": "https://github.com/mrpmorris/Morris.Moxy",
-      "Category": "EnhancementClass",
+      "Category": "Templating",
       "AddedOn": "2023-08-01T00:00:00"
     },
     {
@@ -531,12 +531,52 @@
       "AddedOn": "2023-10-04T00:00:00"
     },
     {
-      "Name": "CredFetoEnum",
-      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum",
-      "NuGet": "https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/",
-      "Source": "https://github.com/credfeto/credfeto-enum-source-generation",
-      "Category": "Enum",
+      "Name": "MapTo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo",
+      "NuGet": "https://www.nuget.org/packages/MapTo/",
+      "Source": "https://github.com/mrtaikandi/MapTo",
+      "Category": "Mapper",
       "AddedOn": "2023-10-05T00:00:00"
+    },
+    {
+      "Name": "JsonPolymorphicGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator",
+      "NuGet": "https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/",
+      "Source": "https://github.com/surgicalcoder/JsonPolymorphicGenerator",
+      "Category": "Serializer",
+      "AddedOn": "2023-10-06T00:00:00"
+    },
+    {
+      "Name": "RSCG_Templating",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating",
+      "NuGet": "https://www.nuget.org/packages/RSCG_Templating/",
+      "Source": "https://github.com/ignatandrei/rscg_templating/",
+      "Category": "Templating",
+      "AddedOn": "2023-10-07T00:00:00"
+    },
+    {
+      "Name": "MagicMap",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap",
+      "NuGet": "https://www.nuget.org/packages/MagicMap/",
+      "Source": "https://github.com/bramerdaniel/MagicMap",
+      "Category": "Mapper",
+      "AddedOn": "2023-10-08T00:00:00"
+    },
+    {
+      "Name": "DisposableHelpers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers",
+      "NuGet": "https://www.nuget.org/packages/DisposableHelpers/",
+      "Source": "https://github.com/Kiryuumaru/DisposableHelpers",
+      "Category": "Disposer",
+      "AddedOn": "2023-10-09T00:00:00"
+    },
+    {
+      "Name": "Meziantou.Polyfill",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Poly",
+      "NuGet": "https://www.nuget.org/packages/Meziantou.Polyfill/",
+      "Source": "https://github.com/meziantou/Meziantou.Polyfill",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-10-10T00:00:00"
     }
   ]
 }

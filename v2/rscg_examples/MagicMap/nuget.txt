@@ -1,0 +1,1 @@
+Helper utility for generating type mapper classes and more
