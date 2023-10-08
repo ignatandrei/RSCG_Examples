@@ -344,6 +344,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         {
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             return text;
         }
             ;

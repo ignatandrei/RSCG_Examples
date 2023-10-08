@@ -173,7 +173,7 @@ Add the following to the csproj file:
 
 ## Changelog
 
-View [changelog](CHANGELOG.md)
+View [changelog](https://github.com/credfeto/credfeto-enum-source-generation/CHANGELOG.md)
 
 ## Contributors
 
