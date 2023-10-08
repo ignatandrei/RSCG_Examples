@@ -1,16 +1,17 @@
 ﻿namespace IDisposableGeneratorDemo;
 
-[GenerateDispose(true)]
+[IDisposableGenerator.GenerateDispose(false)]
 partial class DALDB :IDisposable
 {
-    [DisposeField(true)]
-    private readonly ConnectionDB cn;
-    [DisposeField(true)] 
-    private readonly ConnectionDB cn1;
+    [IDisposableGenerator.DisposeField(true)]
+    private ConnectionDB cn;
+    [IDisposableGenerator.DisposeField(true)] 
+    private ConnectionDB cn1;
 
     public DALDB()
     {
         cn = new ConnectionDB();
         cn1=new ConnectionDB();
     }
+
 }

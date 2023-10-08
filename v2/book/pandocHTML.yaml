@@ -86,6 +86,8 @@ input-files:
 - examples/MagicMap.html
 - examples/DisposableHelpers.html
 - examples/Meziantou.Polyfill.html
+- examples/IDisposableGenerator.html
+- examples/CredFetoEnum.html
 
 # or you may use input-file: with a single value
 # defaults:

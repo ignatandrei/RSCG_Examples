@@ -577,6 +577,22 @@
       "Source": "https://github.com/meziantou/Meziantou.Polyfill",
       "Category": "EnhancementClass",
       "AddedOn": "2023-10-10T00:00:00"
+    },
+    {
+      "Name": "IDisposableGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator",
+      "NuGet": "https://www.nuget.org/packages/IDisposableGenerator/",
+      "Source": "https://github.com/Elskom/IDisposableGenerator",
+      "Category": "Disposer",
+      "AddedOn": "2023-10-11T00:00:00"
+    },
+    {
+      "Name": "CredFetoEnum",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum",
+      "NuGet": "https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/",
+      "Source": "https://github.com/credfeto/credfeto-enum-source-generation",
+      "Category": "Enum",
+      "AddedOn": "2023-10-12T00:00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 72 RSCG by category 
-description: 72 RSCG by category 
+title: 74 RSCG by category 
+description: 74 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -81,7 +81,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Disposer =>examples:3</summary>
+  <summary>Disposer =>examples:4</summary>
         
 
 
@@ -96,6 +96,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DisposableHelpers](/docs/DisposableHelpers)
+
+        
+
+
+[IDisposableGenerator](/docs/IDisposableGenerator)
 
 </details>
     
@@ -244,6 +249,15 @@ import DocCardList from '@theme/DocCardList';
 
 
 [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+
+</details>
+    
+<details>
+  <summary>Enum =>examples:1</summary>
+        
+
+
+[CredFetoEnum](/docs/CredFetoEnum)
 
 </details>
     
@@ -467,6 +481,8 @@ flowchart LR;
 
     Disposer--> DisposableHelpers((DisposableHelpers))
 
+    Disposer--> IDisposableGenerator((IDisposableGenerator))
+
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
@@ -522,6 +538,8 @@ flowchart LR;
     EnhancementProject--> ProxyGen((ProxyGen))
 
     EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
+
+    Enum--> CredFetoEnum((CredFetoEnum))
 
     FilesToCode--> RSCG_Utils((RSCG_Utils))
 

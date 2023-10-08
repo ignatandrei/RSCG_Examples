@@ -901,3 +901,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers
 
 ### [Disposer](/docs/Disposer)
 
+
+### [IDisposableGenerator](/docs/IDisposableGenerator)
+

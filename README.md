@@ -1,6 +1,6 @@
-# RSCG - 72 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 74 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-10 => 10 October 2023
+## Latest Update : 2023-10-12 => 12 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,40 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 72 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 74 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 74. [CredFetoEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum) generated on : 2023-10-12 => 12 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Mark Ridgwell
+
+Source code generator for Enums. 
+
+Nuget: [https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum)
+
+Source: [https://github.com/credfeto/credfeto-enum-source-generation](https://github.com/credfeto/credfeto-enum-source-generation)
+
+</details>
+
+### 73. [IDisposableGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator) generated on : 2023-10-11 => 11 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Els_kom Official Organization
+
+Source Generator Generating the Dispose functions in Disposables. 
+
+Nuget: [https://www.nuget.org/packages/IDisposableGenerator/](https://www.nuget.org/packages/IDisposableGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator)
+
+Source: [https://github.com/Elskom/IDisposableGenerator](https://github.com/Elskom/IDisposableGenerator)
+
+</details>
+
 ### 72. [Meziantou.Polyfill](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill) generated on : 2023-10-10 => 10 October 2023
 <details>
   <summary>Expand</summary>

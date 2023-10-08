@@ -82,7 +82,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server",tooComplicated)
 ,new ("HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",old)
 ,new ("H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator","nswag , need help")
-,new ("IDisposableGenerator https://github.com/Elskom/IDisposableGenerator",WaitingForIssue)
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
@@ -253,6 +252,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"MagicMap" ,new(true,new(2023,10,8),Category.Mapper)},
             {"DisposableHelpers",new(true,new(2023,10,9),Category.Disposer) },
             {"Poly",new(true,new(2023,10,10),Category.EnhancementClass) },
+            {"IDisposableGenerator",new(true,new(2023,10,11),Category.Disposer) },
+            {"CredFetoEnum",new (true,new(2023,10,12),Category.Enum) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

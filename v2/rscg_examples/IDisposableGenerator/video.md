@@ -5,7 +5,7 @@
     "step_4_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
     "step_5_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
-"step_6_text": "Today I will present IDisposableGenerator  that is good for https://github.com/Elskom/IDisposableGenerator .",
+"step_6_text": "Today I will present IDisposableGenerator  that is good for Generating disposable .",
 "step_7_browser":"https://www.nuget.org/packages/IDisposableGenerator/",
 "step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator)",
 "step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator",

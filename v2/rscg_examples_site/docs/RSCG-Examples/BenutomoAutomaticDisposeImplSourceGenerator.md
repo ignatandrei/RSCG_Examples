@@ -813,3 +813,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImpl
 
 ### [Disposer](/docs/Disposer)
 
+
+### [IDisposableGenerator](/docs/IDisposableGenerator)
+
