@@ -870,9 +870,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
-### [EnumClass](/docs/EnumClass)
-
-
 ### [FastGenericNew](/docs/FastGenericNew)
 
 
@@ -895,9 +892,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 
 
 ### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 
 
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)

@@ -59,7 +59,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Buildenator https://github.com/progala2/Buildenator",old)
 ,new ("ComputeSharp https://github.com/Sergio0694/ComputeSharp",inspirational)
 ,new ("CoreWCF https://github.com/CoreWCF/CoreWCF",inspirational)
-,new ("Credfeto.Enumeration.Source.Generation https://github.com/credfeto/credfeto-enum-source-generation",WaitingForIssue)
 ,new ("Data Builder Generator https://github.com/dasMulli/data-builder-generator",old)
 ,new ("DependencyManagement https://github.com/essy-ecosystem/dependency-management","DI container. To be analyzed")
 ,new ("DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",old)
@@ -199,7 +198,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RazorBlade",before.PutCategory(Category.Templating) },
             { "PartiallyApplied",before.PutCategory(Category.FunctionalProgramming)},
             {"Apparatus.AOT.Reflection",before.PutCategory(Category.EnhancementClass) },
-            {"NetEscapades.EnumGenerators",before.PutCategory(Category.EnhancementClass) },
+            {"NetEscapades.EnumGenerators",before.PutCategory(Category.Enum) },
             {"Microsoft.Interop.JavaScript.JSImportGenerator",before.PutCategory(Category.EnhancementClass) },
             {"RSCG_FunctionsWithDI",before.PutCategory(Category.EnhancementProject) },
             {"Microsoft.NET.Sdk.Razor.SourceGenerators",before.PutCategory(Category.Templating) },
@@ -217,7 +216,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"DeeDee" , new(true,new(2023,8,5),Category.EnhancementProject)},
             {"ProxyGen", new(true,new(2023,8,6),Category.EnhancementProject)},
             {"AutoRegisterInject" , new(true,new(2023,8,7), Category.DependencyInjection)},
-            {"EnumClass" , new(true,new(2023,8,8), Category.EnhancementClass)},
+            {"EnumClass" , new(true,new(2023,8,8), Category.Enum)},
             {"Breezy", new(true,new(2023,8,9),Category.Database)},
             {"FastGenericNew" , new(true,new(2023,8,10),Category.EnhancementClass)},
             {"GeneratorEquals", new(true,new(2023,8,11),Category.EnhancementClass)},

@@ -465,9 +465,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
-### [EnumClass](/docs/EnumClass)
-
-
 ### [FastGenericNew](/docs/FastGenericNew)
 
 
@@ -490,9 +487,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 
 
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 
 
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)

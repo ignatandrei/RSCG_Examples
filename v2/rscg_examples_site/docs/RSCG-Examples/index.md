@@ -105,7 +105,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>EnhancementClass =>examples:19</summary>
+  <summary>EnhancementClass =>examples:17</summary>
         
 
 
@@ -134,11 +134,6 @@ import DocCardList from '@theme/DocCardList';
         
 
 
-[NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-        
-
-
 [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
         
@@ -150,11 +145,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MemoryPack](/docs/MemoryPack)
-
-        
-
-
-[EnumClass](/docs/EnumClass)
 
         
 
@@ -253,7 +243,17 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 <details>
-  <summary>Enum =>examples:1</summary>
+  <summary>Enum =>examples:3</summary>
+        
+
+
+[NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+
+        
+
+
+[EnumClass](/docs/EnumClass)
+
         
 
 
@@ -493,15 +493,11 @@ flowchart LR;
 
     EnhancementClass--> ApparatusAOT((ApparatusAOT))
 
-    EnhancementClass--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
-
     EnhancementClass--> Microsoft.Interop.JavaScript.JSImportGenerator((Microsoft.Interop.JavaScript.JSImportGenerator))
 
     EnhancementClass--> Lombok.NET((Lombok.NET))
 
     EnhancementClass--> MemoryPack((MemoryPack))
-
-    EnhancementClass--> EnumClass((EnumClass))
 
     EnhancementClass--> FastGenericNew((FastGenericNew))
 
@@ -538,6 +534,10 @@ flowchart LR;
     EnhancementProject--> ProxyGen((ProxyGen))
 
     EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
+
+    Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
+
+    Enum--> EnumClass((EnumClass))
 
     Enum--> CredFetoEnum((CredFetoEnum))
 

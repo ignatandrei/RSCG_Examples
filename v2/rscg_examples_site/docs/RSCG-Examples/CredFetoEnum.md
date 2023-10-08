@@ -357,3 +357,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum
 
 ## In the same category (Enum)
 
+
+### [EnumClass](/docs/EnumClass)
+
+
+### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+

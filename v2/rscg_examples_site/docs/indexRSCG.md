@@ -59,7 +59,7 @@ This is the list of 74 ( 6 from Microsoft) RSCG with examples
 |41|[GeneratorEquals](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 | EnhancementClass |
 |40|[FastGenericNew](/docs/FastGenericNew)|2023-08-10 => 10 August 2023 | EnhancementClass |
 |39|[Breezy](/docs/Breezy)|2023-08-09 => 09 August 2023 | Database |
-|38|[EnumClass](/docs/EnumClass)|2023-08-08 => 08 August 2023 | EnhancementClass |
+|38|[EnumClass](/docs/EnumClass)|2023-08-08 => 08 August 2023 | Enum |
 |37|[AutoRegisterInject](/docs/AutoRegisterInject)|2023-08-07 => 07 August 2023 | DependencyInjection |
 |36|[ProxyGen](/docs/ProxyGen)|2023-08-06 => 06 August 2023 | EnhancementProject |
 |35|[DeeDee](/docs/DeeDee)|2023-08-05 => 05 August 2023 | EnhancementProject |
@@ -77,7 +77,7 @@ This is the list of 74 ( 6 from Microsoft) RSCG with examples
 |23|[Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|2023-04-16 => 16 April 2023 | Templating |
 |22|[RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)|2023-04-16 => 16 April 2023 | EnhancementProject |
 |21|[Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)|2023-04-16 => 16 April 2023 | EnhancementClass |
-|20|[NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|20|[NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)|2023-04-16 => 16 April 2023 | Enum |
 |19|[ApparatusAOT](/docs/ApparatusAOT)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |18|[PartiallyApplied](/docs/PartiallyApplied)|2023-04-16 => 16 April 2023 | FunctionalProgramming |
 |17|[RazorBlade](/docs/RazorBlade)|2023-04-16 => 16 April 2023 | Templating |

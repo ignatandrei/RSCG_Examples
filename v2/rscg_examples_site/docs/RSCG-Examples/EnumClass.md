@@ -1081,59 +1081,11 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 
-## In the same category (EnhancementClass)
+## In the same category (Enum)
 
 
-### [ApparatusAOT](/docs/ApparatusAOT)
-
-
-### [BuilderGenerator](/docs/BuilderGenerator)
-
-
-### [FastGenericNew](/docs/FastGenericNew)
-
-
-### [GeneratorEquals](/docs/GeneratorEquals)
-
-
-### [Immutype](/docs/Immutype)
-
-
-### [Lombok.NET](/docs/Lombok.NET)
-
-
-### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-### [MemoryPack](/docs/MemoryPack)
-
-
-### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+### [CredFetoEnum](/docs/CredFetoEnum)
 
 
 ### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-### [RSCG_Static](/docs/RSCG_Static)
-
-
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 

@@ -260,9 +260,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
-### [EnumClass](/docs/EnumClass)
-
-
 ### [FastGenericNew](/docs/FastGenericNew)
 
 
@@ -288,9 +285,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface
 
 
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 
 
 ### [RSCG_Decorator](/docs/RSCG_Decorator)

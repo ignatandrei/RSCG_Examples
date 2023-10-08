@@ -694,9 +694,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
-### [EnumClass](/docs/EnumClass)
-
-
 ### [FastGenericNew](/docs/FastGenericNew)
 
 
@@ -719,9 +716,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype
 
 
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 
 
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
