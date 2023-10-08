@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"CredFetoEnum",
+      "nuget":[
+         "https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/"
+      ],
+      "link":"https://github.com/credfeto/credfeto-enum-source-generation",
+      "author":"Mark Ridgwell",
+      "source":"https://github.com/credfeto/credfeto-enum-source-generation"
+   },
+   "data":{
+      "goodFor":["Enum / description to string "],
+      "csprojDemo":"EnumClassDemo.csproj",
+      "csFiles":["Program.cs","Colors.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

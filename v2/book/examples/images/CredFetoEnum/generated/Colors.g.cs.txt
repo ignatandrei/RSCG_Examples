@@ -1,0 +1,593 @@
+#nullable enable
+
+using System;
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+
+namespace EnumClassDemo.EnumClass
+{
+
+public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::EnumClassDemo.Colors>, IComparable<Colors>, IComparable<global::EnumClassDemo.Colors>, IComparable
+{
+    protected readonly global::EnumClassDemo.Colors _realEnumValue;
+
+    protected Colors(global::EnumClassDemo.Colors enumValue)
+    {
+        this._realEnumValue = enumValue;
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static explicit operator global::EnumClassDemo.Colors(Colors value)
+    {
+        return value._realEnumValue;
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static implicit operator int(Colors value)
+    {
+        return (int) value._realEnumValue;
+    }
+
+    public bool Equals(Colors? other)
+    {
+        return !ReferenceEquals(other, null) && other._realEnumValue == this._realEnumValue;
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public bool Equals(global::EnumClassDemo.Colors other)
+    {
+        return other == this._realEnumValue;
+    }
+
+    public override bool Equals(object? other)
+    {
+        if (ReferenceEquals(other, null)) return false;
+        if (ReferenceEquals(other, this)) return true;
+        if (other is Colors)
+        {
+            return this.Equals((Colors) other);
+        }
+        if (other is global::EnumClassDemo.Colors)
+        {
+            return this.Equals((global::EnumClassDemo.Colors) other);
+        }
+        return false;
+    }
+
+    public static bool operator ==(Colors left, global::EnumClassDemo.Colors right)
+    {
+        return left.Equals(right);
+    }
+
+    public static bool operator !=(Colors left, global::EnumClassDemo.Colors right)
+    {
+        return !left.Equals(right);
+    }
+
+    public static bool operator ==(global::EnumClassDemo.Colors left, Colors right)
+    {
+        return right.Equals(left);
+    }
+
+    public static bool operator !=(global::EnumClassDemo.Colors left, Colors right)
+    {
+        return !right.Equals(left);
+    }
+
+    public static bool operator ==(Colors left, Colors right)
+    {
+        return !ReferenceEquals(left, null) && left.Equals(right);
+    }
+
+    public static bool operator !=(Colors left, Colors right)
+    {
+        return ReferenceEquals(left, null) || !left.Equals(right);
+    }
+
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public override int GetHashCode()
+    {
+        return this._realEnumValue.GetHashCode();
+    }
+
+    public static bool TryParse(string value, out Colors? colors)
+    {
+        switch (value)
+        {
+            case "None":
+                colors = None;
+                return true;
+            case "Red":
+                colors = Red;
+                return true;
+            case "Green":
+                colors = Green;
+                return true;
+            case "Blue":
+                colors = Blue;
+                return true;
+            case "Colors.None":
+                colors = None;
+                return true;
+            case "Colors.Red":
+                colors = Red;
+                return true;
+            case "Colors.Green":
+                colors = Green;
+                return true;
+            case "Colors.Blue":
+                colors = Blue;
+                return true;
+        }
+        colors = null;
+        return false;
+    }
+
+
+    public static bool TryParse(int value, out Colors? colors)
+    {
+        switch (value)
+        {
+            case 0:
+                colors = None;
+                return true;
+            case 1:
+                colors = Red;
+                return true;
+            case 2:
+                colors = Green;
+                return true;
+            case 3:
+                colors = Blue;
+                return true;
+        }
+        colors = null;
+        return false;
+    }
+
+
+    public int CompareTo(object? other)
+    {
+        if (ReferenceEquals(this, other)) return 0;
+        if (ReferenceEquals(null, other)) return 1;
+        if (other is Colors)
+        {
+            Colors temp = (Colors) other;
+            int left = ((int)this._realEnumValue);
+            int right = ((int)temp._realEnumValue);
+            return left < right ? -1 : left == right ? 0 : 1;
+        }
+        if (other is global::EnumClassDemo.Colors)
+        {
+            int left = ((int)this._realEnumValue);
+            int right = ((int)other);
+            return left < right ? -1 : left == right ? 0 : 1;
+        }
+        throw new ArgumentException($"Object to compare must be either {typeof(Colors)} or {typeof(global::EnumClassDemo.Colors)}. Given type: {other.GetType()}", "other");
+    }
+
+    public int CompareTo(Colors? other)
+    {
+        if (ReferenceEquals(this, other)) return 0;
+        if (ReferenceEquals(null, other)) return 1;
+            int left = ((int)this._realEnumValue);
+            int right = ((int)other._realEnumValue);
+            return left < right ? -1 : left == right ? 0 : 1;
+    }
+
+    public int CompareTo(global::EnumClassDemo.Colors other)
+    {
+            int left = ((int)this._realEnumValue);
+            int right = ((int)other);
+            return left < right ? -1 : left == right ? 0 : 1;
+    }
+
+    public abstract void Switch(Action<NoneEnumValue> noneSwitch, Action<RedEnumValue> redSwitch, Action<GreenEnumValue> greenSwitch, Action<BlueEnumValue> blueSwitch);
+    public abstract TResult Switch<TResult>(Func<NoneEnumValue, TResult> noneSwitch, Func<RedEnumValue, TResult> redSwitch, Func<GreenEnumValue, TResult> greenSwitch, Func<BlueEnumValue, TResult> blueSwitch);
+    public abstract void Switch<T0>(T0 arg0, Action<NoneEnumValue, T0> noneSwitch, Action<RedEnumValue, T0> redSwitch, Action<GreenEnumValue, T0> greenSwitch, Action<BlueEnumValue, T0> blueSwitch);
+    public abstract TResult Switch<TResult, T0>(T0 arg0, Func<NoneEnumValue, T0, TResult> noneSwitch, Func<RedEnumValue, T0, TResult> redSwitch, Func<GreenEnumValue, T0, TResult> greenSwitch, Func<BlueEnumValue, T0, TResult> blueSwitch);
+    public abstract void Switch<T0, T1>(T0 arg0, T1 arg1, Action<NoneEnumValue, T0, T1> noneSwitch, Action<RedEnumValue, T0, T1> redSwitch, Action<GreenEnumValue, T0, T1> greenSwitch, Action<BlueEnumValue, T0, T1> blueSwitch);
+    public abstract TResult Switch<TResult, T0, T1>(T0 arg0, T1 arg1, Func<NoneEnumValue, T0, T1, TResult> noneSwitch, Func<RedEnumValue, T0, T1, TResult> redSwitch, Func<GreenEnumValue, T0, T1, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, TResult> blueSwitch);
+    public abstract void Switch<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Action<NoneEnumValue, T0, T1, T2> noneSwitch, Action<RedEnumValue, T0, T1, T2> redSwitch, Action<GreenEnumValue, T0, T1, T2> greenSwitch, Action<BlueEnumValue, T0, T1, T2> blueSwitch);
+    public abstract TResult Switch<TResult, T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Func<NoneEnumValue, T0, T1, T2, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, TResult> blueSwitch);
+    public abstract void Switch<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Action<NoneEnumValue, T0, T1, T2, T3> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3> blueSwitch);
+    public abstract TResult Switch<TResult, T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Func<NoneEnumValue, T0, T1, T2, T3, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, TResult> blueSwitch);
+    public abstract void Switch<T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action<NoneEnumValue, T0, T1, T2, T3, T4> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4> blueSwitch);
+    public abstract TResult Switch<TResult, T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Func<NoneEnumValue, T0, T1, T2, T3, T4, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, TResult> blueSwitch);
+    public abstract void Switch<T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5> blueSwitch);
+    public abstract TResult Switch<TResult, T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, TResult> blueSwitch);
+    public abstract void Switch<T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5, T6> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6> blueSwitch);
+    public abstract TResult Switch<TResult, T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> blueSwitch);
+
+    public static readonly NoneEnumValue None = new NoneEnumValue();
+    public partial class NoneEnumValue: Colors
+    {
+        public NoneEnumValue(): base(global::EnumClassDemo.Colors.None) { }
+        public override string ToString()
+        {
+            return "None";
+        }
+
+        public override void Switch(Action<NoneEnumValue> noneSwitch, Action<RedEnumValue> redSwitch, Action<GreenEnumValue> greenSwitch, Action<BlueEnumValue> blueSwitch)
+        {
+            noneSwitch(this);
+        }
+
+        public override TResult Switch<TResult>(Func<NoneEnumValue, TResult> noneSwitch, Func<RedEnumValue, TResult> redSwitch, Func<GreenEnumValue, TResult> greenSwitch, Func<BlueEnumValue, TResult> blueSwitch)
+        {
+            return noneSwitch(this);
+        }
+
+        public override void Switch<T0>(T0 arg0, Action<NoneEnumValue, T0> noneSwitch, Action<RedEnumValue, T0> redSwitch, Action<GreenEnumValue, T0> greenSwitch, Action<BlueEnumValue, T0> blueSwitch)
+        {
+            noneSwitch(this, arg0);
+        }
+
+        public override TResult Switch<TResult, T0>(T0 arg0, Func<NoneEnumValue, T0, TResult> noneSwitch, Func<RedEnumValue, T0, TResult> redSwitch, Func<GreenEnumValue, T0, TResult> greenSwitch, Func<BlueEnumValue, T0, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0);
+        }
+
+        public override void Switch<T0, T1>(T0 arg0, T1 arg1, Action<NoneEnumValue, T0, T1> noneSwitch, Action<RedEnumValue, T0, T1> redSwitch, Action<GreenEnumValue, T0, T1> greenSwitch, Action<BlueEnumValue, T0, T1> blueSwitch)
+        {
+            noneSwitch(this, arg0, arg1);
+        }
+
+        public override TResult Switch<TResult, T0, T1>(T0 arg0, T1 arg1, Func<NoneEnumValue, T0, T1, TResult> noneSwitch, Func<RedEnumValue, T0, T1, TResult> redSwitch, Func<GreenEnumValue, T0, T1, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0, arg1);
+        }
+
+        public override void Switch<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Action<NoneEnumValue, T0, T1, T2> noneSwitch, Action<RedEnumValue, T0, T1, T2> redSwitch, Action<GreenEnumValue, T0, T1, T2> greenSwitch, Action<BlueEnumValue, T0, T1, T2> blueSwitch)
+        {
+            noneSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Func<NoneEnumValue, T0, T1, T2, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override void Switch<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Action<NoneEnumValue, T0, T1, T2, T3> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3> blueSwitch)
+        {
+            noneSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Func<NoneEnumValue, T0, T1, T2, T3, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action<NoneEnumValue, T0, T1, T2, T3, T4> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4> blueSwitch)
+        {
+            noneSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Func<NoneEnumValue, T0, T1, T2, T3, T4, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5> blueSwitch)
+        {
+            noneSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5, T6> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6> blueSwitch)
+        {
+            noneSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> blueSwitch)
+        {
+            return noneSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public override int GetHashCode()
+        {
+            return 0;
+        }
+    }
+
+    public static readonly RedEnumValue Red = new RedEnumValue();
+    public partial class RedEnumValue: Colors
+    {
+        public RedEnumValue(): base(global::EnumClassDemo.Colors.Red) { }
+        public override string ToString()
+        {
+            return "Red";
+        }
+
+        public override void Switch(Action<NoneEnumValue> noneSwitch, Action<RedEnumValue> redSwitch, Action<GreenEnumValue> greenSwitch, Action<BlueEnumValue> blueSwitch)
+        {
+            redSwitch(this);
+        }
+
+        public override TResult Switch<TResult>(Func<NoneEnumValue, TResult> noneSwitch, Func<RedEnumValue, TResult> redSwitch, Func<GreenEnumValue, TResult> greenSwitch, Func<BlueEnumValue, TResult> blueSwitch)
+        {
+            return redSwitch(this);
+        }
+
+        public override void Switch<T0>(T0 arg0, Action<NoneEnumValue, T0> noneSwitch, Action<RedEnumValue, T0> redSwitch, Action<GreenEnumValue, T0> greenSwitch, Action<BlueEnumValue, T0> blueSwitch)
+        {
+            redSwitch(this, arg0);
+        }
+
+        public override TResult Switch<TResult, T0>(T0 arg0, Func<NoneEnumValue, T0, TResult> noneSwitch, Func<RedEnumValue, T0, TResult> redSwitch, Func<GreenEnumValue, T0, TResult> greenSwitch, Func<BlueEnumValue, T0, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0);
+        }
+
+        public override void Switch<T0, T1>(T0 arg0, T1 arg1, Action<NoneEnumValue, T0, T1> noneSwitch, Action<RedEnumValue, T0, T1> redSwitch, Action<GreenEnumValue, T0, T1> greenSwitch, Action<BlueEnumValue, T0, T1> blueSwitch)
+        {
+            redSwitch(this, arg0, arg1);
+        }
+
+        public override TResult Switch<TResult, T0, T1>(T0 arg0, T1 arg1, Func<NoneEnumValue, T0, T1, TResult> noneSwitch, Func<RedEnumValue, T0, T1, TResult> redSwitch, Func<GreenEnumValue, T0, T1, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0, arg1);
+        }
+
+        public override void Switch<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Action<NoneEnumValue, T0, T1, T2> noneSwitch, Action<RedEnumValue, T0, T1, T2> redSwitch, Action<GreenEnumValue, T0, T1, T2> greenSwitch, Action<BlueEnumValue, T0, T1, T2> blueSwitch)
+        {
+            redSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Func<NoneEnumValue, T0, T1, T2, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override void Switch<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Action<NoneEnumValue, T0, T1, T2, T3> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3> blueSwitch)
+        {
+            redSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Func<NoneEnumValue, T0, T1, T2, T3, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action<NoneEnumValue, T0, T1, T2, T3, T4> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4> blueSwitch)
+        {
+            redSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Func<NoneEnumValue, T0, T1, T2, T3, T4, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5> blueSwitch)
+        {
+            redSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5, T6> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6> blueSwitch)
+        {
+            redSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> blueSwitch)
+        {
+            return redSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public override int GetHashCode()
+        {
+            return 1;
+        }
+    }
+
+    public static readonly GreenEnumValue Green = new GreenEnumValue();
+    public partial class GreenEnumValue: Colors
+    {
+        public GreenEnumValue(): base(global::EnumClassDemo.Colors.Green) { }
+        public override string ToString()
+        {
+            return "Green";
+        }
+
+        public override void Switch(Action<NoneEnumValue> noneSwitch, Action<RedEnumValue> redSwitch, Action<GreenEnumValue> greenSwitch, Action<BlueEnumValue> blueSwitch)
+        {
+            greenSwitch(this);
+        }
+
+        public override TResult Switch<TResult>(Func<NoneEnumValue, TResult> noneSwitch, Func<RedEnumValue, TResult> redSwitch, Func<GreenEnumValue, TResult> greenSwitch, Func<BlueEnumValue, TResult> blueSwitch)
+        {
+            return greenSwitch(this);
+        }
+
+        public override void Switch<T0>(T0 arg0, Action<NoneEnumValue, T0> noneSwitch, Action<RedEnumValue, T0> redSwitch, Action<GreenEnumValue, T0> greenSwitch, Action<BlueEnumValue, T0> blueSwitch)
+        {
+            greenSwitch(this, arg0);
+        }
+
+        public override TResult Switch<TResult, T0>(T0 arg0, Func<NoneEnumValue, T0, TResult> noneSwitch, Func<RedEnumValue, T0, TResult> redSwitch, Func<GreenEnumValue, T0, TResult> greenSwitch, Func<BlueEnumValue, T0, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0);
+        }
+
+        public override void Switch<T0, T1>(T0 arg0, T1 arg1, Action<NoneEnumValue, T0, T1> noneSwitch, Action<RedEnumValue, T0, T1> redSwitch, Action<GreenEnumValue, T0, T1> greenSwitch, Action<BlueEnumValue, T0, T1> blueSwitch)
+        {
+            greenSwitch(this, arg0, arg1);
+        }
+
+        public override TResult Switch<TResult, T0, T1>(T0 arg0, T1 arg1, Func<NoneEnumValue, T0, T1, TResult> noneSwitch, Func<RedEnumValue, T0, T1, TResult> redSwitch, Func<GreenEnumValue, T0, T1, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0, arg1);
+        }
+
+        public override void Switch<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Action<NoneEnumValue, T0, T1, T2> noneSwitch, Action<RedEnumValue, T0, T1, T2> redSwitch, Action<GreenEnumValue, T0, T1, T2> greenSwitch, Action<BlueEnumValue, T0, T1, T2> blueSwitch)
+        {
+            greenSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Func<NoneEnumValue, T0, T1, T2, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override void Switch<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Action<NoneEnumValue, T0, T1, T2, T3> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3> blueSwitch)
+        {
+            greenSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Func<NoneEnumValue, T0, T1, T2, T3, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action<NoneEnumValue, T0, T1, T2, T3, T4> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4> blueSwitch)
+        {
+            greenSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Func<NoneEnumValue, T0, T1, T2, T3, T4, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5> blueSwitch)
+        {
+            greenSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5, T6> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6> blueSwitch)
+        {
+            greenSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> blueSwitch)
+        {
+            return greenSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public override int GetHashCode()
+        {
+            return 2;
+        }
+    }
+
+    public static readonly BlueEnumValue Blue = new BlueEnumValue();
+    public partial class BlueEnumValue: Colors
+    {
+        public BlueEnumValue(): base(global::EnumClassDemo.Colors.Blue) { }
+        public override string ToString()
+        {
+            return "Blue";
+        }
+
+        public override void Switch(Action<NoneEnumValue> noneSwitch, Action<RedEnumValue> redSwitch, Action<GreenEnumValue> greenSwitch, Action<BlueEnumValue> blueSwitch)
+        {
+            blueSwitch(this);
+        }
+
+        public override TResult Switch<TResult>(Func<NoneEnumValue, TResult> noneSwitch, Func<RedEnumValue, TResult> redSwitch, Func<GreenEnumValue, TResult> greenSwitch, Func<BlueEnumValue, TResult> blueSwitch)
+        {
+            return blueSwitch(this);
+        }
+
+        public override void Switch<T0>(T0 arg0, Action<NoneEnumValue, T0> noneSwitch, Action<RedEnumValue, T0> redSwitch, Action<GreenEnumValue, T0> greenSwitch, Action<BlueEnumValue, T0> blueSwitch)
+        {
+            blueSwitch(this, arg0);
+        }
+
+        public override TResult Switch<TResult, T0>(T0 arg0, Func<NoneEnumValue, T0, TResult> noneSwitch, Func<RedEnumValue, T0, TResult> redSwitch, Func<GreenEnumValue, T0, TResult> greenSwitch, Func<BlueEnumValue, T0, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0);
+        }
+
+        public override void Switch<T0, T1>(T0 arg0, T1 arg1, Action<NoneEnumValue, T0, T1> noneSwitch, Action<RedEnumValue, T0, T1> redSwitch, Action<GreenEnumValue, T0, T1> greenSwitch, Action<BlueEnumValue, T0, T1> blueSwitch)
+        {
+            blueSwitch(this, arg0, arg1);
+        }
+
+        public override TResult Switch<TResult, T0, T1>(T0 arg0, T1 arg1, Func<NoneEnumValue, T0, T1, TResult> noneSwitch, Func<RedEnumValue, T0, T1, TResult> redSwitch, Func<GreenEnumValue, T0, T1, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0, arg1);
+        }
+
+        public override void Switch<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Action<NoneEnumValue, T0, T1, T2> noneSwitch, Action<RedEnumValue, T0, T1, T2> redSwitch, Action<GreenEnumValue, T0, T1, T2> greenSwitch, Action<BlueEnumValue, T0, T1, T2> blueSwitch)
+        {
+            blueSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2, Func<NoneEnumValue, T0, T1, T2, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0, arg1, arg2);
+        }
+
+        public override void Switch<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Action<NoneEnumValue, T0, T1, T2, T3> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3> blueSwitch)
+        {
+            blueSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, Func<NoneEnumValue, T0, T1, T2, T3, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0, arg1, arg2, arg3);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Action<NoneEnumValue, T0, T1, T2, T3, T4> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4> blueSwitch)
+        {
+            blueSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, Func<NoneEnumValue, T0, T1, T2, T3, T4, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0, arg1, arg2, arg3, arg4);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5> blueSwitch)
+        {
+            blueSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5);
+        }
+
+        public override void Switch<T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Action<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6> noneSwitch, Action<RedEnumValue, T0, T1, T2, T3, T4, T5, T6> redSwitch, Action<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6> greenSwitch, Action<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6> blueSwitch)
+        {
+            blueSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        public override TResult Switch<TResult, T0, T1, T2, T3, T4, T5, T6>(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, Func<NoneEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> noneSwitch, Func<RedEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> redSwitch, Func<GreenEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> greenSwitch, Func<BlueEnumValue, T0, T1, T2, T3, T4, T5, T6, TResult> blueSwitch)
+        {
+            return blueSwitch(this, arg0, arg1, arg2, arg3, arg4, arg5, arg6);
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public override int GetHashCode()
+        {
+            return 3;
+        }
+    }
+
+    private static readonly Colors[] _members = new Colors[4] { None, Red, Green, Blue, };
+
+    public static System.Collections.Generic.IReadOnlyCollection<Colors> GetAllMembers()
+    {
+        return _members;
+    }
+}
+}
