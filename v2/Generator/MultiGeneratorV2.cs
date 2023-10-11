@@ -253,6 +253,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Poly",new(true,new(2023,10,10),Category.EnhancementClass) },
             {"IDisposableGenerator",new(true,new(2023,10,11),Category.Disposer) },
             {"CredFetoEnum",new (true,new(2023,10,12),Category.Enum) },
+            {"StaticReflection", new (true,new(2023,10,13),Category.EnhancementClass) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -839,7 +840,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         x++;
         //if(x>2)
         await Task.WhenAll(_AllDescriptions
-            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 5)
+            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 10)
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }

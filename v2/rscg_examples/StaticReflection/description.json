@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"StaticReflection",
+      "nuget":[
+         "https://www.nuget.org/packages/StaticReflection/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"StaticReflectionDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
