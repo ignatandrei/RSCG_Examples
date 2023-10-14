@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"StaticReflection",
+      "nuget":[
+         "https://www.nuget.org/packages/StaticReflection/"
+      ],
+      "link":"https://github.com/devinmartin/staticreflection",
+      "author":"Devin Martin",
+      "source":"https://github.com/devinmartin/staticreflection"
+   },
+   "data":{
+      "goodFor":["Call prop/methods on classes  "],
+      "csprojDemo":"StaticReflectionDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

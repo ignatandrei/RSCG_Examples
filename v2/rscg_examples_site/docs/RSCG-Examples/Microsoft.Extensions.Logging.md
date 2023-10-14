@@ -414,6 +414,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 ### [RSCG_Static](/docs/RSCG_Static)
 
 
+### [StaticReflection](/docs/StaticReflection)
+
+
 ### [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
 
