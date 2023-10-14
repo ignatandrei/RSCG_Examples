@@ -137,7 +137,7 @@ public partial class C
 
 ## Benchmarks
 
-[Benchmarks](./test/Benchmarks.md)
+[Benchmarks](https://github.com/Cricle/StaticReflection//blob/main/test/Benchmarks.md)
 
 :::
 
