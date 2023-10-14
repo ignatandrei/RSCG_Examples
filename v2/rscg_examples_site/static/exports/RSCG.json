@@ -597,8 +597,8 @@
     {
       "Name": "StaticReflection",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection",
-      "NuGet": "https://www.nuget.org/packages/StaticReflection/",
-      "Source": "https://github.com/devinmartin/staticreflection",
+      "NuGet": "https://www.nuget.org/packages/FastStaticReflection/",
+      "Source": "https://github.com/Cricle/StaticReflection/",
       "Category": "EnhancementClass",
       "AddedOn": "2023-10-13T00:00:00"
     }

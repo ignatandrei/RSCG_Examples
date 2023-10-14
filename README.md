@@ -21,16 +21,16 @@ Those are the 75 Roslyn Source Code Generators that I have tested you can see an
 ### 75. [StaticReflection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection) generated on : 2023-10-13 => 13 October 2023
 <details>
   <summary>Expand</summary>
-Author: Devin Martin
+Author: Cricle
 
-This is intended to relieve some of reflection's shortcomings by adding compiler checking against member info in reflective operations. 
+Use roslyn to make relection static, autogen code for type reflection 
 
-Nuget: [https://www.nuget.org/packages/StaticReflection/](https://www.nuget.org/packages/StaticReflection/) 
+Nuget: [https://www.nuget.org/packages/FastStaticReflection/](https://www.nuget.org/packages/FastStaticReflection/) 
 
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection)
 
-Source: [https://github.com/devinmartin/staticreflection](https://github.com/devinmartin/staticreflection)
+Source: [https://github.com/Cricle/StaticReflection/](https://github.com/Cricle/StaticReflection/)
 
 </details>
 

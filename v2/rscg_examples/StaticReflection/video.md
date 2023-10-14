@@ -6,7 +6,7 @@
     "step_5_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
 "step_6_text": "Today I will present StaticReflection  that is good for Call prop/methods on classes   .",
-"step_7_browser":"https://www.nuget.org/packages/StaticReflection/",
+"step_7_browser":"https://www.nuget.org/packages/FastStaticReflection/",
 "step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection)",
 "step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection",
 "step_10_text":" Here is the code ",
@@ -14,7 +14,7 @@
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\StaticReflection\\src\\StaticReflectionDemo\\StaticReflectionDemo.csproj",
 
-"step_14_text": "You put the  [StaticReflection](https://www.nuget.org/packages/StaticReflection/) into the csproj ",
+"step_14_text": "You put the  [FastStaticReflection](https://www.nuget.org/packages/FastStaticReflection/) into the csproj ",
 
 "step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\StaticReflection\\src\\StaticReflectionDemo\\StaticReflectionDemo.csproj",
 

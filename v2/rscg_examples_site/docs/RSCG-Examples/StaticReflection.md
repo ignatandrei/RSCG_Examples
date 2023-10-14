@@ -8,14 +8,14 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# StaticReflection  by Devin Martin
+# StaticReflection  by Cricle
 
 
 <TOCInline toc={toc} />
 
-[![Nuget](https://img.shields.io/nuget/dt/StaticReflection?label=StaticReflection)](https://www.nuget.org/packages/StaticReflection/)
-[![GitHub last commit](https://img.shields.io/github/last-commit/devinmartin/staticreflection?label=updated)](https://github.com/devinmartin/staticreflection)
-![GitHub Repo stars](https://img.shields.io/github/stars/devinmartin/staticreflection?style=social)
+[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection?label=FastStaticReflection)](https://www.nuget.org/packages/FastStaticReflection/)[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection.CodeGen?label=FastStaticReflection.CodeGen)](https://www.nuget.org/packages/FastStaticReflection.CodeGen/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Cricle/StaticReflection?label=updated)](https://github.com/Cricle/StaticReflection/)
+![GitHub Repo stars](https://img.shields.io/github/stars/Cricle/StaticReflection?style=social)
 
 ## Details
 
@@ -24,25 +24,120 @@ import TOCInline from '@theme/TOCInline';
 
 Name: **StaticReflection**
 
-This is intended to relieve some of reflection's shortcomings by adding compiler checking against member info in reflective operations.
+Use roslyn to make relection static, autogen code for type reflection
 
-Author: Devin Martin
+Author: Cricle
 
 NuGet: 
-*https://www.nuget.org/packages/StaticReflection/*   
+*https://www.nuget.org/packages/FastStaticReflection/*   
+
+*https://www.nuget.org/packages/FastStaticReflection.CodeGen/*   
 
 
-You can find more details at https://github.com/devinmartin/staticreflection
+You can find more details at https://github.com/Cricle/StaticReflection/
 
-Source : https://github.com/devinmartin/staticreflection
+Source : https://github.com/Cricle/StaticReflection/
 
 :::
 
 ### Original Readme
 :::note
 
-# StaticReflection
+<h2 align="center">
+StaticReflection
+</h2>
 
+<h3 align="center">
+A fast, easy, scalable static reflection.
+</h3>
+
+
+## Fast use
+
+* Install from nuget `FastStaticReflection`, `FastStaticReflection.CodeGen`
+
+* Write assembly class
+
+```csharp
+[StaticReflectionAssembly]//for generate assembly code
+public partial class C
+{
+}
+```
+
+* Tag static type reflection
+
+```csharp
+//You can Tag at assembly
+[assembly: StaticReflection(Type = typeof(StaticReflection.Sample.A))]
+
+//Or Property
+[StaticReflection]
+[StaticReflection(Type =typeof(B))]
+public A a { get; set; }
+
+//Or class
+[StaticReflection]
+public class A
+{
+    //....
+}
+```
+
+* For use
+
+```csharp
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        var b=new Student();
+        var @class=C.Default.Types.First(x => x.Name == "Student");
+        @class.SetProperty(b, "Id", 1);//Reflection get property value
+        Console.WriteLine("Id: "+@class.GetProperty(b, "Id"));//Reflection set property value
+        var @event = (IEventTransfer)@class.Events.First(x => x.Name == "AlreadyGoSchool");
+        using (var eventScope = @event.CreateScope(b))
+        {
+            eventScope.Start();
+            eventScope.EventTransfed += Instance_EventTransfed;//Reflection listen event
+            var method = @class.Methods.First(x => x.Name == "GoToSchool");
+            Console.WriteLine("GoToSchool:" + method.InvokeUsualMethod(b));//Reflection call method
+        }
+        var obj = @class.Constructors.First(x => x.ArgumentTypes.Count == 0);
+        var inst = obj.InvokeUsualMethod(null);//Reflection create object
+        Console.WriteLine(inst);
+    }
+
+    private static void Instance_EventTransfed(object? sender, EventTransferEventArgs e)
+    {
+        Console.WriteLine("EventRaise: " + e.Args[0]);
+    }
+}
+[StaticReflection]
+public record class Student
+{
+    public int Id { get; set; }
+
+    public string? Name { get; set; }
+
+    public event EventHandler<Student>? AlreadyGoSchool;
+
+    public int GoToSchool()
+    {
+        AlreadyGoSchool?.Invoke(this, this);
+        return Id;
+    }
+}
+[StaticReflectionAssembly]
+public partial class C
+{
+}
+
+```
+
+## Benchmarks
+
+[Benchmarks](./test/Benchmarks.md)
 
 :::
 

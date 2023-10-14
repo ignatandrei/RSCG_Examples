@@ -2,11 +2,13 @@
    "generator":{
       "name":"StaticReflection",
       "nuget":[
-         "https://www.nuget.org/packages/StaticReflection/"
+         "https://www.nuget.org/packages/FastStaticReflection/",
+         "https://www.nuget.org/packages/FastStaticReflection.CodeGen/"
+
       ],
-      "link":"https://github.com/devinmartin/staticreflection",
-      "author":"Devin Martin",
-      "source":"https://github.com/devinmartin/staticreflection"
+      "link":"https://github.com/Cricle/StaticReflection/",
+      "author":"Cricle",
+      "source":"https://github.com/Cricle/StaticReflection/"
    },
    "data":{
       "goodFor":["Call prop/methods on classes  "],
