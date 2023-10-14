@@ -593,6 +593,14 @@
       "Source": "https://github.com/credfeto/credfeto-enum-source-generation",
       "Category": "Enum",
       "AddedOn": "2023-10-12T00:00:00"
+    },
+    {
+      "Name": "StaticReflection",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection",
+      "NuGet": "https://www.nuget.org/packages/StaticReflection/",
+      "Source": "https://github.com/devinmartin/staticreflection",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-10-13T00:00:00"
     }
   ]
 }

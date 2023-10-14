@@ -1,4 +1,6 @@
-﻿namespace StaticReflectionDemo;
+using StaticReflection.Annotions;
+
+namespace StaticReflectionDemo;
 [StaticReflection]
 internal partial class Person
 {

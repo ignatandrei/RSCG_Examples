@@ -519,6 +519,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill
 ### [RSCG_Static](/docs/RSCG_Static)
 
 
+### [StaticReflection](/docs/StaticReflection)
+
+
 ### [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
 

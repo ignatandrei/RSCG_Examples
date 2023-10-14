@@ -1,0 +1,13 @@
+﻿using StaticReflection.Annotions;
+
+namespace StaticReflectionDemo;
+[StaticReflection]
+internal partial class Person
+{
+    public string FirstName { get; set; }
+    public string LastName { get; set; }
+    public string Name()
+    {
+        return $"{FirstName} {LastName}";
+    }
+}

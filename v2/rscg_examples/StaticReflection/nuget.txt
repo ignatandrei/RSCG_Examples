@@ -1,0 +1,1 @@
+This is intended to relieve some of reflection's shortcomings by adding compiler checking against member info in reflective operations.

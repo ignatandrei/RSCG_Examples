@@ -4,14 +4,14 @@
       "nuget":[
          "https://www.nuget.org/packages/StaticReflection/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/devinmartin/staticreflection",
+      "author":"Devin Martin",
+      "source":"https://github.com/devinmartin/staticreflection"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Call prop/methods on classes  "],
       "csprojDemo":"StaticReflectionDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","Person.cs"]
    },
    "links":{
       "blog":"",
