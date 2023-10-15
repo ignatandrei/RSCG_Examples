@@ -1,0 +1,1 @@
+C# Source Generator to create value-object, inspired by units of measure.

@@ -1,6 +1,6 @@
-# RSCG - 75 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 76 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-13 => 13 October 2023
+## Latest Update : 2023-10-15 => 15 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 75 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 76 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 76. [UnitGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnitGenerator) generated on : 2023-10-15 => 15 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Cysharp, Inc
+
+C# Source Generator to create value-object, inspired by units of measure. 
+
+Nuget: [https://www.nuget.org/packages/UnitGenerator/](https://www.nuget.org/packages/UnitGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnitGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnitGenerator)
+
+Source: [https://github.com/Cysharp/UnitGenerator](https://github.com/Cysharp/UnitGenerator)
+
+</details>
+
 ### 75. [StaticReflection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection) generated on : 2023-10-13 => 13 October 2023
 <details>
   <summary>Expand</summary>
@@ -1561,42 +1577,35 @@ Why I have not tested : depends on Microsoft.Extensions.Localization
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-38) [UnitGenerator]( https://github.com/Cysharp/UnitGenerator) , https://github.com/Cysharp/UnitGenerator 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=UnitGenerator&body=https://github.com/Cysharp/UnitGenerator
-
-
-39) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+38) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-40) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
+39) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=VisitorPatternGenerator&body=https://github.com/hikarin522/VisitorPatternGenerator/
 
 
-41) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+40) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-42) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
+41) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
 
 Why I have not tested : less than net 7
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WinUI-ObservableSettings&body=https://github.com/JasonWei512/WinUI-ObservableSettings
 
 
-43) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+42) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

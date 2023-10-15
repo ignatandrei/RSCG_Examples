@@ -10,8 +10,11 @@ import DocCardList from '@theme/DocCardList';
 [See time based list](/docs/List-of-RSCG)
 
 {{~ for rscgKV in categDict ~}}
+
+## {{rscgKV.Key}} 
 <details>
-  <summary>{{rscgKV.Key}} =>examples:{{rscgKV.Value.size}}</summary>
+    
+  <summary>Expand {{rscgKV.Key}} =>examples:{{rscgKV.Value.size}}</summary>
     {{~ for rscgV in rscgKV.Value ~}}
         
 

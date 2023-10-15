@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 75 RSCG by category 
-description: 75 RSCG by category 
+title: 76 RSCG by category 
+description: 76 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -9,8 +9,11 @@ import DocCardList from '@theme/DocCardList';
 
 [See time based list](/docs/List-of-RSCG)
 
+
+## API 
 <details>
-  <summary>API =>examples:4</summary>
+    
+  <summary>Expand API =>examples:4</summary>
         
 
 
@@ -33,8 +36,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Constructor 
 <details>
-  <summary>Constructor =>examples:3</summary>
+    
+  <summary>Expand Constructor =>examples:3</summary>
         
 
 
@@ -52,8 +58,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Database 
 <details>
-  <summary>Database =>examples:2</summary>
+    
+  <summary>Expand Database =>examples:2</summary>
         
 
 
@@ -66,8 +75,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## DependencyInjection 
 <details>
-  <summary>DependencyInjection =>examples:2</summary>
+    
+  <summary>Expand DependencyInjection =>examples:2</summary>
         
 
 
@@ -80,8 +92,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Disposer 
 <details>
-  <summary>Disposer =>examples:4</summary>
+    
+  <summary>Expand Disposer =>examples:4</summary>
         
 
 
@@ -104,8 +119,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## EnhancementClass 
 <details>
-  <summary>EnhancementClass =>examples:18</summary>
+    
+  <summary>Expand EnhancementClass =>examples:18</summary>
         
 
 
@@ -198,8 +216,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## EnhancementProject 
 <details>
-  <summary>EnhancementProject =>examples:9</summary>
+    
+  <summary>Expand EnhancementProject =>examples:9</summary>
         
 
 
@@ -247,8 +268,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Enum 
 <details>
-  <summary>Enum =>examples:3</summary>
+    
+  <summary>Expand Enum =>examples:3</summary>
         
 
 
@@ -266,8 +290,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## FilesToCode 
 <details>
-  <summary>FilesToCode =>examples:5</summary>
+    
+  <summary>Expand FilesToCode =>examples:5</summary>
         
 
 
@@ -295,8 +322,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## FunctionalProgramming 
 <details>
-  <summary>FunctionalProgramming =>examples:4</summary>
+    
+  <summary>Expand FunctionalProgramming =>examples:4</summary>
         
 
 
@@ -319,8 +349,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Mapper 
 <details>
-  <summary>Mapper =>examples:5</summary>
+    
+  <summary>Expand Mapper =>examples:5</summary>
         
 
 
@@ -348,8 +381,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## MVVM 
 <details>
-  <summary>MVVM =>examples:2</summary>
+    
+  <summary>Expand MVVM =>examples:2</summary>
         
 
 
@@ -362,8 +398,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Optimizer 
 <details>
-  <summary>Optimizer =>examples:1</summary>
+    
+  <summary>Expand Optimizer =>examples:1</summary>
         
 
 
@@ -371,8 +410,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## PrimitiveObsession 
 <details>
-  <summary>PrimitiveObsession =>examples:2</summary>
+    
+  <summary>Expand PrimitiveObsession =>examples:3</summary>
         
 
 
@@ -383,10 +425,18 @@ import DocCardList from '@theme/DocCardList';
 
 [Strongly](/docs/Strongly)
 
+        
+
+
+[UnitGenerator](/docs/UnitGenerator)
+
 </details>
     
+
+## Serializer 
 <details>
-  <summary>Serializer =>examples:3</summary>
+    
+  <summary>Expand Serializer =>examples:3</summary>
         
 
 
@@ -404,8 +454,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Templating 
 <details>
-  <summary>Templating =>examples:6</summary>
+    
+  <summary>Expand Templating =>examples:6</summary>
         
 
 
@@ -438,8 +491,11 @@ import DocCardList from '@theme/DocCardList';
 
 </details>
     
+
+## Tests 
 <details>
-  <summary>Tests =>examples:2</summary>
+    
+  <summary>Expand Tests =>examples:2</summary>
         
 
 
@@ -585,6 +641,8 @@ flowchart LR;
     PrimitiveObsession--> Vogen((Vogen))
 
     PrimitiveObsession--> Strongly((Strongly))
+
+    PrimitiveObsession--> UnitGenerator((UnitGenerator))
 
     Serializer--> System.Text.Json((System.Text.Json))
 

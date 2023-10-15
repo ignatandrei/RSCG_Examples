@@ -18,7 +18,7 @@ Nr,Key,Source,Category
 17,RazorBlade, https://github.com/ltrzesniewski/RazorBlade,Templating
 18,PartiallyApplied, https://github.com/JasonBock/PartiallyApplied,FunctionalProgramming
 19,Apparatus.AOT.Reflection, https://github.com/byme8/Apparatus.AOT.Reflection,EnhancementClass
-20,NetEscapades.EnumGenerators, https://github.com/andrewlock/NetEscapades.EnumGenerators,EnhancementClass
+20,NetEscapades.EnumGenerators, https://github.com/andrewlock/NetEscapades.EnumGenerators,Enum
 21,Microsoft.Interop.JavaScript.JSImportGenerator, ,EnhancementClass
 22,RSCG_FunctionsWithDI, https://github.com/ignatandrei/functionsdi,EnhancementProject
 23,Microsoft.NET.Sdk.Razor.SourceGenerators, ,Templating
@@ -36,7 +36,7 @@ Nr,Key,Source,Category
 35,DeeDee, https://github.com/joh-pot/DeeDee/,EnhancementProject
 36,ProxyGen, https://github.com/Sholtee/ProxyGen,EnhancementProject
 37,AutoRegisterInject, https://github.com/patrickklaeren/AutoRegisterInject,DependencyInjection
-38,EnumClass, https://github.com/ashenBlade/EnumClass,EnhancementClass
+38,EnumClass, https://github.com/ashenBlade/EnumClass,Enum
 39,Breezy, https://github.com/Ludovicdln/Breezy,Database
 40,FastGenericNew, https://github.com/Nyrest/FastGenericNew,EnhancementClass
 41,GeneratorEquals, https://github.com/diegofrata/Generator.Equals,EnhancementClass
@@ -71,3 +71,7 @@ Nr,Key,Source,Category
 70,MagicMap, https://github.com/bramerdaniel/MagicMap,Mapper
 71,DisposableHelpers, https://github.com/Kiryuumaru/DisposableHelpers,Disposer
 72,Poly, https://github.com/meziantou/Meziantou.Polyfill,EnhancementClass
+73,IDisposableGenerator, https://github.com/Elskom/IDisposableGenerator,Disposer
+74,CredFetoEnum, https://github.com/credfeto/credfeto-enum-source-generation,Enum
+75,StaticReflection, https://github.com/Cricle/StaticReflection/,EnhancementClass
+76,UnitGenerator, https://github.com/Cysharp/UnitGenerator,PrimitiveObsession

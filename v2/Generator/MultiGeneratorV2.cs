@@ -161,7 +161,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
 , new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",later)
-, new NoExample("UnitGenerator https://github.com/Cysharp/UnitGenerator",later)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -254,6 +253,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"IDisposableGenerator",new(true,new(2023,10,11),Category.Disposer) },
             {"CredFetoEnum",new (true,new(2023,10,12),Category.Enum) },
             {"StaticReflection", new (true,new(2023,10,13),Category.EnhancementClass) },
+            {"UnitGenerator", new(true,new(2023,10,15),Category.PrimitiveObsession) }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -841,7 +841,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         x++;
         //if(x>2)
         await Task.WhenAll(_AllDescriptions
-            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 10)
+            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 3)
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }
