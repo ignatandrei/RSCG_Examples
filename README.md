@@ -1404,7 +1404,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DudNet&body=https:
 
 13) [DynamicsMapper]( https://github.com/YonatanCohavi/DynamicsMapper) , https://github.com/YonatanCohavi/DynamicsMapper 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DynamicsMapper&body=https://github.com/YonatanCohavi/DynamicsMapper
 

@@ -160,7 +160,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
-, new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",later)
+, new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
