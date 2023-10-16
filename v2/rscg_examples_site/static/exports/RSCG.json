@@ -609,6 +609,14 @@
       "Source": "https://github.com/Cysharp/UnitGenerator",
       "Category": "PrimitiveObsession",
       "AddedOn": "2023-10-15T00:00:00"
+    },
+    {
+      "Name": "DynamicsMapper",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper",
+      "NuGet": "https://www.nuget.org/packages/YC.DynamicsMapper/",
+      "Source": "https://github.com/YonatanCohavi/DynamicsMapper/",
+      "Category": "Mapper",
+      "AddedOn": "2023-10-16T00:00:00"
     }
   ]
 }

@@ -505,6 +505,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap
 ### [AutoDTO](/docs/AutoDTO)
 
 
+### [DynamicsMapper](/docs/DynamicsMapper)
+
+
 ### [mapperly](/docs/mapperly)
 
 

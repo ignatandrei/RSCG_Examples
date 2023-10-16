@@ -1,0 +1,2 @@
+A .NET source generator for generating dynamics crm Enity mappings.
+      No runtime reflection.

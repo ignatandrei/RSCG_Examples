@@ -253,7 +253,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"IDisposableGenerator",new(true,new(2023,10,11),Category.Disposer) },
             {"CredFetoEnum",new (true,new(2023,10,12),Category.Enum) },
             {"StaticReflection", new (true,new(2023,10,13),Category.EnhancementClass) },
-            {"UnitGenerator", new(true,new(2023,10,15),Category.PrimitiveObsession) }
+            {"UnitGenerator", new(true,new(2023,10,15),Category.PrimitiveObsession) },
+            {"DynamicsMapper",new(true,new(2023,10,16),Category.Mapper) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -531,7 +532,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);
         if (csprojItems.Length != 1)
         {
-            throw new Exception($"cannot find {desc.Data.CSProj}");
+            throw new Exception($"cannot find {desc.Data.CSProj} on {sources}"); 
         }
         var output = desc.Data.outputFiles;
         output.fullPathToCsproj = csprojItems[0];

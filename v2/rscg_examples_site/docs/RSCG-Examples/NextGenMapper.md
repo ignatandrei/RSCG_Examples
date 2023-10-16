@@ -355,28 +355,6 @@ namespace NextGenMapper.Extensions
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\Mapper_ClassMaps.g.cs" label="Mapper_ClassMaps.g.cs" >
-
-
-```csharp showLineNumbers 
-#nullable enable
-using NextGenMapper.Extensions;
-
-namespace NextGenMapper
-{
-    internal static partial class Mapper
-    {
-        internal static NextGenMapperDemo.PersonDTO Map<To>(this NextGenMapperDemo.Person source) => new NextGenMapperDemo.PersonDTO()
-        {
-            Name = source.Name
-        };
-    }
-}
-```
-
-  </TabItem>
-
-
 <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\Mapper_ConfiguredMaps.g.cs" label="Mapper_ConfiguredMaps.g.cs" >
 
 
@@ -490,6 +468,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper
 
 
 ### [AutoDTO](/docs/AutoDTO)
+
+
+### [DynamicsMapper](/docs/DynamicsMapper)
 
 
 ### [MagicMap](/docs/MagicMap)
