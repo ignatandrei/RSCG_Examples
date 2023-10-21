@@ -227,7 +227,7 @@ This is the CSharp Project that references **ProtobufSourceGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProtobufSourceGenerator\src\ProtobufSourceGeneratorDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProtobufSourceGenerator\src\ProtobufSourceGeneratorDemo\Program.cs" label="Program.cs" >
 
   This is the use of **ProtobufSourceGenerator** in *Program.cs*
 
@@ -243,7 +243,7 @@ Console.WriteLine("name is "+entity.Name);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProtobufSourceGenerator\src\ProtobufSourceGeneratorDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProtobufSourceGenerator\src\ProtobufSourceGeneratorDemo\Person.cs" label="Person.cs" >
 
   This is the use of **ProtobufSourceGenerator** in *Person.cs*
 
@@ -273,7 +273,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProtobufSourceGenerator\src\ProtobufSourceGeneratorDemo\obj\GX\ProtobufSourceGenerator\ProtobufSourceGenerator.Incremental.IncrementalSourceGenerator\ProtoPerson.g.cs" label="ProtoPerson.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProtobufSourceGenerator\src\ProtobufSourceGeneratorDemo\obj\GX\ProtobufSourceGenerator\ProtobufSourceGenerator.Incremental.IncrementalSourceGenerator\ProtoPerson.g.cs" label="ProtoPerson.g.cs" >
 
 
 ```csharp showLineNumbers 

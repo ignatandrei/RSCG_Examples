@@ -143,7 +143,7 @@ This is the CSharp Project that references **RSCG_Utils**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\Program.cs" label="Program.cs" >
 
   This is the use of **RSCG_Utils** in *Program.cs*
 
@@ -154,7 +154,7 @@ Console.Write(dataFromFile);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\data.gen.txt" label="data.gen.txt" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\data.gen.txt" label="data.gen.txt" >
 
   This is the use of **RSCG_Utils** in *data.gen.txt*
 
@@ -174,7 +174,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\obj\GX\RSCG_Utils\RSCG_Utils.AdditionalFilesGenerator\MyAdditionalFiles.data.gen.txt.cs" label="MyAdditionalFiles.data.gen.txt.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Utils\src\DemoRSCG_Utils\obj\GX\RSCG_Utils\RSCG_Utils.AdditionalFilesGenerator\MyAdditionalFiles.data.gen.txt.cs" label="MyAdditionalFiles.data.gen.txt.cs" >
 
 
 ```csharp showLineNumbers 

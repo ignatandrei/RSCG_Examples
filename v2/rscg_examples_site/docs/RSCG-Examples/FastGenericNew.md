@@ -218,7 +218,7 @@ This is the CSharp Project that references **FastGenericNew**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\Program.cs" label="Program.cs" >
 
   This is the use of **FastGenericNew** in *Program.cs*
 
@@ -239,7 +239,7 @@ Console.WriteLine(p.FirstName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\Person.cs" label="Person.cs" >
 
   This is the use of **FastGenericNew** in *Person.cs*
 
@@ -271,7 +271,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\FastNew.CreateInstance.g.cs" label="FastNew.CreateInstance.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\FastNew.CreateInstance.g.cs" label="FastNew.CreateInstance.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -449,7 +449,7 @@ global::@FastGenericNew.FastNew<T, TArg0, TArg1, TArg2, TArg3, TArg4, TArg5, TAr
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\FastNew.TryCreateInstance.g.cs" label="FastNew.TryCreateInstance.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\FastNew.TryCreateInstance.g.cs" label="FastNew.TryCreateInstance.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -749,7 +749,7 @@ result = default!;return false;
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\FastNew{T}.g.cs" label="FastNew{T}.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\FastNew{T}.g.cs" label="FastNew{T}.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1885,7 +1885,7 @@ CompiledDelegate = (Func<TArg0, TArg1, TArg2, TArg3, TArg4, TArg5, TArg6, TArg7,
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\ThrowHelper.g.cs" label="ThrowHelper.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\ThrowHelper.g.cs" label="ThrowHelper.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1938,7 +1938,7 @@ namespace @FastGenericNew
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\TypeNew.CreateInstance.g.cs" label="TypeNew.CreateInstance.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\TypeNew.CreateInstance.g.cs" label="TypeNew.CreateInstance.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -2053,7 +2053,7 @@ T, TArg0, TArg1, TArg2, TArg3, TArg4, TArg5, TArg6, TArg7, TArg8, TArg9, TArg10,
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\_DynMetClosure.g.cs" label="_DynMetClosure.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FastGenericNew\src\FastGenericNewDemo\obj\GX\FastGenericNew.SourceGenerator\FastGenericNew.SourceGenerator.Generator\_DynMetClosure.g.cs" label="_DynMetClosure.g.cs" >
 
 
 ```csharp showLineNumbers 

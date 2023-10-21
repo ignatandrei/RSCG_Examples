@@ -124,7 +124,7 @@ This is the CSharp Project that references **MagicMap**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\Program.cs" label="Program.cs" >
 
   This is the use of **MagicMap** in *Program.cs*
 
@@ -140,7 +140,7 @@ Console.WriteLine(dto.FullName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\Person.cs" label="Person.cs" >
 
   This is the use of **MagicMap** in *Person.cs*
 
@@ -157,7 +157,7 @@ public class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\PersonDTO.cs" label="PersonDTO.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\PersonDTO.cs" label="PersonDTO.cs" >
 
   This is the use of **MagicMap** in *PersonDTO.cs*
 
@@ -193,7 +193,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PersonMapper.generated.cs" label="PersonMapper.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PersonMapper.generated.cs" label="PersonMapper.generated.cs" >
 
 
 ```csharp showLineNumbers 
@@ -261,7 +261,7 @@ namespace mapperlyDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PersonMapperExtensions.generated.cs" label="PersonMapperExtensions.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PersonMapperExtensions.generated.cs" label="PersonMapperExtensions.generated.cs" >
 
 
 ```csharp showLineNumbers 
@@ -310,7 +310,7 @@ namespace mapperlyDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PropertyMapperAttribute.generated.cs" label="PropertyMapperAttribute.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PropertyMapperAttribute.generated.cs" label="PropertyMapperAttribute.generated.cs" >
 
 
 ```csharp showLineNumbers 
@@ -357,7 +357,7 @@ namespace MagicMap
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PropertyMappingAttribute.generated.cs" label="PropertyMappingAttribute.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\PropertyMappingAttribute.generated.cs" label="PropertyMappingAttribute.generated.cs" >
 
 
 ```csharp showLineNumbers 
@@ -396,7 +396,7 @@ namespace MagicMap
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\TypeFactory.generated.cs" label="TypeFactory.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\TypeFactory.generated.cs" label="TypeFactory.generated.cs" >
 
 
 ```csharp showLineNumbers 
@@ -420,7 +420,7 @@ namespace MagicMap
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\TypeMapperAttribute.generated.cs" label="TypeMapperAttribute.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MagicMap\src\mapperDemo\obj\GX\MagicMap\MagicMap.MagicMapSourceGenerator\TypeMapperAttribute.generated.cs" label="TypeMapperAttribute.generated.cs" >
 
 
 ```csharp showLineNumbers 

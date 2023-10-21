@@ -128,7 +128,7 @@ This is the CSharp Project that references **JsonPolymorphicGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\JsonPolymorphicGenerator\src\JsonPolymorphicGeneratorDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\JsonPolymorphicGenerator\src\JsonPolymorphicGeneratorDemo\Program.cs" label="Program.cs" >
 
   This is the use of **JsonPolymorphicGenerator** in *Program.cs*
 
@@ -156,7 +156,7 @@ foreach (var item in p)
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\JsonPolymorphicGenerator\src\JsonPolymorphicGeneratorDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\JsonPolymorphicGenerator\src\JsonPolymorphicGeneratorDemo\Person.cs" label="Person.cs" >
 
   This is the use of **JsonPolymorphicGenerator** in *Person.cs*
 
@@ -200,7 +200,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\JsonPolymorphicGenerator\src\JsonPolymorphicGeneratorDemo\obj\GX\GoLive.JsonPolymorphicGenerator\GoLive.JsonPolymorphicGenerator.PolymorphicAttributeGenerator\Person.g.cs" label="Person.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\JsonPolymorphicGenerator\src\JsonPolymorphicGeneratorDemo\obj\GX\GoLive.JsonPolymorphicGenerator\GoLive.JsonPolymorphicGenerator.PolymorphicAttributeGenerator\Person.g.cs" label="Person.g.cs" >
 
 
 ```csharp showLineNumbers 

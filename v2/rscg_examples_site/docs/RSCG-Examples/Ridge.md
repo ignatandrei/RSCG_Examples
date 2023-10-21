@@ -217,7 +217,7 @@ This is the CSharp Project that references **Ridge**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\RidgeDemoWebApp\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\RidgeDemoWebApp\Program.cs" label="Program.cs" >
 
   This is the use of **Ridge** in *Program.cs*
 
@@ -249,7 +249,7 @@ public partial class Program { }
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\RidgeDemoWebApp\Controllers\WeatherForecastController.cs" label="WeatherForecastController.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\RidgeDemoWebApp\Controllers\WeatherForecastController.cs" label="WeatherForecastController.cs" >
 
   This is the use of **Ridge** in *WeatherForecastController.cs*
 
@@ -292,7 +292,7 @@ namespace RidgeDemoWebApp.Controllers
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\TestRidgeApp\BasicTests.cs" label="BasicTests.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\TestRidgeApp\BasicTests.cs" label="BasicTests.cs" >
 
   This is the use of **Ridge** in *BasicTests.cs*
 
@@ -337,7 +337,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\RidgeDemoWebApp\obj\GX\RidgeSourceGenerator\RidgeSourceGenerator.ControllerClientGenerator\WeatherForecastController_Client.g.cs" label="WeatherForecastController_Client.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Ridge\src\RidgeDemoWebApp\obj\GX\RidgeSourceGenerator\RidgeSourceGenerator.ControllerClientGenerator\WeatherForecastController_Client.g.cs" label="WeatherForecastController_Client.g.cs" >
 
 
 ```csharp showLineNumbers 

@@ -165,7 +165,7 @@ This is the CSharp Project that references **System.Text.RegularExpressions**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\System.Text.RegularExpressions\src\DemoRegex\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\System.Text.RegularExpressions\src\DemoRegex\Program.cs" label="Program.cs" >
 
   This is the use of **System.Text.RegularExpressions** in *Program.cs*
 
@@ -178,7 +178,7 @@ Console.WriteLine(DemoRegex.EvaluateText(x));
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\System.Text.RegularExpressions\src\DemoRegex\WeatherForecast.cs" label="WeatherForecast.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\System.Text.RegularExpressions\src\DemoRegex\WeatherForecast.cs" label="WeatherForecast.cs" >
 
   This is the use of **System.Text.RegularExpressions** in *WeatherForecast.cs*
 
@@ -211,7 +211,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\System.Text.RegularExpressions\src\DemoRegex\obj\GX\System.Text.RegularExpressions.Generator\System.Text.RegularExpressions.Generator.RegexGenerator\RegexGenerator.g.cs" label="RegexGenerator.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\System.Text.RegularExpressions\src\DemoRegex\obj\GX\System.Text.RegularExpressions.Generator\System.Text.RegularExpressions.Generator.RegexGenerator\RegexGenerator.g.cs" label="RegexGenerator.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -239,7 +239,7 @@ namespace Demo
         ///         ○ Match a character in the set [Ff].<br/>
         /// </code>
         /// </remarks>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.8.32018")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.8.47720")]
         private static partial global::System.Text.RegularExpressions.Regex AbcOrDefGeneratedRegex() => global::System.Text.RegularExpressions.Generated.AbcOrDefGeneratedRegex_0.Instance;
     }
 }
@@ -256,7 +256,7 @@ namespace System.Text.RegularExpressions.Generated
     using System.Threading;
 
     /// <summary>Custom <see cref="Regex"/>-derived type for the AbcOrDefGeneratedRegex method.</summary>
-    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.8.32018")]
+    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.8.47720")]
     file sealed class AbcOrDefGeneratedRegex_0 : Regex
     {
         /// <summary>Cached, thread-safe singleton instance.</summary>
@@ -393,7 +393,7 @@ namespace System.Text.RegularExpressions.Generated
     }
     
     /// <summary>Helper methods used by generated <see cref="Regex"/>-derived implementations.</summary>
-    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.8.32018")]
+    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.8.47720")]
     file static class Utilities
     {
         /// <summary>Default timeout value set in <see cref="AppContext"/>, or <see cref="Regex.InfiniteMatchTimeout"/> if none was set.</summary>

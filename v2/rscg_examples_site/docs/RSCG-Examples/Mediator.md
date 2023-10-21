@@ -601,7 +601,7 @@ This is the CSharp Project that references **Mediator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Mediator** in *Program.cs*
 
@@ -628,7 +628,7 @@ Console.WriteLine(response);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\GenericLoggerHandler.cs" label="GenericLoggerHandler.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\GenericLoggerHandler.cs" label="GenericLoggerHandler.cs" >
 
   This is the use of **Mediator** in *GenericLoggerHandler.cs*
 
@@ -656,7 +656,7 @@ public sealed class GenericLoggerHandler<TMessage, TResponse> : IPipelineBehavio
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\PingPong.cs" label="PingPong.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\PingPong.cs" label="PingPong.cs" >
 
   This is the use of **Mediator** in *PingPong.cs*
 
@@ -688,7 +688,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\obj\GX\Mediator.SourceGenerator.Roslyn40\Mediator.SourceGenerator.IncrementalMediatorGenerator\Mediator.g.cs" label="Mediator.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\obj\GX\Mediator.SourceGenerator.Roslyn40\Mediator.SourceGenerator.IncrementalMediatorGenerator\Mediator.g.cs" label="Mediator.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1558,7 +1558,7 @@ namespace Mediator
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\obj\GX\Mediator.SourceGenerator.Roslyn40\Mediator.SourceGenerator.IncrementalMediatorGenerator\MediatorOptions.g.cs" label="MediatorOptions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\obj\GX\Mediator.SourceGenerator.Roslyn40\Mediator.SourceGenerator.IncrementalMediatorGenerator\MediatorOptions.g.cs" label="MediatorOptions.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1594,7 +1594,7 @@ namespace Mediator
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\obj\GX\Mediator.SourceGenerator.Roslyn40\Mediator.SourceGenerator.IncrementalMediatorGenerator\MediatorOptionsAttribute.g.cs" label="MediatorOptionsAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mediator\src\MediatorDemo\obj\GX\Mediator.SourceGenerator.Roslyn40\Mediator.SourceGenerator.IncrementalMediatorGenerator\MediatorOptionsAttribute.g.cs" label="MediatorOptionsAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 

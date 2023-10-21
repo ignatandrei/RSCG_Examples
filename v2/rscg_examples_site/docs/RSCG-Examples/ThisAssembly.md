@@ -476,7 +476,7 @@ This is the CSharp Project that references **ThisAssembly**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\Program.cs" label="Program.cs" >
 
   This is the use of **ThisAssembly** in *Program.cs*
 
@@ -496,7 +496,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.AssemblyInfo\ThisAssembly.AssemblyInfoGenerator\ThisAssembly.AssemblyInfo.g.cs" label="ThisAssembly.AssemblyInfo.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.AssemblyInfo\ThisAssembly.AssemblyInfoGenerator\ThisAssembly.AssemblyInfo.g.cs" label="ThisAssembly.AssemblyInfo.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -546,7 +546,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Branch.g.cs" label="Branch.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Branch.g.cs" label="Branch.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -578,7 +578,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Commit.g.cs" label="Commit.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Commit.g.cs" label="Commit.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -610,7 +610,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Root.g.cs" label="Root.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Root.g.cs" label="Root.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -642,7 +642,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Sha.g.cs" label="Sha.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Sha.g.cs" label="Sha.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -674,7 +674,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Url.g.cs" label="Url.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Constants\ThisAssembly.ConstantsGenerator\Url.g.cs" label="Url.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -706,7 +706,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Metadata\ThisAssembly.MetadataGenerator\ThisAssembly.Metadata.g.cs" label="ThisAssembly.Metadata.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Metadata\ThisAssembly.MetadataGenerator\ThisAssembly.Metadata.g.cs" label="ThisAssembly.Metadata.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -742,7 +742,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Project\ThisAssembly.ProjectPropertyGenerator\ThisAssembly.Property.g.cs" label="ThisAssembly.Property.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Project\ThisAssembly.ProjectPropertyGenerator\ThisAssembly.Property.g.cs" label="ThisAssembly.Property.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -793,7 +793,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Resource\ThisAssembly.ResourcesGenerator\ThisAssembly.Resources.EmbeddedResource.cs" label="ThisAssembly.Resources.EmbeddedResource.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Resource\ThisAssembly.ResourcesGenerator\ThisAssembly.Resources.EmbeddedResource.cs" label="ThisAssembly.Resources.EmbeddedResource.cs" >
 
 
 ```csharp showLineNumbers 
@@ -849,7 +849,7 @@ static class EmbeddedResource
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Strings\ThisAssembly.StringsGenerator\ThisAssembly.Strings.g.cs" label="ThisAssembly.Strings.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.Strings\ThisAssembly.StringsGenerator\ThisAssembly.Strings.g.cs" label="ThisAssembly.Strings.g.cs" >
 
 
 ```csharp showLineNumbers 

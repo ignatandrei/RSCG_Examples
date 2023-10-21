@@ -290,7 +290,7 @@ This is the CSharp Project that references **Injectio**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\InjectioDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Injectio** in *Program.cs*
 
@@ -309,7 +309,7 @@ db.Open();
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\InjectioDemo\Database.cs" label="Database.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\Database.cs" label="Database.cs" >
 
   This is the use of **Injectio** in *Database.cs*
 
@@ -338,7 +338,7 @@ internal class Database : IDatabase
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\InjectioDemo\IDatabase.cs" label="IDatabase.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\IDatabase.cs" label="IDatabase.cs" >
 
   This is the use of **Injectio** in *IDatabase.cs*
 
@@ -353,7 +353,7 @@ namespace InjectioDemo
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\InjectioDemo\DatabaseCon.cs" label="DatabaseCon.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\DatabaseCon.cs" label="DatabaseCon.cs" >
 
   This is the use of **Injectio** in *DatabaseCon.cs*
 
@@ -381,7 +381,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\InjectioDemo\obj\GX\Injectio.Generators\Injectio.Generators.ServiceRegistrationGenerator\Injectio.g.cs" label="Injectio.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src\InjectioDemo\obj\GX\Injectio.Generators\Injectio.Generators.ServiceRegistrationGenerator\Injectio.g.cs" label="Injectio.g.cs" >
 
 
 ```csharp showLineNumbers 

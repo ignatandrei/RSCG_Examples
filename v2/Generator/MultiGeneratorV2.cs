@@ -527,7 +527,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ////Console.WriteLine(zipFile);
         //if (File.Exists(zipFile)) File.Delete(zipFile);
         //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
-        //await BuildProject(sources);
+        await BuildProject(sources);
         ArgumentNullException.ThrowIfNull(desc.Data);
         ArgumentNullException.ThrowIfNull(desc.Data.CSProj);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);

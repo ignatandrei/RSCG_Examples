@@ -567,7 +567,7 @@ This is the CSharp Project that references **Immutype**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Immutype** in *Program.cs*
 
@@ -580,7 +580,7 @@ Console.WriteLine(p2.LastName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\Person.cs" label="Person.cs" >
 
   This is the use of **Immutype** in *Person.cs*
 
@@ -615,7 +615,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\obj\GX\Immutype\Immutype.SourceGenerator\Immutype.Components.Contracts.cs" label="Immutype.Components.Contracts.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\obj\GX\Immutype\Immutype.SourceGenerator\Immutype.Components.Contracts.cs" label="Immutype.Components.Contracts.cs" >
 
 
 ```csharp showLineNumbers 
@@ -633,7 +633,7 @@ namespace Immutype
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\obj\GX\Immutype\Immutype.SourceGenerator\ImmutypeDemo.Person.cs" label="ImmutypeDemo.Person.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Immutype\src\ImmutypeDemo\obj\GX\Immutype\Immutype.SourceGenerator\ImmutypeDemo.Person.cs" label="ImmutypeDemo.Person.cs" >
 
 
 ```csharp showLineNumbers 

@@ -1390,7 +1390,7 @@ This is the CSharp Project that references **Refit**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Refit** in *Program.cs*
 
@@ -1402,7 +1402,7 @@ Console.WriteLine(data.Title);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\Post.cs" label="Post.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\Post.cs" label="Post.cs" >
 
   This is the use of **Refit** in *Post.cs*
 
@@ -1417,7 +1417,7 @@ public record Post
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\IFindPosts.cs" label="IFindPosts.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\IFindPosts.cs" label="IFindPosts.cs" >
 
   This is the use of **Refit** in *IFindPosts.cs*
 
@@ -1441,7 +1441,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\obj\GX\InterfaceStubGeneratorV2\Refit.Generator.InterfaceStubGeneratorV2\Generated.g.cs" label="Generated.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\obj\GX\InterfaceStubGeneratorV2\Refit.Generator.InterfaceStubGeneratorV2\Generated.g.cs" label="Generated.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1467,7 +1467,7 @@ namespace Refit.Implementation
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\obj\GX\InterfaceStubGeneratorV2\Refit.Generator.InterfaceStubGeneratorV2\IFindPosts.g.cs" label="IFindPosts.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\obj\GX\InterfaceStubGeneratorV2\Refit.Generator.InterfaceStubGeneratorV2\IFindPosts.g.cs" label="IFindPosts.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1528,7 +1528,7 @@ namespace Refit.Implementation
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\obj\GX\InterfaceStubGeneratorV2\Refit.Generator.InterfaceStubGeneratorV2\PreserveAttribute.g.cs" label="PreserveAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Refit\src\RefitDemo\obj\GX\InterfaceStubGeneratorV2\Refit.Generator.InterfaceStubGeneratorV2\PreserveAttribute.g.cs" label="PreserveAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 

@@ -312,7 +312,7 @@ This is the CSharp Project that references **NetEscapades.EnumGenerators**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\Program.cs" label="Program.cs" >
 
   This is the use of **NetEscapades.EnumGenerators** in *Program.cs*
 
@@ -334,7 +334,7 @@ Console.WriteLine($"HasFlag(Biscuit), {flags.HasFlagFast(AddToCoffee.Biscuit)}")
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\InstallType.cs" label="InstallType.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\InstallType.cs" label="InstallType.cs" >
 
   This is the use of **NetEscapades.EnumGenerators** in *InstallType.cs*
 
@@ -356,7 +356,7 @@ internal enum InstallType
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\AddToCoffee.cs" label="AddToCoffee.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\AddToCoffee.cs" label="AddToCoffee.cs" >
 
   This is the use of **NetEscapades.EnumGenerators** in *AddToCoffee.cs*
 
@@ -384,7 +384,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\obj\GX\NetEscapades.EnumGenerators\NetEscapades.EnumGenerators.EnumGenerator\AddToCoffeeExtensions_EnumExtensions.g.cs" label="AddToCoffeeExtensions_EnumExtensions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\obj\GX\NetEscapades.EnumGenerators\NetEscapades.EnumGenerators.EnumGenerator\AddToCoffeeExtensions_EnumExtensions.g.cs" label="AddToCoffeeExtensions_EnumExtensions.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -792,7 +792,7 @@ using System;
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\obj\GX\NetEscapades.EnumGenerators\NetEscapades.EnumGenerators.EnumGenerator\EnumExtensionsAttribute.g.cs" label="EnumExtensionsAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\obj\GX\NetEscapades.EnumGenerators\NetEscapades.EnumGenerators.EnumGenerator\EnumExtensionsAttribute.g.cs" label="EnumExtensionsAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -844,7 +844,7 @@ namespace NetEscapades.EnumGenerators
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\obj\GX\NetEscapades.EnumGenerators\NetEscapades.EnumGenerators.EnumGenerator\InstallTypeExtensions_EnumExtensions.g.cs" label="InstallTypeExtensions_EnumExtensions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src\TestEnumEscapades\obj\GX\NetEscapades.EnumGenerators\NetEscapades.EnumGenerators.EnumGenerator\InstallTypeExtensions_EnumExtensions.g.cs" label="InstallTypeExtensions_EnumExtensions.g.cs" >
 
 
 ```csharp showLineNumbers 

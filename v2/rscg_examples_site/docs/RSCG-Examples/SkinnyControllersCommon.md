@@ -158,7 +158,7 @@ This is the CSharp Project that references **SkinnyControllersCommon**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\Program.cs" label="Program.cs" >
 
   This is the use of **SkinnyControllersCommon** in *Program.cs*
 
@@ -194,7 +194,7 @@ app.Run();
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\Controllers\WeatherForecastController.cs" label="WeatherForecastController.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\Controllers\WeatherForecastController.cs" label="WeatherForecastController.cs" >
 
   This is the use of **SkinnyControllersCommon** in *WeatherForecastController.cs*
 
@@ -224,7 +224,7 @@ public partial class WeatherForecastController : ControllerBase
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\Controllers\WeatherActions.cs" label="WeatherActions.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\Controllers\WeatherActions.cs" label="WeatherActions.cs" >
 
   This is the use of **SkinnyControllersCommon** in *WeatherActions.cs*
 
@@ -266,7 +266,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\obj\GX\SkinnyControllerGeneratorV2\SkinnyControllerGeneratorV2.AutoGenerateActions\WeatherForecastController.autogenerate.cs" label="WeatherForecastController.autogenerate.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SkinnyControllersCommon\src\SkinnyControllersDemo\obj\GX\SkinnyControllerGeneratorV2\SkinnyControllerGeneratorV2.AutoGenerateActions\WeatherForecastController.autogenerate.cs" label="WeatherForecastController.autogenerate.cs" >
 
 
 ```csharp showLineNumbers 

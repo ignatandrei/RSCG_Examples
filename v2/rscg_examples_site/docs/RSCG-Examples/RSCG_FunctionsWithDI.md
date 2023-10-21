@@ -240,7 +240,7 @@ This is the CSharp Project that references **RSCG_FunctionsWithDI**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\Program.cs" label="Program.cs" >
 
   This is the use of **RSCG_FunctionsWithDI** in *Program.cs*
 
@@ -259,7 +259,7 @@ Console.WriteLine("the TestMyFunc1 is not called with [FromServices] parameters 
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\TestDI1.cs" label="TestDI1.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\TestDI1.cs" label="TestDI1.cs" >
 
   This is the use of **RSCG_FunctionsWithDI** in *TestDI1.cs*
 
@@ -274,7 +274,7 @@ public class TestDI1
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\TestDI2.cs" label="TestDI2.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\TestDI2.cs" label="TestDI2.cs" >
 
   This is the use of **RSCG_FunctionsWithDI** in *TestDI2.cs*
 
@@ -289,7 +289,7 @@ public class TestDI2
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\TestDIMyClass.cs" label="TestDIMyClass.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\TestDIMyClass.cs" label="TestDIMyClass.cs" >
 
   This is the use of **RSCG_FunctionsWithDI** in *TestDIMyClass.cs*
 
@@ -317,7 +317,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\obj\GX\RSCG_FunctionsWithDI\RSCG_FunctionsWithDI.DIGenerator\TestDIMyClass_gen_methods.cs" label="TestDIMyClass_gen_methods.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_FunctionsWithDI\src\RSCG_FunctionsWithDIDemo\obj\GX\RSCG_FunctionsWithDI\RSCG_FunctionsWithDI.DIGenerator\TestDIMyClass_gen_methods.cs" label="TestDIMyClass_gen_methods.cs" >
 
 
 ```csharp showLineNumbers 

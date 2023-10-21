@@ -10,24 +10,24 @@
 "step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly)",
 "step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly",
 "step_10_text":" Here is the code ",
-"step_11_exec":"explorer.exe /select,C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\mapperlyDemo.csproj",
+"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\mapperlyDemo.csproj",
 "step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\mapperlyDemo.csproj",
+"step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\mapperlyDemo.csproj",
 
 "step_14_text": "You put the  [Riok.Mapperly](https://www.nuget.org/packages/Riok.Mapperly/) into the csproj ",
 
-"step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\mapperlyDemo.csproj",
+"step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\mapperlyDemo.csproj",
 
 "step_16_text": "I have used the mapperly in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\PersonMapper.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\PersonMapper.cs",
     
-        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\PersonDTO.cs",
+        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\PersonDTO.cs",
     
-        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\Person.cs",
+        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\Person.cs",
     
-        "step_20_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\Program.cs",
+        "step_20_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\mapperly\\src\\mapperlyDemo\\Program.cs",
     
 "step_21_hide": "hide"
 

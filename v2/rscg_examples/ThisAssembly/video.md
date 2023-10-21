@@ -10,18 +10,18 @@
 "step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly)",
 "step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly",
 "step_10_text":" Here is the code ",
-"step_11_exec":"explorer.exe /select,C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\RSCG_Version.csproj",
+"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\RSCG_Version.csproj",
 "step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\RSCG_Version.csproj",
+"step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\RSCG_Version.csproj",
 
 "step_14_text": "You put the  [ThisAssembly](https://www.nuget.org/packages/ThisAssembly) into the csproj ",
 
-"step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\RSCG_Version.csproj",
+"step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\RSCG_Version.csproj",
 
 "step_16_text": "I have used the ThisAssembly in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\Program.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ThisAssembly\\src\\RSCG_Version\\Program.cs",
     
 "step_18_hide": "hide"
 

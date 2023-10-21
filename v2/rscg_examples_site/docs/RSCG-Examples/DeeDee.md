@@ -96,7 +96,7 @@ This is the CSharp Project that references **DeeDee**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\Program.cs" label="Program.cs" >
 
   This is the use of **DeeDee** in *Program.cs*
 
@@ -124,7 +124,7 @@ Console.WriteLine(response);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\PingPong.cs" label="PingPong.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\PingPong.cs" label="PingPong.cs" >
 
   This is the use of **DeeDee** in *PingPong.cs*
 
@@ -147,7 +147,7 @@ public sealed class PingHandler : IPipelineAction<Ping, Pong>
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\GenericLoggerHandler.cs" label="GenericLoggerHandler.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\GenericLoggerHandler.cs" label="GenericLoggerHandler.cs" >
 
   This is the use of **DeeDee** in *GenericLoggerHandler.cs*
 
@@ -182,7 +182,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\obj\GX\DeeDee\DeeDee.SourceGenerator\Dispatcher.cs" label="Dispatcher.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\obj\GX\DeeDee\DeeDee.SourceGenerator\Dispatcher.cs" label="Dispatcher.cs" >
 
 
 ```csharp showLineNumbers 
@@ -262,7 +262,7 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\obj\GX\DeeDee\DeeDee.SourceGenerator\IDispatcher.cs" label="IDispatcher.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\obj\GX\DeeDee\DeeDee.SourceGenerator\IDispatcher.cs" label="IDispatcher.cs" >
 
 
 ```csharp showLineNumbers 
@@ -283,7 +283,7 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\obj\GX\DeeDee\DeeDee.SourceGenerator\IocExtensions.cs" label="IocExtensions.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\DeeDee\src\MediatorDemo\obj\GX\DeeDee\DeeDee.SourceGenerator\IocExtensions.cs" label="IocExtensions.cs" >
 
 
 ```csharp showLineNumbers 

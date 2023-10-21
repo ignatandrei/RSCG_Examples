@@ -623,7 +623,7 @@ This is the CSharp Project that references **ResXGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\Program.cs" label="Program.cs" >
 
   This is the use of **ResXGenerator** in *Program.cs*
 
@@ -635,7 +635,7 @@ Console.WriteLine(ResXDemo.GenResources.MyName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\GenResources.resx" label="GenResources.resx" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\GenResources.resx" label="GenResources.resx" >
 
   This is the use of **ResXGenerator** in *GenResources.resx*
 
@@ -766,7 +766,7 @@ Console.WriteLine(ResXDemo.GenResources.MyName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\GenResources.Designer.cs" label="GenResources.Designer.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\GenResources.Designer.cs" label="GenResources.Designer.cs" >
 
   This is the use of **ResXGenerator** in *GenResources.Designer.cs*
 
@@ -856,7 +856,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\obj\GX\Aigamo.ResXGenerator\Aigamo.ResXGenerator.SourceGenerator\Aigamo.ResXGenerator..g.cs" label="Aigamo.ResXGenerator..g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\obj\GX\Aigamo.ResXGenerator\Aigamo.ResXGenerator.SourceGenerator\Aigamo.ResXGenerator..g.cs" label="Aigamo.ResXGenerator..g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -883,7 +883,7 @@ internal static partial class Helpers
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\obj\GX\Aigamo.ResXGenerator\Aigamo.ResXGenerator.SourceGenerator\ResXDemo.GenResourcesModel.g.cs" label="ResXDemo.GenResourcesModel.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ResXGenerator\src\ResXDemo\obj\GX\Aigamo.ResXGenerator\Aigamo.ResXGenerator.SourceGenerator\ResXDemo.GenResourcesModel.g.cs" label="ResXDemo.GenResourcesModel.g.cs" >
 
 
 ```csharp showLineNumbers 

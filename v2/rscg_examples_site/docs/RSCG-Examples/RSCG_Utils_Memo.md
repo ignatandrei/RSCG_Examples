@@ -204,7 +204,7 @@ This is the CSharp Project that references **RSCG_Utils_Memo**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\Program.cs" label="Program.cs" >
 
   This is the use of **RSCG_Utils_Memo** in *Program.cs*
 
@@ -230,7 +230,7 @@ Console.WriteLine(" in  " + DateTime.Now.Subtract(dt).TotalSeconds.ToString("0#"
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\fib.cs" label="fib.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\fib.cs" label="fib.cs" >
 
   This is the use of **RSCG_Utils_Memo** in *fib.cs*
 
@@ -275,7 +275,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\obj\GX\RSCG_Utils\RSCG_Utils.UtilsGenerator\DemoRSCG_UtilsMemo_fibTest_fibonacci_MemoPure.cs" label="DemoRSCG_UtilsMemo_fibTest_fibonacci_MemoPure.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\obj\GX\RSCG_Utils\RSCG_Utils.UtilsGenerator\DemoRSCG_UtilsMemo_fibTest_fibonacci_MemoPure.cs" label="DemoRSCG_UtilsMemo_fibTest_fibonacci_MemoPure.cs" >
 
 
 ```csharp showLineNumbers 
@@ -306,7 +306,7 @@ partial class fibTest
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\obj\GX\RSCG_Utils\RSCG_Utils.UtilsGenerator\DemoRSCG_UtilsMemo_fibTest_Test_MemoPure.cs" label="DemoRSCG_UtilsMemo_fibTest_Test_MemoPure.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Memo\src\DemoRSCG_UtilsMemo\obj\GX\RSCG_Utils\RSCG_Utils.UtilsGenerator\DemoRSCG_UtilsMemo_fibTest_Test_MemoPure.cs" label="DemoRSCG_UtilsMemo_fibTest_Test_MemoPure.cs" >
 
 
 ```csharp showLineNumbers 

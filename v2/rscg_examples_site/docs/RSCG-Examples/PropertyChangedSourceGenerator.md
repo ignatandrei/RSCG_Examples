@@ -763,7 +763,7 @@ This is the CSharp Project that references **PropertyChangedSourceGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\Program.cs" label="Program.cs" >
 
   This is the use of **PropertyChangedSourceGenerator** in *Program.cs*
 
@@ -776,7 +776,7 @@ Console.WriteLine (person.FirstName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\Person.cs" label="Person.cs" >
 
   This is the use of **PropertyChangedSourceGenerator** in *Person.cs*
 
@@ -802,7 +802,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\obj\GX\PropertyChanged.SourceGenerator\PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator\Attributes.cs" label="Attributes.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\obj\GX\PropertyChanged.SourceGenerator\PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator\Attributes.cs" label="Attributes.cs" >
 
 
 ```csharp showLineNumbers 
@@ -935,7 +935,7 @@ namespace PropertyChanged.SourceGenerator
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\obj\GX\PropertyChanged.SourceGenerator\PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator\EventArgsCache.g.cs" label="EventArgsCache.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\obj\GX\PropertyChanged.SourceGenerator\PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator\EventArgsCache.g.cs" label="EventArgsCache.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -956,7 +956,7 @@ namespace PropertyChanged.SourceGenerator.Internal
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\obj\GX\PropertyChanged.SourceGenerator\PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator\Person.g.cs" label="Person.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PropChange\src\PropChangeDemo\obj\GX\PropertyChanged.SourceGenerator\PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator\Person.g.cs" label="Person.g.cs" >
 
 
 ```csharp showLineNumbers 

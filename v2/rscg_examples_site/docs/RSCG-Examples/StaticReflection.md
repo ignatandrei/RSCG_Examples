@@ -182,7 +182,7 @@ This is the CSharp Project that references **StaticReflection**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StaticReflection\src\StaticReflectionDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StaticReflection\src\StaticReflectionDemo\Program.cs" label="Program.cs" >
 
   This is the use of **StaticReflection** in *Program.cs*
 
@@ -199,7 +199,7 @@ Console.WriteLine(p.Name());
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StaticReflection\src\StaticReflectionDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StaticReflection\src\StaticReflectionDemo\Person.cs" label="Person.cs" >
 
   This is the use of **StaticReflection** in *Person.cs*
 
@@ -230,7 +230,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StaticReflection\src\StaticReflectionDemo\obj\GX\StaticReflection.CodeGen\StaticReflection.CodeGen.Generators.StaticReflectionGenerator\PersonReflection.g.cs" label="PersonReflection.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StaticReflection\src\StaticReflectionDemo\obj\GX\StaticReflection.CodeGen\StaticReflection.CodeGen.Generators.StaticReflectionGenerator\PersonReflection.g.cs" label="PersonReflection.g.cs" >
 
 
 ```csharp showLineNumbers 

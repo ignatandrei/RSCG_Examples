@@ -5,7 +5,7 @@ using System.Text.Json.Serialization;
 string originalFolder = @"C:\test\RSCG_Examples";
 if (!Directory.Exists(originalFolder))
 {
-    originalFolder = @"C:\gth\RSCG_Examples";
+    originalFolder = @"D:\gth\RSCG_Examples";
 }
 originalFolder = Path.Combine(originalFolder, "v2", "rscg_examples");
 

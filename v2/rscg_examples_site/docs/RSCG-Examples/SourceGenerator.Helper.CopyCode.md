@@ -141,7 +141,7 @@ This is the CSharp Project that references **SourceGenerator.Helper.CopyCode**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\Program.cs" label="Program.cs" >
 
   This is the use of **SourceGenerator.Helper.CopyCode** in *Program.cs*
 
@@ -152,7 +152,7 @@ Console.WriteLine(SourceGenerator.Helper.CopyCode.Copy.SourceGenerator_Helper_Co
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\Person.cs" label="Person.cs" >
 
   This is the use of **SourceGenerator.Helper.CopyCode** in *Person.cs*
 
@@ -184,7 +184,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\obj\GX\SourceGenerator.Helper.CopyCode\SourceGenerator.Helper.CopyCode.CopyGenerator\CopyAttribute.g.cs" label="CopyAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\obj\GX\SourceGenerator.Helper.CopyCode\SourceGenerator.Helper.CopyCode.CopyGenerator\CopyAttribute.g.cs" label="CopyAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -205,7 +205,7 @@ namespace SourceGenerator.Helper.CopyCode
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\obj\GX\SourceGenerator.Helper.CopyCode\SourceGenerator.Helper.CopyCode.CopyGenerator\SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs" label="SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\obj\GX\SourceGenerator.Helper.CopyCode\SourceGenerator.Helper.CopyCode.CopyGenerator\SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs" label="SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -231,7 +231,7 @@ internal  static partial class Copy {
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\obj\GX\SourceGenerator.Helper.CopyCode\SourceGenerator.Helper.CopyCode.CopyGenerator\SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs" label="SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SourceGenerator.Helper.CopyCode\src\Demo\obj\GX\SourceGenerator.Helper.CopyCode\SourceGenerator.Helper.CopyCode.CopyGenerator\SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs" label="SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs" >
 
 
 ```csharp showLineNumbers 

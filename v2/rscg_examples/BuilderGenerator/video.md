@@ -10,22 +10,22 @@
 "step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator)",
 "step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator",
 "step_10_text":" Here is the code ",
-"step_11_exec":"explorer.exe /select,C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
+"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
 "step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
+"step_13_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
 
 "step_14_text": "You put the  [BuilderGenerator](https://www.nuget.org/packages/BuilderGenerator/) into the csproj ",
 
-"step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
+"step_15_exec": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
 
 "step_16_text": "I have used the BuilderGenerator in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\PersonBuilder.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\PersonBuilder.cs",
     
-        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Person.cs",
+        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Person.cs",
     
-        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit C:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Program.cs",
+        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Program.cs",
     
 "step_20_hide": "hide"
 

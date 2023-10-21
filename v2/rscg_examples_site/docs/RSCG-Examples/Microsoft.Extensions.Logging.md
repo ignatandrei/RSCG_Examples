@@ -159,7 +159,7 @@ This is the CSharp Project that references **Microsoft.Extensions.Logging**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Extensions.Logging\src\DemoLogging\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Extensions.Logging\src\DemoLogging\Program.cs" label="Program.cs" >
 
   This is the use of **Microsoft.Extensions.Logging** in *Program.cs*
 
@@ -188,7 +188,7 @@ file readonly record struct SampleObject { }
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Extensions.Logging\src\DemoLogging\LogDemo.cs" label="LogDemo.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Extensions.Logging\src\DemoLogging\LogDemo.cs" label="LogDemo.cs" >
 
   This is the use of **Microsoft.Extensions.Logging** in *LogDemo.cs*
 
@@ -246,7 +246,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Extensions.Logging\src\DemoLogging\obj\GX\Microsoft.Extensions.Logging.Generators\Microsoft.Extensions.Logging.Generators.LoggerMessageGenerator\LoggerMessage.g.cs" label="LoggerMessage.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Extensions.Logging\src\DemoLogging\obj\GX\Microsoft.Extensions.Logging.Generators\Microsoft.Extensions.Logging.Generators.LoggerMessageGenerator\LoggerMessage.g.cs" label="LoggerMessage.g.cs" >
 
 
 ```csharp showLineNumbers 

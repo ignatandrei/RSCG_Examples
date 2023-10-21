@@ -153,7 +153,7 @@ This is the CSharp Project that references **StringLiteral**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\Program.cs" label="Program.cs" >
 
   This is the use of **StringLiteral** in *Program.cs*
 
@@ -166,7 +166,7 @@ Console.WriteLine(Encoding.UTF8.GetString(LiteralConstants.MyName()));
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\LiteralConstants.cs" label="LiteralConstants.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\LiteralConstants.cs" label="LiteralConstants.cs" >
 
   This is the use of **StringLiteral** in *LiteralConstants.cs*
 
@@ -191,7 +191,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\obj\GX\StringLiteralGenerator\StringLiteralGenerator.Utf8StringLiteralGenerator\StringLiteralDemo_LiteralConstants_utf8literal.cs" label="StringLiteralDemo_LiteralConstants_utf8literal.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\obj\GX\StringLiteralGenerator\StringLiteralGenerator.Utf8StringLiteralGenerator\StringLiteralDemo_LiteralConstants_utf8literal.cs" label="StringLiteralDemo_LiteralConstants_utf8literal.cs" >
 
 
 ```csharp showLineNumbers 
@@ -209,7 +209,7 @@ partial class LiteralConstants
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\obj\GX\StringLiteralGenerator\StringLiteralGenerator.Utf8StringLiteralGenerator\Utf8Attribute.cs" label="Utf8Attribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\StringLiteral\src\StringLiteralDemo\obj\GX\StringLiteralGenerator\StringLiteralGenerator.Utf8StringLiteralGenerator\Utf8Attribute.cs" label="Utf8Attribute.cs" >
 
 
 ```csharp showLineNumbers 

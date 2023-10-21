@@ -117,7 +117,7 @@ This is the CSharp Project that references **Podimo.ConstEmbed**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Podimo.ConstEmbed\src\PodimoConstEmbedDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Podimo.ConstEmbed\src\PodimoConstEmbedDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Podimo.ConstEmbed** in *Program.cs*
 
@@ -127,7 +127,7 @@ Console.WriteLine(MyAppNamespace.SQL.createDB);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Podimo.ConstEmbed\src\PodimoConstEmbedDemo\sql\createDB.sql" label="createDB.sql" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Podimo.ConstEmbed\src\PodimoConstEmbedDemo\sql\createDB.sql" label="createDB.sql" >
 
   This is the use of **Podimo.ConstEmbed** in *createDB.sql*
 
@@ -149,7 +149,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Podimo.ConstEmbed\src\PodimoConstEmbedDemo\obj\GX\Podimo.ConstEmbed\Podimo.ConstEmbed.ConstEmbedGenerator\SQL.createDB.g.cs" label="SQL.createDB.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Podimo.ConstEmbed\src\PodimoConstEmbedDemo\obj\GX\Podimo.ConstEmbed\Podimo.ConstEmbed.ConstEmbedGenerator\SQL.createDB.g.cs" label="SQL.createDB.g.cs" >
 
 
 ```csharp showLineNumbers 

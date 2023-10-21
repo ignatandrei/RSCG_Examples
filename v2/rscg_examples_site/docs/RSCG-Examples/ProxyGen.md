@@ -257,7 +257,7 @@ This is the CSharp Project that references **ProxyGen**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\Program.cs" label="Program.cs" >
 
   This is the use of **ProxyGen** in *Program.cs*
 
@@ -270,7 +270,7 @@ Console.WriteLine(duck.FullName());
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\Person.cs" label="Person.cs" >
 
   This is the use of **ProxyGen** in *Person.cs*
 
@@ -292,7 +292,7 @@ public class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\IPerson.cs" label="IPerson.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\IPerson.cs" label="IPerson.cs" >
 
   This is the use of **ProxyGen** in *IPerson.cs*
 
@@ -309,7 +309,7 @@ public interface IPerson
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\globals.cs" label="globals.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\globals.cs" label="globals.cs" >
 
   This is the use of **ProxyGen** in *globals.cs*
 
@@ -332,7 +332,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\obj\GX\Solti.Utils.Proxy\Solti.Utils.Proxy.Internals.ProxyEmbedder\Duck_BB1E45629CF5010E4068E5BFBB7EF53B.cs" label="Duck_BB1E45629CF5010E4068E5BFBB7EF53B.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ProxyGen\src\ProxyGenDemo\obj\GX\Solti.Utils.Proxy\Solti.Utils.Proxy.Internals.ProxyEmbedder\Duck_BB1E45629CF5010E4068E5BFBB7EF53B.cs" label="Duck_BB1E45629CF5010E4068E5BFBB7EF53B.cs" >
 
 
 ```csharp showLineNumbers 
