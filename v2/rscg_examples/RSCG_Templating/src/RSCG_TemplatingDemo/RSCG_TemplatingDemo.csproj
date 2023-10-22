@@ -10,14 +10,11 @@
 		<AdditionalFiles Include="ClassTypeName.txt" />
 		<AdditionalFiles Include="ClassPropByName.txt" />
 	</ItemGroup>
-
-
-
-	<ItemGroup>
-    <PackageReference Include="RSCG_Templating" Version="2023.1007.724" OutputItemType="Analyzer"  ReferenceOutputAssembly="false"   />
-    <PackageReference Include="RSCG_TemplatingCommon" Version="2023.1007.724" />
+	 <ItemGroup>
+    <PackageReference Include="RSCG_Templating" Version="2023.1022.1748" OutputItemType="Analyzer"  />
+    <PackageReference Include="RSCG_TemplatingCommon" Version="2023.1022.1748"  />
+    
   </ItemGroup>
-
 
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
