@@ -145,7 +145,7 @@ This is the CSharp Project that references **mapperly**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\Program.cs" label="Program.cs" >
 
   This is the use of **mapperly** in *Program.cs*
 
@@ -162,7 +162,7 @@ Console.WriteLine(dto.FullName);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\Person.cs" label="Person.cs" >
 
   This is the use of **mapperly** in *Person.cs*
 
@@ -179,7 +179,7 @@ public class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\PersonDTO.cs" label="PersonDTO.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\PersonDTO.cs" label="PersonDTO.cs" >
 
   This is the use of **mapperly** in *PersonDTO.cs*
 
@@ -203,7 +203,7 @@ public class PersonDTO
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\PersonMapper.cs" label="PersonMapper.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\PersonMapper.cs" label="PersonMapper.cs" >
 
   This is the use of **mapperly** in *PersonMapper.cs*
 
@@ -229,7 +229,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\obj\GX\Riok.Mapperly\Riok.Mapperly.MapperGenerator\PersonMapper.g.cs" label="PersonMapper.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\mapperly\src\mapperlyDemo\obj\GX\Riok.Mapperly\Riok.Mapperly.MapperGenerator\PersonMapper.g.cs" label="PersonMapper.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -281,6 +281,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
 
 
 ### [AutoDTO](/docs/AutoDTO)
+
+
+### [DynamicsMapper](/docs/DynamicsMapper)
 
 
 ### [MagicMap](/docs/MagicMap)

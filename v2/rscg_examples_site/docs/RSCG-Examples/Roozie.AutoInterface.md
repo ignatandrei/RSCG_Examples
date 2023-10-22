@@ -148,7 +148,7 @@ This is the CSharp Project that references **Roozie.AutoInterface**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Roozie.AutoInterface\src\Roozie.AutoInterfaceDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Roozie.AutoInterface\src\Roozie.AutoInterfaceDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Roozie.AutoInterface** in *Program.cs*
 
@@ -162,7 +162,7 @@ Console.WriteLine(p.FullName() );
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Roozie.AutoInterface\src\Roozie.AutoInterfaceDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Roozie.AutoInterface\src\Roozie.AutoInterfaceDemo\Person.cs" label="Person.cs" >
 
   This is the use of **Roozie.AutoInterface** in *Person.cs*
 
@@ -195,7 +195,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Roozie.AutoInterface\src\Roozie.AutoInterfaceDemo\obj\GX\Roozie.AutoInterface\Roozie.AutoInterface.Generator\IPerson.g.cs" label="IPerson.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Roozie.AutoInterface\src\Roozie.AutoInterfaceDemo\obj\GX\Roozie.AutoInterface\Roozie.AutoInterface.Generator\IPerson.g.cs" label="IPerson.g.cs" >
 
 
 ```csharp showLineNumbers 

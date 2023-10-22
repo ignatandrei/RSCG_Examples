@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"DynamicsMapper",
+      "nuget":[
+         "https://www.nuget.org/packages/YC.DynamicsMapper/"
+      ],
+      "link":"https://github.com/YonatanCohavi/DynamicsMapper/",
+      "author":"Yonatan Cohavi",
+      "source":"https://github.com/YonatanCohavi/DynamicsMapper/"
+   },
+   "data":{
+      "goodFor":["Mapper for Dataverse client - generates also column names from properties"],
+      "csprojDemo":"MapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -154,7 +154,7 @@ This is the CSharp Project that references **SyncMethodGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\Program.cs" label="Program.cs" >
 
   This is the use of **SyncMethodGenerator** in *Program.cs*
 
@@ -168,7 +168,7 @@ Writer.Write("a.txt", "andrei ignat");
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\Writer.cs" label="Writer.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\Writer.cs" label="Writer.cs" >
 
   This is the use of **SyncMethodGenerator** in *Writer.cs*
 
@@ -201,7 +201,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\obj\GX\Zomp.SyncMethodGenerator\Zomp.SyncMethodGenerator.SyncMethodSourceGenerator\CreateSyncVersionAttribute.g.cs" label="CreateSyncVersionAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\obj\GX\Zomp.SyncMethodGenerator\Zomp.SyncMethodGenerator.SyncMethodSourceGenerator\CreateSyncVersionAttribute.g.cs" label="CreateSyncVersionAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -221,7 +221,7 @@ namespace Zomp.SyncMethodGenerator
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\obj\GX\Zomp.SyncMethodGenerator\Zomp.SyncMethodGenerator.SyncMethodSourceGenerator\Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs" label="Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\obj\GX\Zomp.SyncMethodGenerator\Zomp.SyncMethodGenerator.SyncMethodSourceGenerator\Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs" label="Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -239,7 +239,7 @@ partial class Writer
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\obj\GX\Zomp.SyncMethodGenerator\Zomp.SyncMethodGenerator.SyncMethodSourceGenerator\Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs" label="Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\zomp\src\ZompDemo\obj\GX\Zomp.SyncMethodGenerator\Zomp.SyncMethodGenerator.SyncMethodSourceGenerator\Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs" label="Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs" >
 
 
 ```csharp showLineNumbers 

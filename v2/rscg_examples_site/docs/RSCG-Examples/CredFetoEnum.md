@@ -231,7 +231,7 @@ This is the CSharp Project that references **CredFetoEnum**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\CredFetoEnum\src\EnumClassDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CredFetoEnum\src\EnumClassDemo\Program.cs" label="Program.cs" >
 
   This is the use of **CredFetoEnum** in *Program.cs*
 
@@ -242,7 +242,7 @@ Console.WriteLine(Colors.None.GetDescription());
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\CredFetoEnum\src\EnumClassDemo\Colors.cs" label="Colors.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CredFetoEnum\src\EnumClassDemo\Colors.cs" label="Colors.cs" >
 
   This is the use of **CredFetoEnum** in *Colors.cs*
 
@@ -272,7 +272,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\CredFetoEnum\src\EnumClassDemo\obj\GX\Credfeto.Enumeration.Source.Generation\Credfeto.Enumeration.Source.Generation.EnumGenerator\EnumClassDemo.ColorsGeneratedExtensions.generated.cs" label="EnumClassDemo.ColorsGeneratedExtensions.generated.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CredFetoEnum\src\EnumClassDemo\obj\GX\Credfeto.Enumeration.Source.Generation\Credfeto.Enumeration.Source.Generation.EnumGenerator\EnumClassDemo.ColorsGeneratedExtensions.generated.cs" label="EnumClassDemo.ColorsGeneratedExtensions.generated.cs" >
 
 
 ```csharp showLineNumbers 

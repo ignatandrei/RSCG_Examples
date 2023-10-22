@@ -327,7 +327,7 @@ This is the CSharp Project that references **QuickConstructor**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\QuickConstructor\src\QuickConstructorDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\QuickConstructor\src\QuickConstructorDemo\Program.cs" label="Program.cs" >
 
   This is the use of **QuickConstructor** in *Program.cs*
 
@@ -338,7 +338,7 @@ var p = new Person("Andrei", "Ignat");
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\QuickConstructor\src\QuickConstructorDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\QuickConstructor\src\QuickConstructorDemo\Person.cs" label="Person.cs" >
 
   This is the use of **QuickConstructor** in *Person.cs*
 
@@ -368,7 +368,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\QuickConstructor\src\QuickConstructorDemo\obj\GX\QuickConstructor.Generator\QuickConstructor.Generator.QuickConstructorGenerator\Person.cs" label="Person.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\QuickConstructor\src\QuickConstructorDemo\obj\GX\QuickConstructor.Generator\QuickConstructor.Generator.QuickConstructorGenerator\Person.cs" label="Person.cs" >
 
 
 ```csharp showLineNumbers 

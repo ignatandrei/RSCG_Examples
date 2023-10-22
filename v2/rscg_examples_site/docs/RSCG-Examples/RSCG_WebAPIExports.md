@@ -124,7 +124,7 @@ This is the CSharp Project that references **RSCG_WebAPIExports**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\Program.cs" label="Program.cs" >
 
   This is the use of **RSCG_WebAPIExports** in *Program.cs*
 
@@ -164,7 +164,7 @@ app.Run();
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\Controllers\WeatherForecastController.cs" label="WeatherForecastController.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\Controllers\WeatherForecastController.cs" label="WeatherForecastController.cs" >
 
   This is the use of **RSCG_WebAPIExports** in *WeatherForecastController.cs*
 
@@ -214,7 +214,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\obj\GX\RSCG_APIExport\RSCG_APIExport.GenerateExportForWebAPI\Extensions.g.cs" label="Extensions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\obj\GX\RSCG_APIExport\RSCG_APIExport.GenerateExportForWebAPI\Extensions.g.cs" label="Extensions.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -248,7 +248,7 @@ public static partial class Extensions
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\obj\GX\RSCG_APIExport\RSCG_APIExport.GenerateExportForWebAPI\middlewareExport.methods.g.cs" label="middlewareExport.methods.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\obj\GX\RSCG_APIExport\RSCG_APIExport.GenerateExportForWebAPI\middlewareExport.methods.g.cs" label="middlewareExport.methods.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -265,7 +265,7 @@ public static partial class Extensions
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\obj\GX\RSCG_APIExport\RSCG_APIExport.GenerateExportForWebAPI\MiddlewareExportToFile.g.cs" label="MiddlewareExportToFile.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_WebAPIExports\src\RSCG_WebAPIExportsDemo\obj\GX\RSCG_APIExport\RSCG_APIExport.GenerateExportForWebAPI\MiddlewareExportToFile.g.cs" label="MiddlewareExportToFile.g.cs" >
 
 
 ```csharp showLineNumbers 

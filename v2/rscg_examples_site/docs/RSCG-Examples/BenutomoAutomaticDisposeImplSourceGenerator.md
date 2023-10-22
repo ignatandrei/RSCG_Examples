@@ -443,7 +443,7 @@ This is the CSharp Project that references **BenutomoAutomaticDisposeImplSourceG
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\Program.cs" label="Program.cs" >
 
   This is the use of **BenutomoAutomaticDisposeImplSourceGenerator** in *Program.cs*
 
@@ -458,7 +458,7 @@ Console.WriteLine("after releasing");
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\DALDB.cs" label="DALDB.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\DALDB.cs" label="DALDB.cs" >
 
   This is the use of **BenutomoAutomaticDisposeImplSourceGenerator** in *DALDB.cs*
 
@@ -484,7 +484,7 @@ partial class DALDB :IDisposable
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\ConnectionDB.cs" label="ConnectionDB.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\ConnectionDB.cs" label="ConnectionDB.cs" >
 
   This is the use of **BenutomoAutomaticDisposeImplSourceGenerator** in *ConnectionDB.cs*
 
@@ -511,7 +511,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\AutomaticDisposeImplAttribute.cs" label="AutomaticDisposeImplAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\AutomaticDisposeImplAttribute.cs" label="AutomaticDisposeImplAttribute.cs" >
 
 
 ```csharp showLineNumbers 
@@ -537,7 +537,7 @@ namespace Benutomo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\AutomaticDisposeImplMode.cs" label="AutomaticDisposeImplMode.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\AutomaticDisposeImplMode.cs" label="AutomaticDisposeImplMode.cs" >
 
 
 ```csharp showLineNumbers 
@@ -567,7 +567,7 @@ namespace Benutomo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\DisableAutomaticDisposeAttribute.cs" label="DisableAutomaticDisposeAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\DisableAutomaticDisposeAttribute.cs" label="DisableAutomaticDisposeAttribute.cs" >
 
 
 ```csharp showLineNumbers 
@@ -589,7 +589,7 @@ namespace Benutomo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\EnableAutomaticDisposeAttribute.cs" label="EnableAutomaticDisposeAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\EnableAutomaticDisposeAttribute.cs" label="EnableAutomaticDisposeAttribute.cs" >
 
 
 ```csharp showLineNumbers 
@@ -618,7 +618,7 @@ namespace Benutomo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs" label="gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs" label="gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs" >
 
 
 ```csharp showLineNumbers 
@@ -703,7 +703,7 @@ namespace IDisposableGeneratorDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\ManagedObjectAsyncDisposeMethodAttribute.cs" label="ManagedObjectAsyncDisposeMethodAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\ManagedObjectAsyncDisposeMethodAttribute.cs" label="ManagedObjectAsyncDisposeMethodAttribute.cs" >
 
 
 ```csharp showLineNumbers 
@@ -729,7 +729,7 @@ namespace Benutomo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\ManagedObjectDisposeMethodAttribute.cs" label="ManagedObjectDisposeMethodAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\ManagedObjectDisposeMethodAttribute.cs" label="ManagedObjectDisposeMethodAttribute.cs" >
 
 
 ```csharp showLineNumbers 
@@ -755,7 +755,7 @@ namespace Benutomo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\UnmanagedResourceReleaseMethodAttribute.cs" label="UnmanagedResourceReleaseMethodAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisp\src\IDisp\obj\GX\Benutomo.AutomaticDisposeImpl.SourceGenerator\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\UnmanagedResourceReleaseMethodAttribute.cs" label="UnmanagedResourceReleaseMethodAttribute.cs" >
 
 
 ```csharp showLineNumbers 

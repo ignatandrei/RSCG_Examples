@@ -392,7 +392,7 @@ This is the CSharp Project that references **EnumClass**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\Program.cs" label="Program.cs" >
 
   This is the use of **EnumClass** in *Program.cs*
 
@@ -406,7 +406,7 @@ Console.WriteLine(EnumClassDemo.EnumClass.Colors.Red.TestMe());
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\Colors.cs" label="Colors.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\Colors.cs" label="Colors.cs" >
 
   This is the use of **EnumClass** in *Colors.cs*
 
@@ -426,7 +426,7 @@ public enum Colors
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\RedEnumValue.cs" label="RedEnumValue.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\RedEnumValue.cs" label="RedEnumValue.cs" >
 
   This is the use of **EnumClass** in *RedEnumValue.cs*
 
@@ -454,7 +454,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\obj\GX\EnumClass.Generator\EnumClass.Generator.EnumClassIncrementalGenerator\Colors.g.cs" label="Colors.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumClass\src\EnumClassDemo\obj\GX\EnumClass.Generator\EnumClass.Generator.EnumClassIncrementalGenerator\Colors.g.cs" label="Colors.g.cs" >
 
 
 ```csharp showLineNumbers 

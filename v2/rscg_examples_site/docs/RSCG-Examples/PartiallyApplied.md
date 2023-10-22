@@ -108,7 +108,7 @@ This is the CSharp Project that references **PartiallyApplied**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\Program.cs" label="Program.cs" >
 
   This is the use of **PartiallyApplied** in *Program.cs*
 
@@ -130,7 +130,7 @@ class Program
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\Accounting.cs" label="Accounting.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\Accounting.cs" label="Accounting.cs" >
 
   This is the use of **PartiallyApplied** in *Accounting.cs*
 
@@ -158,7 +158,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\obj\GX\PartiallyApplied\PartiallyApplied.PartiallyAppliedGenerator\Partially.g.cs" label="Partially.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PartiallyApplied\src\PartFunc\obj\GX\PartiallyApplied\PartiallyApplied.PartiallyAppliedGenerator\Partially.g.cs" label="Partially.g.cs" >
 
 
 ```csharp showLineNumbers 

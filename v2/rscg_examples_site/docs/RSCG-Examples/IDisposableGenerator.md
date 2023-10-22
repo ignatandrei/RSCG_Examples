@@ -116,7 +116,7 @@ This is the CSharp Project that references **IDisposableGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\Program.cs" label="Program.cs" >
 
   This is the use of **IDisposableGenerator** in *Program.cs*
 
@@ -131,7 +131,7 @@ Console.WriteLine("after releasing");
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\DALDB.cs" label="DALDB.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\DALDB.cs" label="DALDB.cs" >
 
   This is the use of **IDisposableGenerator** in *DALDB.cs*
 
@@ -157,7 +157,7 @@ partial class DALDB :IDisposable
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\ConnectionDB.cs" label="ConnectionDB.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\ConnectionDB.cs" label="ConnectionDB.cs" >
 
   This is the use of **IDisposableGenerator** in *ConnectionDB.cs*
 
@@ -184,7 +184,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\obj\GX\IDisposableGenerator.CSharp\IDisposableGenerator.IDisposableGenerator\Disposables.g.cs" label="Disposables.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\obj\GX\IDisposableGenerator.CSharp\IDisposableGenerator.IDisposableGenerator\Disposables.g.cs" label="Disposables.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -223,7 +223,7 @@ internal partial class DALDB : IDisposable
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\obj\GX\IDisposableGenerator.CSharp\IDisposableGenerator.IDisposableGenerator\GeneratedAttributes.g.cs" label="GeneratedAttributes.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\IDisposableGenerator\src\IDisp\obj\GX\IDisposableGenerator.CSharp\IDisposableGenerator.IDisposableGenerator\GeneratedAttributes.g.cs" label="GeneratedAttributes.g.cs" >
 
 
 ```csharp showLineNumbers 

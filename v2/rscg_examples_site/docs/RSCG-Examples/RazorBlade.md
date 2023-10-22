@@ -224,7 +224,7 @@ This is the CSharp Project that references **RazorBlade**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\Program.cs" label="Program.cs" >
 
   This is the use of **RazorBlade** in *Program.cs*
 
@@ -244,7 +244,7 @@ Console.WriteLine(result);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\Person.cs" label="Person.cs" >
 
   This is the use of **RazorBlade** in *Person.cs*
 
@@ -264,7 +264,7 @@ public class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml" label="PersonDisplay.cshtml" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml" label="PersonDisplay.cshtml" >
 
   This is the use of **RazorBlade** in *PersonDisplay.cshtml*
 
@@ -289,7 +289,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\Attributes.g.cs" label="Attributes.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\Attributes.g.cs" label="Attributes.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -334,7 +334,7 @@ internal sealed class ConditionalOnAsyncAttribute : Attribute
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\HtmlHelper.g.cs" label="HtmlHelper.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\HtmlHelper.g.cs" label="HtmlHelper.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -421,7 +421,7 @@ internal sealed class HtmlHelper
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\HtmlString.g.cs" label="HtmlString.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\HtmlString.g.cs" label="HtmlString.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -459,7 +459,7 @@ internal sealed class HtmlString : IEncodedContent
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\HtmlTemplate.g.cs" label="HtmlTemplate.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\HtmlTemplate.g.cs" label="HtmlTemplate.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -667,7 +667,7 @@ internal abstract class HtmlTemplate<TModel> : HtmlTemplate
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\IEncodedContent.g.cs" label="IEncodedContent.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\IEncodedContent.g.cs" label="IEncodedContent.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -696,7 +696,7 @@ internal interface IEncodedContent
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\PlainTextTemplate.g.cs" label="PlainTextTemplate.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\PlainTextTemplate.g.cs" label="PlainTextTemplate.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -792,7 +792,7 @@ internal abstract class PlainTextTemplate<TModel> : PlainTextTemplate
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\RazorTemplate.g.cs" label="RazorTemplate.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\RazorTemplate.g.cs" label="RazorTemplate.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -973,18 +973,18 @@ internal abstract class RazorTemplate : IEncodedContent
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.RazorBladeSourceGenerator\RazorBladeDemo.PersonDisplay.Razor.g.cs" label="RazorBladeDemo.PersonDisplay.Razor.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.RazorBladeSourceGenerator\RazorBladeDemo.PersonDisplay.Razor.g.cs" label="RazorBladeDemo.PersonDisplay.Razor.g.cs" >
 
 
 ```csharp showLineNumbers 
-#pragma checksum "C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "0ee9a5bcc623252570e9d97efdeb7e3c5a8d6350"
+#pragma checksum "D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "0ee9a5bcc623252570e9d97efdeb7e3c5a8d6350"
 // <auto-generated/>
 #pragma warning disable 1591
 namespace RazorBladeDemo
 {
     #line hidden
 #nullable restore
-#line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
+#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
 using RazorBladeDemo;
 
 #line default
@@ -999,7 +999,7 @@ using RazorBladeDemo;
         {
             WriteLiteral("\r\nThis is the ");
 #nullable restore
-#line (4,14)-(4,29) 6 "C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
+#line (4,14)-(4,29) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
 Write(Model.FirstName);
 
 #line default
@@ -1007,7 +1007,7 @@ Write(Model.FirstName);
 #nullable disable
             WriteLiteral(" ");
 #nullable restore
-#line (4,31)-(4,45) 6 "C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
+#line (4,31)-(4,45) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
 Write(Model.LastName);
 
 #line default
@@ -1015,7 +1015,7 @@ Write(Model.LastName);
 #nullable disable
             WriteLiteral("\r\n\r\n<br />\r\n\r\nThis should be full name of ");
 #nullable restore
-#line (8,30)-(8,46) 6 "C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
+#line (8,30)-(8,46) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\PersonDisplay.cshtml"
 Write(Model.FullName());
 
 #line default
@@ -1032,7 +1032,7 @@ Write(Model.FullName());
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.RazorBladeSourceGenerator\RazorBladeDemo.PersonDisplay.RazorBlade.g.cs" label="RazorBladeDemo.PersonDisplay.RazorBlade.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RazorBlade\src\RazorBladeDemo\obj\GX\RazorBlade.Analyzers\RazorBlade.Analyzers.RazorBladeSourceGenerator\RazorBladeDemo.PersonDisplay.RazorBlade.g.cs" label="RazorBladeDemo.PersonDisplay.RazorBlade.g.cs" >
 
 
 ```csharp showLineNumbers 

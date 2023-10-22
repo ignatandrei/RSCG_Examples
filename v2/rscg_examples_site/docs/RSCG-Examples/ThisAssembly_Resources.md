@@ -538,7 +538,7 @@ This is the CSharp Project that references **ThisAssembly_Resources**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\Program.cs" label="Program.cs" >
 
   This is the use of **ThisAssembly_Resources** in *Program.cs*
 
@@ -548,7 +548,7 @@ Console.WriteLine(ThisAssembly.Resources.Content.mytext.Text);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\Content\mytext.sql" label="mytext.sql" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\Content\mytext.sql" label="mytext.sql" >
 
   This is the use of **ThisAssembly_Resources** in *mytext.sql*
 
@@ -566,7 +566,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\obj\GX\ThisAssembly.Resource\ThisAssembly.ResourcesGenerator\Content.mytext.g.cs" label="Content.mytext.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\obj\GX\ThisAssembly.Resource\ThisAssembly.ResourcesGenerator\Content.mytext.g.cs" label="Content.mytext.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -608,7 +608,7 @@ partial class ThisAssembly
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\obj\GX\ThisAssembly.Resource\ThisAssembly.ResourcesGenerator\ThisAssembly.Resources.EmbeddedResource.cs" label="ThisAssembly.Resources.EmbeddedResource.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly_Resources\src\ThisAssembly_ResourcesDemo\obj\GX\ThisAssembly.Resource\ThisAssembly.ResourcesGenerator\ThisAssembly.Resources.EmbeddedResource.cs" label="ThisAssembly.Resources.EmbeddedResource.cs" >
 
 
 ```csharp showLineNumbers 

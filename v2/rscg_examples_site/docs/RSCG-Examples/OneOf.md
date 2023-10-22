@@ -287,7 +287,7 @@ This is the CSharp Project that references **OneOf**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\Program.cs" label="Program.cs" >
 
   This is the use of **OneOf** in *Program.cs*
 
@@ -305,7 +305,7 @@ Console.WriteLine($"{dataNumber.isNumber} {dataNumber.number}");
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\StringOrNumber.cs" label="StringOrNumber.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\StringOrNumber.cs" label="StringOrNumber.cs" >
 
   This is the use of **OneOf** in *StringOrNumber.cs*
 
@@ -334,7 +334,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\obj\GX\OneOf.SourceGenerator\OneOf.SourceGenerator.OneOfGenerator\GenerateOneOfAttribute.g.cs" label="GenerateOneOfAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\obj\GX\OneOf.SourceGenerator\OneOf.SourceGenerator.OneOfGenerator\GenerateOneOfAttribute.g.cs" label="GenerateOneOfAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -356,7 +356,7 @@ namespace OneOf
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\obj\GX\OneOf.SourceGenerator\OneOf.SourceGenerator.OneOfGenerator\OneOfDemo_StringOrNumber.g.cs" label="OneOfDemo_StringOrNumber.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\OneOf\src\OneOfDemo\obj\GX\OneOf.SourceGenerator\OneOf.SourceGenerator.OneOfGenerator\OneOfDemo_StringOrNumber.g.cs" label="OneOfDemo_StringOrNumber.g.cs" >
 
 
 ```csharp showLineNumbers 

@@ -656,7 +656,7 @@ This is the CSharp Project that references **UnitGenerator**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\Program.cs" label="Program.cs" >
 
   This is the use of **UnitGenerator** in *Program.cs*
 
@@ -671,7 +671,7 @@ Console.WriteLine(p.BirthDate);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\Person.cs" label="Person.cs" >
 
   This is the use of **UnitGenerator** in *Person.cs*
 
@@ -712,7 +712,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\StronglyDemo.DayId.g.cs" label="StronglyDemo.DayId.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\StronglyDemo.DayId.g.cs" label="StronglyDemo.DayId.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -862,7 +862,7 @@ namespace StronglyDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\StronglyDemo.MonthId.g.cs" label="StronglyDemo.MonthId.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\StronglyDemo.MonthId.g.cs" label="StronglyDemo.MonthId.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1012,7 +1012,7 @@ namespace StronglyDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\StronglyDemo.YearId.g.cs" label="StronglyDemo.YearId.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\StronglyDemo.YearId.g.cs" label="StronglyDemo.YearId.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1162,7 +1162,7 @@ namespace StronglyDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\UnitOfAttribute.cs" label="UnitOfAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnitGenerator\src\UnitDemo\obj\GX\UnitGenerator\UnitGenerator.SourceGenerator\UnitOfAttribute.cs" label="UnitOfAttribute.cs" >
 
 
 ```csharp showLineNumbers 

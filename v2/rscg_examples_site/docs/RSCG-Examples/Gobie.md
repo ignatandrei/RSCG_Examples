@@ -109,7 +109,7 @@ This is the CSharp Project that references **Gobie**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Gobie** in *Program.cs*
 
@@ -124,7 +124,7 @@ p.Id = 1;
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\Person.cs" label="Person.cs" >
 
   This is the use of **Gobie** in *Person.cs*
 
@@ -142,7 +142,7 @@ partial class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\ClassGenAddId.cs" label="ClassGenAddId.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\ClassGenAddId.cs" label="ClassGenAddId.cs" >
 
   This is the use of **Gobie** in *ClassGenAddId.cs*
 
@@ -180,7 +180,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\obj\GX\Gobie\Gobie.GobieGenerator\Person_ClassGenAddIdAttribute.g.cs" label="Person_ClassGenAddIdAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\obj\GX\Gobie\Gobie.GobieGenerator\Person_ClassGenAddIdAttribute.g.cs" label="Person_ClassGenAddIdAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -195,7 +195,7 @@ namespace GobieDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\obj\GX\Gobie\Gobie.GobieGenerator\Person_ClassGenAddIdAttribute_ID.g.cs" label="Person_ClassGenAddIdAttribute_ID.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\obj\GX\Gobie\Gobie.GobieGenerator\Person_ClassGenAddIdAttribute_ID.g.cs" label="Person_ClassGenAddIdAttribute_ID.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -211,7 +211,7 @@ partial class Person
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\obj\GX\Gobie\Gobie.GobieGenerator\_Gobie.ClassGenAddIdAttribute.g.cs" label="_Gobie.ClassGenAddIdAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Gobie\src\GobieDemo\obj\GX\Gobie\Gobie.GobieGenerator\_Gobie.ClassGenAddIdAttribute.g.cs" label="_Gobie.ClassGenAddIdAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 

@@ -203,7 +203,7 @@ This is the CSharp Project that references **AutoDTO**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\Program.cs" label="Program.cs" >
 
   This is the use of **AutoDTO** in *Program.cs*
 
@@ -224,7 +224,7 @@ dto.ID = d.ID;
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\Department.cs" label="Department.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\Department.cs" label="Department.cs" >
 
   This is the use of **AutoDTO** in *Department.cs*
 
@@ -240,7 +240,7 @@ public class Department
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\DepartmentDTO.cs" label="DepartmentDTO.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\DepartmentDTO.cs" label="DepartmentDTO.cs" >
 
   This is the use of **AutoDTO** in *DepartmentDTO.cs*
 
@@ -266,7 +266,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\obj\GX\AutoDto.SourceGen\AutoDto.SourceGen.DtoFromBlGenerator\DepartmentDTO.g.cs" label="DepartmentDTO.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\obj\GX\AutoDto.SourceGen\AutoDto.SourceGen.DtoFromBlGenerator\DepartmentDTO.g.cs" label="DepartmentDTO.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -307,6 +307,9 @@ public System.String Name { get; set; }
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 
 ## In the same category (Mapper)
+
+
+### [DynamicsMapper](/docs/DynamicsMapper)
 
 
 ### [MagicMap](/docs/MagicMap)

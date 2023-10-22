@@ -92,7 +92,7 @@ This is the CSharp Project that references **Microsoft.Interop.JavaScript.JSImpo
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Program.cs" label="Program.cs" >
 
   This is the use of **Microsoft.Interop.JavaScript.JSImportGenerator** in *Program.cs*
 
@@ -112,7 +112,7 @@ await builder.Build().RunAsync();
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\index.razor.cs" label="index.razor.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\index.razor.cs" label="index.razor.cs" >
 
   This is the use of **Microsoft.Interop.JavaScript.JSImportGenerator** in *index.razor.cs*
 
@@ -138,7 +138,7 @@ public partial class CallJavaScript1
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor" label="Index.razor" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor" label="Index.razor" >
 
   This is the use of **Microsoft.Interop.JavaScript.JSImportGenerator** in *Index.razor*
 
@@ -178,7 +178,7 @@ public partial class CallJavaScript1
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\index.razor.js" label="index.razor.js" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\index.razor.js" label="index.razor.js" >
 
   This is the use of **Microsoft.Interop.JavaScript.JSImportGenerator** in *index.razor.js*
 
@@ -208,7 +208,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.Interop.JavaScript.JSImportGenerator\Microsoft.Interop.JavaScript.JSExportGenerator\JSExports.g.cs" label="JSExports.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.Interop.JavaScript.JSImportGenerator\Microsoft.Interop.JavaScript.JSExportGenerator\JSExports.g.cs" label="JSExports.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -217,7 +217,7 @@ namespace TestBlazor.Pages
 {
     public partial class CallJavaScript1
     {
-        internal static unsafe void __Wrapper_GetMessageFromDotnet_962733327(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
+        internal static unsafe void __Wrapper_GetMessageFromDotnet_1596083409(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
         {
             string s;
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __arg_exception = ref __arguments_buffer[0];
@@ -239,12 +239,12 @@ namespace TestBlazor.Pages
         }
 
         [global::System.Runtime.CompilerServices.ModuleInitializerAttribute]
-        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_962733327", typeof(TestBlazor.Pages.CallJavaScript1))]
-        internal static void __Register_GetMessageFromDotnet_962733327()
+        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_1596083409", typeof(TestBlazor.Pages.CallJavaScript1))]
+        internal static void __Register_GetMessageFromDotnet_1596083409()
         {
             if (global::System.Runtime.InteropServices.RuntimeInformation.OSArchitecture != global::System.Runtime.InteropServices.Architecture.Wasm)
                 return;
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 962733327, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 1596083409, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
         }
     }
 }
@@ -254,7 +254,7 @@ namespace TestBlazor.Pages
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.Interop.JavaScript.JSImportGenerator\Microsoft.Interop.JavaScript.JSImportGenerator\JSImports.g.cs" label="JSImports.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.Interop.JavaScript.JSImportGenerator\Microsoft.Interop.JavaScript.JSImportGenerator\JSImports.g.cs" label="JSImports.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -263,12 +263,12 @@ namespace TestBlazor.Pages
 {
     public partial class CallJavaScript1
     {
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.JavaScript.JSImportGenerator", "7.0.8.32018")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.JavaScript.JSImportGenerator", "7.0.8.47720")]
         internal static partial string GetWelcomeMessage(string s)
         {
-            if (__signature_GetWelcomeMessage_962733327 == null)
+            if (__signature_GetWelcomeMessage_1596083409 == null)
             {
-                __signature_GetWelcomeMessage_962733327 = global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindJSFunction("getMessage", "CallJavaScript1", new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+                __signature_GetWelcomeMessage_1596083409 = global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindJSFunction("getMessage", "CallJavaScript1", new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
             }
 
             global::System.Span<global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument> __arguments_buffer = stackalloc global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument[3];
@@ -280,14 +280,14 @@ namespace TestBlazor.Pages
             // Setup - Perform required setup.
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __s_native__js_arg = ref __arguments_buffer[2];
             __s_native__js_arg.ToJS(s);
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.InvokeJS(__signature_GetWelcomeMessage_962733327, __arguments_buffer);
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.InvokeJS(__signature_GetWelcomeMessage_1596083409, __arguments_buffer);
             // Unmarshal - Convert native data to managed data.
             __arg_return.ToManaged(out __retVal);
             return __retVal;
         }
 
         [global::System.ThreadStaticAttribute]
-        static global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding __signature_GetWelcomeMessage_962733327;
+        static global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding __signature_GetWelcomeMessage_1596083409;
     }
 }
 
@@ -296,79 +296,79 @@ namespace TestBlazor.Pages
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\App_razor.g.cs" label="App_razor.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\App_razor.g.cs" label="App_razor.g.cs" >
 
 
 ```csharp showLineNumbers 
-#pragma checksum "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "ca69fbc161c0130d6d7831728befc975abb17b04491a271bc49266261055543b"
+#pragma checksum "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "ca69fbc161c0130d6d7831728befc975abb17b04491a271bc49266261055543b"
 // <auto-generated/>
 #pragma warning disable 1591
 namespace TestBlazor
 {
     #line hidden
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
+    using global::System;
+    using global::System.Collections.Generic;
+    using global::System.Linq;
+    using global::System.Threading.Tasks;
+    using global::Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 4 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 5 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 7 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using TestBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 8 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.Versioning;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 9 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.InteropServices.JavaScript;
 
 #line default
@@ -382,7 +382,7 @@ using System.Runtime.InteropServices.JavaScript;
             __builder.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.Router>(0);
             __builder.AddAttribute(1, "AppAssembly", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Reflection.Assembly>(
 #nullable restore
-#line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
+#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
                       typeof(App).Assembly
 
 #line default
@@ -393,7 +393,7 @@ using System.Runtime.InteropServices.JavaScript;
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.RouteView>(3);
                 __builder2.AddAttribute(4, "RouteData", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.RouteData>(
 #nullable restore
-#line 3 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
+#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
                                routeData
 
 #line default
@@ -402,7 +402,7 @@ using System.Runtime.InteropServices.JavaScript;
                 )));
                 __builder2.AddAttribute(5, "DefaultLayout", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Type>(
 #nullable restore
-#line 3 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
+#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
                                                           typeof(MainLayout)
 
 #line default
@@ -414,7 +414,7 @@ using System.Runtime.InteropServices.JavaScript;
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.Routing.FocusOnNavigate>(7);
                 __builder2.AddAttribute(8, "RouteData", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::Microsoft.AspNetCore.Components.RouteData>(
 #nullable restore
-#line 4 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
+#line 4 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
                                      routeData
 
 #line default
@@ -436,7 +436,7 @@ using System.Runtime.InteropServices.JavaScript;
                 __builder2.OpenComponent<global::Microsoft.AspNetCore.Components.LayoutView>(15);
                 __builder2.AddAttribute(16, "Layout", (object)(global::Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<global::System.Type>(
 #nullable restore
-#line 8 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
+#line 8 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\App.razor"
                              typeof(MainLayout)
 
 #line default
@@ -462,79 +462,79 @@ using System.Runtime.InteropServices.JavaScript;
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\MainLayout_razor.g.cs" label="MainLayout_razor.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\MainLayout_razor.g.cs" label="MainLayout_razor.g.cs" >
 
 
 ```csharp showLineNumbers 
-#pragma checksum "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\MainLayout.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "ae5700b58f509b241d54e7cc9392df00c78fe49dc34536d713dcbb68e7b415a2"
+#pragma checksum "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\MainLayout.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "ae5700b58f509b241d54e7cc9392df00c78fe49dc34536d713dcbb68e7b415a2"
 // <auto-generated/>
 #pragma warning disable 1591
 namespace TestBlazor
 {
     #line hidden
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
+    using global::System;
+    using global::System.Collections.Generic;
+    using global::System.Linq;
+    using global::System.Threading.Tasks;
+    using global::Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 4 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 5 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 7 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using TestBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 8 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.Versioning;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 9 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.InteropServices.JavaScript;
 
 #line default
@@ -547,7 +547,7 @@ using System.Runtime.InteropServices.JavaScript;
         {
             __builder.OpenElement(0, "main");
 #nullable restore
-#line (4,6)-(4,10) 24 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\MainLayout.razor"
+#line (4,6)-(4,10) 24 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\MainLayout.razor"
 __builder.AddContent(1, Body);
 
 #line default
@@ -565,79 +565,79 @@ __builder.AddContent(1, Body);
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Index_razor.g.cs" label="Pages_Index_razor.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Index_razor.g.cs" label="Pages_Index_razor.g.cs" >
 
 
 ```csharp showLineNumbers 
-#pragma checksum "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "aa041de1d9d3922f2df558b4a08272ee907b58c89f74ea567a271428b96a1f4e"
+#pragma checksum "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "aa041de1d9d3922f2df558b4a08272ee907b58c89f74ea567a271428b96a1f4e"
 // <auto-generated/>
 #pragma warning disable 1591
 namespace TestBlazor.Pages
 {
     #line hidden
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
+    using global::System;
+    using global::System.Collections.Generic;
+    using global::System.Linq;
+    using global::System.Threading.Tasks;
+    using global::Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 4 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 5 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 7 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using TestBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 8 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.Versioning;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 9 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.InteropServices.JavaScript;
 
 #line default
@@ -657,7 +657,7 @@ using System.Runtime.InteropServices.JavaScript;
             __builder.OpenElement(5, "h3");
             __builder.AddAttribute(6, "class", "card-title");
 #nullable restore
-#line (5,33)-(5,38) 24 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
+#line (5,33)-(5,38) 24 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
 __builder.AddContent(7, Title);
 
 #line default
@@ -668,7 +668,7 @@ __builder.AddContent(7, Title);
             __builder.OpenElement(9, "p");
             __builder.AddAttribute(10, "class", "card-text");
 #nullable restore
-#line (6,31)-(6,43) 25 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
+#line (6,31)-(6,43) 25 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
 __builder.AddContent(11, ChildContent);
 
 #line default
@@ -679,7 +679,7 @@ __builder.AddContent(11, ChildContent);
             __builder.OpenElement(13, "button");
             __builder.AddAttribute(14, "onclick", global::Microsoft.AspNetCore.Components.EventCallback.Factory.Create<global::Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
-#line 7 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
+#line 7 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
                           OnYes
 
 #line default
@@ -688,7 +688,7 @@ __builder.AddContent(11, ChildContent);
             ));
             __builder.AddContent(15, "Yes! ");
 #nullable restore
-#line (7,40)-(7,41) 25 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
+#line (7,40)-(7,41) 25 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
 __builder.AddContent(16, i);
 
 #line default
@@ -696,7 +696,7 @@ __builder.AddContent(16, i);
 #nullable disable
             __builder.AddContent(17, "  ");
 #nullable restore
-#line (7,44)-(7,45) 25 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
+#line (7,44)-(7,45) 25 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
 __builder.AddContent(18, s);
 
 #line default
@@ -708,7 +708,7 @@ __builder.AddContent(18, s);
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
+#line 11 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\Pages\Index.razor"
        
     int i =0;
     string s = "aa";
@@ -743,79 +743,79 @@ __builder.AddContent(18, s);
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\_Imports_razor.g.cs" label="_Imports_razor.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\_Imports_razor.g.cs" label="_Imports_razor.g.cs" >
 
 
 ```csharp showLineNumbers 
-#pragma checksum "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "b7b5050a7c8564675deb28d65ac06666412236a28151ac87d29acc67cf28aa36"
+#pragma checksum "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor" "{8829d00f-11b8-4213-878b-770e8597ac16}" "b7b5050a7c8564675deb28d65ac06666412236a28151ac87d29acc67cf28aa36"
 // <auto-generated/>
 #pragma warning disable 1591
 namespace TestBlazor
 {
     #line hidden
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
-    using Microsoft.AspNetCore.Components;
+    using global::System;
+    using global::System.Collections.Generic;
+    using global::System.Linq;
+    using global::System.Threading.Tasks;
+    using global::Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 4 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 5 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 7 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using TestBlazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 8 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.Versioning;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
+#line 9 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.Interop.JavaScript.JSImportGenerator\src\TestBlazor\_Imports.razor"
 using System.Runtime.InteropServices.JavaScript;
 
 #line default

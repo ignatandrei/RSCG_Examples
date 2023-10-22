@@ -317,7 +317,7 @@ This is the CSharp Project that references **Matryoshki**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Matryoshki** in *Program.cs*
 
@@ -341,7 +341,7 @@ Console.WriteLine(sp.FullName());
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\AddLog.cs" label="AddLog.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\AddLog.cs" label="AddLog.cs" >
 
   This is the use of **Matryoshki** in *AddLog.cs*
 
@@ -363,7 +363,7 @@ internal class AddLog : IAdornment
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\IPerson.cs" label="IPerson.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\IPerson.cs" label="IPerson.cs" >
 
   This is the use of **Matryoshki** in *IPerson.cs*
 
@@ -381,7 +381,7 @@ public interface IPerson
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\Person.cs" label="Person.cs" >
 
   This is the use of **Matryoshki** in *Person.cs*
 
@@ -413,7 +413,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\obj\GX\Matryoshki.Generators\Matryoshki.Generators.CompiledAdornmentSourceGenerator\MatryoshkiDemo_AddLog.Compiled.g.cs" label="MatryoshkiDemo_AddLog.Compiled.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\obj\GX\Matryoshki.Generators\Matryoshki.Generators.CompiledAdornmentSourceGenerator\MatryoshkiDemo_AddLog.Compiled.g.cs" label="MatryoshkiDemo_AddLog.Compiled.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -423,136 +423,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\obj\GX\Matryoshki.Generators\Matryoshki.Generators.MatryoshkiSourceGenerator\.IPerson.g.cs" label=".IPerson.g.cs" >
-
-
-```csharp showLineNumbers 
-using System;
-
-#nullable enable
-public interface IPerson
-{
-    int ID { get; set; }
-
-    string? FirstName { get; set; }
-
-    string? LastName { get; set; }
-
-    string FullName();
-    public class Adapter : IPerson
-    {
-        private readonly MatryoshkiDemo.Person _inner;
-        public Adapter(MatryoshkiDemo.Person inner)
-        {
-            _inner = inner;
-        }
-
-        public int ID { get => _inner.ID; set => _inner.ID = value; }
-        public string? FirstName { get => _inner.FirstName; set => _inner.FirstName = value; }
-        public string? LastName { get => _inner.LastName; set => _inner.LastName = value; }
-
-        public string FullName() => _inner.FullName();
-    }
-}
-```
-
-  </TabItem>
-
-
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\obj\GX\Matryoshki.Generators\Matryoshki.Generators.MatryoshkiSourceGenerator\.IPersonWithAddLog.g.cs" label=".IPersonWithAddLog.g.cs" >
-
-
-```csharp showLineNumbers 
-using System;
-using MatryoshkiDemo;
-
-#nullable enable
-public class IPersonWithAddLog : MatryoshkiDemo.IPerson
-{
-    private readonly MatryoshkiDemo.IPerson _inner;
-    public IPersonWithAddLog(MatryoshkiDemo.IPerson inner)
-    {
-        _inner = inner;
-    }
-
-    private static readonly string[] MethodParameterNamesForPropertyFirstName = new string[]
-    {
-    };
-    public string? FirstName
-    {
-        get
-        {
-            Console.WriteLine($"Hello, {"FirstName"}!");
-            return _inner.FirstName;
-        }
-
-        set
-        {
-            Console.WriteLine($"Hello, {"FirstName"}!");
-            {
-                Matryoshki.Abstractions.Nothing.FromPropertyAction(_inner, value, static (@innerΔΔΔ, @valueΔΔΔ) => @innerΔΔΔ.FirstName = @valueΔΔΔ);
-                return;
-            }
-        }
-    }
-
-    private static readonly string[] MethodParameterNamesForPropertyID = new string[]
-    {
-    };
-    public int ID
-    {
-        get
-        {
-            Console.WriteLine($"Hello, {"ID"}!");
-            return _inner.ID;
-        }
-
-        set
-        {
-            Console.WriteLine($"Hello, {"ID"}!");
-            {
-                Matryoshki.Abstractions.Nothing.FromPropertyAction(_inner, value, static (@innerΔΔΔ, @valueΔΔΔ) => @innerΔΔΔ.ID = @valueΔΔΔ);
-                return;
-            }
-        }
-    }
-
-    private static readonly string[] MethodParameterNamesForPropertyLastName = new string[]
-    {
-    };
-    public string? LastName
-    {
-        get
-        {
-            Console.WriteLine($"Hello, {"LastName"}!");
-            return _inner.LastName;
-        }
-
-        set
-        {
-            Console.WriteLine($"Hello, {"LastName"}!");
-            {
-                Matryoshki.Abstractions.Nothing.FromPropertyAction(_inner, value, static (@innerΔΔΔ, @valueΔΔΔ) => @innerΔΔΔ.LastName = @valueΔΔΔ);
-                return;
-            }
-        }
-    }
-
-    private static readonly string[] MethodParameterNamesForMethodFullName = new string[]
-    {
-    };
-    public string FullName()
-    {
-        Console.WriteLine($"Hello, {"FullName"}!");
-        return _inner.FullName();
-    }
-}
-```
-
-  </TabItem>
-
-
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\obj\GX\Matryoshki.Generators\Matryoshki.Generators.MatryoshkiSourceGenerator\.PersonMatryoshka.g.cs" label=".PersonMatryoshka.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Matryoshki\src\MatryoshkiDemo\obj\GX\Matryoshki.Generators\Matryoshki.Generators.MatryoshkiSourceGenerator\.PersonMatryoshka.g.cs" label=".PersonMatryoshka.g.cs" >
 
 
 ```csharp showLineNumbers 

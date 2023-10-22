@@ -154,7 +154,7 @@ This is the CSharp Project that references **RSCG_TimeBombComment**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_TimeBombComment\src\Console_TimeBombComment\TestClass.cs" label="TestClass.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_TimeBombComment\src\Console_TimeBombComment\TestClass.cs" label="TestClass.cs" >
 
   This is the use of **RSCG_TimeBombComment** in *TestClass.cs*
 
@@ -190,7 +190,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\RSCG_TimeBombComment\src\Console_TimeBombComment\obj\GX\RSCG_TimeBombComment\RSCG_TimeBombComment.GenerateFromCommentsIncremental\Obsolete_1.cs" label="Obsolete_1.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_TimeBombComment\src\Console_TimeBombComment\obj\GX\RSCG_TimeBombComment\RSCG_TimeBombComment.GenerateFromCommentsIncremental\Obsolete_1.cs" label="Obsolete_1.cs" >
 
 
 ```csharp showLineNumbers 

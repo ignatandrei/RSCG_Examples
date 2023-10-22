@@ -166,7 +166,7 @@ class MultiGenerator
         string f1 = @"C:\Users\Surface1\Documents\GitHub\RSCG_Examples\book\others.md";
         if (!File.Exists(f1))
         {
-            f1 = @"C:\gth\RSCG_Examples\v1\book\others.md";
+            f1 = @"D:\gth\RSCG_Examples\v1\book\others.md";
         }
         var gen = await AllDescriptions();
         var templatePost = await File.ReadAllTextAsync("frontReadme.txt");

@@ -251,7 +251,7 @@ This is the CSharp Project that references **spreadcheetah**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\spreadcheetah\src\spreadcheetahDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\spreadcheetah\src\spreadcheetahDemo\Program.cs" label="Program.cs" >
 
   This is the use of **spreadcheetah** in *Program.cs*
 
@@ -285,7 +285,7 @@ Console.WriteLine("see a.xlsx");
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\spreadcheetah\src\spreadcheetahDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\spreadcheetah\src\spreadcheetahDemo\Person.cs" label="Person.cs" >
 
   This is the use of **spreadcheetah** in *Person.cs*
 
@@ -316,7 +316,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\spreadcheetah\src\spreadcheetahDemo\obj\GX\SpreadCheetah.SourceGenerator\SpreadCheetah.SourceGenerators.WorksheetRowGenerator\spreadcheetahDemo.PersonRowContext.g.cs" label="spreadcheetahDemo.PersonRowContext.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\spreadcheetah\src\spreadcheetahDemo\obj\GX\SpreadCheetah.SourceGenerator\SpreadCheetah.SourceGenerators.WorksheetRowGenerator\spreadcheetahDemo.PersonRowContext.g.cs" label="spreadcheetahDemo.PersonRowContext.g.cs" >
 
 
 ```csharp showLineNumbers 

@@ -222,7 +222,7 @@ This is the CSharp Project that references **AutoRegisterInject**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\Program.cs" label="Program.cs" >
 
   This is the use of **AutoRegisterInject** in *Program.cs*
 
@@ -242,7 +242,7 @@ db.Open();
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\Database.cs" label="Database.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\Database.cs" label="Database.cs" >
 
   This is the use of **AutoRegisterInject** in *Database.cs*
 
@@ -269,7 +269,7 @@ internal class Database : IDatabase
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\IDatabase.cs" label="IDatabase.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\IDatabase.cs" label="IDatabase.cs" >
 
   This is the use of **AutoRegisterInject** in *IDatabase.cs*
 
@@ -284,7 +284,7 @@ namespace AutoRegisterInjectDemo
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\DatabaseCon.cs" label="DatabaseCon.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\DatabaseCon.cs" label="DatabaseCon.cs" >
 
   This is the use of **AutoRegisterInject** in *DatabaseCon.cs*
 
@@ -310,7 +310,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\obj\GX\AutoRegisterInject\AutoRegisterInject.Generator\AutoRegisterInject.Attributes.g.cs" label="AutoRegisterInject.Attributes.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\obj\GX\AutoRegisterInject\AutoRegisterInject.Generator\AutoRegisterInject.Attributes.g.cs" label="AutoRegisterInject.Attributes.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -331,7 +331,7 @@ internal sealed class RegisterHostedServiceAttribute : System.Attribute { }
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\obj\GX\AutoRegisterInject\AutoRegisterInject.Generator\AutoRegisterInject.ServiceCollectionExtension.g.cs" label="AutoRegisterInject.ServiceCollectionExtension.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoRegisterInject\src\AutoRegisterInjectDemo\obj\GX\AutoRegisterInject\AutoRegisterInject.Generator\AutoRegisterInject.ServiceCollectionExtension.g.cs" label="AutoRegisterInject.ServiceCollectionExtension.g.cs" >
 
 
 ```csharp showLineNumbers 

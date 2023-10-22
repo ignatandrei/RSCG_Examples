@@ -340,7 +340,7 @@ This is the CSharp Project that references **Breezy**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Breezy** in *Program.cs*
 
@@ -353,7 +353,7 @@ var persons = await connection.QueryAsync<Person>("SELECT Id,firstname, lastname
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\Person.cs" label="Person.cs" >
 
   This is the use of **Breezy** in *Person.cs*
 
@@ -371,7 +371,7 @@ public class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\globals.cs" label="globals.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\globals.cs" label="globals.cs" >
 
   This is the use of **Breezy** in *globals.cs*
 
@@ -392,7 +392,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\DbConnectionExtensions.g.cs" label="DbConnectionExtensions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\DbConnectionExtensions.g.cs" label="DbConnectionExtensions.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -560,7 +560,7 @@ namespace DbConnectionExtensions
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\ICacheableQuery.g.cs" label="ICacheableQuery.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\ICacheableQuery.g.cs" label="ICacheableQuery.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -579,7 +579,7 @@ public interface ICacheableQuery<T> where T : class
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\IdentityQuery.g.cs" label="IdentityQuery.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\IdentityQuery.g.cs" label="IdentityQuery.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -610,7 +610,7 @@ public interface ICacheableQuery<T> where T : class
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\PersonExtensions.g.cs" label="PersonExtensions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\PersonExtensions.g.cs" label="PersonExtensions.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -913,7 +913,7 @@ namespace BreezyDemo
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\SplitOnAttribute.g.cs" label="SplitOnAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\SplitOnAttribute.g.cs" label="SplitOnAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -934,7 +934,7 @@ public sealed class SplitOnAttribute : Attribute
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\TableAttribute.g.cs" label="TableAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Breezy\src\BreezyDemo\obj\GX\Breezy\Breezy.BreezyGenerator\TableAttribute.g.cs" label="TableAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 

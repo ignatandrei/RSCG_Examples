@@ -1492,7 +1492,7 @@ This is the CSharp Project that references **MemoryPack**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MemoryPack\src\MemoryPackDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MemoryPack\src\MemoryPackDemo\Program.cs" label="Program.cs" >
 
   This is the use of **MemoryPack** in *Program.cs*
 
@@ -1505,7 +1505,7 @@ Console.WriteLine(val.Name);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MemoryPack\src\MemoryPackDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MemoryPack\src\MemoryPackDemo\Person.cs" label="Person.cs" >
 
   This is the use of **MemoryPack** in *Person.cs*
 
@@ -1531,7 +1531,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\MemoryPack\src\MemoryPackDemo\obj\GX\MemoryPack.Generator\MemoryPack.Generator.MemoryPackGenerator\MemoryPackDemo.Person.MemoryPackFormatter.g.cs" label="MemoryPackDemo.Person.MemoryPackFormatter.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\MemoryPack\src\MemoryPackDemo\obj\GX\MemoryPack.Generator\MemoryPack.Generator.MemoryPackGenerator\MemoryPackDemo.Person.MemoryPackFormatter.g.cs" label="MemoryPackDemo.Person.MemoryPackFormatter.g.cs" >
 
 
 ```csharp showLineNumbers 

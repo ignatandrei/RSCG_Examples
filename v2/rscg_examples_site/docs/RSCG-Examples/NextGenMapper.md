@@ -219,7 +219,7 @@ This is the CSharp Project that references **NextGenMapper**
 
 </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\Program.cs" label="Program.cs" >
 
   This is the use of **NextGenMapper** in *Program.cs*
 
@@ -257,7 +257,7 @@ Console.WriteLine(dto.BirthCountry!.Name);
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\Person.cs" label="Person.cs" >
 
   This is the use of **NextGenMapper** in *Person.cs*
 
@@ -278,7 +278,7 @@ internal class Person
 ```
   </TabItem>
 
-  <TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\PersonDTO.cs" label="PersonDTO.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\PersonDTO.cs" label="PersonDTO.cs" >
 
   This is the use of **NextGenMapper** in *PersonDTO.cs*
 
@@ -310,7 +310,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\MapperExtensions.g.cs" label="MapperExtensions.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\MapperExtensions.g.cs" label="MapperExtensions.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -355,7 +355,7 @@ namespace NextGenMapper.Extensions
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\Mapper_ConfiguredMaps.g.cs" label="Mapper_ConfiguredMaps.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\Mapper_ConfiguredMaps.g.cs" label="Mapper_ConfiguredMaps.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -383,7 +383,7 @@ namespace NextGenMapper
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\Mapper_ConfiguredMaps_MockMethods.g.cs" label="Mapper_ConfiguredMaps_MockMethods.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\Mapper_ConfiguredMaps_MockMethods.g.cs" label="Mapper_ConfiguredMaps_MockMethods.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -411,7 +411,7 @@ namespace NextGenMapper
   </TabItem>
 
 
-<TabItem value="C:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\StartMapper.g.cs" label="StartMapper.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NextGenMapper\src\NextGenMapperDemo\obj\GX\NextGenMapper\NextGenMapper.MapperGenerator\StartMapper.g.cs" label="StartMapper.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -468,6 +468,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper
 
 
 ### [AutoDTO](/docs/AutoDTO)
+
+
+### [DynamicsMapper](/docs/DynamicsMapper)
 
 
 ### [MagicMap](/docs/MagicMap)
