@@ -108,4 +108,6 @@ https://github.com/ironcev/awesome-roslyn#source-generators
 
 Nuget:
 
-https://www.nuget.org/packages?q=Tags%3A%22SourceGenerator%22
+https://www.nuget.org/packages?q=Tags%3A%22SourceGenerator%22&prerel=true&sortby=created-desc
+
+https://www.nuget.org/packages?q=Tags%3A%22source-generation%22&prerel=false&sortby=created-desc
