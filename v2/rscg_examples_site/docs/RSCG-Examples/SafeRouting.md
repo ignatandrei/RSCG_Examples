@@ -41,7 +41,6 @@ Source : https://github.com/daviddotcs/safe-routing
 ### Original Readme
 :::note
 
-[//]: # (Generated file, do not edit manually. Source: README.source.md)
 # Safe Routing Source Generator for ASP.NET Core
 
 [![SafeRouting NuGet Package](https://img.shields.io/nuget/v/SafeRouting.svg?style=for-the-badge&logo=nuget)](https://www.nuget.org/packages/SafeRouting)
@@ -51,22 +50,40 @@ Safe Routing is a [source generator](https://docs.microsoft.com/en-us/dotnet/csh
 
 ## Table of Contents
 
-- [Usage Example](#usage-example)
-- [Installation](#installation)
+- [SafeRouting  by David Wake](#saferouting--by-david-wake)
+  - [Details](#details)
+    - [Info](#info)
+    - [Original Readme](#original-readme)
+- [Safe Routing Source Generator for ASP.NET Core](#safe-routing-source-generator-for-aspnet-core)
+  - [Table of Contents](#table-of-contents)
+  - [Usage Example](#usage-example)
+  - [Installation](#installation)
     - [Tag Helpers](#tag-helpers)
     - [Extension Methods](#extension-methods)
-- [Getting Started](#getting-started)
+  - [Getting Started](#getting-started)
     - [Binding Source Attributes](#binding-source-attributes)
     - [Bundled Attributes](#bundled-attributes)
     - [Areas](#areas)
     - [Controller Methods with the Same Name](#controller-methods-with-the-same-name)
     - [Using Razor Class Libraries](#using-razor-class-libraries)
-- [Configuration](#configuration)
+  - [Configuration](#configuration)
     - [Available Configuration Options](#available-configuration-options)
-- [Limitations](#limitations)
-- [Working with the Source Code](#working-with-the-source-code)
+  - [Limitations](#limitations)
+  - [Working with the Source Code](#working-with-the-source-code)
     - [Projects](#projects)
     - [Building the NuGet Package](#building-the-nuget-package)
+    - [About](#about)
+  - [How to use](#how-to-use)
+    - [Example ( source csproj, source files )](#example--source-csproj-source-files-)
+    - [Generated Files](#generated-files)
+  - [Usefull](#usefull)
+    - [Download Example (.NET  C# )](#download-example-net--c-)
+    - [Share SafeRouting](#share-saferouting)
+  - [In the same category (API)](#in-the-same-category-api)
+    - [MinimalApiBuilder](#minimalapibuilder)
+    - [Refit](#refit)
+    - [RSCG\_WebAPIExports](#rscg_webapiexports)
+    - [SkinnyControllersCommon](#skinnycontrollerscommon)
 
 ## Usage Example
 

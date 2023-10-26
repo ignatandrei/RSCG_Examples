@@ -1,4 +1,3 @@
-[//]: # (Generated file, do not edit manually. Source: README.source.md)
 # Safe Routing Source Generator for ASP.NET Core
 
 [![SafeRouting NuGet Package](https://img.shields.io/nuget/v/SafeRouting.svg?style=for-the-badge&logo=nuget)](https://www.nuget.org/packages/SafeRouting)
