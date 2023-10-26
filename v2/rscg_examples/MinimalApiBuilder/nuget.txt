@@ -1,0 +1,2 @@
+Reflectionless, source-generated, thin abstraction layer over the ASP.NET Core Minimal APIs
+      interface

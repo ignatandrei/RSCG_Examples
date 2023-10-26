@@ -1,6 +1,6 @@
-# RSCG - 77 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 78 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-16 => 16 October 2023
+## Latest Update : 2023-10-26 => 26 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,25 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 77 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 78 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 78. [MinimalApiBuilder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder) generated on : 2023-10-26 => 26 October 2023
+<details>
+  <summary>Expand</summary>
+Author: 
+
+Reflectionless, source-generated, thin abstraction layer over the ASP.NET Core Minimal APIs
+      interface 
+
+Nuget: [https://www.nuget.org/packages/MinimalApiBuilder/](https://www.nuget.org/packages/MinimalApiBuilder/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder)
+
+Source: [https://github.com/JensDll/MinimalApiBuilder](https://github.com/JensDll/MinimalApiBuilder)
+
+</details>
+
 ### 77. [DynamicsMapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper) generated on : 2023-10-16 => 16 October 2023
 <details>
   <summary>Expand</summary>

@@ -617,6 +617,14 @@
       "Source": "https://github.com/YonatanCohavi/DynamicsMapper/",
       "Category": "Mapper",
       "AddedOn": "2023-10-16T00:00:00"
+    },
+    {
+      "Name": "MinimalApiBuilder",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder",
+      "NuGet": "https://www.nuget.org/packages/MinimalApiBuilder/",
+      "Source": "https://github.com/JensDll/MinimalApiBuilder",
+      "Category": "API",
+      "AddedOn": "2023-10-26T00:00:00"
     }
   ]
 }

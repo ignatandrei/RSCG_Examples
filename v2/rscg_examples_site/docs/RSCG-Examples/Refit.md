@@ -1583,6 +1583,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit
 ## In the same category (API)
 
 
+### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+
 ### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
