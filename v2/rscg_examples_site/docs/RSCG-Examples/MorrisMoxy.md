@@ -242,7 +242,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 ```csharp showLineNumbers 
-// Generated from mixin\IDName.mixin at 2023-10-26 19:16:00 UTC
+// Generated from mixin\IDName.mixin at 2023-10-27 18:28:32 UTC
 namespace MorrisMoxyDemo
 {
     
@@ -262,7 +262,7 @@ namespace MorrisMoxyDemo
 
 
 ```csharp showLineNumbers 
-// Generated at 2023-10-26 19:16:01 UTC
+// Generated at 2023-10-27 18:28:32 UTC
 namespace MorrisMoxyDemo
 {
   partial class Department
@@ -281,7 +281,7 @@ namespace MorrisMoxyDemo
 
 
 ```csharp showLineNumbers 
-// Generated at 2023-10-26 19:16:01 UTC
+// Generated at 2023-10-27 18:28:33 UTC
 namespace MorrisMoxyDemo
 {
   partial class Employee

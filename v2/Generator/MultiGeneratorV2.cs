@@ -163,7 +163,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
 , new NoExample("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new NoExample("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
-, new NoExample("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",later)
+
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -258,7 +258,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"StaticReflection", new (true,new(2023,10,13),Category.EnhancementClass) },
             {"UnitGenerator", new(true,new(2023,10,15),Category.PrimitiveObsession) },
             {"DynamicsMapper",new(true,new(2023,10,16),Category.Mapper) },
-            {"MinimalApiBuilder", new GeneratorData(true,new(2023,10,26),Category.API) },
+            {"MinimalApiBuilder", new (true,new(2023,10,26),Category.API) },
+            {"jsonConverterSourceGenerator", new (true,new(2023,10,27), Category.Serializer) },
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
