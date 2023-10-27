@@ -354,6 +354,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon
 ## In the same category (API)
 
 
+### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+
 ### [Refit](/docs/Refit)
 
 

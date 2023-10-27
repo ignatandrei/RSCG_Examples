@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 77 RSCG by category 
-description: 77 RSCG by category 
+title: 78 RSCG by category 
+description: 78 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -13,7 +13,7 @@ import DocCardList from '@theme/DocCardList';
 ## API 
 <details>
     
-  <summary>Expand API =>examples:4</summary>
+  <summary>Expand API =>examples:5</summary>
         
 
 
@@ -33,6 +33,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [SafeRouting](/docs/SafeRouting)
+
+        
+
+
+[MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 </details>
     
@@ -526,6 +531,8 @@ flowchart LR;
     API--> RSCG_WebAPIExports((RSCG_WebAPIExports))
 
     API--> SafeRouting((SafeRouting))
+
+    API--> MinimalApiBuilder((MinimalApiBuilder))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 

@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"MinimalApiBuilder",
+      "nuget":[
+         "https://www.nuget.org/packages/MinimalApiBuilder/"
+      ],
+      "link":"https://github.com/JensDll/MinimalApiBuilder",
+      "author":"",
+      "source":"https://github.com/JensDll/MinimalApiBuilder"
+   },
+   "data":{
+      "goodFor":["Generate Minimal API from classes"],
+      "csprojDemo":"DemoApi.csproj",
+      "csFiles":["Program.cs","BasicEndpoint.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -76,3 +76,4 @@ Nr,Key,Source,Category
 75,StaticReflection, https://github.com/Cricle/StaticReflection/,EnhancementClass
 76,UnitGenerator, https://github.com/Cysharp/UnitGenerator,PrimitiveObsession
 77,DynamicsMapper, https://github.com/YonatanCohavi/DynamicsMapper/,Mapper
+78,MinimalApiBuilder, https://github.com/JensDll/MinimalApiBuilder,API
