@@ -384,20 +384,27 @@ namespace RSCG_AMSDemo {
         /// </summary>
         public XAboutMySoftware_828469749970839076110119122(){
             AssemblyName ="RSCG_AMSDemo" ; 
-            DateGenerated = DateTime.ParseExact("20231026191601", "yyyyMMddHHmmss", null); 
+            DateGenerated = DateTime.ParseExact("20231028061712", "yyyyMMddHHmmss", null); 
             CommitId  = "not in a CI run" ; 
             RepoUrl ="https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md" ; 
             CISourceControl = "not in a CI run" ; 
             SourceCommit = "https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md" ; 
             Authors= "";
             Version= "";    
-            EnvironmentVars =";User_OneDrive;User_Path;User_OneDriveConsumer;User_ChocolateyLastPathUpdate;User_TMP;User_TEMP;Process_PSModulePath;Process_PROCESSOR_REVISION;Process_PATHEXT;Process_ProgramFiles(x86);Process_CommonProgramFiles(x86);Process_PUBLIC;Process_CommonProgramFiles;Process_PROCESSOR_LEVEL;Process_POWERSHELL_DISTRIBUTION_CHANNEL;Process_OneDrive;Process_LOGONSERVER;Process_APPDATA;Process_MSBuildExtensionsPath;Process_HOMEPATH;Process_ChocolateyLastPathUpdate;Process_USERNAME;Process_TMP;Process_COMPUTERNAME;Process_PROCESSOR_ARCHITECTURE;Process_ZES_ENABLE_SYSMAN;Process_windir;Process_USERDOMAIN;Process_ChocolateyInstall;Process_NUGET_PACKAGES;Process_npm_config_cache;Process_MSBuildLoadMicrosoftTargetsReadOnly;Process_USERPROFILE;Process_DOTNET_CLI_TELEMETRY_SESSIONID;Process_Path;Process_OS;Process_TEMP;Process_OneDriveConsumer;Process_MSBUILDUSESERVER;Process_ComSpec;Process_ProgramFiles;Process_PROCESSOR_IDENTIFIER;Process_ProgramData;Process_NUMBER_OF_PROCESSORS;Process_ALLUSERSPROFILE;Process_LOCALAPPDATA;Process_SystemRoot;Process_HOMEDRIVE;Process_USERDOMAIN_ROAMINGPROFILE;Process_SystemDrive;Process_DOTNET_HOST_PATH;Process_DriverData;Process_MSBuildSDKsPath;Process_CommonProgramW6432;Process_ProgramW6432;Process_PROMPT;Machine_NUMBER_OF_PROCESSORS;Machine_USERNAME;Machine_Path;Machine_ChocolateyInstall;Machine_TMP;Machine_npm_config_cache;Machine_POWERSHELL_DISTRIBUTION_CHANNEL;Machine_PROCESSOR_IDENTIFIER;Machine_windir;Machine_DriverData;Machine_OS;Machine_PATHEXT;Machine_PSModulePath;Machine_PROCESSOR_ARCHITECTURE;Machine_PROCESSOR_LEVEL;Machine_ComSpec;Machine_PROCESSOR_REVISION;Machine_TEMP;Machine_ZES_ENABLE_SYSMAN;Machine_NUGET_PACKAGES";
+            EnvironmentVars =";User_TEMP;User_Path;User_OneDriveConsumer;User_ChocolateyLastPathUpdate;User_TMP;User_OneDrive;Process_LOCALAPPDATA;Process_CommonProgramFiles;Process_MSBUILDUSESERVER;Process_OS;Process_FPS_BROWSER_USER_PROFILE_STRING;Process_npm_config_cache;Process_ProgramData;Process_VSAPPIDNAME;Process_PkgDefApplicationConfigFile;Process_ALLUSERSPROFILE;Process_CommonProgramW6432;Process_NUMBER_OF_PROCESSORS;Process_MONO_ANDROID_PATH;Process_CommonProgramFiles(x86);Process_ThreadedWaitDialogDpiContext;Process_PROCESSOR_ARCHITECTURE;Process_NUGET_PACKAGES;Process_ProgramFiles;Process_PSModulePath;Process_DOTNET_CLI_TELEMETRY_SESSIONID;Process_ChocolateyInstall;Process_windir;Process_COMPUTERNAME;Process_SESSIONNAME;Process_DOTNET_CLI_UI_LANGUAGE;Process_VSLANG;Process_GCExpConfigUsedInSession;Process_MSBuildLoadMicrosoftTargetsReadOnly;Process_VisualStudioDir;Process_FPS_BROWSER_APP_PROFILE_STRING;Process_XAMARIN_ANDROID_REGKEY;Process_OneDriveConsumer;Process_PUBLIC;Process_ProgramW6432;Process_PROCESSOR_REVISION;Process_POWERSHELL_DISTRIBUTION_CHANNEL;Process_ChocolateyLastPathUpdate;Process_PreferredUILang;Process_HOMEDRIVE;Process_VisualStudioVersion;Process_SystemRoot;Process_ComSpec;Process_LOGONSERVER;Process_SystemDrive;Process_VisualStudioEdition;Process_APPDATA;Process_VSAPPIDDIR;Process_SignInWithHomeTenantOnly;Process_TEMP;Process_EFC_24272;Process_MSBuildSDKsPath;Process_USERDOMAIN;Process_VSSKUEDITION;Process_MSBuildExtensionsPath;Process_HOMEPATH;Process_TMP;Process_DriverData;Process_OneDrive;Process_DOTNET_HOST_PATH;Process_USERPROFILE;Process_ZES_ENABLE_SYSMAN;Process_PROCESSOR_IDENTIFIER;Process_VS_Perf_Session_GCHeapCount;Process_PATHEXT;Process_USERNAME;Process_ServiceHubLogSessionKey;Process_PROCESSOR_LEVEL;Process_Path;Process_ProgramFiles(x86);Process_USERDOMAIN_ROAMINGPROFILE;Machine_OS;Machine_npm_config_cache;Machine_ComSpec;Machine_NUGET_PACKAGES;Machine_TMP;Machine_PSModulePath;Machine_Path;Machine_TEMP;Machine_PROCESSOR_ARCHITECTURE;Machine_PROCESSOR_IDENTIFIER;Machine_DriverData;Machine_ChocolateyInstall;Machine_USERNAME;Machine_PROCESSOR_REVISION;Machine_POWERSHELL_DISTRIBUTION_CHANNEL;Machine_PROCESSOR_LEVEL;Machine_NUMBER_OF_PROCESSORS;Machine_windir;Machine_ZES_ENABLE_SYSMAN;Machine_PATHEXT";
             User = "ignat";
             IsInCI=false;
             
 { var v=new VersionReleased();
 v.Name = "FutureRelease" ;
 v.ISODateTime=DateTime.ParseExact("99990416","yyyyMMdd",null); { 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "b75ea1f3510e4f9a91fe626f5366c086d803f959";
+rd.Subject = "Merge pull request #141 from ignatandrei/MinimalApiBuilder";
+rd.ReleaseDate = DateTime.ParseExact("20231027","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
 var rd=new ReleaseData();
 rd.Author = "Andrei Ignat";
 rd.CommitId = "333bd76c980360fdf0271c933eb89802ac447531";

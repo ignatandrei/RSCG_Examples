@@ -163,7 +163,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
 , new NoExample("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new NoExample("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
-, new NoExample("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",later)
+, new NoExample("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm

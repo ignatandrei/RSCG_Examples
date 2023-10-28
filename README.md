@@ -1494,7 +1494,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Jos.Enumeration,&b
 
 21) [json-converter-source-generator]( https://github.com/aviationexam/json-converter-source-generator) , https://github.com/aviationexam/json-converter-source-generator 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=json-converter-source-generator&body=https://github.com/aviationexam/json-converter-source-generator
 
