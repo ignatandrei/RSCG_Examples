@@ -76,7 +76,7 @@ Why I have not put example: state machine - full of features. To be analyzed , n
 
 18)Biwen.AutoClassGen https://github.com/vipwan/Biwen.AutoClassGen  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 19)BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator  
 

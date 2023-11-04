@@ -1403,7 +1403,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=BigMachines&body=h
 
 8) [Biwen.AutoClassGen]( https://github.com/vipwan/Biwen.AutoClassGen) , https://github.com/vipwan/Biwen.AutoClassGen 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Biwen.AutoClassGen&body=https://github.com/vipwan/Biwen.AutoClassGen
 
