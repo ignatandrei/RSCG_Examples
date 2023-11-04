@@ -315,7 +315,7 @@ namespace JsonSerializerOptionsExample
 namespace JsonSerializerOptionsExample
 {
     
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.8.47720")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.1816")]
     internal partial class OptionsExampleContext
     {
         

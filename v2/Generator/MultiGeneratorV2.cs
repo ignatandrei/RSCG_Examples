@@ -153,17 +153,18 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
-, new NoExample("DudNet https://github.com/jwshyns/DudNet",WaitingForIssue)
-,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
-,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
-,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
-,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
-, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
-, new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
-, new NoExample("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
-, new NoExample("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
-, new NoExample("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
+, new("DudNet https://github.com/jwshyns/DudNet",WaitingForIssue)
+,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
+,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
+,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
+,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
+,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
+, new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
+, new("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
+, new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
+, new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
+, new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
+, new ("Biwen.AutoClassGen https://github.com/vipwan/Biwen.AutoClassGen",later)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -530,7 +531,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ////Console.WriteLine(zipFile);
         //if (File.Exists(zipFile)) File.Delete(zipFile);
         //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
-        await BuildProject(sources);
+        //await BuildProject(sources);
         ArgumentNullException.ThrowIfNull(desc.Data);
         ArgumentNullException.ThrowIfNull(desc.Data.CSProj);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);

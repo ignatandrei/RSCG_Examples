@@ -106,6 +106,13 @@ https://github.com/amis92/csharp-source-generators
 
 https://github.com/ironcev/awesome-roslyn#source-generators
 
+Videos: 
+	
+Let's Code an incremental source generator with Roslyn - Stefan Pölz - NDC London 2023
+
+https://www.youtube.com/watch?v=iOp3mN933Og
+
+
 Nuget:
 
 https://www.nuget.org/packages?q=Tags%3A%22SourceGenerator%22&prerel=true&sortby=created-desc
