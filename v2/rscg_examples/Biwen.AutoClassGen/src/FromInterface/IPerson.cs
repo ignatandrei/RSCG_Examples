@@ -1,15 +1,17 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
-using Biwen.AutoClassGen;
+
 namespace FromInterface;
 
 
-//[AutoGen("QueryRequest", "Biwen.AutoClassGen.Models")]
+[AutoGen("Person", "FromInterface")]
 public interface IPerson
 {
-    [StringLength(100), Description("Keyword for search")]
+    
+    [StringLength(100), Description("person first name")]
     string FirstName { get; set; }
     string LastName { get; set; }
 
-    string FullName();
+    public string FullName();
+
 }
