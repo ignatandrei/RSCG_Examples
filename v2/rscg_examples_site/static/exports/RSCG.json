@@ -625,6 +625,14 @@
       "Source": "https://github.com/JensDll/MinimalApiBuilder",
       "Category": "API",
       "AddedOn": "2023-10-26T00:00:00"
+    },
+    {
+      "Name": "DudNet",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet",
+      "NuGet": "https://www.nuget.org/packages/Jwshyns.DudNet/",
+      "Source": "https://github.com/jwshyns/DudNet",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-10-27T00:00:00"
     }
   ]
 }
