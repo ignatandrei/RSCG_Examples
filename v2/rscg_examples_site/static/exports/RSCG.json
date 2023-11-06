@@ -633,6 +633,14 @@
       "Source": "https://github.com/jwshyns/DudNet",
       "Category": "EnhancementClass",
       "AddedOn": "2023-10-27T00:00:00"
+    },
+    {
+      "Name": "AutoConstructor",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoConstructor",
+      "NuGet": "https://www.nuget.org/packages/AutoConstructor/",
+      "Source": "https://github.com/k94ll13nn3/AutoConstructor",
+      "Category": "Constructor",
+      "AddedOn": "2023-10-28T00:00:00"
     }
   ]
 }
