@@ -1,0 +1,48 @@
+using System.Runtime.CompilerServices;
+using DudNet.Attributes;
+using System.Runtime.CompilerServices;
+
+namespace DudNetDemo;
+
+/// <inheritdoc cref="IPerson"/>
+public partial class PersonProxy : IPerson {
+
+	private readonly IPerson _service;
+
+	public string? FirstName {
+		get {
+			Interceptor();
+			get_FirstNameInterceptor();
+			return _service.FirstName;
+		}
+		set {
+			Interceptor();
+			set_FirstNameInterceptor(value);
+			_service.FirstName = value;
+		}
+	}
+	public string? LastName {
+		get {
+			Interceptor();
+			get_LastNameInterceptor();
+			return _service.LastName;
+		}
+		set {
+			Interceptor();
+			set_LastNameInterceptor(value);
+			_service.LastName = value;
+		}
+	}
+	public string FullName() {
+		Interceptor();
+		FullNameInterceptor();
+		return _service.FullName();
+	}
+	partial void Interceptor([CallerMemberName]string callerName = null);
+	partial void get_FirstNameInterceptor();
+	partial void set_FirstNameInterceptor(string? value);
+	partial void get_LastNameInterceptor();
+	partial void set_LastNameInterceptor(string? value);
+	partial void FullNameInterceptor();
+
+}

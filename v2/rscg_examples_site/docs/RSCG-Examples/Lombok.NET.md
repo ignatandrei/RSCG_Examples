@@ -465,6 +465,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [DudNet](/docs/DudNet)
+
+
 ### [FastGenericNew](/docs/FastGenericNew)
 
 

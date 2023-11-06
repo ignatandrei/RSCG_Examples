@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 78 RSCG by category 
-description: 78 RSCG by category 
+title: 79 RSCG by category 
+description: 79 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -128,7 +128,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:18</summary>
+  <summary>Expand EnhancementClass =>examples:19</summary>
         
 
 
@@ -218,6 +218,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [StaticReflection](/docs/StaticReflection)
+
+        
+
+
+[DudNet](/docs/DudNet)
 
 </details>
     
@@ -591,6 +596,8 @@ flowchart LR;
     EnhancementClass--> Meziantou.Polyfill((Meziantou.Polyfill))
 
     EnhancementClass--> StaticReflection((StaticReflection))
+
+    EnhancementClass--> DudNet((DudNet))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

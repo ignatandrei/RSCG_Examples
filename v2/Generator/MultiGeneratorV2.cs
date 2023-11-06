@@ -153,7 +153,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
-, new("DudNet https://github.com/jwshyns/DudNet",WaitingForIssue)
 ,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
@@ -259,7 +258,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"StaticReflection", new (true,new(2023,10,13),Category.EnhancementClass) },
             {"UnitGenerator", new(true,new(2023,10,15),Category.PrimitiveObsession) },
             {"DynamicsMapper",new(true,new(2023,10,16),Category.Mapper) },
-            {"MinimalApiBuilder", new GeneratorData(true,new(2023,10,26),Category.API) },
+            {"MinimalApiBuilder", new (true,new(2023,10,26),Category.API) },
+            { "DudNet",new(true,new(2023,10,27),Category.EnhancementClass) },
+
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
