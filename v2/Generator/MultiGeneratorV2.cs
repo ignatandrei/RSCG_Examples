@@ -163,6 +163,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 , new ("Biwen.AutoClassGen https://github.com/vipwan/Biwen.AutoClassGen",WaitingForIssue)
+, new("AutoConstructor https://github.com/k94ll13nn3/AutoConstructor", later)
+, new("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes", later)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
