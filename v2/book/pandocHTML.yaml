@@ -93,6 +93,7 @@ input-files:
 - examples/DynamicsMapper.html
 - examples/MinimalApiBuilder.html
 - examples/DudNet.html
+- examples/AutoConstructor.html
 
 # or you may use input-file: with a single value
 # defaults:
