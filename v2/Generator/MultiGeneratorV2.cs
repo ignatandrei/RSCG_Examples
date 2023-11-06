@@ -159,7 +159,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
-, new("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
