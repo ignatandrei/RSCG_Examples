@@ -46,7 +46,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService",old)
 ,new ("AnyOf https://github.com/StefH/AnyOf",old)
 ,new ("AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable",old)
-,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md",old)
+,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer",old)
 ,new ("AutoInterface https://github.com/beakona/AutoInterface",old)
 ,new ("Avalonia.NameGenerator https://github.com/AvaloniaUI/Avalonia.NameGenerator",old)
 ,new ("avatar https://github.com/kzu/avatar",archived)
