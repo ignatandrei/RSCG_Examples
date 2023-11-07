@@ -105,7 +105,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator",old)
 ,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor",old)
 ,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen",tooComplicated)
-,new ("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes",old)
 ,new ("Navitski.Crystalized https://github.com/AlexNav73/CoreCraft"," JSON to classes. Waiting for .NET 8 to see if MSFT has done natively")
 ,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface",old)
 ,new ("Plastic https://github.com/sang-hyeon/Plastic",old)
@@ -163,7 +162,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 , new ("Biwen.AutoClassGen https://github.com/vipwan/Biwen.AutoClassGen",WaitingForIssue)
-, new("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes", later)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -260,8 +258,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"DynamicsMapper",new(true,new(2023,10,16),Category.Mapper) },
             {"MinimalApiBuilder", new (true,new(2023,10,26),Category.API) },
             { "DudNet",new(true,new(2023,10,27),Category.EnhancementClass) },
-            {"AutoConstructor" ,new(true,new(2023,10,28),Category.Constructor)}
-
+            {"AutoConstructor" ,new(true,new(2023,10,28),Category.Constructor)},
+            {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

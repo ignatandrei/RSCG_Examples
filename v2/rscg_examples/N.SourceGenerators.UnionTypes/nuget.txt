@@ -1,0 +1,1 @@
+Discriminated union type source generator
