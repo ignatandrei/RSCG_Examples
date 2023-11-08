@@ -77,3 +77,4 @@ Nr,Key,Source,Category
 76,UnitGenerator, https://github.com/Cysharp/UnitGenerator,PrimitiveObsession
 77,DynamicsMapper, https://github.com/YonatanCohavi/DynamicsMapper/,Mapper
 78,MinimalApiBuilder, https://github.com/JensDll/MinimalApiBuilder,API
+79,jscsg, https://github.com/aviationexam/json-converter-source-generator,Serializer

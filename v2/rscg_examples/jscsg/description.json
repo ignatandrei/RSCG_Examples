@@ -10,8 +10,8 @@
    },
    "data":{
       "goodFor":["Json Polymorphic generator"],
-      "csprojDemo":"jsonConverterSourceGeneratorDemo.csproj",
-      "csFiles":["Program.cs"]
+      "csprojDemo":"JsonPolymorphicGeneratorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","ProjectJsonSerializerContext.cs"]
    },
    "links":{
       "blog":"",

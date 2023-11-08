@@ -1,8 +1,8 @@
-﻿using System.Text.Json.Serialization;
+﻿namespace JsonPolymorphicGeneratorDemo;
 
-namespace JsonPolymorphicGeneratorDemo;
-
-[JsonPolymorphic]
+[Aviationexam.GeneratedJsonConverters.Attributes.JsonPolymorphic]
+[Aviationexam.GeneratedJsonConverters.Attributes.JsonDerivedType(typeof(Student))]
+[Aviationexam.GeneratedJsonConverters.Attributes.JsonDerivedType(typeof(Teacher))]
 public abstract partial class Person
 {
     

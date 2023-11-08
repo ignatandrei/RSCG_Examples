@@ -10,7 +10,7 @@
   <ItemGroup>
   </ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Aviationexam.GeneratedJsonConverters.SourceGenerator" Version="0.1.0" PrivateAssets="all" />
+		<PackageReference Include="Aviationexam.GeneratedJsonConverters.SourceGenerator" Version="0.1.11" PrivateAssets="all" />
 	</ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
