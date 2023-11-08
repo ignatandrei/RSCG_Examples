@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 81 RSCG with examples in descending chronological order
+## 82 RSCG with examples in descending chronological order
 
-This is the list of 81 ( 6 from Microsoft) RSCG with examples 
+This is the list of 82 ( 6 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 81 ( 6 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|82|[jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)|2023-10-30 => 30 October 2023 | Serializer |
 |81|[N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)|2023-10-29 => 29 October 2023 | FunctionalProgramming |
 |80|[AutoConstructor](/docs/AutoConstructor)|2023-10-28 => 28 October 2023 | Constructor |
 |79|[DudNet](/docs/DudNet)|2023-10-27 => 27 October 2023 | EnhancementClass |

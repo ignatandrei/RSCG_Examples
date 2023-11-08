@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 81 RSCG by category 
-description: 81 RSCG by category 
+title: 82 RSCG by category 
+description: 82 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -461,7 +461,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:3</summary>
+  <summary>Expand Serializer =>examples:4</summary>
         
 
 
@@ -476,6 +476,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
+
+        
+
+
+[jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
 
 </details>
     
@@ -684,6 +689,8 @@ flowchart LR;
     Serializer--> ProtobufSourceGenerator((ProtobufSourceGenerator))
 
     Serializer--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
+
+    Serializer--> jsonConverterSourceGenerator((jsonConverterSourceGenerator))
 
     Templating--> RazorBlade((RazorBlade))
 

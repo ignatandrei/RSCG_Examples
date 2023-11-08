@@ -649,6 +649,14 @@
       "Source": "https://github.com/Ne4to/N.SourceGenerators.UnionTypes",
       "Category": "FunctionalProgramming",
       "AddedOn": "2023-10-29T00:00:00"
+    },
+    {
+      "Name": "jsonConverterSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/jscsg",
+      "NuGet": "https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/",
+      "Source": "https://github.com/aviationexam/json-converter-source-generator",
+      "Category": "Serializer",
+      "AddedOn": "2023-10-30T00:00:00"
     }
   ]
 }
