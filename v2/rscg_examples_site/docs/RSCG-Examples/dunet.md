@@ -1364,6 +1364,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet
 ## In the same category (FunctionalProgramming)
 
 
+### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+
+
 ### [OneOf](/docs/OneOf)
 
 

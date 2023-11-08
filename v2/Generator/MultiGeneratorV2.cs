@@ -46,7 +46,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService",old)
 ,new ("AnyOf https://github.com/StefH/AnyOf",old)
 ,new ("AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable",old)
-,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md",old)
+,new ("AutoFilterer.Generators https://github.com/enisn/AutoFilterer",old)
 ,new ("AutoInterface https://github.com/beakona/AutoInterface",old)
 ,new ("Avalonia.NameGenerator https://github.com/AvaloniaUI/Avalonia.NameGenerator",old)
 ,new ("avatar https://github.com/kzu/avatar",archived)
@@ -105,7 +105,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator",old)
 ,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor",old)
 ,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen",tooComplicated)
-,new ("N.SourceGenerators.UnionTypes https://github.com/Ne4to/N.SourceGenerators.UnionTypes",old)
 ,new ("Navitski.Crystalized https://github.com/AlexNav73/CoreCraft"," JSON to classes. Waiting for .NET 8 to see if MSFT has done natively")
 ,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface",old)
 ,new ("Plastic https://github.com/sang-hyeon/Plastic",old)
@@ -153,17 +152,16 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
-, new NoExample("DudNet https://github.com/jwshyns/DudNet",WaitingForIssue)
-,new NoExample("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
-,new NoExample("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
-,new NoExample("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
-,new NoExample("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-,new NoExample("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
-, new NoExample("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
-, new NoExample("DynamicsMapper https://github.com/YonatanCohavi/DynamicsMapper",WaitingForIssue)
-, new NoExample("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
-, new NoExample("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
-
+,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
+,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
+,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
+,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
+,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
+, new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
+, new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
+, new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
+, new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
+, new ("Biwen.AutoClassGen https://github.com/vipwan/Biwen.AutoClassGen",WaitingForIssue)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -259,7 +257,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"UnitGenerator", new(true,new(2023,10,15),Category.PrimitiveObsession) },
             {"DynamicsMapper",new(true,new(2023,10,16),Category.Mapper) },
             {"MinimalApiBuilder", new (true,new(2023,10,26),Category.API) },
-            {"jscsg", new (true,new(2023,10,27), Category.Serializer) },
+            { "DudNet",new(true,new(2023,10,27),Category.EnhancementClass) },
+            {"AutoConstructor" ,new(true,new(2023,10,28),Category.Constructor)},
+            {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -531,7 +531,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ////Console.WriteLine(zipFile);
         //if (File.Exists(zipFile)) File.Delete(zipFile);
         //ZipFile.CreateFromDirectory(sources, zipFile,CompressionLevel.SmallestSize,false);
-        await BuildProject(sources);
+        //await BuildProject(sources);
         ArgumentNullException.ThrowIfNull(desc.Data);
         ArgumentNullException.ThrowIfNull(desc.Data.CSProj);
         var csprojItems = Directory.GetFiles(sources, desc.Data.CSProj, SearchOption.AllDirectories);

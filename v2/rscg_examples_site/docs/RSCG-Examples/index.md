@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 79 RSCG by category 
-description: 79 RSCG by category 
+title: 81 RSCG by category 
+description: 81 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -45,7 +45,7 @@ import DocCardList from '@theme/DocCardList';
 ## Constructor 
 <details>
     
-  <summary>Expand Constructor =>examples:3</summary>
+  <summary>Expand Constructor =>examples:4</summary>
         
 
 
@@ -60,6 +60,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoCtor](/docs/AutoCtor)
+
+        
+
+
+[AutoConstructor](/docs/AutoConstructor)
 
 </details>
     
@@ -128,7 +133,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:18</summary>
+  <summary>Expand EnhancementClass =>examples:19</summary>
         
 
 
@@ -218,6 +223,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [StaticReflection](/docs/StaticReflection)
+
+        
+
+
+[DudNet](/docs/DudNet)
 
 </details>
     
@@ -331,7 +341,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:4</summary>
+  <summary>Expand FunctionalProgramming =>examples:5</summary>
         
 
 
@@ -351,6 +361,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+
+        
+
+
+[N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 </details>
     
@@ -446,7 +461,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:4</summary>
+  <summary>Expand Serializer =>examples:3</summary>
         
 
 
@@ -461,11 +476,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-        
-
-
-[jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
 
 </details>
     
@@ -545,6 +555,8 @@ flowchart LR;
 
     Constructor--> AutoCtor((AutoCtor))
 
+    Constructor--> AutoConstructor((AutoConstructor))
+
     Database--> Gedaq((Gedaq))
 
     Database--> Breezy((Breezy))
@@ -597,6 +609,8 @@ flowchart LR;
 
     EnhancementClass--> StaticReflection((StaticReflection))
 
+    EnhancementClass--> DudNet((DudNet))
+
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
     EnhancementProject--> RSCG_TimeBombComment((RSCG_TimeBombComment))
@@ -639,6 +653,8 @@ flowchart LR;
 
     FunctionalProgramming--> RSCG_Utils_Memo((RSCG_Utils_Memo))
 
+    FunctionalProgramming--> N.SourceGenerators.UnionTypes((N.SourceGenerators.UnionTypes))
+
     Mapper--> mapperly((mapperly))
 
     Mapper--> NextGenMapper((NextGenMapper))
@@ -668,8 +684,6 @@ flowchart LR;
     Serializer--> ProtobufSourceGenerator((ProtobufSourceGenerator))
 
     Serializer--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
-
-    Serializer--> jsonConverterSourceGenerator((jsonConverterSourceGenerator))
 
     Templating--> RazorBlade((RazorBlade))
 

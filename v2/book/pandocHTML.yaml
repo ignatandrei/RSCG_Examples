@@ -92,7 +92,9 @@ input-files:
 - examples/UnitGenerator.html
 - examples/DynamicsMapper.html
 - examples/MinimalApiBuilder.html
-- examples/jsonConverterSourceGenerator.html
+- examples/DudNet.html
+- examples/AutoConstructor.html
+- examples/N.SourceGenerators.UnionTypes.html
 
 # or you may use input-file: with a single value
 # defaults:

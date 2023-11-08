@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"N.SourceGenerators.UnionTypes",
+      "nuget":[
+         "https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/"
+      ],
+      "link":"https://github.com/Ne4to/N.SourceGenerators.UnionTypes",
+      "author":"Alexey Sosnin",
+      "source":"https://github.com/Ne4to/N.SourceGenerators.UnionTypes"
+   },
+   "data":{
+      "goodFor":["Generating different union types"],
+      "csprojDemo":"UnionTypesDemo.csproj",
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
