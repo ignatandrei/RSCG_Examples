@@ -1,6 +1,6 @@
-# RSCG - 81 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 82 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-10-29 => 29 October 2023
+## Latest Update : 2023-10-30 => 30 October 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 81 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 82 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 82. [jsonConverterSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator) generated on : 2023-10-30 => 30 October 2023
+<details>
+  <summary>Expand</summary>
+Author: Aviationexam
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator)
+
+Source: [https://github.com/aviationexam/json-converter-source-generator](https://github.com/aviationexam/json-converter-source-generator)
+
+</details>
+
 ### 81. [N.SourceGenerators.UnionTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/N.SourceGenerators.UnionTypes) generated on : 2023-10-29 => 29 October 2023
 <details>
   <summary>Expand</summary>
@@ -1732,7 +1748,7 @@ Why I have not tested : old ISourceGenerator
 
 
 
-6) [AutoFilterer.Generators]( https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md) , https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md 
+6) [AutoFilterer.Generators]( https://github.com/enisn/AutoFilterer) , https://github.com/enisn/AutoFilterer 
 
 Why I have not tested : old ISourceGenerator
 
@@ -2321,10 +2337,9 @@ This is the list
 |17| [Static To Interface]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-17--static-to-interface) |"
 |18| [BaseTypes]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-18--basetypes) |"
 |19| [AppSettingsEditor]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-19--appsettingseditor) |"
-|20| [ApparatusAOT]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-20--apparatusaot) |"
-|21| [StructRecordsGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-21--structrecordsgenerator) |"
-|22| [AOPMarkerCI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-22--aopmarkerci) |"
-|23| [BoilerplateFree]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-23--boilerplatefree) |"
+|20| [StructRecordsGenerator]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-20--structrecordsgenerator) |"
+|21| [AOPMarkerCI]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-21--aopmarkerci) |"
+|22| [BoilerplateFree]( https://ignatandrei.github.io/RSCG_Examples/v1/#rscg-number-22--boilerplatefree) |"
 
 </details>
 

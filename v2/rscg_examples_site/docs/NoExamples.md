@@ -38,7 +38,7 @@ Why I have not put example: old ISourceGenerator
 
 Why I have not put example: old ISourceGenerator
 
-9)AutoFilterer.Generators https://github.com/enisn/AutoFilterer/blob/develop/docs/generators/AutoFilterer-Generators.md  
+9)AutoFilterer.Generators https://github.com/enisn/AutoFilterer  
 
 Why I have not put example: old ISourceGenerator
 

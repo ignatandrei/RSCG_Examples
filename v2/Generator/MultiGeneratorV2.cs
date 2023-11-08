@@ -259,7 +259,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"MinimalApiBuilder", new (true,new(2023,10,26),Category.API) },
             { "DudNet",new(true,new(2023,10,27),Category.EnhancementClass) },
             {"AutoConstructor" ,new(true,new(2023,10,28),Category.Constructor)},
-            {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) }
+            {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) },
+            {"jscsg",new(true,new(2023,10,30),Category.Serializer) }
         };
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

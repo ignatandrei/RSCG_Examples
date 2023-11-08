@@ -769,6 +769,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json
 ## In the same category (Serializer)
 
 
+### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+
+
 ### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 
