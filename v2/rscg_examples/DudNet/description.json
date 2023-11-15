@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"DudNet",
+      "nuget":[
+         "https://www.nuget.org/packages/Jwshyns.DudNet/"
+      ],
+      "link":"https://github.com/jwshyns/DudNet",
+      "author":"jwshyns",
+      "source":"https://github.com/jwshyns/DudNet"
+   },
+   "data":{
+      "goodFor":["Generate proxy classes for the principal classes"],
+      "csprojDemo":"DudNetDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

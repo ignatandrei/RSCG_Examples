@@ -1,0 +1,160 @@
+
+<h1>RSCG nr 82 :  jsonConverterSourceGenerator</h1>
+
+<h2>Info</h2>
+Nuget : <a href="https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/" target="_blank">https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/</a>
+
+<p>You can find more details at : <a href="https://github.com/aviationexam/json-converter-source-generator" target="_blank"> https://github.com/aviationexam/json-converter-source-generator</a></p>
+
+<p>Author :Aviationexam</p>
+
+<p>Source : <a href="https://github.com/aviationexam/json-converter-source-generator" target="_blank">https://github.com/aviationexam/json-converter-source-generator</a> </p>
+
+<h2>About</h2>
+
+Json Polymorphic generator
+
+<h2>
+    How to use
+</h2>
+<h3>
+    Add reference to the  <a href="https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/" target="_blank">jsonConverterSourceGenerator</a> in the csproj
+</h3>
+<img src="images/jsonConverterSourceGenerator/JsonPolymorphicGeneratorDemo.csproj.png" width="580" height="580" />
+
+<h3>This was for me the <b>starting</b> code</h3>
+
+        <br />
+        I have <b>coded</b> the file Program.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/csFiles/Program.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file Person.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/csFiles/Person.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file ProjectJsonSerializerContext.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/csFiles/ProjectJsonSerializerContext.cs.png" width="580" height="580" />
+    <hr />
+    <h3>And here are the <i>generated</i> files</h3>
+
+        <br />
+        The file <i>generated</i> is Attributes.DisableEnumJsonConverterAttribute.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/Attributes.DisableEnumJsonConverterAttribute.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is EnumDeserializationStrategy.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/EnumDeserializationStrategy.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is EnumJsonConverterAttribute.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/EnumJsonConverterAttribute.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is EnumJsonConvertor.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/EnumJsonConvertor.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is EnumSerializationStrategy.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/EnumSerializationStrategy.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is DiscriminatorStruct.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/DiscriminatorStruct.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is IDiscriminatorStruct.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/IDiscriminatorStruct.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is JsonDerivedTypeAttribute.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/JsonDerivedTypeAttribute.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is JsonPolymorphicAttribute.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/JsonPolymorphicAttribute.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is PersonJsonPolymorphicConverter.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/PersonJsonPolymorphicConverter.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is PolymorphicJsonConvertor.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/PolymorphicJsonConvertor.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.GetJsonTypeInfo.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.GetJsonTypeInfo.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.Person.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.Person.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.PersonArray.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.PersonArray.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.PropertyNames.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.PropertyNames.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.String.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.String.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.Student.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.Student.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ProjectJsonSerializerContext.Teacher.g.cs
+        <br />
+    <img src="images/jsonConverterSourceGenerator/generated/ProjectJsonSerializerContext.Teacher.g.cs.png" width="580" height="580" />
+    
+<p>
+    You can download the code and this page as pdf from
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator
+    </a>
+</p>
+
+
+<p>
+    You can see the whole list at 
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+

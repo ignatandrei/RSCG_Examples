@@ -249,6 +249,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator
 ## In the same category (Serializer)
 
 
+### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+
+
 ### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
 

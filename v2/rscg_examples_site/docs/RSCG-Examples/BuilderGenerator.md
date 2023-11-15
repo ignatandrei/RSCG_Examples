@@ -436,7 +436,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+### [DudNet](/docs/DudNet)
 
 
 ### [FastGenericNew](/docs/FastGenericNew)

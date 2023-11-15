@@ -1,0 +1,28 @@
+using System.Runtime.CompilerServices;
+using DudNet.Attributes;
+using System.Runtime.CompilerServices;
+
+namespace DudNetDemo;
+
+/// <inheritdoc cref="IPerson"/>
+public partial class PersonDud : IPerson {
+
+	public string? FirstName {
+		get {
+			return (string?) default;
+		}
+		set {
+		}
+	}
+	public string? LastName {
+		get {
+			return (string?) default;
+		}
+		set {
+		}
+	}
+	public string FullName() {
+		return (string) default;
+	}
+
+}

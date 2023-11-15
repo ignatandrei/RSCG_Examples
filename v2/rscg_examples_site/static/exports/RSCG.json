@@ -627,12 +627,44 @@
       "AddedOn": "2023-10-26T00:00:00"
     },
     {
-      "Name": "Biwen.AutoClassGen",
-      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen",
-      "NuGet": "https://www.nuget.org/packages/Biwen.AutoClassGen/",
-      "Source": "https://github.com/vipwan/Biwen.AutoClassGen",
+      "Name": "DudNet",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet",
+      "NuGet": "https://www.nuget.org/packages/Jwshyns.DudNet/",
+      "Source": "https://github.com/jwshyns/DudNet",
       "Category": "EnhancementClass",
-      "AddedOn": "2023-11-16T00:00:00"
+      "AddedOn": "2023-10-27T00:00:00"
+    },
+    {
+      "Name": "AutoConstructor",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoConstructor",
+      "NuGet": "https://www.nuget.org/packages/AutoConstructor/",
+      "Source": "https://github.com/k94ll13nn3/AutoConstructor",
+      "Category": "Constructor",
+      "AddedOn": "2023-10-28T00:00:00"
+    },
+    {
+      "Name": "N.SourceGenerators.UnionTypes",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/N.SourceGenerators.UnionTypes",
+      "NuGet": "https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/",
+      "Source": "https://github.com/Ne4to/N.SourceGenerators.UnionTypes",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2023-10-29T00:00:00"
+    },
+    {
+      "Name": "jsonConverterSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/jscsg",
+      "NuGet": "https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/",
+      "Source": "https://github.com/aviationexam/json-converter-source-generator",
+      "Category": "Serializer",
+      "AddedOn": "2023-10-30T00:00:00"
+    },
+    {
+      "Name": "PrimaryParameter",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter",
+      "NuGet": "https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG",
+      "Source": "https://github.com/FaustVX/PrimaryParameter",
+      "Category": "Constructor",
+      "AddedOn": "2023-11-15T00:00:00"
     }
   ]
 }

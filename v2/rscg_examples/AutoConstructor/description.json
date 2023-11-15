@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"AutoConstructor",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoConstructor/"
+      ],
+      "link":"https://github.com/k94ll13nn3/AutoConstructor",
+      "author":"Kévin Gallienne",
+      "source":"https://github.com/k94ll13nn3/AutoConstructor"
+   },
+   "data":{
+      "goodFor":["Generating constructor for class with many properties"],
+      "csprojDemo":"ConstructorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

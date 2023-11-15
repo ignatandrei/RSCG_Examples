@@ -33,7 +33,7 @@ class MultiGenerator
             "StaticToInterface",
             "TinyTypes",
             "appSettingsEditor",
-            "ApparatusAOT",
+            //"ApparatusAOT",
             "DebuggerToString",
             "AOPMarkerCI",
             "Class2Interface"

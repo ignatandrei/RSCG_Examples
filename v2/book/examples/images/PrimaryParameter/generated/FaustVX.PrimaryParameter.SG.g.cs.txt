@@ -1,0 +1,14 @@
+namespace QuickConstructorDemo
+{
+    partial class Person
+    {
+        public string FirstName { get; init; } = FirstName;
+    }
+}
+namespace QuickConstructorDemo
+{
+    partial class Person
+    {
+        public readonly string _LastName = LastName;
+    }
+}

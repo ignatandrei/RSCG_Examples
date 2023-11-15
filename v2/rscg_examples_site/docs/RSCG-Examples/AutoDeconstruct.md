@@ -191,7 +191,13 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct
 ## In the same category (Constructor)
 
 
+### [AutoConstructor](/docs/AutoConstructor)
+
+
 ### [AutoCtor](/docs/AutoCtor)
+
+
+### [PrimaryParameter](/docs/PrimaryParameter)
 
 
 ### [QuickConstructor](/docs/QuickConstructor)

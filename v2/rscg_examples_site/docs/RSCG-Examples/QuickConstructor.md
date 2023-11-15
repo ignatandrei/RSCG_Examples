@@ -428,8 +428,14 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor
 ## In the same category (Constructor)
 
 
+### [AutoConstructor](/docs/AutoConstructor)
+
+
 ### [AutoCtor](/docs/AutoCtor)
 
 
 ### [AutoDeconstruct](/docs/AutoDeconstruct)
+
+
+### [PrimaryParameter](/docs/PrimaryParameter)
 

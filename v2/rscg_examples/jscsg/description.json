@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"jsonConverterSourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/"
+      ],
+      "link":"https://github.com/aviationexam/json-converter-source-generator",
+      "author":"Aviationexam",
+      "source":"https://github.com/aviationexam/json-converter-source-generator"
+   },
+   "data":{
+      "goodFor":["Json Polymorphic generator"],
+      "csprojDemo":"JsonPolymorphicGeneratorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","ProjectJsonSerializerContext.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
