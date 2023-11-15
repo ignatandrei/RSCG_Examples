@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 82 RSCG by category 
-description: 82 RSCG by category 
+title: 83 RSCG by category 
+description: 83 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -45,7 +45,7 @@ import DocCardList from '@theme/DocCardList';
 ## Constructor 
 <details>
     
-  <summary>Expand Constructor =>examples:4</summary>
+  <summary>Expand Constructor =>examples:5</summary>
         
 
 
@@ -65,6 +65,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoConstructor](/docs/AutoConstructor)
+
+        
+
+
+[PrimaryParameter](/docs/PrimaryParameter)
 
 </details>
     
@@ -561,6 +566,8 @@ flowchart LR;
     Constructor--> AutoCtor((AutoCtor))
 
     Constructor--> AutoConstructor((AutoConstructor))
+
+    Constructor--> PrimaryParameter((PrimaryParameter))
 
     Database--> Gedaq((Gedaq))
 

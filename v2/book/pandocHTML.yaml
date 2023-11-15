@@ -96,6 +96,7 @@ input-files:
 - examples/AutoConstructor.html
 - examples/N.SourceGenerators.UnionTypes.html
 - examples/jsonConverterSourceGenerator.html
+- examples/PrimaryParameter.html
 
 # or you may use input-file: with a single value
 # defaults:

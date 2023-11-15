@@ -81,3 +81,4 @@ Nr,Key,Source,Category
 80,AutoConstructor, https://github.com/k94ll13nn3/AutoConstructor,Constructor
 81,N.SourceGenerators.UnionTypes, https://github.com/Ne4to/N.SourceGenerators.UnionTypes,FunctionalProgramming
 82,jscsg, https://github.com/aviationexam/json-converter-source-generator,Serializer
+83,PrimaryParameter, https://github.com/FaustVX/PrimaryParameter,Constructor

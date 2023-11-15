@@ -657,6 +657,14 @@
       "Source": "https://github.com/aviationexam/json-converter-source-generator",
       "Category": "Serializer",
       "AddedOn": "2023-10-30T00:00:00"
+    },
+    {
+      "Name": "PrimaryParameter",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter",
+      "NuGet": "https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG",
+      "Source": "https://github.com/FaustVX/PrimaryParameter",
+      "Category": "Constructor",
+      "AddedOn": "2023-11-15T00:00:00"
     }
   ]
 }
