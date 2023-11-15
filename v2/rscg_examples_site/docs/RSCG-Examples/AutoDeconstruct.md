@@ -197,5 +197,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct
 ### [AutoCtor](/docs/AutoCtor)
 
 
+### [PrimaryParameter](/docs/PrimaryParameter)
+
+
 ### [QuickConstructor](/docs/QuickConstructor)
 

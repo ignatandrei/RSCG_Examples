@@ -144,7 +144,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Figgle, https://github.com/drewnoakes/figgle",old)
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
 ,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
-, new("PrimaryParameter https://github.com/FaustVX/PrimaryParameter",later + " in .net 8")
 ,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",old)
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
@@ -260,8 +259,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             { "DudNet",new(true,new(2023,10,27),Category.EnhancementClass) },
             {"AutoConstructor" ,new(true,new(2023,10,28),Category.Constructor)},
             {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) },
-            {"jscsg",new(true,new(2023,10,30),Category.Serializer) }
-        };
+            {"jscsg",new(true,new(2023,10,30),Category.Serializer) },
+            {"PrimaryParameter",new(true,new(2023,11,15),Category.Constructor) },
+        }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
         {

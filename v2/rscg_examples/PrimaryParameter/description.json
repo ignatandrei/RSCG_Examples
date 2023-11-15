@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"PrimaryParameter",
+      "nuget":[
+         "https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG"
+      ],
+      "link":"https://github.com/FaustVX/PrimaryParameter",
+      "author":"FaustVX",
+      "source":"https://github.com/FaustVX/PrimaryParameter"
+   },
+   "data":{
+      "goodFor":["Generating properties from .NET 8 constructor parameters"],
+      "csprojDemo":"ConstructorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
