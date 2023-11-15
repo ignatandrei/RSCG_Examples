@@ -366,6 +366,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+
+
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 

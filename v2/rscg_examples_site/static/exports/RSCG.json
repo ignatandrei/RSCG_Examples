@@ -665,6 +665,14 @@
       "Source": "https://github.com/FaustVX/PrimaryParameter",
       "Category": "Constructor",
       "AddedOn": "2023-11-15T00:00:00"
+    },
+    {
+      "Name": "Biwen.AutoClassGen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen",
+      "NuGet": "https://www.nuget.org/packages/Biwen.AutoClassGen/",
+      "Source": "https://github.com/vipwan/Biwen.AutoClassGen",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-11-16T00:00:00"
     }
   ]
 }

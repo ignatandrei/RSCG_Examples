@@ -160,7 +160,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
-, new ("Biwen.AutoClassGen https://github.com/vipwan/Biwen.AutoClassGen",WaitingForIssue)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -261,6 +260,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) },
             {"jscsg",new(true,new(2023,10,30),Category.Serializer) },
             {"PrimaryParameter",new(true,new(2023,11,15),Category.Constructor) },
+            {"Biwen.AutoClassGen",new(true,new(2023,11,16),Category.EnhancementClass) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

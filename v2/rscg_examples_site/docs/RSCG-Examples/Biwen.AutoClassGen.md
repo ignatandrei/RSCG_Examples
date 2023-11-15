@@ -1,6 +1,6 @@
 ---
-sidebar_position: 790
-title: 79 - Biwen.AutoClassGen
+sidebar_position: 840
+title: 84 - Biwen.AutoClassGen
 description: Generating properties  from interface to class.
 slug: /Biwen.AutoClassGen
 ---
@@ -207,6 +207,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 
 
 ### [BuilderGenerator](/docs/BuilderGenerator)
+
+
+### [DudNet](/docs/DudNet)
 
 
 ### [FastGenericNew](/docs/FastGenericNew)

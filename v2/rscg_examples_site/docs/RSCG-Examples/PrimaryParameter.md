@@ -127,6 +127,7 @@ You can type as many attributes as you want on a single parameter.
 |`PrimaryParameter_Property_DefaultWithInit`|Should properties generates with `init` accessor|`true`|
 
 
+
 :::
 
 ### About
