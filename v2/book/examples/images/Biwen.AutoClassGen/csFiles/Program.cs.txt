@@ -1,4 +1,4 @@
-﻿using FromInterface;
+using FromInterface;
 
 Console.WriteLine("Hello, World!");
 Person p = new();

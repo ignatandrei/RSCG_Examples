@@ -7,8 +7,8 @@ public interface IPerson
     
     [StringLength(100), Description("person first name")]
     string FirstName { get; set; }
-   // string LastName { get; set; }
+    string LastName { get; set; }
 
-    //public string FullName();
+    public string FullName();
 
 }
