@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Biwen.AutoClassGen",
+      "nuget":[
+         "https://www.nuget.org/packages/Biwen.AutoClassGen/"
+      ],
+      "link":"https://github.com/vipwan/Biwen.AutoClassGen",
+      "author":"vipwan",
+      "source":"https://github.com/vipwan/Biwen.AutoClassGen"
+   },
+   "data":{
+      "goodFor":["Generating properties  from interface to class."],
+      "csprojDemo":"FromInterface.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

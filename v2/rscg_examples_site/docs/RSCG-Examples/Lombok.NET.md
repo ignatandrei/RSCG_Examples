@@ -462,6 +462,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+
+
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
