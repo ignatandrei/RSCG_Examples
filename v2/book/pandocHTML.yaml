@@ -97,6 +97,8 @@ input-files:
 - examples/N.SourceGenerators.UnionTypes.html
 - examples/jsonConverterSourceGenerator.html
 - examples/PrimaryParameter.html
+- examples/Biwen.AutoClassGen.html
+- examples/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

@@ -408,6 +408,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 ### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
 
+### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+
+
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 

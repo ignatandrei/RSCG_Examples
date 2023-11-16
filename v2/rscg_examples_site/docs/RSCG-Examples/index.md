@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 84 RSCG by category 
-description: 84 RSCG by category 
+title: 85 RSCG by category 
+description: 85 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -138,7 +138,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:20</summary>
+  <summary>Expand EnhancementClass =>examples:21</summary>
         
 
 
@@ -238,6 +238,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+
+        
+
+
+[Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
 </details>
     
@@ -629,6 +634,8 @@ flowchart LR;
     EnhancementClass--> DudNet((DudNet))
 
     EnhancementClass--> Biwen.AutoClassGen((Biwen.AutoClassGen))
+
+    EnhancementClass--> Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator((Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

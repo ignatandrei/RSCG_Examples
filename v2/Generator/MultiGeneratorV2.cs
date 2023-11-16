@@ -260,7 +260,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"N.SourceGenerators.UnionTypes",new(true,new(2023,10,29),Category.FunctionalProgramming) },
             {"jscsg",new(true,new(2023,10,30),Category.Serializer) },
             {"PrimaryParameter",new(true,new(2023,11,15),Category.Constructor) },
-            {"Biwen.AutoClassGen",new(true,new(2023,11,16),Category.EnhancementClass) }
+            {"Biwen.AutoClassGen",new(true,new(2023,11,16),Category.EnhancementClass) },
+            {"OptValidator",new(true,new(2023,11,17),Category.EnhancementClass) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
