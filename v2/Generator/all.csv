@@ -83,3 +83,4 @@ Nr,Key,Source,Category
 82,jscsg, https://github.com/aviationexam/json-converter-source-generator,Serializer
 83,PrimaryParameter, https://github.com/FaustVX/PrimaryParameter,Constructor
 84,Biwen.AutoClassGen, https://github.com/vipwan/Biwen.AutoClassGen,EnhancementClass
+85,OptValidator, https://github.com/dotnet/runtime,EnhancementClass

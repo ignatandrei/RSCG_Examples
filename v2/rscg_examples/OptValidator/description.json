@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.Extensions.Options"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/core/extensions/options-validation-generator",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/runtime"
+   },
+   "data":{
+      "goodFor":["Generating the validation for data annotations on options classes."],
+      "csprojDemo":"DemoValidatorObj.csproj",
+      "csFiles":["MyAppValidator.cs" ]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

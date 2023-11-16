@@ -900,6 +900,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 ### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
 
+### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+
+
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 

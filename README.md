@@ -1,6 +1,6 @@
-# RSCG - 84 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 85 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-11-16 => 16 November 2023
+## Latest Update : 2023-11-17 => 17 November 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 84 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 85 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 85. [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator) generated on : 2023-11-17 => 17 November 2023
+<details>
+  <summary>Expand</summary>
+Author: Microsoft
+
+Microsoft.Extensions.Options 
+
+Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Options](https://www.nuget.org/packages/Microsoft.Extensions.Options) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+
+Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
+
+</details>
+
 ### 84. [Biwen.AutoClassGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen) generated on : 2023-11-16 => 16 November 2023
 <details>
   <summary>Expand</summary>

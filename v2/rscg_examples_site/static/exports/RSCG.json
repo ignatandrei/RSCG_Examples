@@ -673,6 +673,14 @@
       "Source": "https://github.com/vipwan/Biwen.AutoClassGen",
       "Category": "EnhancementClass",
       "AddedOn": "2023-11-16T00:00:00"
+    },
+    {
+      "Name": "Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/OptValidator",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.Extensions.Options",
+      "Source": "https://github.com/dotnet/runtime",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-11-17T00:00:00"
     }
   ]
 }

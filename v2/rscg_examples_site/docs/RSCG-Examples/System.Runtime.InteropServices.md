@@ -240,6 +240,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServic
 ### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
 
+### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+
+
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 
