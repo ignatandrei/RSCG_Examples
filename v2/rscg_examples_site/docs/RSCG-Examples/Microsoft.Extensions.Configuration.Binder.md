@@ -370,68 +370,23 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder
 
-## In the same category (EnhancementClass)
+## In the same category (API)
 
 
-### [ApparatusAOT](/docs/ApparatusAOT)
+### [MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+### [RDG](/docs/RDG)
 
 
-### [BuilderGenerator](/docs/BuilderGenerator)
+### [Refit](/docs/Refit)
 
 
-### [DudNet](/docs/DudNet)
+### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
-### [FastGenericNew](/docs/FastGenericNew)
+### [SafeRouting](/docs/SafeRouting)
 
 
-### [GeneratorEquals](/docs/GeneratorEquals)
-
-
-### [Immutype](/docs/Immutype)
-
-
-### [Lombok.NET](/docs/Lombok.NET)
-
-
-### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-### [MemoryPack](/docs/MemoryPack)
-
-
-### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-### [RSCG_Static](/docs/RSCG_Static)
-
-
-### [StaticReflection](/docs/StaticReflection)
-
-
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 86 RSCG by category 
-description: 86 RSCG by category 
+title: 87 RSCG by category 
+description: 87 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -13,7 +13,7 @@ import DocCardList from '@theme/DocCardList';
 ## API 
 <details>
     
-  <summary>Expand API =>examples:5</summary>
+  <summary>Expand API =>examples:7</summary>
         
 
 
@@ -38,6 +38,16 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+        
+
+
+[Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+
+        
+
+
+[RDG](/docs/RDG)
 
 </details>
     
@@ -138,7 +148,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:22</summary>
+  <summary>Expand EnhancementClass =>examples:21</summary>
         
 
 
@@ -243,11 +253,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-        
-
-
-[Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 </details>
     
@@ -574,6 +579,10 @@ flowchart LR;
 
     API--> MinimalApiBuilder((MinimalApiBuilder))
 
+    API--> Microsoft.Extensions.Configuration.Binder((Microsoft.Extensions.Configuration.Binder))
+
+    API--> RDG((RDG))
+
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 
     Constructor--> QuickConstructor((QuickConstructor))
@@ -641,8 +650,6 @@ flowchart LR;
     EnhancementClass--> Biwen.AutoClassGen((Biwen.AutoClassGen))
 
     EnhancementClass--> Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator((Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator))
-
-    EnhancementClass--> Microsoft.Extensions.Configuration.Binder((Microsoft.Extensions.Configuration.Binder))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

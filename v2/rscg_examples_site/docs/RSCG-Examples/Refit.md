@@ -1583,7 +1583,13 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit
 ## In the same category (API)
 
 
+### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+
+
 ### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+
+### [RDG](/docs/RDG)
 
 
 ### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)

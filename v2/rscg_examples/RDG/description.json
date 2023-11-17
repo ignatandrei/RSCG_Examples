@@ -2,15 +2,15 @@
    "generator":{
       "name":"RDG",
       "nuget":[
-         "https://www.nuget.org/packages/RDG/"
+         "https://www.nuget.org/packages/Microsoft.Extensions.Http"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://learn.microsoft.com/en-us/aspnet/core/fundamentals/aot/request-delegate-generator/rdg?view=aspnetcore-8.0",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/aspnetcore"
    },
    "data":{
-      "goodFor":[""],
-      "csprojDemo":"RDGDemo.csproj",
+      "goodFor":["Generating replacing for minimal API Map"],
+      "csprojDemo":"RDGDemoWebApi.csproj",
       "csFiles":["Program.cs"]
    },
    "links":{

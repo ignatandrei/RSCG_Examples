@@ -84,4 +84,5 @@ Nr,Key,Source,Category
 83,PrimaryParameter, https://github.com/FaustVX/PrimaryParameter,Constructor
 84,Biwen.AutoClassGen, https://github.com/vipwan/Biwen.AutoClassGen,EnhancementClass
 85,OptValidator, https://github.com/dotnet/runtime,EnhancementClass
-86,ConfigBinder, https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator,EnhancementClass
+86,ConfigBinder, https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator,API
+87,RDG, https://github.com/dotnet/aspnetcore,API

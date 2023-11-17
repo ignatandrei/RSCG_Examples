@@ -316,6 +316,12 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder
 ## In the same category (API)
 
 
+### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+
+
+### [RDG](/docs/RDG)
+
+
 ### [Refit](/docs/Refit)
 
 

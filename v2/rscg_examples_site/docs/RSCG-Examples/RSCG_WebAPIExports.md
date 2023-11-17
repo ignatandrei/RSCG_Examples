@@ -435,7 +435,13 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports
 ## In the same category (API)
 
 
+### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+
+
 ### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+
+### [RDG](/docs/RDG)
 
 
 ### [Refit](/docs/Refit)

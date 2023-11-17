@@ -262,8 +262,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"PrimaryParameter",new(true,new(2023,11,15),Category.Constructor) },
             {"Biwen.AutoClassGen",new(true,new(2023,11,16),Category.EnhancementClass) },
             {"OptValidator",new(true,new(2023,11,17),Category.EnhancementClass) },
-            {"ConfigBinder",new(true,new(2023,11,18),Category.EnhancementProject) },
-            {"RDG",new(true,new(2023,11,19),Category.EnhancementProject) },
+            {"ConfigBinder",new(true,new(2023,11,18),Category.API) },
+            {"RDG",new(true,new(2023,11,19),Category.API) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
@@ -357,6 +357,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
             text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             text = text.Replace("(./test/Benchmarks.md)", $"({d.Generator!.Source}/blob/main/test/Benchmarks.md)");
+            text = text.Replace("(./docs/", $"({d.Generator!.Source}/docs/");
+            text = text.Replace("(CONTRIBUTING.md)", $"({d.Generator!.Source}/CONTRIBUTING.md)");
+            text = text.Replace("(./CODE-OF-CONDUCT.md)", $"({d.Generator!.Source}/CODE-OF-CONDUCT.md)");
+
             return text;
         }
             ;
