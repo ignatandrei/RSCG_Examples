@@ -1,0 +1,1 @@
+Functionality to bind an object to data in configuration providers.

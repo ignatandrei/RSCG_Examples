@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 85 RSCG by category 
-description: 85 RSCG by category 
+title: 86 RSCG by category 
+description: 86 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -138,7 +138,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:21</summary>
+  <summary>Expand EnhancementClass =>examples:22</summary>
         
 
 
@@ -243,6 +243,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+
+        
+
+
+[Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 </details>
     
@@ -636,6 +641,8 @@ flowchart LR;
     EnhancementClass--> Biwen.AutoClassGen((Biwen.AutoClassGen))
 
     EnhancementClass--> Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator((Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator))
+
+    EnhancementClass--> Microsoft.Extensions.Configuration.Binder((Microsoft.Extensions.Configuration.Binder))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

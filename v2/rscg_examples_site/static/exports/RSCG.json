@@ -681,6 +681,14 @@
       "Source": "https://github.com/dotnet/runtime",
       "Category": "EnhancementClass",
       "AddedOn": "2023-11-17T00:00:00"
+    },
+    {
+      "Name": "Microsoft.Extensions.Configuration.Binder",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConfigBinder",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/",
+      "Source": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-11-18T00:00:00"
     }
   ]
 }

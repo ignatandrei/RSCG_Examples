@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Microsoft.Extensions.Configuration.Binder",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/"
+      ],
+      "link":"https://github.com/dotnet/runtime",
+      "author":"Microsoft",
+      "source":"https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator"
+   },
+   "data":{
+      "goodFor":["Generating Binding for configuration files"],
+      "csprojDemo":"ConfigBinderDemo.csproj",
+      "csFiles":["Program.cs","MyAppOptions.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

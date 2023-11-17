@@ -99,6 +99,7 @@ input-files:
 - examples/PrimaryParameter.html
 - examples/Biwen.AutoClassGen.html
 - examples/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator.html
+- examples/Microsoft.Extensions.Configuration.Binder.html
 
 # or you may use input-file: with a single value
 # defaults:
