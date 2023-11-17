@@ -1,6 +1,6 @@
-# RSCG - 86 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
+# RSCG - 87 Examples of Roslyn Source Code Generators  / 6 created by Microsoft / 
 
-## Latest Update : 2023-11-18 => 18 November 2023
+## Latest Update : 2023-11-19 => 19 November 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,26 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 86 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 87 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 6 from Microsoft )
+### 87. [RDG](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG) generated on : 2023-11-19 => 19 November 2023
+<details>
+  <summary>Expand</summary>
+Author: Microsoft
+
+The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. The HttpClient factory provides extensibility to plug in DelegatingHandlers that address cross-cutting concerns such as service location, load balancing, and reliability. The default HttpClient factory provides built-in diagnostics and logging and manages the lifetimes of connections in a performant way.
+      Commonly used types:
+      System.Net.Http.IHttpClientFactory 
+
+Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG)
+
+Source: [https://github.com/dotnet/aspnetcore](https://github.com/dotnet/aspnetcore)
+
+</details>
+
 ### 86. [Microsoft.Extensions.Configuration.Binder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder) generated on : 2023-11-18 => 18 November 2023
 <details>
   <summary>Expand</summary>

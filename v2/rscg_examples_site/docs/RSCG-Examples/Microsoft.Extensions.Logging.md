@@ -408,9 +408,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 ### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
 
-### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-
 ### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
 

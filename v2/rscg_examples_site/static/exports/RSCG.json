@@ -687,8 +687,16 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConfigBinder",
       "NuGet": "https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/",
       "Source": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator",
-      "Category": "EnhancementClass",
+      "Category": "API",
       "AddedOn": "2023-11-18T00:00:00"
+    },
+    {
+      "Name": "RDG",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.Extensions.Http",
+      "Source": "https://github.com/dotnet/aspnetcore",
+      "Category": "API",
+      "AddedOn": "2023-11-19T00:00:00"
     }
   ]
 }
