@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"RDG",
+      "nuget":[
+         "https://www.nuget.org/packages/RDG/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"RDGDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
