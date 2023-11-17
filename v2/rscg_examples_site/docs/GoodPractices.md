@@ -29,10 +29,13 @@ https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-gen
  ### Add comments for method / classes  /  properties generated
 
  could have warnings as errors .
-
+ or 
+https://github.com/dotnet/roslyn/issues/54103
+#pragma warning disable CS1591 // Compensate for https://github.com/dotnet/roslyn/issues/54103
 
  ### Add nullable enable
  
+ #nullable enable
 TODO: add example
 
  ### Add reference to another package when need just for compilation
