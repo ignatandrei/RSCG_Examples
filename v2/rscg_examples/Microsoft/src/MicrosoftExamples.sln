@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoSerializeJSON", "DemoSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryImportDemo", "LibraryImportDemo\LibraryImportDemo.csproj", "{B91156DB-BA65-4ACF-AD4B-646FB2E8D43C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigBinderDemo", "ConfigBinder\src\ConfigBinderDemo.csproj", "{DC361B6F-2F54-4A8E-8662-0BD7C5DB90C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RDGDemoWebApi", "RDG\RDGDemoWebApi.csproj", "{E2BD1871-1C09-4F53-B9D0-7C29D2B0076E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{B91156DB-BA65-4ACF-AD4B-646FB2E8D43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B91156DB-BA65-4ACF-AD4B-646FB2E8D43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B91156DB-BA65-4ACF-AD4B-646FB2E8D43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC361B6F-2F54-4A8E-8662-0BD7C5DB90C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC361B6F-2F54-4A8E-8662-0BD7C5DB90C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC361B6F-2F54-4A8E-8662-0BD7C5DB90C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC361B6F-2F54-4A8E-8662-0BD7C5DB90C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2BD1871-1C09-4F53-B9D0-7C29D2B0076E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2BD1871-1C09-4F53-B9D0-7C29D2B0076E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2BD1871-1C09-4F53-B9D0-7C29D2B0076E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2BD1871-1C09-4F53-B9D0-7C29D2B0076E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

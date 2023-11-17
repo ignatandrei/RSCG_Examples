@@ -65,6 +65,7 @@ internal class ByMicrosoft
         var data2 = await fromFiles(files);
 
         cache = data1.Union(data2).ToArray();
+        Console.WriteLine($"found in {searchFolder} MSFT {cache.Length}");
         return cache;
     }
 }
