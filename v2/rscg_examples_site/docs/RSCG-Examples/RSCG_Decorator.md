@@ -527,6 +527,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator
 ### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
 
+### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+
+
 ### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
 
