@@ -1,6 +1,6 @@
-# RSCG - 87 Examples of Roslyn Source Code Generators  / 9 created by Microsoft / 
+# RSCG - 88 Examples of Roslyn Source Code Generators  / 9 created by Microsoft / 
 
-## Latest Update : 2023-11-19 => 19 November 2023
+## Latest Update : 2023-11-20 => 20 November 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,31 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 87 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 88 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 9 from Microsoft )
+### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) generated on : 2023-11-20 => 20 November 2023
+<details>
+  <summary>Expand</summary>
+Author: Microsoft
+
+Provides types that support COM interop and platform invoke services.
+
+Commonly Used Types:
+System.Runtime.InteropServices.GCHandle
+System.Runtime.InteropServices.GuidAttribute
+System.Runtime.InteropServices.COMException
+System.DllNotFoundException
+System.Runtime.InteropServices.DllImportAttribute 
+
+Nuget: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https://www.nuget.org/packages/System.Runtime.InteropServices/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com)
+
+Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
+
+</details>
+
 ### 87. [RDG](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG) generated on : 2023-11-19 => 19 November 2023
 <details>
   <summary>Expand</summary>

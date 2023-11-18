@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 87 RSCG by category 
-description: 87 RSCG by category 
+title: 88 RSCG by category 
+description: 88 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -260,7 +260,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:9</summary>
+  <summary>Expand EnhancementProject =>examples:10</summary>
         
 
 
@@ -305,6 +305,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+
+        
+
+
+[Com](/docs/Com)
 
 </details>
     
@@ -668,6 +673,8 @@ flowchart LR;
     EnhancementProject--> ProxyGen((ProxyGen))
 
     EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
+
+    EnhancementProject--> Com((Com))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 
