@@ -1,6 +1,7 @@
 ﻿using ArrayToExcel;
 using Scriban.Parsing;
 using System;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -364,6 +365,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(docs/project/dogfooding.md)", $"({d.Generator!.Source}/docs/project/dogfooding.md)");
             text = text.Replace("(docs/workflow/README.md)", $"({d.Generator!.Source}/docs/workflow/README.md)");
             text = text.Replace("(SECURITY.md)", $"({d.Generator!.Source}/SECURITY.md)");
+            text = text.Replace("(LICENSE.TXT)", $"({d.Generator!.Source}/LICENSE.TXT)");
+            
             return text;
         }
             ;
