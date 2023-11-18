@@ -1,6 +1,7 @@
 ﻿using ArrayToExcel;
 using Scriban.Parsing;
 using System;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -264,6 +265,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"OptValidator",new(true,new(2023,11,17),Category.EnhancementClass) },
             {"ConfigBinder",new(true,new(2023,11,18),Category.API) },
             {"RDG",new(true,new(2023,11,19),Category.API) },
+            {"COM",new(true,new(2023,11,20),Category.EnhancementProject) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
@@ -360,7 +362,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(./docs/", $"({d.Generator!.Source}/docs/");
             text = text.Replace("(CONTRIBUTING.md)", $"({d.Generator!.Source}/CONTRIBUTING.md)");
             text = text.Replace("(./CODE-OF-CONDUCT.md)", $"({d.Generator!.Source}/CODE-OF-CONDUCT.md)");
-
+            text = text.Replace("(docs/project/dogfooding.md)", $"({d.Generator!.Source}/docs/project/dogfooding.md)");
+            text = text.Replace("(docs/workflow/README.md)", $"({d.Generator!.Source}/docs/workflow/README.md)");
+            text = text.Replace("(SECURITY.md)", $"({d.Generator!.Source}/SECURITY.md)");
+            text = text.Replace("(LICENSE.TXT)", $"({d.Generator!.Source}/LICENSE.TXT)");
+            
             return text;
         }
             ;

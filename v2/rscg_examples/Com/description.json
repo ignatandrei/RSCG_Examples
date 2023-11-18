@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Com",
+      "nuget":[
+         "https://www.nuget.org/packages/System.Runtime.InteropServices/"
+      ],
+      "link":"https://learn.microsoft.com/en-us/dotnet/standard/native-interop/comwrappers-source-generation",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/runtime"
+   },
+   "data":{
+      "goodFor":["Generating Com Declarations"],
+      "csprojDemo":"ComDemo.csproj",
+      "csFiles":["Program.cs","MyShell.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
