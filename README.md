@@ -1,4 +1,4 @@
-# RSCG - 88 Examples of Roslyn Source Code Generators  / 9 created by Microsoft / 
+# RSCG - 88 Examples of Roslyn Source Code Generators  / 11 created by Microsoft / 
 
 ## Latest Update : 2023-11-20 => 20 November 2023
 
@@ -17,7 +17,7 @@ If you want to be notified each time I add a new RSCG example , please click htt
 ## Content 
 
 Those are the 88 Roslyn Source Code Generators that I have tested you can see and download source code example.
-( including 9 from Microsoft )
+( including 11 from Microsoft )
 ### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) generated on : 2023-11-20 => 20 November 2023
 <details>
   <summary>Expand</summary>
@@ -1505,18 +1505,20 @@ Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped
 
 ## Roslyn Source Code Generators created by Microsoft 
 
-You can find also the 9 from Roslyn Source Code Generators that Microsoft wrote for .NET 
+You can find also the 11 from Roslyn Source Code Generators that Microsoft wrote for .NET 
 | No        | Name  | Link | 
 | --------- | ----- | -----| 
-|9679|[System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator |
-|8661|[System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator |
-|8243|[Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator |
-|12534|[Microsoft.AspNetCore.Http.RequestDelegateGenerator_Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.AspNetCore.Http.RequestDelegateGenerator_Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.AspNetCore.Http.RequestDelegateGenerator_Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator |
-|14805|[Microsoft.Extensions.Configuration.Binder.SourceGeneration_Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Configuration.Binder.SourceGeneration_Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Configuration.Binder.SourceGeneration_Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator |
-|11285|[Microsoft.Extensions.Options.SourceGeneration_Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Options.SourceGeneration_Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Options.SourceGeneration_Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator |
-|9229|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator |
-|9236|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator |
-|9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
+||[](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/ |
 
 
 ## Contributors Welcome for those

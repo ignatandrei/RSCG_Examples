@@ -5,7 +5,7 @@ internal class ByMicrosoft
 {
     internal const string genString = "//Generator:";
     private readonly string searchFolder;
-    private FoundFile[]? cache=null;
+    private Description[]? cache=null;
 
     public ByMicrosoft(string searchFolder)
     {
@@ -13,20 +13,22 @@ internal class ByMicrosoft
     }
     public async Task<long> WriteFiles(string folderExamples)
     {
-        var data = (await Search()).ToList();
-        data.Sort((a, b) => a.NameGenerator.CompareTo(b.NameGenerator));
+        await Task.Delay(1000);
+        return 10;
+        //var data = (await Search()).ToList();
+        //data.Sort((a, b) => a.NameGenerator.CompareTo(b.NameGenerator));
 
-        string folderWithDocs = Path.Combine(folderExamples,  "docs", "Microsoft");
-        foreach (var ff in data)
-        {
-            var item = new ItemMSFT(ff);
-            var fileContents = await item.RenderAsync();
-            var nameFile = Path.Combine(folderWithDocs, ff.NameGenerator.Replace(FoundFile.sepShow, "_"));
-            nameFile += ".md";
-            //Console.WriteLine(nameFile);
-            await File.WriteAllTextAsync(nameFile, fileContents);
-        }
-        return data.Count;
+        //string folderWithDocs = Path.Combine(folderExamples,  "docs", "Microsoft");
+        //foreach (var ff in data)
+        //{
+        //    var item = new ItemMSFT(ff);
+        //    var fileContents = await item.RenderAsync();
+        //    var nameFile = Path.Combine(folderWithDocs, ff.NameGenerator.Replace(FoundFile.sepShow, "_"));
+        //    nameFile += ".md";
+        //    //Console.WriteLine(nameFile);
+        //    await File.WriteAllTextAsync(nameFile, fileContents);
+        //}
+        //return data.Count;
     }
     private async Task<FoundFile[]> fromFiles(string[] files)
     {
@@ -53,19 +55,26 @@ internal class ByMicrosoft
 
         return data;
     }
-    public async Task<FoundFile[]> Search()
+    public async Task<Description[]> Search(Description[] descriptions)
     {
         if (cache != null)
             return cache;
-
-        var files=Directory.GetFiles(searchFolder,"*.cs",SearchOption.AllDirectories);
-        var data1 = await fromFiles(files);
-
-        files = Directory.GetFiles(searchFolder, "*.razor", SearchOption.AllDirectories);
-        var data2 = await fromFiles(files);
-
-        cache = data1.Union(data2).ToArray();
-        Console.WriteLine($"found in {searchFolder} MSFT {cache.Length}");
+        await Task.Delay(1000);
+        cache = descriptions
+            .Where(it => it != null)
+            .Where(it => it!.Generator != null)
+            .Where(it => it.Generator!.Name != null)
+            .Where(it => it.Generator!.Author!.Contains("Microsoft",StringComparison.InvariantCultureIgnoreCase))
+            .ToArray();
         return cache;
+        //var files=Directory.GetFiles(searchFolder,"*.cs",SearchOption.AllDirectories);
+        //var data1 = await fromFiles(files);
+
+        //files = Directory.GetFiles(searchFolder, "*.razor", SearchOption.AllDirectories);
+        //var data2 = await fromFiles(files);
+
+        //cache = data1.Union(data2).ToArray();
+        //Console.WriteLine($"found in {searchFolder} MSFT {cache.Length}");
+        //return cache;
     }
 }

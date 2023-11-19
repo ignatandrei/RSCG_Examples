@@ -168,7 +168,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
      Dictionary<string, GeneratorData> generators;
     private readonly string rootPath;
     private Description[]? _AllDescriptions = null;
-    private FoundFile[]? MicrosoftRSCG= null;
+    private Description[]? MicrosoftRSCG= null;
     public MultiGeneratorV2(string root)
     {
         rscgNoExamples = rscgNoExamples.OrderBy(it => it.name).ToArray();
@@ -799,8 +799,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var template = await File.ReadAllTextAsync("RSCGList.txt");
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        ArgumentNullException.ThrowIfNull(MicrosoftRSCG);
         var output = templateScriban.Render(
-            new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG },
+            new {nr= _AllDescriptions.Length, all = _AllDescriptions, 
+                nrMSFT=MicrosoftRSCG.Length, 
+                MSFT=MicrosoftRSCG },
             member => member.Name);
         await File.WriteAllTextAsync(pathIndex, output);
         //now the mermaid 
@@ -1054,7 +1057,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         string folderMSFT = Path.Combine(rootPath, "rscg_examples","Microsoft");
         await BuildProject(Path.Combine(folderMSFT, "src"));
         ByMicrosoft msft = new(folderMSFT);
-        this.MicrosoftRSCG = await msft.Search();
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        this.MicrosoftRSCG = await msft.Search(this._AllDescriptions);
         var nr = await msft.WriteFiles(Path.Combine(rootPath, "rscg_examples_site"));
         return nr;
         //var data= (await msft.Search()).ToList();
