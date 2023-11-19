@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "sss",
+  "steps": [
+    {
+      "file": "poly/JsonPolymorphicGeneratorDemo.csproj",
+      "description": "asdasd",
+      "line": 7
+    },
+    {
+      "file": "poly/Program.cs",
+      "description": "asdasdasdasdasd",
+      "line": 1
+    }
+  ]
+}

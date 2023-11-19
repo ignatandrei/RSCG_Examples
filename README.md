@@ -1,4 +1,4 @@
-# RSCG - 88 Examples of Roslyn Source Code Generators  / 9 created by Microsoft / 
+# RSCG - 88 Examples of Roslyn Source Code Generators  / 11 created by Microsoft / 
 
 ## Latest Update : 2023-11-20 => 20 November 2023
 
@@ -17,7 +17,7 @@ If you want to be notified each time I add a new RSCG example , please click htt
 ## Content 
 
 Those are the 88 Roslyn Source Code Generators that I have tested you can see and download source code example.
-( including 9 from Microsoft )
+( including 11 from Microsoft )
 ### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) generated on : 2023-11-20 => 20 November 2023
 <details>
   <summary>Expand</summary>
@@ -1505,18 +1505,128 @@ Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped
 
 ## Roslyn Source Code Generators created by Microsoft 
 
-You can find also the 9 from Roslyn Source Code Generators that Microsoft wrote for .NET 
-| No        | Name  | Link | 
-| --------- | ----- | -----| 
-|9679|[System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.RegularExpressions.Generator_System.Text.RegularExpressions.Generator.RegexGenerator |
-|8661|[System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/System.Text.Json.SourceGeneration_System.Text.Json.SourceGeneration.JsonSourceGenerator |
-|8243|[Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.LibraryImportGenerator_Microsoft.Interop.LibraryImportGenerator |
-|12534|[Microsoft.AspNetCore.Http.RequestDelegateGenerator_Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.AspNetCore.Http.RequestDelegateGenerator_Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.AspNetCore.Http.RequestDelegateGenerator_Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator |
-|14805|[Microsoft.Extensions.Configuration.Binder.SourceGeneration_Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Configuration.Binder.SourceGeneration_Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Configuration.Binder.SourceGeneration_Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator |
-|11285|[Microsoft.Extensions.Options.SourceGeneration_Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Options.SourceGeneration_Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Extensions.Options.SourceGeneration_Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator |
-|9229|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSImportGenerator |
-|9236|[Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.Interop.JavaScript.JSImportGenerator_Microsoft.Interop.JavaScript.JSExportGenerator |
-|9939|[Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator)| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/Microsoft.NET.Sdk.Razor.SourceGenerators_Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator |
+You can find also the 11 from Roslyn Source Code Generators that Microsoft wrote for .NET 
+
+<details>
+  <summary>Expand</summary>
+A minimalistic and fast JSON parser/deserializer, for full .NET 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.
+
+Commonly Used Types:
+System.Text.RegularExpressions.Regex
+System.Text.RegularExpressions.RegexOptions
+System.Text.RegularExpressions.Match
+System.Text.RegularExpressions.Group
+System.Text.RegularExpressions.Capture
+System.Text.RegularExpressions.MatchEvaluator 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+Logging infrastructure. 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+This package includes a .NET Standard MVVM library with helpers such as:
+      - ObservableObject: a base class for objects implementing the INotifyPropertyChanged interface.
+      - ObservableRecipient: a base class for observable objects with support for the IMessenger service.
+      - ObservableValidator: a base class for objects implementing the INotifyDataErrorInfo interface.
+      - RelayCommand: a simple delegate command implementing the ICommand interface.
+      - AsyncRelayCommand: a delegate command supporting asynchronous operations and cancellation.
+      - WeakReferenceMessenger: a messaging system to exchange messages through different loosely-coupled objects.
+      - StrongReferenceMessenger: a high-performance messaging system that trades weak references for speed.
+      - Ioc: a helper class to configure dependency injection service containers. 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+Provides types that support COM interop and platform invoke services.
+
+Commonly Used Types:
+System.Runtime.InteropServices.GCHandle
+System.Runtime.InteropServices.GuidAttribute
+System.Runtime.InteropServices.COMException
+System.DllNotFoundException
+System.Runtime.InteropServices.DllImportAttribute 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+ 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+ 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+Microsoft.Extensions.Options 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+Functionality to bind an object to data in configuration providers. 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. The HttpClient factory provides extensibility to plug in DelegatingHandlers that address cross-cutting concerns such as service location, load balancing, and reliability. The default HttpClient factory provides built-in diagnostics and logging and manages the lifetimes of connections in a performant way.
+      Commonly used types:
+      System.Net.Http.IHttpClientFactory 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG)
+
+</details>
+
+<details>
+  <summary>Expand</summary>
+Provides types that support COM interop and platform invoke services.
+
+Commonly Used Types:
+System.Runtime.InteropServices.GCHandle
+System.Runtime.InteropServices.GuidAttribute
+System.Runtime.InteropServices.COMException
+System.DllNotFoundException
+System.Runtime.InteropServices.DllImportAttribute 
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com)
+
+</details>
+
 
 
 ## Contributors Welcome for those

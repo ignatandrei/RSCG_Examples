@@ -101,8 +101,6 @@ $$"""
     string folder = Path.Combine(originalFolder,"v2");
     var m = new MultiGeneratorV2(folder);
     //await m.OpenFindIIncremental();
-    long nr = await m.GenerateMSFT();
-    Console.WriteLine("RSCG used by MSFT :"+nr);
     var sources = await m.GatherData();
     var all = sources!.Union(m.SourceNoRSCG()).ToArray();
     for (int i = 0; i < all.Length; i++)
@@ -118,6 +116,8 @@ $$"""
     await m.WriteVideo();
     await m.GrabDescriptionFromNuget();
     await m.GrabReadMe();
+    long nr = await m.GenerateMSFT();
+    Console.WriteLine("RSCG used by MSFT :" + nr);
 
     await m.WrotePost();     
     await m.WroteDocusaurusAll();

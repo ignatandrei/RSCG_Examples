@@ -168,7 +168,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
      Dictionary<string, GeneratorData> generators;
     private readonly string rootPath;
     private Description[]? _AllDescriptions = null;
-    private FoundFile[]? MicrosoftRSCG= null;
+    private Description[]? MicrosoftRSCG= null;
     public MultiGeneratorV2(string root)
     {
         rscgNoExamples = rscgNoExamples.OrderBy(it => it.name).ToArray();
@@ -799,6 +799,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var template = await File.ReadAllTextAsync("RSCGList.txt");
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        ArgumentNullException.ThrowIfNull(MicrosoftRSCG);
         var output = templateScriban.Render(
             new {nr= _AllDescriptions.Length, all = _AllDescriptions, nrMSFT=MicrosoftRSCG?.Length, MSFT=MicrosoftRSCG },
             member => member.Name);
@@ -1051,12 +1052,19 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 
     internal async Task<long> GenerateMSFT()
     {
-        string folderMSFT = Path.Combine(rootPath, "rscg_examples","Microsoft");
-        await BuildProject(Path.Combine(folderMSFT, "src"));
-        ByMicrosoft msft = new(folderMSFT);
-        this.MicrosoftRSCG = await msft.Search();
-        var nr = await msft.WriteFiles(Path.Combine(rootPath, "rscg_examples_site"));
-        return nr;
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        this.MicrosoftRSCG = _AllDescriptions
+            .Where(it=>
+        string.Equals(it?.Generator?.Author,"Microsoft",StringComparison.InvariantCultureIgnoreCase))
+            .ToArray();
+        await Task.Delay(1000);
+        return this.MicrosoftRSCG.Length;
+        //string folderMSFT = Path.Combine(rootPath, "rscg_examples","Microsoft");
+        //await BuildProject(Path.Combine(folderMSFT, "src"));
+        //ByMicrosoft msft = new(folderMSFT);
+        //this.MicrosoftRSCG = await msft.Search();
+        //var nr = await msft.WriteFiles(Path.Combine(rootPath, "rscg_examples_site"));
+        //return nr;
         //var data= (await msft.Search()).ToList();
         //data.Sort((a,b) => a.NameGenerator.CompareTo(b.NameGenerator));
         
