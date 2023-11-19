@@ -1,0 +1,392 @@
+---
+sidebar_position: 860
+title: 86 - Microsoft.Extensions.Configuration.Binder
+description: Generating Binding for configuration files
+slug: /Microsoft.Extensions.Configuration.Binder
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+
+# Microsoft.Extensions.Configuration.Binder  by Microsoft
+
+
+<TOCInline toc={toc} />
+
+[![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Configuration.Binder?label=Microsoft.Extensions.Configuration.Binder)](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/)
+[![GitHub last commit](https://img.shields.io/learn.microsoft/last-commit/en-us/dotnet?label=updated)](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator)
+![GitHub Repo stars](https://img.shields.io/learn.microsoft/stars/en-us/dotnet?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **Microsoft.Extensions.Configuration.Binder**
+
+Functionality to bind an object to data in configuration providers.
+
+Author: Microsoft
+
+NuGet: 
+*https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/*   
+
+
+You can find more details at https://github.com/dotnet/runtime
+
+Source : https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator
+
+:::
+
+### Original Readme
+:::note
+
+
+
+:::
+
+### About
+:::note
+
+Generating Binding for configuration files
+
+
+:::
+
+## How to use
+
+### Example ( source csproj, source files )
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **Microsoft.Extensions.Configuration.Binder**
+```xml showLineNumbers {11}
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <!--<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.0" />-->
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+	<PropertyGroup>
+		<EnableConfigurationBindingGenerator>true</EnableConfigurationBindingGenerator>
+	</PropertyGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+
+
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ConfigBinder\src\ConfigBinderDemo\Program.cs" label="Program.cs" >
+
+  This is the use of **Microsoft.Extensions.Configuration.Binder** in *Program.cs*
+
+```csharp showLineNumbers 
+using ConfigBinderDemo;
+using Microsoft.Extensions.Options;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+builder.Services.AddOptions<MyAppOptions>()
+            .BindConfiguration(MyAppOptions.ConfigName);
+app.MapGet("/nameApp", (IOptions<MyAppOptions> opt) =>
+{
+    try
+    {
+        var val = opt.Value.AppDisplayName;
+        return val;
+    }
+    catch (OptionsValidationException ex)
+    {
+        var problems = ex.Failures.ToArray();
+        return string.Join(",", problems);
+    }
+
+})
+.WithName("GetWeatherForecast")
+.WithOpenApi();
+
+app.Run();
+
+internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+{
+    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+}
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ConfigBinder\src\ConfigBinderDemo\MyAppOptions.cs" label="MyAppOptions.cs" >
+
+  This is the use of **Microsoft.Extensions.Configuration.Binder** in *MyAppOptions.cs*
+
+```csharp showLineNumbers 
+using System.Diagnostics;
+
+namespace ConfigBinderDemo;
+
+[DebuggerDisplay("{AppDisplayName}")]
+public class MyAppOptions
+{
+    public const string ConfigName = "MyAppOptionsInConfig";
+    public string AppDisplayName { get; set; } = string.Empty;
+
+}
+
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+
+<Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ConfigBinder\src\ConfigBinderDemo\obj\GX\Microsoft.Extensions.Configuration.Binder.SourceGeneration\Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator\BindingExtensions.g.cs" label="BindingExtensions.g.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated/>
+#nullable enable
+#pragma warning disable CS0612, CS0618 // Suppress warnings about [Obsolete] member usage in generated code.
+
+namespace System.Runtime.CompilerServices
+{
+    using System;
+    using System.CodeDom.Compiler;
+
+    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.9.3103")]
+    [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
+    file sealed class InterceptsLocationAttribute : Attribute
+    {
+        public InterceptsLocationAttribute(string filePath, int line, int column)
+        {
+        }
+    }
+}
+
+namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
+{
+    using ConfigBinderDemo;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Options;
+    using System;
+    using System.CodeDom.Compiler;
+    using System.Collections.Generic;
+    using System.Globalization;
+    using System.Runtime.CompilerServices;
+
+    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.9.3103")]
+    file static class BindingExtensions
+    {
+        #region OptionsBuilder<TOptions> extensions.
+        /// <summary>Registers the dependency injection container to bind <typeparamref name="TOptions"/> against the <see cref="IConfiguration"/> obtained from the DI service provider.</summary>
+        [InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\ConfigBinder\src\ConfigBinderDemo\Program.cs", 20, 14)]
+        public static OptionsBuilder<TOptions> BindConfiguration<TOptions>(this OptionsBuilder<TOptions> optionsBuilder, string configSectionPath, Action<BinderOptions>? configureBinder = null) where TOptions : class
+        {
+            if (optionsBuilder is null)
+            {
+                throw new ArgumentNullException(nameof(optionsBuilder));
+            }
+
+            if (configSectionPath is null)
+            {
+                throw new ArgumentNullException(nameof(configSectionPath));
+            }
+
+            optionsBuilder.Configure<IConfiguration>((instance, config) =>
+            {
+                if (config is null)
+                {
+                    throw new ArgumentNullException(nameof(config));
+                }
+
+                IConfiguration section = string.Equals(string.Empty, configSectionPath, StringComparison.OrdinalIgnoreCase) ? config : config.GetSection(configSectionPath);
+                BindCoreMain(section, instance, typeof(TOptions), configureBinder);
+            });
+
+            optionsBuilder.Services.AddSingleton<IOptionsChangeTokenSource<TOptions>, ConfigurationChangeTokenSource<TOptions>>();
+            return optionsBuilder;
+        }
+        #endregion OptionsBuilder<TOptions> extensions.
+
+        #region Core binding extensions.
+        private readonly static Lazy<HashSet<string>> s_configKeys_MyAppOptions = new(() => new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "AppDisplayName" });
+
+        public static void BindCoreMain(IConfiguration configuration, object instance, Type type, Action<BinderOptions>? configureOptions)
+        {
+            if (instance is null)
+            {
+                return;
+            }
+
+            if (!HasValueOrChildren(configuration))
+            {
+                return;
+            }
+
+            BinderOptions? binderOptions = GetBinderOptions(configureOptions);
+
+            if (type == typeof(MyAppOptions))
+            {
+                var temp = (MyAppOptions)instance;
+                BindCore(configuration, ref temp, defaultValueIfNotFound: false, binderOptions);
+                return;
+            }
+
+            throw new NotSupportedException($"Unable to bind to type '{type}': generator did not detect the type as input.");
+        }
+
+        public static void BindCore(IConfiguration configuration, ref MyAppOptions instance, bool defaultValueIfNotFound, BinderOptions? binderOptions)
+        {
+            ValidateConfigurationKeys(typeof(MyAppOptions), s_configKeys_MyAppOptions, configuration, binderOptions);
+
+            if (configuration["AppDisplayName"] is string value1)
+            {
+                instance.AppDisplayName = value1;
+            }
+        }
+
+
+        /// <summary>If required by the binder options, validates that there are no unknown keys in the input configuration object.</summary>
+        public static void ValidateConfigurationKeys(Type type, Lazy<HashSet<string>> keys, IConfiguration configuration, BinderOptions? binderOptions)
+        {
+            if (binderOptions?.ErrorOnUnknownConfiguration is true)
+            {
+                List<string>? temp = null;
+        
+                foreach (IConfigurationSection section in configuration.GetChildren())
+                {
+                    if (!keys.Value.Contains(section.Key))
+                    {
+                        (temp ??= new List<string>()).Add($"'{section.Key}'");
+                    }
+                }
+        
+                if (temp is not null)
+                {
+                    throw new InvalidOperationException($"'ErrorOnUnknownConfiguration' was set on the provided BinderOptions, but the following properties were not found on the instance of {type}: {string.Join(", ", temp)}");
+                }
+            }
+        }
+
+        public static bool HasValueOrChildren(IConfiguration configuration)
+        {
+            if ((configuration as IConfigurationSection)?.Value is not null)
+            {
+                return true;
+            }
+            return AsConfigWithChildren(configuration) is not null;
+        }
+
+        public static IConfiguration? AsConfigWithChildren(IConfiguration configuration)
+        {
+            foreach (IConfigurationSection _ in configuration.GetChildren())
+            {
+                return configuration;
+            }
+            return null;
+        }
+
+        public static BinderOptions? GetBinderOptions(Action<BinderOptions>? configureOptions)
+        {
+            if (configureOptions is null)
+            {
+                return null;
+            }
+        
+            BinderOptions binderOptions = new();
+            configureOptions(binderOptions);
+        
+            if (binderOptions.BindNonPublicProperties)
+            {
+                throw new NotSupportedException($"The configuration binding source generator does not support 'BinderOptions.BindNonPublicProperties'.");
+            }
+        
+            return binderOptions;
+        }
+        #endregion Core binding extensions.
+    }
+}
+
+```
+
+  </TabItem>
+
+
+</Tabs>
+
+## Usefull
+
+### Download Example (.NET  C# )
+
+:::tip
+
+[Download Example project Microsoft.Extensions.Configuration.Binder ](/sources/Microsoft.Extensions.Configuration.Binder.zip)
+
+:::
+
+
+### Share Microsoft.Extensions.Configuration.Binder 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Configuration.Binder&quote=Microsoft.Extensions.Configuration.Binder" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Configuration.Binder&text=Microsoft.Extensions.Configuration.Binder:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Configuration.Binder" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Configuration.Binder&title=Microsoft.Extensions.Configuration.Binder" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Configuration.Binder&title=Microsoft.Extensions.Configuration.Binder&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FMicrosoft.Extensions.Configuration.Binder" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder
+
+## In the same category (API)
+
+
+### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+
+### [RDG](/docs/RDG)
+
+
+### [Refit](/docs/Refit)
+
+
+### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+
+
+### [SafeRouting](/docs/SafeRouting)
+
+
+### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+

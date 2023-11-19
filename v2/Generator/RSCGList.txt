@@ -35,11 +35,10 @@ inDescOrder =  all  | array.sort "ReverseNr"
 
 If you are interested in Microsoft RSCG, please see
 
-| No        | Name  | Date | Category |
-| --------- | ----- | ---- | -------- |  
-{{~ for desc in MSFT ~}} 
-{{~ isMsft= (desc.Generator.Author == "Microsoft")?"by Microsoft":"" ~}}
-|{{desc.Nr}}| [{{desc.Generator.Name}} {{isMsft}} ](/docs/{{desc.Generator.Name}})|{{desc.generatedDate  | date.to_string '%F => %d %B %Y' }} | {{desc.GeneratorData.Category}} |
+| No        | Name  | 
+| --------- | ----- | 
+{{~ for file in MSFT ~}} 
+|{{file.NrFile}}|[{{file.NameGenerator}}](/docs/Microsoft/{{file.NameGenerator}})|
 {{~ end ~}}
 
 If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
