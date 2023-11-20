@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrscg_examples=self.webpackChunkrscg_examples||[]).push([[604],{2665:e=>{e.exports=JSON.parse('{"permalink":"/RSCG_Examples/v2/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
