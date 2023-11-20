@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating the validation for data annotations on options classes."],
       "csprojDemo":"DemoValidatorObj.csproj",
-      "csFiles":["MyAppValidator.cs" ]
+      "csFiles":["MyAppValidator.cs","MyAppOptions.cs" ]
    },
    "links":{
       "blog":"",
