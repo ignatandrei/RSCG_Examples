@@ -187,6 +187,34 @@ public partial class ValidatorForMyApp
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\OptValidator\src\DemoValidatorObj\MyAppOptions.cs" label="MyAppOptions.cs" >
+
+  This is the use of **Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator** in *MyAppOptions.cs*
+
+```csharp showLineNumbers 
+namespace DemoValidatorObj;
+
+[DebuggerDisplay("{AppDisplayName}")]
+public class MyAppOptions
+{
+    public const string ConfigName = "MyAppOptionsInConfig";
+    [Required]
+    [MinLength(3)]
+    public string AppDisplayName { get; set; } = string.Empty;
+
+    //[ValidateObjectMembers(
+    //    typeof(SecondValidatorNoNamespace))]
+    //public SecondModelNoNamespace? P2 { get; set; }
+}
+
+//[OptionsValidator]
+//public partial class SecondValidatorNoNamespace
+//    : IValidateOptions<SecondModelNoNamespace>
+//{
+//}
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files

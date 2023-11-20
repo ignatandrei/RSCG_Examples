@@ -21,9 +21,11 @@
 "step_16_text": "I have used the Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OptValidator\\src\\DemoValidatorObj\\MyAppValidator.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OptValidator\\src\\DemoValidatorObj\\MyAppOptions.cs",
     
-"step_18_hide": "hide"
+        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OptValidator\\src\\DemoValidatorObj\\MyAppValidator.cs",
+    
+"step_19_hide": "hide"
 
 
 }

@@ -865,7 +865,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         x++;
         //if(x>2)
         await Task.WhenAll(_AllDescriptions
-            .Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 3)
+            .OrderByDescending(it=>it.generatedDate)
+            //.Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 10)
+           .Take(10) 
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }
