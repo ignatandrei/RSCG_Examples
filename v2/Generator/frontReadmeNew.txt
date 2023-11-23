@@ -41,16 +41,6 @@ Source: [{{desc.Generator.Source}}]({{desc.Generator.Source}})
 {{~ end ~}}
 
 
-## Roslyn Source Code Generators created by Microsoft 
-
-You can find also the {{MSFT_RSCG_NR}} from Roslyn Source Code Generators that Microsoft wrote for .NET 
-| No        | Name  | Link | 
-| --------- | ----- | -----| 
-{{~ for msft in MSFT_RSCG ~}} 
-|{{msft.NrFile}}|[{{msft.NameGenerator}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/{{msft.NameGenerator}})| https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft/{{msft.NameGenerator}} |
-{{~ end ~}}
-
-
 ## Contributors Welcome for those
 
 Please help with those by providing a simple example :

@@ -161,6 +161,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
+,new("AspectGenerator https://github.com/igor-tkachev/AspectGenerator",later)
+,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
+
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
