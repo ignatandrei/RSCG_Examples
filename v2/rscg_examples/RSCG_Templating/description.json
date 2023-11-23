@@ -13,7 +13,7 @@
    "data":{
       "goodFor":["Templating every your data ( starting with class)"],
       "csprojDemo":"RSCG_TemplatingDemo.csproj",
-      "csFiles":["Program.cs","Person.cs"]
+      "csFiles":["Program.cs","Person.cs","ClassPropByName.txt","ClassTypeName.txt"]
    },
    "links":{
       "blog":"",
