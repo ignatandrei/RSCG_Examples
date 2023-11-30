@@ -64,7 +64,7 @@ The major functional areas this repo addresses are:
 We welcome contributions! Many people all over the world have helped make this project better.
 
 * [Contributing](https://github.com/dotnet/extensions/CONTRIBUTING.md) explains what kinds of contributions we welcome
-* [Build instructions](docs/building.md) explains how to build and test
+* [Build instructions](https://github.com/dotnet/extensions/docs/building.md) explains how to build and test
 
 ## Reporting security issues and security bugs
 

@@ -370,6 +370,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(docs/workflow/README.md)", $"({d.Generator!.Source}/docs/workflow/README.md)");
             text = text.Replace("(SECURITY.md)", $"({d.Generator!.Source}/SECURITY.md)");
             text = text.Replace("(LICENSE.TXT)", $"({d.Generator!.Source}/LICENSE.TXT)");
+            text = text.Replace("(docs/building.md)", $"({d.Generator!.Source}/docs/building.md)");
             
             return text;
         }
