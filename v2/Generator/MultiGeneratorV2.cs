@@ -869,10 +869,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
+        var latest = generators["TelemetryLogging"];
         await Task.WhenAll(_AllDescriptions
-            .OrderByDescending(it=>it.generatedDate)
-            //.Where(it=>DateTime.Now.Subtract( it.generatedDate).TotalDays < 10)
-           .Take(10) 
+            .OrderByDescending(it => it.generatedDate)
+            .Where(it => it.generatedDate > latest.dtStart)
+            //.Take(10) 
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }
