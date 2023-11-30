@@ -1203,6 +1203,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.Sour
 ### [Gobie](/docs/Gobie)
 
 
+### [InterceptorTemplate](/docs/InterceptorTemplate)
+
+
 ### [MorrisMoxy](/docs/MorrisMoxy)
 
 

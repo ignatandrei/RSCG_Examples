@@ -705,6 +705,14 @@
       "Source": "https://github.com/dotnet/runtime",
       "Category": "EnhancementProject",
       "AddedOn": "2023-11-20T00:00:00"
+    },
+    {
+      "Name": "InterceptorTemplate",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate",
+      "NuGet": "https://www.nuget.org/packages/RSCG_InterceptorTemplate/",
+      "Source": "https://github.com/ignatandrei/RSCG_InterceptorTemplate",
+      "Category": "Templating",
+      "AddedOn": "2023-11-19T00:00:00"
     }
   ]
 }

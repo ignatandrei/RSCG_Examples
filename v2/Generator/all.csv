@@ -87,3 +87,4 @@ Nr,Key,Source,Category
 86,ConfigBinder, https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator,API
 87,RDG, https://github.com/dotnet/aspnetcore,API
 88,COM, https://github.com/dotnet/runtime,EnhancementProject
+89,InterceptorTemplate, https://github.com/ignatandrei/RSCG_InterceptorTemplate,Templating

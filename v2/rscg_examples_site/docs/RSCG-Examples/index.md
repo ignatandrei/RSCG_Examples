@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 88 RSCG by category 
-description: 88 RSCG by category 
+title: 89 RSCG by category 
+description: 89 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -518,7 +518,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:6</summary>
+  <summary>Expand Templating =>examples:7</summary>
         
 
 
@@ -548,6 +548,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_Templating](/docs/RSCG_Templating)
+
+        
+
+
+[InterceptorTemplate](/docs/InterceptorTemplate)
 
 </details>
     
@@ -745,6 +750,8 @@ flowchart LR;
     Templating--> Gobie((Gobie))
 
     Templating--> RSCG_Templating((RSCG_Templating))
+
+    Templating--> InterceptorTemplate((InterceptorTemplate))
 
     Tests--> Rocks((Rocks))
 

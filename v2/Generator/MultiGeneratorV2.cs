@@ -269,7 +269,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"ConfigBinder",new(true,new(2023,11,18),Category.API) },
             {"RDG",new(true,new(2023,11,19),Category.API) },
             {"COM",new(true,new(2023,11,20),Category.EnhancementProject) },
-
+            {"InterceptorTemplate", new (true,new(2023,11,19),Category.Templating) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
