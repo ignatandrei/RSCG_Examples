@@ -326,6 +326,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 ### [Gobie](/docs/Gobie)
 
 
+### [InterceptorTemplate](/docs/InterceptorTemplate)
+
+
 ### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 

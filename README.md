@@ -1,4 +1,4 @@
-# RSCG - 88 Examples of Roslyn Source Code Generators  / 11 created by Microsoft / 
+# RSCG - 89 Examples of Roslyn Source Code Generators  / 11 created by Microsoft / 
 
 ## Latest Update : 2023-11-20 => 20 November 2023
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 88 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 89 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 11 from Microsoft )
+### 89. [InterceptorTemplate](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate) generated on : 2023-11-19 => 19 November 2023
+<details>
+  <summary>Expand</summary>
+Author: Andrei Ignat
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/RSCG_InterceptorTemplate/](https://www.nuget.org/packages/RSCG_InterceptorTemplate/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate)
+
+Source: [https://github.com/ignatandrei/RSCG_InterceptorTemplate](https://github.com/ignatandrei/RSCG_InterceptorTemplate)
+
+</details>
+
 ### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) generated on : 2023-11-20 => 20 November 2023
 <details>
   <summary>Expand</summary>

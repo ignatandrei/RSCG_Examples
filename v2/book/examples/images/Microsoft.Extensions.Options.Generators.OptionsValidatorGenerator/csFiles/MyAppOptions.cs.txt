@@ -1,0 +1,20 @@
+namespace DemoValidatorObj;
+
+[DebuggerDisplay("{AppDisplayName}")]
+public class MyAppOptions
+{
+    public const string ConfigName = "MyAppOptionsInConfig";
+    [Required]
+    [MinLength(3)]
+    public string AppDisplayName { get; set; } = string.Empty;
+
+    //[ValidateObjectMembers(
+    //    typeof(SecondValidatorNoNamespace))]
+    //public SecondModelNoNamespace? P2 { get; set; }
+}
+
+//[OptionsValidator]
+//public partial class SecondValidatorNoNamespace
+//    : IValidateOptions<SecondModelNoNamespace>
+//{
+//}

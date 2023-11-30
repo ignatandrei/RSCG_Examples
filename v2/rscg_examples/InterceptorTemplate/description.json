@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"InterceptorTemplate",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_InterceptorTemplate/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_InterceptorTemplate",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_InterceptorTemplate"
+   },
+   "data":{
+      "goodFor":["Andrei Ignat"],
+      "csprojDemo":"RSCG_InterceptorTemplateConsole.csproj",
+      "csFiles":["Program.cs","FullName.txt","GenericInterceptorForAllMethods.txt","FullName.txt"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

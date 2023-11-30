@@ -21,11 +21,15 @@
 "step_16_text": "I have used the RSCG_Templating in those files",
 
 
-        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\Person.cs",
+        "step_17_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\ClassTypeName.txt",
     
-        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\Program.cs",
+        "step_18_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\ClassPropByName.txt",
     
-"step_19_hide": "hide"
+        "step_19_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\Person.cs",
+    
+        "step_20_exec":"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe /edit D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\Program.cs",
+    
+"step_21_hide": "hide"
 
 
 }
