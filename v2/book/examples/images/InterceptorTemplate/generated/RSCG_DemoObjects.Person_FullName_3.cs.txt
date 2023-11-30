@@ -1,0 +1,39 @@
+//example generating for full name 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:var namePerson = newPerson.FullName();";
+//replace code:123456789!123456789!123456789!12345678";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 12, 28)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_newPerson_FullName(this RSCG_DemoObjects.Person newPerson  )  
+{
+    var cc=Console.BackgroundColor ;
+    try{
+    Console.BackgroundColor = ConsoleColor.DarkGreen;
+    Console.WriteLine("start specific FullName template-->Intercept_newPerson_FullName");
+    return  newPerson.FullName();
+    }
+    finally{
+        Console.WriteLine("end specific template-->Intercept_newPerson_FullName");
+        Console.BackgroundColor = cc;
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate

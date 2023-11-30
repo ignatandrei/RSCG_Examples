@@ -262,6 +262,52 @@ await ipl.InsertPerson(newPerson);
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\FullName.txt" label="FullName.txt" >
+
+  This is the use of **InterceptorTemplate** in *FullName.txt*
+
+```csharp showLineNumbers 
+//example generating for full name {{Version}}
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+{{ for loc in ser.dataForEachIntercepts }}
+//replace code:{{loc.code}}";
+//replace code:{{loc.CodeNumbered}}";
+[System.Runtime.CompilerServices.InterceptsLocation(@"{{loc.Path}}", {{loc.Line}}, {{loc.StartMethod}})]
+{{ end }}
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}} {{ser.item.MethodSignature}}({{ser.item.ThisArgument}} {{ser.item.ArgumentsForCallMethod}} )  
+{
+    var cc=Console.BackgroundColor ;
+    try{
+    Console.BackgroundColor = ConsoleColor.DarkGreen;
+    Console.WriteLine("start specific FullName template-->{{ser.item.MethodSignature}}");
+    {{ser.item.ReturnString}} {{(ser.item.HasTaskReturnType ? "await" : "")}} {{ser.item.CallMethod}};
+    }
+    finally{
+        Console.WriteLine("end specific template-->{{ser.item.MethodSignature}}");
+        Console.BackgroundColor = cc;
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+  </TabItem>
 
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\GenericInterceptorForAllMethods.txt" label="GenericInterceptorForAllMethods.txt" >
 

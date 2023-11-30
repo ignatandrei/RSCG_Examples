@@ -263,3 +263,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServic
 
 ### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
+
+### [TelemetryLogging](/docs/TelemetryLogging)
+

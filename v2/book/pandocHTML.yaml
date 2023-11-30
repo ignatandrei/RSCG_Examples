@@ -102,6 +102,8 @@ input-files:
 - examples/Microsoft.Extensions.Configuration.Binder.html
 - examples/RDG.html
 - examples/Com.html
+- examples/InterceptorTemplate.html
+- examples/TelemetryLogging.html
 
 # or you may use input-file: with a single value
 # defaults:

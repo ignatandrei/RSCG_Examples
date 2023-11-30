@@ -1,0 +1,49 @@
+//example generating for TestFullNameWithArguments 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("and now with argument " + newPerson.TestFullNameWithArguments("<","!+",">",2));";
+//replace code:123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!12345678";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 19, 56)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_newPerson_TestFullNameWithArguments(this RSCG_DemoObjects.Person newPerson ,string start,string separator,string end,int repeat )  
+{
+    var cc=Console.BackgroundColor ;
+    try{
+        Console.BackgroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("start specific TestFullNameWithArguments template-->Intercept_newPerson_TestFullNameWithArguments");
+        Console.WriteLine("number of arguments = 4");
+        
+                Console.WriteLine("argument 1 type string and value = "+ start);
+                
+                Console.WriteLine("argument 2 type string and value = "+ separator);
+                
+                Console.WriteLine("argument 3 type string and value = "+ end);
+                
+                Console.WriteLine("argument 4 type int and value = "+ repeat);
+                
+        return  newPerson.TestFullNameWithArguments(start,separator,end,repeat);
+    }
+    finally{
+        Console.WriteLine("end specific template-->Intercept_newPerson_TestFullNameWithArguments");
+        Console.BackgroundColor = cc;
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate

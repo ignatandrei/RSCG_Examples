@@ -1,0 +1,36 @@
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:var x = p.Test();";
+//replace code:123456789!1234567";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 7, 11)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_p_Test(this RSCG_DemoObjects.Person p  )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_p_Test");
+        return  p.Test();
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_p_Test");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
