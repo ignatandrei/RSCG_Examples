@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 89 RSCG with examples in descending chronological order
+## 90 RSCG with examples in descending chronological order
 
-This is the list of 89 ( 11 from Microsoft) RSCG with examples 
+This is the list of 90 ( 12 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,7 +23,8 @@ This is the list of 89 ( 11 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|89| [InterceptorTemplate  ](/docs/InterceptorTemplate)|2023-11-19 => 19 November 2023 | Templating |
+|90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
+|89| [InterceptorTemplate  ](/docs/InterceptorTemplate)|2023-11-29 => 29 November 2023 | Templating |
 |88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
 |87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
 |86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
@@ -113,7 +114,7 @@ This is the list of 89 ( 11 from Microsoft) RSCG with examples
 |2| [RSCG_TimeBombComment  ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | EnhancementProject |
 |1| [ThisAssembly  ](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | EnhancementProject |
 
-## 11 Created by Microsoft 
+## 12 Created by Microsoft 
 
 If you are interested in Microsoft RSCG, please see
 
@@ -130,6 +131,7 @@ If you are interested in Microsoft RSCG, please see
 |86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
 |87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
 |88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
+|90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
 
 If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 

@@ -923,3 +923,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 
 ### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
+
+### [TelemetryLogging](/docs/TelemetryLogging)
+

@@ -1,6 +1,6 @@
-# RSCG - 89 Examples of Roslyn Source Code Generators  / 11 created by Microsoft / 
+# RSCG - 90 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2023-11-20 => 20 November 2023
+## Latest Update : 2023-11-30 => 30 November 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,9 +16,25 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 89 Roslyn Source Code Generators that I have tested you can see and download source code example.
-( including 11 from Microsoft )
-### 89. [InterceptorTemplate](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate) generated on : 2023-11-19 => 19 November 2023
+Those are the 90 Roslyn Source Code Generators that I have tested you can see and download source code example.
+( including 12 from Microsoft )
+### 90. [TelemetryLogging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging) generated on : 2023-11-30 => 30 November 2023
+<details>
+  <summary>Expand</summary>
+Author: Microsoft
+
+Common abstractions for high-level telemetry primitives. 
+
+Nuget: [https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging)
+
+Source: [https://github.com/dotnet/extensions](https://github.com/dotnet/extensions)
+
+</details>
+
+### 89. [InterceptorTemplate](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate) generated on : 2023-11-29 => 29 November 2023
 <details>
   <summary>Expand</summary>
 Author: Andrei Ignat

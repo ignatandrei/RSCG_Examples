@@ -518,3 +518,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 
 ### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
+
+### [TelemetryLogging](/docs/TelemetryLogging)
+

@@ -712,7 +712,15 @@
       "NuGet": "https://www.nuget.org/packages/RSCG_InterceptorTemplate/",
       "Source": "https://github.com/ignatandrei/RSCG_InterceptorTemplate",
       "Category": "Templating",
-      "AddedOn": "2023-11-19T00:00:00"
+      "AddedOn": "2023-11-29T00:00:00"
+    },
+    {
+      "Name": "TelemetryLogging",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/",
+      "Source": "https://github.com/dotnet/extensions",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-11-30T00:00:00"
     }
   ]
 }

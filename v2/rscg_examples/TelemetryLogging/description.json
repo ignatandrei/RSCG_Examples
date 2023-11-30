@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"TelemetryLogging",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/"
+      ],
+      "link":"https://andrewlock.net/behind-logproperties-and-the-new-telemetry-logging-source-generator/",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/extensions"
+   },
+   "data":{
+      "goodFor":["Generating deep logging messages for a class"],
+      "csprojDemo":"DemoLogging.csproj",
+      "csFiles":["Program.cs","LogDemo.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

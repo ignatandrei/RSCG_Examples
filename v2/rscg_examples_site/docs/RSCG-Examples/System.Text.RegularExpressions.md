@@ -495,3 +495,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressio
 
 ### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
 
+
+### [TelemetryLogging](/docs/TelemetryLogging)
+

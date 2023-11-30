@@ -553,3 +553,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator
 
 ### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
+
+### [TelemetryLogging](/docs/TelemetryLogging)
+
