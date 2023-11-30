@@ -7,8 +7,18 @@ title: Good Practices
 
 I am trying here to add good practices , as I see 
 
-## For generated code
- ### Add a version
+### For generated code
+
+Add to the csproj file
+
+```xml
+<PropertyGroup>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+</PropertyGroup>
+ ```
+ 
+### Add a version
 
 [global::System.CodeDom.Compiler.GeneratedCode("Name", "1.0.0.0")]
 

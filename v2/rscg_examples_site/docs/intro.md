@@ -112,6 +112,9 @@ Let's Code an incremental source generator with Roslyn - Stefan Pölz - NDC Lond
 
 https://www.youtube.com/watch?v=iOp3mN933Og
 
+For Microsoft:
+
+https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code
 
 Nuget:
 
