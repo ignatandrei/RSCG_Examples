@@ -30,6 +30,11 @@ Problem - make internal or have another assembly referenced ( or the opposite)
 https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-generator-marker-attribute-problem-part2/
 
 
+### Make it shorter
+
+
+https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell
+
 ### mark the code as non - code coverage
 
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
