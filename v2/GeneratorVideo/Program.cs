@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-string originalFolder = @"C:\test\RSCG_Examples";
+string originalFolder = @"C:\ignatandrei\rscg_Examples";
 if (!Directory.Exists(originalFolder))
 {
     originalFolder = @"D:\gth\RSCG_Examples";
