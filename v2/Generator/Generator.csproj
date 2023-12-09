@@ -77,5 +77,6 @@
     <!-- <Watch Include="**\*.txt" /> -->
 	  <Watch Include="**\*.cshtml" />
       <Watch Include="**\*.txt" />
+	  <Watch Remove="**\*.FileListAbsolute*.txt"/>
   </ItemGroup>
 </Project>
