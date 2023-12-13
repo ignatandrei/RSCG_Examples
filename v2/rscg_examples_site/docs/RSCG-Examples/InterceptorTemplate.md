@@ -177,7 +177,6 @@ Andrei Ignat
 ### Example ( source csproj, source files )
 
 <Tabs>
-
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **InterceptorTemplate**
@@ -228,8 +227,7 @@ This is the CSharp Project that references **InterceptorTemplate**
 ```
 
 </TabItem>
-
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs" label="Program.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs" label="Program.cs" >
 
   This is the use of **InterceptorTemplate** in *Program.cs*
 
@@ -261,8 +259,6 @@ IPersonLoader ipl=new PersonLoader();
 await ipl.InsertPerson(newPerson);
 ```
   </TabItem>
-
-  
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\GenericInterceptorForAllMethods.txt" label="GenericInterceptorForAllMethods.txt" >
 
   This is the use of **InterceptorTemplate** in *GenericInterceptorForAllMethods.txt*
@@ -306,7 +302,6 @@ public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}
 }//namespace RSCG_InterceptorTemplate
 ```
   </TabItem>
-
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\FullName.txt" label="FullName.txt" >
 
   This is the use of **InterceptorTemplate** in *FullName.txt*
@@ -353,17 +348,12 @@ public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}
 }//namespace RSCG_InterceptorTemplate
 ```
   </TabItem>
-
 </Tabs>
 
 ### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
-<Tabs>
-
-
-</Tabs>
 
 ## Usefull
 
