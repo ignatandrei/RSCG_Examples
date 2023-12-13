@@ -361,6 +361,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(src/Ling.Cache)", $"({d.Generator!.Source}src/Ling.Cache)");
+            text = text.Replace("(src/Ling.Audit)", $"({d.Generator!.Source}src/Ling.Audit)");
+            text = text.Replace("(src/Ling.EntityFrameworkCore)", $"({d.Generator!.Source}src/Ling.EntityFrameworkCore)");
+            text = text.Replace("(src/Ling.EntityFrameworkCore.Audit)", $"({d.Generator!.Source}src/Ling.EntityFrameworkCore.Audit)");
+            text = text.Replace("(src/Ling.Blazor)", $"({d.Generator!.Source}src/Ling.Blazor)");
+            text = text.Replace("(src/Ling.Blazor.Authentication)", $"({d.Generator!.Source}src/Ling.Blazor.Authentication)");
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
             text = text.Replace("(LICENSE.md)", $"({d.Generator!.Source}/LICENSE.md)");
             text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
