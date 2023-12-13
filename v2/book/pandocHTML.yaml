@@ -104,6 +104,7 @@ input-files:
 - examples/Com.html
 - examples/InterceptorTemplate.html
 - examples/TelemetryLogging.html
+- examples/Ling.Audit.html
 
 # or you may use input-file: with a single value
 # defaults:
