@@ -1,6 +1,6 @@
-# RSCG - 90 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 91 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2023-11-30 => 30 November 2023
+## Latest Update : 2023-12-12 => 12 December 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 90 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 91 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 91. [Ling.Audit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit) generated on : 2023-12-12 => 12 December 2023
+<details>
+  <summary>Expand</summary>
+Author: Jing Ling
+
+A source generator for audit properties. 
+
+Nuget: [https://www.nuget.org/packages/Ling.Audit/](https://www.nuget.org/packages/Ling.Audit/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit)
+
+Source: [https://github.com/ling921/dotnet-lib/](https://github.com/ling921/dotnet-lib/)
+
+</details>
+
 ### 90. [TelemetryLogging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging) generated on : 2023-11-30 => 30 November 2023
 <details>
   <summary>Expand</summary>

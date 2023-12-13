@@ -284,7 +284,7 @@ namespace Microsoft.AspNetCore.Http.Generated
         private static readonly JsonOptions FallbackJsonOptions = new();
         private static readonly string[] GetVerb = new[] { global::Microsoft.AspNetCore.Http.HttpMethods.Get };
 
-        [InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\RDG\src\RDGDemo\RDGDemoWebApi\Program.cs", 22, 5)]
+        [InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\RDG\src\RDGDemoWebApi\Program.cs", 22, 5)]
         internal static RouteHandlerBuilder MapGet0(
             this IEndpointRouteBuilder endpoints,
             [StringSyntax("Route")] string pattern,

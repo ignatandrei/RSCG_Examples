@@ -167,7 +167,7 @@ This is the CSharp Project that references **Com**
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\COM\src\Com\ComDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\COM\src\ComDemo\Program.cs" label="Program.cs" >
 
   This is the use of **Com** in *Program.cs*
 
@@ -191,7 +191,7 @@ Console.WriteLine($"ShellExecute Result: {result}");
 ```
   </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\COM\src\Com\ComDemo\MyShell.cs" label="MyShell.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\COM\src\ComDemo\MyShell.cs" label="MyShell.cs" >
 
   This is the use of **Com** in *MyShell.cs*
 
@@ -259,7 +259,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\COM\src\Com\ComDemo\obj\GX\Microsoft.Interop.ComInterfaceGenerator\Microsoft.Interop.ComInterfaceGenerator\test.IShellExecute.cs" label="test.IShellExecute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\COM\src\ComDemo\obj\GX\Microsoft.Interop.ComInterfaceGenerator\Microsoft.Interop.ComInterfaceGenerator\test.IShellExecute.cs" label="test.IShellExecute.cs" >
 
 
 ```csharp showLineNumbers 

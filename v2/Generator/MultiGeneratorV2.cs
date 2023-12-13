@@ -271,7 +271,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"COM",new(true,new(2023,11,20),Category.EnhancementProject) },
             {"InterceptorTemplate", new (true,new(2023,11,29),Category.Templating) },
             {"TelemetryLogging",new(true,new(2023,11,30),Category.EnhancementClass) },
-            //{"Ling.Audit" }
+            {"Ling.Audit" , new(true,new(2023,12,12),Category.EnhancementClass)}
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

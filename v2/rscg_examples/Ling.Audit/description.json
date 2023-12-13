@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Ling.Audit",
+      "nuget":[
+         "https://www.nuget.org/packages/Ling.Audit/"
+      ],
+      "link":"https://github.com/ling921/dotnet-lib/",
+      "author":"Jing Ling",
+      "source":"https://github.com/ling921/dotnet-lib/"
+   },
+   "data":{
+      "goodFor":["Generating audit data from class implementation of interfaces"],
+      "csprojDemo":"LingDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

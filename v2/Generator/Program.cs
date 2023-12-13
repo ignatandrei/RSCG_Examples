@@ -30,7 +30,7 @@ try
     Console.WriteLine("New generator?(press enter for none in 5 seconds)");
     //var newGen =  Console.ReadLine();
     var task = Task.Factory.StartNew(Console.ReadLine);
-    var completedTask = await Task.WhenAny(task, Task.Delay(TimeSpan.FromSeconds(5)));
+    var completedTask = await Task.WhenAny(task, Task.Delay(TimeSpan.FromSeconds(15)));
     var newGen = object.ReferenceEquals(task, completedTask) ? task.Result : string.Empty;
 
     if (!string.IsNullOrWhiteSpace(newGen))

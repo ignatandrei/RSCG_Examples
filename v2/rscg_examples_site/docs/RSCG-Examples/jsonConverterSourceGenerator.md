@@ -1023,7 +1023,7 @@ public partial class ProjectJsonSerializerContext
 // Suppress warnings about [Obsolete] member usage in generated code.
 #pragma warning disable CS0618
     
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.1816")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.1910")]
     public partial class ProjectJsonSerializerContext
     {
         

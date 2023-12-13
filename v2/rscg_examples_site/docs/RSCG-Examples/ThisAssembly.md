@@ -531,7 +531,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800";
+        public const string InformationalVersion = @"2023.5.7.800+1f6b95a5cfa62773b54fbe3c1143225f3fe8b39d";
 
         public const string Product = @"RSCG_Version";
 
@@ -568,9 +568,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"[pending build]"
+        /// => @"main"
         /// </summary>
-        public const string Branch = @"[pending build]";
+        public const string Branch = @"main";
     }
 }
 ```
@@ -600,9 +600,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"[pending build]"
+        /// => @"1f6b95a5cfa62773b54fbe3c1143225f3fe8b39d"
         /// </summary>
-        public const string Commit = @"[pending build]";
+        public const string Commit = @"1f6b95a5cfa62773b54fbe3c1143225f3fe8b39d";
     }
 }
 ```
@@ -632,9 +632,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"[pending build]"
+        /// => @"D:/gth/RSCG_Examples/"
         /// </summary>
-        public const string Root = @"[pending build]";
+        public const string Root = @"D:/gth/RSCG_Examples/";
     }
 }
 ```
@@ -664,9 +664,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"[pending build]"
+        /// => @"1f6b95a5c"
         /// </summary>
-        public const string Sha = @"[pending build]";
+        public const string Sha = @"1f6b95a5c";
     }
 }
 ```
@@ -696,9 +696,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"[pending build]"
+        /// => @""
         /// </summary>
-        public const string Url = @"[pending build]";
+        public const string Url = @"";
     }
 }
 ```

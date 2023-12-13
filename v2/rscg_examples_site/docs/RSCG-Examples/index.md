@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 90 RSCG by category 
-description: 90 RSCG by category 
+title: 91 RSCG by category 
+description: 91 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -148,7 +148,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:22</summary>
+  <summary>Expand EnhancementClass =>examples:23</summary>
         
 
 
@@ -258,6 +258,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TelemetryLogging](/docs/TelemetryLogging)
+
+        
+
+
+[Ling.Audit](/docs/Ling.Audit)
 
 </details>
     
@@ -667,6 +672,8 @@ flowchart LR;
     EnhancementClass--> Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator((Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator))
 
     EnhancementClass--> TelemetryLogging((TelemetryLogging))
+
+    EnhancementClass--> Ling.Audit((Ling.Audit))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
