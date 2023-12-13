@@ -362,6 +362,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         {
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            text = text.Replace("(LICENSE.md)", $"({d.Generator!.Source}/LICENSE.md)");
             text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             text = text.Replace("(./test/Benchmarks.md)", $"({d.Generator!.Source}/blob/main/test/Benchmarks.md)");
             text = text.Replace("(./docs/", $"({d.Generator!.Source}/docs/");

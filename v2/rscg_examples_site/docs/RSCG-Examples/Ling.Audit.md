@@ -56,7 +56,7 @@ This is a dotnet library repository that contains the following public libraries
 
 ## License
 
-This project is licensed under the [Apache-2.0](LICENSE.md)
+This project is licensed under the [Apache-2.0](https://github.com/ling921/dotnet-lib//LICENSE.md)
 
 
 :::
