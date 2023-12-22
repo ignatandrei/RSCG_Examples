@@ -163,6 +163,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 ,new("AspectGenerator https://github.com/igor-tkachev/AspectGenerator",later)
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
+,new ("Blazorators https://github.com/IEvangelist/blazorators",later)       
 
     };
     
