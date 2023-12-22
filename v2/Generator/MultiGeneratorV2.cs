@@ -154,7 +154,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
 ,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
-,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)   
+,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
 , new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
@@ -163,8 +163,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 ,new("AspectGenerator https://github.com/igor-tkachev/AspectGenerator",later)
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
-,new ("Blazorators https://github.com/IEvangelist/blazorators",later)       
-
+,new ("Blazorators https://github.com/IEvangelist/blazorators",later)
+,new ("HSU https://github.com/hsu-net/source-generators",later)
+,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
