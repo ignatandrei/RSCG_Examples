@@ -105,6 +105,7 @@ input-files:
 - examples/InterceptorTemplate.html
 - examples/TelemetryLogging.html
 - examples/Ling.Audit.html
+- examples/RSCG_UtilityTypes.html
 
 # or you may use input-file: with a single value
 # defaults:

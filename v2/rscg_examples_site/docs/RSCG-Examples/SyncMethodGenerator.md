@@ -340,6 +340,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator
 ### [RSCG_Static](/docs/RSCG_Static)
 
 
+### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+
+
 ### [StaticReflection](/docs/StaticReflection)
 
 

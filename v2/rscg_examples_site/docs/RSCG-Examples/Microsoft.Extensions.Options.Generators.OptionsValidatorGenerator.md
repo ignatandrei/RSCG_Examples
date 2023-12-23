@@ -407,6 +407,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options
 ### [RSCG_Static](/docs/RSCG_Static)
 
 
+### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+
+
 ### [StaticReflection](/docs/StaticReflection)
 
 

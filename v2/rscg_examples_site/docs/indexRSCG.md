@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 91 RSCG with examples in descending chronological order
+## 92 RSCG with examples in descending chronological order
 
-This is the list of 91 ( 12 from Microsoft) RSCG with examples 
+This is the list of 92 ( 12 from Microsoft) RSCG with examples 
 
 [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 91 ( 12 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|92| [RSCG_UtilityTypes  ](/docs/RSCG_UtilityTypes)|2023-12-22 => 22 December 2023 | EnhancementClass |
 |91| [Ling.Audit  ](/docs/Ling.Audit)|2023-12-12 => 12 December 2023 | EnhancementClass |
 |90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
 |89| [InterceptorTemplate  ](/docs/InterceptorTemplate)|2023-11-29 => 29 November 2023 | Templating |
@@ -121,18 +122,18 @@ If you are interested in Microsoft RSCG, please see
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|3| [System.Text.Json by Microsoft ](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | Serializer |
-|5| [System.Text.RegularExpressions by Microsoft ](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | EnhancementClass |
-|7| [Microsoft.Extensions.Logging by Microsoft ](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | EnhancementClass |
-|9| [CommunityToolkit.Mvvm by Microsoft ](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | MVVM |
-|12| [System.Runtime.InteropServices by Microsoft ](/docs/System.Runtime.InteropServices)|2023-04-16 => 16 April 2023 | EnhancementClass |
-|21| [Microsoft.Interop.JavaScript.JSImportGenerator by Microsoft ](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)|2023-04-16 => 16 April 2023 | EnhancementClass |
-|23| [Microsoft.NET.Sdk.Razor.SourceGenerators by Microsoft ](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|2023-04-16 => 16 April 2023 | Templating |
-|85| [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator by Microsoft ](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)|2023-11-17 => 17 November 2023 | EnhancementClass |
-|86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
-|87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
-|88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
-|90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
+|3| [System.Text.Json  by Microsoft ](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | Serializer |
+|5| [System.Text.RegularExpressions  by Microsoft ](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|7| [Microsoft.Extensions.Logging  by Microsoft ](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|9| [CommunityToolkit.Mvvm  by Microsoft ](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | MVVM |
+|12| [System.Runtime.InteropServices  by Microsoft ](/docs/System.Runtime.InteropServices)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|21| [Microsoft.Interop.JavaScript.JSImportGenerator  by Microsoft ](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|23| [Microsoft.NET.Sdk.Razor.SourceGenerators  by Microsoft ](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|2023-04-16 => 16 April 2023 | Templating |
+|85| [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator  by Microsoft ](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)|2023-11-17 => 17 November 2023 | EnhancementClass |
+|86| [Microsoft.Extensions.Configuration.Binder  by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
+|87| [RDG  by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
+|88| [Com  by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
+|90| [TelemetryLogging  by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
 
 If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 

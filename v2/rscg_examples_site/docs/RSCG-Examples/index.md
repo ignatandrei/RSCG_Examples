@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 91 RSCG by category 
-description: 91 RSCG by category 
+title: 92 RSCG by category 
+description: 92 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -148,7 +148,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:23</summary>
+  <summary>Expand EnhancementClass =>examples:24</summary>
         
 
 
@@ -263,6 +263,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Ling.Audit](/docs/Ling.Audit)
+
+        
+
+
+[RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
 </details>
     
@@ -674,6 +679,8 @@ flowchart LR;
     EnhancementClass--> TelemetryLogging((TelemetryLogging))
 
     EnhancementClass--> Ling.Audit((Ling.Audit))
+
+    EnhancementClass--> RSCG_UtilityTypes((RSCG_UtilityTypes))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
