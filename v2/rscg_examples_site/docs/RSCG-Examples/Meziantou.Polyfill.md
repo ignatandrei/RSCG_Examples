@@ -316,6 +316,9 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 // T:System.ValueTuple`7: False
 // T:System.ValueTuple`8: False
 // T:System.ITupleInternal: False
+uple`7: False
+// T:System.ValueTuple`8: False
+// T:System.ITupleInternal: False
 
 ```
 
@@ -5940,6 +5943,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill
 
 
 ### [RSCG_Static](/docs/RSCG_Static)
+
+
+### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
 
 ### [StaticReflection](/docs/StaticReflection)

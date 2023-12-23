@@ -1,0 +1,28 @@
+namespace UtilDemo
+{
+partial class Person2
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+public static explicit operator Person2(PersonFull data )
+    {
+        var ret= new Person2 ();
+        ret.FirstName = data.FirstName;
+ret.LastName = data.LastName;
+        return ret;
+    }
+
+
+
+public static explicit operator PersonFull(Person2 data )
+    {
+        var ret= new PersonFull ();
+        ret.FirstName = data.FirstName;
+ret.LastName = data.LastName;
+        return ret;
+    }
+
+
+}
+}

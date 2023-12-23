@@ -729,6 +729,14 @@
       "Source": "https://github.com/ling921/dotnet-lib/",
       "Category": "EnhancementClass",
       "AddedOn": "2023-12-12T00:00:00"
+    },
+    {
+      "Name": "RSCG_UtilityTypes",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes",
+      "NuGet": "https://www.nuget.org/packages/RSCG_UtilityTypes/",
+      "Source": "https://github.com/ignatandrei/RSCG_UtilityTypes",
+      "Category": "EnhancementClass",
+      "AddedOn": "2023-12-22T00:00:00"
     }
   ]
 }

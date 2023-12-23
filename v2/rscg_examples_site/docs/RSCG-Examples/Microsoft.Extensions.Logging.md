@@ -426,6 +426,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 ### [RSCG_Static](/docs/RSCG_Static)
 
 
+### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+
+
 ### [StaticReflection](/docs/StaticReflection)
 
 

@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_UtilityTypes",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_UtilityTypes/",
+         "https://www.nuget.org/packages/RSCG_UtilityTypesCommon"
+
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_UtilityTypes",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_UtilityTypes"
+   },
+   "data":{
+      "goodFor":["Add omit and pick to selectively generate types from existing types"],
+      "csprojDemo":"UtilDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

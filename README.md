@@ -1,6 +1,6 @@
-# RSCG - 91 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 92 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2023-12-12 => 12 December 2023
+## Latest Update : 2023-12-22 => 22 December 2023
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 91 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 92 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 92. [RSCG_UtilityTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes) generated on : 2023-12-22 => 22 December 2023
+<details>
+  <summary>Expand</summary>
+Author: Andrei Ignat
+
+Roslyn Utility Types - Pick, Omit 
+
+Nuget: [https://www.nuget.org/packages/RSCG_UtilityTypes/](https://www.nuget.org/packages/RSCG_UtilityTypes/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes)
+
+Source: [https://github.com/ignatandrei/RSCG_UtilityTypes](https://github.com/ignatandrei/RSCG_UtilityTypes)
+
+</details>
+
 ### 91. [Ling.Audit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit) generated on : 2023-12-12 => 12 December 2023
 <details>
   <summary>Expand</summary>
