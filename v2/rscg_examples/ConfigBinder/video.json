@@ -12,7 +12,7 @@
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ConfigBinder\\src\\ConfigBinderDemo.sln",
 "step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\gth\RSCG_Examples\v2\rscg_examples\ConfigBinder\src",
+"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ConfigBinder\\src",
 "step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ConfigBinder\\src\\ConfigBinderDemo\\ConfigBinderDemo.csproj",
 
 "step_15_text": "You put the  [Microsoft.Extensions.Configuration.Binder](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/) into the csproj ",

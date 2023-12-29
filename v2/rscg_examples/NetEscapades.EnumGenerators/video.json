@@ -12,7 +12,7 @@
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades.sln",
 "step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\gth\RSCG_Examples\v2\rscg_examples\NetEscapades.EnumGenerators\src",
+"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src",
 "step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\TestEnumEscapades.csproj",
 
 "step_15_text": "You put the  [NetEscapades.EnumGenerators](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) into the csproj ",

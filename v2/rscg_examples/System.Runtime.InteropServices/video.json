@@ -12,7 +12,7 @@
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\System.Runtime.InteropServices\\src\\LibraryImportDemo.sln",
 "step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\gth\RSCG_Examples\v2\rscg_examples\System.Runtime.InteropServices\src",
+"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\System.Runtime.InteropServices\\src",
 "step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\System.Runtime.InteropServices\\src\\LibraryImportDemo\\LibraryImportDemo.csproj",
 
 "step_15_text": "You put the  [System.Runtime.InteropServices](https://www.nuget.org/packages/System.Runtime.InteropServices/) into the csproj ",
