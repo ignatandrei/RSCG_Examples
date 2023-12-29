@@ -1,0 +1,36 @@
+{
+    "step_1_exec":"clipchamp.exe launch",
+    "step_2_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
+    "step_3_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_4_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_5_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+
+"step_6_text": "Today I will present Injectio  that is good for Attributes to DI helper .",
+"step_7_browser":"https://www.nuget.org/packages/Injectio/",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio)",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio",
+"step_10_text":" Here is the code ",
+"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo.sln",
+"step_12_text": "So , let's start the project ",
+"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\gth\RSCG_Examples\v2\rscg_examples\Injectio\src",
+"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\InjectioDemo.csproj",
+
+"step_15_text": "You put the  [Injectio](https://www.nuget.org/packages/Injectio/) into the csproj ",
+
+"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\InjectioDemo.csproj",
+
+"step_17_text": "I have used the Injectio in those files",
+
+
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\DatabaseCon.cs",
+    
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\IDatabase.cs",
+    
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\Database.cs",
+    
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\Program.cs",
+    
+"step_22_hide": "hide"
+
+
+}

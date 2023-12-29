@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "DynamicsMapper",
+  "steps": 
+  [
+    {
+      "file": "MapperDemo/MapperDemo.csproj",
+      "description": "Nuget  YC.DynamicsMapper registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "MapperDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MapperDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

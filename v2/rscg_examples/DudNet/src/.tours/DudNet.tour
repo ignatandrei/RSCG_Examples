@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "DudNet",
+  "steps": 
+  [
+    {
+      "file": "DudNetDemo/DudNetDemo.csproj",
+      "description": "Nuget  Jwshyns.DudNet registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DudNetDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DudNetDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Ling.Audit",
+  "steps": 
+  [
+    {
+      "file": "LingDemo/LingDemo.csproj",
+      "description": "Nuget  Ling.Audit registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "LingDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "LingDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

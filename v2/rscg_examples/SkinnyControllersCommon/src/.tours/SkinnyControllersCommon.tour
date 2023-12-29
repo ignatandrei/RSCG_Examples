@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SkinnyControllersCommon",
+  "steps": 
+  [
+    {
+      "file": "SkinnyControllersDemo/SkinnyControllersDemo.csproj",
+      "description": "Nuget  SkinnyControllersCommon registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "SkinnyControllersDemo/Controllers/WeatherActions.cs",
+        "description": "File WeatherActions.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SkinnyControllersDemo/Controllers/WeatherForecastController.cs",
+        "description": "File WeatherForecastController.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SkinnyControllersDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

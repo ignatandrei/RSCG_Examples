@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ProtobufSourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "ProtobufSourceGeneratorDemo/ProtobufSourceGeneratorDemo.csproj",
+      "description": "Nuget  LaDeak.ProtobufSourceGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ProtobufSourceGeneratorDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ProtobufSourceGeneratorDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

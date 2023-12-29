@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BenutomoAutomaticDisposeImplSourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "IDisp/IDisp.csproj",
+      "description": "Nuget  Benutomo.AutomaticDisposeImpl.SourceGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "IDisp/ConnectionDB.cs",
+        "description": "File ConnectionDB.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/DALDB.cs",
+        "description": "File DALDB.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

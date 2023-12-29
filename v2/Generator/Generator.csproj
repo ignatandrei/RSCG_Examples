@@ -10,6 +10,7 @@
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
   </PropertyGroup>
 	<ItemGroup>
+		<AdditionalFiles Include="TourScenario.cshtml" />
 		<AdditionalFiles Include="VideoScenario.cshtml" />
 		<AdditionalFiles Include="NoExamples.cshtml" />
 		<AdditionalFiles Include="pandocHTML.cshtml" />
@@ -77,6 +78,8 @@
     <!-- <Watch Include="**\*.txt" /> -->
 	  <Watch Include="**\*.cshtml" />
       <Watch Include="**\*.txt" />
-	  <Watch Remove="**\*.FileListAbsolute*.txt"/>
+	  <Watch Remove="**\*.FileListAbsolute*.txt" />
   </ItemGroup>
+  
+  
 </Project>

@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator",
+  "steps": 
+  [
+    {
+      "file": "DemoValidatorObj/DemoValidatorObj.csproj",
+      "description": "Nuget  Microsoft.Extensions.Options registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoValidatorObj/MyAppOptions.cs",
+        "description": "File MyAppOptions.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoValidatorObj/MyAppValidator.cs",
+        "description": "File MyAppValidator.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

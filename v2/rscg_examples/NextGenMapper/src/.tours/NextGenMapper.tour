@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NextGenMapper",
+  "steps": 
+  [
+    {
+      "file": "NextGenMapperDemo/NextGenMapperDemo.csproj",
+      "description": "Nuget  NextGenMapper registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "NextGenMapperDemo/PersonDTO.cs",
+        "description": "File PersonDTO.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NextGenMapperDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NextGenMapperDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

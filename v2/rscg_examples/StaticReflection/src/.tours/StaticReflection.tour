@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "StaticReflection",
+  "steps": 
+  [
+    {
+      "file": "StaticReflectionDemo/StaticReflectionDemo.csproj",
+      "description": "Nuget  FastStaticReflection registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "StaticReflectionDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StaticReflectionDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

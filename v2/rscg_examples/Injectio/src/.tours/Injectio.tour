@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Injectio",
+  "steps": 
+  [
+    {
+      "file": "InjectioDemo/InjectioDemo.csproj",
+      "description": "Nuget  Injectio registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "InjectioDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectioDemo/IDatabase.cs",
+        "description": "File IDatabase.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectioDemo/Database.cs",
+        "description": "File Database.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectioDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ApparatusAOT",
+  "steps": 
+  [
+    {
+      "file": "ApparatusAOTDemo/ApparatusAOT.csproj",
+      "description": "Nuget  Apparatus.AOT.Reflection registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ApparatusAOTDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ApparatusAOTDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

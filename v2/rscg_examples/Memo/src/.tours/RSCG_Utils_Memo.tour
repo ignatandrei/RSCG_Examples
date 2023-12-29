@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_Utils_Memo",
+  "steps": 
+  [
+    {
+      "file": "DemoRSCG_UtilsMemo/DemoRSCG_UtilsMemo.csproj",
+      "description": "Nuget  rscgutils registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoRSCG_UtilsMemo/fib.cs",
+        "description": "File fib.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoRSCG_UtilsMemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

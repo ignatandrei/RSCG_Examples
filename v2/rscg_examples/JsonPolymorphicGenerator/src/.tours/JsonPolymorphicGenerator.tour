@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "JsonPolymorphicGenerator",
+  "steps": 
+  [
+    {
+      "file": "JsonPolymorphicGeneratorDemo/JsonPolymorphicGeneratorDemo.csproj",
+      "description": "Nuget  GoLive.Generator.JsonPolymorphicGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "JsonPolymorphicGeneratorDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "JsonPolymorphicGeneratorDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

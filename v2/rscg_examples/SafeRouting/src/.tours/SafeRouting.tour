@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SafeRouting",
+  "steps": 
+  [
+    {
+      "file": "SafeRoutingDemo/SafeRoutingDemo.csproj",
+      "description": "Nuget  SafeRouting registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "SafeRoutingDemo/Views/Shared/_Layout.cshtml",
+        "description": "File _Layout.cshtml ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/Views/_ViewImports.cshtml",
+        "description": "File _ViewImports.cshtml ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoRegisterInject",
+  "steps": 
+  [
+    {
+      "file": "AutoRegisterInjectDemo/AutoRegisterInjectDemo.csproj",
+      "description": "Nuget  AutoRegisterInject registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "AutoRegisterInjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoRegisterInjectDemo/IDatabase.cs",
+        "description": "File IDatabase.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoRegisterInjectDemo/Database.cs",
+        "description": "File Database.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoRegisterInjectDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

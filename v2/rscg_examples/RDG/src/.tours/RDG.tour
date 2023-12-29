@@ -1,0 +1,22 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RDG",
+  "steps": 
+  [
+    {
+      "file": "RDGDemoWebApi/RDGDemoWebApi.csproj",
+      "description": "Nuget  Microsoft.Extensions.Http registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RDGDemoWebApi/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

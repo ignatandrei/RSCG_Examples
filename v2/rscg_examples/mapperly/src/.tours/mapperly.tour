@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "mapperly",
+  "steps": 
+  [
+    {
+      "file": "mapperlyDemo/mapperlyDemo.csproj",
+      "description": "Nuget  Riok.Mapperly registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "mapperlyDemo/PersonMapper.cs",
+        "description": "File PersonMapper.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperlyDemo/PersonDTO.cs",
+        "description": "File PersonDTO.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperlyDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperlyDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

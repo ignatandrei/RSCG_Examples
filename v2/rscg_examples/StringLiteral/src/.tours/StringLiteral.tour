@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "StringLiteral",
+  "steps": 
+  [
+    {
+      "file": "StringLiteralDemo/StringLiteralDemo.csproj",
+      "description": "Nuget  StringLiteralGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "StringLiteralDemo/LiteralConstants.cs",
+        "description": "File LiteralConstants.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StringLiteralDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

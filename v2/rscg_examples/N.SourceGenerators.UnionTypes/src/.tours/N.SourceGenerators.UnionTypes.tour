@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "N.SourceGenerators.UnionTypes",
+  "steps": 
+  [
+    {
+      "file": "UnionTypesDemo/UnionTypesDemo.csproj",
+      "description": "Nuget  N.SourceGenerators.UnionTypes registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "UnionTypesDemo/SaveToDatabase.cs",
+        "description": "File SaveToDatabase.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/ResultSave.cs",
+        "description": "File ResultSave.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Immutype",
+  "steps": 
+  [
+    {
+      "file": "ImmutypeDemo/ImmutypeDemo.csproj",
+      "description": "Nuget  Immutype registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ImmutypeDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ImmutypeDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

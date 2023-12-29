@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_WebAPIExports",
+  "steps": 
+  [
+    {
+      "file": "RSCG_WebAPIExportsDemo/RSCG_WebAPIExportsDemo.csproj",
+      "description": "Nuget  RSCG_WebAPIExports registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_WebAPIExportsDemo/Controllers/WeatherForecastController.cs",
+        "description": "File WeatherForecastController.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_WebAPIExportsDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

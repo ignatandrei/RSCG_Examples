@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MorrisMoxy",
+  "steps": 
+  [
+    {
+      "file": "MorrisMoxyDemo/MorrisMoxyDemo.csproj",
+      "description": "Nuget  Morris.Moxy registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "MorrisMoxyDemo/mixin/IDName.mixin",
+        "description": "File IDName.mixin ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MorrisMoxyDemo/Department.cs",
+        "description": "File Department.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MorrisMoxyDemo/Employee.cs",
+        "description": "File Employee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MorrisMoxyDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

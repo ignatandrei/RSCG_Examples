@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoDTO",
+  "steps": 
+  [
+    {
+      "file": "AutoDTODemo/AutoDTODemo.csproj",
+      "description": "Nuget  AutoDTO registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "AutoDTODemo/DepartmentDTO.cs",
+        "description": "File DepartmentDTO.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoDTODemo/Department.cs",
+        "description": "File Department.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoDTODemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

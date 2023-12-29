@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ResXGenerator",
+  "steps": 
+  [
+    {
+      "file": "ResXDemo/ResXDemo.csproj",
+      "description": "Nuget  Aigamo.ResXGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ResXDemo/GenResources.Designer.cs",
+        "description": "File GenResources.Designer.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ResXDemo/GenResources.resx",
+        "description": "File GenResources.resx ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ResXDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

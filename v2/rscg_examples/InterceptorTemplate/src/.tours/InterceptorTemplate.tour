@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "InterceptorTemplate",
+  "steps": 
+  [
+    {
+      "file": "RSCG_InterceptorTemplateConsole/RSCG_InterceptorTemplateConsole.csproj",
+      "description": "Nuget  RSCG_InterceptorTemplate registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/Interceptors/FullName.txt",
+        "description": "File FullName.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/Interceptors/GenericInterceptorForAllMethods.txt",
+        "description": "File GenericInterceptorForAllMethods.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/Interceptors/FullName.txt",
+        "description": "File FullName.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

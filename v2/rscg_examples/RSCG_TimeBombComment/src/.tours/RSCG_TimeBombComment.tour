@@ -1,0 +1,22 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_TimeBombComment",
+  "steps": 
+  [
+    {
+      "file": "Console_TimeBombComment/Console_TimeBombComment.csproj",
+      "description": "Nuget  RSCG_TimeBombComment registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "Console_TimeBombComment/TestClass.cs",
+        "description": "File TestClass.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

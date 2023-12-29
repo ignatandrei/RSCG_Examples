@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "dunet",
+  "steps": 
+  [
+    {
+      "file": "duneDemo/duneDemo.csproj",
+      "description": "Nuget  dunet registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "duneDemo/Recognize.cs",
+        "description": "File Recognize.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "duneDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CommunityToolkit.Mvvm",
+  "steps": 
+  [
+    {
+      "file": "ToolkitMVVM/ToolkitMVVM.csproj",
+      "description": "Nuget  CommunityToolkit.Mvvm registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ToolkitMVVM/MyViewModel.cs",
+        "description": "File MyViewModel.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ToolkitMVVM/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,22 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Rocks",
+  "steps": 
+  [
+    {
+      "file": "TestClock/TestClock.csproj",
+      "description": "Nuget  Rocks registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "TestClock/TestClock.cs",
+        "description": "File TestClock.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

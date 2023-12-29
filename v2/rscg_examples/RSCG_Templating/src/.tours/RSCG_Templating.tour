@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_Templating",
+  "steps": 
+  [
+    {
+      "file": "RSCG_TemplatingDemo/RSCG_TemplatingDemo.csproj",
+      "description": "Nuget  RSCG_Templating registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_TemplatingDemo/ClassTypeName.txt",
+        "description": "File ClassTypeName.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_TemplatingDemo/ClassPropByName.txt",
+        "description": "File ClassPropByName.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_TemplatingDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_TemplatingDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

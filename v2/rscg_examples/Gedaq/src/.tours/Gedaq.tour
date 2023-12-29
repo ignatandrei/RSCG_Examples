@@ -1,0 +1,64 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Gedaq",
+  "steps": 
+  [
+    {
+      "file": "GedaqDemoConsole/GedaqDemoConsole.csproj",
+      "description": "Nuget  Gedaq registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "GedaqDemoConsole/Example3/PersonRepository.cs",
+        "description": "File PersonRepository.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Example3/ExampleRun.cs",
+        "description": "File ExampleRun.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Example2/PersonRepository.cs",
+        "description": "File PersonRepository.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Example2/ExampleRun.cs",
+        "description": "File ExampleRun.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Example1/PersonRepository.cs",
+        "description": "File PersonRepository.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Example1/ExampleRun.cs",
+        "description": "File ExampleRun.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Model/Address.cs",
+        "description": "File Address.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/Model/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

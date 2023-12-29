@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoConstructor",
+  "steps": 
+  [
+    {
+      "file": "ConstructorDemo/ConstructorDemo.csproj",
+      "description": "Nuget  AutoConstructor registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ConstructorDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

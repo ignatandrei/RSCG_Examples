@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Microsoft.Extensions.Configuration.Binder",
+  "steps": 
+  [
+    {
+      "file": "ConfigBinderDemo/ConfigBinderDemo.csproj",
+      "description": "Nuget  Microsoft.Extensions.Configuration.Binder registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ConfigBinderDemo/MyAppOptions.cs",
+        "description": "File MyAppOptions.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConfigBinderDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

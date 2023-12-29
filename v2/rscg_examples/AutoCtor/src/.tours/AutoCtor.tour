@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoCtor",
+  "steps": 
+  [
+    {
+      "file": "AutoCtorDemo/AutoCtorDemo.csproj",
+      "description": "Nuget  AutoCtor registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "AutoCtorDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoCtorDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

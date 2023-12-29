@@ -572,6 +572,20 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         }
         var output = desc.Data.outputFiles;
         output.fullPathToCsproj = csprojItems[0];
+        var dirCsproj = Path.GetDirectoryName(output.fullPathToCsproj);
+        ArgumentNullException.ThrowIfNull(dirCsproj);
+        var dirParent = Directory.GetParent(dirCsproj);
+        while(dirParent != null)
+        {
+            var files = Directory.GetFiles(dirParent.FullName, "*.sln");
+            if (files.Length == 1)
+            {
+                output.fullPathToSln = files[0];
+                break;
+            }
+            dirParent = Directory.GetParent(dirParent.FullName);
+        }
+
         ArgumentNullException.ThrowIfNull(desc.Data);
         ArgumentNullException.ThrowIfNull(desc.Data.CsFiles);
         output.csFiles = desc.Data.CsFiles;
@@ -1121,6 +1135,13 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 
 
     }
+    internal async Task WriteCodeTour()
+    {
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        await Task.WhenAll(_AllDescriptions.Select(it => WriteCodeTour(it)));
+
+
+    }
 
     private async Task WriteVideo(Description it)
     {
@@ -1128,12 +1149,31 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         try
         {
             var data = await vid.RenderAsync();
-            var nameFile = Path.Combine(it.rootFolder!, "video.md");
+            var nameFile = Path.Combine(it.rootFolder!, "video.json");
             await File.WriteAllTextAsync(nameFile, data);
         }
         catch(Exception ex)
         {
             Console.WriteLine("error for " + it.Generator?.Name??"" + " " + ex.Message);
+        }
+    }
+
+    private async Task WriteCodeTour(Description it)
+    {
+        TourScenario tour = new TourScenario(it);
+        try
+        {
+            var data = await tour.RenderAsync();
+            var toursFolder = Path.Combine(it.Data!.outputFiles!.FolderWithSln!,".tours");
+            if(!Directory.Exists(toursFolder))
+                Directory.CreateDirectory(toursFolder); 
+
+            var nameFile = Path.Combine(toursFolder, it.Generator!.Name + ".tour");
+            await File.WriteAllTextAsync(nameFile, data);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("error for " + it.Generator?.Name ?? "" + " " + ex.Message);
         }
     }
 }     

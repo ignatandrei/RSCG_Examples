@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ProxyGen",
+  "steps": 
+  [
+    {
+      "file": "ProxyGenDemo/ProxyGenDemo.csproj",
+      "description": "Nuget  ProxyGen.net registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ProxyGenDemo/globals.cs",
+        "description": "File globals.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ProxyGenDemo/IPerson.cs",
+        "description": "File IPerson.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ProxyGenDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ProxyGenDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

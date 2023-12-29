@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_FunctionsWithDI",
+  "steps": 
+  [
+    {
+      "file": "RSCG_FunctionsWithDIDemo/RSCG_FunctionsWithDIDemo.csproj",
+      "description": "Nuget  RSCG_FunctionsWithDI registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_FunctionsWithDIDemo/TestDIMyClass.cs",
+        "description": "File TestDIMyClass.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_FunctionsWithDIDemo/TestDI2.cs",
+        "description": "File TestDI2.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_FunctionsWithDIDemo/TestDI1.cs",
+        "description": "File TestDI1.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_FunctionsWithDIDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

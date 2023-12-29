@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ThisAssembly_Resources",
+  "steps": 
+  [
+    {
+      "file": "ThisAssembly_ResourcesDemo/ThisAssembly_ResourcesDemo.csproj",
+      "description": "Nuget  ThisAssembly.Resources registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ThisAssembly_ResourcesDemo/Content/mytext.sql",
+        "description": "File mytext.sql ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ThisAssembly_ResourcesDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

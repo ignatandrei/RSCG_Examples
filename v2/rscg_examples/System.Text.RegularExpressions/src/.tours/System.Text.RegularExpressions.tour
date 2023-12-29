@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "System.Text.RegularExpressions",
+  "steps": 
+  [
+    {
+      "file": "DemoRegex/DemoRegex.csproj",
+      "description": "Nuget  System.Text.RegularExpressions registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoRegex/WeatherForecast.cs",
+        "description": "File WeatherForecast.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoRegex/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

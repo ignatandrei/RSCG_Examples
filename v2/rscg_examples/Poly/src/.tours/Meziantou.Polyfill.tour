@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Meziantou.Polyfill",
+  "steps": 
+  [
+    {
+      "file": "Dm/PolyDemo.csproj",
+      "description": "Nuget  Meziantou.Polyfill registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "Dm/StartProcess.cs",
+        "description": "File StartProcess.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "UnitGenerator",
+  "steps": 
+  [
+    {
+      "file": "UnitDemo/UnitDemo.csproj",
+      "description": "Nuget  UnitGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "UnitDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnitDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

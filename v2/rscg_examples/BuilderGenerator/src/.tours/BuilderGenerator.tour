@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BuilderGenerator",
+  "steps": 
+  [
+    {
+      "file": "Builder/Builder.csproj",
+      "description": "Nuget  BuilderGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "Builder/PersonBuilder.cs",
+        "description": "File PersonBuilder.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

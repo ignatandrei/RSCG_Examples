@@ -118,6 +118,7 @@ $$"""
     var text=string.Join(Environment.NewLine, all);
     await m.WriteAllIntoFile("all.csv");
     await m.WriteVideo();
+    await m.WriteCodeTour();
     await m.GrabDescriptionFromNuget();
     await m.GrabReadMe();
 

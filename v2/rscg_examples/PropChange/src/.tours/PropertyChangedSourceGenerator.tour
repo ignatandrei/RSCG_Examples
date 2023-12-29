@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "PropertyChangedSourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "PropChangeDemo/PropChangeDemo.csproj",
+      "description": "Nuget  PropertyChanged.SourceGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "PropChangeDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

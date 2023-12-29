@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_Static",
+  "steps": 
+  [
+    {
+      "file": "RSCG_StaticDemo/RSCG_StaticDemo.csproj",
+      "description": "Nuget  RSCG_Static registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_StaticDemo/StaticToInterface.cs",
+        "description": "File StaticToInterface.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_StaticDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

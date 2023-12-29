@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "GeneratorEquals",
+  "steps": 
+  [
+    {
+      "file": "GeneratorEqualsDemo/GeneratorEqualsDemo.csproj",
+      "description": "Nuget  Generator.Equals registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "GeneratorEqualsDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

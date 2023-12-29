@@ -1,0 +1,22 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Biwen.AutoClassGen",
+  "steps": 
+  [
+    {
+      "file": "FromInterface/FromInterface.csproj",
+      "description": "Nuget  Biwen.AutoClassGen registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "FromInterface/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

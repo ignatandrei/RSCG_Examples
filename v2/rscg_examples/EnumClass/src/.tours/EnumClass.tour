@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "EnumClass",
+  "steps": 
+  [
+    {
+      "file": "EnumClassDemo/EnumClassDemo.csproj",
+      "description": "Nuget  EnumClass.Generator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "EnumClassDemo/RedEnumValue.cs",
+        "description": "File RedEnumValue.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/Colors.cs",
+        "description": "File Colors.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

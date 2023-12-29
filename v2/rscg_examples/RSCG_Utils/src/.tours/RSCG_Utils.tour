@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_Utils",
+  "steps": 
+  [
+    {
+      "file": "DemoRSCG_Utils/DemoRSCG_Utils.csproj",
+      "description": "Nuget  rscgutils registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoRSCG_Utils/data.gen.txt",
+        "description": "File data.gen.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoRSCG_Utils/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

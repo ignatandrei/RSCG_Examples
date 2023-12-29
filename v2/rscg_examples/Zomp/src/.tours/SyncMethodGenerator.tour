@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SyncMethodGenerator",
+  "steps": 
+  [
+    {
+      "file": "ZompDemo/ZompDemo.csproj",
+      "description": "Nuget  Zomp.SyncMethodGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ZompDemo/Writer.cs",
+        "description": "File Writer.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ZompDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

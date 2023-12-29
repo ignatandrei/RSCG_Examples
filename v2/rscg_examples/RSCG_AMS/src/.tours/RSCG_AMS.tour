@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_AMS",
+  "steps": 
+  [
+    {
+      "file": "RSCG_AMSDemo/RSCG_AMSDemo.csproj",
+      "description": "Nuget  RSCG_AMS registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_AMSDemo/globals.cs",
+        "description": "File globals.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_AMSDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

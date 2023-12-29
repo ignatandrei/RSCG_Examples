@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "spreadcheetah",
+  "steps": 
+  [
+    {
+      "file": "spreadcheetahDemo/spreadcheetahDemo.csproj",
+      "description": "Nuget  spreadcheetah registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "spreadcheetahDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "spreadcheetahDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

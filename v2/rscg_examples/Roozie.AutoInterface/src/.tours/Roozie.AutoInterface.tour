@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Roozie.AutoInterface",
+  "steps": 
+  [
+    {
+      "file": "Roozie.AutoInterfaceDemo/Roozie.AutoInterfaceDemo.csproj",
+      "description": "Nuget  Roozie.AutoInterface registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "Roozie.AutoInterfaceDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Roozie.AutoInterfaceDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

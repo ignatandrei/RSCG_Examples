@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_UtilityTypes",
+  "steps": 
+  [
+    {
+      "file": "UtilDemo/UtilDemo.csproj",
+      "description": "Nuget  RSCG_UtilityTypes registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "UtilDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UtilDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

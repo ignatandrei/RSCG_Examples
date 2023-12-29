@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoDeconstruct",
+  "steps": 
+  [
+    {
+      "file": "AutoDeconstructDemo/AutoDeconstructDemo.csproj",
+      "description": "Nuget  AutoDeconstruct registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "AutoDeconstructDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoDeconstructDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

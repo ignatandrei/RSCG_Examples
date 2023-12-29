@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Matryoshki",
+  "steps": 
+  [
+    {
+      "file": "MatryoshkiDemo/MatryoshkiDemo.csproj",
+      "description": "Nuget  Matryoshki registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "MatryoshkiDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MatryoshkiDemo/IPerson.cs",
+        "description": "File IPerson.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MatryoshkiDemo/AddLog.cs",
+        "description": "File AddLog.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MatryoshkiDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

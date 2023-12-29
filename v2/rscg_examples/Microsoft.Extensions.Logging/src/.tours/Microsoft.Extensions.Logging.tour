@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Microsoft.Extensions.Logging",
+  "steps": 
+  [
+    {
+      "file": "DemoLogging/DemoLogging.csproj",
+      "description": "Nuget  Microsoft.Extensions.Logging registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoLogging/LogDemo.cs",
+        "description": "File LogDemo.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLogging/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

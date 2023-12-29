@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MemoryPack",
+  "steps": 
+  [
+    {
+      "file": "MemoryPackDemo/MemoryPackDemo.csproj",
+      "description": "Nuget  MemoryPack registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "MemoryPackDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MemoryPackDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

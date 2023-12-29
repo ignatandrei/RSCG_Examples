@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MinimalApiBuilder",
+  "steps": 
+  [
+    {
+      "file": "DemoApi/DemoApi.csproj",
+      "description": "Nuget  MinimalApiBuilder registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoApi/BasicEndpoint.cs",
+        "description": "File BasicEndpoint.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoApi/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

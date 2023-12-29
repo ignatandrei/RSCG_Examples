@@ -1,0 +1,42 @@
+@inherits RazorBlade.HtmlTemplate<Description>;
+@{
+    var nr = Model.Data!.CsFiles!.Length;
+    var generator = Model.Generator!;
+    var devenv = @"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe";
+    devenv = devenv.Replace("\\", "\\\\");
+    var code = @"C:\Users\ignat\AppData\Local\Programs\Microsoft VS Code\Code.exe";
+    code = code.Replace("\\", "\\\\");
+    var csproj = @Model.Data!.outputFiles!.fullPathToCsproj!;
+    csproj = csproj.Substring(Model.Data!.outputFiles!.FolderWithSln!.Length + 1);
+    csproj = csproj.Replace("\\", "/");
+}
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "@Model.Generator!.Name",
+  "steps": 
+  [
+    {
+      "file": "@csproj",
+      "description": "Nuget  @generator.NameNugetFirst() registration in csproj ",
+      "line": 1
+    }
+@for (var i = nr - 1; i >= 0; i--)
+{
+    var namefile = Model.Data!.outputFiles!.contentFiles![i].fullPathFile;
+    namefile = namefile.Substring(Model.Data!.outputFiles!.FolderWithSln!.Length + 1);
+    namefile = namefile.Replace("\\", "/");
+    <text>
+        ,{
+        "file": "@namefile",
+        "description": "File @Model.Data!.outputFiles!.contentFiles![i].file ",
+        "line": 1
+        }
+    </text>
+
+}
+
+  ],
+  "ref": "main"
+
+}

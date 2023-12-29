@@ -7,7 +7,16 @@ namespace Generator;
 public class OutputFiles
 {
     public string? fullPathToCsproj { get; set; }
+    public string? fullPathToSln { get; set; }
 
+    public string? FolderWithSln
+    {
+        get
+        {
+            ArgumentNullException.ThrowIfNull(fullPathToSln);
+            return Path.GetDirectoryName(fullPathToSln);
+        }
+    }
     public string? ContentCsProj { get;internal set; }
     public string[]? csFiles { get; set; }
     public FileWithContent[]? contentFiles { get; set; }

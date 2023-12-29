@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SourceGenerator.Helper.CopyCode",
+  "steps": 
+  [
+    {
+      "file": "Demo/SourceGenerator_Helper_CopyCodeDemo.csproj",
+      "description": "Nuget  SourceGenerator.Helper.CopyCode registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "Demo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Demo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

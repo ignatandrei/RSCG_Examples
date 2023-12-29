@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "PartiallyApplied",
+  "steps": 
+  [
+    {
+      "file": "PartFunc/PartFunc.csproj",
+      "description": "Nuget  PartiallyApplied registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "PartFunc/Accounting.cs",
+        "description": "File Accounting.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PartFunc/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

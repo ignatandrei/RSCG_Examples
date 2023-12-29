@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "OneOf",
+  "steps": 
+  [
+    {
+      "file": "OneOfDemo/OneOfDemo.csproj",
+      "description": "Nuget  OneOf.SourceGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "OneOfDemo/StringOrNumber.cs",
+        "description": "File StringOrNumber.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "OneOfDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

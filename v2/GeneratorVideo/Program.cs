@@ -14,10 +14,11 @@ string[] folders = new string[] { "ThisAssembly" };
 foreach (string folder in folders)
 {
     var video=Path.Combine(originalFolder, folder);
-    var file = Path.Combine(video, "video.md");
+    var file = Path.Combine(video, "video.json");
     var v=new VideoData(file);
     Console.WriteLine("nr steps :"+await v.Analyze());
     Console.WriteLine(await v.Execute());
+
 
 }
 

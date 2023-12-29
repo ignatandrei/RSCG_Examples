@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "M31.FluentAPI",
+  "steps": 
+  [
+    {
+      "file": "M31FluentAPIDemo/M31FluentAPIDemo.csproj",
+      "description": "Nuget  M31.FluentAPI registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "M31FluentAPIDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "M31FluentAPIDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "System.Text.Json",
+  "steps": 
+  [
+    {
+      "file": "DemoSerializeJSON/DemoSerializeJSON.csproj",
+      "description": "Nuget  System.Text.Json registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "DemoSerializeJSON/OptionsExampleContext.cs",
+        "description": "File OptionsExampleContext.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/WeatherForecast.cs",
+        "description": "File WeatherForecast.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

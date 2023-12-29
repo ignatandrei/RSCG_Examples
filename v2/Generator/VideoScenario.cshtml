@@ -4,6 +4,8 @@
     var generator = Model.Generator!;
     var devenv = @"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe";
     devenv = devenv.Replace("\\", "\\\\");
+    var code = @"C:\Users\ignat\AppData\Local\Programs\Microsoft VS Code\Code.exe";
+    code = code.Replace("\\", "\\\\");
     int nrStep = 1;
 }
 {
@@ -18,13 +20,14 @@
 "step_@(nrStep++)_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/@generator.Name)",
 "step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@generator.Name",
 "step_@(nrStep++)_text":" Here is the code ",
-"step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\","\\\\")",
+"step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")",
 "step_@(nrStep++)_text": "So , let's start the project ",
-"step_@(nrStep++)_exec": "@devenv @Model.Data.outputFiles.fullPathToCsproj.Replace("\\","\\\\")",
+"step_@(nrStep++)_exec": "@code @Model.Data!.outputFiles!.FolderWithSln",
+"step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\","\\\\")",
 
 "step_@(nrStep++)_text": "You put the  [@generator.NameNugetFirst()](@generator.NugetFirst) into the csproj ",
 
-"step_@(nrStep++)_exec": "@devenv /edit @Model.Data.outputFiles.fullPathToCsproj.Replace("\\","\\\\")",
+"step_@(nrStep++)_exec": "@code -r -g @Model.Data.outputFiles.fullPathToCsproj.Replace("\\", "\\\\")",
 
 "step_@(nrStep++)_text": "I have used the @generator.Name in those files",
 
@@ -32,7 +35,7 @@
 {
                 //var ex = "exec";// + (30 + (nr-i) *10);
     <text>
-        "step_@(nrStep++)_exec":"@devenv /edit @Model.Data!.outputFiles!.contentFiles![i].fullPathFile.Replace("\\","\\\\")",
+        "step_@(nrStep++)_exec":"@code -r -g @Model.Data!.outputFiles!.contentFiles![i].fullPathFile.Replace("\\", "\\\\")",
     </text>
 
 }

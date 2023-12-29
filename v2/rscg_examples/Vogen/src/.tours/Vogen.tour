@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Vogen",
+  "steps": 
+  [
+    {
+      "file": "VogenDemo/VogenDemo.csproj",
+      "description": "Nuget  Vogen registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "VogenDemo/PersonId.cs",
+        "description": "File PersonId.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "VogenDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

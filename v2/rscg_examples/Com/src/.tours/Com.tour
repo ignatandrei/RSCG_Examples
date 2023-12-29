@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Com",
+  "steps": 
+  [
+    {
+      "file": "ComDemo/ComDemo.csproj",
+      "description": "Nuget  System.Runtime.InteropServices registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "ComDemo/MyShell.cs",
+        "description": "File MyShell.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ComDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}
