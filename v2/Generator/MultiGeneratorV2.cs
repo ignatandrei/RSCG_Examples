@@ -1,16 +1,4 @@
-﻿using ArrayToExcel;
-using Scriban.Parsing;
-using System;
-using System.ComponentModel;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Net.NetworkInformation;
-using System.Reflection;
-using System.Text;
-
-namespace Generator;
+﻿namespace Generator;
 public class MultiGeneratorV2 
 {
     const string tooComplicated = "too complicated for me, need help";
@@ -163,7 +151,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 ,new("AspectGenerator https://github.com/igor-tkachev/AspectGenerator",later)
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
-,new ("Blazorators https://github.com/IEvangelist/blazorators",later)
+,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("HSU https://github.com/hsu-net/source-generators",later)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
     };

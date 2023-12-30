@@ -84,7 +84,7 @@ Why I have not put example: state machine - full of features. To be analyzed , n
 
 20)Blazorators https://github.com/IEvangelist/blazorators  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 21)BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator  
 

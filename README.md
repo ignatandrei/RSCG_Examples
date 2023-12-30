@@ -1637,7 +1637,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=BigMachines&body=h
 
 10) [Blazorators]( https://github.com/IEvangelist/blazorators) , https://github.com/IEvangelist/blazorators 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Blazorators&body=https://github.com/IEvangelist/blazorators
 
