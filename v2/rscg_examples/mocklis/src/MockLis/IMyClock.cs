@@ -1,4 +1,4 @@
-﻿namespace MockRock;
+﻿namespace MockTest;
 
 public interface IMyClock
 {

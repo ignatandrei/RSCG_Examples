@@ -1,9 +1,7 @@
-﻿
-namespace TestClock
-{
-    [MocklisClass]
-    public partial class TestMock : IMyClock
-    {
+﻿namespace TestClock;
 
-    }
+[MocklisClass]
+public partial class TestMock : IMyClock
+{
+
 }
