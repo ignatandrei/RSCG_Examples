@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"mocklis",
+      "nuget":[
+         "https://www.nuget.org/packages/mocklis/"
+      ],
+      "link":"https://mocklis.readthedocs.io/en/latest/getting-started/index.html",
+      "author":"Esbjörn Redmo",
+      "source":"https://github.com/mocklis/mocklis/"
+   },
+   "data":{
+      "goodFor":["Generating mocks for unit tests"],
+      "csprojDemo":"mocklisDemo.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
