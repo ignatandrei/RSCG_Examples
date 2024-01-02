@@ -23,189 +23,97 @@ This is the list of 92 ( 12 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-
 |92| [RSCG_UtilityTypes by Andrei Ignat ](/docs/RSCG_UtilityTypes)|2023-12-22 => 22 December 2023 | EnhancementClass |
-
 |91| [Ling.Audit by Jing Ling ](/docs/Ling.Audit)|2023-12-12 => 12 December 2023 | EnhancementClass |
-
 |90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
-
 |89| [InterceptorTemplate by Andrei Ignat ](/docs/InterceptorTemplate)|2023-11-29 => 29 November 2023 | Templating |
-
 |88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
-
 |87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
-
 |86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
-
 |85| [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator by Microsoft ](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)|2023-11-17 => 17 November 2023 | EnhancementClass |
-
 |84| [Biwen.AutoClassGen by vipwan ](/docs/Biwen.AutoClassGen)|2023-11-16 => 16 November 2023 | EnhancementClass |
-
 |83| [PrimaryParameter by FaustVX ](/docs/PrimaryParameter)|2023-11-15 => 15 November 2023 | Constructor |
-
 |82| [jsonConverterSourceGenerator by Aviationexam ](/docs/jsonConverterSourceGenerator)|2023-10-30 => 30 October 2023 | Serializer |
-
 |81| [N.SourceGenerators.UnionTypes by Alexey Sosnin ](/docs/N.SourceGenerators.UnionTypes)|2023-10-29 => 29 October 2023 | FunctionalProgramming |
-
 |80| [AutoConstructor by Kévin Gallienne ](/docs/AutoConstructor)|2023-10-28 => 28 October 2023 | Constructor |
-
 |79| [DudNet by jwshyns ](/docs/DudNet)|2023-10-27 => 27 October 2023 | EnhancementClass |
-
 |78| [MinimalApiBuilder by  ](/docs/MinimalApiBuilder)|2023-10-26 => 26 October 2023 | API |
-
 |77| [DynamicsMapper by Yonatan Cohavi ](/docs/DynamicsMapper)|2023-10-16 => 16 October 2023 | Mapper |
-
 |76| [UnitGenerator by Cysharp, Inc ](/docs/UnitGenerator)|2023-10-15 => 15 October 2023 | PrimitiveObsession |
-
 |75| [StaticReflection by Cricle ](/docs/StaticReflection)|2023-10-13 => 13 October 2023 | EnhancementClass |
-
 |74| [CredFetoEnum by Mark Ridgwell ](/docs/CredFetoEnum)|2023-10-12 => 12 October 2023 | Enum |
-
 |73| [IDisposableGenerator by Els_kom Official Organization ](/docs/IDisposableGenerator)|2023-10-11 => 11 October 2023 | Disposer |
-
 |72| [Meziantou.Polyfill by Gérald Barré ](/docs/Meziantou.Polyfill)|2023-10-10 => 10 October 2023 | EnhancementClass |
-
 |71| [DisposableHelpers by Clynt Neiko Rupinta ](/docs/DisposableHelpers)|2023-10-09 => 09 October 2023 | Disposer |
-
 |70| [MagicMap by Bramer Daniel ](/docs/MagicMap)|2023-10-08 => 08 October 2023 | Mapper |
-
 |69| [RSCG_Templating by Andrei Ignat ](/docs/RSCG_Templating)|2023-10-07 => 07 October 2023 | Templating |
-
 |68| [JsonPolymorphicGenerator by surgicalcoder ](/docs/JsonPolymorphicGenerator)|2023-10-06 => 06 October 2023 | Serializer |
-
 |67| [MapTo by Mohammedreza Taikandi ](/docs/MapTo)|2023-10-05 => 05 October 2023 | Mapper |
-
 |66| [BuilderGenerator by Mell Grubb ](/docs/BuilderGenerator)|2023-10-04 => 04 October 2023 | EnhancementClass |
-
 |65| [Disposer by Hakan Fıstık ](/docs/Disposer)|2023-10-03 => 03 October 2023 | Disposer |
-
 |64| [ResXGenerator by Aigamo ](/docs/ResXGenerator)|2023-10-02 => 02 October 2023 | FilesToCode |
-
 |63| [StringLiteral by Nobuyuki Iwanaga ](/docs/StringLiteral)|2023-10-01 => 01 October 2023 | Optimizer |
-
 |62| [RSCG_Decorator by Andrei Ignat ](/docs/RSCG_Decorator)|2023-09-30 => 30 September 2023 | EnhancementClass |
-
 |61| [ProtobufSourceGenerator by Laszlo Deak ](/docs/ProtobufSourceGenerator)|2023-09-24 => 24 September 2023 | Serializer |
-
 |60| [SafeRouting by David Wake ](/docs/SafeRouting)|2023-09-23 => 23 September 2023 | API |
-
 |59| [SourceGenerator.Helper.CopyCode by Patrick Kranz ](/docs/SourceGenerator.Helper.CopyCode)|2023-09-17 => 17 September 2023 | EnhancementProject |
-
 |58| [ThisAssembly_Resources by Daniel Cazzulino ](/docs/ThisAssembly_Resources)|2023-09-16 => 16 September 2023 | FilesToCode |
-
 |57| [RSCG_Utils_Memo by Ignat Andrei ](/docs/RSCG_Utils_Memo)|2023-08-27 => 27 August 2023 | FunctionalProgramming |
-
 |56| [Roozie.AutoInterface by Alex Russak ](/docs/Roozie.AutoInterface)|2023-08-26 => 26 August 2023 | EnhancementClass |
-
 |55| [M31.FluentAPI by Kevin Schaal ](/docs/M31.FluentAPI)|2023-08-25 => 25 August 2023 | EnhancementClass |
-
 |54| [AutoDTO by Ohorodnikov ](/docs/AutoDTO)|2023-08-24 => 24 August 2023 | Mapper |
-
 |53| [RSCG_WebAPIExports by Andrei Ignat ](/docs/RSCG_WebAPIExports)|2023-08-23 => 23 August 2023 | API |
-
 |52| [Gobie by Mike Conrad ](/docs/Gobie)|2023-08-22 => 22 August 2023 | Templating |
-
 |51| [OneOf by Harry McIntyre ](/docs/OneOf)|2023-08-21 => 21 August 2023 | FunctionalProgramming |
-
 |50| [Ridge by Michal Motyčka ](/docs/Ridge)|2023-08-20 => 20 August 2023 | Tests |
-
 |49| [Strongly by Lucas Teles ](/docs/Strongly)|2023-08-19 => 19 August 2023 | PrimitiveObsession |
-
 |48| [PropertyChangedSourceGenerator by Antony Male ](/docs/PropertyChangedSourceGenerator)|2023-08-18 => 18 August 2023 | MVVM |
-
 |47| [Injectio by LoreSoft ](/docs/Injectio)|2023-08-17 => 17 August 2023 | DependencyInjection |
-
 |46| [NextGenMapper by Anton Ryabchikov ](/docs/NextGenMapper)|2023-08-16 => 16 August 2023 | Mapper |
-
 |45| [BenutomoAutomaticDisposeImplSourceGenerator by benutomo ](/docs/BenutomoAutomaticDisposeImplSourceGenerator)|2023-08-15 => 15 August 2023 | Disposer |
-
 |44| [SyncMethodGenerator by Zomp Inc. ](/docs/SyncMethodGenerator)|2023-08-14 => 14 August 2023 | EnhancementClass |
-
 |43| [spreadcheetah by Sveinung ](/docs/spreadcheetah)|2023-08-13 => 13 August 2023 | Templating |
-
 |42| [Immutype by Nikolay Pianikov  ](/docs/Immutype)|2023-08-12 => 12 August 2023 | EnhancementClass |
-
 |41| [GeneratorEquals by Diego Frato ](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 | EnhancementClass |
-
 |40| [FastGenericNew by Boring3 Nyrest ](/docs/FastGenericNew)|2023-08-10 => 10 August 2023 | EnhancementClass |
-
 |39| [Breezy by Ludovicdln ](/docs/Breezy)|2023-08-09 => 09 August 2023 | Database |
-
 |38| [EnumClass by ashen.Blade ](/docs/EnumClass)|2023-08-08 => 08 August 2023 | Enum |
-
 |37| [AutoRegisterInject by Patrick Klaeren ](/docs/AutoRegisterInject)|2023-08-07 => 07 August 2023 | DependencyInjection |
-
 |36| [ProxyGen by Dénes Solti ](/docs/ProxyGen)|2023-08-06 => 06 August 2023 | EnhancementProject |
-
 |35| [DeeDee by joh-pot ](/docs/DeeDee)|2023-08-05 => 05 August 2023 | EnhancementProject |
-
 |34| [MemoryPack by Cysharp, Inc ](/docs/MemoryPack)|2023-08-04 => 04 August 2023 | EnhancementClass |
-
 |33| [Matryoshki by Georgy Krasin ](/docs/Matryoshki)|2023-08-03 => 03 August 2023 | EnhancementProject |
-
 |32| [Mediator by Martin Othamar ](/docs/Mediator)|2023-08-02 => 02 August 2023 | EnhancementProject |
-
 |31| [MorrisMoxy by Peter Morris ](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | Templating |
-
 |30| [Refit by ReactiveUI ](/docs/Refit)|2023-07-31 => 31 July 2023 | API |
-
 |29| [Gedaq by Vyacheslav Brevnov ](/docs/Gedaq)|2023-07-29 => 29 July 2023 | Database |
-
 |28| [Lombok.NET by Colin Alpert ](/docs/Lombok.NET)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |27| [EmbedResourceCSharp by pCYSl5EDgo ](/docs/EmbedResourceCSharp)|2023-04-16 => 16 April 2023 | FilesToCode |
-
 |26| [Podimo.ConstEmbed by Podimo ](/docs/Podimo.ConstEmbed)|2023-04-16 => 16 April 2023 | FilesToCode |
-
 |25| [mapperly by Riok ](/docs/mapperly)|2023-04-16 => 16 April 2023 | Mapper |
-
 |24| [Rocks by Json Bock ](/docs/Rocks)|2023-04-16 => 16 April 2023 | Tests |
-
 |23| [Microsoft.NET.Sdk.Razor.SourceGenerators by Microsoft ](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|2023-04-16 => 16 April 2023 | Templating |
-
 |22| [RSCG_FunctionsWithDI by Andrei Ignat ](/docs/RSCG_FunctionsWithDI)|2023-04-16 => 16 April 2023 | EnhancementProject |
-
 |21| [Microsoft.Interop.JavaScript.JSImportGenerator by Microsoft ](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |20| [NetEscapades.EnumGenerators by Andrew Lock ](/docs/NetEscapades.EnumGenerators)|2023-04-16 => 16 April 2023 | Enum |
-
 |19| [ApparatusAOT by Stanislav Silin ](/docs/ApparatusAOT)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |18| [PartiallyApplied by Jason Bock ](/docs/PartiallyApplied)|2023-04-16 => 16 April 2023 | FunctionalProgramming |
-
 |17| [RazorBlade by Lucas Trzesniewski ](/docs/RazorBlade)|2023-04-16 => 16 April 2023 | Templating |
-
 |16| [Vogen by Steve Dunn ](/docs/Vogen)|2023-04-16 => 16 April 2023 | PrimitiveObsession |
-
 |15| [dunet by Domn Werner ](/docs/dunet)|2023-04-16 => 16 April 2023 | FunctionalProgramming |
-
 |14| [AutoCtor by Cameron MacFarland ](/docs/AutoCtor)|2023-04-16 => 16 April 2023 | Constructor |
-
 |13| [QuickConstructor by Flavien Charlon ](/docs/QuickConstructor)|2023-04-16 => 16 April 2023 | Constructor |
-
 |12| [System.Runtime.InteropServices by Microsoft ](/docs/System.Runtime.InteropServices)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |11| [AutoDeconstruct by Jason Bock ](/docs/AutoDeconstruct)|2023-04-16 => 16 April 2023 | Constructor |
-
 |10| [RSCG_AMS by Ignat Andrei ](/docs/RSCG_AMS)|2023-04-16 => 16 April 2023 | EnhancementProject |
-
 |9| [CommunityToolkit.Mvvm by Microsoft ](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | MVVM |
-
 |8| [RSCG_Static by Andrei Ignat ](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |7| [Microsoft.Extensions.Logging by Microsoft ](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |6| [SkinnyControllersCommon by Ignat Andrei ](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | API |
-
 |5| [System.Text.RegularExpressions by Microsoft ](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | EnhancementClass |
-
 |4| [RSCG_Utils by Ignat Andrei ](/docs/RSCG_Utils)|2023-04-16 => 16 April 2023 | FilesToCode |
-
 |3| [System.Text.Json by Microsoft ](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | Serializer |
-
 |2| [RSCG_TimeBombComment by Andrei Ignat ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | EnhancementProject |
-
 |1| [ThisAssembly by Daniel Cazzulino ](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | EnhancementProject |
 
 ## 12 Created by Microsoft 
