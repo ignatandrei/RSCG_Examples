@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0-preview-23577-04" />
-    <PackageReference Include="Mocklis" Version="1.4.0-alpha.1" />
+    <PackageReference Include="Mocklis" Version="1.4.0-alpha.2" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.2.0-preview.23623.1" />
     <PackageReference Include="MSTest.TestFramework" Version="3.2.0-preview.23623.1" />
     <PackageReference Include="coverlet.collector" Version="6.0.0">
@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MockLis\MockLis.csproj" />
+    <ProjectReference Include="..\MockLisClock\MockLisClock.csproj" />
   </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
