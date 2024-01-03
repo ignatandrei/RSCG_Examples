@@ -262,7 +262,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"InterceptorTemplate", new (true,new(2023,11,29),Category.Templating) },
             {"TelemetryLogging",new(true,new(2023,11,30),Category.EnhancementClass) },
             {"Ling.Audit" , new(true,new(2023,12,12),Category.EnhancementClass)},
-            {"RSCG_UtilityTypes",new(true,new(2023,12,22),Category.EnhancementClass) }
+            {"RSCG_UtilityTypes",new(true,new(2023,12,22),Category.EnhancementClass) },
+            {"Mocklis",new(true,new(2024,1,3),Category.Tests) },
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

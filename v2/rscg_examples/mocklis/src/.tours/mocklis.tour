@@ -1,0 +1,34 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "mocklis",
+  "steps": 
+  [
+    {
+      "file": "MockLisTest/TestClock.csproj",
+      "description": "Nuget  mocklis registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "MockLisTest/Usings.cs",
+        "description": "File Usings.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MockLisTest/TestClock.cs",
+        "description": "File TestClock.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MockLisTest/TestMock.cs",
+        "description": "File TestMock.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

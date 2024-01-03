@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"mocklis",
+      "nuget":[
+         "https://www.nuget.org/packages/mocklis/"
+      ],
+      "link":"https://mocklis.readthedocs.io/en/latest/getting-started/index.html",
+      "author":"Esbjörn Redmo",
+      "source":"https://github.com/mocklis/mocklis/"
+   },
+   "data":{
+      "goodFor":["Generating mocks from classes for unit tests"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["TestMock.cs","TestClock.cs","Usings.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

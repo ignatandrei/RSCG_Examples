@@ -737,6 +737,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_UtilityTypes",
       "Category": "EnhancementClass",
       "AddedOn": "2023-12-22T00:00:00"
+    },
+    {
+      "Name": "mocklis",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mocklis",
+      "NuGet": "https://www.nuget.org/packages/mocklis/",
+      "Source": "https://github.com/mocklis/mocklis/",
+      "Category": "Tests",
+      "AddedOn": "2024-01-03T00:00:00"
     }
   ]
 }

@@ -106,6 +106,7 @@ input-files:
 - examples/TelemetryLogging.html
 - examples/Ling.Audit.html
 - examples/RSCG_UtilityTypes.html
+- examples/mocklis.html
 
 # or you may use input-file: with a single value
 # defaults:
