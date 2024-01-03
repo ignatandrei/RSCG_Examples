@@ -1,0 +1,246 @@
+---
+sidebar_position: 930
+title: 93 - mocklis
+description: Generating mocks from classes for unit tests
+slug: /mocklis
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+
+# mocklis  by Esbjörn Redmo
+
+
+<TOCInline toc={toc} />
+
+[![Nuget](https://img.shields.io/nuget/dt/mocklis?label=mocklis)](https://www.nuget.org/packages/mocklis/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/mocklis/mocklis?label=updated)](https://github.com/mocklis/mocklis/)
+![GitHub Repo stars](https://img.shields.io/github/stars/mocklis/mocklis?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **mocklis**
+
+Mocklis is a library and source code generator for .net, targeted at generating test doubles from interfaces. This package contains tools for writing tests using the generated code.
+
+Author: Esbjörn Redmo
+
+NuGet: 
+*https://www.nuget.org/packages/mocklis/*   
+
+
+You can find more details at https://mocklis.readthedocs.io/en/latest/getting-started/index.html
+
+Source : https://github.com/mocklis/mocklis/
+
+:::
+
+### Original Readme
+:::note
+
+*Mocklis is a library and source code generator for .net, targeted at generating test doubles from interfaces.*
+
+----
+
+### Useful Links:
+
+Home page: https://mocklis.net
+
+Github project page: https://github.com/mocklis
+
+Documentation: https://mocklis.readthedocs.io
+
+NuGet page: https://www.nuget.org/profiles/mocklis
+
+
+:::
+
+### About
+:::note
+
+Generating mocks from classes for unit tests
+
+
+:::
+
+## How to use
+
+### Example ( source csproj, source files )
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **mocklis**
+```xml showLineNumbers {14}
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0-preview-23577-04" />
+    <PackageReference Include="Mocklis" Version="1.4.0-alpha.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.2.0-preview.23623.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.2.0-preview.23623.1" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MockLisClock\MockLisClock.csproj" />
+  </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mocklis\src\MockLisTest\TestMock.cs" label="TestMock.cs" >
+
+  This is the use of **mocklis** in *TestMock.cs*
+
+```csharp showLineNumbers 
+namespace TestClock;
+
+[MocklisClass]
+public partial class TestMock : IMyClock
+{
+
+}
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mocklis\src\MockLisTest\TestClock.cs" label="TestClock.cs" >
+
+  This is the use of **mocklis** in *TestClock.cs*
+
+```csharp showLineNumbers 
+
+using Mocklis;
+
+namespace TestClock;
+
+[TestClass]
+public class TestClock
+{
+    [TestMethod]
+    public void TestMyClock()
+    {
+        var mockSetup = new TestMock();
+        mockSetup.GetNow.Return(DateTime.Now.AddYears(-1));
+
+        // When testing the mock like this you need to cast to the interface.
+        // This is different from e.g. Moq where the mocked instance and the 'programming interface' are different things.
+        // With Mocklis they are the same. The 99% case is where the mock is passed to another constructor as a dependency,
+        // in which case there's an implicit cast to the interface.
+        var mock = (IMyClock)mockSetup;
+        var data = mock.GetNow();
+        Assert.AreEqual(DateTime.Now.Year - 1, data.Year);
+
+    }
+}
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mocklis\src\MockLisTest\Usings.cs" label="Usings.cs" >
+
+  This is the use of **mocklis** in *Usings.cs*
+
+```csharp showLineNumbers 
+global using Microsoft.VisualStudio.TestTools.UnitTesting;
+global using MockTest;
+global using Mocklis.Core;
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+
+<Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Mocklis\src\MockLisTest\obj\GX\Mocklis.MockGenerator\Mocklis.MockGenerator.MocklisSourceGenerator\TestClock.TestMock.g.cs" label="TestClock.TestMock.g.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated />
+
+#nullable enable
+
+namespace TestClock
+{
+    partial class TestMock
+    {
+        public global::Mocklis.Core.FuncMethodMock<global::System.DateTime> GetNow { get; }
+
+        global::System.DateTime global::MockTest.IMyClock.GetNow() => GetNow.Call();
+
+        public global::Mocklis.Core.FuncMethodMock<global::System.DateTime> GetUtcNow { get; }
+
+        global::System.DateTime global::MockTest.IMyClock.GetUtcNow() => GetUtcNow.Call();
+
+        public TestMock() : base()
+        {
+            this.GetNow = new global::Mocklis.Core.FuncMethodMock<global::System.DateTime>(this, "TestMock", "IMyClock", "GetNow", "GetNow", global::Mocklis.Core.Strictness.Lenient);
+            this.GetUtcNow = new global::Mocklis.Core.FuncMethodMock<global::System.DateTime>(this, "TestMock", "IMyClock", "GetUtcNow", "GetUtcNow", global::Mocklis.Core.Strictness.Lenient);
+        }
+    }
+}
+
+```
+
+  </TabItem>
+
+
+</Tabs>
+
+## Usefull
+
+### Download Example (.NET  C# )
+
+:::tip
+
+[Download Example project mocklis ](/sources/mocklis.zip)
+
+:::
+
+
+### Share mocklis 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2Fmocklis&quote=mocklis" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2Fmocklis&text=mocklis:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2Fmocklis" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2Fmocklis&title=mocklis" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2Fmocklis&title=mocklis&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2Fmocklis" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/mocklis
+
+## In the same category (Tests)
+
+
+### [Ridge](/docs/Ridge)
+
+
+### [Rocks](/docs/Rocks)
+

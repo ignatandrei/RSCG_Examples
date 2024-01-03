@@ -9,9 +9,9 @@
       "source":"https://github.com/mocklis/mocklis/"
    },
    "data":{
-      "goodFor":["Generating mocks for unit tests"],
-      "csprojDemo":"mocklisDemo.csproj",
-      "csFiles":["Program.cs"]
+      "goodFor":["Generating mocks from classes for unit tests"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["TestMock.cs","TestClock.cs","Usings.cs"]
    },
    "links":{
       "blog":"",

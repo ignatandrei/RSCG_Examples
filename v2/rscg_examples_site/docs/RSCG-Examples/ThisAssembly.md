@@ -531,7 +531,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800+b3c21b01ff3e72de7083cd23f2a4383b4a76abf2";
+        public const string InformationalVersion = @"2023.5.7.800+75fad365704d60cb3f9a2aee13e5e1a9d4223bb5";
 
         public const string Product = @"RSCG_Version";
 
@@ -600,9 +600,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"b3c21b01ff3e72de7083cd23f2a4383b4a76abf2"
+        /// => @"75fad365704d60cb3f9a2aee13e5e1a9d4223bb5"
         /// </summary>
-        public const string Commit = @"b3c21b01ff3e72de7083cd23f2a4383b4a76abf2";
+        public const string Commit = @"75fad365704d60cb3f9a2aee13e5e1a9d4223bb5";
     }
 }
 ```
@@ -664,9 +664,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"b3c21b01f"
+        /// => @"75fad3657"
         /// </summary>
-        public const string Sha = @"b3c21b01f";
+        public const string Sha = @"75fad3657";
     }
 }
 ```
