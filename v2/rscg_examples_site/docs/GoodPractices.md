@@ -58,6 +58,10 @@ TODO: add example
  
 TODO: add example
 
+## Add .g.cs extension
+
+Add a .g.cs generated suffix so tools, such as coverlet, consider the file to be generated
+
 ## For Debug
 
 ### Add IsRoslynComponent
