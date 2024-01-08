@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"AspectGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/AspectGenerator/"
+      ],
+      "link":"https://github.com/igor-tkachev/AspectGenerator",
+      "author":"Igor Tkachev",
+      "source":"https://github.com/igor-tkachev/AspectGenerator"
+   },
+   "data":{
+      "goodFor":["AOP for methods in the same project. Uses interceptors"],
+      "csprojDemo":"AG.csproj",
+      "csFiles":["Program.cs","Person.cs","AG.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
