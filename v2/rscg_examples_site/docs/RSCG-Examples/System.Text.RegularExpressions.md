@@ -439,6 +439,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressio
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [AspectGenerator](/docs/AspectGenerator)
+
+
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 

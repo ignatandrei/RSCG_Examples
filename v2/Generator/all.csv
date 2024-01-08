@@ -92,3 +92,4 @@ Nr,Key,Source,Category
 91,Ling.Audit, https://github.com/ling921/dotnet-lib/,EnhancementClass
 92,RSCG_UtilityTypes, https://github.com/ignatandrei/RSCG_UtilityTypes,EnhancementClass
 93,Mocklis, https://github.com/mocklis/mocklis/,Tests
+94,AspectGenerator, https://github.com/igor-tkachev/AspectGenerator,EnhancementClass

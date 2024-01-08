@@ -206,6 +206,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [AspectGenerator](/docs/AspectGenerator)
+
+
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 

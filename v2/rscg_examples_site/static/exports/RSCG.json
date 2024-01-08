@@ -745,6 +745,14 @@
       "Source": "https://github.com/mocklis/mocklis/",
       "Category": "Tests",
       "AddedOn": "2024-01-03T00:00:00"
+    },
+    {
+      "Name": "AspectGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AspectGenerator",
+      "NuGet": "https://www.nuget.org/packages/AspectGenerator/",
+      "Source": "https://github.com/igor-tkachev/AspectGenerator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-01-07T00:00:00"
     }
   ]
 }

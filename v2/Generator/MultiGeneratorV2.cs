@@ -149,7 +149,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
-,new("AspectGenerator https://github.com/igor-tkachev/AspectGenerator",later)
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("HSU https://github.com/hsu-net/source-generators",later)
@@ -264,7 +263,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Ling.Audit" , new(true,new(2023,12,12),Category.EnhancementClass)},
             {"RSCG_UtilityTypes",new(true,new(2023,12,22),Category.EnhancementClass) },
             {"Mocklis",new(true,new(2024,1,3),Category.Tests) },
-
+            {"AspectGenerator",new(true,new(2024,1,7),Category.EnhancementClass) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

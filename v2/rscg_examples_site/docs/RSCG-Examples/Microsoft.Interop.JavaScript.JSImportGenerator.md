@@ -867,6 +867,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 ### [ApparatusAOT](/docs/ApparatusAOT)
 
 
+### [AspectGenerator](/docs/AspectGenerator)
+
+
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 

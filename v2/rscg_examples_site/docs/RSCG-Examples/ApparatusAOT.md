@@ -536,6 +536,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT
 ## In the same category (EnhancementClass)
 
 
+### [AspectGenerator](/docs/AspectGenerator)
+
+
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
