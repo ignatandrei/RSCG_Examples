@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"CopyCat",
+      "nuget":[
+         "https://www.nuget.org/packages/Copycat/"
+      ],
+      "link":"https://github.com/Otaman/Copycat/",
+      "author":"Serhii Buta",
+      "source":"https://github.com/Otaman/Copycat/"
+   },
+   "data":{
+      "goodFor":["Implementation of the Decorator pattern in C# - only for not implemented methods"],
+      "csprojDemo":"CCDemo.csproj",
+      "csFiles":["Program.cs","ICoffee.cs","Coffee.cs","CoffeeWithLogging.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

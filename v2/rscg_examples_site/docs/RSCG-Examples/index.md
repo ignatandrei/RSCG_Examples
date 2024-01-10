@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 94 RSCG by category 
-description: 94 RSCG by category 
+title: 95 RSCG by category 
+description: 95 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -148,7 +148,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:25</summary>
+  <summary>Expand EnhancementClass =>examples:26</summary>
         
 
 
@@ -273,6 +273,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AspectGenerator](/docs/AspectGenerator)
+
+        
+
+
+[CopyCat](/docs/CopyCat)
 
 </details>
     
@@ -693,6 +698,8 @@ flowchart LR;
     EnhancementClass--> RSCG_UtilityTypes((RSCG_UtilityTypes))
 
     EnhancementClass--> AspectGenerator((AspectGenerator))
+
+    EnhancementClass--> CopyCat((CopyCat))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

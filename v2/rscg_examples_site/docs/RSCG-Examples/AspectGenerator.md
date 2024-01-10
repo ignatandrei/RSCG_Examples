@@ -741,6 +741,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AspectGenerator
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyCat](/docs/CopyCat)
+
+
 ### [DudNet](/docs/DudNet)
 
 

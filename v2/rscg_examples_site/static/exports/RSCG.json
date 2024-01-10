@@ -753,6 +753,14 @@
       "Source": "https://github.com/igor-tkachev/AspectGenerator",
       "Category": "EnhancementClass",
       "AddedOn": "2024-01-07T00:00:00"
+    },
+    {
+      "Name": "CopyCat",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat",
+      "NuGet": "https://www.nuget.org/packages/Copycat/",
+      "Source": "https://github.com/Otaman/Copycat/",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-01-09T00:00:00"
     }
   ]
 }

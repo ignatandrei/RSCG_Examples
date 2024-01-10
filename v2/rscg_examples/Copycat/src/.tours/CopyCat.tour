@@ -1,0 +1,40 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CopyCat",
+  "steps": 
+  [
+    {
+      "file": "CCDemo/CCDemo.csproj",
+      "description": "Nuget  Copycat registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "CCDemo/CoffeeWithLogging.cs",
+        "description": "File CoffeeWithLogging.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CCDemo/Coffee.cs",
+        "description": "File Coffee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CCDemo/ICoffee.cs",
+        "description": "File ICoffee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CCDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

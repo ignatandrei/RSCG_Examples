@@ -442,6 +442,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
+### [CopyCat](/docs/CopyCat)
+
+
 ### [DudNet](/docs/DudNet)
 
 

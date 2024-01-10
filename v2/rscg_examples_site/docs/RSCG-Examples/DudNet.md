@@ -375,6 +375,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyCat](/docs/CopyCat)
+
+
 ### [FastGenericNew](/docs/FastGenericNew)
 
 

@@ -233,6 +233,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyCat](/docs/CopyCat)
+
+
 ### [DudNet](/docs/DudNet)
 
 
