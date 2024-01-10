@@ -263,7 +263,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Ling.Audit" , new(true,new(2023,12,12),Category.EnhancementClass)},
             {"RSCG_UtilityTypes",new(true,new(2023,12,22),Category.EnhancementClass) },
             {"Mocklis",new(true,new(2024,1,3),Category.Tests) },
-            {"AspectGenerator",new(true,new(2024,1,7),Category.EnhancementClass) }
+            {"AspectGenerator",new(true,new(2024,1,7),Category.EnhancementClass) },
+            {"CopyCat",new(true,new(2024,1,9),Category.EnhancementClass) } ,
+        
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

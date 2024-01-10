@@ -1,6 +1,6 @@
-# RSCG - 94 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 95 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-07 => 07 January 2024
+## Latest Update : 2024-01-09 => 09 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 94 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 95 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 95. [CopyCat](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat) generated on : 2024-01-09 => 09 January 2024
+<details>
+  <summary>Expand</summary>
+Author: Serhii Buta
+
+Decorator pattert source generator with user-defined template 
+
+Nuget: [https://www.nuget.org/packages/Copycat/](https://www.nuget.org/packages/Copycat/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat)
+
+Source: [https://github.com/Otaman/Copycat/](https://github.com/Otaman/Copycat/)
+
+</details>
+
 ### 94. [AspectGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AspectGenerator) generated on : 2024-01-07 => 07 January 2024
 <details>
   <summary>Expand</summary>

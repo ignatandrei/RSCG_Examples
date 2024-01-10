@@ -240,6 +240,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyCat](/docs/CopyCat)
+
+
 ### [DudNet](/docs/DudNet)
 
 

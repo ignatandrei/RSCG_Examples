@@ -108,6 +108,7 @@ input-files:
 - examples/RSCG_UtilityTypes.html
 - examples/mocklis.html
 - examples/AspectGenerator.html
+- examples/CopyCat.html
 
 # or you may use input-file: with a single value
 # defaults:
