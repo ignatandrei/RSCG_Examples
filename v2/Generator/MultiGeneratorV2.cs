@@ -153,6 +153,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("HSU https://github.com/hsu-net/source-generators",later)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
+,new("DomainPrimitives https://github.com/altasoft/DomainPrimitives",later)        
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
