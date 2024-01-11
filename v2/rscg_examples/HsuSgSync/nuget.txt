@@ -1,0 +1,1 @@
+an async method to sync source generator.

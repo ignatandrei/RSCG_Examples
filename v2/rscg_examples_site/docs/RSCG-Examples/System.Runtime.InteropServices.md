@@ -228,6 +228,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServic
 ### [GeneratorEquals](/docs/GeneratorEquals)
 
 
+### [HsuSgSync](/docs/HsuSgSync)
+
+
 ### [Immutype](/docs/Immutype)
 
 

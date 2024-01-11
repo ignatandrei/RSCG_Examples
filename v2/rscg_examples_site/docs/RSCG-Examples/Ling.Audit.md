@@ -252,6 +252,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit
 ### [GeneratorEquals](/docs/GeneratorEquals)
 
 
+### [HsuSgSync](/docs/HsuSgSync)
+
+
 ### [Immutype](/docs/Immutype)
 
 

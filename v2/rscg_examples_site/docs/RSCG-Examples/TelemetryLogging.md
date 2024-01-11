@@ -425,6 +425,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging
 ### [GeneratorEquals](/docs/GeneratorEquals)
 
 
+### [HsuSgSync](/docs/HsuSgSync)
+
+
 ### [Immutype](/docs/Immutype)
 
 
