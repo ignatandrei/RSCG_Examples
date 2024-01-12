@@ -292,6 +292,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes
 ### [GeneratorEquals](/docs/GeneratorEquals)
 
 
+### [HsuSgSync](/docs/HsuSgSync)
+
+
 ### [Immutype](/docs/Immutype)
 
 

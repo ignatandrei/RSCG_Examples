@@ -399,6 +399,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 ### [GeneratorEquals](/docs/GeneratorEquals)
 
 
+### [HsuSgSync](/docs/HsuSgSync)
+
+
 ### [Immutype](/docs/Immutype)
 
 

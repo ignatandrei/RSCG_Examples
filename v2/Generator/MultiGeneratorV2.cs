@@ -151,7 +151,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
-,new ("HSU https://github.com/hsu-net/source-generators",later)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
 ,new("DomainPrimitives https://github.com/altasoft/DomainPrimitives",later)        
     };
@@ -266,7 +265,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Mocklis",new(true,new(2024,1,3),Category.Tests) },
             {"AspectGenerator",new(true,new(2024,1,7),Category.EnhancementClass) },
             {"CopyCat",new(true,new(2024,1,9),Category.EnhancementClass) } ,
-        
+            {"HsuSgSync",new(true,new(2024,1,10),Category.EnhancementClass) },
+            
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -356,6 +356,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
+            text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");
             text = text.Replace("(src/Ling.Cache)", $"({d.Generator!.Source}src/Ling.Cache)");
             text = text.Replace("(src/Ling.Audit)", $"({d.Generator!.Source}src/Ling.Audit)");
             text = text.Replace("(src/Ling.EntityFrameworkCore)", $"({d.Generator!.Source}src/Ling.EntityFrameworkCore)");

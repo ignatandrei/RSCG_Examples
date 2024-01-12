@@ -262,51 +262,6 @@ await ipl.InsertPerson(newPerson);
 ```
   </TabItem>
 
-  
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\GenericInterceptorForAllMethods.txt" label="GenericInterceptorForAllMethods.txt" >
-
-  This is the use of **InterceptorTemplate** in *GenericInterceptorForAllMethods.txt*
-
-```csharp showLineNumbers 
-//example generating generic for all methods in a class {{Version}}
-#pragma warning disable CS1591 
-#pragma warning disable CS9113
-namespace System.Runtime.CompilerServices{
-[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
-file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
-{
-}
-}//end namespace
-
-namespace RSCG_InterceptorTemplate{
-static partial class SimpleIntercept
-{
-
-{{ for loc in ser.dataForEachIntercepts }}
-//replace code:{{loc.code}}";
-//replace code:{{loc.CodeNumbered}}";
-[System.Runtime.CompilerServices.InterceptsLocation(@"{{loc.Path}}", {{loc.Line}}, {{loc.StartMethod}})]
-{{ end }}
-
-//[System.Diagnostics.DebuggerStepThrough()]
-public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}} {{ser.item.MethodSignature}}({{ser.item.ThisArgument}} {{ser.item.ArgumentsForCallMethod}} )  
-{
-    try{
-        Console.WriteLine("start from generic template-->{{ser.item.MethodSignature}}");
-        {{ser.item.ReturnString}} {{(ser.item.HasTaskReturnType ? "await" : "")}} {{ser.item.CallMethod}};
-    }
-    finally{
-        Console.WriteLine("end from generic template-->{{ser.item.MethodSignature}}");
-    }
-}
-                
-
-}//end class
-
-}//namespace RSCG_InterceptorTemplate
-```
-  </TabItem>
-
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\FullName.txt" label="FullName.txt" >
 
   This is the use of **InterceptorTemplate** in *FullName.txt*
@@ -354,6 +309,51 @@ public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Interceptors\GenericInterceptorForAllMethods.txt" label="GenericInterceptorForAllMethods.txt" >
+
+  This is the use of **InterceptorTemplate** in *GenericInterceptorForAllMethods.txt*
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class {{Version}}
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+{{ for loc in ser.dataForEachIntercepts }}
+//replace code:{{loc.code}}";
+//replace code:{{loc.CodeNumbered}}";
+[System.Runtime.CompilerServices.InterceptsLocation(@"{{loc.Path}}", {{loc.Line}}, {{loc.StartMethod}})]
+{{ end }}
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}} {{ser.item.MethodSignature}}({{ser.item.ThisArgument}} {{ser.item.ArgumentsForCallMethod}} )  
+{
+    try{
+        Console.WriteLine("start from generic template-->{{ser.item.MethodSignature}}");
+        {{ser.item.ReturnString}} {{(ser.item.HasTaskReturnType ? "await" : "")}} {{ser.item.CallMethod}};
+    }
+    finally{
+        Console.WriteLine("end from generic template-->{{ser.item.MethodSignature}}");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+  </TabItem>
+
+  
 </Tabs>
 
 ### Generated Files

@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"HsuSgSync",
+      "nuget":[
+         "https://www.nuget.org/packages/Hsu.Sg.Sync/"
+      ],
+      "link":"https://github.com/hsu-net/source-generators",
+      "author":"Net Hsu",
+      "source":"https://github.com/hsu-net/source-generators"
+   },
+   "data":{
+      "goodFor":["Generate code for async to sync methods"],
+      "csprojDemo":"HsuSgSync.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -761,6 +761,14 @@
       "Source": "https://github.com/Otaman/Copycat/",
       "Category": "EnhancementClass",
       "AddedOn": "2024-01-09T00:00:00"
+    },
+    {
+      "Name": "HsuSgSync",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/HsuSgSync",
+      "NuGet": "https://www.nuget.org/packages/Hsu.Sg.Sync/",
+      "Source": "https://github.com/hsu-net/source-generators",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-01-10T00:00:00"
     }
   ]
 }

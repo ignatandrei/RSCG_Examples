@@ -109,6 +109,7 @@ input-files:
 - examples/mocklis.html
 - examples/AspectGenerator.html
 - examples/CopyCat.html
+- examples/HsuSgSync.html
 
 # or you may use input-file: with a single value
 # defaults:

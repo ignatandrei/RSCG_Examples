@@ -488,6 +488,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals
 ### [FastGenericNew](/docs/FastGenericNew)
 
 
+### [HsuSgSync](/docs/HsuSgSync)
+
+
 ### [Immutype](/docs/Immutype)
 
 

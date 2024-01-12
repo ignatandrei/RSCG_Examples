@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "HsuSgSync",
+  "steps": 
+  [
+    {
+      "file": "HsuSgSync/HsuSgSync.csproj",
+      "description": "Nuget  Hsu.Sg.Sync registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "HsuSgSync/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "HsuSgSync/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}
