@@ -32,7 +32,7 @@ Why I have not put example: old ISourceGenerator
 
 7)AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator  
 
-Why I have not put example: later
+Why I have not put example: too complicated for me, need help
 
 8)AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable  
 

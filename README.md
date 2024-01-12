@@ -1675,7 +1675,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Architect.DomainMo
 
 4) [AttributeFactoryGenerator]( https://github.com/PaulBraetz/AttributeFactoryGenerator) , https://github.com/PaulBraetz/AttributeFactoryGenerator 
 
-Why I have not tested : later
+Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=AttributeFactoryGenerator&body=https://github.com/PaulBraetz/AttributeFactoryGenerator
 

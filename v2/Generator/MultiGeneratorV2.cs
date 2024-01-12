@@ -149,7 +149,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
 , new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
-,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
+,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",tooComplicated)
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
     };
@@ -889,7 +889,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var latest = generators["TelemetryLogging"];
+        var latest = generators["AspectGenerator"];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
             .Where(it => it.generatedDate > latest.dtStart)
