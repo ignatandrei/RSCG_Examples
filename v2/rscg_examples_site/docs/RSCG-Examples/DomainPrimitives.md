@@ -630,7 +630,7 @@ To disable the generation of Converters or Swagger Mappers in csproj file follow
 	```
 
 
-3. **Default Value Guarantee with IDomainValue of T **
+3. **Default Value Guarantee with IDomainValue of T**
 
 	* `IDomainValue<T>` incorporates a static abstract property Default to ensure the correct domain state if a value is uninitialized. For example:
 	```csharp
@@ -742,7 +742,7 @@ Contributions to AltaSoft.DomainPrimitives are welcome! Whether you have suggest
 For support, questions, or additional information, please visit GitHub Issues.
 
 # License
-This project is licensed under [MIT](LICENSE.TXT). See the LICENSE file for details.
+This project is licensed under [MIT](https://github.com/altasoft/DomainPrimitives/LICENSE.TXT). See the LICENSE file for details.
 
 
 

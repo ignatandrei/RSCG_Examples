@@ -366,6 +366,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(src/Ling.Blazor.Authentication)", $"({d.Generator!.Source}src/Ling.Blazor.Authentication)");
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
             text = text.Replace("(LICENSE.md)", $"({d.Generator!.Source}/LICENSE.md)");
+            text = text.Replace("(LICENSE.txt)", $"({d.Generator!.Source}/LICENSE.md)");
             text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             text = text.Replace("(./test/Benchmarks.md)", $"({d.Generator!.Source}/blob/main/test/Benchmarks.md)");
             text = text.Replace("(./docs/", $"({d.Generator!.Source}/docs/");
