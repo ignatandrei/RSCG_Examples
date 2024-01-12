@@ -67,19 +67,19 @@ Source : https://github.com/hsu-net/source-generators
 
 Generate a synchronous method from an asynchronous method.
 
-Usages see [README](https://github.com/hsu-net/source-generators/Hsu.Sg.Sync/README.md)
+Usages see [README](https://github.com/hsu-net/source-generators/src/Hsu.Sg.Sync/README.md)
 
 ### Hsu.Sg.Proxy
 
 Generate a proxy object from a `struct` or `class` or `interface`.
 
-Usages see [README](https://github.com/hsu-net/source-generators/Hsu.Sg.Proxy/README.md)
+Usages see [README](https://github.com/hsu-net/source-generators/src/Hsu.Sg.Proxy/README.md)
 
 ### Hsu.Sg.FluentMember
 
 Generate a fluent method from a `struct` or `class`.
 
-Usages see [README](https://github.com/hsu-net/source-generators/Hsu.Sg.FluentMember/README.md)
+Usages see [README](https://github.com/hsu-net/source-generators/src/Hsu.Sg.FluentMember/README.md)
 
 ## References
 
@@ -88,7 +88,7 @@ Usages see [README](https://github.com/hsu-net/source-generators/Hsu.Sg.FluentMe
 
 ## License
 
-[MIT](./LICENSE)
+[MIT](https://github.com/hsu-net/source-generatorssrc/Hsu)
 
 :::
 
