@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"DomainPrimitives",
+      "nuget":[
+         "https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator",
+         "https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Abstractions"
+      ],
+      "link":"https://github.com/altasoft/DomainPrimitives",
+      "author":"Alta Software - Teimuraz Nikolaishvili",
+      "source":"https://github.com/altasoft/DomainPrimitives"
+   },
+   "data":{
+      "goodFor":["One of the most complete and mature libraries for DomainPrimitives in  .NET"],
+      "csprojDemo":"DomainPrimitives.csproj",
+      "csFiles":["Program.cs","DOB.cs","TaskAfterDelay.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

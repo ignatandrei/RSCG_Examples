@@ -769,6 +769,14 @@
       "Source": "https://github.com/hsu-net/source-generators",
       "Category": "EnhancementClass",
       "AddedOn": "2024-01-10T00:00:00"
+    },
+    {
+      "Name": "DomainPrimitives",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives",
+      "NuGet": "https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator",
+      "Source": "https://github.com/altasoft/DomainPrimitives",
+      "Category": "PrimitiveObsession",
+      "AddedOn": "2024-01-11T00:00:00"
     }
   ]
 }

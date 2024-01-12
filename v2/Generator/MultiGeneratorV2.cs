@@ -152,7 +152,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",later)
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
-,new("DomainPrimitives https://github.com/altasoft/DomainPrimitives",later)        
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -266,7 +265,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AspectGenerator",new(true,new(2024,1,7),Category.EnhancementClass) },
             {"CopyCat",new(true,new(2024,1,9),Category.EnhancementClass) } ,
             {"HsuSgSync",new(true,new(2024,1,10),Category.EnhancementClass) },
-            
+            {"DomainPrimitives",new(true,new(2024,1,11),Category.PrimitiveObsession) },
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -366,6 +366,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(src/Ling.Blazor.Authentication)", $"({d.Generator!.Source}src/Ling.Blazor.Authentication)");
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
             text = text.Replace("(LICENSE.md)", $"({d.Generator!.Source}/LICENSE.md)");
+            text = text.Replace("(LICENSE.txt)", $"({d.Generator!.Source}/LICENSE.md)");
             text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             text = text.Replace("(./test/Benchmarks.md)", $"({d.Generator!.Source}/blob/main/test/Benchmarks.md)");
             text = text.Replace("(./docs/", $"({d.Generator!.Source}/docs/");

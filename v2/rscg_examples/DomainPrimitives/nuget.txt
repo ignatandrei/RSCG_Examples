@@ -1,0 +1,1 @@
+Domain Primitives source generator for C#.
