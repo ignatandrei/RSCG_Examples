@@ -95,3 +95,4 @@ Nr,Key,Source,Category
 94,AspectGenerator, https://github.com/igor-tkachev/AspectGenerator,EnhancementClass
 95,CopyCat, https://github.com/Otaman/Copycat/,EnhancementClass
 96,HsuSgSync, https://github.com/hsu-net/source-generators,EnhancementClass
+97,DomainPrimitives, https://github.com/altasoft/DomainPrimitives,PrimitiveObsession
