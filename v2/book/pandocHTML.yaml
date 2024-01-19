@@ -111,6 +111,8 @@ input-files:
 - examples/CopyCat.html
 - examples/HsuSgSync.html
 - examples/DomainPrimitives.html
+- examples/Funcky.DiscriminatedUnion.html
+- examples/MakeInterface.Generator.html
 
 # or you may use input-file: with a single value
 # defaults:

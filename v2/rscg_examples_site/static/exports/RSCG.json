@@ -785,6 +785,14 @@
       "Source": "https://github.com/polyadic/funcky-discriminated-union",
       "Category": "FunctionalProgramming",
       "AddedOn": "2024-01-18T00:00:00"
+    },
+    {
+      "Name": "MakeInterface.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface",
+      "NuGet": "https://www.nuget.org/packages/MakeInterface.Generator/",
+      "Source": "https://github.com/Frederik91/MakeInterface",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-01-19T00:00:00"
     }
   ]
 }

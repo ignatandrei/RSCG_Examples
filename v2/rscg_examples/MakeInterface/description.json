@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"MakeInterface.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/MakeInterface.Generator/"
+      ],
+      "link":"https://github.com/Frederik91/MakeInterface",
+      "author":"Frederik",
+      "source":"https://github.com/Frederik91/MakeInterface"
+   },
+   "data":{
+      "goodFor":["Generating interface from class definition"],
+      "csprojDemo":"Class2Interface.csproj",
+      "csFiles":["Program.cs","Person.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
