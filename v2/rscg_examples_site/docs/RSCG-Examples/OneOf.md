@@ -411,6 +411,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf
 ### [dunet](/docs/dunet)
 
 
+### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+
+
 ### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 

@@ -1,0 +1,1 @@
+A source generator that generates `Match` methods for all your discriminated unions needs. ✨

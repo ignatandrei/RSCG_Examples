@@ -777,6 +777,14 @@
       "Source": "https://github.com/altasoft/DomainPrimitives",
       "Category": "PrimitiveObsession",
       "AddedOn": "2024-01-11T00:00:00"
+    },
+    {
+      "Name": "Funcky.DiscriminatedUnion",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/FUD",
+      "NuGet": "https://www.nuget.org/packages/Funcky.DiscriminatedUnion/",
+      "Source": "https://github.com/polyadic/funcky-discriminated-union",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-01-18T00:00:00"
     }
   ]
 }

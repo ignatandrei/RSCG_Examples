@@ -316,9 +316,6 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 // T:System.ValueTuple`7: False
 // T:System.ValueTuple`8: False
 // T:System.ITupleInternal: False
-uple`7: False
-// T:System.ValueTuple`8: False
-// T:System.ITupleInternal: False
 
 ```
 
