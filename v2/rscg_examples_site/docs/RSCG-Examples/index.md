@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 98 RSCG by category 
-description: 98 RSCG by category 
+title: 99 RSCG by category 
+description: 99 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -148,7 +148,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:27</summary>
+  <summary>Expand EnhancementClass =>examples:28</summary>
         
 
 
@@ -283,6 +283,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [HsuSgSync](/docs/HsuSgSync)
+
+        
+
+
+[MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 </details>
     
@@ -717,6 +722,8 @@ flowchart LR;
     EnhancementClass--> CopyCat((CopyCat))
 
     EnhancementClass--> HsuSgSync((HsuSgSync))
+
+    EnhancementClass--> MakeInterface.Generator((MakeInterface.Generator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

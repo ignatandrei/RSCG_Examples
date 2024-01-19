@@ -1,6 +1,6 @@
-# RSCG - 98 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 99 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-18 => 18 January 2024
+## Latest Update : 2024-01-19 => 19 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 98 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 99 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 99. [MakeInterface.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator) generated on : 2024-01-19 => 19 January 2024
+<details>
+  <summary>Expand</summary>
+Author: Frederik
+
+Generates interfaces for classes 
+
+Nuget: [https://www.nuget.org/packages/MakeInterface.Generator/](https://www.nuget.org/packages/MakeInterface.Generator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator)
+
+Source: [https://github.com/Frederik91/MakeInterface](https://github.com/Frederik91/MakeInterface)
+
+</details>
+
 ### 98. [Funcky.DiscriminatedUnion](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion) generated on : 2024-01-18 => 18 January 2024
 <details>
   <summary>Expand</summary>

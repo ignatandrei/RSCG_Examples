@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MakeInterface.Generator",
+  "steps": 
+  [
+    {
+      "file": "Class2Interface/Class2Interface.csproj",
+      "description": "Nuget  MakeInterface.Generator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "Class2Interface/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Class2Interface/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

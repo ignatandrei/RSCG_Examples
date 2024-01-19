@@ -1770,6 +1770,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack
 ### [M31.FluentAPI](/docs/M31.FluentAPI)
 
 
+### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+
+
 ### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
 
