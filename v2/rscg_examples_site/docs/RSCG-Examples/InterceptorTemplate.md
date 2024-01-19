@@ -360,10 +360,6 @@ public static {{(ser.item.HasTaskReturnType?"async":"")}} {{ser.item.TypeReturn}
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
-<Tabs>
-
-
-</Tabs>
 
 ## Usefull
 
