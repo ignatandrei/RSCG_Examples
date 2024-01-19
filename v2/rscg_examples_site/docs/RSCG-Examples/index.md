@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 97 RSCG by category 
-description: 97 RSCG by category 
+title: 98 RSCG by category 
+description: 98 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -401,7 +401,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:5</summary>
+  <summary>Expand FunctionalProgramming =>examples:6</summary>
         
 
 
@@ -426,6 +426,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+
+        
+
+
+[Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
 </details>
     
@@ -758,6 +763,8 @@ flowchart LR;
     FunctionalProgramming--> RSCG_Utils_Memo((RSCG_Utils_Memo))
 
     FunctionalProgramming--> N.SourceGenerators.UnionTypes((N.SourceGenerators.UnionTypes))
+
+    FunctionalProgramming--> Funcky.DiscriminatedUnion((Funcky.DiscriminatedUnion))
 
     Mapper--> mapperly((mapperly))
 

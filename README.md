@@ -1,6 +1,6 @@
-# RSCG - 97 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 98 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-11 => 11 January 2024
+## Latest Update : 2024-01-18 => 18 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 97 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 98 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 98. [Funcky.DiscriminatedUnion](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion) generated on : 2024-01-18 => 18 January 2024
+<details>
+  <summary>Expand</summary>
+Author: Polyadic
+
+A source generator that generates `Match` methods for all your discriminated unions needs. ✨ 
+
+Nuget: [https://www.nuget.org/packages/Funcky.DiscriminatedUnion/](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion)
+
+Source: [https://github.com/polyadic/funcky-discriminated-union](https://github.com/polyadic/funcky-discriminated-union)
+
+</details>
+
 ### 97. [DomainPrimitives](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives) generated on : 2024-01-11 => 11 January 2024
 <details>
   <summary>Expand</summary>

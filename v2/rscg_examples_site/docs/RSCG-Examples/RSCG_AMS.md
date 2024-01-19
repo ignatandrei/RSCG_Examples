@@ -384,20 +384,69 @@ namespace RSCG_AMSDemo {
         /// </summary>
         public XAboutMySoftware_828469749970839076110119122(){
             AssemblyName ="RSCG_AMSDemo" ; 
-            DateGenerated = DateTime.ParseExact("20231222150430", "yyyyMMddHHmmss", null); 
+            DateGenerated = DateTime.ParseExact("20240119175351", "yyyyMMddHHmmss", null); 
             CommitId  = "not in a CI run" ; 
             RepoUrl ="https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md" ; 
             CISourceControl = "not in a CI run" ; 
             SourceCommit = "https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md" ; 
             Authors= "";
             Version= "";    
-            EnvironmentVars =";User_OneDrive;User_OneDriveConsumer;User_Path;User_TEMP;User_TMP;User_ChocolateyLastPathUpdate;Process_VSLANG;Process_USERDOMAIN;Process_ProgramW6432;Process_PkgDefApplicationConfigFile;Process_PROCESSOR_REVISION;Process_ZES_ENABLE_SYSMAN;Process_APPDATA;Process_EFC_33992;Process_LOGONSERVER;Process_ProgramData;Process_HOMEPATH;Process_Path;Process_MSBuildLoadMicrosoftTargetsReadOnly;Process_ThreadedWaitDialogDpiContext;Process_VisualStudioEdition;Process_PROCESSOR_ARCHITECTURE;Process_FPS_BROWSER_USER_PROFILE_STRING;Process_TEMP;Process_DOTNET_HOST_PATH;Process_FPS_BROWSER_APP_PROFILE_STRING;Process_PROCESSOR_LEVEL;Process_ChocolateyInstall;Process_MONO_ANDROID_PATH;Process_VSAPPIDDIR;Process_LOCALAPPDATA;Process_USERNAME;Process_SystemDrive;Process_PUBLIC;Process_DOTNET_CLI_UI_LANGUAGE;Process_PROCESSOR_IDENTIFIER;Process_PATHEXT;Process_DOTNET_MODIFIABLE_ASSEMBLIES;Process_NUGET_PACKAGES;Process_USERPROFILE;Process_COMPUTERNAME;Process_OneDriveConsumer;Process_ProgramFiles(x86);Process_CommonProgramW6432;Process_PreferredUILang;Process_ServiceHubLogSessionKey;Process_DriverData;Process_JAVA_HOME;Process_VisualStudioDir;Process_ChocolateyLastPathUpdate;Process_VSSKUEDITION;Process_SESSIONNAME;Process_ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO;Process_SystemRoot;Process_COMPLUS_ForceEnc;Process_VisualStudioVersion;Process_PSModulePath;Process_MSBuildSDKsPath;Process_POWERSHELL_DISTRIBUTION_CHANNEL;Process_CommonProgramFiles(x86);Process_MSBuildExtensionsPath;Process_windir;Process_OS;Process_VSAPPIDNAME;Process_HOMEDRIVE;Process_VS_Perf_Session_GCHeapCount;Process_DOTNET_CLI_TELEMETRY_SESSIONID;Process_SignInWithHomeTenantOnly;Process_ProgramFiles;Process_TMP;Process_npm_config_cache;Process_XAMARIN_ANDROID_REGKEY;Process_MSBUILDUSESERVER;Process_USERDOMAIN_ROAMINGPROFILE;Process_ComSpec;Process_NUMBER_OF_PROCESSORS;Process_ALLUSERSPROFILE;Process_DOTNET_HOTRELOAD_NAMEDPIPE_NAME;Process_CommonProgramFiles;Process_GCExpConfigUsedInSession;Process_OneDrive;Machine_POWERSHELL_DISTRIBUTION_CHANNEL;Machine_OS;Machine_NUMBER_OF_PROCESSORS;Machine_DriverData;Machine_Path;Machine_ZES_ENABLE_SYSMAN;Machine_PROCESSOR_REVISION;Machine_NUGET_PACKAGES;Machine_ComSpec;Machine_npm_config_cache;Machine_ChocolateyInstall;Machine_TMP;Machine_PATHEXT;Machine_PROCESSOR_IDENTIFIER;Machine_PROCESSOR_ARCHITECTURE;Machine_TEMP;Machine_JAVA_HOME;Machine_PSModulePath;Machine_windir;Machine_USERNAME;Machine_PROCESSOR_LEVEL";
+            EnvironmentVars =";User_OneDriveConsumer;User_Path;User_TMP;User_TEMP;User_OneDrive;Process_ProgramData;Process_DOTNET_WATCH_ITERATION;Process_PSModulePath;Process_DriverData;Process_COMPUTERNAME;Process_ProgramW6432;Process_APPDATA;Process_NUGET_PACKAGES;Process_WT_SESSION;Process_DOTNET_WATCH;Process_USERPROFILE;Process_USERDOMAIN_ROAMINGPROFILE;Process_MSBuildSDKsPath;Process_ALLUSERSPROFILE;Process_CommonProgramFiles;Process_NUMBER_OF_PROCESSORS;Process_SystemDrive;Process_POWERSHELL_DISTRIBUTION_CHANNEL;Process_HOMEDRIVE;Process_PATHEXT;Process_ZES_ENABLE_SYSMAN;Process_SESSIONNAME;Process_ComSpec;Process_PROCESSOR_IDENTIFIER;Process_DOTNET_LAUNCH_PROFILE;Process_MAVEN_OPTS;Process_TEMP;Process_MSBuildExtensionsPath;Process_HOMEPATH;Process_LOCALAPPDATA;Process_MSBuildLoadMicrosoftTargetsReadOnly;Process_SystemRoot;Process_ProgramFiles(x86);Process_PUBLIC;Process_OneDrive;Process_CommonProgramFiles(x86);Process_PROCESSOR_LEVEL;Process_VCPKG_DEFAULT_BINARY_CACHE;Process_PROCESSOR_REVISION;Process_MSBUILDUSESERVER;Process_PIP_CACHE_DIR;Process_DOTNET_HOST_PATH;Process_LOGONSERVER;Process_Path;Process_OS;Process_WSLENV;Process_npm_config_cache;Process_TMP;Process_USERDOMAIN;Process_JAVA_HOME;Process_windir;Process_OneDriveConsumer;Process_PROCESSOR_ARCHITECTURE;Process_USERNAME;Process_CommonProgramW6432;Process_ProgramFiles;Process_DOTNET_CLI_TELEMETRY_SESSIONID;Process_CARGO_HOME;Process_WT_PROFILE_ID;Machine_JAVA_HOME;Machine_windir;Machine_PATHEXT;Machine_PROCESSOR_LEVEL;Machine_PIP_CACHE_DIR;Machine_DriverData;Machine_ZES_ENABLE_SYSMAN;Machine_USERNAME;Machine_OS;Machine_PROCESSOR_ARCHITECTURE;Machine_POWERSHELL_DISTRIBUTION_CHANNEL;Machine_Path;Machine_npm_config_cache;Machine_TEMP;Machine_NUMBER_OF_PROCESSORS;Machine_PROCESSOR_REVISION;Machine_TMP;Machine_PSModulePath;Machine_NUGET_PACKAGES;Machine_MAVEN_OPTS;Machine_ComSpec;Machine_CARGO_HOME;Machine_PROCESSOR_IDENTIFIER;Machine_VCPKG_DEFAULT_BINARY_CACHE";
             User = "ignat";
             IsInCI=false;
             
 { var v=new VersionReleased();
 v.Name = "FutureRelease" ;
 v.ISODateTime=DateTime.ParseExact("99990416","yyyyMMdd",null); { 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "1fd1d86e86ea829cb8f822f24b5490485a1634a1";
+rd.Subject = "Merge pull request #172 from ignatandrei/DP";
+rd.ReleaseDate = DateTime.ParseExact("20240112","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9daa6fb5369a93e04134108244ca6afaa7b0572a";
+rd.Subject = "Merge pull request #171 from ignatandrei/HsuSgSync";
+rd.ReleaseDate = DateTime.ParseExact("20240112","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "2a784d845d546cdabf677f55f681df2e29e41045";
+rd.Subject = "Merge pull request #169 from ignatandrei/CopyCat";
+rd.ReleaseDate = DateTime.ParseExact("20240110","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9094531355a654c9812fa42230b1e7aa4cc987cc";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20240108","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "805f583a1d27d80346218343c5a6b33ca98da103";
+rd.Subject = "Merge pull request #167 from ignatandrei/mocklis";
+rd.ReleaseDate = DateTime.ParseExact("20240103","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "251d56117a79e0c01926a1d303e7308f1397607a";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20231230","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9be5ebf1e7101372a426e6bc30af709ea2a57329";
+rd.Subject = "Merge pull request #166 from ignatandrei/RSCG_UtilityTypes";
+rd.ReleaseDate = DateTime.ParseExact("20231223","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
 var rd=new ReleaseData();
 rd.Author = "Andrei Ignat";
 rd.CommitId = "4a628ea4ce0bacb187a2f9254234781c03adc778";

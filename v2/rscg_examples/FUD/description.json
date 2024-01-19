@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Funcky.DiscriminatedUnion",
+      "nuget":[
+         "https://www.nuget.org/packages/Funcky.DiscriminatedUnion/"
+      ],
+      "link":"https://github.com/polyadic/funcky-discriminated-union",
+      "author":"Polyadic",
+      "source":"https://github.com/polyadic/funcky-discriminated-union"
+   },
+   "data":{
+      "goodFor":["Generating discriminated unions for C# 9.0 and above."],
+      "csprojDemo":"Union.csproj",
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

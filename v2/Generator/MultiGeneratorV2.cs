@@ -266,7 +266,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CopyCat",new(true,new(2024,1,9),Category.EnhancementClass) } ,
             {"HsuSgSync",new(true,new(2024,1,10),Category.EnhancementClass) },
             {"DomainPrimitives",new(true,new(2024,1,11),Category.PrimitiveObsession) },
-
+            {"FUD",new(true,new(2024,1,18),Category.FunctionalProgramming) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

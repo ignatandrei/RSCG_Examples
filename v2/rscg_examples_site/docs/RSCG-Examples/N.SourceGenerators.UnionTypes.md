@@ -884,6 +884,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/N.SourceGenerators.UnionType
 ### [dunet](/docs/dunet)
 
 
+### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+
+
 ### [OneOf](/docs/OneOf)
 
 
