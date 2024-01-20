@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # HsuSgSync  by Net Hsu
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Hsu.Sg.Sync?label=Hsu.Sg.Sync)](https://www.nuget.org/packages/Hsu.Sg.Sync/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/hsu-net/source-generators?label=updated)](https://github.com/hsu-net/source-generators)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # AspectGenerator  by Igor Tkachev
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/AspectGenerator?label=AspectGenerator)](https://www.nuget.org/packages/AspectGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/igor-tkachev/AspectGenerator?label=updated)](https://github.com/igor-tkachev/AspectGenerator)

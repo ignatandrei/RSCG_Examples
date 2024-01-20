@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Vogen  by Steve Dunn
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Vogen?label=Vogen)](https://www.nuget.org/packages/Vogen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SteveDunn/Vogen?label=updated)](https://github.com/SteveDunn/Vogen)

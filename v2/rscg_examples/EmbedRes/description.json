@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Chorn.EmbeddedResourceAccessGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/"
+      ],
+      "link":"https://github.com/ChristophHornung/EmbeddedResourceGenerator",
+      "author":"Christoph Hornung",
+      "source":"https://github.com/ChristophHornung/EmbeddedResourceGenerator"
+   },
+   "data":{
+      "goodFor":["Embedded Resources to C# Code"],
+      "csprojDemo":"EmbedDemo.csproj",
+      "csFiles":["Program.cs","createDB.sql"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

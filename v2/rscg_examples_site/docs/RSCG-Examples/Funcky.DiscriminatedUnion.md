@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Funcky.DiscriminatedUnion  by Polyadic
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Funcky.DiscriminatedUnion?label=Funcky.DiscriminatedUnion)](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/polyadic/funcky-discriminated-union?label=updated)](https://github.com/polyadic/funcky-discriminated-union)

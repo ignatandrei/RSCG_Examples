@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Podimo.ConstEmbed  by Podimo
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Podimo.ConstEmbed?label=Podimo.ConstEmbed)](https://www.nuget.org/packages/Podimo.ConstEmbed/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/podimo/Podimo.ConstEmbed?label=updated)](https://github.com/podimo/Podimo.ConstEmbed)
@@ -194,6 +194,9 @@ GO;
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed
 
 ## In the same category (FilesToCode)
+
+
+### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # mocklis  by Esbjörn Redmo
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/mocklis?label=mocklis)](https://www.nuget.org/packages/mocklis/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mocklis/mocklis?label=updated)](https://github.com/mocklis/mocklis/)

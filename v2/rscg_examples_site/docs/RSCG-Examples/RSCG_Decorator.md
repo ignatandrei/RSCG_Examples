@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RSCG_Decorator  by Andrei Ignat
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Decorator?label=RSCG_Decorator)](https://www.nuget.org/packages/RSCG_Decorator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Decorator?label=updated)](https://github.com/ignatandrei/RSCG_Decorator)

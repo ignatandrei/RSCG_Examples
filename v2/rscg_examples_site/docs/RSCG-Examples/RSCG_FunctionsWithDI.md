@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RSCG_FunctionsWithDI  by Andrei Ignat
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_FunctionsWithDI?label=RSCG_FunctionsWithDI)](https://www.nuget.org/packages/RSCG_FunctionsWithDI/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/functionsdi?label=updated)](https://github.com/ignatandrei/functionsdi)

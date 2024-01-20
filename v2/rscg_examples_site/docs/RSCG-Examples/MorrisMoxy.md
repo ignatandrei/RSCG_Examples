@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # MorrisMoxy  by Peter Morris
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Morris.Moxy?label=Morris.Moxy)](https://www.nuget.org/packages/Morris.Moxy/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mrpmorris/Morris.Moxy?label=updated)](https://github.com/mrpmorris/Morris.Moxy)
@@ -242,7 +242,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 ```csharp showLineNumbers 
-// Generated from mixin\IDName.mixin at 2024-01-20 05:11:32 UTC
+// Generated from mixin\IDName.mixin at 2024-01-19 17:50:05 UTC
 namespace MorrisMoxyDemo
 {
     
@@ -262,7 +262,7 @@ namespace MorrisMoxyDemo
 
 
 ```csharp showLineNumbers 
-// Generated at 2024-01-20 05:11:33 UTC
+// Generated at 2024-01-19 17:50:05 UTC
 namespace MorrisMoxyDemo
 {
   partial class Department
@@ -281,7 +281,7 @@ namespace MorrisMoxyDemo
 
 
 ```csharp showLineNumbers 
-// Generated at 2024-01-20 05:11:33 UTC
+// Generated at 2024-01-19 17:50:05 UTC
 namespace MorrisMoxyDemo
 {
   partial class Employee

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # ProxyGen  by Dénes Solti
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/ProxyGen.net?label=ProxyGen.net)](https://www.nuget.org/packages/ProxyGen.net/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Sholtee/ProxyGen?label=updated)](https://github.com/Sholtee/ProxyGen)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # ThisAssembly_Resources  by Daniel Cazzulino
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Resources?label=ThisAssembly.Resources)](https://www.nuget.org/packages/ThisAssembly.Resources/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
@@ -689,6 +689,9 @@ static class EmbeddedResource
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources
 
 ## In the same category (FilesToCode)
+
+
+### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)

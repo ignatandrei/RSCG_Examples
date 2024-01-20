@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Meziantou.Polyfill  by Gérald Barré
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Meziantou.Polyfill?label=Meziantou.Polyfill)](https://www.nuget.org/packages/Meziantou.Polyfill/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/meziantou/Meziantou.Polyfill?label=updated)](https://github.com/meziantou/Meziantou.Polyfill)

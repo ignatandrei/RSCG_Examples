@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # DynamicsMapper  by Yonatan Cohavi
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/YC.DynamicsMapper?label=YC.DynamicsMapper)](https://www.nuget.org/packages/YC.DynamicsMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/YonatanCohavi/DynamicsMapper?label=updated)](https://github.com/YonatanCohavi/DynamicsMapper/)

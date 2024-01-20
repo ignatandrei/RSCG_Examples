@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Strongly  by Lucas Teles
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Strongly?label=Strongly)](https://www.nuget.org/packages/Strongly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lucasteles/Strongly?label=updated)](https://github.com/lucasteles/Strongly/)

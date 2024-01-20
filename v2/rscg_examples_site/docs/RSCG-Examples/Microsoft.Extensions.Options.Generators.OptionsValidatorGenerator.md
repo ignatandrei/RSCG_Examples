@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator  by Microsoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Options?label=Microsoft.Extensions.Options)](https://www.nuget.org/packages/Microsoft.Extensions.Options)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)

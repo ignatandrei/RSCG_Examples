@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # ResXGenerator  by Aigamo
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Aigamo.ResXGenerator?label=Aigamo.ResXGenerator)](https://www.nuget.org/packages/Aigamo.ResXGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ycanardeau/ResXGenerator?label=updated)](https://github.com/ycanardeau/ResXGenerator)
@@ -938,6 +938,9 @@ internal static class GenResourcesModel
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator
 
 ## In the same category (FilesToCode)
+
+
+### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)

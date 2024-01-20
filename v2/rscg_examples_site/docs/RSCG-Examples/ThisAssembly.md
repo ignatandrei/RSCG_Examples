@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # ThisAssembly  by Daniel Cazzulino
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
@@ -531,7 +531,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800+bcc174ffec7da7634be4932c5d8f6ddf4b35dce1";
+        public const string InformationalVersion = @"2023.5.7.800+2f0911528d0680acf7201c9551ea3e565c6b9e4f";
 
         public const string Product = @"RSCG_Version";
 
@@ -568,9 +568,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"BuildInfo"
+        /// => @"funcky-discriminated-union"
         /// </summary>
-        public const string Branch = @"BuildInfo";
+        public const string Branch = @"funcky-discriminated-union";
     }
 }
 ```
@@ -600,9 +600,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"bcc174ffec7da7634be4932c5d8f6ddf4b35dce1"
+        /// => @"2f0911528d0680acf7201c9551ea3e565c6b9e4f"
         /// </summary>
-        public const string Commit = @"bcc174ffec7da7634be4932c5d8f6ddf4b35dce1";
+        public const string Commit = @"2f0911528d0680acf7201c9551ea3e565c6b9e4f";
     }
 }
 ```
@@ -664,9 +664,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"bcc174ffe"
+        /// => @"2f0911528"
         /// </summary>
-        public const string Sha = @"bcc174ffe";
+        public const string Sha = @"2f0911528";
     }
 }
 ```

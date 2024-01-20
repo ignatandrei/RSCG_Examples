@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Immutype  by Nikolay Pianikov 
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Immutype?label=Immutype)](https://www.nuget.org/packages/Immutype/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DevTeam/Immutype?label=updated)](https://github.com/DevTeam/Immutype)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RSCG_UtilityTypes  by Andrei Ignat
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypes?label=RSCG_UtilityTypes)](https://www.nuget.org/packages/RSCG_UtilityTypes/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypesCommon?label=RSCG_UtilityTypesCommon)](https://www.nuget.org/packages/RSCG_UtilityTypesCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_UtilityTypes?label=updated)](https://github.com/ignatandrei/RSCG_UtilityTypes)

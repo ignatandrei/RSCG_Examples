@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # PrimaryParameter  by FaustVX
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/FaustVX.PrimaryParameter.SG?label=FaustVX.PrimaryParameter.SG)](https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG)
 [![GitHub last commit](https://img.shields.io/github/last-commit/FaustVX/PrimaryParameter?label=updated)](https://github.com/FaustVX/PrimaryParameter)

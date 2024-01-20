@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Mediator  by Martin Othamar
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Mediator.SourceGenerator?label=Mediator.SourceGenerator)](https://www.nuget.org/packages/Mediator.SourceGenerator)[![Nuget](https://img.shields.io/nuget/dt/Mediator.Abstractions?label=Mediator.Abstractions)](https://www.nuget.org/packages/Mediator.Abstractions)
 [![GitHub last commit](https://img.shields.io/github/last-commit/martinothamar/Mediator?label=updated)](https://github.com/martinothamar/Mediator)

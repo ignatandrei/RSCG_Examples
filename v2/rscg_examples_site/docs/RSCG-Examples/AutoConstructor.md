@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # AutoConstructor  by Kévin Gallienne
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/AutoConstructor?label=AutoConstructor)](https://www.nuget.org/packages/AutoConstructor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/k94ll13nn3/AutoConstructor?label=updated)](https://github.com/k94ll13nn3/AutoConstructor)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # EnumClass  by ashen.Blade
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/EnumClass.Generator?label=EnumClass.Generator)](https://www.nuget.org/packages/EnumClass.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ashenBlade/EnumClass?label=updated)](https://github.com/ashenBlade/EnumClass)

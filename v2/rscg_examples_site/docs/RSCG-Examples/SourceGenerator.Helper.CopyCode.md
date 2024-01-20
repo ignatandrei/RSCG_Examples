@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # SourceGenerator.Helper.CopyCode  by Patrick Kranz
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/SourceGenerator.Helper.CopyCode?label=SourceGenerator.Helper.CopyCode)](https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/LokiMidgard/SourceGenerator.Helper.CopyCode?label=updated)](https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode)

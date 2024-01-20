@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 100 RSCG by category 
-description: 100 RSCG by category 
+title: 101 RSCG by category 
+description: 101 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -379,7 +379,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:5</summary>
+  <summary>Expand FilesToCode =>examples:6</summary>
         
 
 
@@ -404,6 +404,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ResXGenerator](/docs/ResXGenerator)
+
+        
+
+
+[Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 </details>
     
@@ -767,6 +772,8 @@ flowchart LR;
     FilesToCode--> ThisAssembly_Resources((ThisAssembly_Resources))
 
     FilesToCode--> ResXGenerator((ResXGenerator))
+
+    FilesToCode--> Chorn.EmbeddedResourceAccessGenerator((Chorn.EmbeddedResourceAccessGenerator))
 
     FunctionalProgramming--> dunet((dunet))
 

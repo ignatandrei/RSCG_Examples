@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # CredFetoEnum  by Mark Ridgwell
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Credfeto.Enumeration.Source.Generation?label=Credfeto.Enumeration.Source.Generation)](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/credfeto/credfeto-enum-source-generation?label=updated)](https://github.com/credfeto/credfeto-enum-source-generation)

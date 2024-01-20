@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # PropertyChangedSourceGenerator  by Antony Male
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/PropertyChanged.SourceGenerator?label=PropertyChanged.SourceGenerator)](https://www.nuget.org/packages/PropertyChanged.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/canton7/PropertyChanged.SourceGenerator?label=updated)](https://github.com/canton7/PropertyChanged.SourceGenerator)

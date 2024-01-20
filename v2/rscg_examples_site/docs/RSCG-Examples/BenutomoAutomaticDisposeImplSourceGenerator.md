@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # BenutomoAutomaticDisposeImplSourceGenerator  by benutomo
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Benutomo.AutomaticDisposeImpl.SourceGenerator?label=Benutomo.AutomaticDisposeImpl.SourceGenerator)](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/benutomo-dev/RoslynComponents?label=updated)](https://github.com/benutomo-dev/RoslynComponents)

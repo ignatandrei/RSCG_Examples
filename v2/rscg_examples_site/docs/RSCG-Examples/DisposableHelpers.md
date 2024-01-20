@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # DisposableHelpers  by Clynt Neiko Rupinta
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/DisposableHelpers?label=DisposableHelpers)](https://www.nuget.org/packages/DisposableHelpers/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Kiryuumaru/DisposableHelpers?label=updated)](https://github.com/Kiryuumaru/DisposableHelpers)

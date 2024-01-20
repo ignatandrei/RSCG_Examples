@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # AutoRegisterInject  by Patrick Klaeren
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/AutoRegisterInject?label=AutoRegisterInject)](https://www.nuget.org/packages/AutoRegisterInject/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/patrickklaeren/AutoRegisterInject?label=updated)](https://github.com/patrickklaeren/AutoRegisterInject)

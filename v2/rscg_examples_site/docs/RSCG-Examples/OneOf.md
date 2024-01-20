@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # OneOf  by Harry McIntyre
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/OneOf.SourceGenerator?label=OneOf.SourceGenerator)](https://www.nuget.org/packages/OneOf.SourceGenerator)[![Nuget](https://img.shields.io/nuget/dt/OneOf?label=OneOf)](https://www.nuget.org/packages/OneOf/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mcintyre321/OneOf?label=updated)](https://github.com/mcintyre321/OneOf)

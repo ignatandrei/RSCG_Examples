@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RSCG_Utils  by Ignat Andrei
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Utils?label=updated)](https://github.com/ignatandrei/RSCG_Utils)
@@ -218,6 +218,9 @@ as C# const
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
 
 ## In the same category (FilesToCode)
+
+
+### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)

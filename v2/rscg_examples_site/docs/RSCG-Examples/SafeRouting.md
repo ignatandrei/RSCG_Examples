@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # SafeRouting  by David Wake
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/SafeRouting?label=SafeRouting)](https://www.nuget.org/packages/SafeRouting/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/daviddotcs/safe-routing?label=updated)](https://github.com/daviddotcs/safe-routing)

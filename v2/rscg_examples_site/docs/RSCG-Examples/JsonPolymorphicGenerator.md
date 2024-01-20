@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # JsonPolymorphicGenerator  by surgicalcoder
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/GoLive.Generator.JsonPolymorphicGenerator?label=GoLive.Generator.JsonPolymorphicGenerator)](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/surgicalcoder/JsonPolymorphicGenerator?label=updated)](https://github.com/surgicalcoder/JsonPolymorphicGenerator)

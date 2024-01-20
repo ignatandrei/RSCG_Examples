@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # IDisposableGenerator  by Els_kom Official Organization
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/IDisposableGenerator?label=IDisposableGenerator)](https://www.nuget.org/packages/IDisposableGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Elskom/IDisposableGenerator?label=updated)](https://github.com/Elskom/IDisposableGenerator)

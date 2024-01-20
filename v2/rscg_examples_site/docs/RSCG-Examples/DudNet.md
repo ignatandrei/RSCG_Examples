@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # DudNet  by jwshyns
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Jwshyns.DudNet?label=Jwshyns.DudNet)](https://www.nuget.org/packages/Jwshyns.DudNet/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jwshyns/DudNet?label=updated)](https://github.com/jwshyns/DudNet)

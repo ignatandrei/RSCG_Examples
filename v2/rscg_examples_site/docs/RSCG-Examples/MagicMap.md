@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # MagicMap  by Bramer Daniel
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/MagicMap?label=MagicMap)](https://www.nuget.org/packages/MagicMap/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/bramerdaniel/MagicMap?label=updated)](https://github.com/bramerdaniel/MagicMap)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # GeneratorEquals  by Diego Frato
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Generator.Equals?label=Generator.Equals)](https://www.nuget.org/packages/Generator.Equals/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/diegofrata/Generator.Equals?label=updated)](https://github.com/diegofrata/Generator.Equals)

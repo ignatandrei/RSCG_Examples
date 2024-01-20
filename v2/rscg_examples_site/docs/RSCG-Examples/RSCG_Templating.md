@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RSCG_Templating  by Andrei Ignat
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Templating?label=RSCG_Templating)](https://www.nuget.org/packages/RSCG_Templating/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_TemplatingCommon?label=RSCG_TemplatingCommon)](https://www.nuget.org/packages/RSCG_TemplatingCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_templating?label=updated)](https://github.com/ignatandrei/rscg_templating/)

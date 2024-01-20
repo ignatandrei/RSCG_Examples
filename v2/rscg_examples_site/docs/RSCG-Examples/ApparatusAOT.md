@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # ApparatusAOT  by Stanislav Silin
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Apparatus.AOT.Reflection?label=Apparatus.AOT.Reflection)](https://www.nuget.org/packages/Apparatus.AOT.Reflection/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/byme8/Apparatus.AOT.Reflection?label=updated)](https://github.com/byme8/Apparatus.AOT.Reflection)
