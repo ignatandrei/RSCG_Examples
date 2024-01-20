@@ -152,6 +152,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",tooComplicated)
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
+, new("UnitTestBlazor https://github.com/bUnit-dev/bUnit",WaitingForIssue)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
