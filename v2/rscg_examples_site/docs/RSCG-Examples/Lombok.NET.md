@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Lombok.NET  by Colin Alpert
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Lombok.NET?label=Lombok.NET)](https://www.nuget.org/packages/Lombok.NET/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/CollinAlpert/Lombok.NET?label=updated)](https://github.com/CollinAlpert/Lombok.NET)

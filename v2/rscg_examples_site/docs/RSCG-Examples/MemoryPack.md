@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # MemoryPack  by Cysharp, Inc
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/MemoryPack?label=MemoryPack)](https://www.nuget.org/packages/MemoryPack/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cysharp/MemoryPack?label=updated)](https://github.com/Cysharp/MemoryPack)

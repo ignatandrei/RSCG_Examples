@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # StringLiteral  by Nobuyuki Iwanaga
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/StringLiteralGenerator?label=StringLiteralGenerator)](https://www.nuget.org/packages/StringLiteralGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ufcpp/StringLiteralGenerator?label=updated)](https://github.com/ufcpp/StringLiteralGenerator)

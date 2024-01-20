@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Chorn.EmbeddedResourceAccessGenerator",
+  "steps": 
+  [
+    {
+      "file": "EmbedRes/EmbedDemo.csproj",
+      "description": "Nuget  Chorn.EmbeddedResourceAccessGenerator registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "EmbedRes/sql/createDB.sql",
+        "description": "File createDB.sql ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EmbedRes/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

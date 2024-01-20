@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RSCG_WebAPIExports  by Andrei Ignat
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_WebAPIExports?label=RSCG_WebAPIExports)](https://www.nuget.org/packages/RSCG_WebAPIExports/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_WebAPIExports?label=updated)](https://github.com/ignatandrei/RSCG_WebAPIExports/)

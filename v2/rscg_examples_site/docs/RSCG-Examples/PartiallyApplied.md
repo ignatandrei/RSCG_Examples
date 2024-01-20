@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # PartiallyApplied  by Jason Bock
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/PartiallyApplied?label=PartiallyApplied)](https://www.nuget.org/packages/PartiallyApplied/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated)](https://github.com/JasonBock/PartiallyApplied)

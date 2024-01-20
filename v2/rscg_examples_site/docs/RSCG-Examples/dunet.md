@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # dunet  by Domn Werner
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/dunet?label=dunet)](https://www.nuget.org/packages/dunet/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/domn1995/dunet?label=updated)](https://github.com/domn1995/dunet)

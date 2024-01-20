@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # StaticReflection  by Cricle
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection?label=FastStaticReflection)](https://www.nuget.org/packages/FastStaticReflection/)[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection.CodeGen?label=FastStaticReflection.CodeGen)](https://www.nuget.org/packages/FastStaticReflection.CodeGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cricle/StaticReflection?label=updated)](https://github.com/Cricle/StaticReflection/)

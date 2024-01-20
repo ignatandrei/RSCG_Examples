@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # System.Text.Json  by Microsoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/System.Text.Json?label=System.Text.Json)](https://www.nuget.org/packages/System.Text.Json/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
@@ -315,7 +315,7 @@ namespace JsonSerializerOptionsExample
 namespace JsonSerializerOptionsExample
 {
     
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.7226")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.1910")]
     internal partial class OptionsExampleContext
     {
         

@@ -1,6 +1,6 @@
-# RSCG - 100 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 101 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-20 => 20 January 2024
+## Latest Update : 2024-01-21 => 21 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 100 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 101 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 101. [Chorn.EmbeddedResourceAccessGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator) generated on : 2024-01-21 => 21 January 2024
+<details>
+  <summary>Expand</summary>
+Author: Christoph Hornung
+
+Generates strongly typed access methods for embedded resources. 
+
+Nuget: [https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/](https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator)
+
+Source: [https://github.com/ChristophHornung/EmbeddedResourceGenerator](https://github.com/ChristophHornung/EmbeddedResourceGenerator)
+
+</details>
+
 ### 100. [BuildInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo) generated on : 2024-01-20 => 20 January 2024
 <details>
   <summary>Expand</summary>
@@ -36,7 +52,7 @@ Nuget: [https://www.nuget.org/packages/BuildInfo/](https://www.nuget.org/package
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo)
 
-Source: [https://www.nuget.org/packages/LinkDotNet.BuildInformation](https://www.nuget.org/packages/LinkDotNet.BuildInformation)
+Source: [https://github.com/linkdotnet/BuildInformation](https://github.com/linkdotnet/BuildInformation)
 
 </details>
 

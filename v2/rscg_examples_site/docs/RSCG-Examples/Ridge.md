@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Ridge  by Michal Motyčka
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Ridge?label=Ridge)](https://www.nuget.org/packages/Ridge/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Melchy/Ridge?label=updated)](https://github.com/Melchy/Ridge)

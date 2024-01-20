@@ -4,9 +4,9 @@
       "nuget":[
          "https://www.nuget.org/packages/BuildInfo/"
       ],
-      "link":"https://www.nuget.org/packages/LinkDotNet.BuildInformation",
+      "link":"https://github.com/linkdotnet/BuildInformation",
       "author":"Steven Giesel",
-      "source":"https://www.nuget.org/packages/LinkDotNet.BuildInformation"
+      "source":"https://github.com/linkdotnet/BuildInformation"
    },
    "data":{
       "goodFor":["Generating build information"],

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Breezy  by Ludovicdln
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Breezy.SourceGenerator?label=Breezy.SourceGenerator)](https://www.nuget.org/packages/Breezy.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ludovicdln/Breezy?label=updated)](https://github.com/Ludovicdln/Breezy)

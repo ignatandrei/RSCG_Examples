@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # UnitGenerator  by Cysharp, Inc
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/UnitGenerator?label=UnitGenerator)](https://www.nuget.org/packages/UnitGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cysharp/UnitGenerator?label=updated)](https://github.com/Cysharp/UnitGenerator)

@@ -1,0 +1,1 @@
+Generates strongly typed access methods for embedded resources.

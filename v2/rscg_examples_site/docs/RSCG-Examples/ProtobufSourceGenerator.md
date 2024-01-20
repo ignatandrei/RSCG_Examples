@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # ProtobufSourceGenerator  by Laszlo Deak
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/LaDeak.ProtobufSourceGenerator?label=LaDeak.ProtobufSourceGenerator)](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ladeak/ProtobufSourceGenerator?label=updated)](https://github.com/ladeak/ProtobufSourceGenerator)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # FastGenericNew  by Boring3 Nyrest
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/FastGenericNew.SourceGenerator?label=FastGenericNew.SourceGenerator)](https://www.nuget.org/packages/FastGenericNew.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Nyrest/FastGenericNew?label=updated)](https://github.com/Nyrest/FastGenericNew)

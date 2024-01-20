@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # NetEscapades.EnumGenerators  by Andrew Lock
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/NetEscapades.EnumGenerators?label=NetEscapades.EnumGenerators)](https://www.nuget.org/packages/NetEscapades.EnumGenerators/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/andrewlock/NetEscapades.EnumGenerators?label=updated)](https://github.com/andrewlock/NetEscapades.EnumGenerators)

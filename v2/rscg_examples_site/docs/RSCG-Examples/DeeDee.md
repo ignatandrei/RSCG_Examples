@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # DeeDee  by joh-pot
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/DeeDee?label=DeeDee)](https://www.nuget.org/packages/DeeDee/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/joh-pot/DeeDee?label=updated)](https://github.com/joh-pot/DeeDee/)

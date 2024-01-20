@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # MinimalApiBuilder  by 
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/MinimalApiBuilder?label=MinimalApiBuilder)](https://www.nuget.org/packages/MinimalApiBuilder/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JensDll/MinimalApiBuilder?label=updated)](https://github.com/JensDll/MinimalApiBuilder)

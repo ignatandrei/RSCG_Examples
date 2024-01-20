@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # TelemetryLogging  by Microsoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Telemetry.Abstractions?label=Microsoft.Extensions.Telemetry.Abstractions)](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/extensions?label=updated)](https://github.com/dotnet/extensions)

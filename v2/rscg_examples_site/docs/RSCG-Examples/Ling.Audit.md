@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Ling.Audit  by Jing Ling
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Ling.Audit?label=Ling.Audit)](https://www.nuget.org/packages/Ling.Audit/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ling921/dotnet-lib?label=updated)](https://github.com/ling921/dotnet-lib/)

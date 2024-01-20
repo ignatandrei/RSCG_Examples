@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Disposer  by Hakan Fıstık
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Disposer?label=Disposer)](https://www.nuget.org/packages/Disposer/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/HakamFostok/Disposer?label=updated)](https://github.com/HakamFostok/Disposer)

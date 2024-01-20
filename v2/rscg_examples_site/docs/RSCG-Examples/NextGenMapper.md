@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # NextGenMapper  by Anton Ryabchikov
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/NextGenMapper?label=NextGenMapper)](https://www.nuget.org/packages/NextGenMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DedAnton/NextGenMapper?label=updated)](https://github.com/DedAnton/NextGenMapper)

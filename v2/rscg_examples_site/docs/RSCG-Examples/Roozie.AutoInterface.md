@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Roozie.AutoInterface  by Alex Russak
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Roozie.AutoInterface?label=Roozie.AutoInterface)](https://www.nuget.org/packages/Roozie.AutoInterface/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlexRussak/Roozie.AutoInterface?label=updated)](https://github.com/AlexRussak/Roozie.AutoInterface)

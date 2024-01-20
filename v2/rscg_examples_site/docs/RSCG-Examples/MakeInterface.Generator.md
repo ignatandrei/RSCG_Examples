@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # MakeInterface.Generator  by Frederik
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/MakeInterface.Generator?label=MakeInterface.Generator)](https://www.nuget.org/packages/MakeInterface.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Frederik91/MakeInterface?label=updated)](https://github.com/Frederik91/MakeInterface)

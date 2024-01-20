@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # spreadcheetah  by Sveinung
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/spreadcheetah?label=spreadcheetah)](https://www.nuget.org/packages/spreadcheetah/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/sveinungf/spreadcheetah?label=updated)](https://github.com/sveinungf/spreadcheetah)

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # N.SourceGenerators.UnionTypes  by Alexey Sosnin
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/N.SourceGenerators.UnionTypes?label=N.SourceGenerators.UnionTypes)](https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ne4to/N.SourceGenerators.UnionTypes?label=updated)](https://github.com/Ne4to/N.SourceGenerators.UnionTypes)

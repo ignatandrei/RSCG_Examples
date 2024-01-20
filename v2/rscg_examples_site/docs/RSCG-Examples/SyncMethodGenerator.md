@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # SyncMethodGenerator  by Zomp Inc.
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Zomp.SyncMethodGenerator?label=Zomp.SyncMethodGenerator)](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/zompinc/sync-method-generator?label=updated)](https://github.com/zompinc/sync-method-generator)

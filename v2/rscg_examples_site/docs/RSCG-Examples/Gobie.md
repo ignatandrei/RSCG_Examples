@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Gobie  by Mike Conrad
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Gobie?label=Gobie)](https://www.nuget.org/packages/Gobie/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GobieGenerator/Gobie?label=updated)](https://github.com/GobieGenerator/Gobie/)

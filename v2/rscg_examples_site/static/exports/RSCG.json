@@ -798,9 +798,17 @@
       "Name": "BuildInfo",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo",
       "NuGet": "https://www.nuget.org/packages/BuildInfo/",
-      "Source": "https://www.nuget.org/packages/LinkDotNet.BuildInformation",
+      "Source": "https://github.com/linkdotnet/BuildInformation",
       "Category": "EnhancementProject",
       "AddedOn": "2024-01-20T00:00:00"
+    },
+    {
+      "Name": "Chorn.EmbeddedResourceAccessGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedRes",
+      "NuGet": "https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/",
+      "Source": "https://github.com/ChristophHornung/EmbeddedResourceGenerator",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-01-21T00:00:00"
     }
   ]
 }

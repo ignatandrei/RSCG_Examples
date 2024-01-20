@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # AutoCtor  by Cameron MacFarland
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/AutoCtor?label=AutoCtor)](https://www.nuget.org/packages/AutoCtor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/distantcam/AutoCtor?label=updated)](https://github.com/distantcam/AutoCtor)

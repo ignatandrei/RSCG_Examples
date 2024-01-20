@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Injectio  by LoreSoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Injectio?label=Injectio)](https://www.nuget.org/packages/Injectio/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/loresoft/Injectio?label=updated)](https://github.com/loresoft/Injectio)

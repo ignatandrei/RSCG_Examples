@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Biwen.AutoClassGen  by vipwan
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Biwen.AutoClassGen?label=Biwen.AutoClassGen)](https://www.nuget.org/packages/Biwen.AutoClassGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/vipwan/Biwen.AutoClassGen?label=updated)](https://github.com/vipwan/Biwen.AutoClassGen)

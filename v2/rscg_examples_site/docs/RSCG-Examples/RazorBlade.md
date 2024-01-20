@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RazorBlade  by Lucas Trzesniewski
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/RazorBlade?label=RazorBlade)](https://www.nuget.org/packages/RazorBlade/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ltrzesniewski/RazorBlade?label=updated)](https://github.com/ltrzesniewski/RazorBlade)

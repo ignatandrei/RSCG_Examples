@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # QuickConstructor  by Flavien Charlon
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/QuickConstructor?label=QuickConstructor)](https://www.nuget.org/packages/QuickConstructor)
 [![GitHub last commit](https://img.shields.io/github/last-commit/flavien/QuickConstructor?label=updated)](https://github.com/flavien/QuickConstructor)

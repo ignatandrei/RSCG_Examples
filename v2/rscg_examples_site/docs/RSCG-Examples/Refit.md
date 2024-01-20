@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Refit  by ReactiveUI
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Refit?label=Refit)](https://www.nuget.org/packages/Refit/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/reactiveui/refit?label=updated)](https://github.com/reactiveui/refit)

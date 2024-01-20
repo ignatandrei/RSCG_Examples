@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # RDG  by Microsoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Http?label=Microsoft.Extensions.Http)](https://www.nuget.org/packages/Microsoft.Extensions.Http)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/aspnetcore?label=updated)](https://github.com/dotnet/aspnetcore)
@@ -236,7 +236,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 namespace System.Runtime.CompilerServices
 {
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.0.0")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
     file sealed class InterceptsLocationAttribute : Attribute
     {
@@ -278,7 +278,7 @@ namespace Microsoft.AspNetCore.Http.Generated
     using MetadataPopulator = System.Func<System.Reflection.MethodInfo, Microsoft.AspNetCore.Http.RequestDelegateFactoryOptions?, Microsoft.AspNetCore.Http.RequestDelegateMetadataResult>;
     using RequestDelegateFactoryFunc = System.Func<System.Delegate, Microsoft.AspNetCore.Http.RequestDelegateFactoryOptions, Microsoft.AspNetCore.Http.RequestDelegateMetadataResult?, Microsoft.AspNetCore.Http.RequestDelegateResult>;
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.0.0")]
     file static class GeneratedRouteBuilderExtensionsCore
     {
         private static readonly JsonOptions FallbackJsonOptions = new();
@@ -294,7 +294,7 @@ namespace Microsoft.AspNetCore.Http.Generated
             {
                 Debug.Assert(options != null, "RequestDelegateFactoryOptions not found.");
                 Debug.Assert(options.EndpointBuilder != null, "EndpointBuilder not found.");
-                options.EndpointBuilder.Metadata.Add(new System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.1.0"));
+                options.EndpointBuilder.Metadata.Add(new System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.0.0"));
                 options.EndpointBuilder.Metadata.Add(new ProducesResponseTypeMetadata(statusCode: StatusCodes.Status200OK, type: typeof(global::WeatherForecast[]), contentTypes: GeneratedMetadataConstants.JsonContentType));
                 return new RequestDelegateMetadataResult { EndpointMetadata = options.EndpointBuilder.Metadata.AsReadOnly() };
             };
@@ -441,7 +441,7 @@ namespace Microsoft.AspNetCore.Http.Generated
 
     }
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.0.0")]
     file static class GeneratedMetadataConstants
     {
         public static readonly string[] JsonContentType = new [] { "application/json" };
@@ -451,7 +451,7 @@ namespace Microsoft.AspNetCore.Http.Generated
     }
 
 
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.1.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.AspNetCore.Http.RequestDelegateGenerator, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60", "8.0.0.0")]
     file sealed class LogOrThrowExceptionHelper
     {
         private readonly ILogger? _rdgLogger;

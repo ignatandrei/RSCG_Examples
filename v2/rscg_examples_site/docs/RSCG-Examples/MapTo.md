@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # MapTo  by Mohammedreza Taikandi
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/MapTo?label=MapTo)](https://www.nuget.org/packages/MapTo/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mrtaikandi/MapTo?label=updated)](https://github.com/mrtaikandi/MapTo)

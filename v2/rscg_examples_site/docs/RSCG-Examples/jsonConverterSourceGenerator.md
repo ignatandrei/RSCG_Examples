@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # jsonConverterSourceGenerator  by Aviationexam
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/Aviationexam.GeneratedJsonConverters.SourceGenerator?label=Aviationexam.GeneratedJsonConverters.SourceGenerator)](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/aviationexam/json-converter-source-generator?label=updated)](https://github.com/aviationexam/json-converter-source-generator)
@@ -1023,7 +1023,7 @@ public partial class ProjectJsonSerializerContext
 // Suppress warnings about [Obsolete] member usage in generated code.
 #pragma warning disable CS0618
     
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.7226")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.Json.SourceGeneration", "7.0.9.1910")]
     public partial class ProjectJsonSerializerContext
     {
         

@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Microsoft.NET.Sdk.Razor.SourceGenerators  by Microsoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 
 

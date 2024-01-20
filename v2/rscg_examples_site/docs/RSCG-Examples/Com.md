@@ -11,7 +11,7 @@ import TOCInline from '@theme/TOCInline';
 # Com  by Microsoft
 
 
-<TOCInline toc={toc} />
+<TOCInline toc={toc}  />
 
 [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
@@ -276,7 +276,7 @@ file unsafe class InterfaceInformation : global::System.Runtime.InteropServices.
 [global::System.Runtime.InteropServices.DynamicInterfaceCastableImplementationAttribute]
 file unsafe partial interface InterfaceImplementation : global::test.IShellExecute
 {
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.ComInterfaceGenerator", "8.0.9.8001")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.ComInterfaceGenerator", "8.0.9.3103")]
     [global::System.Runtime.CompilerServices.SkipLocalsInitAttribute]
     nint global::test.IShellExecute.ShellExecute(nint hwnd, string lpOperation, string lpFile, string lpParameters, string lpDirectory, int nShowCmd)
     {
