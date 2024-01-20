@@ -234,6 +234,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
 ## In the same category (EnhancementProject)
 
 
+### [BuildInfo](/docs/BuildInfo)
+
+
 ### [Com](/docs/Com)
 
 

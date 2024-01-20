@@ -379,6 +379,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 ## In the same category (EnhancementProject)
 
 
+### [BuildInfo](/docs/BuildInfo)
+
+
 ### [Com](/docs/Com)
 
 
