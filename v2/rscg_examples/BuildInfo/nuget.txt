@@ -1,0 +1,7 @@
+Exposes the following information for use directly from C# and VB:
+
+			The generated code contains only constants, so it can be used to construct your own assembly/file version attributes:
+
+			[assembly: AssemblyVersion("1.0.0." + ThisAssembly.BuildEnv.BuildId]
+
+			Inspired and best used with GitInfo.

@@ -98,3 +98,4 @@ Nr,Key,Source,Category
 97,DomainPrimitives, https://github.com/altasoft/DomainPrimitives,PrimitiveObsession
 98,FUD, https://github.com/polyadic/funcky-discriminated-union,FunctionalProgramming
 99,MakeInterface, https://github.com/Frederik91/MakeInterface,EnhancementClass
+100,BuildInfo, https://www.nuget.org/packages/LinkDotNet.BuildInformation,EnhancementProject

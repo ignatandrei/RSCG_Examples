@@ -1,6 +1,6 @@
-# RSCG - 99 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 100 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-19 => 19 January 2024
+## Latest Update : 2024-01-20 => 20 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 99 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 100 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 100. [BuildInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo) generated on : 2024-01-20 => 20 January 2024
+<details>
+  <summary>Expand</summary>
+Author: Steven Giesel
+
+Exposes the following information for use directly from C# and VB:
+
+			The generated code contains only constants, so it can be used to construct your own assembly/file version attributes:
+
+			[assembly: AssemblyVersion("1.0.0." + ThisAssembly.BuildEnv.BuildId]
+
+			Inspired and best used with GitInfo. 
+
+Nuget: [https://www.nuget.org/packages/BuildInfo/](https://www.nuget.org/packages/BuildInfo/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo)
+
+Source: [https://www.nuget.org/packages/LinkDotNet.BuildInformation](https://www.nuget.org/packages/LinkDotNet.BuildInformation)
+
+</details>
+
 ### 99. [MakeInterface.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator) generated on : 2024-01-19 => 19 January 2024
 <details>
   <summary>Expand</summary>

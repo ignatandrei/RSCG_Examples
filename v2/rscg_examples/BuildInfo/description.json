@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"BuildInfo",
+      "nuget":[
+         "https://www.nuget.org/packages/BuildInfo/"
+      ],
+      "link":"https://www.nuget.org/packages/LinkDotNet.BuildInformation",
+      "author":"Steven Giesel",
+      "source":"https://www.nuget.org/packages/LinkDotNet.BuildInformation"
+   },
+   "data":{
+      "goodFor":["Generating build information"],
+      "csprojDemo":"RSCG_Version.csproj",
+      "csFiles":["Program.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

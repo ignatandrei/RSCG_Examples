@@ -276,7 +276,7 @@ file unsafe class InterfaceInformation : global::System.Runtime.InteropServices.
 [global::System.Runtime.InteropServices.DynamicInterfaceCastableImplementationAttribute]
 file unsafe partial interface InterfaceImplementation : global::test.IShellExecute
 {
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.ComInterfaceGenerator", "8.0.9.3103")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.ComInterfaceGenerator", "8.0.9.8001")]
     [global::System.Runtime.CompilerServices.SkipLocalsInitAttribute]
     nint global::test.IShellExecute.ShellExecute(nint hwnd, string lpOperation, string lpFile, string lpParameters, string lpDirectory, int nShowCmd)
     {
@@ -426,6 +426,9 @@ namespace test
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com
 
 ## In the same category (EnhancementProject)
+
+
+### [BuildInfo](/docs/BuildInfo)
 
 
 ### [DeeDee](/docs/DeeDee)

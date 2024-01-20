@@ -283,6 +283,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyC
 ## In the same category (EnhancementProject)
 
 
+### [BuildInfo](/docs/BuildInfo)
+
+
 ### [Com](/docs/Com)
 
 

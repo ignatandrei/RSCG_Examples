@@ -268,6 +268,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"DomainPrimitives",new(true,new(2024,1,11),Category.PrimitiveObsession) },
             {"FUD",new(true,new(2024,1,18),Category.FunctionalProgramming) },
             {"MakeInterface",new(true,new(2024,1,19),Category.EnhancementClass) },
+            {"BuildInfo",new(true,new(2024,1,20),Category.EnhancementProject) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

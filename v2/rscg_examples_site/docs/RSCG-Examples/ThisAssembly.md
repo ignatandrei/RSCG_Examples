@@ -531,7 +531,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800+2f0911528d0680acf7201c9551ea3e565c6b9e4f";
+        public const string InformationalVersion = @"2023.5.7.800+bcc174ffec7da7634be4932c5d8f6ddf4b35dce1";
 
         public const string Product = @"RSCG_Version";
 
@@ -568,9 +568,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"funcky-discriminated-union"
+        /// => @"BuildInfo"
         /// </summary>
-        public const string Branch = @"funcky-discriminated-union";
+        public const string Branch = @"BuildInfo";
     }
 }
 ```
@@ -600,9 +600,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"2f0911528d0680acf7201c9551ea3e565c6b9e4f"
+        /// => @"bcc174ffec7da7634be4932c5d8f6ddf4b35dce1"
         /// </summary>
-        public const string Commit = @"2f0911528d0680acf7201c9551ea3e565c6b9e4f";
+        public const string Commit = @"bcc174ffec7da7634be4932c5d8f6ddf4b35dce1";
     }
 }
 ```
@@ -664,9 +664,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"2f0911528"
+        /// => @"bcc174ffe"
         /// </summary>
-        public const string Sha = @"2f0911528";
+        public const string Sha = @"bcc174ffe";
     }
 }
 ```
@@ -905,6 +905,9 @@ partial class ThisAssembly
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 
 ## In the same category (EnhancementProject)
+
+
+### [BuildInfo](/docs/BuildInfo)
 
 
 ### [Com](/docs/Com)

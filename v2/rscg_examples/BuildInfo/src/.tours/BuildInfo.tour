@@ -1,0 +1,22 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BuildInfo",
+  "steps": 
+  [
+    {
+      "file": "RSCG_Version/RSCG_Version.csproj",
+      "description": "Nuget  BuildInfo registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "RSCG_Version/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

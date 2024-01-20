@@ -793,6 +793,14 @@
       "Source": "https://github.com/Frederik91/MakeInterface",
       "Category": "EnhancementClass",
       "AddedOn": "2024-01-19T00:00:00"
+    },
+    {
+      "Name": "BuildInfo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo",
+      "NuGet": "https://www.nuget.org/packages/BuildInfo/",
+      "Source": "https://www.nuget.org/packages/LinkDotNet.BuildInformation",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-01-20T00:00:00"
     }
   ]
 }
