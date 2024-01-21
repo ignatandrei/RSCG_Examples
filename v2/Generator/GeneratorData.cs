@@ -40,7 +40,7 @@ public enum Category
     Optimizer,
     Disposer,
     Enum,
-    EnhancementInterface,
+    Interface,
     Blazor,
 }
 
