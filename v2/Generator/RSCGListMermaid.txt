@@ -11,7 +11,7 @@ import DocCardList from '@theme/DocCardList';
 
 {{~ for rscgKV in categDict ~}}
 
-## {{rscgKV.Key}} 
+## {{rscgKV.Key}} Number Examples: {{rscgKV.Value.size}}
 <details>
     
   <summary>Expand {{rscgKV.Key}} =>examples:{{rscgKV.Value.size}}</summary>

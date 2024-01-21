@@ -10,7 +10,7 @@ import DocCardList from '@theme/DocCardList';
 [See time based list](/docs/List-of-RSCG)
 
 
-## API 
+## API Number Examples: 7
 <details>
     
   <summary>Expand API =>examples:7</summary>
@@ -52,7 +52,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Constructor 
+## Constructor Number Examples: 5
 <details>
     
   <summary>Expand Constructor =>examples:5</summary>
@@ -84,7 +84,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Database 
+## Database Number Examples: 2
 <details>
     
   <summary>Expand Database =>examples:2</summary>
@@ -101,7 +101,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## DependencyInjection 
+## DependencyInjection Number Examples: 2
 <details>
     
   <summary>Expand DependencyInjection =>examples:2</summary>
@@ -118,7 +118,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Disposer 
+## Disposer Number Examples: 4
 <details>
     
   <summary>Expand Disposer =>examples:4</summary>
@@ -145,7 +145,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementClass 
+## EnhancementClass Number Examples: 28
 <details>
     
   <summary>Expand EnhancementClass =>examples:28</summary>
@@ -292,7 +292,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementProject 
+## EnhancementProject Number Examples: 11
 <details>
     
   <summary>Expand EnhancementProject =>examples:11</summary>
@@ -354,7 +354,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Enum 
+## Enum Number Examples: 3
 <details>
     
   <summary>Expand Enum =>examples:3</summary>
@@ -376,7 +376,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## FilesToCode 
+## FilesToCode Number Examples: 6
 <details>
     
   <summary>Expand FilesToCode =>examples:6</summary>
@@ -413,7 +413,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## FunctionalProgramming 
+## FunctionalProgramming Number Examples: 6
 <details>
     
   <summary>Expand FunctionalProgramming =>examples:6</summary>
@@ -450,7 +450,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Mapper 
+## Mapper Number Examples: 6
 <details>
     
   <summary>Expand Mapper =>examples:6</summary>
@@ -487,7 +487,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## MVVM 
+## MVVM Number Examples: 2
 <details>
     
   <summary>Expand MVVM =>examples:2</summary>
@@ -504,7 +504,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Optimizer 
+## Optimizer Number Examples: 1
 <details>
     
   <summary>Expand Optimizer =>examples:1</summary>
@@ -516,7 +516,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## PrimitiveObsession 
+## PrimitiveObsession Number Examples: 4
 <details>
     
   <summary>Expand PrimitiveObsession =>examples:4</summary>
@@ -543,7 +543,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Serializer 
+## Serializer Number Examples: 4
 <details>
     
   <summary>Expand Serializer =>examples:4</summary>
@@ -570,7 +570,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Templating 
+## Templating Number Examples: 7
 <details>
     
   <summary>Expand Templating =>examples:7</summary>
@@ -612,7 +612,7 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Tests 
+## Tests Number Examples: 3
 <details>
     
   <summary>Expand Tests =>examples:3</summary>
