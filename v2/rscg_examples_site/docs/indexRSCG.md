@@ -14,7 +14,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 This is the list of 101 ( 12 from Microsoft) RSCG with examples 
 
-[See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
+[See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
 <div className="ml-embedded" data-form="P8l1V8"></div>
 
