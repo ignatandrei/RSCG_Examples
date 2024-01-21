@@ -613,6 +613,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
+### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+
+
 ### [Matryoshki](/docs/Matryoshki)
 
 

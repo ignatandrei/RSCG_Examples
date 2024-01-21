@@ -497,9 +497,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals
 ### [M31.FluentAPI](/docs/M31.FluentAPI)
 
 
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
 ### [MemoryPack](/docs/MemoryPack)
 
 

@@ -405,6 +405,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen
 ### [CopyCat](/docs/CopyCat)
 
 
+### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+
+
 ### [Matryoshki](/docs/Matryoshki)
 
 

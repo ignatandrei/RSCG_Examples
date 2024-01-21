@@ -227,6 +227,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 ### [CopyCat](/docs/CopyCat)
 
 
+### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+
+
 ### [Matryoshki](/docs/Matryoshki)
 
 

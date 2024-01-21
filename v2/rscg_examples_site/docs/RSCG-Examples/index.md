@@ -145,10 +145,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementClass Number Examples: 25
+## EnhancementClass Number Examples: 24
 <details>
     
-  <summary>Expand EnhancementClass =>examples:25</summary>
+  <summary>Expand EnhancementClass =>examples:24</summary>
         
 
 
@@ -269,18 +269,13 @@ import DocCardList from '@theme/DocCardList';
 
 [HsuSgSync](/docs/HsuSgSync)
 
-        
-
-
-[MakeInterface.Generator](/docs/MakeInterface.Generator)
-
 </details>
     
 
-## EnhancementInterface Number Examples: 5
+## EnhancementInterface Number Examples: 6
 <details>
     
-  <summary>Expand EnhancementInterface =>examples:5</summary>
+  <summary>Expand EnhancementInterface =>examples:6</summary>
         
 
 
@@ -305,6 +300,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [CopyCat](/docs/CopyCat)
+
+        
+
+
+[MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 </details>
     
@@ -734,8 +734,6 @@ flowchart LR;
 
     EnhancementClass--> HsuSgSync((HsuSgSync))
 
-    EnhancementClass--> MakeInterface.Generator((MakeInterface.Generator))
-
     EnhancementInterface--> RSCG_Static((RSCG_Static))
 
     EnhancementInterface--> Matryoshki((Matryoshki))
@@ -745,6 +743,8 @@ flowchart LR;
     EnhancementInterface--> Biwen.AutoClassGen((Biwen.AutoClassGen))
 
     EnhancementInterface--> CopyCat((CopyCat))
+
+    EnhancementInterface--> MakeInterface.Generator((MakeInterface.Generator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

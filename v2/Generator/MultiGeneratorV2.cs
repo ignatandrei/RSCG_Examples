@@ -269,7 +269,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"HsuSgSync",new(true,new(2024,1,10),Category.EnhancementClass) },
             {"DomainPrimitives",new(true,new(2024,1,11),Category.PrimitiveObsession) },
             {"FUD",new(true,new(2024,1,18),Category.FunctionalProgramming) },
-            {"MakeInterface",new(true,new(2024,1,19),Category.EnhancementClass) },
+            {"MakeInterface",new(true,new(2024,1,19),Category.EnhancementInterface) },
             {"BuildInfo",new(true,new(2024,1,20),Category.EnhancementProject) },
             {"EmbedRes", new(true,new(2024,1,21),Category.FilesToCode) }
         }; 
@@ -894,7 +894,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var latest = generators["FUD"];
+        var latest = generators["EmbedRes"];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
             .Where(it => it.generatedDate > latest.dtStart)

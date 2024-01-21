@@ -25,7 +25,7 @@ This is the list of 101 ( 12 from Microsoft) RSCG with examples
 | --------- | ----- | ---- | -------- |  
 |101| [Chorn.EmbeddedResourceAccessGenerator by Christoph Hornung ](/docs/Chorn.EmbeddedResourceAccessGenerator)|2024-01-21 => 21 January 2024 | FilesToCode |
 |100| [BuildInfo by Steven Giesel ](/docs/BuildInfo)|2024-01-20 => 20 January 2024 | EnhancementProject |
-|99| [MakeInterface.Generator by Frederik ](/docs/MakeInterface.Generator)|2024-01-19 => 19 January 2024 | EnhancementClass |
+|99| [MakeInterface.Generator by Frederik ](/docs/MakeInterface.Generator)|2024-01-19 => 19 January 2024 | EnhancementInterface |
 |98| [Funcky.DiscriminatedUnion by Polyadic ](/docs/Funcky.DiscriminatedUnion)|2024-01-18 => 18 January 2024 | FunctionalProgramming |
 |97| [DomainPrimitives by Alta Software - Teimuraz Nikolaishvili ](/docs/DomainPrimitives)|2024-01-11 => 11 January 2024 | PrimitiveObsession |
 |96| [HsuSgSync by Net Hsu ](/docs/HsuSgSync)|2024-01-10 => 10 January 2024 | EnhancementClass |

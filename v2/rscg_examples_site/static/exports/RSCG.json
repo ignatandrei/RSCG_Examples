@@ -791,7 +791,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface",
       "NuGet": "https://www.nuget.org/packages/MakeInterface.Generator/",
       "Source": "https://github.com/Frederik91/MakeInterface",
-      "Category": "EnhancementClass",
+      "Category": "EnhancementInterface",
       "AddedOn": "2024-01-19T00:00:00"
     },
     {
