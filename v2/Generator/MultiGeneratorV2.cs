@@ -141,7 +141,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
 ,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
-,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",inspirational )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
+,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",later )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
@@ -153,6 +153,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Blazorators https://github.com/IEvangelist/blazorators",WaitingForIssue)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
 , new("UnitTestBlazor https://github.com/bUnit-dev/bUnit",WaitingForIssue)
+,new("Dexie https://github.com/b-straub/DexieNET",tooComplicated)
     };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
