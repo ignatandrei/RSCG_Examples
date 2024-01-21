@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating properties  from interface to class."],
       "csprojDemo":"FromInterface.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs","Person.cs","IPerson.cs","IPerson2.cs"]
    },
    "links":{
       "blog":"",

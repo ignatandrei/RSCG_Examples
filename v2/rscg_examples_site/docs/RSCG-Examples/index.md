@@ -145,10 +145,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementClass Number Examples: 28
+## EnhancementClass Number Examples: 25
 <details>
     
-  <summary>Expand EnhancementClass =>examples:28</summary>
+  <summary>Expand EnhancementClass =>examples:25</summary>
         
 
 
@@ -158,11 +158,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-        
-
-
-[RSCG_Static](/docs/RSCG_Static)
 
         
 
@@ -247,11 +242,6 @@ import DocCardList from '@theme/DocCardList';
         
 
 
-[Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-        
-
-
 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
         
@@ -277,11 +267,6 @@ import DocCardList from '@theme/DocCardList';
         
 
 
-[CopyCat](/docs/CopyCat)
-
-        
-
-
 [HsuSgSync](/docs/HsuSgSync)
 
         
@@ -292,10 +277,42 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementProject Number Examples: 11
+## EnhancementInterface Number Examples: 5
 <details>
     
-  <summary>Expand EnhancementProject =>examples:11</summary>
+  <summary>Expand EnhancementInterface =>examples:5</summary>
+        
+
+
+[RSCG_Static](/docs/RSCG_Static)
+
+        
+
+
+[Matryoshki](/docs/Matryoshki)
+
+        
+
+
+[ProxyGen](/docs/ProxyGen)
+
+        
+
+
+[Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+
+        
+
+
+[CopyCat](/docs/CopyCat)
+
+</details>
+    
+
+## EnhancementProject Number Examples: 9
+<details>
+    
+  <summary>Expand EnhancementProject =>examples:9</summary>
         
 
 
@@ -324,17 +341,7 @@ import DocCardList from '@theme/DocCardList';
         
 
 
-[Matryoshki](/docs/Matryoshki)
-
-        
-
-
 [DeeDee](/docs/DeeDee)
-
-        
-
-
-[ProxyGen](/docs/ProxyGen)
 
         
 
@@ -683,8 +690,6 @@ flowchart LR;
 
     EnhancementClass--> Microsoft.Extensions.Logging((Microsoft.Extensions.Logging))
 
-    EnhancementClass--> RSCG_Static((RSCG_Static))
-
     EnhancementClass--> System.Runtime.InteropServices((System.Runtime.InteropServices))
 
     EnhancementClass--> ApparatusAOT((ApparatusAOT))
@@ -717,8 +722,6 @@ flowchart LR;
 
     EnhancementClass--> DudNet((DudNet))
 
-    EnhancementClass--> Biwen.AutoClassGen((Biwen.AutoClassGen))
-
     EnhancementClass--> Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator((Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator))
 
     EnhancementClass--> TelemetryLogging((TelemetryLogging))
@@ -729,11 +732,19 @@ flowchart LR;
 
     EnhancementClass--> AspectGenerator((AspectGenerator))
 
-    EnhancementClass--> CopyCat((CopyCat))
-
     EnhancementClass--> HsuSgSync((HsuSgSync))
 
     EnhancementClass--> MakeInterface.Generator((MakeInterface.Generator))
+
+    EnhancementInterface--> RSCG_Static((RSCG_Static))
+
+    EnhancementInterface--> Matryoshki((Matryoshki))
+
+    EnhancementInterface--> ProxyGen((ProxyGen))
+
+    EnhancementInterface--> Biwen.AutoClassGen((Biwen.AutoClassGen))
+
+    EnhancementInterface--> CopyCat((CopyCat))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
@@ -745,11 +756,7 @@ flowchart LR;
 
     EnhancementProject--> Mediator((Mediator))
 
-    EnhancementProject--> Matryoshki((Matryoshki))
-
     EnhancementProject--> DeeDee((DeeDee))
-
-    EnhancementProject--> ProxyGen((ProxyGen))
 
     EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 

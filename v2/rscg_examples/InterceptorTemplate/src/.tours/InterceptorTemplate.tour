@@ -11,14 +11,20 @@
     }
 
         ,{
-        "file": "RSCG_InterceptorTemplateConsole/Interceptors/FullName.txt",
-        "description": "File FullName.txt ",
+        "file": "RSCG_DemoObjects/IPersonLoader.cs",
+        "description": "File IPersonLoader.cs ",
         "line": 1
         }
     
         ,{
         "file": "RSCG_InterceptorTemplateConsole/Interceptors/GenericInterceptorForAllMethods.txt",
         "description": "File GenericInterceptorForAllMethods.txt ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/Interceptors/TestFullNameWithArguments.txt",
+        "description": "File TestFullNameWithArguments.txt ",
         "line": 1
         }
     

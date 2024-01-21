@@ -22,15 +22,17 @@
 "step_17_text": "I have used the InterceptorTemplate in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Interceptors\\FullName.txt",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_DemoObjects\\IPersonLoader.cs",
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Interceptors\\GenericInterceptorForAllMethods.txt",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Interceptors\\FullName.txt",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Interceptors\\TestFullNameWithArguments.txt",
     
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Program.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Interceptors\\FullName.txt",
     
-"step_22_hide": "hide"
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\InterceptorTemplate\\src\\RSCG_InterceptorTemplateConsole\\Program.cs",
+    
+"step_23_hide": "hide"
 
 
 }

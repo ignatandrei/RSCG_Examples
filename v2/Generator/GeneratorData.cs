@@ -39,7 +39,8 @@ public enum Category
     Serializer,
     Optimizer,
     Disposer,
-    Enum
+    Enum,
+    EnhancementInterface,
 
 }
 

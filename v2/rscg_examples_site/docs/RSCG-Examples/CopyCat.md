@@ -607,86 +607,17 @@ internal partial class CoffeeWithLogging
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat
 
-## In the same category (EnhancementClass)
-
-
-### [ApparatusAOT](/docs/ApparatusAOT)
-
-
-### [AspectGenerator](/docs/AspectGenerator)
+## In the same category (EnhancementInterface)
 
 
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [BuilderGenerator](/docs/BuilderGenerator)
+### [Matryoshki](/docs/Matryoshki)
 
 
-### [DudNet](/docs/DudNet)
-
-
-### [FastGenericNew](/docs/FastGenericNew)
-
-
-### [GeneratorEquals](/docs/GeneratorEquals)
-
-
-### [HsuSgSync](/docs/HsuSgSync)
-
-
-### [Immutype](/docs/Immutype)
-
-
-### [Ling.Audit](/docs/Ling.Audit)
-
-
-### [Lombok.NET](/docs/Lombok.NET)
-
-
-### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-### [MemoryPack](/docs/MemoryPack)
-
-
-### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-### [RSCG_Decorator](/docs/RSCG_Decorator)
+### [ProxyGen](/docs/ProxyGen)
 
 
 ### [RSCG_Static](/docs/RSCG_Static)
-
-
-### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
-
-
-### [StaticReflection](/docs/StaticReflection)
-
-
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
-
-
-### [TelemetryLogging](/docs/TelemetryLogging)
 

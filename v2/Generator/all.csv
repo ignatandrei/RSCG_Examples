@@ -6,7 +6,7 @@ Nr,Key,Source,Category
 5,System.Text.RegularExpressions, https://github.com/dotnet/runtime,EnhancementClass
 6,SkinnyControllersCommon, https://github.com/ignatandrei/SkinnyControllersGenerator/,API
 7,Microsoft.Extensions.Logging, https://github.com/dotnet/runtime,EnhancementClass
-8,RSCG_Static, https://github.com/ignatandrei/RSCG_Static,EnhancementClass
+8,RSCG_Static, https://github.com/ignatandrei/RSCG_Static,EnhancementInterface
 9,CommunityToolkit.Mvvm, https://github.com/CommunityToolkit/dotnet,MVVM
 10,RSCG_AMS, https://github.com/ignatandrei/RSCG_AMS,EnhancementProject
 11,AutoDeconstruct, https://github.com/jasonbock/autodeconstruct,Constructor
@@ -31,10 +31,10 @@ Nr,Key,Source,Category
 30,Refit, https://github.com/reactiveui/refit,API
 31,MorrisMoxy, https://github.com/mrpmorris/Morris.Moxy,Templating
 32,Mediator, https://github.com/martinothamar/Mediator,EnhancementProject
-33,Matryoshki, https://github.com/krasin-ga/matryoshki/,EnhancementProject
+33,Matryoshki, https://github.com/krasin-ga/matryoshki/,EnhancementInterface
 34,MemoryPack, https://github.com/Cysharp/MemoryPack,EnhancementClass
 35,DeeDee, https://github.com/joh-pot/DeeDee/,EnhancementProject
-36,ProxyGen, https://github.com/Sholtee/ProxyGen,EnhancementProject
+36,ProxyGen, https://github.com/Sholtee/ProxyGen,EnhancementInterface
 37,AutoRegisterInject, https://github.com/patrickklaeren/AutoRegisterInject,DependencyInjection
 38,EnumClass, https://github.com/ashenBlade/EnumClass,Enum
 39,Breezy, https://github.com/Ludovicdln/Breezy,Database
@@ -82,7 +82,7 @@ Nr,Key,Source,Category
 81,N.SourceGenerators.UnionTypes, https://github.com/Ne4to/N.SourceGenerators.UnionTypes,FunctionalProgramming
 82,jscsg, https://github.com/aviationexam/json-converter-source-generator,Serializer
 83,PrimaryParameter, https://github.com/FaustVX/PrimaryParameter,Constructor
-84,Biwen.AutoClassGen, https://github.com/vipwan/Biwen.AutoClassGen,EnhancementClass
+84,Biwen.AutoClassGen, https://github.com/vipwan/Biwen.AutoClassGen,EnhancementInterface
 85,OptValidator, https://github.com/dotnet/runtime,EnhancementClass
 86,ConfigBinder, https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator,API
 87,RDG, https://github.com/dotnet/aspnetcore,API
@@ -93,7 +93,7 @@ Nr,Key,Source,Category
 92,RSCG_UtilityTypes, https://github.com/ignatandrei/RSCG_UtilityTypes,EnhancementClass
 93,Mocklis, https://github.com/mocklis/mocklis/,Tests
 94,AspectGenerator, https://github.com/igor-tkachev/AspectGenerator,EnhancementClass
-95,CopyCat, https://github.com/Otaman/Copycat/,EnhancementClass
+95,CopyCat, https://github.com/Otaman/Copycat/,EnhancementInterface
 96,HsuSgSync, https://github.com/hsu-net/source-generators,EnhancementClass
 97,DomainPrimitives, https://github.com/altasoft/DomainPrimitives,PrimitiveObsession
 98,FUD, https://github.com/polyadic/funcky-discriminated-union,FunctionalProgramming

@@ -132,6 +132,61 @@ Console.WriteLine(p.FullName());
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Biwen.AutoClassGen\src\FromInterface\Person.cs" label="Person.cs" >
+
+  This is the use of **Biwen.AutoClassGen** in *Person.cs*
+
+```csharp showLineNumbers 
+namespace FromInterface;
+public partial class Person //: IPerson
+{
+   public string FullName() { return FirstName + " " + LastName; }
+
+}
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Biwen.AutoClassGen\src\FromInterface\IPerson.cs" label="IPerson.cs" >
+
+  This is the use of **Biwen.AutoClassGen** in *IPerson.cs*
+
+```csharp showLineNumbers 
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
+
+namespace FromInterface;
+public interface IPerson
+{
+    
+    [StringLength(100), Description("person first name")]
+    string FirstName { get; set; }
+    string LastName { get; set; }
+
+    public string FullName();
+
+}
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Biwen.AutoClassGen\src\FromInterface\IPerson2.cs" label="IPerson2.cs" >
+
+  This is the use of **Biwen.AutoClassGen** in *IPerson2.cs*
+
+```csharp showLineNumbers 
+using Biwen.AutoClassGen.Attributes;
+
+namespace FromInterface;
+
+[AutoGen("Person", "FromInterface")]
+public interface IPerson2: IPerson
+{
+
+}
+
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files
@@ -200,86 +255,17 @@ namespace FromInterface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 
-## In the same category (EnhancementClass)
-
-
-### [ApparatusAOT](/docs/ApparatusAOT)
-
-
-### [AspectGenerator](/docs/AspectGenerator)
-
-
-### [BuilderGenerator](/docs/BuilderGenerator)
+## In the same category (EnhancementInterface)
 
 
 ### [CopyCat](/docs/CopyCat)
 
 
-### [DudNet](/docs/DudNet)
+### [Matryoshki](/docs/Matryoshki)
 
 
-### [FastGenericNew](/docs/FastGenericNew)
-
-
-### [GeneratorEquals](/docs/GeneratorEquals)
-
-
-### [HsuSgSync](/docs/HsuSgSync)
-
-
-### [Immutype](/docs/Immutype)
-
-
-### [Ling.Audit](/docs/Ling.Audit)
-
-
-### [Lombok.NET](/docs/Lombok.NET)
-
-
-### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-### [MemoryPack](/docs/MemoryPack)
-
-
-### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-### [RSCG_Decorator](/docs/RSCG_Decorator)
+### [ProxyGen](/docs/ProxyGen)
 
 
 ### [RSCG_Static](/docs/RSCG_Static)
-
-
-### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
-
-
-### [StaticReflection](/docs/StaticReflection)
-
-
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
-
-
-### [TelemetryLogging](/docs/TelemetryLogging)
 

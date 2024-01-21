@@ -29,7 +29,7 @@ This is the list of 101 ( 12 from Microsoft) RSCG with examples
 |98| [Funcky.DiscriminatedUnion by Polyadic ](/docs/Funcky.DiscriminatedUnion)|2024-01-18 => 18 January 2024 | FunctionalProgramming |
 |97| [DomainPrimitives by Alta Software - Teimuraz Nikolaishvili ](/docs/DomainPrimitives)|2024-01-11 => 11 January 2024 | PrimitiveObsession |
 |96| [HsuSgSync by Net Hsu ](/docs/HsuSgSync)|2024-01-10 => 10 January 2024 | EnhancementClass |
-|95| [CopyCat by Serhii Buta ](/docs/CopyCat)|2024-01-09 => 09 January 2024 | EnhancementClass |
+|95| [CopyCat by Serhii Buta ](/docs/CopyCat)|2024-01-09 => 09 January 2024 | EnhancementInterface |
 |94| [AspectGenerator by Igor Tkachev ](/docs/AspectGenerator)|2024-01-07 => 07 January 2024 | EnhancementClass |
 |93| [mocklis by Esbjörn Redmo ](/docs/mocklis)|2024-01-03 => 03 January 2024 | Tests |
 |92| [RSCG_UtilityTypes by Andrei Ignat ](/docs/RSCG_UtilityTypes)|2023-12-22 => 22 December 2023 | EnhancementClass |
@@ -40,7 +40,7 @@ This is the list of 101 ( 12 from Microsoft) RSCG with examples
 |87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
 |86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
 |85| [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator by Microsoft ](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)|2023-11-17 => 17 November 2023 | EnhancementClass |
-|84| [Biwen.AutoClassGen by vipwan ](/docs/Biwen.AutoClassGen)|2023-11-16 => 16 November 2023 | EnhancementClass |
+|84| [Biwen.AutoClassGen by vipwan ](/docs/Biwen.AutoClassGen)|2023-11-16 => 16 November 2023 | EnhancementInterface |
 |83| [PrimaryParameter by FaustVX ](/docs/PrimaryParameter)|2023-11-15 => 15 November 2023 | Constructor |
 |82| [jsonConverterSourceGenerator by Aviationexam ](/docs/jsonConverterSourceGenerator)|2023-10-30 => 30 October 2023 | Serializer |
 |81| [N.SourceGenerators.UnionTypes by Alexey Sosnin ](/docs/N.SourceGenerators.UnionTypes)|2023-10-29 => 29 October 2023 | FunctionalProgramming |
@@ -88,10 +88,10 @@ This is the list of 101 ( 12 from Microsoft) RSCG with examples
 |39| [Breezy by Ludovicdln ](/docs/Breezy)|2023-08-09 => 09 August 2023 | Database |
 |38| [EnumClass by ashen.Blade ](/docs/EnumClass)|2023-08-08 => 08 August 2023 | Enum |
 |37| [AutoRegisterInject by Patrick Klaeren ](/docs/AutoRegisterInject)|2023-08-07 => 07 August 2023 | DependencyInjection |
-|36| [ProxyGen by Dénes Solti ](/docs/ProxyGen)|2023-08-06 => 06 August 2023 | EnhancementProject |
+|36| [ProxyGen by Dénes Solti ](/docs/ProxyGen)|2023-08-06 => 06 August 2023 | EnhancementInterface |
 |35| [DeeDee by joh-pot ](/docs/DeeDee)|2023-08-05 => 05 August 2023 | EnhancementProject |
 |34| [MemoryPack by Cysharp, Inc ](/docs/MemoryPack)|2023-08-04 => 04 August 2023 | EnhancementClass |
-|33| [Matryoshki by Georgy Krasin ](/docs/Matryoshki)|2023-08-03 => 03 August 2023 | EnhancementProject |
+|33| [Matryoshki by Georgy Krasin ](/docs/Matryoshki)|2023-08-03 => 03 August 2023 | EnhancementInterface |
 |32| [Mediator by Martin Othamar ](/docs/Mediator)|2023-08-02 => 02 August 2023 | EnhancementProject |
 |31| [MorrisMoxy by Peter Morris ](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | Templating |
 |30| [Refit by ReactiveUI ](/docs/Refit)|2023-07-31 => 31 July 2023 | API |
@@ -116,7 +116,7 @@ This is the list of 101 ( 12 from Microsoft) RSCG with examples
 |11| [AutoDeconstruct by Jason Bock ](/docs/AutoDeconstruct)|2023-04-16 => 16 April 2023 | Constructor |
 |10| [RSCG_AMS by Ignat Andrei ](/docs/RSCG_AMS)|2023-04-16 => 16 April 2023 | EnhancementProject |
 |9| [CommunityToolkit.Mvvm by Microsoft ](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | MVVM |
-|8| [RSCG_Static by Andrei Ignat ](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | EnhancementClass |
+|8| [RSCG_Static by Andrei Ignat ](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | EnhancementInterface |
 |7| [Microsoft.Extensions.Logging by Microsoft ](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | EnhancementClass |
 |6| [SkinnyControllersCommon by Ignat Andrei ](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | API |
 |5| [System.Text.RegularExpressions by Microsoft ](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | EnhancementClass |

@@ -1315,13 +1315,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS
 ### [DeeDee](/docs/DeeDee)
 
 
-### [Matryoshki](/docs/Matryoshki)
-
-
 ### [Mediator](/docs/Mediator)
-
-
-### [ProxyGen](/docs/ProxyGen)
 
 
 ### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)

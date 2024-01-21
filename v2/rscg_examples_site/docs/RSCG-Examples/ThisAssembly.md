@@ -916,13 +916,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 ### [DeeDee](/docs/DeeDee)
 
 
-### [Matryoshki](/docs/Matryoshki)
-
-
 ### [Mediator](/docs/Mediator)
-
-
-### [ProxyGen](/docs/ProxyGen)
 
 
 ### [RSCG_AMS](/docs/RSCG_AMS)

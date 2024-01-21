@@ -22,9 +22,15 @@
 "step_17_text": "I have used the Biwen.AutoClassGen in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Biwen.AutoClassGen\\src\\FromInterface\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Biwen.AutoClassGen\\src\\FromInterface\\IPerson2.cs",
     
-"step_19_hide": "hide"
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Biwen.AutoClassGen\\src\\FromInterface\\IPerson.cs",
+    
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Biwen.AutoClassGen\\src\\FromInterface\\Person.cs",
+    
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Biwen.AutoClassGen\\src\\FromInterface\\Program.cs",
+    
+"step_22_hide": "hide"
 
 
 }

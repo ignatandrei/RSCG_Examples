@@ -396,35 +396,17 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen
 
-## In the same category (EnhancementProject)
+## In the same category (EnhancementInterface)
 
 
-### [BuildInfo](/docs/BuildInfo)
+### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [Com](/docs/Com)
-
-
-### [DeeDee](/docs/DeeDee)
+### [CopyCat](/docs/CopyCat)
 
 
 ### [Matryoshki](/docs/Matryoshki)
 
 
-### [Mediator](/docs/Mediator)
-
-
-### [RSCG_AMS](/docs/RSCG_AMS)
-
-
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
-
-
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
-
-
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
-
-
-### [ThisAssembly](/docs/ThisAssembly)
+### [RSCG_Static](/docs/RSCG_Static)
 

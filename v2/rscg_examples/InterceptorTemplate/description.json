@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Andrei Ignat"],
       "csprojDemo":"RSCG_InterceptorTemplateConsole.csproj",
-      "csFiles":["Program.cs","FullName.txt","GenericInterceptorForAllMethods.txt","FullName.txt"]
+      "csFiles":["Program.cs","FullName.txt","TestFullNameWithArguments.txt","GenericInterceptorForAllMethods.txt","IPersonLoader.cs"]
    },
    "links":{
       "blog":"",

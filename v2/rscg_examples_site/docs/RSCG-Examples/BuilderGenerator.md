@@ -439,12 +439,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator
 ### [AspectGenerator](/docs/AspectGenerator)
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-
-### [CopyCat](/docs/CopyCat)
-
-
 ### [DudNet](/docs/DudNet)
 
 
@@ -491,9 +485,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator
 
 
 ### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-### [RSCG_Static](/docs/RSCG_Static)
 
 
 ### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)

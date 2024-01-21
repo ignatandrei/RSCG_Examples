@@ -545,35 +545,17 @@ public class PersonMatryoshka : MatryoshkiDemo.IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki
 
-## In the same category (EnhancementProject)
+## In the same category (EnhancementInterface)
 
 
-### [BuildInfo](/docs/BuildInfo)
+### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [Com](/docs/Com)
-
-
-### [DeeDee](/docs/DeeDee)
-
-
-### [Mediator](/docs/Mediator)
+### [CopyCat](/docs/CopyCat)
 
 
 ### [ProxyGen](/docs/ProxyGen)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
-
-
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
-
-
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
-
-
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
-
-
-### [ThisAssembly](/docs/ThisAssembly)
+### [RSCG_Static](/docs/RSCG_Static)
 
