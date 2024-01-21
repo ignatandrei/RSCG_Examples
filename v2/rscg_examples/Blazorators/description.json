@@ -1,0 +1,20 @@
+{
+   "generator":{
+      "name":"Blazorators",
+      "nuget":[
+         "https://www.nuget.org/packages/Blazor.SourceGenerators/"
+      ],
+      "link":"https://github.com/IEvangelist/blazorators/",
+      "author":"David Pine",
+      "source":"https://github.com/IEvangelist/blazorators/"
+   },
+   "data":{
+      "goodFor":["Generate javascript interop code for Blazor WASM projects."],
+      "csprojDemo":"BlazorApp2.csproj",
+      "csFiles":["Program.cs","ILocalStorageService.cs","Home.razor"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

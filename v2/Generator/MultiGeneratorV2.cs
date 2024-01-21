@@ -271,7 +271,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"FUD",new(true,new(2024,1,18),Category.FunctionalProgramming) },
             {"MakeInterface",new(true,new(2024,1,19),Category.EnhancementInterface) },
             {"BuildInfo",new(true,new(2024,1,20),Category.EnhancementProject) },
-            {"EmbedRes", new(true,new(2024,1,21),Category.FilesToCode) }
+            {"EmbedRes", new(true,new(2024,1,21),Category.FilesToCode) },
+            {"Blazorators",new(true,new(2024,1,22),Category.Blazor) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
