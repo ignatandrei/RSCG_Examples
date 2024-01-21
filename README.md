@@ -1,6 +1,6 @@
-# RSCG - 101 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 102 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-21 => 21 January 2024
+## Latest Update : 2024-01-22 => 22 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 101 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 102 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 102. [Blazorators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators) generated on : 2024-01-22 => 22 January 2024
+<details>
+  <summary>Expand</summary>
+Author: David Pine
+
+The source generator used to generate extension methods on the IJSInProcessRuntime type for WebAssembly JavaScript interop. 
+
+Nuget: [https://www.nuget.org/packages/Blazor.SourceGenerators/](https://www.nuget.org/packages/Blazor.SourceGenerators/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators)
+
+Source: [https://github.com/IEvangelist/blazorators/](https://github.com/IEvangelist/blazorators/)
+
+</details>
+
 ### 101. [Chorn.EmbeddedResourceAccessGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator) generated on : 2024-01-21 => 21 January 2024
 <details>
   <summary>Expand</summary>

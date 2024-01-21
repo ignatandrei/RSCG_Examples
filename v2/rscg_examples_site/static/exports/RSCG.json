@@ -809,6 +809,14 @@
       "Source": "https://github.com/ChristophHornung/EmbeddedResourceGenerator",
       "Category": "FilesToCode",
       "AddedOn": "2024-01-21T00:00:00"
+    },
+    {
+      "Name": "Blazorators",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators",
+      "NuGet": "https://www.nuget.org/packages/Blazor.SourceGenerators/",
+      "Source": "https://github.com/IEvangelist/blazorators/",
+      "Category": "Blazor",
+      "AddedOn": "2024-01-22T00:00:00"
     }
   ]
 }

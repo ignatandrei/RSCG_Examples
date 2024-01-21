@@ -41,6 +41,6 @@ public enum Category
     Disposer,
     Enum,
     EnhancementInterface,
-
+    Blazor,
 }
 

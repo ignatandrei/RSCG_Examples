@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 101 RSCG by category 
-description: 101 RSCG by category 
+title: 102 RSCG by category 
+description: 102 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -48,6 +48,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RDG](/docs/RDG)
+
+</details>
+    
+
+## Blazor Number Examples: 1
+<details>
+    
+  <summary>Expand Blazor =>examples:1</summary>
+        
+
+
+[Blazorators](/docs/Blazorators)
 
 </details>
     
@@ -659,6 +671,8 @@ flowchart LR;
     API--> Microsoft.Extensions.Configuration.Binder((Microsoft.Extensions.Configuration.Binder))
 
     API--> RDG((RDG))
+
+    Blazor--> Blazorators((Blazorators))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 
