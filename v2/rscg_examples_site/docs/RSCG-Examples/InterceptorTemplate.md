@@ -216,7 +216,7 @@ This is the CSharp Project that references **InterceptorTemplate**
   </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+		<CompilerGeneratedFilesOutputPath>obj\GX</CompilerGeneratedFilesOutputPath>
 		<InterceptorsPreviewNamespaces>$(InterceptorsPreviewNamespaces);RSCG_InterceptorTemplate</InterceptorsPreviewNamespaces>
 	</PropertyGroup>
 	<PropertyGroup>
@@ -426,6 +426,483 @@ public interface IPersonLoader
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.IPersonLoader_InsertPerson_10.cs" label="RSCG_DemoObjects.IPersonLoader_InsertPerson_10.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:await ipl.InsertPerson(newPerson);";
+//replace code:123456789!123456789!123456789!1234";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 25, 11)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static async System.Threading.Tasks.Task<RSCG_DemoObjects.Person> Intercept_ipl_InsertPerson(this RSCG_DemoObjects.IPersonLoader ipl ,RSCG_DemoObjects.Person p )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_ipl_InsertPerson");
+        return await ipl.InsertPerson(p);
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_ipl_InsertPerson");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.PersonLoader_Connect_9.cs" label="RSCG_DemoObjects.PersonLoader_Connect_9.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:PersonLoader.Connect();";
+//replace code:123456789!123456789!123";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 22, 14)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  void Intercept_PersonLoader_Connect(  )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_PersonLoader_Connect");
+          RSCG_DemoObjects.PersonLoader.Connect();
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_PersonLoader_Connect");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.PersonLoader_SavePerson_8.cs" label="RSCG_DemoObjects.PersonLoader_SavePerson_8.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:var q= await PersonLoader.SavePerson(newPerson);";
+//replace code:123456789!123456789!123456789!123456789!12345678";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 21, 27)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static async System.Threading.Tasks.Task<RSCG_DemoObjects.Person> Intercept_PersonLoader_SavePerson( RSCG_DemoObjects.Person p )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_PersonLoader_SavePerson");
+        return await RSCG_DemoObjects.PersonLoader.SavePerson(p);
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_PersonLoader_SavePerson");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_FullName_1.cs" label="RSCG_DemoObjects.Person_FullName_1.cs" >
+
+
+```csharp showLineNumbers 
+//example generating for full name 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("debug for "+p.FullName());";
+//replace code:123456789!123456789!123456789!123456789!12345";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 5, 34)]
+
+//replace code:Console.WriteLine("this is "+p.FullName());";
+//replace code:123456789!123456789!123456789!123456789!123";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 6, 32)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_p_FullName(this RSCG_DemoObjects.Person p  )  
+{
+    var cc=Console.BackgroundColor ;
+    try{
+    Console.BackgroundColor = ConsoleColor.DarkGreen;
+    Console.WriteLine("start specific FullName template-->Intercept_p_FullName");
+    return  p.FullName();
+    }
+    finally{
+        Console.WriteLine("end specific template-->Intercept_p_FullName");
+        Console.BackgroundColor = cc;
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_FullName_3.cs" label="RSCG_DemoObjects.Person_FullName_3.cs" >
+
+
+```csharp showLineNumbers 
+//example generating for full name 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:var namePerson = newPerson.FullName();";
+//replace code:123456789!123456789!123456789!12345678";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 12, 28)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_newPerson_FullName(this RSCG_DemoObjects.Person newPerson  )  
+{
+    var cc=Console.BackgroundColor ;
+    try{
+    Console.BackgroundColor = ConsoleColor.DarkGreen;
+    Console.WriteLine("start specific FullName template-->Intercept_newPerson_FullName");
+    return  newPerson.FullName();
+    }
+    finally{
+        Console.WriteLine("end specific template-->Intercept_newPerson_FullName");
+        Console.BackgroundColor = cc;
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_PersonsLoaded_4.cs" label="RSCG_DemoObjects.Person_PersonsLoaded_4.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("loaded "+Person.PersonsLoaded());";
+//replace code:123456789!123456789!123456789!123456789!123456789!12";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 15, 36)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  int Intercept_Person_PersonsLoaded(  )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_Person_PersonsLoaded");
+        return  RSCG_DemoObjects.Person.PersonsLoaded();
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_Person_PersonsLoaded");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_PersonsLoaded_5.cs" label="RSCG_DemoObjects.Person_PersonsLoaded_5.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("loaded " + RSCG_DemoObjects.Person.PersonsLoaded());";
+//replace code:123456789!123456789!123456789!123456789!123456789!123456789!123456789!1";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 16, 55)]
+
+//replace code:Console.WriteLine("and again  " + RSCG_DemoObjects.Person.PersonsLoaded());";
+//replace code:123456789!123456789!123456789!123456789!123456789!123456789!123456789!12345";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 17, 59)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  int Intercept_RSCG_DemoObjects_Person_PersonsLoaded(  )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_RSCG_DemoObjects_Person_PersonsLoaded");
+        return  RSCG_DemoObjects.Person.PersonsLoaded();
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_RSCG_DemoObjects_Person_PersonsLoaded");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_ShowRandomPersonNumber_7.cs" label="RSCG_DemoObjects.Person_ShowRandomPersonNumber_7.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("and a random person " + Person.ShowRandomPersonNumber(1));";
+//replace code:123456789!123456789!123456789!123456789!123456789!123456789!123456789!1234567";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 20, 51)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  int Intercept_Person_ShowRandomPersonNumber( int min )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_Person_ShowRandomPersonNumber");
+        return  RSCG_DemoObjects.Person.ShowRandomPersonNumber(min);
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_Person_ShowRandomPersonNumber");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_TestFullNameWithArguments_6.cs" label="RSCG_DemoObjects.Person_TestFullNameWithArguments_6.cs" >
+
+
+```csharp showLineNumbers 
+//example generating for TestFullNameWithArguments 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("and now with argument " + newPerson.TestFullNameWithArguments("<","!+",">",2));";
+//replace code:123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!12345678";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 19, 56)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_newPerson_TestFullNameWithArguments(this RSCG_DemoObjects.Person newPerson ,string start,string separator,string end,int repeat )  
+{
+    var cc=Console.BackgroundColor ;
+    try{
+        Console.BackgroundColor = ConsoleColor.DarkRed;
+        Console.WriteLine("start specific TestFullNameWithArguments template-->Intercept_newPerson_TestFullNameWithArguments");
+        Console.WriteLine("number of arguments = 4");
+        
+                Console.WriteLine("argument 1 type string and value = "+ start);
+                
+                Console.WriteLine("argument 2 type string and value = "+ separator);
+                
+                Console.WriteLine("argument 3 type string and value = "+ end);
+                
+                Console.WriteLine("argument 4 type int and value = "+ repeat);
+                
+        return  newPerson.TestFullNameWithArguments(start,separator,end,repeat);
+    }
+    finally{
+        Console.WriteLine("end specific template-->Intercept_newPerson_TestFullNameWithArguments");
+        Console.BackgroundColor = cc;
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\obj\GX\RSCG_InterceptorTemplate\RSCG_InterceptorTemplate.MethodIntercept\RSCG_DemoObjects.Person_Test_2.cs" label="RSCG_DemoObjects.Person_Test_2.cs" >
+
+
+```csharp showLineNumbers 
+//example generating generic for all methods in a class 8.2023.2811.446
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:var x = p.Test();";
+//replace code:123456789!1234567";
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\InterceptorTemplate\src\RSCG_InterceptorTemplateConsole\Program.cs", 7, 11)]
+
+
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  string Intercept_p_Test(this RSCG_DemoObjects.Person p  )  
+{
+    try{
+        Console.WriteLine("start from generic template-->Intercept_p_Test");
+        return  p.Test();
+    }
+    finally{
+        Console.WriteLine("end from generic template-->Intercept_p_Test");
+    }
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+```
+
+  </TabItem>
 
 
 </Tabs>

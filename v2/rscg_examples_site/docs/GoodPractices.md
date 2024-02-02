@@ -82,3 +82,6 @@ image addToNuget
 ## performance
 
 https://andrewlock.net/creating-a-source-generator-part-9-avoiding-performance-pitfalls-in-incremental-generators/
+
+ https://www.thinktecture.com/net/roslyn-source-generators-high-level-api-forattributewithmetadataname/
+ 
