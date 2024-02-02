@@ -592,6 +592,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ArgumentNullException.ThrowIfNull(desc.Data);
         ArgumentNullException.ThrowIfNull(desc.Data.CsFiles);
         output.csFiles = desc.Data.CsFiles;
+        output.excludeDirectoryGenerated = desc.Data.ExcludeDirectoryGenerated;
         ArgumentNullException.ThrowIfNull(desc.Generator);
         var nugetName = desc.Generator.NugetFirst;
         if(!string.IsNullOrWhiteSpace(nugetName))

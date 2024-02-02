@@ -545,7 +545,7 @@ public class PersonMatryoshka : MatryoshkiDemo.IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki
 
-## In the same category (EnhancementInterface)
+## In the same category (Interface)
 
 
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
@@ -558,6 +558,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki
 
 
 ### [ProxyGen](/docs/ProxyGen)
+
+
+### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
 ### [RSCG_Static](/docs/RSCG_Static)

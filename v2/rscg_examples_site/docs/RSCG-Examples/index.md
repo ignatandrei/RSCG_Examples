@@ -157,10 +157,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementClass Number Examples: 24
+## EnhancementClass Number Examples: 23
 <details>
     
-  <summary>Expand EnhancementClass =>examples:24</summary>
+  <summary>Expand EnhancementClass =>examples:23</summary>
         
 
 
@@ -224,11 +224,6 @@ import DocCardList from '@theme/DocCardList';
         
 
 
-[Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-        
-
-
 [RSCG_Decorator](/docs/RSCG_Decorator)
 
         
@@ -280,43 +275,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [HsuSgSync](/docs/HsuSgSync)
-
-</details>
-    
-
-## EnhancementInterface Number Examples: 6
-<details>
-    
-  <summary>Expand EnhancementInterface =>examples:6</summary>
-        
-
-
-[RSCG_Static](/docs/RSCG_Static)
-
-        
-
-
-[Matryoshki](/docs/Matryoshki)
-
-        
-
-
-[ProxyGen](/docs/ProxyGen)
-
-        
-
-
-[Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-        
-
-
-[CopyCat](/docs/CopyCat)
-
-        
-
-
-[MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 </details>
     
@@ -465,6 +423,48 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+
+</details>
+    
+
+## Interface Number Examples: 7
+<details>
+    
+  <summary>Expand Interface =>examples:7</summary>
+        
+
+
+[RSCG_Static](/docs/RSCG_Static)
+
+        
+
+
+[Matryoshki](/docs/Matryoshki)
+
+        
+
+
+[ProxyGen](/docs/ProxyGen)
+
+        
+
+
+[Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+
+        
+
+
+[Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+
+        
+
+
+[CopyCat](/docs/CopyCat)
+
+        
+
+
+[MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 </details>
     
@@ -724,8 +724,6 @@ flowchart LR;
 
     EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
 
-    EnhancementClass--> Roozie.AutoInterface((Roozie.AutoInterface))
-
     EnhancementClass--> RSCG_Decorator((RSCG_Decorator))
 
     EnhancementClass--> BuilderGenerator((BuilderGenerator))
@@ -747,18 +745,6 @@ flowchart LR;
     EnhancementClass--> AspectGenerator((AspectGenerator))
 
     EnhancementClass--> HsuSgSync((HsuSgSync))
-
-    EnhancementInterface--> RSCG_Static((RSCG_Static))
-
-    EnhancementInterface--> Matryoshki((Matryoshki))
-
-    EnhancementInterface--> ProxyGen((ProxyGen))
-
-    EnhancementInterface--> Biwen.AutoClassGen((Biwen.AutoClassGen))
-
-    EnhancementInterface--> CopyCat((CopyCat))
-
-    EnhancementInterface--> MakeInterface.Generator((MakeInterface.Generator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
@@ -807,6 +793,20 @@ flowchart LR;
     FunctionalProgramming--> N.SourceGenerators.UnionTypes((N.SourceGenerators.UnionTypes))
 
     FunctionalProgramming--> Funcky.DiscriminatedUnion((Funcky.DiscriminatedUnion))
+
+    Interface--> RSCG_Static((RSCG_Static))
+
+    Interface--> Matryoshki((Matryoshki))
+
+    Interface--> ProxyGen((ProxyGen))
+
+    Interface--> Roozie.AutoInterface((Roozie.AutoInterface))
+
+    Interface--> Biwen.AutoClassGen((Biwen.AutoClassGen))
+
+    Interface--> CopyCat((CopyCat))
+
+    Interface--> MakeInterface.Generator((MakeInterface.Generator))
 
     Mapper--> mapperly((mapperly))
 

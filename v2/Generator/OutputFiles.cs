@@ -30,6 +30,8 @@ public class OutputFiles
         }
     }
 
+    public string[]? excludeDirectoryGenerated { get; internal set; }
+
     public async Task GatherData(string nuget)
     {
         var excludedProjectsWithLine = new[]{
@@ -98,12 +100,16 @@ public class OutputFiles
         //        throw new ArgumentException($"more than 1 generated folder for {folder}");
         //    }
         //}
-        var outputFiles = Directory.GetFiles(folder, "*.cs", SearchOption.AllDirectories);
-        
+        var outputFiles = Directory.GetFiles(folder, "*.cs", SearchOption.AllDirectories);        
         contents = new();
         var nr = 0;
         foreach (var file in outputFiles)
         {
+            var isInExcluded = false;
+            if(excludeDirectoryGenerated?.Length>0)
+                isInExcluded=excludeDirectoryGenerated!.Any(it => file.Contains(it,StringComparison.InvariantCultureIgnoreCase));
+            if(isInExcluded)
+                continue;
             var nameFile = Path.GetFileName(file);
             string id = nameFile + (++nr).ToString("00#");
             FileWithContent f = new(file, nameFile, await File.ReadAllTextAsync(file));

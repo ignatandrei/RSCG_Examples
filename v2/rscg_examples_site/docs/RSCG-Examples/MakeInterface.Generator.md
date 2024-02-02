@@ -236,7 +236,7 @@ public partial interface IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator
 
-## In the same category (EnhancementInterface)
+## In the same category (Interface)
 
 
 ### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
@@ -249,6 +249,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator
 
 
 ### [ProxyGen](/docs/ProxyGen)
+
+
+### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
 ### [RSCG_Static](/docs/RSCG_Static)

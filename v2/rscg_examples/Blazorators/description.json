@@ -11,7 +11,8 @@
    "data":{
       "goodFor":["Generate javascript interop code for Blazor WASM projects."],
       "csprojDemo":"BlazorApp2.csproj",
-      "csFiles":["Program.cs","ILocalStorageService.cs","Home.razor"]
+      "csFiles":["Program.cs","ILocalStorageService.cs","Home.razor"],
+      "excludeDirectoryGenerated":["Microsoft.NET.Sdk.Razor.SourceGenerators"]
    },
    "links":{
       "blog":"",

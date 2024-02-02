@@ -251,74 +251,23 @@ public partial interface IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface
 
-## In the same category (EnhancementClass)
+## In the same category (Interface)
 
 
-### [ApparatusAOT](/docs/ApparatusAOT)
+### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [AspectGenerator](/docs/AspectGenerator)
+### [CopyCat](/docs/CopyCat)
 
 
-### [BuilderGenerator](/docs/BuilderGenerator)
+### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
-### [DudNet](/docs/DudNet)
+### [Matryoshki](/docs/Matryoshki)
 
 
-### [FastGenericNew](/docs/FastGenericNew)
+### [ProxyGen](/docs/ProxyGen)
 
 
-### [GeneratorEquals](/docs/GeneratorEquals)
-
-
-### [HsuSgSync](/docs/HsuSgSync)
-
-
-### [Immutype](/docs/Immutype)
-
-
-### [Ling.Audit](/docs/Ling.Audit)
-
-
-### [Lombok.NET](/docs/Lombok.NET)
-
-
-### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-### [MemoryPack](/docs/MemoryPack)
-
-
-### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
-
-
-### [StaticReflection](/docs/StaticReflection)
-
-
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
-
-
-### [TelemetryLogging](/docs/TelemetryLogging)
+### [RSCG_Static](/docs/RSCG_Static)
 

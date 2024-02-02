@@ -63,7 +63,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static",
       "NuGet": "https://www.nuget.org/packages/RSCG_Static/",
       "Source": "https://github.com/ignatandrei/RSCG_Static",
-      "Category": "EnhancementInterface",
+      "Category": "Interface",
       "AddedOn": "2023-04-16T00:00:00"
     },
     {
@@ -263,7 +263,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki",
       "NuGet": "https://www.nuget.org/packages/Matryoshki/",
       "Source": "https://github.com/krasin-ga/matryoshki/",
-      "Category": "EnhancementInterface",
+      "Category": "Interface",
       "AddedOn": "2023-08-03T00:00:00"
     },
     {
@@ -287,7 +287,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen",
       "NuGet": "https://www.nuget.org/packages/ProxyGen.net/",
       "Source": "https://github.com/Sholtee/ProxyGen",
-      "Category": "EnhancementInterface",
+      "Category": "Interface",
       "AddedOn": "2023-08-06T00:00:00"
     },
     {
@@ -447,7 +447,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface",
       "NuGet": "https://www.nuget.org/packages/Roozie.AutoInterface/",
       "Source": "https://github.com/AlexRussak/Roozie.AutoInterface",
-      "Category": "EnhancementClass",
+      "Category": "Interface",
       "AddedOn": "2023-08-26T00:00:00"
     },
     {
@@ -671,7 +671,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen",
       "NuGet": "https://www.nuget.org/packages/Biwen.AutoClassGen/",
       "Source": "https://github.com/vipwan/Biwen.AutoClassGen",
-      "Category": "EnhancementInterface",
+      "Category": "Interface",
       "AddedOn": "2023-11-16T00:00:00"
     },
     {
@@ -759,7 +759,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat",
       "NuGet": "https://www.nuget.org/packages/Copycat/",
       "Source": "https://github.com/Otaman/Copycat/",
-      "Category": "EnhancementInterface",
+      "Category": "Interface",
       "AddedOn": "2024-01-09T00:00:00"
     },
     {
@@ -791,7 +791,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface",
       "NuGet": "https://www.nuget.org/packages/MakeInterface.Generator/",
       "Source": "https://github.com/Frederik91/MakeInterface",
-      "Category": "EnhancementInterface",
+      "Category": "Interface",
       "AddedOn": "2024-01-19T00:00:00"
     },
     {

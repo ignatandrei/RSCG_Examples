@@ -239,7 +239,7 @@ namespace Demo
         ///         ○ Match a character in the set [Ff].<br/>
         /// </code>
         /// </remarks>
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.9.7226")]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.9.1910")]
         private static partial global::System.Text.RegularExpressions.Regex AbcOrDefGeneratedRegex() => global::System.Text.RegularExpressions.Generated.AbcOrDefGeneratedRegex_0.Instance;
     }
 }
@@ -256,7 +256,7 @@ namespace System.Text.RegularExpressions.Generated
     using System.Threading;
 
     /// <summary>Custom <see cref="Regex"/>-derived type for the AbcOrDefGeneratedRegex method.</summary>
-    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.9.7226")]
+    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.9.1910")]
     file sealed class AbcOrDefGeneratedRegex_0 : Regex
     {
         /// <summary>Cached, thread-safe singleton instance.</summary>
@@ -393,7 +393,7 @@ namespace System.Text.RegularExpressions.Generated
     }
     
     /// <summary>Helper methods used by generated <see cref="Regex"/>-derived implementations.</summary>
-    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.9.7226")]
+    [GeneratedCodeAttribute("System.Text.RegularExpressions.Generator", "7.0.9.1910")]
     file static class Utilities
     {
         /// <summary>Default timeout value set in <see cref="AppContext"/>, or <see cref="Regex.InfiniteMatchTimeout"/> if none was set.</summary>
@@ -482,9 +482,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressio
 
 
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
 ### [RSCG_Decorator](/docs/RSCG_Decorator)
