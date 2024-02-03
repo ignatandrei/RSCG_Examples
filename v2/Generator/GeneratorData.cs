@@ -42,5 +42,6 @@ public enum Category
     Enum,
     Interface,
     Blazor,
+    Hangfire,
 }
 

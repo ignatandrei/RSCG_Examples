@@ -60,7 +60,8 @@ $$"""
    "data":{
       "goodFor":[""],
       "csprojDemo":"{{newGen}}Demo.csproj",
-      "csFiles":["Program.cs"]
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""]
    },
    "links":{
       "blog":"",

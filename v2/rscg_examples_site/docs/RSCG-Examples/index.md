@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 102 RSCG by category 
-description: 102 RSCG by category 
+title: 103 RSCG by category 
+description: 103 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -427,6 +427,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Hangfire Number Examples: 1
+<details>
+    
+  <summary>Expand Hangfire =>examples:1</summary>
+        
+
+
+[HangfireRecurringJob](/docs/HangfireRecurringJob)
+
+</details>
+    
+
 ## Interface Number Examples: 7
 <details>
     
@@ -793,6 +805,8 @@ flowchart LR;
     FunctionalProgramming--> N.SourceGenerators.UnionTypes((N.SourceGenerators.UnionTypes))
 
     FunctionalProgramming--> Funcky.DiscriminatedUnion((Funcky.DiscriminatedUnion))
+
+    Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 
     Interface--> RSCG_Static((RSCG_Static))
 

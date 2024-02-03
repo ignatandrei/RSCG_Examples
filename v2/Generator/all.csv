@@ -101,3 +101,4 @@ Nr,Key,Source,Category
 100,BuildInfo, https://github.com/linkdotnet/BuildInformation,EnhancementProject
 101,EmbedRes, https://github.com/ChristophHornung/EmbeddedResourceGenerator,FilesToCode
 102,Blazorators, https://github.com/IEvangelist/blazorators/,Blazor
+103,HangfireRecurringJob, https://github.com/IeuanWalker/Hangfire.RecurringJob,Hangfire

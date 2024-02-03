@@ -817,6 +817,14 @@
       "Source": "https://github.com/IEvangelist/blazorators/",
       "Category": "Blazor",
       "AddedOn": "2024-01-22T00:00:00"
+    },
+    {
+      "Name": "HangfireRecurringJob",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/HangfireRecurringJob",
+      "NuGet": "https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/",
+      "Source": "https://github.com/IeuanWalker/Hangfire.RecurringJob",
+      "Category": "Hangfire",
+      "AddedOn": "2024-01-25T00:00:00"
     }
   ]
 }

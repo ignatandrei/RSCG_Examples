@@ -1,0 +1,1 @@
+This is a package that automatically generates the hangfire recurring jobs AddOrUpdate code, using source generators.

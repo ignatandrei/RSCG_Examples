@@ -153,7 +153,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
 , new("UnitTestBlazor https://github.com/bUnit-dev/bUnit",WaitingForIssue)
 ,new("Dexie https://github.com/b-straub/DexieNET",tooComplicated)
-, new("HangfireJob https://github.com/IeuanWalker/Hangfire.RecurringJob",later)
 ,new("Weave https://github.com/otac0n/Weave",later)
 ,new("NotNot https://github.com/jasonswearingen/NotNot.AppSettings",later)
     };
@@ -275,6 +274,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"BuildInfo",new(true,new(2024,1,20),Category.EnhancementProject) },
             {"EmbedRes", new(true,new(2024,1,21),Category.FilesToCode) },
             {"Blazorators",new(true,new(2024,1,22),Category.Blazor) },
+            {"HangfireRecurringJob",new(true,new(2024,1,25),Category.Hangfire) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

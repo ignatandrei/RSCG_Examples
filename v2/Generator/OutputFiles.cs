@@ -106,8 +106,12 @@ public class OutputFiles
         foreach (var file in outputFiles)
         {
             var isInExcluded = false;
-            if(excludeDirectoryGenerated?.Length>0)
-                isInExcluded=excludeDirectoryGenerated!.Any(it => file.Contains(it,StringComparison.InvariantCultureIgnoreCase));
+            if (excludeDirectoryGenerated?.Length > 0)
+            {
+                isInExcluded = excludeDirectoryGenerated!.Any(it => 
+                (!string.IsNullOrWhiteSpace(it)) &&
+                file.Contains(it, StringComparison.InvariantCultureIgnoreCase));
+            }
             if(isInExcluded)
                 continue;
             var nameFile = Path.GetFileName(file);

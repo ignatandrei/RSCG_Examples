@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"HangfireRecurringJob",
+      "nuget":[
+         "https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/"
+      ],
+      "link":"https://github.com/IeuanWalker/Hangfire.RecurringJob",
+      "author":"Ieuan Walker",
+      "source":"https://github.com/IeuanWalker/Hangfire.RecurringJob"
+   },
+   "data":{
+      "goodFor":["Generating recurring jobs for Hangfire from class attribute"],
+      "csprojDemo":"HangfireRec.csproj",
+      "csFiles":["MyNewJob.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
