@@ -277,7 +277,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Blazorators",new(true,new(2024,1,22),Category.Blazor) },
             {"HangfireRecurringJob",new(true,new(2024,1,25),Category.Hangfire) },
             {"NotNotAppSettings",new(true,new(2024,1,26),Category.FilesToCode) },
-            {"Weave",new(true,new(2024,1,27), Category.FilesToCode) }
+            {"Weave",new(true,new(2024,1,27), Category.FilesToCode) },
+            {"WIAD",new(true,new(2024,1,28), Category.AOP) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

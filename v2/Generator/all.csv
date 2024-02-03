@@ -104,3 +104,4 @@ Nr,Key,Source,Category
 103,HangfireRecurringJob, https://github.com/IeuanWalker/Hangfire.RecurringJob,Hangfire
 104,NotNotAppSettings, https://github.com/jasonswearingen/NotNot.AppSettings/,FilesToCode
 105,Weave, https://github.com/otac0n/Weave,FilesToCode
+106,WIAD, https://github.com/ignatandrei/RSCG_WhatIAmDoing,AOP

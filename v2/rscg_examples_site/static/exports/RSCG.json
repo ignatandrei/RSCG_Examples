@@ -841,6 +841,14 @@
       "Source": "https://github.com/otac0n/Weave",
       "Category": "FilesToCode",
       "AddedOn": "2024-01-27T00:00:00"
+    },
+    {
+      "Name": "WhatIAmDoing",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/WIAD",
+      "NuGet": "https://www.nuget.org/packages/RSCG_WhatIAmDoing/",
+      "Source": "https://github.com/ignatandrei/RSCG_WhatIAmDoing",
+      "Category": "AOP",
+      "AddedOn": "2024-01-28T00:00:00"
     }
   ]
 }

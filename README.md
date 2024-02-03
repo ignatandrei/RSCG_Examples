@@ -1,6 +1,6 @@
-# RSCG - 105 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 106 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-27 => 27 January 2024
+## Latest Update : 2024-01-28 => 28 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 105 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 106 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 106. [WhatIAmDoing](https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing) generated on : 2024-01-28 => 28 January 2024
+<details>
+  <summary>Expand</summary>
+Author: Ignat Andrei
+
+What I Am Doing - see what your software is doing. Add also RSCG_WhatIAmDoing_Common 
+
+Nuget: [https://www.nuget.org/packages/RSCG_WhatIAmDoing/](https://www.nuget.org/packages/RSCG_WhatIAmDoing/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing](https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing)
+
+Source: [https://github.com/ignatandrei/RSCG_WhatIAmDoing](https://github.com/ignatandrei/RSCG_WhatIAmDoing)
+
+</details>
+
 ### 105. [Weave](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave) generated on : 2024-01-27 => 27 January 2024
 <details>
   <summary>Expand</summary>
