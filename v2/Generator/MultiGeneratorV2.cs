@@ -153,7 +153,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
 , new("UnitTestBlazor https://github.com/bUnit-dev/bUnit",WaitingForIssue)
 ,new("Dexie https://github.com/b-straub/DexieNET",tooComplicated)
-,new("Weave https://github.com/otac0n/Weave",later)
+
 };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -275,6 +275,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Blazorators",new(true,new(2024,1,22),Category.Blazor) },
             {"HangfireRecurringJob",new(true,new(2024,1,25),Category.Hangfire) },
             {"NotNotAppSettings",new(true,new(2024,1,26),Category.FilesToCode) },
+            {"Weave",new(true,new(2024,1,27), Category.FilesToCode) }
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
