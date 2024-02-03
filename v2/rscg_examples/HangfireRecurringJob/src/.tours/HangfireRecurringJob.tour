@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "HangfireRecurringJob",
+  "steps": 
+  [
+    {
+      "file": "HangFireRec/HangFireRec.csproj",
+      "description": "Nuget  IeuanWalker.Hangfire.RecurringJob registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "HangFireRec/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "HangFireRec/MyNewJob.cs",
+        "description": "File MyNewJob.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}
