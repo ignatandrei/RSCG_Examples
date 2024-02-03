@@ -344,6 +344,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp
 ### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
+### [NotNotAppSettings](/docs/NotNotAppSettings)
+
+
 ### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 

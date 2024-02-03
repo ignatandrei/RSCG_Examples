@@ -825,6 +825,14 @@
       "Source": "https://github.com/IeuanWalker/Hangfire.RecurringJob",
       "Category": "Hangfire",
       "AddedOn": "2024-01-25T00:00:00"
+    },
+    {
+      "Name": "NotNotAppSettings",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings",
+      "NuGet": "https://www.nuget.org/packages/NotNot.AppSettings/",
+      "Source": "https://github.com/jasonswearingen/NotNot.AppSettings/",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-01-26T00:00:00"
     }
   ]
 }
