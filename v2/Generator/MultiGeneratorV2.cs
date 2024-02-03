@@ -141,7 +141,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
 ,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
-,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",later )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
+,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",WaitingForIssue )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
 ,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
