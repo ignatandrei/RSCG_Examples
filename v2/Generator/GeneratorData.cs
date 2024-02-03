@@ -43,5 +43,6 @@ public enum Category
     Interface,
     Blazor,
     Hangfire,
+    AOP,
 }
 

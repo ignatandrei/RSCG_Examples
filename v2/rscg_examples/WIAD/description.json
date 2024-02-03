@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"WhatIAmDoing",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_WhatIAmDoing/",
+         "https://www.nuget.org/packages/RSCG_WhatIAmDoing_Common/"
+         
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_WhatIAmDoing",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_WhatIAmDoing"
+   },
+   "data":{
+      "goodFor":["Intercept any method in any project"],
+      "csprojDemo":"WIADDemo.csproj",
+      "csFiles":["Program.cs","InterceptorStatic.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

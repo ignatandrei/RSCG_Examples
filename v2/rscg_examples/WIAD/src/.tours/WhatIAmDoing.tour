@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "WhatIAmDoing",
+  "steps": 
+  [
+    {
+      "file": "WIADDemo/WIADDemo.csproj",
+      "description": "Nuget  RSCG_WhatIAmDoing registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "WIADDemo/InterceptorStatic.cs",
+        "description": "File InterceptorStatic.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "WIADDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

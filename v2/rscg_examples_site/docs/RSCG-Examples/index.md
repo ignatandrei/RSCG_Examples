@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 105 RSCG by category 
-description: 105 RSCG by category 
+title: 106 RSCG by category 
+description: 106 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -9,6 +9,18 @@ import DocCardList from '@theme/DocCardList';
 
 [See time based list](/docs/List-of-RSCG)
 
+
+## AOP Number Examples: 1
+<details>
+    
+  <summary>Expand AOP =>examples:1</summary>
+        
+
+
+[WhatIAmDoing](/docs/WhatIAmDoing)
+
+</details>
+    
 
 ## API Number Examples: 7
 <details>
@@ -679,6 +691,8 @@ import DocCardList from '@theme/DocCardList';
 ```mermaid 
 flowchart LR;
 
+
+    AOP--> WhatIAmDoing((WhatIAmDoing))
 
     API--> SkinnyControllersCommon((SkinnyControllersCommon))
 
