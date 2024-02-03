@@ -1,0 +1,22 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NotNot.AppSettings",
+  "steps": 
+  [
+    {
+      "file": "TestAppSettings/TestAppSettings.csproj",
+      "description": "Nuget  NotNot.AppSettings registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "TestAppSettings/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

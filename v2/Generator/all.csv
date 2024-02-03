@@ -102,3 +102,4 @@ Nr,Key,Source,Category
 101,EmbedRes, https://github.com/ChristophHornung/EmbeddedResourceGenerator,FilesToCode
 102,Blazorators, https://github.com/IEvangelist/blazorators/,Blazor
 103,HangfireRecurringJob, https://github.com/IeuanWalker/Hangfire.RecurringJob,Hangfire
+104,NotNotAppSettings, https://github.com/jasonswearingen/NotNot.AppSettings/,FilesToCode

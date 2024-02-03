@@ -117,6 +117,7 @@ input-files:
 - examples/Chorn.EmbeddedResourceAccessGenerator.html
 - examples/Blazorators.html
 - examples/HangfireRecurringJob.html
+- examples/NotNotAppSettings.html
 
 # or you may use input-file: with a single value
 # defaults:

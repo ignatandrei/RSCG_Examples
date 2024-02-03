@@ -226,6 +226,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 
+### [NotNotAppSettings](/docs/NotNotAppSettings)
+
+
 ### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 

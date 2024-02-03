@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"NotNotAppSettings",
+      "nuget":[
+         "https://www.nuget.org/packages/NotNot.AppSettings/"
+      ],
+      "link":"https://github.com/jasonswearingen/NotNot.AppSettings/",
+      "author":"jasonswearingen",
+      "source":"https://github.com/jasonswearingen/NotNot.AppSettings/"
+   },
+   "data":{
+      "goodFor":["Application Settings to strongly typed classes. Generate also from AppSettings development"],
+      "csprojDemo":"TestAppSettings.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

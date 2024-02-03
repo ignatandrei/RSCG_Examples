@@ -697,6 +697,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 
+### [NotNotAppSettings](/docs/NotNotAppSettings)
+
+
 ### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 
