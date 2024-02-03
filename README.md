@@ -1,6 +1,6 @@
-# RSCG - 104 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 105 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-26 => 26 January 2024
+## Latest Update : 2024-01-27 => 27 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 104 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 105 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 105. [Weave](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave) generated on : 2024-01-27 => 27 January 2024
+<details>
+  <summary>Expand</summary>
+Author: John Gietzen
+
+Weave is a text templating engine that is all about attention to detail.  Weave handles the tricky work of making your rendered text beautiful. 
+
+Nuget: [https://www.nuget.org/packages/Weave/](https://www.nuget.org/packages/Weave/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave)
+
+Source: [https://github.com/otac0n/Weave](https://github.com/otac0n/Weave)
+
+</details>
+
 ### 104. [NotNotAppSettings](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings) generated on : 2024-01-26 => 26 January 2024
 <details>
   <summary>Expand</summary>
@@ -2071,21 +2087,14 @@ Why I have not tested : too complicated for me, need help
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-44) [Weave]( https://github.com/otac0n/Weave) , https://github.com/otac0n/Weave 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Weave&body=https://github.com/otac0n/Weave
-
-
-45) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
+44) [WinUI-ObservableSettings]( https://github.com/JasonWei512/WinUI-ObservableSettings) , https://github.com/JasonWei512/WinUI-ObservableSettings 
 
 Why I have not tested : less than net 7
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WinUI-ObservableSettings&body=https://github.com/JasonWei512/WinUI-ObservableSettings
 
 
-46) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+45) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

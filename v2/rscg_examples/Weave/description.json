@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"Weave",
+      "nuget":[
+         "https://www.nuget.org/packages/Weave/"
+      ],
+      "link":"https://github.com/otac0n/Weave",
+      "author":"John Gietzen",
+      "source":"https://github.com/otac0n/Weave"
+   },
+   "data":{
+      "goodFor":["Scriban like generator"],
+      "csprojDemo":"WeaveDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

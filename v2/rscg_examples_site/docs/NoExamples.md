@@ -562,19 +562,15 @@ Why I have not put example: issue opened
 
 Why I have not put example: too complicated for me, need help
 
-140)Weave https://github.com/otac0n/Weave  
-
-Why I have not put example: later
-
-141)WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings  
+140)WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings  
 
 Why I have not put example: less than net 7
 
-142)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
+141)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
 Why I have not put example: not maintained as in readme
 
-143)Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped  
+142)Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped  
 
 Why I have not put example: old ISourceGenerator
 

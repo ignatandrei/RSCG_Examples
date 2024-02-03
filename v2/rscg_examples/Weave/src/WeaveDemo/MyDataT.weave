@@ -1,0 +1,7 @@
+@namespace MyProject
+@methodname RenderFizzBuzz
+@model WeaveDemo.Person
+
+I will write p.FullName();
+
+{{= model.FullName() }}

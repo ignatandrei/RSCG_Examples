@@ -1,0 +1,28 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Weave",
+  "steps": 
+  [
+    {
+      "file": "WeaveDemo/WeaveDemo.csproj",
+      "description": "Nuget  Weave registration in csproj ",
+      "line": 1
+    }
+
+        ,{
+        "file": "WeaveDemo/Person.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "WeaveDemo/Program.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+  "ref": "main"
+
+}

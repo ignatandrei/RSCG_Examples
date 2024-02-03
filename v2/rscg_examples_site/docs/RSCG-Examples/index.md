@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 104 RSCG by category 
-description: 104 RSCG by category 
+title: 105 RSCG by category 
+description: 105 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -353,10 +353,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## FilesToCode Number Examples: 7
+## FilesToCode Number Examples: 8
 <details>
     
-  <summary>Expand FilesToCode =>examples:7</summary>
+  <summary>Expand FilesToCode =>examples:8</summary>
         
 
 
@@ -391,6 +391,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [NotNotAppSettings](/docs/NotNotAppSettings)
+
+        
+
+
+[Weave](/docs/Weave)
 
 </details>
     
@@ -800,6 +805,8 @@ flowchart LR;
     FilesToCode--> Chorn.EmbeddedResourceAccessGenerator((Chorn.EmbeddedResourceAccessGenerator))
 
     FilesToCode--> NotNotAppSettings((NotNotAppSettings))
+
+    FilesToCode--> Weave((Weave))
 
     FunctionalProgramming--> dunet((dunet))
 

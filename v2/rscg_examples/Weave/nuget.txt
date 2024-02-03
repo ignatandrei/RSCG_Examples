@@ -1,0 +1,1 @@
+Weave is a text templating engine that is all about attention to detail.  Weave handles the tricky work of making your rendered text beautiful.

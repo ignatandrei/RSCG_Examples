@@ -833,6 +833,14 @@
       "Source": "https://github.com/jasonswearingen/NotNot.AppSettings/",
       "Category": "FilesToCode",
       "AddedOn": "2024-01-26T00:00:00"
+    },
+    {
+      "Name": "Weave",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave",
+      "NuGet": "https://www.nuget.org/packages/Weave/",
+      "Source": "https://github.com/otac0n/Weave",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-01-27T00:00:00"
     }
   ]
 }
