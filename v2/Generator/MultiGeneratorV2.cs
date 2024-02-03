@@ -1,4 +1,6 @@
-﻿namespace Generator;
+﻿using System.ComponentModel;
+
+namespace Generator;
 public class MultiGeneratorV2 
 {
     const string tooComplicated = "too complicated for me, need help";
@@ -366,6 +368,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(license.md)", $"({d.Generator!.Source}license.md");            
             text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
             text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");
             text = text.Replace("(src/Ling.Cache)", $"({d.Generator!.Source}src/Ling.Cache)");
