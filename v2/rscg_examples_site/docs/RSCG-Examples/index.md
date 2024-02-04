@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 106 RSCG by category 
-description: 106 RSCG by category 
+title: 107 RSCG by category 
+description: 107 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -461,10 +461,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## Interface Number Examples: 7
+## Interface Number Examples: 8
 <details>
     
-  <summary>Expand Interface =>examples:7</summary>
+  <summary>Expand Interface =>examples:8</summary>
         
 
 
@@ -499,6 +499,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MakeInterface.Generator](/docs/MakeInterface.Generator)
+
+        
+
+
+[NetAutomaticInterface](/docs/NetAutomaticInterface)
 
 </details>
     
@@ -849,6 +854,8 @@ flowchart LR;
     Interface--> CopyCat((CopyCat))
 
     Interface--> MakeInterface.Generator((MakeInterface.Generator))
+
+    Interface--> NetAutomaticInterface((NetAutomaticInterface))
 
     Mapper--> mapperly((mapperly))
 

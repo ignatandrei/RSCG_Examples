@@ -411,6 +411,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen
 ### [Matryoshki](/docs/Matryoshki)
 
 
+### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+
+
 ### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 

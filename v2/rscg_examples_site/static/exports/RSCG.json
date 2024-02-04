@@ -849,6 +849,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_WhatIAmDoing",
       "Category": "AOP",
       "AddedOn": "2024-01-28T00:00:00"
+    },
+    {
+      "Name": "NetAutomaticInterface",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface",
+      "NuGet": "https://www.nuget.org/packages/AutomaticInterface/",
+      "Source": "https://github.com/codecentric/net_automatic_interface",
+      "Category": "Interface",
+      "AddedOn": "2024-01-29T00:00:00"
     }
   ]
 }

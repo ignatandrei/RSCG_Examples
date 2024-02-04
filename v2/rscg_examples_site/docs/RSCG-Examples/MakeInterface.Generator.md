@@ -248,6 +248,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator
 ### [Matryoshki](/docs/Matryoshki)
 
 
+### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+
+
 ### [ProxyGen](/docs/ProxyGen)
 
 
