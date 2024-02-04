@@ -181,7 +181,7 @@ Any errors? Ping me at: christiian.sauer@codecentric.de
 
 Newer Visual Studio Versions (2019+) can see the source code directly:
 
-![alt text](sg_example.png "Example")
+![alt text](https://github.com/codecentric/net_automatic_interface/sg_example.png "Example")
 
 Alternatively, the Source Generator generates a log file - look out for a "logs" folder somewhere in bin/debug/... OR your temp folder /logs. The exact location is also reported on Diagnosticlevel Info.
 
