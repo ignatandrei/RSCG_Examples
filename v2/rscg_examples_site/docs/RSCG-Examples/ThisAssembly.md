@@ -531,7 +531,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800+2f0911528d0680acf7201c9551ea3e565c6b9e4f";
+        public const string InformationalVersion = @"2023.5.7.800+c76aad25a2f090c6d63935596d7fb85f24cc51be";
 
         public const string Product = @"RSCG_Version";
 
@@ -568,9 +568,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"funcky-discriminated-union"
+        /// => @"net_automatic_interface"
         /// </summary>
-        public const string Branch = @"funcky-discriminated-union";
+        public const string Branch = @"net_automatic_interface";
     }
 }
 ```
@@ -600,9 +600,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"2f0911528d0680acf7201c9551ea3e565c6b9e4f"
+        /// => @"c76aad25a2f090c6d63935596d7fb85f24cc51be"
         /// </summary>
-        public const string Commit = @"2f0911528d0680acf7201c9551ea3e565c6b9e4f";
+        public const string Commit = @"c76aad25a2f090c6d63935596d7fb85f24cc51be";
     }
 }
 ```
@@ -664,9 +664,9 @@ partial class ThisAssembly
     public static partial class Git
     {
         /// <summary>
-        /// => @"2f0911528"
+        /// => @"c76aad25a"
         /// </summary>
-        public const string Sha = @"2f0911528";
+        public const string Sha = @"c76aad25a";
     }
 }
 ```

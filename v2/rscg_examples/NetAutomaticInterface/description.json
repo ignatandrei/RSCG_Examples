@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"NetAutomaticInterface",
+      "nuget":[
+         "https://www.nuget.org/packages/AutomaticInterface/"
+      ],
+      "link":"https://github.com/codecentric/net_automatic_interface",
+      "author":"codecentric AG",
+      "source":"https://github.com/codecentric/net_automatic_interface"
+   },
+   "data":{
+      "goodFor":["GEnerating interface from class"],
+      "csprojDemo":"Class2Interface.csproj",
+      "csFiles":["Program.cs","Data.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

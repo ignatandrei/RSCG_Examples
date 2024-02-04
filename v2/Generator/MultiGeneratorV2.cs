@@ -279,7 +279,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"NotNotAppSettings",new(true,new(2024,1,26),Category.FilesToCode) },
             {"Weave",new(true,new(2024,1,27), Category.FilesToCode) },
             {"WIAD",new(true,new(2024,1,28), Category.AOP) },
-
+            {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -369,6 +369,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
             text = text.Replace("(license.md)", $"({d.Generator!.Source}license.md");            
             text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
             text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");
@@ -904,7 +905,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "EmbedRes";
+        var lastGenerator = "WIAD";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)

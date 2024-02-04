@@ -1,6 +1,6 @@
-# RSCG - 106 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 107 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-01-28 => 28 January 2024
+## Latest Update : 2024-01-29 => 29 January 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 106 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 107 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 107. [NetAutomaticInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface) generated on : 2024-01-29 => 29 January 2024
+<details>
+  <summary>Expand</summary>
+Author: codecentric AG
+
+Source Generator to create an Interface from a class definition 
+
+Nuget: [https://www.nuget.org/packages/AutomaticInterface/](https://www.nuget.org/packages/AutomaticInterface/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface)
+
+Source: [https://github.com/codecentric/net_automatic_interface](https://github.com/codecentric/net_automatic_interface)
+
+</details>
+
 ### 106. [WhatIAmDoing](https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing) generated on : 2024-01-28 => 28 January 2024
 <details>
   <summary>Expand</summary>

@@ -233,6 +233,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 ### [Matryoshki](/docs/Matryoshki)
 
 
+### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+
+
 ### [ProxyGen](/docs/ProxyGen)
 
 

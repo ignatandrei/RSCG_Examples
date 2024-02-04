@@ -557,6 +557,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki
 ### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
+### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+
+
 ### [ProxyGen](/docs/ProxyGen)
 
 
