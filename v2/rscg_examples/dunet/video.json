@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present dunet  that is good for Add union types to C#  - similar with F#/TS discriminated unionsCheck his examples-  awesome .",
 "step_7_browser":"https://www.nuget.org/packages/dunet/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,16 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionAttributeGeneration.UnionAttributeGenerator\\UnionAttribute.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionGeneration.UnionGenerator\\duneDemo.WhatIsTheString.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionGeneration.UnionGenerator\\duneDemo.WhatIsTheStringMatchExtensions.g.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

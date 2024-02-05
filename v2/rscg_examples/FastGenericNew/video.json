@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present FastGenericNew  that is good for Creating instances fast. As generator show source code. Otherwise could be a dll .",
 "step_7_browser":"https://www.nuget.org/packages/FastGenericNew.SourceGenerator/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,22 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\obj\\GX\\FastGenericNew.SourceGenerator\\FastGenericNew.SourceGenerator.Generator\\FastNew.CreateInstance.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\obj\\GX\\FastGenericNew.SourceGenerator\\FastGenericNew.SourceGenerator.Generator\\FastNew.TryCreateInstance.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\obj\\GX\\FastGenericNew.SourceGenerator\\FastGenericNew.SourceGenerator.Generator\\FastNew{T}.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\obj\\GX\\FastGenericNew.SourceGenerator\\FastGenericNew.SourceGenerator.Generator\\ThrowHelper.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\obj\\GX\\FastGenericNew.SourceGenerator\\FastGenericNew.SourceGenerator.Generator\\TypeNew.CreateInstance.g.cs",
+    
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\FastGenericNew\\src\\FastGenericNewDemo\\obj\\GX\\FastGenericNew.SourceGenerator\\FastGenericNew.SourceGenerator.Generator\\_DynMetClosure.g.cs",
+    
+"step_27_hide": "this is a comment"
 
 
 }

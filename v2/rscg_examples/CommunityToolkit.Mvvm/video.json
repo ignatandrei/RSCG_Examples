@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present CommunityToolkit.Mvvm  that is good for Shows how to implement INotifyPropertyChanged,ObservableProperty and RelayCommandUnfortunately , not yet a separate package just for those.Also, this show that RSCG could generate multiple partial declarations .",
 "step_7_browser":"https://www.nuget.org/packages/CommunityToolkit.Mvvm",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommunityToolkit.Mvvm\\src\\ToolkitMVVM.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,18 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommunityToolkit.Mvvm\\src\\ToolkitMVVM\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommunityToolkit.Mvvm\\src\\ToolkitMVVM\\obj\\GX\\CommunityToolkit.Mvvm.SourceGenerators\\CommunityToolkit.Mvvm.SourceGenerators.INotifyPropertyChangedGenerator\\test.MyViewModel.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommunityToolkit.Mvvm\\src\\ToolkitMVVM\\obj\\GX\\CommunityToolkit.Mvvm.SourceGenerators\\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\\test.MyViewModel.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommunityToolkit.Mvvm\\src\\ToolkitMVVM\\obj\\GX\\CommunityToolkit.Mvvm.SourceGenerators\\CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator\\__KnownINotifyPropertyChangedArgs.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommunityToolkit.Mvvm\\src\\ToolkitMVVM\\obj\\GX\\CommunityToolkit.Mvvm.SourceGenerators\\CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator\\test.MyViewModel.SayHello.g.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }

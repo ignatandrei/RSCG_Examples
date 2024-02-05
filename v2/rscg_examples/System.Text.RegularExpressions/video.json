@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present System.Text.RegularExpressions  that is good for Regex compiled .",
 "step_7_browser":"https://www.nuget.org/packages/System.Text.RegularExpressions/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\System.Text.RegularExpressions\\src\\DemoRegex.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\System.Text.RegularExpressions\\src\\DemoRegex\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\System.Text.RegularExpressions\\src\\DemoRegex\\obj\\GX\\System.Text.RegularExpressions.Generator\\System.Text.RegularExpressions.Generator.RegexGenerator\\RegexGenerator.g.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

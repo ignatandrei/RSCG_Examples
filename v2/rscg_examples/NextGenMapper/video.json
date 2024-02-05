@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present NextGenMapper  that is good for Automating generating mapping between classes .",
 "step_7_browser":"https://www.nuget.org/packages/NextGenMapper/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -28,7 +28,18 @@
     
         "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\Program.cs",
     
-"step_21_hide": "hide"
+"step_21_text": "And this are files generated",
+
+
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\MapperExtensions.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\Mapper_ConfiguredMaps.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\Mapper_ConfiguredMaps_MockMethods.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\StartMapper.g.cs",
+    
+"step_26_hide": "this is a comment"
 
 
 }

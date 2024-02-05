@@ -7,6 +7,7 @@
     var code = @"C:\Users\ignat\AppData\Local\Programs\Microsoft VS Code\Code.exe";
     code = code.Replace("\\", "\\\\");
     int nrStep = 1;
+    var nrGenerated = Model.Data?.outputFiles?.generatedFiles?.Length??0;
 }
 {
     "step_@(nrStep++)_exec":"clipchamp.exe launch",
@@ -17,8 +18,8 @@
 
 "step_@(nrStep++)_text": "Today I will present @generator.Name  that is good for @string.Join("",Model.Data!.GoodFor!) .",
 "step_@(nrStep++)_browser":"@generator.NugetFirst",
-"step_@(nrStep++)_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/@generator.Name)",
-"step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@generator.Name",
+"step_@(nrStep++)_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)",
+"step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)#download-example-net--c-",
 "step_@(nrStep++)_text":" Here is the code ",
 "step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")",
 "step_@(nrStep++)_text": "So , let's start the project ",
@@ -40,7 +41,16 @@
 
 }
 
-"step_@(nrStep++)_hide": "hide"
+"step_@(nrStep++)_text": "And this are files generated",
+
+@for(var i = 0; i < nrGenerated; i++)
+{
+    <text>
+        "step_@(nrStep++)_exec":"@code -r -g @Model.Data!.outputFiles!.generatedFiles![i].fullPathFile.Replace("\\", "\\\\")",
+    </text>
+}
+
+"step_@(nrStep++)_hide": "this is a comment"
 
 
 }

@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present AutoCtor  that is good for Generate constructor from non-initialized fields .",
 "step_7_browser":"https://www.nuget.org/packages/AutoCtor/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoCtor\\src\\AutoCtorDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,14 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoCtor\\src\\AutoCtorDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoCtor\\src\\AutoCtorDemo\\obj\\GX\\AutoCtor\\AutoCtor.AutoConstructAttributeGenerator\\AutoConstructAttribute.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoCtor\\src\\AutoCtorDemo\\obj\\GX\\AutoCtor\\AutoCtor.AutoConstructSourceGenerator\\AutoCtorDemo.Person.g.cs",
+    
+"step_23_hide": "this is a comment"
 
 
 }

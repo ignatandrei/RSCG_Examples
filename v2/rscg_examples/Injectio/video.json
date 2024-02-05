@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present Injectio  that is good for Attributes to DI helper .",
 "step_7_browser":"https://www.nuget.org/packages/Injectio/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -30,7 +30,12 @@
     
         "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\Program.cs",
     
-"step_22_hide": "hide"
+"step_22_text": "And this are files generated",
+
+
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Injectio\\src\\InjectioDemo\\obj\\GX\\Injectio.Generators\\Injectio.Generators.ServiceRegistrationGenerator\\Injectio.g.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

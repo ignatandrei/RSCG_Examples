@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present OneOf  that is good for Functional discriminated unions .",
 "step_7_browser":"https://www.nuget.org/packages/OneOf.SourceGenerator",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OneOf\\src\\OneOfDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,14 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OneOf\\src\\OneOfDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OneOf\\src\\OneOfDemo\\obj\\GX\\OneOf.SourceGenerator\\OneOf.SourceGenerator.OneOfGenerator\\GenerateOneOfAttribute.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\OneOf\\src\\OneOfDemo\\obj\\GX\\OneOf.SourceGenerator\\OneOf.SourceGenerator.OneOfGenerator\\OneOfDemo_StringOrNumber.g.cs",
+    
+"step_23_hide": "this is a comment"
 
 
 }

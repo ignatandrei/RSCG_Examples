@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present Gobie  that is good for templating for classes , fields ... .",
 "step_7_browser":"https://www.nuget.org/packages/Gobie/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gobie\\src\\GobieDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -28,7 +28,16 @@
     
         "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gobie\\src\\GobieDemo\\Program.cs",
     
-"step_21_hide": "hide"
+"step_21_text": "And this are files generated",
+
+
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gobie\\src\\GobieDemo\\obj\\GX\\Gobie\\Gobie.GobieGenerator\\Person_ClassGenAddIdAttribute.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gobie\\src\\GobieDemo\\obj\\GX\\Gobie\\Gobie.GobieGenerator\\Person_ClassGenAddIdAttribute_ID.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gobie\\src\\GobieDemo\\obj\\GX\\Gobie\\Gobie.GobieGenerator\\_Gobie.ClassGenAddIdAttribute.g.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }

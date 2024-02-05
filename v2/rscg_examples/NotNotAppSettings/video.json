@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present NotNotAppSettings  that is good for Application Settings to strongly typed classes. Generate also from AppSettings development .",
 "step_7_browser":"https://www.nuget.org/packages/NotNot.AppSettings/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NotNotAppSettings\\src\\TestAppSettings.sln",
 "step_12_text": "So , let's start the project ",
@@ -24,7 +24,18 @@
 
         "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NotNotAppSettings\\src\\TestAppSettings\\Program.cs",
     
-"step_19_hide": "hide"
+"step_19_text": "And this are files generated",
+
+
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NotNotAppSettings\\src\\TestAppSettings\\obj\\GX\\NotNot.AppSettings\\NotNot.AppSettingsGen\\TestAppSettings.AppSettingsGen.AppSettings.cs",
+    
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NotNotAppSettings\\src\\TestAppSettings\\obj\\GX\\NotNot.AppSettings\\NotNot.AppSettingsGen\\TestAppSettings.AppSettingsGen._AppSettings.Logging.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NotNotAppSettings\\src\\TestAppSettings\\obj\\GX\\NotNot.AppSettings\\NotNot.AppSettingsGen\\TestAppSettings.AppSettingsGen._AppSettings._Logging.LogLevel.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NotNotAppSettings\\src\\TestAppSettings\\obj\\GX\\NotNot.AppSettings\\NotNot.AppSettingsGen\\_BinderShims.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

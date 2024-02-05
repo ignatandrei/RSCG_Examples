@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present ProxyGen  that is good for intercepting and duck typing .",
 "step_7_browser":"https://www.nuget.org/packages/ProxyGen.net/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ProxyGen\\src\\ProxyGenDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -30,7 +30,12 @@
     
         "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ProxyGen\\src\\ProxyGenDemo\\Program.cs",
     
-"step_22_hide": "hide"
+"step_22_text": "And this are files generated",
+
+
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ProxyGen\\src\\ProxyGenDemo\\obj\\GX\\Solti.Utils.Proxy\\Solti.Utils.Proxy.Internals.ProxyEmbedder\\Duck_BB1E45629CF5010E4068E5BFBB7EF53B.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

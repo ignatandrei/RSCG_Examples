@@ -1,7 +1,4 @@
-﻿using GeneratorVideo;
-using System.Text.Json;
-using System.Text.Json.Serialization;
-
+﻿
 string originalFolder = @"C:\ignatandrei\rscg_Examples";
 if (!Directory.Exists(originalFolder))
 {
@@ -15,9 +12,18 @@ foreach (string folder in folders)
 {
     var video=Path.Combine(originalFolder, folder);
     var file = Path.Combine(video, "video.json");
-    var v=new VideoData(file);
-    Console.WriteLine("nr steps :"+await v.Analyze());
-    Console.WriteLine(await v.Execute());
+    try
+    {
+        var v = new VideoData(file);
+        Console.WriteLine("nr steps :" + await v.Analyze());
+        Console.WriteLine(await v.Execute());
+
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error in {file} : {ex.Message}");
+        //break;
+    }
     break;
 
 }

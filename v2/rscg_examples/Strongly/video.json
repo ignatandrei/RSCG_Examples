@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present Strongly  that is good for Generate and customize strong id structs .",
 "step_7_browser":"https://www.nuget.org/packages/Strongly/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,26 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyAttribute.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyConverter.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyDefaultsAttribute.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyDemo.DayId.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyDemo.MonthId.g.cs",
+    
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyDemo.YearId.g.cs",
+    
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyImplementations.g.cs",
+    
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Strongly\\src\\StronglyDemo\\obj\\GX\\Strongly\\Strongly.StronglyGenerator\\StronglyType.g.cs",
+    
+"step_29_hide": "this is a comment"
 
 
 }

@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present RSCG_TimeBombComment  that is good for This will generate an error from the comment after a certain date .",
 "step_7_browser":"https://www.nuget.org/packages/RSCG_TimeBombComment/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\TimeBombComment.sln",
 "step_12_text": "So , let's start the project ",
@@ -24,7 +24,12 @@
 
         "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\TestClass.cs",
     
-"step_19_hide": "hide"
+"step_19_text": "And this are files generated",
+
+
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\obj\\GX\\RSCG_TimeBombComment\\RSCG_TimeBombComment.GenerateFromCommentsIncremental\\Obsolete_1.cs",
+    
+"step_21_hide": "this is a comment"
 
 
 }

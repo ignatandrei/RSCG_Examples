@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present SourceGenerator.Helper.CopyCode  that is good for Transform Code to string .",
 "step_7_browser":"https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SourceGenerator.Helper.CopyCode\\src\\SourceGenerator_Helper_CopyCode.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,16 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SourceGenerator.Helper.CopyCode\\src\\Demo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SourceGenerator.Helper.CopyCode\\src\\Demo\\obj\\GX\\SourceGenerator.Helper.CopyCode\\SourceGenerator.Helper.CopyCode.CopyGenerator\\CopyAttribute.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SourceGenerator.Helper.CopyCode\\src\\Demo\\obj\\GX\\SourceGenerator.Helper.CopyCode\\SourceGenerator.Helper.CopyCode.CopyGenerator\\SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SourceGenerator.Helper.CopyCode\\src\\Demo\\obj\\GX\\SourceGenerator.Helper.CopyCode\\SourceGenerator.Helper.CopyCode.CopyGenerator\\SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

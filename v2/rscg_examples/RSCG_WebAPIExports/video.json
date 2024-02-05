@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present RSCG_WebAPIExports  that is good for Generating Excel from WebAPI json array .",
 "step_7_browser":"https://www.nuget.org/packages/RSCG_WebAPIExports/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,16 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\Extensions.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\middlewareExport.methods.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\MiddlewareExportToFile.g.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

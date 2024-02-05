@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present M31.FluentAPI  that is good for Builder for your class. But the order counts - generates a new interface each time .",
 "step_7_browser":"https://www.nuget.org/packages/M31.FluentAPI/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\obj\\GX\\M31.FluentApi.Generator\\M31.FluentApi.Generator.SourceGenerators.SourceGenerator\\M31FluentAPIDemo.Person.fluentapi.g.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

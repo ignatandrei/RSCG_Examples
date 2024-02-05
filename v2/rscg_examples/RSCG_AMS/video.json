@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present RSCG_AMS  that is good for Automatically registering the version, ci, commit id .",
 "step_7_browser":"https://www.nuget.org/packages/RSCG_AMS/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_AMS\\src\\RSCG_AMSDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_AMS\\src\\RSCG_AMSDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_AMS\\src\\RSCG_AMSDemo\\obj\\GX\\AMS\\AMS.AMSVersionIncremental\\RSCG_AMSDemo.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

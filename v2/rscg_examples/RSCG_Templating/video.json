@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present RSCG_Templating  that is good for Templating every your data ( starting with class) .",
 "step_7_browser":"https://www.nuget.org/packages/RSCG_Templating/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -30,7 +30,14 @@
     
         "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\Program.cs",
     
-"step_22_hide": "hide"
+"step_22_text": "And this are files generated",
+
+
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\obj\\GX\\RSCG_Templating\\RSCG_Templating.GeneratorIntercept\\RSCG_TemplatingDemo.Person.ClassPropByName.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Templating\\src\\RSCG_TemplatingDemo\\obj\\GX\\RSCG_Templating\\RSCG_Templating.GeneratorIntercept\\RSCG_TemplatingDemo.Person.ClassTypeName.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }

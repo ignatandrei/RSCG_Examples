@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present MorrisMoxy  that is good for Generate C# code for classes from template using attributes .",
 "step_7_browser":"https://www.nuget.org/packages/Morris.Moxy/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -30,7 +30,16 @@
     
         "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Program.cs",
     
-"step_22_hide": "hide"
+"step_22_text": "And this are files generated",
+
+
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\IDName.MixinAttribute.Moxy.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\MorrisMoxyDemo.Department.IDName.Instance1.MixinCode.Moxy.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\MorrisMoxyDemo.Employee.IDName.Instance1.MixinCode.Moxy.g.cs",
+    
+"step_26_hide": "this is a comment"
 
 
 }

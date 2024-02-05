@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present ApparatusAOT  that is good for This will generate code for investigating at runtime the properties of an object .",
 "step_7_browser":"https://www.nuget.org/packages/Apparatus.AOT.Reflection/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Apparatus.AOT.Reflection\\src\\Apparatus.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Apparatus.AOT.Reflection\\src\\ApparatusAOTDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Apparatus.AOT.Reflection\\src\\ApparatusAOTDemo\\obj\\GX\\Apparatus.AOT.Reflection.SourceGenerator\\Apparatus.AOT.Reflection.SourceGenerator.AotPropertiesReflectionSourceGenerator\\ApparatusDemo_PersonExtensions.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

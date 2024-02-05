@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present GeneratorEquals  that is good for Generating Equals from properties .",
 "step_7_browser":"https://www.nuget.org/packages/Generator.Equals/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\obj\\GX\\Generator.Equals\\Generator.Equals.EqualsGenerator\\GeneratorEqualsDemo.Person.Generator.Equals.g.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

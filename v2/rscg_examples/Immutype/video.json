@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present Immutype  that is good for Immutable from constructors .",
 "step_7_browser":"https://www.nuget.org/packages/Immutype/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Immutype\\src\\ImmutypeDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,14 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Immutype\\src\\ImmutypeDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Immutype\\src\\ImmutypeDemo\\obj\\GX\\Immutype\\Immutype.SourceGenerator\\Immutype.Components.Contracts.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Immutype\\src\\ImmutypeDemo\\obj\\GX\\Immutype\\Immutype.SourceGenerator\\ImmutypeDemo.Person.cs",
+    
+"step_23_hide": "this is a comment"
 
 
 }

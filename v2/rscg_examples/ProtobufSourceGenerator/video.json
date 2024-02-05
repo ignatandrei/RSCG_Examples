@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present ProtobufSourceGenerator  that is good for Serializing a class to protobuf .",
 "step_7_browser":"https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ProtobufSourceGenerator\\src\\ProtobufSourceGenerator.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ProtobufSourceGenerator\\src\\ProtobufSourceGeneratorDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ProtobufSourceGenerator\\src\\ProtobufSourceGeneratorDemo\\obj\\GX\\ProtobufSourceGenerator\\ProtobufSourceGenerator.Incremental.IncrementalSourceGenerator\\ProtoPerson.g.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

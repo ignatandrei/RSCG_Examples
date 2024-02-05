@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present RSCG_FunctionsWithDI  that is good for Generating functions that have parameters from services .",
 "step_7_browser":"https://www.nuget.org/packages/RSCG_FunctionsWithDI/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -30,7 +30,12 @@
     
         "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\Program.cs",
     
-"step_22_hide": "hide"
+"step_22_text": "And this are files generated",
+
+
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\obj\\GX\\RSCG_FunctionsWithDI\\RSCG_FunctionsWithDI.DIGenerator\\TestDIMyClass_gen_methods.cs",
+    
+"step_24_hide": "this is a comment"
 
 
 }

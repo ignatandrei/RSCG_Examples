@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present WhatIAmDoing  that is good for Intercept any method in any project .",
 "step_7_browser":"https://www.nuget.org/packages/RSCG_WhatIAmDoing/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,18 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_1.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_2.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_3.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_4.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }

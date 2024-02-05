@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present StringLiteral  that is good for Optimizing memory for strings .",
 "step_7_browser":"https://www.nuget.org/packages/StringLiteralGenerator/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\StringLiteral\\src\\StringLiteralDemo.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,14 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\StringLiteral\\src\\StringLiteralDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\StringLiteral\\src\\StringLiteralDemo\\obj\\GX\\StringLiteralGenerator\\StringLiteralGenerator.Utf8StringLiteralGenerator\\StringLiteralDemo_LiteralConstants_utf8literal.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\StringLiteral\\src\\StringLiteralDemo\\obj\\GX\\StringLiteralGenerator\\StringLiteralGenerator.Utf8StringLiteralGenerator\\Utf8Attribute.cs",
+    
+"step_23_hide": "this is a comment"
 
 
 }

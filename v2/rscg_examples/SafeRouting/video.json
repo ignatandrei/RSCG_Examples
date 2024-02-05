@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present SafeRouting  that is good for Safe Routing for MVC .",
 "step_7_browser":"https://www.nuget.org/packages/SafeRouting/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRouting.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,42 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\Views\\_ViewImports.cshtml",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Home_Index_cshtml.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Home_Privacy_cshtml.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Shared_Error_cshtml.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Shared__Layout_cshtml.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Shared__ValidationScriptsPartial_cshtml.g.cs",
+    
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views__ViewImports_cshtml.g.cs",
+    
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views__ViewStart_cshtml.g.cs",
+    
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Home_Index_cshtml.g.cs",
+    
+        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Home_Privacy_cshtml.g.cs",
+    
+        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Shared_Error_cshtml.g.cs",
+    
+        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Shared__Layout_cshtml.g.cs",
+    
+        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views_Shared__ValidationScriptsPartial_cshtml.g.cs",
+    
+        "step_33_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views__ViewImports_cshtml.g.cs",
+    
+        "step_34_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\Microsoft.NET.Sdk.Razor.SourceGenerators\\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\\Views__ViewStart_cshtml.g.cs",
+    
+        "step_35_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\SafeRouting.Generator\\SafeRouting.Generator.RouteGenerator\\ControllerRoutes.g.cs",
+    
+        "step_36_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\SafeRouting\\src\\SafeRoutingDemo\\obj\\GX\\SafeRouting.Generator\\SafeRouting.Generator.RouteGenerator\\globalusings.g.cs",
+    
+"step_37_hide": "this is a comment"
 
 
 }

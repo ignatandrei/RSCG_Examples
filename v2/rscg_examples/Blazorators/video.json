@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present Blazorators  that is good for Generate javascript interop code for Blazor WASM projects. .",
 "step_7_browser":"https://www.nuget.org/packages/Blazor.SourceGenerators/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp1.sln",
 "step_12_text": "So , let's start the project ",
@@ -28,7 +28,24 @@
     
         "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\Program.cs",
     
-"step_21_hide": "hide"
+"step_21_text": "And this are files generated",
+
+
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\BlazorHostingModel.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\ILocalStorageService.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\JSAutoGenericInteropAttribute.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\JSAutoInteropAttribute.g.cs",
+    
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\LocalStorageService.g.cs",
+    
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\LocalStorageServiceCollectionExtensions.g.cs",
+    
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Blazorators\\src\\BlazorApp2\\obj\\GX\\Blazor.SourceGenerators\\Blazor.SourceGenerators.JavaScriptInteropGenerator\\RecordCompat.g.cs",
+    
+"step_29_hide": "this is a comment"
 
 
 }

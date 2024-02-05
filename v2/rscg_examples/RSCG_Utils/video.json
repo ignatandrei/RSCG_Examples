@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present RSCG_Utils  that is good for Add files as C# consts .",
 "step_7_browser":"https://www.nuget.org/packages/rscgutils",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Utils\\src\\DemoRSCG_Utils.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,12 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Utils\\src\\DemoRSCG_Utils\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Utils\\src\\DemoRSCG_Utils\\obj\\GX\\RSCG_Utils\\RSCG_Utils.AdditionalFilesGenerator\\MyAdditionalFiles.data.gen.txt.cs",
+    
+"step_22_hide": "this is a comment"
 
 
 }

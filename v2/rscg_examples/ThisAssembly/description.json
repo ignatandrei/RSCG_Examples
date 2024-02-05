@@ -12,7 +12,8 @@
 	"I found useful to see the assembly version right away in any project that I have."
 	],
 	"csprojDemo":"RSCG_Version.csproj",
-	"csFiles":["Program.cs"]
+	"csFiles":["Program.cs"],
+  "excludeDirectoryGenerated":["ThisAssembly.Constants","ThisAssembly.Metadata","ThisAssembly.Project","ThisAssembly.Resource","ThisAssembly.Strings"]
   },
   "links":{
 	"blog":"http://msprogrammer.serviciipeweb.ro/2021/02/16/rscg-appversionpart-2/",

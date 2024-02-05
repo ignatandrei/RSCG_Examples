@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present DudNet  that is good for Generate proxy classes for the principal classes .",
 "step_7_browser":"https://www.nuget.org/packages/Jwshyns.DudNet/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DudNet\\src\\DudNet.sln",
 "step_12_text": "So , let's start the project ",
@@ -26,7 +26,14 @@
     
         "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DudNet\\src\\DudNetDemo\\Program.cs",
     
-"step_20_hide": "hide"
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DudNet\\src\\DudNetDemo\\obj\\GX\\DudNet\\DudNet.Generation.ProxyServiceGenerator\\PersonDud.g.cs",
+    
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DudNet\\src\\DudNetDemo\\obj\\GX\\DudNet\\DudNet.Generation.ProxyServiceGenerator\\PersonProxy.g.cs",
+    
+"step_23_hide": "this is a comment"
 
 
 }

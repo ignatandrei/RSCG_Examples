@@ -7,8 +7,8 @@
 
 "step_6_text": "Today I will present BuilderGenerator  that is good for Generating Builder class for an object .",
 "step_7_browser":"https://www.nuget.org/packages/BuilderGenerator/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator)",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator",
+"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator",
+"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator#download-example-net--c-",
 "step_10_text":" Here is the code ",
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder.sln",
 "step_12_text": "So , let's start the project ",
@@ -28,7 +28,16 @@
     
         "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Program.cs",
     
-"step_21_hide": "hide"
+"step_21_text": "And this are files generated",
+
+
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\BuilderBaseClass.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\BuilderForAttribute.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\PersonBuilder.g.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }
