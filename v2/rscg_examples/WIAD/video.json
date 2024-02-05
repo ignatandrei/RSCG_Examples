@@ -13,31 +13,30 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\WIADDemo.csproj",
 
-"step_15_text": "You put the  [RSCG_WhatIAmDoing](https://www.nuget.org/packages/RSCG_WhatIAmDoing/) into the csproj ",
+"step_14_text": "You put the  [RSCG_WhatIAmDoing](https://www.nuget.org/packages/RSCG_WhatIAmDoing/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\WIADDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\WIADDemo.csproj",
 
-"step_17_text": "I have used the WhatIAmDoing in those files",
+"step_16_text": "I have used the WhatIAmDoing in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\InterceptorStatic.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\InterceptorStatic.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\Program.cs",
     
-"step_20_text": "And this are files generated",
+"step_19_text": "And this are files generated",
 
 
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_1.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_1.cs",
     
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_2.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_2.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_3.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_3.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_4.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\WIAD\\src\\WIADDemo\\obj\\GX\\RSCG_WhatIAmDoing\\RSCG_WhatIAmDoing.GeneratorWIAD\\System.Console_WriteLine_4.cs",
     
-"step_25_hide": "this is a comment"
+"step_24_hide": "this is a comment"
 
 
 }

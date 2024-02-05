@@ -13,29 +13,28 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\EmbeddingResourceCSharpDemo.csproj",
 
-"step_15_text": "You put the  [EmbedResourceCSharp](https://www.nuget.org/packages/EmbedResourceCSharp/) into the csproj ",
+"step_14_text": "You put the  [EmbedResourceCSharp](https://www.nuget.org/packages/EmbedResourceCSharp/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\EmbeddingResourceCSharpDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\EmbeddingResourceCSharpDemo.csproj",
 
-"step_17_text": "I have used the EmbedResourceCSharp in those files",
+"step_16_text": "I have used the EmbedResourceCSharp in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\createDB.txt",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\createDB.txt",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\MyResource.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\MyResource.cs",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\Program.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\Program.cs",
     
-"step_21_text": "And this are files generated",
+"step_20_text": "And this are files generated",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\obj\\GX\\EmbedResourceCSharp\\EmbedResourceCSharp.Generator\\Attribute.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\obj\\GX\\EmbedResourceCSharp\\EmbedResourceCSharp.Generator\\Attribute.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\obj\\GX\\EmbedResourceCSharp\\EmbedResourceCSharp.Generator\\MyResource____GetContentOfCreate.file.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EmbeddingResourceCSharp\\src\\EmbeddingResourceCSharpDemo\\obj\\GX\\EmbedResourceCSharp\\EmbedResourceCSharp.Generator\\MyResource____GetContentOfCreate.file.g.cs",
     
-"step_24_hide": "this is a comment"
+"step_23_hide": "this is a comment"
 
 
 }

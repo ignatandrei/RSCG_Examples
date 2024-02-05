@@ -13,23 +13,22 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\TimeBombComment.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\Console_TimeBombComment.csproj",
 
-"step_15_text": "You put the  [RSCG_TimeBombComment](https://www.nuget.org/packages/RSCG_TimeBombComment/) into the csproj ",
+"step_14_text": "You put the  [RSCG_TimeBombComment](https://www.nuget.org/packages/RSCG_TimeBombComment/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\Console_TimeBombComment.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\Console_TimeBombComment.csproj",
 
-"step_17_text": "I have used the RSCG_TimeBombComment in those files",
+"step_16_text": "I have used the RSCG_TimeBombComment in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\TestClass.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\TestClass.cs",
     
-"step_19_text": "And this are files generated",
+"step_18_text": "And this are files generated",
 
 
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\obj\\GX\\RSCG_TimeBombComment\\RSCG_TimeBombComment.GenerateFromCommentsIncremental\\Obsolete_1.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_TimeBombComment\\src\\Console_TimeBombComment\\obj\\GX\\RSCG_TimeBombComment\\RSCG_TimeBombComment.GenerateFromCommentsIncremental\\Obsolete_1.cs",
     
-"step_21_hide": "this is a comment"
+"step_20_hide": "this is a comment"
 
 
 }

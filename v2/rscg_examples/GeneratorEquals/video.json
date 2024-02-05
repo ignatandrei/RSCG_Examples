@@ -13,25 +13,24 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\GeneratorEqualsDemo.csproj",
 
-"step_15_text": "You put the  [Generator.Equals](https://www.nuget.org/packages/Generator.Equals/) into the csproj ",
+"step_14_text": "You put the  [Generator.Equals](https://www.nuget.org/packages/Generator.Equals/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\GeneratorEqualsDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\GeneratorEqualsDemo.csproj",
 
-"step_17_text": "I have used the GeneratorEquals in those files",
+"step_16_text": "I have used the GeneratorEquals in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\Person.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\Person.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\Program.cs",
     
-"step_20_text": "And this are files generated",
+"step_19_text": "And this are files generated",
 
 
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\obj\\GX\\Generator.Equals\\Generator.Equals.EqualsGenerator\\GeneratorEqualsDemo.Person.Generator.Equals.g.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\GeneratorEquals\\src\\GeneratorEqualsDemo\\obj\\GX\\Generator.Equals\\Generator.Equals.EqualsGenerator\\GeneratorEqualsDemo.Person.Generator.Equals.g.cs",
     
-"step_22_hide": "this is a comment"
+"step_21_hide": "this is a comment"
 
 
 }

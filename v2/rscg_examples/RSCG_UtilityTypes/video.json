@@ -13,27 +13,26 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\UtilDemo.csproj",
 
-"step_15_text": "You put the  [RSCG_UtilityTypes](https://www.nuget.org/packages/RSCG_UtilityTypes/) into the csproj ",
+"step_14_text": "You put the  [RSCG_UtilityTypes](https://www.nuget.org/packages/RSCG_UtilityTypes/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\UtilDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\UtilDemo.csproj",
 
-"step_17_text": "I have used the RSCG_UtilityTypes in those files",
+"step_16_text": "I have used the RSCG_UtilityTypes in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\Person.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\Person.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\Program.cs",
     
-"step_20_text": "And this are files generated",
+"step_19_text": "And this are files generated",
 
 
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\obj\\GX\\RSCG_UtilityTypes\\RSCG_UtilityTypes.OmitPick\\PersonFull_Person1.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\obj\\GX\\RSCG_UtilityTypes\\RSCG_UtilityTypes.OmitPick\\PersonFull_Person1.cs",
     
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\obj\\GX\\RSCG_UtilityTypes\\RSCG_UtilityTypes.OmitPick\\PersonFull_Person2.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_UtilityTypes\\src\\UtilDemo\\obj\\GX\\RSCG_UtilityTypes\\RSCG_UtilityTypes.OmitPick\\PersonFull_Person2.cs",
     
-"step_23_hide": "this is a comment"
+"step_22_hide": "this is a comment"
 
 
 }

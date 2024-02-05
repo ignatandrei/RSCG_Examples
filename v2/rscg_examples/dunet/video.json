@@ -13,29 +13,28 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\duneDemo.csproj",
 
-"step_15_text": "You put the  [dunet](https://www.nuget.org/packages/dunet/) into the csproj ",
+"step_14_text": "You put the  [dunet](https://www.nuget.org/packages/dunet/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\duneDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\duneDemo.csproj",
 
-"step_17_text": "I have used the dunet in those files",
+"step_16_text": "I have used the dunet in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\Recognize.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\Recognize.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\Program.cs",
     
-"step_20_text": "And this are files generated",
+"step_19_text": "And this are files generated",
 
 
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionAttributeGeneration.UnionAttributeGenerator\\UnionAttribute.g.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionAttributeGeneration.UnionAttributeGenerator\\UnionAttribute.g.cs",
     
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionGeneration.UnionGenerator\\duneDemo.WhatIsTheString.g.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionGeneration.UnionGenerator\\duneDemo.WhatIsTheString.g.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionGeneration.UnionGenerator\\duneDemo.WhatIsTheStringMatchExtensions.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\dunet\\src\\duneDemo\\obj\\GX\\Dunet\\Dunet.UnionGeneration.UnionGenerator\\duneDemo.WhatIsTheStringMatchExtensions.g.cs",
     
-"step_24_hide": "this is a comment"
+"step_23_hide": "this is a comment"
 
 
 }

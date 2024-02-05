@@ -13,31 +13,30 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
 
-"step_15_text": "You put the  [BuilderGenerator](https://www.nuget.org/packages/BuilderGenerator/) into the csproj ",
+"step_14_text": "You put the  [BuilderGenerator](https://www.nuget.org/packages/BuilderGenerator/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Builder.csproj",
 
-"step_17_text": "I have used the BuilderGenerator in those files",
+"step_16_text": "I have used the BuilderGenerator in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\PersonBuilder.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\PersonBuilder.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Person.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Person.cs",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Program.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\Program.cs",
     
-"step_21_text": "And this are files generated",
+"step_20_text": "And this are files generated",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\BuilderBaseClass.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\BuilderBaseClass.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\BuilderForAttribute.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\BuilderForAttribute.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\PersonBuilder.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\BuilderGenerator\\src\\Builder\\obj\\GX\\BuilderGenerator\\BuilderGenerator.BuilderGenerator\\PersonBuilder.g.cs",
     
-"step_25_hide": "this is a comment"
+"step_24_hide": "this is a comment"
 
 
 }

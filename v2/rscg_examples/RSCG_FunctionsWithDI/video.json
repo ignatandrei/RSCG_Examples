@@ -13,29 +13,28 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\RSCG_FunctionsWithDIDemo.csproj",
 
-"step_15_text": "You put the  [RSCG_FunctionsWithDI](https://www.nuget.org/packages/RSCG_FunctionsWithDI/) into the csproj ",
+"step_14_text": "You put the  [RSCG_FunctionsWithDI](https://www.nuget.org/packages/RSCG_FunctionsWithDI/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\RSCG_FunctionsWithDIDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\RSCG_FunctionsWithDIDemo.csproj",
 
-"step_17_text": "I have used the RSCG_FunctionsWithDI in those files",
+"step_16_text": "I have used the RSCG_FunctionsWithDI in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\TestDIMyClass.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\TestDIMyClass.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\TestDI2.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\TestDI2.cs",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\TestDI1.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\TestDI1.cs",
     
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\Program.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\Program.cs",
     
-"step_22_text": "And this are files generated",
+"step_21_text": "And this are files generated",
 
 
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\obj\\GX\\RSCG_FunctionsWithDI\\RSCG_FunctionsWithDI.DIGenerator\\TestDIMyClass_gen_methods.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_FunctionsWithDI\\src\\RSCG_FunctionsWithDIDemo\\obj\\GX\\RSCG_FunctionsWithDI\\RSCG_FunctionsWithDI.DIGenerator\\TestDIMyClass_gen_methods.cs",
     
-"step_24_hide": "this is a comment"
+"step_23_hide": "this is a comment"
 
 
 }

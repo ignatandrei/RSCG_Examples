@@ -13,29 +13,28 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\RSCG_WebAPIExportsDemo.csproj",
 
-"step_15_text": "You put the  [RSCG_WebAPIExports](https://www.nuget.org/packages/RSCG_WebAPIExports/) into the csproj ",
+"step_14_text": "You put the  [RSCG_WebAPIExports](https://www.nuget.org/packages/RSCG_WebAPIExports/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\RSCG_WebAPIExportsDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\RSCG_WebAPIExportsDemo.csproj",
 
-"step_17_text": "I have used the RSCG_WebAPIExports in those files",
+"step_16_text": "I have used the RSCG_WebAPIExports in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\Controllers\\WeatherForecastController.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\Controllers\\WeatherForecastController.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\Program.cs",
     
-"step_20_text": "And this are files generated",
+"step_19_text": "And this are files generated",
 
 
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\Extensions.g.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\Extensions.g.cs",
     
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\middlewareExport.methods.g.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\middlewareExport.methods.g.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\MiddlewareExportToFile.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_WebAPIExports\\src\\RSCG_WebAPIExportsDemo\\obj\\GX\\RSCG_APIExport\\RSCG_APIExport.GenerateExportForWebAPI\\MiddlewareExportToFile.g.cs",
     
-"step_24_hide": "this is a comment"
+"step_23_hide": "this is a comment"
 
 
 }

@@ -13,27 +13,26 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\RidgeDemoWebApp.csproj",
 
-"step_15_text": "You put the  [Ridge](https://www.nuget.org/packages/Ridge/) into the csproj ",
+"step_14_text": "You put the  [Ridge](https://www.nuget.org/packages/Ridge/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\RidgeDemoWebApp.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\RidgeDemoWebApp.csproj",
 
-"step_17_text": "I have used the Ridge in those files",
+"step_16_text": "I have used the Ridge in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\TestRidgeApp\\BasicTests.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\TestRidgeApp\\BasicTests.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\Controllers\\WeatherForecastController.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\Controllers\\WeatherForecastController.cs",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\Program.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\Program.cs",
     
-"step_21_text": "And this are files generated",
+"step_20_text": "And this are files generated",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\obj\\GX\\RidgeSourceGenerator\\RidgeSourceGenerator.ControllerClientGenerator\\WeatherForecastController_Client.g.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Ridge\\src\\RidgeDemoWebApp\\obj\\GX\\RidgeSourceGenerator\\RidgeSourceGenerator.ControllerClientGenerator\\WeatherForecastController_Client.g.cs",
     
-"step_23_hide": "this is a comment"
+"step_22_hide": "this is a comment"
 
 
 }

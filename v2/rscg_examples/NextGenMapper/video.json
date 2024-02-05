@@ -13,33 +13,32 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\NextGenMapperDemo.csproj",
 
-"step_15_text": "You put the  [NextGenMapper](https://www.nuget.org/packages/NextGenMapper/) into the csproj ",
+"step_14_text": "You put the  [NextGenMapper](https://www.nuget.org/packages/NextGenMapper/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\NextGenMapperDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\NextGenMapperDemo.csproj",
 
-"step_17_text": "I have used the NextGenMapper in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\PersonDTO.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\Person.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\Program.cs",
-    
-"step_21_text": "And this are files generated",
+"step_16_text": "I have used the NextGenMapper in those files",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\MapperExtensions.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\PersonDTO.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\Mapper_ConfiguredMaps.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\Person.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\Mapper_ConfiguredMaps_MockMethods.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\Program.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\StartMapper.g.cs",
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\MapperExtensions.g.cs",
     
-"step_26_hide": "this is a comment"
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\Mapper_ConfiguredMaps.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\Mapper_ConfiguredMaps_MockMethods.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NextGenMapper\\src\\NextGenMapperDemo\\obj\\GX\\NextGenMapper\\NextGenMapper.MapperGenerator\\StartMapper.g.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }

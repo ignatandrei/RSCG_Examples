@@ -13,33 +13,32 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\MorrisMoxyDemo.csproj",
 
-"step_15_text": "You put the  [Morris.Moxy](https://www.nuget.org/packages/Morris.Moxy/) into the csproj ",
+"step_14_text": "You put the  [Morris.Moxy](https://www.nuget.org/packages/Morris.Moxy/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\MorrisMoxyDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\MorrisMoxyDemo.csproj",
 
-"step_17_text": "I have used the MorrisMoxy in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\mixin\\IDName.mixin",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Department.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Employee.cs",
-    
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Program.cs",
-    
-"step_22_text": "And this are files generated",
+"step_16_text": "I have used the MorrisMoxy in those files",
 
 
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\IDName.MixinAttribute.Moxy.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\mixin\\IDName.mixin",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\MorrisMoxyDemo.Department.IDName.Instance1.MixinCode.Moxy.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Department.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\MorrisMoxyDemo.Employee.IDName.Instance1.MixinCode.Moxy.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Employee.cs",
     
-"step_26_hide": "this is a comment"
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\Program.cs",
+    
+"step_21_text": "And this are files generated",
+
+
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\IDName.MixinAttribute.Moxy.g.cs",
+    
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\MorrisMoxyDemo.Department.IDName.Instance1.MixinCode.Moxy.g.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\MorrisMoxy\\src\\MorrisMoxyDemo\\obj\\GX\\Morris.Moxy\\Morris.Moxy.RoslynIncrementalGenerator\\MorrisMoxyDemo.Employee.IDName.Instance1.MixinCode.Moxy.g.cs",
+    
+"step_25_hide": "this is a comment"
 
 
 }

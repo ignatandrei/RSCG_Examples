@@ -13,47 +13,46 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\GedaqDemoConsole.csproj",
 
-"step_15_text": "You put the  [Gedaq](https://www.nuget.org/packages/Gedaq/) into the csproj ",
+"step_14_text": "You put the  [Gedaq](https://www.nuget.org/packages/Gedaq/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\GedaqDemoConsole.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\GedaqDemoConsole.csproj",
 
-"step_17_text": "I have used the Gedaq in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example3\\PersonRepository.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example3\\ExampleRun.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example2\\PersonRepository.cs",
-    
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example2\\ExampleRun.cs",
-    
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example1\\PersonRepository.cs",
-    
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example1\\ExampleRun.cs",
-    
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Model\\Address.cs",
-    
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Model\\Person.cs",
-    
-"step_26_text": "And this are files generated",
+"step_16_text": "I have used the Gedaq in those files",
 
 
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository2BatchPersonsNpgsql.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example3\\PersonRepository.cs",
     
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3AddPersonsICommandPersonRepository.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example3\\ExampleRun.cs",
     
-        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3AddPersonsNpgsql.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example2\\PersonRepository.cs",
     
-        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3GetPersonsIQueryPersonRepository.g.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example2\\ExampleRun.cs",
     
-        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3GetPersonsNpgsql.g.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example1\\PersonRepository.cs",
     
-        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepositoryGetPersonNpgsql.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Example1\\ExampleRun.cs",
     
-"step_33_hide": "this is a comment"
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Model\\Address.cs",
+    
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\Model\\Person.cs",
+    
+"step_25_text": "And this are files generated",
+
+
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository2BatchPersonsNpgsql.g.cs",
+    
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3AddPersonsICommandPersonRepository.g.cs",
+    
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3AddPersonsNpgsql.g.cs",
+    
+        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3GetPersonsIQueryPersonRepository.g.cs",
+    
+        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepository3GetPersonsNpgsql.g.cs",
+    
+        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Gedaq\\src\\GedaqDemoConsole\\obj\\GX\\Gedaq\\Gedaq.Gedaq\\PersonRepositoryGetPersonNpgsql.g.cs",
+    
+"step_32_hide": "this is a comment"
 
 
 }

@@ -24,11 +24,10 @@
 "step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")",
 "step_@(nrStep++)_text": "So , let's start the project ",
 "step_@(nrStep++)_exec": "@code @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")",
-"step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\","\\\\")",
 
 "step_@(nrStep++)_text": "You put the  [@generator.NameNugetFirst()](@generator.NugetFirst) into the csproj ",
 
-"step_@(nrStep++)_exec": "@code -r -g @Model.Data.outputFiles.fullPathToCsproj.Replace("\\", "\\\\")",
+"step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")",
 
 "step_@(nrStep++)_text": "I have used the @generator.Name in those files",
 

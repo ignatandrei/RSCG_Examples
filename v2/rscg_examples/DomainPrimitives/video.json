@@ -13,49 +13,48 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\DomainPrimitives.csproj",
 
-"step_15_text": "You put the  [AltaSoft.DomainPrimitives.Generator](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator) into the csproj ",
+"step_14_text": "You put the  [AltaSoft.DomainPrimitives.Generator](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\DomainPrimitives.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\DomainPrimitives.csproj",
 
-"step_17_text": "I have used the DomainPrimitives in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\TaskAfterDelay.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\DOB.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\Program.cs",
-    
-"step_21_text": "And this are files generated",
+"step_16_text": "I have used the DomainPrimitives in those files",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\DayDate.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\TaskAfterDelay.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\DayDateJsonConverter.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\DOB.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\DayDateTypeConverter.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\Program.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MinutesInteger.g.cs",
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\DayDate.g.cs",
     
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MinutesIntegerJsonConverter.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\DayDateJsonConverter.g.cs",
     
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MinutesIntegerTypeConverter.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\DayDateTypeConverter.g.cs",
     
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MonthDate.g.cs",
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MinutesInteger.g.cs",
     
-        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MonthDateJsonConverter.g.cs",
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MinutesIntegerJsonConverter.g.cs",
     
-        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MonthDateTypeConverter.g.cs",
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MinutesIntegerTypeConverter.g.cs",
     
-        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\YearDate.g.cs",
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MonthDate.g.cs",
     
-        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\YearDateJsonConverter.g.cs",
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MonthDateJsonConverter.g.cs",
     
-        "step_33_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\YearDateTypeConverter.g.cs",
+        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\MonthDateTypeConverter.g.cs",
     
-"step_34_hide": "this is a comment"
+        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\YearDate.g.cs",
+    
+        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\YearDateJsonConverter.g.cs",
+    
+        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\DomainPrimitives\\src\\DomainPrimitives\\obj\\GX\\AltaSoft.DomainPrimitives.Generator\\AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator\\YearDateTypeConverter.g.cs",
+    
+"step_33_hide": "this is a comment"
 
 
 }

@@ -13,39 +13,38 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\UnionTypesDemo.csproj",
 
-"step_15_text": "You put the  [N.SourceGenerators.UnionTypes](https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/) into the csproj ",
+"step_14_text": "You put the  [N.SourceGenerators.UnionTypes](https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\UnionTypesDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\UnionTypesDemo.csproj",
 
-"step_17_text": "I have used the N.SourceGenerators.UnionTypes in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\SaveToDatabase.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\ResultSave.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\Program.cs",
-    
-"step_21_text": "And this are files generated",
+"step_16_text": "I have used the N.SourceGenerators.UnionTypes in those files",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\GenericUnionTypeAttribute.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\SaveToDatabase.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\JsonPolymorphicUnionAttribute.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\ResultSave.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\ResultSave.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\Program.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionConverterAttribute.g.cs",
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\GenericUnionTypeAttribute.g.cs",
     
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionConverterFromAttribute.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\JsonPolymorphicUnionAttribute.g.cs",
     
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionConverterToAttribute.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\ResultSave.g.cs",
     
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionTypeAttribute.g.cs",
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionConverterAttribute.g.cs",
     
-"step_29_hide": "this is a comment"
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionConverterFromAttribute.g.cs",
+    
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionConverterToAttribute.g.cs",
+    
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\N.SourceGenerators.UnionTypes\\src\\UnionTypesDemo\\obj\\GX\\N.SourceGenerators.UnionTypes\\N.SourceGenerators.UnionTypes.UnionTypesGenerator\\UnionTypeAttribute.g.cs",
+    
+"step_28_hide": "this is a comment"
 
 
 }

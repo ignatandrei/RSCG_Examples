@@ -13,37 +13,36 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\BreezyDemo.csproj",
 
-"step_15_text": "You put the  [Breezy.SourceGenerator](https://www.nuget.org/packages/Breezy.SourceGenerator/) into the csproj ",
+"step_14_text": "You put the  [Breezy.SourceGenerator](https://www.nuget.org/packages/Breezy.SourceGenerator/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\BreezyDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\BreezyDemo.csproj",
 
-"step_17_text": "I have used the Breezy in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\globals.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\Person.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\Program.cs",
-    
-"step_21_text": "And this are files generated",
+"step_16_text": "I have used the Breezy in those files",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\DbConnectionExtensions.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\globals.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\ICacheableQuery.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\Person.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\IdentityQuery.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\Program.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\PersonExtensions.g.cs",
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\DbConnectionExtensions.g.cs",
     
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\SplitOnAttribute.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\ICacheableQuery.g.cs",
     
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\TableAttribute.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\IdentityQuery.g.cs",
     
-"step_28_hide": "this is a comment"
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\PersonExtensions.g.cs",
+    
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\SplitOnAttribute.g.cs",
+    
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Breezy\\src\\BreezyDemo\\obj\\GX\\Breezy\\Breezy.BreezyGenerator\\TableAttribute.g.cs",
+    
+"step_27_hide": "this is a comment"
 
 
 }

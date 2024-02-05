@@ -13,31 +13,30 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\TestEnumEscapades.csproj",
 
-"step_15_text": "You put the  [NetEscapades.EnumGenerators](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) into the csproj ",
+"step_14_text": "You put the  [NetEscapades.EnumGenerators](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\TestEnumEscapades.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\TestEnumEscapades.csproj",
 
-"step_17_text": "I have used the NetEscapades.EnumGenerators in those files",
+"step_16_text": "I have used the NetEscapades.EnumGenerators in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\AddToCoffee.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\AddToCoffee.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\InstallType.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\InstallType.cs",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\Program.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\Program.cs",
     
-"step_21_text": "And this are files generated",
+"step_20_text": "And this are files generated",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\obj\\GX\\NetEscapades.EnumGenerators\\NetEscapades.EnumGenerators.EnumGenerator\\AddToCoffeeExtensions_EnumExtensions.g.cs",
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\obj\\GX\\NetEscapades.EnumGenerators\\NetEscapades.EnumGenerators.EnumGenerator\\AddToCoffeeExtensions_EnumExtensions.g.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\obj\\GX\\NetEscapades.EnumGenerators\\NetEscapades.EnumGenerators.EnumGenerator\\EnumExtensionsAttribute.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\obj\\GX\\NetEscapades.EnumGenerators\\NetEscapades.EnumGenerators.EnumGenerator\\EnumExtensionsAttribute.g.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\obj\\GX\\NetEscapades.EnumGenerators\\NetEscapades.EnumGenerators.EnumGenerator\\InstallTypeExtensions_EnumExtensions.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\NetEscapades.EnumGenerators\\src\\TestEnumEscapades\\obj\\GX\\NetEscapades.EnumGenerators\\NetEscapades.EnumGenerators.EnumGenerator\\InstallTypeExtensions_EnumExtensions.g.cs",
     
-"step_25_hide": "this is a comment"
+"step_24_hide": "this is a comment"
 
 
 }

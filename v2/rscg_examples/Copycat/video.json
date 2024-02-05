@@ -13,31 +13,30 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\CCDemo.csproj",
 
-"step_15_text": "You put the  [Copycat](https://www.nuget.org/packages/Copycat/) into the csproj ",
+"step_14_text": "You put the  [Copycat](https://www.nuget.org/packages/Copycat/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\CCDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\CCDemo.csproj",
 
-"step_17_text": "I have used the CopyCat in those files",
+"step_16_text": "I have used the CopyCat in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\CoffeeWithLogging.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\CoffeeWithLogging.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\Coffee.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\Coffee.cs",
     
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\ICoffee.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\ICoffee.cs",
     
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\Program.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\Program.cs",
     
-"step_22_text": "And this are files generated",
+"step_21_text": "And this are files generated",
 
 
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\obj\\GX\\Copycat\\Copycat.DecoratorGenerator\\CofeeWithLogging.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\obj\\GX\\Copycat\\Copycat.DecoratorGenerator\\CofeeWithLogging.g.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\obj\\GX\\Copycat\\Copycat.DecoratorGenerator\\CoffeeWithLogging.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CopyCat\\src\\CCDemo\\obj\\GX\\Copycat\\Copycat.DecoratorGenerator\\CoffeeWithLogging.g.cs",
     
-"step_25_hide": "this is a comment"
+"step_24_hide": "this is a comment"
 
 
 }

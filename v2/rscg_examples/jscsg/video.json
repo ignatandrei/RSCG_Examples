@@ -13,65 +13,64 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\JsonPolymorphicGeneratorDemo.csproj",
 
-"step_15_text": "You put the  [Aviationexam.GeneratedJsonConverters.SourceGenerator](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/) into the csproj ",
+"step_14_text": "You put the  [Aviationexam.GeneratedJsonConverters.SourceGenerator](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\JsonPolymorphicGeneratorDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\JsonPolymorphicGeneratorDemo.csproj",
 
-"step_17_text": "I have used the jsonConverterSourceGenerator in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\ProjectJsonSerializerContext.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\Person.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\Program.cs",
-    
-"step_21_text": "And this are files generated",
+"step_16_text": "I have used the jsonConverterSourceGenerator in those files",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\Attributes.DisableEnumJsonConverterAttribute.g.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\ProjectJsonSerializerContext.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumDeserializationStrategy.g.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\Person.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumJsonConverterAttribute.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\Program.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumJsonConvertor.g.cs",
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\Attributes.DisableEnumJsonConverterAttribute.g.cs",
     
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumSerializationStrategy.g.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumDeserializationStrategy.g.cs",
     
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\DiscriminatorStruct.g.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumJsonConverterAttribute.g.cs",
     
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\IDiscriminatorStruct.g.cs",
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumJsonConvertor.g.cs",
     
-        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\JsonDerivedTypeAttribute.g.cs",
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator\\EnumSerializationStrategy.g.cs",
     
-        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\JsonPolymorphicAttribute.g.cs",
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\DiscriminatorStruct.g.cs",
     
-        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\PersonJsonPolymorphicConverter.g.cs",
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\IDiscriminatorStruct.g.cs",
     
-        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\PolymorphicJsonConvertor.g.cs",
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\JsonDerivedTypeAttribute.g.cs",
     
-        "step_33_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\ProjectJsonSerializerContext.g.cs",
+        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\JsonPolymorphicAttribute.g.cs",
     
-        "step_34_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.g.cs",
+        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\PersonJsonPolymorphicConverter.g.cs",
     
-        "step_35_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.GetJsonTypeInfo.g.cs",
+        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\PolymorphicJsonConvertor.g.cs",
     
-        "step_36_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.Person.g.cs",
+        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\Aviationexam.GeneratedJsonConverters.SourceGenerator\\Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator\\ProjectJsonSerializerContext.g.cs",
     
-        "step_37_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.PersonArray.g.cs",
+        "step_33_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.g.cs",
     
-        "step_38_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.PropertyNames.g.cs",
+        "step_34_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.GetJsonTypeInfo.g.cs",
     
-        "step_39_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.String.g.cs",
+        "step_35_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.Person.g.cs",
     
-        "step_40_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.Student.g.cs",
+        "step_36_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.PersonArray.g.cs",
     
-        "step_41_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.Teacher.g.cs",
+        "step_37_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.PropertyNames.g.cs",
     
-"step_42_hide": "this is a comment"
+        "step_38_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.String.g.cs",
+    
+        "step_39_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.Student.g.cs",
+    
+        "step_40_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\jscsg\\src\\poly\\obj\\GX\\System.Text.Json.SourceGeneration\\System.Text.Json.SourceGeneration.JsonSourceGenerator\\ProjectJsonSerializerContext.Teacher.g.cs",
+    
+"step_41_hide": "this is a comment"
 
 
 }

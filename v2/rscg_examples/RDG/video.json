@@ -13,23 +13,22 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\RDGDemoWebApi.csproj",
 
-"step_15_text": "You put the  [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http) into the csproj ",
+"step_14_text": "You put the  [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\RDGDemoWebApi.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\RDGDemoWebApi.csproj",
 
-"step_17_text": "I have used the RDG in those files",
+"step_16_text": "I have used the RDG in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\Program.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\Program.cs",
     
-"step_19_text": "And this are files generated",
+"step_18_text": "And this are files generated",
 
 
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\obj\\GX\\Microsoft.AspNetCore.Http.RequestDelegateGenerator\\Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator\\GeneratedRouteBuilderExtensions.g.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RDG\\src\\RDGDemoWebApi\\obj\\GX\\Microsoft.AspNetCore.Http.RequestDelegateGenerator\\Microsoft.AspNetCore.Http.RequestDelegateGenerator.RequestDelegateGenerator\\GeneratedRouteBuilderExtensions.g.cs",
     
-"step_21_hide": "this is a comment"
+"step_20_hide": "this is a comment"
 
 
 }

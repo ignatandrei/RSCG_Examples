@@ -13,41 +13,40 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\IDisp.csproj",
 
-"step_15_text": "You put the  [Benutomo.AutomaticDisposeImpl.SourceGenerator](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/) into the csproj ",
+"step_14_text": "You put the  [Benutomo.AutomaticDisposeImpl.SourceGenerator](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\IDisp.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\IDisp.csproj",
 
-"step_17_text": "I have used the BenutomoAutomaticDisposeImplSourceGenerator in those files",
-
-
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\ConnectionDB.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\DALDB.cs",
-    
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\Program.cs",
-    
-"step_21_text": "And this are files generated",
+"step_16_text": "I have used the BenutomoAutomaticDisposeImplSourceGenerator in those files",
 
 
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\AutomaticDisposeImplAttribute.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\ConnectionDB.cs",
     
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\AutomaticDisposeImplMode.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\DALDB.cs",
     
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\DisableAutomaticDisposeAttribute.cs",
+        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\Program.cs",
     
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\EnableAutomaticDisposeAttribute.cs",
+"step_20_text": "And this are files generated",
+
+
+        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\AutomaticDisposeImplAttribute.cs",
     
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs",
+        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\AutomaticDisposeImplMode.cs",
     
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\ManagedObjectAsyncDisposeMethodAttribute.cs",
+        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\DisableAutomaticDisposeAttribute.cs",
     
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\ManagedObjectDisposeMethodAttribute.cs",
+        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\EnableAutomaticDisposeAttribute.cs",
     
-        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\UnmanagedResourceReleaseMethodAttribute.cs",
+        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs",
     
-"step_30_hide": "this is a comment"
+        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\ManagedObjectAsyncDisposeMethodAttribute.cs",
+    
+        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\ManagedObjectDisposeMethodAttribute.cs",
+    
+        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\IDisp\\src\\IDisp\\obj\\GX\\Benutomo.AutomaticDisposeImpl.SourceGenerator\\Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator\\UnmanagedResourceReleaseMethodAttribute.cs",
+    
+"step_29_hide": "this is a comment"
 
 
 }

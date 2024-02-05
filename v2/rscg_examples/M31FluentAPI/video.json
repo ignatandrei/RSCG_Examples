@@ -13,25 +13,24 @@
 "step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo.sln",
 "step_12_text": "So , let's start the project ",
 "step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src",
-"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\M31FluentAPIDemo.csproj",
 
-"step_15_text": "You put the  [M31.FluentAPI](https://www.nuget.org/packages/M31.FluentAPI/) into the csproj ",
+"step_14_text": "You put the  [M31.FluentAPI](https://www.nuget.org/packages/M31.FluentAPI/) into the csproj ",
 
-"step_16_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\M31FluentAPIDemo.csproj",
+"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\M31FluentAPIDemo.csproj",
 
-"step_17_text": "I have used the M31.FluentAPI in those files",
+"step_16_text": "I have used the M31.FluentAPI in those files",
 
 
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\Person.cs",
+        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\Person.cs",
     
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\Program.cs",
+        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\Program.cs",
     
-"step_20_text": "And this are files generated",
+"step_19_text": "And this are files generated",
 
 
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\obj\\GX\\M31.FluentApi.Generator\\M31.FluentApi.Generator.SourceGenerators.SourceGenerator\\M31FluentAPIDemo.Person.fluentapi.g.cs",
+        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\M31FluentAPI\\src\\M31FluentAPIDemo\\obj\\GX\\M31.FluentApi.Generator\\M31.FluentApi.Generator.SourceGenerators.SourceGenerator\\M31FluentAPIDemo.Person.fluentapi.g.cs",
     
-"step_22_hide": "this is a comment"
+"step_21_hide": "this is a comment"
 
 
 }
