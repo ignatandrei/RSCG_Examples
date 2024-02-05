@@ -1,7 +1,7 @@
 ﻿namespace GeneratorVideo;
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 
-internal class VideoData
+internal class VideoData:IDisposable
 {
     List<Step> _steps = new();
     private readonly string fileName;
@@ -26,10 +26,11 @@ internal class VideoData
     public async Task<bool> Execute()
     {
         var execSteps=_steps.OrderBy(it=>it.Number).ToArray();
+        var nr = execSteps.Length;
         foreach (var step in execSteps) {
             try
             {
-                Console.WriteLine("executing " + step.Number);// + "=>" + step.value);
+                Console.WriteLine("executing " + step.Number + $"/{nr}");// + "=>" + step.value);
                 await step.Execute();
                 Console.WriteLine("press any key to continue");
                 Console.ReadLine();
@@ -41,5 +42,20 @@ internal class VideoData
             }
         }
         return true;
+    }
+
+    public void Dispose()
+    {
+        foreach (var step in _steps)
+        {
+            try {
+                Console.WriteLine("disposing " + step.Number);
+                step.Dispose(); }
+            catch
+            {
+                Console.WriteLine("Error in dispose");
+            }
+            
+        }   
     }
 }

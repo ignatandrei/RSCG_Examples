@@ -1,7 +1,7 @@
 ﻿namespace GeneratorVideo;
 
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
-internal abstract record Step(string text, string value):IParsable<Step>
+internal abstract record Step(string text, string value):IParsable<Step>, IDisposable
 {
     public const string esc = "\u001B";
     public int Number { get; set; }
@@ -46,8 +46,7 @@ internal abstract record Step(string text, string value):IParsable<Step>
         }
         result.Number = index;
         return true;
-    }   
+    }
 
-    
-
+    public abstract void Dispose();
 }

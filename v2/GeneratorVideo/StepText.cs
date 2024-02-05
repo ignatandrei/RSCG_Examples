@@ -3,6 +3,9 @@ namespace GeneratorVideo;
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal record StepText(string text, string value) : Step(text, value)
 {
+    public override void Dispose()
+    {
+    }
 
     public override async Task Execute()
     {

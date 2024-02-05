@@ -10,6 +10,17 @@ internal record StepBrowser(string text, string value) : Step(text,value)
     public static extern IntPtr GetDC(IntPtr hwnd);
     [DllImport("User32.dll")]
     public static extern void ReleaseDC(IntPtr hwnd, IntPtr dc);
+    private Process? process;
+    public override void Dispose()
+    {
+        if(process != null) {
+            Console.WriteLine("disposing " + process.Id);
+            process.Kill();
+            process.Dispose();
+        }
+            
+    }
+
     public override async Task Execute()
     {
         await Task.Delay(1000);
@@ -26,7 +37,7 @@ internal record StepBrowser(string text, string value) : Step(text,value)
         //g.DrawString(args, new Font(FontFamily.GenericSerif, 30), Brushes.Red, 1250, 300,sf);
         
         //Console.ReadLine();
-        Process.Start(program, args);
+        process = Process.Start(program, args);
         //g.Dispose();
 
         //ReleaseDC(desktopDC,IntPtr.Zero);

@@ -3,6 +3,17 @@
 
 internal record StepExecuteProgram(string text, string value) : Step(text, value)
 {
+    private Process? process;
+    public override void Dispose()
+    {
+        if (process != null)
+        {
+            Console.WriteLine("disposing " + process.Id);
+            process.Kill();
+            process.Dispose();
+        }
+
+    }
     public override Task Execute()
     {
         string program = "", args = "";
@@ -20,7 +31,7 @@ internal record StepExecuteProgram(string text, string value) : Step(text, value
             args = string.Join(' ', data.Where((_, i) => i > 0).ToArray());
         }
         Console.WriteLine($"start program {program} with args {args}");
-        Process.Start(program, args);
+        process=Process.Start(program, args);
         return Task.CompletedTask;
     }
 }

@@ -12,9 +12,10 @@ foreach (string folder in folders)
 {
     var video=Path.Combine(originalFolder, folder);
     var file = Path.Combine(video, "video.json");
+    
     try
     {
-        var v = new VideoData(file);
+        using var v = new VideoData(file);
         Console.WriteLine("nr steps :" + await v.Analyze());
         Console.WriteLine(await v.Execute());
 
@@ -24,6 +25,7 @@ foreach (string folder in folders)
         Console.WriteLine($"Error in {file} : {ex.Message}");
         //break;
     }
+    
     break;
 
 }
