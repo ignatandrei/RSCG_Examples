@@ -12,29 +12,37 @@
 
         ,{
         "file": "FromInterface/IPerson2.cs",
-        "description": "File IPerson2.cs ",
+        "description": "File IPerson2.cs  ",
         "line": 1
         }
     
         ,{
         "file": "FromInterface/IPerson.cs",
-        "description": "File IPerson.cs ",
+        "description": "File IPerson.cs  ",
         "line": 1
         }
     
         ,{
         "file": "FromInterface/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "FromInterface/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project FromInterface/FromInterface.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "FromInterface/obj/GX/Biwen.AutoClassGen/Biwen.AutoClassGen.SourceGenerator/Biwen.AutoClassGen.Person.IPerson2.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

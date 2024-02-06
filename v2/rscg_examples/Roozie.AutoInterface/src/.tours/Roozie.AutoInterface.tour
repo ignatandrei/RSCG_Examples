@@ -12,17 +12,25 @@
 
         ,{
         "file": "Roozie.AutoInterfaceDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Roozie.AutoInterfaceDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Roozie.AutoInterfaceDemo/Roozie.AutoInterfaceDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "Roozie.AutoInterfaceDemo/obj/GX/Roozie.AutoInterface/Roozie.AutoInterface.Generator/IPerson.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

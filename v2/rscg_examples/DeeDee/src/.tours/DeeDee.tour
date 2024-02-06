@@ -12,23 +12,43 @@
 
         ,{
         "file": "MediatorDemo/GenericLoggerHandler.cs",
-        "description": "File GenericLoggerHandler.cs ",
+        "description": "File GenericLoggerHandler.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/PingPong.cs",
-        "description": "File PingPong.cs ",
+        "description": "File PingPong.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MediatorDemo/DeeDeeDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "MediatorDemo/obj/GX/DeeDee/DeeDee.SourceGenerator/IocExtensions.cs",
+        "description": "File GenericLoggerHandler.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MediatorDemo/obj/GX/DeeDee/DeeDee.SourceGenerator/IDispatcher.cs",
+        "description": "File PingPong.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MediatorDemo/obj/GX/DeeDee/DeeDee.SourceGenerator/Dispatcher.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

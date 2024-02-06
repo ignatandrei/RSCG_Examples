@@ -12,23 +12,43 @@
 
         ,{
         "file": "TestEnumEscapades/AddToCoffee.cs",
-        "description": "File AddToCoffee.cs ",
+        "description": "File AddToCoffee.cs  ",
         "line": 1
         }
     
         ,{
         "file": "TestEnumEscapades/InstallType.cs",
-        "description": "File InstallType.cs ",
+        "description": "File InstallType.cs  ",
         "line": 1
         }
     
         ,{
         "file": "TestEnumEscapades/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project TestEnumEscapades/TestEnumEscapades.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "TestEnumEscapades/obj/GX/NetEscapades.EnumGenerators/NetEscapades.EnumGenerators.EnumGenerator/InstallTypeExtensions_EnumExtensions.g.cs",
+        "description": "File AddToCoffee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestEnumEscapades/obj/GX/NetEscapades.EnumGenerators/NetEscapades.EnumGenerators.EnumGenerator/EnumExtensionsAttribute.g.cs",
+        "description": "File InstallType.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestEnumEscapades/obj/GX/NetEscapades.EnumGenerators/NetEscapades.EnumGenerators.EnumGenerator/AddToCoffeeExtensions_EnumExtensions.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

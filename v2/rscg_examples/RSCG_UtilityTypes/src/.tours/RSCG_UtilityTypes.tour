@@ -12,17 +12,31 @@
 
         ,{
         "file": "UtilDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "UtilDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project UtilDemo/UtilDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "UtilDemo/obj/GX/RSCG_UtilityTypes/RSCG_UtilityTypes.OmitPick/PersonFull_Person2.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UtilDemo/obj/GX/RSCG_UtilityTypes/RSCG_UtilityTypes.OmitPick/PersonFull_Person1.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

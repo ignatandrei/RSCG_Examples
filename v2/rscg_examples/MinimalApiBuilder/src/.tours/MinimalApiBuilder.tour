@@ -12,17 +12,31 @@
 
         ,{
         "file": "DemoApi/BasicEndpoint.cs",
-        "description": "File BasicEndpoint.cs ",
+        "description": "File BasicEndpoint.cs  ",
         "line": 1
         }
     
         ,{
         "file": "DemoApi/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoApi/DemoApi.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "DemoApi/obj/GX/MinimalApiBuilder.Generator/MinimalApiBuilder.Generator.MinimalApiBuilderGenerator/Endpoint.g.cs",
+        "description": "File BasicEndpoint.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoApi/obj/GX/MinimalApiBuilder.Generator/MinimalApiBuilder.Generator.MinimalApiBuilderGenerator/DependencyInjection.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

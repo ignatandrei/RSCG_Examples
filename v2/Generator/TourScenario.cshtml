@@ -9,6 +9,8 @@
     var csproj = @Model.Data!.outputFiles!.fullPathToCsproj!;
     csproj = csproj.Substring(Model.Data!.outputFiles!.FolderWithSln!.Length + 1);
     csproj = csproj.Replace("\\", "/");
+
+    var nrGenerated= Model.Data?.outputFiles?.generatedFiles?.Length??0;
 }
 
 {
@@ -24,6 +26,27 @@
 @for (var i = nr - 1; i >= 0; i--)
 {
     var namefile = Model.Data!.outputFiles!.contentFiles![i].fullPathFile;
+   
+    namefile = namefile.Substring(Model.Data!.outputFiles!.FolderWithSln!.Length + 1);
+    namefile = namefile.Replace("\\", "/");
+    string run= "";
+    if (namefile.EndsWith("rogram.cs"))
+    {
+        run = "\\r\\n>> dotnet run --project " + csproj;
+    }
+    <text>
+        ,{
+        "file": "@namefile",
+        "description": "File @Model.Data!.outputFiles!.contentFiles![i].file @Raw(run) ",
+        "line": 1
+        }
+    </text>
+
+}
+
+@for (var i = nrGenerated - 1; i >= 0; i--)
+{
+    var namefile = Model.Data!.outputFiles!.generatedFiles![i].fullPathFile;
     namefile = namefile.Substring(Model.Data!.outputFiles!.FolderWithSln!.Length + 1);
     namefile = namefile.Replace("\\", "/");
     <text>
@@ -37,6 +60,7 @@
 }
 
   ],
+
   "ref": "main"
 
 }

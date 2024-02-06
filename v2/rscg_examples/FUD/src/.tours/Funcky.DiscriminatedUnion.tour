@@ -12,23 +12,37 @@
 
         ,{
         "file": "Union/SaveToDatabase.cs",
-        "description": "File SaveToDatabase.cs ",
+        "description": "File SaveToDatabase.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Union/ResultSave.cs",
-        "description": "File ResultSave.cs ",
+        "description": "File ResultSave.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Union/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Union/Union.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "Union/obj/GX/Funcky.DiscriminatedUnion.SourceGeneration/Funcky.DiscriminatedUnion.SourceGeneration.DiscriminatedUnionGenerator/DiscriminatedUnionGenerator.g.cs",
+        "description": "File ResultSave.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Union/obj/GX/Funcky.DiscriminatedUnion.SourceGeneration/Funcky.DiscriminatedUnion.SourceGeneration.DiscriminatedUnionGenerator/DiscriminatedUnionAttribute.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

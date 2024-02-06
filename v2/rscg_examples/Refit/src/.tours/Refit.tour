@@ -12,23 +12,43 @@
 
         ,{
         "file": "RefitDemo/IFindPosts.cs",
-        "description": "File IFindPosts.cs ",
+        "description": "File IFindPosts.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RefitDemo/Post.cs",
-        "description": "File Post.cs ",
+        "description": "File Post.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RefitDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RefitDemo/RefitDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "RefitDemo/obj/GX/InterfaceStubGeneratorV2/Refit.Generator.InterfaceStubGeneratorV2/PreserveAttribute.g.cs",
+        "description": "File IFindPosts.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RefitDemo/obj/GX/InterfaceStubGeneratorV2/Refit.Generator.InterfaceStubGeneratorV2/IFindPosts.g.cs",
+        "description": "File Post.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RefitDemo/obj/GX/InterfaceStubGeneratorV2/Refit.Generator.InterfaceStubGeneratorV2/Generated.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

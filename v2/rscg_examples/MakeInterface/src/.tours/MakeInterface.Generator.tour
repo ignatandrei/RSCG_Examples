@@ -12,17 +12,25 @@
 
         ,{
         "file": "Class2Interface/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Class2Interface/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Class2Interface/Class2Interface.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "Class2Interface/obj/GX/MakeInterface.Generator/MakeInterface.Generator.InterfaceGenerator/IPerson.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

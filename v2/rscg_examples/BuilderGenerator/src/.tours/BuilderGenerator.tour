@@ -12,23 +12,43 @@
 
         ,{
         "file": "Builder/PersonBuilder.cs",
-        "description": "File PersonBuilder.cs ",
+        "description": "File PersonBuilder.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Builder/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "Builder/obj/GX/BuilderGenerator/BuilderGenerator.BuilderGenerator/PersonBuilder.g.cs",
+        "description": "File PersonBuilder.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/BuilderGenerator/BuilderGenerator.BuilderGenerator/BuilderForAttribute.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/BuilderGenerator/BuilderGenerator.BuilderGenerator/BuilderBaseClass.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

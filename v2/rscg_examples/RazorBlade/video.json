@@ -1,54 +1,25 @@
 {
-    "step_1_exec":"clipchamp.exe launch",
-    "step_2_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
-    "step_3_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_4_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_5_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+    "step_1_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
+    "step_2_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_3_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_4_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
-"step_6_text": "Today I will present RazorBlade  that is good for Fast templating with Razor syntaxDo not forget to put into AdditionalFiles section of csproj file .",
-"step_7_browser":"https://www.nuget.org/packages/RazorBlade/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade#download-example-net--c-",
-"step_10_text":" Here is the code ",
-"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo.sln",
-"step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src",
+"step_5_text": "Today I will present RazorBlade . Fast templating with Razor syntaxDo not forget to put into AdditionalFiles section of csproj file .",
+"step_6_browser":"https://www.nuget.org/packages/RazorBlade/",
+"step_7_text": "You can download the code from here",
+"step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade#download-example-net--c-",
+"step_9_text":"Here is the code downloaded ",
+"step_10_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo.sln",
+"step_11_text": "So , let's start the project with Visual Studio Code ",
+"step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src",
 
-"step_14_text": "You put the  [RazorBlade](https://www.nuget.org/packages/RazorBlade/) into the csproj ",
+"step_13_text": "To use it ,you will put the  RazorBlade into the csproj ",
 
-"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\RazorBladeDemo.csproj",
+"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\RazorBladeDemo.csproj",
 
-"step_16_text": "I have used the RazorBlade in those files",
+"step_15_text": "And now I will show you why we want to use it",
 
-
-        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\PersonDisplay.cshtml",
-    
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\Person.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\Program.cs",
-    
-"step_20_text": "And this are files generated",
-
-
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\Attributes.g.cs",
-    
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\HtmlHelper.g.cs",
-    
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\HtmlString.g.cs",
-    
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\HtmlTemplate.g.cs",
-    
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\IEncodedContent.g.cs",
-    
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\PlainTextTemplate.g.cs",
-    
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator\\RazorTemplate.g.cs",
-    
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.RazorBladeSourceGenerator\\RazorBladeDemo.PersonDisplay.Razor.g.cs",
-    
-        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RazorBlade\\src\\RazorBladeDemo\\obj\\GX\\RazorBlade.Analyzers\\RazorBlade.Analyzers.RazorBladeSourceGenerator\\RazorBladeDemo.PersonDisplay.RazorBlade.g.cs",
-    
-"step_30_hide": "this is a comment"
+"step_16_hide": "this is a comment"
 
 
 }

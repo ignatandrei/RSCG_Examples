@@ -12,17 +12,25 @@
 
         ,{
         "file": "AutoDeconstructDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoDeconstructDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project AutoDeconstructDemo/AutoDeconstructDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "AutoDeconstructDemo/obj/GX/AutoDeconstruct/AutoDeconstruct.AutoDeconstructGenerator/AutoDeconstruct.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

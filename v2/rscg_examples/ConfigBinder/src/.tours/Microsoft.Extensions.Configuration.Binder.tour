@@ -12,17 +12,25 @@
 
         ,{
         "file": "ConfigBinderDemo/MyAppOptions.cs",
-        "description": "File MyAppOptions.cs ",
+        "description": "File MyAppOptions.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ConfigBinderDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ConfigBinderDemo/ConfigBinderDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ConfigBinderDemo/obj/GX/Microsoft.Extensions.Configuration.Binder.SourceGeneration/Microsoft.Extensions.Configuration.Binder.SourceGeneration.ConfigurationBindingGenerator/BindingExtensions.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -12,23 +12,37 @@
 
         ,{
         "file": "EmbeddingResourceCSharpDemo/createDB.txt",
-        "description": "File createDB.txt ",
+        "description": "File createDB.txt  ",
         "line": 1
         }
     
         ,{
         "file": "EmbeddingResourceCSharpDemo/MyResource.cs",
-        "description": "File MyResource.cs ",
+        "description": "File MyResource.cs  ",
         "line": 1
         }
     
         ,{
         "file": "EmbeddingResourceCSharpDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EmbeddingResourceCSharpDemo/EmbeddingResourceCSharpDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "EmbeddingResourceCSharpDemo/obj/GX/EmbedResourceCSharp/EmbedResourceCSharp.Generator/MyResource____GetContentOfCreate.file.g.cs",
+        "description": "File MyResource.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EmbeddingResourceCSharpDemo/obj/GX/EmbedResourceCSharp/EmbedResourceCSharp.Generator/Attribute.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

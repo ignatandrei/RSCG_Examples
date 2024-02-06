@@ -12,17 +12,31 @@
 
         ,{
         "file": "OneOfDemo/StringOrNumber.cs",
-        "description": "File StringOrNumber.cs ",
+        "description": "File StringOrNumber.cs  ",
         "line": 1
         }
     
         ,{
         "file": "OneOfDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project OneOfDemo/OneOfDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "OneOfDemo/obj/GX/OneOf.SourceGenerator/OneOf.SourceGenerator.OneOfGenerator/OneOfDemo_StringOrNumber.g.cs",
+        "description": "File StringOrNumber.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "OneOfDemo/obj/GX/OneOf.SourceGenerator/OneOf.SourceGenerator.OneOfGenerator/GenerateOneOfAttribute.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

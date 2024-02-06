@@ -12,17 +12,25 @@
 
         ,{
         "file": "GeneratorEqualsDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GeneratorEqualsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project GeneratorEqualsDemo/GeneratorEqualsDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Generator.Equals/Generator.Equals.EqualsGenerator/GeneratorEqualsDemo.Person.Generator.Equals.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

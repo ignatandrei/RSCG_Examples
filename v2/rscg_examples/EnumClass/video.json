@@ -1,38 +1,25 @@
 {
-    "step_1_exec":"clipchamp.exe launch",
-    "step_2_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
-    "step_3_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_4_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_5_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+    "step_1_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
+    "step_2_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_3_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_4_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
-"step_6_text": "Today I will present EnumClass  that is good for enum 2 class .",
-"step_7_browser":"https://www.nuget.org/packages/EnumClass.Generator/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass#download-example-net--c-",
-"step_10_text":" Here is the code ",
-"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo.sln",
-"step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src",
+"step_5_text": "Today I will present EnumClass.Generator . enum 2 class .",
+"step_6_browser":"https://www.nuget.org/packages/EnumClass.Generator/",
+"step_7_text": "You can download the code from here",
+"step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass#download-example-net--c-",
+"step_9_text":"Here is the code downloaded ",
+"step_10_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo.sln",
+"step_11_text": "So , let's start the project with Visual Studio Code ",
+"step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src",
 
-"step_14_text": "You put the  [EnumClass.Generator](https://www.nuget.org/packages/EnumClass.Generator/) into the csproj ",
+"step_13_text": "To use it ,you will put the  EnumClass.Generator into the csproj ",
 
-"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo\\EnumClassDemo.csproj",
+"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo\\EnumClassDemo.csproj",
 
-"step_16_text": "I have used the EnumClass in those files",
+"step_15_text": "And now I will show you why we want to use it",
 
-
-        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo\\RedEnumValue.cs",
-    
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo\\Colors.cs",
-    
-        "step_19_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo\\Program.cs",
-    
-"step_20_text": "And this are files generated",
-
-
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumClass\\src\\EnumClassDemo\\obj\\GX\\EnumClass.Generator\\EnumClass.Generator.EnumClassIncrementalGenerator\\Colors.g.cs",
-    
-"step_22_hide": "this is a comment"
+"step_16_hide": "this is a comment"
 
 
 }

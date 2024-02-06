@@ -12,17 +12,25 @@
 
         ,{
         "file": "DemoRegex/WeatherForecast.cs",
-        "description": "File WeatherForecast.cs ",
+        "description": "File WeatherForecast.cs  ",
         "line": 1
         }
     
         ,{
         "file": "DemoRegex/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoRegex/DemoRegex.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "DemoRegex/obj/GX/System.Text.RegularExpressions.Generator/System.Text.RegularExpressions.Generator.RegexGenerator/RegexGenerator.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

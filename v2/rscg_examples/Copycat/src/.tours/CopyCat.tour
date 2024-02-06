@@ -12,29 +12,43 @@
 
         ,{
         "file": "CCDemo/CoffeeWithLogging.cs",
-        "description": "File CoffeeWithLogging.cs ",
+        "description": "File CoffeeWithLogging.cs  ",
         "line": 1
         }
     
         ,{
         "file": "CCDemo/Coffee.cs",
-        "description": "File Coffee.cs ",
+        "description": "File Coffee.cs  ",
         "line": 1
         }
     
         ,{
         "file": "CCDemo/ICoffee.cs",
-        "description": "File ICoffee.cs ",
+        "description": "File ICoffee.cs  ",
         "line": 1
         }
     
         ,{
         "file": "CCDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CCDemo/CCDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "CCDemo/obj/GX/Copycat/Copycat.DecoratorGenerator/CoffeeWithLogging.g.cs",
+        "description": "File ICoffee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CCDemo/obj/GX/Copycat/Copycat.DecoratorGenerator/CofeeWithLogging.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

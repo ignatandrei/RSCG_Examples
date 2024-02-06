@@ -12,17 +12,25 @@
 
         ,{
         "file": "WeaveDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "WeaveDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project WeaveDemo/WeaveDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "WeaveDemo/obj/GX/Weave/Weave.GenerateWeaveSources/.._p5C.._p5C.._p5CMyDataT.weave.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

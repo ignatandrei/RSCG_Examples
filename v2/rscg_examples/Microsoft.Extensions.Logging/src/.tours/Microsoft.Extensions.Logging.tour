@@ -12,17 +12,25 @@
 
         ,{
         "file": "DemoLogging/LogDemo.cs",
-        "description": "File LogDemo.cs ",
+        "description": "File LogDemo.cs  ",
         "line": 1
         }
     
         ,{
         "file": "DemoLogging/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoLogging/DemoLogging.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "DemoLogging/obj/GX/Microsoft.Extensions.Logging.Generators/Microsoft.Extensions.Logging.Generators.LoggerMessageGenerator/LoggerMessage.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

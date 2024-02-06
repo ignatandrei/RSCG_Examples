@@ -10,28 +10,28 @@
     var nrGenerated = Model.Data?.outputFiles?.generatedFiles?.Length??0;
 }
 {
-    "step_@(nrStep++)_exec":"clipchamp.exe launch",
+    @* "step_@(nrStep++)_exec":"clipchamp.exe launch", *@
     "step_@(nrStep++)_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
     "step_@(nrStep++)_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
     "step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
     "step_@(nrStep++)_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
-"step_@(nrStep++)_text": "Today I will present @generator.Name  that is good for @string.Join("",Model.Data!.GoodFor!) .",
+"step_@(nrStep++)_text": "Today I will present @generator.NameNugetFirst() . @string.Join("", Model.Data!.GoodFor!) .",
 "step_@(nrStep++)_browser":"@generator.NugetFirst",
-"step_@(nrStep++)_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)",
+"step_@(nrStep++)_text": "You can download the code from here",
 "step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)#download-example-net--c-",
-"step_@(nrStep++)_text":" Here is the code ",
+"step_@(nrStep++)_text":"Here is the code downloaded ",
 "step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")",
-"step_@(nrStep++)_text": "So , let's start the project ",
+"step_@(nrStep++)_text": "So , let's start the project with Visual Studio Code ",
 "step_@(nrStep++)_exec": "@code @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")",
 
-"step_@(nrStep++)_text": "You put the  [@generator.NameNugetFirst()](@generator.NugetFirst) into the csproj ",
+"step_@(nrStep++)_text": "To use it ,you will put the  @generator.NameNugetFirst() into the csproj ",
 
 "step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")",
 
-"step_@(nrStep++)_text": "I have used the @generator.Name in those files",
+"step_@(nrStep++)_text": "And now I will show you why we want to use it",
 
-@for (var i = nr - 1; i >= 0; i--)
+@* @for (var i = nr - 1; i >= 0; i--)
 {
                 //var ex = "exec";// + (30 + (nr-i) *10);
     <text>
@@ -48,7 +48,7 @@
         "step_@(nrStep++)_exec":"@code -r -g @Model.Data!.outputFiles!.generatedFiles![i].fullPathFile.Replace("\\", "\\\\")",
     </text>
 }
-
+ *@
 "step_@(nrStep++)_hide": "this is a comment"
 
 

@@ -12,17 +12,25 @@
 
         ,{
         "file": "LingDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "LingDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project LingDemo/LingDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "LingDemo/obj/GX/Ling.Audit/Ling.Audit.SourceGeneration.AuditGenerator/Person.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -12,23 +12,31 @@
 
         ,{
         "file": "MockLisTest/Usings.cs",
-        "description": "File Usings.cs ",
+        "description": "File Usings.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MockLisTest/TestClock.cs",
-        "description": "File TestClock.cs ",
+        "description": "File TestClock.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MockLisTest/TestMock.cs",
+        "description": "File TestMock.cs  ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "MockLisTest/obj/GX/Mocklis.MockGenerator/Mocklis.MockGenerator.MocklisSourceGenerator/TestClock.TestMock.g.cs",
         "description": "File TestMock.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

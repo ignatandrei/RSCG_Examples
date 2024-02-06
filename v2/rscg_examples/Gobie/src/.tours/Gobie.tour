@@ -12,23 +12,43 @@
 
         ,{
         "file": "GobieDemo/ClassGenAddId.cs",
-        "description": "File ClassGenAddId.cs ",
+        "description": "File ClassGenAddId.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GobieDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GobieDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project GobieDemo/GobieDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "GobieDemo/obj/GX/Gobie/Gobie.GobieGenerator/_Gobie.ClassGenAddIdAttribute.g.cs",
+        "description": "File ClassGenAddId.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GobieDemo/obj/GX/Gobie/Gobie.GobieGenerator/Person_ClassGenAddIdAttribute_ID.g.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GobieDemo/obj/GX/Gobie/Gobie.GobieGenerator/Person_ClassGenAddIdAttribute.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

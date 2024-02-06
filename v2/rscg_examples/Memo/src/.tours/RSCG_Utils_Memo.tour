@@ -12,17 +12,31 @@
 
         ,{
         "file": "DemoRSCG_UtilsMemo/fib.cs",
-        "description": "File fib.cs ",
+        "description": "File fib.cs  ",
         "line": 1
         }
     
         ,{
         "file": "DemoRSCG_UtilsMemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoRSCG_UtilsMemo/DemoRSCG_UtilsMemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "DemoRSCG_UtilsMemo/obj/GX/RSCG_Utils/RSCG_Utils.UtilsGenerator/DemoRSCG_UtilsMemo_fibTest_Test_MemoPure.cs",
+        "description": "File fib.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoRSCG_UtilsMemo/obj/GX/RSCG_Utils/RSCG_Utils.UtilsGenerator/DemoRSCG_UtilsMemo_fibTest_fibonacci_MemoPure.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

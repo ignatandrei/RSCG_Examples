@@ -12,23 +12,31 @@
 
         ,{
         "file": "EnumClassDemo/RedEnumValue.cs",
-        "description": "File RedEnumValue.cs ",
+        "description": "File RedEnumValue.cs  ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/Colors.cs",
-        "description": "File Colors.cs ",
+        "description": "File Colors.cs  ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "EnumClassDemo/obj/GX/EnumClass.Generator/EnumClass.Generator.EnumClassIncrementalGenerator/Colors.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -12,17 +12,31 @@
 
         ,{
         "file": "StringLiteralDemo/LiteralConstants.cs",
-        "description": "File LiteralConstants.cs ",
+        "description": "File LiteralConstants.cs  ",
         "line": 1
         }
     
         ,{
         "file": "StringLiteralDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project StringLiteralDemo/StringLiteralDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "StringLiteralDemo/obj/GX/StringLiteralGenerator/StringLiteralGenerator.Utf8StringLiteralGenerator/Utf8Attribute.cs",
+        "description": "File LiteralConstants.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StringLiteralDemo/obj/GX/StringLiteralGenerator/StringLiteralGenerator.Utf8StringLiteralGenerator/StringLiteralDemo_LiteralConstants_utf8literal.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

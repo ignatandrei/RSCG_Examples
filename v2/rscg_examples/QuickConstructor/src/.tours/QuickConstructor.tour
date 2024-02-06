@@ -12,17 +12,25 @@
 
         ,{
         "file": "QuickConstructorDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "QuickConstructorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project QuickConstructorDemo/QuickConstructorDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "QuickConstructorDemo/obj/GX/QuickConstructor.Generator/QuickConstructor.Generator.QuickConstructorGenerator/Person.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

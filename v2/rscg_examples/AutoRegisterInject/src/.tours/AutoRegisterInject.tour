@@ -12,29 +12,43 @@
 
         ,{
         "file": "AutoRegisterInjectDemo/DatabaseCon.cs",
-        "description": "File DatabaseCon.cs ",
+        "description": "File DatabaseCon.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/IDatabase.cs",
-        "description": "File IDatabase.cs ",
+        "description": "File IDatabase.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/Database.cs",
-        "description": "File Database.cs ",
+        "description": "File Database.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project AutoRegisterInjectDemo/AutoRegisterInjectDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "AutoRegisterInjectDemo/obj/GX/AutoRegisterInject/AutoRegisterInject.Generator/AutoRegisterInject.ServiceCollectionExtension.g.cs",
+        "description": "File Database.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoRegisterInjectDemo/obj/GX/AutoRegisterInject/AutoRegisterInject.Generator/AutoRegisterInject.Attributes.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

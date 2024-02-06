@@ -12,23 +12,43 @@
 
         ,{
         "file": "MediatorDemo/PingPong.cs",
-        "description": "File PingPong.cs ",
+        "description": "File PingPong.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/GenericLoggerHandler.cs",
-        "description": "File GenericLoggerHandler.cs ",
+        "description": "File GenericLoggerHandler.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MediatorDemo/MediatorDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "MediatorDemo/obj/GX/Mediator.SourceGenerator.Roslyn40/Mediator.SourceGenerator.IncrementalMediatorGenerator/MediatorOptionsAttribute.g.cs",
+        "description": "File PingPong.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MediatorDemo/obj/GX/Mediator.SourceGenerator.Roslyn40/Mediator.SourceGenerator.IncrementalMediatorGenerator/MediatorOptions.g.cs",
+        "description": "File GenericLoggerHandler.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MediatorDemo/obj/GX/Mediator.SourceGenerator.Roslyn40/Mediator.SourceGenerator.IncrementalMediatorGenerator/Mediator.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

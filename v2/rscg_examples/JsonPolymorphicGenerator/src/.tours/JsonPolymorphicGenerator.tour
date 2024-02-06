@@ -12,17 +12,25 @@
 
         ,{
         "file": "JsonPolymorphicGeneratorDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "JsonPolymorphicGeneratorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project JsonPolymorphicGeneratorDemo/JsonPolymorphicGeneratorDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "JsonPolymorphicGeneratorDemo/obj/GX/GoLive.JsonPolymorphicGenerator/GoLive.JsonPolymorphicGenerator.PolymorphicAttributeGenerator/Person.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

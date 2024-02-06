@@ -12,23 +12,31 @@
 
         ,{
         "file": "RSCG_DecoratorTestConsole/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RSCG_DecoratorTestConsole/PersonLogger.cs",
-        "description": "File PersonLogger.cs ",
+        "description": "File PersonLogger.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RSCG_DecoratorTestConsole/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_DecoratorTestConsole/RSCG_DecoratorTestConsole.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "RSCG_DecoratorTestConsole/obj/GX/RSCG_Decorator/RSCG_Decorator.GeneratorDecorator/RSCG_DecoratorTestConsole.Person_MethodDecoratorV1.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

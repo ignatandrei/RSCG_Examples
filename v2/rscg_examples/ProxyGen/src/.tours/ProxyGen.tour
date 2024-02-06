@@ -12,29 +12,37 @@
 
         ,{
         "file": "ProxyGenDemo/globals.cs",
-        "description": "File globals.cs ",
+        "description": "File globals.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ProxyGenDemo/IPerson.cs",
-        "description": "File IPerson.cs ",
+        "description": "File IPerson.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ProxyGenDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ProxyGenDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ProxyGenDemo/ProxyGenDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ProxyGenDemo/obj/GX/Solti.Utils.Proxy/Solti.Utils.Proxy.Internals.ProxyEmbedder/Duck_BB1E45629CF5010E4068E5BFBB7EF53B.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

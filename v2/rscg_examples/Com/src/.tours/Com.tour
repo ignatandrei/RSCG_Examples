@@ -12,17 +12,25 @@
 
         ,{
         "file": "ComDemo/MyShell.cs",
-        "description": "File MyShell.cs ",
+        "description": "File MyShell.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ComDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ComDemo/ComDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ComDemo/obj/GX/Microsoft.Interop.ComInterfaceGenerator/Microsoft.Interop.ComInterfaceGenerator/test.IShellExecute.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

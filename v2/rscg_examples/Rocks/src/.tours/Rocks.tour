@@ -12,11 +12,19 @@
 
         ,{
         "file": "TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "TestClock/obj/GX/Rocks/Rocks.RockCreateGenerator/IMyClock_Rock_Create.g.cs",
         "description": "File TestClock.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

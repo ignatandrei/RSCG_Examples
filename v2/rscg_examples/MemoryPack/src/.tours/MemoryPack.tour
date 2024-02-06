@@ -12,17 +12,25 @@
 
         ,{
         "file": "MemoryPackDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MemoryPackDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MemoryPackDemo/MemoryPackDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "MemoryPackDemo/obj/GX/MemoryPack.Generator/MemoryPack.Generator.MemoryPackGenerator/MemoryPackDemo.Person.MemoryPackFormatter.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

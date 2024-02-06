@@ -12,17 +12,25 @@
 
         ,{
         "file": "PodimoConstEmbedDemo/sql/createDB.sql",
-        "description": "File createDB.sql ",
+        "description": "File createDB.sql  ",
         "line": 1
         }
     
         ,{
         "file": "PodimoConstEmbedDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project PodimoConstEmbedDemo/PodimoConstEmbedDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "PodimoConstEmbedDemo/obj/GX/Podimo.ConstEmbed/Podimo.ConstEmbed.ConstEmbedGenerator/SQL.createDB.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

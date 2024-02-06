@@ -12,29 +12,49 @@
 
         ,{
         "file": "MorrisMoxyDemo/mixin/IDName.mixin",
-        "description": "File IDName.mixin ",
+        "description": "File IDName.mixin  ",
         "line": 1
         }
     
         ,{
         "file": "MorrisMoxyDemo/Department.cs",
-        "description": "File Department.cs ",
+        "description": "File Department.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MorrisMoxyDemo/Employee.cs",
-        "description": "File Employee.cs ",
+        "description": "File Employee.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MorrisMoxyDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MorrisMoxyDemo/MorrisMoxyDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "MorrisMoxyDemo/obj/GX/Morris.Moxy/Morris.Moxy.RoslynIncrementalGenerator/MorrisMoxyDemo.Employee.IDName.Instance1.MixinCode.Moxy.g.cs",
+        "description": "File Department.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MorrisMoxyDemo/obj/GX/Morris.Moxy/Morris.Moxy.RoslynIncrementalGenerator/MorrisMoxyDemo.Department.IDName.Instance1.MixinCode.Moxy.g.cs",
+        "description": "File Employee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MorrisMoxyDemo/obj/GX/Morris.Moxy/Morris.Moxy.RoslynIncrementalGenerator/IDName.MixinAttribute.Moxy.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

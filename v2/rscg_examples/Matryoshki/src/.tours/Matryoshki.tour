@@ -12,29 +12,43 @@
 
         ,{
         "file": "MatryoshkiDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MatryoshkiDemo/IPerson.cs",
-        "description": "File IPerson.cs ",
+        "description": "File IPerson.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MatryoshkiDemo/AddLog.cs",
-        "description": "File AddLog.cs ",
+        "description": "File AddLog.cs  ",
         "line": 1
         }
     
         ,{
         "file": "MatryoshkiDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MatryoshkiDemo/MatryoshkiDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "MatryoshkiDemo/obj/GX/Matryoshki.Generators/Matryoshki.Generators.MatryoshkiSourceGenerator/.PersonMatryoshka.g.cs",
+        "description": "File AddLog.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MatryoshkiDemo/obj/GX/Matryoshki.Generators/Matryoshki.Generators.CompiledAdornmentSourceGenerator/MatryoshkiDemo_AddLog.Compiled.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

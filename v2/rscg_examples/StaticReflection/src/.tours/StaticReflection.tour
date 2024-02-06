@@ -12,17 +12,25 @@
 
         ,{
         "file": "StaticReflectionDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "StaticReflectionDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project StaticReflectionDemo/StaticReflectionDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "StaticReflectionDemo/obj/GX/StaticReflection.CodeGen/StaticReflection.CodeGen.Generators.StaticReflectionGenerator/PersonReflection.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

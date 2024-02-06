@@ -12,17 +12,31 @@
 
         ,{
         "file": "DudNetDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "DudNetDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DudNetDemo/DudNetDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "DudNetDemo/obj/GX/DudNet/DudNet.Generation.ProxyServiceGenerator/PersonProxy.g.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DudNetDemo/obj/GX/DudNet/DudNet.Generation.ProxyServiceGenerator/PersonDud.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

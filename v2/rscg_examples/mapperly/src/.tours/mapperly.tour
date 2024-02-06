@@ -12,29 +12,37 @@
 
         ,{
         "file": "mapperlyDemo/PersonMapper.cs",
-        "description": "File PersonMapper.cs ",
+        "description": "File PersonMapper.cs  ",
         "line": 1
         }
     
         ,{
         "file": "mapperlyDemo/PersonDTO.cs",
-        "description": "File PersonDTO.cs ",
+        "description": "File PersonDTO.cs  ",
         "line": 1
         }
     
         ,{
         "file": "mapperlyDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "mapperlyDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project mapperlyDemo/mapperlyDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "mapperlyDemo/obj/GX/Riok.Mapperly/Riok.Mapperly.MapperGenerator/PersonMapper.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

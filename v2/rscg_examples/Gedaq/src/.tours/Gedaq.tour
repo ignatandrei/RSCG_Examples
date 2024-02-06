@@ -12,53 +12,91 @@
 
         ,{
         "file": "GedaqDemoConsole/Example3/PersonRepository.cs",
-        "description": "File PersonRepository.cs ",
+        "description": "File PersonRepository.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Example3/ExampleRun.cs",
-        "description": "File ExampleRun.cs ",
+        "description": "File ExampleRun.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Example2/PersonRepository.cs",
-        "description": "File PersonRepository.cs ",
+        "description": "File PersonRepository.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Example2/ExampleRun.cs",
-        "description": "File ExampleRun.cs ",
+        "description": "File ExampleRun.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Example1/PersonRepository.cs",
-        "description": "File PersonRepository.cs ",
+        "description": "File PersonRepository.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Example1/ExampleRun.cs",
-        "description": "File ExampleRun.cs ",
+        "description": "File ExampleRun.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Model/Address.cs",
-        "description": "File Address.cs ",
+        "description": "File Address.cs  ",
         "line": 1
         }
     
         ,{
         "file": "GedaqDemoConsole/Model/Person.cs",
+        "description": "File Person.cs  ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "GedaqDemoConsole/obj/GX/Gedaq/Gedaq.Gedaq/PersonRepositoryGetPersonNpgsql.g.cs",
+        "description": "File PersonRepository.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/obj/GX/Gedaq/Gedaq.Gedaq/PersonRepository3GetPersonsNpgsql.g.cs",
+        "description": "File ExampleRun.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/obj/GX/Gedaq/Gedaq.Gedaq/PersonRepository3GetPersonsIQueryPersonRepository.g.cs",
+        "description": "File PersonRepository.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/obj/GX/Gedaq/Gedaq.Gedaq/PersonRepository3AddPersonsNpgsql.g.cs",
+        "description": "File ExampleRun.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/obj/GX/Gedaq/Gedaq.Gedaq/PersonRepository3AddPersonsICommandPersonRepository.g.cs",
+        "description": "File Address.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GedaqDemoConsole/obj/GX/Gedaq/Gedaq.Gedaq/PersonRepository2BatchPersonsNpgsql.g.cs",
         "description": "File Person.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -12,17 +12,31 @@
 
         ,{
         "file": "ThisAssembly_ResourcesDemo/Content/mytext.sql",
-        "description": "File mytext.sql ",
+        "description": "File mytext.sql  ",
         "line": 1
         }
     
         ,{
         "file": "ThisAssembly_ResourcesDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ThisAssembly_ResourcesDemo/ThisAssembly_ResourcesDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ThisAssembly_ResourcesDemo/obj/GX/ThisAssembly.Resource/ThisAssembly.ResourcesGenerator/ThisAssembly.Resources.EmbeddedResource.cs",
+        "description": "File mytext.sql ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ThisAssembly_ResourcesDemo/obj/GX/ThisAssembly.Resource/ThisAssembly.ResourcesGenerator/Content.mytext.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

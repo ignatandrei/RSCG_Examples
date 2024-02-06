@@ -12,17 +12,25 @@
 
         ,{
         "file": "PartFunc/Accounting.cs",
-        "description": "File Accounting.cs ",
+        "description": "File Accounting.cs  ",
         "line": 1
         }
     
         ,{
         "file": "PartFunc/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project PartFunc/PartFunc.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "PartFunc/obj/GX/PartiallyApplied/PartiallyApplied.PartiallyAppliedGenerator/Partially.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

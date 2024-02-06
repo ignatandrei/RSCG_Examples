@@ -12,23 +12,37 @@
 
         ,{
         "file": "ResXDemo/GenResources.Designer.cs",
-        "description": "File GenResources.Designer.cs ",
+        "description": "File GenResources.Designer.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ResXDemo/GenResources.resx",
-        "description": "File GenResources.resx ",
+        "description": "File GenResources.resx  ",
         "line": 1
         }
     
         ,{
         "file": "ResXDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ResXDemo/ResXDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ResXDemo/obj/GX/Aigamo.ResXGenerator/Aigamo.ResXGenerator.SourceGenerator/ResXDemo.GenResourcesModel.g.cs",
+        "description": "File GenResources.resx ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ResXDemo/obj/GX/Aigamo.ResXGenerator/Aigamo.ResXGenerator.SourceGenerator/Aigamo.ResXGenerator..g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

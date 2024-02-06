@@ -12,17 +12,25 @@
 
         ,{
         "file": "RSCG_AMSDemo/globals.cs",
-        "description": "File globals.cs ",
+        "description": "File globals.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RSCG_AMSDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_AMSDemo/RSCG_AMSDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "RSCG_AMSDemo/obj/GX/AMS/AMS.AMSVersionIncremental/RSCG_AMSDemo.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

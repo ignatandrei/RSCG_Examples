@@ -1,222 +1,25 @@
 {
-    "step_1_exec":"clipchamp.exe launch",
-    "step_2_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
-    "step_3_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_4_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_5_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+    "step_1_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
+    "step_2_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_3_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_4_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
-"step_6_text": "Today I will present Meziantou.Polyfill  that is good for Generating polyfills that you can see source without de-compiling  .",
-"step_7_browser":"https://www.nuget.org/packages/Meziantou.Polyfill/",
-"step_8_text": "You can download the code from https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill",
-"step_9_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill#download-example-net--c-",
-"step_10_text":" Here is the code ",
-"step_11_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\PolyDemo.sln",
-"step_12_text": "So , let's start the project ",
-"step_13_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src",
+"step_5_text": "Today I will present Meziantou.Polyfill . Generating polyfills that you can see source without de-compiling  .",
+"step_6_browser":"https://www.nuget.org/packages/Meziantou.Polyfill/",
+"step_7_text": "You can download the code from here",
+"step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill#download-example-net--c-",
+"step_9_text":"Here is the code downloaded ",
+"step_10_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\PolyDemo.sln",
+"step_11_text": "So , let's start the project with Visual Studio Code ",
+"step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src",
 
-"step_14_text": "You put the  [Meziantou.Polyfill](https://www.nuget.org/packages/Meziantou.Polyfill/) into the csproj ",
+"step_13_text": "To use it ,you will put the  Meziantou.Polyfill into the csproj ",
 
-"step_15_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\PolyDemo.csproj",
+"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\PolyDemo.csproj",
 
-"step_16_text": "I have used the Meziantou.Polyfill in those files",
+"step_15_text": "And now I will show you why we want to use it",
 
-
-        "step_17_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\StartProcess.cs",
-    
-        "step_18_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\Program.cs",
-    
-"step_19_text": "And this are files generated",
-
-
-        "step_20_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\Debug.g.cs",
-    
-        "step_21_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd``1(`0,System.Func{`0,``0,`1},``0).g.cs",
-    
-        "step_22_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0).g.cs",
-    
-        "step_23_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0,``1).g.cs",
-    
-        "step_24_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Collections.Generic.KeyValuePair`2.Deconstruct(`0_,`1_).g.cs",
-    
-        "step_25_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Collections.Generic.Queue`1.TryDequeue(`0_).g.cs",
-    
-        "step_26_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Diagnostics.Process.WaitForExitAsync(System.Threading.CancellationToken).g.cs",
-    
-        "step_27_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.IO.TextReader.ReadToEndAsync(System.Threading.CancellationToken).g.cs",
-    
-        "step_28_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs",
-    
-        "step_29_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1}).g.cs",
-    
-        "step_30_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs",
-    
-        "step_31_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1}).g.cs",
-    
-        "step_32_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs",
-    
-        "step_33_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1}).g.cs",
-    
-        "step_34_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.OrderDescending``1(System.Collections.Generic.IEnumerable{``0}).g.cs",
-    
-        "step_35_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.OrderDescending``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0}).g.cs",
-    
-        "step_36_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.Order``1(System.Collections.Generic.IEnumerable{``0}).g.cs",
-    
-        "step_37_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.Order``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0}).g.cs",
-    
-        "step_38_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0}).g.cs",
-    
-        "step_39_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0}).g.cs",
-    
-        "step_40_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Linq.Enumerable.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1}).g.cs",
-    
-        "step_41_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Net.Http.HttpContent.CopyTo(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken).g.cs",
-    
-        "step_42_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken).g.cs",
-    
-        "step_43_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken).g.cs",
-    
-        "step_44_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Net.Http.HttpContent.ReadAsStream(System.Threading.CancellationToken).g.cs",
-    
-        "step_45_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Net.Http.HttpContent.ReadAsStream.g.cs",
-    
-        "step_46_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.Contains(System.Char).g.cs",
-    
-        "step_47_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.Contains(System.Char,System.StringComparison).g.cs",
-    
-        "step_48_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.Contains(System.String,System.StringComparison).g.cs",
-    
-        "step_49_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.EndsWith(System.Char).g.cs",
-    
-        "step_50_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.GetHashCode(System.StringComparison).g.cs",
-    
-        "step_51_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.IndexOf(System.Char,System.StringComparison).g.cs",
-    
-        "step_52_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.Replace(System.String,System.String,System.StringComparison).g.cs",
-    
-        "step_53_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.ReplaceLineEndings(System.String).g.cs",
-    
-        "step_54_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.ReplaceLineEndings.g.cs",
-    
-        "step_55_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.Split(System.Char,System.Int32,System.StringSplitOptions).g.cs",
-    
-        "step_56_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.Split(System.Char,System.StringSplitOptions).g.cs",
-    
-        "step_57_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.String.StartsWith(System.Char).g.cs",
-    
-        "step_58_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Text.StringBuilder.AppendJoin(System.Char,System.Object[]).g.cs",
-    
-        "step_59_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Text.StringBuilder.AppendJoin(System.Char,System.String[]).g.cs",
-    
-        "step_60_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Text.StringBuilder.AppendJoin(System.String,System.Object[]).g.cs",
-    
-        "step_61_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Text.StringBuilder.AppendJoin(System.String,System.String[]).g.cs",
-    
-        "step_62_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Text.StringBuilder.AppendJoin``1(System.Char,System.Collections.Generic.IEnumerable{``0}).g.cs",
-    
-        "step_63_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Text.StringBuilder.AppendJoin``1(System.String,System.Collections.Generic.IEnumerable{``0}).g.cs",
-    
-        "step_64_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Threading.CancellationTokenSource.CancelAsync.g.cs",
-    
-        "step_65_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\M_System.Threading.Tasks.Task.WaitAsync(System.Threading.CancellationToken).g.cs",
-    
-        "step_66_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Collections.Generic.PriorityQueue`2.g.cs",
-    
-        "step_67_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Collections.Generic.ReferenceEqualityComparer.g.cs",
-    
-        "step_68_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.AllowNullAttribute.g.cs",
-    
-        "step_69_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.DisallowNullAttribute.g.cs",
-    
-        "step_70_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute.g.cs",
-    
-        "step_71_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute.g.cs",
-    
-        "step_72_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute.g.cs",
-    
-        "step_73_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.g.cs",
-    
-        "step_74_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute.g.cs",
-    
-        "step_75_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.MaybeNullAttribute.g.cs",
-    
-        "step_76_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.g.cs",
-    
-        "step_77_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.MemberNotNullAttribute.g.cs",
-    
-        "step_78_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute.g.cs",
-    
-        "step_79_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.NotNullAttribute.g.cs",
-    
-        "step_80_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute.g.cs",
-    
-        "step_81_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.g.cs",
-    
-        "step_82_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute.g.cs",
-    
-        "step_83_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute.g.cs",
-    
-        "step_84_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute.g.cs",
-    
-        "step_85_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute.g.cs",
-    
-        "step_86_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.StringSyntaxAttribute.g.cs",
-    
-        "step_87_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute.g.cs",
-    
-        "step_88_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.g.cs",
-    
-        "step_89_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Diagnostics.StackTraceHiddenAttribute.g.cs",
-    
-        "step_90_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.HashCode.g.cs",
-    
-        "step_91_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Index.g.cs",
-    
-        "step_92_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Range.g.cs",
-    
-        "step_93_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.AsyncMethodBuilderAttribute.g.cs",
-    
-        "step_94_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.g.cs",
-    
-        "step_95_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.CollectionBuilderAttribute.g.cs",
-    
-        "step_96_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.g.cs",
-    
-        "step_97_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute.g.cs",
-    
-        "step_98_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.InterpolatedStringHandlerArgumentAttribute.g.cs",
-    
-        "step_99_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute.g.cs",
-    
-        "step_100_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.IsExternalInit.g.cs",
-    
-        "step_101_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.ModuleInitializerAttribute.g.cs",
-    
-        "step_102_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.RequiredMemberAttribute.g.cs",
-    
-        "step_103_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.CompilerServices.SkipLocalsInitAttribute.g.cs",
-    
-        "step_104_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.InteropServices.SuppressGCTransitionAttribute.g.cs",
-    
-        "step_105_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.InteropServices.UnmanagedCallersOnlyAttribute.g.cs",
-    
-        "step_106_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.ObsoletedOSPlatformAttribute.g.cs",
-    
-        "step_107_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.RequiresPreviewFeaturesAttribute.g.cs",
-    
-        "step_108_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.SupportedOSPlatformAttribute.g.cs",
-    
-        "step_109_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.SupportedOSPlatformGuardAttribute.g.cs",
-    
-        "step_110_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.TargetPlatformAttribute.g.cs",
-    
-        "step_111_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.UnsupportedOSPlatformAttribute.g.cs",
-    
-        "step_112_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute.g.cs",
-    
-        "step_113_exec":"C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Poly\\src\\Dm\\obj\\GX\\Meziantou.Polyfill\\Meziantou.Polyfill.PolyfillGenerator\\T_System.Threading.Tasks.TaskToAsyncResult.g.cs",
-    
-"step_114_hide": "this is a comment"
+"step_16_hide": "this is a comment"
 
 
 }

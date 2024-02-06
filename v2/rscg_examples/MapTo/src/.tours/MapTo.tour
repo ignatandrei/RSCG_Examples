@@ -12,23 +12,31 @@
 
         ,{
         "file": "mapperDemo/PersonDTO.cs",
-        "description": "File PersonDTO.cs ",
+        "description": "File PersonDTO.cs  ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project mapperDemo/mapperDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "mapperDemo/obj/GX/MapTo/MapTo.MapToGenerator/mapperlyDemo.PersonDTO.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

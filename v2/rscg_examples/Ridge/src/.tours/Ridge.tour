@@ -12,23 +12,31 @@
 
         ,{
         "file": "TestRidgeApp/BasicTests.cs",
-        "description": "File BasicTests.cs ",
+        "description": "File BasicTests.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RidgeDemoWebApp/Controllers/WeatherForecastController.cs",
-        "description": "File WeatherForecastController.cs ",
+        "description": "File WeatherForecastController.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RidgeDemoWebApp/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RidgeDemoWebApp/RidgeDemoWebApp.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "RidgeDemoWebApp/obj/GX/RidgeSourceGenerator/RidgeSourceGenerator.ControllerClientGenerator/WeatherForecastController_Client.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -12,23 +12,31 @@
 
         ,{
         "file": "AutoDTODemo/DepartmentDTO.cs",
-        "description": "File DepartmentDTO.cs ",
+        "description": "File DepartmentDTO.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoDTODemo/Department.cs",
-        "description": "File Department.cs ",
+        "description": "File Department.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoDTODemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project AutoDTODemo/AutoDTODemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "AutoDTODemo/obj/GX/AutoDto.SourceGen/AutoDto.SourceGen.DtoFromBlGenerator/DepartmentDTO.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

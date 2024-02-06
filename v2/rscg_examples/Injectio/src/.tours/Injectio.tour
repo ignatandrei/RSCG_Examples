@@ -12,29 +12,37 @@
 
         ,{
         "file": "InjectioDemo/DatabaseCon.cs",
-        "description": "File DatabaseCon.cs ",
+        "description": "File DatabaseCon.cs  ",
         "line": 1
         }
     
         ,{
         "file": "InjectioDemo/IDatabase.cs",
-        "description": "File IDatabase.cs ",
+        "description": "File IDatabase.cs  ",
         "line": 1
         }
     
         ,{
         "file": "InjectioDemo/Database.cs",
-        "description": "File Database.cs ",
+        "description": "File Database.cs  ",
         "line": 1
         }
     
         ,{
         "file": "InjectioDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectioDemo/InjectioDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "InjectioDemo/obj/GX/Injectio.Generators/Injectio.Generators.ServiceRegistrationGenerator/Injectio.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

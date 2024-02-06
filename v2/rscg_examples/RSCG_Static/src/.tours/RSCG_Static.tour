@@ -12,17 +12,25 @@
 
         ,{
         "file": "RSCG_StaticDemo/StaticToInterface.cs",
-        "description": "File StaticToInterface.cs ",
+        "description": "File StaticToInterface.cs  ",
         "line": 1
         }
     
         ,{
         "file": "RSCG_StaticDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_StaticDemo/RSCG_StaticDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "RSCG_StaticDemo/obj/GX/RSCG_Static/RSCG_Static.GenerateFromStaticIncremental/GenerateInterfaceFromDate.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

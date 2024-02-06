@@ -12,17 +12,25 @@
 
         ,{
         "file": "EnumClassDemo/Colors.cs",
-        "description": "File Colors.cs ",
+        "description": "File Colors.cs  ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "EnumClassDemo/obj/GX/Credfeto.Enumeration.Source.Generation/Credfeto.Enumeration.Source.Generation.EnumGenerator/EnumClassDemo.ColorsGeneratedExtensions.generated.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

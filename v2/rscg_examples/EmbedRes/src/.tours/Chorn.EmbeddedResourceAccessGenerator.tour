@@ -12,17 +12,25 @@
 
         ,{
         "file": "EmbedRes/sql/createDB.sql",
-        "description": "File createDB.sql ",
+        "description": "File createDB.sql  ",
         "line": 1
         }
     
         ,{
         "file": "EmbedRes/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EmbedRes/EmbedDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "EmbedRes/obj/GX/EmbeddedResourceAccessGenerator/EmbeddedResourceAccessGenerator.EmbeddedResourceAccessGenerator/EmbeddedResources.generated.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

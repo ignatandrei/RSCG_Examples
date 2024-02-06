@@ -12,17 +12,31 @@
 
         ,{
         "file": "AutoCtorDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "AutoCtorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project AutoCtorDemo/AutoCtorDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "AutoCtorDemo/obj/GX/AutoCtor/AutoCtor.AutoConstructSourceGenerator/AutoCtorDemo.Person.g.cs",
+        "description": "File Person.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AutoCtorDemo/obj/GX/AutoCtor/AutoCtor.AutoConstructAttributeGenerator/AutoConstructAttribute.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -12,17 +12,25 @@
 
         ,{
         "file": "ProtobufSourceGeneratorDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ProtobufSourceGeneratorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ProtobufSourceGeneratorDemo/ProtobufSourceGeneratorDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ProtobufSourceGeneratorDemo/obj/GX/ProtobufSourceGenerator/ProtobufSourceGenerator.Incremental.IncrementalSourceGenerator/ProtoPerson.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

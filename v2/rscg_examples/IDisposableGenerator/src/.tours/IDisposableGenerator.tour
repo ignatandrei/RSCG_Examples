@@ -12,23 +12,37 @@
 
         ,{
         "file": "IDisp/ConnectionDB.cs",
-        "description": "File ConnectionDB.cs ",
+        "description": "File ConnectionDB.cs  ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/DALDB.cs",
-        "description": "File DALDB.cs ",
+        "description": "File DALDB.cs  ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "IDisp/obj/GX/IDisposableGenerator.CSharp/IDisposableGenerator.IDisposableGenerator/GeneratedAttributes.g.cs",
+        "description": "File DALDB.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/IDisposableGenerator.CSharp/IDisposableGenerator.IDisposableGenerator/Disposables.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

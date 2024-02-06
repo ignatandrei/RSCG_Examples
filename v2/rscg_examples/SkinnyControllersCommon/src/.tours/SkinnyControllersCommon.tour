@@ -12,23 +12,31 @@
 
         ,{
         "file": "SkinnyControllersDemo/Controllers/WeatherActions.cs",
-        "description": "File WeatherActions.cs ",
+        "description": "File WeatherActions.cs  ",
         "line": 1
         }
     
         ,{
         "file": "SkinnyControllersDemo/Controllers/WeatherForecastController.cs",
-        "description": "File WeatherForecastController.cs ",
+        "description": "File WeatherForecastController.cs  ",
         "line": 1
         }
     
         ,{
         "file": "SkinnyControllersDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project SkinnyControllersDemo/SkinnyControllersDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "SkinnyControllersDemo/obj/GX/SkinnyControllerGeneratorV2/SkinnyControllerGeneratorV2.AutoGenerateActions/WeatherForecastController.autogenerate.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

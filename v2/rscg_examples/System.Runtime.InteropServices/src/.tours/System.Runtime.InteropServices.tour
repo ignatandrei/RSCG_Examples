@@ -12,23 +12,31 @@
 
         ,{
         "file": "LibraryImportDemo/globals.cs",
-        "description": "File globals.cs ",
+        "description": "File globals.cs  ",
         "line": 1
         }
     
         ,{
         "file": "LibraryImportDemo/DemoMsgBox.cs",
-        "description": "File DemoMsgBox.cs ",
+        "description": "File DemoMsgBox.cs  ",
         "line": 1
         }
     
         ,{
         "file": "LibraryImportDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project LibraryImportDemo/LibraryImportDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "LibraryImportDemo/obj/GX/Microsoft.Interop.LibraryImportGenerator/Microsoft.Interop.LibraryImportGenerator/LibraryImports.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

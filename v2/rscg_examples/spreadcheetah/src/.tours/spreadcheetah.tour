@@ -12,17 +12,25 @@
 
         ,{
         "file": "spreadcheetahDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "spreadcheetahDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project spreadcheetahDemo/spreadcheetahDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "spreadcheetahDemo/obj/GX/SpreadCheetah.SourceGenerator/SpreadCheetah.SourceGenerators.WorksheetRowGenerator/spreadcheetahDemo.PersonRowContext.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

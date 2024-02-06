@@ -12,17 +12,25 @@
 
         ,{
         "file": "Lombok.NETDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "Lombok.NETDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Lombok.NETDemo/Lombok.NETDemo.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "Lombok.NETDemo/obj/GX/Lombok.NET/Lombok.NET.MethodGenerators.ToStringGenerator/Lombok_NETDemo_Person.g.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

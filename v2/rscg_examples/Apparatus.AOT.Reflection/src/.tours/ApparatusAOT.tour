@@ -12,17 +12,25 @@
 
         ,{
         "file": "ApparatusAOTDemo/Person.cs",
-        "description": "File Person.cs ",
+        "description": "File Person.cs  ",
         "line": 1
         }
     
         ,{
         "file": "ApparatusAOTDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ApparatusAOTDemo/ApparatusAOT.csproj ",
+        "line": 1
+        }
+    
+
+        ,{
+        "file": "ApparatusAOTDemo/obj/GX/Apparatus.AOT.Reflection.SourceGenerator/Apparatus.AOT.Reflection.SourceGenerator.AotPropertiesReflectionSourceGenerator/ApparatusDemo_PersonExtensions.cs",
         "description": "File Program.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }
