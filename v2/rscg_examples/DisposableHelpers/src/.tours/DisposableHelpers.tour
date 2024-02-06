@@ -6,8 +6,8 @@
   [
     {
       "file": "IDisp/IDisp.csproj",
-      "description": "Nuget  DisposableHelpers registration in csproj ",
-      "line": 1
+      "description": "Nuget  [DisposableHelpers](https://www.nuget.org/packages/DisposableHelpers/) registration in csproj  ",
+      "pattern": "DisposableHelpers"
     }
 
         ,{

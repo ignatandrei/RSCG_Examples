@@ -6,8 +6,8 @@
   [
     {
       "file": "HangFireRec/HangFireRec.csproj",
-      "description": "Nuget  IeuanWalker.Hangfire.RecurringJob registration in csproj ",
-      "line": 1
+      "description": "Nuget  [IeuanWalker.Hangfire.RecurringJob](https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/) registration in csproj  ",
+      "pattern": "IeuanWalker.Hangfire.RecurringJob"
     }
 
         ,{

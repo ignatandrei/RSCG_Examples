@@ -6,8 +6,8 @@
   [
     {
       "file": "TestClock/TestClock.csproj",
-      "description": "Nuget  Rocks registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Rocks](https://www.nuget.org/packages/Rocks/) registration in csproj  ",
+      "pattern": "Rocks"
     }
 
         ,{

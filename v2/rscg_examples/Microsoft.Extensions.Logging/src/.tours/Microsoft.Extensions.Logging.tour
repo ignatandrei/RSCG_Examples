@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoLogging/DemoLogging.csproj",
-      "description": "Nuget  Microsoft.Extensions.Logging registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Microsoft.Extensions.Logging](https://www.nuget.org/packages/Microsoft.Extensions.Logging/) registration in csproj  ",
+      "pattern": "Microsoft.Extensions.Logging"
     }
 
         ,{

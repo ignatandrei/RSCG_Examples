@@ -6,8 +6,8 @@
   [
     {
       "file": "IDisp/IDisp.csproj",
-      "description": "Nuget  Disposer registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Disposer](https://www.nuget.org/packages/Disposer/) registration in csproj  ",
+      "pattern": "Disposer"
     }
 
         ,{

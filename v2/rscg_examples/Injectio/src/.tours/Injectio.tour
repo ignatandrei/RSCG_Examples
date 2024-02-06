@@ -6,8 +6,8 @@
   [
     {
       "file": "InjectioDemo/InjectioDemo.csproj",
-      "description": "Nuget  Injectio registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Injectio](https://www.nuget.org/packages/Injectio/) registration in csproj  ",
+      "pattern": "Injectio"
     }
 
         ,{

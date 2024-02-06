@@ -6,8 +6,8 @@
   [
     {
       "file": "ConfigBinderDemo/ConfigBinderDemo.csproj",
-      "description": "Nuget  Microsoft.Extensions.Configuration.Binder registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Microsoft.Extensions.Configuration.Binder](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/) registration in csproj  ",
+      "pattern": "Microsoft.Extensions.Configuration.Binder"
     }
 
         ,{

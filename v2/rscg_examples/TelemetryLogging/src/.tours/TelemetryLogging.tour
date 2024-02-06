@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoLogging/DemoLogging.csproj",
-      "description": "Nuget  Microsoft.Extensions.Telemetry.Abstractions registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Microsoft.Extensions.Telemetry.Abstractions](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/) registration in csproj  ",
+      "pattern": "Microsoft.Extensions.Telemetry.Abstractions"
     }
 
         ,{

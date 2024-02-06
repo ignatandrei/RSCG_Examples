@@ -6,8 +6,8 @@
   [
     {
       "file": "RSCG_AMSDemo/RSCG_AMSDemo.csproj",
-      "description": "Nuget  RSCG_AMS registration in csproj ",
-      "line": 1
+      "description": "Nuget  [RSCG_AMS](https://www.nuget.org/packages/RSCG_AMS/) registration in csproj  ",
+      "pattern": "RSCG_AMS"
     }
 
         ,{

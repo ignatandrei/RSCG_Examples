@@ -6,8 +6,8 @@
   [
     {
       "file": "StaticReflectionDemo/StaticReflectionDemo.csproj",
-      "description": "Nuget  FastStaticReflection registration in csproj ",
-      "line": 1
+      "description": "Nuget  [FastStaticReflection](https://www.nuget.org/packages/FastStaticReflection/) registration in csproj  ",
+      "pattern": "FastStaticReflection"
     }
 
         ,{

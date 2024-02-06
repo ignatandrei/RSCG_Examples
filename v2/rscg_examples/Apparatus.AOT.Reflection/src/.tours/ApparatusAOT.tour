@@ -6,8 +6,8 @@
   [
     {
       "file": "ApparatusAOTDemo/ApparatusAOT.csproj",
-      "description": "Nuget  Apparatus.AOT.Reflection registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Apparatus.AOT.Reflection](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) registration in csproj  ",
+      "pattern": "Apparatus.AOT.Reflection"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "OneOfDemo/OneOfDemo.csproj",
-      "description": "Nuget  OneOf.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [OneOf.SourceGenerator](https://www.nuget.org/packages/OneOf.SourceGenerator) registration in csproj  ",
+      "pattern": "OneOf.SourceGenerator"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "PodimoConstEmbedDemo/PodimoConstEmbedDemo.csproj",
-      "description": "Nuget  Podimo.ConstEmbed registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Podimo.ConstEmbed](https://www.nuget.org/packages/Podimo.ConstEmbed/) registration in csproj  ",
+      "pattern": "Podimo.ConstEmbed"
     }
 
         ,{

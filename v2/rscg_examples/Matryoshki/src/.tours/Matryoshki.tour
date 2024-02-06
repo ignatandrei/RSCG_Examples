@@ -6,8 +6,8 @@
   [
     {
       "file": "MatryoshkiDemo/MatryoshkiDemo.csproj",
-      "description": "Nuget  Matryoshki registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Matryoshki](https://www.nuget.org/packages/Matryoshki/) registration in csproj  ",
+      "pattern": "Matryoshki"
     }
 
         ,{

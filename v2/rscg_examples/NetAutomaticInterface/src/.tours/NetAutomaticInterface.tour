@@ -6,8 +6,8 @@
   [
     {
       "file": "Class2Interface/Class2Interface.csproj",
-      "description": "Nuget  AutomaticInterface registration in csproj ",
-      "line": 1
+      "description": "Nuget  [AutomaticInterface](https://www.nuget.org/packages/AutomaticInterface/) registration in csproj  ",
+      "pattern": "AutomaticInterface"
     }
 
         ,{

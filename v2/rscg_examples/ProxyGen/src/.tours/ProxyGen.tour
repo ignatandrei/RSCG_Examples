@@ -6,8 +6,8 @@
   [
     {
       "file": "ProxyGenDemo/ProxyGenDemo.csproj",
-      "description": "Nuget  ProxyGen.net registration in csproj ",
-      "line": 1
+      "description": "Nuget  [ProxyGen.net](https://www.nuget.org/packages/ProxyGen.net/) registration in csproj  ",
+      "pattern": "ProxyGen.net"
     }
 
         ,{

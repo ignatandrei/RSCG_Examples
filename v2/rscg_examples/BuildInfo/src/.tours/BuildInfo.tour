@@ -6,8 +6,8 @@
   [
     {
       "file": "RSCG_Version/RSCG_Version.csproj",
-      "description": "Nuget  BuildInfo registration in csproj ",
-      "line": 1
+      "description": "Nuget  [BuildInfo](https://www.nuget.org/packages/BuildInfo/) registration in csproj  ",
+      "pattern": "BuildInfo"
     }
 
         ,{

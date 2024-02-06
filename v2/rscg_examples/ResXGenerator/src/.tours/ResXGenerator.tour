@@ -6,8 +6,8 @@
   [
     {
       "file": "ResXDemo/ResXDemo.csproj",
-      "description": "Nuget  Aigamo.ResXGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Aigamo.ResXGenerator](https://www.nuget.org/packages/Aigamo.ResXGenerator/) registration in csproj  ",
+      "pattern": "Aigamo.ResXGenerator"
     }
 
         ,{

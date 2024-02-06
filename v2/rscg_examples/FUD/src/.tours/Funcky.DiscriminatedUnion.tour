@@ -6,8 +6,8 @@
   [
     {
       "file": "Union/Union.csproj",
-      "description": "Nuget  Funcky.DiscriminatedUnion registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Funcky.DiscriminatedUnion](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/) registration in csproj  ",
+      "pattern": "Funcky.DiscriminatedUnion"
     }
 
         ,{

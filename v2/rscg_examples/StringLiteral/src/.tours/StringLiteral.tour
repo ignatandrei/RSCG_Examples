@@ -6,8 +6,8 @@
   [
     {
       "file": "StringLiteralDemo/StringLiteralDemo.csproj",
-      "description": "Nuget  StringLiteralGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [StringLiteralGenerator](https://www.nuget.org/packages/StringLiteralGenerator/) registration in csproj  ",
+      "pattern": "StringLiteralGenerator"
     }
 
         ,{

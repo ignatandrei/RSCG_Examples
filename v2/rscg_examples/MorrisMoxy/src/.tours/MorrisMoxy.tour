@@ -6,8 +6,8 @@
   [
     {
       "file": "MorrisMoxyDemo/MorrisMoxyDemo.csproj",
-      "description": "Nuget  Morris.Moxy registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Morris.Moxy](https://www.nuget.org/packages/Morris.Moxy/) registration in csproj  ",
+      "pattern": "Morris.Moxy"
     }
 
         ,{

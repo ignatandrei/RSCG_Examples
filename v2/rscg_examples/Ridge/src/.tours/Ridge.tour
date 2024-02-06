@@ -6,8 +6,8 @@
   [
     {
       "file": "RidgeDemoWebApp/RidgeDemoWebApp.csproj",
-      "description": "Nuget  Ridge registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Ridge](https://www.nuget.org/packages/Ridge/) registration in csproj  ",
+      "pattern": "Ridge"
     }
 
         ,{

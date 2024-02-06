@@ -6,8 +6,8 @@
   [
     {
       "file": "EnumClassDemo/EnumClassDemo.csproj",
-      "description": "Nuget  Credfeto.Enumeration.Source.Generation registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Credfeto.Enumeration.Source.Generation](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) registration in csproj  ",
+      "pattern": "Credfeto.Enumeration.Source.Generation"
     }
 
         ,{

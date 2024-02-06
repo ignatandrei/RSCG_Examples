@@ -6,8 +6,8 @@
   [
     {
       "file": "VogenDemo/VogenDemo.csproj",
-      "description": "Nuget  Vogen registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Vogen](https://www.nuget.org/packages/Vogen/) registration in csproj  ",
+      "pattern": "Vogen"
     }
 
         ,{

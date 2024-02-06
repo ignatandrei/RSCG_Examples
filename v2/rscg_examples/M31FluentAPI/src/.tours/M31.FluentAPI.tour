@@ -6,8 +6,8 @@
   [
     {
       "file": "M31FluentAPIDemo/M31FluentAPIDemo.csproj",
-      "description": "Nuget  M31.FluentAPI registration in csproj ",
-      "line": 1
+      "description": "Nuget  [M31.FluentAPI](https://www.nuget.org/packages/M31.FluentAPI/) registration in csproj  ",
+      "pattern": "M31.FluentAPI"
     }
 
         ,{

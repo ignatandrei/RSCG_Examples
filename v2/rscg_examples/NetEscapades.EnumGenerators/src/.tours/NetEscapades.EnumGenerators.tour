@@ -6,8 +6,8 @@
   [
     {
       "file": "TestEnumEscapades/TestEnumEscapades.csproj",
-      "description": "Nuget  NetEscapades.EnumGenerators registration in csproj ",
-      "line": 1
+      "description": "Nuget  [NetEscapades.EnumGenerators](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) registration in csproj  ",
+      "pattern": "NetEscapades.EnumGenerators"
     }
 
         ,{

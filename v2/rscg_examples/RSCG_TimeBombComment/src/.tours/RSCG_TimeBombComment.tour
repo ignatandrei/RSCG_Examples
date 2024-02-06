@@ -6,8 +6,8 @@
   [
     {
       "file": "Console_TimeBombComment/Console_TimeBombComment.csproj",
-      "description": "Nuget  RSCG_TimeBombComment registration in csproj ",
-      "line": 1
+      "description": "Nuget  [RSCG_TimeBombComment](https://www.nuget.org/packages/RSCG_TimeBombComment/) registration in csproj  ",
+      "pattern": "RSCG_TimeBombComment"
     }
 
         ,{

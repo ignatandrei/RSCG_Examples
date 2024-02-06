@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoRegex/DemoRegex.csproj",
-      "description": "Nuget  System.Text.RegularExpressions registration in csproj ",
-      "line": 1
+      "description": "Nuget  [System.Text.RegularExpressions](https://www.nuget.org/packages/System.Text.RegularExpressions/) registration in csproj  ",
+      "pattern": "System.Text.RegularExpressions"
     }
 
         ,{

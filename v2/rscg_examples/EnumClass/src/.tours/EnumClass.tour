@@ -6,8 +6,8 @@
   [
     {
       "file": "EnumClassDemo/EnumClassDemo.csproj",
-      "description": "Nuget  EnumClass.Generator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [EnumClass.Generator](https://www.nuget.org/packages/EnumClass.Generator/) registration in csproj  ",
+      "pattern": "EnumClass.Generator"
     }
 
         ,{

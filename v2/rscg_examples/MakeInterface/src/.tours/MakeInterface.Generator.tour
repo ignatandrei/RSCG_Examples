@@ -6,8 +6,8 @@
   [
     {
       "file": "Class2Interface/Class2Interface.csproj",
-      "description": "Nuget  MakeInterface.Generator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [MakeInterface.Generator](https://www.nuget.org/packages/MakeInterface.Generator/) registration in csproj  ",
+      "pattern": "MakeInterface.Generator"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "mapperDemo/mapperDemo.csproj",
-      "description": "Nuget  MapTo registration in csproj ",
-      "line": 1
+      "description": "Nuget  [MapTo](https://www.nuget.org/packages/MapTo/) registration in csproj  ",
+      "pattern": "MapTo"
     }
 
         ,{

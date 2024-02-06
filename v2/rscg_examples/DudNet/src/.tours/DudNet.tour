@@ -6,8 +6,8 @@
   [
     {
       "file": "DudNetDemo/DudNetDemo.csproj",
-      "description": "Nuget  Jwshyns.DudNet registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Jwshyns.DudNet](https://www.nuget.org/packages/Jwshyns.DudNet/) registration in csproj  ",
+      "pattern": "Jwshyns.DudNet"
     }
 
         ,{

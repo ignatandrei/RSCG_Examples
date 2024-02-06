@@ -6,8 +6,8 @@
   [
     {
       "file": "GedaqDemoConsole/GedaqDemoConsole.csproj",
-      "description": "Nuget  Gedaq registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Gedaq](https://www.nuget.org/packages/Gedaq/) registration in csproj  ",
+      "pattern": "Gedaq"
     }
 
         ,{

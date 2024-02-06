@@ -6,8 +6,8 @@
   [
     {
       "file": "RSCG_Version/RSCG_Version.csproj",
-      "description": "Nuget  ThisAssembly registration in csproj ",
-      "line": 1
+      "description": "Nuget  [ThisAssembly](https://www.nuget.org/packages/ThisAssembly) registration in csproj  ",
+      "pattern": "ThisAssembly"
     }
 
         ,{

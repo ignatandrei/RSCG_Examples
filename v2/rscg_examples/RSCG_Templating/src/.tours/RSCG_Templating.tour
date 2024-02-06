@@ -6,8 +6,8 @@
   [
     {
       "file": "RSCG_TemplatingDemo/RSCG_TemplatingDemo.csproj",
-      "description": "Nuget  RSCG_Templating registration in csproj ",
-      "line": 1
+      "description": "Nuget  [RSCG_Templating](https://www.nuget.org/packages/RSCG_Templating/) registration in csproj  ",
+      "pattern": "RSCG_Templating"
     }
 
         ,{

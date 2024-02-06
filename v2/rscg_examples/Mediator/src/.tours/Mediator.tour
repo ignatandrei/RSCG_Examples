@@ -6,8 +6,8 @@
   [
     {
       "file": "MediatorDemo/MediatorDemo.csproj",
-      "description": "Nuget  Mediator.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Mediator.SourceGenerator](https://www.nuget.org/packages/Mediator.SourceGenerator) registration in csproj  ",
+      "pattern": "Mediator.SourceGenerator"
     }
 
         ,{

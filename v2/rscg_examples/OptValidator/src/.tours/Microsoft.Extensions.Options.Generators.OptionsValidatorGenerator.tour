@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoValidatorObj/DemoValidatorObj.csproj",
-      "description": "Nuget  Microsoft.Extensions.Options registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Microsoft.Extensions.Options](https://www.nuget.org/packages/Microsoft.Extensions.Options) registration in csproj  ",
+      "pattern": "Microsoft.Extensions.Options"
     }
 
         ,{

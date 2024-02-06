@@ -6,8 +6,8 @@
   [
     {
       "file": "ImmutypeDemo/ImmutypeDemo.csproj",
-      "description": "Nuget  Immutype registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Immutype](https://www.nuget.org/packages/Immutype/) registration in csproj  ",
+      "pattern": "Immutype"
     }
 
         ,{

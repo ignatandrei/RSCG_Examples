@@ -6,8 +6,8 @@
   [
     {
       "file": "GobieDemo/GobieDemo.csproj",
-      "description": "Nuget  Gobie registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Gobie](https://www.nuget.org/packages/Gobie/) registration in csproj  ",
+      "pattern": "Gobie"
     }
 
         ,{

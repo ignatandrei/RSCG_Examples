@@ -6,8 +6,8 @@
   [
     {
       "file": "SkinnyControllersDemo/SkinnyControllersDemo.csproj",
-      "description": "Nuget  SkinnyControllersCommon registration in csproj ",
-      "line": 1
+      "description": "Nuget  [SkinnyControllersCommon](https://www.nuget.org/packages/SkinnyControllersCommon) registration in csproj  ",
+      "pattern": "SkinnyControllersCommon"
     }
 
         ,{

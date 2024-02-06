@@ -6,8 +6,8 @@
   [
     {
       "file": "RefitDemo/RefitDemo.csproj",
-      "description": "Nuget  Refit registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Refit](https://www.nuget.org/packages/Refit/) registration in csproj  ",
+      "pattern": "Refit"
     }
 
         ,{

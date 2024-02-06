@@ -6,8 +6,8 @@
   [
     {
       "file": "RSCG_FunctionsWithDIDemo/RSCG_FunctionsWithDIDemo.csproj",
-      "description": "Nuget  RSCG_FunctionsWithDI registration in csproj ",
-      "line": 1
+      "description": "Nuget  [RSCG_FunctionsWithDI](https://www.nuget.org/packages/RSCG_FunctionsWithDI/) registration in csproj  ",
+      "pattern": "RSCG_FunctionsWithDI"
     }
 
         ,{

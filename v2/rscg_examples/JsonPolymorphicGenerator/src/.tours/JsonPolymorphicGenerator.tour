@@ -6,8 +6,8 @@
   [
     {
       "file": "JsonPolymorphicGeneratorDemo/JsonPolymorphicGeneratorDemo.csproj",
-      "description": "Nuget  GoLive.Generator.JsonPolymorphicGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [GoLive.Generator.JsonPolymorphicGenerator](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/) registration in csproj  ",
+      "pattern": "GoLive.Generator.JsonPolymorphicGenerator"
     }
 
         ,{

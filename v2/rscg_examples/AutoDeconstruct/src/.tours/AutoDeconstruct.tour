@@ -6,8 +6,8 @@
   [
     {
       "file": "AutoDeconstructDemo/AutoDeconstructDemo.csproj",
-      "description": "Nuget  AutoDeconstruct registration in csproj ",
-      "line": 1
+      "description": "Nuget  [AutoDeconstruct](https://www.nuget.org/packages/AutoDeconstruct) registration in csproj  ",
+      "pattern": "AutoDeconstruct"
     }
 
         ,{

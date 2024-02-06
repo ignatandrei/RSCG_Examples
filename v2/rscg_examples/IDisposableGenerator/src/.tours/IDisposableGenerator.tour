@@ -6,8 +6,8 @@
   [
     {
       "file": "IDisp/IDisp.csproj",
-      "description": "Nuget  IDisposableGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [IDisposableGenerator](https://www.nuget.org/packages/IDisposableGenerator/) registration in csproj  ",
+      "pattern": "IDisposableGenerator"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoApi/DemoApi.csproj",
-      "description": "Nuget  MinimalApiBuilder registration in csproj ",
-      "line": 1
+      "description": "Nuget  [MinimalApiBuilder](https://www.nuget.org/packages/MinimalApiBuilder/) registration in csproj  ",
+      "pattern": "MinimalApiBuilder"
     }
 
         ,{

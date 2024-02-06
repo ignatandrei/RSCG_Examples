@@ -6,8 +6,8 @@
   [
     {
       "file": "ProtobufSourceGeneratorDemo/ProtobufSourceGeneratorDemo.csproj",
-      "description": "Nuget  LaDeak.ProtobufSourceGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [LaDeak.ProtobufSourceGenerator](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/) registration in csproj  ",
+      "pattern": "LaDeak.ProtobufSourceGenerator"
     }
 
         ,{

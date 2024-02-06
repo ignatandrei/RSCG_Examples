@@ -6,8 +6,8 @@
   [
     {
       "file": "PartFunc/PartFunc.csproj",
-      "description": "Nuget  PartiallyApplied registration in csproj ",
-      "line": 1
+      "description": "Nuget  [PartiallyApplied](https://www.nuget.org/packages/PartiallyApplied/) registration in csproj  ",
+      "pattern": "PartiallyApplied"
     }
 
         ,{

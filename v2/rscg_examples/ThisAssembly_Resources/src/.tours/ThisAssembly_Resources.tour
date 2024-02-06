@@ -6,8 +6,8 @@
   [
     {
       "file": "ThisAssembly_ResourcesDemo/ThisAssembly_ResourcesDemo.csproj",
-      "description": "Nuget  ThisAssembly.Resources registration in csproj ",
-      "line": 1
+      "description": "Nuget  [ThisAssembly.Resources](https://www.nuget.org/packages/ThisAssembly.Resources/) registration in csproj  ",
+      "pattern": "ThisAssembly.Resources"
     }
 
         ,{

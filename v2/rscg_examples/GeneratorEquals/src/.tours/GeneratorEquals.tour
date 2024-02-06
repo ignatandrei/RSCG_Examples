@@ -6,8 +6,8 @@
   [
     {
       "file": "GeneratorEqualsDemo/GeneratorEqualsDemo.csproj",
-      "description": "Nuget  Generator.Equals registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Generator.Equals](https://www.nuget.org/packages/Generator.Equals/) registration in csproj  ",
+      "pattern": "Generator.Equals"
     }
 
         ,{

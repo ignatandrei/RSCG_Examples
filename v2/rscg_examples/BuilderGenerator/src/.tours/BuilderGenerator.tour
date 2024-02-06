@@ -6,8 +6,8 @@
   [
     {
       "file": "Builder/Builder.csproj",
-      "description": "Nuget  BuilderGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [BuilderGenerator](https://www.nuget.org/packages/BuilderGenerator/) registration in csproj  ",
+      "pattern": "BuilderGenerator"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "spreadcheetahDemo/spreadcheetahDemo.csproj",
-      "description": "Nuget  spreadcheetah registration in csproj ",
-      "line": 1
+      "description": "Nuget  [spreadcheetah](https://www.nuget.org/packages/spreadcheetah/) registration in csproj  ",
+      "pattern": "spreadcheetah"
     }
 
         ,{

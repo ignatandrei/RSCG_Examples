@@ -6,8 +6,8 @@
   [
     {
       "file": "ComDemo/ComDemo.csproj",
-      "description": "Nuget  System.Runtime.InteropServices registration in csproj ",
-      "line": 1
+      "description": "Nuget  [System.Runtime.InteropServices](https://www.nuget.org/packages/System.Runtime.InteropServices/) registration in csproj  ",
+      "pattern": "System.Runtime.InteropServices"
     }
 
         ,{

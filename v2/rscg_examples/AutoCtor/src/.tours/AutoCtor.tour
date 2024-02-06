@@ -6,8 +6,8 @@
   [
     {
       "file": "AutoCtorDemo/AutoCtorDemo.csproj",
-      "description": "Nuget  AutoCtor registration in csproj ",
-      "line": 1
+      "description": "Nuget  [AutoCtor](https://www.nuget.org/packages/AutoCtor/) registration in csproj  ",
+      "pattern": "AutoCtor"
     }
 
         ,{

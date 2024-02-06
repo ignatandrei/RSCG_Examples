@@ -6,8 +6,8 @@
   [
     {
       "file": "EmbedRes/EmbedDemo.csproj",
-      "description": "Nuget  Chorn.EmbeddedResourceAccessGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Chorn.EmbeddedResourceAccessGenerator](https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/) registration in csproj  ",
+      "pattern": "Chorn.EmbeddedResourceAccessGenerator"
     }
 
         ,{

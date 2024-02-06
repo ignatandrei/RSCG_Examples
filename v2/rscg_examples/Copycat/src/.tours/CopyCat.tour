@@ -6,8 +6,8 @@
   [
     {
       "file": "CCDemo/CCDemo.csproj",
-      "description": "Nuget  Copycat registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Copycat](https://www.nuget.org/packages/Copycat/) registration in csproj  ",
+      "pattern": "Copycat"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "MockLisTest/TestClock.csproj",
-      "description": "Nuget  mocklis registration in csproj ",
-      "line": 1
+      "description": "Nuget  [mocklis](https://www.nuget.org/packages/mocklis/) registration in csproj  ",
+      "pattern": "mocklis"
     }
 
         ,{

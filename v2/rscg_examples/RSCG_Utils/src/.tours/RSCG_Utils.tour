@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoRSCG_Utils/DemoRSCG_Utils.csproj",
-      "description": "Nuget  rscgutils registration in csproj ",
-      "line": 1
+      "description": "Nuget  [rscgutils](https://www.nuget.org/packages/rscgutils) registration in csproj  ",
+      "pattern": "rscgutils"
     }
 
         ,{

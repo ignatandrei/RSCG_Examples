@@ -6,8 +6,8 @@
   [
     {
       "file": "mapperlyDemo/mapperlyDemo.csproj",
-      "description": "Nuget  Riok.Mapperly registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Riok.Mapperly](https://www.nuget.org/packages/Riok.Mapperly/) registration in csproj  ",
+      "pattern": "Riok.Mapperly"
     }
 
         ,{

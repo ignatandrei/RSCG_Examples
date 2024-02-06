@@ -6,8 +6,8 @@
   [
     {
       "file": "AutoRegisterInjectDemo/AutoRegisterInjectDemo.csproj",
-      "description": "Nuget  AutoRegisterInject registration in csproj ",
-      "line": 1
+      "description": "Nuget  [AutoRegisterInject](https://www.nuget.org/packages/AutoRegisterInject/) registration in csproj  ",
+      "pattern": "AutoRegisterInject"
     }
 
         ,{

@@ -6,8 +6,8 @@
   [
     {
       "file": "LingDemo/LingDemo.csproj",
-      "description": "Nuget  Ling.Audit registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Ling.Audit](https://www.nuget.org/packages/Ling.Audit/) registration in csproj  ",
+      "pattern": "Ling.Audit"
     }
 
         ,{

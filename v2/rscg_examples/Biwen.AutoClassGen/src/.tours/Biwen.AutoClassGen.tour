@@ -6,8 +6,8 @@
   [
     {
       "file": "FromInterface/FromInterface.csproj",
-      "description": "Nuget  Biwen.AutoClassGen registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Biwen.AutoClassGen](https://www.nuget.org/packages/Biwen.AutoClassGen/) registration in csproj  ",
+      "pattern": "Biwen.AutoClassGen"
     }
 
         ,{

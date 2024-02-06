@@ -6,8 +6,8 @@
   [
     {
       "file": "RSCG_StaticDemo/RSCG_StaticDemo.csproj",
-      "description": "Nuget  RSCG_Static registration in csproj ",
-      "line": 1
+      "description": "Nuget  [RSCG_Static](https://www.nuget.org/packages/RSCG_Static/) registration in csproj  ",
+      "pattern": "RSCG_Static"
     }
 
         ,{

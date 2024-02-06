@@ -6,8 +6,8 @@
   [
     {
       "file": "MediatorDemo/DeeDeeDemo.csproj",
-      "description": "Nuget  DeeDee registration in csproj ",
-      "line": 1
+      "description": "Nuget  [DeeDee](https://www.nuget.org/packages/DeeDee/) registration in csproj  ",
+      "pattern": "DeeDee"
     }
 
         ,{

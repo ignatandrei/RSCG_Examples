@@ -6,8 +6,8 @@
   [
     {
       "file": "EmbeddingResourceCSharpDemo/EmbeddingResourceCSharpDemo.csproj",
-      "description": "Nuget  EmbedResourceCSharp registration in csproj ",
-      "line": 1
+      "description": "Nuget  [EmbedResourceCSharp](https://www.nuget.org/packages/EmbedResourceCSharp/) registration in csproj  ",
+      "pattern": "EmbedResourceCSharp"
     }
 
         ,{

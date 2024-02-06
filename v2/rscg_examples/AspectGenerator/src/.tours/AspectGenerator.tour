@@ -6,8 +6,8 @@
   [
     {
       "file": "AG/AG.csproj",
-      "description": "Nuget  AspectGenerator registration in csproj ",
-      "line": 1
+      "description": "Nuget  [AspectGenerator](https://www.nuget.org/packages/AspectGenerator/) registration in csproj  ",
+      "pattern": "AspectGenerator"
     }
 
         ,{

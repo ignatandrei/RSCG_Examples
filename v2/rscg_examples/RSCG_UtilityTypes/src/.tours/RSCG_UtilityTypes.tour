@@ -6,8 +6,8 @@
   [
     {
       "file": "UtilDemo/UtilDemo.csproj",
-      "description": "Nuget  RSCG_UtilityTypes registration in csproj ",
-      "line": 1
+      "description": "Nuget  [RSCG_UtilityTypes](https://www.nuget.org/packages/RSCG_UtilityTypes/) registration in csproj  ",
+      "pattern": "RSCG_UtilityTypes"
     }
 
         ,{

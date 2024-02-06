@@ -6,8 +6,8 @@
   [
     {
       "file": "QuickConstructorDemo/QuickConstructorDemo.csproj",
-      "description": "Nuget  QuickConstructor registration in csproj ",
-      "line": 1
+      "description": "Nuget  [QuickConstructor](https://www.nuget.org/packages/QuickConstructor) registration in csproj  ",
+      "pattern": "QuickConstructor"
     }
 
         ,{

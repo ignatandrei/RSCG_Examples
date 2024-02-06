@@ -6,8 +6,8 @@
   [
     {
       "file": "Roozie.AutoInterfaceDemo/Roozie.AutoInterfaceDemo.csproj",
-      "description": "Nuget  Roozie.AutoInterface registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Roozie.AutoInterface](https://www.nuget.org/packages/Roozie.AutoInterface/) registration in csproj  ",
+      "pattern": "Roozie.AutoInterface"
     }
 
         ,{

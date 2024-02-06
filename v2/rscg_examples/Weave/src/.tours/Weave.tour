@@ -6,8 +6,8 @@
   [
     {
       "file": "WeaveDemo/WeaveDemo.csproj",
-      "description": "Nuget  Weave registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Weave](https://www.nuget.org/packages/Weave/) registration in csproj  ",
+      "pattern": "Weave"
     }
 
         ,{

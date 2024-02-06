@@ -6,8 +6,8 @@
   [
     {
       "file": "MemoryPackDemo/MemoryPackDemo.csproj",
-      "description": "Nuget  MemoryPack registration in csproj ",
-      "line": 1
+      "description": "Nuget  [MemoryPack](https://www.nuget.org/packages/MemoryPack/) registration in csproj  ",
+      "pattern": "MemoryPack"
     }
 
         ,{

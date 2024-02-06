@@ -6,8 +6,8 @@
   [
     {
       "file": "Lombok.NETDemo/Lombok.NETDemo.csproj",
-      "description": "Nuget  Lombok.NET registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Lombok.NET](https://www.nuget.org/packages/Lombok.NET/) registration in csproj  ",
+      "pattern": "Lombok.NET"
     }
 
         ,{

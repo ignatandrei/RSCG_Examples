@@ -6,8 +6,8 @@
   [
     {
       "file": "RDGDemoWebApi/RDGDemoWebApi.csproj",
-      "description": "Nuget  Microsoft.Extensions.Http registration in csproj ",
-      "line": 1
+      "description": "Nuget  [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http) registration in csproj  ",
+      "pattern": "Microsoft.Extensions.Http"
     }
 
         ,{
