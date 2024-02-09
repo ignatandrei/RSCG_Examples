@@ -6,20 +6,20 @@
   [
     {
       "file": "AutoDeconstructDemo/AutoDeconstructDemo.csproj",
-      "description": "Nuget  [AutoDeconstruct](https://www.nuget.org/packages/AutoDeconstruct) registration in csproj  ",
+      "description": "First, we add Nuget  [AutoDeconstruct](https://www.nuget.org/packages/AutoDeconstruct) in csproj  ",
       "pattern": "AutoDeconstruct"
     }
 
         ,{
         "file": "AutoDeconstructDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AutoDeconstructDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project AutoDeconstructDemo/AutoDeconstructDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

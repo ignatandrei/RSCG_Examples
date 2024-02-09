@@ -6,32 +6,32 @@
   [
     {
       "file": "InjectioDemo/InjectioDemo.csproj",
-      "description": "Nuget  [Injectio](https://www.nuget.org/packages/Injectio/) registration in csproj  ",
+      "description": "First, we add Nuget  [Injectio](https://www.nuget.org/packages/Injectio/) in csproj  ",
       "pattern": "Injectio"
     }
 
         ,{
         "file": "InjectioDemo/DatabaseCon.cs",
         "description": "File DatabaseCon.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "InjectioDemo/IDatabase.cs",
         "description": "File IDatabase.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "InjectioDemo/Database.cs",
         "description": "File Database.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "InjectioDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project InjectioDemo/InjectioDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

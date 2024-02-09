@@ -6,20 +6,20 @@
   [
     {
       "file": "DemoRegex/DemoRegex.csproj",
-      "description": "Nuget  [System.Text.RegularExpressions](https://www.nuget.org/packages/System.Text.RegularExpressions/) registration in csproj  ",
+      "description": "First, we add Nuget  [System.Text.RegularExpressions](https://www.nuget.org/packages/System.Text.RegularExpressions/) in csproj  ",
       "pattern": "System.Text.RegularExpressions"
     }
 
         ,{
         "file": "DemoRegex/WeatherForecast.cs",
         "description": "File WeatherForecast.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoRegex/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project DemoRegex/DemoRegex.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

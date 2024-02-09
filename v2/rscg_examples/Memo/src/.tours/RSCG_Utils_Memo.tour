@@ -6,20 +6,20 @@
   [
     {
       "file": "DemoRSCG_UtilsMemo/DemoRSCG_UtilsMemo.csproj",
-      "description": "Nuget  [rscgutils](https://www.nuget.org/packages/rscgutils) registration in csproj  ",
+      "description": "First, we add Nuget  [rscgutils](https://www.nuget.org/packages/rscgutils) in csproj  ",
       "pattern": "rscgutils"
     }
 
         ,{
         "file": "DemoRSCG_UtilsMemo/fib.cs",
         "description": "File fib.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoRSCG_UtilsMemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project DemoRSCG_UtilsMemo/DemoRSCG_UtilsMemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

@@ -6,14 +6,14 @@
   [
     {
       "file": "RDGDemoWebApi/RDGDemoWebApi.csproj",
-      "description": "Nuget  [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http) registration in csproj  ",
+      "description": "First, we add Nuget  [Microsoft.Extensions.Http](https://www.nuget.org/packages/Microsoft.Extensions.Http) in csproj  ",
       "pattern": "Microsoft.Extensions.Http"
     }
 
         ,{
         "file": "RDGDemoWebApi/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RDGDemoWebApi/RDGDemoWebApi.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

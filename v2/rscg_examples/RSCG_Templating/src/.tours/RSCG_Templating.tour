@@ -6,32 +6,32 @@
   [
     {
       "file": "RSCG_TemplatingDemo/RSCG_TemplatingDemo.csproj",
-      "description": "Nuget  [RSCG_Templating](https://www.nuget.org/packages/RSCG_Templating/) registration in csproj  ",
+      "description": "First, we add Nuget  [RSCG_Templating](https://www.nuget.org/packages/RSCG_Templating/) in csproj  ",
       "pattern": "RSCG_Templating"
     }
 
         ,{
         "file": "RSCG_TemplatingDemo/ClassTypeName.txt",
         "description": "File ClassTypeName.txt  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_TemplatingDemo/ClassPropByName.txt",
         "description": "File ClassPropByName.txt  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_TemplatingDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_TemplatingDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RSCG_TemplatingDemo/RSCG_TemplatingDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

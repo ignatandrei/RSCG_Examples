@@ -6,56 +6,56 @@
   [
     {
       "file": "GedaqDemoConsole/GedaqDemoConsole.csproj",
-      "description": "Nuget  [Gedaq](https://www.nuget.org/packages/Gedaq/) registration in csproj  ",
+      "description": "First, we add Nuget  [Gedaq](https://www.nuget.org/packages/Gedaq/) in csproj  ",
       "pattern": "Gedaq"
     }
 
         ,{
         "file": "GedaqDemoConsole/Example3/PersonRepository.cs",
         "description": "File PersonRepository.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Example3/ExampleRun.cs",
         "description": "File ExampleRun.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Example2/PersonRepository.cs",
         "description": "File PersonRepository.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Example2/ExampleRun.cs",
         "description": "File ExampleRun.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Example1/PersonRepository.cs",
         "description": "File PersonRepository.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Example1/ExampleRun.cs",
         "description": "File ExampleRun.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Model/Address.cs",
         "description": "File Address.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GedaqDemoConsole/Model/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

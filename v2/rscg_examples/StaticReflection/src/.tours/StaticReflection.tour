@@ -6,20 +6,20 @@
   [
     {
       "file": "StaticReflectionDemo/StaticReflectionDemo.csproj",
-      "description": "Nuget  [FastStaticReflection](https://www.nuget.org/packages/FastStaticReflection/) registration in csproj  ",
+      "description": "First, we add Nuget  [FastStaticReflection](https://www.nuget.org/packages/FastStaticReflection/) in csproj  ",
       "pattern": "FastStaticReflection"
     }
 
         ,{
         "file": "StaticReflectionDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "StaticReflectionDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project StaticReflectionDemo/StaticReflectionDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

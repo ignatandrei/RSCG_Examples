@@ -6,32 +6,32 @@
   [
     {
       "file": "CCDemo/CCDemo.csproj",
-      "description": "Nuget  [Copycat](https://www.nuget.org/packages/Copycat/) registration in csproj  ",
+      "description": "First, we add Nuget  [Copycat](https://www.nuget.org/packages/Copycat/) in csproj  ",
       "pattern": "Copycat"
     }
 
         ,{
         "file": "CCDemo/CoffeeWithLogging.cs",
         "description": "File CoffeeWithLogging.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "CCDemo/Coffee.cs",
         "description": "File Coffee.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "CCDemo/ICoffee.cs",
         "description": "File ICoffee.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "CCDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project CCDemo/CCDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

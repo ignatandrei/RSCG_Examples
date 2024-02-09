@@ -6,20 +6,20 @@
   [
     {
       "file": "LingDemo/LingDemo.csproj",
-      "description": "Nuget  [Ling.Audit](https://www.nuget.org/packages/Ling.Audit/) registration in csproj  ",
+      "description": "First, we add Nuget  [Ling.Audit](https://www.nuget.org/packages/Ling.Audit/) in csproj  ",
       "pattern": "Ling.Audit"
     }
 
         ,{
         "file": "LingDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "LingDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project LingDemo/LingDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

@@ -6,32 +6,32 @@
   [
     {
       "file": "ProxyGenDemo/ProxyGenDemo.csproj",
-      "description": "Nuget  [ProxyGen.net](https://www.nuget.org/packages/ProxyGen.net/) registration in csproj  ",
+      "description": "First, we add Nuget  [ProxyGen.net](https://www.nuget.org/packages/ProxyGen.net/) in csproj  ",
       "pattern": "ProxyGen.net"
     }
 
         ,{
         "file": "ProxyGenDemo/globals.cs",
         "description": "File globals.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ProxyGenDemo/IPerson.cs",
         "description": "File IPerson.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ProxyGenDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ProxyGenDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ProxyGenDemo/ProxyGenDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

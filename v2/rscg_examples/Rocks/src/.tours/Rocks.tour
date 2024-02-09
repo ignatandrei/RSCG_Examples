@@ -6,14 +6,14 @@
   [
     {
       "file": "TestClock/TestClock.csproj",
-      "description": "Nuget  [Rocks](https://www.nuget.org/packages/Rocks/) registration in csproj  ",
+      "description": "First, we add Nuget  [Rocks](https://www.nuget.org/packages/Rocks/) in csproj  ",
       "pattern": "Rocks"
     }
 
         ,{
         "file": "TestClock/TestClock.cs",
         "description": "File TestClock.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

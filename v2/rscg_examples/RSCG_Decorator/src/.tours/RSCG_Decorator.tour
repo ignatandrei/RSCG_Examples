@@ -6,26 +6,26 @@
   [
     {
       "file": "RSCG_DecoratorTestConsole/RSCG_DecoratorTestConsole.csproj",
-      "description": "Nuget  [RSCG_Decorator](https://www.nuget.org/packages/RSCG_Decorator/) registration in csproj  ",
+      "description": "First, we add Nuget  [RSCG_Decorator](https://www.nuget.org/packages/RSCG_Decorator/) in csproj  ",
       "pattern": "RSCG_Decorator"
     }
 
         ,{
         "file": "RSCG_DecoratorTestConsole/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_DecoratorTestConsole/PersonLogger.cs",
         "description": "File PersonLogger.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_DecoratorTestConsole/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RSCG_DecoratorTestConsole/RSCG_DecoratorTestConsole.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

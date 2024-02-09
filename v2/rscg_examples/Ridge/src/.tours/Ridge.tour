@@ -6,26 +6,26 @@
   [
     {
       "file": "RidgeDemoWebApp/RidgeDemoWebApp.csproj",
-      "description": "Nuget  [Ridge](https://www.nuget.org/packages/Ridge/) registration in csproj  ",
+      "description": "First, we add Nuget  [Ridge](https://www.nuget.org/packages/Ridge/) in csproj  ",
       "pattern": "Ridge"
     }
 
         ,{
         "file": "TestRidgeApp/BasicTests.cs",
         "description": "File BasicTests.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RidgeDemoWebApp/Controllers/WeatherForecastController.cs",
         "description": "File WeatherForecastController.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RidgeDemoWebApp/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RidgeDemoWebApp/RidgeDemoWebApp.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

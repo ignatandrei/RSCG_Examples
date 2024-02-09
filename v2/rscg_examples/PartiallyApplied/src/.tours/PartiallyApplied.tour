@@ -6,20 +6,20 @@
   [
     {
       "file": "PartFunc/PartFunc.csproj",
-      "description": "Nuget  [PartiallyApplied](https://www.nuget.org/packages/PartiallyApplied/) registration in csproj  ",
+      "description": "First, we add Nuget  [PartiallyApplied](https://www.nuget.org/packages/PartiallyApplied/) in csproj  ",
       "pattern": "PartiallyApplied"
     }
 
         ,{
         "file": "PartFunc/Accounting.cs",
         "description": "File Accounting.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "PartFunc/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project PartFunc/PartFunc.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

@@ -6,20 +6,20 @@
   [
     {
       "file": "ImmutypeDemo/ImmutypeDemo.csproj",
-      "description": "Nuget  [Immutype](https://www.nuget.org/packages/Immutype/) registration in csproj  ",
+      "description": "First, we add Nuget  [Immutype](https://www.nuget.org/packages/Immutype/) in csproj  ",
       "pattern": "Immutype"
     }
 
         ,{
         "file": "ImmutypeDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ImmutypeDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ImmutypeDemo/ImmutypeDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

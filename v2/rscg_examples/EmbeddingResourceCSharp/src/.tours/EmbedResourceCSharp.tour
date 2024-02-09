@@ -6,26 +6,26 @@
   [
     {
       "file": "EmbeddingResourceCSharpDemo/EmbeddingResourceCSharpDemo.csproj",
-      "description": "Nuget  [EmbedResourceCSharp](https://www.nuget.org/packages/EmbedResourceCSharp/) registration in csproj  ",
+      "description": "First, we add Nuget  [EmbedResourceCSharp](https://www.nuget.org/packages/EmbedResourceCSharp/) in csproj  ",
       "pattern": "EmbedResourceCSharp"
     }
 
         ,{
         "file": "EmbeddingResourceCSharpDemo/createDB.txt",
         "description": "File createDB.txt  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "EmbeddingResourceCSharpDemo/MyResource.cs",
         "description": "File MyResource.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "EmbeddingResourceCSharpDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project EmbeddingResourceCSharpDemo/EmbeddingResourceCSharpDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

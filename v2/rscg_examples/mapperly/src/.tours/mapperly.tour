@@ -6,32 +6,32 @@
   [
     {
       "file": "mapperlyDemo/mapperlyDemo.csproj",
-      "description": "Nuget  [Riok.Mapperly](https://www.nuget.org/packages/Riok.Mapperly/) registration in csproj  ",
+      "description": "First, we add Nuget  [Riok.Mapperly](https://www.nuget.org/packages/Riok.Mapperly/) in csproj  ",
       "pattern": "Riok.Mapperly"
     }
 
         ,{
         "file": "mapperlyDemo/PersonMapper.cs",
         "description": "File PersonMapper.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperlyDemo/PersonDTO.cs",
         "description": "File PersonDTO.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperlyDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperlyDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project mapperlyDemo/mapperlyDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

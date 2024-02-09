@@ -6,20 +6,20 @@
   [
     {
       "file": "MemoryPackDemo/MemoryPackDemo.csproj",
-      "description": "Nuget  [MemoryPack](https://www.nuget.org/packages/MemoryPack/) registration in csproj  ",
+      "description": "First, we add Nuget  [MemoryPack](https://www.nuget.org/packages/MemoryPack/) in csproj  ",
       "pattern": "MemoryPack"
     }
 
         ,{
         "file": "MemoryPackDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MemoryPackDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project MemoryPackDemo/MemoryPackDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

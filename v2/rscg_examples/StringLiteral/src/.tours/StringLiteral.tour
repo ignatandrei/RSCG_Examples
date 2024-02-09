@@ -6,20 +6,20 @@
   [
     {
       "file": "StringLiteralDemo/StringLiteralDemo.csproj",
-      "description": "Nuget  [StringLiteralGenerator](https://www.nuget.org/packages/StringLiteralGenerator/) registration in csproj  ",
+      "description": "First, we add Nuget  [StringLiteralGenerator](https://www.nuget.org/packages/StringLiteralGenerator/) in csproj  ",
       "pattern": "StringLiteralGenerator"
     }
 
         ,{
         "file": "StringLiteralDemo/LiteralConstants.cs",
         "description": "File LiteralConstants.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "StringLiteralDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project StringLiteralDemo/StringLiteralDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

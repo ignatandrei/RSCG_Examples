@@ -6,20 +6,20 @@
   [
     {
       "file": "Lombok.NETDemo/Lombok.NETDemo.csproj",
-      "description": "Nuget  [Lombok.NET](https://www.nuget.org/packages/Lombok.NET/) registration in csproj  ",
+      "description": "First, we add Nuget  [Lombok.NET](https://www.nuget.org/packages/Lombok.NET/) in csproj  ",
       "pattern": "Lombok.NET"
     }
 
         ,{
         "file": "Lombok.NETDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Lombok.NETDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Lombok.NETDemo/Lombok.NETDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

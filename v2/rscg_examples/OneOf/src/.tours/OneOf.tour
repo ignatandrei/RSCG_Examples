@@ -6,20 +6,20 @@
   [
     {
       "file": "OneOfDemo/OneOfDemo.csproj",
-      "description": "Nuget  [OneOf.SourceGenerator](https://www.nuget.org/packages/OneOf.SourceGenerator) registration in csproj  ",
+      "description": "First, we add Nuget  [OneOf.SourceGenerator](https://www.nuget.org/packages/OneOf.SourceGenerator) in csproj  ",
       "pattern": "OneOf.SourceGenerator"
     }
 
         ,{
         "file": "OneOfDemo/StringOrNumber.cs",
         "description": "File StringOrNumber.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "OneOfDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project OneOfDemo/OneOfDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

@@ -6,20 +6,20 @@
   [
     {
       "file": "EnumClassDemo/EnumClassDemo.csproj",
-      "description": "Nuget  [Credfeto.Enumeration.Source.Generation](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) registration in csproj  ",
+      "description": "First, we add Nuget  [Credfeto.Enumeration.Source.Generation](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) in csproj  ",
       "pattern": "Credfeto.Enumeration.Source.Generation"
     }
 
         ,{
         "file": "EnumClassDemo/Colors.cs",
         "description": "File Colors.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "EnumClassDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

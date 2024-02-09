@@ -6,20 +6,20 @@
   [
     {
       "file": "HangFireRec/HangFireRec.csproj",
-      "description": "Nuget  [IeuanWalker.Hangfire.RecurringJob](https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/) registration in csproj  ",
+      "description": "First, we add Nuget  [IeuanWalker.Hangfire.RecurringJob](https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/) in csproj  ",
       "pattern": "IeuanWalker.Hangfire.RecurringJob"
     }
 
         ,{
         "file": "HangFireRec/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project HangFireRec/HangFireRec.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "HangFireRec/MyNewJob.cs",
         "description": "File MyNewJob.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

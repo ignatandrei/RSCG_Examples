@@ -6,26 +6,26 @@
   [
     {
       "file": "EnumClassDemo/EnumClassDemo.csproj",
-      "description": "Nuget  [EnumClass.Generator](https://www.nuget.org/packages/EnumClass.Generator/) registration in csproj  ",
+      "description": "First, we add Nuget  [EnumClass.Generator](https://www.nuget.org/packages/EnumClass.Generator/) in csproj  ",
       "pattern": "EnumClass.Generator"
     }
 
         ,{
         "file": "EnumClassDemo/RedEnumValue.cs",
         "description": "File RedEnumValue.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "EnumClassDemo/Colors.cs",
         "description": "File Colors.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "EnumClassDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

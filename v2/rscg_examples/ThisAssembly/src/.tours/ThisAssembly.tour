@@ -6,14 +6,14 @@
   [
     {
       "file": "RSCG_Version/RSCG_Version.csproj",
-      "description": "Nuget  [ThisAssembly](https://www.nuget.org/packages/ThisAssembly) registration in csproj  ",
+      "description": "First, we add Nuget  [ThisAssembly](https://www.nuget.org/packages/ThisAssembly) in csproj  ",
       "pattern": "ThisAssembly"
     }
 
         ,{
         "file": "RSCG_Version/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RSCG_Version/RSCG_Version.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

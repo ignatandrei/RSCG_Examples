@@ -6,26 +6,26 @@
   [
     {
       "file": "Union/Union.csproj",
-      "description": "Nuget  [Funcky.DiscriminatedUnion](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/) registration in csproj  ",
+      "description": "First, we add Nuget  [Funcky.DiscriminatedUnion](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/) in csproj  ",
       "pattern": "Funcky.DiscriminatedUnion"
     }
 
         ,{
         "file": "Union/SaveToDatabase.cs",
         "description": "File SaveToDatabase.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Union/ResultSave.cs",
         "description": "File ResultSave.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Union/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Union/Union.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

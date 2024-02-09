@@ -6,26 +6,26 @@
   [
     {
       "file": "SkinnyControllersDemo/SkinnyControllersDemo.csproj",
-      "description": "Nuget  [SkinnyControllersCommon](https://www.nuget.org/packages/SkinnyControllersCommon) registration in csproj  ",
+      "description": "First, we add Nuget  [SkinnyControllersCommon](https://www.nuget.org/packages/SkinnyControllersCommon) in csproj  ",
       "pattern": "SkinnyControllersCommon"
     }
 
         ,{
         "file": "SkinnyControllersDemo/Controllers/WeatherActions.cs",
         "description": "File WeatherActions.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "SkinnyControllersDemo/Controllers/WeatherForecastController.cs",
         "description": "File WeatherForecastController.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "SkinnyControllersDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project SkinnyControllersDemo/SkinnyControllersDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

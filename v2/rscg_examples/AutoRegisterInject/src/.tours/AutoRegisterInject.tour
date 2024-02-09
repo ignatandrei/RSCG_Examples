@@ -6,32 +6,32 @@
   [
     {
       "file": "AutoRegisterInjectDemo/AutoRegisterInjectDemo.csproj",
-      "description": "Nuget  [AutoRegisterInject](https://www.nuget.org/packages/AutoRegisterInject/) registration in csproj  ",
+      "description": "First, we add Nuget  [AutoRegisterInject](https://www.nuget.org/packages/AutoRegisterInject/) in csproj  ",
       "pattern": "AutoRegisterInject"
     }
 
         ,{
         "file": "AutoRegisterInjectDemo/DatabaseCon.cs",
         "description": "File DatabaseCon.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/IDatabase.cs",
         "description": "File IDatabase.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/Database.cs",
         "description": "File Database.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project AutoRegisterInjectDemo/AutoRegisterInjectDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

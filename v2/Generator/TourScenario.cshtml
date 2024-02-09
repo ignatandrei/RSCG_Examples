@@ -20,7 +20,7 @@
   [
     {
       "file": "@csproj",
-      "description": "Nuget  [@generator.NameNugetFirst()](@generator.NugetFirst) registration in csproj  ",
+      "description": "First, we add Nuget  [@generator.NameNugetFirst()](@generator.NugetFirst) in csproj  ",
       "pattern": "@generator.NameNugetFirst()"
     }
 @for (var i = nr - 1; i >= 0; i--)
@@ -38,7 +38,7 @@
         ,{
         "file": "@namefile",
         "description": "File @Model.Data!.outputFiles!.contentFiles![i].file @Raw(run) ",
-        "line": 1
+        "pattern": "this is the code"
         }
     </text>
 

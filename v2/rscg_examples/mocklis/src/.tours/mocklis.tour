@@ -6,26 +6,26 @@
   [
     {
       "file": "MockLisTest/TestClock.csproj",
-      "description": "Nuget  [mocklis](https://www.nuget.org/packages/mocklis/) registration in csproj  ",
+      "description": "First, we add Nuget  [mocklis](https://www.nuget.org/packages/mocklis/) in csproj  ",
       "pattern": "mocklis"
     }
 
         ,{
         "file": "MockLisTest/Usings.cs",
         "description": "File Usings.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MockLisTest/TestClock.cs",
         "description": "File TestClock.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MockLisTest/TestMock.cs",
         "description": "File TestMock.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

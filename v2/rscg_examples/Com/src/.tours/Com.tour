@@ -6,20 +6,20 @@
   [
     {
       "file": "ComDemo/ComDemo.csproj",
-      "description": "Nuget  [System.Runtime.InteropServices](https://www.nuget.org/packages/System.Runtime.InteropServices/) registration in csproj  ",
+      "description": "First, we add Nuget  [System.Runtime.InteropServices](https://www.nuget.org/packages/System.Runtime.InteropServices/) in csproj  ",
       "pattern": "System.Runtime.InteropServices"
     }
 
         ,{
         "file": "ComDemo/MyShell.cs",
         "description": "File MyShell.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ComDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ComDemo/ComDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

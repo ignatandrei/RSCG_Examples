@@ -6,26 +6,26 @@
   [
     {
       "file": "IDisp/IDisp.csproj",
-      "description": "Nuget  [Disposer](https://www.nuget.org/packages/Disposer/) registration in csproj  ",
+      "description": "First, we add Nuget  [Disposer](https://www.nuget.org/packages/Disposer/) in csproj  ",
       "pattern": "Disposer"
     }
 
         ,{
         "file": "IDisp/DALDB.cs",
         "description": "File DALDB.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "IDisp/ConnectionDB.cs",
         "description": "File ConnectionDB.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "IDisp/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

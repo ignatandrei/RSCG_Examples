@@ -6,20 +6,20 @@
   [
     {
       "file": "UtilDemo/UtilDemo.csproj",
-      "description": "Nuget  [RSCG_UtilityTypes](https://www.nuget.org/packages/RSCG_UtilityTypes/) registration in csproj  ",
+      "description": "First, we add Nuget  [RSCG_UtilityTypes](https://www.nuget.org/packages/RSCG_UtilityTypes/) in csproj  ",
       "pattern": "RSCG_UtilityTypes"
     }
 
         ,{
         "file": "UtilDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "UtilDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project UtilDemo/UtilDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

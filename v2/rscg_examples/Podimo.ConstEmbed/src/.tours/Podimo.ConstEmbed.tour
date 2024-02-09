@@ -6,20 +6,20 @@
   [
     {
       "file": "PodimoConstEmbedDemo/PodimoConstEmbedDemo.csproj",
-      "description": "Nuget  [Podimo.ConstEmbed](https://www.nuget.org/packages/Podimo.ConstEmbed/) registration in csproj  ",
+      "description": "First, we add Nuget  [Podimo.ConstEmbed](https://www.nuget.org/packages/Podimo.ConstEmbed/) in csproj  ",
       "pattern": "Podimo.ConstEmbed"
     }
 
         ,{
         "file": "PodimoConstEmbedDemo/sql/createDB.sql",
         "description": "File createDB.sql  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "PodimoConstEmbedDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project PodimoConstEmbedDemo/PodimoConstEmbedDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

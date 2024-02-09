@@ -6,20 +6,20 @@
   [
     {
       "file": "Roozie.AutoInterfaceDemo/Roozie.AutoInterfaceDemo.csproj",
-      "description": "Nuget  [Roozie.AutoInterface](https://www.nuget.org/packages/Roozie.AutoInterface/) registration in csproj  ",
+      "description": "First, we add Nuget  [Roozie.AutoInterface](https://www.nuget.org/packages/Roozie.AutoInterface/) in csproj  ",
       "pattern": "Roozie.AutoInterface"
     }
 
         ,{
         "file": "Roozie.AutoInterfaceDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Roozie.AutoInterfaceDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Roozie.AutoInterfaceDemo/Roozie.AutoInterfaceDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

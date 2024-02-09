@@ -6,20 +6,20 @@
   [
     {
       "file": "JsonPolymorphicGeneratorDemo/JsonPolymorphicGeneratorDemo.csproj",
-      "description": "Nuget  [GoLive.Generator.JsonPolymorphicGenerator](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/) registration in csproj  ",
+      "description": "First, we add Nuget  [GoLive.Generator.JsonPolymorphicGenerator](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/) in csproj  ",
       "pattern": "GoLive.Generator.JsonPolymorphicGenerator"
     }
 
         ,{
         "file": "JsonPolymorphicGeneratorDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "JsonPolymorphicGeneratorDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project JsonPolymorphicGeneratorDemo/JsonPolymorphicGeneratorDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

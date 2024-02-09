@@ -6,26 +6,26 @@
   [
     {
       "file": "TestEnumEscapades/TestEnumEscapades.csproj",
-      "description": "Nuget  [NetEscapades.EnumGenerators](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) registration in csproj  ",
+      "description": "First, we add Nuget  [NetEscapades.EnumGenerators](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) in csproj  ",
       "pattern": "NetEscapades.EnumGenerators"
     }
 
         ,{
         "file": "TestEnumEscapades/AddToCoffee.cs",
         "description": "File AddToCoffee.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "TestEnumEscapades/InstallType.cs",
         "description": "File InstallType.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "TestEnumEscapades/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project TestEnumEscapades/TestEnumEscapades.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

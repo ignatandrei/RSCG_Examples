@@ -6,20 +6,20 @@
   [
     {
       "file": "QuickConstructorDemo/QuickConstructorDemo.csproj",
-      "description": "Nuget  [QuickConstructor](https://www.nuget.org/packages/QuickConstructor) registration in csproj  ",
+      "description": "First, we add Nuget  [QuickConstructor](https://www.nuget.org/packages/QuickConstructor) in csproj  ",
       "pattern": "QuickConstructor"
     }
 
         ,{
         "file": "QuickConstructorDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "QuickConstructorDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project QuickConstructorDemo/QuickConstructorDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

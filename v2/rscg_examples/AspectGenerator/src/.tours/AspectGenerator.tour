@@ -6,26 +6,26 @@
   [
     {
       "file": "AG/AG.csproj",
-      "description": "Nuget  [AspectGenerator](https://www.nuget.org/packages/AspectGenerator/) registration in csproj  ",
+      "description": "First, we add Nuget  [AspectGenerator](https://www.nuget.org/packages/AspectGenerator/) in csproj  ",
       "pattern": "AspectGenerator"
     }
 
         ,{
         "file": "AG/AG.cs",
         "description": "File AG.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AG/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AG/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project AG/AG.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

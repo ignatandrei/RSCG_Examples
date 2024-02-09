@@ -6,20 +6,20 @@
   [
     {
       "file": "VogenDemo/VogenDemo.csproj",
-      "description": "Nuget  [Vogen](https://www.nuget.org/packages/Vogen/) registration in csproj  ",
+      "description": "First, we add Nuget  [Vogen](https://www.nuget.org/packages/Vogen/) in csproj  ",
       "pattern": "Vogen"
     }
 
         ,{
         "file": "VogenDemo/PersonId.cs",
         "description": "File PersonId.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "VogenDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project VogenDemo/VogenDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

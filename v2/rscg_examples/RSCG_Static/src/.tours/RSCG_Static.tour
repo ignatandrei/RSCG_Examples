@@ -6,20 +6,20 @@
   [
     {
       "file": "RSCG_StaticDemo/RSCG_StaticDemo.csproj",
-      "description": "Nuget  [RSCG_Static](https://www.nuget.org/packages/RSCG_Static/) registration in csproj  ",
+      "description": "First, we add Nuget  [RSCG_Static](https://www.nuget.org/packages/RSCG_Static/) in csproj  ",
       "pattern": "RSCG_Static"
     }
 
         ,{
         "file": "RSCG_StaticDemo/StaticToInterface.cs",
         "description": "File StaticToInterface.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_StaticDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RSCG_StaticDemo/RSCG_StaticDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

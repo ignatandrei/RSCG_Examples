@@ -6,20 +6,20 @@
   [
     {
       "file": "Class2Interface/Class2Interface.csproj",
-      "description": "Nuget  [MakeInterface.Generator](https://www.nuget.org/packages/MakeInterface.Generator/) registration in csproj  ",
+      "description": "First, we add Nuget  [MakeInterface.Generator](https://www.nuget.org/packages/MakeInterface.Generator/) in csproj  ",
       "pattern": "MakeInterface.Generator"
     }
 
         ,{
         "file": "Class2Interface/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Class2Interface/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Class2Interface/Class2Interface.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

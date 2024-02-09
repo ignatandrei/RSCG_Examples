@@ -6,26 +6,26 @@
   [
     {
       "file": "GobieDemo/GobieDemo.csproj",
-      "description": "Nuget  [Gobie](https://www.nuget.org/packages/Gobie/) registration in csproj  ",
+      "description": "First, we add Nuget  [Gobie](https://www.nuget.org/packages/Gobie/) in csproj  ",
       "pattern": "Gobie"
     }
 
         ,{
         "file": "GobieDemo/ClassGenAddId.cs",
         "description": "File ClassGenAddId.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GobieDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "GobieDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project GobieDemo/GobieDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

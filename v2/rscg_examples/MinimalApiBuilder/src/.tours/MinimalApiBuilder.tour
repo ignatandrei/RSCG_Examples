@@ -6,20 +6,20 @@
   [
     {
       "file": "DemoApi/DemoApi.csproj",
-      "description": "Nuget  [MinimalApiBuilder](https://www.nuget.org/packages/MinimalApiBuilder/) registration in csproj  ",
+      "description": "First, we add Nuget  [MinimalApiBuilder](https://www.nuget.org/packages/MinimalApiBuilder/) in csproj  ",
       "pattern": "MinimalApiBuilder"
     }
 
         ,{
         "file": "DemoApi/BasicEndpoint.cs",
         "description": "File BasicEndpoint.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoApi/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project DemoApi/DemoApi.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

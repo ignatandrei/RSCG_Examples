@@ -6,20 +6,20 @@
   [
     {
       "file": "DemoLogging/DemoLogging.csproj",
-      "description": "Nuget  [Microsoft.Extensions.Logging](https://www.nuget.org/packages/Microsoft.Extensions.Logging/) registration in csproj  ",
+      "description": "First, we add Nuget  [Microsoft.Extensions.Logging](https://www.nuget.org/packages/Microsoft.Extensions.Logging/) in csproj  ",
       "pattern": "Microsoft.Extensions.Logging"
     }
 
         ,{
         "file": "DemoLogging/LogDemo.cs",
         "description": "File LogDemo.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoLogging/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project DemoLogging/DemoLogging.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

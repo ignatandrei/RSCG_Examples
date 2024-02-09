@@ -6,26 +6,26 @@
   [
     {
       "file": "mapperDemo/mapperDemo.csproj",
-      "description": "Nuget  [MapTo](https://www.nuget.org/packages/MapTo/) registration in csproj  ",
+      "description": "First, we add Nuget  [MapTo](https://www.nuget.org/packages/MapTo/) in csproj  ",
       "pattern": "MapTo"
     }
 
         ,{
         "file": "mapperDemo/PersonDTO.cs",
         "description": "File PersonDTO.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project mapperDemo/mapperDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

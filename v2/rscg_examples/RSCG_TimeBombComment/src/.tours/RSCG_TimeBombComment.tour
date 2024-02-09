@@ -6,14 +6,14 @@
   [
     {
       "file": "Console_TimeBombComment/Console_TimeBombComment.csproj",
-      "description": "Nuget  [RSCG_TimeBombComment](https://www.nuget.org/packages/RSCG_TimeBombComment/) registration in csproj  ",
+      "description": "First, we add Nuget  [RSCG_TimeBombComment](https://www.nuget.org/packages/RSCG_TimeBombComment/) in csproj  ",
       "pattern": "RSCG_TimeBombComment"
     }
 
         ,{
         "file": "Console_TimeBombComment/TestClass.cs",
         "description": "File TestClass.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

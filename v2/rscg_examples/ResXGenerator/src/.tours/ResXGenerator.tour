@@ -6,26 +6,26 @@
   [
     {
       "file": "ResXDemo/ResXDemo.csproj",
-      "description": "Nuget  [Aigamo.ResXGenerator](https://www.nuget.org/packages/Aigamo.ResXGenerator/) registration in csproj  ",
+      "description": "First, we add Nuget  [Aigamo.ResXGenerator](https://www.nuget.org/packages/Aigamo.ResXGenerator/) in csproj  ",
       "pattern": "Aigamo.ResXGenerator"
     }
 
         ,{
         "file": "ResXDemo/GenResources.Designer.cs",
         "description": "File GenResources.Designer.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ResXDemo/GenResources.resx",
         "description": "File GenResources.resx  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ResXDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ResXDemo/ResXDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

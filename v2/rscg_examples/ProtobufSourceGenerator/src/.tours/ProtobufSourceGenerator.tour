@@ -6,20 +6,20 @@
   [
     {
       "file": "ProtobufSourceGeneratorDemo/ProtobufSourceGeneratorDemo.csproj",
-      "description": "Nuget  [LaDeak.ProtobufSourceGenerator](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/) registration in csproj  ",
+      "description": "First, we add Nuget  [LaDeak.ProtobufSourceGenerator](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/) in csproj  ",
       "pattern": "LaDeak.ProtobufSourceGenerator"
     }
 
         ,{
         "file": "ProtobufSourceGeneratorDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ProtobufSourceGeneratorDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ProtobufSourceGeneratorDemo/ProtobufSourceGeneratorDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

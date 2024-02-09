@@ -6,32 +6,32 @@
   [
     {
       "file": "MatryoshkiDemo/MatryoshkiDemo.csproj",
-      "description": "Nuget  [Matryoshki](https://www.nuget.org/packages/Matryoshki/) registration in csproj  ",
+      "description": "First, we add Nuget  [Matryoshki](https://www.nuget.org/packages/Matryoshki/) in csproj  ",
       "pattern": "Matryoshki"
     }
 
         ,{
         "file": "MatryoshkiDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MatryoshkiDemo/IPerson.cs",
         "description": "File IPerson.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MatryoshkiDemo/AddLog.cs",
         "description": "File AddLog.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MatryoshkiDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project MatryoshkiDemo/MatryoshkiDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

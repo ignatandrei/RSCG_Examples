@@ -6,26 +6,26 @@
   [
     {
       "file": "MediatorDemo/MediatorDemo.csproj",
-      "description": "Nuget  [Mediator.SourceGenerator](https://www.nuget.org/packages/Mediator.SourceGenerator) registration in csproj  ",
+      "description": "First, we add Nuget  [Mediator.SourceGenerator](https://www.nuget.org/packages/Mediator.SourceGenerator) in csproj  ",
       "pattern": "Mediator.SourceGenerator"
     }
 
         ,{
         "file": "MediatorDemo/PingPong.cs",
         "description": "File PingPong.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MediatorDemo/GenericLoggerHandler.cs",
         "description": "File GenericLoggerHandler.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MediatorDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project MediatorDemo/MediatorDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

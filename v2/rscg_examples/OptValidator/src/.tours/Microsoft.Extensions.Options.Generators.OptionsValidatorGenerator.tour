@@ -6,20 +6,20 @@
   [
     {
       "file": "DemoValidatorObj/DemoValidatorObj.csproj",
-      "description": "Nuget  [Microsoft.Extensions.Options](https://www.nuget.org/packages/Microsoft.Extensions.Options) registration in csproj  ",
+      "description": "First, we add Nuget  [Microsoft.Extensions.Options](https://www.nuget.org/packages/Microsoft.Extensions.Options) in csproj  ",
       "pattern": "Microsoft.Extensions.Options"
     }
 
         ,{
         "file": "DemoValidatorObj/MyAppOptions.cs",
         "description": "File MyAppOptions.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoValidatorObj/MyAppValidator.cs",
         "description": "File MyAppValidator.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

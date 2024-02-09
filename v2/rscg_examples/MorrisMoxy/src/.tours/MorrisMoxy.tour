@@ -6,32 +6,32 @@
   [
     {
       "file": "MorrisMoxyDemo/MorrisMoxyDemo.csproj",
-      "description": "Nuget  [Morris.Moxy](https://www.nuget.org/packages/Morris.Moxy/) registration in csproj  ",
+      "description": "First, we add Nuget  [Morris.Moxy](https://www.nuget.org/packages/Morris.Moxy/) in csproj  ",
       "pattern": "Morris.Moxy"
     }
 
         ,{
         "file": "MorrisMoxyDemo/mixin/IDName.mixin",
         "description": "File IDName.mixin  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MorrisMoxyDemo/Department.cs",
         "description": "File Department.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MorrisMoxyDemo/Employee.cs",
         "description": "File Employee.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MorrisMoxyDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project MorrisMoxyDemo/MorrisMoxyDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

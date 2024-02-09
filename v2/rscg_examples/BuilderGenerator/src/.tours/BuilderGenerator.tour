@@ -6,26 +6,26 @@
   [
     {
       "file": "Builder/Builder.csproj",
-      "description": "Nuget  [BuilderGenerator](https://www.nuget.org/packages/BuilderGenerator/) registration in csproj  ",
+      "description": "First, we add Nuget  [BuilderGenerator](https://www.nuget.org/packages/BuilderGenerator/) in csproj  ",
       "pattern": "BuilderGenerator"
     }
 
         ,{
         "file": "Builder/PersonBuilder.cs",
         "description": "File PersonBuilder.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Builder/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Builder/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

@@ -6,20 +6,20 @@
   [
     {
       "file": "RSCG_AMSDemo/RSCG_AMSDemo.csproj",
-      "description": "Nuget  [RSCG_AMS](https://www.nuget.org/packages/RSCG_AMS/) registration in csproj  ",
+      "description": "First, we add Nuget  [RSCG_AMS](https://www.nuget.org/packages/RSCG_AMS/) in csproj  ",
       "pattern": "RSCG_AMS"
     }
 
         ,{
         "file": "RSCG_AMSDemo/globals.cs",
         "description": "File globals.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_AMSDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RSCG_AMSDemo/RSCG_AMSDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

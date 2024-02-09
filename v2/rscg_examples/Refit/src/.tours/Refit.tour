@@ -6,26 +6,26 @@
   [
     {
       "file": "RefitDemo/RefitDemo.csproj",
-      "description": "Nuget  [Refit](https://www.nuget.org/packages/Refit/) registration in csproj  ",
+      "description": "First, we add Nuget  [Refit](https://www.nuget.org/packages/Refit/) in csproj  ",
       "pattern": "Refit"
     }
 
         ,{
         "file": "RefitDemo/IFindPosts.cs",
         "description": "File IFindPosts.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RefitDemo/Post.cs",
         "description": "File Post.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RefitDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project RefitDemo/RefitDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

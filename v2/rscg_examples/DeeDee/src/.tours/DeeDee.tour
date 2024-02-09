@@ -6,26 +6,26 @@
   [
     {
       "file": "MediatorDemo/DeeDeeDemo.csproj",
-      "description": "Nuget  [DeeDee](https://www.nuget.org/packages/DeeDee/) registration in csproj  ",
+      "description": "First, we add Nuget  [DeeDee](https://www.nuget.org/packages/DeeDee/) in csproj  ",
       "pattern": "DeeDee"
     }
 
         ,{
         "file": "MediatorDemo/GenericLoggerHandler.cs",
         "description": "File GenericLoggerHandler.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MediatorDemo/PingPong.cs",
         "description": "File PingPong.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MediatorDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project MediatorDemo/DeeDeeDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

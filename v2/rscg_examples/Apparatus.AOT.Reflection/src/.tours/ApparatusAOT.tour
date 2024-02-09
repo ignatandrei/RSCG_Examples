@@ -6,20 +6,20 @@
   [
     {
       "file": "ApparatusAOTDemo/ApparatusAOT.csproj",
-      "description": "Nuget  [Apparatus.AOT.Reflection](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) registration in csproj  ",
+      "description": "First, we add Nuget  [Apparatus.AOT.Reflection](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) in csproj  ",
       "pattern": "Apparatus.AOT.Reflection"
     }
 
         ,{
         "file": "ApparatusAOTDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ApparatusAOTDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ApparatusAOTDemo/ApparatusAOT.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

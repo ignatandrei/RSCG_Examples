@@ -6,20 +6,20 @@
   [
     {
       "file": "ConfigBinderDemo/ConfigBinderDemo.csproj",
-      "description": "Nuget  [Microsoft.Extensions.Configuration.Binder](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/) registration in csproj  ",
+      "description": "First, we add Nuget  [Microsoft.Extensions.Configuration.Binder](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/) in csproj  ",
       "pattern": "Microsoft.Extensions.Configuration.Binder"
     }
 
         ,{
         "file": "ConfigBinderDemo/MyAppOptions.cs",
         "description": "File MyAppOptions.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ConfigBinderDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ConfigBinderDemo/ConfigBinderDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

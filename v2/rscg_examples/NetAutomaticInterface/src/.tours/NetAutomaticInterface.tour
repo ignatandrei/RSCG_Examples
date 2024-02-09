@@ -6,26 +6,26 @@
   [
     {
       "file": "Class2Interface/Class2Interface.csproj",
-      "description": "Nuget  [AutomaticInterface](https://www.nuget.org/packages/AutomaticInterface/) registration in csproj  ",
+      "description": "First, we add Nuget  [AutomaticInterface](https://www.nuget.org/packages/AutomaticInterface/) in csproj  ",
       "pattern": "AutomaticInterface"
     }
 
         ,{
         "file": "Class2Interface/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Class2Interface/Data.cs",
         "description": "File Data.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Class2Interface/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Class2Interface/Class2Interface.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

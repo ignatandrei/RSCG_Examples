@@ -6,20 +6,20 @@
   [
     {
       "file": "M31FluentAPIDemo/M31FluentAPIDemo.csproj",
-      "description": "Nuget  [M31.FluentAPI](https://www.nuget.org/packages/M31.FluentAPI/) registration in csproj  ",
+      "description": "First, we add Nuget  [M31.FluentAPI](https://www.nuget.org/packages/M31.FluentAPI/) in csproj  ",
       "pattern": "M31.FluentAPI"
     }
 
         ,{
         "file": "M31FluentAPIDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "M31FluentAPIDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project M31FluentAPIDemo/M31FluentAPIDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

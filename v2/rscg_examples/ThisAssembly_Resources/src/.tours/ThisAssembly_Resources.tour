@@ -6,20 +6,20 @@
   [
     {
       "file": "ThisAssembly_ResourcesDemo/ThisAssembly_ResourcesDemo.csproj",
-      "description": "Nuget  [ThisAssembly.Resources](https://www.nuget.org/packages/ThisAssembly.Resources/) registration in csproj  ",
+      "description": "First, we add Nuget  [ThisAssembly.Resources](https://www.nuget.org/packages/ThisAssembly.Resources/) in csproj  ",
       "pattern": "ThisAssembly.Resources"
     }
 
         ,{
         "file": "ThisAssembly_ResourcesDemo/Content/mytext.sql",
         "description": "File mytext.sql  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ThisAssembly_ResourcesDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project ThisAssembly_ResourcesDemo/ThisAssembly_ResourcesDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 

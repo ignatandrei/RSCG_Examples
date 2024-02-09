@@ -6,20 +6,20 @@
   [
     {
       "file": "AutoCtorDemo/AutoCtorDemo.csproj",
-      "description": "Nuget  [AutoCtor](https://www.nuget.org/packages/AutoCtor/) registration in csproj  ",
+      "description": "First, we add Nuget  [AutoCtor](https://www.nuget.org/packages/AutoCtor/) in csproj  ",
       "pattern": "AutoCtor"
     }
 
         ,{
         "file": "AutoCtorDemo/Person.cs",
         "description": "File Person.cs  ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "AutoCtorDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project AutoCtorDemo/AutoCtorDemo.csproj ",
-        "line": 1
+        "pattern": "this is the code"
         }
     
 
