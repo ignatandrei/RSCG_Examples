@@ -32,8 +32,8 @@ internal class VideoData:IDisposable
             {
                 Console.WriteLine("executing " + step.Number + $"/{nr}");// + "=>" + step.value);
                 await step.Execute();
-                Console.WriteLine("press any key to continue");
-                Console.ReadLine();
+                await Task.Delay(2000);
+                //Console.ReadLine();
             }
             catch(Exception ex) 
             {

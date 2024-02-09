@@ -12,7 +12,7 @@
 {
     @* "step_@(nrStep++)_exec":"clipchamp.exe launch", *@
     "step_@(nrStep++)_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
-    "step_@(nrStep++)_text":"If you want to see more examples , see  [List Of RSCG] https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_@(nrStep++)_text":"If you want to see more examples , see  List Of RSCG",
     "step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
     "step_@(nrStep++)_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
@@ -23,13 +23,13 @@
 "step_@(nrStep++)_text":"Here is the code downloaded ",
 "step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")",
 "step_@(nrStep++)_text": "So , let's start the project with Visual Studio Code ",
-"step_@(nrStep++)_exec": "@code @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")",
+"step_@(nrStep++)_exec": "@code -n @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")",
 
 "step_@(nrStep++)_text": "To use it ,you will put the  @generator.NameNugetFirst() into the csproj ",
 
-"step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")",
+@* "step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")", *@
 
-"step_@(nrStep++)_text": "And now I will show you why we want to use it",
+"step_@(nrStep++)_text": "And now I will show you why we want to use it by using CodeTour from VSCode",
 
 @* @for (var i = nr - 1; i >= 0; i--)
 {

@@ -455,7 +455,7 @@ This is the CSharp Project that references **ThisAssembly**
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>netcoreapp7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 	</PropertyGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
@@ -476,6 +476,35 @@ This is the CSharp Project that references **ThisAssembly**
 ```
 
 </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\RSCG_Version.csproj" label="RSCG_Version.csproj" >
+
+  This is the use of **ThisAssembly** in *RSCG_Version.csproj*
+
+```csharp showLineNumbers 
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+	</PropertyGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+	<PropertyGroup>
+	<!-- this is the code to start RSCG -->
+		<Version>2023.5.7.800</Version>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="ThisAssembly" Version="1.2.14" OutputItemType="Analyzer" ReferenceOutputAssembly="false">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>
+
+```
+  </TabItem>
 
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\Program.cs" label="Program.cs" >
 
@@ -533,7 +562,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800+c6f7daee3a5106e27bb49f80544fd8392d5e4c73";
+        public const string InformationalVersion = @"2023.5.7.800+4c0166118a81c1e000c3a901b1cd19a0f6e81a08";
 
         public const string Product = @"RSCG_Version";
 

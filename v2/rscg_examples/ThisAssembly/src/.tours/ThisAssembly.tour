@@ -16,10 +16,16 @@
         "pattern": "this is the code"
         }
     
+        ,{
+        "file": "RSCG_Version/RSCG_Version.csproj",
+        "description": "File RSCG_Version.csproj  ",
+        "pattern": "this is the code"
+        }
+    
 
         ,{
         "file": "RSCG_Version/obj/GX/ThisAssembly.AssemblyInfo/ThisAssembly.AssemblyInfoGenerator/ThisAssembly.AssemblyInfo.g.cs",
-        "description": "File Program.cs ",
+        "description": "File RSCG_Version.csproj ",
         "line": 1
         }
     

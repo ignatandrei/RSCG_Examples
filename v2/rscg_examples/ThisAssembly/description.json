@@ -12,7 +12,7 @@
 	"I found useful to see the assembly version right away in any project that I have."
 	],
 	"csprojDemo":"RSCG_Version.csproj",
-	"csFiles":["Program.cs"],
+	"csFiles":["RSCG_Version.csproj","Program.cs"],
   "excludeDirectoryGenerated":["ThisAssembly.Constants","ThisAssembly.Metadata","ThisAssembly.Project","ThisAssembly.Resource","ThisAssembly.Strings"]
   },
   "links":{

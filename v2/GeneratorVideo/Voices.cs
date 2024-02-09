@@ -12,7 +12,7 @@ internal class Voices
 {
     public async static Task DisplayVoices()
     {
-        
+        await SpeechSynthesizer.TrySetDefaultVoiceAsync(SpeechSynthesizer.AllVoices[0]);
         
         // Initialize a new instance of the SpeechSynthesizer.
         using SpeechSynthesizer synth = new();
