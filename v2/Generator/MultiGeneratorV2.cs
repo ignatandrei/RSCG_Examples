@@ -75,7 +75,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
-,new ("Jab https://github.com/pakrym/jab","Service + DI container. I use the one from MSFT")
+,new ("Jab https://github.com/pakrym/jab",later)
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
 ,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
 ,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
@@ -155,7 +155,21 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
 , new("UnitTestBlazor https://github.com/bUnit-dev/bUnit",WaitingForIssue)
 ,new("Dexie https://github.com/b-straub/DexieNET",tooComplicated)
-
+,new ("Overloader https://github.com/emptycoder/Overloader",tooComplicated)
+, new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
+,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
+,new("cachesourcegenerator https://github.com/jeppevammenkristensen/cachesourcegenerator",later)
+,new("command-line https://github.com/dotmake-build/command-line",later)
+,new("OptionToStringGenerator https://github.com/Seekatar/OptionToStringGenerator",later)
+,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",later)
+,new("Maui https://github.com/zzyzy/Maui",later)
+,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",later)
+,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",later)
+,new("Funicular-Switch https://github.com/bluehands/Funicular-Switch",later)
+//,new("",later)
+//,new("",later)
+//,new("",later)
+//,new("",later)
 };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm

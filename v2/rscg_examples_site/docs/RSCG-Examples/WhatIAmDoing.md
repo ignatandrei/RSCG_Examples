@@ -264,7 +264,7 @@ static partial class SimpleIntercept
 
 //replace code:Console.WriteLine("Hello, World!");
 //replace code:123456789!123456789!123456789!12345
-[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\Program.cs", 3, 9)]
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\WIADDemo\Program.cs", 3, 9)]
     
 //[System.Diagnostics.DebuggerStepThrough()]
 public static  void Intercept__WriteLine_0 (  string? value )  
@@ -347,7 +347,7 @@ static partial class SimpleIntercept
 
 //replace code:    Console.WriteLine($"Method {item.typeAndMethodData.MethodName} from class {item.typeAndMethodData.TypeOfClass} Time: {item.StartedAtDate} state {item.State} ");
 //replace code:123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!123456789!1234
-[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\Program.cs", 8, 13)]
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\WIADDemo\Program.cs", 8, 13)]
     
 //[System.Diagnostics.DebuggerStepThrough()]
 public static  void Intercept__WriteLine_1 (  string? value )  
@@ -430,7 +430,7 @@ static partial class SimpleIntercept
 
 //replace code:    Console.WriteLine($"  =>Arguments: {item.ArgumentsAsString()}");
 //replace code:123456789!123456789!123456789!123456789!123456789!123456789!12345678
-[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\Program.cs", 9, 13)]
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\WIADDemo\Program.cs", 9, 13)]
     
 //[System.Diagnostics.DebuggerStepThrough()]
 public static  void Intercept__WriteLine_2 (  string? value )  
@@ -513,7 +513,7 @@ static partial class SimpleIntercept
 
 //replace code:        Console.WriteLine($"  =>Result: {item.Result}");
 //replace code:123456789!123456789!123456789!123456789!123456789!123456
-[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\Program.cs", 12, 17)]
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\WIADDemo\Program.cs", 12, 17)]
     
 //[System.Diagnostics.DebuggerStepThrough()]
 public static  void Intercept__WriteLine_3 (  string? value )  
