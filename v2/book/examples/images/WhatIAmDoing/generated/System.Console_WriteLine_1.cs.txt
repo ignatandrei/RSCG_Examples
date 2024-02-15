@@ -1,0 +1,73 @@
+#pragma warning disable CS1591 
+#pragma warning disable CS9113
+namespace System.Runtime.CompilerServices{
+[AttributeUsage(AttributeTargets.Method,AllowMultiple =true)]
+file class InterceptsLocationAttribute(string filePath, int line, int character) : Attribute
+{
+}
+}//end namespace
+
+namespace RSCG_InterceptorTemplate{
+static partial class SimpleIntercept
+{
+
+
+//replace code:Console.WriteLine("Hello, World!");
+//replace code:123456789!123456789!123456789!12345
+[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\WIAD\src\WIADDemo\WIADDemo\Program.cs", 3, 9)]
+    
+//[System.Diagnostics.DebuggerStepThrough()]
+public static  void Intercept__WriteLine_0 (  string? value )  
+{
+
+System.Collections.Generic.Dictionary<string,string?> valValues = new (){
+
+
+};//end valValues
+
+System.Collections.Generic.Dictionary<string,string?> stringValues = new() {
+
+
+                { "value", value  ?.ToString() } ,
+            };//end stringValues
+
+        System.Collections.Generic.Dictionary<string,string?>
+            expValues = new() {
+
+            };//end exposeValues
+
+
+        var x=WIADDemo.InterceptorMethodStatic .InterceptStaticMethodBefore(
+$$$""""
+    {"IsVoid":true,"Tag":"","MethodName":"WriteLine","TypeOfClass":"System.Console"}
+""""
+            ,valValues , stringValues , expValues
+)
+; 
+
+
+                try{
+
+                 System.Console.WriteLine(value);
+
+                WIADDemo.InterceptorMethodStatic .InterceptMethodAfterWithoutResult(x);
+                
+                }
+
+            
+        
+            catch(System.Exception ex){
+                WIADDemo.InterceptorMethodStatic .InterceptMethodException(x,ex);
+                throw;
+            }
+            finally{
+                WIADDemo.InterceptorMethodStatic .InterceptMethodFinally(x);
+            }
+        
+}
+                
+
+}//end class
+
+}//namespace RSCG_InterceptorTemplate
+

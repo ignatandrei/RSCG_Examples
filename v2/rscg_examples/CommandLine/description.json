@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"CommandLine",
+      "nuget":[
+         "https://www.nuget.org/packages/DotMake.CommandLine/"
+      ],
+      "link":"https://github.com/dotmake-build/command-line",
+      "author":"DotMake",
+      "source":"https://github.com/dotmake-build/command-line"
+   },
+   "data":{
+      "goodFor":["Generating easy command line applications."],
+      "csprojDemo":"CmdDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
