@@ -159,7 +159,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
 ,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
 ,new("cachesourcegenerator https://github.com/jeppevammenkristensen/cachesourcegenerator",later)
-,new("command-line https://github.com/dotmake-build/command-line",later)
 ,new("OptionToStringGenerator https://github.com/Seekatar/OptionToStringGenerator",later)
 ,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",later)
 ,new("Maui https://github.com/zzyzy/Maui",later)
@@ -294,6 +293,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Weave",new(true,new(2024,1,27), Category.FilesToCode) },
             {"WIAD",new(true,new(2024,1,28), Category.AOP) },
             {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
+            {"CommandLine",new(true,new(2024,2,11),Category.EnhancementProject) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -447,6 +447,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         response = await tryToGetMasterOrMain(httpClient, url + "README.MD");
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response = await tryToGetMasterOrMain(httpClient, url + "docs/README.md");
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);

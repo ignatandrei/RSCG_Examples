@@ -857,6 +857,14 @@
       "Source": "https://github.com/codecentric/net_automatic_interface",
       "Category": "Interface",
       "AddedOn": "2024-01-29T00:00:00"
+    },
+    {
+      "Name": "CommandLine",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine",
+      "NuGet": "https://www.nuget.org/packages/DotMake.CommandLine/",
+      "Source": "https://github.com/dotmake-build/command-line",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-02-11T00:00:00"
     }
   ]
 }
