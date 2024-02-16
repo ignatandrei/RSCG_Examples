@@ -165,7 +165,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Maui https://github.com/zzyzy/Maui",later)
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",later)
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",later)
-,new("Funicular-Switch https://github.com/bluehands/Funicular-Switch",later)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -294,6 +293,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Weave",new(true,new(2024,1,27), Category.FilesToCode) },
             {"WIAD",new(true,new(2024,1,28), Category.AOP) },
             {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
+            {"FunicularSwitch",new(true,new(2024,2,12),Category.FunctionalProgramming) }
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -735,7 +736,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         try
         {
             Ping p = new();
-            var pr = p.Send("www.yahoo.com");
+            var pr = p.Send("www.google.com");
             if (pr.Status != IPStatus.Success)
             {
                 Console.WriteLine("no internet");

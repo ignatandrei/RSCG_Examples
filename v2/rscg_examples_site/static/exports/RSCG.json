@@ -857,6 +857,14 @@
       "Source": "https://github.com/codecentric/net_automatic_interface",
       "Category": "Interface",
       "AddedOn": "2024-01-29T00:00:00"
+    },
+    {
+      "Name": "FunicularSwitch",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch",
+      "NuGet": "https://www.nuget.org/packages/FunicularSwitch.Generators/",
+      "Source": "https://github.com/bluehands/Funicular-Switch",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-02-12T00:00:00"
     }
   ]
 }
