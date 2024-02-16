@@ -392,6 +392,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion
 ### [dunet](/docs/dunet)
 
 
+### [FunicularSwitch](/docs/FunicularSwitch)
+
+
 ### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 

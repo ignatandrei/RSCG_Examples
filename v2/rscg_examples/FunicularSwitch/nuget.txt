@@ -1,0 +1,1 @@
+Source generator package to have result types like in F# with your custom error type

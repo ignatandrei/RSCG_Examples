@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"FunicularSwitch",
+      "nuget":[
+         "https://www.nuget.org/packages/FunicularSwitch.Generators/",
+         "https://www.nuget.org/packages/FunicularSwitch"
+      ],
+      "link":"https://github.com/bluehands/Funicular-Switch",
+      "author":"bluehands",
+      "source":"https://github.com/bluehands/Funicular-Switch"
+   },
+   "data":{
+      "goodFor":["Generating discriminated unions for C# 9.0 and above."],
+      "csprojDemo":"Union.csproj",
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

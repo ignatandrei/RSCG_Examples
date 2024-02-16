@@ -417,10 +417,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## FunctionalProgramming Number Examples: 6
+## FunctionalProgramming Number Examples: 7
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:6</summary>
+  <summary>Expand FunctionalProgramming =>examples:7</summary>
         
 
 
@@ -450,6 +450,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+
+        
+
+
+[FunicularSwitch](/docs/FunicularSwitch)
 
 </details>
     
@@ -845,6 +850,8 @@ flowchart LR;
     FunctionalProgramming--> N.SourceGenerators.UnionTypes((N.SourceGenerators.UnionTypes))
 
     FunctionalProgramming--> Funcky.DiscriminatedUnion((Funcky.DiscriminatedUnion))
+
+    FunctionalProgramming--> FunicularSwitch((FunicularSwitch))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 
