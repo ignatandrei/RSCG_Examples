@@ -102,121 +102,121 @@ Why I have not put example: later
 
 Why I have not put example: old ISourceGenerator
 
-25)command-line https://github.com/dotmake-build/command-line  
-
-Why I have not put example: later
-
-26)ComputeSharp https://github.com/Sergio0694/ComputeSharp  
+25)ComputeSharp https://github.com/Sergio0694/ComputeSharp  
 
 Why I have not put example: not having nuget, but having IIncrementalGenerator
 
-27)ControllerGenerator https://github.com/cloud0259/ControllerGenerator  
+26)ControllerGenerator https://github.com/cloud0259/ControllerGenerator  
 
 Why I have not put example: issue opened
 
-28)CoreWCF https://github.com/CoreWCF/CoreWCF  
+27)CoreWCF https://github.com/CoreWCF/CoreWCF  
 
 Why I have not put example: not having nuget, but having IIncrementalGenerator
 
-29)CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator  
+28)CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator  
 
 Why I have not put example: old ISourceGenerator
 
-30)CsvMole https://github.com/pippinmole/CsvMole.NET  
+29)CsvMole https://github.com/pippinmole/CsvMole.NET  
 
 Why I have not put example: not having nuget, but having IIncrementalGenerator
 
-31)Data https://github.com/dasMulli/data-builder-generator  
+30)Data https://github.com/dasMulli/data-builder-generator  
 
 Why I have not put example: old ISourceGenerator
 
-32)DependencyManagement https://github.com/essy-ecosystem/dependency-management  
+31)DependencyManagement https://github.com/essy-ecosystem/dependency-management  
 
 Why I have not put example: DI container. To be analyzed
 
-33)DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator  
+32)DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator  
 
 Why I have not put example: example with MAUI
 
-34)DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators  
+33)DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators  
 
 Why I have not put example: old ISourceGenerator
 
-35)Dexie https://github.com/b-straub/DexieNET  
+34)Dexie https://github.com/b-straub/DexieNET  
 
 Why I have not put example: too complicated for me, need help
 
-36)docopt.net https://github.com/docopt/docopt.net  
+35)docopt.net https://github.com/docopt/docopt.net  
 
 Why I have not put example: old ISourceGenerator
 
-37)dot-env-generator https://github.com/betwixt-labs/dot-env-generator  
+36)dot-env-generator https://github.com/betwixt-labs/dot-env-generator  
 
 Why I have not put example: old ISourceGenerator
 
-38)dotVariant https://github.com/mknejp/dotvariant  
+37)dotVariant https://github.com/mknejp/dotvariant  
 
 Why I have not put example: old ISourceGenerator
 
-39)Durian https://github.com/piotrstenke/Durian  
+38)Durian https://github.com/piotrstenke/Durian  
 
 Why I have not put example: old ISourceGenerator
 
-40)Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator  
+39)Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator  
 
 Why I have not put example: old ISourceGenerator
 
-41)EnumerationClassGenerator https://github.com/HamedFathi/EnumerationClassGenerator  
+40)EnumerationClassGenerator https://github.com/HamedFathi/EnumerationClassGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-42)EnumFastToStringDotNet https://github.com/Spinnernicholas/EnumFastToStringDotNet  
+41)EnumFastToStringDotNet https://github.com/Spinnernicholas/EnumFastToStringDotNet  
 
 Why I have not put example: old ISourceGenerator
 
-43)EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator  
+42)EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator  
 
 Why I have not put example: old ISourceGenerator
 
-44)epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator  
+43)epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator  
 
 Why I have not put example: later
 
-45)Fairy https://github.com/hermanussen/Fairy  
+44)Fairy https://github.com/hermanussen/Fairy  
 
 Why I have not put example: old ISourceGenerator
 
-46)FastAutoMapper https://github.com/myblindy/FastAutoMapper  
+45)FastAutoMapper https://github.com/myblindy/FastAutoMapper  
 
 Why I have not put example: old ISourceGenerator
 
-47)FastEndpoints https://github.com/FastEndpoints/FastEndpoints  
+46)FastEndpoints https://github.com/FastEndpoints/FastEndpoints  
 
 Why I have not put example: too complicated for me, need help
 
-48)FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator  
+47)FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator  
 
 Why I have not put example: no readme
 
-49)Figgle, https://github.com/drewnoakes/figgle  
+48)Figgle, https://github.com/drewnoakes/figgle  
 
 Why I have not put example: old ISourceGenerator
 
-50)Flattening https://github.com/Kros-sk/Kros.Generators.Flattening  
+49)Flattening https://github.com/Kros-sk/Kros.Generators.Flattening  
 
 Why I have not put example: old ISourceGenerator
 
-51)FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual  
+50)FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual  
 
 Why I have not put example: too complicated for me, need help
 
-52)FluentBuilder https://github.com/StefH/FluentBuilder  
+51)FluentBuilder https://github.com/StefH/FluentBuilder  
 
 Why I have not put example: old ISourceGenerator
 
-53)fonderie https://github.com/jeromelaban/fonderie  
+52)fonderie https://github.com/jeromelaban/fonderie  
 
 Why I have not put example: old ISourceGenerator
+
+53)Funicular-Switch https://github.com/bluehands/Funicular-Switch  
+
+Why I have not put example: later
 
 54)GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries  
 

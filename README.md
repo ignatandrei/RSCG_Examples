@@ -1,6 +1,6 @@
 # RSCG - 108 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-02-12 => 12 February 2024
+## Latest Update : 2024-02-11 => 11 February 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -18,19 +18,19 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 Those are the 108 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
-### 108. [FunicularSwitch](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch) generated on : 2024-02-12 => 12 February 2024
+### 108. [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine) generated on : 2024-02-11 => 11 February 2024
 <details>
   <summary>Expand</summary>
-Author: bluehands
+Author: DotMake
 
-Source generator package to have result types like in F# with your custom error type 
+Declarative syntax for System.CommandLine via attributes for easy, fast, strongly-typed (no reflection) usage. Includes a source generator which automagically converts your classes to CLI commands and properties to CLI options or CLI arguments. 
 
-Nuget: [https://www.nuget.org/packages/FunicularSwitch.Generators/](https://www.nuget.org/packages/FunicularSwitch.Generators/) 
+Nuget: [https://www.nuget.org/packages/DotMake.CommandLine/](https://www.nuget.org/packages/DotMake.CommandLine/) 
 
 
-Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch)
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine)
 
-Source: [https://github.com/bluehands/Funicular-Switch](https://github.com/bluehands/Funicular-Switch)
+Source: [https://github.com/dotmake-build/command-line](https://github.com/dotmake-build/command-line)
 
 </details>
 
@@ -1904,60 +1904,60 @@ Why I have not tested : later
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=cachesourcegenerator&body=https://github.com/jeppevammenkristensen/cachesourcegenerator
 
 
-11) [command-line]( https://github.com/dotmake-build/command-line) , https://github.com/dotmake-build/command-line 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=command-line&body=https://github.com/dotmake-build/command-line
-
-
-12) [ControllerGenerator]( https://github.com/cloud0259/ControllerGenerator) , https://github.com/cloud0259/ControllerGenerator 
+11) [ControllerGenerator]( https://github.com/cloud0259/ControllerGenerator) , https://github.com/cloud0259/ControllerGenerator 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ControllerGenerator&body=https://github.com/cloud0259/ControllerGenerator
 
 
-13) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
+12) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
 
 Why I have not tested : DI container. To be analyzed
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyManagement&body=https://github.com/essy-ecosystem/dependency-management
 
 
-14) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
+13) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
 
 Why I have not tested : example with MAUI
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyPropertyGenerator&body=https://github.com/HavenDV/DependencyPropertyGenerator
 
 
-15) [Dexie]( https://github.com/b-straub/DexieNET) , https://github.com/b-straub/DexieNET 
+14) [Dexie]( https://github.com/b-straub/DexieNET) , https://github.com/b-straub/DexieNET 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Dexie&body=https://github.com/b-straub/DexieNET
 
 
-16) [epj.RouteGenerator]( https://github.com/ewerspej/epj.RouteGenerator) , https://github.com/ewerspej/epj.RouteGenerator 
+15) [epj.RouteGenerator]( https://github.com/ewerspej/epj.RouteGenerator) , https://github.com/ewerspej/epj.RouteGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=epj.RouteGenerator&body=https://github.com/ewerspej/epj.RouteGenerator
 
 
-17) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
+16) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastEndpoints&body=https://github.com/FastEndpoints/FastEndpoints
 
 
-18) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
+17) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FluentAssertions.Eventual&body=https://github.com/mazharenko/FluentAssertions.Eventual
+
+
+18) [Funicular-Switch]( https://github.com/bluehands/Funicular-Switch) , https://github.com/bluehands/Funicular-Switch 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Funicular-Switch&body=https://github.com/bluehands/Funicular-Switch
 
 
 19) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 
