@@ -294,7 +294,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Weave",new(true,new(2024,1,27), Category.FilesToCode) },
             {"WIAD",new(true,new(2024,1,28), Category.AOP) },
             {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
-        }; 
+            { "jab",new (true,new(2024,1,30),Category.DependencyInjection) },
+        };  
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
         {

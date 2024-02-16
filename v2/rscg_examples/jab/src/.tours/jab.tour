@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "jab",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [jab](https://www.nuget.org/packages/jab/) in csproj  ",
+      "pattern": "jab"
+    }
+
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/Jab/Jab.ContainerGenerator/MyServiceProvider.Generated.cs",
+        "description": "File Database.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Jab/Jab.ContainerGenerator/Attributes.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

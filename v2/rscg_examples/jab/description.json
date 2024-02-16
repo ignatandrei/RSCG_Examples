@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"jab",
+      "nuget":[
+         "https://www.nuget.org/packages/jab/"
+      ],
+      "link":"https://github.com/pakrym/jab",
+      "author":"Pavel Krymets",
+      "source":"https://github.com/pakrym/jab"
+   },
+   "data":{
+      "goodFor":["generating DI code"],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["Program.cs","Database.cs","Databasecon.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

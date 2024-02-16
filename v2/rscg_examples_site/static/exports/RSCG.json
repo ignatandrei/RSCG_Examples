@@ -857,6 +857,14 @@
       "Source": "https://github.com/codecentric/net_automatic_interface",
       "Category": "Interface",
       "AddedOn": "2024-01-29T00:00:00"
+    },
+    {
+      "Name": "jab",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/jab",
+      "NuGet": "https://www.nuget.org/packages/jab/",
+      "Source": "https://github.com/pakrym/jab",
+      "Category": "DependencyInjection",
+      "AddedOn": "2024-01-30T00:00:00"
     }
   ]
 }
