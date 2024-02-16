@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1080
-title: 108 - jab
+sidebar_position: 1100
+title: 110 - jab
 description: generating DI code
 slug: /jab
 ---

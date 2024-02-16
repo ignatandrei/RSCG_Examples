@@ -295,7 +295,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
             {"CommandLine",new(true,new(2024,2,11),Category.EnhancementProject) },
             {"FunicularSwitch",new(true,new(2024,2,12),Category.FunctionalProgramming) },
-            
+            {"jab",new (true,new(2024,1,30),Category.DependencyInjection) },
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -386,6 +387,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         { 
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
+            text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
             text = text.Replace("(license.md)", $"({d.Generator!.Source}license.md");            
             text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
             text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");
