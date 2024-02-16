@@ -881,6 +881,14 @@
       "Source": "https://github.com/pakrym/jab",
       "Category": "DependencyInjection",
       "AddedOn": "2024-01-30T00:00:00"
+    },
+    {
+      "Name": "cachesourcegenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator",
+      "NuGet": "https://www.nuget.org/packages/cachesourcegenerator/",
+      "Source": "https://github.com/jeppevammenkristensen/cachesourcegenerator",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-02-01T00:00:00"
     }
   ]
 }

@@ -75,7 +75,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Imp.NET https://github.com/DouglasDwyer/Imp.NET",old)
 ,new ("InterfaceGenerator https://github.com/daver32/InterfaceGenerator",old)
 ,new ("IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",old)
-,new ("Jab https://github.com/pakrym/jab",later)
 ,new ("JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",old)
 ,new ("JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",noReadMe)
 ,new ("JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",noReadMe)
@@ -158,7 +157,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Overloader https://github.com/emptycoder/Overloader",tooComplicated)
 , new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
 ,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
-,new("cachesourcegenerator https://github.com/jeppevammenkristensen/cachesourcegenerator",later)
 ,new("OptionToStringGenerator https://github.com/Seekatar/OptionToStringGenerator",later)
 ,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",later)
 ,new("Maui https://github.com/zzyzy/Maui",later)
@@ -296,7 +294,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CommandLine",new(true,new(2024,2,11),Category.EnhancementProject) },
             {"FunicularSwitch",new(true,new(2024,2,12),Category.FunctionalProgramming) },
             {"jab",new (true,new(2024,1,30),Category.DependencyInjection) },
-
+            {"cachesourcegenerator",new(true,new DateTime(2024,2,1),Category.FunctionalProgramming) }
+        
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
