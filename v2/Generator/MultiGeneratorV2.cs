@@ -388,6 +388,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
+            text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");
+            text = text.Replace("(src/Jab.Performance/)", $"({d.Generator!.Source}src/Jab.Performance/");
+            text = text.Replace("(README.md#Unity-installation)", $"({d.Generator!.Source}README.md#Unity-installation");
             text = text.Replace("(license.md)", $"({d.Generator!.Source}license.md");            
             text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
             text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");

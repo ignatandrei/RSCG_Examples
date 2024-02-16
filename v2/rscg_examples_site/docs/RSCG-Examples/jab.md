@@ -54,7 +54,7 @@ Jab provides a [C# Source Generator](https://devblogs.microsoft.com/dotnet/intro
 - Clean stack traces:  ![stacktrace](https://raw.githubusercontent.com/pakrym/jab/main/doc/stacktrace.png)
 - Readable generated code:  ![generated code](https://raw.githubusercontent.com/pakrym/jab/main/doc/generatedcode.png)
 - Registration validation. Container configuration issues become compiler errors:  ![generated code](https://raw.githubusercontent.com/pakrym/jab/main/doc/errors.png)
-- Incremental generation, .NET 5/6/7/8 SDK support, .NET Standard 2.0 support, [Unity support](README.md#Unity-installation)
+- Incremental generation, .NET 5/6/7/8 SDK support, .NET Standard 2.0 support, [Unity support](https://github.com/pakrym/jabREADME.md#Unity-installation
 
 ## Example
 
@@ -285,11 +285,11 @@ IService service = c.GetService<IEnumerable<IService>>();
 
 ### Console application
 
-Sample Jab usage in console application can be found in [src/samples/ConsoleSample](src/samples/ConsoleSample)
+Sample Jab usage in console application can be found in [src/samples/ConsoleSample](https://github.com/pakrym/jabsrc/samples/ConsoleSample
 
 ## Performance
 
-The performance benchmark project is available in [src/Jab.Performance/](src/Jab.Performance/).
+The performance benchmark project is available in [src/Jab.Performance/](https://github.com/pakrym/jabsrc/Jab.Performance/.
 
 ### Startup time
 
