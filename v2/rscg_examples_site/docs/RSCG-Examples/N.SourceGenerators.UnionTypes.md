@@ -887,6 +887,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/N.SourceGenerators.UnionType
 ### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
 
+### [FunicularSwitch](/docs/FunicularSwitch)
+
+
 ### [OneOf](/docs/OneOf)
 
 

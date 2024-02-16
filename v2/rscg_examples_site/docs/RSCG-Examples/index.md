@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 108 RSCG by category 
-description: 108 RSCG by category 
+title: 109 RSCG by category 
+description: 109 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -125,10 +125,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## DependencyInjection Number Examples: 3
+## DependencyInjection Number Examples: 2
 <details>
     
-  <summary>Expand DependencyInjection =>examples:3</summary>
+  <summary>Expand DependencyInjection =>examples:2</summary>
         
 
 
@@ -138,11 +138,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Injectio](/docs/Injectio)
-
-        
-
-
-[jab](/docs/jab)
 
 </details>
     
@@ -296,10 +291,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementProject Number Examples: 9
+## EnhancementProject Number Examples: 10
 <details>
     
-  <summary>Expand EnhancementProject =>examples:9</summary>
+  <summary>Expand EnhancementProject =>examples:10</summary>
         
 
 
@@ -344,6 +339,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [BuildInfo](/docs/BuildInfo)
+
+        
+
+
+[CommandLine](/docs/CommandLine)
 
 </details>
     
@@ -417,10 +417,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## FunctionalProgramming Number Examples: 6
+## FunctionalProgramming Number Examples: 7
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:6</summary>
+  <summary>Expand FunctionalProgramming =>examples:7</summary>
         
 
 
@@ -450,6 +450,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+
+        
+
+
+[FunicularSwitch](/docs/FunicularSwitch)
 
 </details>
     
@@ -738,8 +743,6 @@ flowchart LR;
 
     DependencyInjection--> Injectio((Injectio))
 
-    DependencyInjection--> jab((jab))
-
     Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 
     Disposer--> Disposer((Disposer))
@@ -812,6 +815,8 @@ flowchart LR;
 
     EnhancementProject--> BuildInfo((BuildInfo))
 
+    EnhancementProject--> CommandLine((CommandLine))
+
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 
     Enum--> EnumClass((EnumClass))
@@ -845,6 +850,8 @@ flowchart LR;
     FunctionalProgramming--> N.SourceGenerators.UnionTypes((N.SourceGenerators.UnionTypes))
 
     FunctionalProgramming--> Funcky.DiscriminatedUnion((Funcky.DiscriminatedUnion))
+
+    FunctionalProgramming--> FunicularSwitch((FunicularSwitch))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 

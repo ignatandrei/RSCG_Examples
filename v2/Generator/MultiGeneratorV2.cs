@@ -159,13 +159,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
 ,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
 ,new("cachesourcegenerator https://github.com/jeppevammenkristensen/cachesourcegenerator",later)
-,new("command-line https://github.com/dotmake-build/command-line",later)
 ,new("OptionToStringGenerator https://github.com/Seekatar/OptionToStringGenerator",later)
 ,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",later)
 ,new("Maui https://github.com/zzyzy/Maui",later)
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",later)
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",later)
-,new("Funicular-Switch https://github.com/bluehands/Funicular-Switch",later)
+, new ("CsWin32 https://github.com/microsoft/CsWin32", later)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -294,8 +293,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Weave",new(true,new(2024,1,27), Category.FilesToCode) },
             {"WIAD",new(true,new(2024,1,28), Category.AOP) },
             {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
-            { "jab",new (true,new(2024,1,30),Category.DependencyInjection) },
-        };  
+            {"CommandLine",new(true,new(2024,2,11),Category.EnhancementProject) },
+            {"FunicularSwitch",new(true,new(2024,2,12),Category.FunctionalProgramming) },
+            
+        }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
         {
@@ -448,6 +449,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         response = await tryToGetMasterOrMain(httpClient, url + "README.MD");
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response = await tryToGetMasterOrMain(httpClient, url + "docs/README.md");
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);
