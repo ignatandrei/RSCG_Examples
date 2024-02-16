@@ -107,3 +107,4 @@ Nr,Key,Source,Category
 106,WIAD, https://github.com/ignatandrei/RSCG_WhatIAmDoing,AOP
 107,NetAutomaticInterface, https://github.com/codecentric/net_automatic_interface,Interface
 108,CommandLine, https://github.com/dotmake-build/command-line,EnhancementProject
+109,FunicularSwitch, https://github.com/bluehands/Funicular-Switch,FunctionalProgramming

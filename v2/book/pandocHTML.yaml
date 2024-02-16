@@ -122,6 +122,7 @@ input-files:
 - examples/WhatIAmDoing.html
 - examples/NetAutomaticInterface.html
 - examples/CommandLine.html
+- examples/FunicularSwitch.html
 
 # or you may use input-file: with a single value
 # defaults:

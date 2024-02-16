@@ -1116,7 +1116,7 @@ This is the CSharp Project that references **CommandLine**
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\Program.cs" label="Program.cs" >
 
   This is the use of **CommandLine** in *Program.cs*
 
@@ -1148,7 +1148,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_1ra93x8.g.cs" label="CliCommandAsDelegate_1ra93x8.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_1ra93x8.g.cs" label="CliCommandAsDelegate_1ra93x8.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1194,7 +1194,7 @@ namespace GeneratedCode
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_1ra93x8Builder-6ke4hy4.g.cs" label="CliCommandAsDelegate_1ra93x8Builder-6ke4hy4.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_1ra93x8Builder-6ke4hy4.g.cs" label="CliCommandAsDelegate_1ra93x8Builder-6ke4hy4.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1297,7 +1297,7 @@ namespace GeneratedCode
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_34pdvjr.g.cs" label="CliCommandAsDelegate_34pdvjr.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_34pdvjr.g.cs" label="CliCommandAsDelegate_34pdvjr.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1348,7 +1348,7 @@ namespace GeneratedCode
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_34pdvjrBuilder-empvmnm.g.cs" label="CliCommandAsDelegate_34pdvjrBuilder-empvmnm.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_34pdvjrBuilder-empvmnm.g.cs" label="CliCommandAsDelegate_34pdvjrBuilder-empvmnm.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1467,7 +1467,7 @@ namespace GeneratedCode
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_3r0zsnc.g.cs" label="CliCommandAsDelegate_3r0zsnc.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_3r0zsnc.g.cs" label="CliCommandAsDelegate_3r0zsnc.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1518,7 +1518,7 @@ namespace GeneratedCode
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_3r0zsncBuilder-ax4j3pc.g.cs" label="CliCommandAsDelegate_3r0zsncBuilder-ax4j3pc.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\CommandLine\src\CmdDemo\obj\GX\DotMake.CommandLine.SourceGeneration\DotMake.CommandLine.SourceGeneration.CliCommandGenerator\CliCommandAsDelegate_3r0zsncBuilder-ax4j3pc.g.cs" label="CliCommandAsDelegate_3r0zsncBuilder-ax4j3pc.g.cs" >
 
 
 ```csharp showLineNumbers 

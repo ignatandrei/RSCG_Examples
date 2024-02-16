@@ -9,9 +9,9 @@
 "step_7_text": "You can download the code from here",
 "step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine#download-example-net--c-",
 "step_9_text":"Here is the code downloaded ",
-"step_10_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommandLine\\src\\CmdDemo\\CmdDemo.sln",
+"step_10_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommandLine\\src\\CmdDemo.sln",
 "step_11_text": "So , let's start the project with Visual Studio Code ",
-"step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommandLine\\src\\CmdDemo",
+"step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\CommandLine\\src",
 
 "step_13_text": "To use it ,you will put the  DotMake.CommandLine into the csproj ",
 

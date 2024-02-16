@@ -1,6 +1,6 @@
-# RSCG - 108 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 109 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-02-11 => 11 February 2024
+## Latest Update : 2024-02-12 => 12 February 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 108 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 109 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 109. [FunicularSwitch](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch) generated on : 2024-02-12 => 12 February 2024
+<details>
+  <summary>Expand</summary>
+Author: bluehands
+
+Source generator package to have result types like in F# with your custom error type 
+
+Nuget: [https://www.nuget.org/packages/FunicularSwitch.Generators/](https://www.nuget.org/packages/FunicularSwitch.Generators/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch)
+
+Source: [https://github.com/bluehands/Funicular-Switch](https://github.com/bluehands/Funicular-Switch)
+
+</details>
+
 ### 108. [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine) generated on : 2024-02-11 => 11 February 2024
 <details>
   <summary>Expand</summary>
@@ -1911,53 +1927,53 @@ Why I have not tested : issue opened
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ControllerGenerator&body=https://github.com/cloud0259/ControllerGenerator
 
 
-12) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
+12) [CsWin32]( https://github.com/microsoft/CsWin32) , https://github.com/microsoft/CsWin32 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=CsWin32&body=https://github.com/microsoft/CsWin32
+
+
+13) [DependencyManagement]( https://github.com/essy-ecosystem/dependency-management) , https://github.com/essy-ecosystem/dependency-management 
 
 Why I have not tested : DI container. To be analyzed
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyManagement&body=https://github.com/essy-ecosystem/dependency-management
 
 
-13) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
+14) [DependencyPropertyGenerator]( https://github.com/HavenDV/DependencyPropertyGenerator) , https://github.com/HavenDV/DependencyPropertyGenerator 
 
 Why I have not tested : example with MAUI
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=DependencyPropertyGenerator&body=https://github.com/HavenDV/DependencyPropertyGenerator
 
 
-14) [Dexie]( https://github.com/b-straub/DexieNET) , https://github.com/b-straub/DexieNET 
+15) [Dexie]( https://github.com/b-straub/DexieNET) , https://github.com/b-straub/DexieNET 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Dexie&body=https://github.com/b-straub/DexieNET
 
 
-15) [epj.RouteGenerator]( https://github.com/ewerspej/epj.RouteGenerator) , https://github.com/ewerspej/epj.RouteGenerator 
+16) [epj.RouteGenerator]( https://github.com/ewerspej/epj.RouteGenerator) , https://github.com/ewerspej/epj.RouteGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=epj.RouteGenerator&body=https://github.com/ewerspej/epj.RouteGenerator
 
 
-16) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
+17) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastEndpoints&body=https://github.com/FastEndpoints/FastEndpoints
 
 
-17) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
+18) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FluentAssertions.Eventual&body=https://github.com/mazharenko/FluentAssertions.Eventual
-
-
-18) [Funicular-Switch]( https://github.com/bluehands/Funicular-Switch) , https://github.com/bluehands/Funicular-Switch 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Funicular-Switch&body=https://github.com/bluehands/Funicular-Switch
 
 
 19) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 

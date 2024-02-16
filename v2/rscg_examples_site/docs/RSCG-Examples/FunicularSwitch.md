@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1080
-title: 108 - FunicularSwitch
+sidebar_position: 1090
+title: 109 - FunicularSwitch
 description: Generating discriminated unions for C# 9.0 and above.
 slug: /FunicularSwitch
 ---
@@ -299,7 +299,7 @@ public static class MyCustomErrorExtension
 ```
 and a bunch of methods like `Aggregate`, `Validate`, `AllOk`, `FirstOk` and more will appear that make use of the fact that errors can be merged.
 
-## UnionType attribute
+##  UnionType attribute
 
 There is another useful generator coming with the package. Adding the `UnionType` attribute to a base record / class or interface makes `Match` extension methods appear for this type. They are also inspired by F# where a match expression has to cover all cases and the compiler helps you with that. Assuming you implemented an error type as a base type and one derived type for every kind of error:
 
