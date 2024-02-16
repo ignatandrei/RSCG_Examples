@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Union;
+internal class SaveToDatabase
+{
+    public static ResultSave<int> Save(int i)
+    {
+        if (i == 0)
+        {
+            return new ResultSave<int>.Error_(new ErrorDetails());
+        }
+        return new ResultSave<int>.Ok_(i);
+    }
+}

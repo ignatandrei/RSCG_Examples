@@ -109,3 +109,4 @@ Nr,Key,Source,Category
 108,CommandLine, https://github.com/dotmake-build/command-line,EnhancementProject
 109,FunicularSwitch, https://github.com/bluehands/Funicular-Switch,FunctionalProgramming
 110,jab, https://github.com/pakrym/jab,DependencyInjection
+111,cachesourcegenerator, https://github.com/jeppevammenkristensen/cachesourcegenerator,FunctionalProgramming

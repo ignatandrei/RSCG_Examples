@@ -1177,6 +1177,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch
 ## In the same category (FunctionalProgramming)
 
 
+### [cachesourcegenerator](/docs/cachesourcegenerator)
+
+
 ### [dunet](/docs/dunet)
 
 

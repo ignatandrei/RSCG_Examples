@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"cachesourcegenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/cachesourcegenerator/"
+      ],
+      "link":"https://github.com/jeppevammenkristensen/cachesourcegenerator",
+      "author":"Jeppe Roi Kristensen",
+      "source":"https://github.com/jeppevammenkristensen/cachesourcegenerator"
+   },
+   "data":{
+      "goodFor":["Caching methods results"],
+      "csprojDemo":"CacheDemo.csproj",
+      "csFiles":["Program.cs","Fib.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
