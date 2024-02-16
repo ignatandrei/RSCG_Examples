@@ -8,9 +8,9 @@ Jab provides a [C# Source Generator](https://devblogs.microsoft.com/dotnet/intro
 - Fast resolution (7x faster than Microsoft.Extensions.DependencyInjection). [Details](#GetService).
 - No runtime dependencies.
 - AOT and linker friendly, all code is generated during project compilation.
-- Clean stack traces: <br> ![stacktrace](https://raw.githubusercontent.com/pakrym/jab/main/doc/stacktrace.png)
-- Readable generated code: <br> ![generated code](https://raw.githubusercontent.com/pakrym/jab/main/doc/generatedcode.png)
-- Registration validation. Container configuration issues become compiler errors: <br> ![generated code](https://raw.githubusercontent.com/pakrym/jab/main/doc/errors.png)
+- Clean stack traces:  ![stacktrace](https://raw.githubusercontent.com/pakrym/jab/main/doc/stacktrace.png)
+- Readable generated code:  ![generated code](https://raw.githubusercontent.com/pakrym/jab/main/doc/generatedcode.png)
+- Registration validation. Container configuration issues become compiler errors:  ![generated code](https://raw.githubusercontent.com/pakrym/jab/main/doc/errors.png)
 - Incremental generation, .NET 5/6/7/8 SDK support, .NET Standard 2.0 support, [Unity support](README.md#Unity-installation)
 
 ## Example
