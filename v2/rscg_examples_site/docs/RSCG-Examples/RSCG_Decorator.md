@@ -503,6 +503,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyTo](/docs/CopyTo)
+
+
 ### [DudNet](/docs/DudNet)
 
 

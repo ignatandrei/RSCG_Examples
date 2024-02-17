@@ -297,7 +297,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"sourcedepend",new(true,new(2024,2,16),Category.Constructor) },
             {"corecraft",new(true,new(2024,2,17),Category.FilesToCode) },
             {"UnionsGenerator",new(true,new(2024,2,18),Category.FunctionalProgramming) },
-
+            {"CopyTo",new(true,new(2024,2,19),Category.EnhancementClass) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

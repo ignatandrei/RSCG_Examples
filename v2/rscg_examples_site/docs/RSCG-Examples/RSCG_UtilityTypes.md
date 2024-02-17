@@ -277,6 +277,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyTo](/docs/CopyTo)
+
+
 ### [DudNet](/docs/DudNet)
 
 

@@ -365,6 +365,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyTo](/docs/CopyTo)
+
+
 ### [DudNet](/docs/DudNet)
 
 
