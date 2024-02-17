@@ -1,0 +1,31 @@
+{
+  "shards": [
+    {
+      "name": "PersonShard",
+      "entities": [
+        {
+          "name": "Person",
+          "properties": [
+            {
+              "name": "FirstName",
+              "type": "string",
+              "defaultValue": "\"Andrei\""
+            },
+            {
+              "name": "LastName",
+              "type": "string",
+              "defaultValue": "\"Ignat\""
+            }
+          ]
+        }
+      ],
+      "collections": [
+        {
+          "name": "Persons",
+          "entityType": "Person"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

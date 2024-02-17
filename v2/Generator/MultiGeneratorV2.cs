@@ -95,7 +95,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator",old)
 ,new ("MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor",old)
 ,new ("MvvmGen https://github.com/thomasclaudiushuber/mvvmgen",tooComplicated)
-,new ("Navitski.Crystalized https://github.com/AlexNav73/CoreCraft"," JSON to classes. Waiting for .NET 8 to see if MSFT has done natively")
 ,new ("net_automatic_interface https://github.com/codecentric/net_automatic_interface",old)
 ,new ("Plastic https://github.com/sang-hyeon/Plastic",old)
 ,new ("PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor",old)
@@ -290,10 +289,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"NetAutomaticInterface", new(true, new (2024,1,29),Category.Interface ) },
             {"CommandLine",new(true,new(2024,2,11),Category.EnhancementProject) },
             {"FunicularSwitch",new(true,new(2024,2,12),Category.FunctionalProgramming) },
-            {"jab",new (true,new(2024,1,30),Category.DependencyInjection) },
-            {"cachesourcegenerator",new(true,new (2024,2,1),Category.FunctionalProgramming) },
-            {"OptionToStringGenerator",new (true,new(2024,2,2),Category.EnhancementClass) },
-            {"sourcedepend",new(true,new(2024,2,2),Category.Constructor) }
+            {"jab",new (true,new(2024,2,13),Category.DependencyInjection) },
+            {"cachesourcegenerator",new(true,new (2024,2,14),Category.FunctionalProgramming) },
+            {"OptionToStringGenerator",new (true,new(2024,2,15),Category.EnhancementClass) },
+            {"sourcedepend",new(true,new(2024,2,16),Category.Constructor) },
+            {"corecraft",new(true,new(2024,2,17),Category.FilesToCode) },
 
 
         }; 
@@ -389,9 +389,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
             text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");
             text = text.Replace("(src/Jab.Performance/)", $"({d.Generator!.Source}src/Jab.Performance/");
-            text = text.Replace("(README.md#Unity-installation)", $"({d.Generator!.Source}README.md#Unity-installation");
-            text = text.Replace("(license.md)", $"({d.Generator!.Source}license.md");            
-            text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
+            text = text.Replace("(README.md#Unity-installation)", $"({d.Generator!.Source}/README.md#Unity-installation");
+            text = text.Replace("(license.md)", $"({d.Generator!.Source}/license.md)");
+            text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            text = text.Replace("(./LICENSE", $"({d.Generator!.Source}/LICENSE");
             text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");
             text = text.Replace("(src/Ling.Cache)", $"({d.Generator!.Source}src/Ling.Cache)");
             text = text.Replace("(src/Ling.Audit)", $"({d.Generator!.Source}src/Ling.Audit)");

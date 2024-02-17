@@ -223,6 +223,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
 ### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
+### [corecraft](/docs/corecraft)
+
+
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 

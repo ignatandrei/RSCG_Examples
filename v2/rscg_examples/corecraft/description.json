@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"corecraft",
+      "nuget":[
+         "https://www.nuget.org/packages/corecraft/"
+      ],
+      "link":"https://github.com/AlexNav73/CoreCraft",
+      "author":"",
+      "source":"https://github.com/AlexNav73/CoreCraft"
+   },
+   "data":{
+      "goodFor":["Decomposing properties and class into Domain Models. Seems however too complicated to use"],
+      "csprojDemo":"Json2Code.csproj",
+      "csFiles":["Json2Code.csproj","Program.cs","Person.model.json"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -502,6 +502,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings
 ### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
+### [corecraft](/docs/corecraft)
+
+
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 

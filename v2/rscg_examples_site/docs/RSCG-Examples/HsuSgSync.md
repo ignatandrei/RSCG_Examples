@@ -88,7 +88,7 @@ Usages see [README](https://github.com/hsu-net/source-generators/src/Hsu.Sg.Flue
 
 ## License
 
-[MIT](https://github.com/hsu-net/source-generatorssrc/Hsu)
+[MIT](https://github.com/hsu-net/source-generators/LICENSE)
 
 :::
 
