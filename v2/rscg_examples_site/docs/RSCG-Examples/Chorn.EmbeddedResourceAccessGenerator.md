@@ -352,6 +352,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccess
 ## In the same category (FilesToCode)
 
 
+### [corecraft](/docs/corecraft)
+
+
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 

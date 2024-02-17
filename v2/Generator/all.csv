@@ -112,3 +112,4 @@ Nr,Key,Source,Category
 111,cachesourcegenerator, https://github.com/jeppevammenkristensen/cachesourcegenerator,FunctionalProgramming
 112,OptionToStringGenerator, https://github.com/Seekatar/OptionToStringGenerator,EnhancementClass
 113,sourcedepend, https://github.com/crwsolutions/sourcedepend,Constructor
+114,corecraft, https://github.com/AlexNav73/CoreCraft,FilesToCode

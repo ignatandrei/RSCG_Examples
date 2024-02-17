@@ -880,7 +880,7 @@
       "NuGet": "https://www.nuget.org/packages/jab/",
       "Source": "https://github.com/pakrym/jab",
       "Category": "DependencyInjection",
-      "AddedOn": "2024-01-30T00:00:00"
+      "AddedOn": "2024-02-13T00:00:00"
     },
     {
       "Name": "cachesourcegenerator",
@@ -888,7 +888,7 @@
       "NuGet": "https://www.nuget.org/packages/cachesourcegenerator/",
       "Source": "https://github.com/jeppevammenkristensen/cachesourcegenerator",
       "Category": "FunctionalProgramming",
-      "AddedOn": "2024-02-01T00:00:00"
+      "AddedOn": "2024-02-14T00:00:00"
     },
     {
       "Name": "OptionToStringGenerator",
@@ -896,7 +896,7 @@
       "NuGet": "https://www.nuget.org/packages/Seekatar.OptionToStringGenerator/",
       "Source": "https://github.com/Seekatar/OptionToStringGenerator",
       "Category": "EnhancementClass",
-      "AddedOn": "2024-02-02T00:00:00"
+      "AddedOn": "2024-02-15T00:00:00"
     },
     {
       "Name": "sourcedepend",
@@ -904,7 +904,15 @@
       "NuGet": "https://www.nuget.org/packages/sourcedepend/",
       "Source": "https://github.com/crwsolutions/sourcedepend",
       "Category": "Constructor",
-      "AddedOn": "2024-02-02T00:00:00"
+      "AddedOn": "2024-02-16T00:00:00"
+    },
+    {
+      "Name": "corecraft",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/corecraft",
+      "NuGet": "https://www.nuget.org/packages/corecraft/",
+      "Source": "https://github.com/AlexNav73/CoreCraft",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-02-17T00:00:00"
     }
   ]
 }

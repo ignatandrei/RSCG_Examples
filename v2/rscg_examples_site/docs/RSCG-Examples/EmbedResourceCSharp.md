@@ -344,6 +344,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp
 ### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
+### [corecraft](/docs/corecraft)
+
+
 ### [NotNotAppSettings](/docs/NotNotAppSettings)
 
 

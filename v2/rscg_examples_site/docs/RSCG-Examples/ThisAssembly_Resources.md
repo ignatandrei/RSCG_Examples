@@ -694,6 +694,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources
 ### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
+### [corecraft](/docs/corecraft)
+
+
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 

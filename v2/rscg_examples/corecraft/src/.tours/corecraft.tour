@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "corecraft",
+  "steps": 
+  [
+    {
+      "file": "Json2Code/Json2Code.csproj",
+      "description": "First, we add Nuget  [corecraft](https://www.nuget.org/packages/corecraft/) in csproj  ",
+      "pattern": "corecraft"
+    }
+
+        ,{
+        "file": "Json2Code/Person.model.json",
+        "description": "File Person.model.json  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Json2Code/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Json2Code/Json2Code.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Json2Code/Json2Code.csproj",
+        "description": "File Json2Code.csproj  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Json2Code/obj/GX/CoreCraft.Generators/CoreCraft.Generators.ApplicationModelGenerator/Person.g.cs",
+        "description": "File Person.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

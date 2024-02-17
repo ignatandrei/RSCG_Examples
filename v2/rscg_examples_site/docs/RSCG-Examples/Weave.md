@@ -282,6 +282,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave
 ### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
+### [corecraft](/docs/corecraft)
+
+
 ### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 

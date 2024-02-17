@@ -1,0 +1,1 @@
+A core library to build cross-platform and highly customizable domain models
