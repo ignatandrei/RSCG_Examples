@@ -542,6 +542,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 
+### [OptionToStringGenerator](/docs/OptionToStringGenerator)
+
+
 ### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
 

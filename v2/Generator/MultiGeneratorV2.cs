@@ -157,9 +157,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("Overloader https://github.com/emptycoder/Overloader",tooComplicated)
 , new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
 ,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
-,new("OptionToStringGenerator https://github.com/Seekatar/OptionToStringGenerator",later)
 ,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",tooComplicated)
-,new("Maui https://github.com/zzyzy/Maui",later)
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",inspirational )
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
@@ -294,7 +292,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CommandLine",new(true,new(2024,2,11),Category.EnhancementProject) },
             {"FunicularSwitch",new(true,new(2024,2,12),Category.FunctionalProgramming) },
             {"jab",new (true,new(2024,1,30),Category.DependencyInjection) },
-            {"cachesourcegenerator",new(true,new DateTime(2024,2,1),Category.FunctionalProgramming) }
+            {"cachesourcegenerator",new(true,new (2024,2,1),Category.FunctionalProgramming) },
+            {"OptionToStringGenerator",new (true,new(2024,2,2),Category.EnhancementClass) },
         
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
