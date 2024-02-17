@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "OptionToStringGenerator",
+  "steps": 
+  [
+    {
+      "file": "Class2String/Class2String.csproj",
+      "description": "First, we add Nuget  [Seekatar.OptionToStringGenerator](https://www.nuget.org/packages/Seekatar.OptionToStringGenerator/) in csproj  ",
+      "pattern": "Seekatar.OptionToStringGenerator"
+    }
+
+        ,{
+        "file": "Class2String/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Class2String/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Class2String/Class2String.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Class2String/obj/GX/Seekatar.OptionToStringGenerator/Seekatar.OptionToStringGenerator.OptionToStringGenerator/ClassExtensions.g.cs",
+        "description": "File Program.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

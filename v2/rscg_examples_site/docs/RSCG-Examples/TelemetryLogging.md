@@ -449,6 +449,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging
 ### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 
+### [OptionToStringGenerator](/docs/OptionToStringGenerator)
+
+
 ### [RSCG_Decorator](/docs/RSCG_Decorator)
 
 

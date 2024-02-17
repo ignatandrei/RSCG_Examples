@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 111 RSCG by category 
-description: 111 RSCG by category 
+title: 112 RSCG by category 
+description: 112 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -174,10 +174,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementClass Number Examples: 23
+## EnhancementClass Number Examples: 24
 <details>
     
-  <summary>Expand EnhancementClass =>examples:23</summary>
+  <summary>Expand EnhancementClass =>examples:24</summary>
         
 
 
@@ -292,6 +292,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [HsuSgSync](/docs/HsuSgSync)
+
+        
+
+
+[OptionToStringGenerator](/docs/OptionToStringGenerator)
 
 </details>
     
@@ -808,6 +813,8 @@ flowchart LR;
     EnhancementClass--> AspectGenerator((AspectGenerator))
 
     EnhancementClass--> HsuSgSync((HsuSgSync))
+
+    EnhancementClass--> OptionToStringGenerator((OptionToStringGenerator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

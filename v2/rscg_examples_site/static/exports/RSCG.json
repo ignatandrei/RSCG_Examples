@@ -889,6 +889,14 @@
       "Source": "https://github.com/jeppevammenkristensen/cachesourcegenerator",
       "Category": "FunctionalProgramming",
       "AddedOn": "2024-02-01T00:00:00"
+    },
+    {
+      "Name": "OptionToStringGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/OptionToStringGenerator",
+      "NuGet": "https://www.nuget.org/packages/Seekatar.OptionToStringGenerator/",
+      "Source": "https://github.com/Seekatar/OptionToStringGenerator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-02-02T00:00:00"
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"OptionToStringGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Seekatar.OptionToStringGenerator/"
+      ],
+      "link":"https://github.com/Seekatar/OptionToStringGenerator",
+      "author":"Jim W",
+      "source":"https://github.com/Seekatar/OptionToStringGenerator"
+   },
+   "data":{
+      "goodFor":["Generating similar ToString method for classes with many properties. It can also generate for external classes."],
+      "csprojDemo":"Class2String.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -909,6 +909,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript
 ### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
 
+### [OptionToStringGenerator](/docs/OptionToStringGenerator)
+
+
 ### [RSCG_Decorator](/docs/RSCG_Decorator)
 
 
