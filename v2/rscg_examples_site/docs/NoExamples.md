@@ -120,7 +120,7 @@ Why I have not put example: not having nuget, but having IIncrementalGenerator
 
 29)CsWin32 https://github.com/microsoft/CsWin32  
 
-Why I have not put example: later
+Why I have not put example: old ISourceGenerator
 
 30)Data https://github.com/dasMulli/data-builder-generator  
 
@@ -176,7 +176,7 @@ Why I have not put example: old ISourceGenerator
 
 43)epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator  
 
-Why I have not put example: later
+Why I have not put example: too complicated for me, need help
 
 44)Fairy https://github.com/hermanussen/Fairy  
 
@@ -296,7 +296,7 @@ Why I have not put example: no readme
 
 73)JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator  
 
-Why I have not put example: later
+Why I have not put example: not having nuget, but having IIncrementalGenerator
 
 74)JsonSrcGen https://github.com/trampster/JsonSrcGen  
 
@@ -328,7 +328,7 @@ Why I have not put example: issue opened
 
 81)ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler  
 
-Why I have not put example: later
+Why I have not put example: too complicated for me, need help
 
 82)MapDataReader https://github.com/jitbit/MapDataReader  
 

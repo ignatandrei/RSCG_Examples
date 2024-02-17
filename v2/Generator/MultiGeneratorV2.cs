@@ -158,11 +158,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
 ,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
 ,new("OptionToStringGenerator https://github.com/Seekatar/OptionToStringGenerator",later)
-,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",later)
+,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",tooComplicated)
 ,new("Maui https://github.com/zzyzy/Maui",later)
-,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",later)
-,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",later)
-, new ("CsWin32 https://github.com/microsoft/CsWin32", later)
+,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",inspirational )
+,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
+, new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -928,7 +928,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "NetAutomaticInterface";
+        var lastGenerator = "cachesourcegenerator";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
