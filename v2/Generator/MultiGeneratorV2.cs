@@ -389,9 +389,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
             text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");
             text = text.Replace("(src/Jab.Performance/)", $"({d.Generator!.Source}src/Jab.Performance/");
-            text = text.Replace("(README.md#Unity-installation)", $"({d.Generator!.Source}README.md#Unity-installation");
-            text = text.Replace("(license.md)", $"({d.Generator!.Source}license.md");            
-            text = text.Replace("(./LICENSE", $"({d.Generator!.Source}src/Hsu");
+            text = text.Replace("(README.md#Unity-installation)", $"({d.Generator!.Source}/README.md#Unity-installation");
+            text = text.Replace("(license.md)", $"({d.Generator!.Source}/license.md)");
+            text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            text = text.Replace("(./LICENSE", $"({d.Generator!.Source}/LICENSE");
             text = text.Replace("./src/Hsu", $"{d.Generator!.Source}/src/Hsu");
             text = text.Replace("(src/Ling.Cache)", $"({d.Generator!.Source}src/Ling.Cache)");
             text = text.Replace("(src/Ling.Audit)", $"({d.Generator!.Source}src/Ling.Audit)");

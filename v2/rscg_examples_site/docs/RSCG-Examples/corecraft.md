@@ -168,7 +168,7 @@ Please refer to the [documentation](https://github.com/AlexNav73/CoreCraft/wiki/
 
 ## License
 
-[MIT](LICENSE).
+[MIT](https://github.com/AlexNav73/CoreCraft/LICENSE).
 
 :::
 
