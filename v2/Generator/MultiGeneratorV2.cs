@@ -148,7 +148,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
-, new("json-converter-source-generator https://github.com/aviationexam/json-converter-source-generator",WaitingForIssue)
 ,new("AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",tooComplicated)
 ,new ("TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",later)
 , new("UnitTestBlazor https://github.com/bUnit-dev/bUnit",WaitingForIssue)
