@@ -913,6 +913,14 @@
       "Source": "https://github.com/AlexNav73/CoreCraft",
       "Category": "FilesToCode",
       "AddedOn": "2024-02-17T00:00:00"
+    },
+    {
+      "Name": "UnionsGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator",
+      "NuGet": "https://www.nuget.org/packages/RhoMicro.CodeAnalysis.UnionsGenerator",
+      "Source": "https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-02-18T00:00:00"
     }
   ]
 }

@@ -128,6 +128,7 @@ input-files:
 - examples/OptionToStringGenerator.html
 - examples/sourcedepend.html
 - examples/corecraft.html
+- examples/UnionsGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

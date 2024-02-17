@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"UnionsGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/RhoMicro.CodeAnalysis.UnionsGenerator"
+      ],
+      "link":"https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/",
+      "author":"Paul Braetz",
+      "source":"https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/"
+   },
+   "data":{
+      "goodFor":["Generating Union types for C#"],
+      "csprojDemo":"UnionTypesDemo.csproj",
+      "csFiles":["Program.cs","Program.cs","ResultSave.cs","SaveToDatabase.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

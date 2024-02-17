@@ -113,3 +113,4 @@ Nr,Key,Source,Category
 112,OptionToStringGenerator, https://github.com/Seekatar/OptionToStringGenerator,EnhancementClass
 113,sourcedepend, https://github.com/crwsolutions/sourcedepend,Constructor
 114,corecraft, https://github.com/AlexNav73/CoreCraft,FilesToCode
+115,UnionsGenerator, https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/,FunctionalProgramming

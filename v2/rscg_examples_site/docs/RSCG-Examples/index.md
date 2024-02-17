@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 114 RSCG by category 
-description: 114 RSCG by category 
+title: 115 RSCG by category 
+description: 115 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -437,10 +437,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## FunctionalProgramming Number Examples: 8
+## FunctionalProgramming Number Examples: 9
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:8</summary>
+  <summary>Expand FunctionalProgramming =>examples:9</summary>
         
 
 
@@ -480,6 +480,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [cachesourcegenerator](/docs/cachesourcegenerator)
+
+        
+
+
+[UnionsGenerator](/docs/UnionsGenerator)
 
 </details>
     
@@ -887,6 +892,8 @@ flowchart LR;
     FunctionalProgramming--> FunicularSwitch((FunicularSwitch))
 
     FunctionalProgramming--> cachesourcegenerator((cachesourcegenerator))
+
+    FunctionalProgramming--> UnionsGenerator((UnionsGenerator))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 
