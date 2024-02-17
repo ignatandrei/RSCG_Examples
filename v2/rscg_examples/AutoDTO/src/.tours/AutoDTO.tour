@@ -31,7 +31,7 @@
 
         ,{
         "file": "AutoDTODemo/obj/GX/AutoDto.SourceGen/AutoDto.SourceGen.DtoFromBlGenerator/DepartmentDTO.g.cs",
-        "description": "File Program.cs ",
+        "description": "File DepartmentDTO.g.cs ",
         "line": 1
         }
     

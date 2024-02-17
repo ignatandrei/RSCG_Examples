@@ -6,29 +6,73 @@
   [
     {
       "file": "UnionTypesDemo/UnionTypesDemo.csproj",
-      "description": "Nuget  N.SourceGenerators.UnionTypes registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [N.SourceGenerators.UnionTypes](https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/) in csproj  ",
+      "pattern": "N.SourceGenerators.UnionTypes"
     }
 
         ,{
         "file": "UnionTypesDemo/SaveToDatabase.cs",
-        "description": "File SaveToDatabase.cs ",
-        "line": 1
+        "description": "File SaveToDatabase.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "UnionTypesDemo/ResultSave.cs",
-        "description": "File ResultSave.cs ",
-        "line": 1
+        "description": "File ResultSave.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "UnionTypesDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project UnionTypesDemo/UnionTypesDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionTypeAttribute.g.cs",
+        "description": "File UnionTypeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionConverterToAttribute.g.cs",
+        "description": "File UnionConverterToAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionConverterFromAttribute.g.cs",
+        "description": "File UnionConverterFromAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionConverterAttribute.g.cs",
+        "description": "File UnionConverterAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/ResultSave.g.cs",
+        "description": "File ResultSave.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/JsonPolymorphicUnionAttribute.g.cs",
+        "description": "File JsonPolymorphicUnionAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/GenericUnionTypeAttribute.g.cs",
+        "description": "File GenericUnionTypeAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

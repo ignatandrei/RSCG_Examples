@@ -6,23 +6,43 @@
   [
     {
       "file": "PropChangeDemo/PropChangeDemo.csproj",
-      "description": "Nuget  PropertyChanged.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [PropertyChanged.SourceGenerator](https://www.nuget.org/packages/PropertyChanged.SourceGenerator/) in csproj  ",
+      "pattern": "PropertyChanged.SourceGenerator"
     }
 
         ,{
         "file": "PropChangeDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "PropChangeDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project PropChangeDemo/PropChangeDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/Person.g.cs",
+        "description": "File Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/EventArgsCache.g.cs",
+        "description": "File EventArgsCache.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/Attributes.cs",
+        "description": "File Attributes.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -25,7 +25,7 @@
 
         ,{
         "file": "HangFireRec/obj/GX/IeuanWalker.Hangfire.RecurringJob.Generator/IeuanWalker.Hangfire.RecurringJob.Generator.RecuringJobGenerator/RecurringJobRegistrationExtensions.g.cs",
-        "description": "File MyNewJob.cs ",
+        "description": "File RecurringJobRegistrationExtensions.g.cs ",
         "line": 1
         }
     

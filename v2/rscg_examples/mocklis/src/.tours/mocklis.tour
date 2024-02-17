@@ -31,7 +31,7 @@
 
         ,{
         "file": "MockLisTest/obj/GX/Mocklis.MockGenerator/Mocklis.MockGenerator.MocklisSourceGenerator/TestClock.TestMock.g.cs",
-        "description": "File TestMock.cs ",
+        "description": "File TestClock.TestMock.g.cs ",
         "line": 1
         }
     

@@ -37,13 +37,13 @@
 
         ,{
         "file": "RSCG_TemplatingDemo/obj/GX/RSCG_Templating/RSCG_Templating.GeneratorIntercept/RSCG_TemplatingDemo.Person.ClassTypeName.cs",
-        "description": "File Person.cs ",
+        "description": "File RSCG_TemplatingDemo.Person.ClassTypeName.cs ",
         "line": 1
         }
     
         ,{
         "file": "RSCG_TemplatingDemo/obj/GX/RSCG_Templating/RSCG_Templating.GeneratorIntercept/RSCG_TemplatingDemo.Person.ClassPropByName.cs",
-        "description": "File Program.cs ",
+        "description": "File RSCG_TemplatingDemo.Person.ClassPropByName.cs ",
         "line": 1
         }
     

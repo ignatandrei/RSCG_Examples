@@ -6,29 +6,55 @@
   [
     {
       "file": "NextGenMapperDemo/NextGenMapperDemo.csproj",
-      "description": "Nuget  NextGenMapper registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [NextGenMapper](https://www.nuget.org/packages/NextGenMapper/) in csproj  ",
+      "pattern": "NextGenMapper"
     }
 
         ,{
         "file": "NextGenMapperDemo/PersonDTO.cs",
-        "description": "File PersonDTO.cs ",
-        "line": 1
+        "description": "File PersonDTO.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "NextGenMapperDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "NextGenMapperDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project NextGenMapperDemo/NextGenMapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/StartMapper.g.cs",
+        "description": "File StartMapper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/Mapper_ConfiguredMaps_MockMethods.g.cs",
+        "description": "File Mapper_ConfiguredMaps_MockMethods.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/Mapper_ConfiguredMaps.g.cs",
+        "description": "File Mapper_ConfiguredMaps.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/MapperExtensions.g.cs",
+        "description": "File MapperExtensions.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -37,7 +37,7 @@
 
         ,{
         "file": "InjectioDemo/obj/GX/Injectio.Generators/Injectio.Generators.ServiceRegistrationGenerator/Injectio.g.cs",
-        "description": "File Program.cs ",
+        "description": "File Injectio.g.cs ",
         "line": 1
         }
     

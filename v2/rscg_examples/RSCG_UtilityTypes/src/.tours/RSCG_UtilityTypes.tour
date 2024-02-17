@@ -25,13 +25,13 @@
 
         ,{
         "file": "UtilDemo/obj/GX/RSCG_UtilityTypes/RSCG_UtilityTypes.OmitPick/PersonFull_Person2.cs",
-        "description": "File Person.cs ",
+        "description": "File PersonFull_Person2.cs ",
         "line": 1
         }
     
         ,{
         "file": "UtilDemo/obj/GX/RSCG_UtilityTypes/RSCG_UtilityTypes.OmitPick/PersonFull_Person1.cs",
-        "description": "File Program.cs ",
+        "description": "File PersonFull_Person1.cs ",
         "line": 1
         }
     

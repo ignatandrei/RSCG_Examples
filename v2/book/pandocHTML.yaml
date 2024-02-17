@@ -126,6 +126,7 @@ input-files:
 - examples/jab.html
 - examples/cachesourcegenerator.html
 - examples/OptionToStringGenerator.html
+- examples/sourcedepend.html
 
 # or you may use input-file: with a single value
 # defaults:

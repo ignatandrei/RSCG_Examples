@@ -25,13 +25,13 @@
 
         ,{
         "file": "ImmutypeDemo/obj/GX/Immutype/Immutype.SourceGenerator/ImmutypeDemo.Person.cs",
-        "description": "File Person.cs ",
+        "description": "File ImmutypeDemo.Person.cs ",
         "line": 1
         }
     
         ,{
         "file": "ImmutypeDemo/obj/GX/Immutype/Immutype.SourceGenerator/Immutype.Components.Contracts.cs",
-        "description": "File Program.cs ",
+        "description": "File Immutype.Components.Contracts.cs ",
         "line": 1
         }
     

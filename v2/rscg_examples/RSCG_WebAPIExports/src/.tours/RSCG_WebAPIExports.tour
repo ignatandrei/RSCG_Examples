@@ -6,23 +6,43 @@
   [
     {
       "file": "RSCG_WebAPIExportsDemo/RSCG_WebAPIExportsDemo.csproj",
-      "description": "Nuget  RSCG_WebAPIExports registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [RSCG_WebAPIExports](https://www.nuget.org/packages/RSCG_WebAPIExports/) in csproj  ",
+      "pattern": "RSCG_WebAPIExports"
     }
 
         ,{
         "file": "RSCG_WebAPIExportsDemo/Controllers/WeatherForecastController.cs",
-        "description": "File WeatherForecastController.cs ",
-        "line": 1
+        "description": "File WeatherForecastController.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_WebAPIExportsDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_WebAPIExportsDemo/RSCG_WebAPIExportsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RSCG_WebAPIExportsDemo/obj/GX/RSCG_APIExport/RSCG_APIExport.GenerateExportForWebAPI/MiddlewareExportToFile.g.cs",
+        "description": "File MiddlewareExportToFile.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_WebAPIExportsDemo/obj/GX/RSCG_APIExport/RSCG_APIExport.GenerateExportForWebAPI/middlewareExport.methods.g.cs",
+        "description": "File middlewareExport.methods.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_WebAPIExportsDemo/obj/GX/RSCG_APIExport/RSCG_APIExport.GenerateExportForWebAPI/Extensions.g.cs",
+        "description": "File Extensions.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

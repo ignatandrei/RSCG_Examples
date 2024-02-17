@@ -25,7 +25,7 @@
 
         ,{
         "file": "DemoLogging/obj/GX/Microsoft.Gen.Logging/Microsoft.Gen.Logging.LoggingGenerator/Logging.g.cs",
-        "description": "File Program.cs ",
+        "description": "File Logging.g.cs ",
         "line": 1
         }
     

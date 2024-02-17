@@ -31,7 +31,7 @@
 
         ,{
         "file": "LibraryImportDemo/obj/GX/Microsoft.Interop.LibraryImportGenerator/Microsoft.Interop.LibraryImportGenerator/LibraryImports.g.cs",
-        "description": "File Program.cs ",
+        "description": "File LibraryImports.g.cs ",
         "line": 1
         }
     

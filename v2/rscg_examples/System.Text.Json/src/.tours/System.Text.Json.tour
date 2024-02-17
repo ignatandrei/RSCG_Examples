@@ -6,29 +6,73 @@
   [
     {
       "file": "DemoSerializeJSON/DemoSerializeJSON.csproj",
-      "description": "Nuget  System.Text.Json registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [System.Text.Json](https://www.nuget.org/packages/System.Text.Json/) in csproj  ",
+      "pattern": "System.Text.Json"
     }
 
         ,{
         "file": "DemoSerializeJSON/OptionsExampleContext.cs",
-        "description": "File OptionsExampleContext.cs ",
-        "line": 1
+        "description": "File OptionsExampleContext.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoSerializeJSON/WeatherForecast.cs",
-        "description": "File WeatherForecast.cs ",
-        "line": 1
+        "description": "File WeatherForecast.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DemoSerializeJSON/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoSerializeJSON/DemoSerializeJSON.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.WeatherForecast.g.cs",
+        "description": "File OptionsExampleContext.WeatherForecast.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.String.g.cs",
+        "description": "File OptionsExampleContext.String.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.PropertyNames.g.cs",
+        "description": "File OptionsExampleContext.PropertyNames.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.Int32.g.cs",
+        "description": "File OptionsExampleContext.Int32.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.GetJsonTypeInfo.g.cs",
+        "description": "File OptionsExampleContext.GetJsonTypeInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.g.cs",
+        "description": "File OptionsExampleContext.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.DateTime.g.cs",
+        "description": "File OptionsExampleContext.DateTime.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

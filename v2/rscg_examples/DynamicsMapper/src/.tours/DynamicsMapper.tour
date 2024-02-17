@@ -6,23 +6,43 @@
   [
     {
       "file": "MapperDemo/MapperDemo.csproj",
-      "description": "Nuget  YC.DynamicsMapper registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [YC.DynamicsMapper](https://www.nuget.org/packages/YC.DynamicsMapper/) in csproj  ",
+      "pattern": "YC.DynamicsMapper"
     }
 
         ,{
         "file": "MapperDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "MapperDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project MapperDemo/MapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "MapperDemo/obj/GX/DynamicsMapper/DynamicsMapper.MapperGenerator/PersonMapper.g.cs",
+        "description": "File PersonMapper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MapperDemo/obj/GX/DynamicsMapper/DynamicsMapper.MapperGenerator/IEntityMapper.g.cs",
+        "description": "File IEntityMapper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MapperDemo/obj/GX/DynamicsMapper/DynamicsMapper.MapperGenerator/EntityExtentions.g.cs",
+        "description": "File EntityExtentions.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

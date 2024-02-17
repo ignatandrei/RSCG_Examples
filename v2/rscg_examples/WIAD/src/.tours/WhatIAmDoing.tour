@@ -6,23 +6,49 @@
   [
     {
       "file": "WIADDemo/WIADDemo.csproj",
-      "description": "Nuget  RSCG_WhatIAmDoing registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [RSCG_WhatIAmDoing](https://www.nuget.org/packages/RSCG_WhatIAmDoing/) in csproj  ",
+      "pattern": "RSCG_WhatIAmDoing"
     }
 
         ,{
         "file": "WIADDemo/InterceptorStatic.cs",
-        "description": "File InterceptorStatic.cs ",
-        "line": 1
+        "description": "File InterceptorStatic.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "WIADDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project WIADDemo/WIADDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "WIADDemo/obj/GX/RSCG_WhatIAmDoing/RSCG_WhatIAmDoing.GeneratorWIAD/System.Console_WriteLine_4.cs",
+        "description": "File System.Console_WriteLine_4.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "WIADDemo/obj/GX/RSCG_WhatIAmDoing/RSCG_WhatIAmDoing.GeneratorWIAD/System.Console_WriteLine_3.cs",
+        "description": "File System.Console_WriteLine_3.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "WIADDemo/obj/GX/RSCG_WhatIAmDoing/RSCG_WhatIAmDoing.GeneratorWIAD/System.Console_WriteLine_2.cs",
+        "description": "File System.Console_WriteLine_2.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "WIADDemo/obj/GX/RSCG_WhatIAmDoing/RSCG_WhatIAmDoing.GeneratorWIAD/System.Console_WriteLine_1.cs",
+        "description": "File System.Console_WriteLine_1.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

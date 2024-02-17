@@ -6,29 +6,79 @@
   [
     {
       "file": "IDisp/IDisp.csproj",
-      "description": "Nuget  Benutomo.AutomaticDisposeImpl.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Benutomo.AutomaticDisposeImpl.SourceGenerator](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/) in csproj  ",
+      "pattern": "Benutomo.AutomaticDisposeImpl.SourceGenerator"
     }
 
         ,{
         "file": "IDisp/ConnectionDB.cs",
-        "description": "File ConnectionDB.cs ",
-        "line": 1
+        "description": "File ConnectionDB.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "IDisp/DALDB.cs",
-        "description": "File DALDB.cs ",
-        "line": 1
+        "description": "File DALDB.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "IDisp/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/UnmanagedResourceReleaseMethodAttribute.cs",
+        "description": "File UnmanagedResourceReleaseMethodAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/ManagedObjectDisposeMethodAttribute.cs",
+        "description": "File ManagedObjectDisposeMethodAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/ManagedObjectAsyncDisposeMethodAttribute.cs",
+        "description": "File ManagedObjectAsyncDisposeMethodAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs",
+        "description": "File gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/EnableAutomaticDisposeAttribute.cs",
+        "description": "File EnableAutomaticDisposeAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/DisableAutomaticDisposeAttribute.cs",
+        "description": "File DisableAutomaticDisposeAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/AutomaticDisposeImplMode.cs",
+        "description": "File AutomaticDisposeImplMode.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/AutomaticDisposeImplAttribute.cs",
+        "description": "File AutomaticDisposeImplAttribute.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -897,6 +897,14 @@
       "Source": "https://github.com/Seekatar/OptionToStringGenerator",
       "Category": "EnhancementClass",
       "AddedOn": "2024-02-02T00:00:00"
+    },
+    {
+      "Name": "sourcedepend",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/sourcedepend",
+      "NuGet": "https://www.nuget.org/packages/sourcedepend/",
+      "Source": "https://github.com/crwsolutions/sourcedepend",
+      "Category": "Constructor",
+      "AddedOn": "2024-02-02T00:00:00"
     }
   ]
 }

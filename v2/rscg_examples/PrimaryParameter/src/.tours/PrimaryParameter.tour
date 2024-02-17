@@ -6,23 +6,49 @@
   [
     {
       "file": "ConstructorDemo/ConstructorDemo.csproj",
-      "description": "Nuget  FaustVX.PrimaryParameter.SG registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [FaustVX.PrimaryParameter.SG](https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG) in csproj  ",
+      "pattern": "FaustVX.PrimaryParameter.SG"
     }
 
         ,{
         "file": "ConstructorDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ConstructorDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project ConstructorDemo/ConstructorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ConstructorDemo/obj/GX/PrimaryParameter.SG/PrimaryParameter.SG.Generator/RefFieldAttribute.g.cs",
+        "description": "File RefFieldAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/PrimaryParameter.SG/PrimaryParameter.SG.Generator/PropertyAttribute.g.cs",
+        "description": "File PropertyAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/PrimaryParameter.SG/PrimaryParameter.SG.Generator/FieldAttribute.g.cs",
+        "description": "File FieldAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/PrimaryParameter.SG/PrimaryParameter.SG.Generator/FaustVX.PrimaryParameter.SG.g.cs",
+        "description": "File FaustVX.PrimaryParameter.SG.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -25,7 +25,7 @@
 
         ,{
         "file": "EmbedRes/obj/GX/EmbeddedResourceAccessGenerator/EmbeddedResourceAccessGenerator.EmbeddedResourceAccessGenerator/EmbeddedResources.generated.cs",
-        "description": "File Program.cs ",
+        "description": "File EmbeddedResources.generated.cs ",
         "line": 1
         }
     

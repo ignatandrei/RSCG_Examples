@@ -6,23 +6,589 @@
   [
     {
       "file": "Dm/PolyDemo.csproj",
-      "description": "Nuget  Meziantou.Polyfill registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Meziantou.Polyfill](https://www.nuget.org/packages/Meziantou.Polyfill/) in csproj  ",
+      "pattern": "Meziantou.Polyfill"
     }
 
         ,{
         "file": "Dm/StartProcess.cs",
-        "description": "File StartProcess.cs ",
-        "line": 1
+        "description": "File StartProcess.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Dm/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project Dm/PolyDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Threading.Tasks.TaskToAsyncResult.g.cs",
+        "description": "File T_System.Threading.Tasks.TaskToAsyncResult.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.UnsupportedOSPlatformGuardAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.UnsupportedOSPlatformAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.UnsupportedOSPlatformAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.TargetPlatformAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.TargetPlatformAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.SupportedOSPlatformGuardAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.SupportedOSPlatformGuardAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.SupportedOSPlatformAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.SupportedOSPlatformAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.RequiresPreviewFeaturesAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.RequiresPreviewFeaturesAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.Versioning.ObsoletedOSPlatformAttribute.g.cs",
+        "description": "File T_System.Runtime.Versioning.ObsoletedOSPlatformAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.InteropServices.UnmanagedCallersOnlyAttribute.g.cs",
+        "description": "File T_System.Runtime.InteropServices.UnmanagedCallersOnlyAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.InteropServices.SuppressGCTransitionAttribute.g.cs",
+        "description": "File T_System.Runtime.InteropServices.SuppressGCTransitionAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.SkipLocalsInitAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.SkipLocalsInitAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.RequiredMemberAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.RequiredMemberAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.ModuleInitializerAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.ModuleInitializerAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.IsExternalInit.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.IsExternalInit.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.InterpolatedStringHandlerAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.InterpolatedStringHandlerArgumentAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.InterpolatedStringHandlerArgumentAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.DisableRuntimeMarshallingAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.CompilerFeatureRequiredAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.CollectionBuilderAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.CollectionBuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.CallerArgumentExpressionAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Runtime.CompilerServices.AsyncMethodBuilderAttribute.g.cs",
+        "description": "File T_System.Runtime.CompilerServices.AsyncMethodBuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Range.g.cs",
+        "description": "File T_System.Range.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Index.g.cs",
+        "description": "File T_System.Index.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.HashCode.g.cs",
+        "description": "File T_System.HashCode.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.StackTraceHiddenAttribute.g.cs",
+        "description": "File T_System.Diagnostics.StackTraceHiddenAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.UnscopedRefAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.StringSyntaxAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.StringSyntaxAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.SetsRequiredMembersAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.RequiresDynamicCodeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.RequiresAssemblyFilesAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.NotNullWhenAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.NotNullIfNotNullAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.NotNullAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.NotNullAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.MemberNotNullWhenAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.MemberNotNullAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.MemberNotNullAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.MaybeNullWhenAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.MaybeNullAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.MaybeNullAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembersAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.DoesNotReturnIfAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.DoesNotReturnAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.DisallowNullAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.DisallowNullAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Diagnostics.CodeAnalysis.AllowNullAttribute.g.cs",
+        "description": "File T_System.Diagnostics.CodeAnalysis.AllowNullAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Collections.Generic.ReferenceEqualityComparer.g.cs",
+        "description": "File T_System.Collections.Generic.ReferenceEqualityComparer.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/T_System.Collections.Generic.PriorityQueue`2.g.cs",
+        "description": "File T_System.Collections.Generic.PriorityQueue`2.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Threading.Tasks.Task.WaitAsync(System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.Threading.Tasks.Task.WaitAsync(System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Threading.CancellationTokenSource.CancelAsync.g.cs",
+        "description": "File M_System.Threading.CancellationTokenSource.CancelAsync.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Text.StringBuilder.AppendJoin``1(System.String,System.Collections.Generic.IEnumerable{``0}).g.cs",
+        "description": "File M_System.Text.StringBuilder.AppendJoin``1(System.String,System.Collections.Generic.IEnumerable{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Text.StringBuilder.AppendJoin``1(System.Char,System.Collections.Generic.IEnumerable{``0}).g.cs",
+        "description": "File M_System.Text.StringBuilder.AppendJoin``1(System.Char,System.Collections.Generic.IEnumerable{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Text.StringBuilder.AppendJoin(System.String,System.String[]).g.cs",
+        "description": "File M_System.Text.StringBuilder.AppendJoin(System.String,System.String[]).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Text.StringBuilder.AppendJoin(System.String,System.Object[]).g.cs",
+        "description": "File M_System.Text.StringBuilder.AppendJoin(System.String,System.Object[]).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Text.StringBuilder.AppendJoin(System.Char,System.String[]).g.cs",
+        "description": "File M_System.Text.StringBuilder.AppendJoin(System.Char,System.String[]).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Text.StringBuilder.AppendJoin(System.Char,System.Object[]).g.cs",
+        "description": "File M_System.Text.StringBuilder.AppendJoin(System.Char,System.Object[]).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.StartsWith(System.Char).g.cs",
+        "description": "File M_System.String.StartsWith(System.Char).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.Split(System.Char,System.StringSplitOptions).g.cs",
+        "description": "File M_System.String.Split(System.Char,System.StringSplitOptions).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.Split(System.Char,System.Int32,System.StringSplitOptions).g.cs",
+        "description": "File M_System.String.Split(System.Char,System.Int32,System.StringSplitOptions).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.ReplaceLineEndings.g.cs",
+        "description": "File M_System.String.ReplaceLineEndings.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.ReplaceLineEndings(System.String).g.cs",
+        "description": "File M_System.String.ReplaceLineEndings(System.String).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.Replace(System.String,System.String,System.StringComparison).g.cs",
+        "description": "File M_System.String.Replace(System.String,System.String,System.StringComparison).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.IndexOf(System.Char,System.StringComparison).g.cs",
+        "description": "File M_System.String.IndexOf(System.Char,System.StringComparison).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.GetHashCode(System.StringComparison).g.cs",
+        "description": "File M_System.String.GetHashCode(System.StringComparison).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.EndsWith(System.Char).g.cs",
+        "description": "File M_System.String.EndsWith(System.Char).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.Contains(System.String,System.StringComparison).g.cs",
+        "description": "File M_System.String.Contains(System.String,System.StringComparison).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.Contains(System.Char,System.StringComparison).g.cs",
+        "description": "File M_System.String.Contains(System.Char,System.StringComparison).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.String.Contains(System.Char).g.cs",
+        "description": "File M_System.String.Contains(System.Char).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Net.Http.HttpContent.ReadAsStream.g.cs",
+        "description": "File M_System.Net.Http.HttpContent.ReadAsStream.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Net.Http.HttpContent.ReadAsStream(System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.Net.Http.HttpContent.ReadAsStream(System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.Net.Http.HttpContent.CopyToAsync(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Net.Http.HttpContent.CopyTo(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.Net.Http.HttpContent.CopyTo(System.IO.Stream,System.Net.TransportContext,System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.Zip``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0}).g.cs",
+        "description": "File M_System.Linq.Enumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0}).g.cs",
+        "description": "File M_System.Linq.Enumerable.ToHashSet``1(System.Collections.Generic.IEnumerable{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.Order``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0}).g.cs",
+        "description": "File M_System.Linq.Enumerable.Order``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.Order``1(System.Collections.Generic.IEnumerable{``0}).g.cs",
+        "description": "File M_System.Linq.Enumerable.Order``1(System.Collections.Generic.IEnumerable{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.OrderDescending``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0}).g.cs",
+        "description": "File M_System.Linq.Enumerable.OrderDescending``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.OrderDescending``1(System.Collections.Generic.IEnumerable{``0}).g.cs",
+        "description": "File M_System.Linq.Enumerable.OrderDescending``1(System.Collections.Generic.IEnumerable{``0}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.MinBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IComparer{``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.MaxBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs",
+        "description": "File M_System.Linq.Enumerable.DistinctBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1}).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.IO.TextReader.ReadToEndAsync(System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.IO.TextReader.ReadToEndAsync(System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Diagnostics.Process.WaitForExitAsync(System.Threading.CancellationToken).g.cs",
+        "description": "File M_System.Diagnostics.Process.WaitForExitAsync(System.Threading.CancellationToken).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Collections.Generic.Queue`1.TryDequeue(`0_).g.cs",
+        "description": "File M_System.Collections.Generic.Queue`1.TryDequeue(`0_).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Collections.Generic.KeyValuePair`2.Deconstruct(`0_,`1_).g.cs",
+        "description": "File M_System.Collections.Generic.KeyValuePair`2.Deconstruct(`0_,`1_).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0,``1).g.cs",
+        "description": "File M_System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0,``1).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0).g.cs",
+        "description": "File M_System.Collections.Generic.CollectionExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/M_System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd``1(`0,System.Func{`0,``0,`1},``0).g.cs",
+        "description": "File M_System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd``1(`0,System.Func{`0,``0,`1},``0).g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Dm/obj/GX/Meziantou.Polyfill/Meziantou.Polyfill.PolyfillGenerator/Debug.g.cs",
+        "description": "File Debug.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

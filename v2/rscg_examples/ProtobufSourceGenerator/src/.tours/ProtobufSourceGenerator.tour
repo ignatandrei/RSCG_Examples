@@ -25,7 +25,7 @@
 
         ,{
         "file": "ProtobufSourceGeneratorDemo/obj/GX/ProtobufSourceGenerator/ProtobufSourceGenerator.Incremental.IncrementalSourceGenerator/ProtoPerson.g.cs",
-        "description": "File Program.cs ",
+        "description": "File ProtoPerson.g.cs ",
         "line": 1
         }
     

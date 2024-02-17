@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CommandLine",
+  "steps": 
+  [
+    {
+      "file": "CmdDemo/CmdDemo.csproj",
+      "description": "First, we add Nuget  [DotMake.CommandLine](https://www.nuget.org/packages/DotMake.CommandLine/) in csproj  ",
+      "pattern": "DotMake.CommandLine"
+    }
+
+        ,{
+        "file": "CmdDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CmdDemo/CmdDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CmdDemo/obj/GX/DotMake.CommandLine.SourceGeneration/DotMake.CommandLine.SourceGeneration.CliCommandGenerator/CliCommandAsDelegate_3r0zsncBuilder-ax4j3pc.g.cs",
+        "description": "File CliCommandAsDelegate_3r0zsncBuilder-ax4j3pc.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CmdDemo/obj/GX/DotMake.CommandLine.SourceGeneration/DotMake.CommandLine.SourceGeneration.CliCommandGenerator/CliCommandAsDelegate_3r0zsnc.g.cs",
+        "description": "File CliCommandAsDelegate_3r0zsnc.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CmdDemo/obj/GX/DotMake.CommandLine.SourceGeneration/DotMake.CommandLine.SourceGeneration.CliCommandGenerator/CliCommandAsDelegate_34pdvjrBuilder-empvmnm.g.cs",
+        "description": "File CliCommandAsDelegate_34pdvjrBuilder-empvmnm.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CmdDemo/obj/GX/DotMake.CommandLine.SourceGeneration/DotMake.CommandLine.SourceGeneration.CliCommandGenerator/CliCommandAsDelegate_34pdvjr.g.cs",
+        "description": "File CliCommandAsDelegate_34pdvjr.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CmdDemo/obj/GX/DotMake.CommandLine.SourceGeneration/DotMake.CommandLine.SourceGeneration.CliCommandGenerator/CliCommandAsDelegate_1ra93x8Builder-6ke4hy4.g.cs",
+        "description": "File CliCommandAsDelegate_1ra93x8Builder-6ke4hy4.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CmdDemo/obj/GX/DotMake.CommandLine.SourceGeneration/DotMake.CommandLine.SourceGeneration.CliCommandGenerator/CliCommandAsDelegate_1ra93x8.g.cs",
+        "description": "File CliCommandAsDelegate_1ra93x8.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

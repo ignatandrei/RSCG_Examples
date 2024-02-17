@@ -31,19 +31,19 @@
 
         ,{
         "file": "TestEnumEscapades/obj/GX/NetEscapades.EnumGenerators/NetEscapades.EnumGenerators.EnumGenerator/InstallTypeExtensions_EnumExtensions.g.cs",
-        "description": "File AddToCoffee.cs ",
+        "description": "File InstallTypeExtensions_EnumExtensions.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestEnumEscapades/obj/GX/NetEscapades.EnumGenerators/NetEscapades.EnumGenerators.EnumGenerator/EnumExtensionsAttribute.g.cs",
-        "description": "File InstallType.cs ",
+        "description": "File EnumExtensionsAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestEnumEscapades/obj/GX/NetEscapades.EnumGenerators/NetEscapades.EnumGenerators.EnumGenerator/AddToCoffeeExtensions_EnumExtensions.g.cs",
-        "description": "File Program.cs ",
+        "description": "File AddToCoffeeExtensions_EnumExtensions.g.cs ",
         "line": 1
         }
     

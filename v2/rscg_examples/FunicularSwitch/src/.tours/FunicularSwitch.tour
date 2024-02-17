@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "FunicularSwitch",
+  "steps": 
+  [
+    {
+      "file": "Union/Union.csproj",
+      "description": "First, we add Nuget  [FunicularSwitch.Generators](https://www.nuget.org/packages/FunicularSwitch.Generators/) in csproj  ",
+      "pattern": "FunicularSwitch.Generators"
+    }
+
+        ,{
+        "file": "Union/SaveToDatabase.cs",
+        "description": "File SaveToDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Union/ResultSave.cs",
+        "description": "File ResultSave.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Union/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Union/Union.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Union/obj/GX/FunicularSwitch.Generators/FunicularSwitch.Generators.UnionTypeGenerator/Attributes.g.cs",
+        "description": "File Attributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Union/obj/GX/FunicularSwitch.Generators/FunicularSwitch.Generators.ResultTypeGenerator/Union.ResultSave.g.cs",
+        "description": "File Union.ResultSave.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Union/obj/GX/FunicularSwitch.Generators/FunicularSwitch.Generators.ResultTypeGenerator/Attributes.g.cs",
+        "description": "File Attributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Union/obj/GX/FunicularSwitch.Generators/FunicularSwitch.Generators.EnumTypeGenerator/Attributes.g.cs",
+        "description": "File Attributes.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

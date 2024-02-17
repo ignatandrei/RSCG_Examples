@@ -25,13 +25,13 @@
 
         ,{
         "file": "OneOfDemo/obj/GX/OneOf.SourceGenerator/OneOf.SourceGenerator.OneOfGenerator/OneOfDemo_StringOrNumber.g.cs",
-        "description": "File StringOrNumber.cs ",
+        "description": "File OneOfDemo_StringOrNumber.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "OneOfDemo/obj/GX/OneOf.SourceGenerator/OneOf.SourceGenerator.OneOfGenerator/GenerateOneOfAttribute.g.cs",
-        "description": "File Program.cs ",
+        "description": "File GenerateOneOfAttribute.g.cs ",
         "line": 1
         }
     

@@ -37,19 +37,19 @@
 
         ,{
         "file": "MorrisMoxyDemo/obj/GX/Morris.Moxy/Morris.Moxy.RoslynIncrementalGenerator/MorrisMoxyDemo.Employee.IDName.Instance1.MixinCode.Moxy.g.cs",
-        "description": "File Department.cs ",
+        "description": "File MorrisMoxyDemo.Employee.IDName.Instance1.MixinCode.Moxy.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MorrisMoxyDemo/obj/GX/Morris.Moxy/Morris.Moxy.RoslynIncrementalGenerator/MorrisMoxyDemo.Department.IDName.Instance1.MixinCode.Moxy.g.cs",
-        "description": "File Employee.cs ",
+        "description": "File MorrisMoxyDemo.Department.IDName.Instance1.MixinCode.Moxy.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MorrisMoxyDemo/obj/GX/Morris.Moxy/Morris.Moxy.RoslynIncrementalGenerator/IDName.MixinAttribute.Moxy.g.cs",
-        "description": "File Program.cs ",
+        "description": "File IDName.MixinAttribute.Moxy.g.cs ",
         "line": 1
         }
     

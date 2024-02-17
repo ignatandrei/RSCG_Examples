@@ -6,23 +6,49 @@
   [
     {
       "file": "HsuSgSync/HsuSgSync.csproj",
-      "description": "Nuget  Hsu.Sg.Sync registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Hsu.Sg.Sync](https://www.nuget.org/packages/Hsu.Sg.Sync/) in csproj  ",
+      "pattern": "Hsu.Sg.Sync"
     }
 
         ,{
         "file": "HsuSgSync/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "HsuSgSync/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project HsuSgSync/HsuSgSync.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "HsuSgSync/obj/GX/Hsu.Sg.Sync/Hsu.Sg.Sync.Generator/HsuSgSync.Person.sync.g.cs",
+        "description": "File HsuSgSync.Person.sync.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "HsuSgSync/obj/GX/Hsu.Sg.Sync/Hsu.Sg.Sync.Generator/Hsu.Sg.Sync.SyncHelper.ValueTask.g.cs",
+        "description": "File Hsu.Sg.Sync.SyncHelper.ValueTask.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "HsuSgSync/obj/GX/Hsu.Sg.Sync/Hsu.Sg.Sync.Generator/Hsu.Sg.Sync.SyncHelper.g.cs",
+        "description": "File Hsu.Sg.Sync.SyncHelper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "HsuSgSync/obj/GX/Hsu.Sg.Sync/Hsu.Sg.Sync.Generator/Hsu.Sg.Sync.SyncAttribute.g.cs",
+        "description": "File Hsu.Sg.Sync.SyncAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

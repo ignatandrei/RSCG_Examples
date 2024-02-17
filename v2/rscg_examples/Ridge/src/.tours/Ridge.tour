@@ -31,7 +31,7 @@
 
         ,{
         "file": "RidgeDemoWebApp/obj/GX/RidgeSourceGenerator/RidgeSourceGenerator.ControllerClientGenerator/WeatherForecastController_Client.g.cs",
-        "description": "File Program.cs ",
+        "description": "File WeatherForecastController_Client.g.cs ",
         "line": 1
         }
     

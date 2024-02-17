@@ -6,23 +6,61 @@
   [
     {
       "file": "FastGenericNewDemo/FastGenericNewDemo.csproj",
-      "description": "Nuget  FastGenericNew.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [FastGenericNew.SourceGenerator](https://www.nuget.org/packages/FastGenericNew.SourceGenerator/) in csproj  ",
+      "pattern": "FastGenericNew.SourceGenerator"
     }
 
         ,{
         "file": "FastGenericNewDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "FastGenericNewDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project FastGenericNewDemo/FastGenericNewDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/_DynMetClosure.g.cs",
+        "description": "File _DynMetClosure.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/TypeNew.CreateInstance.g.cs",
+        "description": "File TypeNew.CreateInstance.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/ThrowHelper.g.cs",
+        "description": "File ThrowHelper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/FastNew{T}.g.cs",
+        "description": "File FastNew{T}.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/FastNew.TryCreateInstance.g.cs",
+        "description": "File FastNew.TryCreateInstance.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/FastNew.CreateInstance.g.cs",
+        "description": "File FastNew.CreateInstance.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -111,3 +111,4 @@ Nr,Key,Source,Category
 110,jab, https://github.com/pakrym/jab,DependencyInjection
 111,cachesourcegenerator, https://github.com/jeppevammenkristensen/cachesourcegenerator,FunctionalProgramming
 112,OptionToStringGenerator, https://github.com/Seekatar/OptionToStringGenerator,EnhancementClass
+113,sourcedepend, https://github.com/crwsolutions/sourcedepend,Constructor

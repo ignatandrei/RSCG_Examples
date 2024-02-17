@@ -25,7 +25,7 @@
 
         ,{
         "file": "JsonPolymorphicGeneratorDemo/obj/GX/GoLive.JsonPolymorphicGenerator/GoLive.JsonPolymorphicGenerator.PolymorphicAttributeGenerator/Person.g.cs",
-        "description": "File Program.cs ",
+        "description": "File Person.g.cs ",
         "line": 1
         }
     

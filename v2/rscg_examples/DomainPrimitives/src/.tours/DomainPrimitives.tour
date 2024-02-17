@@ -6,29 +6,85 @@
   [
     {
       "file": "DomainPrimitives/DomainPrimitives.csproj",
-      "description": "Nuget  AltaSoft.DomainPrimitives.Generator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [AltaSoft.DomainPrimitives.Generator](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator) in csproj  ",
+      "pattern": "AltaSoft.DomainPrimitives.Generator"
     }
 
         ,{
         "file": "DomainPrimitives/TaskAfterDelay.cs",
-        "description": "File TaskAfterDelay.cs ",
-        "line": 1
+        "description": "File TaskAfterDelay.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DomainPrimitives/DOB.cs",
-        "description": "File DOB.cs ",
-        "line": 1
+        "description": "File DOB.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "DomainPrimitives/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project DomainPrimitives/DomainPrimitives.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/YearDateTypeConverter.g.cs",
+        "description": "File YearDateTypeConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/YearDateJsonConverter.g.cs",
+        "description": "File YearDateJsonConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/YearDate.g.cs",
+        "description": "File YearDate.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/MonthDateTypeConverter.g.cs",
+        "description": "File MonthDateTypeConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/MonthDateJsonConverter.g.cs",
+        "description": "File MonthDateJsonConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/MonthDate.g.cs",
+        "description": "File MonthDate.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/DayDateTypeConverter.g.cs",
+        "description": "File DayDateTypeConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/DayDateJsonConverter.g.cs",
+        "description": "File DayDateJsonConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/DayDate.g.cs",
+        "description": "File DayDate.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }
