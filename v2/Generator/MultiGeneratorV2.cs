@@ -159,6 +159,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",inspirational )
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
+,new("PlantUmlClassDiagramGenerator https://github.com/pierre3/PlantUmlClassDiagramGenerator",WaitingForIssue)
+,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 //,new("",later)
 //,new("",later)
 //,new("",later)
