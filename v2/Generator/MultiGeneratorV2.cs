@@ -387,6 +387,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(UnionsGenerator)", $"({d.Generator!.Source}/UnionsGenerator");
+            text = text.Replace("(UtilityGenerators)", $"({d.Generator!.Source}/UtilityGenerators");
+            text = text.Replace("(CopyTo)", $"({d.Generator!.Source}/CopyTo");
+
             text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
             text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");

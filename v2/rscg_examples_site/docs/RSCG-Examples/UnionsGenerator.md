@@ -47,11 +47,11 @@ Source : https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/
 
 This repository contains my explorations on c# source code generation and analysis.
 
-The [UnionsGenerator](UnionsGenerator) generator enables the use of union types in C#.
+The [UnionsGenerator](https://github.com/PaulBraetz/RhoMicro.CodeAnalysis//UnionsGenerator generator enables the use of union types in C#.
 
-The [UtilityGenerators](UtilityGenerators) generator helps you write code generators and analyzers.
+The [UtilityGenerators](https://github.com/PaulBraetz/RhoMicro.CodeAnalysis//UtilityGenerators generator helps you write code generators and analyzers.
 
-The [CopyTo](CopyTo) generator generates methods to copy the contents of one instance to another. I created this generator for a friend, so it is not as feature rich as it could be.
+The [CopyTo](https://github.com/PaulBraetz/RhoMicro.CodeAnalysis//CopyTo generator generates methods to copy the contents of one instance to another. I created this generator for a friend, so it is not as feature rich as it could be.
 
 
 :::
