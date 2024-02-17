@@ -6,29 +6,151 @@
   [
     {
       "file": "poly/JsonPolymorphicGeneratorDemo.csproj",
-      "description": "Nuget  Aviationexam.GeneratedJsonConverters.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Aviationexam.GeneratedJsonConverters.SourceGenerator](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/) in csproj  ",
+      "pattern": "Aviationexam.GeneratedJsonConverters.SourceGenerator"
     }
 
         ,{
         "file": "poly/ProjectJsonSerializerContext.cs",
-        "description": "File ProjectJsonSerializerContext.cs ",
-        "line": 1
+        "description": "File ProjectJsonSerializerContext.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "poly/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "poly/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project poly/JsonPolymorphicGeneratorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.Teacher.g.cs",
+        "description": "File ProjectJsonSerializerContext.Teacher.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.Student.g.cs",
+        "description": "File ProjectJsonSerializerContext.Student.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.String.g.cs",
+        "description": "File ProjectJsonSerializerContext.String.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.PropertyNames.g.cs",
+        "description": "File ProjectJsonSerializerContext.PropertyNames.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.PersonArray.g.cs",
+        "description": "File ProjectJsonSerializerContext.PersonArray.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.Person.g.cs",
+        "description": "File ProjectJsonSerializerContext.Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.GetJsonTypeInfo.g.cs",
+        "description": "File ProjectJsonSerializerContext.GetJsonTypeInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/ProjectJsonSerializerContext.g.cs",
+        "description": "File ProjectJsonSerializerContext.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/ProjectJsonSerializerContext.g.cs",
+        "description": "File ProjectJsonSerializerContext.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/PolymorphicJsonConvertor.g.cs",
+        "description": "File PolymorphicJsonConvertor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/PersonJsonPolymorphicConverter.g.cs",
+        "description": "File PersonJsonPolymorphicConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/JsonPolymorphicAttribute.g.cs",
+        "description": "File JsonPolymorphicAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/JsonDerivedTypeAttribute.g.cs",
+        "description": "File JsonDerivedTypeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/IDiscriminatorStruct.g.cs",
+        "description": "File IDiscriminatorStruct.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.JsonPolymorphicConverterIncrementalGenerator/DiscriminatorStruct.g.cs",
+        "description": "File DiscriminatorStruct.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator/EnumSerializationStrategy.g.cs",
+        "description": "File EnumSerializationStrategy.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator/EnumJsonConvertor.g.cs",
+        "description": "File EnumJsonConvertor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator/EnumJsonConverterAttribute.g.cs",
+        "description": "File EnumJsonConverterAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator/EnumDeserializationStrategy.g.cs",
+        "description": "File EnumDeserializationStrategy.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "poly/obj/GX/Aviationexam.GeneratedJsonConverters.SourceGenerator/Aviationexam.GeneratedJsonConverters.SourceGenerator.EnumJsonConverterIncrementalGenerator/Attributes.DisableEnumJsonConverterAttribute.g.cs",
+        "description": "File Attributes.DisableEnumJsonConverterAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

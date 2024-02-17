@@ -31,19 +31,19 @@
 
         ,{
         "file": "GobieDemo/obj/GX/Gobie/Gobie.GobieGenerator/_Gobie.ClassGenAddIdAttribute.g.cs",
-        "description": "File ClassGenAddId.cs ",
+        "description": "File _Gobie.ClassGenAddIdAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "GobieDemo/obj/GX/Gobie/Gobie.GobieGenerator/Person_ClassGenAddIdAttribute_ID.g.cs",
-        "description": "File Person.cs ",
+        "description": "File Person_ClassGenAddIdAttribute_ID.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "GobieDemo/obj/GX/Gobie/Gobie.GobieGenerator/Person_ClassGenAddIdAttribute.g.cs",
-        "description": "File Program.cs ",
+        "description": "File Person_ClassGenAddIdAttribute.g.cs ",
         "line": 1
         }
     

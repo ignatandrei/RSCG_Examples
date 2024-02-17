@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "sourcedepend",
+  "steps": 
+  [
+    {
+      "file": "ConstructorDemo/ConstructorDemo.csproj",
+      "description": "First, we add Nuget  [sourcedepend](https://www.nuget.org/packages/sourcedepend/) in csproj  ",
+      "pattern": "sourcedepend"
+    }
+
+        ,{
+        "file": "ConstructorDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ConstructorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ConstructorDemo/ConstructorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ConstructorDemo/obj/GX/SourceDepend/SourceDepend.DependenciesGenerator/Person_Dependency.g.cs",
+        "description": "File Person_Dependency.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/SourceDepend/SourceDepend.DependenciesGenerator/Dependency.Generated.g.cs",
+        "description": "File Dependency.Generated.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

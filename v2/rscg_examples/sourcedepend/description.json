@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"sourcedepend",
+      "nuget":[
+         "https://www.nuget.org/packages/sourcedepend/"
+      ],
+      "link":"https://github.com/crwsolutions/sourcedepend",
+      "author":"Colin Wilmans",
+      "source":"https://github.com/crwsolutions/sourcedepend"
+   },
+   "data":{
+      "goodFor":["Generating constructor for DI"],
+      "csprojDemo":"ConstructorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

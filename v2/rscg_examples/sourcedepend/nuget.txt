@@ -1,0 +1,1 @@
+A source generator for C# that uses Roslyn (the C# compiler) to allow you to generate your constructor for injection during compile time.

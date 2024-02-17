@@ -6,23 +6,73 @@
   [
     {
       "file": "StronglyDemo/StronglyDemo.csproj",
-      "description": "Nuget  Strongly registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Strongly](https://www.nuget.org/packages/Strongly/) in csproj  ",
+      "pattern": "Strongly"
     }
 
         ,{
         "file": "StronglyDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "StronglyDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project StronglyDemo/StronglyDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyType.g.cs",
+        "description": "File StronglyType.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyImplementations.g.cs",
+        "description": "File StronglyImplementations.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDemo.YearId.g.cs",
+        "description": "File StronglyDemo.YearId.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDemo.MonthId.g.cs",
+        "description": "File StronglyDemo.MonthId.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDemo.DayId.g.cs",
+        "description": "File StronglyDemo.DayId.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDefaultsAttribute.g.cs",
+        "description": "File StronglyDefaultsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyConverter.g.cs",
+        "description": "File StronglyConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyAttribute.g.cs",
+        "description": "File StronglyAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

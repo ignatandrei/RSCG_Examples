@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "cachesourcegenerator",
+  "steps": 
+  [
+    {
+      "file": "CacheDemo/CacheDemo.csproj",
+      "description": "First, we add Nuget  [cachesourcegenerator](https://www.nuget.org/packages/cachesourcegenerator/) in csproj  ",
+      "pattern": "cachesourcegenerator"
+    }
+
+        ,{
+        "file": "CacheDemo/Fib.cs",
+        "description": "File Fib.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CacheDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CacheDemo/CacheDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CacheDemo/obj/GX/CacheSourceGenerator/CacheSourceGenerator.CachoIncrementalSourceGenerator/IgnoreKey.g.cs",
+        "description": "File IgnoreKey.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CacheDemo/obj/GX/CacheSourceGenerator/CacheSourceGenerator.CachoIncrementalSourceGenerator/GenerateMemoryCache.g.cs",
+        "description": "File GenerateMemoryCache.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CacheDemo/obj/GX/CacheSourceGenerator/CacheSourceGenerator.CachoIncrementalSourceGenerator/FibTest.g.cs",
+        "description": "File FibTest.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

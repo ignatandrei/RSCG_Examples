@@ -6,23 +6,43 @@
   [
     {
       "file": "duneDemo/duneDemo.csproj",
-      "description": "Nuget  dunet registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [dunet](https://www.nuget.org/packages/dunet/) in csproj  ",
+      "pattern": "dunet"
     }
 
         ,{
         "file": "duneDemo/Recognize.cs",
-        "description": "File Recognize.cs ",
-        "line": 1
+        "description": "File Recognize.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "duneDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project duneDemo/duneDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "duneDemo/obj/GX/Dunet/Dunet.UnionGeneration.UnionGenerator/duneDemo.WhatIsTheStringMatchExtensions.g.cs",
+        "description": "File duneDemo.WhatIsTheStringMatchExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "duneDemo/obj/GX/Dunet/Dunet.UnionGeneration.UnionGenerator/duneDemo.WhatIsTheString.g.cs",
+        "description": "File duneDemo.WhatIsTheString.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "duneDemo/obj/GX/Dunet/Dunet.UnionAttributeGeneration.UnionAttributeGenerator/UnionAttribute.g.cs",
+        "description": "File UnionAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

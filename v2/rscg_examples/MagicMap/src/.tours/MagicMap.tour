@@ -6,29 +6,67 @@
   [
     {
       "file": "mapperDemo/mapperDemo.csproj",
-      "description": "Nuget  MagicMap registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [MagicMap](https://www.nuget.org/packages/MagicMap/) in csproj  ",
+      "pattern": "MagicMap"
     }
 
         ,{
         "file": "mapperDemo/PersonDTO.cs",
-        "description": "File PersonDTO.cs ",
-        "line": 1
+        "description": "File PersonDTO.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "mapperDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project mapperDemo/mapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/TypeMapperAttribute.generated.cs",
+        "description": "File TypeMapperAttribute.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/TypeFactory.generated.cs",
+        "description": "File TypeFactory.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PropertyMappingAttribute.generated.cs",
+        "description": "File PropertyMappingAttribute.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PropertyMapperAttribute.generated.cs",
+        "description": "File PropertyMapperAttribute.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PersonMapperExtensions.generated.cs",
+        "description": "File PersonMapperExtensions.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PersonMapper.generated.cs",
+        "description": "File PersonMapper.generated.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

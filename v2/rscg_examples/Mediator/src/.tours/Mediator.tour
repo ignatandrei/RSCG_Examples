@@ -31,19 +31,19 @@
 
         ,{
         "file": "MediatorDemo/obj/GX/Mediator.SourceGenerator.Roslyn40/Mediator.SourceGenerator.IncrementalMediatorGenerator/MediatorOptionsAttribute.g.cs",
-        "description": "File PingPong.cs ",
+        "description": "File MediatorOptionsAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/obj/GX/Mediator.SourceGenerator.Roslyn40/Mediator.SourceGenerator.IncrementalMediatorGenerator/MediatorOptions.g.cs",
-        "description": "File GenericLoggerHandler.cs ",
+        "description": "File MediatorOptions.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/obj/GX/Mediator.SourceGenerator.Roslyn40/Mediator.SourceGenerator.IncrementalMediatorGenerator/Mediator.g.cs",
-        "description": "File Program.cs ",
+        "description": "File Mediator.g.cs ",
         "line": 1
         }
     

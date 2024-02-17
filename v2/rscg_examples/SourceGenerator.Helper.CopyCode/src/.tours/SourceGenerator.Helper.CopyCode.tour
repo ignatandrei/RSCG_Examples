@@ -6,23 +6,43 @@
   [
     {
       "file": "Demo/SourceGenerator_Helper_CopyCodeDemo.csproj",
-      "description": "Nuget  SourceGenerator.Helper.CopyCode registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [SourceGenerator.Helper.CopyCode](https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/) in csproj  ",
+      "pattern": "SourceGenerator.Helper.CopyCode"
     }
 
         ,{
         "file": "Demo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "Demo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project Demo/SourceGenerator_Helper_CopyCodeDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Demo/obj/GX/SourceGenerator.Helper.CopyCode/SourceGenerator.Helper.CopyCode.CopyGenerator/SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs",
+        "description": "File SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Demo/obj/GX/SourceGenerator.Helper.CopyCode/SourceGenerator.Helper.CopyCode.CopyGenerator/SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs",
+        "description": "File SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Demo/obj/GX/SourceGenerator.Helper.CopyCode/SourceGenerator.Helper.CopyCode.CopyGenerator/CopyAttribute.g.cs",
+        "description": "File CopyAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

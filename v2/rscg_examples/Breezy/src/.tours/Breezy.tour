@@ -6,29 +6,67 @@
   [
     {
       "file": "BreezyDemo/BreezyDemo.csproj",
-      "description": "Nuget  Breezy.SourceGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Breezy.SourceGenerator](https://www.nuget.org/packages/Breezy.SourceGenerator/) in csproj  ",
+      "pattern": "Breezy.SourceGenerator"
     }
 
         ,{
         "file": "BreezyDemo/globals.cs",
-        "description": "File globals.cs ",
-        "line": 1
+        "description": "File globals.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "BreezyDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "BreezyDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project BreezyDemo/BreezyDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BreezyDemo/obj/GX/Breezy/Breezy.BreezyGenerator/TableAttribute.g.cs",
+        "description": "File TableAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BreezyDemo/obj/GX/Breezy/Breezy.BreezyGenerator/SplitOnAttribute.g.cs",
+        "description": "File SplitOnAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BreezyDemo/obj/GX/Breezy/Breezy.BreezyGenerator/PersonExtensions.g.cs",
+        "description": "File PersonExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BreezyDemo/obj/GX/Breezy/Breezy.BreezyGenerator/IdentityQuery.g.cs",
+        "description": "File IdentityQuery.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BreezyDemo/obj/GX/Breezy/Breezy.BreezyGenerator/ICacheableQuery.g.cs",
+        "description": "File ICacheableQuery.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BreezyDemo/obj/GX/Breezy/Breezy.BreezyGenerator/DbConnectionExtensions.g.cs",
+        "description": "File DbConnectionExtensions.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

@@ -25,13 +25,13 @@
 
         ,{
         "file": "StringLiteralDemo/obj/GX/StringLiteralGenerator/StringLiteralGenerator.Utf8StringLiteralGenerator/Utf8Attribute.cs",
-        "description": "File LiteralConstants.cs ",
+        "description": "File Utf8Attribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "StringLiteralDemo/obj/GX/StringLiteralGenerator/StringLiteralGenerator.Utf8StringLiteralGenerator/StringLiteralDemo_LiteralConstants_utf8literal.cs",
-        "description": "File Program.cs ",
+        "description": "File StringLiteralDemo_LiteralConstants_utf8literal.cs ",
         "line": 1
         }
     

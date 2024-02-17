@@ -6,23 +6,49 @@
   [
     {
       "file": "ConstructorDemo/ConstructorDemo.csproj",
-      "description": "Nuget  AutoConstructor registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [AutoConstructor](https://www.nuget.org/packages/AutoConstructor/) in csproj  ",
+      "pattern": "AutoConstructor"
     }
 
         ,{
         "file": "ConstructorDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ConstructorDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project ConstructorDemo/ConstructorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/QuickConstructorDemo.Person.g.cs",
+        "description": "File QuickConstructorDemo.Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/AutoConstructorInjectAttribute.cs",
+        "description": "File AutoConstructorInjectAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/AutoConstructorIgnoreAttribute.cs",
+        "description": "File AutoConstructorIgnoreAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/AutoConstructorAttribute.cs",
+        "description": "File AutoConstructorAttribute.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

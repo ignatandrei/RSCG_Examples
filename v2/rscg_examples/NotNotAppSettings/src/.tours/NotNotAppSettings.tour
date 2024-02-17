@@ -6,17 +6,43 @@
   [
     {
       "file": "TestAppSettings/TestAppSettings.csproj",
-      "description": "Nuget  NotNot.AppSettings registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [NotNot.AppSettings](https://www.nuget.org/packages/NotNot.AppSettings/) in csproj  ",
+      "pattern": "NotNot.AppSettings"
     }
 
         ,{
         "file": "TestAppSettings/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project TestAppSettings/TestAppSettings.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "TestAppSettings/obj/GX/NotNot.AppSettings/NotNot.AppSettingsGen/_BinderShims.cs",
+        "description": "File _BinderShims.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestAppSettings/obj/GX/NotNot.AppSettings/NotNot.AppSettingsGen/TestAppSettings.AppSettingsGen._AppSettings._Logging.LogLevel.cs",
+        "description": "File TestAppSettings.AppSettingsGen._AppSettings._Logging.LogLevel.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestAppSettings/obj/GX/NotNot.AppSettings/NotNot.AppSettingsGen/TestAppSettings.AppSettingsGen._AppSettings.Logging.cs",
+        "description": "File TestAppSettings.AppSettingsGen._AppSettings.Logging.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestAppSettings/obj/GX/NotNot.AppSettings/NotNot.AppSettingsGen/TestAppSettings.AppSettingsGen.AppSettings.cs",
+        "description": "File TestAppSettings.AppSettingsGen.AppSettings.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

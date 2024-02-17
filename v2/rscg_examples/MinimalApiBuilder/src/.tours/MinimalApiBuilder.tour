@@ -25,13 +25,13 @@
 
         ,{
         "file": "DemoApi/obj/GX/MinimalApiBuilder.Generator/MinimalApiBuilder.Generator.MinimalApiBuilderGenerator/Endpoint.g.cs",
-        "description": "File BasicEndpoint.cs ",
+        "description": "File Endpoint.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoApi/obj/GX/MinimalApiBuilder.Generator/MinimalApiBuilder.Generator.MinimalApiBuilderGenerator/DependencyInjection.g.cs",
-        "description": "File Program.cs ",
+        "description": "File DependencyInjection.g.cs ",
         "line": 1
         }
     

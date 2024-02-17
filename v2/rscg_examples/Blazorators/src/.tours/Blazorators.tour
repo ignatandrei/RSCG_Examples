@@ -6,29 +6,73 @@
   [
     {
       "file": "BlazorApp2/BlazorApp2.csproj",
-      "description": "Nuget  Blazor.SourceGenerators registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Blazor.SourceGenerators](https://www.nuget.org/packages/Blazor.SourceGenerators/) in csproj  ",
+      "pattern": "Blazor.SourceGenerators"
     }
 
         ,{
         "file": "BlazorApp2/Pages/Home.razor",
-        "description": "File Home.razor ",
-        "line": 1
+        "description": "File Home.razor  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "BlazorApp2/ILocalStorageService.cs",
-        "description": "File ILocalStorageService.cs ",
-        "line": 1
+        "description": "File ILocalStorageService.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "BlazorApp2/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project BlazorApp2/BlazorApp2.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/RecordCompat.g.cs",
+        "description": "File RecordCompat.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/LocalStorageServiceCollectionExtensions.g.cs",
+        "description": "File LocalStorageServiceCollectionExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/LocalStorageService.g.cs",
+        "description": "File LocalStorageService.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/JSAutoInteropAttribute.g.cs",
+        "description": "File JSAutoInteropAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/JSAutoGenericInteropAttribute.g.cs",
+        "description": "File JSAutoGenericInteropAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/ILocalStorageService.g.cs",
+        "description": "File ILocalStorageService.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/BlazorHostingModel.g.cs",
+        "description": "File BlazorHostingModel.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

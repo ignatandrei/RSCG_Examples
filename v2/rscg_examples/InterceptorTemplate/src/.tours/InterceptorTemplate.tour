@@ -6,41 +6,103 @@
   [
     {
       "file": "RSCG_InterceptorTemplateConsole/RSCG_InterceptorTemplateConsole.csproj",
-      "description": "Nuget  RSCG_InterceptorTemplate registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [RSCG_InterceptorTemplate](https://www.nuget.org/packages/RSCG_InterceptorTemplate/) in csproj  ",
+      "pattern": "RSCG_InterceptorTemplate"
     }
 
         ,{
         "file": "RSCG_DemoObjects/IPersonLoader.cs",
-        "description": "File IPersonLoader.cs ",
-        "line": 1
+        "description": "File IPersonLoader.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_InterceptorTemplateConsole/Interceptors/GenericInterceptorForAllMethods.txt",
-        "description": "File GenericInterceptorForAllMethods.txt ",
-        "line": 1
+        "description": "File GenericInterceptorForAllMethods.txt  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_InterceptorTemplateConsole/Interceptors/TestFullNameWithArguments.txt",
-        "description": "File TestFullNameWithArguments.txt ",
-        "line": 1
+        "description": "File TestFullNameWithArguments.txt  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_InterceptorTemplateConsole/Interceptors/FullName.txt",
-        "description": "File FullName.txt ",
-        "line": 1
+        "description": "File FullName.txt  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "RSCG_InterceptorTemplateConsole/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_InterceptorTemplateConsole/RSCG_InterceptorTemplateConsole.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_Test_2.cs",
+        "description": "File RSCG_DemoObjects.Person_Test_2.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_TestFullNameWithArguments_6.cs",
+        "description": "File RSCG_DemoObjects.Person_TestFullNameWithArguments_6.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_ShowRandomPersonNumber_7.cs",
+        "description": "File RSCG_DemoObjects.Person_ShowRandomPersonNumber_7.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_PersonsLoaded_5.cs",
+        "description": "File RSCG_DemoObjects.Person_PersonsLoaded_5.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_PersonsLoaded_4.cs",
+        "description": "File RSCG_DemoObjects.Person_PersonsLoaded_4.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_FullName_3.cs",
+        "description": "File RSCG_DemoObjects.Person_FullName_3.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_FullName_1.cs",
+        "description": "File RSCG_DemoObjects.Person_FullName_1.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.PersonLoader_SavePerson_8.cs",
+        "description": "File RSCG_DemoObjects.PersonLoader_SavePerson_8.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.PersonLoader_Connect_9.cs",
+        "description": "File RSCG_DemoObjects.PersonLoader_Connect_9.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.IPersonLoader_InsertPerson_10.cs",
+        "description": "File RSCG_DemoObjects.IPersonLoader_InsertPerson_10.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

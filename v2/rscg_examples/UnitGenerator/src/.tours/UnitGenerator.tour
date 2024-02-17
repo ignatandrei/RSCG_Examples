@@ -6,23 +6,49 @@
   [
     {
       "file": "UnitDemo/UnitDemo.csproj",
-      "description": "Nuget  UnitGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [UnitGenerator](https://www.nuget.org/packages/UnitGenerator/) in csproj  ",
+      "pattern": "UnitGenerator"
     }
 
         ,{
         "file": "UnitDemo/Person.cs",
-        "description": "File Person.cs ",
-        "line": 1
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "UnitDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project UnitDemo/UnitDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/UnitOfAttribute.cs",
+        "description": "File UnitOfAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/StronglyDemo.YearId.g.cs",
+        "description": "File StronglyDemo.YearId.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/StronglyDemo.MonthId.g.cs",
+        "description": "File StronglyDemo.MonthId.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/StronglyDemo.DayId.g.cs",
+        "description": "File StronglyDemo.DayId.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

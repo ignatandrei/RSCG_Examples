@@ -25,13 +25,13 @@
 
         ,{
         "file": "ThisAssembly_ResourcesDemo/obj/GX/ThisAssembly.Resource/ThisAssembly.ResourcesGenerator/ThisAssembly.Resources.EmbeddedResource.cs",
-        "description": "File mytext.sql ",
+        "description": "File ThisAssembly.Resources.EmbeddedResource.cs ",
         "line": 1
         }
     
         ,{
         "file": "ThisAssembly_ResourcesDemo/obj/GX/ThisAssembly.Resource/ThisAssembly.ResourcesGenerator/Content.mytext.g.cs",
-        "description": "File Program.cs ",
+        "description": "File Content.mytext.g.cs ",
         "line": 1
         }
     

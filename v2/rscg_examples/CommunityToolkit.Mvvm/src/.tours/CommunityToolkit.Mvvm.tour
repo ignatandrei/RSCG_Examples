@@ -6,23 +6,49 @@
   [
     {
       "file": "ToolkitMVVM/ToolkitMVVM.csproj",
-      "description": "Nuget  CommunityToolkit.Mvvm registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [CommunityToolkit.Mvvm](https://www.nuget.org/packages/CommunityToolkit.Mvvm) in csproj  ",
+      "pattern": "CommunityToolkit.Mvvm"
     }
 
         ,{
         "file": "ToolkitMVVM/MyViewModel.cs",
-        "description": "File MyViewModel.cs ",
-        "line": 1
+        "description": "File MyViewModel.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ToolkitMVVM/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project ToolkitMVVM/ToolkitMVVM.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/test.MyViewModel.SayHello.g.cs",
+        "description": "File test.MyViewModel.SayHello.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/__KnownINotifyPropertyChangedArgs.g.cs",
+        "description": "File __KnownINotifyPropertyChangedArgs.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/test.MyViewModel.g.cs",
+        "description": "File test.MyViewModel.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.INotifyPropertyChangedGenerator/test.MyViewModel.g.cs",
+        "description": "File test.MyViewModel.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }

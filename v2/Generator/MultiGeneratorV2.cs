@@ -156,7 +156,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Dexie https://github.com/b-straub/DexieNET",tooComplicated)
 ,new ("Overloader https://github.com/emptycoder/Overloader",tooComplicated)
 , new("CsvMole https://github.com/pippinmole/CsvMole.NET",inspirational)
-,new("sourcedepend https://github.com/crwsolutions/sourcedepend",later)
 ,new("epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",tooComplicated)
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",inspirational )
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
@@ -294,7 +293,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"jab",new (true,new(2024,1,30),Category.DependencyInjection) },
             {"cachesourcegenerator",new(true,new (2024,2,1),Category.FunctionalProgramming) },
             {"OptionToStringGenerator",new (true,new(2024,2,2),Category.EnhancementClass) },
-        
+            {"sourcedepend",new(true,new(2024,2,2),Category.Constructor) }
+
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -1188,7 +1189,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         }
         catch(Exception ex)
         {
-            Console.WriteLine("error for " + it.Generator?.Name??"" + " " + ex.Message);
+            Console.WriteLine("2.error for " + it.Generator?.Name??"" + " " + ex.Message);
         }
     }
 
@@ -1207,7 +1208,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         }
         catch (Exception ex)
         {
-            Console.WriteLine("error for " + it.Generator?.Name ?? "" + " " + ex.Message);
+            Console.WriteLine("1.error for " + (it.Generator?.Name ?? "") + "-->" + ex.StackTrace);
         }
     }
 }     

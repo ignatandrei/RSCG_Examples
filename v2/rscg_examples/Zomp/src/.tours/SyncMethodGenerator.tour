@@ -6,23 +6,43 @@
   [
     {
       "file": "ZompDemo/ZompDemo.csproj",
-      "description": "Nuget  Zomp.SyncMethodGenerator registration in csproj ",
-      "line": 1
+      "description": "First, we add Nuget  [Zomp.SyncMethodGenerator](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/) in csproj  ",
+      "pattern": "Zomp.SyncMethodGenerator"
     }
 
         ,{
         "file": "ZompDemo/Writer.cs",
-        "description": "File Writer.cs ",
-        "line": 1
+        "description": "File Writer.cs  ",
+        "pattern": "this is the code"
         }
     
         ,{
         "file": "ZompDemo/Program.cs",
-        "description": "File Program.cs ",
+        "description": "File Program.cs \r\n>> dotnet run --project ZompDemo/ZompDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ZompDemo/obj/GX/Zomp.SyncMethodGenerator/Zomp.SyncMethodGenerator.SyncMethodSourceGenerator/Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs",
+        "description": "File Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ZompDemo/obj/GX/Zomp.SyncMethodGenerator/Zomp.SyncMethodGenerator.SyncMethodSourceGenerator/Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs",
+        "description": "File Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ZompDemo/obj/GX/Zomp.SyncMethodGenerator/Zomp.SyncMethodGenerator.SyncMethodSourceGenerator/CreateSyncVersionAttribute.g.cs",
+        "description": "File CreateSyncVersionAttribute.g.cs ",
         "line": 1
         }
     
   ],
+
   "ref": "main"
 
 }
