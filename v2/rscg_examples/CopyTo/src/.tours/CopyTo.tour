@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CopyTo",
+  "steps": 
+  [
+    {
+      "file": "CopyToDemo/CopyToDemo.csproj",
+      "description": "First, we add Nuget  [RhoMicro.CodeAnalysis.CopyToGenerator](https://www.nuget.org/packages/RhoMicro.CodeAnalysis.CopyToGenerator) in csproj  ",
+      "pattern": "RhoMicro.CodeAnalysis.CopyToGenerator"
+    }
+
+        ,{
+        "file": "CopyToDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CopyToDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CopyToDemo/CopyToDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CopyToDemo/obj/GX/RhoMicro.CodeAnalysis.CopyToGenerator.14.0.2/RhoMicro.CodeAnalysis.CopyToGenerator.CopyToGenerator/Person.g.cs",
+        "description": "File Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CopyToDemo/obj/GX/RhoMicro.CodeAnalysis.CopyToGenerator.14.0.2/RhoMicro.CodeAnalysis.CopyToGenerator.CopyToGenerator/GenerateCopyToAttribute.g.cs",
+        "description": "File GenerateCopyToAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

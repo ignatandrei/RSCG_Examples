@@ -129,6 +129,7 @@ input-files:
 - examples/sourcedepend.html
 - examples/corecraft.html
 - examples/UnionsGenerator.html
+- examples/CopyTo.html
 
 # or you may use input-file: with a single value
 # defaults:

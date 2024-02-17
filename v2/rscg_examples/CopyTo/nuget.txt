@@ -1,0 +1,1 @@
+Generate a `CopyTo` method for copying one instances property values to another.

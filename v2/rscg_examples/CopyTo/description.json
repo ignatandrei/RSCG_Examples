@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"CopyTo",
+      "nuget":[
+         "https://www.nuget.org/packages/RhoMicro.CodeAnalysis.CopyToGenerator"
+      ],
+      "link":"https://github.com/PaulBraetz/RhoMicro.CodeAnalysis",
+      "author":"Paul Braetz",
+      "source":"https://github.com/PaulBraetz/RhoMicro.CodeAnalysis"
+   },
+   "data":{
+      "goodFor":["Generating copy to code for  properties of a class"],
+      "csprojDemo":"CopyToDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

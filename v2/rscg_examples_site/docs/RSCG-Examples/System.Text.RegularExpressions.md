@@ -445,6 +445,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressio
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyTo](/docs/CopyTo)
+
+
 ### [DudNet](/docs/DudNet)
 
 

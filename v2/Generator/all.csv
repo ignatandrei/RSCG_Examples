@@ -114,3 +114,4 @@ Nr,Key,Source,Category
 113,sourcedepend, https://github.com/crwsolutions/sourcedepend,Constructor
 114,corecraft, https://github.com/AlexNav73/CoreCraft,FilesToCode
 115,UnionsGenerator, https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/,FunctionalProgramming
+116,CopyTo, https://github.com/PaulBraetz/RhoMicro.CodeAnalysis,EnhancementClass

@@ -697,6 +697,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype
 ### [BuilderGenerator](/docs/BuilderGenerator)
 
 
+### [CopyTo](/docs/CopyTo)
+
+
 ### [DudNet](/docs/DudNet)
 
 
