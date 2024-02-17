@@ -1,0 +1,72 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "UnionsGenerator",
+  "steps": 
+  [
+    {
+      "file": "UnionTypesDemo/UnionTypesDemo.csproj",
+      "description": "First, we add Nuget  [RhoMicro.CodeAnalysis.UnionsGenerator](https://www.nuget.org/packages/RhoMicro.CodeAnalysis.UnionsGenerator) in csproj  ",
+      "pattern": "RhoMicro.CodeAnalysis.UnionsGenerator"
+    }
+
+        ,{
+        "file": "UnionTypesDemo/SaveToDatabase.cs",
+        "description": "File SaveToDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/ResultSave.cs",
+        "description": "File ResultSave.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project UnionTypesDemo/UnionTypesDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/UnionTypesDemo_ResultSave.g.cs",
+        "description": "File UnionTypesDemo_ResultSave.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionTypeSettingsAttribute.g.cs",
+        "description": "File RhoMicro_CodeAnalysis_UnionTypeSettingsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionTypeAttribute.g.cs",
+        "description": "File RhoMicro_CodeAnalysis_UnionTypeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionsGenerator_Generated_Util.g.cs",
+        "description": "File RhoMicro_CodeAnalysis_UnionsGenerator_Generated_Util.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionFactoryAttribute.g.cs",
+        "description": "File RhoMicro_CodeAnalysis_UnionFactoryAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_RelationTypeAttribute.g.cs",
+        "description": "File RhoMicro_CodeAnalysis_RelationTypeAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

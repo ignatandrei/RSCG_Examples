@@ -409,3 +409,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion
 
 ### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
+
+### [UnionsGenerator](/docs/UnionsGenerator)
+

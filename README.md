@@ -1,6 +1,6 @@
-# RSCG - 114 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 115 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-02-17 => 17 February 2024
+## Latest Update : 2024-02-18 => 18 February 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 114 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 115 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 115. [UnionsGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator) generated on : 2024-02-18 => 18 February 2024
+<details>
+  <summary>Expand</summary>
+Author: Paul Braetz
+
+Generate hybrid (tagged/type) union types. 
+
+Nuget: [https://www.nuget.org/packages/RhoMicro.CodeAnalysis.UnionsGenerator](https://www.nuget.org/packages/RhoMicro.CodeAnalysis.UnionsGenerator) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator)
+
+Source: [https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/](https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/)
+
+</details>
+
 ### 114. [corecraft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/corecraft) generated on : 2024-02-17 => 17 February 2024
 <details>
   <summary>Expand</summary>
