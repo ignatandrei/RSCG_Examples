@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating Union types for C#"],
       "csprojDemo":"UnionTypesDemo.csproj",
-      "csFiles":["Program.cs","Program.cs","ResultSave.cs","SaveToDatabase.cs"],
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"],
       "excludeDirectoryGenerated":[""]
    },
    "links":{

@@ -116,22 +116,6 @@ Console.WriteLine(data.IsSuccess);
 ```
   </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnionsGenerator\src\UnionTypesDemo\Program.cs" label="Program.cs" >
-
-  This is the use of **UnionsGenerator** in *Program.cs*
-
-```csharp showLineNumbers 
-using UnionTypesDemo;
-
-Console.WriteLine("Save or not");
-var data = SaveToDatabase.Save(0);
-Console.WriteLine(data.IsValidationError);
-data = SaveToDatabase.Save(1);
-Console.WriteLine(data.IsSuccess);
-
-```
-  </TabItem>
-
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\UnionsGenerator\src\UnionTypesDemo\ResultSave.cs" label="ResultSave.cs" >
 
   This is the use of **UnionsGenerator** in *ResultSave.cs*

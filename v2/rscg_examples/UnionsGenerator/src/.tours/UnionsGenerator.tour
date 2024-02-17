@@ -28,12 +28,6 @@
         "pattern": "this is the code"
         }
     
-        ,{
-        "file": "UnionTypesDemo/Program.cs",
-        "description": "File Program.cs \r\n>> dotnet run --project UnionTypesDemo/UnionTypesDemo.csproj ",
-        "pattern": "this is the code"
-        }
-    
 
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/UnionTypesDemo_ResultSave.g.cs",
