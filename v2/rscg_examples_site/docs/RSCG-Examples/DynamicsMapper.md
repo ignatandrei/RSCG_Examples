@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/YC.DynamicsMapper?label=YC.DynamicsMapper)](https://www.nuget.org/packages/YC.DynamicsMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/YonatanCohavi/DynamicsMapper?label=updated)](https://github.com/YonatanCohavi/DynamicsMapper/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/YonatanCohavi/DynamicsMapper?style=social)
@@ -369,20 +370,20 @@ namespace NextGenMapperDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper
 
-## In the same category (Mapper)
+### In the same category (Mapper) - 5 other generators
 
 
-### [AutoDTO](/docs/AutoDTO)
+#### [AutoDTO](/docs/AutoDTO)
 
 
-### [MagicMap](/docs/MagicMap)
+#### [MagicMap](/docs/MagicMap)
 
 
-### [mapperly](/docs/mapperly)
+#### [mapperly](/docs/mapperly)
 
 
-### [MapTo](/docs/MapTo)
+#### [MapTo](/docs/MapTo)
 
 
-### [NextGenMapper](/docs/NextGenMapper)
+#### [NextGenMapper](/docs/NextGenMapper)
 

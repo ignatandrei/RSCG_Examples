@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoDeconstruct?label=AutoDeconstruct)](https://www.nuget.org/packages/AutoDeconstruct)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jasonbock/autodeconstruct?label=updated)](https://github.com/jasonbock/autodeconstruct)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jasonbock/autodeconstruct?style=social)
@@ -188,20 +189,20 @@ public static partial class PersonExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct
 
-## In the same category (Constructor)
+### In the same category (Constructor) - 5 other generators
 
 
-### [AutoConstructor](/docs/AutoConstructor)
+#### [AutoConstructor](/docs/AutoConstructor)
 
 
-### [AutoCtor](/docs/AutoCtor)
+#### [AutoCtor](/docs/AutoCtor)
 
 
-### [PrimaryParameter](/docs/PrimaryParameter)
+#### [PrimaryParameter](/docs/PrimaryParameter)
 
 
-### [QuickConstructor](/docs/QuickConstructor)
+#### [QuickConstructor](/docs/QuickConstructor)
 
 
-### [sourcedepend](/docs/sourcedepend)
+#### [sourcedepend](/docs/sourcedepend)
 

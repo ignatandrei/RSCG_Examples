@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Blazor.SourceGenerators?label=Blazor.SourceGenerators)](https://www.nuget.org/packages/Blazor.SourceGenerators/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/IEvangelist/blazorators?label=updated)](https://github.com/IEvangelist/blazorators/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/IEvangelist/blazorators?style=social)
@@ -1291,5 +1292,5 @@ namespace System.Runtime.CompilerServices
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators
 
-## In the same category (Blazor)
+### In the same category (Blazor) - 0 other generators
 

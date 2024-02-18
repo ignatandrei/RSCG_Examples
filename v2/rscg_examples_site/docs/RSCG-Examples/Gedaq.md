@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Gedaq?label=Gedaq)](https://www.nuget.org/packages/Gedaq/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SoftStoneDevelop/Gedaq?label=updated)](https://github.com/SoftStoneDevelop/Gedaq)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?style=social)
@@ -2550,8 +2551,8 @@ WHERE
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq
 
-## In the same category (Database)
+### In the same category (Database) - 1 other generators
 
 
-### [Breezy](/docs/Breezy)
+#### [Breezy](/docs/Breezy)
 

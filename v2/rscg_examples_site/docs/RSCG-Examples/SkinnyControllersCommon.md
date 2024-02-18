@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/SkinnyControllersCommon?label=SkinnyControllersCommon)](https://www.nuget.org/packages/SkinnyControllersCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/SkinnyControllersGenerator?label=updated)](https://github.com/ignatandrei/SkinnyControllersGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/SkinnyControllersGenerator?style=social)
@@ -351,23 +352,23 @@ namespace SkinnyControllersDemo.Controllers {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon
 
-## In the same category (API)
+### In the same category (API) - 6 other generators
 
 
-### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
-### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 
-### [RDG](/docs/RDG)
+#### [RDG](/docs/RDG)
 
 
-### [Refit](/docs/Refit)
+#### [Refit](/docs/Refit)
 
 
-### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
-### [SafeRouting](/docs/SafeRouting)
+#### [SafeRouting](/docs/SafeRouting)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/PropertyChanged.SourceGenerator?label=PropertyChanged.SourceGenerator)](https://www.nuget.org/packages/PropertyChanged.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/canton7/PropertyChanged.SourceGenerator?label=updated)](https://github.com/canton7/PropertyChanged.SourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/canton7/PropertyChanged.SourceGenerator?style=social)
@@ -1022,8 +1023,8 @@ namespace PropChangeDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator
 
-## In the same category (MVVM)
+### In the same category (MVVM) - 1 other generators
 
 
-### [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
+#### [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
 

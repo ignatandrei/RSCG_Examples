@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/mocklis?label=mocklis)](https://www.nuget.org/packages/mocklis/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mocklis/mocklis?label=updated)](https://github.com/mocklis/mocklis/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mocklis/mocklis?style=social)
@@ -236,11 +237,11 @@ namespace TestClock
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/mocklis
 
-## In the same category (Tests)
+### In the same category (Tests) - 2 other generators
 
 
-### [Ridge](/docs/Ridge)
+#### [Ridge](/docs/Ridge)
 
 
-### [Rocks](/docs/Rocks)
+#### [Rocks](/docs/Rocks)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/StringLiteralGenerator?label=StringLiteralGenerator)](https://www.nuget.org/packages/StringLiteralGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ufcpp/StringLiteralGenerator?label=updated)](https://github.com/ufcpp/StringLiteralGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ufcpp/StringLiteralGenerator?style=social)
@@ -254,5 +255,5 @@ namespace StringLiteral
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral
 
-## In the same category (Optimizer)
+### In the same category (Optimizer) - 0 other generators
 

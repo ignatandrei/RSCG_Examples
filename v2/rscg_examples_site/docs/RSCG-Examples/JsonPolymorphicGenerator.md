@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/GoLive.Generator.JsonPolymorphicGenerator?label=GoLive.Generator.JsonPolymorphicGenerator)](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/surgicalcoder/JsonPolymorphicGenerator?label=updated)](https://github.com/surgicalcoder/JsonPolymorphicGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/surgicalcoder/JsonPolymorphicGenerator?style=social)
@@ -246,14 +247,14 @@ namespace JsonPolymorphicGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator
 
-## In the same category (Serializer)
+### In the same category (Serializer) - 3 other generators
 
 
-### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
 
 
-### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
 
-### [System.Text.Json](/docs/System.Text.Json)
+#### [System.Text.Json](/docs/System.Text.Json)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/MapTo?label=MapTo)](https://www.nuget.org/packages/MapTo/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mrtaikandi/MapTo?label=updated)](https://github.com/mrtaikandi/MapTo)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mrtaikandi/MapTo?style=social)
@@ -340,20 +341,20 @@ public static class PersonMapToExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo
 
-## In the same category (Mapper)
+### In the same category (Mapper) - 5 other generators
 
 
-### [AutoDTO](/docs/AutoDTO)
+#### [AutoDTO](/docs/AutoDTO)
 
 
-### [DynamicsMapper](/docs/DynamicsMapper)
+#### [DynamicsMapper](/docs/DynamicsMapper)
 
 
-### [MagicMap](/docs/MagicMap)
+#### [MagicMap](/docs/MagicMap)
 
 
-### [mapperly](/docs/mapperly)
+#### [mapperly](/docs/mapperly)
 
 
-### [NextGenMapper](/docs/NextGenMapper)
+#### [NextGenMapper](/docs/NextGenMapper)
 

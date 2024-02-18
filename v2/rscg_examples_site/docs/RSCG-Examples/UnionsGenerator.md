@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RhoMicro.CodeAnalysis.UnionsGenerator?label=RhoMicro.CodeAnalysis.UnionsGenerator)](https://www.nuget.org/packages/RhoMicro.CodeAnalysis.UnionsGenerator)
 [![GitHub last commit](https://img.shields.io/github/last-commit/PaulBraetz/RhoMicro.CodeAnalysis?label=updated)](https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/PaulBraetz/RhoMicro.CodeAnalysis?style=social)
@@ -1724,29 +1725,29 @@ namespace UnionTypesDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator
 
-## In the same category (FunctionalProgramming)
+### In the same category (FunctionalProgramming) - 8 other generators
 
 
-### [cachesourcegenerator](/docs/cachesourcegenerator)
+#### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
-### [dunet](/docs/dunet)
+#### [dunet](/docs/dunet)
 
 
-### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
 
-### [FunicularSwitch](/docs/FunicularSwitch)
+#### [FunicularSwitch](/docs/FunicularSwitch)
 
 
-### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 
-### [OneOf](/docs/OneOf)
+#### [OneOf](/docs/OneOf)
 
 
-### [PartiallyApplied](/docs/PartiallyApplied)
+#### [PartiallyApplied](/docs/PartiallyApplied)
 
 
-### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 

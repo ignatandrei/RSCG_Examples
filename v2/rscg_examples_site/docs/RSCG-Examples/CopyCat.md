@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Copycat?label=Copycat)](https://www.nuget.org/packages/Copycat/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Otaman/Copycat?label=updated)](https://github.com/Otaman/Copycat/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Otaman/Copycat?style=social)
@@ -607,26 +608,26 @@ internal partial class CoffeeWithLogging
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat
 
-## In the same category (Interface)
+### In the same category (Interface) - 7 other generators
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
-### [Matryoshki](/docs/Matryoshki)
+#### [Matryoshki](/docs/Matryoshki)
 
 
-### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
 
 
-### [ProxyGen](/docs/ProxyGen)
+#### [ProxyGen](/docs/ProxyGen)
 
 
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
-### [RSCG_Static](/docs/RSCG_Static)
+#### [RSCG_Static](/docs/RSCG_Static)
 

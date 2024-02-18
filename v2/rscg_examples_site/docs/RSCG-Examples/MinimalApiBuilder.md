@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/MinimalApiBuilder?label=MinimalApiBuilder)](https://www.nuget.org/packages/MinimalApiBuilder/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JensDll/MinimalApiBuilder?label=updated)](https://github.com/JensDll/MinimalApiBuilder)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JensDll/MinimalApiBuilder?style=social)
@@ -313,23 +314,23 @@ public partial class BasicEndpoint : global::MinimalApiBuilder.IEndpoint
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder
 
-## In the same category (API)
+### In the same category (API) - 6 other generators
 
 
-### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
-### [RDG](/docs/RDG)
+#### [RDG](/docs/RDG)
 
 
-### [Refit](/docs/Refit)
+#### [Refit](/docs/Refit)
 
 
-### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
-### [SafeRouting](/docs/SafeRouting)
+#### [SafeRouting](/docs/SafeRouting)
 
 
-### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

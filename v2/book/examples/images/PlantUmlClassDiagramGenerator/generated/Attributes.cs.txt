@@ -1,0 +1,5 @@
+namespace PlantUmlClassDiagramGenerator.SourceGenerator.Attributes;
+
+[System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Interface | System.AttributeTargets.Enum | System.AttributeTargets.Struct)]
+internal class PlantUmlDiagramAttribute : System.Attribute
+{ }

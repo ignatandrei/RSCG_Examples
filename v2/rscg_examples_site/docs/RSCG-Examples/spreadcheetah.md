@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/spreadcheetah?label=spreadcheetah)](https://www.nuget.org/packages/spreadcheetah/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/sveinungf/spreadcheetah?label=updated)](https://github.com/sveinungf/spreadcheetah)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sveinungf/spreadcheetah?style=social)
@@ -437,23 +438,23 @@ namespace spreadcheetahDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah
 
-## In the same category (Templating)
+### In the same category (Templating) - 6 other generators
 
 
-### [Gobie](/docs/Gobie)
+#### [Gobie](/docs/Gobie)
 
 
-### [InterceptorTemplate](/docs/InterceptorTemplate)
+#### [InterceptorTemplate](/docs/InterceptorTemplate)
 
 
-### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
-### [MorrisMoxy](/docs/MorrisMoxy)
+#### [MorrisMoxy](/docs/MorrisMoxy)
 
 
-### [RazorBlade](/docs/RazorBlade)
+#### [RazorBlade](/docs/RazorBlade)
 
 
-### [RSCG_Templating](/docs/RSCG_Templating)
+#### [RSCG_Templating](/docs/RSCG_Templating)
 

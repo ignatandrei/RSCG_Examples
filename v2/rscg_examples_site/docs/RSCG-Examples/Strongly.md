@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Strongly?label=Strongly)](https://www.nuget.org/packages/Strongly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lucasteles/Strongly?label=updated)](https://github.com/lucasteles/Strongly/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/lucasteles/Strongly?style=social)
@@ -1117,14 +1118,14 @@ namespace Strongly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly
 
-## In the same category (PrimitiveObsession)
+### In the same category (PrimitiveObsession) - 3 other generators
 
 
-### [DomainPrimitives](/docs/DomainPrimitives)
+#### [DomainPrimitives](/docs/DomainPrimitives)
 
 
-### [UnitGenerator](/docs/UnitGenerator)
+#### [UnitGenerator](/docs/UnitGenerator)
 
 
-### [Vogen](/docs/Vogen)
+#### [Vogen](/docs/Vogen)
 

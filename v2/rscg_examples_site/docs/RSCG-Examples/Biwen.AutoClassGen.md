@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Biwen.AutoClassGen?label=Biwen.AutoClassGen)](https://www.nuget.org/packages/Biwen.AutoClassGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/vipwan/Biwen.AutoClassGen?label=updated)](https://github.com/vipwan/Biwen.AutoClassGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/vipwan/Biwen.AutoClassGen?style=social)
@@ -255,26 +256,26 @@ namespace FromInterface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 
-## In the same category (Interface)
+### In the same category (Interface) - 7 other generators
 
 
-### [CopyCat](/docs/CopyCat)
+#### [CopyCat](/docs/CopyCat)
 
 
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
-### [Matryoshki](/docs/Matryoshki)
+#### [Matryoshki](/docs/Matryoshki)
 
 
-### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
 
 
-### [ProxyGen](/docs/ProxyGen)
+#### [ProxyGen](/docs/ProxyGen)
 
 
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
-### [RSCG_Static](/docs/RSCG_Static)
+#### [RSCG_Static](/docs/RSCG_Static)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_WebAPIExports?label=RSCG_WebAPIExports)](https://www.nuget.org/packages/RSCG_WebAPIExports/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_WebAPIExports?label=updated)](https://github.com/ignatandrei/RSCG_WebAPIExports/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WebAPIExports?style=social)
@@ -432,23 +433,23 @@ public class MiddlewareExportToFile : IMiddleware
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports
 
-## In the same category (API)
+### In the same category (API) - 6 other generators
 
 
-### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
-### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 
-### [RDG](/docs/RDG)
+#### [RDG](/docs/RDG)
 
 
-### [Refit](/docs/Refit)
+#### [Refit](/docs/Refit)
 
 
-### [SafeRouting](/docs/SafeRouting)
+#### [SafeRouting](/docs/SafeRouting)
 
 
-### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

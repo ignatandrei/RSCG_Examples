@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Static?label=RSCG_Static)](https://www.nuget.org/packages/RSCG_Static/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated)](https://github.com/ignatandrei/RSCG_Static)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Static?style=social)
@@ -218,26 +219,26 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 
-## In the same category (Interface)
+### In the same category (Interface) - 7 other generators
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [CopyCat](/docs/CopyCat)
+#### [CopyCat](/docs/CopyCat)
 
 
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
-### [Matryoshki](/docs/Matryoshki)
+#### [Matryoshki](/docs/Matryoshki)
 
 
-### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
 
 
-### [ProxyGen](/docs/ProxyGen)
+#### [ProxyGen](/docs/ProxyGen)
 
 
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 

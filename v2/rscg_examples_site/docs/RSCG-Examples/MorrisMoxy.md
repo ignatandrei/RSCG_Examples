@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Morris.Moxy?label=Morris.Moxy)](https://www.nuget.org/packages/Morris.Moxy/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mrpmorris/Morris.Moxy?label=updated)](https://github.com/mrpmorris/Morris.Moxy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mrpmorris/Morris.Moxy?style=social)
@@ -320,23 +321,23 @@ namespace MorrisMoxyDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 
-## In the same category (Templating)
+### In the same category (Templating) - 6 other generators
 
 
-### [Gobie](/docs/Gobie)
+#### [Gobie](/docs/Gobie)
 
 
-### [InterceptorTemplate](/docs/InterceptorTemplate)
+#### [InterceptorTemplate](/docs/InterceptorTemplate)
 
 
-### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
-### [RazorBlade](/docs/RazorBlade)
+#### [RazorBlade](/docs/RazorBlade)
 
 
-### [RSCG_Templating](/docs/RSCG_Templating)
+#### [RSCG_Templating](/docs/RSCG_Templating)
 
 
-### [spreadcheetah](/docs/spreadcheetah)
+#### [spreadcheetah](/docs/spreadcheetah)
 

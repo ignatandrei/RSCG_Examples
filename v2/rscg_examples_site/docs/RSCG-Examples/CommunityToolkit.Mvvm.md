@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/CommunityToolkit.Mvvm?label=CommunityToolkit.Mvvm)](https://www.nuget.org/packages/CommunityToolkit.Mvvm)
 [![GitHub last commit](https://img.shields.io/github/last-commit/CommunityToolkit/dotnet?label=updated)](https://github.com/CommunityToolkit/dotnet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/CommunityToolkit/dotnet?style=social)
@@ -861,8 +862,8 @@ namespace test
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
 
-## In the same category (MVVM)
+### In the same category (MVVM) - 1 other generators
 
 
-### [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+#### [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_FunctionsWithDI?label=RSCG_FunctionsWithDI)](https://www.nuget.org/packages/RSCG_FunctionsWithDI/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/functionsdi?label=updated)](https://github.com/ignatandrei/functionsdi)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/functionsdi?style=social)
@@ -376,35 +377,35 @@ return  TestMyFunc1(t1,t2,x,y);
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 
-## In the same category (EnhancementProject)
+### In the same category (EnhancementProject) - 10 other generators
 
 
-### [BuildInfo](/docs/BuildInfo)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-### [Com](/docs/Com)
+#### [Com](/docs/Com)
 
 
-### [CommandLine](/docs/CommandLine)
+#### [CommandLine](/docs/CommandLine)
 
 
-### [DeeDee](/docs/DeeDee)
+#### [DeeDee](/docs/DeeDee)
 
 
-### [Mediator](/docs/Mediator)
+#### [Mediator](/docs/Mediator)
 
 
-### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_AMS](/docs/RSCG_AMS)
 
 
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
 
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
-### [ThisAssembly](/docs/ThisAssembly)
+#### [ThisAssembly](/docs/ThisAssembly)
 

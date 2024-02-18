@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/AltaSoft.DomainPrimitives.Generator?label=AltaSoft.DomainPrimitives.Generator)](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator)[![Nuget](https://img.shields.io/nuget/dt/AltaSoft.DomainPrimitives.Abstractions?label=AltaSoft.DomainPrimitives.Abstractions)](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Abstractions)
 [![GitHub last commit](https://img.shields.io/github/last-commit/altasoft/DomainPrimitives?label=updated)](https://github.com/altasoft/DomainPrimitives)
 ![GitHub Repo stars](https://img.shields.io/github/stars/altasoft/DomainPrimitives?style=social)
@@ -2174,14 +2175,14 @@ public sealed class YearDateTypeConverter : Int32Converter
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives
 
-## In the same category (PrimitiveObsession)
+### In the same category (PrimitiveObsession) - 3 other generators
 
 
-### [Strongly](/docs/Strongly)
+#### [Strongly](/docs/Strongly)
 
 
-### [UnitGenerator](/docs/UnitGenerator)
+#### [UnitGenerator](/docs/UnitGenerator)
 
 
-### [Vogen](/docs/Vogen)
+#### [Vogen](/docs/Vogen)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/PlantUmlClassDiagramGenerator.SourceGenerator?label=PlantUmlClassDiagramGenerator.SourceGenerator)](https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.SourceGenerator/)[![Nuget](https://img.shields.io/nuget/dt/PlantUmlClassDiagramGenerator.Attributes?label=PlantUmlClassDiagramGenerator.Attributes)](https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.Attributes/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/pierre3/PlantUmlClassDiagramGenerator?label=updated)](https://github.com/pierre3/PlantUmlClassDiagramGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pierre3/PlantUmlClassDiagramGenerator?style=social)
@@ -896,35 +897,35 @@ class Person  {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator
 
-## In the same category (EnhancementProject)
+### In the same category (EnhancementProject) - 10 other generators
 
 
-### [BuildInfo](/docs/BuildInfo)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-### [Com](/docs/Com)
+#### [Com](/docs/Com)
 
 
-### [CommandLine](/docs/CommandLine)
+#### [CommandLine](/docs/CommandLine)
 
 
-### [DeeDee](/docs/DeeDee)
+#### [DeeDee](/docs/DeeDee)
 
 
-### [Mediator](/docs/Mediator)
+#### [Mediator](/docs/Mediator)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_AMS](/docs/RSCG_AMS)
 
 
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
 
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
 
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
-### [ThisAssembly](/docs/ThisAssembly)
+#### [ThisAssembly](/docs/ThisAssembly)
 

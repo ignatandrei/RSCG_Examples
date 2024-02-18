@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoRegisterInject?label=AutoRegisterInject)](https://www.nuget.org/packages/AutoRegisterInject/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/patrickklaeren/AutoRegisterInject?label=updated)](https://github.com/patrickklaeren/AutoRegisterInject)
 ![GitHub Repo stars](https://img.shields.io/github/stars/patrickklaeren/AutoRegisterInject?style=social)
@@ -383,11 +384,11 @@ serviceCollection.AddSingleton<AutoRegisterInjectDemo.DatabaseCon>();
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoRegisterInject
 
-## In the same category (DependencyInjection)
+### In the same category (DependencyInjection) - 2 other generators
 
 
-### [Injectio](/docs/Injectio)
+#### [Injectio](/docs/Injectio)
 
 
-### [jab](/docs/jab)
+#### [jab](/docs/jab)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Ridge?label=Ridge)](https://www.nuget.org/packages/Ridge/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Melchy/Ridge?label=updated)](https://github.com/Melchy/Ridge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Melchy/Ridge?style=social)
@@ -437,11 +438,11 @@ namespace RidgeDemoWebApp.Controllers
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge
 
-## In the same category (Tests)
+### In the same category (Tests) - 2 other generators
 
 
-### [mocklis](/docs/mocklis)
+#### [mocklis](/docs/mocklis)
 
 
-### [Rocks](/docs/Rocks)
+#### [Rocks](/docs/Rocks)
 

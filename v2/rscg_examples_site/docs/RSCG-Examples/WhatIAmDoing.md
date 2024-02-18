@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_WhatIAmDoing?label=RSCG_WhatIAmDoing)](https://www.nuget.org/packages/RSCG_WhatIAmDoing/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_WhatIAmDoing_Common?label=RSCG_WhatIAmDoing_Common)](https://www.nuget.org/packages/RSCG_WhatIAmDoing_Common/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_WhatIAmDoing?label=updated)](https://github.com/ignatandrei/RSCG_WhatIAmDoing)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WhatIAmDoing?style=social)
@@ -600,5 +601,5 @@ $$$""""
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing
 
-## In the same category (AOP)
+### In the same category (AOP) - 0 other generators
 

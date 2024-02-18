@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Configuration.Binder?label=Microsoft.Extensions.Configuration.Binder)](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/)
 [![GitHub last commit](https://img.shields.io/learn.microsoft/last-commit/en-us/dotnet?label=updated)](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator)
 ![GitHub Repo stars](https://img.shields.io/learn.microsoft/stars/en-us/dotnet?style=social)
@@ -370,23 +371,23 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder
 
-## In the same category (API)
+### In the same category (API) - 6 other generators
 
 
-### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 
-### [RDG](/docs/RDG)
+#### [RDG](/docs/RDG)
 
 
-### [Refit](/docs/Refit)
+#### [Refit](/docs/Refit)
 
 
-### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
-### [SafeRouting](/docs/SafeRouting)
+#### [SafeRouting](/docs/SafeRouting)
 
 
-### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

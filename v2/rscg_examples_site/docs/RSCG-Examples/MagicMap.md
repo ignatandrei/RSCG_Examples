@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/MagicMap?label=MagicMap)](https://www.nuget.org/packages/MagicMap/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/bramerdaniel/MagicMap?label=updated)](https://github.com/bramerdaniel/MagicMap)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bramerdaniel/MagicMap?style=social)
@@ -499,20 +500,20 @@ namespace MagicMap
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap
 
-## In the same category (Mapper)
+### In the same category (Mapper) - 5 other generators
 
 
-### [AutoDTO](/docs/AutoDTO)
+#### [AutoDTO](/docs/AutoDTO)
 
 
-### [DynamicsMapper](/docs/DynamicsMapper)
+#### [DynamicsMapper](/docs/DynamicsMapper)
 
 
-### [mapperly](/docs/mapperly)
+#### [mapperly](/docs/mapperly)
 
 
-### [MapTo](/docs/MapTo)
+#### [MapTo](/docs/MapTo)
 
 
-### [NextGenMapper](/docs/NextGenMapper)
+#### [NextGenMapper](/docs/NextGenMapper)
 

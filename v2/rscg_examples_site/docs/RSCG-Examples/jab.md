@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/jab?label=jab)](https://www.nuget.org/packages/jab/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/pakrym/jab?label=updated)](https://github.com/pakrym/jab)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pakrym/jab?style=social)
@@ -974,11 +975,11 @@ internal partial class MyServiceProvider : global::System.IDisposable,
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/jab
 
-## In the same category (DependencyInjection)
+### In the same category (DependencyInjection) - 2 other generators
 
 
-### [AutoRegisterInject](/docs/AutoRegisterInject)
+#### [AutoRegisterInject](/docs/AutoRegisterInject)
 
 
-### [Injectio](/docs/Injectio)
+#### [Injectio](/docs/Injectio)
 

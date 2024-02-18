@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Templating?label=RSCG_Templating)](https://www.nuget.org/packages/RSCG_Templating/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_TemplatingCommon?label=RSCG_TemplatingCommon)](https://www.nuget.org/packages/RSCG_TemplatingCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_templating?label=updated)](https://github.com/ignatandrei/rscg_templating/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/rscg_templating?style=social)
@@ -428,23 +429,23 @@ namespace RSCG_TemplatingDemo {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating
 
-## In the same category (Templating)
+### In the same category (Templating) - 6 other generators
 
 
-### [Gobie](/docs/Gobie)
+#### [Gobie](/docs/Gobie)
 
 
-### [InterceptorTemplate](/docs/InterceptorTemplate)
+#### [InterceptorTemplate](/docs/InterceptorTemplate)
 
 
-### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
-### [MorrisMoxy](/docs/MorrisMoxy)
+#### [MorrisMoxy](/docs/MorrisMoxy)
 
 
-### [RazorBlade](/docs/RazorBlade)
+#### [RazorBlade](/docs/RazorBlade)
 
 
-### [spreadcheetah](/docs/spreadcheetah)
+#### [spreadcheetah](/docs/spreadcheetah)
 

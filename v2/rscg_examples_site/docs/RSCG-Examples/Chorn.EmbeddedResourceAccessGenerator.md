@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Chorn.EmbeddedResourceAccessGenerator?label=Chorn.EmbeddedResourceAccessGenerator)](https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ChristophHornung/EmbeddedResourceGenerator?label=updated)](https://github.com/ChristophHornung/EmbeddedResourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ChristophHornung/EmbeddedResourceGenerator?style=social)
@@ -349,29 +350,29 @@ public enum EmbeddedResourcesql
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator
 
-## In the same category (FilesToCode)
+### In the same category (FilesToCode) - 8 other generators
 
 
-### [corecraft](/docs/corecraft)
+#### [corecraft](/docs/corecraft)
 
 
-### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 
-### [NotNotAppSettings](/docs/NotNotAppSettings)
+#### [NotNotAppSettings](/docs/NotNotAppSettings)
 
 
-### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
+#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 
-### [ResXGenerator](/docs/ResXGenerator)
+#### [ResXGenerator](/docs/ResXGenerator)
 
 
-### [RSCG_Utils](/docs/RSCG_Utils)
+#### [RSCG_Utils](/docs/RSCG_Utils)
 
 
-### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+#### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
 
-### [Weave](/docs/Weave)
+#### [Weave](/docs/Weave)
 

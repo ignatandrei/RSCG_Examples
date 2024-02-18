@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
@@ -601,35 +602,35 @@ partial class ThisAssembly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 
-## In the same category (EnhancementProject)
+### In the same category (EnhancementProject) - 10 other generators
 
 
-### [BuildInfo](/docs/BuildInfo)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-### [Com](/docs/Com)
+#### [Com](/docs/Com)
 
 
-### [CommandLine](/docs/CommandLine)
+#### [CommandLine](/docs/CommandLine)
 
 
-### [DeeDee](/docs/DeeDee)
+#### [DeeDee](/docs/DeeDee)
 
 
-### [Mediator](/docs/Mediator)
+#### [Mediator](/docs/Mediator)
 
 
-### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_AMS](/docs/RSCG_AMS)
 
 
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
 
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
 
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 

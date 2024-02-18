@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/ProxyGen.net?label=ProxyGen.net)](https://www.nuget.org/packages/ProxyGen.net/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Sholtee/ProxyGen?label=updated)](https://github.com/Sholtee/ProxyGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Sholtee/ProxyGen?style=social)
@@ -396,26 +397,26 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen
 
-## In the same category (Interface)
+### In the same category (Interface) - 7 other generators
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [CopyCat](/docs/CopyCat)
+#### [CopyCat](/docs/CopyCat)
 
 
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
-### [Matryoshki](/docs/Matryoshki)
+#### [Matryoshki](/docs/Matryoshki)
 
 
-### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
 
 
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
-### [RSCG_Static](/docs/RSCG_Static)
+#### [RSCG_Static](/docs/RSCG_Static)
 

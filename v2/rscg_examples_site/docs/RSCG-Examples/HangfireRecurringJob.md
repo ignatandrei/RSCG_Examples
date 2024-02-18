@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/IeuanWalker.Hangfire.RecurringJob?label=IeuanWalker.Hangfire.RecurringJob)](https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/IeuanWalker/Hangfire.RecurringJob?label=updated)](https://github.com/IeuanWalker/Hangfire.RecurringJob)
 ![GitHub Repo stars](https://img.shields.io/github/stars/IeuanWalker/Hangfire.RecurringJob?style=social)
@@ -308,5 +309,5 @@ public static class RecurringJobRegistrationExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/HangfireRecurringJob
 
-## In the same category (Hangfire)
+### In the same category (Hangfire) - 0 other generators
 

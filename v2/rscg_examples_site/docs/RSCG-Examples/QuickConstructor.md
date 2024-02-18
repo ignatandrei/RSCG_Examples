@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/QuickConstructor?label=QuickConstructor)](https://www.nuget.org/packages/QuickConstructor)
 [![GitHub last commit](https://img.shields.io/github/last-commit/flavien/QuickConstructor?label=updated)](https://github.com/flavien/QuickConstructor)
 ![GitHub Repo stars](https://img.shields.io/github/stars/flavien/QuickConstructor?style=social)
@@ -425,20 +426,20 @@ namespace QuickConstructorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor
 
-## In the same category (Constructor)
+### In the same category (Constructor) - 5 other generators
 
 
-### [AutoConstructor](/docs/AutoConstructor)
+#### [AutoConstructor](/docs/AutoConstructor)
 
 
-### [AutoCtor](/docs/AutoCtor)
+#### [AutoCtor](/docs/AutoCtor)
 
 
-### [AutoDeconstruct](/docs/AutoDeconstruct)
+#### [AutoDeconstruct](/docs/AutoDeconstruct)
 
 
-### [PrimaryParameter](/docs/PrimaryParameter)
+#### [PrimaryParameter](/docs/PrimaryParameter)
 
 
-### [sourcedepend](/docs/sourcedepend)
+#### [sourcedepend](/docs/sourcedepend)
 

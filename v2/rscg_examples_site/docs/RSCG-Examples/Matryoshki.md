@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Matryoshki?label=Matryoshki)](https://www.nuget.org/packages/Matryoshki/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/krasin-ga/matryoshki?label=updated)](https://github.com/krasin-ga/matryoshki/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/krasin-ga/matryoshki?style=social)
@@ -545,26 +546,26 @@ public class PersonMatryoshka : MatryoshkiDemo.IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki
 
-## In the same category (Interface)
+### In the same category (Interface) - 7 other generators
 
 
-### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
-### [CopyCat](/docs/CopyCat)
+#### [CopyCat](/docs/CopyCat)
 
 
-### [MakeInterface.Generator](/docs/MakeInterface.Generator)
+#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
 
-### [NetAutomaticInterface](/docs/NetAutomaticInterface)
+#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
 
 
-### [ProxyGen](/docs/ProxyGen)
+#### [ProxyGen](/docs/ProxyGen)
 
 
-### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
 
-### [RSCG_Static](/docs/RSCG_Static)
+#### [RSCG_Static](/docs/RSCG_Static)
 

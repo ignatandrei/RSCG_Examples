@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/System.Text.Json?label=System.Text.Json)](https://www.nuget.org/packages/System.Text.Json/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -766,14 +767,14 @@ namespace JsonSerializerOptionsExample
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json
 
-## In the same category (Serializer)
+### In the same category (Serializer) - 3 other generators
 
 
-### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
 
 
-### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
+#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 
-### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 

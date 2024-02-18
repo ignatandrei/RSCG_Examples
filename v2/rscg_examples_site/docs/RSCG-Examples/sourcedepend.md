@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/sourcedepend?label=sourcedepend)](https://www.nuget.org/packages/sourcedepend/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/crwsolutions/sourcedepend?label=updated)](https://github.com/crwsolutions/sourcedepend)
 ![GitHub Repo stars](https://img.shields.io/github/stars/crwsolutions/sourcedepend?style=social)
@@ -371,20 +372,20 @@ namespace CtorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/sourcedepend
 
-## In the same category (Constructor)
+### In the same category (Constructor) - 5 other generators
 
 
-### [AutoConstructor](/docs/AutoConstructor)
+#### [AutoConstructor](/docs/AutoConstructor)
 
 
-### [AutoCtor](/docs/AutoCtor)
+#### [AutoCtor](/docs/AutoCtor)
 
 
-### [AutoDeconstruct](/docs/AutoDeconstruct)
+#### [AutoDeconstruct](/docs/AutoDeconstruct)
 
 
-### [PrimaryParameter](/docs/PrimaryParameter)
+#### [PrimaryParameter](/docs/PrimaryParameter)
 
 
-### [QuickConstructor](/docs/QuickConstructor)
+#### [QuickConstructor](/docs/QuickConstructor)
 

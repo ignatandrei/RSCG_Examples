@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/EnumClass.Generator?label=EnumClass.Generator)](https://www.nuget.org/packages/EnumClass.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ashenBlade/EnumClass?label=updated)](https://github.com/ashenBlade/EnumClass)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ashenBlade/EnumClass?style=social)
@@ -1081,11 +1082,11 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 
-## In the same category (Enum)
+### In the same category (Enum) - 2 other generators
 
 
-### [CredFetoEnum](/docs/CredFetoEnum)
+#### [CredFetoEnum](/docs/CredFetoEnum)
 
 
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 

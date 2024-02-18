@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_TimeBombComment?label=RSCG_TimeBombComment)](https://www.nuget.org/packages/RSCG_TimeBombComment/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated)](https://github.com/ignatandrei/RSCG_TimeBombComment)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social)
@@ -231,35 +232,35 @@ namespace Console_TimeBombComment {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
 
-## In the same category (EnhancementProject)
+### In the same category (EnhancementProject) - 10 other generators
 
 
-### [BuildInfo](/docs/BuildInfo)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-### [Com](/docs/Com)
+#### [Com](/docs/Com)
 
 
-### [CommandLine](/docs/CommandLine)
+#### [CommandLine](/docs/CommandLine)
 
 
-### [DeeDee](/docs/DeeDee)
+#### [DeeDee](/docs/DeeDee)
 
 
-### [Mediator](/docs/Mediator)
+#### [Mediator](/docs/Mediator)
 
 
-### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_AMS](/docs/RSCG_AMS)
 
 
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
 
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
-### [ThisAssembly](/docs/ThisAssembly)
+#### [ThisAssembly](/docs/ThisAssembly)
 

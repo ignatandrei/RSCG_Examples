@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Rocks?label=Rocks)](https://www.nuget.org/packages/Rocks/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/Rocks?label=updated)](https://github.com/JasonBock/Rocks/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/Rocks?style=social)
@@ -291,11 +292,11 @@ namespace MockRock
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks
 
-## In the same category (Tests)
+### In the same category (Tests) - 2 other generators
 
 
-### [mocklis](/docs/mocklis)
+#### [mocklis](/docs/mocklis)
 
 
-### [Ridge](/docs/Ridge)
+#### [Ridge](/docs/Ridge)
 

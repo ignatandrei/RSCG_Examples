@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/SourceGenerator.Helper.CopyCode?label=SourceGenerator.Helper.CopyCode)](https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/LokiMidgard/SourceGenerator.Helper.CopyCode?label=updated)](https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LokiMidgard/SourceGenerator.Helper.CopyCode?style=social)
@@ -280,35 +281,35 @@ internal  static partial class Copy {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode
 
-## In the same category (EnhancementProject)
+### In the same category (EnhancementProject) - 10 other generators
 
 
-### [BuildInfo](/docs/BuildInfo)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-### [Com](/docs/Com)
+#### [Com](/docs/Com)
 
 
-### [CommandLine](/docs/CommandLine)
+#### [CommandLine](/docs/CommandLine)
 
 
-### [DeeDee](/docs/DeeDee)
+#### [DeeDee](/docs/DeeDee)
 
 
-### [Mediator](/docs/Mediator)
+#### [Mediator](/docs/Mediator)
 
 
-### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_AMS](/docs/RSCG_AMS)
 
 
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
 
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
 
-### [ThisAssembly](/docs/ThisAssembly)
+#### [ThisAssembly](/docs/ThisAssembly)
 

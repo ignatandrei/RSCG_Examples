@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Riok.Mapperly?label=Riok.Mapperly)](https://www.nuget.org/packages/Riok.Mapperly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/riok/mapperly?label=updated)](https://github.com/riok/mapperly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/riok/mapperly?style=social)
@@ -277,20 +278,20 @@ namespace mapperlyDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
 
-## In the same category (Mapper)
+### In the same category (Mapper) - 5 other generators
 
 
-### [AutoDTO](/docs/AutoDTO)
+#### [AutoDTO](/docs/AutoDTO)
 
 
-### [DynamicsMapper](/docs/DynamicsMapper)
+#### [DynamicsMapper](/docs/DynamicsMapper)
 
 
-### [MagicMap](/docs/MagicMap)
+#### [MagicMap](/docs/MagicMap)
 
 
-### [MapTo](/docs/MapTo)
+#### [MapTo](/docs/MapTo)
 
 
-### [NextGenMapper](/docs/NextGenMapper)
+#### [NextGenMapper](/docs/NextGenMapper)
 

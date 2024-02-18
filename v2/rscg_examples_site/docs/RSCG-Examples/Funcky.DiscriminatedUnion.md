@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Funcky.DiscriminatedUnion?label=Funcky.DiscriminatedUnion)](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/polyadic/funcky-discriminated-union?label=updated)](https://github.com/polyadic/funcky-discriminated-union)
 ![GitHub Repo stars](https://img.shields.io/github/stars/polyadic/funcky-discriminated-union?style=social)
@@ -386,29 +387,29 @@ namespace Union
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion
 
-## In the same category (FunctionalProgramming)
+### In the same category (FunctionalProgramming) - 8 other generators
 
 
-### [cachesourcegenerator](/docs/cachesourcegenerator)
+#### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
-### [dunet](/docs/dunet)
+#### [dunet](/docs/dunet)
 
 
-### [FunicularSwitch](/docs/FunicularSwitch)
+#### [FunicularSwitch](/docs/FunicularSwitch)
 
 
-### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 
-### [OneOf](/docs/OneOf)
+#### [OneOf](/docs/OneOf)
 
 
-### [PartiallyApplied](/docs/PartiallyApplied)
+#### [PartiallyApplied](/docs/PartiallyApplied)
 
 
-### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
 
-### [UnionsGenerator](/docs/UnionsGenerator)
+#### [UnionsGenerator](/docs/UnionsGenerator)
 

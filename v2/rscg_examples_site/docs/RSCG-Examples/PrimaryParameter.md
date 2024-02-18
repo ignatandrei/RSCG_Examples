@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/FaustVX.PrimaryParameter.SG?label=FaustVX.PrimaryParameter.SG)](https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG)
 [![GitHub last commit](https://img.shields.io/github/last-commit/FaustVX/PrimaryParameter?label=updated)](https://github.com/FaustVX/PrimaryParameter)
 ![GitHub Repo stars](https://img.shields.io/github/stars/FaustVX/PrimaryParameter?style=social)
@@ -325,20 +326,20 @@ namespace PrimaryParameter.SG
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter
 
-## In the same category (Constructor)
+### In the same category (Constructor) - 5 other generators
 
 
-### [AutoConstructor](/docs/AutoConstructor)
+#### [AutoConstructor](/docs/AutoConstructor)
 
 
-### [AutoCtor](/docs/AutoCtor)
+#### [AutoCtor](/docs/AutoCtor)
 
 
-### [AutoDeconstruct](/docs/AutoDeconstruct)
+#### [AutoDeconstruct](/docs/AutoDeconstruct)
 
 
-### [QuickConstructor](/docs/QuickConstructor)
+#### [QuickConstructor](/docs/QuickConstructor)
 
 
-### [sourcedepend](/docs/sourcedepend)
+#### [sourcedepend](/docs/sourcedepend)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Utils?label=updated)](https://github.com/ignatandrei/RSCG_Utils)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social)
@@ -361,29 +362,29 @@ partial class fibTest
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo
 
-## In the same category (FunctionalProgramming)
+### In the same category (FunctionalProgramming) - 8 other generators
 
 
-### [cachesourcegenerator](/docs/cachesourcegenerator)
+#### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
-### [dunet](/docs/dunet)
+#### [dunet](/docs/dunet)
 
 
-### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
 
-### [FunicularSwitch](/docs/FunicularSwitch)
+#### [FunicularSwitch](/docs/FunicularSwitch)
 
 
-### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 
-### [OneOf](/docs/OneOf)
+#### [OneOf](/docs/OneOf)
 
 
-### [PartiallyApplied](/docs/PartiallyApplied)
+#### [PartiallyApplied](/docs/PartiallyApplied)
 
 
-### [UnionsGenerator](/docs/UnionsGenerator)
+#### [UnionsGenerator](/docs/UnionsGenerator)
 

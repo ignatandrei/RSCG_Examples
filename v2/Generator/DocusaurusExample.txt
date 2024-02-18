@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 {{Description.Generator.MarkDownNugetDownloads}}
 {{Description.Generator.MarkdownLastCommit}}
 {{Description.Generator.MarkDownStars}}
@@ -128,10 +129,10 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
 
-## In the same category ({{category}})
+### In the same category ({{category}}) - {{otherDesc.size}} other generators
 
 {{~ for rscgV in otherDesc ~}}
 
-### [{{rscgV.Generator.Name}}](/docs/{{rscgV.Generator.Name}})
+#### [{{rscgV.Generator.Name}}](/docs/{{rscgV.Generator.Name}})
 
 {{~ end ~}}

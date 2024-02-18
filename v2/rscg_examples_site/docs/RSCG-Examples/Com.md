@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -425,35 +426,35 @@ namespace test
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com
 
-## In the same category (EnhancementProject)
+### In the same category (EnhancementProject) - 10 other generators
 
 
-### [BuildInfo](/docs/BuildInfo)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-### [CommandLine](/docs/CommandLine)
+#### [CommandLine](/docs/CommandLine)
 
 
-### [DeeDee](/docs/DeeDee)
+#### [DeeDee](/docs/DeeDee)
 
 
-### [Mediator](/docs/Mediator)
+#### [Mediator](/docs/Mediator)
 
 
-### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
 
 
-### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_AMS](/docs/RSCG_AMS)
 
 
-### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
 
-### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
 
-### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
-### [ThisAssembly](/docs/ThisAssembly)
+#### [ThisAssembly](/docs/ThisAssembly)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection?label=FastStaticReflection)](https://www.nuget.org/packages/FastStaticReflection/)[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection.CodeGen?label=FastStaticReflection.CodeGen)](https://www.nuget.org/packages/FastStaticReflection.CodeGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cricle/StaticReflection?label=updated)](https://github.com/Cricle/StaticReflection/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Cricle/StaticReflection?style=social)
@@ -643,77 +644,77 @@ namespace StaticReflectionDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection
 
-## In the same category (EnhancementClass)
+### In the same category (EnhancementClass) - 24 other generators
 
 
-### [ApparatusAOT](/docs/ApparatusAOT)
+#### [ApparatusAOT](/docs/ApparatusAOT)
 
 
-### [AspectGenerator](/docs/AspectGenerator)
+#### [AspectGenerator](/docs/AspectGenerator)
 
 
-### [BuilderGenerator](/docs/BuilderGenerator)
+#### [BuilderGenerator](/docs/BuilderGenerator)
 
 
-### [CopyTo](/docs/CopyTo)
+#### [CopyTo](/docs/CopyTo)
 
 
-### [DudNet](/docs/DudNet)
+#### [DudNet](/docs/DudNet)
 
 
-### [FastGenericNew](/docs/FastGenericNew)
+#### [FastGenericNew](/docs/FastGenericNew)
 
 
-### [GeneratorEquals](/docs/GeneratorEquals)
+#### [GeneratorEquals](/docs/GeneratorEquals)
 
 
-### [HsuSgSync](/docs/HsuSgSync)
+#### [HsuSgSync](/docs/HsuSgSync)
 
 
-### [Immutype](/docs/Immutype)
+#### [Immutype](/docs/Immutype)
 
 
-### [Ling.Audit](/docs/Ling.Audit)
+#### [Ling.Audit](/docs/Ling.Audit)
 
 
-### [Lombok.NET](/docs/Lombok.NET)
+#### [Lombok.NET](/docs/Lombok.NET)
 
 
-### [M31.FluentAPI](/docs/M31.FluentAPI)
+#### [M31.FluentAPI](/docs/M31.FluentAPI)
 
 
-### [MemoryPack](/docs/MemoryPack)
+#### [MemoryPack](/docs/MemoryPack)
 
 
-### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
+#### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
 
-### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
+#### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
 
-### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+#### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
 
-### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+#### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
 
-### [OptionToStringGenerator](/docs/OptionToStringGenerator)
+#### [OptionToStringGenerator](/docs/OptionToStringGenerator)
 
 
-### [RSCG_Decorator](/docs/RSCG_Decorator)
+#### [RSCG_Decorator](/docs/RSCG_Decorator)
 
 
-### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+#### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
 
-### [SyncMethodGenerator](/docs/SyncMethodGenerator)
+#### [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
 
-### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
+#### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
 
 
-### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+#### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
 
-### [TelemetryLogging](/docs/TelemetryLogging)
+#### [TelemetryLogging](/docs/TelemetryLogging)
 

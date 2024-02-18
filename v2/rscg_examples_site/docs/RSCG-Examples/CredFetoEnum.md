@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Credfeto.Enumeration.Source.Generation?label=Credfeto.Enumeration.Source.Generation)](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/credfeto/credfeto-enum-source-generation?label=updated)](https://github.com/credfeto/credfeto-enum-source-generation)
 ![GitHub Repo stars](https://img.shields.io/github/stars/credfeto/credfeto-enum-source-generation?style=social)
@@ -355,11 +356,11 @@ public static class ColorsGeneratedExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum
 
-## In the same category (Enum)
+### In the same category (Enum) - 2 other generators
 
 
-### [EnumClass](/docs/EnumClass)
+#### [EnumClass](/docs/EnumClass)
 
 
-### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 

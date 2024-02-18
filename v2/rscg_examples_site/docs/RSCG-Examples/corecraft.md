@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/corecraft?label=corecraft)](https://www.nuget.org/packages/corecraft/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlexNav73/CoreCraft?label=updated)](https://github.com/AlexNav73/CoreCraft)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AlexNav73/CoreCraft?style=social)
@@ -659,29 +660,29 @@ namespace Json2Code.Person.Entities
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/corecraft
 
-## In the same category (FilesToCode)
+### In the same category (FilesToCode) - 8 other generators
 
 
-### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
+#### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
-### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 
-### [NotNotAppSettings](/docs/NotNotAppSettings)
+#### [NotNotAppSettings](/docs/NotNotAppSettings)
 
 
-### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
+#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 
-### [ResXGenerator](/docs/ResXGenerator)
+#### [ResXGenerator](/docs/ResXGenerator)
 
 
-### [RSCG_Utils](/docs/RSCG_Utils)
+#### [RSCG_Utils](/docs/RSCG_Utils)
 
 
-### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+#### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
 
-### [Weave](/docs/Weave)
+#### [Weave](/docs/Weave)
 

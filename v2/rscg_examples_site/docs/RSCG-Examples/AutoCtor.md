@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoCtor?label=AutoCtor)](https://www.nuget.org/packages/AutoCtor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/distantcam/AutoCtor?label=updated)](https://github.com/distantcam/AutoCtor)
 ![GitHub Repo stars](https://img.shields.io/github/stars/distantcam/AutoCtor?style=social)
@@ -368,20 +369,20 @@ namespace AutoCtorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor
 
-## In the same category (Constructor)
+### In the same category (Constructor) - 5 other generators
 
 
-### [AutoConstructor](/docs/AutoConstructor)
+#### [AutoConstructor](/docs/AutoConstructor)
 
 
-### [AutoDeconstruct](/docs/AutoDeconstruct)
+#### [AutoDeconstruct](/docs/AutoDeconstruct)
 
 
-### [PrimaryParameter](/docs/PrimaryParameter)
+#### [PrimaryParameter](/docs/PrimaryParameter)
 
 
-### [QuickConstructor](/docs/QuickConstructor)
+#### [QuickConstructor](/docs/QuickConstructor)
 
 
-### [sourcedepend](/docs/sourcedepend)
+#### [sourcedepend](/docs/sourcedepend)
 

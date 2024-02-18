@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/FunicularSwitch.Generators?label=FunicularSwitch.Generators)](https://www.nuget.org/packages/FunicularSwitch.Generators/)[![Nuget](https://img.shields.io/nuget/dt/FunicularSwitch?label=FunicularSwitch)](https://www.nuget.org/packages/FunicularSwitch)
 [![GitHub last commit](https://img.shields.io/github/last-commit/bluehands/Funicular-Switch?label=updated)](https://github.com/bluehands/Funicular-Switch)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bluehands/Funicular-Switch?style=social)
@@ -1174,29 +1175,29 @@ namespace FunicularSwitch.Generators
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch
 
-## In the same category (FunctionalProgramming)
+### In the same category (FunctionalProgramming) - 8 other generators
 
 
-### [cachesourcegenerator](/docs/cachesourcegenerator)
+#### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
-### [dunet](/docs/dunet)
+#### [dunet](/docs/dunet)
 
 
-### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
 
-### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 
-### [OneOf](/docs/OneOf)
+#### [OneOf](/docs/OneOf)
 
 
-### [PartiallyApplied](/docs/PartiallyApplied)
+#### [PartiallyApplied](/docs/PartiallyApplied)
 
 
-### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
 
-### [UnionsGenerator](/docs/UnionsGenerator)
+#### [UnionsGenerator](/docs/UnionsGenerator)
 

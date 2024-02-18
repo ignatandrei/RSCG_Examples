@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Aviationexam.GeneratedJsonConverters.SourceGenerator?label=Aviationexam.GeneratedJsonConverters.SourceGenerator)](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/aviationexam/json-converter-source-generator?label=updated)](https://github.com/aviationexam/json-converter-source-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/aviationexam/json-converter-source-generator?style=social)
@@ -1652,14 +1653,14 @@ public partial class ProjectJsonSerializerContext
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator
 
-## In the same category (Serializer)
+### In the same category (Serializer) - 3 other generators
 
 
-### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
+#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 
-### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
 
-### [System.Text.Json](/docs/System.Text.Json)
+#### [System.Text.Json](/docs/System.Text.Json)
 

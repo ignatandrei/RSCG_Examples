@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 
 
 
@@ -2082,23 +2083,23 @@ using RazorAppDemo;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators
 
-## In the same category (Templating)
+### In the same category (Templating) - 6 other generators
 
 
-### [Gobie](/docs/Gobie)
+#### [Gobie](/docs/Gobie)
 
 
-### [InterceptorTemplate](/docs/InterceptorTemplate)
+#### [InterceptorTemplate](/docs/InterceptorTemplate)
 
 
-### [MorrisMoxy](/docs/MorrisMoxy)
+#### [MorrisMoxy](/docs/MorrisMoxy)
 
 
-### [RazorBlade](/docs/RazorBlade)
+#### [RazorBlade](/docs/RazorBlade)
 
 
-### [RSCG_Templating](/docs/RSCG_Templating)
+#### [RSCG_Templating](/docs/RSCG_Templating)
 
 
-### [spreadcheetah](/docs/spreadcheetah)
+#### [spreadcheetah](/docs/spreadcheetah)
 

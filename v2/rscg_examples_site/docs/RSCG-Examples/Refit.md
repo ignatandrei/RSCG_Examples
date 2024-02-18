@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Refit?label=Refit)](https://www.nuget.org/packages/Refit/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/reactiveui/refit?label=updated)](https://github.com/reactiveui/refit)
 ![GitHub Repo stars](https://img.shields.io/github/stars/reactiveui/refit?style=social)
@@ -1580,23 +1581,23 @@ namespace RefitDemoRefitInternalGenerated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit
 
-## In the same category (API)
+### In the same category (API) - 6 other generators
 
 
-### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
-### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 
-### [RDG](/docs/RDG)
+#### [RDG](/docs/RDG)
 
 
-### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
-### [SafeRouting](/docs/SafeRouting)
+#### [SafeRouting](/docs/SafeRouting)
 
 
-### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/LaDeak.ProtobufSourceGenerator?label=LaDeak.ProtobufSourceGenerator)](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ladeak/ProtobufSourceGenerator?label=updated)](https://github.com/ladeak/ProtobufSourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ladeak/ProtobufSourceGenerator?style=social)
@@ -318,14 +319,14 @@ public partial class Person
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator
 
-## In the same category (Serializer)
+### In the same category (Serializer) - 3 other generators
 
 
-### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
 
 
-### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
+#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
 
-### [System.Text.Json](/docs/System.Text.Json)
+#### [System.Text.Json](/docs/System.Text.Json)
 

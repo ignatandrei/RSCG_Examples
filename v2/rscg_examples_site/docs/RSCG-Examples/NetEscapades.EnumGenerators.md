@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/NetEscapades.EnumGenerators?label=NetEscapades.EnumGenerators)](https://www.nuget.org/packages/NetEscapades.EnumGenerators/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/andrewlock/NetEscapades.EnumGenerators?label=updated)](https://github.com/andrewlock/NetEscapades.EnumGenerators)
 ![GitHub Repo stars](https://img.shields.io/github/stars/andrewlock/NetEscapades.EnumGenerators?style=social)
@@ -1329,11 +1330,11 @@ using System;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators
 
-## In the same category (Enum)
+### In the same category (Enum) - 2 other generators
 
 
-### [CredFetoEnum](/docs/CredFetoEnum)
+#### [CredFetoEnum](/docs/CredFetoEnum)
 
 
-### [EnumClass](/docs/EnumClass)
+#### [EnumClass](/docs/EnumClass)
 

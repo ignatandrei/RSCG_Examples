@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Breezy.SourceGenerator?label=Breezy.SourceGenerator)](https://www.nuget.org/packages/Breezy.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ludovicdln/Breezy?label=updated)](https://github.com/Ludovicdln/Breezy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ludovicdln/Breezy?style=social)
@@ -979,8 +980,8 @@ public sealed class TableAttribute : Attribute
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy
 
-## In the same category (Database)
+### In the same category (Database) - 1 other generators
 
 
-### [Gedaq](/docs/Gedaq)
+#### [Gedaq](/docs/Gedaq)
 

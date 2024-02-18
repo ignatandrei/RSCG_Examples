@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Benutomo.AutomaticDisposeImpl.SourceGenerator?label=Benutomo.AutomaticDisposeImpl.SourceGenerator)](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/benutomo-dev/RoslynComponents?label=updated)](https://github.com/benutomo-dev/RoslynComponents)
 ![GitHub Repo stars](https://img.shields.io/github/stars/benutomo-dev/RoslynComponents?style=social)
@@ -805,14 +806,14 @@ namespace Benutomo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator
 
-## In the same category (Disposer)
+### In the same category (Disposer) - 3 other generators
 
 
-### [DisposableHelpers](/docs/DisposableHelpers)
+#### [DisposableHelpers](/docs/DisposableHelpers)
 
 
-### [Disposer](/docs/Disposer)
+#### [Disposer](/docs/Disposer)
 
 
-### [IDisposableGenerator](/docs/IDisposableGenerator)
+#### [IDisposableGenerator](/docs/IDisposableGenerator)
 

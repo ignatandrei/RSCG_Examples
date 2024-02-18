@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Utils?label=updated)](https://github.com/ignatandrei/RSCG_Utils)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social)
@@ -217,29 +218,29 @@ as C# const
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
 
-## In the same category (FilesToCode)
+### In the same category (FilesToCode) - 8 other generators
 
 
-### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
+#### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
-### [corecraft](/docs/corecraft)
+#### [corecraft](/docs/corecraft)
 
 
-### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 
-### [NotNotAppSettings](/docs/NotNotAppSettings)
+#### [NotNotAppSettings](/docs/NotNotAppSettings)
 
 
-### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
+#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 
-### [ResXGenerator](/docs/ResXGenerator)
+#### [ResXGenerator](/docs/ResXGenerator)
 
 
-### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+#### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
 
-### [Weave](/docs/Weave)
+#### [Weave](/docs/Weave)
 

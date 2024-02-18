@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/dunet?label=dunet)](https://www.nuget.org/packages/dunet/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/domn1995/dunet?label=updated)](https://github.com/domn1995/dunet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/domn1995/dunet?style=social)
@@ -1361,29 +1362,29 @@ internal static class WhatIsTheStringMatchExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet
 
-## In the same category (FunctionalProgramming)
+### In the same category (FunctionalProgramming) - 8 other generators
 
 
-### [cachesourcegenerator](/docs/cachesourcegenerator)
+#### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
-### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
 
-### [FunicularSwitch](/docs/FunicularSwitch)
+#### [FunicularSwitch](/docs/FunicularSwitch)
 
 
-### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
 
-### [OneOf](/docs/OneOf)
+#### [OneOf](/docs/OneOf)
 
 
-### [PartiallyApplied](/docs/PartiallyApplied)
+#### [PartiallyApplied](/docs/PartiallyApplied)
 
 
-### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
 
-### [UnionsGenerator](/docs/UnionsGenerator)
+#### [UnionsGenerator](/docs/UnionsGenerator)
 

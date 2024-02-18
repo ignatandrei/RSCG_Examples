@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Gobie?label=Gobie)](https://www.nuget.org/packages/Gobie/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GobieGenerator/Gobie?label=updated)](https://github.com/GobieGenerator/Gobie/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/GobieGenerator/Gobie?style=social)
@@ -255,23 +256,23 @@ namespace Gobie
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 
-## In the same category (Templating)
+### In the same category (Templating) - 6 other generators
 
 
-### [InterceptorTemplate](/docs/InterceptorTemplate)
+#### [InterceptorTemplate](/docs/InterceptorTemplate)
 
 
-### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
 
-### [MorrisMoxy](/docs/MorrisMoxy)
+#### [MorrisMoxy](/docs/MorrisMoxy)
 
 
-### [RazorBlade](/docs/RazorBlade)
+#### [RazorBlade](/docs/RazorBlade)
 
 
-### [RSCG_Templating](/docs/RSCG_Templating)
+#### [RSCG_Templating](/docs/RSCG_Templating)
 
 
-### [spreadcheetah](/docs/spreadcheetah)
+#### [spreadcheetah](/docs/spreadcheetah)
 

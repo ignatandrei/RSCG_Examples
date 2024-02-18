@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Http?label=Microsoft.Extensions.Http)](https://www.nuget.org/packages/Microsoft.Extensions.Http)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/aspnetcore?label=updated)](https://github.com/dotnet/aspnetcore)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/aspnetcore?style=social)
@@ -624,23 +625,23 @@ namespace Microsoft.AspNetCore.Http.Generated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG
 
-## In the same category (API)
+### In the same category (API) - 6 other generators
 
 
-### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
+#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
-### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
 
 
-### [Refit](/docs/Refit)
+#### [Refit](/docs/Refit)
 
 
-### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
 
-### [SafeRouting](/docs/SafeRouting)
+#### [SafeRouting](/docs/SafeRouting)
 
 
-### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
 

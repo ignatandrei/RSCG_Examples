@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Injectio?label=Injectio)](https://www.nuget.org/packages/Injectio/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/loresoft/Injectio?label=updated)](https://github.com/loresoft/Injectio)
 ![GitHub Repo stars](https://img.shields.io/github/stars/loresoft/Injectio?style=social)
@@ -469,11 +470,11 @@ namespace Microsoft.Extensions.DependencyInjection
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio
 
-## In the same category (DependencyInjection)
+### In the same category (DependencyInjection) - 2 other generators
 
 
-### [AutoRegisterInject](/docs/AutoRegisterInject)
+#### [AutoRegisterInject](/docs/AutoRegisterInject)
 
 
-### [jab](/docs/jab)
+#### [jab](/docs/jab)
 

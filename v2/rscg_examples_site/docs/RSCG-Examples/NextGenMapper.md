@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/NextGenMapper?label=NextGenMapper)](https://www.nuget.org/packages/NextGenMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DedAnton/NextGenMapper?label=updated)](https://github.com/DedAnton/NextGenMapper)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DedAnton/NextGenMapper?style=social)
@@ -464,20 +465,20 @@ namespace NextGenMapper
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper
 
-## In the same category (Mapper)
+### In the same category (Mapper) - 5 other generators
 
 
-### [AutoDTO](/docs/AutoDTO)
+#### [AutoDTO](/docs/AutoDTO)
 
 
-### [DynamicsMapper](/docs/DynamicsMapper)
+#### [DynamicsMapper](/docs/DynamicsMapper)
 
 
-### [MagicMap](/docs/MagicMap)
+#### [MagicMap](/docs/MagicMap)
 
 
-### [mapperly](/docs/mapperly)
+#### [mapperly](/docs/mapperly)
 
 
-### [MapTo](/docs/MapTo)
+#### [MapTo](/docs/MapTo)
 

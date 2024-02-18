@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/UnitGenerator?label=UnitGenerator)](https://www.nuget.org/packages/UnitGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cysharp/UnitGenerator?label=updated)](https://github.com/Cysharp/UnitGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Cysharp/UnitGenerator?style=social)
@@ -1255,14 +1256,14 @@ namespace UnitGenerator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnitGenerator
 
-## In the same category (PrimitiveObsession)
+### In the same category (PrimitiveObsession) - 3 other generators
 
 
-### [DomainPrimitives](/docs/DomainPrimitives)
+#### [DomainPrimitives](/docs/DomainPrimitives)
 
 
-### [Strongly](/docs/Strongly)
+#### [Strongly](/docs/Strongly)
 
 
-### [Vogen](/docs/Vogen)
+#### [Vogen](/docs/Vogen)
 

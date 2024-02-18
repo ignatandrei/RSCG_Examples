@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/Disposer?label=Disposer)](https://www.nuget.org/packages/Disposer/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/HakamFostok/Disposer?label=updated)](https://github.com/HakamFostok/Disposer)
 ![GitHub Repo stars](https://img.shields.io/github/stars/HakamFostok/Disposer?style=social)
@@ -329,14 +330,14 @@ namespace IDisposableGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer
 
-## In the same category (Disposer)
+### In the same category (Disposer) - 3 other generators
 
 
-### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+#### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
 
 
-### [DisposableHelpers](/docs/DisposableHelpers)
+#### [DisposableHelpers](/docs/DisposableHelpers)
 
 
-### [IDisposableGenerator](/docs/IDisposableGenerator)
+#### [IDisposableGenerator](/docs/IDisposableGenerator)
 

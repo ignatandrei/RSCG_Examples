@@ -13,6 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
+## Nuget / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoDTO?label=AutoDTO)](https://www.nuget.org/packages/AutoDTO/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ohorodnikov/AutoDto?label=updated)](https://github.com/Ohorodnikov/AutoDto)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ohorodnikov/AutoDto?style=social)
@@ -306,20 +307,20 @@ public System.String Name { get; set; }
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 
-## In the same category (Mapper)
+### In the same category (Mapper) - 5 other generators
 
 
-### [DynamicsMapper](/docs/DynamicsMapper)
+#### [DynamicsMapper](/docs/DynamicsMapper)
 
 
-### [MagicMap](/docs/MagicMap)
+#### [MagicMap](/docs/MagicMap)
 
 
-### [mapperly](/docs/mapperly)
+#### [mapperly](/docs/mapperly)
 
 
-### [MapTo](/docs/MapTo)
+#### [MapTo](/docs/MapTo)
 
 
-### [NextGenMapper](/docs/NextGenMapper)
+#### [NextGenMapper](/docs/NextGenMapper)
 
