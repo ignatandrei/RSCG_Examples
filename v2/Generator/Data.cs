@@ -13,6 +13,9 @@ public class Data
     public string[]? CsFiles { get; set; }
     [JsonPropertyName("excludeDirectoryGenerated")]
     public string[]? ExcludeDirectoryGenerated { get; set; }
+    
+    [JsonPropertyName("includeAdditionalFiles")]
+    public string[]? IncludeAdditionalFiles { get; set; }
 
     [JsonIgnore]
     public OutputFiles outputFiles { get; set; } = new();

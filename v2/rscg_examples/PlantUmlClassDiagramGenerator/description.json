@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"PlantUmlClassDiagramGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.SourceGenerator/",
+         "https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.Attributes/"
+
+      ],
+      "link":"https://github.com/pierre3/PlantUmlClassDiagramGenerator/",
+      "author":"Hirotada Kobayashi",
+      "source":"https://github.com/pierre3/PlantUmlClassDiagramGenerator/"
+   },
+   "data":{
+      "goodFor":["Generating UML from class definitions"],
+      "csprojDemo":"DemoClass2Text.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":["Person.puml"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

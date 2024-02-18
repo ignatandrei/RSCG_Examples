@@ -77,6 +77,48 @@
         "line": 1
         }
     
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views__ViewStart_cshtml.g.cs",
+        "description": "File Views__ViewStart_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views__ViewImports_cshtml.g.cs",
+        "description": "File Views__ViewImports_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__ValidationScriptsPartial_cshtml.g.cs",
+        "description": "File Views_Shared__ValidationScriptsPartial_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared__Layout_cshtml.g.cs",
+        "description": "File Views_Shared__Layout_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Shared_Error_cshtml.g.cs",
+        "description": "File Views_Shared_Error_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Home_Privacy_cshtml.g.cs",
+        "description": "File Views_Home_Privacy_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SafeRoutingDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Views_Home_Index_cshtml.g.cs",
+        "description": "File Views_Home_Index_cshtml.g.cs ",
+        "line": 1
+        }
+    
   ],
 
   "ref": "main"

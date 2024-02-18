@@ -31,6 +31,7 @@ public class OutputFiles
     }
 
     public string[]? excludeDirectoryGenerated { get; internal set; }
+    public string[]? includeAdditionalFiles { get; internal set; }
 
     public async Task GatherData(string nuget)
     {
@@ -85,7 +86,18 @@ public class OutputFiles
             contents.Add(f);
         }
         contentFiles = contents.ToArray();
-        
+        var AdditionalFiles = Array.Empty<string>();
+        if (includeAdditionalFiles?.Length > 0)
+        {
+            foreach (var item in includeAdditionalFiles)
+            {
+                var fld=Directory.GetFiles(dir, item, SearchOption.AllDirectories);
+                if (fld.Length > 0)
+                {
+                     AdditionalFiles = AdditionalFiles.Concat(fld).ToArray();
+                }
+            }
+        }
         var outputGenFolder = Directory.GetDirectories(dir, "GX", SearchOption.AllDirectories);
         if (outputGenFolder.Length != 1)
         {
@@ -101,6 +113,10 @@ public class OutputFiles
         //    }
         //}
         var outputFiles = Directory.GetFiles(folder, "*.cs", SearchOption.AllDirectories);        
+        if(includeAdditionalFiles?.Length > 0)
+        {
+            outputFiles = outputFiles.Concat(AdditionalFiles).ToArray();
+        }
         contents = new();
         var nr = 0;
         foreach (var file in outputFiles)

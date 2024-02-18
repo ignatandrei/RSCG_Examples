@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "PlantUmlClassDiagramGenerator",
+  "steps": 
+  [
+    {
+      "file": "DemoClass2Text/DemoClass2Text.csproj",
+      "description": "First, we add Nuget  [PlantUmlClassDiagramGenerator.SourceGenerator](https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.SourceGenerator/) in csproj  ",
+      "pattern": "PlantUmlClassDiagramGenerator.SourceGenerator"
+    }
+
+        ,{
+        "file": "DemoClass2Text/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoClass2Text/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoClass2Text/DemoClass2Text.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoClass2Text/generated-uml/Person.puml",
+        "description": "File Person.puml ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoClass2Text/obj/GX/PlantUmlClassDiagramGenerator.SourceGenerator/PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator/Attributes.cs",
+        "description": "File Attributes.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

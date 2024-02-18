@@ -158,7 +158,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",inspirational )
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
-,new("PlantUmlClassDiagramGenerator https://github.com/pierre3/PlantUmlClassDiagramGenerator",WaitingForIssue)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 //,new("",later)
 //,new("",later)
@@ -297,6 +296,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"corecraft",new(true,new(2024,2,17),Category.FilesToCode) },
             {"UnionsGenerator",new(true,new(2024,2,18),Category.FunctionalProgramming) },
             {"CopyTo",new(true,new(2024,2,19),Category.EnhancementClass) },
+            {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },       
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -386,6 +386,20 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
+
+            text = text.Replace("href=\"README.md\"", $"href=\"{d.Generator!.Source}/README.md\"");
+            text = text.Replace("href=\"README.zh-CN.md\"", $"href=\"{d.Generator!.Source}/README.zh-CN.md\"");
+            text = text.Replace("(uml/TypeDeclaration.png)", $"({d.Generator!.Source}/uml/TypeDeclaration.png)");
+            text = text.Replace("(uml/MemberDeclaration.png)", $"({d.Generator!.Source}/uml/MemberDeclaration.png)");
+            text = text.Replace("(uml/Initializer.png)", $"({d.Generator!.Source}/uml/Initializer.png)");
+            text = text.Replace("(uml/NestedClass.png)", $"({d.Generator!.Source}/uml/NestedClass.png)");
+            text = text.Replace("(uml/GenericsTypeDeclaration.png)", $"({d.Generator!.Source}/uml/GenericsTypeDeclaration.png)");
+            text = text.Replace("(uml/InheritanceRelationsips.png)", $"({d.Generator!.Source}/uml/InheritanceRelationsips.png)");
+            text = text.Replace("(uml/IgnoreAssociation.png)", $"({d.Generator!.Source}/uml/IgnoreAssociation.png)");
+            text = text.Replace("(uml/Associations.png)", $"({d.Generator!.Source}/uml/Associations.png)");
+            text = text.Replace("(uml/CustomAssociation.png)", $"({d.Generator!.Source}/uml/CustomAssociation.png)");
+            text = text.Replace("(uml/RecordParameterList.png)", $"({d.Generator!.Source}/uml/RecordParameterList.png)");
             text = text.Replace("(UnionsGenerator)", $"({d.Generator!.Source}/UnionsGenerator");
             text = text.Replace("(UtilityGenerators)", $"({d.Generator!.Source}/UtilityGenerators");
             text = text.Replace("(CopyTo)", $"({d.Generator!.Source}/CopyTo");
@@ -629,6 +643,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ArgumentNullException.ThrowIfNull(desc.Data.CsFiles);
         output.csFiles = desc.Data.CsFiles;
         output.excludeDirectoryGenerated = desc.Data.ExcludeDirectoryGenerated;
+        output.includeAdditionalFiles = desc.Data.IncludeAdditionalFiles;
         ArgumentNullException.ThrowIfNull(desc.Generator);
         var nugetName = desc.Generator.NugetFirst;
         if(!string.IsNullOrWhiteSpace(nugetName))

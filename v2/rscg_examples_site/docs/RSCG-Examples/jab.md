@@ -792,18 +792,10 @@ using static Jab.JabHelpers;
 internal partial class MyServiceProvider : global::System.IDisposable,
    System.IAsyncDisposable,
    global::System.IServiceProvider,
-   IServiceProvider<InjectDemo.DatabaseCon>,
    IServiceProvider<InjectDemo.IDatabase>,
    IServiceProvider<System.IServiceProvider>
 {
     private Scope? _rootScope;
-    
-    InjectDemo.DatabaseCon IServiceProvider<InjectDemo.DatabaseCon>.GetService()
-    {
-        InjectDemo.DatabaseCon service = new InjectDemo.DatabaseCon();
-        TryAddDisposable(service);
-        return service;
-    }
     
     InjectDemo.IDatabase IServiceProvider<InjectDemo.IDatabase>.GetService()
     {
@@ -818,7 +810,6 @@ internal partial class MyServiceProvider : global::System.IDisposable,
     }
     
     object? global::System.IServiceProvider.GetService(global::System.Type type){
-        if (type == typeof(InjectDemo.DatabaseCon)) return this.GetService<InjectDemo.DatabaseCon>();
         if (type == typeof(InjectDemo.IDatabase)) return this.GetService<InjectDemo.IDatabase>();
         if (type == typeof(System.IServiceProvider)) return this.GetService<System.IServiceProvider>();
         return null;
@@ -874,7 +865,6 @@ internal partial class MyServiceProvider : global::System.IDisposable,
     public partial class Scope : global::System.IDisposable,
        System.IAsyncDisposable,
        global::System.IServiceProvider,
-       IServiceProvider<InjectDemo.DatabaseCon>,
        IServiceProvider<InjectDemo.IDatabase>,
        IServiceProvider<System.IServiceProvider>    
     {
@@ -891,12 +881,6 @@ internal partial class MyServiceProvider : global::System.IDisposable,
         [DebuggerHidden]
         public T GetService<T>(string name) => this is INamedServiceProvider<T> provider ? provider.GetService(name) : throw CreateServiceNotFoundException<T>(name);
         
-        InjectDemo.DatabaseCon IServiceProvider<InjectDemo.DatabaseCon>.GetService(){
-            InjectDemo.DatabaseCon service = new InjectDemo.DatabaseCon();
-            TryAddDisposable(service);
-            return service;
-        }
-        
         InjectDemo.IDatabase IServiceProvider<InjectDemo.IDatabase>.GetService(){
             InjectDemo.DatabaseCon service = new InjectDemo.DatabaseCon();
             TryAddDisposable(service);
@@ -908,7 +892,6 @@ internal partial class MyServiceProvider : global::System.IDisposable,
         }
         
         object? global::System.IServiceProvider.GetService(global::System.Type type){
-            if (type == typeof(InjectDemo.DatabaseCon)) return this.GetService<InjectDemo.DatabaseCon>();
             if (type == typeof(InjectDemo.IDatabase)) return this.GetService<InjectDemo.IDatabase>();
             if (type == typeof(System.IServiceProvider)) return this.GetService<System.IServiceProvider>();
             return null;

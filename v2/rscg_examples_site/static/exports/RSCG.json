@@ -929,6 +929,14 @@
       "Source": "https://github.com/PaulBraetz/RhoMicro.CodeAnalysis",
       "Category": "EnhancementClass",
       "AddedOn": "2024-02-19T00:00:00"
+    },
+    {
+      "Name": "PlantUmlClassDiagramGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator",
+      "NuGet": "https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.SourceGenerator/",
+      "Source": "https://github.com/pierre3/PlantUmlClassDiagramGenerator/",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-02-20T00:00:00"
     }
   ]
 }
