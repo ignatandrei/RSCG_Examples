@@ -185,7 +185,7 @@ enum EnumType {
 @enduml
 ```
 
-![TypeDeclaration.png](uml/TypeDeclaration.png)
+![TypeDeclaration.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/TypeDeclaration.png)
 
 #### Generics Type
 

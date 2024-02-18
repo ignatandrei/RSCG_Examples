@@ -386,6 +386,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(uml/TypeDeclaration.png)", $"({d.Generator!.Source}/uml/TypeDeclaration.png)");
             text = text.Replace("(UnionsGenerator)", $"({d.Generator!.Source}/UnionsGenerator");
             text = text.Replace("(UtilityGenerators)", $"({d.Generator!.Source}/UtilityGenerators");
             text = text.Replace("(CopyTo)", $"({d.Generator!.Source}/CopyTo");
@@ -629,6 +630,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         ArgumentNullException.ThrowIfNull(desc.Data.CsFiles);
         output.csFiles = desc.Data.CsFiles;
         output.excludeDirectoryGenerated = desc.Data.ExcludeDirectoryGenerated;
+        output.includeAdditionalFiles = desc.Data.IncludeAdditionalFiles;
         ArgumentNullException.ThrowIfNull(desc.Generator);
         var nugetName = desc.Generator.NugetFirst;
         if(!string.IsNullOrWhiteSpace(nugetName))

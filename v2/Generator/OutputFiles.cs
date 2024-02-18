@@ -31,6 +31,7 @@ public class OutputFiles
     }
 
     public string[]? excludeDirectoryGenerated { get; internal set; }
+    public string[]? includeAdditionalFiles { get; internal set; }
 
     public async Task GatherData(string nuget)
     {
