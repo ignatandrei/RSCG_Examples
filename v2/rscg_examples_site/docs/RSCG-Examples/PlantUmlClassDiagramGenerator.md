@@ -304,7 +304,7 @@ class ClassM {
 AbstractClass <|-- ClassM
 ```
 
-![MemberDeclaration.png](uml/MemberDeclaration.png)
+![MemberDeclaration.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/MemberDeclaration.png)
 
 #### Field and Property Initializers
 

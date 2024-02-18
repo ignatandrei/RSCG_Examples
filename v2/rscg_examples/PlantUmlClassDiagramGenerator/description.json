@@ -14,7 +14,8 @@
       "goodFor":["Generating UML from class definitions"],
       "csprojDemo":"DemoClass2Text.csproj",
       "csFiles":["Program.cs","Person.cs"],
-      "excludeDirectoryGenerated":[""]
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":["Person.puml"]
    },
    "links":{
       "blog":"",

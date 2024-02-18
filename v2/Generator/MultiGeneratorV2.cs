@@ -387,6 +387,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         { 
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(uml/TypeDeclaration.png)", $"({d.Generator!.Source}/uml/TypeDeclaration.png)");
+            text = text.Replace("(uml/MemberDeclaration.png)", $"({d.Generator!.Source}/uml/MemberDeclaration.png)");
             text = text.Replace("(uml/GenericsTypeDeclaration.png)", $"({d.Generator!.Source}/uml/GenericsTypeDeclaration.png)");
             text = text.Replace("(UnionsGenerator)", $"({d.Generator!.Source}/UnionsGenerator");
             text = text.Replace("(UtilityGenerators)", $"({d.Generator!.Source}/UtilityGenerators");
