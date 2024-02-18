@@ -206,7 +206,7 @@ class "GenericsType`2"<T1,T2>{
 }
 ```
 
-![GenericsTypeDeclaration.png](uml/GenericsTypeDeclaration.png)
+![GenericsTypeDeclaration.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/GenericsTypeDeclaration.png)
 
 ### Member Declaration
 
