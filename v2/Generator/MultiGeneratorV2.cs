@@ -392,6 +392,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(uml/NestedClass.png)", $"({d.Generator!.Source}/uml/NestedClass.png)");
             text = text.Replace("(uml/GenericsTypeDeclaration.png)", $"({d.Generator!.Source}/uml/GenericsTypeDeclaration.png)");
             text = text.Replace("(uml/InheritanceRelationsips.png)", $"({d.Generator!.Source}/uml/InheritanceRelationsips.png)");
+            text = text.Replace("(uml/IgnoreAssociation.png)", $"({d.Generator!.Source}/uml/IgnoreAssociation.png)");
             text = text.Replace("(uml/Associations.png)", $"({d.Generator!.Source}/uml/Associations.png)");
             text = text.Replace("(uml/CustomAssociation.png)", $"({d.Generator!.Source}/uml/CustomAssociation.png)");
             text = text.Replace("(uml/RecordParameterList.png)", $"({d.Generator!.Source}/uml/RecordParameterList.png)");

@@ -738,7 +738,7 @@ ClassA --> "Users<User>" "IList`1"
 @enduml
 ```
 
-![IgnoreAssociation.png](uml/IgnoreAssociation.png)
+![IgnoreAssociation.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/IgnoreAssociation.png)
 
 
 :::
