@@ -44,7 +44,7 @@ Source : https://github.com/pierre3/PlantUmlClassDiagramGenerator/
 :::note
 
 <div align="center">
-<strong><a href="README.md">English</a> | <a href="README.zh-CN.md">简体中文</a></strong>
+<strong><a href="https://github.com/pierre3/PlantUmlClassDiagramGenerator//README.md">English</a> | <a href="https://github.com/pierre3/PlantUmlClassDiagramGenerator//README.zh-CN.md">简体中文</a></strong>
 </div>
 
 
