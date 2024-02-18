@@ -331,7 +331,7 @@ class ClassC {
 }
 ```
 
-![Initializer.png](uml/Initializer.png)
+![Initializer.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/Initializer.png)
 
 ### Nested Class Declaration
 
@@ -368,7 +368,7 @@ OuterClass +- InnerClass
 InnerClass +- InnerStruct
 ```
 
-![NestedClass.png](uml/NestedClass.png)
+![NestedClass.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/NestedClass.png)
 
 ### Inheritance Relationsips
 
@@ -421,7 +421,7 @@ IInterfaceA <|-- "IInterfaceA`1"
 "IInterfaceA`1" "<int>" <|-- ImplementClass
 ```
 
-![InheritanceRelationsips.png](uml/InheritanceRelationsips.png)
+![InheritanceRelationsips.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/InheritanceRelationsips.png)
 
 ### Associations (from references of fields and properties)
 
@@ -467,7 +467,7 @@ Type2 --> "Prop2" ExternalType
 @enduml
 ```
 
-![InheritanceRelationsips.png](uml/Associations.png)
+![InheritanceRelationsips.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/Associations.png)
 
 
 ### Record types (with parameter list)
@@ -501,7 +501,7 @@ class Group <<record>> {
 @enduml
 ```
 
-![InheritanceRelationsips.png](uml/RecordParameterList.png)
+![InheritanceRelationsips.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/RecordParameterList.png)
 
 ## Attribute-based configuration
 
@@ -850,6 +850,23 @@ namespace PlantUmlClassDiagramGenerator.SourceGenerator.Attributes;
 [System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Interface | System.AttributeTargets.Enum | System.AttributeTargets.Struct)]
 internal class PlantUmlDiagramAttribute : System.Attribute
 { }
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PlantUmlClassDiagramGenerator\src\DemoClass2Text\DemoClass2Text\generated-uml\Person.puml" label="Person.puml" >
+
+
+```csharp showLineNumbers 
+@startuml Person
+class Person  {
+    + FirstName : string? <<get>> <<set>>
+    + LastName : string? <<get>> <<set>>
+    + FullName() : string?
+    + Person()
+}
+@enduml
 ```
 
   </TabItem>

@@ -388,7 +388,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(uml/TypeDeclaration.png)", $"({d.Generator!.Source}/uml/TypeDeclaration.png)");
             text = text.Replace("(uml/MemberDeclaration.png)", $"({d.Generator!.Source}/uml/MemberDeclaration.png)");
+            text = text.Replace("(uml/Initializer.png)", $"({d.Generator!.Source}/uml/Initializer.png)");
+            text = text.Replace("(uml/NestedClass.png)", $"({d.Generator!.Source}/uml/NestedClass.png)");
             text = text.Replace("(uml/GenericsTypeDeclaration.png)", $"({d.Generator!.Source}/uml/GenericsTypeDeclaration.png)");
+            text = text.Replace("(uml/InheritanceRelationsips.png)", $"({d.Generator!.Source}/uml/InheritanceRelationsips.png)");
+            text = text.Replace("(uml/Associations.png)", $"({d.Generator!.Source}/uml/Associations.png)");
+            text = text.Replace("(uml/RecordParameterList.png)", $"({d.Generator!.Source}/uml/RecordParameterList.png)");
             text = text.Replace("(UnionsGenerator)", $"({d.Generator!.Source}/UnionsGenerator");
             text = text.Replace("(UtilityGenerators)", $"({d.Generator!.Source}/UtilityGenerators");
             text = text.Replace("(CopyTo)", $"({d.Generator!.Source}/CopyTo");
