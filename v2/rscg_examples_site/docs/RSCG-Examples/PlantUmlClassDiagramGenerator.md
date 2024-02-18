@@ -667,7 +667,7 @@ MethodParamtersSample ..> ILogger : "Injection"
 @enduml
 ```
 
-![CustomAssociation.png](uml/CustomAssociation.png)
+![CustomAssociation.png](https://github.com/pierre3/PlantUmlClassDiagramGenerator//uml/CustomAssociation.png)
 
 ### PlantUmlIgnoreAssociationAttribute
 
