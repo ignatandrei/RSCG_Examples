@@ -158,7 +158,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",inspirational )
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
-,new("PlantUmlClassDiagramGenerator https://github.com/pierre3/PlantUmlClassDiagramGenerator",WaitingForIssue)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 //,new("",later)
 //,new("",later)
@@ -297,6 +296,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"corecraft",new(true,new(2024,2,17),Category.FilesToCode) },
             {"UnionsGenerator",new(true,new(2024,2,18),Category.FunctionalProgramming) },
             {"CopyTo",new(true,new(2024,2,19),Category.EnhancementClass) },
+            {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },       
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

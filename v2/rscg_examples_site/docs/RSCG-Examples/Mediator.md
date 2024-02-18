@@ -1670,6 +1670,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 ### [DeeDee](/docs/DeeDee)
 
 
+### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+
+
 ### [RSCG_AMS](/docs/RSCG_AMS)
 
 

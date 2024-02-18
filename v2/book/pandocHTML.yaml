@@ -130,6 +130,7 @@ input-files:
 - examples/corecraft.html
 - examples/UnionsGenerator.html
 - examples/CopyTo.html
+- examples/PlantUmlClassDiagramGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

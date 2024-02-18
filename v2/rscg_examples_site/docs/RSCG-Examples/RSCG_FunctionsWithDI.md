@@ -394,6 +394,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 ### [Mediator](/docs/Mediator)
 
 
+### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+
+
 ### [RSCG_AMS](/docs/RSCG_AMS)
 
 
