@@ -75,6 +75,11 @@ So, you should aim for ReferenceOutputAssembly="false" in the csproj file that r
 Problem - make internal or have another assembly referenced ( or the opposite)
 https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-generator-marker-attribute-problem-part2/
 
+### Add reference to another package when need just for compilation
+
+ 
+TODO: add example
+
 
 
 ## For files generated
@@ -220,22 +225,63 @@ partial class OptionsFromBuild
 
  ### Add comments for method / classes  /  properties generated
 
- could have warnings as errors .
- or 
-https://github.com/dotnet/roslyn/issues/54103
-#pragma warning disable CS1591 // Compensate for https://github.com/dotnet/roslyn/issues/54103
+Add comments to the generated code in order to help the user understand the code generated
 
- ### Add nullable enable
+Or if not , add 
+```csharp
+//pragma warning disable CS1591
+```
+to the generated code
+
+<details><summary>Example - click to expand</summary>
+
+In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj 
+
+```csharp
+context.AddSource("WaitGeneratorStart.g", $$"""
+{{Header()}}
+namespace RSCG_Wait;
+//pragma warning disable CS1591
+[global::System.CodeDom.Compiler.GeneratedCode("{{name}}", "{{version}}")]
+[global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+partial class MyGeneratedCode
+```
+</details>
+
+ ### If you're fond of nullable reference types
  
+ Add 
+ ```csharp
  #nullable enable
-TODO: add example
+ ```
+ at the start of the file and
+```csharp
+#nullable restore
+```
+at the end of the file
 
- ### Add reference to another package when need just for compilation
+<details><summary>Example - click to expand</summary>
+In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj
+
+```csharp
+context.AddSource("WaitGeneratorStart.g", $$"""
+{{Header()}}
+#nullable enable
+namespace RSCG_Wait;
+//pragma warning disable CS1591
+[global::System.CodeDom.Compiler.GeneratedCode("{{name}}", "{{version}}")]
+[global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
+partial class MyGeneratedCode
+{
+    public static string DateStart => "{{DateTime.Now.ToString()}}";
+    public static int SecondsToWait={{secondsToWait}};
+}
+#nullable restore
+""");
+```
+</details>
 
  
-TODO: add example
-
-
 
 
 ## For deploy
