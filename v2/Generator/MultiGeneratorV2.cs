@@ -159,7 +159,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
-//,new("",later)
+,new("LingoGen https://github.com/RubenBroere/lingo-gen",WaitingForIssue)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -951,7 +951,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "PlantUmlClassDiagramGenerator";
+        var lastGenerator = "RSCG_Wait";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
