@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_Wait",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_WaitAndOptions/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_WaitAndOptions",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_WaitAndOptions"
+   },
+   "data":{
+      "goodFor":["Demo for waiting in compilation and show the options of compiling the code"],
+      "csprojDemo":"Console_Wait.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

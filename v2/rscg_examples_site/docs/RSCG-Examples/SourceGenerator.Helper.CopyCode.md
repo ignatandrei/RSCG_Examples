@@ -281,7 +281,7 @@ internal  static partial class Copy {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode
 
-### In the same category (EnhancementProject) - 10 other generators
+### In the same category (EnhancementProject) - 11 other generators
 
 
 #### [BuildInfo](/docs/BuildInfo)
@@ -309,6 +309,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyC
 
 
 #### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+
+
+#### [RSCG_Wait](/docs/RSCG_Wait)
 
 
 #### [ThisAssembly](/docs/ThisAssembly)

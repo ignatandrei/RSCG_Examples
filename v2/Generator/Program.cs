@@ -62,7 +62,7 @@ $$"""
       "csprojDemo":"{{newGen}}Demo.csproj",
       "csFiles":["Program.cs"],
       "excludeDirectoryGenerated":[""],
-      "includeAdditionalFiles":[""],
+      "includeAdditionalFiles":[""]
    },
    "links":{
       "blog":"",

@@ -937,6 +937,14 @@
       "Source": "https://github.com/pierre3/PlantUmlClassDiagramGenerator/",
       "Category": "EnhancementProject",
       "AddedOn": "2024-02-20T00:00:00"
+    },
+    {
+      "Name": "RSCG_Wait",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait",
+      "NuGet": "https://www.nuget.org/packages/RSCG_WaitAndOptions/",
+      "Source": "https://github.com/ignatandrei/RSCG_WaitAndOptions",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-02-21T00:00:00"
     }
   ]
 }

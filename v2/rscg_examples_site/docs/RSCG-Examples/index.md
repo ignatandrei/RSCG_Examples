@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 117 RSCG by category 
-description: 117 RSCG by category 
+title: 118 RSCG by category 
+description: 118 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -311,10 +311,10 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
-## EnhancementProject Number Examples: 11
+## EnhancementProject Number Examples: 12
 <details>
     
-  <summary>Expand EnhancementProject =>examples:11</summary>
+  <summary>Expand EnhancementProject =>examples:12</summary>
         
 
 
@@ -369,6 +369,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+
+        
+
+
+[RSCG_Wait](/docs/RSCG_Wait)
 
 </details>
     
@@ -866,6 +871,8 @@ flowchart LR;
     EnhancementProject--> CommandLine((CommandLine))
 
     EnhancementProject--> PlantUmlClassDiagramGenerator((PlantUmlClassDiagramGenerator))
+
+    EnhancementProject--> RSCG_Wait((RSCG_Wait))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

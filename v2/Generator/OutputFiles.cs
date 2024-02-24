@@ -91,6 +91,8 @@ public class OutputFiles
         {
             foreach (var item in includeAdditionalFiles)
             {
+                if(item.Length==0)
+                    continue;
                 var fld=Directory.GetFiles(dir, item, SearchOption.AllDirectories);
                 if (fld.Length > 0)
                 {

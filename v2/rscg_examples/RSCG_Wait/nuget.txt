@@ -1,0 +1,1 @@
+This package wait for a time and put all global options into a cs file

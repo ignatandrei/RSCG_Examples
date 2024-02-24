@@ -296,7 +296,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"corecraft",new(true,new(2024,2,17),Category.FilesToCode) },
             {"UnionsGenerator",new(true,new(2024,2,18),Category.FunctionalProgramming) },
             {"CopyTo",new(true,new(2024,2,19),Category.EnhancementClass) },
-            {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },       
+            {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },
+            {"RSCG_Wait",new(true,new(2024,2,21),Category.EnhancementProject) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -340,6 +341,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             .Where(it=>it !=null)
             .Select(it=>it!)
             .ToArray();
+        //_AllDescriptions= [_AllDescriptions.Last()];
         var l = _AllDescriptions.Length;
         foreach (var item in _AllDescriptions)
         {
@@ -949,7 +951,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "cachesourcegenerator";
+        var lastGenerator = "PlantUmlClassDiagramGenerator";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)

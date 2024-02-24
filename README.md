@@ -1,6 +1,6 @@
-# RSCG - 117 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 118 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-02-20 => 20 February 2024
+## Latest Update : 2024-02-21 => 21 February 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,24 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 117 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 118 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 118. [RSCG_Wait](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait) generated on : 2024-02-21 => 21 February 2024
+<details>
+  <summary>Expand</summary>
+Author: Andrei Ignat
+
+This package wait for a time and put all global options into a cs file 
+
+Nuget: [https://www.nuget.org/packages/RSCG_WaitAndOptions/](https://www.nuget.org/packages/RSCG_WaitAndOptions/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait)
+
+Source: [https://github.com/ignatandrei/RSCG_WaitAndOptions](https://github.com/ignatandrei/RSCG_WaitAndOptions)
+
+</details>
+
 ### 117. [PlantUmlClassDiagramGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator) generated on : 2024-02-20 => 20 February 2024
 <details>
   <summary>Expand</summary>

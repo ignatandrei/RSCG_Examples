@@ -1346,7 +1346,7 @@ v.AddRelease(rd);
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS
 
-### In the same category (EnhancementProject) - 10 other generators
+### In the same category (EnhancementProject) - 11 other generators
 
 
 #### [BuildInfo](/docs/BuildInfo)
@@ -1371,6 +1371,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS
 
 
 #### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+
+
+#### [RSCG_Wait](/docs/RSCG_Wait)
 
 
 #### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
