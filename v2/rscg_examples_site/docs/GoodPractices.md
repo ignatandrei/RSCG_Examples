@@ -32,6 +32,11 @@ also, after compiling, you can see the files generated in the obj/GX folder from
 
  ## For the Roslyn generator project
 
+### Read the documentation
+
+The documentation is at https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.cookbook.md 
+
+
 ### For easy debugging, add IsRoslynComponent
 
 You can debug easy the component if you add the following code to the Roslyn csproj file
@@ -77,10 +82,8 @@ https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-gen
 
 ### Add reference to another package when need just for compilation
 
+See the documentation at https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.cookbook.md#use-functionality-from-nuget-packages 
  
-TODO: add example
-
-
 
 ## For files generated
 
@@ -286,15 +289,77 @@ partial class MyGeneratedCode
 
 ## For deploy
 
-### Add source link
+### NuGet package
 
-TODO: add example
+The best way to deploy the Roslyn generator is to use a NuGet package.
 
-## Ensure in nuget
+So you should follow documentation at https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices
 
-image addToNuget
+Read also https://www.meziantou.net/ensuring-best-practices-for-nuget-packages.htm 
 
-## performance
+<details><summary>Example - click to expand</summary>
+In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj
+
+```xml
+<PropertyGroup>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+</PropertyGroup>
+
+<ItemGroup>
+    <None Include="../../readme.md" Pack="true" PackagePath="\" />
+    <None Include="../../docs/imgs/nuget.png" Pack="true" PackagePath="\" />
+    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+    <None Include="../../readme.txt" pack="true" PackagePath="." />
+</ItemGroup>
+<PropertyGroup>
+    <Version>2024.2.23.1940</Version>
+    <Authors>Andrei Ignat</Authors>
+    <Description>This package wait for a time and put all global options into a cs file</Description>
+    <Title>RSCG Wait and Options</Title>
+    <PackageId>RSCG_WaitAndOptions</PackageId>
+    <PackageTags>C#;.NET;Roslyn;RSCG;Roslyn Source Code Generator;</PackageTags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageIcon>nuget.png</PackageIcon>
+    <RepositoryUrl>https://github.com/ignatandrei/RSCG_WaitAndOptions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ignatandrei/RSCG_WaitAndOptions</PackageProjectUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <IncludeSymbols>true</IncludeSymbols>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <Deterministic>true</Deterministic>
+    <DebugType>embedded</DebugType>
+
+</PropertyGroup>
+<PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+</PropertyGroup>
+```
+</details>
+
+### Ensure in nuget
+
+The generator should be packed in analyzer folder in nuget package
+
+![image](/img/addToNuget.png)
+
+<details><summary>Example - click to expand</summary>
+In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj
+
+```xml
+<ItemGroup>
+    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+</ItemGroup>
+```
+</details>
+
+
+## Performance
+
+For performance, see the following links:
 
 https://andrewlock.net/creating-a-source-generator-part-9-avoiding-performance-pitfalls-in-incremental-generators/
 
