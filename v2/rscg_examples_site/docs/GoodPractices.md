@@ -9,7 +9,7 @@ I am trying here to add good practices , as I see from the community and from my
 The examples are from the https://github.com/ignatandrei/RSCG_WaitAndOptions project
 
 
-## If you are using a generator
+## If you are using a Roslyn Source Code Generator 
 
 To see the files generated , add the following to the csproj file
 
@@ -30,7 +30,7 @@ also, after compiling, you can see the files generated in the obj/GX folder from
 
 </details>
 
- ## For the Roslyn generator project
+ ## If you are creating a Roslyn Source Code Generator project
 
 ### Read the documentation
 
@@ -102,6 +102,7 @@ So, you should aim for ReferenceOutputAssembly="false" in the csproj file that r
 <details><summary>Example - click to expand</summary>
 
 </details>
+
 ### General attributes / code 
 
 Problem - make internal or have another assembly referenced ( or the opposite)
