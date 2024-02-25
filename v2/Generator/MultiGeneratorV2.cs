@@ -160,7 +160,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 ,new("LingoGen https://github.com/RubenBroere/lingo-gen",WaitingForIssue)
-//,new("",later)
+,new("Antelcat Autogen https://github.com/Antelcat/AutoGen",WaitingForIssue)
 //,new("",later)
 //,new("",later)
 };
