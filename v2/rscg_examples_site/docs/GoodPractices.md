@@ -66,6 +66,33 @@ see src\RSCG_Wait\RSCG_Wait.csproj file
 
 </details>
 
+### For continuous debugging
+
+If you want continuous debugging, a la dotnet watch run , you should delete the bin and obj files of the target project and run dotnet build again
+
+<details><summary>Example - click to expand</summary>
+This is the powershell that I use for this with the name rscg_build.ps1 . I run it in the src\Console_Wait folder from https://github.com/ignatandrei/RSCG_WaitAndOptions , i.e in the target project folder.
+
+```powershell
+while($true)
+{
+
+    cls
+    Write-Host "delete obj and bin"
+    gci obj -recurse | foreach{ri $_.FullName -recurse -force }
+    gci bin -recurse | foreach{ri $_.FullName -recurse -force }
+    dotnet clean
+    dotnet restore
+    dotnet build /p:EmitCompilerGeneratedFiles=true --disable-build-servers --force
+    dotnet run
+    Read-Host -Prompt "Press Enter to continue"
+
+}
+
+```
+
+</details>
+
 ### Aim for ReferenceOutputAssembly="false"  
 
 Generally speaking , the work of a Roslyn generator is to generate code. So, you do not need to reference the assembly generated when publishing the build. 
