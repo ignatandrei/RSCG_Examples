@@ -44,7 +44,7 @@ Source : https://github.com/Antelcat/AutoGen
 
 # Antelcat.AutoGen
 
-🇨🇳 [中文](./README.zh.md)
+🇨🇳 [中文](https://github.com/Antelcat/AutoGen/README.zh.md)
 
 Auto generate anything you may want
 > ~~unless we can't~~
