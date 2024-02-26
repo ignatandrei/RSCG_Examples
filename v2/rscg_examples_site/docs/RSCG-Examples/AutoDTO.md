@@ -307,7 +307,10 @@ public System.String Name { get; set; }
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 
-### In the same category (Mapper) - 5 other generators
+### In the same category (Mapper) - 6 other generators
+
+
+#### [AutoGen](/docs/AutoGen)
 
 
 #### [DynamicsMapper](/docs/DynamicsMapper)

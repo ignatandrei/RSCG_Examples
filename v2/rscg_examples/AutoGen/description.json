@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AutoGen",
+      "nuget":[
+         "https://www.nuget.org/packages/Antelcat.AutoGen/"
+      ],
+      "link":",https://github.com/Antelcat/AutoGen",
+      "author":"Feast Antelcat",
+      "source":"https://github.com/Antelcat/AutoGen"
+   },
+   "data":{
+      "goodFor":["Generating function to map DTOs"],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDto.cs","Extensions.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

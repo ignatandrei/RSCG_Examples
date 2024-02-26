@@ -160,7 +160,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 ,new("LingoGen https://github.com/RubenBroere/lingo-gen",WaitingForIssue)
-,new("Antelcat Autogen https://github.com/Antelcat/AutoGen",WaitingForIssue)
 //,new("",later)
 //,new("",later)
 };
@@ -298,6 +297,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CopyTo",new(true,new(2024,2,19),Category.EnhancementClass) },
             {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },
             {"RSCG_Wait",new(true,new(2024,2,21),Category.EnhancementProject) },
+            {"AutoGen",new(true,new (2024,2,22),Category.Mapper) },
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
