@@ -137,7 +137,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
 , new ("ControllerGenerator https://github.com/cloud0259/ControllerGenerator",WaitingForIssue)
-,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
+//,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
 ,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
 ,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
@@ -159,7 +159,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
-,new("LingoGen https://github.com/RubenBroere/lingo-gen",WaitingForIssue)
 //,new("",later)
 //,new("",later)
 };
@@ -298,6 +297,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },
             {"RSCG_Wait",new(true,new(2024,2,21),Category.EnhancementProject) },
             {"AutoGen",new(true,new (2024,2,22),Category.Mapper) },
+            {"LingoGen",new(true,new(2024,2,23),Category.FilesToCode) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

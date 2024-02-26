@@ -938,7 +938,7 @@ internal static class GenResourcesModel
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator
 
-### In the same category (FilesToCode) - 8 other generators
+### In the same category (FilesToCode) - 9 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
@@ -948,6 +948,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator
 
 
 #### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+
+
+#### [LingoGen](/docs/LingoGen)
 
 
 #### [NotNotAppSettings](/docs/NotNotAppSettings)

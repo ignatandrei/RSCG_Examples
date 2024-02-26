@@ -1,0 +1,1 @@
+A Roslyn source generator for statically typed string localization

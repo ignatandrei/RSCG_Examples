@@ -953,6 +953,14 @@
       "Source": "https://github.com/Antelcat/AutoGen",
       "Category": "Mapper",
       "AddedOn": "2024-02-22T00:00:00"
+    },
+    {
+      "Name": "LingoGen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/LingoGen",
+      "NuGet": "https://www.nuget.org/packages/RubenBroere.LingoGen/",
+      "Source": "https://github.com/RubenBroere/lingo-gen",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-02-23T00:00:00"
     }
   ]
 }

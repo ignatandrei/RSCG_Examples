@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "LingoGen",
+  "steps": 
+  [
+    {
+      "file": "TranslateDemo/TranslateDemo.csproj",
+      "description": "First, we add Nuget  [RubenBroere.LingoGen](https://www.nuget.org/packages/RubenBroere.LingoGen/) in csproj  ",
+      "pattern": "RubenBroere.LingoGen"
+    }
+
+        ,{
+        "file": "TranslateDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project TranslateDemo/TranslateDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "TranslateDemo/obj/GX/LingoGen.Generator/LingoGen.Generator.LingoGenerator/Lingo.Hello_.g.cs",
+        "description": "File Lingo.Hello_.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TranslateDemo/obj/GX/LingoGen.Generator/LingoGen.Generator.LingoGenerator/Lingo.g.cs",
+        "description": "File Lingo.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

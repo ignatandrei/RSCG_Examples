@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"LingoGen",
+      "nuget":[
+         "https://www.nuget.org/packages/RubenBroere.LingoGen/"
+      ],
+      "link":"https://github.com/RubenBroere/lingo-gen",
+      "author":"Ruben Broere",
+      "source":"https://github.com/RubenBroere/lingo-gen"
+   },
+   "data":{
+      "goodFor":["Translating from multiple languages"],
+      "csprojDemo":"TranslateDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

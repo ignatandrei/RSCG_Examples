@@ -339,13 +339,16 @@ namespace EmbeddingResourceCSharpDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp
 
-### In the same category (FilesToCode) - 8 other generators
+### In the same category (FilesToCode) - 9 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 #### [corecraft](/docs/corecraft)
+
+
+#### [LingoGen](/docs/LingoGen)
 
 
 #### [NotNotAppSettings](/docs/NotNotAppSettings)
