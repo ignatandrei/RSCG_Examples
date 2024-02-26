@@ -660,13 +660,16 @@ namespace Json2Code.Person.Entities
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/corecraft
 
-### In the same category (FilesToCode) - 8 other generators
+### In the same category (FilesToCode) - 9 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 #### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
+
+
+#### [LingoGen](/docs/LingoGen)
 
 
 #### [NotNotAppSettings](/docs/NotNotAppSettings)

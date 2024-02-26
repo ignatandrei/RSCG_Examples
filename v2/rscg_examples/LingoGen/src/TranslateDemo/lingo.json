@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "version": "0.0.0",
+    "languages": [ "it", "fr" ]
+  },
+  "phrases": {
+    "Hello {Name}": {
+      "it": "Buongiorno {Name}",
+      "fr": "Bonjour {Name}"
+    }
+  },
+  "nouns": {
+    
+  }
+}
