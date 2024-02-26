@@ -22,11 +22,14 @@ Those are the {{nr}} Roslyn Source Code Generators that I have tested you can se
 inDescOrder =  all  | array.sort "ReverseNr"
 ~}} 
 {{~ for desc in inDescOrder  ~}} 
-### {{desc.Nr}}. [{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}) , in the [{{desc.GeneratorData.Category}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#{{desc.GeneratorData.Category}}) category 
+### {{desc.Nr}}. [{{desc.Generator.Name}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{desc.Generator.Name}}) , in the [{{desc.GeneratorData.Category}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#{{desc.GeneratorData.Category  | string.downcase }}) category 
+
+Generated on : {{desc.generatedDate  | date.to_string '%F => %d %B %Y' }}
+
 <details>
   <summary>Expand</summary>
 
-Generated on : {{desc.generatedDate  | date.to_string '%F => %d %B %Y' }}
+
 
 Author: {{desc.Generator.Author}}
 

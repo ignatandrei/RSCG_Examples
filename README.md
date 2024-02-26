@@ -18,11 +18,14 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 Those are the 120 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
-### 120. [LingoGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/LingoGen) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 120. [LingoGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/LingoGen) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-02-23 => 23 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-23 => 23 February 2024
+
 
 Author: Ruben Broere
 
@@ -37,11 +40,14 @@ Source: [https://github.com/RubenBroere/lingo-gen](https://github.com/RubenBroer
 
 </details>
 
-### 119. [AutoGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoGen) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 119. [AutoGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoGen) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2024-02-22 => 22 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-22 => 22 February 2024
+
 
 Author: Feast Antelcat
 
@@ -56,11 +62,14 @@ Source: [https://github.com/Antelcat/AutoGen](https://github.com/Antelcat/AutoGe
 
 </details>
 
-### 118. [RSCG_Wait](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 118. [RSCG_Wait](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-02-21 => 21 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-21 => 21 February 2024
+
 
 Author: Andrei Ignat
 
@@ -75,11 +84,14 @@ Source: [https://github.com/ignatandrei/RSCG_WaitAndOptions](https://github.com/
 
 </details>
 
-### 117. [PlantUmlClassDiagramGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 117. [PlantUmlClassDiagramGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-02-20 => 20 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-20 => 20 February 2024
+
 
 Author: Hirotada Kobayashi
 
@@ -94,11 +106,14 @@ Source: [https://github.com/pierre3/PlantUmlClassDiagramGenerator/](https://gith
 
 </details>
 
-### 116. [CopyTo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyTo) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 116. [CopyTo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyTo) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-02-19 => 19 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-19 => 19 February 2024
+
 
 Author: Paul Braetz
 
@@ -113,11 +128,14 @@ Source: [https://github.com/PaulBraetz/RhoMicro.CodeAnalysis](https://github.com
 
 </details>
 
-### 115. [UnionsGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 115. [UnionsGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-02-18 => 18 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-18 => 18 February 2024
+
 
 Author: Paul Braetz
 
@@ -132,11 +150,14 @@ Source: [https://github.com/PaulBraetz/RhoMicro.CodeAnalysis/](https://github.co
 
 </details>
 
-### 114. [corecraft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/corecraft) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 114. [corecraft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/corecraft) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-02-17 => 17 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-17 => 17 February 2024
+
 
 Author: 
 
@@ -151,11 +172,14 @@ Source: [https://github.com/AlexNav73/CoreCraft](https://github.com/AlexNav73/Co
 
 </details>
 
-### 113. [sourcedepend](https://ignatandrei.github.io/RSCG_Examples/v2/docs/sourcedepend) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Constructor) category 
+### 113. [sourcedepend](https://ignatandrei.github.io/RSCG_Examples/v2/docs/sourcedepend) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2024-02-16 => 16 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-16 => 16 February 2024
+
 
 Author: Colin Wilmans
 
@@ -170,11 +194,14 @@ Source: [https://github.com/crwsolutions/sourcedepend](https://github.com/crwsol
 
 </details>
 
-### 112. [OptionToStringGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OptionToStringGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 112. [OptionToStringGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OptionToStringGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-02-15 => 15 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-15 => 15 February 2024
+
 
 Author: Jim W
 
@@ -189,11 +216,14 @@ Source: [https://github.com/Seekatar/OptionToStringGenerator](https://github.com
 
 </details>
 
-### 111. [cachesourcegenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 111. [cachesourcegenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-02-14 => 14 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-14 => 14 February 2024
+
 
 Author: Jeppe Roi Kristensen
 
@@ -208,11 +238,14 @@ Source: [https://github.com/jeppevammenkristensen/cachesourcegenerator](https://
 
 </details>
 
-### 110. [jab](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jab) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#DependencyInjection) category 
+### 110. [jab](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jab) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
+
+Generated on : 2024-02-13 => 13 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-13 => 13 February 2024
+
 
 Author: Pavel Krymets
 
@@ -227,11 +260,14 @@ Source: [https://github.com/pakrym/jab](https://github.com/pakrym/jab)
 
 </details>
 
-### 109. [FunicularSwitch](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 109. [FunicularSwitch](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-02-12 => 12 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-12 => 12 February 2024
+
 
 Author: bluehands
 
@@ -246,11 +282,14 @@ Source: [https://github.com/bluehands/Funicular-Switch](https://github.com/blueh
 
 </details>
 
-### 108. [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 108. [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-02-11 => 11 February 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-02-11 => 11 February 2024
+
 
 Author: DotMake
 
@@ -265,11 +304,14 @@ Source: [https://github.com/dotmake-build/command-line](https://github.com/dotma
 
 </details>
 
-### 107. [NetAutomaticInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 107. [NetAutomaticInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2024-01-29 => 29 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-29 => 29 January 2024
+
 
 Author: codecentric AG
 
@@ -284,11 +326,14 @@ Source: [https://github.com/codecentric/net_automatic_interface](https://github.
 
 </details>
 
-### 106. [WhatIAmDoing](https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing) , in the [AOP](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#AOP) category 
+### 106. [WhatIAmDoing](https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing) , in the [AOP](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop) category 
+
+Generated on : 2024-01-28 => 28 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-28 => 28 January 2024
+
 
 Author: Ignat Andrei
 
@@ -303,11 +348,14 @@ Source: [https://github.com/ignatandrei/RSCG_WhatIAmDoing](https://github.com/ig
 
 </details>
 
-### 105. [Weave](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 105. [Weave](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-01-27 => 27 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-27 => 27 January 2024
+
 
 Author: John Gietzen
 
@@ -322,11 +370,14 @@ Source: [https://github.com/otac0n/Weave](https://github.com/otac0n/Weave)
 
 </details>
 
-### 104. [NotNotAppSettings](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 104. [NotNotAppSettings](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NotNotAppSettings) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-01-26 => 26 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-26 => 26 January 2024
+
 
 Author: jasonswearingen
 
@@ -341,11 +392,14 @@ Source: [https://github.com/jasonswearingen/NotNot.AppSettings/](https://github.
 
 </details>
 
-### 103. [HangfireRecurringJob](https://ignatandrei.github.io/RSCG_Examples/v2/docs/HangfireRecurringJob) , in the [Hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Hangfire) category 
+### 103. [HangfireRecurringJob](https://ignatandrei.github.io/RSCG_Examples/v2/docs/HangfireRecurringJob) , in the [Hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire) category 
+
+Generated on : 2024-01-25 => 25 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-25 => 25 January 2024
+
 
 Author: Ieuan Walker
 
@@ -360,11 +414,14 @@ Source: [https://github.com/IeuanWalker/Hangfire.RecurringJob](https://github.co
 
 </details>
 
-### 102. [Blazorators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Blazor) category 
+### 102. [Blazorators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor) category 
+
+Generated on : 2024-01-22 => 22 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-22 => 22 January 2024
+
 
 Author: David Pine
 
@@ -379,11 +436,14 @@ Source: [https://github.com/IEvangelist/blazorators/](https://github.com/IEvange
 
 </details>
 
-### 101. [Chorn.EmbeddedResourceAccessGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 101. [Chorn.EmbeddedResourceAccessGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-01-21 => 21 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-21 => 21 January 2024
+
 
 Author: Christoph Hornung
 
@@ -398,11 +458,14 @@ Source: [https://github.com/ChristophHornung/EmbeddedResourceGenerator](https://
 
 </details>
 
-### 100. [BuildInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 100. [BuildInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-01-20 => 20 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-20 => 20 January 2024
+
 
 Author: Steven Giesel
 
@@ -423,11 +486,14 @@ Source: [https://github.com/linkdotnet/BuildInformation](https://github.com/link
 
 </details>
 
-### 99. [MakeInterface.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 99. [MakeInterface.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2024-01-19 => 19 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-19 => 19 January 2024
+
 
 Author: Frederik
 
@@ -442,11 +508,14 @@ Source: [https://github.com/Frederik91/MakeInterface](https://github.com/Frederi
 
 </details>
 
-### 98. [Funcky.DiscriminatedUnion](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 98. [Funcky.DiscriminatedUnion](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-01-18 => 18 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-18 => 18 January 2024
+
 
 Author: Polyadic
 
@@ -461,11 +530,14 @@ Source: [https://github.com/polyadic/funcky-discriminated-union](https://github.
 
 </details>
 
-### 97. [DomainPrimitives](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#PrimitiveObsession) category 
+### 97. [DomainPrimitives](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession) category 
+
+Generated on : 2024-01-11 => 11 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-11 => 11 January 2024
+
 
 Author: Alta Software - Teimuraz Nikolaishvili
 
@@ -480,11 +552,14 @@ Source: [https://github.com/altasoft/DomainPrimitives](https://github.com/altaso
 
 </details>
 
-### 96. [HsuSgSync](https://ignatandrei.github.io/RSCG_Examples/v2/docs/HsuSgSync) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 96. [HsuSgSync](https://ignatandrei.github.io/RSCG_Examples/v2/docs/HsuSgSync) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-01-10 => 10 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-10 => 10 January 2024
+
 
 Author: Net Hsu
 
@@ -499,11 +574,14 @@ Source: [https://github.com/hsu-net/source-generators](https://github.com/hsu-ne
 
 </details>
 
-### 95. [CopyCat](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 95. [CopyCat](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2024-01-09 => 09 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-09 => 09 January 2024
+
 
 Author: Serhii Buta
 
@@ -518,11 +596,14 @@ Source: [https://github.com/Otaman/Copycat/](https://github.com/Otaman/Copycat/)
 
 </details>
 
-### 94. [AspectGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AspectGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 94. [AspectGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AspectGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-01-07 => 07 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-07 => 07 January 2024
+
 
 Author: Igor Tkachev
 
@@ -537,11 +618,14 @@ Source: [https://github.com/igor-tkachev/AspectGenerator](https://github.com/igo
 
 </details>
 
-### 93. [mocklis](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mocklis) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Tests) category 
+### 93. [mocklis](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mocklis) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
+
+Generated on : 2024-01-03 => 03 January 2024
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2024-01-03 => 03 January 2024
+
 
 Author: Esbjörn Redmo
 
@@ -556,11 +640,14 @@ Source: [https://github.com/mocklis/mocklis/](https://github.com/mocklis/mocklis
 
 </details>
 
-### 92. [RSCG_UtilityTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 92. [RSCG_UtilityTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-12-22 => 22 December 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-12-22 => 22 December 2023
+
 
 Author: Andrei Ignat
 
@@ -575,11 +662,14 @@ Source: [https://github.com/ignatandrei/RSCG_UtilityTypes](https://github.com/ig
 
 </details>
 
-### 91. [Ling.Audit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 91. [Ling.Audit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-12-12 => 12 December 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-12-12 => 12 December 2023
+
 
 Author: Jing Ling
 
@@ -594,11 +684,14 @@ Source: [https://github.com/ling921/dotnet-lib/](https://github.com/ling921/dotn
 
 </details>
 
-### 90. [TelemetryLogging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 90. [TelemetryLogging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TelemetryLogging) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-11-30 => 30 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-30 => 30 November 2023
+
 
 Author: Microsoft
 
@@ -613,11 +706,14 @@ Source: [https://github.com/dotnet/extensions](https://github.com/dotnet/extensi
 
 </details>
 
-### 89. [InterceptorTemplate](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 89. [InterceptorTemplate](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-11-29 => 29 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-29 => 29 November 2023
+
 
 Author: Andrei Ignat
 
@@ -632,11 +728,14 @@ Source: [https://github.com/ignatandrei/RSCG_InterceptorTemplate](https://github
 
 </details>
 
-### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-11-20 => 20 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-20 => 20 November 2023
+
 
 Author: Microsoft
 
@@ -658,11 +757,14 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 </details>
 
-### 87. [RDG](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 87. [RDG](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-11-19 => 19 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-19 => 19 November 2023
+
 
 Author: Microsoft
 
@@ -679,11 +781,14 @@ Source: [https://github.com/dotnet/aspnetcore](https://github.com/dotnet/aspnetc
 
 </details>
 
-### 86. [Microsoft.Extensions.Configuration.Binder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 86. [Microsoft.Extensions.Configuration.Binder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-11-18 => 18 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-18 => 18 November 2023
+
 
 Author: Microsoft
 
@@ -698,11 +803,14 @@ Source: [https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#config
 
 </details>
 
-### 85. [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 85. [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-11-17 => 17 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-17 => 17 November 2023
+
 
 Author: Microsoft
 
@@ -717,11 +825,14 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 </details>
 
-### 84. [Biwen.AutoClassGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 84. [Biwen.AutoClassGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2023-11-16 => 16 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-16 => 16 November 2023
+
 
 Author: vipwan
 
@@ -736,11 +847,14 @@ Source: [https://github.com/vipwan/Biwen.AutoClassGen](https://github.com/vipwan
 
 </details>
 
-### 83. [PrimaryParameter](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Constructor) category 
+### 83. [PrimaryParameter](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2023-11-15 => 15 November 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-11-15 => 15 November 2023
+
 
 Author: FaustVX
 
@@ -755,11 +869,14 @@ Source: [https://github.com/FaustVX/PrimaryParameter](https://github.com/FaustVX
 
 </details>
 
-### 82. [jsonConverterSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Serializer) category 
+### 82. [jsonConverterSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2023-10-30 => 30 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-30 => 30 October 2023
+
 
 Author: Aviationexam
 
@@ -774,11 +891,14 @@ Source: [https://github.com/aviationexam/json-converter-source-generator](https:
 
 </details>
 
-### 81. [N.SourceGenerators.UnionTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/N.SourceGenerators.UnionTypes) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 81. [N.SourceGenerators.UnionTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/N.SourceGenerators.UnionTypes) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2023-10-29 => 29 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-29 => 29 October 2023
+
 
 Author: Alexey Sosnin
 
@@ -793,11 +913,14 @@ Source: [https://github.com/Ne4to/N.SourceGenerators.UnionTypes](https://github.
 
 </details>
 
-### 80. [AutoConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoConstructor) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Constructor) category 
+### 80. [AutoConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoConstructor) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2023-10-28 => 28 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-28 => 28 October 2023
+
 
 Author: Kévin Gallienne
 
@@ -812,11 +935,14 @@ Source: [https://github.com/k94ll13nn3/AutoConstructor](https://github.com/k94ll
 
 </details>
 
-### 79. [DudNet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 79. [DudNet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DudNet) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-10-27 => 27 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-27 => 27 October 2023
+
 
 Author: jwshyns
 
@@ -831,11 +957,14 @@ Source: [https://github.com/jwshyns/DudNet](https://github.com/jwshyns/DudNet)
 
 </details>
 
-### 78. [MinimalApiBuilder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 78. [MinimalApiBuilder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-10-26 => 26 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-26 => 26 October 2023
+
 
 Author: 
 
@@ -851,11 +980,14 @@ Source: [https://github.com/JensDll/MinimalApiBuilder](https://github.com/JensDl
 
 </details>
 
-### 77. [DynamicsMapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 77. [DynamicsMapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2023-10-16 => 16 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-16 => 16 October 2023
+
 
 Author: Yonatan Cohavi
 
@@ -871,11 +1003,14 @@ Source: [https://github.com/YonatanCohavi/DynamicsMapper/](https://github.com/Yo
 
 </details>
 
-### 76. [UnitGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnitGenerator) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#PrimitiveObsession) category 
+### 76. [UnitGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnitGenerator) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession) category 
+
+Generated on : 2023-10-15 => 15 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-15 => 15 October 2023
+
 
 Author: Cysharp, Inc
 
@@ -890,11 +1025,14 @@ Source: [https://github.com/Cysharp/UnitGenerator](https://github.com/Cysharp/Un
 
 </details>
 
-### 75. [StaticReflection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 75. [StaticReflection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-10-13 => 13 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-13 => 13 October 2023
+
 
 Author: Cricle
 
@@ -909,11 +1047,14 @@ Source: [https://github.com/Cricle/StaticReflection/](https://github.com/Cricle/
 
 </details>
 
-### 74. [CredFetoEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Enum) category 
+### 74. [CredFetoEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2023-10-12 => 12 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-12 => 12 October 2023
+
 
 Author: Mark Ridgwell
 
@@ -928,11 +1069,14 @@ Source: [https://github.com/credfeto/credfeto-enum-source-generation](https://gi
 
 </details>
 
-### 73. [IDisposableGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Disposer) category 
+### 73. [IDisposableGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/IDisposableGenerator) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2023-10-11 => 11 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-11 => 11 October 2023
+
 
 Author: Els_kom Official Organization
 
@@ -947,11 +1091,14 @@ Source: [https://github.com/Elskom/IDisposableGenerator](https://github.com/Elsk
 
 </details>
 
-### 72. [Meziantou.Polyfill](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 72. [Meziantou.Polyfill](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-10-10 => 10 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-10 => 10 October 2023
+
 
 Author: Gérald Barré
 
@@ -966,11 +1113,14 @@ Source: [https://github.com/meziantou/Meziantou.Polyfill](https://github.com/mez
 
 </details>
 
-### 71. [DisposableHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Disposer) category 
+### 71. [DisposableHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2023-10-09 => 09 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-09 => 09 October 2023
+
 
 Author: Clynt Neiko Rupinta
 
@@ -985,11 +1135,14 @@ Source: [https://github.com/Kiryuumaru/DisposableHelpers](https://github.com/Kir
 
 </details>
 
-### 70. [MagicMap](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 70. [MagicMap](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2023-10-08 => 08 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-08 => 08 October 2023
+
 
 Author: Bramer Daniel
 
@@ -1004,11 +1157,14 @@ Source: [https://github.com/bramerdaniel/MagicMap](https://github.com/bramerdani
 
 </details>
 
-### 69. [RSCG_Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 69. [RSCG_Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-10-07 => 07 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-07 => 07 October 2023
+
 
 Author: Andrei Ignat
 
@@ -1023,11 +1179,14 @@ Source: [https://github.com/ignatandrei/rscg_templating/](https://github.com/ign
 
 </details>
 
-### 68. [JsonPolymorphicGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Serializer) category 
+### 68. [JsonPolymorphicGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2023-10-06 => 06 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-06 => 06 October 2023
+
 
 Author: surgicalcoder
 
@@ -1042,11 +1201,14 @@ Source: [https://github.com/surgicalcoder/JsonPolymorphicGenerator](https://gith
 
 </details>
 
-### 67. [MapTo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 67. [MapTo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2023-10-05 => 05 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-05 => 05 October 2023
+
 
 Author: Mohammedreza Taikandi
 
@@ -1061,11 +1223,14 @@ Source: [https://github.com/mrtaikandi/MapTo](https://github.com/mrtaikandi/MapT
 
 </details>
 
-### 66. [BuilderGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 66. [BuilderGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-10-04 => 04 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-04 => 04 October 2023
+
 
 Author: Mell Grubb
 
@@ -1080,11 +1245,14 @@ Source: [https://github.com/MelGrubb/BuilderGenerator](https://github.com/MelGru
 
 </details>
 
-### 65. [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Disposer) category 
+### 65. [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2023-10-03 => 03 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-03 => 03 October 2023
+
 
 Author: Hakan Fıstık
 
@@ -1099,11 +1267,14 @@ Source: [https://github.com/HakamFostok/Disposer](https://github.com/HakamFostok
 
 </details>
 
-### 64. [ResXGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 64. [ResXGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ResXGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2023-10-02 => 02 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-02 => 02 October 2023
+
 
 Author: Aigamo
 
@@ -1118,11 +1289,14 @@ Source: [https://github.com/ycanardeau/ResXGenerator](https://github.com/ycanard
 
 </details>
 
-### 63. [StringLiteral](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral) , in the [Optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Optimizer) category 
+### 63. [StringLiteral](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral) , in the [Optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer) category 
+
+Generated on : 2023-10-01 => 01 October 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-10-01 => 01 October 2023
+
 
 Author: Nobuyuki Iwanaga
 
@@ -1137,11 +1311,14 @@ Source: [https://github.com/ufcpp/StringLiteralGenerator](https://github.com/ufc
 
 </details>
 
-### 62. [RSCG_Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 62. [RSCG_Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-09-30 => 30 September 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-09-30 => 30 September 2023
+
 
 Author: Andrei Ignat
 
@@ -1156,11 +1333,14 @@ Source: [https://github.com/ignatandrei/RSCG_Decorator](https://github.com/ignat
 
 </details>
 
-### 61. [ProtobufSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Serializer) category 
+### 61. [ProtobufSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2023-09-24 => 24 September 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-09-24 => 24 September 2023
+
 
 Author: Laszlo Deak
 
@@ -1175,11 +1355,14 @@ Source: [https://github.com/ladeak/ProtobufSourceGenerator](https://github.com/l
 
 </details>
 
-### 60. [SafeRouting](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 60. [SafeRouting](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-09-23 => 23 September 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-09-23 => 23 September 2023
+
 
 Author: David Wake
 
@@ -1194,11 +1377,14 @@ Source: [https://github.com/daviddotcs/safe-routing](https://github.com/daviddot
 
 </details>
 
-### 59. [SourceGenerator.Helper.CopyCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 59. [SourceGenerator.Helper.CopyCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-09-17 => 17 September 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-09-17 => 17 September 2023
+
 
 Author: Patrick Kranz
 
@@ -1213,11 +1399,14 @@ Source: [https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode](https:/
 
 </details>
 
-### 58. [ThisAssembly_Resources](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 58. [ThisAssembly_Resources](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2023-09-16 => 16 September 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-09-16 => 16 September 2023
+
 
 Author: Daniel Cazzulino
 
@@ -1234,11 +1423,14 @@ Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped
 
 </details>
 
-### 57. [RSCG_Utils_Memo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 57. [RSCG_Utils_Memo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2023-08-27 => 27 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-27 => 27 August 2023
+
 
 Author: Ignat Andrei
 
@@ -1253,11 +1445,14 @@ Source: [https://github.com/ignatandrei/RSCG_Utils](https://github.com/ignatandr
 
 </details>
 
-### 56. [Roozie.AutoInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 56. [Roozie.AutoInterface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2023-08-26 => 26 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-26 => 26 August 2023
+
 
 Author: Alex Russak
 
@@ -1272,11 +1467,14 @@ Source: [https://github.com/AlexRussak/Roozie.AutoInterface](https://github.com/
 
 </details>
 
-### 55. [M31.FluentAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 55. [M31.FluentAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/M31.FluentAPI) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-08-25 => 25 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-25 => 25 August 2023
+
 
 Author: Kevin Schaal
 
@@ -1291,11 +1489,14 @@ Source: [https://github.com/m31coding/M31.FluentAPI](https://github.com/m31codin
 
 </details>
 
-### 54. [AutoDTO](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 54. [AutoDTO](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2023-08-24 => 24 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-24 => 24 August 2023
+
 
 Author: Ohorodnikov
 
@@ -1310,11 +1511,14 @@ Source: [https://github.com/Ohorodnikov/AutoDto](https://github.com/Ohorodnikov/
 
 </details>
 
-### 53. [RSCG_WebAPIExports](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 53. [RSCG_WebAPIExports](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_WebAPIExports) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-08-23 => 23 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-23 => 23 August 2023
+
 
 Author: Andrei Ignat
 
@@ -1329,11 +1533,14 @@ Source: [https://github.com/ignatandrei/RSCG_WebAPIExports/](https://github.com/
 
 </details>
 
-### 52. [Gobie](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 52. [Gobie](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-08-22 => 22 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-22 => 22 August 2023
+
 
 Author: Mike Conrad
 
@@ -1348,11 +1555,14 @@ Source: [https://github.com/GobieGenerator/Gobie/](https://github.com/GobieGener
 
 </details>
 
-### 51. [OneOf](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 51. [OneOf](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2023-08-21 => 21 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-21 => 21 August 2023
+
 
 Author: Harry McIntyre
 
@@ -1367,11 +1577,14 @@ Source: [https://github.com/mcintyre321/OneOf](https://github.com/mcintyre321/On
 
 </details>
 
-### 50. [Ridge](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Tests) category 
+### 50. [Ridge](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
+
+Generated on : 2023-08-20 => 20 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-20 => 20 August 2023
+
 
 Author: Michal Motyčka
 
@@ -1386,11 +1599,14 @@ Source: [https://github.com/Melchy/Ridge](https://github.com/Melchy/Ridge)
 
 </details>
 
-### 49. [Strongly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#PrimitiveObsession) category 
+### 49. [Strongly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession) category 
+
+Generated on : 2023-08-19 => 19 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-19 => 19 August 2023
+
 
 Author: Lucas Teles
 
@@ -1405,11 +1621,14 @@ Source: [https://github.com/lucasteles/Strongly/](https://github.com/lucasteles/
 
 </details>
 
-### 48. [PropertyChangedSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator) , in the [MVVM](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#MVVM) category 
+### 48. [PropertyChangedSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator) , in the [MVVM](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm) category 
+
+Generated on : 2023-08-18 => 18 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-18 => 18 August 2023
+
 
 Author: Antony Male
 
@@ -1424,11 +1643,14 @@ Source: [https://github.com/canton7/PropertyChanged.SourceGenerator](https://git
 
 </details>
 
-### 47. [Injectio](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#DependencyInjection) category 
+### 47. [Injectio](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
+
+Generated on : 2023-08-17 => 17 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-17 => 17 August 2023
+
 
 Author: LoreSoft
 
@@ -1443,11 +1665,14 @@ Source: [https://github.com/loresoft/Injectio](https://github.com/loresoft/Injec
 
 </details>
 
-### 46. [NextGenMapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 46. [NextGenMapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2023-08-16 => 16 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-16 => 16 August 2023
+
 
 Author: Anton Ryabchikov
 
@@ -1462,11 +1687,14 @@ Source: [https://github.com/DedAnton/NextGenMapper](https://github.com/DedAnton/
 
 </details>
 
-### 45. [BenutomoAutomaticDisposeImplSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Disposer) category 
+### 45. [BenutomoAutomaticDisposeImplSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2023-08-15 => 15 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-15 => 15 August 2023
+
 
 Author: benutomo
 
@@ -1481,11 +1709,14 @@ Source: [https://github.com/benutomo-dev/RoslynComponents](https://github.com/be
 
 </details>
 
-### 44. [SyncMethodGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 44. [SyncMethodGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SyncMethodGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-08-14 => 14 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-14 => 14 August 2023
+
 
 Author: Zomp Inc.
 
@@ -1500,11 +1731,14 @@ Source: [https://github.com/zompinc/sync-method-generator](https://github.com/zo
 
 </details>
 
-### 43. [spreadcheetah](https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 43. [spreadcheetah](https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-08-13 => 13 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-13 => 13 August 2023
+
 
 Author: Sveinung
 
@@ -1519,11 +1753,14 @@ Source: [https://github.com/sveinungf/spreadcheetah](https://github.com/sveinung
 
 </details>
 
-### 42. [Immutype](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 42. [Immutype](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immutype) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-08-12 => 12 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-12 => 12 August 2023
+
 
 Author: Nikolay Pianikov 
 
@@ -1538,11 +1775,14 @@ Source: [https://github.com/DevTeam/Immutype](https://github.com/DevTeam/Immutyp
 
 </details>
 
-### 41. [GeneratorEquals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 41. [GeneratorEquals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-08-11 => 11 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-11 => 11 August 2023
+
 
 Author: Diego Frato
 
@@ -1557,11 +1797,14 @@ Source: [https://github.com/diegofrata/Generator.Equals](https://github.com/dieg
 
 </details>
 
-### 40. [FastGenericNew](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 40. [FastGenericNew](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-08-10 => 10 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-10 => 10 August 2023
+
 
 Author: Boring3 Nyrest
 
@@ -1587,11 +1830,14 @@ Source: [https://github.com/Nyrest/FastGenericNew](https://github.com/Nyrest/Fas
 
 </details>
 
-### 39. [Breezy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Database) category 
+### 39. [Breezy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
+
+Generated on : 2023-08-09 => 09 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-09 => 09 August 2023
+
 
 Author: Ludovicdln
 
@@ -1606,11 +1852,14 @@ Source: [https://github.com/Ludovicdln/Breezy](https://github.com/Ludovicdln/Bre
 
 </details>
 
-### 38. [EnumClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Enum) category 
+### 38. [EnumClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2023-08-08 => 08 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-08 => 08 August 2023
+
 
 Author: ashen.Blade
 
@@ -1630,11 +1879,14 @@ Source: [https://github.com/ashenBlade/EnumClass](https://github.com/ashenBlade/
 
 </details>
 
-### 37. [AutoRegisterInject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoRegisterInject) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#DependencyInjection) category 
+### 37. [AutoRegisterInject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoRegisterInject) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
+
+Generated on : 2023-08-07 => 07 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-07 => 07 August 2023
+
 
 Author: Patrick Klaeren
 
@@ -1649,11 +1901,14 @@ Source: [https://github.com/patrickklaeren/AutoRegisterInject](https://github.co
 
 </details>
 
-### 36. [ProxyGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 36. [ProxyGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2023-08-06 => 06 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-06 => 06 August 2023
+
 
 Author: Dénes Solti
 
@@ -1668,11 +1923,14 @@ Source: [https://github.com/Sholtee/ProxyGen](https://github.com/Sholtee/ProxyGe
 
 </details>
 
-### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-08-05 => 05 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-05 => 05 August 2023
+
 
 Author: joh-pot
 
@@ -1687,11 +1945,14 @@ Source: [https://github.com/joh-pot/DeeDee/](https://github.com/joh-pot/DeeDee/)
 
 </details>
 
-### 34. [MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 34. [MemoryPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-08-04 => 04 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-04 => 04 August 2023
+
 
 Author: Cysharp, Inc
 
@@ -1706,11 +1967,14 @@ Source: [https://github.com/Cysharp/MemoryPack](https://github.com/Cysharp/Memor
 
 </details>
 
-### 33. [Matryoshki](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 33. [Matryoshki](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Matryoshki) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2023-08-03 => 03 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-03 => 03 August 2023
+
 
 Author: Georgy Krasin
 
@@ -1725,11 +1989,14 @@ Source: [https://github.com/krasin-ga/matryoshki/](https://github.com/krasin-ga/
 
 </details>
 
-### 32. [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 32. [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-08-02 => 02 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-02 => 02 August 2023
+
 
 Author: Martin Othamar
 
@@ -1744,11 +2011,14 @@ Source: [https://github.com/martinothamar/Mediator](https://github.com/martinoth
 
 </details>
 
-### 31. [MorrisMoxy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 31. [MorrisMoxy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-08-01 => 01 August 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-08-01 => 01 August 2023
+
 
 Author: Peter Morris
 
@@ -1763,11 +2033,14 @@ Source: [https://github.com/mrpmorris/Morris.Moxy](https://github.com/mrpmorris/
 
 </details>
 
-### 30. [Refit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 30. [Refit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-07-31 => 31 July 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-07-31 => 31 July 2023
+
 
 Author: ReactiveUI
 
@@ -1782,11 +2055,14 @@ Source: [https://github.com/reactiveui/refit](https://github.com/reactiveui/refi
 
 </details>
 
-### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Database) category 
+### 29. [Gedaq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
+
+Generated on : 2023-07-29 => 29 July 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-07-29 => 29 July 2023
+
 
 Author: Vyacheslav Brevnov
 
@@ -1801,11 +2077,14 @@ Source: [https://github.com/SoftStoneDevelop/Gedaq](https://github.com/SoftStone
 
 </details>
 
-### 28. [Lombok.NET](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 28. [Lombok.NET](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Colin Alpert
 
@@ -1820,11 +2099,14 @@ Source: [https://github.com/CollinAlpert/Lombok.NET](https://github.com/CollinAl
 
 </details>
 
-### 27. [EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 27. [EmbedResourceCSharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EmbedResourceCSharp) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: pCYSl5EDgo
 
@@ -1839,11 +2121,14 @@ Source: [https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp](https://github.c
 
 </details>
 
-### 26. [Podimo.ConstEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 26. [Podimo.ConstEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Podimo.ConstEmbed) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Podimo
 
@@ -1862,11 +2147,14 @@ Source: [https://github.com/podimo/Podimo.ConstEmbed](https://github.com/podimo/
 
 </details>
 
-### 25. [mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Mapper) category 
+### 25. [mapperly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Riok
 
@@ -1883,11 +2171,14 @@ Source: [https://github.com/riok/mapperly](https://github.com/riok/mapperly)
 
 </details>
 
-### 24. [Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Tests) category 
+### 24. [Rocks](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Json Bock
 
@@ -1902,11 +2193,14 @@ Source: [https://github.com/JasonBock/Rocks/](https://github.com/JasonBock/Rocks
 
 </details>
 
-### 23. [Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 23. [Microsoft.NET.Sdk.Razor.SourceGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -1921,11 +2215,14 @@ Source: []()
 
 </details>
 
-### 22. [RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 22. [RSCG_FunctionsWithDI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Andrei Ignat
 
@@ -1940,11 +2237,14 @@ Source: [https://github.com/ignatandrei/functionsdi](https://github.com/ignatand
 
 </details>
 
-### 21. [Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 21. [Microsoft.Interop.JavaScript.JSImportGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -1959,11 +2259,14 @@ Source: []()
 
 </details>
 
-### 20. [NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Enum) category 
+### 20. [NetEscapades.EnumGenerators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Andrew Lock
 
@@ -1978,11 +2281,14 @@ Source: [https://github.com/andrewlock/NetEscapades.EnumGenerators](https://gith
 
 </details>
 
-### 19. [ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 19. [ApparatusAOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Stanislav Silin
 
@@ -1997,11 +2303,14 @@ Source: [https://github.com/byme8/Apparatus.AOT.Reflection](https://github.com/b
 
 </details>
 
-### 18. [PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 18. [PartiallyApplied](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Jason Bock
 
@@ -2016,11 +2325,14 @@ Source: [https://github.com/JasonBock/PartiallyApplied](https://github.com/Jason
 
 </details>
 
-### 17. [RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Templating) category 
+### 17. [RazorBlade](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Lucas Trzesniewski
 
@@ -2035,11 +2347,14 @@ Source: [https://github.com/ltrzesniewski/RazorBlade](https://github.com/ltrzesn
 
 </details>
 
-### 16. [Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#PrimitiveObsession) category 
+### 16. [Vogen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Steve Dunn
 
@@ -2071,11 +2386,14 @@ Source: [https://github.com/SteveDunn/Vogen](https://github.com/SteveDunn/Vogen)
 
 </details>
 
-### 15. [dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FunctionalProgramming) category 
+### 15. [dunet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Domn Werner
 
@@ -2090,11 +2408,14 @@ Source: [https://github.com/domn1995/dunet](https://github.com/domn1995/dunet)
 
 </details>
 
-### 14. [AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Constructor) category 
+### 14. [AutoCtor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoCtor) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Cameron MacFarland
 
@@ -2109,11 +2430,14 @@ Source: [https://github.com/distantcam/AutoCtor](https://github.com/distantcam/A
 
 </details>
 
-### 13. [QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Constructor) category 
+### 13. [QuickConstructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QuickConstructor) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Flavien Charlon
 
@@ -2128,11 +2452,14 @@ Source: [https://github.com/flavien/QuickConstructor](https://github.com/flavien
 
 </details>
 
-### 12. [System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 12. [System.Runtime.InteropServices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -2154,11 +2481,14 @@ Source: [https://www.nuget.org/packages/System.Runtime.InteropServices/](https:/
 
 </details>
 
-### 11. [AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Constructor) category 
+### 11. [AutoDeconstruct](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Jason Bock
 
@@ -2173,11 +2503,14 @@ Source: [https://github.com/jasonbock/autodeconstruct](https://github.com/jasonb
 
 </details>
 
-### 10. [RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 10. [RSCG_AMS](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_AMS) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Ignat Andrei
 
@@ -2192,11 +2525,14 @@ Source: [https://github.com/ignatandrei/RSCG_AMS](https://github.com/ignatandrei
 
 </details>
 
-### 9. [CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm) , in the [MVVM](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#MVVM) category 
+### 9. [CommunityToolkit.Mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm) , in the [MVVM](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -2219,11 +2555,14 @@ Source: [https://github.com/CommunityToolkit/dotnet](https://github.com/Communit
 
 </details>
 
-### 8. [RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Interface) category 
+### 8. [RSCG_Static](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Andrei Ignat
 
@@ -2238,11 +2577,14 @@ Source: [https://github.com/ignatandrei/RSCG_Static](https://github.com/ignatand
 
 </details>
 
-### 7. [Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 7. [Microsoft.Extensions.Logging](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -2257,11 +2599,14 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 </details>
 
-### 6. [SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#API) category 
+### 6. [SkinnyControllersCommon](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Ignat Andrei
 
@@ -2276,11 +2621,14 @@ Source: [https://github.com/ignatandrei/SkinnyControllersGenerator/](https://git
 
 </details>
 
-### 5. [System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementClass) category 
+### 5. [System.Text.RegularExpressions](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -2303,11 +2651,14 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 </details>
 
-### 4. [RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#FilesToCode) category 
+### 4. [RSCG_Utils](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Ignat Andrei
 
@@ -2322,11 +2673,14 @@ Source: [https://github.com/ignatandrei/RSCG_Utils](https://github.com/ignatandr
 
 </details>
 
-### 3. [System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#Serializer) category 
+### 3. [System.Text.Json](https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Microsoft
 
@@ -2341,11 +2695,14 @@ Source: [https://github.com/dotnet/runtime](https://github.com/dotnet/runtime)
 
 </details>
 
-### 2. [RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 2. [RSCG_TimeBombComment](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Andrei Ignat
 
@@ -2360,11 +2717,14 @@ Source: [https://github.com/ignatandrei/RSCG_TimeBombComment](https://github.com
 
 </details>
 
-### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#EnhancementProject) category 
+### 1. [ThisAssembly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2023-04-16 => 16 April 2023
+
 <details>
   <summary>Expand</summary>
 
-Generated on : 2023-04-16 => 16 April 2023
+
 
 Author: Daniel Cazzulino
 
