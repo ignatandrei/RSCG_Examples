@@ -162,7 +162,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("LingoGen https://github.com/RubenBroere/lingo-gen",WaitingForIssue)
 //,new("",later)
 //,new("",later)
-//,new("",later)
 };
     
      //there are more https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
@@ -298,6 +297,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CopyTo",new(true,new(2024,2,19),Category.EnhancementClass) },
             {"PlantUmlClassDiagramGenerator",new(true,new(2024,2,20),Category.EnhancementProject) },
             {"RSCG_Wait",new(true,new(2024,2,21),Category.EnhancementProject) },
+            {"AutoGen",new(true,new (2024,2,22),Category.Mapper) },
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -389,6 +390,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         { 
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
+            text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");
 
             text = text.Replace("href=\"README.md\"", $"href=\"{d.Generator!.Source}/README.md\"");
             text = text.Replace("href=\"README.zh-CN.md\"", $"href=\"{d.Generator!.Source}/README.zh-CN.md\"");

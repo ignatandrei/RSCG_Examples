@@ -370,10 +370,13 @@ namespace NextGenMapperDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper
 
-### In the same category (Mapper) - 5 other generators
+### In the same category (Mapper) - 6 other generators
 
 
 #### [AutoDTO](/docs/AutoDTO)
+
+
+#### [AutoGen](/docs/AutoGen)
 
 
 #### [MagicMap](/docs/MagicMap)

@@ -131,6 +131,8 @@ input-files:
 - examples/UnionsGenerator.html
 - examples/CopyTo.html
 - examples/PlantUmlClassDiagramGenerator.html
+- examples/RSCG_Wait.html
+- examples/AutoGen.html
 
 # or you may use input-file: with a single value
 # defaults:

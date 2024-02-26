@@ -945,6 +945,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_WaitAndOptions",
       "Category": "EnhancementProject",
       "AddedOn": "2024-02-21T00:00:00"
+    },
+    {
+      "Name": "AutoGen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoGen",
+      "NuGet": "https://www.nuget.org/packages/Antelcat.AutoGen/",
+      "Source": "https://github.com/Antelcat/AutoGen",
+      "Category": "Mapper",
+      "AddedOn": "2024-02-22T00:00:00"
     }
   ]
 }

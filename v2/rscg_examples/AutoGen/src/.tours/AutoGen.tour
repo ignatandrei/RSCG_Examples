@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoGen",
+  "steps": 
+  [
+    {
+      "file": "mapperDemo/mapperDemo.csproj",
+      "description": "First, we add Nuget  [Antelcat.AutoGen](https://www.nuget.org/packages/Antelcat.AutoGen/) in csproj  ",
+      "pattern": "Antelcat.AutoGen"
+    }
+
+        ,{
+        "file": "mapperDemo/Extensions.cs",
+        "description": "File Extensions.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "mapperDemo/PersonDTO.cs",
+        "description": "File PersonDTO.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "mapperDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "mapperDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project mapperDemo/mapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "mapperDemo/obj/GX/Antelcat.AutoGen.SourceGenerators/Antelcat.AutoGen.SourceGenerators.Generators.Mapping.MapperGenerator/AutoMap__.mapperDemo.Extensions.g.cs",
+        "description": "File AutoMap__.mapperDemo.Extensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

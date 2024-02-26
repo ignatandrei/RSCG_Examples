@@ -117,3 +117,4 @@ Nr,Key,Source,Category
 116,CopyTo, https://github.com/PaulBraetz/RhoMicro.CodeAnalysis,EnhancementClass
 117,PlantUmlClassDiagramGenerator, https://github.com/pierre3/PlantUmlClassDiagramGenerator/,EnhancementProject
 118,RSCG_Wait, https://github.com/ignatandrei/RSCG_WaitAndOptions,EnhancementProject
+119,AutoGen, https://github.com/Antelcat/AutoGen,Mapper
