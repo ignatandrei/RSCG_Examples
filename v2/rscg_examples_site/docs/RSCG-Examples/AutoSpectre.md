@@ -370,7 +370,7 @@ Default value is only currently used for single items (not enumerables)
 
 #### IEnumerable types
 
-In the case of a `TextPromptAttribute` and an `IEnumerable<T>` value. The rules above will be applied to a single type, and after collecting input the user will be prompted if the want's to continue.
+In the case of a `TextPromptAttribute` and an `IEnumerable of T` value. The rules above will be applied to a single type, and after collecting input the user will be prompted if the want's to continue.
 
 #### Other functionality
 
@@ -426,12 +426,12 @@ The spinner type is set by using the `SpinnerKnownTypes` this has been generated
 
 ## Collections strategy
 
-When requesting input for a collection we will often work with a List&lt;T&gt; and converted it to the type of the property. Most cases should be covered. But here is a short list of some of the "conversions" behind the scenes.
+When requesting input for a collection we will often work with a List of T and converted it to the type of the property. Most cases should be covered. But here is a short list of some of the "conversions" behind the scenes.
 
 * Array will result in a ToList()
-* HashSet will be initalized with new HashSet<>
+* HashSet will be initalized with new HashSet of T
 * Immutable collection types will append ToImmutable{Type}()
-* Interfaces like `IList<T>` `ICollection<T>` `IEnumerable<T>` `IReadOnlyCollection<T>` `IReadOnlyList<T>` have their values directly set as `List<T>` inherit directly from them
+* Interfaces like `IList of T` `ICollection of T` `IEnumerable of T` `IReadOnlyCollection of T` `IReadOnlyList of T` have their values directly set as `List of T` inherit directly from them
 
 ### Example
 
