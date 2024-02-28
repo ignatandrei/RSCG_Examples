@@ -158,6 +158,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",tooComplicated)
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
+,new("Mediator https://github.com/martinothamar/Mediator",later)
 //,new("",later)
 //,new("",later)
 };
