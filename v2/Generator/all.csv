@@ -119,3 +119,4 @@ Nr,Key,Source,Category
 118,RSCG_Wait, https://github.com/ignatandrei/RSCG_WaitAndOptions,EnhancementProject
 119,AutoGen, https://github.com/Antelcat/AutoGen,Mapper
 120,LingoGen, https://github.com/RubenBroere/lingo-gen,FilesToCode
+121,AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre,EnhancementProject

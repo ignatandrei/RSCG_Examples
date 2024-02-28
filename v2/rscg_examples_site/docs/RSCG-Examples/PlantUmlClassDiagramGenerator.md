@@ -897,7 +897,10 @@ class Person  {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator
 
-### In the same category (EnhancementProject) - 11 other generators
+### In the same category (EnhancementProject) - 12 other generators
+
+
+#### [AutoSpectre](/docs/AutoSpectre)
 
 
 #### [BuildInfo](/docs/BuildInfo)

@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"AutoSpectre",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoSpectre.SourceGeneration",
+         "https://www.nuget.org/packages/AutoSpectre"
+      ],
+      "link":"https://github.com/jeppevammenkristensen/auto-spectre",
+      "author":"Jeppe Roi Kristensen",
+      "source":"https://github.com/jeppevammenkristensen/auto-spectre"
+   },
+   "data":{
+      "goodFor":["Generating prompt to input values for a console application."],
+      "csprojDemo":"ReadData.csproj",
+      "csFiles":["Program.cs","ReadPerson.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

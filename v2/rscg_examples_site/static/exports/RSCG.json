@@ -961,6 +961,14 @@
       "Source": "https://github.com/RubenBroere/lingo-gen",
       "Category": "FilesToCode",
       "AddedOn": "2024-02-23T00:00:00"
+    },
+    {
+      "Name": "AutoSpectre",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoSpectre",
+      "NuGet": "https://www.nuget.org/packages/AutoSpectre.SourceGeneration",
+      "Source": "https://github.com/jeppevammenkristensen/auto-spectre",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-02-24T00:00:00"
     }
   ]
 }
