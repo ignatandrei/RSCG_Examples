@@ -132,7 +132,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("PolySharp https://github.com/Sergio0694/PolySharp",tooComplicated)
 ,new ("Figgle, https://github.com/drewnoakes/figgle",old)
 ,new("Jos.Enumeration, https://github.com/joseftw/jos.enumeration",tooComplicated)
-,new("AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre",tooComplicated)
 ,new("Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",old)
 ,new("Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",tooComplicated)
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
@@ -298,6 +297,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_Wait",new(true,new(2024,2,21),Category.EnhancementProject) },
             {"AutoGen",new(true,new (2024,2,22),Category.Mapper) },
             {"LingoGen",new(true,new(2024,2,23),Category.FilesToCode) },
+            {"AutoSpectre",new (true,new(2024,2,24),Category.EnhancementProject )},
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

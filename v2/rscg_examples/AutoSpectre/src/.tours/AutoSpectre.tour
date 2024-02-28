@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AutoSpectre",
+  "steps": 
+  [
+    {
+      "file": "ReadData/ReadData.csproj",
+      "description": "First, we add Nuget  [AutoSpectre.SourceGeneration](https://www.nuget.org/packages/AutoSpectre.SourceGeneration) in csproj  ",
+      "pattern": "AutoSpectre.SourceGeneration"
+    }
+
+        ,{
+        "file": "ReadData/ReadPerson.cs",
+        "description": "File ReadPerson.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ReadData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ReadData/ReadData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ReadData/obj/GX/AutoSpectre.SourceGeneration/AutoSpectre.SourceGeneration.IncrementAutoSpectreGenerator/ReadData.ReadPersonAutoSpectreFactory.g.cs",
+        "description": "File ReadData.ReadPersonAutoSpectreFactory.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
