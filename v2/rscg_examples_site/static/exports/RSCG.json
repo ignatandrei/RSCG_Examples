@@ -969,6 +969,14 @@
       "Source": "https://github.com/jeppevammenkristensen/auto-spectre",
       "Category": "EnhancementProject",
       "AddedOn": "2024-02-24T00:00:00"
+    },
+    {
+      "Name": "RSCG_JSON2Class",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_JSON2Class",
+      "NuGet": "https://www.nuget.org/packages/RSCG_JSON2Class/",
+      "Source": "https://github.com/ignatandrei/RSCG_JSON2Class",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-02-29T00:00:00"
     }
   ]
 }

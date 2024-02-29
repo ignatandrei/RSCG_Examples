@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_JSON2Class",
+  "steps": 
+  [
+    {
+      "file": "JSON2ClassConsole/JSON2ClassConsole.csproj",
+      "description": "First, we add Nuget  [RSCG_JSON2Class](https://www.nuget.org/packages/RSCG_JSON2Class/) in csproj  ",
+      "pattern": "RSCG_JSON2Class"
+    }
+
+        ,{
+        "file": "JSON2ClassConsole/testData.json",
+        "description": "File testData.json  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "JSON2ClassConsole/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project JSON2ClassConsole/JSON2ClassConsole.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "JSON2ClassConsole/obj/GX/RSCG_JSON2Class/RSCG_JSON2Class.RSCG_JSON2Class/testData.cs",
+        "description": "File testData.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "JSON2ClassConsole/obj/GX/RSCG_JSON2Class/RSCG_JSON2Class.RSCG_JSON2Class/test.cs",
+        "description": "File test.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

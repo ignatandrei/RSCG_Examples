@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 121 RSCG by category 
-description: 121 RSCG by category 
+title: 122 RSCG by category 
+description: 122 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -408,7 +408,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:10</summary>
+  <summary>Expand FilesToCode =>examples:11</summary>
         
 
 
@@ -458,6 +458,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [LingoGen](/docs/LingoGen)
+
+        
+
+
+[RSCG_JSON2Class](/docs/RSCG_JSON2Class)
 
 </details>
     
@@ -916,6 +921,8 @@ flowchart LR;
     FilesToCode--> corecraft((corecraft))
 
     FilesToCode--> LingoGen((LingoGen))
+
+    FilesToCode--> RSCG_JSON2Class((RSCG_JSON2Class))
 
     FunctionalProgramming--> dunet((dunet))
 

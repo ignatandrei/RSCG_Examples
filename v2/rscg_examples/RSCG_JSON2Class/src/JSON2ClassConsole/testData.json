@@ -1,0 +1,30 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "MicrosoftHostingLifetime": "Trace"
+    }
+  },
+  "PropChars": {
+    "a": "ab'"
+  },
+  "NoProp": {},
+  "AllowedHosts": "*",
+  "MyTest": "'aa < >",
+  "DictData": {
+    "Test": {
+      "1234a": [
+        "1a",
+        "b"
+      ]
+    },
+    "A": "asdasd",
+    "2": "asdasd",
+    "MyNumber": 10,
+    "55": {
+      "a": "b1",
+      "2": "test1"
+    }
+  }
+}

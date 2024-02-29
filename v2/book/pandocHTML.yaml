@@ -135,6 +135,7 @@ input-files:
 - examples/AutoGen.html
 - examples/LingoGen.html
 - examples/AutoSpectre.html
+- examples/RSCG_JSON2Class.html
 
 # or you may use input-file: with a single value
 # defaults:

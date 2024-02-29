@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_JSON2Class",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_JSON2Class/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_JSON2Class",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/RSCG_JSON2Class"
+   },
+   "data":{
+      "goodFor":["transform any json into a class"],
+      "csprojDemo":"JSON2ClassConsole.csproj",
+      "csFiles":["Program.cs","testData.json"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

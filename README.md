@@ -1,6 +1,6 @@
-# RSCG - 121 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 122 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-02-24 => 24 February 2024
+## Latest Update : 2024-02-29 => 29 February 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -16,8 +16,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 121 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 122 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 122. [RSCG_JSON2Class](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_JSON2Class) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-02-29 => 29 February 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Andrei Ignat
+
+This package transforms any json into a class 
+
+Nuget: [https://www.nuget.org/packages/RSCG_JSON2Class/](https://www.nuget.org/packages/RSCG_JSON2Class/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_JSON2Class](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_JSON2Class)
+
+Source: [https://github.com/ignatandrei/RSCG_JSON2Class](https://github.com/ignatandrei/RSCG_JSON2Class)
+
+</details>
+
 ### 121. [AutoSpectre](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoSpectre) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2024-02-24 => 24 February 2024

@@ -277,7 +277,7 @@ namespace
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave
 
-### In the same category (FilesToCode) - 9 other generators
+### In the same category (FilesToCode) - 10 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
@@ -299,6 +299,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave
 
 
 #### [ResXGenerator](/docs/ResXGenerator)
+
+
+#### [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
 
 
 #### [RSCG_Utils](/docs/RSCG_Utils)

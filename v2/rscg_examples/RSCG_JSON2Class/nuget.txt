@@ -1,0 +1,1 @@
+This package transforms any json into a class

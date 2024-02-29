@@ -299,6 +299,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AutoGen",new(true,new (2024,2,22),Category.Mapper) },
             {"LingoGen",new(true,new(2024,2,23),Category.FilesToCode) },
             {"AutoSpectre",new (true,new(2024,2,24),Category.EnhancementProject )},
+            {"RSCG_JSON2Class",new(true,new(2024,2,29),Category.FilesToCode) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
