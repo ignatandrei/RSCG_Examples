@@ -159,6 +159,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 ,new("Mediator https://github.com/martinothamar/Mediator",later)
+,new("Literal https://github.com/feast107/CodeAnalysis",later)
+//,new("",later)
+//,new("",later)
 //,new("",later)
 //,new("",later)
 };
@@ -1235,7 +1238,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         }
         catch (Exception ex)
         {
-            Console.WriteLine("1.error for " + (it.Generator?.Name ?? "") + "-->" + ex.StackTrace);
+            Console.WriteLine($"1.error {ex.Message} for " + (it.Generator?.Name ?? "") + "-->" + ex.StackTrace);
         }
     }
 }     

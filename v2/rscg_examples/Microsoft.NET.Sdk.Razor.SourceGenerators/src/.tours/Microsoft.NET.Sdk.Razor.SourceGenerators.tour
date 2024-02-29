@@ -1,0 +1,150 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+  "steps": 
+  [
+    {
+      "file": "RazorAppDemo/RazorAppDemo.csproj",
+      "description": "First, we add Nuget  []() in csproj  ",
+      "pattern": ""
+    }
+
+        ,{
+        "file": "RazorAppDemo/Pages/_ViewStart.cshtml",
+        "description": "File _ViewStart.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Pages/_ViewImports.cshtml",
+        "description": "File _ViewImports.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Pages/Shared/_ValidationScriptsPartial.cshtml",
+        "description": "File _ValidationScriptsPartial.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Pages/Shared/_Layout.cshtml",
+        "description": "File _Layout.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Pages/Privacy.cshtml",
+        "description": "File Privacy.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Pages/Index.cshtml",
+        "description": "File Index.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Pages/Error.cshtml",
+        "description": "File Error.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorAppDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RazorAppDemo/RazorAppDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewStart_cshtml.g.cs",
+        "description": "File Pages__ViewStart_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewImports_cshtml.g.cs",
+        "description": "File Pages__ViewImports_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__ValidationScriptsPartial_cshtml.g.cs",
+        "description": "File Pages_Shared__ValidationScriptsPartial_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__Layout_cshtml.g.cs",
+        "description": "File Pages_Shared__Layout_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Privacy_cshtml.g.cs",
+        "description": "File Pages_Privacy_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_cshtml.g.cs",
+        "description": "File Pages_Index_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
+        "description": "File Pages_Error_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewStart_cshtml.g.cs",
+        "description": "File Pages__ViewStart_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewImports_cshtml.g.cs",
+        "description": "File Pages__ViewImports_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__ValidationScriptsPartial_cshtml.g.cs",
+        "description": "File Pages_Shared__ValidationScriptsPartial_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__Layout_cshtml.g.cs",
+        "description": "File Pages_Shared__Layout_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Privacy_cshtml.g.cs",
+        "description": "File Pages_Privacy_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_cshtml.g.cs",
+        "description": "File Pages_Index_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorAppDemo/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
+        "description": "File Pages_Error_cshtml.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

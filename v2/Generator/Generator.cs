@@ -46,10 +46,13 @@ public class Generator
     public string NamePackage(string item)
     {
         var l = "https://www.nuget.org/packages/".Length;
+        if (string.IsNullOrWhiteSpace(item))
+            return item;
+        if (item.Length < l)
+            throw new ArgumentException($"the -{item}- should have nuget");
         var name = item.Substring(l);
         if (name.EndsWith("/"))
             name = name.Substring(0, name.Length - 1);
-
         return name;
     }
     public string MarkDownNugetDownloads
