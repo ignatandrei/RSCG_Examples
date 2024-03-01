@@ -1,0 +1,1 @@
+﻿Console.WriteLine(Namespace_Andrei.Class_Ignat.Text);

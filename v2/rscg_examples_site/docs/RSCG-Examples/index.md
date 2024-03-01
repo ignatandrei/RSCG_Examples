@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 122 RSCG by category 
-description: 122 RSCG by category 
+title: 123 RSCG by category 
+description: 123 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -72,6 +72,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Blazorators](/docs/Blazorators)
+
+</details>
+    
+
+## CodeToString 
+<details>
+    
+  <summary>Expand CodeToString =>examples:1</summary>
+        
+
+
+[CodeAnalysis](/docs/CodeAnalysis)
 
 </details>
     
@@ -789,6 +801,8 @@ flowchart LR;
     API--> RDG((RDG))
 
     Blazor--> Blazorators((Blazorators))
+
+    CodeToString--> CodeAnalysis((CodeAnalysis))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 

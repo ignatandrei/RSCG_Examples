@@ -1,0 +1,180 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CodeAnalysis",
+  "steps": 
+  [
+    {
+      "file": "DemoLit/DemoLit.csproj",
+      "description": "First, we add Nuget  [Feast.CodeAnalysis](https://www.nuget.org/packages/Feast.CodeAnalysis/) in csproj  ",
+      "pattern": "Feast.CodeAnalysis"
+    }
+
+        ,{
+        "file": "DemoLit/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoLit/DemoLit.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoLit/obj/GX/PolySharp.SourceGenerators/PolySharp.SourceGenerators.PolyfillsGenerator/System.Runtime.CompilerServices.RequiresLocationAttribute.g.cs",
+        "description": "File System.Runtime.CompilerServices.RequiresLocationAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/PolySharp.SourceGenerators/PolySharp.SourceGenerators.PolyfillsGenerator/System.Runtime.CompilerServices.IsExternalInit.g.cs",
+        "description": "File System.Runtime.CompilerServices.IsExternalInit.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.TypedConstantGenerator/Feast.CodeAnalysis.TypedConstantExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.TypedConstantExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.SyntaxExtensionsGenerator/Feast.CodeAnalysis.SyntaxExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.SyntaxExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.LiteralGenerator.LiteralGenerator/Namespace_Andrei.Class_Ignat.g.cs",
+        "description": "File Namespace_Andrei.Class_Ignat.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.LiteralGenerator.LiteralGenerator/LiteralAttribute.g.cs",
+        "description": "File LiteralAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.ITypeSymbolExtensionsGenerator/Feast.CodeAnalysis.ITypeSymbolExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.ITypeSymbolExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.ISymbolExtensionsGenerator/Feast.CodeAnalysis.ISymbolExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.ISymbolExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.ExtendedClassGenerator/Feast.CodeAnalysis.SyntaxValueProviderExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.SyntaxValueProviderExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.ExtendedClassGenerator/Feast.CodeAnalysis.ImmutableArrayBuilder{T}.g.cs",
+        "description": "File Feast.CodeAnalysis.ImmutableArrayBuilder{T}.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.ExtendedClassGenerator/Feast.CodeAnalysis.Global.g.cs",
+        "description": "File Feast.CodeAnalysis.Global.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.ExtendedClassGenerator/Feast.CodeAnalysis.GeneratorAttributeSyntaxContext.g.cs",
+        "description": "File Feast.CodeAnalysis.GeneratorAttributeSyntaxContext.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.TypeEqualityComparer.g.cs",
+        "description": "File Feast.CodeAnalysis.TypeEqualityComparer.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.Type.g.cs",
+        "description": "File Feast.CodeAnalysis.Type.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.PropertyInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.PropertyInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.ParameterInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.ParameterInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.Module.g.cs",
+        "description": "File Feast.CodeAnalysis.Module.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.MethodInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.MethodInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.MemberInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.MemberInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.FieldInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.FieldInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.EventInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.EventInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.ConstructorInfo.g.cs",
+        "description": "File Feast.CodeAnalysis.ConstructorInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.CompileTimeExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.CompileTimeExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.AttributeData.g.cs",
+        "description": "File Feast.CodeAnalysis.AttributeData.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.CompileTimeGenerator/Feast.CodeAnalysis.Assembly.g.cs",
+        "description": "File Feast.CodeAnalysis.Assembly.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoLit/obj/GX/Feast.CodeAnalysis.SourceGenerators/Feast.CodeAnalysis.Generators.AttributeDataExtensionsGenerator/Feast.CodeAnalysis.AttributeDataExtensions.g.cs",
+        "description": "File Feast.CodeAnalysis.AttributeDataExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

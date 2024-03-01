@@ -159,8 +159,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new ("CsWin32 https://github.com/microsoft/CsWin32", old)
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 ,new("Mediator https://github.com/martinothamar/Mediator",later)
-,new("Literal https://github.com/feast107/CodeAnalysis",later)
-//,new("",later)
+,new("NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",old)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -303,7 +302,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"LingoGen",new(true,new(2024,2,23),Category.FilesToCode) },
             {"AutoSpectre",new (true,new(2024,2,24),Category.EnhancementProject )},
             {"RSCG_JSON2Class",new(true,new(2024,2,29),Category.FilesToCode) },
-
+            {"CodeAnalysis",new(true,new(2024,3,1),Category.CodeToString)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

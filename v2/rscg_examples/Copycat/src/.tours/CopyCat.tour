@@ -41,12 +41,6 @@
         "line": 1
         }
     
-        ,{
-        "file": "CCDemo/obj/GX/Copycat/Copycat.DecoratorGenerator/CofeeWithLogging.g.cs",
-        "description": "File CofeeWithLogging.g.cs ",
-        "line": 1
-        }
-    
   ],
 
   "ref": "main"

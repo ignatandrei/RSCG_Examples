@@ -30,6 +30,7 @@ public enum Category
     Mapper,
     DependencyInjection,
     FilesToCode,
+    CodeToString,
     FunctionalProgramming,
     PrimitiveObsession,
     Templating,
