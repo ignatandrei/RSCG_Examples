@@ -136,7 +136,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("FastEndpoints https://github.com/FastEndpoints/FastEndpoints", tooComplicated)
 , new ("ControllerGenerator https://github.com/cloud0259/ControllerGenerator",WaitingForIssue)
 //,new("WinUI-ObservableSettings https://github.com/JasonWei512/WinUI-ObservableSettings", lessNet7 )
-,new("AutoInvoke.Generator https://github.com/LokiMidgard/AutoInvoke.Generator",tooComplicated)
 ,new ("CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator", old)
 ,new("FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",tooComplicated)
 ,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",WaitingForIssue )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
@@ -303,6 +302,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RSCG_JSON2Class",new(true,new(2024,2,29),Category.FilesToCode) },
             {"CodeAnalysis",new(true,new(2024,3,1),Category.CodeToString)},
             {"Architect.DomainModeling",new(true,new(2024,3,2),Category.Builder) },
+            {"AutoInvoke.Generator",new(true,new(2024,3,3),Category.EnhancementProject)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
