@@ -87,7 +87,7 @@ This is the list of 123 ( 12 from Microsoft) RSCG with examples
 |62| [RSCG_Decorator by Andrei Ignat ](/docs/RSCG_Decorator)|2023-09-30 => 30 September 2023 | EnhancementClass |
 |61| [ProtobufSourceGenerator by Laszlo Deak ](/docs/ProtobufSourceGenerator)|2023-09-24 => 24 September 2023 | Serializer |
 |60| [SafeRouting by David Wake ](/docs/SafeRouting)|2023-09-23 => 23 September 2023 | API |
-|59| [SourceGenerator.Helper.CopyCode by Patrick Kranz ](/docs/SourceGenerator.Helper.CopyCode)|2023-09-17 => 17 September 2023 | EnhancementProject |
+|59| [SourceGenerator.Helper.CopyCode by Patrick Kranz ](/docs/SourceGenerator.Helper.CopyCode)|2023-09-17 => 17 September 2023 | CodeToString |
 |58| [ThisAssembly_Resources by Daniel Cazzulino ](/docs/ThisAssembly_Resources)|2023-09-16 => 16 September 2023 | FilesToCode |
 |57| [RSCG_Utils_Memo by Ignat Andrei ](/docs/RSCG_Utils_Memo)|2023-08-27 => 27 August 2023 | FunctionalProgramming |
 |56| [Roozie.AutoInterface by Alex Russak ](/docs/Roozie.AutoInterface)|2023-08-26 => 26 August 2023 | Interface |

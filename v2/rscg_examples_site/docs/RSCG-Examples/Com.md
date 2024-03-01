@@ -426,7 +426,7 @@ namespace test
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com
 
-### In the same category (EnhancementProject) - 12 other generators
+### In the same category (EnhancementProject) - 11 other generators
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
@@ -457,9 +457,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com
 
 
 #### [RSCG_Wait](/docs/RSCG_Wait)
-
-
-#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
 #### [ThisAssembly](/docs/ThisAssembly)

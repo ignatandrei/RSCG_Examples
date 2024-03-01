@@ -57,7 +57,7 @@ Nr,Key,Source,Category
 56,Roozie.AutoInterface, https://github.com/AlexRussak/Roozie.AutoInterface,Interface
 57,Memo, https://github.com/ignatandrei/RSCG_Utils,FunctionalProgramming
 58,ThisAssembly_Resources, https://github.com/devlooped/ThisAssembly,FilesToCode
-59,SourceGenerator.Helper.CopyCode, https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode,EnhancementProject
+59,SourceGenerator.Helper.CopyCode, https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode,CodeToString
 60,SafeRouting, https://github.com/daviddotcs/safe-routing,API
 61,ProtobufSourceGenerator, https://github.com/ladeak/ProtobufSourceGenerator,Serializer
 62,RSCG_Decorator, https://github.com/ignatandrei/RSCG_Decorator,EnhancementClass

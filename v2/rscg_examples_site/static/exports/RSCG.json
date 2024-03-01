@@ -471,7 +471,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode",
       "NuGet": "https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/",
       "Source": "https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode",
-      "Category": "EnhancementProject",
+      "Category": "CodeToString",
       "AddedOn": "2023-09-17T00:00:00"
     },
     {

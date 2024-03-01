@@ -238,7 +238,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Roozie.AutoInterface",new GeneratorData(true,new(2023,8,26),Category.Interface) },
             {"Memo",new GeneratorData(true,new(2023,8,27),Category.FunctionalProgramming) },
             {"ThisAssembly_Resources", new GeneratorData(true,new(2023,9,16),Category.FilesToCode) },
-            {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.EnhancementProject) },
+            {"SourceGenerator.Helper.CopyCode",new (true, new(2023,9,17), Category.CodeToString) },
             {"SafeRouting",new(true,new(2023,09,23),Category.API) },
             {"ProtobufSourceGenerator",new (true,new(2023,09,24),Category.Serializer) },
             {"RSCG_Decorator",new(true,new(2023,9,30),Category.EnhancementClass) },

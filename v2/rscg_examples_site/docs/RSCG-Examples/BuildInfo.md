@@ -301,7 +301,7 @@ internal static class BuildInformation
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo
 
-### In the same category (EnhancementProject) - 12 other generators
+### In the same category (EnhancementProject) - 11 other generators
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
@@ -332,9 +332,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo
 
 
 #### [RSCG_Wait](/docs/RSCG_Wait)
-
-
-#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
 #### [ThisAssembly](/docs/ThisAssembly)

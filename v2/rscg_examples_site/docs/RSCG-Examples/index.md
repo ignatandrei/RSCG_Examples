@@ -79,7 +79,12 @@ import DocCardList from '@theme/DocCardList';
 ## CodeToString 
 <details>
     
-  <summary>Expand CodeToString =>examples:1</summary>
+  <summary>Expand CodeToString =>examples:2</summary>
+        
+
+
+[SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+
         
 
 
@@ -326,7 +331,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:13</summary>
+  <summary>Expand EnhancementProject =>examples:12</summary>
         
 
 
@@ -356,11 +361,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DeeDee](/docs/DeeDee)
-
-        
-
-
-[SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
         
 
@@ -802,6 +802,8 @@ flowchart LR;
 
     Blazor--> Blazorators((Blazorators))
 
+    CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
+
     CodeToString--> CodeAnalysis((CodeAnalysis))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
@@ -895,8 +897,6 @@ flowchart LR;
     EnhancementProject--> Mediator((Mediator))
 
     EnhancementProject--> DeeDee((DeeDee))
-
-    EnhancementProject--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 
     EnhancementProject--> Com((Com))
 

@@ -1662,7 +1662,7 @@ namespace GeneratedCode
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine
 
-### In the same category (EnhancementProject) - 12 other generators
+### In the same category (EnhancementProject) - 11 other generators
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
@@ -1693,9 +1693,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine
 
 
 #### [RSCG_Wait](/docs/RSCG_Wait)
-
-
-#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 
 
 #### [ThisAssembly](/docs/ThisAssembly)

@@ -1758,5 +1758,8 @@ namespace Microsoft.CodeAnalysis
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis
 
-### In the same category (CodeToString) - 0 other generators
+### In the same category (CodeToString) - 1 other generators
+
+
+#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
 

@@ -281,41 +281,8 @@ internal  static partial class Copy {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode
 
-### In the same category (EnhancementProject) - 12 other generators
+### In the same category (CodeToString) - 1 other generators
 
 
-#### [AutoSpectre](/docs/AutoSpectre)
-
-
-#### [BuildInfo](/docs/BuildInfo)
-
-
-#### [Com](/docs/Com)
-
-
-#### [CommandLine](/docs/CommandLine)
-
-
-#### [DeeDee](/docs/DeeDee)
-
-
-#### [Mediator](/docs/Mediator)
-
-
-#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
-
-
-#### [RSCG_AMS](/docs/RSCG_AMS)
-
-
-#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
-
-
-#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
-
-
-#### [RSCG_Wait](/docs/RSCG_Wait)
-
-
-#### [ThisAssembly](/docs/ThisAssembly)
+#### [CodeAnalysis](/docs/CodeAnalysis)
 

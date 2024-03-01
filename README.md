@@ -1448,7 +1448,7 @@ Source: [https://github.com/daviddotcs/safe-routing](https://github.com/daviddot
 
 </details>
 
-### 59. [SourceGenerator.Helper.CopyCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+### 59. [SourceGenerator.Helper.CopyCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode) , in the [CodeToString](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring) category 
 
 Generated on : 2023-09-17 => 17 September 2023
 
