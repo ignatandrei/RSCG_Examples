@@ -64,7 +64,7 @@ Nr,Key,Source,Category
 63,StringLiteral, https://github.com/ufcpp/StringLiteralGenerator,Optimizer
 64,ResXGenerator, https://github.com/ycanardeau/ResXGenerator,FilesToCode
 65,Disposer, https://github.com/HakamFostok/Disposer,Disposer
-66,BuilderGenerator, https://github.com/MelGrubb/BuilderGenerator,EnhancementClass
+66,BuilderGenerator, https://github.com/MelGrubb/BuilderGenerator,Builder
 67,MapTo, https://github.com/mrtaikandi/MapTo,Mapper
 68,JsonPolymorphicGenerator, https://github.com/surgicalcoder/JsonPolymorphicGenerator,Serializer
 69,RSCG_Templating, https://github.com/ignatandrei/rscg_templating/,Templating
@@ -122,3 +122,4 @@ Nr,Key,Source,Category
 121,AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre,EnhancementProject
 122,RSCG_JSON2Class, https://github.com/ignatandrei/RSCG_JSON2Class,FilesToCode
 123,CodeAnalysis, https://github.com/feast107/CodeAnalysis,CodeToString
+124,Architect.DomainModeling, https://github.com/TheArchitectDev/Architect.DomainModeling,Builder

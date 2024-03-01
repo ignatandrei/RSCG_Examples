@@ -31,7 +31,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator","example with MAUI")
 ,new("Intellenum https://github.com/SteveDunn/Intellenum","not understand how to use ")
 ,new("Tinyhand https://github.com/archi-Doc/Tinyhand","tried, need documentation")
-,new("Architect.DomainModeling https://github.com/TheArchitectDev/Architect.DomainModeling",tooComplicated)
 ,new("Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",tooComplicated)
 ,new ("AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper",tooComplicated)
 ,new ("AjaxService.Gen https://github.com/MrAliSalehi/AjaxService",old)
@@ -245,7 +244,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"StringLiteral", new(true,new(2023,10,1),Category.Optimizer) },
             {"ResXGenerator", new (true,new(2023,10,2),Category.FilesToCode) },
             {"Disposer",new(true, new(2023,10,3),Category.Disposer) },
-            {"BuilderGenerator", new (true,new(2023,10,4),Category.EnhancementClass) },
+            {"BuilderGenerator", new (true,new(2023,10,4),Category.Builder) },
             {"MapTo", new (true,new(2023,10,5),Category.Mapper ) },
             {"JsonPolymorphicGenerator", new (true,new(2023,10,6),Category.Serializer  )},
             {"RSCG_Templating",new(true,new(2023,10,7),Category.Templating) },
@@ -303,6 +302,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AutoSpectre",new (true,new(2024,2,24),Category.EnhancementProject )},
             {"RSCG_JSON2Class",new(true,new(2024,2,29),Category.FilesToCode) },
             {"CodeAnalysis",new(true,new(2024,3,1),Category.CodeToString)},
+            {"Architect.DomainModeling",new(true,new(2024,3,2),Category.Builder) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Architect.DomainModeling",
+  "steps": 
+  [
+    {
+      "file": "Builder/Builder.csproj",
+      "description": "First, we add Nuget  [Architect.DomainModeling](https://www.nuget.org/packages/Architect.DomainModeling/) in csproj  ",
+      "pattern": "Architect.DomainModeling"
+    }
+
+        ,{
+        "file": "Builder/PersonBuilder.cs",
+        "description": "File PersonBuilder.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Builder/obj/GX/Architect.DomainModeling.Generator/Architect.DomainModeling.Generator.DummyBuilderGenerator/PersonBuilder.g.cs",
+        "description": "File PersonBuilder.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

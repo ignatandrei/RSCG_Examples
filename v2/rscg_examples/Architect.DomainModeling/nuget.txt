@@ -1,0 +1,1 @@
+For Domain-Driven Design (DDD), this package provides tools for implementing domain models, such as base types and source generators.

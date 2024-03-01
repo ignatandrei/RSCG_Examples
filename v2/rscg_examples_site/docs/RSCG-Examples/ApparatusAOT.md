@@ -534,13 +534,10 @@ namespace Apparatus.AOT.Reflection
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT
 
-### In the same category (EnhancementClass) - 24 other generators
+### In the same category (EnhancementClass) - 23 other generators
 
 
 #### [AspectGenerator](/docs/AspectGenerator)
-
-
-#### [BuilderGenerator](/docs/BuilderGenerator)
 
 
 #### [CopyTo](/docs/CopyTo)

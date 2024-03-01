@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 123 RSCG by category 
-description: 123 RSCG by category 
+title: 124 RSCG by category 
+description: 124 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -72,6 +72,23 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Blazorators](/docs/Blazorators)
+
+</details>
+    
+
+## Builder 
+<details>
+    
+  <summary>Expand Builder =>examples:2</summary>
+        
+
+
+[BuilderGenerator](/docs/BuilderGenerator)
+
+        
+
+
+[Architect.DomainModeling](/docs/Architect.DomainModeling)
 
 </details>
     
@@ -199,7 +216,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:25</summary>
+  <summary>Expand EnhancementClass =>examples:24</summary>
         
 
 
@@ -264,11 +281,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_Decorator](/docs/RSCG_Decorator)
-
-        
-
-
-[BuilderGenerator](/docs/BuilderGenerator)
 
         
 
@@ -802,6 +814,10 @@ flowchart LR;
 
     Blazor--> Blazorators((Blazorators))
 
+    Builder--> BuilderGenerator((BuilderGenerator))
+
+    Builder--> Architect.DomainModeling((Architect.DomainModeling))
+
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 
     CodeToString--> CodeAnalysis((CodeAnalysis))
@@ -861,8 +877,6 @@ flowchart LR;
     EnhancementClass--> M31.FluentAPI((M31.FluentAPI))
 
     EnhancementClass--> RSCG_Decorator((RSCG_Decorator))
-
-    EnhancementClass--> BuilderGenerator((BuilderGenerator))
 
     EnhancementClass--> Meziantou.Polyfill((Meziantou.Polyfill))
 

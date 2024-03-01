@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 123 RSCG with examples in descending chronological order
+## 124 RSCG with examples in descending chronological order
 
-This is the list of 123 ( 12 from Microsoft) RSCG with examples 
+This is the list of 124 ( 12 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 123 ( 12 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|124| [Architect.DomainModeling by Timo van Zijll Langhout ](/docs/Architect.DomainModeling)|2024-03-02 => 02 March 2024 | Builder |
 |123| [CodeAnalysis by Feast ](/docs/CodeAnalysis)|2024-03-01 => 01 March 2024 | CodeToString |
 |122| [RSCG_JSON2Class by Andrei Ignat ](/docs/RSCG_JSON2Class)|2024-02-29 => 29 February 2024 | FilesToCode |
 |121| [AutoSpectre by Jeppe Roi Kristensen ](/docs/AutoSpectre)|2024-02-24 => 24 February 2024 | EnhancementProject |
@@ -80,7 +81,7 @@ This is the list of 123 ( 12 from Microsoft) RSCG with examples
 |69| [RSCG_Templating by Andrei Ignat ](/docs/RSCG_Templating)|2023-10-07 => 07 October 2023 | Templating |
 |68| [JsonPolymorphicGenerator by surgicalcoder ](/docs/JsonPolymorphicGenerator)|2023-10-06 => 06 October 2023 | Serializer |
 |67| [MapTo by Mohammedreza Taikandi ](/docs/MapTo)|2023-10-05 => 05 October 2023 | Mapper |
-|66| [BuilderGenerator by Mell Grubb ](/docs/BuilderGenerator)|2023-10-04 => 04 October 2023 | EnhancementClass |
+|66| [BuilderGenerator by Mell Grubb ](/docs/BuilderGenerator)|2023-10-04 => 04 October 2023 | Builder |
 |65| [Disposer by Hakan Fıstık ](/docs/Disposer)|2023-10-03 => 03 October 2023 | Disposer |
 |64| [ResXGenerator by Aigamo ](/docs/ResXGenerator)|2023-10-02 => 02 October 2023 | FilesToCode |
 |63| [StringLiteral by Nobuyuki Iwanaga ](/docs/StringLiteral)|2023-10-01 => 01 October 2023 | Optimizer |
