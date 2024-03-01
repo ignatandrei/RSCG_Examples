@@ -527,7 +527,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator",
       "NuGet": "https://www.nuget.org/packages/BuilderGenerator/",
       "Source": "https://github.com/MelGrubb/BuilderGenerator",
-      "Category": "EnhancementClass",
+      "Category": "Builder",
       "AddedOn": "2023-10-04T00:00:00"
     },
     {
@@ -985,6 +985,14 @@
       "Source": "https://github.com/feast107/CodeAnalysis",
       "Category": "CodeToString",
       "AddedOn": "2024-03-01T00:00:00"
+    },
+    {
+      "Name": "Architect.DomainModeling",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Architect.DomainModeling",
+      "NuGet": "https://www.nuget.org/packages/Architect.DomainModeling/",
+      "Source": "https://github.com/TheArchitectDev/Architect.DomainModeling",
+      "Category": "Builder",
+      "AddedOn": "2024-03-02T00:00:00"
     }
   ]
 }

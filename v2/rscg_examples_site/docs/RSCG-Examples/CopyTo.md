@@ -246,16 +246,13 @@ namespace CopyToDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyTo
 
-### In the same category (EnhancementClass) - 24 other generators
+### In the same category (EnhancementClass) - 23 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
 
 
 #### [AspectGenerator](/docs/AspectGenerator)
-
-
-#### [BuilderGenerator](/docs/BuilderGenerator)
 
 
 #### [DudNet](/docs/DudNet)

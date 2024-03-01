@@ -26,6 +26,7 @@ public enum Category
     EnhancementProject,
     Constructor, 
     MVVM,
+    Builder,
     EnhancementClass ,
     Mapper,
     DependencyInjection,

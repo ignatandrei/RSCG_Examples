@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Architect.DomainModeling",
+      "nuget":[
+         "https://www.nuget.org/packages/Architect.DomainModeling/"
+      ],
+      "link":"https://github.com/TheArchitectDev/Architect.DomainModeling",
+      "author":"Timo van Zijll Langhout",
+      "source":"https://github.com/TheArchitectDev/Architect.DomainModeling"
+   },
+   "data":{
+      "goodFor":["Domain Modelling -DDD, Entity and more. Here I will show just the builder"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonBuilder.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
