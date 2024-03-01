@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AutoInvoke.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoInvoke.Generator/"
+      ],
+      "link":"https://github.com/LokiMidgard/AutoInvoke.Generator",
+      "author":"Patrick Kranz",
+      "source":"https://github.com/LokiMidgard/AutoInvoke.Generator"
+   },
+   "data":{
+      "goodFor":["Finding all implementation of an interface/class and invoke them."],
+      "csprojDemo":"AutoAdd.csproj",
+      "csFiles":["Program.cs","RemoteCollection.cs","PCRemote.cs","TVRemote.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

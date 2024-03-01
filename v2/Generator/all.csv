@@ -123,3 +123,4 @@ Nr,Key,Source,Category
 122,RSCG_JSON2Class, https://github.com/ignatandrei/RSCG_JSON2Class,FilesToCode
 123,CodeAnalysis, https://github.com/feast107/CodeAnalysis,CodeToString
 124,Architect.DomainModeling, https://github.com/TheArchitectDev/Architect.DomainModeling,Builder
+125,AutoInvoke.Generator, https://github.com/LokiMidgard/AutoInvoke.Generator,EnhancementProject

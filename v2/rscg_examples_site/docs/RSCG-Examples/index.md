@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 124 RSCG by category 
-description: 124 RSCG by category 
+title: 125 RSCG by category 
+description: 125 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -343,7 +343,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:12</summary>
+  <summary>Expand EnhancementProject =>examples:13</summary>
         
 
 
@@ -403,6 +403,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoSpectre](/docs/AutoSpectre)
+
+        
+
+
+[AutoInvoke.Generator](/docs/AutoInvoke.Generator)
 
 </details>
     
@@ -923,6 +928,8 @@ flowchart LR;
     EnhancementProject--> RSCG_Wait((RSCG_Wait))
 
     EnhancementProject--> AutoSpectre((AutoSpectre))
+
+    EnhancementProject--> AutoInvoke.Generator((AutoInvoke.Generator))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

@@ -232,7 +232,10 @@ namespace Console_TimeBombComment {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
 
-### In the same category (EnhancementProject) - 11 other generators
+### In the same category (EnhancementProject) - 12 other generators
+
+
+#### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
