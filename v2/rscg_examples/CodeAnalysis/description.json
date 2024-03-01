@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"CodeAnalysis",
+      "nuget":[
+         "https://www.nuget.org/packages/Feast.CodeAnalysis/"
+      ],
+      "link":"https://github.com/feast107/CodeAnalysis",
+      "author":"Feast",
+      "source":"https://github.com/feast107/CodeAnalysis"
+   },
+   "data":{
+      "goodFor":["Code to string literal. Unfortunately, it carries also some other CodeAnalysis generated files, which are not so useful."],
+      "csprojDemo":"DemoLit.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,0 +1,3 @@
+#if !ROSLYN_4_3_1_OR_GREATER
+using Microsoft.CodeAnalysis.Internal;
+#endif

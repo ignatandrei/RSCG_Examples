@@ -121,3 +121,4 @@ Nr,Key,Source,Category
 120,LingoGen, https://github.com/RubenBroere/lingo-gen,FilesToCode
 121,AutoSpectre, https://github.com/jeppevammenkristensen/auto-spectre,EnhancementProject
 122,RSCG_JSON2Class, https://github.com/ignatandrei/RSCG_JSON2Class,FilesToCode
+123,CodeAnalysis, https://github.com/feast107/CodeAnalysis,CodeToString

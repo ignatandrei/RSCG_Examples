@@ -314,87 +314,87 @@ Why I have not put example: old ISourceGenerator
 
 Why I have not put example: too complicated for me, need help
 
-78)Literal https://github.com/feast107/CodeAnalysis  
-
-Why I have not put example: later
-
-79)LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator  
+78)LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator  
 
 Why I have not put example: Microsoft have done same feature
 
-80)lucide-blazor https://github.com/brecht-vde/lucide-blazor/  
+79)lucide-blazor https://github.com/brecht-vde/lucide-blazor/  
 
 Why I have not put example: issue opened
 
-81)ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler  
+80)ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler  
 
 Why I have not put example: too complicated for me, need help
 
-82)MapDataReader https://github.com/jitbit/MapDataReader  
+81)MapDataReader https://github.com/jitbit/MapDataReader  
 
 Why I have not put example: old ISourceGenerator
 
-83)MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions  
+82)MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions  
 
 Why I have not put example: no readme
 
-84)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator  
+83)Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator  
 
 Why I have not put example: too complicated for me, need help
 
-85)Mediator https://github.com/martinothamar/Mediator  
+84)Mediator https://github.com/martinothamar/Mediator  
 
 Why I have not put example: later
 
-86)MediatR https://github.com/Burgyn/MMLib.MediatR.Generators  
+85)MediatR https://github.com/Burgyn/MMLib.MediatR.Generators  
 
 Why I have not put example: old ISourceGenerator
 
-87)MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator  
+86)MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-88)MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator  
+87)MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-89)MiniRazor https://github.com/Tyrrrz/MiniRazor/  
+88)MiniRazor https://github.com/Tyrrrz/MiniRazor/  
 
 Why I have not put example: archived
 
-90)MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator  
+89)MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-91)MockGen https://github.com/thomas-girotto/MockGen  
+90)MockGen https://github.com/thomas-girotto/MockGen  
 
 Why I have not put example: old ISourceGenerator
 
-92)MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator  
+91)MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-93)MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE  
+92)MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE  
 
 Why I have not put example: old ISourceGenerator
 
-94)MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator  
+93)MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-95)MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator  
+94)MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-96)MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor  
+95)MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor  
 
 Why I have not put example: old ISourceGenerator
 
-97)MvvmGen https://github.com/thomasclaudiushuber/mvvmgen  
+96)MvvmGen https://github.com/thomasclaudiushuber/mvvmgen  
 
 Why I have not put example: too complicated for me, need help
 
-98)net_automatic_interface https://github.com/codecentric/net_automatic_interface  
+97)net_automatic_interface https://github.com/codecentric/net_automatic_interface  
+
+Why I have not put example: old ISourceGenerator
+
+98)NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/  
 
 Why I have not put example: old ISourceGenerator
 
