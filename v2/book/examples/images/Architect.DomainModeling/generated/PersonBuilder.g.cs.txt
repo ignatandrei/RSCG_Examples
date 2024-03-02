@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
+
+#nullable disable
+
+namespace Builder
+{
+	/// <summary>
+	/// <para>
+	/// Implements the Builder pattern to construct <see cref="Builder.Person"/> objects for testing purposes.
+	/// </para>
+	/// <para>
+	/// Where production code relies on the type's constructor, test code can rely on this builder.
+	/// That way, if the constructor changes, only the builder needs to be adjusted, rather than lots of test methods.
+	/// </para>
+	/// </summary>
+	/* Generated */ public partial class PersonBuilder
+	{
+		private string FirstName { get; set; } = "FirstName";
+		public PersonBuilder WithFirstName(string value) => this.With(b => b.FirstName = value);
+
+		private string LastName { get; set; } = "LastName";
+		public PersonBuilder WithLastName(string value) => this.With(b => b.LastName = value);
+
+		private PersonBuilder With(Action<PersonBuilder> assignment)
+		{
+			assignment(this);
+			return this;
+		}
+
+		public Builder.Person Build()
+		{
+			var result = new Builder.Person(
+				firstName: this.FirstName,
+				lastName: this.LastName);
+			return result;
+		}
+	}
+}

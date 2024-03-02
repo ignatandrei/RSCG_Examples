@@ -406,7 +406,7 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee
 
-### In the same category (EnhancementProject) - 12 other generators
+### In the same category (EnhancementProject) - 13 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -422,6 +422,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee
 
 
 #### [CommandLine](/docs/CommandLine)
+
+
+#### [LinqGen.Generator](/docs/LinqGen.Generator)
 
 
 #### [Mediator](/docs/Mediator)

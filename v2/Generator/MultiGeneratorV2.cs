@@ -81,7 +81,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
 ,new ("lambdajection https://github.com/cythral/lambdajection",old)
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
-,new ("LinqGen https://github.com/cathei/LinqGen",tooComplicated)
 ,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
 ,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
@@ -303,6 +302,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CodeAnalysis",new(true,new(2024,3,1),Category.CodeToString)},
             {"Architect.DomainModeling",new(true,new(2024,3,2),Category.Builder) },
             {"AutoInvoke.Generator",new(true,new(2024,3,3),Category.EnhancementProject)},
+            {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -411,7 +411,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(UnionsGenerator)", $"({d.Generator!.Source}/UnionsGenerator");
             text = text.Replace("(UtilityGenerators)", $"({d.Generator!.Source}/UtilityGenerators");
             text = text.Replace("(CopyTo)", $"({d.Generator!.Source}/CopyTo");
-
+            text=text.Replace("(./docs/BenchmarksResults)", $"({d.Generator!.Source}/docs/BenchmarksResults");
             text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
             text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");

@@ -124,3 +124,4 @@ Nr,Key,Source,Category
 123,CodeAnalysis, https://github.com/feast107/CodeAnalysis,CodeToString
 124,Architect.DomainModeling, https://github.com/TheArchitectDev/Architect.DomainModeling,Builder
 125,AutoInvoke.Generator, https://github.com/LokiMidgard/AutoInvoke.Generator,EnhancementProject
+126,LinqGen.Generator, https://github.com/cathei/LinqGen,EnhancementProject

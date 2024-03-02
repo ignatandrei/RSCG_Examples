@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"LinqGen.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/LinqGen.Generator/",
+         "https://www.nuget.org/packages/LinqGen/"
+      ],
+      "link":"https://github.com/cathei/LinqGen",
+      "author":"Maxwell Keonwoo Kang",
+      "source":"https://github.com/cathei/LinqGen"
+   },
+   "data":{
+      "goodFor":["No-alloc for Linq operations"],
+      "csprojDemo":"LinqDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

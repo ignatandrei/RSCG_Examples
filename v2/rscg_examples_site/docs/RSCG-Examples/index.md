@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 125 RSCG by category 
-description: 125 RSCG by category 
+title: 126 RSCG by category 
+description: 126 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -343,7 +343,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:13</summary>
+  <summary>Expand EnhancementProject =>examples:14</summary>
         
 
 
@@ -408,6 +408,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
+
+        
+
+
+[LinqGen.Generator](/docs/LinqGen.Generator)
 
 </details>
     
@@ -930,6 +935,8 @@ flowchart LR;
     EnhancementProject--> AutoSpectre((AutoSpectre))
 
     EnhancementProject--> AutoInvoke.Generator((AutoInvoke.Generator))
+
+    EnhancementProject--> LinqGen.Generator((LinqGen.Generator))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

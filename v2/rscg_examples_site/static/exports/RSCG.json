@@ -1001,6 +1001,14 @@
       "Source": "https://github.com/LokiMidgard/AutoInvoke.Generator",
       "Category": "EnhancementProject",
       "AddedOn": "2024-03-03T00:00:00"
+    },
+    {
+      "Name": "LinqGen.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinqGen.Generator",
+      "NuGet": "https://www.nuget.org/packages/LinqGen.Generator/",
+      "Source": "https://github.com/cathei/LinqGen",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-03-04T00:00:00"
     }
   ]
 }
