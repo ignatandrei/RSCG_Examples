@@ -100,7 +100,7 @@ int result = array.Gen()
                   .Sum();
 ```
 
-This is benchmark result for above code. You can see full benchmark results [here](./docs/BenchmarksResults).
+This is benchmark result for above code. You can see full benchmark results [here](https://github.com/cathei/LinqGen/docs/BenchmarksResults.
 
 |             Method |  Count |     Mean |   Error |  StdDev | Ratio | Allocated | Alloc Ratio |
 |------------------- |------- |---------:|--------:|--------:|------:|----------:|------------:|
