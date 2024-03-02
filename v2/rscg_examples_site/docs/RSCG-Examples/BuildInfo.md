@@ -301,7 +301,7 @@ internal static class BuildInformation
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo
 
-### In the same category (EnhancementProject) - 12 other generators
+### In the same category (EnhancementProject) - 13 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -317,6 +317,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo
 
 
 #### [DeeDee](/docs/DeeDee)
+
+
+#### [LinqGen.Generator](/docs/LinqGen.Generator)
 
 
 #### [Mediator](/docs/Mediator)

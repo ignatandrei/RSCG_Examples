@@ -81,7 +81,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("kli.Localize https://github.com/kl1mm/localize",old)
 ,new ("lambdajection https://github.com/cythral/lambdajection",old)
 ,new ("Lazysh https://github.com/B1Z0N/LazyshGen",old)
-,new ("LinqGen https://github.com/cathei/LinqGen",tooComplicated)
 ,new ("LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator","Microsoft have done same feature")
 ,new ("MapDataReader https://github.com/jitbit/MapDataReader",old)
 ,new ("MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",noReadMe)
@@ -303,6 +302,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"CodeAnalysis",new(true,new(2024,3,1),Category.CodeToString)},
             {"Architect.DomainModeling",new(true,new(2024,3,2),Category.Builder) },
             {"AutoInvoke.Generator",new(true,new(2024,3,3),Category.EnhancementProject)},
+            {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
