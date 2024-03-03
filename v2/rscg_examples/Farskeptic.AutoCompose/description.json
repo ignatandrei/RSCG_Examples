@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Farskeptic.AutoCompose",
+      "nuget":[
+         "https://www.nuget.org/packages/Farskeptic.AutoCompose/"
+      ],
+      "link":"https://github.com/farskeptic/AutoCompose",
+      "author":"farskeptic/jmagel",
+      "source":"https://github.com/farskeptic/AutoCompose"
+   },
+   "data":{
+      "goodFor":["Generating decorators for classes that implements interfaces."],
+      "csprojDemo":"Decorator.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
