@@ -102,7 +102,7 @@ Author: Feast
 
 Auto generate extensions for Microsoft.CodeAnalysis 
 
-Nuget: [https://www.nuget.org/packages/Feast.CodeAnalysis/](https://www.nuget.org/packages/Feast.CodeAnalysis/) 
+Nuget: [https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/](https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/) 
 
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis)

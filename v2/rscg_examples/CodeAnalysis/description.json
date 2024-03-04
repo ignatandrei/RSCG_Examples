@@ -2,7 +2,7 @@
    "generator":{
       "name":"CodeAnalysis",
       "nuget":[
-         "https://www.nuget.org/packages/Feast.CodeAnalysis/"
+         "https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/"
       ],
       "link":"https://github.com/feast107/CodeAnalysis",
       "author":"Feast",
