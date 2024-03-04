@@ -981,7 +981,7 @@
     {
       "Name": "CodeAnalysis",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis",
-      "NuGet": "https://www.nuget.org/packages/Feast.CodeAnalysis/",
+      "NuGet": "https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/",
       "Source": "https://github.com/feast107/CodeAnalysis",
       "Category": "CodeToString",
       "AddedOn": "2024-03-01T00:00:00"
