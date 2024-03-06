@@ -10,7 +10,7 @@ public class MultiGeneratorV2
     const string noReadMe = "no readme";
     const string later = "later";
     const string WaitingForIssue = "issue opened";
-    const string lessNet7 = "less than net 7";
+    //const string lessNet7 = "less than net 7";
     NoExample[] rscgNoExamples = new NoExample[] {
 
 new("AutoEmbed https://github.com/chsienki/AutoEmbed                           ",old)
@@ -157,6 +157,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 ,new("Mediator https://github.com/martinothamar/Mediator",later)
 ,new("NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",old)
+,new ("ReForge.Union https://github.com/nalcorso/ReForge.Union",inspirational)
 //,new("",later)
 //,new("",later)
 //,new("",later)
