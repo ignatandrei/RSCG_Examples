@@ -117,7 +117,7 @@ public partial class AdvancedMap
 // --------------------
 ```
 
-More detailed description for Map is provided [here](docs/Map.md)
+More detailed description for Map is provided [here](https://github.com/DragonsLord/TypeUtilities/docs/Map.md)
 
 ### Omit
 
