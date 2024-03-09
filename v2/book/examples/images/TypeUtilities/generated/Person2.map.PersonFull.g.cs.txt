@@ -1,0 +1,8 @@
+namespace UtilDemo;
+
+public partial class Person2
+{
+	public string MappedFirstName { get; set; }
+	public string MappedLastName { get; set; }
+	public string MappedSalary { get; set; }
+}

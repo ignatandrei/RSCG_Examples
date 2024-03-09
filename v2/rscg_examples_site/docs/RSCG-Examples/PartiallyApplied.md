@@ -201,7 +201,7 @@ public static partial class Partially
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied
 
-### In the same category (FunctionalProgramming) - 8 other generators
+### In the same category (FunctionalProgramming) - 9 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -223,6 +223,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/PartiallyApplied
 
 
 #### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+
+
+#### [TypeUtilities](/docs/TypeUtilities)
 
 
 #### [UnionsGenerator](/docs/UnionsGenerator)

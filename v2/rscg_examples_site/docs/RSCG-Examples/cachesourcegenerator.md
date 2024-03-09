@@ -508,7 +508,7 @@ namespace CacheSourceGenerator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator
 
-### In the same category (FunctionalProgramming) - 8 other generators
+### In the same category (FunctionalProgramming) - 9 other generators
 
 
 #### [dunet](/docs/dunet)
@@ -530,6 +530,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator
 
 
 #### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+
+
+#### [TypeUtilities](/docs/TypeUtilities)
 
 
 #### [UnionsGenerator](/docs/UnionsGenerator)
