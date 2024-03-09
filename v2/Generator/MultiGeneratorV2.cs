@@ -304,6 +304,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Architect.DomainModeling",new(true,new(2024,3,2),Category.Builder) },
             {"AutoInvoke.Generator",new(true,new(2024,3,3),Category.EnhancementProject)},
             {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
+            {"TypeUtilities",new(true,new(2024,3,5),Category.FunctionalProgramming)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

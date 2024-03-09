@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TypeUtilities",
+  "steps": 
+  [
+    {
+      "file": "UtilDemo/UtilDemo.csproj",
+      "description": "First, we add Nuget  [TypeUtilities](https://www.nuget.org/packages/TypeUtilities/) in csproj  ",
+      "pattern": "TypeUtilities"
+    }
+
+        ,{
+        "file": "UtilDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UtilDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project UtilDemo/UtilDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UtilDemo/obj/GX/TypeUtilities.SourceGenerators/TypeUtilities.SourceGenerators.TypeUtilitiesSourceGenerator/Person2.omit.PersonFull.g.cs",
+        "description": "File Person2.omit.PersonFull.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UtilDemo/obj/GX/TypeUtilities.SourceGenerators/TypeUtilities.SourceGenerators.TypeUtilitiesSourceGenerator/Person2.map.PersonFull.g.cs",
+        "description": "File Person2.map.PersonFull.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UtilDemo/obj/GX/TypeUtilities.SourceGenerators/TypeUtilities.SourceGenerators.TypeUtilitiesSourceGenerator/Person1.pick.PersonFull.g.cs",
+        "description": "File Person1.pick.PersonFull.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

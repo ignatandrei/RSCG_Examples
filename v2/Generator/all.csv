@@ -125,3 +125,4 @@ Nr,Key,Source,Category
 124,Architect.DomainModeling, https://github.com/TheArchitectDev/Architect.DomainModeling,Builder
 125,AutoInvoke.Generator, https://github.com/LokiMidgard/AutoInvoke.Generator,EnhancementProject
 126,LinqGen.Generator, https://github.com/cathei/LinqGen,EnhancementProject
+127,TypeUtilities, https://github.com/DragonsLord/TypeUtilities,FunctionalProgramming

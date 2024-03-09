@@ -1,0 +1,7 @@
+namespace UtilDemo;
+
+public partial class Person2
+{
+	public string? FirstName { get; set; }
+	public string? LastName { get; set; }
+}
