@@ -11,6 +11,8 @@ The examples are from the https://github.com/ignatandrei/RSCG_WaitAndOptions pro
 
 ## If you are using a Roslyn Source Code Generator 
 
+### See files generated
+
 To see the files generated , add the following to the csproj file
 
 ```xml
@@ -29,6 +31,19 @@ see src\Console_Wait\Console_Wait.csproj file
 also, after compiling, you can see the files generated in the obj/GX folder from the src\Console_Wait folder
 
 </details>
+
+### See if implements IIncrementalGenerator
+
+In simple terms, works better and faster with VS if RSCG implements IIncrementalGenerator instead of ISourceGenerator
+
+The old way to create a RSCG was with ISourceGenerator interface. The new way is with IIncrementalGenerator interface. 
+
+The difference is that the IIncrementalGenerator interface has a method called "Initialize" that is called only once per modification of the code - it is not called if the code is not modified.
+
+Also the source generators have been deprecated in favor of the new incremental generators.
+
+See https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md
+
 
  ## If you are creating a Roslyn Source Code Generator project
 

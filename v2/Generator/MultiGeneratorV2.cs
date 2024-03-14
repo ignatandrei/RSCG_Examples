@@ -158,7 +158,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Mediator https://github.com/martinothamar/Mediator",later)
 ,new("NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",old)
 ,new ("ReForge.Union https://github.com/nalcorso/ReForge.Union",inspirational)
-,new("AutoConstructor https://github.com/k94ll13nn3/AutoConstructor",later)
 //,new("",later)
 //,new("",later)
 };
