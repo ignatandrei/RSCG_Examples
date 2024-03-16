@@ -140,7 +140,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",WaitingForIssue )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/","work just with records")
+,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/",WaitingForIssue)
 , new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
