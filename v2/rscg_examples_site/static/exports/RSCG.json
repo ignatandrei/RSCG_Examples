@@ -981,7 +981,7 @@
     {
       "Name": "CodeAnalysis",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis",
-      "NuGet": "https://www.nuget.org/packages/Feast.CodeAnalysis/",
+      "NuGet": "https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/",
       "Source": "https://github.com/feast107/CodeAnalysis",
       "Category": "CodeToString",
       "AddedOn": "2024-03-01T00:00:00"
@@ -1009,6 +1009,14 @@
       "Source": "https://github.com/cathei/LinqGen",
       "Category": "EnhancementProject",
       "AddedOn": "2024-03-04T00:00:00"
+    },
+    {
+      "Name": "TypeUtilities",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypeUtilities",
+      "NuGet": "https://www.nuget.org/packages/TypeUtilities/",
+      "Source": "https://github.com/DragonsLord/TypeUtilities",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-03-05T00:00:00"
     }
   ]
 }

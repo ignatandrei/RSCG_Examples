@@ -14,7 +14,7 @@ import TOCInline from '@theme/TOCInline';
 <TOCInline toc={toc}  />
 
 ## Nuget / site data
-[![Nuget](https://img.shields.io/nuget/dt/Feast.CodeAnalysis?label=Feast.CodeAnalysis)](https://www.nuget.org/packages/Feast.CodeAnalysis/)
+[![Nuget](https://img.shields.io/nuget/dt/Feast.CodeAnalysis.Literal?label=Feast.CodeAnalysis.Literal)](https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/feast107/CodeAnalysis?label=updated)](https://github.com/feast107/CodeAnalysis)
 ![GitHub Repo stars](https://img.shields.io/github/stars/feast107/CodeAnalysis?style=social)
 
@@ -30,7 +30,7 @@ Auto generate extensions for Microsoft.CodeAnalysis
 Author: Feast
 
 NuGet: 
-*https://www.nuget.org/packages/Feast.CodeAnalysis/*   
+*https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/*   
 
 
 You can find more details at https://github.com/feast107/CodeAnalysis
@@ -133,7 +133,7 @@ Code to string literal. Unfortunately, it carries also some other CodeAnalysis g
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **CodeAnalysis**
-```xml showLineNumbers {11}
+```xml showLineNumbers {16}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -143,18 +143,14 @@ This is the CSharp Project that references **CodeAnalysis**
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Feast.CodeAnalysis" Version="0.1.4" />
-	  <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4">
-		  <PrivateAssets>all</PrivateAssets>
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	  </PackageReference>
-	  <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" />
-  </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
 		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Feast.CodeAnalysis.Literal" Version="0.1.0" />
+	</ItemGroup>
 </Project>
 
 ```

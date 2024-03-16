@@ -6,8 +6,8 @@
   [
     {
       "file": "DemoLit/DemoLit.csproj",
-      "description": "First, we add Nuget  [Feast.CodeAnalysis](https://www.nuget.org/packages/Feast.CodeAnalysis/) in csproj  ",
-      "pattern": "Feast.CodeAnalysis"
+      "description": "First, we add Nuget  [Feast.CodeAnalysis.Literal](https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/) in csproj  ",
+      "pattern": "Feast.CodeAnalysis.Literal"
     }
 
         ,{

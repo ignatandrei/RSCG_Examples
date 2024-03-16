@@ -10,7 +10,7 @@ public class MultiGeneratorV2
     const string noReadMe = "no readme";
     const string later = "later";
     const string WaitingForIssue = "issue opened";
-    const string lessNet7 = "less than net 7";
+    //const string lessNet7 = "less than net 7";
     NoExample[] rscgNoExamples = new NoExample[] {
 
 new("AutoEmbed https://github.com/chsienki/AutoEmbed                           ",old)
@@ -157,7 +157,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new ("EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",old)
 ,new("Mediator https://github.com/martinothamar/Mediator",later)
 ,new("NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",old)
-//,new("",later)
+,new ("ReForge.Union https://github.com/nalcorso/ReForge.Union",inspirational)
 //,new("",later)
 //,new("",later)
 };
@@ -303,6 +303,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Architect.DomainModeling",new(true,new(2024,3,2),Category.Builder) },
             {"AutoInvoke.Generator",new(true,new(2024,3,3),Category.EnhancementProject)},
             {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
+            {"TypeUtilities",new(true,new(2024,3,5),Category.FunctionalProgramming)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -393,6 +394,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(docs/Map.md)", $"({d.Generator!.Source}/docs/Map.md)");
             text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
             text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");
 

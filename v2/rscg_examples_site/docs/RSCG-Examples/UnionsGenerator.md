@@ -1725,7 +1725,7 @@ namespace UnionTypesDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator
 
-### In the same category (FunctionalProgramming) - 8 other generators
+### In the same category (FunctionalProgramming) - 9 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -1750,4 +1750,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionsGenerator
 
 
 #### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+
+
+#### [TypeUtilities](/docs/TypeUtilities)
 

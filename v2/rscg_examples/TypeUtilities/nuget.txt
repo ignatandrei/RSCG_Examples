@@ -1,0 +1,4 @@
+A set of type utilities to transform types.
+			Include utils like:
+				- Pick
+				- Omit

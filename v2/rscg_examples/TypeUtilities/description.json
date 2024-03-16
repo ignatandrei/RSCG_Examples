@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TypeUtilities",
+      "nuget":[
+         "https://www.nuget.org/packages/TypeUtilities/"
+      ],
+      "link":"https://github.com/DragonsLord/TypeUtilities",
+      "author":"Yevhenii Serdiuk",
+      "source":"https://github.com/DragonsLord/TypeUtilities"
+   },
+   "data":{
+      "goodFor":["Pick/Omit for classes ( also have some mapping )"],
+      "csprojDemo":"UtilDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
