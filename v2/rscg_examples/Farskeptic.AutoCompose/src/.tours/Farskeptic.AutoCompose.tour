@@ -11,6 +11,24 @@
     }
 
         ,{
+        "file": "Decorator/CoffeeWithLogging.cs",
+        "description": "File CoffeeWithLogging.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Decorator/ICoffee.cs",
+        "description": "File ICoffee.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Decorator/Coffee.cs",
+        "description": "File Coffee.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "Decorator/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project Decorator/Decorator.csproj ",
         "pattern": "this is the code"

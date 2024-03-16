@@ -166,6 +166,75 @@ var ingredients = c.GetIngredients();
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Farskeptic.AutoCompose\src\Decorator\Coffee.cs" label="Coffee.cs" >
+
+  This is the use of **Farskeptic.AutoCompose** in *Coffee.cs*
+
+```csharp showLineNumbers 
+namespace Decorator;
+
+internal class Coffee : ICoffee
+{
+    public string? Name { get; set; }
+    public async Task<bool> Prepare()
+    {
+        Console.WriteLine("start prepare coffee");
+        await Task.Delay(1000);
+        Console.WriteLine("finish prepare coffee");
+        return true;
+    }
+    public string[] GetIngredients() => new[] { "water", "coffee" };
+
+}
+
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Farskeptic.AutoCompose\src\Decorator\ICoffee.cs" label="ICoffee.cs" >
+
+  This is the use of **Farskeptic.AutoCompose** in *ICoffee.cs*
+
+```csharp showLineNumbers 
+namespace Decorator;
+internal interface ICoffee
+{
+    Task<bool> Prepare();
+
+    string[] GetIngredients();
+}
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Farskeptic.AutoCompose\src\Decorator\CoffeeWithLogging.cs" label="CoffeeWithLogging.cs" >
+
+  This is the use of **Farskeptic.AutoCompose** in *CoffeeWithLogging.cs*
+
+```csharp showLineNumbers 
+
+using AutoCompose.Generator.Attributes;
+
+namespace Decorator;
+
+[AutoCompose(typeof(ICoffee), nameof(_cof))]
+internal partial class CoffeeWithLogging : ICoffee
+{
+    protected ICoffee _cof;
+
+    public CoffeeWithLogging(ICoffee cof)
+    {
+        this._cof = cof;
+    }
+    public string[] GetIngredients()
+    {
+        Console.WriteLine("CoffeeWithLogging.GetIngredients");
+        return this._cof.GetIngredients();
+    }
+}
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files
