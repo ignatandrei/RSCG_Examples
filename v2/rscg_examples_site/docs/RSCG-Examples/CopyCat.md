@@ -608,10 +608,13 @@ internal partial class CoffeeWithLogging
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat
 
-### In the same category (Interface) - 7 other generators
+### In the same category (Interface) - 8 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+
+
+#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
 
 
 #### [MakeInterface.Generator](/docs/MakeInterface.Generator)

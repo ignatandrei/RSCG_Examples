@@ -237,13 +237,16 @@ public partial interface IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MakeInterface.Generator
 
-### In the same category (Interface) - 7 other generators
+### In the same category (Interface) - 8 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
 #### [CopyCat](/docs/CopyCat)
+
+
+#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
 
 
 #### [Matryoshki](/docs/Matryoshki)

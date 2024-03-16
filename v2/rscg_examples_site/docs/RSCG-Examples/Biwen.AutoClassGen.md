@@ -256,10 +256,13 @@ namespace FromInterface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 
-### In the same category (Interface) - 7 other generators
+### In the same category (Interface) - 8 other generators
 
 
 #### [CopyCat](/docs/CopyCat)
+
+
+#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
 
 
 #### [MakeInterface.Generator](/docs/MakeInterface.Generator)

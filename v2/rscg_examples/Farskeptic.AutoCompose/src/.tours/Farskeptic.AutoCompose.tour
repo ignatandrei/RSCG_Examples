@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Farskeptic.AutoCompose",
+  "steps": 
+  [
+    {
+      "file": "Decorator/Decorator.csproj",
+      "description": "First, we add Nuget  [Farskeptic.AutoCompose](https://www.nuget.org/packages/Farskeptic.AutoCompose/) in csproj  ",
+      "pattern": "Farskeptic.AutoCompose"
+    }
+
+        ,{
+        "file": "Decorator/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Decorator/Decorator.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Decorator/obj/GX/AutoCompose.Generator/AutoCompose.Generator.AutoCompose.AutoComposeSourceGenerator/Decorator.CoffeeWithLogging.g.cs",
+        "description": "File Decorator.CoffeeWithLogging.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

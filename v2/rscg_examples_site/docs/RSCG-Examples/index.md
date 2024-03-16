@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 127 RSCG by category 
-description: 127 RSCG by category 
+title: 128 RSCG by category 
+description: 128 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -573,7 +573,7 @@ import DocCardList from '@theme/DocCardList';
 ## Interface 
 <details>
     
-  <summary>Expand Interface =>examples:8</summary>
+  <summary>Expand Interface =>examples:9</summary>
         
 
 
@@ -613,6 +613,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [NetAutomaticInterface](/docs/NetAutomaticInterface)
+
+        
+
+
+[Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
 
 </details>
     
@@ -1008,6 +1013,8 @@ flowchart LR;
     Interface--> MakeInterface.Generator((MakeInterface.Generator))
 
     Interface--> NetAutomaticInterface((NetAutomaticInterface))
+
+    Interface--> Farskeptic.AutoCompose((Farskeptic.AutoCompose))
 
     Mapper--> mapperly((mapperly))
 

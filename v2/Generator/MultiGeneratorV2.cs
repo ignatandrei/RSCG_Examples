@@ -304,6 +304,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"AutoInvoke.Generator",new(true,new(2024,3,3),Category.EnhancementProject)},
             {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
             {"TypeUtilities",new(true,new(2024,3,5),Category.FunctionalProgramming)},
+            {"Farskeptic.AutoCompose",new(true,new(2024,3,16),Category.Interface) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

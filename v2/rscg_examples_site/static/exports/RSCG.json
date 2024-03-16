@@ -1017,6 +1017,14 @@
       "Source": "https://github.com/DragonsLord/TypeUtilities",
       "Category": "FunctionalProgramming",
       "AddedOn": "2024-03-05T00:00:00"
+    },
+    {
+      "Name": "Farskeptic.AutoCompose",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Farskeptic.AutoCompose",
+      "NuGet": "https://www.nuget.org/packages/Farskeptic.AutoCompose/",
+      "Source": "https://github.com/farskeptic/AutoCompose",
+      "Category": "Interface",
+      "AddedOn": "2024-03-16T00:00:00"
     }
   ]
 }

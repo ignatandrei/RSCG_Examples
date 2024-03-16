@@ -1,6 +1,6 @@
-# RSCG - 127 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 128 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
 
-## Latest Update : 2024-03-05 => 05 March 2024
+## Latest Update : 2024-03-16 => 16 March 2024
 
 <details>
   <summary>Expand</summary>
@@ -21,8 +21,31 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 127 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 128 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 12 from Microsoft )
+### 128. [Farskeptic.AutoCompose](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Farskeptic.AutoCompose) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2024-03-16 => 16 March 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: farskeptic/jmagel
+
+A .NET source generator that enables composition without having to implement pass-thru code.
+            No runtime reflection. 
+
+Nuget: [https://www.nuget.org/packages/Farskeptic.AutoCompose/](https://www.nuget.org/packages/Farskeptic.AutoCompose/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Farskeptic.AutoCompose](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Farskeptic.AutoCompose)
+
+Source: [https://github.com/farskeptic/AutoCompose](https://github.com/farskeptic/AutoCompose)
+
+</details>
+
 ### 127. [TypeUtilities](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypeUtilities) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
 
 Generated on : 2024-03-05 => 05 March 2024

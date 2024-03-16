@@ -1,0 +1,2 @@
+A .NET source generator that enables composition without having to implement pass-thru code.
+            No runtime reflection.

@@ -397,13 +397,16 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen
 
-### In the same category (Interface) - 7 other generators
+### In the same category (Interface) - 8 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
 
 #### [CopyCat](/docs/CopyCat)
+
+
+#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
 
 
 #### [MakeInterface.Generator](/docs/MakeInterface.Generator)
