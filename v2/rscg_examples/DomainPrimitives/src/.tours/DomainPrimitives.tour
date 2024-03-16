@@ -66,6 +66,24 @@
         }
     
         ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/MinutesIntegerTypeConverter.g.cs",
+        "description": "File MinutesIntegerTypeConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/MinutesIntegerJsonConverter.g.cs",
+        "description": "File MinutesIntegerJsonConverter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/MinutesInteger.g.cs",
+        "description": "File MinutesInteger.g.cs ",
+        "line": 1
+        }
+    
+        ,{
         "file": "DomainPrimitives/obj/GX/AltaSoft.DomainPrimitives.Generator/AltaSoft.DomainPrimitives.Generator.DomainPrimitiveGenerator/DayDateTypeConverter.g.cs",
         "description": "File DayDateTypeConverter.g.cs ",
         "line": 1
