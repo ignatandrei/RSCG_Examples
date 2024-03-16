@@ -12,5 +12,9 @@ internal partial class CoffeeWithLogging : ICoffee
     {
         this._cof = cof;
     }
-
+    public string[] GetIngredients()
+    {
+        Console.WriteLine("CoffeeWithLogging.GetIngredients");
+        return this._cof.GetIngredients();
+    }
 }
