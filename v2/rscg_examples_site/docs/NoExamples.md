@@ -400,7 +400,7 @@ Why I have not put example: old ISourceGenerator
 
 99)PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/  
 
-Why I have not put example: work just with records
+Why I have not put example: issue opened
 
 100)PolySharp https://github.com/Sergio0694/PolySharp  
 

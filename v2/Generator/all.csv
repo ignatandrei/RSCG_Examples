@@ -126,3 +126,4 @@ Nr,Key,Source,Category
 125,AutoInvoke.Generator, https://github.com/LokiMidgard/AutoInvoke.Generator,EnhancementProject
 126,LinqGen.Generator, https://github.com/cathei/LinqGen,EnhancementProject
 127,TypeUtilities, https://github.com/DragonsLord/TypeUtilities,FunctionalProgramming
+128,Farskeptic.AutoCompose, https://github.com/farskeptic/AutoCompose,Interface
