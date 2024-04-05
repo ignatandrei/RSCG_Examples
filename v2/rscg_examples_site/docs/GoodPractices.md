@@ -47,6 +47,11 @@ See https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generat
 
  ## If you are creating a Roslyn Source Code Generator project
 
+### It is a nuget package
+
+Follow best practices for NuGet packages. See https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices
+
+
 ### Read the documentation
 
 The documentation is at https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.cookbook.md 
