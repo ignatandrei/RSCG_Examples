@@ -168,8 +168,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",later)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
 ,new("EnumUtilities https://github.com/skarllot/EnumUtilities",later)
-//,new("",later)
-//,new("",later)
+,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
+,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 //,new("",later)
 };
     
