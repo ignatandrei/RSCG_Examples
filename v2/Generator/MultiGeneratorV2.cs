@@ -168,7 +168,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",later)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
 ,new("EnumUtilities https://github.com/skarllot/EnumUtilities",later)
-,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 //,new("",later)
 };
@@ -316,6 +315,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
             {"TypeUtilities",new(true,new(2024,3,5),Category.FunctionalProgramming)},
             {"Farskeptic.AutoCompose",new(true,new(2024,3,16),Category.Interface) },
+            {"CommonCodeGenerator",new(true,new(2024,4,1),Category.EnhancementClass)},
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

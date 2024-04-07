@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"CommonCodeGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/CommonCodeGenerator/"
+      ],
+      "link":"https://github.com/usausa/common-code-generator",
+      "author":"yamaokunousausa",
+      "source":"https://github.com/usausa/common-code-generator"
+   },
+   "data":{
+      "goodFor":["Generating ToString from classes"],
+      "csprojDemo":"ToStringData.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

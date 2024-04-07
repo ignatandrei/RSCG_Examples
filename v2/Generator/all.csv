@@ -127,3 +127,4 @@ Nr,Key,Source,Category
 126,LinqGen.Generator, https://github.com/cathei/LinqGen,EnhancementProject
 127,TypeUtilities, https://github.com/DragonsLord/TypeUtilities,FunctionalProgramming
 128,Farskeptic.AutoCompose, https://github.com/farskeptic/AutoCompose,Interface
+129,CommonCodeGenerator, https://github.com/usausa/common-code-generator,EnhancementClass
