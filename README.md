@@ -3161,7 +3161,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Mediator&body=http
 
 27) [Minerals.AutoInterfaces]( https://github.com/SzymonHalucha/Minerals.AutoInterfaces) , https://github.com/SzymonHalucha/Minerals.AutoInterfaces 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Minerals.AutoInterfaces&body=https://github.com/SzymonHalucha/Minerals.AutoInterfaces
 

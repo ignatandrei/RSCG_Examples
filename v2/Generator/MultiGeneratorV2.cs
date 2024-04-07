@@ -165,7 +165,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 , new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
 ,new("union_source_generator https://github.com/markushaslinger/union_source_generator",later)
 ,new("PureHDF https://github.com/Apollo3zehn/PureHDF",old)
-,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",later)
+,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",WaitingForIssue)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
 ,new("EnumUtilities https://github.com/skarllot/EnumUtilities",later)
 ,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
@@ -411,6 +411,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(docs/Map.md)", $"({d.Generator!.Source}/docs/Map.md)");
             text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
             text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");
+            text = text.Replace("(./CONTRIBUTING.md)", $"({d.Generator!.Source}/CONTRIBUTING.md)");
+
+            text = text.Replace("(docs/README.md)", $"({d.Generator!.Source}/docs/README.md)");
 
             text = text.Replace("href=\"README.md\"", $"href=\"{d.Generator!.Source}/README.md\"");
             text = text.Replace("href=\"README.zh-CN.md\"", $"href=\"{d.Generator!.Source}/README.zh-CN.md\"");

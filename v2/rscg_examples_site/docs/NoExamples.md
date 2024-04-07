@@ -372,7 +372,7 @@ Why I have not put example: old ISourceGenerator
 
 92)Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 93)MiniRazor https://github.com/Tyrrrz/MiniRazor/  
 
