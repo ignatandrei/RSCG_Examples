@@ -104,7 +104,6 @@ Generating ToString from classes
 ### Example ( source csproj, source files )
 
 <Tabs>
-
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **CommonCodeGenerator**
@@ -178,10 +177,6 @@ internal partial class Person
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
-<Tabs>
-
-
-</Tabs>
 
 ## Usefull
 
