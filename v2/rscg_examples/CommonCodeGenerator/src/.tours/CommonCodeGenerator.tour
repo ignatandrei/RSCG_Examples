@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CommonCodeGenerator",
+  "steps": 
+  [
+    {
+      "file": "ToStringData/ToStringData.csproj",
+      "description": "First, we add Nuget  [CommonCodeGenerator](https://www.nuget.org/packages/CommonCodeGenerator/) in csproj  ",
+      "pattern": "CommonCodeGenerator"
+    }
+
+        ,{
+        "file": "ToStringData/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ToStringData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ToStringData/ToStringData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ToStringData/obj/GX/CommonCodeGenerator.SourceGenerator/CommonCodeGenerator.SourceGenerator.ToStringGenerator/ToStringData_Person_ToString.g.cs",
+        "description": "File ToStringData_Person_ToString.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

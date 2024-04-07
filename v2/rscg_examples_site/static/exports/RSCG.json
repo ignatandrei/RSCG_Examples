@@ -1025,6 +1025,14 @@
       "Source": "https://github.com/farskeptic/AutoCompose",
       "Category": "Interface",
       "AddedOn": "2024-03-16T00:00:00"
+    },
+    {
+      "Name": "CommonCodeGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommonCodeGenerator",
+      "NuGet": "https://www.nuget.org/packages/CommonCodeGenerator/",
+      "Source": "https://github.com/usausa/common-code-generator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-04-01T00:00:00"
     }
   ]
 }

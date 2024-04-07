@@ -1729,13 +1729,16 @@ partial class Person : IMemoryPackable<Person>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack
 
-### In the same category (EnhancementClass) - 23 other generators
+### In the same category (EnhancementClass) - 24 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
 
 
 #### [AspectGenerator](/docs/AspectGenerator)
+
+
+#### [CommonCodeGenerator](/docs/CommonCodeGenerator)
 
 
 #### [CopyTo](/docs/CopyTo)
