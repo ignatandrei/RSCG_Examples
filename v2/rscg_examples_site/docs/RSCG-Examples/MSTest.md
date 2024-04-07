@@ -64,9 +64,9 @@ This is a fully supported, open source and cross-platform test framework with wh
 
 We welcome any kind of contribution!
 
-- [Contributing](./CONTRIBUTING.md) provides guidance on how to best contribute
-- [Dev Guide](./docs/dev-guide.md) explains how to build and test
-- [Documentation](docs/README.md) contains information about history, context and supported or unsupported features. It also gather the various official documentation pages on learn.microsoft.com about MSTest.
+- [Contributing](https://github.com/microsoft/testfx/CONTRIBUTING.md) provides guidance on how to best contribute
+- [Dev Guide](https://github.com/microsoft/testfx/docs/dev-guide.md) explains how to build and test
+- [Documentation](https://github.com/microsoft/testfx/docs/README.md) contains information about history, context and supported or unsupported features. It also gather the various official documentation pages on learn.microsoft.com about MSTest.
 
 ## How to consume MSTest?
 
@@ -81,7 +81,7 @@ MSTest is shipped as NuGet packages that can be added to your projects. The foll
 
 ## License
 
-MSTest is licensed under the [MIT license](LICENSE).
+MSTest is licensed under the [MIT license](https://github.com/microsoft/testfx/LICENSE).
 
 The LICENSE and ThirdPartyNotices in any downloaded archives are authoritative.
 
