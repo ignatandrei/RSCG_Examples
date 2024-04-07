@@ -227,7 +227,7 @@ public static string build_property_usingmicrosoftnetsdkweb => @"";
 namespace RSCG_Wait;
 partial class MyGeneratedCode
 {
-    public static string DateEnd => "4/7/2024 8:52:27 PM";
+    public static string DateEnd => "2/24/2024 7:58:07 PM";
     
 }
 ```
@@ -255,7 +255,7 @@ namespace RSCG_Wait;
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 partial class MyGeneratedCode
 {
-    public static string DateStart => "4/7/2024 8:52:17 PM";
+    public static string DateStart => "2/24/2024 7:57:57 PM";
     public static int SecondsToWait=10;
 }
 #nullable restore

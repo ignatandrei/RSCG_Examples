@@ -168,6 +168,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",later)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
 ,new("EnumUtilities https://github.com/skarllot/EnumUtilities",later)
+,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 //,new("",later)
 };
@@ -315,8 +316,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"LinqGen.Generator",new(true,new(2024,3,4),Category.EnhancementProject)},
             {"TypeUtilities",new(true,new(2024,3,5),Category.FunctionalProgramming)},
             {"Farskeptic.AutoCompose",new(true,new(2024,3,16),Category.Interface) },
-            {"CommonCodeGenerator",new(true,new(2024,4,1),Category.EnhancementClass)},
-            {"MSTest",new(true,new(2024,4,2), Category.Tests) }
+            {"CommonCodeGenerator"  ,new(true,new(2024,4,3),Category.EnhancementClass) },
+            {"MSTest" ,new(true,new(2024,4,4),Category.Tests) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -410,10 +411,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             text = text.Replace("(docs/Map.md)", $"({d.Generator!.Source}/docs/Map.md)");
             text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
             text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");
-            text = text.Replace("(./CONTRIBUTING.md)", $"({d.Generator!.Source}/CONTRIBUTING.md)");
-            text = text.Replace("(docs/README.md)", $"({d.Generator!.Source}/docs/README.md)");
-            text = text.Replace("(./docs/dev-guide.md)", $"({d.Generator!.Source}/docs/dev-guide.md)");
-            text = text.Replace("(./CONTRIBUTING.md)", $"({d.Generator!.Source}/CONTRIBUTING.md)");
 
             text = text.Replace("href=\"README.md\"", $"href=\"{d.Generator!.Source}/README.md\"");
             text = text.Replace("href=\"README.zh-CN.md\"", $"href=\"{d.Generator!.Source}/README.zh-CN.md\"");
