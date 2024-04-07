@@ -1,0 +1,12 @@
+
+namespace Microsoft.Testing.Framework.SourceGeneration
+{
+    public static class SourceGeneratedTestingPlatformBuilderHook
+    {
+        public static void AddExtensions(Microsoft.Testing.Platform.Builder.ITestApplicationBuilder testApplicationBuilder, string[] _)
+        {
+            testApplicationBuilder.AddTestFramework(new Microsoft.Testing.Framework.Configurations.TestFrameworkConfiguration(System.Environment.ProcessorCount),
+                new DemoTest.SourceGeneratedTestNodesBuilder());
+        }
+    }
+}

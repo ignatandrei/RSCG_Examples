@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MSTest",
+  "steps": 
+  [
+    {
+      "file": "DemoTest/DemoTest.csproj",
+      "description": "First, we add Nuget  [MSTest.SourceGeneration](https://www.nuget.org/packages/MSTest.SourceGeneration/) in csproj  ",
+      "pattern": "MSTest.SourceGeneration"
+    }
+
+        ,{
+        "file": "DemoTest/UnitTest1.cs",
+        "description": "File UnitTest1.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoTest/obj/GX/MSTest.SourceGeneration/Microsoft.Testing.Framework.SourceGeneration.TestNodesGenerator/SourceGeneratedTestNodesBuilder.g.cs",
+        "description": "File SourceGeneratedTestNodesBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoTest/obj/GX/MSTest.SourceGeneration/Microsoft.Testing.Framework.SourceGeneration.TestNodesGenerator/SourceGeneratedTestingPlatformBuilderHook.g.cs",
+        "description": "File SourceGeneratedTestingPlatformBuilderHook.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoTest/obj/GX/MSTest.SourceGeneration/Microsoft.Testing.Framework.SourceGeneration.TestNodesGenerator/DemoTest.UnitTest1.g.cs",
+        "description": "File DemoTest.UnitTest1.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

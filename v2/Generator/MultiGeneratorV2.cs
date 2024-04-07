@@ -316,6 +316,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"TypeUtilities",new(true,new(2024,3,5),Category.FunctionalProgramming)},
             {"Farskeptic.AutoCompose",new(true,new(2024,3,16),Category.Interface) },
             {"CommonCodeGenerator",new(true,new(2024,4,1),Category.EnhancementClass)},
+            {"MSTest",new(true,new(2024,4,2), Category.Tests) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

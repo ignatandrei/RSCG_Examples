@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 129 RSCG by category 
-description: 129 RSCG by category 
+title: 130 RSCG by category 
+description: 130 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -797,7 +797,7 @@ import DocCardList from '@theme/DocCardList';
 ## Tests 
 <details>
     
-  <summary>Expand Tests =>examples:3</summary>
+  <summary>Expand Tests =>examples:4</summary>
         
 
 
@@ -812,6 +812,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [mocklis](/docs/mocklis)
+
+        
+
+
+[MSTest](/docs/MSTest)
 
 </details>
     
@@ -1078,6 +1083,8 @@ flowchart LR;
     Tests--> Ridge((Ridge))
 
     Tests--> mocklis((mocklis))
+
+    Tests--> MSTest((MSTest))
    
 ```
 

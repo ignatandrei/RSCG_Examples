@@ -438,10 +438,13 @@ namespace RidgeDemoWebApp.Controllers
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge
 
-### In the same category (Tests) - 2 other generators
+### In the same category (Tests) - 3 other generators
 
 
 #### [mocklis](/docs/mocklis)
+
+
+#### [MSTest](/docs/MSTest)
 
 
 #### [Rocks](/docs/Rocks)
