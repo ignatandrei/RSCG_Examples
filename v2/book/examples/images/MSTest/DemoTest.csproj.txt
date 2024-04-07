@@ -1,0 +1,45 @@
+<!-- file: UnitTestProject1.csproj -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<OutputType>exe</OutputType>
+		<PublishAot>true</PublishAot>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- 
+      Experimental MSTest Engine & source generator, 
+      close sourced, licensed the same as our extensions 
+      with Microsoft Testing Platform Tools license.
+    -->
+		<PackageReference Include="MSTest.Engine" Version="1.0.0-alpha.24163.4" />
+		<PackageReference Include="MSTest.SourceGeneration" Version="1.0.0-alpha.24163.4" />
+
+		<PackageReference Include="Microsoft.CodeCoverage.MSBuild" Version="17.10.4" />
+		<PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.10.4" />
+
+		<PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="1.0.2" />
+		<PackageReference Include="Microsoft.Testing.Platform.MSBuild" Version="1.0.2" />
+		<PackageReference Include="MSTest.TestFramework" Version="3.2.2" />
+		<PackageReference Include="MSTest.Analyzers" Version="3.2.2" />
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MyImportantClass\MyImportantClass.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+
+</Project>

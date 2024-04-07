@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MSTest",
+      "nuget":[
+         "https://www.nuget.org/packages/MSTest.SourceGeneration/"
+      ],
+      "link":"https://github.com/microsoft/testfx",
+      "author":"Microsoft",
+      "source":"https://github.com/microsoft/testfx"
+   },
+   "data":{
+      "goodFor":["AOP for MSTest"],
+      "csprojDemo":"DemoTest.csproj",
+      "csFiles":["UnitTest1.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

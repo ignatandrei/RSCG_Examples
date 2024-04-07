@@ -24,14 +24,14 @@
     
 
         ,{
-        "file": "DemoClass2Text/obj/GX/generated-uml/Person.puml",
+        "file": "DemoClass2Text/obj/GX/PlantUmlClassDiagramGenerator.SourceGenerator/PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator/generated-uml/Person.puml",
         "description": "File Person.puml ",
         "line": 1
         }
     
         ,{
-        "file": "DemoClass2Text/generated-uml/Person.puml",
-        "description": "File Person.puml ",
+        "file": "DemoClass2Text/obj/GX/PlantUmlClassDiagramGenerator.SourceGenerator/PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator/Attributes.cs",
+        "description": "File Attributes.cs ",
         "line": 1
         }
     

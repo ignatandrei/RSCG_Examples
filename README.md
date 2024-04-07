@@ -1,6 +1,6 @@
-# RSCG - 129 Examples of Roslyn Source Code Generators  / 12 created by Microsoft / 
+# RSCG - 130 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-04-01 => 01 April 2024
+## Latest Update : 2024-04-02 => 02 April 2024
 
 <details>
   <summary>Expand</summary>
@@ -21,8 +21,32 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 129 Roslyn Source Code Generators that I have tested you can see and download source code example.
-( including 12 from Microsoft )
+Those are the 130 Roslyn Source Code Generators that I have tested you can see and download source code example.
+( including 13 from Microsoft )
+### 130. [MSTest](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MSTest) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
+
+Generated on : 2024-04-02 => 02 April 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Microsoft
+
+Microsoft.Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.
+
+This package provides the C# source generators for MSTest test framework. 
+
+Nuget: [https://www.nuget.org/packages/MSTest.SourceGeneration/](https://www.nuget.org/packages/MSTest.SourceGeneration/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MSTest](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MSTest)
+
+Source: [https://github.com/microsoft/testfx](https://github.com/microsoft/testfx)
+
+</details>
+
 ### 129. [CommonCodeGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommonCodeGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
 
 Generated on : 2024-04-01 => 01 April 2024

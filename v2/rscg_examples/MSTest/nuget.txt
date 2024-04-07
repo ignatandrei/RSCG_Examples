@@ -1,0 +1,3 @@
+Microsoft.Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.
+
+This package provides the C# source generators for MSTest test framework.
