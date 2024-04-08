@@ -1049,6 +1049,14 @@
       "Source": "https://github.com/skarllot/EnumUtilities",
       "Category": "Enum",
       "AddedOn": "2024-04-05T00:00:00"
+    },
+    {
+      "Name": "UnionGen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionGen",
+      "NuGet": "https://www.nuget.org/packages/UnionGen/",
+      "Source": "https://github.com/markushaslinger/union_source_generator",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-04-05T00:00:00"
     }
   ]
 }

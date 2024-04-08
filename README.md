@@ -1,4 +1,4 @@
-# RSCG - 131 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 132 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
 ## Latest Update : 2024-04-05 => 05 April 2024
 
@@ -21,8 +21,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 131 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 132 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 132. [UnionGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionGen) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-04-05 => 05 April 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: M. Haslinger
+
+A source generator for creating C# union types via a generic marker attribute. 
+
+Nuget: [https://www.nuget.org/packages/UnionGen/](https://www.nuget.org/packages/UnionGen/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/UnionGen)
+
+Source: [https://github.com/markushaslinger/union_source_generator](https://github.com/markushaslinger/union_source_generator)
+
+</details>
+
 ### 131. [EnumUtilities](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumUtilities) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
 Generated on : 2024-04-05 => 05 April 2024
@@ -3293,42 +3315,35 @@ Why I have not tested : later
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypedSignalR&body=https://github.com/nenoNaninu/TypedSignalR.Client
 
 
-43) [union_source_generator]( https://github.com/markushaslinger/union_source_generator) , https://github.com/markushaslinger/union_source_generator 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=union_source_generator&body=https://github.com/markushaslinger/union_source_generator
-
-
-44) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
+43) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=UnitTestBlazor&body=https://github.com/bUnit-dev/bUnit
 
 
-45) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+44) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-46) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
+45) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=VisitorPatternGenerator&body=https://github.com/hikarin522/VisitorPatternGenerator/
 
 
-47) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+46) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-48) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+47) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

@@ -163,7 +163,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ArgumentParsing https://github.com/DoctorKrolic/ArgumentParsing",later)      
 ,new("DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",old)   
 , new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
-,new("union_source_generator https://github.com/markushaslinger/union_source_generator",later)
 ,new("PureHDF https://github.com/Apollo3zehn/PureHDF",old)
 ,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",WaitingForIssue)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
@@ -317,7 +316,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Farskeptic.AutoCompose",new(true,new(2024,3,16),Category.Interface) },
             {"CommonCodeGenerator"  ,new(true,new(2024,4,3),Category.EnhancementClass) },
             {"MSTest" ,new(true,new(2024,4,4),Category.Tests) },
-            {"EnumUtilities", new(true,new(2024,4,5),Category.Enum) }
+            {"EnumUtilities", new(true,new(2024,4,5),Category.Enum) },
+            {"UnionGen",new(true,new(2024,4,5),Category.FunctionalProgramming) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

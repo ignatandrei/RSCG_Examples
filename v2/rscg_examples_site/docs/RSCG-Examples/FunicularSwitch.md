@@ -1175,7 +1175,7 @@ namespace FunicularSwitch.Generators
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch
 
-### In the same category (FunctionalProgramming) - 9 other generators
+### In the same category (FunctionalProgramming) - 10 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -1200,6 +1200,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch
 
 
 #### [TypeUtilities](/docs/TypeUtilities)
+
+
+#### [UnionGen](/docs/UnionGen)
 
 
 #### [UnionsGenerator](/docs/UnionsGenerator)

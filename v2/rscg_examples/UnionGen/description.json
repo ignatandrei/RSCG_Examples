@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"UnionGen",
+      "nuget":[
+         "https://www.nuget.org/packages/UnionGen/"
+      ],
+      "link":"https://github.com/markushaslinger/union_source_generator",
+      "author":"M. Haslinger",
+      "source":"https://github.com/markushaslinger/union_source_generator"
+   },
+   "data":{
+      "goodFor":["Generating unions between types"],
+      "csprojDemo":"UnionTypesDemo.csproj",
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

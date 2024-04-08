@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 131 RSCG by category 
-description: 131 RSCG by category 
+title: 132 RSCG by category 
+description: 132 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -514,7 +514,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:10</summary>
+  <summary>Expand FunctionalProgramming =>examples:11</summary>
         
 
 
@@ -564,6 +564,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TypeUtilities](/docs/TypeUtilities)
+
+        
+
+
+[UnionGen](/docs/UnionGen)
 
 </details>
     
@@ -1014,6 +1019,8 @@ flowchart LR;
     FunctionalProgramming--> UnionsGenerator((UnionsGenerator))
 
     FunctionalProgramming--> TypeUtilities((TypeUtilities))
+
+    FunctionalProgramming--> UnionGen((UnionGen))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 
