@@ -167,7 +167,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("PureHDF https://github.com/Apollo3zehn/PureHDF",old)
 ,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",WaitingForIssue)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
-,new("EnumUtilities https://github.com/skarllot/EnumUtilities",later)
 ,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 //,new("",later)
@@ -318,6 +317,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Farskeptic.AutoCompose",new(true,new(2024,3,16),Category.Interface) },
             {"CommonCodeGenerator"  ,new(true,new(2024,4,3),Category.EnhancementClass) },
             {"MSTest" ,new(true,new(2024,4,4),Category.Tests) },
+            {"EnumUtilities", new(true,new(2024,4,5),Category.Enum) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

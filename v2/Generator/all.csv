@@ -129,3 +129,4 @@ Nr,Key,Source,Category
 128,Farskeptic.AutoCompose, https://github.com/farskeptic/AutoCompose,Interface
 129,CommonCodeGenerator, https://github.com/usausa/common-code-generator,EnhancementClass
 130,MSTest, https://github.com/microsoft/testfx,Tests
+131,EnumUtilities, https://github.com/skarllot/EnumUtilities,Enum

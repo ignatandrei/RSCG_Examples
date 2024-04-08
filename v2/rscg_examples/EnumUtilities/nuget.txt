@@ -1,0 +1,1 @@
+Provides generic enum functions such as bitwise operations, fast HasFlag, and others.

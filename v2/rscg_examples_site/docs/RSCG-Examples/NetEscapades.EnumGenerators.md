@@ -1330,11 +1330,14 @@ using System;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators
 
-### In the same category (Enum) - 2 other generators
+### In the same category (Enum) - 3 other generators
 
 
 #### [CredFetoEnum](/docs/CredFetoEnum)
 
 
 #### [EnumClass](/docs/EnumClass)
+
+
+#### [EnumUtilities](/docs/EnumUtilities)
 

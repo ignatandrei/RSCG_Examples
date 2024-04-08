@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "EnumUtilities",
+  "steps": 
+  [
+    {
+      "file": "EnumClassDemo/EnumClassDemo.csproj",
+      "description": "First, we add Nuget  [EnumUtilities](https://www.nuget.org/packages/EnumUtilities/) in csproj  ",
+      "pattern": "EnumUtilities"
+    }
+
+        ,{
+        "file": "EnumClassDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumClassDemo/Colors.cs",
+        "description": "File Colors.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumClassDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumClassDemo/obj/GX/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/EnumClassDemo.ColorsValidation.g.cs",
+        "description": "File EnumClassDemo.ColorsValidation.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/obj/GX/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/EnumClassDemo.ColorsFactory.g.cs",
+        "description": "File EnumClassDemo.ColorsFactory.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/obj/GX/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/EnumClassDemo.ColorsExtensions.g.cs",
+        "description": "File EnumClassDemo.ColorsExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
