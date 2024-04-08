@@ -285,7 +285,7 @@ I will be happy to discuss and potentially integrate your ideas!
 
 ## License
 
-See the [LICENSE](./LICENSE) file for details.
+See the [LICENSE](https://github.com/skarllot/EnumUtilities/LICENSE) file for details.
 
 
 :::
