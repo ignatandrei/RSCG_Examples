@@ -89,7 +89,7 @@ public enum Categories
 ```
 
 This will generate 3 classes with the following methods:
-- [CategoriesExtensions](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.CategoriesExtensions.g.cs)
+- [CategoriesExtensions](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.CategoriesExtensions.g.cs)
   - ToStringFast(this Categories)
   - IsDefined(this Categories)
   - InterlockedAdd(this ref Categories, int)
@@ -97,7 +97,7 @@ This will generate 3 classes with the following methods:
   - InterlockedIncrement(this ref Categories)
   - InterlockedCompareExchange(this ref Categories, Categories, Categories)
   - InterlockedExchange(this ref Categories, Categories)
-- [CategoriesFactory](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.CategoriesFactory.g.cs)
+- [CategoriesFactory](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.CategoriesFactory.g.cs)
   - TryParse(string?, StringComparison, out Categories)
   - TryParseIgnoreCase(string?, out Categories)
   - TryParse(string?, out Categories)
@@ -106,7 +106,7 @@ This will generate 3 classes with the following methods:
   - TryParse(string?)
   - GetValues()
   - GetNames()
-- [CategoriesValidation](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.CategoriesValidation.g.cs)
+- [CategoriesValidation](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.CategoriesValidation.g.cs)
   - IsDefined(Categories)
   - IsDefined(string?, StringComparison)
   - IsDefinedIgnoreCase(string?)
@@ -125,14 +125,14 @@ public enum Colours
 ```
 
 Then 3 classes will be generated with the following methods:
-- [ColoursExtensions](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.ColoursExtensions.g.cs)
+- [ColoursExtensions](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.ColoursExtensions.g.cs)
   - ToStringFast(this Colours)
   - IsDefined(this Colours)
   - InterlockedAnd(this ref Colours, Colours)
   - InterlockedOr(this ref Colours, Colours)
   - InterlockedCompareExchange(this ref Colours, Colours, Colours)
   - InterlockedExchange(this ref Colours, Colours)
-- [ColoursFactory](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.ColoursFactory.g.cs)
+- [ColoursFactory](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.ColoursFactory.g.cs)
   - TryParse(string?, StringComparison, out Colours)
   - TryParse(string?, out Colours)
   - TryParseIgnoreCase(string?, out Colours)
@@ -141,7 +141,7 @@ Then 3 classes will be generated with the following methods:
   - TryParse(string?, StringComparison)
   - GetValues()
   - GetNames()
-- [ColoursValidation](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.ColoursValidation.g.cs)
+- [ColoursValidation](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.ColoursValidation.g.cs)
   - IsDefined(Colours)
   - IsDefined(string?, StringComparison)
   - IsDefinedIgnoreCase(string?)
@@ -170,9 +170,9 @@ public enum PaymentMethod
 ```
 
 This will generate the following methods:
-- [PaymentMethodExtensions](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodExtensions.g.cs)
+- [PaymentMethodExtensions](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodExtensions.g.cs)
   - ToEnumMemberValue(this PaymentMethod)
-- [PaymentMethodFactory](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodFactory.g.cs)
+- [PaymentMethodFactory](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodFactory.g.cs)
   - TryParseFromEnumMemberValue(string?, StringComparison, out PaymentMethod)
   - TryParseFromEnumMemberValue(string?, out PaymentMethod)
   - TryParseFromEnumMemberValue(string?, StringComparison)
@@ -195,9 +195,9 @@ public enum PaymentMethod
 ```
 
 This will generate the following methods:
-- [PaymentMethodExtensions](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodExtensions.g.cs)
+- [PaymentMethodExtensions](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodExtensions.g.cs)
   - GetDescription(this PaymentMethod)
-- [PaymentMethodFactory](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodFactory.g.cs)
+- [PaymentMethodFactory](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.PaymentMethodFactory.g.cs)
   - TryCreateFromDescription(string?, StringComparison, out PaymentMethod)
   - TryCreateFromDescription(string?, out PaymentMethod)
   - TryCreateFromDescription(string?, StringComparison)
@@ -235,11 +235,11 @@ public enum WeekDays
 Note that if `ResourceType` is provided the generated code will correctly get the value from resource.
 
 This will generate the following methods:
-- [WeekDaysExtensions](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.WeekDaysExtensions.g.cs)
+- [WeekDaysExtensions](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.WeekDaysExtensions.g.cs)
   - GetDisplayShortName(this WeekDays)
   - GetDisplayName(this WeekDays)
   - GetDescription(this WeekDays)
-- [WeekDaysFactory](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.WeekDaysFactory.g.cs)
+- [WeekDaysFactory](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.WeekDaysFactory.g.cs)
   - TryCreateFromDisplayShortName(string?, StringComparison, out WeekDays)
   - TryCreateFromDisplayShortName(string?, out WeekDays)
   - TryCreateFromDisplayShortName(string?, StringComparison)
@@ -275,7 +275,7 @@ public enum Season
 }
 ```
 
-This will generate the following JSON converter: [SeasonJsonConverter](./tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.SeasonJsonConverter.g.cs).
+This will generate the following JSON converter: [SeasonJsonConverter](https://github.com/skarllot/EnumUtilities/tests/EnumUtilities.IntegrationTests/Generated/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/Raiqub.Generators.EnumUtilities.IntegrationTests.Models.SeasonJsonConverter.g.cs).
 
 ## Contributing
 
@@ -368,6 +368,17 @@ public enum Colors
     Blue=4,
 }
 
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumUtilities\src\EnumClassDemo\Program.cs" label="Program.cs" >
+
+  This is the use of **EnumUtilities** in *Program.cs*
+
+```csharp showLineNumbers 
+using EnumClassDemo;
+Console.WriteLine(Colors.None.ToStringFast());
+Console.WriteLine(Colors.None.ToEnumMemberValue());
 ```
   </TabItem>
 
