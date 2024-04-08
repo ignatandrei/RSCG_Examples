@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"EnumUtilities",
+      "nuget":[
+         "https://www.nuget.org/packages/EnumUtilities/"
+      ],
+      "link":"https://github.com/skarllot/EnumUtilities",
+      "author":"Fabricio Godoy",
+      "source":"https://github.com/skarllot/EnumUtilities"
+   },
+   "data":{
+      "goodFor":["Enum to string- and multiple other extensions for an enum"],
+      "csprojDemo":"EnumClassDemo.csproj",
+      "csFiles":["Program.cs","Colors.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

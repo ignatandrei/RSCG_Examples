@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 130 RSCG by category 
-description: 130 RSCG by category 
+title: 131 RSCG by category 
+description: 131 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -425,7 +425,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:3</summary>
+  <summary>Expand Enum =>examples:4</summary>
         
 
 
@@ -440,6 +440,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [CredFetoEnum](/docs/CredFetoEnum)
+
+        
+
+
+[EnumUtilities](/docs/EnumUtilities)
 
 </details>
     
@@ -965,6 +970,8 @@ flowchart LR;
     Enum--> EnumClass((EnumClass))
 
     Enum--> CredFetoEnum((CredFetoEnum))
+
+    Enum--> EnumUtilities((EnumUtilities))
 
     FilesToCode--> RSCG_Utils((RSCG_Utils))
 

@@ -144,6 +144,7 @@ input-files:
 - examples/Farskeptic.AutoCompose.html
 - examples/CommonCodeGenerator.html
 - examples/MSTest.html
+- examples/EnumUtilities.html
 
 # or you may use input-file: with a single value
 # defaults:

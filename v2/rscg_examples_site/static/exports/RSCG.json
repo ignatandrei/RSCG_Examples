@@ -1041,6 +1041,14 @@
       "Source": "https://github.com/microsoft/testfx",
       "Category": "Tests",
       "AddedOn": "2024-04-04T00:00:00"
+    },
+    {
+      "Name": "EnumUtilities",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumUtilities",
+      "NuGet": "https://www.nuget.org/packages/EnumUtilities/",
+      "Source": "https://github.com/skarllot/EnumUtilities",
+      "Category": "Enum",
+      "AddedOn": "2024-04-05T00:00:00"
     }
   ]
 }
