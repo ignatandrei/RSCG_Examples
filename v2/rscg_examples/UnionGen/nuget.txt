@@ -1,0 +1,1 @@
+A source generator for creating C# union types via a generic marker attribute.

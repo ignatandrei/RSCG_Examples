@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "UnionGen",
+  "steps": 
+  [
+    {
+      "file": "UnionTypesDemo/UnionTypesDemo.csproj",
+      "description": "First, we add Nuget  [UnionGen](https://www.nuget.org/packages/UnionGen/) in csproj  ",
+      "pattern": "UnionGen"
+    }
+
+        ,{
+        "file": "UnionTypesDemo/SaveToDatabase.cs",
+        "description": "File SaveToDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/ResultSave.cs",
+        "description": "File ResultSave.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project UnionTypesDemo/UnionTypesDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UnionTypesDemo/obj/GX/UnionGen.Generator/UnionGen.UnionSourceGen/UnionTypesDemo.ResultSave.g.cs",
+        "description": "File UnionTypesDemo.ResultSave.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

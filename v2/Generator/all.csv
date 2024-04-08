@@ -130,3 +130,4 @@ Nr,Key,Source,Category
 129,CommonCodeGenerator, https://github.com/usausa/common-code-generator,EnhancementClass
 130,MSTest, https://github.com/microsoft/testfx,Tests
 131,EnumUtilities, https://github.com/skarllot/EnumUtilities,Enum
+132,UnionGen, https://github.com/markushaslinger/union_source_generator,FunctionalProgramming
