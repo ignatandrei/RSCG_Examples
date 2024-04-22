@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Enum to string- and multiple other extensions for an enum"],
       "csprojDemo":"EnumClassDemo.csproj",
-      "csFiles":["Program.cs","Colors.cs","Program.cs"],
+      "csFiles":["Program.cs","Colors.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

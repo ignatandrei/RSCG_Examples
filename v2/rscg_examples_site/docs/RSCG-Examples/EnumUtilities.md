@@ -371,17 +371,6 @@ public enum Colors
 ```
   </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumUtilities\src\EnumClassDemo\Program.cs" label="Program.cs" >
-
-  This is the use of **EnumUtilities** in *Program.cs*
-
-```csharp showLineNumbers 
-using EnumClassDemo;
-Console.WriteLine(Colors.None.ToStringFast());
-Console.WriteLine(Colors.None.ToEnumMemberValue());
-```
-  </TabItem>
-
 </Tabs>
 
 ### Generated Files

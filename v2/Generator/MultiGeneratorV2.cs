@@ -332,7 +332,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"MSTest" ,new(true,new(2024,4,4),Category.Tests) },
             {"EnumUtilities", new(true,new(2024,4,5),Category.Enum) },
             {"UnionGen",new(true,new(2024,4,5),Category.FunctionalProgramming) },
-            {"FusionReactor",new(true,new(2024,04,6),Category.Enum) },
+            {"FusionReactor",new(true,new(2024,04,6),Category.Enum) }, 
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

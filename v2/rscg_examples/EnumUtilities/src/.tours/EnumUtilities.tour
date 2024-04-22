@@ -11,12 +11,6 @@
     }
 
         ,{
-        "file": "EnumClassDemo/Program.cs",
-        "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
-        "pattern": "this is the code"
-        }
-    
-        ,{
         "file": "EnumClassDemo/Colors.cs",
         "description": "File Colors.cs  ",
         "pattern": "this is the code"
