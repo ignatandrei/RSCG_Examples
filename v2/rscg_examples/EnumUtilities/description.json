@@ -2,7 +2,7 @@
    "generator":{
       "name":"EnumUtilities",
       "nuget":[
-         "https://www.nuget.org/packages/EnumUtilities/"
+         "https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/"
       ],
       "link":"https://github.com/skarllot/EnumUtilities",
       "author":"Fabricio Godoy",
