@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "FusionReactor",
+  "steps": 
+  [
+    {
+      "file": "EnumClassDemo/EnumClassDemo.csproj",
+      "description": "First, we add Nuget  [FusionReactor.SourceGenerators.EnumExtensions](https://www.nuget.org/packages/FusionReactor.SourceGenerators.EnumExtensions) in csproj  ",
+      "pattern": "FusionReactor.SourceGenerators.EnumExtensions"
+    }
+
+        ,{
+        "file": "EnumClassDemo/Colors.cs",
+        "description": "File Colors.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumClassDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumClassDemo/EnumClassDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/GenerateEnumExtensionsAttribute.g.cs",
+        "description": "File GenerateEnumExtensionsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/DisplayResult.g.cs",
+        "description": "File DisplayResult.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/ColorsExtensions.DisplayAttribute.g.cs",
+        "description": "File ColorsExtensions.DisplayAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/ColorsExtensions.Base.g.cs",
+        "description": "File ColorsExtensions.Base.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

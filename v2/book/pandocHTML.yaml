@@ -146,6 +146,7 @@ input-files:
 - examples/MSTest.html
 - examples/EnumUtilities.html
 - examples/UnionGen.html
+- examples/FusionReactor.html
 
 # or you may use input-file: with a single value
 # defaults:
