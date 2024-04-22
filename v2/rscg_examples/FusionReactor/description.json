@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"FusionReactor",
+      "nuget":[
+         "https://www.nuget.org/packages/FusionReactor.SourceGenerators.EnumExtensions"
+      ],
+      "link":"https://github.com/OhFlowi/FusionReactor.SourceGenerators.EnumExtensions",
+      "author":"OhFlowi",
+      "source":"https://github.com/OhFlowi/FusionReactor.SourceGenerators.EnumExtensions"
+   },
+   "data":{
+      "goodFor":["Enums to string and other extensions" ],
+      "csprojDemo":"EnumClassDemo.csproj",
+      "csFiles":["Program.cs","Colors.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

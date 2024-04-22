@@ -1,0 +1,2 @@
+A C# incremental source generator to create extensions for an enum type.
+      The extensions should be very fast and without reflections.
