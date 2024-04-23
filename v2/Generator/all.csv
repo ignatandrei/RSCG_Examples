@@ -132,3 +132,4 @@ Nr,Key,Source,Category
 131,EnumUtilities, https://github.com/skarllot/EnumUtilities,Enum
 132,UnionGen, https://github.com/markushaslinger/union_source_generator,FunctionalProgramming
 133,FusionReactor, https://github.com/OhFlowi/FusionReactor.SourceGenerators.EnumExtensions,Enum
+134,StronglyTypedUid, https://github.com/vicosanz/StronglyTypedUid,PrimitiveObsession

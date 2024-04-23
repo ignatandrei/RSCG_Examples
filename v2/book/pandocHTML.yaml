@@ -147,6 +147,7 @@ input-files:
 - examples/EnumUtilities.html
 - examples/UnionGen.html
 - examples/FusionReactor.html
+- examples/StronglyTypedUid.html
 
 # or you may use input-file: with a single value
 # defaults:

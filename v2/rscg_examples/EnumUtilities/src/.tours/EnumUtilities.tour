@@ -6,8 +6,8 @@
   [
     {
       "file": "EnumClassDemo/EnumClassDemo.csproj",
-      "description": "First, we add Nuget  [EnumUtilities](https://www.nuget.org/packages/EnumUtilities/) in csproj  ",
-      "pattern": "EnumUtilities"
+      "description": "First, we add Nuget  [Raiqub.Generators.EnumUtilities](https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/) in csproj  ",
+      "pattern": "Raiqub.Generators.EnumUtilities"
     }
 
         ,{

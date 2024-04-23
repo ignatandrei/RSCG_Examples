@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "StronglyTypedUid",
+  "steps": 
+  [
+    {
+      "file": "RecordToGuid/RecordToGuid.csproj",
+      "description": "First, we add Nuget  [StronglyTypedUid](https://www.nuget.org/packages/StronglyTypedUid/) in csproj  ",
+      "pattern": "StronglyTypedUid"
+    }
+
+        ,{
+        "file": "RecordToGuid/PersonId.cs",
+        "description": "File PersonId.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RecordToGuid/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RecordToGuid/RecordToGuid.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RecordToGuid/obj/GX/StronglyTypedUid.Generator/StronglyTypedUid.Generator.StronglyTypedUidGenerator/RecordToGuid.PersonId.g.cs",
+        "description": "File RecordToGuid.PersonId.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

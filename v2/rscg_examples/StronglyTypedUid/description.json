@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"StronglyTypedUid",
+      "nuget":[
+         "https://www.nuget.org/packages/StronglyTypedUid/"
+      ],
+      "link":"https://github.com/vicosanz/StronglyTypedUid",
+      "author":"Victor Sánchez",
+      "source":"https://github.com/vicosanz/StronglyTypedUid"
+   },
+   "data":{
+      "goodFor":["Transforming a record into a GUID"],
+      "csprojDemo":"RecordToGuid.csproj",
+      "csFiles":["Program.cs","PersonId.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

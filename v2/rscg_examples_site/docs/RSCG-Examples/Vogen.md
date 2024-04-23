@@ -1364,13 +1364,16 @@ namespace DemoVogen
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen
 
-### In the same category (PrimitiveObsession) - 3 other generators
+### In the same category (PrimitiveObsession) - 4 other generators
 
 
 #### [DomainPrimitives](/docs/DomainPrimitives)
 
 
 #### [Strongly](/docs/Strongly)
+
+
+#### [StronglyTypedUid](/docs/StronglyTypedUid)
 
 
 #### [UnitGenerator](/docs/UnitGenerator)

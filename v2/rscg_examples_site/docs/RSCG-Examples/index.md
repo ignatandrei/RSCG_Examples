@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 133 RSCG by category 
-description: 133 RSCG by category 
+title: 134 RSCG by category 
+description: 134 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -716,7 +716,7 @@ import DocCardList from '@theme/DocCardList';
 ## PrimitiveObsession 
 <details>
     
-  <summary>Expand PrimitiveObsession =>examples:4</summary>
+  <summary>Expand PrimitiveObsession =>examples:5</summary>
         
 
 
@@ -736,6 +736,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DomainPrimitives](/docs/DomainPrimitives)
+
+        
+
+
+[StronglyTypedUid](/docs/StronglyTypedUid)
 
 </details>
     
@@ -1076,6 +1081,8 @@ flowchart LR;
     PrimitiveObsession--> UnitGenerator((UnitGenerator))
 
     PrimitiveObsession--> DomainPrimitives((DomainPrimitives))
+
+    PrimitiveObsession--> StronglyTypedUid((StronglyTypedUid))
 
     Serializer--> System.Text.Json((System.Text.Json))
 

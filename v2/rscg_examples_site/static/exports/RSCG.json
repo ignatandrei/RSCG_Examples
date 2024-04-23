@@ -1045,7 +1045,7 @@
     {
       "Name": "EnumUtilities",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumUtilities",
-      "NuGet": "https://www.nuget.org/packages/EnumUtilities/",
+      "NuGet": "https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/",
       "Source": "https://github.com/skarllot/EnumUtilities",
       "Category": "Enum",
       "AddedOn": "2024-04-05T00:00:00"
@@ -1065,6 +1065,14 @@
       "Source": "https://github.com/OhFlowi/FusionReactor.SourceGenerators.EnumExtensions",
       "Category": "Enum",
       "AddedOn": "2024-04-06T00:00:00"
+    },
+    {
+      "Name": "StronglyTypedUid",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/StronglyTypedUid",
+      "NuGet": "https://www.nuget.org/packages/StronglyTypedUid/",
+      "Source": "https://github.com/vicosanz/StronglyTypedUid",
+      "Category": "PrimitiveObsession",
+      "AddedOn": "2024-04-07T00:00:00"
     }
   ]
 }

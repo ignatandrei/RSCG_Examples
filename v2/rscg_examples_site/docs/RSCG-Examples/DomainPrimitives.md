@@ -2175,10 +2175,13 @@ public sealed class YearDateTypeConverter : Int32Converter
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives
 
-### In the same category (PrimitiveObsession) - 3 other generators
+### In the same category (PrimitiveObsession) - 4 other generators
 
 
 #### [Strongly](/docs/Strongly)
+
+
+#### [StronglyTypedUid](/docs/StronglyTypedUid)
 
 
 #### [UnitGenerator](/docs/UnitGenerator)
