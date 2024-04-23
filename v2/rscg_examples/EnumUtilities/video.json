@@ -4,8 +4,8 @@
     "step_3_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
     "step_4_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
 
-"step_5_text": "Today I will present EnumUtilities . Enum to string- and multiple other extensions for an enum .",
-"step_6_browser":"https://www.nuget.org/packages/EnumUtilities/",
+"step_5_text": "Today I will present Raiqub.Generators.EnumUtilities . Enum to string- and multiple other extensions for an enum .",
+"step_6_browser":"https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/",
 "step_7_text": "You can download the code from here",
 "step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumUtilities#download-example-net--c-",
 "step_9_text":"Here is the code downloaded ",
@@ -13,7 +13,7 @@
 "step_11_text": "So , let's start the project with Visual Studio Code ",
 "step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\EnumUtilities\\src",
 
-"step_13_text": "To use it ,you will put the  EnumUtilities into the csproj ",
+"step_13_text": "To use it ,you will put the  Raiqub.Generators.EnumUtilities into the csproj ",
 
 
 "step_14_text": "And now I will show you why we want to use it by using CodeTour from VSCode",

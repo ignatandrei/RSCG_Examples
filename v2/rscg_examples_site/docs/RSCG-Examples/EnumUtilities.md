@@ -14,7 +14,7 @@ import TOCInline from '@theme/TOCInline';
 <TOCInline toc={toc}  />
 
 ## Nuget / site data
-[![Nuget](https://img.shields.io/nuget/dt/EnumUtilities?label=EnumUtilities)](https://www.nuget.org/packages/EnumUtilities/)
+[![Nuget](https://img.shields.io/nuget/dt/Raiqub.Generators.EnumUtilities?label=Raiqub.Generators.EnumUtilities)](https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/skarllot/EnumUtilities?label=updated)](https://github.com/skarllot/EnumUtilities)
 ![GitHub Repo stars](https://img.shields.io/github/stars/skarllot/EnumUtilities?style=social)
 
@@ -30,7 +30,7 @@ Provides generic enum functions such as bitwise operations, fast HasFlag, and ot
 Author: Fabricio Godoy
 
 NuGet: 
-*https://www.nuget.org/packages/EnumUtilities/*   
+*https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/*   
 
 
 You can find more details at https://github.com/skarllot/EnumUtilities

@@ -1118,10 +1118,13 @@ namespace Strongly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly
 
-### In the same category (PrimitiveObsession) - 3 other generators
+### In the same category (PrimitiveObsession) - 4 other generators
 
 
 #### [DomainPrimitives](/docs/DomainPrimitives)
+
+
+#### [StronglyTypedUid](/docs/StronglyTypedUid)
 
 
 #### [UnitGenerator](/docs/UnitGenerator)

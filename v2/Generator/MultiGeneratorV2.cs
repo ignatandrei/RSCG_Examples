@@ -173,11 +173,10 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("RossLean.StringificationGenerator https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator",later)
 ,new("ThisClass https://github.com/trympet/ThisClass",later)
 ,new("EF https://www.nuget.org/packages/Visium.Anima.EntityFrameworkCore.SourceGeneration",noReadMe)
-,new("https://github.com/vicosanz/StronglyTypedUid",later)
 ,new("https://github.com/nevsnirG/MinimalRichDomain",old)
 ,new("https://github.com/JasonBock/CslaGeneratorSerialization",tooComplicated)
 ,new("https://github.com/Stepami/visitor-net",later)
-,new("https://github.com/MeltyPlayer/Schema",later)
+,new("https://github.com/MeltyPlayer/Schema",tooComplicated)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -331,8 +330,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"MSTest" ,new(true,new(2024,4,4),Category.Tests) },
             {"EnumUtilities", new(true,new(2024,4,5),Category.Enum) },
             {"UnionGen",new(true,new(2024,4,5),Category.FunctionalProgramming) },
-            {"FusionReactor",new(true,new(2024,04,6),Category.Enum) }, 
-
+            {"FusionReactor",new(true,new(2024,04,6),Category.Enum) },
+            {"StronglyTypedUid",new(true,new(2024,04,7),Category.PrimitiveObsession) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
