@@ -4,14 +4,14 @@
       "nuget":[
          "https://www.nuget.org/packages/BitsKit/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/barncastle/BitsKit",
+      "author":"barncastle",
+      "source":"https://github.com/barncastle/BitsKit"
    },
    "data":{
-      "goodFor":[""],
-      "csprojDemo":"BitsKitDemo.csproj",
-      "csFiles":["Program.cs"],
+      "goodFor":["Reading efficiently from a bit structure"],
+      "csprojDemo":"BitsDemo.csproj",
+      "csFiles":["Program.cs","BitStruct.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BitsKit",
+  "steps": 
+  [
+    {
+      "file": "BitsDemo/BitsDemo.csproj",
+      "description": "First, we add Nuget  [BitsKit](https://www.nuget.org/packages/BitsKit/) in csproj  ",
+      "pattern": "BitsKit"
+    }
+
+        ,{
+        "file": "BitsDemo/BitStruct.cs",
+        "description": "File BitStruct.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BitsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project BitsDemo/BitsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BitsDemo/obj/GX/BitsKit.Generator/BitsKit.Generator.BitObjectGenerator/BitsKitGeneratedFields.g.cs",
+        "description": "File BitsKitGeneratedFields.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

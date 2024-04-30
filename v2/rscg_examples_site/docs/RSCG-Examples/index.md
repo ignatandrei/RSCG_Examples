@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 134 RSCG by category 
-description: 134 RSCG by category 
+title: 135 RSCG by category 
+description: 135 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -60,6 +60,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RDG](/docs/RDG)
+
+</details>
+    
+
+## Bitwise 
+<details>
+    
+  <summary>Expand Bitwise =>examples:1</summary>
+        
+
+
+[BitsKit](/docs/BitsKit)
 
 </details>
     
@@ -861,6 +873,8 @@ flowchart LR;
     API--> Microsoft.Extensions.Configuration.Binder((Microsoft.Extensions.Configuration.Binder))
 
     API--> RDG((RDG))
+
+    Bitwise--> BitsKit((BitsKit))
 
     Blazor--> Blazorators((Blazorators))
 
