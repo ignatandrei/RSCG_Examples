@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"BitsKit",
+      "nuget":[
+         "https://www.nuget.org/packages/BitsKit/"
+      ],
+      "link":"https://github.com/barncastle/BitsKit",
+      "author":"barncastle",
+      "source":"https://github.com/barncastle/BitsKit"
+   },
+   "data":{
+      "goodFor":["Reading efficiently from a bit structure"],
+      "csprojDemo":"BitsDemo.csproj",
+      "csFiles":["Program.cs","BitStruct.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

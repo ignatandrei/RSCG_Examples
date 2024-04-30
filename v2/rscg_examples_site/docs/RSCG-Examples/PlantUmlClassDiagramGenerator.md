@@ -842,15 +842,18 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PlantUmlClassDiagramGenerator\src\DemoClass2Text\DemoClass2Text\obj\GX\PlantUmlClassDiagramGenerator.SourceGenerator\PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator\Attributes.cs" label="Attributes.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PlantUmlClassDiagramGenerator\src\DemoClass2Text\DemoClass2Text\obj\GX\generated-uml\Person.puml" label="Person.puml" >
 
 
 ```csharp showLineNumbers 
-namespace PlantUmlClassDiagramGenerator.SourceGenerator.Attributes;
-
-[System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Interface | System.AttributeTargets.Enum | System.AttributeTargets.Struct)]
-internal class PlantUmlDiagramAttribute : System.Attribute
-{ }
+@startuml Person
+class Person  {
+    + FirstName : string? <<get>> <<set>>
+    + LastName : string? <<get>> <<set>>
+    + FullName() : string?
+    + Person()
+}
+@enduml
 ```
 
   </TabItem>

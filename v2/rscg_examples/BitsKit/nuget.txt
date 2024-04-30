@@ -1,0 +1,1 @@
+BitsKit is a library for efficient bit-level reading and writing also adding bit field support.

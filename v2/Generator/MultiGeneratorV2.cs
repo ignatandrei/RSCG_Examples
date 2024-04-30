@@ -158,7 +158,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("Mediator https://github.com/martinothamar/Mediator",later)
 ,new("NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",old)
 ,new ("ReForge.Union https://github.com/nalcorso/ReForge.Union",inspirational) 
-,new("BitsKit https://github.com/barncastle/BitsKit/",WaitingForIssue)
 ,new("SogePoco https://github.com/d-p-y/SogePoco",tooComplicated)
 ,new("ArgumentParsing https://github.com/DoctorKrolic/ArgumentParsing",later)      
 ,new("DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",old)   
@@ -332,6 +331,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"UnionGen",new(true,new(2024,4,5),Category.FunctionalProgramming) },
             {"FusionReactor",new(true,new(2024,04,6),Category.Enum) },
             {"StronglyTypedUid",new(true,new(2024,04,7),Category.PrimitiveObsession) },
+            {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

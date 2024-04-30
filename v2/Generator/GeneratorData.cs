@@ -46,5 +46,6 @@ public enum Category
     Blazor,
     Hangfire,
     AOP,
+    Bitwise,
 }
 

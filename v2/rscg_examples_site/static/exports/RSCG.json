@@ -1073,6 +1073,14 @@
       "Source": "https://github.com/vicosanz/StronglyTypedUid",
       "Category": "PrimitiveObsession",
       "AddedOn": "2024-04-07T00:00:00"
+    },
+    {
+      "Name": "BitsKit",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BitsKit",
+      "NuGet": "https://www.nuget.org/packages/BitsKit/",
+      "Source": "https://github.com/barncastle/BitsKit",
+      "Category": "Bitwise",
+      "AddedOn": "2024-04-15T00:00:00"
     }
   ]
 }
