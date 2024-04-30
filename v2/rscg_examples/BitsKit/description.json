@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"BitsKit",
+      "nuget":[
+         "https://www.nuget.org/packages/BitsKit/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"BitsKitDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
