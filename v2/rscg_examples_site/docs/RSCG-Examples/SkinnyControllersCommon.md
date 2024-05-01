@@ -352,13 +352,16 @@ namespace SkinnyControllersDemo.Controllers {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SkinnyControllersCommon
 
-### In the same category (API) - 6 other generators
+### In the same category (API) - 7 other generators
 
 
 #### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
 #### [MinimalApiBuilder](/docs/MinimalApiBuilder)
+
+
+#### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
 
 
 #### [RDG](/docs/RDG)

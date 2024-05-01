@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 135 RSCG by category 
-description: 135 RSCG by category 
+title: 136 RSCG by category 
+description: 136 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -25,7 +25,7 @@ import DocCardList from '@theme/DocCardList';
 ## API 
 <details>
     
-  <summary>Expand API =>examples:7</summary>
+  <summary>Expand API =>examples:8</summary>
         
 
 
@@ -60,6 +60,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RDG](/docs/RDG)
+
+        
+
+
+[MinimalApis.Discovery](/docs/MinimalApis.Discovery)
 
 </details>
     
@@ -873,6 +878,8 @@ flowchart LR;
     API--> Microsoft.Extensions.Configuration.Binder((Microsoft.Extensions.Configuration.Binder))
 
     API--> RDG((RDG))
+
+    API--> MinimalApis.Discovery((MinimalApis.Discovery))
 
     Bitwise--> BitsKit((BitsKit))
 

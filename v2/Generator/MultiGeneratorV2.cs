@@ -331,7 +331,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"UnionGen",new(true,new(2024,4,5),Category.FunctionalProgramming) },
             {"FusionReactor",new(true,new(2024,04,6),Category.Enum) },
             {"StronglyTypedUid",new(true,new(2024,04,7),Category.PrimitiveObsession) },
-            {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) }
+            {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) },
+            {"MinimalApis.Discovery", new(true,new(2024,04,20),Category.API)},
+
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -422,6 +424,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(MinimalApis.FluentValidation.md)", $"({d.Generator!.Source}/MinimalApis.FluentValidation.md)");
+            text = text.Replace("(MinimalApis.Discovery.md)", $"({d.Generator!.Source}/MinimalApis.Discovery.md)");
+
             text = text.Replace("(docs/Map.md)", $"({d.Generator!.Source}/docs/Map.md)");
             text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
             text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");

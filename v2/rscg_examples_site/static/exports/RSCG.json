@@ -1081,6 +1081,14 @@
       "Source": "https://github.com/barncastle/BitsKit",
       "Category": "Bitwise",
       "AddedOn": "2024-04-15T00:00:00"
+    },
+    {
+      "Name": "MinimalApis.Discovery",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery",
+      "NuGet": "https://www.nuget.org/packages/MinimalApis.Discovery/",
+      "Source": "https://github.com/shawnwildermuth/MinimalApis",
+      "Category": "API",
+      "AddedOn": "2024-04-20T00:00:00"
     }
   ]
 }

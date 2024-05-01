@@ -1,0 +1,1 @@
+A utility library to allow for structuring Minimal APIs and registering them via source generator.
