@@ -178,6 +178,11 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("https://github.com/MeltyPlayer/Schema",tooComplicated)
 ,new("https://github.com/SzymonHalucha/Minerals.AutoMixins",later)
 ,new("https://github.com/SzymonHalucha/Minerals.AutoCommands",later)
+,new("https://github.com/OrgEleCho/EleCho.Internationalization",later)
+//,new("",later)
+//,new("",later)
+//,new("",later)
+//,new("",later)
 //,new("",later)
 //,new("",later)
 };
