@@ -163,7 +163,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",old)   
 , new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
 ,new("PureHDF https://github.com/Apollo3zehn/PureHDF",old)
-,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",WaitingForIssue)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
 ,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
@@ -331,7 +330,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"UnionGen",new(true,new(2024,4,5),Category.FunctionalProgramming) },
             {"FusionReactor",new(true,new(2024,04,6),Category.Enum) },
             {"StronglyTypedUid",new(true,new(2024,04,7),Category.PrimitiveObsession) },
-            {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) }
+            {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) },
+            {"Minerals.AutoInterfaces",new(true,new(2024,04,16),Category.Interface) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

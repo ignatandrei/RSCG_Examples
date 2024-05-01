@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Minerals.AutoInterfaces",
+      "nuget":[
+         "https://www.nuget.org/packages/Minerals.AutoInterfaces/"
+      ],
+      "link":"https://github.com/SzymonHalucha/Minerals.AutoInterfaces",
+      "author":"Szymon Hałucha",
+      "source":"https://github.com/SzymonHalucha/Minerals.AutoInterfaces"
+   },
+   "data":{
+      "goodFor":["Generating interface from class"],
+      "csprojDemo":"Class2Interface.csproj",
+      "csFiles":["Program.cs","Person.cs","Data.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
