@@ -150,6 +150,7 @@ input-files:
 - examples/StronglyTypedUid.html
 - examples/BitsKit.html
 - examples/MinimalApis.Discovery.html
+- examples/Minerals.AutoInterfaces.html
 
 # or you may use input-file: with a single value
 # defaults:

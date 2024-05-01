@@ -2,9 +2,6 @@
 
 ## Latest Update : {{LatestUpdate | date.to_string '%F => %d %B %Y' }}
 
-<details>
-  <summary>Expand</summary>
-
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
@@ -17,7 +14,6 @@ If you want to help, see below .
 
 If you want to be notified each time I add a new RSCG example , please click https://dashboard.mailerlite.com/forms/611357/100178843411678256/share
 
-</details>
 
 ## Content 
 

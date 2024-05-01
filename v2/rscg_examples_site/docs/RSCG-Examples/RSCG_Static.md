@@ -219,7 +219,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 
-### In the same category (Interface) - 8 other generators
+### In the same category (Interface) - 9 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
@@ -235,6 +235,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Static
 
 
 #### [Matryoshki](/docs/Matryoshki)
+
+
+#### [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
 
 
 #### [NetAutomaticInterface](/docs/NetAutomaticInterface)
