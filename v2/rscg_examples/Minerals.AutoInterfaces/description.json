@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating interface from class"],
       "csprojDemo":"Class2Interface.csproj",
-      "csFiles":["Program.cs","Person.cs","Data.cs"],
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

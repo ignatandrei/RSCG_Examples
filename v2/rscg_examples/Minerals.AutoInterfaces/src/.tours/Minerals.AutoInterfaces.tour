@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Minerals.AutoInterfaces",
+  "steps": 
+  [
+    {
+      "file": "Class2Interface/Class2Interface.csproj",
+      "description": "First, we add Nuget  [Minerals.AutoInterfaces](https://www.nuget.org/packages/Minerals.AutoInterfaces/) in csproj  ",
+      "pattern": "Minerals.AutoInterfaces"
+    }
+
+        ,{
+        "file": "Class2Interface/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Class2Interface/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Class2Interface/Class2Interface.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Class2Interface/obj/GX/Minerals.AutoInterfaces/Minerals.AutoInterfaces.GenerateInterfaceGenerator/IPerson.g.cs",
+        "description": "File IPerson.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Class2Interface/obj/GX/Minerals.AutoInterfaces/Minerals.AutoInterfaces.Attributes.GenerateInterfaceAttributeGenerator/GenerateInterfaceAttribute.g.cs",
+        "description": "File GenerateInterfaceAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

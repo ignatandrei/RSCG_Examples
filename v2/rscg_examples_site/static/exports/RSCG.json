@@ -1081,6 +1081,14 @@
       "Source": "https://github.com/barncastle/BitsKit",
       "Category": "Bitwise",
       "AddedOn": "2024-04-15T00:00:00"
+    },
+    {
+      "Name": "Minerals.AutoInterfaces",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces",
+      "NuGet": "https://www.nuget.org/packages/Minerals.AutoInterfaces/",
+      "Source": "https://github.com/SzymonHalucha/Minerals.AutoInterfaces",
+      "Category": "Interface",
+      "AddedOn": "2024-04-16T00:00:00"
     }
   ]
 }
