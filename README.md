@@ -1,6 +1,6 @@
-# RSCG - 135 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 136 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-04-15 => 15 April 2024
+## Latest Update : 2024-04-20 => 20 April 2024
 
 <details>
   <summary>Expand</summary>
@@ -21,8 +21,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 135 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 136 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 136. [MinimalApis.Discovery](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2024-04-20 => 20 April 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Shawn Wildermuth
+
+A utility library to allow for structuring Minimal APIs and registering them via source generator. 
+
+Nuget: [https://www.nuget.org/packages/MinimalApis.Discovery/](https://www.nuget.org/packages/MinimalApis.Discovery/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery)
+
+Source: [https://github.com/shawnwildermuth/MinimalApis](https://github.com/shawnwildermuth/MinimalApis)
+
+</details>
+
 ### 135. [BitsKit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BitsKit) , in the [Bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise) category 
 
 Generated on : 2024-04-15 => 15 April 2024

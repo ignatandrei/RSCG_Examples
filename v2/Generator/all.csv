@@ -134,3 +134,4 @@ Nr,Key,Source,Category
 133,FusionReactor, https://github.com/OhFlowi/FusionReactor.SourceGenerators.EnumExtensions,Enum
 134,StronglyTypedUid, https://github.com/vicosanz/StronglyTypedUid,PrimitiveObsession
 135,BitsKit, https://github.com/barncastle/BitsKit,Bitwise
+136,MinimalApis.Discovery, https://github.com/shawnwildermuth/MinimalApis,API
