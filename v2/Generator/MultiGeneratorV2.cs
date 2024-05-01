@@ -176,8 +176,8 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("https://github.com/JasonBock/CslaGeneratorSerialization",tooComplicated)
 ,new("https://github.com/Stepami/visitor-net",later)
 ,new("https://github.com/MeltyPlayer/Schema",tooComplicated)
-//,new("",later)
-//,new("",later)
+,new("https://github.com/SzymonHalucha/Minerals.AutoMixins",later)
+,new("https://github.com/SzymonHalucha/Minerals.AutoCommands",later)
 //,new("",later)
 //,new("",later)
 };
