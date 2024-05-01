@@ -1,6 +1,9 @@
 # RSCG - 136 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-04-16 => 16 April 2024
+## Latest Update : 2024-04-20 => 20 April 2024
+
+<details>
+  <summary>Expand</summary>
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -14,30 +17,31 @@ If you want to help, see below .
 
 If you want to be notified each time I add a new RSCG example , please click https://dashboard.mailerlite.com/forms/611357/100178843411678256/share
 
+</details>
 
 ## Content 
 
 Those are the 136 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
-### 136. [Minerals.AutoInterfaces](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+### 136. [MinimalApis.Discovery](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
 
-Generated on : 2024-04-16 => 16 April 2024
+Generated on : 2024-04-20 => 20 April 2024
 
 <details>
   <summary>Expand</summary>
 
 
 
-Author: Szymon Hałucha
+Author: Shawn Wildermuth
 
-Package for automatic interface generation using incremental generator 
+A utility library to allow for structuring Minimal APIs and registering them via source generator. 
 
-Nuget: [https://www.nuget.org/packages/Minerals.AutoInterfaces/](https://www.nuget.org/packages/Minerals.AutoInterfaces/) 
+Nuget: [https://www.nuget.org/packages/MinimalApis.Discovery/](https://www.nuget.org/packages/MinimalApis.Discovery/) 
 
 
-Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces)
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery)
 
-Source: [https://github.com/SzymonHalucha/Minerals.AutoInterfaces](https://github.com/SzymonHalucha/Minerals.AutoInterfaces)
+Source: [https://github.com/shawnwildermuth/MinimalApis](https://github.com/shawnwildermuth/MinimalApis)
 
 </details>
 
@@ -3309,161 +3313,168 @@ Why I have not tested : later
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Mediator&body=https://github.com/martinothamar/Mediator
 
 
-30) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
+30) [Minerals.AutoInterfaces]( https://github.com/SzymonHalucha/Minerals.AutoInterfaces) , https://github.com/SzymonHalucha/Minerals.AutoInterfaces 
+
+Why I have not tested : issue opened
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Minerals.AutoInterfaces&body=https://github.com/SzymonHalucha/Minerals.AutoInterfaces
+
+
+31) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=MvvmGen&body=https://github.com/thomasclaudiushuber/mvvmgen
 
 
-31) [Overloader]( https://github.com/emptycoder/Overloader) , https://github.com/emptycoder/Overloader 
+32) [Overloader]( https://github.com/emptycoder/Overloader) , https://github.com/emptycoder/Overloader 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Overloader&body=https://github.com/emptycoder/Overloader
 
 
-32) [PolymorphicJsonSourceGenerator]( https://github.com/harrhp/PolymorphicJsonSourceGenerator/) , https://github.com/harrhp/PolymorphicJsonSourceGenerator/ 
+33) [PolymorphicJsonSourceGenerator]( https://github.com/harrhp/PolymorphicJsonSourceGenerator/) , https://github.com/harrhp/PolymorphicJsonSourceGenerator/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PolymorphicJsonSourceGenerator&body=https://github.com/harrhp/PolymorphicJsonSourceGenerator/
 
 
-33) [PolySharp]( https://github.com/Sergio0694/PolySharp) , https://github.com/Sergio0694/PolySharp 
+34) [PolySharp]( https://github.com/Sergio0694/PolySharp) , https://github.com/Sergio0694/PolySharp 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PolySharp&body=https://github.com/Sergio0694/PolySharp
 
 
-34) [Pure.DI]( https://github.com/DevTeam/Pure.DI) , https://github.com/DevTeam/Pure.DI 
+35) [Pure.DI]( https://github.com/DevTeam/Pure.DI) , https://github.com/DevTeam/Pure.DI 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Pure.DI&body=https://github.com/DevTeam/Pure.DI
 
 
-35) [RossLean.StringificationGenerator]( https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator) , https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator 
+36) [RossLean.StringificationGenerator]( https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator) , https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=RossLean.StringificationGenerator&body=https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator
 
 
-36) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
+37) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
 
 Why I have not tested : serializer. Done by MSFT with System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SerdeDn&body=https://github.com/serdedotnet/serde
 
 
-37) [SogePoco]( https://github.com/d-p-y/SogePoco) , https://github.com/d-p-y/SogePoco 
+38) [SogePoco]( https://github.com/d-p-y/SogePoco) , https://github.com/d-p-y/SogePoco 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SogePoco&body=https://github.com/d-p-y/SogePoco
 
 
-38) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
+39) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SourceCrafter.HttpServiceClientGenerator&body=https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/
 
 
-39) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
+40) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested : swagger,need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ST.NSwag.ServerSourceGenerator&body=https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator
 
 
-40) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
+41) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StrongInject&body=https://github.com/YairHalberstadt/stronginject/
 
 
-41) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
+42) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested : json a class, was done in System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TeuJson&body=https://github.com/Terria-K/TeuJson
 
 
-42) [ThisClass]( https://github.com/trympet/ThisClass) , https://github.com/trympet/ThisClass 
+43) [ThisClass]( https://github.com/trympet/ThisClass) , https://github.com/trympet/ThisClass 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ThisClass&body=https://github.com/trympet/ThisClass
 
 
-43) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
+44) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tinyhand&body=https://github.com/archi-Doc/Tinyhand
 
 
-44) [Tortuga.Shipwright]( https://github.com/TortugaResearch/Tortuga.Shipwright) , https://github.com/TortugaResearch/Tortuga.Shipwright 
+45) [Tortuga.Shipwright]( https://github.com/TortugaResearch/Tortuga.Shipwright) , https://github.com/TortugaResearch/Tortuga.Shipwright 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tortuga.Shipwright&body=https://github.com/TortugaResearch/Tortuga.Shipwright
 
 
-45) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+46) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
-46) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
+47) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-47) [TypedSignalR]( https://github.com/nenoNaninu/TypedSignalR.Client) , https://github.com/nenoNaninu/TypedSignalR.Client 
+48) [TypedSignalR]( https://github.com/nenoNaninu/TypedSignalR.Client) , https://github.com/nenoNaninu/TypedSignalR.Client 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypedSignalR&body=https://github.com/nenoNaninu/TypedSignalR.Client
 
 
-48) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
+49) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=UnitTestBlazor&body=https://github.com/bUnit-dev/bUnit
 
 
-49) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+50) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-50) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
+51) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=VisitorPatternGenerator&body=https://github.com/hikarin522/VisitorPatternGenerator/
 
 
-51) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+52) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-52) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+53) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

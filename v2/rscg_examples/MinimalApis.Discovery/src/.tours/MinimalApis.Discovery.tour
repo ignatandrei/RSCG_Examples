@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MinimalApis.Discovery",
+  "steps": 
+  [
+    {
+      "file": "APIDemo/APIDemo.csproj",
+      "description": "First, we add Nuget  [MinimalApis.Discovery](https://www.nuget.org/packages/MinimalApis.Discovery/) in csproj  ",
+      "pattern": "MinimalApis.Discovery"
+    }
+
+        ,{
+        "file": "APIDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project APIDemo/APIDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "APIDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "APIDemo/PersonAPI.cs",
+        "description": "File PersonAPI.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "APIDemo/obj/GX/MinimalApis.Discovery.Generator/MinimalApis.Discovery.Generator.MapApiGenerator/MinimalApiDiscovery.g.cs",
+        "description": "File MinimalApiDiscovery.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

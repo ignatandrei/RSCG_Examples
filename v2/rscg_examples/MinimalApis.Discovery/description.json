@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MinimalApis.Discovery",
+      "nuget":[
+         "https://www.nuget.org/packages/MinimalApis.Discovery/"
+      ],
+      "link":"https://github.com/shawnwildermuth/MinimalApis",
+      "author":"Shawn Wildermuth",
+      "source":"https://github.com/shawnwildermuth/MinimalApis"
+   },
+   "data":{
+      "goodFor":["Controller like API registering"],
+      "csprojDemo":"APIDemo.csproj",
+      "csFiles":["PersonAPI.cs","Person.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
