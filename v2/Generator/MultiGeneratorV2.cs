@@ -333,6 +333,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"StronglyTypedUid",new(true,new(2024,04,7),Category.PrimitiveObsession) },
             {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) },
             {"MinimalApis.Discovery", new(true,new(2024,04,20),Category.API)},
+            {"Minerals.AutoInterfaces",new(true,new(2024,04,16),Category.Interface) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

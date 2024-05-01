@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1360
-title: 136 - Minerals.AutoInterfaces
+sidebar_position: 1370
+title: 137 - Minerals.AutoInterfaces
 description: Generating interface from class
 slug: /Minerals.AutoInterfaces
 ---

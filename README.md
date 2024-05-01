@@ -1,9 +1,6 @@
-# RSCG - 136 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 137 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
 ## Latest Update : 2024-04-20 => 20 April 2024
-
-<details>
-  <summary>Expand</summary>
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,12 +14,33 @@ If you want to help, see below .
 
 If you want to be notified each time I add a new RSCG example , please click https://dashboard.mailerlite.com/forms/611357/100178843411678256/share
 
-</details>
 
 ## Content 
 
-Those are the 136 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 137 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 137. [Minerals.AutoInterfaces](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2024-04-16 => 16 April 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Szymon Hałucha
+
+Package for automatic interface generation using incremental generator 
+
+Nuget: [https://www.nuget.org/packages/Minerals.AutoInterfaces/](https://www.nuget.org/packages/Minerals.AutoInterfaces/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces)
+
+Source: [https://github.com/SzymonHalucha/Minerals.AutoInterfaces](https://github.com/SzymonHalucha/Minerals.AutoInterfaces)
+
+</details>
+
 ### 136. [MinimalApis.Discovery](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
 
 Generated on : 2024-04-20 => 20 April 2024
