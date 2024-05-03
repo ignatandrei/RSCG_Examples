@@ -54,7 +54,7 @@ RossLean, following the same wordplay pattern as RoseLynn, came to life after de
 
 ## Goals
 
-The goal of RossLean is to accommodate source generators and analyzers that provide further versatility and usability of existing features and components of the language. This includes expanding on the set of capabilities that any given feature provides. For example, [GenericsAnalyzer](RoseLynn.GenericsAnalyzer/) provides a lot of flexibility around declaring constraints on generic type parameters.
+The goal of RossLean is to accommodate source generators and analyzers that provide further versatility and usability of existing features and components of the language. This includes expanding on the set of capabilities that any given feature provides. For example, [GenericsAnalyzer](https://github.com/RossLean/RossLean//RoseLynn.GenericsAnalyzer/) provides a lot of flexibility around declaring constraints on generic type parameters.
 
 The projects are to be made available under the copyrights and ownership of the RossLean organization and its affiliates. Previously held copyright ownership is not ceased, but will be migrated and merged with RossLean.
 
@@ -62,10 +62,10 @@ All code herein adheres to the MIT license. It is not expected to change in the 
 
 ## Current Projects
 
-- [GenericsAnalyzer](RossLean.GenericsAnalyzer/) - Expansions to the generic constraint model
-- [NameOn](RossLean.NameOn/) - Enforcement and encouragement of `nameof` usage patterns
-- [Smarttributes](RossLean.Smarttributes/) - Constraints on application of attributes
-- [StringificationGenerator](RossLean.StringificationGenerator/) - Generator for construction code generation
+- [GenericsAnalyzer](https://github.com/RossLean/RossLean//RossLean.GenericsAnalyzer/) - Expansions to the generic constraint model
+- [NameOn](https://github.com/RossLean/RossLean//RossLean.NameOn/) - Enforcement and encouragement of `nameof` usage patterns
+- [Smarttributes](https://github.com/RossLean/RossLean//RossLean.Smarttributes/) - Constraints on application of attributes
+- [StringificationGenerator](https://github.com/RossLean/RossLean//RossLean.StringificationGenerator/) - Generator for construction code generation
 
 ## Future Projects
 

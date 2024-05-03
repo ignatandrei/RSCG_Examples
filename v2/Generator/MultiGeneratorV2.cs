@@ -430,6 +430,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(RoseLynn.GenericsAnalyzer/)", $"({d.Generator!.Source}/RoseLynn.GenericsAnalyzer/)");
+            text = text.Replace("(RossLean.", $"({d.Generator!.Source}/RossLean.");
+
             text = text.Replace("(MinimalApis.FluentValidation.md)", $"({d.Generator!.Source}/MinimalApis.FluentValidation.md)");
             text = text.Replace("(MinimalApis.Discovery.md)", $"({d.Generator!.Source}/MinimalApis.Discovery.md)");
 
