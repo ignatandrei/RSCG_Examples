@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 137 RSCG by category 
-description: 137 RSCG by category 
+title: 138 RSCG by category 
+description: 138 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -113,7 +113,7 @@ import DocCardList from '@theme/DocCardList';
 ## CodeToString 
 <details>
     
-  <summary>Expand CodeToString =>examples:2</summary>
+  <summary>Expand CodeToString =>examples:3</summary>
         
 
 
@@ -123,6 +123,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [CodeAnalysis](/docs/CodeAnalysis)
+
+        
+
+
+[RossLean.StringificationGenerator](/docs/RossLean.StringificationGenerator)
 
 </details>
     
@@ -897,6 +902,8 @@ flowchart LR;
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 
     CodeToString--> CodeAnalysis((CodeAnalysis))
+
+    CodeToString--> RossLean.StringificationGenerator((RossLean.StringificationGenerator))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 

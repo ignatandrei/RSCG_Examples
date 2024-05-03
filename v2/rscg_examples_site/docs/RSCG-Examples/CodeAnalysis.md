@@ -248,7 +248,10 @@ namespace DemoLit
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis
 
-### In the same category (CodeToString) - 1 other generators
+### In the same category (CodeToString) - 2 other generators
+
+
+#### [RossLean.StringificationGenerator](/docs/RossLean.StringificationGenerator)
 
 
 #### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)

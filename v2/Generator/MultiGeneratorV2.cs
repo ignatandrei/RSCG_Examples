@@ -169,7 +169,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 ,new ("DUnion https://github.com/danny-may/DUnion/",WaitingForIssue)
 ,new("Depso https://github.com/notanaverageman/Depso",later)
-,new("RossLean.StringificationGenerator https://github.com/RossLean/RossLean/tree/master/RossLean.StringificationGenerator",later)
 ,new("ThisClass https://github.com/trympet/ThisClass",later)
 ,new("EF https://www.nuget.org/packages/Visium.Anima.EntityFrameworkCore.SourceGeneration",noReadMe)
 ,new("https://github.com/nevsnirG/MinimalRichDomain",old)
@@ -339,6 +338,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) },
             {"MinimalApis.Discovery", new(true,new(2024,04,20),Category.API)},
             {"Minerals.AutoInterfaces",new(true,new(2024,04,16),Category.Interface) },
+            {"RossLean.StringificationGenerator",new (true,new(2024,4,17),Category.CodeToString) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();

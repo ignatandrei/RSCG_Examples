@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RossLean.StringificationGenerator",
+  "steps": 
+  [
+    {
+      "file": "Code2String/Code2String.csproj",
+      "description": "First, we add Nuget  [RossLean.StringificationGenerator](https://www.nuget.org/packages/RossLean.StringificationGenerator/) in csproj  ",
+      "pattern": "RossLean.StringificationGenerator"
+    }
+
+        ,{
+        "file": "Code2String/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Code2String/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Code2String/Code2String.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Code2String/obj/GX/StringificationGenerator.SourceGenerators/RossLean.StringificationGenerator.SourceGenerators.ConstructionCodeGenerator/Code2String.Person.ConstructionCode.g.cs",
+        "description": "File Code2String.Person.ConstructionCode.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

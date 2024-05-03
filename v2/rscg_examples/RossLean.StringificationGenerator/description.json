@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RossLean.StringificationGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/RossLean.StringificationGenerator/"
+      ],
+      "link":"https://github.com/RossLean/RossLean/",
+      "author":"Alex Kalfakakos",
+      "source":"https://github.com/RossLean/RossLean/"
+   },
+   "data":{
+      "goodFor":["Generating constructor code as string"],
+      "csprojDemo":"Code2String.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
