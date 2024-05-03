@@ -1,0 +1,1 @@
+A Roslyn source generator for object construction string generation methods
