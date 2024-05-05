@@ -135,3 +135,5 @@ Nr,Key,Source,Category
 134,StronglyTypedUid, https://github.com/vicosanz/StronglyTypedUid,PrimitiveObsession
 135,BitsKit, https://github.com/barncastle/BitsKit,Bitwise
 136,MinimalApis.Discovery, https://github.com/shawnwildermuth/MinimalApis,API
+137,Minerals.AutoInterfaces, https://github.com/SzymonHalucha/Minerals.AutoInterfaces,Interface
+138,RossLean.StringificationGenerator, https://github.com/RossLean/RossLean/,CodeToString

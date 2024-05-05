@@ -1088,7 +1088,7 @@
       "NuGet": "https://www.nuget.org/packages/MinimalApis.Discovery/",
       "Source": "https://github.com/shawnwildermuth/MinimalApis",
       "Category": "API",
-      "AddedOn": "2024-04-20T00:00:00"
+      "AddedOn": "2024-04-16T00:00:00"
     },
     {
       "Name": "Minerals.AutoInterfaces",
@@ -1096,7 +1096,7 @@
       "NuGet": "https://www.nuget.org/packages/Minerals.AutoInterfaces/",
       "Source": "https://github.com/SzymonHalucha/Minerals.AutoInterfaces",
       "Category": "Interface",
-      "AddedOn": "2024-04-16T00:00:00"
+      "AddedOn": "2024-04-17T00:00:00"
     },
     {
       "Name": "RossLean.StringificationGenerator",
@@ -1104,7 +1104,7 @@
       "NuGet": "https://www.nuget.org/packages/RossLean.StringificationGenerator/",
       "Source": "https://github.com/RossLean/RossLean/",
       "Category": "CodeToString",
-      "AddedOn": "2024-04-17T00:00:00"
+      "AddedOn": "2024-04-18T00:00:00"
     }
   ]
 }

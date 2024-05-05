@@ -336,9 +336,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"FusionReactor",new(true,new(2024,04,6),Category.Enum) },
             {"StronglyTypedUid",new(true,new(2024,04,7),Category.PrimitiveObsession) },
             {"BitsKit",new(true,new(2024,04,15),Category.Bitwise) },
-            {"MinimalApis.Discovery", new(true,new(2024,04,20),Category.API)},
-            {"Minerals.AutoInterfaces",new(true,new(2024,04,16),Category.Interface) },
-            {"RossLean.StringificationGenerator",new (true,new(2024,4,17),Category.CodeToString) },
+            {"MinimalApis.Discovery", new(true,new(2024,04,16),Category.API)},
+            {"Minerals.AutoInterfaces",new(true,new(2024,04,17),Category.Interface) },
+            {"RossLean.StringificationGenerator",new (true,new(2024,4,18),Category.CodeToString) },
 
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
@@ -1005,7 +1005,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "Farskeptic.AutoCompose";
+        var lastGenerator = "MinimalApis.Discovery";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
