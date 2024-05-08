@@ -226,7 +226,7 @@ namespace LingDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit
 
-### In the same category (EnhancementClass) - 24 other generators
+### In the same category (EnhancementClass) - 25 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -299,4 +299,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ling.Audit
 
 
 #### [TelemetryLogging](/docs/TelemetryLogging)
+
+
+#### [ThisClass](/docs/ThisClass)
 
