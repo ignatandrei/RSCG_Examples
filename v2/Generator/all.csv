@@ -137,3 +137,4 @@ Nr,Key,Source,Category
 136,MinimalApis.Discovery, https://github.com/shawnwildermuth/MinimalApis,API
 137,Minerals.AutoInterfaces, https://github.com/SzymonHalucha/Minerals.AutoInterfaces,Interface
 138,RossLean.StringificationGenerator, https://github.com/RossLean/RossLean/,CodeToString
+139,ThisClass, https://github.com/trympet/ThisClass,EnhancementClass

@@ -1105,6 +1105,14 @@
       "Source": "https://github.com/RossLean/RossLean/",
       "Category": "CodeToString",
       "AddedOn": "2024-04-18T00:00:00"
+    },
+    {
+      "Name": "ThisClass",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisClass",
+      "NuGet": "https://www.nuget.org/packages/ThisClass/",
+      "Source": "https://github.com/trympet/ThisClass",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-04-19T00:00:00"
     }
   ]
 }

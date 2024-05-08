@@ -169,7 +169,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 ,new ("DUnion https://github.com/danny-may/DUnion/",WaitingForIssue)
 ,new("Depso https://github.com/notanaverageman/Depso",later)
-,new("ThisClass https://github.com/trympet/ThisClass",later)
 ,new("EF https://www.nuget.org/packages/Visium.Anima.EntityFrameworkCore.SourceGeneration",noReadMe)
 ,new("https://github.com/nevsnirG/MinimalRichDomain",old)
 ,new("https://github.com/JasonBock/CslaGeneratorSerialization",tooComplicated)
@@ -177,7 +176,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("https://github.com/MeltyPlayer/Schema",tooComplicated)
 ,new("https://github.com/SzymonHalucha/Minerals.AutoMixins",later)
 ,new("https://github.com/SzymonHalucha/Minerals.AutoCommands",later)
-,new("https://github.com/OrgEleCho/EleCho.Internationalization",later)
+,new("https://github.com/OrgEleCho/EleCho.Internationalization",WaitingForIssue)
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -339,7 +338,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"MinimalApis.Discovery", new(true,new(2024,04,16),Category.API)},
             {"Minerals.AutoInterfaces",new(true,new(2024,04,17),Category.Interface) },
             {"RossLean.StringificationGenerator",new (true,new(2024,4,18),Category.CodeToString) },
-
+            {"ThisClass",new(true,new(2024,4,19),Category.EnhancementClass) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -890,6 +889,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
     }
     private async Task<bool> CreateCarbonFile(string imageFile, string destination)
     {
+        var x = 1;
+        if(x<2)
+        {
+            //do not generate
+            return false;
+        }
         var nameFileImg = Path.GetFileName(destination);
             
         if (File.Exists(destination) || File.Exists(destination + ".png"))
