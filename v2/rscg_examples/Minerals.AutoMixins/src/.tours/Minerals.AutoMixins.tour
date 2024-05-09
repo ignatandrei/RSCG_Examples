@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Minerals.AutoMixins",
+  "steps": 
+  [
+    {
+      "file": "DemoMixin/DemoMixin.csproj",
+      "description": "First, we add Nuget  [Minerals.AutoMixins](https://www.nuget.org/packages/Minerals.AutoMixins/) in csproj  ",
+      "pattern": "Minerals.AutoMixins"
+    }
+
+        ,{
+        "file": "DemoMixin/LogData.cs",
+        "description": "File LogData.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoMixin/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoMixin/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoMixin/DemoMixin.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoMixin/obj/GX/Minerals.AutoMixins/Minerals.AutoMixins.Attributes.GenerateMixinAttributeGenerator/GenerateMixinAttribute.g.cs",
+        "description": "File GenerateMixinAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoMixin/obj/GX/Minerals.AutoMixins/Minerals.AutoMixins.Attributes.AddMixinAttributeGenerator/AddMixinAttribute.g.cs",
+        "description": "File AddMixinAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoMixin/obj/GX/Minerals.AutoMixins/Minerals.AutoMixins.AddMixinGenerator/Person.g.cs",
+        "description": "File Person.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -321,7 +321,7 @@ namespace MorrisMoxyDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 
-### In the same category (Templating) - 6 other generators
+### In the same category (Templating) - 7 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -331,6 +331,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 
 
 #### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+#### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
 
 #### [RazorBlade](/docs/RazorBlade)

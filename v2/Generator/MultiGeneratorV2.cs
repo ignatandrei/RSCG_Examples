@@ -174,7 +174,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("https://github.com/JasonBock/CslaGeneratorSerialization",tooComplicated)
 ,new("https://github.com/Stepami/visitor-net",later)
 ,new("https://github.com/MeltyPlayer/Schema",tooComplicated)
-,new("https://github.com/SzymonHalucha/Minerals.AutoMixins",later)
 ,new("https://github.com/SzymonHalucha/Minerals.AutoCommands",later)
 ,new("https://github.com/OrgEleCho/EleCho.Internationalization",WaitingForIssue)
 //,new("",later)
@@ -339,6 +338,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"Minerals.AutoInterfaces",new(true,new(2024,04,17),Category.Interface) },
             {"RossLean.StringificationGenerator",new (true,new(2024,4,18),Category.CodeToString) },
             {"ThisClass",new(true,new(2024,4,19),Category.EnhancementClass) },
+            {"Minerals.AutoMixins",new(true,new(2024,4,20),Category.Templating) },
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)

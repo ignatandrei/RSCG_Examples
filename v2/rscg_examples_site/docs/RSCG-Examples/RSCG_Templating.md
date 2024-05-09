@@ -429,7 +429,7 @@ namespace RSCG_TemplatingDemo {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating
 
-### In the same category (Templating) - 6 other generators
+### In the same category (Templating) - 7 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -439,6 +439,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating
 
 
 #### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+#### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
 
 #### [MorrisMoxy](/docs/MorrisMoxy)

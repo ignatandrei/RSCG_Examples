@@ -2083,13 +2083,16 @@ using RazorAppDemo;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators
 
-### In the same category (Templating) - 6 other generators
+### In the same category (Templating) - 7 other generators
 
 
 #### [Gobie](/docs/Gobie)
 
 
 #### [InterceptorTemplate](/docs/InterceptorTemplate)
+
+
+#### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
 
 #### [MorrisMoxy](/docs/MorrisMoxy)
