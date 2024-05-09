@@ -204,7 +204,7 @@ See also the list of [contributors](https://github.com/SzymonHalucha/Minerals.Au
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/SzymonHalucha/Minerals.AutoMixins/LICENSE) file for details.
 
 
 :::
