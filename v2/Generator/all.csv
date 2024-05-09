@@ -138,3 +138,4 @@ Nr,Key,Source,Category
 137,Minerals.AutoInterfaces, https://github.com/SzymonHalucha/Minerals.AutoInterfaces,Interface
 138,RossLean.StringificationGenerator, https://github.com/RossLean/RossLean/,CodeToString
 139,ThisClass, https://github.com/trympet/ThisClass,EnhancementClass
+140,Minerals.AutoMixins, https://github.com/SzymonHalucha/Minerals.AutoMixins,Templating

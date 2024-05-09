@@ -1113,6 +1113,14 @@
       "Source": "https://github.com/trympet/ThisClass",
       "Category": "EnhancementClass",
       "AddedOn": "2024-04-19T00:00:00"
+    },
+    {
+      "Name": "Minerals.AutoMixins",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoMixins",
+      "NuGet": "https://www.nuget.org/packages/Minerals.AutoMixins/",
+      "Source": "https://github.com/SzymonHalucha/Minerals.AutoMixins",
+      "Category": "Templating",
+      "AddedOn": "2024-04-20T00:00:00"
     }
   ]
 }

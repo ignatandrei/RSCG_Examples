@@ -256,13 +256,16 @@ namespace Gobie
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 
-### In the same category (Templating) - 6 other generators
+### In the same category (Templating) - 7 other generators
 
 
 #### [InterceptorTemplate](/docs/InterceptorTemplate)
 
 
 #### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+
+
+#### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
 
 #### [MorrisMoxy](/docs/MorrisMoxy)

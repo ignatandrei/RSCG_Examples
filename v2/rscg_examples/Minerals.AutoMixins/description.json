@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Minerals.AutoMixins",
+      "nuget":[
+         "https://www.nuget.org/packages/Minerals.AutoMixins/"
+      ],
+      "link":"https://github.com/SzymonHalucha/Minerals.AutoMixins",
+      "author":"Szymon Halucha",
+      "source":"https://github.com/SzymonHalucha/Minerals.AutoMixins"
+   },
+   "data":{
+      "goodFor":["Generate Mixin from another classes"],
+      "csprojDemo":"DemoMixin.csproj",
+      "csFiles":["Program.cs","Person.cs","LogData.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
