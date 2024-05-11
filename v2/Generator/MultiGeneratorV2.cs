@@ -140,7 +140,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",WaitingForIssue )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/",WaitingForIssue)
 , new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
@@ -163,9 +162,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",old)   
 , new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
 ,new("PureHDF https://github.com/Apollo3zehn/PureHDF",old)
-,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",WaitingForIssue)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
-,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 ,new ("DUnion https://github.com/danny-may/DUnion/",WaitingForIssue)
 ,new("Depso https://github.com/notanaverageman/Depso",later)
