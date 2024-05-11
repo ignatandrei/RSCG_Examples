@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ActorSrcGen",
+  "steps": 
+  [
+    {
+      "file": "ActorDemo/ActorDemo.csproj",
+      "description": "First, we add Nuget  [ActorSrcGen](https://www.nuget.org/packages/ActorSrcGen/) in csproj  ",
+      "pattern": "ActorSrcGen"
+    }
+
+        ,{
+        "file": "ActorDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ActorDemo/DayWorkflow.cs",
+        "description": "File DayWorkflow.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ActorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ActorDemo/ActorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ActorDemo/obj/GX/ActorSrcGen/ActorSrcGen.Generator/DayWorkflow.generated.cs",
+        "description": "File DayWorkflow.generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

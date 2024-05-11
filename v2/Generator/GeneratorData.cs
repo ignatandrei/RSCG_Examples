@@ -47,5 +47,6 @@ public enum Category
     Hangfire,
     AOP,
     Bitwise,
+    Actor,
 }
 

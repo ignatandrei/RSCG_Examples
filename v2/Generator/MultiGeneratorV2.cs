@@ -174,7 +174,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("https://github.com/SzymonHalucha/Minerals.AutoCommands",later)
 ,new("https://github.com/OrgEleCho/EleCho.Internationalization",WaitingForIssue)
 ,new("https://github.com/StevenThuriot/TableStorage",later)
-,new("https://github.com/aabs/ActorSrcGen",later)
+
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -336,7 +336,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"RossLean.StringificationGenerator",new (true,new(2024,4,18),Category.CodeToString) },
             {"ThisClass",new(true,new(2024,4,19),Category.EnhancementClass) },
             {"Minerals.AutoMixins",new(true,new(2024,4,20),Category.Templating) },
-
+            {"ActorSrcGen", new(true,new(2024,5,1),Category.Actor) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -529,6 +529,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         response = await tryToGetMasterOrMain(httpClient, url + "docs/README.md");
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response = await tryToGetMasterOrMain(httpClient, url + "ReadMe.md");
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);

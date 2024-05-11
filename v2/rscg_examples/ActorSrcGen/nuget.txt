@@ -1,0 +1,1 @@
+A C# Source Generator to adapt a simple class to allow it to use TPL Dataflow for robust high performance computation

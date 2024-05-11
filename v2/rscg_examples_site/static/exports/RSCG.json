@@ -1121,6 +1121,14 @@
       "Source": "https://github.com/SzymonHalucha/Minerals.AutoMixins",
       "Category": "Templating",
       "AddedOn": "2024-04-20T00:00:00"
+    },
+    {
+      "Name": "ActorSrcGen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ActorSrcGen",
+      "NuGet": "https://www.nuget.org/packages/ActorSrcGen/",
+      "Source": "https://github.com/aabs/ActorSrcGen",
+      "Category": "Actor",
+      "AddedOn": "2024-05-01T00:00:00"
     }
   ]
 }
