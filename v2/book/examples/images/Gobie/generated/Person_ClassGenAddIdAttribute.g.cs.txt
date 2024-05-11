@@ -1,6 +1,0 @@
-namespace GobieDemo
-{
-    public partial class Person
-    {
-    }
-}

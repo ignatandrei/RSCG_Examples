@@ -1,4 +1,0 @@
-using GedaqDemoConsole;
-
-var data = new GetData();
-

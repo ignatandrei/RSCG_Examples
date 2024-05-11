@@ -1,8 +1,0 @@
-namespace {{ moxy.Class.Namespace }}
-{
-  partial class {{ moxy.Class.Name}}
-  {
-    public string Name {get;set;}
-    public long  ID { get; set; }
-  }
-}

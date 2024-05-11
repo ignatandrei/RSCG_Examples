@@ -1,3 +1,0 @@
-This is a data
-That you will retrieve
-as C# const

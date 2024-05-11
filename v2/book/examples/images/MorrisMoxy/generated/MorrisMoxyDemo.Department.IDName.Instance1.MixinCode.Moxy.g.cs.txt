@@ -1,9 +1,0 @@
-// Generated at 2023-07-31 19:27:42 UTC
-namespace MorrisMoxyDemo
-{
-  partial class Department
-  {
-    public string Name {get;set;}
-    public long  ID { get; set; }
-  }
-}
