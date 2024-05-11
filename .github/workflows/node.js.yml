@@ -28,7 +28,7 @@ jobs:
       with:
         node-version: 20.9.0
         cache: 'npm'
-        cache-dependency-path: "./v2/src/rscg_examples_site/package-lock.json"
+        cache-dependency-path: "./v2/rscg_examples_site/package-lock.json"
 
     - run: |
         cd v2 
