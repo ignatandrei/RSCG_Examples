@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ActorSrcGen",
+      "nuget":[
+         "https://www.nuget.org/packages/ActorSrcGen/"
+      ],
+      "link":"https://github.com/aabs/ActorSrcGen",
+      "author":"Andrew Matthews",
+      "source":"https://github.com/aabs/ActorSrcGen"
+   },
+   "data":{
+      "goodFor":["Generating source code for actors in C#."],
+      "csprojDemo":"ActorDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
