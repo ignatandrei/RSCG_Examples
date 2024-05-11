@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 140 RSCG by category 
-description: 140 RSCG by category 
+title: 141 RSCG by category 
+description: 141 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -9,6 +9,18 @@ import DocCardList from '@theme/DocCardList';
 
 [See time based list](/docs/List-of-RSCG)
 
+
+## Actor 
+<details>
+    
+  <summary>Expand Actor =>examples:1</summary>
+        
+
+
+[ActorSrcGen](/docs/ActorSrcGen)
+
+</details>
+    
 
 ## AOP 
 <details>
@@ -882,6 +894,8 @@ import DocCardList from '@theme/DocCardList';
 ```mermaid 
 flowchart LR;
 
+
+    Actor--> ActorSrcGen((ActorSrcGen))
 
     AOP--> WhatIAmDoing((WhatIAmDoing))
 
