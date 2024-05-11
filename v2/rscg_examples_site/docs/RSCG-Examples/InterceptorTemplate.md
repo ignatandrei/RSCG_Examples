@@ -426,10 +426,6 @@ public interface IPersonLoader
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
-<Tabs>
-
-
-</Tabs>
 
 ## Usefull
 
