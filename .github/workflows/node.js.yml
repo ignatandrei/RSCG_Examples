@@ -46,11 +46,13 @@ jobs:
     - name: upload documentation to github pages
       run: |
         cp -r v2/rscg_examples_site/build/* docs/v2/
-
-    - uses: EndBug/add-and-commit@v9
-      with:
-        message: 'Deploy documentation'
-        pull: '-v'
-        default_author: github_actions
-        cwd: './docs'
+        git add docs/v2
+        git commit -m "Deploy documentation"
+        git push origin HEAD:master  
+    # - uses: EndBug/add-and-commit@v9
+    #   with:
+    #     message: 'Deploy documentation'
+    #     pull: '-v'
+    #     default_author: github_actions
+    #     cwd: './docs'
 
