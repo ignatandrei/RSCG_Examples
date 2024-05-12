@@ -46,10 +46,10 @@ jobs:
     - name: upload documentation to github pages
       run: |
         cp -r v2/rscg_examples_site/build/* docs/v2/
-        git add docs/v2
-        git commit -m "Deploy documentation"
         git config --global user.email "ignatandrei@yahoo.com"
         git config --global user.name "Andrei Ignat Automation"
+        git add docs/v2
+        git commit -m "Deploy documentation"
         git push origin HEAD:master  
     # - uses: EndBug/add-and-commit@v9
     #   with:
