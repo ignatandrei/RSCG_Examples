@@ -1,8 +1,0 @@
-@startuml Person
-class Person  {
-    + FirstName : string? <<get>> <<set>>
-    + LastName : string? <<get>> <<set>>
-    + FullName() : string?
-    + Person()
-}
-@enduml

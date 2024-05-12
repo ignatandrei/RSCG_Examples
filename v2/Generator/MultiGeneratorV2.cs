@@ -140,7 +140,6 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("lucide-blazor https://github.com/brecht-vde/lucide-blazor/",WaitingForIssue )//https://blog.vanderelst.dev/using-source-generators-to-create-a-blazor-icon-library
 ,new("HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",inspirational)
 ,new("ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",old)
-,new("PolymorphicJsonSourceGenerator https://github.com/harrhp/PolymorphicJsonSourceGenerator/",WaitingForIssue)
 , new("VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",WaitingForIssue)
 , new("Pipelines https://github.com/DumplingsDevs/Pipelines/",old)
 , new("FastAutoMapper https://github.com/myblindy/FastAutoMapper",old)
@@ -163,23 +162,19 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
 ,new("DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",old)   
 , new ("Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",old)
 ,new("PureHDF https://github.com/Apollo3zehn/PureHDF",old)
-,new("Minerals.AutoInterfaces https://github.com/SzymonHalucha/Minerals.AutoInterfaces",WaitingForIssue)
 ,new("SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",later)
-,new("CCC https://github.com/usausa/common-code-generator/issues/1",WaitingForIssue)
 ,new("ESG https://github.com/Michmcb/EnumSourceGenerator",old)
 ,new ("DUnion https://github.com/danny-may/DUnion/",WaitingForIssue)
 ,new("Depso https://github.com/notanaverageman/Depso",later)
-,new("ThisClass https://github.com/trympet/ThisClass",later)
 ,new("EF https://www.nuget.org/packages/Visium.Anima.EntityFrameworkCore.SourceGeneration",noReadMe)
 ,new("https://github.com/nevsnirG/MinimalRichDomain",old)
 ,new("https://github.com/JasonBock/CslaGeneratorSerialization",tooComplicated)
 ,new("https://github.com/Stepami/visitor-net",later)
 ,new("https://github.com/MeltyPlayer/Schema",tooComplicated)
-,new("https://github.com/SzymonHalucha/Minerals.AutoMixins",later)
 ,new("https://github.com/SzymonHalucha/Minerals.AutoCommands",later)
-,new("https://github.com/OrgEleCho/EleCho.Internationalization",later)
-//,new("",later)
-//,new("",later)
+,new("https://github.com/OrgEleCho/EleCho.Internationalization",WaitingForIssue)
+,new("https://github.com/StevenThuriot/TableStorage",later)
+
 //,new("",later)
 //,new("",later)
 //,new("",later)
@@ -339,7 +334,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
             {"MinimalApis.Discovery", new(true,new(2024,04,16),Category.API)},
             {"Minerals.AutoInterfaces",new(true,new(2024,04,17),Category.Interface) },
             {"RossLean.StringificationGenerator",new (true,new(2024,4,18),Category.CodeToString) },
-
+            {"ThisClass",new(true,new(2024,4,19),Category.EnhancementClass) },
+            {"Minerals.AutoMixins",new(true,new(2024,4,20),Category.Templating) },
+            {"ActorSrcGen", new(true,new(2024,5,1),Category.Actor) }
         }; 
         var noCategory = generators.Where(it=>it.Value.Category == Category.None).ToArray();
         if (noCategory.Length > 0)
@@ -532,6 +529,9 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         response = await tryToGetMasterOrMain(httpClient, url + "docs/README.md");
+        if (!string.IsNullOrWhiteSpace(response)) return response;
+
+        response = await tryToGetMasterOrMain(httpClient, url + "ReadMe.md");
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
         Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);
@@ -890,6 +890,12 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
     }
     private async Task<bool> CreateCarbonFile(string imageFile, string destination)
     {
+        var x = 1;
+        if(x<2)
+        {
+            //do not generate
+            return false;
+        }
         var nameFileImg = Path.GetFileName(destination);
             
         if (File.Exists(destination) || File.Exists(destination + ".png"))
@@ -1005,7 +1011,7 @@ new("AutoEmbed https://github.com/chsienki/AutoEmbed                           "
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "MinimalApis.Discovery";
+        var lastGenerator = "Minerals.AutoMixins";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)

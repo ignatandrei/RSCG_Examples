@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.13.0]
+        node-version: [20.9.0]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -22,7 +22,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ inputs.nodeVersion }}
-        # cache: 'npm'
+        cache: 'npm'        
+        cache-dependency-path: "./v2/rscg_examples_site/package-lock.json"
+
     - run: |
         cd v2 
         cd rscg_examples_site

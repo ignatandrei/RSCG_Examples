@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ThisClass",
+      "nuget":[
+         "https://www.nuget.org/packages/ThisClass/"
+      ],
+      "link":"https://github.com/trympet/ThisClass",
+      "author":"Trym Lund Flogard",
+      "source":"https://github.com/trympet/ThisClass"
+   },
+   "data":{
+      "goodFor":["Generate full class name from class"],
+      "csprojDemo":"DemoClass.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

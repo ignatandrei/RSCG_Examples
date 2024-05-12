@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ThisClass",
+  "steps": 
+  [
+    {
+      "file": "DemoClass/DemoClass.csproj",
+      "description": "First, we add Nuget  [ThisClass](https://www.nuget.org/packages/ThisClass/) in csproj  ",
+      "pattern": "ThisClass"
+    }
+
+        ,{
+        "file": "DemoClass/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoClass/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoClass/DemoClass.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoClass/obj/GX/ThisClass/ThisClass.ThisClassGenerator/ThisClassAttribute.g.cs",
+        "description": "File ThisClassAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoClass/obj/GX/ThisClass/ThisClass.ThisClassGenerator/Person_ThisClass.g.cs",
+        "description": "File Person_ThisClass.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

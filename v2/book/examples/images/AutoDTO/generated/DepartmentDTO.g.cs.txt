@@ -1,7 +1,0 @@
-namespace AutoDTODemo;
-
-public partial class DepartmentDTO
-{
-public System.Int32 ID { get; set; }
-public System.String Name { get; set; }
-}

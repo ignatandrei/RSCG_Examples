@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 138 RSCG by category 
-description: 138 RSCG by category 
+title: 141 RSCG by category 
+description: 141 RSCG by category 
 slug: /rscg-examples
 ---
 
@@ -9,6 +9,18 @@ import DocCardList from '@theme/DocCardList';
 
 [See time based list](/docs/List-of-RSCG)
 
+
+## Actor 
+<details>
+    
+  <summary>Expand Actor =>examples:1</summary>
+        
+
+
+[ActorSrcGen](/docs/ActorSrcGen)
+
+</details>
+    
 
 ## AOP 
 <details>
@@ -238,7 +250,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:25</summary>
+  <summary>Expand EnhancementClass =>examples:26</summary>
         
 
 
@@ -363,6 +375,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [CommonCodeGenerator](/docs/CommonCodeGenerator)
+
+        
+
+
+[ThisClass](/docs/ThisClass)
 
 </details>
     
@@ -802,7 +819,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:7</summary>
+  <summary>Expand Templating =>examples:8</summary>
         
 
 
@@ -838,6 +855,11 @@ import DocCardList from '@theme/DocCardList';
 
 [InterceptorTemplate](/docs/InterceptorTemplate)
 
+        
+
+
+[Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+
 </details>
     
 
@@ -872,6 +894,8 @@ import DocCardList from '@theme/DocCardList';
 ```mermaid 
 flowchart LR;
 
+
+    Actor--> ActorSrcGen((ActorSrcGen))
 
     AOP--> WhatIAmDoing((WhatIAmDoing))
 
@@ -984,6 +1008,8 @@ flowchart LR;
     EnhancementClass--> CopyTo((CopyTo))
 
     EnhancementClass--> CommonCodeGenerator((CommonCodeGenerator))
+
+    EnhancementClass--> ThisClass((ThisClass))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
@@ -1140,6 +1166,8 @@ flowchart LR;
     Templating--> RSCG_Templating((RSCG_Templating))
 
     Templating--> InterceptorTemplate((InterceptorTemplate))
+
+    Templating--> Minerals.AutoMixins((Minerals.AutoMixins))
 
     Tests--> Rocks((Rocks))
 

@@ -354,7 +354,7 @@ namespace __OptionValidationGeneratedAttributes
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator
 
-### In the same category (EnhancementClass) - 24 other generators
+### In the same category (EnhancementClass) - 25 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -427,4 +427,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Options
 
 
 #### [TelemetryLogging](/docs/TelemetryLogging)
+
+
+#### [ThisClass](/docs/ThisClass)
 
