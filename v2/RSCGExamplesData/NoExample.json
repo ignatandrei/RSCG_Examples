@@ -798,5 +798,31 @@
     "ID": 160,
     "name": "https://github.com/StevenThuriot/TableStorage",
     "why": "later"
+  },
+  {
+    "ID": 161,
+    "name": "Hexa.Protobuf https://github.com/HexaEngine/Hexa.Protobuf",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 162,
+    "name": "FactoryGenerator https://github.com/westermo/FactoryGenerator",
+    "why":"later"
+  },
+  {
+    "ID": 163,
+    "name": "Neon.Roslyn https://www.nuget.org/packages/Neon.Roslyn",
+    "why":"old ISourceGenerator"
+  },
+  {
+    "ID": 164,
+    "name": "Minerals.AutoDomain https://github.com/SzymonHalucha/Minerals.AutoDomain",
+    "why":"later"
+  },
+  {
+    "ID": 165,
+    "name":"Minerals.AutoCQRS https://github.com/SzymonHalucha/Minerals.AutoCQRS",
+    "why":"later"
   }
+
 ]
