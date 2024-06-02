@@ -1,0 +1,848 @@
+[
+  {
+    "ID": "ThisAssembly",
+    "Category": 1,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_TimeBombComment",
+    "Category": 1,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "System.Text.Json",
+    "Category": 16,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_Utils",
+    "Category": 8,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "System.Text.RegularExpressions",
+    "Category": 5,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "SkinnyControllersCommon",
+    "Category": 15,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Microsoft.Extensions.Logging",
+    "Category": 5,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_Static",
+    "Category": 20,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CommunityToolkit.Mvvm",
+    "Category": 3,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_AMS",
+    "Category": 1,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoDeconstruct",
+    "Category": 2,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "System.Runtime.InteropServices",
+    "Category": 5,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "QuickConstructor",
+    "Category": 2,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoCtor",
+    "Category": 2,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "dunet",
+    "Category": 10,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Vogen",
+    "Category": 11,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RazorBlade",
+    "Category": 12,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "PartiallyApplied",
+    "Category": 10,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Apparatus.AOT.Reflection",
+    "Category": 5,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "NetEscapades.EnumGenerators",
+    "Category": 19,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Microsoft.Interop.JavaScript.JSImportGenerator",
+    "Category": 5,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_FunctionsWithDI",
+    "Category": 1,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+    "Category": 12,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Rocks",
+    "Category": 13,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "mapperly",
+    "Category": 6,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Podimo.ConstEmbed",
+    "Category": 8,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "EmbeddingResourceCSharp",
+    "Category": 8,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Lombok.NET",
+    "Category": 5,
+    "dtStart": "2023-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Gedaq",
+    "Category": 14,
+    "dtStart": "2023-07-29T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Refit",
+    "Category": 15,
+    "dtStart": "2023-07-31T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MorrisMoxy",
+    "Category": 12,
+    "dtStart": "2023-08-01T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Mediator",
+    "Category": 1,
+    "dtStart": "2023-08-02T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Matryoshki",
+    "Category": 20,
+    "dtStart": "2023-08-03T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MemoryPack",
+    "Category": 5,
+    "dtStart": "2023-08-04T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "DeeDee",
+    "Category": 1,
+    "dtStart": "2023-08-05T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ProxyGen",
+    "Category": 20,
+    "dtStart": "2023-08-06T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoRegisterInject",
+    "Category": 7,
+    "dtStart": "2023-08-07T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "EnumClass",
+    "Category": 19,
+    "dtStart": "2023-08-08T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Breezy",
+    "Category": 14,
+    "dtStart": "2023-08-09T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "FastGenericNew",
+    "Category": 5,
+    "dtStart": "2023-08-10T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "GeneratorEquals",
+    "Category": 5,
+    "dtStart": "2023-08-11T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Immutype",
+    "Category": 5,
+    "dtStart": "2023-08-12T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "spreadcheetah",
+    "Category": 12,
+    "dtStart": "2023-08-13T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "zomp",
+    "Category": 5,
+    "dtStart": "2023-08-14T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "IDisp",
+    "Category": 18,
+    "dtStart": "2023-08-15T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "NextGenMapper",
+    "Category": 6,
+    "dtStart": "2023-08-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Injectio",
+    "Category": 7,
+    "dtStart": "2023-08-17T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "PropChange",
+    "Category": 3,
+    "dtStart": "2023-08-18T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Strongly",
+    "Category": 11,
+    "dtStart": "2023-08-19T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Ridge",
+    "Category": 13,
+    "dtStart": "2023-08-20T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "OneOf",
+    "Category": 10,
+    "dtStart": "2023-08-21T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Gobie",
+    "Category": 12,
+    "dtStart": "2023-08-22T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_WebAPIExports",
+    "Category": 15,
+    "dtStart": "2023-08-23T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoDTO",
+    "Category": 6,
+    "dtStart": "2023-08-24T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "M31FluentAPI",
+    "Category": 5,
+    "dtStart": "2023-08-25T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Roozie.AutoInterface",
+    "Category": 20,
+    "dtStart": "2023-08-26T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Memo",
+    "Category": 10,
+    "dtStart": "2023-08-27T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ThisAssembly_Resources",
+    "Category": 8,
+    "dtStart": "2023-09-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "SourceGenerator.Helper.CopyCode",
+    "Category": 9,
+    "dtStart": "2023-09-17T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "SafeRouting",
+    "Category": 15,
+    "dtStart": "2023-09-23T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ProtobufSourceGenerator",
+    "Category": 16,
+    "dtStart": "2023-09-24T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_Decorator",
+    "Category": 5,
+    "dtStart": "2023-09-30T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "StringLiteral",
+    "Category": 17,
+    "dtStart": "2023-10-01T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ResXGenerator",
+    "Category": 8,
+    "dtStart": "2023-10-02T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Disposer",
+    "Category": 18,
+    "dtStart": "2023-10-03T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "BuilderGenerator",
+    "Category": 4,
+    "dtStart": "2023-10-04T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MapTo",
+    "Category": 6,
+    "dtStart": "2023-10-05T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "JsonPolymorphicGenerator",
+    "Category": 16,
+    "dtStart": "2023-10-06T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_Templating",
+    "Category": 12,
+    "dtStart": "2023-10-07T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MagicMap",
+    "Category": 6,
+    "dtStart": "2023-10-08T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "DisposableHelpers",
+    "Category": 18,
+    "dtStart": "2023-10-09T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Poly",
+    "Category": 5,
+    "dtStart": "2023-10-10T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "IDisposableGenerator",
+    "Category": 18,
+    "dtStart": "2023-10-11T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CredFetoEnum",
+    "Category": 19,
+    "dtStart": "2023-10-12T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "StaticReflection",
+    "Category": 5,
+    "dtStart": "2023-10-13T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "UnitGenerator",
+    "Category": 11,
+    "dtStart": "2023-10-15T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "DynamicsMapper",
+    "Category": 6,
+    "dtStart": "2023-10-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MinimalApiBuilder",
+    "Category": 15,
+    "dtStart": "2023-10-26T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "DudNet",
+    "Category": 5,
+    "dtStart": "2023-10-27T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoConstructor",
+    "Category": 2,
+    "dtStart": "2023-10-28T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "N.SourceGenerators.UnionTypes",
+    "Category": 10,
+    "dtStart": "2023-10-29T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "jscsg",
+    "Category": 16,
+    "dtStart": "2023-10-30T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "PrimaryParameter",
+    "Category": 2,
+    "dtStart": "2023-11-15T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Biwen.AutoClassGen",
+    "Category": 20,
+    "dtStart": "2023-11-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "OptValidator",
+    "Category": 5,
+    "dtStart": "2023-11-17T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ConfigBinder",
+    "Category": 15,
+    "dtStart": "2023-11-18T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RDG",
+    "Category": 15,
+    "dtStart": "2023-11-19T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "COM",
+    "Category": 1,
+    "dtStart": "2023-11-20T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "InterceptorTemplate",
+    "Category": 12,
+    "dtStart": "2023-11-29T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "TelemetryLogging",
+    "Category": 5,
+    "dtStart": "2023-11-30T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Ling.Audit",
+    "Category": 5,
+    "dtStart": "2023-12-12T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_UtilityTypes",
+    "Category": 5,
+    "dtStart": "2023-12-22T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Mocklis",
+    "Category": 13,
+    "dtStart": "2024-01-03T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AspectGenerator",
+    "Category": 5,
+    "dtStart": "2024-01-07T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CopyCat",
+    "Category": 20,
+    "dtStart": "2024-01-09T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "HsuSgSync",
+    "Category": 5,
+    "dtStart": "2024-01-10T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "DomainPrimitives",
+    "Category": 11,
+    "dtStart": "2024-01-11T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "FUD",
+    "Category": 10,
+    "dtStart": "2024-01-18T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MakeInterface",
+    "Category": 20,
+    "dtStart": "2024-01-19T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "BuildInfo",
+    "Category": 1,
+    "dtStart": "2024-01-20T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "EmbedRes",
+    "Category": 8,
+    "dtStart": "2024-01-21T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Blazorators",
+    "Category": 21,
+    "dtStart": "2024-01-22T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "HangfireRecurringJob",
+    "Category": 22,
+    "dtStart": "2024-01-25T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "NotNotAppSettings",
+    "Category": 8,
+    "dtStart": "2024-01-26T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Weave",
+    "Category": 8,
+    "dtStart": "2024-01-27T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "WIAD",
+    "Category": 23,
+    "dtStart": "2024-01-28T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "NetAutomaticInterface",
+    "Category": 20,
+    "dtStart": "2024-01-29T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CommandLine",
+    "Category": 1,
+    "dtStart": "2024-02-11T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "FunicularSwitch",
+    "Category": 10,
+    "dtStart": "2024-02-12T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "jab",
+    "Category": 7,
+    "dtStart": "2024-02-13T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "cachesourcegenerator",
+    "Category": 10,
+    "dtStart": "2024-02-14T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "OptionToStringGenerator",
+    "Category": 5,
+    "dtStart": "2024-02-15T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "sourcedepend",
+    "Category": 2,
+    "dtStart": "2024-02-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "corecraft",
+    "Category": 8,
+    "dtStart": "2024-02-17T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "UnionsGenerator",
+    "Category": 10,
+    "dtStart": "2024-02-18T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CopyTo",
+    "Category": 5,
+    "dtStart": "2024-02-19T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "PlantUmlClassDiagramGenerator",
+    "Category": 1,
+    "dtStart": "2024-02-20T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_Wait",
+    "Category": 1,
+    "dtStart": "2024-02-21T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoGen",
+    "Category": 6,
+    "dtStart": "2024-02-22T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "LingoGen",
+    "Category": 8,
+    "dtStart": "2024-02-23T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoSpectre",
+    "Category": 1,
+    "dtStart": "2024-02-24T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RSCG_JSON2Class",
+    "Category": 8,
+    "dtStart": "2024-02-29T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CodeAnalysis",
+    "Category": 9,
+    "dtStart": "2024-03-01T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Architect.DomainModeling",
+    "Category": 4,
+    "dtStart": "2024-03-02T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "AutoInvoke.Generator",
+    "Category": 1,
+    "dtStart": "2024-03-03T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "LinqGen.Generator",
+    "Category": 1,
+    "dtStart": "2024-03-04T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "TypeUtilities",
+    "Category": 10,
+    "dtStart": "2024-03-05T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Farskeptic.AutoCompose",
+    "Category": 20,
+    "dtStart": "2024-03-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "CommonCodeGenerator",
+    "Category": 5,
+    "dtStart": "2024-04-03T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MSTest",
+    "Category": 13,
+    "dtStart": "2024-04-04T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "EnumUtilities",
+    "Category": 19,
+    "dtStart": "2024-04-05T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "UnionGen",
+    "Category": 10,
+    "dtStart": "2024-04-05T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "FusionReactor",
+    "Category": 19,
+    "dtStart": "2024-04-06T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "StronglyTypedUid",
+    "Category": 11,
+    "dtStart": "2024-04-07T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "BitsKit",
+    "Category": 24,
+    "dtStart": "2024-04-15T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "MinimalApis.Discovery",
+    "Category": 15,
+    "dtStart": "2024-04-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Minerals.AutoInterfaces",
+    "Category": 20,
+    "dtStart": "2024-04-17T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "RossLean.StringificationGenerator",
+    "Category": 9,
+    "dtStart": "2024-04-18T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ThisClass",
+    "Category": 5,
+    "dtStart": "2024-04-19T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "Minerals.AutoMixins",
+    "Category": 12,
+    "dtStart": "2024-04-20T00:00:00",
+    "show": true
+  },
+  {
+    "ID": "ActorSrcGen",
+    "Category": 25,
+    "dtStart": "2024-05-01T00:00:00",
+    "show": true
+  }
+]

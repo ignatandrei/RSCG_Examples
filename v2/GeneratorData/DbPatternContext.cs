@@ -15,6 +15,7 @@ public class DbRSCGContext : DbContext
 
     public DbSet<NoExample> NoExamples { get; set; } 
 
+    public DbSet<GeneratorDataRec> Examples { get; set; } 
 
 
 }

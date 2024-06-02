@@ -16,7 +16,7 @@ public class Description
     [JsonIgnore]
     public DateTime generatedDate { get; internal set; }
     public string? GeneratorKey { get; internal set; }
-    public GeneratorData? GeneratorData { get; internal set; }
+    public GeneratorDataRec? GeneratorData { get; internal set; }
 
     [JsonIgnore]
     public string? rootFolder;

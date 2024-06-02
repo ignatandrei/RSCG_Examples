@@ -29,8 +29,17 @@ try
     }
     DbRSCGContext db=new (originalFolder);
     var noExamples = db.NoExamples.ToArray();
-    //db.NoExamples.AddRange(NoExample.Data());
-    //db.SaveChanges();
+    var examplesRec = db.Examples.ToArray();
+    //var genEx= GeneratorDataRec
+    //    .Data()
+    //    .Select(it =>
+    //    {
+    //        it.Value.ID = it.Key;
+    //        return it.Value;
+    //    })
+    //    .ToArray();
+    ////db.Examples.AddRange(genEx);
+    ////db.SaveChanges();
     //var x = 0;
     //if (x == 0) return;
     Console.WriteLine("New generator?(press enter for none in 5 seconds)");
@@ -111,7 +120,7 @@ $$"""
     //    return;
 
     string folder = Path.Combine(originalFolder,"v2");
-    var m = new MultiGeneratorV2(folder, noExamples);
+    var m = new MultiGeneratorV2(folder, noExamples,examplesRec);
     //await m.OpenFindIIncremental();
     var sources = await m.GatherData();
     var all = sources!.Union(m.SourceNoRSCG()).ToArray();

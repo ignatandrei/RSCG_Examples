@@ -36,30 +36,6 @@
     
 
         ,{
-        "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/_Imports_razor.g.cs",
-        "description": "File _Imports_razor.g.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_razor.g.cs",
-        "description": "File Pages_Index_razor.g.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/MainLayout_razor.g.cs",
-        "description": "File MainLayout_razor.g.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/App_razor.g.cs",
-        "description": "File App_razor.g.cs ",
-        "line": 1
-        }
-    
-        ,{
         "file": "TestBlazor/obj/GX/Microsoft.Interop.JavaScript.JSImportGenerator/Microsoft.Interop.JavaScript.JSImportGenerator/JSImports.g.cs",
         "description": "File JSImports.g.cs ",
         "line": 1
@@ -68,6 +44,30 @@
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.Interop.JavaScript.JSImportGenerator/Microsoft.Interop.JavaScript.JSExportGenerator/JSExports.g.cs",
         "description": "File JSExports.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/_Imports_razor.g.cs",
+        "description": "File _Imports_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_razor.g.cs",
+        "description": "File Pages_Index_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/MainLayout_razor.g.cs",
+        "description": "File MainLayout_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/App_razor.g.cs",
+        "description": "File App_razor.g.cs ",
         "line": 1
         }
     
