@@ -80,6 +80,9 @@
       <Watch Include="**\*.txt" />
 	  <Watch Remove="**\*.FileListAbsolute*.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeneratorData\GeneratorData.csproj" />
+  </ItemGroup>
   
   
 </Project>

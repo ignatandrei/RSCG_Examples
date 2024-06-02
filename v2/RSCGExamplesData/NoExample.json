@@ -1,0 +1,802 @@
+[
+  {
+    "ID": 1,
+    "name": "AutoEmbed https://github.com/chsienki/AutoEmbed                           ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 2,
+    "name": "Cloneable https://github.com/mostmand/Cloneable                           ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 3,
+    "name": "fonderie https://github.com/jeromelaban/fonderie                          ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 4,
+    "name": "Generators.Blazor https://github.com/excubo-ag/Generators.Blazor          ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 5,
+    "name": "Generators.Grouping https://github.com/excubo-ag/Generators.Grouping      ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 6,
+    "name": "JsonMergePatch https://github.com/ladeak/JsonMergePatch                   ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 7,
+    "name": "MemoizeSourceGenerator https://github.com/Zoxive/MemoizeSourceGenerator   ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 8,
+    "name": "MiniRazor https://github.com/Tyrrrz/MiniRazor/                            ",
+    "why": "archived"
+  },
+  {
+    "ID": 9,
+    "name": "MockGen https://github.com/thomas-girotto/MockGen                         ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 10,
+    "name": "RoslynWeave https://github.com/Jishun/RoslynWeave                        ",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 11,
+    "name": "StaticProxyGenerator https://github.com/robertturner/StaticProxyGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 12,
+    "name": "WrapperValueObject https://github.com/martinothamar/WrapperValueObject",
+    "why": "not maintained as in readme"
+  },
+  {
+    "ID": 13,
+    "name": "ApiClientGenerator https://github.com/surgicalcoder/ApiClientGenerator",
+    "why": "seems complicated with output file"
+  },
+  {
+    "ID": 14,
+    "name": "TypealizR https://github.com/earloc/TypealizR",
+    "why": "depends on Microsoft.Extensions.Localization"
+  },
+  {
+    "ID": 15,
+    "name": "StrongInject https://github.com/YairHalberstadt/stronginject/",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 16,
+    "name": "DependencyPropertyGenerator https://github.com/HavenDV/DependencyPropertyGenerator",
+    "why": "example with MAUI"
+  },
+  {
+    "ID": 17,
+    "name": "Intellenum https://github.com/SteveDunn/Intellenum",
+    "why": "not understand how to use "
+  },
+  {
+    "ID": 18,
+    "name": "Tinyhand https://github.com/archi-Doc/Tinyhand",
+    "why": "tried, need documentation"
+  },
+  {
+    "ID": 19,
+    "name": "Maui.BindableProperty.Generator https://github.com/rrmanzano/maui-bindableproperty-generator",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 20,
+    "name": "AdaskoTheBeAsT.Identity.Dapper https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 21,
+    "name": "AjaxService.Gen https://github.com/MrAliSalehi/AjaxService",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 22,
+    "name": "AnyOf https://github.com/StefH/AnyOf",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 23,
+    "name": "AutoDeconstructable https://github.com/nemesissoft/Nemesis.TextParsers/tree/master/Nemesis.TextParsers.CodeGen/Deconstructable",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 24,
+    "name": "AutoFilterer.Generators https://github.com/enisn/AutoFilterer",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 25,
+    "name": "AutoInterface https://github.com/beakona/AutoInterface",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 26,
+    "name": "Avalonia.NameGenerator https://github.com/AvaloniaUI/Avalonia.NameGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 27,
+    "name": "avatar https://github.com/kzu/avatar",
+    "why": "archived"
+  },
+  {
+    "ID": 28,
+    "name": "Azura https://github.com/cyriaca/Azura",
+    "why": " System.Text.Json has already not refelection serializer"
+  },
+  {
+    "ID": 29,
+    "name": "BetterEnums https://github.com/Ceiridge/BetterEnums",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 30,
+    "name": "BigMachines https://github.com/archi-Doc/BigMachines",
+    "why": "state machine - full of features. To be analyzed , need help"
+  },
+  {
+    "ID": 31,
+    "name": "BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 32,
+    "name": "BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 33,
+    "name": "boilerplatezero https://github.com/IGood/boilerplatezero",
+    "why": "not yet ready to test something that depends on WPF"
+  },
+  {
+    "ID": 34,
+    "name": "Buildenator https://github.com/progala2/Buildenator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 35,
+    "name": "ComputeSharp https://github.com/Sergio0694/ComputeSharp",
+    "why": "not having nuget, but having IIncrementalGenerator"
+  },
+  {
+    "ID": 36,
+    "name": "CoreWCF https://github.com/CoreWCF/CoreWCF",
+    "why": "not having nuget, but having IIncrementalGenerator"
+  },
+  {
+    "ID": 37,
+    "name": "Data Builder Generator https://github.com/dasMulli/data-builder-generator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 38,
+    "name": "DependencyManagement https://github.com/essy-ecosystem/dependency-management",
+    "why": "DI container. To be analyzed"
+  },
+  {
+    "ID": 39,
+    "name": "DevExpress.Mvvm.CodeGenerators https://github.com/DevExpress/DevExpress.Mvvm.CodeGenerators",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 40,
+    "name": "docopt.net https://github.com/docopt/docopt.net",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 41,
+    "name": "dot-env-generator https://github.com/betwixt-labs/dot-env-generator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 42,
+    "name": "dotVariant https://github.com/mknejp/dotvariant",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 43,
+    "name": "Durian https://github.com/piotrstenke/Durian",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 44,
+    "name": "Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 45,
+    "name": "EnumerationClassGenerator https://github.com/HamedFathi/EnumerationClassGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 46,
+    "name": "EnumFastToStringDotNet https://github.com/Spinnernicholas/EnumFastToStringDotNet",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 47,
+    "name": "EnumUtilitiesGenerator https://github.com/leoformaggi/enum-utilities-generator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 48,
+    "name": "Fairy https://github.com/hermanussen/Fairy",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 49,
+    "name": "FastEnumGenerator https://github.com/musictopia2/FastEnumGenerator",
+    "why": "no readme"
+  },
+  {
+    "ID": 50,
+    "name": "Flattening https://github.com/Kros-sk/Kros.Generators.Flattening",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 51,
+    "name": "FluentBuilder https://github.com/StefH/FluentBuilder",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 52,
+    "name": "GenerateHelperLibraries https://github.com/musictopia2/GenerateHelperLibraries",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 53,
+    "name": "GitBuildInfo.SourceGenerator https://github.com/Elskom/GitBuildInfo.SourceGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 54,
+    "name": "GraphQL.Tools https://github.com/MoienTajik/GraphQL.Tools",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 55,
+    "name": "GrpcInjection https://github.com/juniorporfirio/grpcinjection",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 56,
+    "name": "GRPC-Mock-Server https://github.com/cezarypiatek/GRPC-Mock-Server",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 57,
+    "name": "HttpClientCodeGenerator https://github.com/Jalalx/HttpClientCodeGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 58,
+    "name": "H.NSwag.Generator https://github.com/HavenDV/H.NSwag.Generator",
+    "why": "nswag , need help"
+  },
+  {
+    "ID": 59,
+    "name": "Imp.NET https://github.com/DouglasDwyer/Imp.NET",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 60,
+    "name": "InterfaceGenerator https://github.com/daver32/InterfaceGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 61,
+    "name": "IoTHubClientGenerator https://github.com/alonf/IoTHubClientGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 62,
+    "name": "JsonByExampleGenerator https://github.com/hermanussen/JsonByExampleGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 63,
+    "name": "JsonDeserializeResourceSourceGenerator https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator",
+    "why": "no readme"
+  },
+  {
+    "ID": 64,
+    "name": "JsonSerializerContextGenerator https://github.com/musictopia2/JsonSerializerContextGenerator",
+    "why": "no readme"
+  },
+  {
+    "ID": 65,
+    "name": "JsonSrcGen https://github.com/trampster/JsonSrcGen",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 66,
+    "name": "kli.Localize https://github.com/kl1mm/localize",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 67,
+    "name": "lambdajection https://github.com/cythral/lambdajection",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 68,
+    "name": "Lazysh https://github.com/B1Z0N/LazyshGen",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 69,
+    "name": "LoggingDecoratorGenerator https://github.com/DavidFineboym/LoggingDecoratorGenerator",
+    "why": "Microsoft have done same feature"
+  },
+  {
+    "ID": 70,
+    "name": "MapDataReader https://github.com/jitbit/MapDataReader",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 71,
+    "name": "MappingCloningExtensions https://github.com/musictopia2/MappingCloningExtensions",
+    "why": "no readme"
+  },
+  {
+    "ID": 72,
+    "name": "MediatR controllers generator https://github.com/Burgyn/MMLib.MediatR.Generators",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 73,
+    "name": "MemberAccessGenerator https://github.com/ufcpp/MemberAccessGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 74,
+    "name": "MockableStaticGenerator https://github.com/HamedFathi/MockableStaticGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 75,
+    "name": "MockSourceGenerator https://github.com/hermanussen/MockSourceGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 76,
+    "name": "MrMeeseeks.DIE https://github.com/Yeah69/MrMeeseeks.DIE",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 77,
+    "name": "MrMeeseeks.ResXToViewModelGenerator https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 78,
+    "name": "MrMeeseeks.StaticDelegateGenerator https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 79,
+    "name": "MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 80,
+    "name": "MvvmGen https://github.com/thomasclaudiushuber/mvvmgen",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 81,
+    "name": "net_automatic_interface https://github.com/codecentric/net_automatic_interface",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 82,
+    "name": "Plastic https://github.com/sang-hyeon/Plastic",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 83,
+    "name": "PrimaryConstructor https://github.com/chaowlert/PrimaryConstructor",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 84,
+    "name": "PrimitiveStaticDataGenerator https://github.com/iiweis/PrimitiveStaticDataGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 85,
+    "name": "PrintMembersGenerator https://github.com/Youssef1313/PrintMembersGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 86,
+    "name": "ProxyInterfaceGenerator https://github.com/StefH/ProxyInterfaceSourceGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 87,
+    "name": "Pure.DI https://github.com/DevTeam/Pure.DI",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 88,
+    "name": "RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 89,
+    "name": "ScenarioTests https://github.com/koenbeuk/ScenarioTests",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 90,
+    "name": "SerdeDn serde-sn) https://github.com/serdedotnet/serde",
+    "why": "serializer. Done by MSFT with System.Text.Json"
+  },
+  {
+    "ID": 91,
+    "name": "SmallSharp https://github.com/devlooped/SmallSharp",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 92,
+    "name": "SmartAnnotations https://github.com/fiseni/SmartAnnotations",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 93,
+    "name": "SourceApi https://github.com/alekshura/SourceApi",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 94,
+    "name": "SourceConfig https://github.com/alekshura/SourceConfig",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 95,
+    "name": "SourceGeneratorQuery https://github.com/roeibajayo/SourceGeneratorQuery",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 96,
+    "name": "SourceInject https://github.com/giggio/sourceinject/",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 97,
+    "name": "SourceMapper https://github.com/paiden/SourceMapper/",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 98,
+    "name": "SourceMapper https://github.com/alekshura/SourceMapper",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 99,
+    "name": "SqlMarshal https://github.com/kant2002/SqlMarshal",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 100,
+    "name": "ST.NSwag.ServerSourceGenerator https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator",
+    "why": "swagger,need help"
+  },
+  {
+    "ID": 101,
+    "name": "StackXML https://github.com/ZingBallyhoo/StackXML",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 102,
+    "name": "StronglyTypedEmbeddedResources https://github.com/surgicalcoder/StronglyTypedEmbeddedResources",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 103,
+    "name": "StructPacker https://github.com/RudolfKurka/StructPacker",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 104,
+    "name": "Svg to C# Source Generators https://github.com/wieslawsoltes/Svg.Skia",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 105,
+    "name": "TeuJson https://github.com/Terria-K/TeuJson",
+    "why": "json a class, was done in System.Text.Json"
+  },
+  {
+    "ID": 106,
+    "name": "Thunderboltloc https://github.com/AlyElhaddad/ThunderboltIoc",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 107,
+    "name": "ToString https://github.com/Burgyn/MMLib.ToString",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 108,
+    "name": "Transplator https://github.com/atifaziz/Transplator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 109,
+    "name": "TupleOverloadGenerator https://github.com/ProphetLamb/TupleOverloadGenerator",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 110,
+    "name": "TxtToListGenerator https://github.com/musictopia2/TxtToListGenerator",
+    "why": "no readme"
+  },
+  {
+    "ID": 111,
+    "name": "ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 112,
+    "name": "ValueLink https://github.com/archi-Doc/ValueLink",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 113,
+    "name": "ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 114,
+    "name": "Visor https://github.com/Tinkoff/Visor",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 115,
+    "name": "PolySharp https://github.com/Sergio0694/PolySharp",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 116,
+    "name": "Figgle, https://github.com/drewnoakes/figgle",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 117,
+    "name": "Jos.Enumeration, https://github.com/joseftw/jos.enumeration",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 118,
+    "name": "Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 119,
+    "name": "Tortuga.Shipwright https://github.com/TortugaResearch/Tortuga.Shipwright",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 120,
+    "name": "FastEndpoints https://github.com/FastEndpoints/FastEndpoints",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 121,
+    "name": "ControllerGenerator https://github.com/cloud0259/ControllerGenerator",
+    "why": "issue opened"
+  },
+  {
+    "ID": 122,
+    "name": "CSV-Parser-Generator https://github.com/LokiMidgard/CSV-Parser-Generator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 123,
+    "name": "FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 124,
+    "name": "lucide-blazor https://github.com/brecht-vde/lucide-blazor/",
+    "why": "issue opened"
+  },
+  {
+    "ID": 125,
+    "name": "HubClientProxyGenerator https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator",
+    "why": "not having nuget, but having IIncrementalGenerator"
+  },
+  {
+    "ID": 126,
+    "name": "ArchomedaDisposeGenerator https://github.com/Archomeda/DisposeGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 127,
+    "name": "VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/",
+    "why": "issue opened"
+  },
+  {
+    "ID": 128,
+    "name": "Pipelines https://github.com/DumplingsDevs/Pipelines/",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 129,
+    "name": "FastAutoMapper https://github.com/myblindy/FastAutoMapper",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 130,
+    "name": "AttributeFactoryGenerator https://github.com/PaulBraetz/AttributeFactoryGenerator",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 131,
+    "name": "TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",
+    "why": "later"
+  },
+  {
+    "ID": 132,
+    "name": "UnitTestBlazor https://github.com/bUnit-dev/bUnit",
+    "why": "issue opened"
+  },
+  {
+    "ID": 133,
+    "name": "Dexie https://github.com/b-straub/DexieNET",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 134,
+    "name": "Overloader https://github.com/emptycoder/Overloader",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 135,
+    "name": "CsvMole https://github.com/pippinmole/CsvMole.NET",
+    "why": "not having nuget, but having IIncrementalGenerator"
+  },
+  {
+    "ID": 136,
+    "name": "epj.RouteGenerator https://github.com/ewerspej/epj.RouteGenerator",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 137,
+    "name": "JsonSourceGenerator https://github.com/Pilchie/JsonSourceGenerator",
+    "why": "not having nuget, but having IIncrementalGenerator"
+  },
+  {
+    "ID": 138,
+    "name": "ManagedDotnetProfiler https://github.com/kevingosse/ManagedDotnetProfiler",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 139,
+    "name": "CsWin32 https://github.com/microsoft/CsWin32",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 140,
+    "name": "EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 141,
+    "name": "Mediator https://github.com/martinothamar/Mediator",
+    "why": "later"
+  },
+  {
+    "ID": 142,
+    "name": "NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 143,
+    "name": "ReForge.Union https://github.com/nalcorso/ReForge.Union",
+    "why": "not having nuget, but having IIncrementalGenerator"
+  },
+  {
+    "ID": 144,
+    "name": "SogePoco https://github.com/d-p-y/SogePoco",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 145,
+    "name": "ArgumentParsing https://github.com/DoctorKrolic/ArgumentParsing",
+    "why": "later"
+  },
+  {
+    "ID": 146,
+    "name": "DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 147,
+    "name": "Enum.Source.Generator https://github.com/EngRajabi/Enum.Source.Generator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 148,
+    "name": "PureHDF https://github.com/Apollo3zehn/PureHDF",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 149,
+    "name": "SourceCrafter.HttpServiceClientGenerator https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/",
+    "why": "later"
+  },
+  {
+    "ID": 150,
+    "name": "ESG https://github.com/Michmcb/EnumSourceGenerator",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 151,
+    "name": "DUnion https://github.com/danny-may/DUnion/",
+    "why": "issue opened"
+  },
+  {
+    "ID": 152,
+    "name": "Depso https://github.com/notanaverageman/Depso",
+    "why": "later"
+  },
+  {
+    "ID": 153,
+    "name": "EF https://www.nuget.org/packages/Visium.Anima.EntityFrameworkCore.SourceGeneration",
+    "why": "no readme"
+  },
+  {
+    "ID": 154,
+    "name": "https://github.com/nevsnirG/MinimalRichDomain",
+    "why": "old ISourceGenerator"
+  },
+  {
+    "ID": 155,
+    "name": "https://github.com/JasonBock/CslaGeneratorSerialization",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 156,
+    "name": "https://github.com/Stepami/visitor-net",
+    "why": "later"
+  },
+  {
+    "ID": 157,
+    "name": "https://github.com/MeltyPlayer/Schema",
+    "why": "too complicated for me, need help"
+  },
+  {
+    "ID": 158,
+    "name": "https://github.com/SzymonHalucha/Minerals.AutoCommands",
+    "why": "later"
+  },
+  {
+    "ID": 159,
+    "name": "https://github.com/OrgEleCho/EleCho.Internationalization",
+    "why": "issue opened"
+  },
+  {
+    "ID": 160,
+    "name": "https://github.com/StevenThuriot/TableStorage",
+    "why": "later"
+  }
+]

@@ -18,3 +18,4 @@ global using System.Net.Http;
 global using System.Net.NetworkInformation;
 global using System.Reflection;
 global using System.Text;
+global using GeneratorData;
