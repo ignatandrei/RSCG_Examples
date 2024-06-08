@@ -823,6 +823,11 @@
     "ID": 165,
     "name":"Minerals.AutoCQRS https://github.com/SzymonHalucha/Minerals.AutoCQRS",
     "why":"later"
+  },
+  {
+    "ID": 166,
+    "name":"RazorSlices https://github.com/DamianEdwards/RazorSlices",
+    "why":"later"
   }
 
 ]
