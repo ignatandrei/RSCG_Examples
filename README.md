@@ -3316,7 +3316,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=epj.RouteGenerator
 
 15) [FactoryGenerator]( https://github.com/westermo/FactoryGenerator) , https://github.com/westermo/FactoryGenerator 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FactoryGenerator&body=https://github.com/westermo/FactoryGenerator
 

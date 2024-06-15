@@ -200,7 +200,7 @@ Why I have not put example: old ISourceGenerator
 
 49)FactoryGenerator https://github.com/westermo/FactoryGenerator  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 50)Fairy https://github.com/hermanussen/Fairy  
 
