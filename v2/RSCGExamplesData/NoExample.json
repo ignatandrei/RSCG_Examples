@@ -757,7 +757,7 @@
   {
     "ID": 152,
     "name": "Depso https://github.com/notanaverageman/Depso",
-    "why": "later"
+    "why": "issue opened"
   },
   {
     "ID": 153,
@@ -827,6 +827,11 @@
   {
     "ID": 166,
     "name":"RazorSlices https://github.com/DamianEdwards/RazorSlices",
+    "why":"later"
+  },
+  {
+    "ID": 167,
+    "name":"observable https://github.com/notanaverageman/Bindables",
     "why":"later"
   }
 
