@@ -1814,7 +1814,9 @@ Generated on : 2023-09-24 => 24 September 2023
 
 Author: Laszlo Deak
 
-A source generator that generates helper classes with properties attributes with ProtoMember attribute. 
+A source generator that generates helper classes with properties attributes with ProtoMember attribute.
+
+ 
 
 Nuget: [https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/) 
 

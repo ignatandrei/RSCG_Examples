@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 141 RSCG by category 
-description: 141 RSCG by category 
+title: 141 RSCG list by category
+description: 141 RSCG list by category
 slug: /rscg-examples
 ---
 

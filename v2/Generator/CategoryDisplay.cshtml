@@ -1,0 +1,16 @@
+@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>;
+<h1>@Model.Key</h1>
+
+Number RSCG: @Model.Value.Count()
+@{
+    int i=1;
+    var values = Model.Value.OrderBy(it=>it.Generator?.Name).ToArray();
+}
+@foreach (var rscgV in values)
+{
+    string data = $"[{rscgV.Generator?.Name}](/docs/{rscgV.Generator?.Name})";
+<text>
+   @(i++) @data
+</text>
+}
+    

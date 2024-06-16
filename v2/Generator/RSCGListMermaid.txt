@@ -1,7 +1,7 @@
 ﻿---
 sidebar_position: 30
-title: {{nr}} RSCG by category 
-description: {{nr}} RSCG by category 
+title: {{nr}} RSCG list by category
+description: {{nr}} RSCG list by category
 slug: /rscg-examples
 ---
 

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 25
-title: List of RSCG
+title: Time based List of RSCG
 description: the RSCG list in time order
 slug: /List-of-RSCG
 ---
