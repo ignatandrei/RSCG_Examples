@@ -2551,8 +2551,11 @@ WHERE
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq
 
-### In the same category (Database) - 1 other generators
+### In the same category (Database) - 2 other generators
 
 
 #### [Breezy](/docs/Breezy)
+
+
+#### [TableStorage](/docs/TableStorage)
 

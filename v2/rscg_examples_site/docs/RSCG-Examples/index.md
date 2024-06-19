@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 141 RSCG list by category
-description: 141 RSCG list by category
+title: 142 RSCG list by category
+description: 142 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -184,7 +184,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:2</summary>
+  <summary>Expand Database =>examples:3</summary>
         
 
 
@@ -194,6 +194,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Breezy](/docs/Breezy)
+
+        
+
+
+[TableStorage](/docs/TableStorage)
 
 </details>
     
@@ -944,6 +949,8 @@ flowchart LR;
     Database--> Gedaq((Gedaq))
 
     Database--> Breezy((Breezy))
+
+    Database--> TableStorage((TableStorage))
 
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 

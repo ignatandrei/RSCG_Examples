@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TableStorage",
+      "nuget":[
+         "https://www.nuget.org/packages/TableStorage/"
+      ],
+      "link":"https://github.com/StevenThuriot/TableStorage",
+      "author":"Steven Thuriot",
+      "source":"https://github.com/StevenThuriot/TableStorage"
+   },
+   "data":{
+      "goodFor":["Generate resources for accessing Azure Table Storage"],
+      "csprojDemo":"AzureStorage.csproj",
+      "csFiles":["Program.cs","Database.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

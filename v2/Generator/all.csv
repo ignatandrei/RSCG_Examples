@@ -140,3 +140,4 @@ Nr,Key,Source,Category
 139,ThisClass, https://github.com/trympet/ThisClass,EnhancementClass
 140,Minerals.AutoMixins, https://github.com/SzymonHalucha/Minerals.AutoMixins,Templating
 141,ActorSrcGen, https://github.com/aabs/ActorSrcGen,Actor
+142,TableStorage, https://github.com/StevenThuriot/TableStorage,Database
