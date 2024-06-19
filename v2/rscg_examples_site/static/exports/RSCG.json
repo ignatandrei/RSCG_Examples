@@ -1129,6 +1129,14 @@
       "Source": "https://github.com/aabs/ActorSrcGen",
       "Category": "Actor",
       "AddedOn": "2024-05-01T00:00:00"
+    },
+    {
+      "Name": "TableStorage",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage",
+      "NuGet": "https://www.nuget.org/packages/TableStorage/",
+      "Source": "https://github.com/StevenThuriot/TableStorage",
+      "Category": "Database",
+      "AddedOn": "2024-06-01T00:00:00"
     }
   ]
 }

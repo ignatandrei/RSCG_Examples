@@ -1,6 +1,6 @@
-# RSCG - 141 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 142 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-05-01 => 01 May 2024
+## Latest Update : 2024-06-01 => 01 June 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 141 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 142 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 142. [TableStorage](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
+
+Generated on : 2024-06-01 => 01 June 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Steven Thuriot
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/TableStorage/](https://www.nuget.org/packages/TableStorage/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage)
+
+Source: [https://github.com/StevenThuriot/TableStorage](https://github.com/StevenThuriot/TableStorage)
+
+</details>
+
 ### 141. [ActorSrcGen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ActorSrcGen) , in the [Actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor) category 
 
 Generated on : 2024-05-01 => 01 May 2024
