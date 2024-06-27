@@ -3,7 +3,7 @@
 namespace InjectDemo;
 
 [Inject, Scoped]
-public class Database : IDatabase
+public partial class Database : IDatabase
 {
     private readonly DatabaseCon con;
 
