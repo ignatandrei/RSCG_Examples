@@ -1,6 +1,6 @@
 {
    "generator":{
-      "name":"jab",
+      "name":"FactoryGenerator",
       "nuget":[
          "https://www.nuget.org/packages/FactoryGenerator/"
       ],

@@ -1,0 +1,84 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "FactoryGenerator",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [FactoryGenerator](https://www.nuget.org/packages/FactoryGenerator/) in csproj  ",
+      "pattern": "FactoryGenerator"
+    }
+
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.Lookup.g.cs",
+        "description": "File LifetimeScope.Lookup.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.EnumerableDeclarations.g.cs",
+        "description": "File LifetimeScope.EnumerableDeclarations.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.Declarations.g.cs",
+        "description": "File LifetimeScope.Declarations.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.Constructor.g.cs",
+        "description": "File LifetimeScope.Constructor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.Lookup.g.cs",
+        "description": "File DependencyInjectionContainer.Lookup.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.EnumerableDeclarations.g.cs",
+        "description": "File DependencyInjectionContainer.EnumerableDeclarations.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.Declarations.g.cs",
+        "description": "File DependencyInjectionContainer.Declarations.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.Constructor.g.cs",
+        "description": "File DependencyInjectionContainer.Constructor.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
