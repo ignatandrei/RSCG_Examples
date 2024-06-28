@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 142 RSCG by category 
-description: 142 RSCG by category 
+title: 142 RSCG list by category
+description: 142 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -184,7 +184,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:2</summary>
+  <summary>Expand Database =>examples:3</summary>
         
 
 
@@ -195,13 +195,18 @@ import DocCardList from '@theme/DocCardList';
 
 [Breezy](/docs/Breezy)
 
+        
+
+
+[TableStorage](/docs/TableStorage)
+
 </details>
     
 
 ## DependencyInjection 
 <details>
     
-  <summary>Expand DependencyInjection =>examples:4</summary>
+  <summary>Expand DependencyInjection =>examples:3</summary>
         
 
 
@@ -216,11 +221,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [jab](/docs/jab)
-
-        
-
-
-[FactoryGenerator](/docs/FactoryGenerator)
 
 </details>
     
@@ -950,13 +950,13 @@ flowchart LR;
 
     Database--> Breezy((Breezy))
 
+    Database--> TableStorage((TableStorage))
+
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 
     DependencyInjection--> Injectio((Injectio))
 
     DependencyInjection--> jab((jab))
-
-    DependencyInjection--> FactoryGenerator((FactoryGenerator))
 
     Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 

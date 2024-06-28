@@ -1,1 +1,2 @@
 A source generator that generates helper classes with properties attributes with ProtoMember attribute.
+

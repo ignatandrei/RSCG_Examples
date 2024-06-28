@@ -1131,12 +1131,12 @@
       "AddedOn": "2024-05-01T00:00:00"
     },
     {
-      "Name": "FactoryGenerator",
-      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator",
-      "NuGet": "https://www.nuget.org/packages/FactoryGenerator/",
-      "Source": "https://github.com/westermo/FactoryGenerator",
-      "Category": "DependencyInjection",
-      "AddedOn": "2024-08-27T00:00:00"
+      "Name": "TableStorage",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage",
+      "NuGet": "https://www.nuget.org/packages/TableStorage/",
+      "Source": "https://github.com/StevenThuriot/TableStorage",
+      "Category": "Database",
+      "AddedOn": "2024-06-01T00:00:00"
     }
   ]
 }

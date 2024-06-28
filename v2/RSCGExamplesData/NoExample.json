@@ -805,6 +805,11 @@
     "why": "old ISourceGenerator"
   },
   {
+    "ID": 162,
+    "name": "FactoryGenerator https://github.com/westermo/FactoryGenerator",
+    "why":"issue opened"
+  },
+  {
     "ID": 163,
     "name": "Neon.Roslyn https://www.nuget.org/packages/Neon.Roslyn",
     "why":"old ISourceGenerator"

@@ -27,6 +27,8 @@ Name: **ProtobufSourceGenerator**
 
 A source generator that generates helper classes with properties attributes with ProtoMember attribute.
 
+
+
 Author: Laszlo Deak
 
 NuGet: 

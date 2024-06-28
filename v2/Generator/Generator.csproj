@@ -19,6 +19,7 @@
 		<AdditionalFiles Include="RSCG_Item.cshtml" />
 	</ItemGroup>
   <ItemGroup>
+    <None Remove="CategoryDisplay.cshtml" />
     <None Remove="DocusaurusExample.txt" />
     <None Remove="email.txt" />
     <None Remove="frontReadme.txt" />
@@ -79,6 +80,9 @@
 	  <Watch Include="**\*.cshtml" />
       <Watch Include="**\*.txt" />
 	  <Watch Remove="**\*.FileListAbsolute*.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Watch Remove="CategoryDisplay.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GeneratorData\GeneratorData.csproj" />

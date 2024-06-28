@@ -658,6 +658,16 @@ public class MultiGeneratorV2
             .GroupBy(it=> (it.GeneratorData?.Category ?? Category.None).ToString())
             .ToDictionary(it=>it.Key,it=>it.ToArray());
         //this.MicrosoftRSCG
+        foreach (var item in categDict)
+        {
+            var category = await new CategoryDisplay(item).RenderAsync();
+            var folder = Path.Combine(pathDocusaurus, "docs", "Categories");
+            if(!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
+            var pathCategory = Path.Combine(folder, item.Key + ".md");
+            await File.WriteAllTextAsync(pathCategory, category);
+                
+        }
         var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all,categDict}, 
             memberRenamer:(MemberInfo mi)=> mi.Name);
         var pathIndexMermaid = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples", "index.md");
@@ -702,7 +712,7 @@ public class MultiGeneratorV2
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "Minerals.AutoMixins";
+        var lastGenerator = "ActorSrcGen";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)

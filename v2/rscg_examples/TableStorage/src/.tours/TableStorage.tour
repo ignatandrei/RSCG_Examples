@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TableStorage",
+  "steps": 
+  [
+    {
+      "file": "AzureStorage/AzureStorage.csproj",
+      "description": "First, we add Nuget  [TableStorage](https://www.nuget.org/packages/TableStorage/) in csproj  ",
+      "pattern": "TableStorage"
+    }
+
+        ,{
+        "file": "AzureStorage/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "AzureStorage/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project AzureStorage/AzureStorage.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "AzureStorage/obj/GX/TableStorage.SourceGenerators/TableStorage.SourceGenerators.TableSetModelGenerator/TableSets.g.cs",
+        "description": "File TableSets.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AzureStorage/obj/GX/TableStorage.SourceGenerators/TableStorage.SourceGenerators.TableSetModelGenerator/TableSetAttributes.g.cs",
+        "description": "File TableSetAttributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AzureStorage/obj/GX/TableStorage.SourceGenerators/TableStorage.SourceGenerators.TableContextGenerator/TableContexts.g.cs",
+        "description": "File TableContexts.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "AzureStorage/obj/GX/TableStorage.SourceGenerators/TableStorage.SourceGenerators.TableContextGenerator/TableContextAttribute.g.cs",
+        "description": "File TableContextAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
