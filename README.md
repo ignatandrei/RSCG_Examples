@@ -1,6 +1,6 @@
-# RSCG - 142 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 143 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-06-01 => 01 June 2024
+## Latest Update : 2024-08-27 => 27 August 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 142 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 143 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 143. [FactoryGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
+
+Generated on : 2024-08-27 => 27 August 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Westermo Network Technologies
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/FactoryGenerator/](https://www.nuget.org/packages/FactoryGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator)
+
+Source: [https://github.com/westermo/FactoryGenerator](https://github.com/westermo/FactoryGenerator)
+
+</details>
+
 ### 142. [TableStorage](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
 
 Generated on : 2024-06-01 => 01 June 2024

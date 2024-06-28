@@ -141,3 +141,4 @@ Nr,Key,Source,Category
 140,Minerals.AutoMixins, https://github.com/SzymonHalucha/Minerals.AutoMixins,Templating
 141,ActorSrcGen, https://github.com/aabs/ActorSrcGen,Actor
 142,TableStorage, https://github.com/StevenThuriot/TableStorage,Database
+143,FactoryGenerator, https://github.com/westermo/FactoryGenerator,DependencyInjection

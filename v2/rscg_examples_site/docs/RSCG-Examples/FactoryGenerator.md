@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1420
-title: 142 - FactoryGenerator
+sidebar_position: 1430
+title: 143 - FactoryGenerator
 description: generating DI code
 slug: /FactoryGenerator
 ---
