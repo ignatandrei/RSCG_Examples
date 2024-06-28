@@ -612,7 +612,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 ```csharp showLineNumbers 
-// Generated on 2024-05-11
+// Generated on 2024-06-02
 #pragma warning disable CS8625 // Cannot convert null literal to non-nullable reference type.
 #pragma warning disable CS0108 // hides inherited member.
 

@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"FactoryGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/FactoryGenerator/"
+      ],
+      "link":"https://github.com/westermo/FactoryGenerator",
+      "author":"Westermo Network Technologies",
+      "source":"https://github.com/westermo/FactoryGenerator"
+   },
+   "data":{
+      "goodFor":["generating DI code"],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["Program.cs","Database.cs","Databasecon.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
