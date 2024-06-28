@@ -805,11 +805,6 @@
     "why": "old ISourceGenerator"
   },
   {
-    "ID": 162,
-    "name": "FactoryGenerator https://github.com/westermo/FactoryGenerator",
-    "why":"issue opened"
-  },
-  {
     "ID": 163,
     "name": "Neon.Roslyn https://www.nuget.org/packages/Neon.Roslyn",
     "why":"old ISourceGenerator"
@@ -833,6 +828,15 @@
     "ID": 167,
     "name":"observable https://github.com/notanaverageman/Bindables",
     "why":"later"
+  },
+  {
+    "ID": 168,
+    "name":"decorator-generator https://github.com/CodingFlow/decorator-generator",
+    "why":"old ISourceGenerator"
+  },
+  {
+    "ID": 169,
+    "name":"tecli https://github.com/tyevco/TeCLI",
+    "why":"old ISourceGenerator"
   }
-
 ]
