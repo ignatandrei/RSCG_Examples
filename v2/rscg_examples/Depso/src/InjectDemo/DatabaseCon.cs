@@ -1,12 +1,12 @@
 ﻿
 namespace InjectDemo;
 
-internal class DatabaseCon: IDatabase
+public partial class DatabaseCon:IDatabase
 {
     public string? Connection { get; set; }
     public void Open()
     {
-        Console.WriteLine("open" + Connection);
+        Console.WriteLine("open from database con" );
     }
 }
 

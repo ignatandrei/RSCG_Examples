@@ -1,16 +1,17 @@
 ﻿namespace InjectDemo;
 
-internal class Database : IDatabase
+partial class Database : IDatabase
 {
-    private readonly DatabaseCon con;
+    private readonly IDatabase con;
 
-    public Database(DatabaseCon con)
+    public Database(IDatabase con)
     {
         this.con = con;
     }
     public void Open()
     {
-        Console.WriteLine($"open {con.Connection}");
+        Console.WriteLine($"open from database");
+        con.Open();
     }
 
 }
