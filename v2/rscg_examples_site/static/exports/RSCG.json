@@ -1144,7 +1144,15 @@
       "NuGet": "https://www.nuget.org/packages/FactoryGenerator/",
       "Source": "https://github.com/westermo/FactoryGenerator",
       "Category": "DependencyInjection",
-      "AddedOn": "2024-08-27T00:00:00"
+      "AddedOn": "2024-06-27T00:00:00"
+    },
+    {
+      "Name": "depso",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/depso",
+      "NuGet": "https://www.nuget.org/packages/depso/",
+      "Source": "https://github.com/notanaverageman/Depso",
+      "Category": "DependencyInjection",
+      "AddedOn": "2024-06-28T00:00:00"
     }
   ]
 }

@@ -755,11 +755,6 @@
     "why": "issue opened"
   },
   {
-    "ID": 152,
-    "name": "Depso https://github.com/notanaverageman/Depso",
-    "why": "issue opened"
-  },
-  {
     "ID": 153,
     "name": "EF https://www.nuget.org/packages/Visium.Anima.EntityFrameworkCore.SourceGeneration",
     "why": "no readme"

@@ -305,7 +305,7 @@ public class MultiGeneratorV2
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await Task.WhenAll(_AllDescriptions.Select(it => CreateZipFiles(it, pathDocusaurus)));
 
-        //create the microsoft zip
+        //create the microsoft zip 
         Description d = new ();
         var strRoot = _AllDescriptions.First().rootFolder;
         ArgumentException.ThrowIfNullOrEmpty(strRoot);

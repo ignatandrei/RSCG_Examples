@@ -854,7 +854,14 @@
   {
     "ID": "FactoryGenerator",
     "Category": 7,
-    "dtStart": "2024-08-27T00:00:00",
+    "dtStart": "2024-06-27T00:00:00",
+    "show": true
+  }
+  ,
+  {
+    "ID": "depso",
+    "Category": 7,
+    "dtStart": "2024-06-28T00:00:00",
     "show": true
   }
 ]

@@ -142,3 +142,4 @@ Nr,Key,Source,Category
 141,ActorSrcGen, https://github.com/aabs/ActorSrcGen,Actor
 142,TableStorage, https://github.com/StevenThuriot/TableStorage,Database
 143,FactoryGenerator, https://github.com/westermo/FactoryGenerator,DependencyInjection
+144,depso, https://github.com/notanaverageman/Depso,DependencyInjection

@@ -1,6 +1,6 @@
 {
    "generator":{
-      "name":"jab",
+      "name":"depso",
       "nuget":[
          "https://www.nuget.org/packages/depso/"
       ],

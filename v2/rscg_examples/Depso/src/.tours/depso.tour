@@ -1,0 +1,66 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "depso",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [depso](https://www.nuget.org/packages/depso/) in csproj  ",
+      "pattern": "depso"
+    }
+
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.MyServiceProvider.Scoped.g.cs",
+        "description": "File Depso.MyServiceProvider.Scoped.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.MyServiceProvider.RegistrationMethods.g.cs",
+        "description": "File Depso.MyServiceProvider.RegistrationMethods.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.MyServiceProvider.g.cs",
+        "description": "File Depso.MyServiceProvider.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.Attributes.ServiceProviderModule.g.cs",
+        "description": "File Depso.Attributes.ServiceProviderModule.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.Attributes.ServiceProvider.g.cs",
+        "description": "File Depso.Attributes.ServiceProvider.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
