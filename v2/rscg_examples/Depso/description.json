@@ -1,0 +1,21 @@
+{
+   "generator":{
+      "name":"jab",
+      "nuget":[
+         "https://www.nuget.org/packages/depso/"
+      ],
+      "link":"https://github.com/notanaverageman/Depso",
+      "author":"Yusuf Tarık Günaydın",
+      "source":"https://github.com/notanaverageman/Depso"
+   },
+   "data":{
+      "goodFor":["generating DI code"],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["Program.cs","Database.cs","Databasecon.cs"],
+      "excludeDirectoryGenerated":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
