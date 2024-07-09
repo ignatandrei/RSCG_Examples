@@ -790,11 +790,6 @@
     "why": "issue opened"
   },
   {
-    "ID": 160,
-    "name": "https://github.com/StevenThuriot/TableStorage",
-    "why": "later"
-  },
-  {
     "ID": 161,
     "name": "Hexa.Protobuf https://github.com/HexaEngine/Hexa.Protobuf",
     "why": "old ISourceGenerator"
