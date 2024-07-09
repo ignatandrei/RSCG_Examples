@@ -289,7 +289,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Error_cshtml.g.cs" label="Pages_Error_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Error_cshtml.g.cs" label="Pages_Error_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -299,7 +299,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Pages_Error), @"mvc.1.0.razor-page", @"/Pages/Error.cshtml")]
 namespace RazorAppDemo.Pages
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -308,12 +308,13 @@ namespace RazorAppDemo.Pages
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/Error.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -324,38 +325,43 @@ using RazorAppDemo;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
-  
+#line (3,3)-(5,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
+
     ViewData["Title"] = "Error";
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("\r\n<h1 class=\"text-danger\">Error.</h1>\r\n<h2 class=\"text-danger\">An error occurred while processing your request.</h2>\r\n\r\n");
 #nullable restore
-#line 10 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
- if (Model.ShowRequestId)
+#line (10,2)-(12,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
+if (Model.ShowRequestId)
 {
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("    <p>\r\n        <strong>Request ID:</strong> <code>");
+            Write(
 #nullable restore
-#line (13,45)-(13,60) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
-Write(Model.RequestId);
+#line (13,45)-(13,60) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
+Model.RequestId
 
 #line default
 #line hidden
 #nullable disable
+            );
             WriteLiteral("</code>\r\n    </p>\r\n");
 #nullable restore
-#line 15 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
+#line (15,1)-(16,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Error.cshtml"
 }
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral(@"
 <h3>Development Mode</h3>
 <p>
@@ -401,7 +407,7 @@ Write(Model.RequestId);
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Index_cshtml.g.cs" label="Pages_Index_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Index_cshtml.g.cs" label="Pages_Index_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -411,7 +417,7 @@ Write(Model.RequestId);
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Pages_Index), @"mvc.1.0.razor-page", @"/Pages/Index.cshtml")]
 namespace RazorAppDemo.Pages
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -420,12 +426,13 @@ namespace RazorAppDemo.Pages
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/Index.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -436,13 +443,14 @@ using RazorAppDemo;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Index.cshtml"
-  
+#line (3,3)-(5,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Index.cshtml"
+
     ViewData["Title"] = "Home page";
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("\r\n<div class=\"text-center\">\r\n    <h1 class=\"display-4\">Welcome</h1>\r\n    <p>Learn about <a href=\"https://docs.microsoft.com/aspnet/core\">building Web apps with ASP.NET Core</a>.</p>\r\n</div>\r\n");
         }
         #pragma warning restore 1998
@@ -477,7 +485,7 @@ using RazorAppDemo;
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Privacy_cshtml.g.cs" label="Pages_Privacy_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Privacy_cshtml.g.cs" label="Pages_Privacy_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -487,7 +495,7 @@ using RazorAppDemo;
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Pages_Privacy), @"mvc.1.0.razor-page", @"/Pages/Privacy.cshtml")]
 namespace RazorAppDemo.Pages
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -496,12 +504,13 @@ namespace RazorAppDemo.Pages
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/Privacy.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -512,21 +521,24 @@ using RazorAppDemo;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 3 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Privacy.cshtml"
-  
+#line (3,3)-(5,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Privacy.cshtml"
+
     ViewData["Title"] = "Privacy Policy";
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("<h1>");
+            Write(
 #nullable restore
-#line (6,6)-(6,23) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Privacy.cshtml"
-Write(ViewData["Title"]);
+#line (6,6)-(6,23) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Privacy.cshtml"
+ViewData["Title"]
 
 #line default
 #line hidden
 #nullable disable
+            );
             WriteLiteral("</h1>\r\n\r\n<p>Use this page to detail your site\'s privacy policy.</p>\r\n");
         }
         #pragma warning restore 1998
@@ -561,7 +573,7 @@ Write(ViewData["Title"]);
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Shared__Layout_cshtml.g.cs" label="Pages_Shared__Layout_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Shared__Layout_cshtml.g.cs" label="Pages_Shared__Layout_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -571,7 +583,7 @@ Write(ViewData["Title"]);
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Shared.Pages_Shared__Layout), @"mvc.1.0.view", @"/Pages/Shared/_Layout.cshtml")]
 namespace RazorAppDemo.Pages.Shared
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -580,12 +592,13 @@ namespace RazorAppDemo.Pages.Shared
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/Shared/_Layout.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -634,17 +647,19 @@ using RazorAppDemo;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c237769", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c237786", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
+                Write(
 #nullable restore
-#line (6,13)-(6,30) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
-Write(ViewData["Title"]);
+#line (6,13)-(6,30) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
+ViewData["Title"]
 
 #line default
 #line hidden
 #nullable disable
+                );
                 WriteLiteral(" - RazorAppDemo</title>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c238491", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c238542", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -659,7 +674,7 @@ Write(ViewData["Title"]);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c239693", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c239744", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -669,13 +684,15 @@ Write(ViewData["Title"]);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.Href = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = 
 #nullable restore
-#line 8 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
-__Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
+#line (8,70)-(8,74) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
+true
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-append-version", __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -685,7 +702,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2311786", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2311885", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -695,13 +712,15 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.Href = (string)__tagHelperAttribute_3.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_3);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = 
 #nullable restore
-#line 9 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
-__Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
+#line (9,81)-(9,85) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
+true
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-append-version", __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -723,9 +742,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2314584", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2314731", async() => {
                 WriteLiteral("\r\n    <header b-3hcgocbisi>\r\n        <nav b-3hcgocbisi class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div b-3hcgocbisi class=\"container\">\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2315103", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2315250", async() => {
                     WriteLiteral("RazorAppDemo");
                 }
                 );
@@ -752,7 +771,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                     <ul b-3hcgocbisi class=""navbar-nav flex-grow-1"">
                         <li b-3hcgocbisi class=""nav-item"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2317291", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2317438", async() => {
                     WriteLiteral("Home");
                 }
                 );
@@ -771,7 +790,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                        <li b-3hcgocbisi class=\"nav-item\">\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2318951", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2319098", async() => {
                     WriteLiteral("Privacy");
                 }
                 );
@@ -790,15 +809,17 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <div b-3hcgocbisi class=\"container\">\r\n        <main b-3hcgocbisi role=\"main\" class=\"pb-3\">\r\n            ");
+                Write(
 #nullable restore
-#line (35,14)-(35,26) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
-Write(RenderBody());
+#line (35,14)-(35,26) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
+RenderBody()
 
 #line default
 #line hidden
 #nullable disable
+                );
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer b-3hcgocbisi class=\"border-top footer text-muted\">\r\n        <div b-3hcgocbisi class=\"container\">\r\n            &copy; 2023 - RazorAppDemo - ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2321229", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2321410", async() => {
                     WriteLiteral("Privacy");
                 }
                 );
@@ -816,7 +837,7 @@ Write(RenderBody());
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2322723", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2322904", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -830,7 +851,7 @@ Write(RenderBody());
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2323847", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2324028", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -844,7 +865,7 @@ Write(RenderBody());
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2324972", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7f706e52672b0d554b522e79dc6e45231a3dafe908cf2a251a2e351802d1c2325153", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -853,13 +874,15 @@ Write(RenderBody());
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.Src = (string)__tagHelperAttribute_11.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_11);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = 
 #nullable restore
-#line 47 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
-__Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
+#line (47,52)-(47,56) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
+true
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-append-version", __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -869,13 +892,15 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n\r\n    ");
+                Write(
 #nullable restore
-#line (49,6)-(49,58) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
-Write(await RenderSectionAsync("Scripts", required: false));
+#line (49,6)-(49,58) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\Shared\_Layout.cshtml"
+await RenderSectionAsync("Scripts", required: false)
 
 #line default
 #line hidden
 #nullable disable
+                );
                 WriteLiteral("\r\n");
             }
             );
@@ -920,7 +945,7 @@ Write(await RenderSectionAsync("Scripts", required: false));
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Shared__ValidationScriptsPartial_cshtml.g.cs" label="Pages_Shared__ValidationScriptsPartial_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages_Shared__ValidationScriptsPartial_cshtml.g.cs" label="Pages_Shared__ValidationScriptsPartial_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -930,7 +955,7 @@ Write(await RenderSectionAsync("Scripts", required: false));
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Shared.Pages_Shared__ValidationScriptsPartial), @"mvc.1.0.view", @"/Pages/Shared/_ValidationScriptsPartial.cshtml")]
 namespace RazorAppDemo.Pages.Shared
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -939,12 +964,13 @@ namespace RazorAppDemo.Pages.Shared
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/Shared/_ValidationScriptsPartial.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -977,7 +1003,7 @@ using RazorAppDemo;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba113907", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba113924", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -991,7 +1017,7 @@ using RazorAppDemo;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba114970", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba114987", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1036,7 +1062,7 @@ using RazorAppDemo;
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages__ViewImports_cshtml.g.cs" label="Pages__ViewImports_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages__ViewImports_cshtml.g.cs" label="Pages__ViewImports_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1046,7 +1072,7 @@ using RazorAppDemo;
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Pages__ViewImports), @"mvc.1.0.view", @"/Pages/_ViewImports.cshtml")]
 namespace RazorAppDemo.Pages
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -1055,12 +1081,13 @@ namespace RazorAppDemo.Pages
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/_ViewImports.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -1101,7 +1128,7 @@ using RazorAppDemo;
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages__ViewStart_cshtml.g.cs" label="Pages__ViewStart_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Pages__ViewStart_cshtml.g.cs" label="Pages__ViewStart_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1111,7 +1138,7 @@ using RazorAppDemo;
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(RazorAppDemo.Pages.Pages__ViewStart), @"mvc.1.0.view", @"/Pages/_ViewStart.cshtml")]
 namespace RazorAppDemo.Pages
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -1120,12 +1147,13 @@ namespace RazorAppDemo.Pages
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
-using RazorAppDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewImports.cshtml"
+using RazorAppDemo
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Pages/_ViewStart.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -1136,13 +1164,14 @@ using RazorAppDemo;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewStart.cshtml"
-  
+#line (1,3)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\Microsoft.NET.Sdk.Razor.SourceGenerators\src\RazorAppDemo\Pages\_ViewStart.cshtml"
+
     Layout = "_Layout";
 
 #line default
 #line hidden
 #nullable disable
+
         }
         #pragma warning restore 1998
         #nullable restore

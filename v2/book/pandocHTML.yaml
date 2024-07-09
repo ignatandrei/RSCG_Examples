@@ -158,6 +158,7 @@ input-files:
 - examples/TableStorage.html
 - examples/FactoryGenerator.html
 - examples/depso.html
+- examples/DotnetYang.html
 
 # or you may use input-file: with a single value
 # defaults:
