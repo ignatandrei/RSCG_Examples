@@ -18,20 +18,8 @@
     
 
         ,{
-        "file": "LinqDemo/obj/GX/LinqGen.Generator/Cathei.LinqGen.Generator.LinqGenIncrementalGenerator/LinqGen.Where_365530052.g.cs",
-        "description": "File LinqGen.Where_365530052.g.cs ",
-        "line": 1
-        }
-    
-        ,{
         "file": "LinqDemo/obj/GX/LinqGen.Generator/Cathei.LinqGen.Generator.LinqGenIncrementalGenerator/LinqGen.Where_1460257278.g.cs",
         "description": "File LinqGen.Where_1460257278.g.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "LinqDemo/obj/GX/LinqGen.Generator/Cathei.LinqGen.Generator.LinqGenIncrementalGenerator/LinqGen.Select_3679329074.g.cs",
-        "description": "File LinqGen.Select_3679329074.g.cs ",
         "line": 1
         }
     

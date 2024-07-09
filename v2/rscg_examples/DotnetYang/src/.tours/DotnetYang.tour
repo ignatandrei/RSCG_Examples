@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "DotnetYang",
+  "steps": 
+  [
+    {
+      "file": "yangDemo/yangDemo.csproj",
+      "description": "First, we add Nuget  [DotnetYang](https://www.nuget.org/packages/DotnetYang/) in csproj  ",
+      "pattern": "DotnetYang"
+    }
+
+        ,{
+        "file": "yangDemo/demo.yang",
+        "description": "File demo.yang  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "yangDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project yangDemo/yangDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "yangDemo/obj/GX/dotnetYang/YangParser.Generator.YangGenerator/YangModules/some/some-module.cs",
+        "description": "File some-module.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "yangDemo/obj/GX/dotnetYang/YangParser.Generator.YangGenerator/Configuration.cs",
+        "description": "File Configuration.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

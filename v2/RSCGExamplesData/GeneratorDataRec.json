@@ -863,5 +863,11 @@
     "Category": 7,
     "dtStart": "2024-06-28T00:00:00",
     "show": true
+  },
+  {
+    "ID":"DotnetYang",
+    "Category": 8,
+    "dtStart": "2024-06-29T00:00:00",
+    "show": true
   }
 ]

@@ -1153,6 +1153,14 @@
       "Source": "https://github.com/notanaverageman/Depso",
       "Category": "DependencyInjection",
       "AddedOn": "2024-06-28T00:00:00"
+    },
+    {
+      "Name": "DotnetYang",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DotnetYang",
+      "NuGet": "https://www.nuget.org/packages/DotnetYang/",
+      "Source": "https://github.com/westermo/DotnetYang",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-06-29T00:00:00"
     }
   ]
 }

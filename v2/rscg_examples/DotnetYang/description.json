@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"DotnetYang",
+      "nuget":[
+         "https://www.nuget.org/packages/DotnetYang/"
+      ],
+      "link":"https://github.com/westermo/DotnetYang",
+      "author":"Westermo Network Technologies",
+      "source":"https://github.com/westermo/DotnetYang"
+   },
+   "data":{
+      "goodFor":["Generating source code from YANG models"],
+      "csprojDemo":"yangDemo.csproj",
+      "csFiles":["Program.cs","demo.yang"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

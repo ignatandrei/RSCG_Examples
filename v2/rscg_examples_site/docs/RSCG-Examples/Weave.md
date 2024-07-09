@@ -277,13 +277,16 @@ namespace
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Weave
 
-### In the same category (FilesToCode) - 10 other generators
+### In the same category (FilesToCode) - 11 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
 #### [corecraft](/docs/corecraft)
+
+
+#### [DotnetYang](/docs/DotnetYang)
 
 
 #### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)

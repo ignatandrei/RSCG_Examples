@@ -1,0 +1,31 @@
+module some-module {
+    yang-version 1.1;
+    namespace "urn:dotnet:yang:andrei";
+    prefix sm;
+    identity someIdentity;
+    identity someOtherIdentity
+    {
+        base someIdentity;
+    }
+    rpc doSomething {
+        input {
+            leaf the-big-leaf
+            {
+                type uint32;
+                default "4";
+                description "The value that is the input of the doSomething rpc";
+            }
+        }
+        output {
+            leaf response
+            {
+                type identityref
+                {
+                    base someIdentity;
+                }
+                default "someOtherIdentity";
+                description "The identity that is the output of the doSomething rpc";
+            }
+        }
+    }
+}
