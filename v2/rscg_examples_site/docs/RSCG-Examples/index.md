@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 145 RSCG list by category
-description: 145 RSCG list by category
+title: 146 RSCG list by category
+description: 146 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -839,7 +839,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:8</summary>
+  <summary>Expand Templating =>examples:9</summary>
         
 
 
@@ -879,6 +879,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+
+        
+
+
+[RSCG_IFormattable](/docs/RSCG_IFormattable)
 
 </details>
     
@@ -1196,6 +1201,8 @@ flowchart LR;
     Templating--> InterceptorTemplate((InterceptorTemplate))
 
     Templating--> Minerals.AutoMixins((Minerals.AutoMixins))
+
+    Templating--> RSCG_IFormattable((RSCG_IFormattable))
 
     Tests--> Rocks((Rocks))
 

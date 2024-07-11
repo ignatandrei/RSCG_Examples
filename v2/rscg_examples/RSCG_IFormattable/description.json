@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"RSCG_IFormattable",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_IFormattable/",
+         "https://www.nuget.org/packages/RSCG_IFormattableCommon/"
+      ],
+      "link":"https://github.com/ignatandrei/rscg_iformattable/",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/rscg_iformattable/"
+   },
+   "data":{
+      "goodFor":["Generating .ToString for IFormattable"],
+      "csprojDemo":"RSCG_IFormattableDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

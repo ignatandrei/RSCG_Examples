@@ -429,7 +429,7 @@ namespace RSCG_TemplatingDemo {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating
 
-### In the same category (Templating) - 7 other generators
+### In the same category (Templating) - 8 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -448,6 +448,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Templating
 
 
 #### [RazorBlade](/docs/RazorBlade)
+
+
+#### [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
 
 #### [spreadcheetah](/docs/spreadcheetah)

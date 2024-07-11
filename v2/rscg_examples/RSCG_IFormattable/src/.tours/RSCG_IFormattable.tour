@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_IFormattable",
+  "steps": 
+  [
+    {
+      "file": "RSCG_IFormattableDemo/RSCG_IFormattableDemo.csproj",
+      "description": "First, we add Nuget  [RSCG_IFormattable](https://www.nuget.org/packages/RSCG_IFormattable/) in csproj  ",
+      "pattern": "RSCG_IFormattable"
+    }
+
+        ,{
+        "file": "RSCG_IFormattableDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RSCG_IFormattableDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_IFormattableDemo/RSCG_IFormattableDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RSCG_IFormattableDemo/obj/GX/RSCG_IFormattable/RSCG_IFormattable.GeneratorIFormattable/Person.gen.cs",
+        "description": "File Person.gen.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
