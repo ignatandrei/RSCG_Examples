@@ -144,3 +144,4 @@ Nr,Key,Source,Category
 143,FactoryGenerator, https://github.com/westermo/FactoryGenerator,DependencyInjection
 144,depso, https://github.com/notanaverageman/Depso,DependencyInjection
 145,DotnetYang, https://github.com/westermo/DotnetYang,FilesToCode
+146,RSCG_IFormattable, https://github.com/ignatandrei/rscg_iformattable/,Templating

@@ -1,4 +1,4 @@
-# RSCG - 145 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 146 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
 ## Latest Update : 2024-06-29 => 29 June 2024
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 145 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 146 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 146. [RSCG_IFormattable](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2024-06-29 => 29 June 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Andrei Ignat
+
+Implement IFormattable for a class 
+
+Nuget: [https://www.nuget.org/packages/RSCG_IFormattable/](https://www.nuget.org/packages/RSCG_IFormattable/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable)
+
+Source: [https://github.com/ignatandrei/rscg_iformattable/](https://github.com/ignatandrei/rscg_iformattable/)
+
+</details>
+
 ### 145. [DotnetYang](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DotnetYang) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
 
 Generated on : 2024-06-29 => 29 June 2024

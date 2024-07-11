@@ -1161,6 +1161,14 @@
       "Source": "https://github.com/westermo/DotnetYang",
       "Category": "FilesToCode",
       "AddedOn": "2024-06-29T00:00:00"
+    },
+    {
+      "Name": "RSCG_IFormattable",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable",
+      "NuGet": "https://www.nuget.org/packages/RSCG_IFormattable/",
+      "Source": "https://github.com/ignatandrei/rscg_iformattable/",
+      "Category": "Templating",
+      "AddedOn": "2024-06-29T00:00:00"
     }
   ]
 }

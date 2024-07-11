@@ -426,6 +426,10 @@ public interface IPersonLoader
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
+<Tabs>
+
+
+</Tabs>
 
 ## Usefull
 
@@ -449,7 +453,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate
 
-### In the same category (Templating) - 7 other generators
+### In the same category (Templating) - 8 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -465,6 +469,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/InterceptorTemplate
 
 
 #### [RazorBlade](/docs/RazorBlade)
+
+
+#### [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
 
 #### [RSCG_Templating](/docs/RSCG_Templating)

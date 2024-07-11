@@ -1082,7 +1082,7 @@ namespace RazorBladeDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade
 
-### In the same category (Templating) - 7 other generators
+### In the same category (Templating) - 8 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -1098,6 +1098,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorBlade
 
 
 #### [MorrisMoxy](/docs/MorrisMoxy)
+
+
+#### [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
 
 #### [RSCG_Templating](/docs/RSCG_Templating)
