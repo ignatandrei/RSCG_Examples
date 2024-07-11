@@ -123,6 +123,27 @@ So, you should aim for ReferenceOutputAssembly="false" in the csproj file that r
 
 </details>
 
+### Do not use all classes
+
+Add an attribute to be used on the classes that you want to add  functionality to.
+
+For example, in the project
+```csharp
+public void Initialize(IncrementalGeneratorInitializationContext context)
+{
+
+    var classToImplement = context.SyntaxProvider
+                        .ForAttributeWithMetadataName("RSCG_IFormattableCommon.AddIFormattableAttribute",
+                                                    CouldBeClass,
+                                                    GetClassInfo)
+                        .Collect();
+    ; 
+//more code
+
+```
+
+I do prefer putting this attribute in a separate nuget package and reference it from the main program.
+
 ### General attributes / code 
 
 Problem - make internal or have another assembly referenced ( or the opposite)
