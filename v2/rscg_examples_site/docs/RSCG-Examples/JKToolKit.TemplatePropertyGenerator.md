@@ -44,24 +44,6 @@ Source : https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator
 
 <!-- # JKToolKit.TemplatePropertyGenerator -->
 
-<p align="center">
-  <a>
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/logo/logo_small_128x128.png">
-      <img src="assetss/logo/logo_small_128x128.png" height="128">
-    </picture>
-    <h1 align="center">TemplatePropertyGenerator</h1>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/"><img src="https://img.shields.io/nuget/v/JKToolKit.TemplatePropertyGenerator" alt="NuGet"></a>
-  <a href="https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/"><img src="https://img.shields.io/nuget/dt/JKToolKit.TemplatePropertyGenerator" alt="Nuget"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/JKamsker/JKToolKit.TemplatePropertyGenerator" alt="License"></a>
-  <a href="https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator/pulls"><img src="https://img.shields.io/badge/PR-Welcome-blue" alt="PR"></a>
-  <!-- <a href="https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator/actions/workflows/build-test.yml"><img src="https://img.shields.io/github/actions/workflow/status/JKamsker/JKToolKit.TemplatePropertyGenerator/build-test.yml?branch=master" alt="GitHub Workflow Status"></a> -->
-</p>
-
 ## Overview
 
 `TemplatePropertyGenerator` is a C# source generator that creates strongly-typed template properties from annotated classes. This allows for easy and safe string formatting by generating classes with methods to format predefined templates.
