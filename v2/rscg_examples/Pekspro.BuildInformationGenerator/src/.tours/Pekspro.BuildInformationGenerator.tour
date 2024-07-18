@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Pekspro.BuildInformationGenerator",
+  "steps": 
+  [
+    {
+      "file": "BuildInfo/BuildInfo.csproj",
+      "description": "First, we add Nuget  [Pekspro.BuildInformationGenerator](https://www.nuget.org/packages/Pekspro.BuildInformationGenerator/) in csproj  ",
+      "pattern": "Pekspro.BuildInformationGenerator"
+    }
+
+        ,{
+        "file": "BuildInfo/MyBuildInfo.cs",
+        "description": "File MyBuildInfo.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BuildInfo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project BuildInfo/BuildInfo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BuildInfo/obj/GX/Pekspro.BuildInformationGenerator/Pekspro.BuildInformationGenerator.BuildInformationGenerator/MyBuildInfo.g.cs",
+        "description": "File MyBuildInfo.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

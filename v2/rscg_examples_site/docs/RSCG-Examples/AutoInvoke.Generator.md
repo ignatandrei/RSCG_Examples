@@ -360,7 +360,7 @@ partial class RemoteCollection {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInvoke.Generator
 
-### In the same category (EnhancementProject) - 14 other generators
+### In the same category (EnhancementProject) - 15 other generators
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
@@ -382,6 +382,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInvoke.Generator
 
 
 #### [Mediator](/docs/Mediator)
+
+
+#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
 
 
 #### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)

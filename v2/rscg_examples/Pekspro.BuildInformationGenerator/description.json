@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Pekspro.BuildInformationGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Pekspro.BuildInformationGenerator/"
+      ],
+      "link":"https://github.com/pekspro/BuildInformationGenerator",
+      "author":"pekspro",
+      "source":"https://github.com/pekspro/BuildInformationGenerator"
+   },
+   "data":{
+      "goodFor":["adding git build information"],
+      "csprojDemo":"BuildInfo.csproj",
+      "csFiles":["Program.cs","MyBuildInfo.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

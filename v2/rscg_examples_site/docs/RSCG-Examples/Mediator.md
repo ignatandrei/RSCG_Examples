@@ -1656,7 +1656,7 @@ namespace Mediator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
-### In the same category (EnhancementProject) - 14 other generators
+### In the same category (EnhancementProject) - 15 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -1678,6 +1678,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
 
 #### [LinqGen.Generator](/docs/LinqGen.Generator)
+
+
+#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
 
 
 #### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
