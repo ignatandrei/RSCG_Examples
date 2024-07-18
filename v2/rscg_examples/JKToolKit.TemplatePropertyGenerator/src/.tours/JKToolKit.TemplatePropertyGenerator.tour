@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "JKToolKit.TemplatePropertyGenerator",
+  "steps": 
+  [
+    {
+      "file": "SimpleTemplate/SimpleTemplate.csproj",
+      "description": "First, we add Nuget  [JKToolKit.TemplatePropertyGenerator](https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/) in csproj  ",
+      "pattern": "JKToolKit.TemplatePropertyGenerator"
+    }
+
+        ,{
+        "file": "SimpleTemplate/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "SimpleTemplate/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project SimpleTemplate/SimpleTemplate.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "SimpleTemplate/obj/GX/TemplatePropertyGenerator/JKToolKit.TemplatePropertyGenerator.TemplatePropertySourceGenerator/SimpleTemplate.Person_Generated.cs",
+        "description": "File SimpleTemplate.Person_Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SimpleTemplate/obj/GX/TemplatePropertyGenerator/JKToolKit.TemplatePropertyGenerator.TemplatePropertyAttributeSourceGenerator/TemplatePropertyAttribute.g.cs",
+        "description": "File TemplatePropertyAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

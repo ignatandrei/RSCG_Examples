@@ -29,6 +29,12 @@
         "line": 1
         }
     
+        ,{
+        "file": "JSON2ClassConsole/obj/GX/RSCG_JSON2Class/RSCG_JSON2Class.RSCG_JSON2Class/test.cs",
+        "description": "File test.cs ",
+        "line": 1
+        }
+    
   ],
 
   "ref": "main"

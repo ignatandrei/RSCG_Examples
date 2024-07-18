@@ -1169,6 +1169,14 @@
       "Source": "https://github.com/ignatandrei/rscg_iformattable/",
       "Category": "Templating",
       "AddedOn": "2024-06-29T00:00:00"
+    },
+    {
+      "Name": "JKToolKit.TemplatePropertyGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/JKToolKit.TemplatePropertyGenerator",
+      "NuGet": "https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/",
+      "Source": "https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator",
+      "Category": "Templating",
+      "AddedOn": "2024-07-17T00:00:00"
     }
   ]
 }
