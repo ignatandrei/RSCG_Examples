@@ -70,7 +70,8 @@ Source : https://github.com/devlooped/ThisAssembly
 ### Original Readme
 :::note
 
-ThisAssembly
+
+ ThisAssembly
 
 ============
 
@@ -618,7 +619,7 @@ partial class ThisAssembly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants
 
-### In the same category (EnhancementProject) - 14 other generators
+### In the same category (EnhancementProject) - 15 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -643,6 +644,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants
 
 
 #### [Mediator](/docs/Mediator)
+
+
+#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
 
 
 #### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)

@@ -145,3 +145,6 @@ Nr,Key,Source,Category
 144,depso, https://github.com/notanaverageman/Depso,DependencyInjection
 145,DotnetYang, https://github.com/westermo/DotnetYang,FilesToCode
 146,RSCG_IFormattable, https://github.com/ignatandrei/rscg_iformattable/,Templating
+147,JKToolKit.TemplatePropertyGenerator, https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator,Templating
+148,ThisAssembly.Constants, https://github.com/devlooped/ThisAssembly,EnhancementProject
+149,Pekspro.BuildInformationGenerator, https://github.com/pekspro/BuildInformationGenerator,EnhancementProject

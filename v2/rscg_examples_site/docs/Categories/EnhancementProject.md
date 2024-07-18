@@ -1,6 +1,6 @@
 <h1>EnhancementProject</h1>
 
-Number RSCG: 15
+Number RSCG: 16
 
    1 [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
 
@@ -18,17 +18,19 @@ Number RSCG: 15
 
    8 [Mediator](/docs/Mediator)
 
-   9 [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+   9 [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
 
-   10 [RSCG_AMS](/docs/RSCG_AMS)
+   10 [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
 
-   11 [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+   11 [RSCG_AMS](/docs/RSCG_AMS)
 
-   12 [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+   12 [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
 
-   13 [RSCG_Wait](/docs/RSCG_Wait)
+   13 [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
 
-   14 [ThisAssembly](/docs/ThisAssembly)
+   14 [RSCG_Wait](/docs/RSCG_Wait)
 
-   15 [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+   15 [ThisAssembly](/docs/ThisAssembly)
+
+   16 [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
     

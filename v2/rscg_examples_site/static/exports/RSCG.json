@@ -1185,6 +1185,14 @@
       "Source": "https://github.com/devlooped/ThisAssembly",
       "Category": "EnhancementProject",
       "AddedOn": "2024-07-18T00:00:00"
+    },
+    {
+      "Name": "Pekspro.BuildInformationGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.BuildInformationGenerator",
+      "NuGet": "https://www.nuget.org/packages/Pekspro.BuildInformationGenerator/",
+      "Source": "https://github.com/pekspro/BuildInformationGenerator",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-07-19T00:00:00"
     }
   ]
 }

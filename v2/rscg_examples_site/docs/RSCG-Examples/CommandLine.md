@@ -1662,7 +1662,7 @@ namespace GeneratedCode
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine
 
-### In the same category (EnhancementProject) - 14 other generators
+### In the same category (EnhancementProject) - 15 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -1684,6 +1684,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine
 
 
 #### [Mediator](/docs/Mediator)
+
+
+#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
 
 
 #### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)

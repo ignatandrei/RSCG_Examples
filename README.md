@@ -1,6 +1,6 @@
-# RSCG - 148 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 149 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-07-18 => 18 July 2024
+## Latest Update : 2024-07-19 => 19 July 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 148 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 149 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 149. [Pekspro.BuildInformationGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.BuildInformationGenerator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-07-19 => 19 July 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: pekspro
+
+A source generator for creating build information, like build time and commit id. 
+
+Nuget: [https://www.nuget.org/packages/Pekspro.BuildInformationGenerator/](https://www.nuget.org/packages/Pekspro.BuildInformationGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.BuildInformationGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.BuildInformationGenerator)
+
+Source: [https://github.com/pekspro/BuildInformationGenerator](https://github.com/pekspro/BuildInformationGenerator)
+
+</details>
+
 ### 148. [ThisAssembly.Constants](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2024-07-18 => 18 July 2024
