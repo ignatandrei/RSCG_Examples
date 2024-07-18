@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ThisAssembly.Constants",
+  "steps": 
+  [
+    {
+      "file": "ProjectConstants/ProjectConstants.csproj",
+      "description": "First, we add Nuget  [ThisAssembly.Constants](https://www.nuget.org/packages/ThisAssembly.Constants/) in csproj  ",
+      "pattern": "ThisAssembly.Constants"
+    }
+
+        ,{
+        "file": "ProjectConstants/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ProjectConstants/ProjectConstants.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ProjectConstants/obj/GX/ThisAssembly.Constants/ThisAssembly.ConstantsGenerator/TimeOut.g.cs",
+        "description": "File TimeOut.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

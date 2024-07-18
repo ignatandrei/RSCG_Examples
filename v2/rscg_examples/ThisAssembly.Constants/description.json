@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ThisAssembly.Constants",
+      "nuget":[
+         "https://www.nuget.org/packages/ThisAssembly.Constants/"
+      ],
+      "link":"https://github.com/devlooped/ThisAssembly",
+      "author":"Daniel Cazzulino",
+      "source":"https://github.com/devlooped/ThisAssembly"
+   },
+   "data":{
+      "goodFor":["Generating Constants from csproj"], 
+      "csprojDemo":"ProjectConstants.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

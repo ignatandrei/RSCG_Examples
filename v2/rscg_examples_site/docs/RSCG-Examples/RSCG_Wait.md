@@ -288,7 +288,7 @@ partial class MyGeneratedCode
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait
 
-### In the same category (EnhancementProject) - 13 other generators
+### In the same category (EnhancementProject) - 14 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -328,4 +328,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait
 
 
 #### [ThisAssembly](/docs/ThisAssembly)
+
+
+#### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
 

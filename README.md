@@ -1,6 +1,6 @@
-# RSCG - 147 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 148 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-07-17 => 17 July 2024
+## Latest Update : 2024-07-18 => 18 July 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,58 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 147 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 148 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 148. [ThisAssembly.Constants](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-07-18 => 18 July 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Daniel Cazzulino
+
+** C# 9.0 ONLY **
+This package generates a static `ThisAssembly.Constants` class with public
+constants for each Constant MSBuild item in the project.
+
+For example:
+
+  <ItemGroup>
+  <Constant Include="Foo.Bar" Value="Baz" />
+  </ItemGroup>
+
+Results in a corresponding `ThisAssembly.Constants.Foo.Bar` constant with the value `Baz`:
+
+Generated code:
+C#:
+
+  partial class ThisAssembly
+  {
+      public static partial class Constants
+      {
+          public static partial class Foo
+          {
+              public const string Bar = "Baz";
+          }
+      }
+  }
+
+    
+
+        Built from https://github.com/kzu/ThisAssembly/tree/c7bb40af9 
+
+Nuget: [https://www.nuget.org/packages/ThisAssembly.Constants/](https://www.nuget.org/packages/ThisAssembly.Constants/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants)
+
+Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped/ThisAssembly)
+
+</details>
+
 ### 147. [JKToolKit.TemplatePropertyGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JKToolKit.TemplatePropertyGenerator) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
 
 Generated on : 2024-07-17 => 17 July 2024

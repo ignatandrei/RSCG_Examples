@@ -1,6 +1,6 @@
 <h1>EnhancementProject</h1>
 
-Number RSCG: 14
+Number RSCG: 15
 
    1 [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
 
@@ -29,4 +29,6 @@ Number RSCG: 14
    13 [RSCG_Wait](/docs/RSCG_Wait)
 
    14 [ThisAssembly](/docs/ThisAssembly)
+
+   15 [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
     
