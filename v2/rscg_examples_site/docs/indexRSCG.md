@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 147 RSCG with examples in descending chronological order
+## 148 RSCG with examples in descending chronological order
 
-This is the list of 147 ( 13 from Microsoft) RSCG with examples 
+This is the list of 148 ( 13 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 147 ( 13 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|148| [ThisAssembly.Constants by Daniel Cazzulino ](/docs/ThisAssembly.Constants)|2024-07-18 => 18 July 2024 | EnhancementProject |
 |147| [JKToolKit.TemplatePropertyGenerator by Jonas Kamsker ](/docs/JKToolKit.TemplatePropertyGenerator)|2024-07-17 => 17 July 2024 | Templating |
 |146| [RSCG_IFormattable by Andrei Ignat ](/docs/RSCG_IFormattable)|2024-06-29 => 29 June 2024 | Templating |
 |145| [DotnetYang by Westermo Network Technologies ](/docs/DotnetYang)|2024-06-29 => 29 June 2024 | FilesToCode |

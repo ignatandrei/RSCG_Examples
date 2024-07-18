@@ -377,7 +377,7 @@ return  TestMyFunc1(t1,t2,x,y);
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 
-### In the same category (EnhancementProject) - 13 other generators
+### In the same category (EnhancementProject) - 14 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -417,4 +417,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 
 
 #### [ThisAssembly](/docs/ThisAssembly)
+
+
+#### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
 
