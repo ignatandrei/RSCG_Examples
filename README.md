@@ -1,6 +1,6 @@
-# RSCG - 146 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 147 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-06-29 => 29 June 2024
+## Latest Update : 2024-07-17 => 17 July 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 146 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 147 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 147. [JKToolKit.TemplatePropertyGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JKToolKit.TemplatePropertyGenerator) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
+
+Generated on : 2024-07-17 => 17 July 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Jonas Kamsker
+
+Generates strongly typed stringformatters based on stringformats. 
+
+Nuget: [https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/](https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/JKToolKit.TemplatePropertyGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/JKToolKit.TemplatePropertyGenerator)
+
+Source: [https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator](https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator)
+
+</details>
+
 ### 146. [RSCG_IFormattable](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
 
 Generated on : 2024-06-29 => 29 June 2024

@@ -1,22 +1,24 @@
 <h1>Templating</h1>
 
-Number RSCG: 9
+Number RSCG: 10
 
    1 [Gobie](/docs/Gobie)
 
    2 [InterceptorTemplate](/docs/InterceptorTemplate)
 
-   3 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+   3 [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
 
-   4 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+   4 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
-   5 [MorrisMoxy](/docs/MorrisMoxy)
+   5 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
-   6 [RazorBlade](/docs/RazorBlade)
+   6 [MorrisMoxy](/docs/MorrisMoxy)
 
-   7 [RSCG_IFormattable](/docs/RSCG_IFormattable)
+   7 [RazorBlade](/docs/RazorBlade)
 
-   8 [RSCG_Templating](/docs/RSCG_Templating)
+   8 [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
-   9 [spreadcheetah](/docs/spreadcheetah)
+   9 [RSCG_Templating](/docs/RSCG_Templating)
+
+   10 [spreadcheetah](/docs/spreadcheetah)
     

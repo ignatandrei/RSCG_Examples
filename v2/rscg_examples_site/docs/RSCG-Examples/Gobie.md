@@ -256,10 +256,13 @@ namespace Gobie
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 
-### In the same category (Templating) - 8 other generators
+### In the same category (Templating) - 9 other generators
 
 
 #### [InterceptorTemplate](/docs/InterceptorTemplate)
+
+
+#### [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
 
 
 #### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)

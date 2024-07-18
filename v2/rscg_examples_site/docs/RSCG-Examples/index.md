@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 146 RSCG list by category
-description: 146 RSCG list by category
+title: 147 RSCG list by category
+description: 147 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -839,7 +839,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:9</summary>
+  <summary>Expand Templating =>examples:10</summary>
         
 
 
@@ -884,6 +884,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_IFormattable](/docs/RSCG_IFormattable)
+
+        
+
+
+[JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
 
 </details>
     
@@ -1203,6 +1208,8 @@ flowchart LR;
     Templating--> Minerals.AutoMixins((Minerals.AutoMixins))
 
     Templating--> RSCG_IFormattable((RSCG_IFormattable))
+
+    Templating--> JKToolKit.TemplatePropertyGenerator((JKToolKit.TemplatePropertyGenerator))
 
     Tests--> Rocks((Rocks))
 

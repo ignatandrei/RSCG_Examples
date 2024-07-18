@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"JKToolKit.TemplatePropertyGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/"
+      ],
+      "link":"https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator",
+      "author":"Jonas Kamsker",
+      "source":"https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator"
+   },
+   "data":{
+      "goodFor":["String templating for a class"],
+      "csprojDemo":"SimpleTemplate.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
