@@ -1216,7 +1216,7 @@
       "NuGet": "https://www.nuget.org/packages/ServiceScan.SourceGenerator/",
       "Source": "https://github.com/Dreamescaper/ServiceScan.SourceGenerator",
       "Category": "DependencyInjection",
-      "AddedOn": "2024-06-28T00:00:00"
+      "AddedOn": "2024-07-22T00:00:00"
     }
   ]
 }
