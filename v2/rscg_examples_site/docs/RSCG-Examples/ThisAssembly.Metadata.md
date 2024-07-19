@@ -67,7 +67,6 @@ F#:
   module internal ThisAssembly
 
   module public Metadata =
-      [<Literal>]
       let public Foo = @"Bar"
 
 Author: Daniel Cazzulino

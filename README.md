@@ -67,14 +67,6 @@ VB:
       End Class
   End Namespace
 
-F#:
-
-  module internal ThisAssembly
-
-  module public Metadata =
-      [<Literal>]
-      let public Foo = @"Bar" 
-
 Nuget: [https://www.nuget.org/packages/ThisAssembly.Metadata/](https://www.nuget.org/packages/ThisAssembly.Metadata/) 
 
 
