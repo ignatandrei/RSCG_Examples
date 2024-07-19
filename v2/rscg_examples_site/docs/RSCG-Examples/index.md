@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 151 RSCG list by category
-description: 151 RSCG list by category
+title: 152 RSCG list by category
+description: 152 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -206,7 +206,7 @@ import DocCardList from '@theme/DocCardList';
 ## DependencyInjection 
 <details>
     
-  <summary>Expand DependencyInjection =>examples:5</summary>
+  <summary>Expand DependencyInjection =>examples:6</summary>
         
 
 
@@ -231,6 +231,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [depso](/docs/depso)
+
+        
+
+
+[ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
 
 </details>
     
@@ -1006,6 +1011,8 @@ flowchart LR;
     DependencyInjection--> FactoryGenerator((FactoryGenerator))
 
     DependencyInjection--> depso((depso))
+
+    DependencyInjection--> ServiceScan.SourceGenerator((ServiceScan.SourceGenerator))
 
     Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 

@@ -1209,6 +1209,14 @@
       "Source": "https://github.com/devlooped/ThisAssembly",
       "Category": "FilesToCode",
       "AddedOn": "2024-07-21T00:00:00"
+    },
+    {
+      "Name": "ServiceScan.SourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ServiceScan.SourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/ServiceScan.SourceGenerator/",
+      "Source": "https://github.com/Dreamescaper/ServiceScan.SourceGenerator",
+      "Category": "DependencyInjection",
+      "AddedOn": "2024-06-28T00:00:00"
     }
   ]
 }

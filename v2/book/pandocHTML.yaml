@@ -165,6 +165,7 @@ input-files:
 - examples/Pekspro.BuildInformationGenerator.html
 - examples/ThisAssembly.Metadata.html
 - examples/ThisAssembly.Strings.html
+- examples/ServiceScan.SourceGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

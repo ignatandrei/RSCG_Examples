@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ServiceScan.SourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/ServiceScan.SourceGenerator/"
+      ],
+      "link":"https://github.com/Dreamescaper/ServiceScan.SourceGenerator",
+      "author":"Oleksandr Liakhevych",
+      "source":"https://github.com/Dreamescaper/ServiceScan.SourceGenerator"
+   },
+   "data":{
+      "goodFor":["Generating service collection / DI registration"],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["Program.cs","Database.cs","Databasecon.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

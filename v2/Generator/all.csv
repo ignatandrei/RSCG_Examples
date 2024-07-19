@@ -150,3 +150,4 @@ Nr,Key,Source,Category
 149,Pekspro.BuildInformationGenerator, https://github.com/pekspro/BuildInformationGenerator,EnhancementProject
 150,ThisAssembly.Metadata, https://github.com/devlooped/ThisAssembly,EnhancementProject
 151,ThisAssembly.Strings, https://github.com/devlooped/ThisAssembly,FilesToCode
+152,ServiceScan.SourceGenerator, https://github.com/Dreamescaper/ServiceScan.SourceGenerator,DependencyInjection
