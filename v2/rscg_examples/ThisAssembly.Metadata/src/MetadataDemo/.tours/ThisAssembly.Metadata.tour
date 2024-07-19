@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ThisAssembly.Metadata",
+  "steps": 
+  [
+    {
+      "file": "MetadataDemo/MetadataDemo.csproj",
+      "description": "First, we add Nuget  [ThisAssembly.Metadata](https://www.nuget.org/packages/ThisAssembly.Metadata/) in csproj  ",
+      "pattern": "ThisAssembly.Metadata"
+    }
+
+        ,{
+        "file": "MetadataDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MetadataDemo/MetadataDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "MetadataDemo/obj/GX/ThisAssembly.Metadata/ThisAssembly.MetadataGenerator/ThisAssembly.Metadata.g.cs",
+        "description": "File ThisAssembly.Metadata.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

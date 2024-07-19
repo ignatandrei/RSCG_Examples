@@ -148,3 +148,4 @@ Nr,Key,Source,Category
 147,JKToolKit.TemplatePropertyGenerator, https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator,Templating
 148,ThisAssembly.Constants, https://github.com/devlooped/ThisAssembly,EnhancementProject
 149,Pekspro.BuildInformationGenerator, https://github.com/pekspro/BuildInformationGenerator,EnhancementProject
+150,ThisAssembly.Metadata, https://github.com/devlooped/ThisAssembly,EnhancementProject

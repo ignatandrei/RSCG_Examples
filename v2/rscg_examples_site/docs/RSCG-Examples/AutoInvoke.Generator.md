@@ -360,7 +360,7 @@ partial class RemoteCollection {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInvoke.Generator
 
-### In the same category (EnhancementProject) - 15 other generators
+### In the same category (EnhancementProject) - 16 other generators
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
@@ -406,4 +406,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInvoke.Generator
 
 
 #### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+
+
+#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
 

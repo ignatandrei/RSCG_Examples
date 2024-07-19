@@ -301,7 +301,7 @@ internal static class BuildInformation
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo
 
-### In the same category (EnhancementProject) - 15 other generators
+### In the same category (EnhancementProject) - 16 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -347,4 +347,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuildInfo
 
 
 #### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+
+
+#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
 

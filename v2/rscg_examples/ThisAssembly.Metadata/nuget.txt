@@ -1,0 +1,44 @@
+This package generates a static `ThisAssembly.Metadata` with public 
+constants exposing each `[System.Reflection.AssemblyMetadata(..)]` defined for the project, 
+such as when using .NET 5.0+ support for `` items.
+
+So for an attribute like:
+
+  [assembly: System.Reflection.AssemblyMetadataAttribute("Foo", "Bar")]
+
+A corresponding `ThisAssembly.Metadata.Foo` constant with the value `Bar` is provided. 
+The metadata attribute can alternatively be declared using MSBuild in the project 
+(for .NET 5.0+ projects):
+
+    <ItemGroup>
+      <AssemblyMetadata Include="Foo" Value="Bar" />
+    </ItemGroup>
+
+Generated code:
+C#:
+
+  partial class ThisAssembly
+  {
+      public static partial class Metadata
+      {
+          public const string Foo = "Bar";
+      }
+  }
+
+VB:
+
+  Namespace Global
+    Partial Class ThisAssembly
+          Partial Class Metadata
+              Public Const Foo = "Bar"
+          End Class
+      End Class
+  End Namespace
+
+F#:
+
+  module internal ThisAssembly
+
+  module public Metadata =
+      [<Literal>]
+      let public Foo = @"Bar"

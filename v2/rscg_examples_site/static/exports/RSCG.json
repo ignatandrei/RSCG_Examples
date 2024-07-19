@@ -1193,6 +1193,14 @@
       "Source": "https://github.com/pekspro/BuildInformationGenerator",
       "Category": "EnhancementProject",
       "AddedOn": "2024-07-19T00:00:00"
+    },
+    {
+      "Name": "ThisAssembly.Metadata",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Metadata",
+      "NuGet": "https://www.nuget.org/packages/ThisAssembly.Metadata/",
+      "Source": "https://github.com/devlooped/ThisAssembly",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-07-20T00:00:00"
     }
   ]
 }
