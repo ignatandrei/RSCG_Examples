@@ -1662,7 +1662,7 @@ namespace GeneratedCode
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine
 
-### In the same category (EnhancementProject) - 15 other generators
+### In the same category (EnhancementProject) - 16 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -1708,4 +1708,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine
 
 
 #### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+
+
+#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
 

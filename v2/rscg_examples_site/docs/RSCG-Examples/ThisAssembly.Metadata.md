@@ -1,20 +1,20 @@
 ---
-sidebar_position: 10
-title: 01 - ThisAssembly
-description: The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
-slug: /ThisAssembly
+sidebar_position: 1500
+title: 150 - ThisAssembly.Metadata
+description: Generating code from assembly metadata
+slug: /ThisAssembly.Metadata
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# ThisAssembly  by Daniel Cazzulino
+# ThisAssembly.Metadata  by Daniel Cazzulino
 
 
 <TOCInline toc={toc}  />
 
 ## Nuget / site data
-[![Nuget](https://img.shields.io/nuget/dt/ThisAssembly?label=ThisAssembly)](https://www.nuget.org/packages/ThisAssembly)
+[![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Metadata?label=ThisAssembly.Metadata)](https://www.nuget.org/packages/ThisAssembly.Metadata/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
 
@@ -23,17 +23,59 @@ import TOCInline from '@theme/TOCInline';
 ### Info
 :::info
 
-Name: **ThisAssembly**
+Name: **ThisAssembly.Metadata**
 
-Meta-package that includes all ThisAssembly.* packages.
+This package generates a static `ThisAssembly.Metadata` with public 
+constants exposing each `[System.Reflection.AssemblyMetadata(..)]` defined for the project, 
+such as when using .NET 5.0+ support for `` items.
+
+So for an attribute like:
+
+  [assembly: System.Reflection.AssemblyMetadataAttribute("Foo", "Bar")]
+
+A corresponding `ThisAssembly.Metadata.Foo` constant with the value `Bar` is provided. 
+The metadata attribute can alternatively be declared using MSBuild in the project 
+(for .NET 5.0+ projects):
+
+    <ItemGroup>
+      <AssemblyMetadata Include="Foo" Value="Bar" />
+    </ItemGroup>
+
+Generated code:
+C#:
+
+  partial class ThisAssembly
+  {
+      public static partial class Metadata
+      {
+          public const string Foo = "Bar";
+      }
+  }
+
+VB:
+
+  Namespace Global
+    Partial Class ThisAssembly
+          Partial Class Metadata
+              Public Const Foo = "Bar"
+          End Class
+      End Class
+  End Namespace
+
+F#:
+
+  module internal ThisAssembly
+
+  module public Metadata =
+      let public Foo = @"Bar"
 
 Author: Daniel Cazzulino
 
 NuGet: 
-*https://www.nuget.org/packages/ThisAssembly*   
+*https://www.nuget.org/packages/ThisAssembly.Metadata/*   
 
 
-You can find more details at https://www.clarius.org/ThisAssembly/
+You can find more details at https://github.com/devlooped/ThisAssembly
 
 Source : https://github.com/devlooped/ThisAssembly
 
@@ -42,7 +84,7 @@ Source : https://github.com/devlooped/ThisAssembly
 ### Original Readme
 :::note
 
-ThisAssembly
+![Icon](https://github.com/devlooped/ThisAssembly/img/icon-32.png) ThisAssembly
 ============
 
 [![Version](https://img.shields.io/nuget/vpre/ThisAssembly.svg?color=royalblue)](https://www.nuget.org/packages/ThisAssembly)
@@ -349,6 +391,7 @@ Given the following Resx file:
 | Infrastructure_MissingService | Service {0} is required.              | For logging only! |
 | Shopping_NoShipping           | We cannot ship {0} to {1}.            |                   |
 | Shopping_OutOfStock           | Product is out of stock at this time. |                   |
+| Shopping_AvailableOn          | Product available on {date:yyyy-MM}.  |                   |
 
 The following code would be generated:
 
@@ -384,6 +427,14 @@ partial class ThisAssembly
             /// </summary>
             public static string OutOfStock
                 => Strings.GetResourceManager("ThisStore.Properties.Resources").GetString("OutOfStock");
+
+            /// <summary>
+            /// Product available on {date:yyyy-MM}.
+            /// </summary>
+            public static string AvailableOn(object date) 
+                => string.Format(CultureInfo.CurrentCulture, 
+                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("{date:yyyy-MM}", "{0}"), 
+                    ((IFormattable)date).ToString("yyyy-MM", CultureInfo.CurrentCulture));
         }
     }
 }
@@ -412,12 +463,40 @@ The versioning scheme for packages is:
 
 <!-- sponsors.md -->
 [![Clarius Org](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/clarius.png "Clarius Org")](https://github.com/clarius)
-[![C. Augusto Proiete](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/augustoproiete.png "C. Augusto Proiete")](https://github.com/augustoproiete)
 [![Kirill Osenkov](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/KirillOsenkov.png "Kirill Osenkov")](https://github.com/KirillOsenkov)
 [![MFB Technologies, Inc.](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/MFB-Technologies-Inc.png "MFB Technologies, Inc.")](https://github.com/MFB-Technologies-Inc)
-[![SandRock](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/sandrock.png "SandRock")](https://github.com/sandrock)
-[![Andy Gocke](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/agocke.png "Andy Gocke")](https://github.com/agocke)
 [![Stephen Shaw](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/decriptor.png "Stephen Shaw")](https://github.com/decriptor)
+[![Torutek](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/torutek-gh.png "Torutek")](https://github.com/torutek-gh)
+[![DRIVE.NET, Inc.](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/drivenet.png "DRIVE.NET, Inc.")](https://github.com/drivenet)
+[![Ashley Medway](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/AshleyMedway.png "Ashley Medway")](https://github.com/AshleyMedway)
+[![Keith Pickford](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/Keflon.png "Keith Pickford")](https://github.com/Keflon)
+[![Thomas Bolon](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/tbolon.png "Thomas Bolon")](https://github.com/tbolon)
+[![Kori Francis](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/kfrancis.png "Kori Francis")](https://github.com/kfrancis)
+[![Toni Wenzel](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/twenzel.png "Toni Wenzel")](https://github.com/twenzel)
+[![Giorgi Dalakishvili](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/Giorgi.png "Giorgi Dalakishvili")](https://github.com/Giorgi)
+[![Uno Platform](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/unoplatform.png "Uno Platform")](https://github.com/unoplatform)
+[![Dan Siegel](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/dansiegel.png "Dan Siegel")](https://github.com/dansiegel)
+[![Reuben Swartz](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/rbnswartz.png "Reuben Swartz")](https://github.com/rbnswartz)
+[![Jacob Foshee](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/jfoshee.png "Jacob Foshee")](https://github.com/jfoshee)
+[![](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/Mrxx99.png "")](https://github.com/Mrxx99)
+[![Eric Johnson](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/eajhnsn1.png "Eric Johnson")](https://github.com/eajhnsn1)
+[![Ix Technologies B.V.](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/IxTechnologies.png "Ix Technologies B.V.")](https://github.com/IxTechnologies)
+[![David JENNI](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/davidjenni.png "David JENNI")](https://github.com/davidjenni)
+[![Jonathan ](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/Jonathan-Hickey.png "Jonathan ")](https://github.com/Jonathan-Hickey)
+[![Oleg Kyrylchuk](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/okyrylchuk.png "Oleg Kyrylchuk")](https://github.com/okyrylchuk)
+[![Charley Wu](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/akunzai.png "Charley Wu")](https://github.com/akunzai)
+[![Jakob Tikjøb Andersen](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/jakobt.png "Jakob Tikjøb Andersen")](https://github.com/jakobt)
+[![Seann Alexander](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/seanalexander.png "Seann Alexander")](https://github.com/seanalexander)
+[![Tino Hager](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/tinohager.png "Tino Hager")](https://github.com/tinohager)
+[![Mark Seemann](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/ploeh.png "Mark Seemann")](https://github.com/ploeh)
+[![Ken Bonny](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/KenBonny.png "Ken Bonny")](https://github.com/KenBonny)
+[![Simon Cropp](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/SimonCropp.png "Simon Cropp")](https://github.com/SimonCropp)
+[![agileworks-eu](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/agileworks-eu.png "agileworks-eu")](https://github.com/agileworks-eu)
+[![sorahex](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/sorahex.png "sorahex")](https://github.com/sorahex)
+[![Zheyu Shen](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/arsdragonfly.png "Zheyu Shen")](https://github.com/arsdragonfly)
+[![Vezel](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/vezel-dev.png "Vezel")](https://github.com/vezel-dev)
+[![ChilliCream](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/ChilliCream.png "ChilliCream")](https://github.com/ChilliCream)
+[![4OTC](https://raw.githubusercontent.com/devlooped/sponsors/main/.github/avatars/4OTC.png "4OTC")](https://github.com/4OTC)
 
 
 <!-- sponsors.md -->
@@ -435,10 +514,7 @@ The versioning scheme for packages is:
 ### About
 :::note
 
-The ThisAssembly.Info allows you access to the Assembly Information as constants, instead of going to reflection each time.
-
-
-I found useful to see the assembly version right away in any project that I have.
+Generating code from assembly metadata
 
 
 :::
@@ -451,70 +527,44 @@ I found useful to see the assembly version right away in any project that I have
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references **ThisAssembly**
-```xml showLineNumbers {15}
+This is the CSharp Project that references **ThisAssembly.Metadata**
+```xml showLineNumbers {13}
 <Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFramework>net8.0</TargetFramework>
-	</PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<AssemblyMetadata Include="MyName" Value="Andrei" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="ThisAssembly.Metadata" Version="1.4.3">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
 		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
-	<PropertyGroup>
-	<!-- this is the code to start RSCG -->
-		<Version>2023.5.7.800</Version>
-	</PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="ThisAssembly" Version="1.2.14" OutputItemType="Analyzer" ReferenceOutputAssembly="false">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
-	</ItemGroup>
 </Project>
 
 ```
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\RSCG_Version.csproj" label="RSCG_Version.csproj" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Metadata\src\MetadataDemo\MetadataDemo\Program.cs" label="Program.cs" >
 
-  This is the use of **ThisAssembly** in *RSCG_Version.csproj*
-
-```csharp showLineNumbers 
-<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFramework>net8.0</TargetFramework>
-	</PropertyGroup>
-	<PropertyGroup>
-		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
-	</PropertyGroup>
-	<PropertyGroup>
-	<!-- this is the code to start RSCG -->
-		<Version>2023.5.7.800</Version>
-	</PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="ThisAssembly" Version="1.2.14" OutputItemType="Analyzer" ReferenceOutputAssembly="false">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
-	</ItemGroup>
-</Project>
-
-```
-  </TabItem>
-
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\Program.cs" label="Program.cs" >
-
-  This is the use of **ThisAssembly** in *Program.cs*
+  This is the use of **ThisAssembly.Metadata** in *Program.cs*
 
 ```csharp showLineNumbers 
-//this is the code that use the generated code 
-var strVersion = ThisAssembly.Info.Version;
-System.Console.WriteLine(strVersion);
+[assembly: System.Reflection.AssemblyMetadataAttribute("Name", "Test")]
+
+Console.WriteLine(ThisAssembly.Metadata.Name);
+Console.WriteLine(ThisAssembly.Metadata.MyName);
 
 ```
   </TabItem>
@@ -528,7 +578,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly\src\RSCG_Version\obj\GX\ThisAssembly.AssemblyInfo\ThisAssembly.AssemblyInfoGenerator\ThisAssembly.AssemblyInfo.g.cs" label="ThisAssembly.AssemblyInfo.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Metadata\src\MetadataDemo\MetadataDemo\obj\GX\ThisAssembly.Metadata\ThisAssembly.MetadataGenerator\ThisAssembly.Metadata.g.cs" label="ThisAssembly.Metadata.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -551,25 +601,23 @@ using System.Runtime.CompilerServices;
 partial class ThisAssembly
 {
     /// <summary>
-    /// Gets the AssemblyInfo attributes.
+    /// Gets the assembly metadata.
     /// </summary>
-    [GeneratedCode("ThisAssembly.AssemblyInfo", "1.2.14")]
+    [GeneratedCode("ThisAssembly.Metadata", "1.4.3")]
     [CompilerGenerated]
-    public static partial class Info
+    public static partial class Metadata
     {
-        public const string Company = @"RSCG_Version";
+        /// <summary>Name = Test</summary>
+        public const string Name = 
+"""
+Test
+""";
 
-        public const string Configuration = @"Debug";
-
-        public const string FileVersion = @"2023.5.7.800";
-
-        public const string InformationalVersion = @"2023.5.7.800+2f0911528d0680acf7201c9551ea3e565c6b9e4f";
-
-        public const string Product = @"RSCG_Version";
-
-        public const string Title = @"RSCG_Version";
-
-        public const string Version = @"2023.5.7.800";
+        /// <summary>MyName = Andrei</summary>
+        public const string MyName = 
+"""
+Andrei
+""";
 
     }
 }
@@ -586,21 +634,21 @@ partial class ThisAssembly
 
 :::tip
 
-[Download Example project ThisAssembly ](/sources/ThisAssembly.zip)
+[Download Example project ThisAssembly.Metadata ](/sources/ThisAssembly.Metadata.zip)
 
 :::
 
 
-### Share ThisAssembly 
+### Share ThisAssembly.Metadata 
 
 <ul>
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&quote=ThisAssembly" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&text=ThisAssembly:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly" target="_blank" title="Tweet">Share in Twitter</a></li>
-  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&title=ThisAssembly" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly&title=ThisAssembly&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&quote=ThisAssembly.Metadata" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&text=ThisAssembly.Metadata:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&title=ThisAssembly.Metadata" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&title=ThisAssembly.Metadata&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
 </ul>
 
-https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Metadata
 
 ### In the same category (EnhancementProject) - 16 other generators
 
@@ -647,8 +695,8 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 #### [RSCG_Wait](/docs/RSCG_Wait)
 
 
+#### [ThisAssembly](/docs/ThisAssembly)
+
+
 #### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
-
-
-#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
 

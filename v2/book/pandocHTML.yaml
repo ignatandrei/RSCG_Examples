@@ -163,6 +163,7 @@ input-files:
 - examples/JKToolKit.TemplatePropertyGenerator.html
 - examples/ThisAssembly.Constants.html
 - examples/Pekspro.BuildInformationGenerator.html
+- examples/ThisAssembly.Metadata.html
 
 # or you may use input-file: with a single value
 # defaults:

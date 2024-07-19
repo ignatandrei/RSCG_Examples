@@ -1656,7 +1656,7 @@ namespace Mediator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
-### In the same category (EnhancementProject) - 15 other generators
+### In the same category (EnhancementProject) - 16 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -1702,4 +1702,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
 
 #### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+
+
+#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
 

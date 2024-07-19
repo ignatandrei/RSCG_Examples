@@ -834,10 +834,5 @@
     "name":"ServiceScan https://github.com/Dreamescaper/ServiceScan.SourceGenerator",
     "why":"later"
 
-  },
-  {
-    "ID": 171,
-    "name":"https://github.com/pekspro/BuildInformationGenerator",
-    "why":"later"
   }
 ]
