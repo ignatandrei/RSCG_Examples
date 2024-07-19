@@ -689,7 +689,7 @@ static class EmbeddedResource
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources
 
-### In the same category (FilesToCode) - 11 other generators
+### In the same category (FilesToCode) - 12 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
@@ -720,6 +720,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources
 
 
 #### [RSCG_Utils](/docs/RSCG_Utils)
+
+
+#### [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
 
 
 #### [Weave](/docs/Weave)

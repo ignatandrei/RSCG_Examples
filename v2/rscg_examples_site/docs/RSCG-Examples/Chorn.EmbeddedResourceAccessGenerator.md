@@ -350,7 +350,7 @@ public enum EmbeddedResourcesql
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator
 
-### In the same category (FilesToCode) - 11 other generators
+### In the same category (FilesToCode) - 12 other generators
 
 
 #### [corecraft](/docs/corecraft)
@@ -381,6 +381,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccess
 
 
 #### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+
+
+#### [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
 
 
 #### [Weave](/docs/Weave)

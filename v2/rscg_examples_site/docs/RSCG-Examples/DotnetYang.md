@@ -655,7 +655,7 @@ public class YangNode
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DotnetYang
 
-### In the same category (FilesToCode) - 11 other generators
+### In the same category (FilesToCode) - 12 other generators
 
 
 #### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
@@ -686,6 +686,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/DotnetYang
 
 
 #### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+
+
+#### [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
 
 
 #### [Weave](/docs/Weave)

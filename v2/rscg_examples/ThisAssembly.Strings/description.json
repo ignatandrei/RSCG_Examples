@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ThisAssembly.Strings",
+      "nuget":[
+         "https://www.nuget.org/packages/ThisAssembly.Strings/"
+      ],
+      "link":"https://github.com/devlooped/ThisAssembly",
+      "author":"Daniel Cazzulino",
+      "source":"https://github.com/devlooped/ThisAssembly"
+   },
+   "data":{
+      "goodFor":["generating code from resx files"],
+      "csprojDemo":"StringsDemo.csproj",
+      "csFiles":["Program.cs","Demo.resx"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ThisAssembly.Strings",
+  "steps": 
+  [
+    {
+      "file": "StringsDemo/StringsDemo.csproj",
+      "description": "First, we add Nuget  [ThisAssembly.Strings](https://www.nuget.org/packages/ThisAssembly.Strings/) in csproj  ",
+      "pattern": "ThisAssembly.Strings"
+    }
+
+        ,{
+        "file": "StringsDemo/Demo.resx",
+        "description": "File Demo.resx  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "StringsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project StringsDemo/StringsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "StringsDemo/obj/GX/ThisAssembly.Strings/ThisAssembly.StringsGenerator/ThisAssembly.Strings.g.cs",
+        "description": "File ThisAssembly.Strings.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StringsDemo/obj/GX/ThisAssembly.Strings/ThisAssembly.StringsGenerator/StringsDemo.Demo.cs",
+        "description": "File StringsDemo.Demo.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
