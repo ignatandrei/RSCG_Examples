@@ -828,11 +828,5 @@
     "ID": 169,
     "name":"tecli https://github.com/tyevco/TeCLI",
     "why":"old ISourceGenerator"
-  },
-  {
-    "ID": 170,
-    "name":"ServiceScan https://github.com/Dreamescaper/ServiceScan.SourceGenerator",
-    "why":"later"
-
   }
 ]

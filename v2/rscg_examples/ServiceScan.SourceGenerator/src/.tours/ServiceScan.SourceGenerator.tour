@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ServiceScan.SourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [ServiceScan.SourceGenerator](https://www.nuget.org/packages/ServiceScan.SourceGenerator/) in csproj  ",
+      "pattern": "ServiceScan.SourceGenerator"
+    }
+
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/ServiceScan.SourceGenerator/ServiceScan.SourceGenerator.DependencyInjectionGenerator/MyServiceProvider_AddMyServices.Generated.cs",
+        "description": "File MyServiceProvider_AddMyServices.Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/ServiceScan.SourceGenerator/ServiceScan.SourceGenerator.DependencyInjectionGenerator/GenerateServiceRegistrationsAttribute.Generated.cs",
+        "description": "File GenerateServiceRegistrationsAttribute.Generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
