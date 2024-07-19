@@ -1,0 +1,11 @@
+This package generates a static `ThisAssembly.Strings` class with public 
+constants exposing string resources in .resx files or methods with the right number of 
+parameters for strings that use formatting parameters. 
+
+In addition, it groups constants and methods in nested classes according to an optional 
+underscore separator to organize strings. For example, *User_InvalidCredentials* can be
+accessed with *ThisAssembly.Strings.User.InvalidCredentials* if it contains a simple string, 
+or as a method with the right number of parametres if its value has a format string.
+
+
+Built from https://github.com/kzu/ThisAssembly/tree/f77a712b7

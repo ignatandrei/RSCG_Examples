@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 150 RSCG list by category
-description: 150 RSCG list by category
+title: 151 RSCG list by category
+description: 151 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -526,7 +526,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:12</summary>
+  <summary>Expand FilesToCode =>examples:13</summary>
         
 
 
@@ -586,6 +586,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DotnetYang](/docs/DotnetYang)
+
+        
+
+
+[ThisAssembly.Strings](/docs/ThisAssembly.Strings)
 
 </details>
     
@@ -1129,6 +1134,8 @@ flowchart LR;
     FilesToCode--> RSCG_JSON2Class((RSCG_JSON2Class))
 
     FilesToCode--> DotnetYang((DotnetYang))
+
+    FilesToCode--> ThisAssembly.Strings((ThisAssembly.Strings))
 
     FunctionalProgramming--> dunet((dunet))
 

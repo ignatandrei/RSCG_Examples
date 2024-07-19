@@ -1,20 +1,20 @@
 ---
-sidebar_position: 1500
-title: 150 - ThisAssembly.Metadata
-description: Generating code from assembly metadata
-slug: /ThisAssembly.Metadata
+sidebar_position: 1510
+title: 151 - ThisAssembly.Strings
+description: generating code from resx files
+slug: /ThisAssembly.Strings
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# ThisAssembly.Metadata  by Daniel Cazzulino
+# ThisAssembly.Strings  by Daniel Cazzulino
 
 
 <TOCInline toc={toc}  />
 
 ## Nuget / site data
-[![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Metadata?label=ThisAssembly.Metadata)](https://www.nuget.org/packages/ThisAssembly.Metadata/)
+[![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Strings?label=ThisAssembly.Strings)](https://www.nuget.org/packages/ThisAssembly.Strings/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
 
@@ -23,39 +23,24 @@ import TOCInline from '@theme/TOCInline';
 ### Info
 :::info
 
-Name: **ThisAssembly.Metadata**
+Name: **ThisAssembly.Strings**
 
-This package generates a static `ThisAssembly.Metadata` with public 
-constants exposing each `[System.Reflection.AssemblyMetadata(..)]` defined for the project, 
-such as when using .NET 5.0+ support for `` items.
+This package generates a static `ThisAssembly.Strings` class with public 
+constants exposing string resources in .resx files or methods with the right number of 
+parameters for strings that use formatting parameters. 
 
-So for an attribute like:
+In addition, it groups constants and methods in nested classes according to an optional 
+underscore separator to organize strings. For example, *User_InvalidCredentials* can be
+accessed with *ThisAssembly.Strings.User.InvalidCredentials* if it contains a simple string, 
+or as a method with the right number of parametres if its value has a format string.
 
-  [assembly: System.Reflection.AssemblyMetadataAttribute("Foo", "Bar")]
 
-A corresponding `ThisAssembly.Metadata.Foo` constant with the value `Bar` is provided. 
-The metadata attribute can alternatively be declared using MSBuild in the project 
-(for .NET 5.0+ projects):
-
-    <ItemGroup>
-      <AssemblyMetadata Include="Foo" Value="Bar" />
-    </ItemGroup>
-
-Generated code:
-C#:
-
-  partial class ThisAssembly
-  {
-      public static partial class Metadata
-      {
-          public const string Foo = "Bar";
-      }
-  }
+Built from https://github.com/kzu/ThisAssembly/tree/f77a712b7
 
 Author: Daniel Cazzulino
 
 NuGet: 
-*https://www.nuget.org/packages/ThisAssembly.Metadata/*   
+*https://www.nuget.org/packages/ThisAssembly.Strings/*   
 
 
 You can find more details at https://github.com/devlooped/ThisAssembly
@@ -497,7 +482,7 @@ The versioning scheme for packages is:
 ### About
 :::note
 
-Generating code from assembly metadata
+generating code from resx files
 
 
 :::
@@ -510,8 +495,8 @@ Generating code from assembly metadata
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references **ThisAssembly.Metadata**
-```xml showLineNumbers {13}
+This is the CSharp Project that references **ThisAssembly.Strings**
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -520,15 +505,28 @@ This is the CSharp Project that references **ThisAssembly.Metadata**
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-	<ItemGroup>
-		<AssemblyMetadata Include="MyName" Value="Andrei" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="ThisAssembly.Metadata" Version="1.4.3">
-	    <PrivateAssets>all</PrivateAssets>
-	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	  </PackageReference>
-	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ThisAssembly.Strings" Version="1.4.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Demo.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Demo.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Demo.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Demo.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
 	<PropertyGroup>
 		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
 		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
@@ -539,16 +537,145 @@ This is the CSharp Project that references **ThisAssembly.Metadata**
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Metadata\src\MetadataDemo\MetadataDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Strings\src\StringsDemo\Program.cs" label="Program.cs" >
 
-  This is the use of **ThisAssembly.Metadata** in *Program.cs*
+  This is the use of **ThisAssembly.Strings** in *Program.cs*
 
 ```csharp showLineNumbers 
-[assembly: System.Reflection.AssemblyMetadataAttribute("Name", "Test")]
+Console.WriteLine(ThisAssembly.Strings.PersonName("Andrei Ignat"));
 
-Console.WriteLine(ThisAssembly.Metadata.Name);
-Console.WriteLine(ThisAssembly.Metadata.MyName);
+```
+  </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Strings\src\StringsDemo\Demo.resx" label="Demo.resx" >
+
+  This is the use of **ThisAssembly.Strings** in *Demo.resx*
+
+```csharp showLineNumbers 
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PersonName" xml:space="preserve">
+    <value>The person name is {0}</value>
+    <comment>the person name</comment>
+  </data>
+</root>
 ```
   </TabItem>
 
@@ -561,7 +688,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Metadata\src\MetadataDemo\MetadataDemo\obj\GX\ThisAssembly.Metadata\ThisAssembly.MetadataGenerator\ThisAssembly.Metadata.g.cs" label="ThisAssembly.Metadata.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Strings\src\StringsDemo\obj\GX\ThisAssembly.Strings\ThisAssembly.StringsGenerator\StringsDemo.Demo.cs" label="StringsDemo.Demo.cs" >
 
 
 ```csharp showLineNumbers 
@@ -569,12 +696,36 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 // <auto-generated>
 //     This code was generated by a tool.
 //
+//     ThisAssembly.Strings: 1.4.3
+//
 //     Changes to this file may cause incorrect behavior and will be lost if
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
+using System;
+using System.Globalization;
 
-using System.CodeDom.Compiler;
+partial class ThisAssembly
+{
+    public static partial class Strings
+    {
+        /// <summary>
+        /// the person name
+        /// </summary>
+        public static string PersonName(object arg0) => string.Format(CultureInfo.CurrentCulture, Strings.GetResourceManager("StringsDemo.Demo").GetString("PersonName"), arg0);
+    }
+}
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ThisAssembly.Strings\src\StringsDemo\obj\GX\ThisAssembly.Strings\ThisAssembly.StringsGenerator\ThisAssembly.Strings.g.cs" label="ThisAssembly.Strings.g.cs" >
+
+
+```csharp showLineNumbers 
+using System.Collections.Concurrent;
+using System.Resources;
 using System.Runtime.CompilerServices;
 
 /// <summary>
@@ -584,24 +735,15 @@ using System.Runtime.CompilerServices;
 partial class ThisAssembly
 {
     /// <summary>
-    /// Gets the assembly metadata.
+    /// Access the strings provided by resource files in the project.
     /// </summary>
-    [GeneratedCode("ThisAssembly.Metadata", "1.4.3")]
     [CompilerGenerated]
-    public static partial class Metadata
+    public static partial class Strings
     {
-        /// <summary>Name = Test</summary>
-        public const string Name = 
-"""
-Test
-""";
+        static ConcurrentDictionary<string, ResourceManager> resourceManagers = new ConcurrentDictionary<string, ResourceManager>();
 
-        /// <summary>MyName = Andrei</summary>
-        public const string MyName = 
-"""
-Andrei
-""";
-
+        static ResourceManager GetResourceManager(string resourceName)
+            => resourceManagers.GetOrAdd(resourceName, name => new ResourceManager(name, typeof(Strings).Assembly));
     }
 }
 ```
@@ -617,69 +759,57 @@ Andrei
 
 :::tip
 
-[Download Example project ThisAssembly.Metadata ](/sources/ThisAssembly.Metadata.zip)
+[Download Example project ThisAssembly.Strings ](/sources/ThisAssembly.Strings.zip)
 
 :::
 
 
-### Share ThisAssembly.Metadata 
+### Share ThisAssembly.Strings 
 
 <ul>
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&quote=ThisAssembly.Metadata" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&text=ThisAssembly.Metadata:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata" target="_blank" title="Tweet">Share in Twitter</a></li>
-  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&title=ThisAssembly.Metadata" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata&title=ThisAssembly.Metadata&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Metadata" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Strings&quote=ThisAssembly.Strings" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Strings&text=ThisAssembly.Strings:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Strings" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Strings&title=ThisAssembly.Strings" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Strings&title=ThisAssembly.Strings&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FThisAssembly.Strings" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
 </ul>
 
-https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Metadata
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Strings
 
-### In the same category (EnhancementProject) - 16 other generators
-
-
-#### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
+### In the same category (FilesToCode) - 12 other generators
 
 
-#### [AutoSpectre](/docs/AutoSpectre)
+#### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
 
-#### [BuildInfo](/docs/BuildInfo)
+#### [corecraft](/docs/corecraft)
 
 
-#### [Com](/docs/Com)
+#### [DotnetYang](/docs/DotnetYang)
 
 
-#### [CommandLine](/docs/CommandLine)
+#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
 
-#### [DeeDee](/docs/DeeDee)
+#### [LingoGen](/docs/LingoGen)
 
 
-#### [LinqGen.Generator](/docs/LinqGen.Generator)
+#### [NotNotAppSettings](/docs/NotNotAppSettings)
 
 
-#### [Mediator](/docs/Mediator)
+#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
 
-#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
+#### [ResXGenerator](/docs/ResXGenerator)
 
 
-#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+#### [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
 
 
-#### [RSCG_AMS](/docs/RSCG_AMS)
+#### [RSCG_Utils](/docs/RSCG_Utils)
 
 
-#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+#### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
 
-#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
-
-
-#### [RSCG_Wait](/docs/RSCG_Wait)
-
-
-#### [ThisAssembly](/docs/ThisAssembly)
-
-
-#### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+#### [Weave](/docs/Weave)
 

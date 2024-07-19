@@ -899,5 +899,11 @@
     "Category":1,
     "dtStart": "2024-07-20T00:00:00",
     "show":true
+  },
+  {
+    "ID": "ThisAssembly.Strings",
+    "Category": 8,
+    "dtStart": "2024-07-21T00:00:00",
+    "show": true
   }
 ]

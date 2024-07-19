@@ -1201,6 +1201,14 @@
       "Source": "https://github.com/devlooped/ThisAssembly",
       "Category": "EnhancementProject",
       "AddedOn": "2024-07-20T00:00:00"
+    },
+    {
+      "Name": "ThisAssembly.Strings",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Strings",
+      "NuGet": "https://www.nuget.org/packages/ThisAssembly.Strings/",
+      "Source": "https://github.com/devlooped/ThisAssembly",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-07-21T00:00:00"
     }
   ]
 }

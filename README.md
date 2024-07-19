@@ -1,6 +1,6 @@
-# RSCG - 150 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 151 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-07-20 => 20 July 2024
+## Latest Update : 2024-07-21 => 21 July 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,40 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 150 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 151 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 151. [ThisAssembly.Strings](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Strings) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-07-21 => 21 July 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Daniel Cazzulino
+
+This package generates a static `ThisAssembly.Strings` class with public 
+constants exposing string resources in .resx files or methods with the right number of 
+parameters for strings that use formatting parameters. 
+
+In addition, it groups constants and methods in nested classes according to an optional 
+underscore separator to organize strings. For example, *User_InvalidCredentials* can be
+accessed with *ThisAssembly.Strings.User.InvalidCredentials* if it contains a simple string, 
+or as a method with the right number of parametres if its value has a format string.
+
+
+Built from https://github.com/kzu/ThisAssembly/tree/f77a712b7 
+
+Nuget: [https://www.nuget.org/packages/ThisAssembly.Strings/](https://www.nuget.org/packages/ThisAssembly.Strings/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Strings](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Strings)
+
+Source: [https://github.com/devlooped/ThisAssembly](https://github.com/devlooped/ThisAssembly)
+
+</details>
+
 ### 150. [ThisAssembly.Metadata](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Metadata) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2024-07-20 => 20 July 2024
@@ -57,15 +89,6 @@ C#:
       }
   }
 
-VB:
-
-  Namespace Global
-    Partial Class ThisAssembly
-          Partial Class Metadata
-              Public Const Foo = "Bar"
-          End Class
-      End Class
-  End Namespace
 
 Nuget: [https://www.nuget.org/packages/ThisAssembly.Metadata/](https://www.nuget.org/packages/ThisAssembly.Metadata/) 
 
