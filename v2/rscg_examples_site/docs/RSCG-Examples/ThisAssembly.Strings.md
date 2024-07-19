@@ -52,7 +52,7 @@ Source : https://github.com/devlooped/ThisAssembly
 ### Original Readme
 :::note
 
-![Icon](img/icon-32.png) ThisAssembly
+![Icon](https://github.com/devlooped/ThisAssembly/img/icon-32.png) ThisAssembly
 ============
 
 [![Version](https://img.shields.io/nuget/vpre/ThisAssembly.svg?color=royalblue)](https://www.nuget.org/packages/ThisAssembly)
