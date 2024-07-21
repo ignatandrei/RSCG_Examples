@@ -111,23 +111,7 @@ C#:
       }
   }
 
-VB:
-
-  Namespace Global
-    Partial Class ThisAssembly
-          Partial Class Metadata
-              Public Const Foo = "Bar"
-          End Class
-      End Class
-  End Namespace
-
-F#:
-
-  module internal ThisAssembly
-
-  module public Metadata =
-      [<Literal>]
-      let public Foo = @"Bar" 
+ 
 
 Nuget: [https://www.nuget.org/packages/ThisAssembly.Metadata/](https://www.nuget.org/packages/ThisAssembly.Metadata/) 
 
