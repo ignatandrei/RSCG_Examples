@@ -713,7 +713,7 @@ public class MultiGeneratorV2
         var x = 0;
         x++;
         //if(x>2)
-        var lastGenerator = "DotnetYang";
+        var lastGenerator = "ThisAssembly.Metadata";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
