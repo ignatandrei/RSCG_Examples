@@ -1,3 +1,5 @@
+[![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_examples?label=updated)](https://github.com/ignatandrei/rscg_examples)[![Stars](https://img.shields.io/github/stars/ignatandrei/rscg_examples)](https://github.com/ignatandrei/rscg_examples/stargazers)[![Sparkline](https://stars.medv.io/ignatandrei/rscg_examples.svg)](https://stars.medv.io/ignatandrei/rscg_examples)
+
 # RSCG - 152 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
 ## Latest Update : 2024-07-22 => 22 July 2024
