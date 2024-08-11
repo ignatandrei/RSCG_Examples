@@ -24,12 +24,6 @@
     
 
         ,{
-        "file": "DiagramDemoConsole/obj/GX/DiagramDemoConsole_rel_csproj.md",
-        "description": "File DiagramDemoConsole_rel_csproj.md ",
-        "line": 1
-        }
-    
-        ,{
         "file": "DiagramDemoConsole/obj/GX/RSCG_ExportDiagram/RSCG_ExportDiagram.GeneratorDiagram/DiagramDemoConsole_Program_1_gen.cs",
         "description": "File DiagramDemoConsole_Program_1_gen.cs ",
         "line": 1

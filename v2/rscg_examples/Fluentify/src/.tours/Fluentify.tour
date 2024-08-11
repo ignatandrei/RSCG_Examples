@@ -1,0 +1,72 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Fluentify",
+  "steps": 
+  [
+    {
+      "file": "Builder/Builder.csproj",
+      "description": "First, we add Nuget  [Fluentify](https://www.nuget.org/packages/Fluentify/) in csproj  ",
+      "pattern": "Fluentify"
+    }
+
+        ,{
+        "file": "Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.InternalExtensionsGenerator/Fluentify.Internal.Extensions.g.cs",
+        "description": "File Fluentify.Internal.Extensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.IgnoreAttributeGenerator/IgnoreAttribute.g.cs",
+        "description": "File IgnoreAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.FluentifyAttributeGenerator/FluentifyAttribute.g.cs",
+        "description": "File FluentifyAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.DescriptorAttributeGenerator/DescriptorAttribute.g.cs",
+        "description": "File DescriptorAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.ClassGenerator/Builder.PersonExtensions.WithMiddleName.g.cs",
+        "description": "File Builder.PersonExtensions.WithMiddleName.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.ClassGenerator/Builder.PersonExtensions.WithLastName.g.cs",
+        "description": "File Builder.PersonExtensions.WithLastName.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/Fluentify/Fluentify.ClassGenerator/Builder.PersonExtensions.WithFirstName.g.cs",
+        "description": "File Builder.PersonExtensions.WithFirstName.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

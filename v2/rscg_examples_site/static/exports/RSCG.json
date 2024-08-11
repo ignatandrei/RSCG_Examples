@@ -1225,6 +1225,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_ExportDiagram",
       "Category": "EnhancementProject",
       "AddedOn": "2024-08-01T00:00:00"
+    },
+    {
+      "Name": "Fluentify",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/fluentify",
+      "NuGet": "https://www.nuget.org/packages/Fluentify/",
+      "Source": "https://github.com/MooVC/fluentify",
+      "Category": "Builder",
+      "AddedOn": "2024-08-02T00:00:00"
     }
   ]
 }
