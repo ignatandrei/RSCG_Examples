@@ -96,11 +96,16 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <TabItem value="{{fileContent.fullPathFile}}" label="{{fileContent.file}}" >
 
+{{~ if fileContent.content | string.contains  "```" ~}}
+
+{{fileContent.content}}
+
+{{~ else ~}}
 
 ```csharp showLineNumbers 
 {{fileContent.content}}
 ```
-
+{{end}}
   </TabItem>
 
 {{~ end ~}}
