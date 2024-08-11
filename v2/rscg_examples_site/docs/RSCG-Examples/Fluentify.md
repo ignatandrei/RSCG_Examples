@@ -280,12 +280,12 @@ Fluentify includes several analyzers to assist engineers with its usage. These a
 
 Rule ID                          | Category | Severity | Notes
 :--------------------------------|:---------|:---------|:-------------------------------------------------------------------------
-[FLTFY01](docs/rules/FLTFY01.md) | Design   | Warning  | Class must have an accessible parameterless constructor to use Fluentify
-[FLTFY02](docs/rules/FLTFY02.md) | Usage    | Info     | Descriptor is disregarded from consideration by Fluentify
-[FLTFY03](docs/rules/FLTFY03.md) | Usage    | Info     | Type does not utilize Fluentify
-[FLTFY04](docs/rules/FLTFY04.md) | Naming   | Warning  | Descriptor must adhere to the naming conventions for Methods
-[FLTFY05](docs/rules/FLTFY05.md) | Usage    | Info     | Type does not utilize Fluentify
-[FLTFY06](docs/rules/FLTFY06.md) | Usage    | Info     | Property is already disregarded from consideration by Fluentify
+[FLTFY01](https://github.com/MooVC/fluentify/docs/rules/FLTFY01.md) | Design   | Warning  | Class must have an accessible parameterless constructor to use Fluentify
+[FLTFY02](https://github.com/MooVC/fluentify/docs/rules/FLTFY02.md) | Usage    | Info     | Descriptor is disregarded from consideration by Fluentify
+[FLTFY03](https://github.com/MooVC/fluentify/docs/rules/FLTFY03.md) | Usage    | Info     | Type does not utilize Fluentify
+[FLTFY04](https://github.com/MooVC/fluentify/docs/rules/FLTFY04.md) | Naming   | Warning  | Descriptor must adhere to the naming conventions for Methods
+[FLTFY05](https://github.com/MooVC/fluentify/docs/rules/FLTFY05.md) | Usage    | Info     | Type does not utilize Fluentify
+[FLTFY06](https://github.com/MooVC/fluentify/docs/rules/FLTFY06.md) | Usage    | Info     | Property is already disregarded from consideration by Fluentify
 
 ## Building a Service
 
