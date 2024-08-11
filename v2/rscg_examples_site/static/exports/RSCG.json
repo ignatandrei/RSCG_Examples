@@ -1217,6 +1217,14 @@
       "Source": "https://github.com/Dreamescaper/ServiceScan.SourceGenerator",
       "Category": "DependencyInjection",
       "AddedOn": "2024-07-22T00:00:00"
+    },
+    {
+      "Name": "RSCG_ExportDiagram",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_ExportDiagram",
+      "NuGet": "https://github.com/ignatandrei/RSCG_ExportDiagram",
+      "Source": "https://github.com/ignatandrei/RSCG_ExportDiagram",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-08-01T00:00:00"
     }
   ]
 }

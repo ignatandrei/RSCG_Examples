@@ -227,7 +227,7 @@ public static string build_property_usingmicrosoftnetsdkweb => @"";
 namespace RSCG_Wait;
 partial class MyGeneratedCode
 {
-    public static string DateEnd => "2/29/2024 8:21:15 AM";
+    public static string DateEnd => "5/11/2024 7:36:46 PM";
     
 }
 ```
@@ -255,7 +255,7 @@ namespace RSCG_Wait;
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 partial class MyGeneratedCode
 {
-    public static string DateStart => "2/29/2024 8:21:05 AM";
+    public static string DateStart => "5/11/2024 7:36:36 PM";
     public static int SecondsToWait=10;
 }
 #nullable restore
@@ -288,7 +288,7 @@ partial class MyGeneratedCode
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait
 
-### In the same category (EnhancementProject) - 16 other generators
+### In the same category (EnhancementProject) - 17 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -322,6 +322,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait
 
 
 #### [RSCG_AMS](/docs/RSCG_AMS)
+
+
+#### [RSCG_ExportDiagram](/docs/RSCG_ExportDiagram)
 
 
 #### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)

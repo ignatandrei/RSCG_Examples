@@ -1,8 +1,6 @@
-[![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_examples?label=updated)](https://github.com/ignatandrei/rscg_examples)[![Stars](https://img.shields.io/github/stars/ignatandrei/rscg_examples)](https://github.com/ignatandrei/rscg_examples/stargazers)[![Sparkline](https://stars.medv.io/ignatandrei/rscg_examples.svg)](https://stars.medv.io/ignatandrei/rscg_examples)
+# RSCG - 153 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-# RSCG - 152 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
-
-## Latest Update : 2024-07-22 => 22 July 2024
+## Latest Update : 2024-08-01 => 01 August 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -19,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 152 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 153 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 153. [RSCG_ExportDiagram](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_ExportDiagram) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2024-08-01 => 01 August 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: AndreiIgnat
+
+Roslyn Diagram generator for external dependencies 
+
+Nuget: [https://github.com/ignatandrei/RSCG_ExportDiagram](https://github.com/ignatandrei/RSCG_ExportDiagram) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_ExportDiagram](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_ExportDiagram)
+
+Source: [https://github.com/ignatandrei/RSCG_ExportDiagram](https://github.com/ignatandrei/RSCG_ExportDiagram)
+
+</details>
+
 ### 152. [ServiceScan.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ServiceScan.SourceGenerator) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
 
 Generated on : 2024-07-22 => 22 July 2024

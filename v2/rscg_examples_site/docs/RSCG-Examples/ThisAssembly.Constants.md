@@ -619,7 +619,7 @@ partial class ThisAssembly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants
 
-### In the same category (EnhancementProject) - 16 other generators
+### In the same category (EnhancementProject) - 17 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -653,6 +653,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly.Constants
 
 
 #### [RSCG_AMS](/docs/RSCG_AMS)
+
+
+#### [RSCG_ExportDiagram](/docs/RSCG_ExportDiagram)
 
 
 #### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)

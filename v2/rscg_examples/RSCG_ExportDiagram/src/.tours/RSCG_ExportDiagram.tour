@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_ExportDiagram",
+  "steps": 
+  [
+    {
+      "file": "DiagramDemoConsole/DiagramDemoConsole.csproj",
+      "description": "First, we add Nuget  [RSCG_ExportDiagram](https://github.com/ignatandrei/RSCG_ExportDiagram) in csproj  ",
+      "pattern": "RSCG_ExportDiagram"
+    }
+
+        ,{
+        "file": "Person/PersonData.cs",
+        "description": "File PersonData.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DiagramDemoConsole/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DiagramDemoConsole/DiagramDemoConsole.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DiagramDemoConsole/obj/GX/RSCG_ExportDiagram/RSCG_ExportDiagram.GeneratorDiagram/DiagramDemoConsole_Program_1_gen.cs",
+        "description": "File DiagramDemoConsole_Program_1_gen.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

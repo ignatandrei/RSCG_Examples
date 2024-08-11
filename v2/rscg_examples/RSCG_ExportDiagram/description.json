@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_ExportDiagram",
+      "nuget":[
+         "https://github.com/ignatandrei/RSCG_ExportDiagram"
+      ],
+      "link":"RSCG_ExportDiagram",
+      "author":"AndreiIgnat",
+      "source":"https://github.com/ignatandrei/RSCG_ExportDiagram"
+   },
+   "data":{
+      "goodFor":["Generating diagram for relation classes within referenced project "],
+      "csprojDemo":"DiagramDemoConsole.csproj",
+      "csFiles":["Program.cs","PersonData.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
