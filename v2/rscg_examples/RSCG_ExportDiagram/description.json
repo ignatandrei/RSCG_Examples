@@ -13,7 +13,7 @@
       "csprojDemo":"DiagramDemoConsole.csproj",
       "csFiles":["Program.cs","PersonData.cs"],
       "excludeDirectoryGenerated":[""],
-      "includeAdditionalFiles":[""]
+      "includeAdditionalFiles":["DiagramDemoConsole_rel_csproj.md"]
    },
    "links":{
       "blog":"",
