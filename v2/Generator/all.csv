@@ -151,3 +151,4 @@ Nr,Key,Source,Category
 150,ThisAssembly.Metadata, https://github.com/devlooped/ThisAssembly,EnhancementProject
 151,ThisAssembly.Strings, https://github.com/devlooped/ThisAssembly,FilesToCode
 152,ServiceScan.SourceGenerator, https://github.com/Dreamescaper/ServiceScan.SourceGenerator,DependencyInjection
+153,RSCG_ExportDiagram, https://github.com/ignatandrei/RSCG_ExportDiagram,EnhancementProject

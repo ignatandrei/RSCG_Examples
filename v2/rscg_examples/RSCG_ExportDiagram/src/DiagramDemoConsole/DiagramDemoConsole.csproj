@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="RSCG_ExportDiagram" Version="2024.810.832" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+	</ItemGroup>
+	<ItemGroup>
+		<CompilerVisibleProperty Include="RSCG_ExportDiagram_OutputFolder" />
+		<CompilerVisibleProperty Include="RSCG_ExportDiagram_Exclude" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Person\Person.csproj" />
+	</ItemGroup>
+	<PropertyGroup>
+		<RSCG_ExportDiagram_OutputFolder>obj/GX/</RSCG_ExportDiagram_OutputFolder>
+		<RSCG_ExportDiagram_Exclude></RSCG_ExportDiagram_Exclude>
+	</PropertyGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>
