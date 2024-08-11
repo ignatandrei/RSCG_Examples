@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Fluentify",
+      "nuget":[
+         "https://www.nuget.org/packages/Fluentify/"
+      ],
+      "link":"https://github.com/MooVC/fluentify",
+      "author":"Paul Martins",
+      "source":"https://github.com/MooVC/fluentify"
+   },
+   "data":{
+      "goodFor":["Generate fluent builder"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

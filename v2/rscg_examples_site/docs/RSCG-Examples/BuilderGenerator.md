@@ -431,8 +431,11 @@ namespace Builder
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator
 
-### In the same category (Builder) - 1 other generators
+### In the same category (Builder) - 2 other generators
 
 
 #### [Architect.DomainModeling](/docs/Architect.DomainModeling)
+
+
+#### [Fluentify](/docs/Fluentify)
 

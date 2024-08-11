@@ -849,10 +849,5 @@
     "name":"Strings.ResourceGenerator https://github.com/biggik/Strings.ResourceGenerator",
     "why":"old ISourceGenerator"
   }
-  ,
-  {
-    "ID":174,
-    "name":"fluentify https://github.com/MooVC/fluentify",
-    "why":"later"
-  }
+  
 ]
