@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Coplt.Dropping",
+  "steps": 
+  [
+    {
+      "file": "IDisp/IDisp.csproj",
+      "description": "First, we add Nuget  [Coplt.Dropping](https://www.nuget.org/packages/Coplt.Dropping/) in csproj  ",
+      "pattern": "Coplt.Dropping"
+    }
+
+        ,{
+        "file": "IDisp/ConnectionDB.cs",
+        "description": "File ConnectionDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/DALDB.cs",
+        "description": "File DALDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "IDisp/obj/GX/Coplt.Dropping.Analyzers/Coplt.Dropping.Analyzers.Generators.DroppingGenerator/IDisposableGeneratorDemo.DALDB.dropping.g.cs",
+        "description": "File IDisposableGeneratorDemo.DALDB.dropping.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

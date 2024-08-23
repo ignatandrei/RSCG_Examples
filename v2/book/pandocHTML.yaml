@@ -168,6 +168,7 @@ input-files:
 - examples/ServiceScan.SourceGenerator.html
 - examples/RSCG_ExportDiagram.html
 - examples/Fluentify.html
+- examples/Coplt.Dropping.html
 
 # or you may use input-file: with a single value
 # defaults:

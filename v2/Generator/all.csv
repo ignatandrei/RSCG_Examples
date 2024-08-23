@@ -153,3 +153,4 @@ Nr,Key,Source,Category
 152,ServiceScan.SourceGenerator, https://github.com/Dreamescaper/ServiceScan.SourceGenerator,DependencyInjection
 153,RSCG_ExportDiagram, https://github.com/ignatandrei/RSCG_ExportDiagram,EnhancementProject
 154,fluentify, https://github.com/MooVC/fluentify,Builder
+155,Coplt.Dropping, https://github.com/2A5F/Coplt.Dropping,Disposer

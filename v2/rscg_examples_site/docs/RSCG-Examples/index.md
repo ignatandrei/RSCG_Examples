@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 154 RSCG list by category
-description: 154 RSCG list by category
+title: 155 RSCG list by category
+description: 155 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -248,7 +248,7 @@ import DocCardList from '@theme/DocCardList';
 ## Disposer 
 <details>
     
-  <summary>Expand Disposer =>examples:4</summary>
+  <summary>Expand Disposer =>examples:5</summary>
         
 
 
@@ -268,6 +268,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [IDisposableGenerator](/docs/IDisposableGenerator)
+
+        
+
+
+[Coplt.Dropping](/docs/Coplt.Dropping)
 
 </details>
     
@@ -1033,6 +1038,8 @@ flowchart LR;
     Disposer--> DisposableHelpers((DisposableHelpers))
 
     Disposer--> IDisposableGenerator((IDisposableGenerator))
+
+    Disposer--> Coplt.Dropping((Coplt.Dropping))
 
     EnhancementClass--> System.Text.RegularExpressions((System.Text.RegularExpressions))
 

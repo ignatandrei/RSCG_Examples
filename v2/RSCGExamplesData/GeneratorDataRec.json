@@ -923,5 +923,11 @@
     "Category": 4,
     "dtStart": "2024-08-02T00:00:00",
     "show": true
+  },
+  {
+    "ID": "Coplt.Dropping",
+    "Category": 18,
+    "dtStart": "2024-08-13T00:00:00",
+    "show": true
   }
 ]
