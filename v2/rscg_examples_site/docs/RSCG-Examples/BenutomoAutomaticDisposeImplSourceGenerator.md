@@ -806,7 +806,10 @@ namespace Benutomo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator
 
-### In the same category (Disposer) - 3 other generators
+### In the same category (Disposer) - 4 other generators
+
+
+#### [Coplt.Dropping](/docs/Coplt.Dropping)
 
 
 #### [DisposableHelpers](/docs/DisposableHelpers)

@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"Coplt.Dropping",
+      "nuget":[
+         "https://www.nuget.org/packages/Coplt.Dropping/"
+      ],
+      "link":"https://github.com/2A5F/Coplt.Dropping",
+      "author":"2A5F",
+      "source":"https://github.com/2A5F/Coplt.Dropping"
+   },
+   "data":{
+      
+      "goodFor":["Generating disposable"],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -712,8 +712,8 @@ public class MultiGeneratorV2
         await Task.Delay(1000);
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        var x = 0;
-        x++;
+        //var x = 0;
+        //x++;
         //if(x>2)
         var lastGenerator = "fluentify";
         var latest = generators[lastGenerator];

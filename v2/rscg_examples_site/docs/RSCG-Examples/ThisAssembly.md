@@ -563,7 +563,7 @@ partial class ThisAssembly
 
         public const string FileVersion = @"2023.5.7.800";
 
-        public const string InformationalVersion = @"2023.5.7.800+80c672f86ab398961c980938fc2e69cf210e667a";
+        public const string InformationalVersion = @"2023.5.7.800+2f0911528d0680acf7201c9551ea3e565c6b9e4f";
 
         public const string Product = @"RSCG_Version";
 

@@ -330,10 +330,13 @@ namespace IDisposableGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Disposer
 
-### In the same category (Disposer) - 3 other generators
+### In the same category (Disposer) - 4 other generators
 
 
 #### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
+
+
+#### [Coplt.Dropping](/docs/Coplt.Dropping)
 
 
 #### [DisposableHelpers](/docs/DisposableHelpers)

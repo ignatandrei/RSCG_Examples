@@ -1,6 +1,6 @@
-# RSCG - 154 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 155 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-08-02 => 02 August 2024
+## Latest Update : 2024-08-13 => 13 August 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 154 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 155 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 155. [Coplt.Dropping](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Coplt.Dropping) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2024-08-13 => 13 August 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: 2A5F
+
+Auto gen dispose pattern 
+
+Nuget: [https://www.nuget.org/packages/Coplt.Dropping/](https://www.nuget.org/packages/Coplt.Dropping/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Coplt.Dropping](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Coplt.Dropping)
+
+Source: [https://github.com/2A5F/Coplt.Dropping](https://github.com/2A5F/Coplt.Dropping)
+
+</details>
+
 ### 154. [Fluentify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Fluentify) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
 
 Generated on : 2024-08-02 => 02 August 2024
