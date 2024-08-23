@@ -89,7 +89,7 @@ Auto gen dispose pattern
     public partial class Foo1 : global::System.IDisposable
     {
     
-        protected virtual void Dispose(bool disposing)
+        void Dispose(bool disposing)
         {
             if (disposing) Drop();
         }
