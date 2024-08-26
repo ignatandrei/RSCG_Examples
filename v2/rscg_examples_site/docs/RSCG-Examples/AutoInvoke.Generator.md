@@ -360,7 +360,7 @@ partial class RemoteCollection {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInvoke.Generator
 
-### In the same category (EnhancementProject) - 17 other generators
+### In the same category (EnhancementProject) - 18 other generators
 
 
 #### [AutoSpectre](/docs/AutoSpectre)
@@ -397,6 +397,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInvoke.Generator
 
 
 #### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+
+
+#### [RSCG_NameGenerator](/docs/RSCG_NameGenerator)
 
 
 #### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)

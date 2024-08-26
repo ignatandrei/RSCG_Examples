@@ -373,7 +373,7 @@ Main --> Person.PersonData
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_ExportDiagram
 
-### In the same category (EnhancementProject) - 17 other generators
+### In the same category (EnhancementProject) - 18 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -410,6 +410,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_ExportDiagram
 
 
 #### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+
+
+#### [RSCG_NameGenerator](/docs/RSCG_NameGenerator)
 
 
 #### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)

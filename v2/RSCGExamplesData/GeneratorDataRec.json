@@ -929,5 +929,11 @@
     "Category": 18,
     "dtStart": "2024-08-13T00:00:00",
     "show": true
+  },
+  {
+    "ID": "RSCG_NameGenerator",
+    "Category": 1,
+    "dtStart": "2024-08-25T00:00:00",
+    "show": true
   }
 ]
