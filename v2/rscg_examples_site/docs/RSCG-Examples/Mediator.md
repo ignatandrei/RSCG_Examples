@@ -1656,7 +1656,7 @@ namespace Mediator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
-### In the same category (EnhancementProject) - 17 other generators
+### In the same category (EnhancementProject) - 18 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -1693,6 +1693,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
 
 #### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+
+
+#### [RSCG_NameGenerator](/docs/RSCG_NameGenerator)
 
 
 #### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)

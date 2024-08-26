@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_NameGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_NameGenerator/"
+      ],
+      "link":"https://github.com/ignatandrei/NameGenerator/",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/NameGenerator/"
+   },
+   "data":{
+      "goodFor":["Generating unique names for assemblies"],
+      "csprojDemo":"TestNameGenerator.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

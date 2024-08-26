@@ -1,0 +1,1 @@
+Generates uniqe names for release

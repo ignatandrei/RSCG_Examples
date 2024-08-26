@@ -169,6 +169,7 @@ input-files:
 - examples/RSCG_ExportDiagram.html
 - examples/Fluentify.html
 - examples/Coplt.Dropping.html
+- examples/RSCG_NameGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

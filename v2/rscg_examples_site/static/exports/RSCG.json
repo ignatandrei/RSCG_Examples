@@ -1241,6 +1241,14 @@
       "Source": "https://github.com/2A5F/Coplt.Dropping",
       "Category": "Disposer",
       "AddedOn": "2024-08-13T00:00:00"
+    },
+    {
+      "Name": "RSCG_NameGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_NameGenerator",
+      "NuGet": "https://www.nuget.org/packages/RSCG_NameGenerator/",
+      "Source": "https://github.com/ignatandrei/NameGenerator/",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-08-25T00:00:00"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 155 RSCG list by category
-description: 155 RSCG list by category
+title: 156 RSCG list by category
+description: 156 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -417,7 +417,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:18</summary>
+  <summary>Expand EnhancementProject =>examples:19</summary>
         
 
 
@@ -507,6 +507,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_ExportDiagram](/docs/RSCG_ExportDiagram)
+
+        
+
+
+[RSCG_NameGenerator](/docs/RSCG_NameGenerator)
 
 </details>
     
@@ -1128,6 +1133,8 @@ flowchart LR;
     EnhancementProject--> ThisAssembly.Metadata((ThisAssembly.Metadata))
 
     EnhancementProject--> RSCG_ExportDiagram((RSCG_ExportDiagram))
+
+    EnhancementProject--> RSCG_NameGenerator((RSCG_NameGenerator))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

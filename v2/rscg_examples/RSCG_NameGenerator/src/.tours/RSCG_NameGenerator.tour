@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_NameGenerator",
+  "steps": 
+  [
+    {
+      "file": "TestNameGenerator/TestNameGenerator.csproj",
+      "description": "First, we add Nuget  [RSCG_NameGenerator](https://www.nuget.org/packages/RSCG_NameGenerator/) in csproj  ",
+      "pattern": "RSCG_NameGenerator"
+    }
+
+        ,{
+        "file": "TestNameGenerator/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project TestNameGenerator/TestNameGenerator.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "TestNameGenerator/obj/GX/NameGenerator/NameGenerator.NameGen/TheAssemblyInfo.g.cs",
+        "description": "File TheAssemblyInfo.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
