@@ -41,6 +41,9 @@ internal abstract record Step(string text, string value):IParsable<Step>, IDispo
             case "browser":
                 result = new StepBrowser(split[0], split[1]);
                 break;
+            case "tour":
+                result = new StartTourVSCode(split[0], split[1]);
+                break;
             default:
                 return false;
         }

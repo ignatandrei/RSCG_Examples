@@ -32,11 +32,12 @@ if (!Directory.Exists(originalFolder))
 }
 originalFolder = Path.Combine(originalFolder, "v2", "rscg_examples");
 
-string[] folders = new string[] { "ThisAssembly" };
+string[] folders = new string[] { "RSCG_NameGenerator" };
 
 foreach (string folder in folders)
 {
     var video=Path.Combine(originalFolder, folder);
+    
     var file = Path.Combine(video, "video.json");
     
     try
