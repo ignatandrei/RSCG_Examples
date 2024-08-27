@@ -1,38 +1,46 @@
 ﻿
 using System.Drawing;
+using System.Text.Json.Serialization.Metadata;
 using Windows.Media.AppBroadcasting;
 using WindowsInput;
 using WindowsInput.Native;
 namespace GeneratorVideo;
 
-internal record StepSendKey(string text, string value) : Step(text, value)
+internal record StartTourVSCode(string text, string value) : Step(text,value)
 {
-    public override void Dispose()
-    {
-    }
+    
+
+    
+
     public override async Task Execute()
     {
-        await Task.Yield();
-    }
+        ArgumentNullException.ThrowIfNullOrWhiteSpace(base.OriginalFileNameFromWhereTheStepIsComing);
+        var folderWithTours = Path.Combine(Path.GetDirectoryName(base.OriginalFileNameFromWhereTheStepIsComing)!, value);        
+        var tourFiles = Directory.GetFiles(folderWithTours, "*.tour");
+        if (tourFiles.Length != 1)
+        {
+            throw new FileNotFoundException("must found 1 file in " + folderWithTours);
+        }
+        var tourData= await File.ReadAllTextAsync(tourFiles[0]);
+        var data = JsonDocument.Parse(tourData);
+        var steps = data.RootElement.GetProperty("steps");
+        var nrSteps = steps.GetArrayLength();
 
-
-}
-internal record StartTourVSCode(string text,string value) : StepSendKey(text,value)
-{
-    public override async Task Execute()
-    {
         await Task.Yield();
         InputSimulator inputSimulator = new InputSimulator();
-        await Task.Delay(100);
+        //await Task.Delay(100);
 
-        await ExecuteInVSCodeCommand(inputSimulator, "Explorer: focus on CodeTour View");
+        //await ExecuteInVSCodeCommand(inputSimulator, "Explorer: focus on CodeTour View");
 
         await Task.Delay(100);
         await ExecuteInVSCodeCommand(inputSimulator, "CodeTour:Start Tour");
         await Task.Delay(5000);
-        await NextTourStep(inputSimulator);
-        await Task.Delay(5000);
-        await NextTourStep(inputSimulator);
+        for (var i = 0; i < nrSteps-1; i++)
+        {
+            await NextTourStep(inputSimulator);
+            await Task.Delay(5000);
+        }
+
         //await ExecuteInVSCodeCommand(inputSimulator, "Explorer: focus on CodeTour View");
         //await Task.Delay(1000);
         //inputSimulator.Keyboard.KeyDown(VirtualKeyCode.RIGHT);
@@ -68,5 +76,10 @@ internal record StartTourVSCode(string text,string value) : StepSendKey(text,val
         await Task.Delay(3000);
         inputSimulator.Keyboard.KeyPress(VirtualKeyCode.RETURN);
         return true;
+    }
+
+    public override void Dispose()
+    {
+        
     }
 }

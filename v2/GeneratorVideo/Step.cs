@@ -3,6 +3,7 @@
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal abstract record Step(string text, string value):IParsable<Step>, IDisposable
 {
+    protected internal string? OriginalFileNameFromWhereTheStepIsComing;
     public const string esc = "\u001B";
     public int Number { get; set; }
     public abstract Task Execute();

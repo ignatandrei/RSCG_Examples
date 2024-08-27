@@ -18,6 +18,7 @@ internal class VideoData:IDisposable
         foreach (var step in steps)
         {
             Step newStep = Step.Parse(step.Key + Step.esc + step.Value, null);
+            newStep.OriginalFileNameFromWhereTheStepIsComing = fileName;
             _steps.Add(newStep);
         }
         return _steps.Count;
