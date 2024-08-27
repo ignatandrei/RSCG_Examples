@@ -45,7 +45,7 @@ foreach (string folder in folders)
         using var v = new VideoData(file);
         Console.WriteLine("nr steps :" + await v.Analyze());
         Console.WriteLine(await v.Execute());
-        Console.ReadLine();
+        Console.ReadLine(); 
     }
     catch (Exception ex)
     {

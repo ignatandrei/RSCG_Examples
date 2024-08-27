@@ -29,7 +29,14 @@ public class OutputFiles
             return "{" + (LineInCSproj + 1) + "}";
         }
     }
-
+    public string NameCsproj
+    {
+        get
+        {
+            ArgumentNullException.ThrowIfNull(fullPathToCsproj);
+            return Path.GetFileName(fullPathToCsproj) ;
+        }
+    }
     public string[]? excludeDirectoryGenerated { get; internal set; }
     public string[]? includeAdditionalFiles { get; internal set; }
 

@@ -1,11 +1,11 @@
 ﻿
 using System.Drawing;
 using System.Text.Json.Serialization.Metadata;
+using System.Windows.Media;
 using Windows.Media.AppBroadcasting;
 using WindowsInput;
 using WindowsInput.Native;
 namespace GeneratorVideo;
-
 internal record StartTourVSCode(string text, string value) : Step(text,value)
 {
     

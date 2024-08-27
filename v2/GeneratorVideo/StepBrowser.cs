@@ -7,7 +7,7 @@ namespace GeneratorVideo;
 
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal record StepBrowser(string text, string value) : Step(text,value)
-{
+{ 
     //[DllImport("User32.dll")]
     //public static extern IntPtr GetDC(IntPtr hwnd);
     //[DllImport("User32.dll")]

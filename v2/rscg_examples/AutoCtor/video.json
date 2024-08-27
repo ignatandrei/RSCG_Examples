@@ -18,7 +18,7 @@
 
 "step_14_text": "And now I will show you why we want to use it by using CodeTour from VSCode",
 
-"step_15_hide": "this is a comment"
-
-
+"step_15_hide": "now execute the tour in VSCode",
+"step_16_tour": "src/.tours/",
+"step_17_showproj":"AutoCtorDemo.csproj"
 }

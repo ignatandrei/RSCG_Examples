@@ -32,6 +32,7 @@ internal class VideoData:IDisposable
             try
             {
                 Console.WriteLine("executing " + step.Number + $"/{nr}");// + "=>" + step.value);
+                if (step.Number < 12) continue;
                 await step.Execute();
                 await Task.Delay(2000);
                 //Console.ReadLine();

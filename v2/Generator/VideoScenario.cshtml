@@ -49,8 +49,8 @@
     </text>
 }
  *@
-"step_@(nrStep++)_hide": "this is a comment",
-"step_@(nrStep++)_tour": "src/.tours/"
-
-
+"step_@(nrStep++)_hide": "now execute the tour in VSCode",
+"step_@(nrStep++)_tour": "src/.tours/",
+@* "step_@(nrStep++)_exec":"cmd /k start dotnet.exe run --project @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")", *@
+"step_@(nrStep++)_showproj":"@Model.Data!.outputFiles!.NameCsproj"
 }

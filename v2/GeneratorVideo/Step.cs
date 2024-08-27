@@ -45,6 +45,9 @@ internal abstract record Step(string text, string value):IParsable<Step>, IDispo
             case "tour":
                 result = new StartTourVSCode(split[0], split[1]);
                 break;
+            case "showproj":
+                result = new StartProjectVSCode(split[0], split[1]);
+                break;
             default:
                 return false;
         }
