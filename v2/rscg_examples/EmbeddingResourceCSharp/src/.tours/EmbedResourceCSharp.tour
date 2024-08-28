@@ -31,13 +31,13 @@
 
         ,{
         "file": "EmbeddingResourceCSharpDemo/obj/GX/EmbedResourceCSharp/EmbedResourceCSharp.Generator/MyResource____GetContentOfCreate.file.g.cs",
-        "description": "File MyResource____GetContentOfCreate.file.g.cs ",
+        "description": "Generated File 2  from 2 : MyResource____GetContentOfCreate.file.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "EmbeddingResourceCSharpDemo/obj/GX/EmbedResourceCSharp/EmbedResourceCSharp.Generator/Attribute.cs",
-        "description": "File Attribute.cs ",
+        "description": "Generated File 1  from 2 : Attribute.cs ",
         "line": 1
         }
     

@@ -31,43 +31,43 @@
 
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.WeatherForecast.g.cs",
-        "description": "File OptionsExampleContext.WeatherForecast.g.cs ",
+        "description": "Generated File 7  from 7 : OptionsExampleContext.WeatherForecast.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.String.g.cs",
-        "description": "File OptionsExampleContext.String.g.cs ",
+        "description": "Generated File 6  from 7 : OptionsExampleContext.String.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.PropertyNames.g.cs",
-        "description": "File OptionsExampleContext.PropertyNames.g.cs ",
+        "description": "Generated File 5  from 7 : OptionsExampleContext.PropertyNames.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.Int32.g.cs",
-        "description": "File OptionsExampleContext.Int32.g.cs ",
+        "description": "Generated File 4  from 7 : OptionsExampleContext.Int32.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.GetJsonTypeInfo.g.cs",
-        "description": "File OptionsExampleContext.GetJsonTypeInfo.g.cs ",
+        "description": "Generated File 3  from 7 : OptionsExampleContext.GetJsonTypeInfo.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.g.cs",
-        "description": "File OptionsExampleContext.g.cs ",
+        "description": "Generated File 2  from 7 : OptionsExampleContext.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoSerializeJSON/obj/GX/System.Text.Json.SourceGeneration/System.Text.Json.SourceGeneration.JsonSourceGenerator/OptionsExampleContext.DateTime.g.cs",
-        "description": "File OptionsExampleContext.DateTime.g.cs ",
+        "description": "Generated File 1  from 7 : OptionsExampleContext.DateTime.g.cs ",
         "line": 1
         }
     

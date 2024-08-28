@@ -25,13 +25,13 @@
 
         ,{
         "file": "yangDemo/obj/GX/dotnetYang/YangParser.Generator.YangGenerator/YangModules/some/some-module.cs",
-        "description": "File some-module.cs ",
+        "description": "Generated File 2  from 2 : some-module.cs ",
         "line": 1
         }
     
         ,{
         "file": "yangDemo/obj/GX/dotnetYang/YangParser.Generator.YangGenerator/Configuration.cs",
-        "description": "File Configuration.cs ",
+        "description": "Generated File 1  from 2 : Configuration.cs ",
         "line": 1
         }
     

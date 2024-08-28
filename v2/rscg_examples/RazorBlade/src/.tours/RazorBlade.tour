@@ -31,55 +31,55 @@
 
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.RazorBladeSourceGenerator/RazorBladeDemo.PersonDisplay.RazorBlade.g.cs",
-        "description": "File RazorBladeDemo.PersonDisplay.RazorBlade.g.cs ",
+        "description": "Generated File 9  from 9 : RazorBladeDemo.PersonDisplay.RazorBlade.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.RazorBladeSourceGenerator/RazorBladeDemo.PersonDisplay.Razor.g.cs",
-        "description": "File RazorBladeDemo.PersonDisplay.Razor.g.cs ",
+        "description": "Generated File 8  from 9 : RazorBladeDemo.PersonDisplay.Razor.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/RazorTemplate.g.cs",
-        "description": "File RazorTemplate.g.cs ",
+        "description": "Generated File 7  from 9 : RazorTemplate.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/PlainTextTemplate.g.cs",
-        "description": "File PlainTextTemplate.g.cs ",
+        "description": "Generated File 6  from 9 : PlainTextTemplate.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/IEncodedContent.g.cs",
-        "description": "File IEncodedContent.g.cs ",
+        "description": "Generated File 5  from 9 : IEncodedContent.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/HtmlTemplate.g.cs",
-        "description": "File HtmlTemplate.g.cs ",
+        "description": "Generated File 4  from 9 : HtmlTemplate.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/HtmlString.g.cs",
-        "description": "File HtmlString.g.cs ",
+        "description": "Generated File 3  from 9 : HtmlString.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/HtmlHelper.g.cs",
-        "description": "File HtmlHelper.g.cs ",
+        "description": "Generated File 2  from 9 : HtmlHelper.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorBladeDemo/obj/GX/RazorBlade.Analyzers/RazorBlade.Analyzers.EmbeddedLibrarySourceGenerator/Attributes.g.cs",
-        "description": "File Attributes.g.cs ",
+        "description": "Generated File 1  from 9 : Attributes.g.cs ",
         "line": 1
         }
     

@@ -37,37 +37,37 @@
 
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/_Imports_razor.g.cs",
-        "description": "File _Imports_razor.g.cs ",
+        "description": "Generated File 6  from 6 : _Imports_razor.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_razor.g.cs",
-        "description": "File Pages_Index_razor.g.cs ",
+        "description": "Generated File 5  from 6 : Pages_Index_razor.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/MainLayout_razor.g.cs",
-        "description": "File MainLayout_razor.g.cs ",
+        "description": "Generated File 4  from 6 : MainLayout_razor.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/App_razor.g.cs",
-        "description": "File App_razor.g.cs ",
+        "description": "Generated File 3  from 6 : App_razor.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.Interop.JavaScript.JSImportGenerator/Microsoft.Interop.JavaScript.JSImportGenerator/JSImports.g.cs",
-        "description": "File JSImports.g.cs ",
+        "description": "Generated File 2  from 6 : JSImports.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TestBlazor/obj/GX/Microsoft.Interop.JavaScript.JSImportGenerator/Microsoft.Interop.JavaScript.JSExportGenerator/JSExports.g.cs",
-        "description": "File JSExports.g.cs ",
+        "description": "Generated File 1  from 6 : JSExports.g.cs ",
         "line": 1
         }
     

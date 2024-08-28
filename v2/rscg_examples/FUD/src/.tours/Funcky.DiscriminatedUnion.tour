@@ -31,13 +31,13 @@
 
         ,{
         "file": "Union/obj/GX/Funcky.DiscriminatedUnion.SourceGeneration/Funcky.DiscriminatedUnion.SourceGeneration.DiscriminatedUnionGenerator/DiscriminatedUnionGenerator.g.cs",
-        "description": "File DiscriminatedUnionGenerator.g.cs ",
+        "description": "Generated File 2  from 2 : DiscriminatedUnionGenerator.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Union/obj/GX/Funcky.DiscriminatedUnion.SourceGeneration/Funcky.DiscriminatedUnion.SourceGeneration.DiscriminatedUnionGenerator/DiscriminatedUnionAttribute.g.cs",
-        "description": "File DiscriminatedUnionAttribute.g.cs ",
+        "description": "Generated File 1  from 2 : DiscriminatedUnionAttribute.g.cs ",
         "line": 1
         }
     

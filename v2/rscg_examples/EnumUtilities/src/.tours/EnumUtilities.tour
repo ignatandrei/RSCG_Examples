@@ -25,19 +25,19 @@
 
         ,{
         "file": "EnumClassDemo/obj/GX/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/EnumClassDemo.ColorsValidation.g.cs",
-        "description": "File EnumClassDemo.ColorsValidation.g.cs ",
+        "description": "Generated File 3  from 3 : EnumClassDemo.ColorsValidation.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/obj/GX/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/EnumClassDemo.ColorsFactory.g.cs",
-        "description": "File EnumClassDemo.ColorsFactory.g.cs ",
+        "description": "Generated File 2  from 3 : EnumClassDemo.ColorsFactory.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/obj/GX/Raiqub.Generators.EnumUtilities/Raiqub.Generators.EnumUtilities.EnumUtilitiesGenerator/EnumClassDemo.ColorsExtensions.g.cs",
-        "description": "File EnumClassDemo.ColorsExtensions.g.cs ",
+        "description": "Generated File 1  from 3 : EnumClassDemo.ColorsExtensions.g.cs ",
         "line": 1
         }
     

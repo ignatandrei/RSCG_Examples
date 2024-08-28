@@ -31,37 +31,37 @@
 
         ,{
         "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/TypeMapperAttribute.generated.cs",
-        "description": "File TypeMapperAttribute.generated.cs ",
+        "description": "Generated File 6  from 6 : TypeMapperAttribute.generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/TypeFactory.generated.cs",
-        "description": "File TypeFactory.generated.cs ",
+        "description": "Generated File 5  from 6 : TypeFactory.generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PropertyMappingAttribute.generated.cs",
-        "description": "File PropertyMappingAttribute.generated.cs ",
+        "description": "Generated File 4  from 6 : PropertyMappingAttribute.generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PropertyMapperAttribute.generated.cs",
-        "description": "File PropertyMapperAttribute.generated.cs ",
+        "description": "Generated File 3  from 6 : PropertyMapperAttribute.generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PersonMapperExtensions.generated.cs",
-        "description": "File PersonMapperExtensions.generated.cs ",
+        "description": "Generated File 2  from 6 : PersonMapperExtensions.generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "mapperDemo/obj/GX/MagicMap/MagicMap.MagicMapSourceGenerator/PersonMapper.generated.cs",
-        "description": "File PersonMapper.generated.cs ",
+        "description": "Generated File 1  from 6 : PersonMapper.generated.cs ",
         "line": 1
         }
     

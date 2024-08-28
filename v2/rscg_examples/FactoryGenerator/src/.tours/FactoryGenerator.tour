@@ -31,49 +31,49 @@
 
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.Lookup.g.cs",
-        "description": "File LifetimeScope.Lookup.g.cs ",
+        "description": "Generated File 8  from 8 : LifetimeScope.Lookup.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.EnumerableDeclarations.g.cs",
-        "description": "File LifetimeScope.EnumerableDeclarations.g.cs ",
+        "description": "Generated File 7  from 8 : LifetimeScope.EnumerableDeclarations.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.Declarations.g.cs",
-        "description": "File LifetimeScope.Declarations.g.cs ",
+        "description": "Generated File 6  from 8 : LifetimeScope.Declarations.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/LifetimeScope.Constructor.g.cs",
-        "description": "File LifetimeScope.Constructor.g.cs ",
+        "description": "Generated File 5  from 8 : LifetimeScope.Constructor.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.Lookup.g.cs",
-        "description": "File DependencyInjectionContainer.Lookup.g.cs ",
+        "description": "Generated File 4  from 8 : DependencyInjectionContainer.Lookup.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.EnumerableDeclarations.g.cs",
-        "description": "File DependencyInjectionContainer.EnumerableDeclarations.g.cs ",
+        "description": "Generated File 3  from 8 : DependencyInjectionContainer.EnumerableDeclarations.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.Declarations.g.cs",
-        "description": "File DependencyInjectionContainer.Declarations.g.cs ",
+        "description": "Generated File 2  from 8 : DependencyInjectionContainer.Declarations.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/FactoryGenerator/FactoryGenerator.FactoryGenerator/DependencyInjectionContainer.Constructor.g.cs",
-        "description": "File DependencyInjectionContainer.Constructor.g.cs ",
+        "description": "Generated File 1  from 8 : DependencyInjectionContainer.Constructor.g.cs ",
         "line": 1
         }
     

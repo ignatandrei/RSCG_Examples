@@ -31,49 +31,49 @@
 
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/UnmanagedResourceReleaseMethodAttribute.cs",
-        "description": "File UnmanagedResourceReleaseMethodAttribute.cs ",
+        "description": "Generated File 8  from 8 : UnmanagedResourceReleaseMethodAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/ManagedObjectDisposeMethodAttribute.cs",
-        "description": "File ManagedObjectDisposeMethodAttribute.cs ",
+        "description": "Generated File 7  from 8 : ManagedObjectDisposeMethodAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/ManagedObjectAsyncDisposeMethodAttribute.cs",
-        "description": "File ManagedObjectAsyncDisposeMethodAttribute.cs ",
+        "description": "Generated File 6  from 8 : ManagedObjectAsyncDisposeMethodAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs",
-        "description": "File gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs ",
+        "description": "Generated File 5  from 8 : gen_DALDB_IDisposableGeneratorDemo_AutomaticDisposeImpl.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/EnableAutomaticDisposeAttribute.cs",
-        "description": "File EnableAutomaticDisposeAttribute.cs ",
+        "description": "Generated File 4  from 8 : EnableAutomaticDisposeAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/DisableAutomaticDisposeAttribute.cs",
-        "description": "File DisableAutomaticDisposeAttribute.cs ",
+        "description": "Generated File 3  from 8 : DisableAutomaticDisposeAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/AutomaticDisposeImplMode.cs",
-        "description": "File AutomaticDisposeImplMode.cs ",
+        "description": "Generated File 2  from 8 : AutomaticDisposeImplMode.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/Benutomo.AutomaticDisposeImpl.SourceGenerator/Benutomo.AutomaticDisposeImpl.SourceGenerator.AutomaticDisposeGenerator/AutomaticDisposeImplAttribute.cs",
-        "description": "File AutomaticDisposeImplAttribute.cs ",
+        "description": "Generated File 1  from 8 : AutomaticDisposeImplAttribute.cs ",
         "line": 1
         }
     

@@ -25,19 +25,19 @@
 
         ,{
         "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/Person.g.cs",
-        "description": "File Person.g.cs ",
+        "description": "Generated File 3  from 3 : Person.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/EventArgsCache.g.cs",
-        "description": "File EventArgsCache.g.cs ",
+        "description": "Generated File 2  from 3 : EventArgsCache.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/Attributes.cs",
-        "description": "File Attributes.cs ",
+        "description": "Generated File 1  from 3 : Attributes.cs ",
         "line": 1
         }
     

@@ -31,43 +31,43 @@
 
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionTypeAttribute.g.cs",
-        "description": "File UnionTypeAttribute.g.cs ",
+        "description": "Generated File 7  from 7 : UnionTypeAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionConverterToAttribute.g.cs",
-        "description": "File UnionConverterToAttribute.g.cs ",
+        "description": "Generated File 6  from 7 : UnionConverterToAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionConverterFromAttribute.g.cs",
-        "description": "File UnionConverterFromAttribute.g.cs ",
+        "description": "Generated File 5  from 7 : UnionConverterFromAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/UnionConverterAttribute.g.cs",
-        "description": "File UnionConverterAttribute.g.cs ",
+        "description": "Generated File 4  from 7 : UnionConverterAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/ResultSave.g.cs",
-        "description": "File ResultSave.g.cs ",
+        "description": "Generated File 3  from 7 : ResultSave.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/JsonPolymorphicUnionAttribute.g.cs",
-        "description": "File JsonPolymorphicUnionAttribute.g.cs ",
+        "description": "Generated File 2  from 7 : JsonPolymorphicUnionAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/N.SourceGenerators.UnionTypes/N.SourceGenerators.UnionTypes.UnionTypesGenerator/GenericUnionTypeAttribute.g.cs",
-        "description": "File GenericUnionTypeAttribute.g.cs ",
+        "description": "Generated File 1  from 7 : GenericUnionTypeAttribute.g.cs ",
         "line": 1
         }
     

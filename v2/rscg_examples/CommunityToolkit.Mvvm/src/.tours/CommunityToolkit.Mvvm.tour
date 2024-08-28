@@ -25,25 +25,25 @@
 
         ,{
         "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.RelayCommandGenerator/test.MyViewModel.SayHello.g.cs",
-        "description": "File test.MyViewModel.SayHello.g.cs ",
+        "description": "Generated File 4  from 4 : test.MyViewModel.SayHello.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/__KnownINotifyPropertyChangedArgs.g.cs",
-        "description": "File __KnownINotifyPropertyChangedArgs.g.cs ",
+        "description": "Generated File 3  from 4 : __KnownINotifyPropertyChangedArgs.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/test.MyViewModel.g.cs",
-        "description": "File test.MyViewModel.g.cs ",
+        "description": "Generated File 2  from 4 : test.MyViewModel.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "ToolkitMVVM/obj/GX/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.INotifyPropertyChangedGenerator/test.MyViewModel.g.cs",
-        "description": "File test.MyViewModel.g.cs ",
+        "description": "Generated File 1  from 4 : test.MyViewModel.g.cs ",
         "line": 1
         }
     

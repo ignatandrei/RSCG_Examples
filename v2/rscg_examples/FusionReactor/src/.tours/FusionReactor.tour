@@ -25,25 +25,25 @@
 
         ,{
         "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/GenerateEnumExtensionsAttribute.g.cs",
-        "description": "File GenerateEnumExtensionsAttribute.g.cs ",
+        "description": "Generated File 4  from 4 : GenerateEnumExtensionsAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/DisplayResult.g.cs",
-        "description": "File DisplayResult.g.cs ",
+        "description": "Generated File 3  from 4 : DisplayResult.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/ColorsExtensions.DisplayAttribute.g.cs",
-        "description": "File ColorsExtensions.DisplayAttribute.g.cs ",
+        "description": "Generated File 2  from 4 : ColorsExtensions.DisplayAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "EnumClassDemo/obj/GX/FusionReactor.SourceGenerators.EnumExtensions/FusionReactor.SourceGenerators.EnumExtensions.EnumExtensionsGenerator/ColorsExtensions.Base.g.cs",
-        "description": "File ColorsExtensions.Base.g.cs ",
+        "description": "Generated File 1  from 4 : ColorsExtensions.Base.g.cs ",
         "line": 1
         }
     

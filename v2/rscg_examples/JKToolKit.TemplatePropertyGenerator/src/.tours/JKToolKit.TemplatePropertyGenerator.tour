@@ -25,13 +25,13 @@
 
         ,{
         "file": "SimpleTemplate/obj/GX/TemplatePropertyGenerator/JKToolKit.TemplatePropertyGenerator.TemplatePropertySourceGenerator/SimpleTemplate.Person_Generated.cs",
-        "description": "File SimpleTemplate.Person_Generated.cs ",
+        "description": "Generated File 2  from 2 : SimpleTemplate.Person_Generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "SimpleTemplate/obj/GX/TemplatePropertyGenerator/JKToolKit.TemplatePropertyGenerator.TemplatePropertyAttributeSourceGenerator/TemplatePropertyAttribute.g.cs",
-        "description": "File TemplatePropertyAttribute.g.cs ",
+        "description": "Generated File 1  from 2 : TemplatePropertyAttribute.g.cs ",
         "line": 1
         }
     

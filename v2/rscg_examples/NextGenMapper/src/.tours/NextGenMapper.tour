@@ -31,25 +31,25 @@
 
         ,{
         "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/StartMapper.g.cs",
-        "description": "File StartMapper.g.cs ",
+        "description": "Generated File 4  from 4 : StartMapper.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/Mapper_ConfiguredMaps_MockMethods.g.cs",
-        "description": "File Mapper_ConfiguredMaps_MockMethods.g.cs ",
+        "description": "Generated File 3  from 4 : Mapper_ConfiguredMaps_MockMethods.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/Mapper_ConfiguredMaps.g.cs",
-        "description": "File Mapper_ConfiguredMaps.g.cs ",
+        "description": "Generated File 2  from 4 : Mapper_ConfiguredMaps.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NextGenMapperDemo/obj/GX/NextGenMapper/NextGenMapper.MapperGenerator/MapperExtensions.g.cs",
-        "description": "File MapperExtensions.g.cs ",
+        "description": "Generated File 1  from 4 : MapperExtensions.g.cs ",
         "line": 1
         }
     

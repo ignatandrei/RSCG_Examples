@@ -25,13 +25,13 @@
 
         ,{
         "file": "StringsDemo/obj/GX/ThisAssembly.Strings/ThisAssembly.StringsGenerator/ThisAssembly.Strings.g.cs",
-        "description": "File ThisAssembly.Strings.g.cs ",
+        "description": "Generated File 2  from 2 : ThisAssembly.Strings.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StringsDemo/obj/GX/ThisAssembly.Strings/ThisAssembly.StringsGenerator/StringsDemo.Demo.cs",
-        "description": "File StringsDemo.Demo.cs ",
+        "description": "Generated File 1  from 2 : StringsDemo.Demo.cs ",
         "line": 1
         }
     

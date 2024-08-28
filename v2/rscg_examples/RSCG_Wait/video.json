@@ -6,19 +6,27 @@
 
 "step_5_text": "Today I will present RSCG_WaitAndOptions . Demo for waiting in compilation and show the options of compiling the code .",
 "step_6_browser":"https://www.nuget.org/packages/RSCG_WaitAndOptions/",
-"step_7_text": "You can download the code from here",
-"step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait#download-example-net--c-",
-"step_9_text":"Here is the code downloaded ",
-"step_10_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Wait\\src\\Wait.sln",
-"step_11_text": "So , let's start the project with Visual Studio Code ",
-"step_12_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Wait\\src",
+"step_7_text": "The whole example is here",
+"step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait",
+"step_9_text": "You can download the code from here",
+"step_10_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait#download-example-net--c-",
+"step_11_text":"Here is the code downloaded ",
+"step_12_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Wait\\src\\Wait.sln",
+"step_13_text": "So , let's start the project with Visual Studio Code ",
+"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Wait\\src",
 
-"step_13_text": "To use it ,you will put the  RSCG_WaitAndOptions into the csproj ",
+"step_15_text": "To use it ,you will put the Nuget RSCG_WaitAndOptions into the csproj ",
 
 
-"step_14_text": "And now I will show you why we want to use it by using CodeTour from VSCode",
+"step_16_text": "And now I will show you an example of using RSCG_WaitAndOptions",
 
-"step_15_hide": "now execute the tour in VSCode",
-"step_16_tour": "src/.tours/",
-"step_17_showproj":"Console_Wait.csproj"
+"step_17_hide": "now execute the tour in VSCode",
+"step_18_tour": "src/.tours/",
+"step_19_text":" And I will execute the project", 
+"step_20_showproj":"Console_Wait.csproj",
+"step_21_text":" This concludes the project",
+"step_22_waitseconds":"30",
+"step_23_text": "Remember, you can download the code from here",
+"step_24_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Wait#download-example-net--c-",
+
 }

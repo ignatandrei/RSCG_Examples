@@ -25,13 +25,13 @@
 
         ,{
         "file": "DudNetDemo/obj/GX/DudNet/DudNet.Generation.ProxyServiceGenerator/PersonProxy.g.cs",
-        "description": "File PersonProxy.g.cs ",
+        "description": "Generated File 2  from 2 : PersonProxy.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DudNetDemo/obj/GX/DudNet/DudNet.Generation.ProxyServiceGenerator/PersonDud.g.cs",
-        "description": "File PersonDud.g.cs ",
+        "description": "Generated File 1  from 2 : PersonDud.g.cs ",
         "line": 1
         }
     

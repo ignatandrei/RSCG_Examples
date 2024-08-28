@@ -31,13 +31,13 @@
 
         ,{
         "file": "AG/obj/GX/AspectGenerator/AspectGenerator.AspectSourceGenerator/Interceptors.g.cs",
-        "description": "File Interceptors.g.cs ",
+        "description": "Generated File 2  from 2 : Interceptors.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "AG/obj/GX/AspectGenerator/AspectGenerator.AspectSourceGenerator/AspectAttribute.g.cs",
-        "description": "File AspectAttribute.g.cs ",
+        "description": "Generated File 1  from 2 : AspectAttribute.g.cs ",
         "line": 1
         }
     

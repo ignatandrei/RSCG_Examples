@@ -25,13 +25,13 @@
 
         ,{
         "file": "AutoCtorDemo/obj/GX/AutoCtor/AutoCtor.AutoConstructSourceGenerator/AutoCtorDemo.Person.g.cs",
-        "description": "File AutoCtorDemo.Person.g.cs ",
+        "description": "Generated File 2  from 2 : AutoCtorDemo.Person.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "AutoCtorDemo/obj/GX/AutoCtor/AutoCtor.AutoConstructAttributeGenerator/AutoConstructAttribute.g.cs",
-        "description": "File AutoConstructAttribute.g.cs ",
+        "description": "Generated File 1  from 2 : AutoConstructAttribute.g.cs ",
         "line": 1
         }
     

@@ -25,43 +25,43 @@
 
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.InternalExtensionsGenerator/Fluentify.Internal.Extensions.g.cs",
-        "description": "File Fluentify.Internal.Extensions.g.cs ",
+        "description": "Generated File 7  from 7 : Fluentify.Internal.Extensions.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.IgnoreAttributeGenerator/IgnoreAttribute.g.cs",
-        "description": "File IgnoreAttribute.g.cs ",
+        "description": "Generated File 6  from 7 : IgnoreAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.FluentifyAttributeGenerator/FluentifyAttribute.g.cs",
-        "description": "File FluentifyAttribute.g.cs ",
+        "description": "Generated File 5  from 7 : FluentifyAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.DescriptorAttributeGenerator/DescriptorAttribute.g.cs",
-        "description": "File DescriptorAttribute.g.cs ",
+        "description": "Generated File 4  from 7 : DescriptorAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.ClassGenerator/Builder.PersonExtensions.WithMiddleName.g.cs",
-        "description": "File Builder.PersonExtensions.WithMiddleName.g.cs ",
+        "description": "Generated File 3  from 7 : Builder.PersonExtensions.WithMiddleName.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.ClassGenerator/Builder.PersonExtensions.WithLastName.g.cs",
-        "description": "File Builder.PersonExtensions.WithLastName.g.cs ",
+        "description": "Generated File 2  from 7 : Builder.PersonExtensions.WithLastName.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/Fluentify/Fluentify.ClassGenerator/Builder.PersonExtensions.WithFirstName.g.cs",
-        "description": "File Builder.PersonExtensions.WithFirstName.g.cs ",
+        "description": "Generated File 1  from 7 : Builder.PersonExtensions.WithFirstName.g.cs ",
         "line": 1
         }
     

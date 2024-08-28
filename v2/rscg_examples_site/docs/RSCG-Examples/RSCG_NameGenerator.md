@@ -104,10 +104,11 @@ Generating unique names for assemblies
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **RSCG_NameGenerator**
-```xml showLineNumbers {11}
+```xml showLineNumbers {12}
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
+	
 		<OutputType>Exe</OutputType>
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -170,9 +171,9 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
                     public static class TheAssemblyInfo
                     {
                         public const string AssemblyName = "TestNameGenerator";
-                        public const string GeneratedNameNice = "T. S. Eliot is feeling fixed in Sanaa";
-                        public const string GeneratedNameSmall = "fixed-T. S. Eliot";
-                        public const string GeneratedName = "fixed-T. S. Eliot-Sanaa";
+                        public const string GeneratedNameNice = "John Maxwell Coetzee is feeling optimistic in Praia";
+                        public const string GeneratedNameSmall = "optimistic-John Maxwell Coetzee";
+                        public const string GeneratedName = "optimistic-John Maxwell Coetzee-Praia";
                         
                     }
                 }

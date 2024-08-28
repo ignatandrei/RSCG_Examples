@@ -25,13 +25,13 @@
 
         ,{
         "file": "Class2Interface/obj/GX/Minerals.AutoInterfaces/Minerals.AutoInterfaces.GenerateInterfaceGenerator/IPerson.g.cs",
-        "description": "File IPerson.g.cs ",
+        "description": "Generated File 2  from 2 : IPerson.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Class2Interface/obj/GX/Minerals.AutoInterfaces/Minerals.AutoInterfaces.Attributes.GenerateInterfaceAttributeGenerator/GenerateInterfaceAttribute.g.cs",
-        "description": "File GenerateInterfaceAttribute.g.cs ",
+        "description": "Generated File 1  from 2 : GenerateInterfaceAttribute.g.cs ",
         "line": 1
         }
     

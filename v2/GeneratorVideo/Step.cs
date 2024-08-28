@@ -48,6 +48,9 @@ internal abstract record Step(string text, string value):IParsable<Step>, IDispo
             case "showproj":
                 result = new StartProjectVSCode(split[0], split[1]);
                 break;
+            case "waitseconds":
+                result = new StepWaitSeconds(split[0], split[1]);
+                break;
             default:
                 return false;
         }

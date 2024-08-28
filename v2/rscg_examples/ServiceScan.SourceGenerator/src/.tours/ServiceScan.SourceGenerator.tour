@@ -31,13 +31,13 @@
 
         ,{
         "file": "InjectDemo/obj/GX/ServiceScan.SourceGenerator/ServiceScan.SourceGenerator.DependencyInjectionGenerator/MyServiceProvider_AddMyServices.Generated.cs",
-        "description": "File MyServiceProvider_AddMyServices.Generated.cs ",
+        "description": "Generated File 2  from 2 : MyServiceProvider_AddMyServices.Generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/ServiceScan.SourceGenerator/ServiceScan.SourceGenerator.DependencyInjectionGenerator/GenerateServiceRegistrationsAttribute.Generated.cs",
-        "description": "File GenerateServiceRegistrationsAttribute.Generated.cs ",
+        "description": "Generated File 1  from 2 : GenerateServiceRegistrationsAttribute.Generated.cs ",
         "line": 1
         }
     

@@ -25,19 +25,19 @@
 
         ,{
         "file": "ZompDemo/obj/GX/Zomp.SyncMethodGenerator/Zomp.SyncMethodGenerator.SyncMethodSourceGenerator/Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs",
-        "description": "File Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs ",
+        "description": "Generated File 3  from 3 : Zomp.SyncMethodGeneratorDemo.Writer.WriteAsync.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "ZompDemo/obj/GX/Zomp.SyncMethodGenerator/Zomp.SyncMethodGenerator.SyncMethodSourceGenerator/Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs",
-        "description": "File Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs ",
+        "description": "Generated File 2  from 3 : Zomp.SyncMethodGeneratorDemo.Writer.HahaAsync.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "ZompDemo/obj/GX/Zomp.SyncMethodGenerator/Zomp.SyncMethodGenerator.SyncMethodSourceGenerator/CreateSyncVersionAttribute.g.cs",
-        "description": "File CreateSyncVersionAttribute.g.cs ",
+        "description": "Generated File 1  from 3 : CreateSyncVersionAttribute.g.cs ",
         "line": 1
         }
     

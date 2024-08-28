@@ -31,13 +31,13 @@
 
         ,{
         "file": "InjectDemo/obj/GX/Jab/Jab.ContainerGenerator/MyServiceProvider.Generated.cs",
-        "description": "File MyServiceProvider.Generated.cs ",
+        "description": "Generated File 2  from 2 : MyServiceProvider.Generated.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/Jab/Jab.ContainerGenerator/Attributes.cs",
-        "description": "File Attributes.cs ",
+        "description": "Generated File 1  from 2 : Attributes.cs ",
         "line": 1
         }
     

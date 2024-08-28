@@ -31,43 +31,43 @@
 
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/RecordCompat.g.cs",
-        "description": "File RecordCompat.g.cs ",
+        "description": "Generated File 7  from 7 : RecordCompat.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/LocalStorageServiceCollectionExtensions.g.cs",
-        "description": "File LocalStorageServiceCollectionExtensions.g.cs ",
+        "description": "Generated File 6  from 7 : LocalStorageServiceCollectionExtensions.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/LocalStorageService.g.cs",
-        "description": "File LocalStorageService.g.cs ",
+        "description": "Generated File 5  from 7 : LocalStorageService.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/JSAutoInteropAttribute.g.cs",
-        "description": "File JSAutoInteropAttribute.g.cs ",
+        "description": "Generated File 4  from 7 : JSAutoInteropAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/JSAutoGenericInteropAttribute.g.cs",
-        "description": "File JSAutoGenericInteropAttribute.g.cs ",
+        "description": "Generated File 3  from 7 : JSAutoGenericInteropAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/ILocalStorageService.g.cs",
-        "description": "File ILocalStorageService.g.cs ",
+        "description": "Generated File 2  from 7 : ILocalStorageService.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "BlazorApp2/obj/GX/Blazor.SourceGenerators/Blazor.SourceGenerators.JavaScriptInteropGenerator/BlazorHostingModel.g.cs",
-        "description": "File BlazorHostingModel.g.cs ",
+        "description": "Generated File 1  from 7 : BlazorHostingModel.g.cs ",
         "line": 1
         }
     

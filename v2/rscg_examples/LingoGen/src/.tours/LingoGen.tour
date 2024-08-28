@@ -19,13 +19,13 @@
 
         ,{
         "file": "TranslateDemo/obj/GX/LingoGen.Generator/LingoGen.Generator.LingoGenerator/Lingo.Hello_.g.cs",
-        "description": "File Lingo.Hello_.g.cs ",
+        "description": "Generated File 2  from 2 : Lingo.Hello_.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "TranslateDemo/obj/GX/LingoGen.Generator/LingoGen.Generator.LingoGenerator/Lingo.g.cs",
-        "description": "File Lingo.g.cs ",
+        "description": "Generated File 1  from 2 : Lingo.g.cs ",
         "line": 1
         }
     

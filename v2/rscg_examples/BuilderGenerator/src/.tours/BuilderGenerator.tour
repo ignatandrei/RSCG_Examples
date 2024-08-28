@@ -31,19 +31,19 @@
 
         ,{
         "file": "Builder/obj/GX/BuilderGenerator/BuilderGenerator.BuilderGenerator/PersonBuilder.g.cs",
-        "description": "File PersonBuilder.g.cs ",
+        "description": "Generated File 3  from 3 : PersonBuilder.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/BuilderGenerator/BuilderGenerator.BuilderGenerator/BuilderForAttribute.cs",
-        "description": "File BuilderForAttribute.cs ",
+        "description": "Generated File 2  from 3 : BuilderForAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "Builder/obj/GX/BuilderGenerator/BuilderGenerator.BuilderGenerator/BuilderBaseClass.cs",
-        "description": "File BuilderBaseClass.cs ",
+        "description": "Generated File 1  from 3 : BuilderBaseClass.cs ",
         "line": 1
         }
     

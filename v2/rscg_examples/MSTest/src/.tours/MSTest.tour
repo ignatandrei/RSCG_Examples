@@ -19,19 +19,19 @@
 
         ,{
         "file": "DemoTest/obj/GX/MSTest.SourceGeneration/Microsoft.Testing.Framework.SourceGeneration.TestNodesGenerator/SourceGeneratedTestNodesBuilder.g.cs",
-        "description": "File SourceGeneratedTestNodesBuilder.g.cs ",
+        "description": "Generated File 3  from 3 : SourceGeneratedTestNodesBuilder.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoTest/obj/GX/MSTest.SourceGeneration/Microsoft.Testing.Framework.SourceGeneration.TestNodesGenerator/SourceGeneratedTestingPlatformBuilderHook.g.cs",
-        "description": "File SourceGeneratedTestingPlatformBuilderHook.g.cs ",
+        "description": "Generated File 2  from 3 : SourceGeneratedTestingPlatformBuilderHook.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoTest/obj/GX/MSTest.SourceGeneration/Microsoft.Testing.Framework.SourceGeneration.TestNodesGenerator/DemoTest.UnitTest1.g.cs",
-        "description": "File DemoTest.UnitTest1.g.cs ",
+        "description": "Generated File 1  from 3 : DemoTest.UnitTest1.g.cs ",
         "line": 1
         }
     

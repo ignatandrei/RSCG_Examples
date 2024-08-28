@@ -31,31 +31,31 @@
 
         ,{
         "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.MyServiceProvider.Scoped.g.cs",
-        "description": "File Depso.MyServiceProvider.Scoped.g.cs ",
+        "description": "Generated File 5  from 5 : Depso.MyServiceProvider.Scoped.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.MyServiceProvider.RegistrationMethods.g.cs",
-        "description": "File Depso.MyServiceProvider.RegistrationMethods.g.cs ",
+        "description": "Generated File 4  from 5 : Depso.MyServiceProvider.RegistrationMethods.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.MyServiceProvider.g.cs",
-        "description": "File Depso.MyServiceProvider.g.cs ",
+        "description": "Generated File 3  from 5 : Depso.MyServiceProvider.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.Attributes.ServiceProviderModule.g.cs",
-        "description": "File Depso.Attributes.ServiceProviderModule.g.cs ",
+        "description": "Generated File 2  from 5 : Depso.Attributes.ServiceProviderModule.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "InjectDemo/obj/GX/Depso/Depso.ServiceProviderGenerator/Depso.Attributes.ServiceProvider.g.cs",
-        "description": "File Depso.Attributes.ServiceProvider.g.cs ",
+        "description": "Generated File 1  from 5 : Depso.Attributes.ServiceProvider.g.cs ",
         "line": 1
         }
     

@@ -37,13 +37,13 @@
 
         ,{
         "file": "AutoRegisterInjectDemo/obj/GX/AutoRegisterInject/AutoRegisterInject.Generator/AutoRegisterInject.ServiceCollectionExtension.g.cs",
-        "description": "File AutoRegisterInject.ServiceCollectionExtension.g.cs ",
+        "description": "Generated File 2  from 2 : AutoRegisterInject.ServiceCollectionExtension.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "AutoRegisterInjectDemo/obj/GX/AutoRegisterInject/AutoRegisterInject.Generator/AutoRegisterInject.Attributes.g.cs",
-        "description": "File AutoRegisterInject.Attributes.g.cs ",
+        "description": "Generated File 1  from 2 : AutoRegisterInject.Attributes.g.cs ",
         "line": 1
         }
     

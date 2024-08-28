@@ -19,19 +19,19 @@
 
         ,{
         "file": "Console_Wait/obj/GX/RSCG_Wait/RSCG_Wait.WaitGenerator/WaitGeneratorStart.g.cs",
-        "description": "File WaitGeneratorStart.g.cs ",
+        "description": "Generated File 3  from 3 : WaitGeneratorStart.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Console_Wait/obj/GX/RSCG_Wait/RSCG_Wait.WaitGenerator/WaitGeneratorEnd.g.cs",
-        "description": "File WaitGeneratorEnd.g.cs ",
+        "description": "Generated File 2  from 3 : WaitGeneratorEnd.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Console_Wait/obj/GX/RSCG_Wait/RSCG_Wait.WaitGenerator/GeneratorOptions.g.cs",
-        "description": "File GeneratorOptions.g.cs ",
+        "description": "Generated File 1  from 3 : GeneratorOptions.g.cs ",
         "line": 1
         }
     

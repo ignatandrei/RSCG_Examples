@@ -25,25 +25,25 @@
 
         ,{
         "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/UnitOfAttribute.cs",
-        "description": "File UnitOfAttribute.cs ",
+        "description": "Generated File 4  from 4 : UnitOfAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/StronglyDemo.YearId.g.cs",
-        "description": "File StronglyDemo.YearId.g.cs ",
+        "description": "Generated File 3  from 4 : StronglyDemo.YearId.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/StronglyDemo.MonthId.g.cs",
-        "description": "File StronglyDemo.MonthId.g.cs ",
+        "description": "Generated File 2  from 4 : StronglyDemo.MonthId.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnitDemo/obj/GX/UnitGenerator/UnitGenerator.SourceGenerator/StronglyDemo.DayId.g.cs",
-        "description": "File StronglyDemo.DayId.g.cs ",
+        "description": "Generated File 1  from 4 : StronglyDemo.DayId.g.cs ",
         "line": 1
         }
     

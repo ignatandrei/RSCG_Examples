@@ -31,19 +31,19 @@
 
         ,{
         "file": "DemoMixin/obj/GX/Minerals.AutoMixins/Minerals.AutoMixins.Attributes.GenerateMixinAttributeGenerator/GenerateMixinAttribute.g.cs",
-        "description": "File GenerateMixinAttribute.g.cs ",
+        "description": "Generated File 3  from 3 : GenerateMixinAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoMixin/obj/GX/Minerals.AutoMixins/Minerals.AutoMixins.Attributes.AddMixinAttributeGenerator/AddMixinAttribute.g.cs",
-        "description": "File AddMixinAttribute.g.cs ",
+        "description": "Generated File 2  from 3 : AddMixinAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "DemoMixin/obj/GX/Minerals.AutoMixins/Minerals.AutoMixins.AddMixinGenerator/Person.g.cs",
-        "description": "File Person.g.cs ",
+        "description": "Generated File 1  from 3 : Person.g.cs ",
         "line": 1
         }
     

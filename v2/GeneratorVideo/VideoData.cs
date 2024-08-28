@@ -13,7 +13,10 @@ internal class VideoData:IDisposable
     public async Task<int> Analyze()
     {
         var data = await File.ReadAllTextAsync(fileName);
-        var steps = JsonSerializer.Deserialize<Dictionary<string, string>>(data);
+        var opt = new JsonSerializerOptions(JsonSerializerOptions.Default);
+        opt.AllowTrailingCommas = true;
+        var steps = JsonSerializer.Deserialize<Dictionary<string, string>>
+            (data,opt);
         ArgumentNullException.ThrowIfNull(steps);
         foreach (var step in steps)
         {
@@ -32,7 +35,7 @@ internal class VideoData:IDisposable
             try
             {
                 Console.WriteLine("executing " + step.Number + $"/{nr}");// + "=>" + step.value);
-                if (step.Number < 12) continue;
+                //if (step.Number < 12) continue;
                 await step.Execute();
                 await Task.Delay(2000);
                 //Console.ReadLine();

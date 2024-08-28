@@ -25,19 +25,19 @@
 
         ,{
         "file": "Demo/obj/GX/SourceGenerator.Helper.CopyCode/SourceGenerator.Helper.CopyCode.CopyGenerator/SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs",
-        "description": "File SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs ",
+        "description": "Generated File 3  from 3 : SourceGenerator_Helper_CopyCodeDemo.Person.Copy.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Demo/obj/GX/SourceGenerator.Helper.CopyCode/SourceGenerator.Helper.CopyCode.CopyGenerator/SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs",
-        "description": "File SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs ",
+        "description": "Generated File 2  from 3 : SourceGenerator_Helper_CopyCodeDemo.NumberAttribute.Copy.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "Demo/obj/GX/SourceGenerator.Helper.CopyCode/SourceGenerator.Helper.CopyCode.CopyGenerator/CopyAttribute.g.cs",
-        "description": "File CopyAttribute.g.cs ",
+        "description": "Generated File 1  from 3 : CopyAttribute.g.cs ",
         "line": 1
         }
     

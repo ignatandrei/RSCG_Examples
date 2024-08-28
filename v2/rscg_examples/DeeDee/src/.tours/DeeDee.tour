@@ -31,19 +31,19 @@
 
         ,{
         "file": "MediatorDemo/obj/GX/DeeDee/DeeDee.SourceGenerator/IocExtensions.cs",
-        "description": "File IocExtensions.cs ",
+        "description": "Generated File 3  from 3 : IocExtensions.cs ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/obj/GX/DeeDee/DeeDee.SourceGenerator/IDispatcher.cs",
-        "description": "File IDispatcher.cs ",
+        "description": "Generated File 2  from 3 : IDispatcher.cs ",
         "line": 1
         }
     
         ,{
         "file": "MediatorDemo/obj/GX/DeeDee/DeeDee.SourceGenerator/Dispatcher.cs",
-        "description": "File Dispatcher.cs ",
+        "description": "Generated File 1  from 3 : Dispatcher.cs ",
         "line": 1
         }
     

@@ -25,37 +25,37 @@
 
         ,{
         "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/_DynMetClosure.g.cs",
-        "description": "File _DynMetClosure.g.cs ",
+        "description": "Generated File 6  from 6 : _DynMetClosure.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/TypeNew.CreateInstance.g.cs",
-        "description": "File TypeNew.CreateInstance.g.cs ",
+        "description": "Generated File 5  from 6 : TypeNew.CreateInstance.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/ThrowHelper.g.cs",
-        "description": "File ThrowHelper.g.cs ",
+        "description": "Generated File 4  from 6 : ThrowHelper.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/FastNew{T}.g.cs",
-        "description": "File FastNew{T}.g.cs ",
+        "description": "Generated File 3  from 6 : FastNew{T}.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/FastNew.TryCreateInstance.g.cs",
-        "description": "File FastNew.TryCreateInstance.g.cs ",
+        "description": "Generated File 2  from 6 : FastNew.TryCreateInstance.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "FastGenericNewDemo/obj/GX/FastGenericNew.SourceGenerator/FastGenericNew.SourceGenerator.Generator/FastNew.CreateInstance.g.cs",
-        "description": "File FastNew.CreateInstance.g.cs ",
+        "description": "Generated File 1  from 6 : FastNew.CreateInstance.g.cs ",
         "line": 1
         }
     

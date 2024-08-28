@@ -61,43 +61,43 @@
 
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewStart_cshtml.g.cs",
-        "description": "File Pages__ViewStart_cshtml.g.cs ",
+        "description": "Generated File 7  from 7 : Pages__ViewStart_cshtml.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages__ViewImports_cshtml.g.cs",
-        "description": "File Pages__ViewImports_cshtml.g.cs ",
+        "description": "Generated File 6  from 7 : Pages__ViewImports_cshtml.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__ValidationScriptsPartial_cshtml.g.cs",
-        "description": "File Pages_Shared__ValidationScriptsPartial_cshtml.g.cs ",
+        "description": "Generated File 5  from 7 : Pages_Shared__ValidationScriptsPartial_cshtml.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Shared__Layout_cshtml.g.cs",
-        "description": "File Pages_Shared__Layout_cshtml.g.cs ",
+        "description": "Generated File 4  from 7 : Pages_Shared__Layout_cshtml.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Privacy_cshtml.g.cs",
-        "description": "File Pages_Privacy_cshtml.g.cs ",
+        "description": "Generated File 3  from 7 : Pages_Privacy_cshtml.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Index_cshtml.g.cs",
-        "description": "File Pages_Index_cshtml.g.cs ",
+        "description": "Generated File 2  from 7 : Pages_Index_cshtml.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RazorAppDemo/obj/GX/Microsoft.NET.Sdk.Razor.SourceGenerators/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Error_cshtml.g.cs",
-        "description": "File Pages_Error_cshtml.g.cs ",
+        "description": "Generated File 1  from 7 : Pages_Error_cshtml.g.cs ",
         "line": 1
         }
     

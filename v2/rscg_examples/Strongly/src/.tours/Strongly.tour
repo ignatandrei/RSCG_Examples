@@ -25,49 +25,49 @@
 
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyType.g.cs",
-        "description": "File StronglyType.g.cs ",
+        "description": "Generated File 8  from 8 : StronglyType.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyImplementations.g.cs",
-        "description": "File StronglyImplementations.g.cs ",
+        "description": "Generated File 7  from 8 : StronglyImplementations.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDemo.YearId.g.cs",
-        "description": "File StronglyDemo.YearId.g.cs ",
+        "description": "Generated File 6  from 8 : StronglyDemo.YearId.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDemo.MonthId.g.cs",
-        "description": "File StronglyDemo.MonthId.g.cs ",
+        "description": "Generated File 5  from 8 : StronglyDemo.MonthId.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDemo.DayId.g.cs",
-        "description": "File StronglyDemo.DayId.g.cs ",
+        "description": "Generated File 4  from 8 : StronglyDemo.DayId.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyDefaultsAttribute.g.cs",
-        "description": "File StronglyDefaultsAttribute.g.cs ",
+        "description": "Generated File 3  from 8 : StronglyDefaultsAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyConverter.g.cs",
-        "description": "File StronglyConverter.g.cs ",
+        "description": "Generated File 2  from 8 : StronglyConverter.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "StronglyDemo/obj/GX/Strongly/Strongly.StronglyGenerator/StronglyAttribute.g.cs",
-        "description": "File StronglyAttribute.g.cs ",
+        "description": "Generated File 1  from 8 : StronglyAttribute.g.cs ",
         "line": 1
         }
     

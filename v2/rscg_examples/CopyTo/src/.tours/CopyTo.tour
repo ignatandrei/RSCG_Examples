@@ -25,13 +25,13 @@
 
         ,{
         "file": "CopyToDemo/obj/GX/RhoMicro.CodeAnalysis.CopyToGenerator.14.0.2/RhoMicro.CodeAnalysis.CopyToGenerator.CopyToGenerator/Person.g.cs",
-        "description": "File Person.g.cs ",
+        "description": "Generated File 2  from 2 : Person.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "CopyToDemo/obj/GX/RhoMicro.CodeAnalysis.CopyToGenerator.14.0.2/RhoMicro.CodeAnalysis.CopyToGenerator.CopyToGenerator/GenerateCopyToAttribute.g.cs",
-        "description": "File GenerateCopyToAttribute.g.cs ",
+        "description": "Generated File 1  from 2 : GenerateCopyToAttribute.g.cs ",
         "line": 1
         }
     

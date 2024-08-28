@@ -25,19 +25,19 @@
 
         ,{
         "file": "UtilDemo/obj/GX/TypeUtilities.SourceGenerators/TypeUtilities.SourceGenerators.TypeUtilitiesSourceGenerator/Person2.omit.PersonFull.g.cs",
-        "description": "File Person2.omit.PersonFull.g.cs ",
+        "description": "Generated File 3  from 3 : Person2.omit.PersonFull.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UtilDemo/obj/GX/TypeUtilities.SourceGenerators/TypeUtilities.SourceGenerators.TypeUtilitiesSourceGenerator/Person2.map.PersonFull.g.cs",
-        "description": "File Person2.map.PersonFull.g.cs ",
+        "description": "Generated File 2  from 3 : Person2.map.PersonFull.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UtilDemo/obj/GX/TypeUtilities.SourceGenerators/TypeUtilities.SourceGenerators.TypeUtilitiesSourceGenerator/Person1.pick.PersonFull.g.cs",
-        "description": "File Person1.pick.PersonFull.g.cs ",
+        "description": "Generated File 1  from 3 : Person1.pick.PersonFull.g.cs ",
         "line": 1
         }
     

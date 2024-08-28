@@ -25,19 +25,19 @@
 
         ,{
         "file": "MapperDemo/obj/GX/DynamicsMapper/DynamicsMapper.MapperGenerator/PersonMapper.g.cs",
-        "description": "File PersonMapper.g.cs ",
+        "description": "Generated File 3  from 3 : PersonMapper.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MapperDemo/obj/GX/DynamicsMapper/DynamicsMapper.MapperGenerator/IEntityMapper.g.cs",
-        "description": "File IEntityMapper.g.cs ",
+        "description": "Generated File 2  from 3 : IEntityMapper.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MapperDemo/obj/GX/DynamicsMapper/DynamicsMapper.MapperGenerator/EntityExtentions.g.cs",
-        "description": "File EntityExtentions.g.cs ",
+        "description": "Generated File 1  from 3 : EntityExtentions.g.cs ",
         "line": 1
         }
     

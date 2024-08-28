@@ -31,13 +31,13 @@
 
         ,{
         "file": "IDisp/obj/GX/IDisposableGenerator.CSharp/IDisposableGenerator.IDisposableGenerator/GeneratedAttributes.g.cs",
-        "description": "File GeneratedAttributes.g.cs ",
+        "description": "Generated File 2  from 2 : GeneratedAttributes.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "IDisp/obj/GX/IDisposableGenerator.CSharp/IDisposableGenerator.IDisposableGenerator/Disposables.g.cs",
-        "description": "File Disposables.g.cs ",
+        "description": "Generated File 1  from 2 : Disposables.g.cs ",
         "line": 1
         }
     

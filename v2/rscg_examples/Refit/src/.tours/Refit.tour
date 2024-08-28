@@ -31,19 +31,19 @@
 
         ,{
         "file": "RefitDemo/obj/GX/InterfaceStubGeneratorV2/Refit.Generator.InterfaceStubGeneratorV2/PreserveAttribute.g.cs",
-        "description": "File PreserveAttribute.g.cs ",
+        "description": "Generated File 3  from 3 : PreserveAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RefitDemo/obj/GX/InterfaceStubGeneratorV2/Refit.Generator.InterfaceStubGeneratorV2/IFindPosts.g.cs",
-        "description": "File IFindPosts.g.cs ",
+        "description": "Generated File 2  from 3 : IFindPosts.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "RefitDemo/obj/GX/InterfaceStubGeneratorV2/Refit.Generator.InterfaceStubGeneratorV2/Generated.g.cs",
-        "description": "File Generated.g.cs ",
+        "description": "Generated File 1  from 3 : Generated.g.cs ",
         "line": 1
         }
     

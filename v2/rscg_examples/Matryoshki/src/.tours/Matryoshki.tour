@@ -37,13 +37,13 @@
 
         ,{
         "file": "MatryoshkiDemo/obj/GX/Matryoshki.Generators/Matryoshki.Generators.MatryoshkiSourceGenerator/.PersonMatryoshka.g.cs",
-        "description": "File .PersonMatryoshka.g.cs ",
+        "description": "Generated File 2  from 2 : .PersonMatryoshka.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "MatryoshkiDemo/obj/GX/Matryoshki.Generators/Matryoshki.Generators.CompiledAdornmentSourceGenerator/MatryoshkiDemo_AddLog.Compiled.g.cs",
-        "description": "File MatryoshkiDemo_AddLog.Compiled.g.cs ",
+        "description": "Generated File 1  from 2 : MatryoshkiDemo_AddLog.Compiled.g.cs ",
         "line": 1
         }
     

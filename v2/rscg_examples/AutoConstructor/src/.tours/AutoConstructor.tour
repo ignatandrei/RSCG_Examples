@@ -25,25 +25,25 @@
 
         ,{
         "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/QuickConstructorDemo.Person.g.cs",
-        "description": "File QuickConstructorDemo.Person.g.cs ",
+        "description": "Generated File 4  from 4 : QuickConstructorDemo.Person.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/AutoConstructorInjectAttribute.cs",
-        "description": "File AutoConstructorInjectAttribute.cs ",
+        "description": "Generated File 3  from 4 : AutoConstructorInjectAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/AutoConstructorIgnoreAttribute.cs",
-        "description": "File AutoConstructorIgnoreAttribute.cs ",
+        "description": "Generated File 2  from 4 : AutoConstructorIgnoreAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "ConstructorDemo/obj/GX/AutoConstructor.Generator/AutoConstructor.Generator.AutoConstructorGenerator/AutoConstructorAttribute.cs",
-        "description": "File AutoConstructorAttribute.cs ",
+        "description": "Generated File 1  from 4 : AutoConstructorAttribute.cs ",
         "line": 1
         }
     

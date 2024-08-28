@@ -31,37 +31,37 @@
 
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/UnionTypesDemo_ResultSave.g.cs",
-        "description": "File UnionTypesDemo_ResultSave.g.cs ",
+        "description": "Generated File 6  from 6 : UnionTypesDemo_ResultSave.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionTypeSettingsAttribute.g.cs",
-        "description": "File RhoMicro_CodeAnalysis_UnionTypeSettingsAttribute.g.cs ",
+        "description": "Generated File 5  from 6 : RhoMicro_CodeAnalysis_UnionTypeSettingsAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionTypeAttribute.g.cs",
-        "description": "File RhoMicro_CodeAnalysis_UnionTypeAttribute.g.cs ",
+        "description": "Generated File 4  from 6 : RhoMicro_CodeAnalysis_UnionTypeAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionsGenerator_Generated_Util.g.cs",
-        "description": "File RhoMicro_CodeAnalysis_UnionsGenerator_Generated_Util.g.cs ",
+        "description": "Generated File 3  from 6 : RhoMicro_CodeAnalysis_UnionsGenerator_Generated_Util.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_UnionFactoryAttribute.g.cs",
-        "description": "File RhoMicro_CodeAnalysis_UnionFactoryAttribute.g.cs ",
+        "description": "Generated File 2  from 6 : RhoMicro_CodeAnalysis_UnionFactoryAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/RhoMicro.CodeAnalysis.UnionsGenerator.14.0.2/RhoMicro.CodeAnalysis.UnionsGenerator.Generators.UnionsGenerator/RhoMicro_CodeAnalysis_RelationTypeAttribute.g.cs",
-        "description": "File RhoMicro_CodeAnalysis_RelationTypeAttribute.g.cs ",
+        "description": "Generated File 1  from 6 : RhoMicro_CodeAnalysis_RelationTypeAttribute.g.cs ",
         "line": 1
         }
     
