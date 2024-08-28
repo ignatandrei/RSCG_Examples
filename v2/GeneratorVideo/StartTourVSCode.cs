@@ -31,10 +31,12 @@ internal record StartTourVSCode(string text, string value) : Step(text,value)
         //await Task.Delay(100);
 
         //await ExecuteInVSCodeCommand(inputSimulator, "Explorer: focus on CodeTour View");
-
+        await Task.Delay(100);
+        await ExecuteInVSCodeCommand(inputSimulator, "view :close all editors");
         await Task.Delay(100);
         await ExecuteInVSCodeCommand(inputSimulator, "CodeTour:Start Tour");
         await Task.Delay(5000);
+        Console.WriteLine("nr steps " + nrSteps);
         for (var i = 0; i < nrSteps-1; i++)
         {
             await NextTourStep(inputSimulator);
