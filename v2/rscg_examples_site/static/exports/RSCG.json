@@ -1249,6 +1249,14 @@
       "Source": "https://github.com/ignatandrei/NameGenerator/",
       "Category": "EnhancementProject",
       "AddedOn": "2024-08-25T00:00:00"
+    },
+    {
+      "Name": "Sera.Union",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union",
+      "NuGet": "https://www.nuget.org/packages/Sera.Union/",
+      "Source": "https://github.com/sera-net/Sera.Union",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-08-26T00:00:00"
     }
   ]
 }

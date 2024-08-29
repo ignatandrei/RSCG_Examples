@@ -1,6 +1,6 @@
-# RSCG - 156 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 157 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-08-25 => 25 August 2024
+## Latest Update : 2024-08-26 => 26 August 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 156 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 157 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 157. [Sera.Union](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-08-26 => 26 August 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Sera
+
+Tagged union for c# 
+
+Nuget: [https://www.nuget.org/packages/Sera.Union/](https://www.nuget.org/packages/Sera.Union/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union)
+
+Source: [https://github.com/sera-net/Sera.Union](https://github.com/sera-net/Sera.Union)
+
+</details>
+
 ### 156. [RSCG_NameGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_NameGenerator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2024-08-25 => 25 August 2024

@@ -155,3 +155,4 @@ Nr,Key,Source,Category
 154,fluentify, https://github.com/MooVC/fluentify,Builder
 155,Coplt.Dropping, https://github.com/2A5F/Coplt.Dropping,Disposer
 156,RSCG_NameGenerator, https://github.com/ignatandrei/NameGenerator/,EnhancementProject
+157,Sera.Union, https://github.com/sera-net/Sera.Union,FunctionalProgramming

@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Sera.Union",
+  "steps": 
+  [
+    {
+      "file": "UnionTypesDemo/UnionTypesDemo.csproj",
+      "description": "First, we add Nuget  [Sera.Union](https://www.nuget.org/packages/Sera.Union/) in csproj  ",
+      "pattern": "Sera.Union"
+    }
+
+        ,{
+        "file": "UnionTypesDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project UnionTypesDemo/UnionTypesDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UnionTypesDemo/obj/GX/Sera.TaggedUnion.Analyzers/Sera.TaggedUnion.Analyzers.Generators.UnionGenerator/UnionTypesDemo.ResultSave.union.g.cs",
+        "description": "Generated File 1  from 1 : UnionTypesDemo.ResultSave.union.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

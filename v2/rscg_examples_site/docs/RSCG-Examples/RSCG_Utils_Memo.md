@@ -362,7 +362,7 @@ partial class fibTest
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo
 
-### In the same category (FunctionalProgramming) - 10 other generators
+### In the same category (FunctionalProgramming) - 11 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -384,6 +384,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils_Memo
 
 
 #### [PartiallyApplied](/docs/PartiallyApplied)
+
+
+#### [Sera.Union](/docs/Sera.Union)
 
 
 #### [TypeUtilities](/docs/TypeUtilities)
