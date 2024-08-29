@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Sera.Union",
+      "nuget":[
+         "https://www.nuget.org/packages/Sera.Union/"
+      ],
+      "link":"https://github.com/sera-net/Sera.Union",
+      "author":"Sera",
+      "source":"https://github.com/sera-net/Sera.Union"
+   },
+   "data":{
+      "goodFor":["Generate tagged union"],
+      "csprojDemo":"UnionTypesDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

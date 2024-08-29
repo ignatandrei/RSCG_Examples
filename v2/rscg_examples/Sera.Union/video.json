@@ -1,0 +1,32 @@
+{
+    "step_1_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
+    "step_2_text":"If you want to see more examples , see  List Of RSCG",
+    "step_3_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
+    "step_4_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+
+"step_5_text": "Today I will present Sera.Union . Generate tagged union .",
+"step_6_browser":"https://www.nuget.org/packages/Sera.Union/",
+"step_7_text": "The whole example is here",
+"step_8_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union",
+"step_9_text": "You can download the code from here",
+"step_10_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union#download-example-net--c-",
+"step_11_text":"Here is the code downloaded ",
+"step_12_exec":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Sera.Union\\src\\UnionTypesDemo.sln",
+"step_13_text": "So , let's start the project with Visual Studio Code ",
+"step_14_exec": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Sera.Union\\src",
+
+"step_15_text": "To use it ,you will put the Nuget Sera.Union into the csproj ",
+
+
+"step_16_text": "And now I will show you an example of using Sera.Union",
+
+"step_17_hide": "now execute the tour in VSCode",
+"step_18_tour": "src/.tours/",
+"step_19_text":" And I will execute the project", 
+"step_20_showproj":"UnionTypesDemo.csproj",
+"step_21_text":" This concludes the project",
+"step_22_waitseconds":"30",
+"step_23_text": "Remember, you can download the code from here",
+"step_24_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union#download-example-net--c-",
+
+}
