@@ -843,11 +843,6 @@
     "ID":173,
     "name":"Strings.ResourceGenerator https://github.com/biggik/Strings.ResourceGenerator",
     "why":"old ISourceGenerator"
-  },
-  {
-    "ID":174,
-    "name":"Sera.Union https://www.nuget.org/packages/Sera.Union/",
-    "why":"later"
   }
   
 ]
