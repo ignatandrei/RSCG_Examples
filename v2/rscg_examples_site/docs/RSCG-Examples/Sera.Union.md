@@ -523,7 +523,6 @@ public partial struct Option<T>
 
 </details>
 
-<br>
 
 <details>
   <summary>Result[T,E].union.g.cs</summary>
