@@ -844,5 +844,38 @@
     "name":"Strings.ResourceGenerator https://github.com/biggik/Strings.ResourceGenerator",
     "why":"old ISourceGenerator"
   }
-  
+  ,
+  {
+    "ID":174,
+    "name":"Dusharp https://github.com/kolebynov/Dusharp",
+    "why":"later"
+  }
+  ,
+  {
+    "ID":175,
+    "name":"laker https://github.com/Lakerfield/Lakerfield.Rpc",
+    "why":"later"
+  }
+  ,
+  {
+    "ID":176,
+    "name":"embed https://github.com/datacute/EmbeddedResourcePropertyGenerator",
+    "why":"later"
+  }
+  ,
+  {
+    "ID":177,
+    "name":"tyopes https://github.com/duskembayev/Enhanced.GetTypes",
+    "why":"later"
+  },
+  {
+    "ID":178,
+    "name":"di https://github.com/stratosblue/LightweightObjectMapper",
+    "why":"later"
+  },
+  {
+    "ID":179,
+    "name":"di https://github.com/stratosblue/LightweightObjectMapper",
+    "why":"later"
+  }
 ]
