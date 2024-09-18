@@ -500,7 +500,7 @@ namespace MagicMap
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap
 
-### In the same category (Mapper) - 6 other generators
+### In the same category (Mapper) - 7 other generators
 
 
 #### [AutoDTO](/docs/AutoDTO)
@@ -510,6 +510,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap
 
 
 #### [DynamicsMapper](/docs/DynamicsMapper)
+
+
+#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
 
 
 #### [mapperly](/docs/mapperly)

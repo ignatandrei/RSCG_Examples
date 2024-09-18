@@ -862,15 +862,5 @@
     "name":"embed https://github.com/datacute/EmbeddedResourcePropertyGenerator",
     "why":"later"
   }
-  ,
-  {
-    "ID":178,
-    "name":"di https://github.com/stratosblue/LightweightObjectMapper",
-    "why":"later"
-  },
-  {
-    "ID":179,
-    "name":"di https://github.com/stratosblue/LightweightObjectMapper",
-    "why":"later"
-  }
+  
 ]

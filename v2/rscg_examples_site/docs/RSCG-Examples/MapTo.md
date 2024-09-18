@@ -341,7 +341,7 @@ public static class PersonMapToExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo
 
-### In the same category (Mapper) - 6 other generators
+### In the same category (Mapper) - 7 other generators
 
 
 #### [AutoDTO](/docs/AutoDTO)
@@ -351,6 +351,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo
 
 
 #### [DynamicsMapper](/docs/DynamicsMapper)
+
+
+#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
 
 
 #### [MagicMap](/docs/MagicMap)

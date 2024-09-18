@@ -278,7 +278,7 @@ namespace mapperlyDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
 
-### In the same category (Mapper) - 6 other generators
+### In the same category (Mapper) - 7 other generators
 
 
 #### [AutoDTO](/docs/AutoDTO)
@@ -288,6 +288,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/mapperly
 
 
 #### [DynamicsMapper](/docs/DynamicsMapper)
+
+
+#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
 
 
 #### [MagicMap](/docs/MagicMap)

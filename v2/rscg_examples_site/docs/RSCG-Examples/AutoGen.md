@@ -317,13 +317,16 @@ namespace mapperDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoGen
 
-### In the same category (Mapper) - 6 other generators
+### In the same category (Mapper) - 7 other generators
 
 
 #### [AutoDTO](/docs/AutoDTO)
 
 
 #### [DynamicsMapper](/docs/DynamicsMapper)
+
+
+#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
 
 
 #### [MagicMap](/docs/MagicMap)
