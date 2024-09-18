@@ -101,10 +101,10 @@ class MyClass2
 
 [MappingProfile]
 internal partial class SampleMappingProfile
-    : IMappingPrepare<MyClass1, MyClass2>
-    , IPostMapping<MyClass1, MyClass2>
-    , ITypeMapping<MyClass2, MyClass1>
-    , ITypeMemberIgnoreMapping<MyClass2>
+    : IMappingPrepare MyClass1, MyClass2
+    , IPostMapping MyClass1, MyClass2
+    , ITypeMapping MyClass2, MyClass1 
+    , ITypeMemberIgnoreMapping MyClass2
 {
     public object? IgnoreMapping(MyClass2 target)
     {
