@@ -1265,6 +1265,14 @@
       "Source": "https://github.com/duskembayev/Enhanced.GetTypes",
       "Category": "EnhancementClass",
       "AddedOn": "2024-09-17T00:00:00"
+    },
+    {
+      "Name": "LightweightObjectMapper",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/LightweightObjectMapper",
+      "NuGet": "https://www.nuget.org/packages/LightweightObjectMapper/",
+      "Source": "https://github.com/stratosblue/LightweightObjectMapper",
+      "Category": "Mapper",
+      "AddedOn": "2024-09-18T00:00:00"
     }
   ]
 }

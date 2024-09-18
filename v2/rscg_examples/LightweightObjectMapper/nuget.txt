@@ -1,0 +1,1 @@
+A out of the box object mapper library based on `SourceGenerator`. 基于 `SourceGenerator` 的开箱即用对象映射库。
