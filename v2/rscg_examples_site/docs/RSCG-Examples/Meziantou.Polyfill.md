@@ -5889,7 +5889,7 @@ namespace System.Threading.Tasks
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill
 
-### In the same category (EnhancementClass) - 25 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -5905,6 +5905,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Meziantou.Polyfill
 
 
 #### [DudNet](/docs/DudNet)
+
+
+#### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
 
 
 #### [FastGenericNew](/docs/FastGenericNew)

@@ -2114,7 +2114,7 @@ namespace @FastGenericNew
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew
 
-### In the same category (EnhancementClass) - 25 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -2130,6 +2130,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastGenericNew
 
 
 #### [DudNet](/docs/DudNet)
+
+
+#### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
 
 
 #### [GeneratorEquals](/docs/GeneratorEquals)

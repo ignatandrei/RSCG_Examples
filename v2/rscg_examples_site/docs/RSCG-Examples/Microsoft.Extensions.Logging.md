@@ -373,7 +373,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 
-### In the same category (EnhancementClass) - 25 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -389,6 +389,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging
 
 
 #### [DudNet](/docs/DudNet)
+
+
+#### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
 
 
 #### [FastGenericNew](/docs/FastGenericNew)

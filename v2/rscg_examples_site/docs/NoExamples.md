@@ -662,47 +662,43 @@ Why I have not put example: too complicated for me, need help
 
 Why I have not put example: no readme
 
-165)tyopes https://github.com/duskembayev/Enhanced.GetTypes  
-
-Why I have not put example: later
-
-166)TypealizR https://github.com/earloc/TypealizR  
+165)TypealizR https://github.com/earloc/TypealizR  
 
 Why I have not put example: depends on Microsoft.Extensions.Localization
 
-167)TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client  
+166)TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client  
 
 Why I have not put example: later
 
-168)UnitTestBlazor https://github.com/bUnit-dev/bUnit  
+167)UnitTestBlazor https://github.com/bUnit-dev/bUnit  
 
 Why I have not put example: issue opened
 
-169)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
+168)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-170)ValueLink https://github.com/archi-Doc/ValueLink  
+169)ValueLink https://github.com/archi-Doc/ValueLink  
 
 Why I have not put example: too complicated for me, need help
 
-171)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
+170)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-172)VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/  
+171)VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/  
 
 Why I have not put example: issue opened
 
-173)Visor https://github.com/Tinkoff/Visor  
+172)Visor https://github.com/Tinkoff/Visor  
 
 Why I have not put example: too complicated for me, need help
 
-174)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
+173)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
 Why I have not put example: not maintained as in readme
 
-175)Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped  
+174)Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped  
 
 Why I have not put example: old ISourceGenerator
 

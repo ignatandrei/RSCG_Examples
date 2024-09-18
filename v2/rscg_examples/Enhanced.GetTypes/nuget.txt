@@ -1,0 +1,1 @@
+Enhanced.GetTypes is a NuGet package for simplified types retrieval in .NET Core applications. It uses a source generator for explicit types retrieval without reflection.

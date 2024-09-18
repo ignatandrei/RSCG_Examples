@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Enhanced.GetTypes",
+      "nuget":[
+         "https://www.nuget.org/packages/Enhanced.GetTypes/"
+      ],
+      "link":"https://github.com/duskembayev/Enhanced.GetTypes",
+      "author":"duskembayev",
+      "source":"https://github.com/duskembayev/Enhanced.GetTypes"
+   },
+   "data":{
+      "goodFor":["Generating list of PUBLIC classes that implements an interface"],
+      "csprojDemo":"GetTypesForInterface.csproj",
+      "csFiles":["Program.cs","ProjectTypes.cs","IPerson.cs","Student.cs","Teacher.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
