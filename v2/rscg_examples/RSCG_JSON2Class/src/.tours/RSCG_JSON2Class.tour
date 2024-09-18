@@ -25,13 +25,7 @@
 
         ,{
         "file": "JSON2ClassConsole/obj/GX/RSCG_JSON2Class/RSCG_JSON2Class.RSCG_JSON2Class/testData.cs",
-        "description": "Generated File 2  from 2 : testData.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "JSON2ClassConsole/obj/GX/RSCG_JSON2Class/RSCG_JSON2Class.RSCG_JSON2Class/test.cs",
-        "description": "Generated File 1  from 2 : test.cs ",
+        "description": "Generated File 1  from 1 : testData.cs ",
         "line": 1
         }
     
