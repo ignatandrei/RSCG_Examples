@@ -11,6 +11,18 @@
     }
 
         ,{
+        "file": "UnionTypesDemo/SaveToDatabase.cs",
+        "description": "File SaveToDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UnionTypesDemo/ResultSave.cs",
+        "description": "File ResultSave.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "UnionTypesDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project UnionTypesDemo/UnionTypesDemo.csproj ",
         "pattern": "this is the code"

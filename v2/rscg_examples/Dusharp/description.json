@@ -1,12 +1,12 @@
 {
    "generator":{
-      "name":"Sera.Union",
+      "name":"Dusharp",
       "nuget":[
-         "https://www.nuget.org/packages/Sera.Union/"
+         "https://www.nuget.org/packages/Dusharp/"
       ],
-      "link":"https://github.com/sera-net/Sera.Union",
-      "author":"Sera",
-      "source":"https://github.com/sera-net/Sera.Union"
+      "link":"https://github.com/kolebynov/Dusharp",
+      "author":"Vitali",
+      "source":"https://github.com/kolebynov/Dusharp"
    },
    "data":{
       "goodFor":["Generate tagged union"],

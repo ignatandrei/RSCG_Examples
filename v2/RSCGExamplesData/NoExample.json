@@ -844,13 +844,7 @@
     "name":"Strings.ResourceGenerator https://github.com/biggik/Strings.ResourceGenerator",
     "why":"old ISourceGenerator"
   }
-  ,
-  {
-    "ID":174,
-    "name":"Dusharp https://github.com/kolebynov/Dusharp",
-    "why":"later"
-  }
-  ,
+    ,
   {
     "ID":175,
     "name":"laker https://github.com/Lakerfield/Lakerfield.Rpc",
@@ -860,7 +854,7 @@
   {
     "ID":176,
     "name":"embed https://github.com/datacute/EmbeddedResourcePropertyGenerator",
-    "why":"later"
+    "why":"issue opened"
   }
   
 ]

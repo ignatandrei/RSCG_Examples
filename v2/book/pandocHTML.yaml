@@ -173,6 +173,7 @@ input-files:
 - examples/Sera.Union.html
 - examples/Enhanced.GetTypes.html
 - examples/LightweightObjectMapper.html
+- examples/Dusharp.html
 
 # or you may use input-file: with a single value
 # defaults:
