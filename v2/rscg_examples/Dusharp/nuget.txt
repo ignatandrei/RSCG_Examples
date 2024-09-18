@@ -1,0 +1,1 @@
+Dusharp is a C# source generator for creating discriminated unions.

@@ -1,28 +1,30 @@
 <h1>FunctionalProgramming</h1>
 
-Number RSCG: 12
+Number RSCG: 13
 
    1 [cachesourcegenerator](/docs/cachesourcegenerator)
 
    2 [dunet](/docs/dunet)
 
-   3 [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
+   3 [Dusharp](/docs/Dusharp)
 
-   4 [FunicularSwitch](/docs/FunicularSwitch)
+   4 [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
 
-   5 [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
+   5 [FunicularSwitch](/docs/FunicularSwitch)
 
-   6 [OneOf](/docs/OneOf)
+   6 [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
 
-   7 [PartiallyApplied](/docs/PartiallyApplied)
+   7 [OneOf](/docs/OneOf)
 
-   8 [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+   8 [PartiallyApplied](/docs/PartiallyApplied)
 
-   9 [Sera.Union](/docs/Sera.Union)
+   9 [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
-   10 [TypeUtilities](/docs/TypeUtilities)
+   10 [Sera.Union](/docs/Sera.Union)
 
-   11 [UnionGen](/docs/UnionGen)
+   11 [TypeUtilities](/docs/TypeUtilities)
 
-   12 [UnionsGenerator](/docs/UnionsGenerator)
+   12 [UnionGen](/docs/UnionGen)
+
+   13 [UnionsGenerator](/docs/UnionsGenerator)
     

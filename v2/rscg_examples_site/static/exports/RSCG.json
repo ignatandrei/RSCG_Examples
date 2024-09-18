@@ -1273,6 +1273,14 @@
       "Source": "https://github.com/stratosblue/LightweightObjectMapper",
       "Category": "Mapper",
       "AddedOn": "2024-09-18T00:00:00"
+    },
+    {
+      "Name": "Dusharp",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dusharp",
+      "NuGet": "https://www.nuget.org/packages/Dusharp/",
+      "Source": "https://github.com/kolebynov/Dusharp",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-09-19T00:00:00"
     }
   ]
 }

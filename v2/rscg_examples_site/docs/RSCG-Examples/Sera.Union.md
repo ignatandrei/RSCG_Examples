@@ -733,6 +733,55 @@ if(data.IsOk)
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Sera.Union\src\UnionTypesDemo\ResultSave.cs" label="ResultSave.cs" >
+
+  This is the use of **Sera.Union** in *ResultSave.cs*
+
+```csharp showLineNumbers 
+using Sera.TaggedUnion;
+namespace UnionTypesDemo;
+
+
+[Union]
+public partial struct ResultSave
+{
+    [UnionTemplate]
+    private interface ITemplate
+    {
+        int Ok();
+        void NotFound();
+    }
+}
+
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Sera.Union\src\UnionTypesDemo\SaveToDatabase.cs" label="SaveToDatabase.cs" >
+
+  This is the use of **Sera.Union** in *SaveToDatabase.cs*
+
+```csharp showLineNumbers 
+namespace UnionTypesDemo;
+
+public class SaveToDatabase
+{
+    public static ResultSave Save(int i)
+    {
+
+        if (i == 0)
+        {
+            return ResultSave.MakeNotFound();
+        }
+        return ResultSave.MakeOk(i); ;
+    }
+}
+
+
+
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files
@@ -910,13 +959,16 @@ public partial struct ResultSave
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union
 
-### In the same category (FunctionalProgramming) - 11 other generators
+### In the same category (FunctionalProgramming) - 12 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
 #### [dunet](/docs/dunet)
+
+
+#### [Dusharp](/docs/Dusharp)
 
 
 #### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)

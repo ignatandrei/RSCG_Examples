@@ -406,13 +406,16 @@ namespace OneOfDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/OneOf
 
-### In the same category (FunctionalProgramming) - 11 other generators
+### In the same category (FunctionalProgramming) - 12 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
 
 
 #### [dunet](/docs/dunet)
+
+
+#### [Dusharp](/docs/Dusharp)
 
 
 #### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
