@@ -375,16 +375,16 @@ namespace BuildInfo
     {
 
         /// <summary>
-        /// Build time: 2024-07-18 19:57:53
+        /// Build time: 2024-08-11 06:05:43
         /// Value was taken from the system clock.
         /// </summary>
-        public static readonly global::System.DateTime BuildTime = new global::System.DateTime(638569294731432248L, global::System.DateTimeKind.Utc);
+        public static readonly global::System.DateTime BuildTime = new global::System.DateTime(638589531437912507L, global::System.DateTimeKind.Utc);
 
         /// <summary>
-        /// Local build time: 2024-07-18 22:57:53 (+03:00)
+        /// Local build time: 2024-08-11 09:05:43 (+03:00)
         /// Value was taken from the system clock.
         /// </summary>
-        public static readonly global::System.DateTimeOffset LocalBuildTime = new global::System.DateTimeOffset(638569402731432248L, new global::System.TimeSpan(108000000000));
+        public static readonly global::System.DateTimeOffset LocalBuildTime = new global::System.DateTimeOffset(638589639437912507L, new global::System.TimeSpan(108000000000));
 
         /// <summary>
         /// Build information related to git.
@@ -396,19 +396,19 @@ namespace BuildInfo
             /// The commit id in git at the time of build.
             /// Value was taken from the AssemblyInformationalVersion attribute.
             /// </summary>
-            public const string CommitId = "51a6dd67bbe091af607870fd80a52ea54d249e47";
+            public const string CommitId = "9c8973104459497026d289db2a3f7bdd0e54af02";
 
             /// <summary>
             /// The short commit id in git at the time of build.
             /// Value was taken from the AssemblyInformationalVersion attribute.
             /// </summary>
-            public const string ShortCommitId = "51a6dd67";
+            public const string ShortCommitId = "9c897310";
 
             /// <summary>
             /// The git branch used at build time.
             /// Value was taken from the git branch command.
             /// </summary>
-            public const string Branch = "278-httpsgithubcompeksprobuildinformationgenerator";
+            public const string Branch = "284-rscg_diagram";
 
         }
 
@@ -422,13 +422,13 @@ namespace BuildInfo
         /// OS version of the building machine.
         /// Value was taken from Environment.OSVersion.
         /// </summary>
-        public const string OSVersion = "Microsoft Windows NT 6.2.9200.0";
+        public const string OSVersion = "Microsoft Windows NT 10.0.22631.0";
 
         /// <summary>
         /// .NET SDK version used at build time.
         /// Value was taken from the dotnet --version command.
         /// </summary>
-        public const string DotNetSdkVersion = "8.0.303";
+        public const string DotNetSdkVersion = "8.0.400-preview.0.24324.5";
 
     }
 }

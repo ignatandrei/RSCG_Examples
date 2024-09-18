@@ -495,7 +495,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Index_cshtml.g.cs" label="Views_Home_Index_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Index_cshtml.g.cs" label="Views_Home_Index_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -505,7 +505,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views_Home_Index), @"mvc.1.0.view", @"/Views/Home/Index.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -514,19 +514,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/Home/Index.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -537,13 +537,14 @@ using SafeRoutingDemo.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Home\Index.cshtml"
-  
+#line (1,3)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Home\Index.cshtml"
+
     ViewData["Title"] = "Home Page";
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("\r\n<div class=\"text-center\">\r\n    <h1 class=\"display-4\">Welcome</h1>\r\n    <p>Learn about <a href=\"https://docs.microsoft.com/aspnet/core\">building Web apps with ASP.NET Core</a>.</p>\r\n</div>\r\n");
         }
         #pragma warning restore 1998
@@ -576,7 +577,7 @@ using SafeRoutingDemo.Models;
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.cs" label="Views_Home_Privacy_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Privacy_cshtml.g.cs" label="Views_Home_Privacy_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -586,7 +587,7 @@ using SafeRoutingDemo.Models;
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views_Home_Privacy), @"mvc.1.0.view", @"/Views/Home/Privacy.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -595,19 +596,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/Home/Privacy.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -618,21 +619,24 @@ using SafeRoutingDemo.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Home\Privacy.cshtml"
-  
+#line (1,3)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Home\Privacy.cshtml"
+
     ViewData["Title"] = "Privacy Policy";
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("<h1>");
+            Write(
 #nullable restore
-#line (4,6)-(4,23) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Home\Privacy.cshtml"
-Write(ViewData["Title"]);
+#line (4,6)-(4,23) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Home\Privacy.cshtml"
+ViewData["Title"]
 
 #line default
 #line hidden
 #nullable disable
+            );
             WriteLiteral("</h1>\r\n\r\n<p>Use this page to detail your site\'s privacy policy.</p>\r\n");
         }
         #pragma warning restore 1998
@@ -665,7 +669,7 @@ Write(ViewData["Title"]);
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared_Error_cshtml.g.cs" label="Views_Shared_Error_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared_Error_cshtml.g.cs" label="Views_Shared_Error_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -675,7 +679,7 @@ Write(ViewData["Title"]);
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views_Shared_Error), @"mvc.1.0.view", @"/Views/Shared/Error.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -684,19 +688,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/Shared/Error.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -707,38 +711,43 @@ using SafeRoutingDemo.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
-  
+#line (2,3)-(4,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
+
     ViewData["Title"] = "Error";
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("\r\n<h1 class=\"text-danger\">Error.</h1>\r\n<h2 class=\"text-danger\">An error occurred while processing your request.</h2>\r\n\r\n");
 #nullable restore
-#line 9 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
- if (Model.ShowRequestId)
+#line (9,2)-(11,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
+if (Model.ShowRequestId)
 {
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("    <p>\r\n        <strong>Request ID:</strong> <code>");
+            Write(
 #nullable restore
-#line (12,45)-(12,60) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
-Write(Model.RequestId);
+#line (12,45)-(12,60) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
+Model.RequestId
 
 #line default
 #line hidden
 #nullable disable
+            );
             WriteLiteral("</code>\r\n    </p>\r\n");
 #nullable restore
-#line 14 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
+#line (14,1)-(15,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\Error.cshtml"
 }
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral(@"
 <h3>Development Mode</h3>
 <p>
@@ -782,7 +791,7 @@ Write(Model.RequestId);
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared__Layout_cshtml.g.cs" label="Views_Shared__Layout_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared__Layout_cshtml.g.cs" label="Views_Shared__Layout_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -792,7 +801,7 @@ Write(Model.RequestId);
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views_Shared__Layout), @"mvc.1.0.view", @"/Views/Shared/_Layout.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -801,19 +810,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/Shared/_Layout.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -864,26 +873,29 @@ using SafeRoutingDemo.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-  
+#line (1,3)-(4,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+
     var privacy = Routes.Controllers.Home.Privacy();
 
 
 #line default
 #line hidden
 #nullable disable
+
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed58594", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed58608", async() => {
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
+                Write(
 #nullable restore
-#line (10,13)-(10,30) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-Write(ViewData["Title"]);
+#line (10,13)-(10,30) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+ViewData["Title"]
 
 #line default
 #line hidden
 #nullable disable
+                );
                 WriteLiteral(" - SafeRoutingDemo</title>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed59295", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed59343", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -898,7 +910,7 @@ Write(ViewData["Title"]);
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed510497", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed510545", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -908,13 +920,15 @@ Write(ViewData["Title"]);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.Href = (string)__tagHelperAttribute_2.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_2);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = 
 #nullable restore
-#line 12 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-__Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
+#line (12,70)-(12,74) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+true
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-append-version", __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -924,7 +938,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed512566", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed512663", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -934,13 +948,15 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_0);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.Href = (string)__tagHelperAttribute_3.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_3);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = 
 #nullable restore
-#line 13 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-__Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
+#line (13,84)-(13,88) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+true
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-append-version", __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -962,9 +978,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed515339", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed515485", async() => {
                 WriteLiteral("\r\n    <header b-jhf4u2mpiu>\r\n        <nav b-jhf4u2mpiu class=\"navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3\">\r\n            <div b-jhf4u2mpiu class=\"container-fluid\">\r\n                ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed515864", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed516010", async() => {
                     WriteLiteral("SafeRoutingDemo");
                 }
                 );
@@ -993,7 +1009,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                     <ul b-jhf4u2mpiu class=""navbar-nav flex-grow-1"">
                         <li b-jhf4u2mpiu class=""nav-item"">
                             ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed518271", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed518417", async() => {
                     WriteLiteral("Home");
                 }
                 );
@@ -1014,7 +1030,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                        <li b-jhf4u2mpiu class=\"nav-item\">\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed520147", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed520293", async() => {
                     WriteLiteral("Privacy");
                 }
                 );
@@ -1035,19 +1051,21 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LinkTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed521929", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed522075", async() => {
                     WriteLiteral("!New Privacy!");
                 }
                 );
                 __SafeRouting_TagHelpers_RouteValuesTagHelper = CreateTagHelper<global::SafeRouting.TagHelpers.RouteValuesTagHelper>();
                 __tagHelperExecutionContext.Add(__SafeRouting_TagHelpers_RouteValuesTagHelper);
+                __SafeRouting_TagHelpers_RouteValuesTagHelper.ForRoute = 
 #nullable restore
-#line 31 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-__SafeRouting_TagHelpers_RouteValuesTagHelper.ForRoute = privacy;
+#line (31,43)-(31,50) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+privacy
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("for-route", __SafeRouting_TagHelpers_RouteValuesTagHelper.ForRoute, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -1057,15 +1075,17 @@ __SafeRouting_TagHelpers_RouteValuesTagHelper.ForRoute = privacy;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n                        </li>\r\n                    </ul>\r\n                </div>\r\n            </div>\r\n        </nav>\r\n    </header>\r\n    <div b-jhf4u2mpiu class=\"container\">\r\n        <main b-jhf4u2mpiu role=\"main\" class=\"pb-3\">\r\n            ");
+                Write(
 #nullable restore
-#line (40,14)-(40,26) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-Write(RenderBody());
+#line (40,14)-(40,26) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+RenderBody()
 
 #line default
 #line hidden
 #nullable disable
+                );
                 WriteLiteral("\r\n        </main>\r\n    </div>\r\n\r\n    <footer b-jhf4u2mpiu class=\"border-top footer text-muted\">\r\n        <div b-jhf4u2mpiu class=\"container\">\r\n            &copy; 2023 - SafeRoutingDemo - ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed524130", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed524359", async() => {
                     WriteLiteral("Privacy");
                 }
                 );
@@ -1085,7 +1105,7 @@ Write(RenderBody());
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n    </footer>\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed525836", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed526065", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1099,7 +1119,7 @@ Write(RenderBody());
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed526961", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed527190", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1113,7 +1133,7 @@ Write(RenderBody());
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed528086", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "72c7981441e7dd8348577278ecfae982d81850efd7ef5a304555b32696efeed528315", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1122,13 +1142,15 @@ Write(RenderBody());
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper);
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.Src = (string)__tagHelperAttribute_12.Value;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_12);
+                __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = 
 #nullable restore
-#line 51 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-__Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
+#line (51,52)-(51,56) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+true
 
 #line default
 #line hidden
 #nullable disable
+                ;
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-append-version", __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 await __tagHelperRunner.RunAsync(__tagHelperExecutionContext);
                 if (!__tagHelperExecutionContext.Output.IsContentModified)
@@ -1138,13 +1160,15 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ScriptTagHelper.AppendVersion = true;
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n    ");
+                Write(
 #nullable restore
-#line (52,6)-(52,58) 6 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
-Write(await RenderSectionAsync("Scripts", required: false));
+#line (52,6)-(52,58) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\Shared\_Layout.cshtml"
+await RenderSectionAsync("Scripts", required: false)
 
 #line default
 #line hidden
 #nullable disable
+                );
                 WriteLiteral("\r\n");
             }
             );
@@ -1189,7 +1213,7 @@ Write(await RenderSectionAsync("Scripts", required: false));
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared__ValidationScriptsPartial_cshtml.g.cs" label="Views_Shared__ValidationScriptsPartial_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Shared__ValidationScriptsPartial_cshtml.g.cs" label="Views_Shared__ValidationScriptsPartial_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1199,7 +1223,7 @@ Write(await RenderSectionAsync("Scripts", required: false));
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views_Shared__ValidationScriptsPartial), @"mvc.1.0.view", @"/Views/Shared/_ValidationScriptsPartial.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -1208,19 +1232,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/Shared/_ValidationScriptsPartial.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -1253,7 +1277,7 @@ using SafeRoutingDemo.Models;
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba114069", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba114073", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1267,7 +1291,7 @@ using SafeRoutingDemo.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba115132", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba115136", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -1312,7 +1336,7 @@ using SafeRoutingDemo.Models;
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views__ViewImports_cshtml.g.cs" label="Views__ViewImports_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views__ViewImports_cshtml.g.cs" label="Views__ViewImports_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1322,7 +1346,7 @@ using SafeRoutingDemo.Models;
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views__ViewImports), @"mvc.1.0.view", @"/Views/_ViewImports.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -1331,19 +1355,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/_ViewImports.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -1384,7 +1408,7 @@ using SafeRoutingDemo.Models;
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views__ViewStart_cshtml.g.cs" label="Views__ViewStart_cshtml.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\obj\GX\Microsoft.CodeAnalysis.Razor.Compiler\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views__ViewStart_cshtml.g.cs" label="Views__ViewStart_cshtml.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -1394,7 +1418,7 @@ using SafeRoutingDemo.Models;
 [assembly: global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemAttribute(typeof(AspNetCoreGeneratedDocument.Views__ViewStart), @"mvc.1.0.view", @"/Views/_ViewStart.cshtml")]
 namespace AspNetCoreGeneratedDocument
 {
-    #line hidden
+    #line default
     using global::System;
     using global::System.Collections.Generic;
     using global::System.Linq;
@@ -1403,19 +1427,19 @@ namespace AspNetCoreGeneratedDocument
     using global::Microsoft.AspNetCore.Mvc.Rendering;
     using global::Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo;
+#line (1,2)-(2,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo
 
-#line default
-#line hidden
 #nullable disable
+    ;
 #nullable restore
-#line 2 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
-using SafeRoutingDemo.Models;
+#line (2,2)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewImports.cshtml"
+using SafeRoutingDemo.Models
 
 #line default
 #line hidden
 #nullable disable
+    ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorCompiledItemMetadataAttribute("Identifier", "/Views/_ViewStart.cshtml")]
     [global::System.Runtime.CompilerServices.CreateNewOnMetadataUpdateAttribute]
     #nullable restore
@@ -1426,13 +1450,14 @@ using SafeRoutingDemo.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 1 "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewStart.cshtml"
-  
+#line (1,3)-(3,1) "D:\gth\RSCG_Examples\v2\rscg_examples\SafeRouting\src\SafeRoutingDemo\Views\_ViewStart.cshtml"
+
     Layout = "_Layout";
 
 #line default
 #line hidden
 #nullable disable
+
         }
         #pragma warning restore 1998
         #nullable restore

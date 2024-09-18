@@ -171,6 +171,7 @@ input-files:
 - examples/Coplt.Dropping.html
 - examples/RSCG_NameGenerator.html
 - examples/Sera.Union.html
+- examples/Enhanced.GetTypes.html
 
 # or you may use input-file: with a single value
 # defaults:

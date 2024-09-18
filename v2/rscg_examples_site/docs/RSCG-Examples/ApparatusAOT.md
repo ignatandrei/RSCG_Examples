@@ -534,7 +534,7 @@ namespace Apparatus.AOT.Reflection
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT
 
-### In the same category (EnhancementClass) - 25 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [AspectGenerator](/docs/AspectGenerator)
@@ -547,6 +547,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ApparatusAOT
 
 
 #### [DudNet](/docs/DudNet)
+
+
+#### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
 
 
 #### [FastGenericNew](/docs/FastGenericNew)

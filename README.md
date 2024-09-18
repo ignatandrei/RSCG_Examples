@@ -1,6 +1,6 @@
-# RSCG - 157 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 158 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-08-26 => 26 August 2024
+## Latest Update : 2024-09-17 => 17 September 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -17,8 +17,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 157 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 158 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 158. [Enhanced.GetTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Enhanced.GetTypes) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-09-17 => 17 September 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: duskembayev
+
+Enhanced.GetTypes is a NuGet package for simplified types retrieval in .NET Core applications. It uses a source generator for explicit types retrieval without reflection. 
+
+Nuget: [https://www.nuget.org/packages/Enhanced.GetTypes/](https://www.nuget.org/packages/Enhanced.GetTypes/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Enhanced.GetTypes](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Enhanced.GetTypes)
+
+Source: [https://github.com/duskembayev/Enhanced.GetTypes](https://github.com/duskembayev/Enhanced.GetTypes)
+
+</details>
+
 ### 157. [Sera.Union](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sera.Union) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
 
 Generated on : 2024-08-26 => 26 August 2024
@@ -4006,56 +4028,49 @@ Why I have not tested : too complicated for me, need help
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
-54) [tyopes]( https://github.com/duskembayev/Enhanced.GetTypes) , https://github.com/duskembayev/Enhanced.GetTypes 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=tyopes&body=https://github.com/duskembayev/Enhanced.GetTypes
-
-
-55) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
+54) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-56) [TypedSignalR]( https://github.com/nenoNaninu/TypedSignalR.Client) , https://github.com/nenoNaninu/TypedSignalR.Client 
+55) [TypedSignalR]( https://github.com/nenoNaninu/TypedSignalR.Client) , https://github.com/nenoNaninu/TypedSignalR.Client 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypedSignalR&body=https://github.com/nenoNaninu/TypedSignalR.Client
 
 
-57) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
+56) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=UnitTestBlazor&body=https://github.com/bUnit-dev/bUnit
 
 
-58) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+57) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-59) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
+58) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=VisitorPatternGenerator&body=https://github.com/hikarin522/VisitorPatternGenerator/
 
 
-60) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+59) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Visor&body=https://github.com/Tinkoff/Visor
 
 
-61) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+60) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

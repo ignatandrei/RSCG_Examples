@@ -277,7 +277,7 @@ file unsafe class InterfaceInformation : global::System.Runtime.InteropServices.
 [global::System.Runtime.InteropServices.DynamicInterfaceCastableImplementationAttribute]
 file unsafe partial interface InterfaceImplementation : global::test.IShellExecute
 {
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.ComInterfaceGenerator", "8.0.9.3103")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.ComInterfaceGenerator", "8.0.10.6711")]
     [global::System.Runtime.CompilerServices.SkipLocalsInitAttribute]
     nint global::test.IShellExecute.ShellExecute(nint hwnd, string lpOperation, string lpFile, string lpParameters, string lpDirectory, int nShowCmd)
     {

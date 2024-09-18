@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating list of PUBLIC classes that implements an interface"],
       "csprojDemo":"GetTypesForInterface.csproj",
-      "csFiles":["Program.cs","ProjectTypes","IPerson.cs","Student.cs","Teacher.cs"],
+      "csFiles":["Program.cs","ProjectTypes.cs","IPerson.cs","Student.cs","Teacher.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
