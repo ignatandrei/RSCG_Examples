@@ -30,10 +30,10 @@ Nr,Key,Source,Category
 29,Gedaq, https://github.com/SoftStoneDevelop/Gedaq,Database
 30,Refit, https://github.com/reactiveui/refit,API
 31,MorrisMoxy, https://github.com/mrpmorris/Morris.Moxy,Templating
-32,Mediator, https://github.com/martinothamar/Mediator,EnhancementProject
+32,Mediator, https://github.com/martinothamar/Mediator,Mediator
 33,Matryoshki, https://github.com/krasin-ga/matryoshki/,Interface
 34,MemoryPack, https://github.com/Cysharp/MemoryPack,EnhancementClass
-35,DeeDee, https://github.com/joh-pot/DeeDee/,EnhancementProject
+35,DeeDee, https://github.com/joh-pot/DeeDee/,Mediator
 36,ProxyGen, https://github.com/Sholtee/ProxyGen,Interface
 37,AutoRegisterInject, https://github.com/patrickklaeren/AutoRegisterInject,DependencyInjection
 38,EnumClass, https://github.com/ashenBlade/EnumClass,Enum
@@ -159,3 +159,4 @@ Nr,Key,Source,Category
 158,Enhanced.GetTypes, https://github.com/duskembayev/Enhanced.GetTypes,EnhancementClass
 159,LightweightObjectMapper, https://github.com/stratosblue/LightweightObjectMapper,Mapper
 160,Dusharp, https://github.com/kolebynov/Dusharp,FunctionalProgramming
+161,Immediate.Handlers, https://github.com/immediateplatform/Immediate.Handlers,Mediator

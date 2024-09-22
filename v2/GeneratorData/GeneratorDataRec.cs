@@ -172,4 +172,3 @@ public record GeneratorDataRec(bool show, DateTime dtStart)
 
     }
 }
-

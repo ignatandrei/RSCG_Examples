@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Immediate.Handlers",
+      "nuget":[
+         "https://www.nuget.org/packages/Immediate.Handlers/"
+      ],
+      "link":"https://github.com/immediateplatform/Immediate.Handlers",
+      "author":"Stuart Turner",
+      "source":"https://github.com/immediateplatform/Immediate.Handlers"
+   },
+   "data":{
+      "goodFor":["Generating mediator like handlers"],
+      "csprojDemo":"Mediator.csproj",
+      "csFiles":["Program.cs","PingPong.cs","GenericLoggerHandler.cs","globals.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

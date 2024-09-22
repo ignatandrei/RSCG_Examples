@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Immediate.Handlers",
+  "steps": 
+  [
+    {
+      "file": "Mediator/Mediator.csproj",
+      "description": "First, we add Nuget  [Immediate.Handlers](https://www.nuget.org/packages/Immediate.Handlers/) in csproj  ",
+      "pattern": "Immediate.Handlers"
+    }
+
+        ,{
+        "file": "Mediator/globals.cs",
+        "description": "File globals.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Mediator/GenericLoggerHandler.cs",
+        "description": "File GenericLoggerHandler.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Mediator/PingPong.cs",
+        "description": "File PingPong.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Mediator/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Mediator/Mediator.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Mediator/obj/GX/Immediate.Handlers.Generators/Immediate.Handlers.Generators.ImmediateHandlers.ImmediateHandlersGenerator/IH.ServiceCollectionExtensions.g.cs",
+        "description": "Generated File 2  from 2 : IH.ServiceCollectionExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Mediator/obj/GX/Immediate.Handlers.Generators/Immediate.Handlers.Generators.ImmediateHandlers.ImmediateHandlersGenerator/IH..PingHandler.g.cs",
+        "description": "Generated File 1  from 2 : IH..PingHandler.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
