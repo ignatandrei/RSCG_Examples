@@ -10,7 +10,9 @@ If you want to see by category, please click ***[category](https://ignatandrei.g
 or click any category below 
 {{~ for category in categories ~}}[{{category}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#{{category  | string.downcase }})  -  {{~ end ~}}
 
-If you have a Roslyn Source Code Generator, please create an issue.
+
+
+## If you have a Roslyn Source Code Generator, please create an issue.
 
 If you want to help, see below .
 
