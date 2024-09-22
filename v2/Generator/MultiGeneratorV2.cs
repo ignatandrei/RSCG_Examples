@@ -715,7 +715,7 @@ public class MultiGeneratorV2
         //var x = 0;
         //x++;
         //if(x>2)
-        var lastGenerator = "Sera.Union";
+        var lastGenerator = "Dusharp";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
@@ -889,6 +889,13 @@ public class MultiGeneratorV2
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
         ArgumentNullException.ThrowIfNull(MicrosoftRSCG);
         string[] notShow =new[] { old, archived, inspirational, noReadMe };
+        var categories = _AllDescriptions
+            .Select(it => it.GeneratorData?.Category ?? Category.None)
+            .Where(it => it != Category.None)
+            .Select(it => it.ToString().ToLower())
+            .Distinct()
+            .OrderBy(it => it)
+            .ToArray();
         var output = templateScriban.Render(
             new {
                 nrNoExamples = rscgNoExamples.Length,
@@ -900,7 +907,8 @@ public class MultiGeneratorV2
                 all = _AllDescriptions,
                 MSFT_RSCG = MicrosoftRSCG,
                 MSFT_RSCG_NR = MicrosoftRSCG.Length,
-                LatestUpdate = _AllDescriptions.Max(it=>it!.GeneratorData!.dtStart)
+                LatestUpdate = _AllDescriptions.Max(it=>it!.GeneratorData!.dtStart),
+                categories,
             },
             member => member.Name); 
         await File.WriteAllTextAsync(readMe, output);

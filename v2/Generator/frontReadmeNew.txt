@@ -7,6 +7,12 @@ If you want to see examples with code, please click  ***[List V2](https://ignata
 If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
 
 If you want to see by category, please click ***[category](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples)***
+or click any category below 
+{{~ for category in categories ~}}
+
+[{{category}}](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#{{category  | string.downcase }})
+
+{{~ end ~}}
 
 If you have a Roslyn Source Code Generator, please create an issue.
 
