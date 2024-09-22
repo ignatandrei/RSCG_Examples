@@ -422,7 +422,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:19</summary>
+  <summary>Expand EnhancementProject =>examples:17</summary>
         
 
 
@@ -442,16 +442,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
-
-        
-
-
-[Mediator](/docs/Mediator)
-
-        
-
-
-[DeeDee](/docs/DeeDee)
 
         
 
@@ -813,6 +803,23 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Mediator 
+<details>
+    
+  <summary>Expand Mediator =>examples:2</summary>
+        
+
+
+[Mediator](/docs/Mediator)
+
+        
+
+
+[DeeDee](/docs/DeeDee)
+
+</details>
+    
+
 ## MVVM 
 <details>
     
@@ -1128,10 +1135,6 @@ flowchart LR;
 
     EnhancementProject--> RSCG_FunctionsWithDI((RSCG_FunctionsWithDI))
 
-    EnhancementProject--> Mediator((Mediator))
-
-    EnhancementProject--> DeeDee((DeeDee))
-
     EnhancementProject--> Com((Com))
 
     EnhancementProject--> BuildInfo((BuildInfo))
@@ -1257,6 +1260,10 @@ flowchart LR;
     Mapper--> AutoGen((AutoGen))
 
     Mapper--> LightweightObjectMapper((LightweightObjectMapper))
+
+    Mediator--> Mediator((Mediator))
+
+    Mediator--> DeeDee((DeeDee))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 

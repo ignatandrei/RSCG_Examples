@@ -2878,7 +2878,7 @@ Source: [https://github.com/Sholtee/ProxyGen](https://github.com/Sholtee/ProxyGe
 
 </details>
 
-### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+### 35. [DeeDee](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee) , in the [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator) category 
 
 Generated on : 2023-08-05 => 05 August 2023
 
@@ -2944,7 +2944,7 @@ Source: [https://github.com/krasin-ga/matryoshki/](https://github.com/krasin-ga/
 
 </details>
 
-### 32. [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+### 32. [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator) , in the [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator) category 
 
 Generated on : 2023-08-02 => 02 August 2023
 

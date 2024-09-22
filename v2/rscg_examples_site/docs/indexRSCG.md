@@ -148,10 +148,10 @@ This is the list of 160 ( 13 from Microsoft) RSCG with examples
 |38| [EnumClass by ashen.Blade ](/docs/EnumClass)|2023-08-08 => 08 August 2023 | Enum |
 |37| [AutoRegisterInject by Patrick Klaeren ](/docs/AutoRegisterInject)|2023-08-07 => 07 August 2023 | DependencyInjection |
 |36| [ProxyGen by Dénes Solti ](/docs/ProxyGen)|2023-08-06 => 06 August 2023 | Interface |
-|35| [DeeDee by joh-pot ](/docs/DeeDee)|2023-08-05 => 05 August 2023 | EnhancementProject |
+|35| [DeeDee by joh-pot ](/docs/DeeDee)|2023-08-05 => 05 August 2023 | Mediator |
 |34| [MemoryPack by Cysharp, Inc ](/docs/MemoryPack)|2023-08-04 => 04 August 2023 | EnhancementClass |
 |33| [Matryoshki by Georgy Krasin ](/docs/Matryoshki)|2023-08-03 => 03 August 2023 | Interface |
-|32| [Mediator by Martin Othamar ](/docs/Mediator)|2023-08-02 => 02 August 2023 | EnhancementProject |
+|32| [Mediator by Martin Othamar ](/docs/Mediator)|2023-08-02 => 02 August 2023 | Mediator |
 |31| [MorrisMoxy by Peter Morris ](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | Templating |
 |30| [Refit by ReactiveUI ](/docs/Refit)|2023-07-31 => 31 July 2023 | API |
 |29| [Gedaq by Vyacheslav Brevnov ](/docs/Gedaq)|2023-07-29 => 29 July 2023 | Database |

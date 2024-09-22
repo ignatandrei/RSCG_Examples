@@ -377,7 +377,7 @@ return  TestMyFunc1(t1,t2,x,y);
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 
-### In the same category (EnhancementProject) - 18 other generators
+### In the same category (EnhancementProject) - 16 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -395,13 +395,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI
 #### [CommandLine](/docs/CommandLine)
 
 
-#### [DeeDee](/docs/DeeDee)
-
-
 #### [LinqGen.Generator](/docs/LinqGen.Generator)
-
-
-#### [Mediator](/docs/Mediator)
 
 
 #### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)

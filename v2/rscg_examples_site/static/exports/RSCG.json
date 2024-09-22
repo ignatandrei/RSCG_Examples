@@ -255,7 +255,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator",
       "NuGet": "https://www.nuget.org/packages/Mediator.SourceGenerator",
       "Source": "https://github.com/martinothamar/Mediator",
-      "Category": "EnhancementProject",
+      "Category": "Mediator",
       "AddedOn": "2023-08-02T00:00:00"
     },
     {
@@ -279,7 +279,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee",
       "NuGet": "https://www.nuget.org/packages/DeeDee/",
       "Source": "https://github.com/joh-pot/DeeDee/",
-      "Category": "EnhancementProject",
+      "Category": "Mediator",
       "AddedOn": "2023-08-05T00:00:00"
     },
     {

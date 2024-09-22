@@ -485,7 +485,7 @@ namespace Cathei.LinqGen
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinqGen.Generator
 
-### In the same category (EnhancementProject) - 18 other generators
+### In the same category (EnhancementProject) - 16 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -501,12 +501,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinqGen.Generator
 
 
 #### [CommandLine](/docs/CommandLine)
-
-
-#### [DeeDee](/docs/DeeDee)
-
-
-#### [Mediator](/docs/Mediator)
 
 
 #### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
