@@ -700,11 +700,6 @@
     "why": "old ISourceGenerator"
   },
   {
-    "ID": 141,
-    "name": "Mediator https://github.com/martinothamar/Mediator",
-    "why": "later"
-  },
-  {
     "ID": 142,
     "name": "NSourceGenerators https://github.com/NeVeSpl/NSourceGenerators/",
     "why": "old ISourceGenerator"
