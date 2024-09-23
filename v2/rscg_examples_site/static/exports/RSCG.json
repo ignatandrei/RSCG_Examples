@@ -1281,6 +1281,14 @@
       "Source": "https://github.com/kolebynov/Dusharp",
       "Category": "FunctionalProgramming",
       "AddedOn": "2024-09-19T00:00:00"
+    },
+    {
+      "Name": "Immediate.Handlers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immediate.Handlers",
+      "NuGet": "https://www.nuget.org/packages/Immediate.Handlers/",
+      "Source": "https://github.com/immediateplatform/Immediate.Handlers",
+      "Category": "Mediator",
+      "AddedOn": "2024-09-20T00:00:00"
     }
   ]
 }

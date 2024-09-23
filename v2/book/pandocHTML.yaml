@@ -174,6 +174,7 @@ input-files:
 - examples/Enhanced.GetTypes.html
 - examples/LightweightObjectMapper.html
 - examples/Dusharp.html
+- examples/Immediate.Handlers.html
 
 # or you may use input-file: with a single value
 # defaults:

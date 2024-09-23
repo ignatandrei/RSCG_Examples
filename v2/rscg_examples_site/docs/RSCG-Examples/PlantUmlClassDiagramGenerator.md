@@ -856,7 +856,7 @@ internal class PlantUmlDiagramAttribute : System.Attribute
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PlantUmlClassDiagramGenerator\src\DemoClass2Text\DemoClass2Text\obj\GX\PlantUmlClassDiagramGenerator.SourceGenerator\PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator\generated-uml\Person.puml" label="Person.puml" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PlantUmlClassDiagramGenerator\src\DemoClass2Text\DemoClass2Text\generated-uml\Person.puml" label="Person.puml" >
 
 
 ```csharp showLineNumbers 

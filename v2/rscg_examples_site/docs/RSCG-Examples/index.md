@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 160 RSCG list by category
-description: 160 RSCG list by category
+title: 161 RSCG list by category
+description: 161 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -806,7 +806,7 @@ import DocCardList from '@theme/DocCardList';
 ## Mediator 
 <details>
     
-  <summary>Expand Mediator =>examples:2</summary>
+  <summary>Expand Mediator =>examples:3</summary>
         
 
 
@@ -816,6 +816,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DeeDee](/docs/DeeDee)
+
+        
+
+
+[Immediate.Handlers](/docs/Immediate.Handlers)
 
 </details>
     
@@ -1264,6 +1269,8 @@ flowchart LR;
     Mediator--> Mediator((Mediator))
 
     Mediator--> DeeDee((DeeDee))
+
+    Mediator--> Immediate.Handlers((Immediate.Handlers))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 

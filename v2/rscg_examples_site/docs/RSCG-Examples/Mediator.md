@@ -1656,8 +1656,11 @@ namespace Mediator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
-### In the same category (Mediator) - 1 other generators
+### In the same category (Mediator) - 2 other generators
 
 
 #### [DeeDee](/docs/DeeDee)
+
+
+#### [Immediate.Handlers](/docs/Immediate.Handlers)
 

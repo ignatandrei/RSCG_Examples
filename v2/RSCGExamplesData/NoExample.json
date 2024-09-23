@@ -835,11 +835,6 @@
     "why":"too complicated for me, need help"
   },
   {
-    "ID":171,
-    "name":"Immediate.Handlers https://github.com/immediateplatform/Immediate.Handlers",
-    "why":"later"
-  },
-  {
     "ID":173,
     "name":"Strings.ResourceGenerator https://github.com/biggik/Strings.ResourceGenerator",
     "why":"old ISourceGenerator"
