@@ -1,7 +1,7 @@
 ﻿namespace GeneratorData;
 public record GeneratorDataRec(bool show, DateTime dtStart)
 {
-    public string ID { get; set; }
+    public string ID { get; set; } = string.Empty;
     public GeneratorDataRec(bool show, DateTime dtStart, Category category) : this(show, dtStart)
     {
         this.Category = category;
