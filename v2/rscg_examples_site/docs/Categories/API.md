@@ -1,6 +1,6 @@
 <h1>API</h1>
 
-Number RSCG: 8
+Number RSCG: 9
 
    1 [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
@@ -8,13 +8,15 @@ Number RSCG: 8
 
    3 [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
 
-   4 [RDG](/docs/RDG)
+   4 [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
 
-   5 [Refit](/docs/Refit)
+   5 [RDG](/docs/RDG)
 
-   6 [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
+   6 [Refit](/docs/Refit)
 
-   7 [SafeRouting](/docs/SafeRouting)
+   7 [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
 
-   8 [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+   8 [SafeRouting](/docs/SafeRouting)
+
+   9 [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
     

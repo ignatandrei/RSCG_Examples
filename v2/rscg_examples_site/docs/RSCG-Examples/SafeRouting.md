@@ -1679,7 +1679,7 @@ global using static SafeRouting.Extensions.RouteValueExtensions;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting
 
-### In the same category (API) - 7 other generators
+### In the same category (API) - 8 other generators
 
 
 #### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
@@ -1689,6 +1689,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/SafeRouting
 
 
 #### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
+
+
+#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
 
 
 #### [RDG](/docs/RDG)

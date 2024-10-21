@@ -1,6 +1,6 @@
-# RSCG - 161 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 162 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-09-20 => 20 September 2024
+## Latest Update : 2024-10-21 => 21 October 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 161 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 162 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 162. [MinimalHelpers.Routing.Analyzers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalHelpers.Routing.Analyzers) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2024-10-21 => 21 October 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Maroc Minerva
+
+A library that provides a Source Generator for automatic endpoints registration in Minimal API projects 
+
+Nuget: [https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/](https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalHelpers.Routing.Analyzers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalHelpers.Routing.Analyzers)
+
+Source: [https://github.com/marcominerva/MinimalHelpers](https://github.com/marcominerva/MinimalHelpers)
+
+</details>
+
 ### 161. [Immediate.Handlers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immediate.Handlers) , in the [Mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator) category 
 
 Generated on : 2024-09-20 => 20 September 2024

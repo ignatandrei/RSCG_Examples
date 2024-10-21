@@ -1289,6 +1289,14 @@
       "Source": "https://github.com/immediateplatform/Immediate.Handlers",
       "Category": "Mediator",
       "AddedOn": "2024-09-20T00:00:00"
+    },
+    {
+      "Name": "MinimalHelpers.Routing.Analyzers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalHelpers.Routing.Analyzers",
+      "NuGet": "https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/",
+      "Source": "https://github.com/marcominerva/MinimalHelpers",
+      "Category": "API",
+      "AddedOn": "2024-10-21T00:00:00"
     }
   ]
 }

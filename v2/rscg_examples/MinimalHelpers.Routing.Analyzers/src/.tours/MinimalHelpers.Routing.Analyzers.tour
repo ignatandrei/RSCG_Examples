@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MinimalHelpers.Routing.Analyzers",
+  "steps": 
+  [
+    {
+      "file": "APIDemo/APIDemo.csproj",
+      "description": "First, we add Nuget  [MinimalHelpers.Routing.Analyzers](https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/) in csproj  ",
+      "pattern": "MinimalHelpers.Routing.Analyzers"
+    }
+
+        ,{
+        "file": "APIDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project APIDemo/APIDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "APIDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "APIDemo/PersonAPI.cs",
+        "description": "File PersonAPI.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "APIDemo/obj/GX/MinimalHelpers.Routing.Analyzers/MinimalHelpers.Routing.Analyzers.EndpointRouteHandlerGenerator/IEndpointRouteHandlerBuilder.g.cs",
+        "description": "Generated File 2  from 2 : IEndpointRouteHandlerBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "APIDemo/obj/GX/MinimalHelpers.Routing.Analyzers/MinimalHelpers.Routing.Analyzers.EndpointRouteHandlerGenerator/EndpointRouteBuilderExtensions.g.cs",
+        "description": "Generated File 1  from 2 : EndpointRouteBuilderExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 161 RSCG list by category
-description: 161 RSCG list by category
+title: 162 RSCG list by category
+description: 162 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -37,7 +37,7 @@ import DocCardList from '@theme/DocCardList';
 ## API 
 <details>
     
-  <summary>Expand API =>examples:8</summary>
+  <summary>Expand API =>examples:9</summary>
         
 
 
@@ -77,6 +77,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
+
+        
+
+
+[MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
 
 </details>
     
@@ -1021,6 +1026,8 @@ flowchart LR;
     API--> RDG((RDG))
 
     API--> MinimalApis.Discovery((MinimalApis.Discovery))
+
+    API--> MinimalHelpers.Routing.Analyzers((MinimalHelpers.Routing.Analyzers))
 
     Bitwise--> BitsKit((BitsKit))
 

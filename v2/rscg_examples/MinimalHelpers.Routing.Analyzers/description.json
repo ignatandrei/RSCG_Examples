@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MinimalHelpers.Routing.Analyzers",
+      "nuget":[
+         "https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/"
+      ],
+      "link":"https://github.com/marcominerva/MinimalHelpers",
+      "author":"Maroc Minerva",
+      "source":"https://github.com/marcominerva/MinimalHelpers"
+   },
+   "data":{
+      "goodFor":["Controller like API registering"],
+      "csprojDemo":"APIDemo.csproj",
+      "csFiles":["PersonAPI.cs","Person.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

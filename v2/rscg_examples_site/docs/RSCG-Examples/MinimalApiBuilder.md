@@ -314,13 +314,16 @@ public partial class BasicEndpoint : global::MinimalApiBuilder.IEndpoint
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder
 
-### In the same category (API) - 7 other generators
+### In the same category (API) - 8 other generators
 
 
 #### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
 
 
 #### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
+
+
+#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
 
 
 #### [RDG](/docs/RDG)
