@@ -288,7 +288,7 @@ public class Person
 }
 ```
 
-Add the `WithValidation<T>()` extension method to enable the validation filter:
+Add the `WithValidation of T()` extension method to enable the validation filter:
 
 ```csharp
 using MinimalHelpers.Validation;
@@ -355,7 +355,7 @@ dotnet add package MinimalHelpers.FluentValidation
 
 ### Usage
 
-Create a class that extends AbstractValidator<T> and define the validation rules:
+Create a class that extends AbstractValidator of T and define the validation rules:
 
 ```csharp
 using FluentValidation;
@@ -383,7 +383,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
 ```
 
-Add the `WithValidation<T>()` extension method to enable the validation filter:
+Add the `WithValidation of T()` extension method to enable the validation filter:
 
 ```csharp
 using MinimalHelpers.FluentValidation;
