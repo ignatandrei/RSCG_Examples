@@ -160,3 +160,4 @@ Nr,Key,Source,Category
 159,LightweightObjectMapper, https://github.com/stratosblue/LightweightObjectMapper,Mapper
 160,Dusharp, https://github.com/kolebynov/Dusharp,FunctionalProgramming
 161,Immediate.Handlers, https://github.com/immediateplatform/Immediate.Handlers,Mediator
+162,MinimalHelpers.Routing.Analyzers, https://github.com/marcominerva/MinimalHelpers,API

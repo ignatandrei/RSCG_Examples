@@ -1581,7 +1581,7 @@ namespace RefitDemoRefitInternalGenerated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit
 
-### In the same category (API) - 7 other generators
+### In the same category (API) - 8 other generators
 
 
 #### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
@@ -1591,6 +1591,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Refit
 
 
 #### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
+
+
+#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
 
 
 #### [RDG](/docs/RDG)
