@@ -75,7 +75,7 @@ app.Run();
 By default, `MapEndpoints()` will scan the calling Assembly to search for classes that implement the `IEndpointRouteHandlerBuilder` interface. If your route handlers are defined in another Assembly, you have two alternatives:
 
 - Use the `MapEndpoints()` overload that takes the Assembly to scan as argument
-- Use the `MapEndpointsFromAssemblyContaining<T>()` extension method and specify a type that is contained in the Assembly you want to scan
+- Use the `MapEndpointsFromAssemblyContaining of T()` extension method and specify a type that is contained in the Assembly you want to scan
 
 You can also explicitly decide what types (among the ones that implement the `IRouteEndpointHandlerBuilder` interface) you want to actually map, passing a predicate to the `MapEndpoints` method:
 
