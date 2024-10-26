@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TypedSignalR.Client",
+      "nuget":[
+         "https://www.nuget.org/packages/TypedSignalR.Client/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"TypedSignalR.ClientDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
