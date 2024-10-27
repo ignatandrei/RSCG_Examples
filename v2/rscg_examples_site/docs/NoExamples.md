@@ -646,39 +646,35 @@ Why I have not put example: no readme
 
 Why I have not put example: depends on Microsoft.Extensions.Localization
 
-161)TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client  
-
-Why I have not put example: later
-
-162)UnitTestBlazor https://github.com/bUnit-dev/bUnit  
+161)UnitTestBlazor https://github.com/bUnit-dev/bUnit  
 
 Why I have not put example: issue opened
 
-163)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
+162)ValueChangedGenerator https://github.com/ufcpp/ValueChangedGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-164)ValueLink https://github.com/archi-Doc/ValueLink  
+163)ValueLink https://github.com/archi-Doc/ValueLink  
 
 Why I have not put example: too complicated for me, need help
 
-165)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
+164)ValueObjectGenerator https://github.com/RyotaMurohoshi/ValueObjectGenerator  
 
 Why I have not put example: old ISourceGenerator
 
-166)VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/  
+165)VisitorPatternGenerator https://github.com/hikarin522/VisitorPatternGenerator/  
 
 Why I have not put example: issue opened
 
-167)Visor https://github.com/Tinkoff/Visor  
+166)Visor https://github.com/Tinkoff/Visor  
 
 Why I have not put example: too complicated for me, need help
 
-168)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
+167)WrapperValueObject https://github.com/martinothamar/WrapperValueObject  
 
 Why I have not put example: not maintained as in readme
 
-169)Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped  
+168)Xtz.StronglyTyped https://github.com/dev-experience/Xtz.StronglyTyped  
 
 Why I have not put example: old ISourceGenerator
 

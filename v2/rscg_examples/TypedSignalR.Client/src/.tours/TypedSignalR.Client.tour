@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TypedSignalR.Client",
+  "steps": 
+  [
+    {
+      "file": "TestSignalRConsole/TestSignalRConsole.csproj",
+      "description": "First, we add Nuget  [TypedSignalR.Client](https://www.nuget.org/packages/TypedSignalR.Client/) in csproj  ",
+      "pattern": "TypedSignalR.Client"
+    }
+
+        ,{
+        "file": "TestSignalRConsole/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project TestSignalRConsole/TestSignalRConsole.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "TestSignalRConsole/obj/GX/TypedSignalR.Client/TypedSignalR.Client.SourceGenerator/TypedSignalR.Client.HubConnectionExtensions.HubInvoker.Generated.cs",
+        "description": "Generated File 4  from 4 : TypedSignalR.Client.HubConnectionExtensions.HubInvoker.Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestSignalRConsole/obj/GX/TypedSignalR.Client/TypedSignalR.Client.SourceGenerator/TypedSignalR.Client.HubConnectionExtensions.Generated.cs",
+        "description": "Generated File 3  from 4 : TypedSignalR.Client.HubConnectionExtensions.Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestSignalRConsole/obj/GX/TypedSignalR.Client/TypedSignalR.Client.SourceGenerator/TypedSignalR.Client.HubConnectionExtensions.Binder.Generated.cs",
+        "description": "Generated File 2  from 4 : TypedSignalR.Client.HubConnectionExtensions.Binder.Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestSignalRConsole/obj/GX/TypedSignalR.Client/TypedSignalR.Client.SourceGenerator/TypedSignalR.Client.Components.Generated.cs",
+        "description": "Generated File 1  from 4 : TypedSignalR.Client.Components.Generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1297,6 +1297,14 @@
       "Source": "https://github.com/marcominerva/MinimalHelpers",
       "Category": "API",
       "AddedOn": "2024-10-21T00:00:00"
+    },
+    {
+      "Name": "TypedSignalR.Client",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedSignalR.Client",
+      "NuGet": "https://www.nuget.org/packages/TypedSignalR.Client/",
+      "Source": "https://github.com/nenoNaninu/TypedSignalR.Client",
+      "Category": "SignalR",
+      "AddedOn": "2024-10-26T00:00:00"
     }
   ]
 }
