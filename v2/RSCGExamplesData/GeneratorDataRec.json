@@ -972,5 +972,11 @@
     "Category": 15,
     "dtStart": "2024-10-21T00:00:00",
     "show": true
+  },
+  {
+    "ID": "TypedSignalR.Client",
+    "Category": 27,
+    "dtStart": "2024-10-26T00:00:00",
+    "show": true
   }
 ]

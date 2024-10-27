@@ -28,6 +28,7 @@ public enum Category
     AOP,
     Bitwise,
     Actor,
-    Mediator=26
+    Mediator=26,
+    SignalR=27,
 }
 

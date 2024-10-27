@@ -650,11 +650,6 @@
     "why": "too complicated for me, need help"
   },
   {
-    "ID": 131,
-    "name": "TypedSignalR https://github.com/nenoNaninu/TypedSignalR.Client",
-    "why": "later"
-  },
-  {
     "ID": 132,
     "name": "UnitTestBlazor https://github.com/bUnit-dev/bUnit",
     "why": "issue opened"

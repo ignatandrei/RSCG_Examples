@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 162 RSCG list by category
-description: 162 RSCG list by category
+title: 163 RSCG list by category
+description: 163 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -918,6 +918,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## SignalR 
+<details>
+    
+  <summary>Expand SignalR =>examples:1</summary>
+        
+
+
+[TypedSignalR.Client](/docs/TypedSignalR.Client)
+
+</details>
+    
+
 ## Templating 
 <details>
     
@@ -1302,6 +1314,8 @@ flowchart LR;
     Serializer--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
 
     Serializer--> jsonConverterSourceGenerator((jsonConverterSourceGenerator))
+
+    SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 
     Templating--> RazorBlade((RazorBlade))
 

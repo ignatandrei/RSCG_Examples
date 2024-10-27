@@ -4,13 +4,13 @@
       "nuget":[
          "https://www.nuget.org/packages/TypedSignalR.Client/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/nenoNaninu/TypedSignalR.Client",
+      "author":"nenoNaninu",
+      "source":"https://github.com/nenoNaninu/TypedSignalR.Client"
    },
    "data":{
-      "goodFor":[""],
-      "csprojDemo":"TypedSignalR.ClientDemo.csproj",
+      "goodFor":["Creating typed Signal R clients"],
+      "csprojDemo":"TestSignalRConsole.csproj",
       "csFiles":["Program.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
