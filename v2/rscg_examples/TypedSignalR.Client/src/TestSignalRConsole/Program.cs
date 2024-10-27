@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.AspNetCore.SignalR.Client;
+using TestSignalRCommon;
+using TestSignalRConsole;
 
 Console.WriteLine("Hello, World!");
 await Task.Delay(5_000);
@@ -10,12 +12,15 @@ await _connection.StartAsync();
 
 _connection.On<string, string>("ReceiveMessage", (user, message) =>
 {
-    Console.WriteLine($"{user}: {message}");
+    Console.WriteLine($" from not typed {user}: {message}");
 });
-while (true)
-{
-    await Task.Delay(1_000);
-    Console.WriteLine("what message do you want to send?");
-    var message = Console.ReadLine();
-    await _connection.InvokeAsync("SendMessage", "Console", message);
-}
+
+await Task.Delay(30_000);
+var h = TypedSignalR.Client.HubConnectionExtensions.CreateHubProxy<IHubMessage>(_connection);
+await h.SendMessage("console", "message");
+//TypedSignalR.Client.HubConnectionExtensions.Register<IHubMessage>(_connection,new ReceiverMessage());
+
+Console.WriteLine("waiting for messages from Windows App");
+var message = Console.ReadLine();
+
+

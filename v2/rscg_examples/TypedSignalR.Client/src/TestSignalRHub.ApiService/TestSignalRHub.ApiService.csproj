@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\TestSignalRCommon\TestSignalRCommon.csproj" />
     <ProjectReference Include="..\TestSignalRHub.ServiceDefaults\TestSignalRHub.ServiceDefaults.csproj" />
   </ItemGroup>
 

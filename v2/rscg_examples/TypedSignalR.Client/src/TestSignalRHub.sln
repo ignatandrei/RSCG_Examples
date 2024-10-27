@@ -10,7 +10,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSignalRHub.ApiService",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChatClient", "SignalRChatClient\SignalRChatClient.csproj", "{0E3EAD96-4FC9-4C65-8FA2-33879EBD6831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSignalRConsole", "TestSignalRConsole\TestSignalRConsole.csproj", "{CBB9F5E9-BB9D-41E4-A9E6-5D524F94325F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSignalRConsole", "TestSignalRConsole\TestSignalRConsole.csproj", "{CBB9F5E9-BB9D-41E4-A9E6-5D524F94325F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSignalRCommon", "TestSignalRCommon\TestSignalRCommon.csproj", "{CBE0AF41-FEE0-49EB-82F3-8CBF2C5410C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{CBB9F5E9-BB9D-41E4-A9E6-5D524F94325F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB9F5E9-BB9D-41E4-A9E6-5D524F94325F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBB9F5E9-BB9D-41E4-A9E6-5D524F94325F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE0AF41-FEE0-49EB-82F3-8CBF2C5410C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE0AF41-FEE0-49EB-82F3-8CBF2C5410C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE0AF41-FEE0-49EB-82F3-8CBF2C5410C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE0AF41-FEE0-49EB-82F3-8CBF2C5410C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
