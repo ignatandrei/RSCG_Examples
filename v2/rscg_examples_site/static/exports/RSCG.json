@@ -1305,6 +1305,14 @@
       "Source": "https://github.com/nenoNaninu/TypedSignalR.Client",
       "Category": "SignalR",
       "AddedOn": "2024-10-26T00:00:00"
+    },
+    {
+      "Name": "RazorSlices",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorSlices",
+      "NuGet": "https://www.nuget.org/packages/RazorSlices/",
+      "Source": "https://github.com/DamianEdwards/RazorSlices",
+      "Category": "Templating",
+      "AddedOn": "2024-10-27T00:00:00"
     }
   ]
 }

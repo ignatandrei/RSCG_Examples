@@ -375,16 +375,16 @@ namespace BuildInfo
     {
 
         /// <summary>
-        /// Build time: 2024-09-22 18:55:57
+        /// Build time: 2024-08-11 06:05:43
         /// Value was taken from the system clock.
         /// </summary>
-        public static readonly global::System.DateTime BuildTime = new global::System.DateTime(638626281578057885L, global::System.DateTimeKind.Utc);
+        public static readonly global::System.DateTime BuildTime = new global::System.DateTime(638589531437912507L, global::System.DateTimeKind.Utc);
 
         /// <summary>
-        /// Local build time: 2024-09-22 21:55:57 (+03:00)
+        /// Local build time: 2024-08-11 09:05:43 (+03:00)
         /// Value was taken from the system clock.
         /// </summary>
-        public static readonly global::System.DateTimeOffset LocalBuildTime = new global::System.DateTimeOffset(638626389578057885L, new global::System.TimeSpan(108000000000));
+        public static readonly global::System.DateTimeOffset LocalBuildTime = new global::System.DateTimeOffset(638589639437912507L, new global::System.TimeSpan(108000000000));
 
         /// <summary>
         /// Build information related to git.
@@ -396,19 +396,19 @@ namespace BuildInfo
             /// The commit id in git at the time of build.
             /// Value was taken from the AssemblyInformationalVersion attribute.
             /// </summary>
-            public const string CommitId = "4e734c748598553362149f59ca7aa41c10823d6a";
+            public const string CommitId = "9c8973104459497026d289db2a3f7bdd0e54af02";
 
             /// <summary>
             /// The short commit id in git at the time of build.
             /// Value was taken from the AssemblyInformationalVersion attribute.
             /// </summary>
-            public const string ShortCommitId = "4e734c74";
+            public const string ShortCommitId = "9c897310";
 
             /// <summary>
             /// The git branch used at build time.
             /// Value was taken from the git branch command.
             /// </summary>
-            public const string Branch = "302-immediatehandlers";
+            public const string Branch = "284-rscg_diagram";
 
         }
 
@@ -428,7 +428,7 @@ namespace BuildInfo
         /// .NET SDK version used at build time.
         /// Value was taken from the dotnet --version command.
         /// </summary>
-        public const string DotNetSdkVersion = "8.0.400";
+        public const string DotNetSdkVersion = "8.0.400-preview.0.24324.5";
 
     }
 }

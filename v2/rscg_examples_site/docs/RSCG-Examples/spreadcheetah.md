@@ -438,7 +438,7 @@ namespace spreadcheetahDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah
 
-### In the same category (Templating) - 9 other generators
+### In the same category (Templating) - 10 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -460,6 +460,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/spreadcheetah
 
 
 #### [RazorBlade](/docs/RazorBlade)
+
+
+#### [RazorSlices](/docs/RazorSlices)
 
 
 #### [RSCG_IFormattable](/docs/RSCG_IFormattable)

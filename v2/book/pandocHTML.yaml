@@ -177,6 +177,7 @@ input-files:
 - examples/Immediate.Handlers.html
 - examples/MinimalHelpers.Routing.Analyzers.html
 - examples/TypedSignalR.Client.html
+- examples/RazorSlices.html
 
 # or you may use input-file: with a single value
 # defaults:

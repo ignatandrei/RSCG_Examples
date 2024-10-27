@@ -726,9 +726,9 @@ namespace LightweightObjectMapper
             {
                 var target = new global::mapperDemo.PersonDTO()
                 {
+                    LastName = source.LastName,
                     ID = source.ID,
                     FirstName = source.FirstName,
-                    LastName = source.LastName,
                 };
                 target = global::mapperDemo.Extensions.Generated.PostMapping_D275C37F33F4AFBD(source, target);
                 return (TOut)(target as object);
