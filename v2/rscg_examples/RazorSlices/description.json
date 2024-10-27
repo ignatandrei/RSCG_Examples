@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RazorSlices",
+      "nuget":[
+         "https://www.nuget.org/packages/RazorSlices/"
+      ],
+      "link":"https://github.com/DamianEdwards/RazorSlices",
+      "author":"Damiam Edwards",
+      "source":"https://github.com/DamianEdwards/RazorSlices"
+   },
+   "data":{
+      "goodFor":["Generating html from razor templates. Attention: generates IHttpResult, not html string."],
+      "csprojDemo":"RazorsDemoSlices.csproj",
+      "csFiles":["Program.cs","PersonHTML.cshtml","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

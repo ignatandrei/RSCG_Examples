@@ -1,0 +1,6 @@
+@RazorDemoSlices_HostAddress = http://localhost:5121
+
+GET {{RazorDemoSlices_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
