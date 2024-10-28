@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1640
 title: 164 - RazorSlices
-description: Generating html from razor templates. Attention: generates IHttpResult, not html string.
+description: Generating html from razor templates. Attention, generates IHttpResult, not html string.
 slug: /RazorSlices
 ---
 import Tabs from '@theme/Tabs';
