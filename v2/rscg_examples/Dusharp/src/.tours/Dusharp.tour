@@ -30,26 +30,32 @@
     
 
         ,{
+        "file": "UnionTypesDemo/obj/GX/Sera.TaggedUnion.Analyzers/Sera.TaggedUnion.Analyzers.Generators.UnionGenerator/UnionTypesDemo.ResultSave.union.g.cs",
+        "description": "Generated File 5  from 5 : UnionTypesDemo.ResultSave.union.g.cs ",
+        "line": 1
+        }
+    
+        ,{
         "file": "UnionTypesDemo/obj/GX/Dusharp/Dusharp.UnionSourceGenerator/UnionTypesDemo.ResultSave.Dusharp.g.cs",
-        "description": "Generated File 4  from 4 : UnionTypesDemo.ResultSave.Dusharp.g.cs ",
+        "description": "Generated File 4  from 5 : UnionTypesDemo.ResultSave.Dusharp.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/Dusharp/Dusharp.UnionSourceGenerator/Dusharp.EmbeddedCode.UnionCaseAttribute.cs",
-        "description": "Generated File 3  from 4 : Dusharp.EmbeddedCode.UnionCaseAttribute.cs ",
+        "description": "Generated File 3  from 5 : Dusharp.EmbeddedCode.UnionCaseAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/Dusharp/Dusharp.UnionSourceGenerator/Dusharp.EmbeddedCode.UnionAttribute.cs",
-        "description": "Generated File 2  from 4 : Dusharp.EmbeddedCode.UnionAttribute.cs ",
+        "description": "Generated File 2  from 5 : Dusharp.EmbeddedCode.UnionAttribute.cs ",
         "line": 1
         }
     
         ,{
         "file": "UnionTypesDemo/obj/GX/Dusharp/Dusharp.UnionSourceGenerator/Dusharp.EmbeddedCode.ExceptionUtils.cs",
-        "description": "Generated File 1  from 4 : Dusharp.EmbeddedCode.ExceptionUtils.cs ",
+        "description": "Generated File 1  from 5 : Dusharp.EmbeddedCode.ExceptionUtils.cs ",
         "line": 1
         }
     

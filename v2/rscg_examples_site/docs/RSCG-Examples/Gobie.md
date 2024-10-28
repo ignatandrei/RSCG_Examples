@@ -256,7 +256,7 @@ namespace Gobie
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 
-### In the same category (Templating) - 9 other generators
+### In the same category (Templating) - 10 other generators
 
 
 #### [InterceptorTemplate](/docs/InterceptorTemplate)
@@ -275,6 +275,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 
 
 #### [RazorBlade](/docs/RazorBlade)
+
+
+#### [RazorSlices](/docs/RazorSlices)
 
 
 #### [RSCG_IFormattable](/docs/RSCG_IFormattable)

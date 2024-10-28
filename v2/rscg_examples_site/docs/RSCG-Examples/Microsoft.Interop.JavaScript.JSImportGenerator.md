@@ -751,7 +751,7 @@ namespace TestBlazor.Pages
 {
     public partial class CallJavaScript1
     {
-        internal static unsafe void __Wrapper_GetMessageFromDotnet_1002993937(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
+        internal static unsafe void __Wrapper_GetMessageFromDotnet_240282289(global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument* __arguments_buffer)
         {
             string s;
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __arg_exception = ref __arguments_buffer[0];
@@ -773,12 +773,12 @@ namespace TestBlazor.Pages
         }
 
         [global::System.Runtime.CompilerServices.ModuleInitializerAttribute]
-        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_1002993937", typeof(TestBlazor.Pages.CallJavaScript1))]
-        internal static void __Register_GetMessageFromDotnet_1002993937()
+        [global::System.Diagnostics.CodeAnalysis.DynamicDependencyAttribute("__Wrapper_GetMessageFromDotnet_240282289", typeof(TestBlazor.Pages.CallJavaScript1))]
+        internal static void __Register_GetMessageFromDotnet_240282289()
         {
             if (global::System.Runtime.InteropServices.RuntimeInformation.OSArchitecture != global::System.Runtime.InteropServices.Architecture.Wasm)
                 return;
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 1002993937, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindManagedFunction("[TestBlazor]TestBlazor.Pages.CallJavaScript1:GetMessageFromDotnet", 240282289, new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
         }
     }
 }
@@ -797,12 +797,12 @@ namespace TestBlazor.Pages
 {
     public partial class CallJavaScript1
     {
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.JavaScript.JSImportGenerator", "7.0.10.26716")]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Interop.JavaScript.JSImportGenerator", "7.0.10.6629")]
         internal static partial string GetWelcomeMessage(string s)
         {
-            if (__signature_GetWelcomeMessage_1002993937 == null)
+            if (__signature_GetWelcomeMessage_240282289 == null)
             {
-                __signature_GetWelcomeMessage_1002993937 = global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindJSFunction("getMessage", "CallJavaScript1", new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
+                __signature_GetWelcomeMessage_240282289 = global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.BindJSFunction("getMessage", "CallJavaScript1", new global::System.Runtime.InteropServices.JavaScript.JSMarshalerType[] { global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String, global::System.Runtime.InteropServices.JavaScript.JSMarshalerType.String });
             }
 
             global::System.Span<global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument> __arguments_buffer = stackalloc global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument[3];
@@ -814,14 +814,14 @@ namespace TestBlazor.Pages
             // Setup - Perform required setup.
             ref global::System.Runtime.InteropServices.JavaScript.JSMarshalerArgument __s_native__js_arg = ref __arguments_buffer[2];
             __s_native__js_arg.ToJS(s);
-            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.InvokeJS(__signature_GetWelcomeMessage_1002993937, __arguments_buffer);
+            global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding.InvokeJS(__signature_GetWelcomeMessage_240282289, __arguments_buffer);
             // Unmarshal - Convert native data to managed data.
             __arg_return.ToManaged(out __retVal);
             return __retVal;
         }
 
         [global::System.ThreadStaticAttribute]
-        static global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding __signature_GetWelcomeMessage_1002993937;
+        static global::System.Runtime.InteropServices.JavaScript.JSFunctionBinding __signature_GetWelcomeMessage_240282289;
     }
 }
 

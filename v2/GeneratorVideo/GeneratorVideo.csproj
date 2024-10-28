@@ -8,7 +8,6 @@
 	  <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
   <PropertyGroup>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>

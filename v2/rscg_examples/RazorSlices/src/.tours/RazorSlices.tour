@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RazorSlices",
+  "steps": 
+  [
+    {
+      "file": "RazorDemoSlices/RazorDemoSlices.csproj",
+      "description": "First, we add Nuget  [RazorSlices](https://www.nuget.org/packages/RazorSlices/) in csproj  ",
+      "pattern": "RazorSlices"
+    }
+
+        ,{
+        "file": "RazorDemoSlices/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorDemoSlices/Slices/PersonHTML.cshtml",
+        "description": "File PersonHTML.cshtml  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RazorDemoSlices/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RazorDemoSlices/RazorDemoSlices.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RazorDemoSlices/obj/GX/RazorSlices.SourceGenerator/RazorSlices.SourceGenerator.RazorSliceProxyGenerator/RazorDemoSlices.RazorSliceProxies.g.cs",
+        "description": "Generated File 3  from 3 : RazorDemoSlices.RazorSliceProxies.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorDemoSlices/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Slices__ViewImports_cshtml.g.cs",
+        "description": "Generated File 2  from 3 : Slices__ViewImports_cshtml.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RazorDemoSlices/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Slices_PersonHTML_cshtml.g.cs",
+        "description": "Generated File 1  from 3 : Slices_PersonHTML_cshtml.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
