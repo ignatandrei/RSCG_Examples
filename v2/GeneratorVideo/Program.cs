@@ -39,7 +39,7 @@ foreach (string folder in folders)
     var video=Path.Combine(originalFolder, folder);
     
     var file = Path.Combine(video, "video.json");
-    
+
     try
     {
         using var v = new VideoData(file);

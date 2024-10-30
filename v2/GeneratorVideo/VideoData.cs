@@ -31,16 +31,28 @@ internal class VideoData:IDisposable
     {
         var execSteps=_steps.OrderBy(it=>it.Number).ToArray();
         var nr = execSteps.Length;
-        foreach (var step in execSteps) {
+        InputSimulator inputSimulator = new InputSimulator();
+
+        for (var iStep=0;iStep<nr;iStep++) {
             try
             {
+                var step = execSteps[iStep];
                 Console.WriteLine($"executing {step.GetType().Name} {step.Number} /{nr}");// + "=>" + step.value);
                 //if (step.Number < 12) continue;
                 await step.Execute();
-                await Task.Delay(2000);
+                if(iStep <= nr - 1)
+                {
+                    Console.WriteLine("========>next step" + execSteps[iStep + 1].Description);
+                }
+                else
+                {
+                    Console.WriteLine("no next step");
+                }
                 Console.ReadLine();
+                await Task.Delay(2000);
+
             }
-            catch(Exception ex) 
+            catch (Exception ex) 
             {
                 Console.WriteLine("Error :" + ex.Message);
                 return false;

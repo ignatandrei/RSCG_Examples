@@ -1,6 +1,7 @@
 ﻿namespace GeneratorVideo;
 internal record StartTourVSCode(string text, string value) : Step(text,value)
-{    
+{
+    
     public override async Task Execute()
     {
         ArgumentNullException.ThrowIfNullOrWhiteSpace(base.OriginalFileNameFromWhereTheStepIsComing);

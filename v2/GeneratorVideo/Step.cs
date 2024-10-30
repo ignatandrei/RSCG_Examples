@@ -7,7 +7,8 @@ internal abstract record Step(string text, string value):IParsable<Step>, IDispo
     public const string esc = "\u001B";
     public int Number { get; set; }
     public abstract Task Execute();
-
+    
+    public string Description => this.GetType().Name + " " + text + " " + value;
     public static Step Parse(string s, IFormatProvider? provider)
     {
         if(TryParse(s,provider, out var value))
