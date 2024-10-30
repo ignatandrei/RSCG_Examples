@@ -31,8 +31,8 @@ internal record StepBrowser(string text, string value) : Step(text,value)
         InputSimulator inputSimulator = new InputSimulator();
         inputSimulator.Mouse.MoveMouseTo(5000, 25000);
         await Task.Delay(1000);
-        inputSimulator.Keyboard.ModifiedKeyStroke(VirtualKeyCode.LWIN, VirtualKeyCode.VK_M);
-        await Task.Delay(1000);
+        //inputSimulator.Keyboard.ModifiedKeyStroke(VirtualKeyCode.LWIN, VirtualKeyCode.VK_M);
+        //await Task.Delay(1000);
         inputSimulator.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_2);
         await Task.Delay(1000);
         inputSimulator.Keyboard.KeyPress(VirtualKeyCode.VK_T);

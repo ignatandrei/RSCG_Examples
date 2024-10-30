@@ -34,11 +34,11 @@ internal class VideoData:IDisposable
         foreach (var step in execSteps) {
             try
             {
-                Console.WriteLine("executing " + step.Number + $"/{nr}");// + "=>" + step.value);
+                Console.WriteLine($"executing {step.GetType().Name} {step.Number} /{nr}");// + "=>" + step.value);
                 //if (step.Number < 12) continue;
                 await step.Execute();
                 await Task.Delay(2000);
-                //Console.ReadLine();
+                Console.ReadLine();
             }
             catch(Exception ex) 
             {

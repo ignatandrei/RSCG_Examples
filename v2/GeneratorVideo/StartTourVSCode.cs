@@ -28,8 +28,9 @@ internal record StartTourVSCode(string text, string value) : Step(text,value)
         Console.WriteLine("nr steps " + nrSteps);
         for (var i = 0; i < nrSteps-1; i++)
         {
+            Console.WriteLine($"step {i} / {nrSteps} ");
             await NextTourStep(inputSimulator);
-            await Task.Delay(5000);
+            Console.ReadLine();            
         }
 
         //await ExecuteInVSCodeCommand(inputSimulator, "Explorer: focus on CodeTour View");
