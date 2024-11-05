@@ -1,5 +1,5 @@
 ﻿namespace GeneratorVideo;
-internal record StepWaitSeconds(string text,string value): Step(text, value)
+internal record StepWaitSeconds(string text,string value): newStep(text, value)
 {
     public override async Task Execute()
     {

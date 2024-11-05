@@ -3,7 +3,7 @@ using System.IO;
 using System.Media;
 
 namespace GeneratorVideo;
-internal record StepText(string text, string value) : Step(text, value)
+internal record StepText(string text, string value) : newStep(text, value)
 {
     public override void Dispose()
     {

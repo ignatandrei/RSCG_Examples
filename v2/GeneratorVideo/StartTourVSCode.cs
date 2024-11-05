@@ -1,5 +1,5 @@
 ﻿namespace GeneratorVideo;
-internal record StartTourVSCode(string text, string value) : Step(text,value)
+internal record StartTourVSCode(string text, string value) : newStep(text,value)
 {
     
     public override async Task Execute()

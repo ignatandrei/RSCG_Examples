@@ -1,22 +1,27 @@
 ﻿namespace GeneratorVideo;
 
-[System.Runtime.Versioning.SupportedOSPlatform("windows")]
-internal abstract record Step(string text, string value):IParsable<Step>, IDisposable
+public class Step
+{
+    public string typeStep { get; set; } = string.Empty;
+    public string arg { get; set; } = string.Empty;
+}
+    [System.Runtime.Versioning.SupportedOSPlatform("windows")]
+internal abstract record newStep(string typeScript, string arg):IParsable<newStep>, IDisposable
 {
     protected internal string? OriginalFileNameFromWhereTheStepIsComing;
     public const string esc = "\u001B";
     public int Number { get; internal set; }
     public abstract Task Execute();
     
-    public string Description => this.GetType().Name + " " + text + " " + value;
-    public static Step Parse(string s, IFormatProvider? provider)
+    public string Description => this.GetType().Name + " " + typeScript + " " + arg;
+    public static newStep Parse(string s, IFormatProvider? provider)
     {
         if(TryParse(s,provider, out var value))
             return value;
         throw new ArgumentException("cannot parse to step" + s);
     }
 
-    public static bool TryParse([NotNullWhen(true)] string? s, IFormatProvider? provider, [MaybeNullWhen(false)] out Step result)
+    public static bool TryParse([NotNullWhen(true)] string? s, IFormatProvider? provider, [MaybeNullWhen(false)] out newStep result)
     {
         ArgumentNullException.ThrowIfNull(s);
         result = default;

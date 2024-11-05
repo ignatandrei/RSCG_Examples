@@ -4,7 +4,7 @@ using WindowsInput;
 using WindowsInput.Native;
 namespace GeneratorVideo;
 
-internal record StartProjectVSCode(string text, string value) : Step(text, value)
+internal record StartProjectVSCode(string text, string value) : newStep(text, value)
 {
     public override void Dispose()
     {

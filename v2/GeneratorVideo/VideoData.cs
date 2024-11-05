@@ -3,33 +3,34 @@
 
 internal class VideoData:IDisposable
 {
-    List<Step> _steps = new();
+    VideoJson? vdata = null;
     private readonly string fileName;
 
     public VideoData(string fileName)
     {
         this.fileName = fileName;
     }
-    public async Task<int> Analyze()
+    public async Task<bool> Analyze()
     {
-        var data = await File.ReadAllTextAsync(fileName);
-        var opt = new JsonSerializerOptions(JsonSerializerOptions.Default);
-        opt.AllowTrailingCommas = true;
-        var steps = JsonSerializer.Deserialize<Dictionary<string, string>>
-            (data,opt);
-        ArgumentNullException.ThrowIfNull(steps);
-        foreach (var step in steps)
-        {
-            Step newStep = Step.Parse(step.Key + Step.esc + step.Value, null);
-            newStep.OriginalFileNameFromWhereTheStepIsComing = fileName;
-            _steps.Add(newStep);
-        }
-        return _steps.Count;
+        vdata = await VideoJson.Deserialize(fileName);
+        return vdata != null;
+        //var steps = JsonSerializer.Deserialize<Dictionary<string, string>>
+        //    (data,opt);
+        //ArgumentNullException.ThrowIfNull(steps);
+        //foreach (var step in steps)
+        //{
+        //    Step newStep = Step.Parse(step.Key + Step.esc + step.Value, null);
+        //    newStep.OriginalFileNameFromWhereTheStepIsComing = fileName;
+        //    _steps.Add(newStep);
+        //}
+        //return _steps.Count;
 
     }
+    public int NrSteps() => vdata?.steps.Length ?? 0;
     public async Task<bool> Execute()
     {
-        var execSteps=_steps.OrderBy(it=>it.Number).ToArray();
+        if (vdata == null) return false;
+        var execSteps=vdata.realSteps.OrderBy(it=>it.Number).ToArray();
         var nr = execSteps.Length;
         InputSimulator inputSimulator = new InputSimulator();
 
@@ -60,10 +61,10 @@ internal class VideoData:IDisposable
         }
         return true;
     }
-
     public void Dispose()
     {
-        foreach (var step in _steps)
+        if(vdata == null) return;
+        foreach (var step in vdata.realSteps)
         {
             try {
                 Console.WriteLine("disposing " + step.Number);

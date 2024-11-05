@@ -6,7 +6,7 @@ using WindowsInput.Native;
 namespace GeneratorVideo;
 
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
-internal record StepBrowser(string text, string value) : Step(text,value)
+internal record StepBrowser(string text, string value) : newStep(text,value)
 { 
     //[DllImport("User32.dll")]
     //public static extern IntPtr GetDC(IntPtr hwnd);

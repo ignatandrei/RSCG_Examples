@@ -1,7 +1,7 @@
 ﻿namespace GeneratorVideo;
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 
-internal record StepExecuteProgram(string text, string value) : Step(text, value)
+internal record StepExecuteProgram(string text, string value) : newStep(text, value)
 {
     private Process? process;
     public override void Dispose()
