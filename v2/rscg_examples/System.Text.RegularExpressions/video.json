@@ -1,3 +1,6 @@
+{
+    "scriptName": "System.Text.RegularExpressions",
+    "steps":
 [
     {"typeStep":"exec","arg":"clipchamp.exe launch"},
     {"typeStep":"text","arg": "Welcome to Roslyn Examples - the introduction is automatically generated"},
@@ -32,3 +35,4 @@
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions#download-example-net--c-"},
 
 ]
+}
