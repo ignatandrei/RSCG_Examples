@@ -27,29 +27,32 @@ internal class VideoData:IDisposable
 
     }
     public int NrSteps() => vdata?.steps.Length ?? 0;
-    public async Task<bool> Execute()
+    public async Task<bool> ExecuteToDetermineDuration()
     {
         if (vdata == null) return false;
         var execSteps=vdata.realSteps.OrderBy(it=>it.Number).ToArray();
         var nr = execSteps.Length;
         InputSimulator inputSimulator = new InputSimulator();
-
+        long Duration = 0;
         for (var iStep=0;iStep<nr;iStep++) {
             try
             {
                 var step = execSteps[iStep];
                 Console.WriteLine($"executing {step.GetType().Name} {step.Number} /{nr}");// + "=>" + step.value);
-                //if (step.Number < 12) continue;
+                var now = DateTime.Now;                                                                        // 
                 await step.Execute();
-                if(iStep <= nr - 1)
+                var DurationSeconds = DateTime.Now.Subtract(now).TotalSeconds;
+                step.DurationSeconds= (long)DurationSeconds;
+                Duration += step.DurationSeconds;
+                if (iStep <= nr - 1)
                 {
-                    Console.WriteLine("========>next step" + execSteps[iStep + 1].Description);
+                    Console.WriteLine("========>next step " + execSteps[iStep + 1].Description);
                 }
                 else
                 {
                     Console.WriteLine("no next step");
                 }
-                Console.ReadLine();
+                //Console.ReadLine();
                 await Task.Delay(2000);
 
             }
@@ -59,6 +62,7 @@ internal class VideoData:IDisposable
                 return false;
             }
         }
+        Console.WriteLine($"Duration Seconds={Duration}");
         return true;
     }
     public void Dispose()

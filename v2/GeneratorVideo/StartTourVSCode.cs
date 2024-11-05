@@ -1,7 +1,10 @@
 ﻿namespace GeneratorVideo;
 internal record StartTourVSCode(string text, string value) : newStep(text,value)
 {
-    
+    public override void InitDefaults()
+    {
+        this.SpeakTest = "I am now going to show you the more relevant codes ";
+    }
     public override async Task Execute()
     {
         ArgumentNullException.ThrowIfNullOrWhiteSpace(base.OriginalFileNameFromWhereTheStepIsComing);

@@ -20,7 +20,9 @@ internal class VideoJson
             var step = data.steps[i];
             var newStep= GeneratorVideo.newStep.Parse("step_"+ i + "_"+step.typeStep + GeneratorVideo.newStep.esc + step.arg, null);
             newStep.OriginalFileNameFromWhereTheStepIsComing = fileName;
-
+            newStep.DurationSeconds = step.DurationSeconds;
+            newStep.SpeakTest = step.SpeakTest;
+            newStep.Number = (i+1);
             steps.Add(newStep);
         }
         data.realSteps= steps.ToArray();

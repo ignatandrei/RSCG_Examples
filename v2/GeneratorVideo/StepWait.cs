@@ -9,4 +9,8 @@ internal record StepWaitSeconds(string text,string value): newStep(text, value)
     public override void Dispose()
     {
     }
+    public override void InitDefaults()
+    {
+        this.SpeakTest = "";
+    }
 }

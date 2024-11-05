@@ -1,9 +1,14 @@
-﻿namespace GeneratorVideo;
+﻿using System.Media;
+using Windows.Media.SpeechSynthesis;
+
+namespace GeneratorVideo;
 
 public class Step
 {
     public string typeStep { get; set; } = string.Empty;
     public string arg { get; set; } = string.Empty;
+    public long DurationSeconds { get; set; } = 0;
+    public string SpeakTest { get; set; }=string.Empty;
 }
     [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal abstract record newStep(string typeScript, string arg):IParsable<newStep>, IDisposable
@@ -12,8 +17,30 @@ internal abstract record newStep(string typeScript, string arg):IParsable<newSte
     public const string esc = "\u001B";
     public int Number { get; internal set; }
     public abstract Task Execute();
-    
+    public abstract void InitDefaults();
     public string Description => this.GetType().Name + " " + typeScript + " " + arg;
+
+    public long DurationSeconds { get; set; }
+    public string SpeakTest { get; internal set; } = string.Empty;
+    internal async Task Talk(bool speak)
+    {
+        if (!speak)
+        {
+            return;
+        }
+        if(string.IsNullOrWhiteSpace(SpeakTest))
+            return;
+        using SpeechSynthesizer synth = new();
+
+        var stream = await synth.SynthesizeTextToStreamAsync(SpeakTest);
+
+
+        using var audioStream = stream.AsStreamForRead();
+
+        var player = new SoundPlayer(audioStream);
+        player.PlaySync();
+
+    }
     public static newStep Parse(string s, IFormatProvider? provider)
     {
         if(TryParse(s,provider, out var value))

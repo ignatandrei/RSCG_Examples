@@ -7,7 +7,8 @@ namespace GeneratorVideo;
 
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal record StepBrowser(string text, string value) : newStep(text,value)
-{ 
+{
+    
     //[DllImport("User32.dll")]
     //public static extern IntPtr GetDC(IntPtr hwnd);
     //[DllImport("User32.dll")]
@@ -21,6 +22,10 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
             process.Dispose();
         }
             
+    }
+    public override void InitDefaults()
+    {
+        this.SpeakTest = "I am launching browser with "+ value ;
     }
 
     public override async Task Execute()
