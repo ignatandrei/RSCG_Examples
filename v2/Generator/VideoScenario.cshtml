@@ -6,59 +6,59 @@
     devenv = devenv.Replace("\\", "\\\\");
     var code = @"C:\Users\ignat\AppData\Local\Programs\Microsoft VS Code\Code.exe";
     code = code.Replace("\\", "\\\\");
-    int nrStep = 1;
+    //int nrStep = 1;
     var nrGenerated = Model.Data?.outputFiles?.generatedFiles?.Length??0;
 }
-{
-    @* "step_@(nrStep++)_exec":"clipchamp.exe launch", *@
-    "step_@(nrStep++)_text": "Welcome to Roslyn Examples - the introduction is automatically generated",
-    "step_@(nrStep++)_text":"If you want to see more examples , see  List Of RSCG",
-    "step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG",
-    "step_@(nrStep++)_text": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. ",
+[
+    {"typeStep":"exec","arg":"clipchamp.exe launch"},
+    {"typeStep":"text","arg": "Welcome to Roslyn Examples - the introduction is automatically generated"},
+    {"typeStep":"text","arg":"If you want to see more examples , see  List Of RSCG"},
+    {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
+    {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-"step_@(nrStep++)_text": "Today I will present @generator.NameNugetFirst() . @string.Join("", Model.Data!.GoodFor!) .",
-"step_@(nrStep++)_browser":"@generator.NugetFirst",
-"step_@(nrStep++)_text": "The whole example is here",
-"step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)",
-"step_@(nrStep++)_text": "You can download the code from here",
-"step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)#download-example-net--c-",
-"step_@(nrStep++)_text":"Here is the code downloaded ",
-"step_@(nrStep++)_exec":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")",
-"step_@(nrStep++)_text": "So , let's start the project with Visual Studio Code ",
-"step_@(nrStep++)_exec": "@code -n @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")",
+{"typeStep":"text","arg": "Today I will present @generator.NameNugetFirst() . @string.Join("", Model.Data!.GoodFor!) ."},
+{"typeStep":"browser","arg":"@generator.NugetFirst"},
+{"typeStep":"text","arg": "The whole example is here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)"},
+{"typeStep":"text","arg": "You can download the code from here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)#download-example-net--c-"},
+{"typeStep":"text","arg":"Here is the code downloaded "},
+{"typeStep":"exec","arg":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")"},
+{"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
+{"typeStep":"exec","arg": "@code -n @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")"},
 
-"step_@(nrStep++)_text": "To use it ,you will put the Nuget @generator.NameNugetFirst() into the csproj ",
+{"typeStep":"text","arg": "To use it ,you will put the Nuget @generator.NameNugetFirst() into the csproj "},
 
-@* "step_@(nrStep++)_exec": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")", *@
+{"typeStep":"exec","arg": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")"},
 
-"step_@(nrStep++)_text": "And now I will show you an example of using @generator.NameNugetFirst()",
+{"typeStep":"text","arg": "And now I will show you an example of using @generator.NameNugetFirst()"},
 
 @* @for (var i = nr - 1; i >= 0; i--)
 {
                 //var ex = "exec";// + (30 + (nr-i) *10);
     <text>
-        "step_@(nrStep++)_exec":"@code -r -g @Model.Data!.outputFiles!.contentFiles![i].fullPathFile.Replace("\\", "\\\\")",
+        {"typeStep":"exec","arg":"@code -r -g @Model.Data!.outputFiles!.contentFiles![i].fullPathFile.Replace("\\", "\\\\")",
     </text>
 
 }
 
-"step_@(nrStep++)_text": "And this are files generated",
+{"typeStep":"text","arg": "And this are files generated",
 
 @for(var i = 0; i < nrGenerated; i++)
 {
     <text>
-        "step_@(nrStep++)_exec":"@code -r -g @Model.Data!.outputFiles!.generatedFiles![i].fullPathFile.Replace("\\", "\\\\")",
+        {"typeStep":"exec","arg":"@code -r -g @Model.Data!.outputFiles!.generatedFiles![i].fullPathFile.Replace("\\", "\\\\")",
     </text>
 }
  *@
-"step_@(nrStep++)_hide": "now execute the tour in VSCode",
-"step_@(nrStep++)_tour": "src/.tours/",
-@* "step_@(nrStep++)_exec":"cmd /k start dotnet.exe run --project @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")", *@
-"step_@(nrStep++)_text":" And I will execute the project", 
-"step_@(nrStep++)_showproj":"@Model.Data!.outputFiles!.NameCsproj",
-"step_@(nrStep++)_text":" This concludes the project",
-"step_@(nrStep++)_waitseconds":"30",
-"step_@(nrStep++)_text": "Remember, you can download the code from here",
-"step_@(nrStep++)_browser":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)#download-example-net--c-",
+{"typeStep":"hide","arg": "now execute the tour in VSCode"},
+{"typeStep":"tour", "arg": "src/.tours/"},
+@* {"typeStep":"exec","arg":"cmd /k start dotnet.exe run --project @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")", *@
+{"typeStep":"text","arg":" And I will execute the project"}, 
+{"typeStep":"showproj", "arg":"@Model.Data!.outputFiles!.NameCsproj"},
+{"typeStep":"text","arg":" This concludes the project"},
+{"typeStep":"waitseconds","arg":"30"},
+{"typeStep":"text","arg": "Remember, you can download the code from here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/@(generator.Name)#download-example-net--c-"},
 
-}
+]

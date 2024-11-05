@@ -5,7 +5,7 @@ internal abstract record Step(string text, string value):IParsable<Step>, IDispo
 {
     protected internal string? OriginalFileNameFromWhereTheStepIsComing;
     public const string esc = "\u001B";
-    public int Number { get; set; }
+    public int Number { get; internal set; }
     public abstract Task Execute();
     
     public string Description => this.GetType().Name + " " + text + " " + value;

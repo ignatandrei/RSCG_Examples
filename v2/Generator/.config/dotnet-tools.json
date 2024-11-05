@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "watch2": {
+      "version": "8.2024.1104.2136",
+      "commands": [
+        "watch2"
+      ],
+      "rollForward": false
+    }
+  }
+}
