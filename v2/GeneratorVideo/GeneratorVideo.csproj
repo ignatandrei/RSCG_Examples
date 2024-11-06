@@ -11,21 +11,10 @@
   <PropertyGroup>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
   </PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="InputSimulator" Version="1.0.4" />
-		<PackageReference Include="InputSimulatorCore" Version="1.0.5" />
-	</ItemGroup>
-
-	<ItemGroup>
-    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
-    <PackageReference Include="System.Speech" Version="7.0.0" />
-  </ItemGroup>
-
   <ItemGroup>
-    <Reference Include="Microsoft.Speech">
-      <HintPath>C:\Program Files (x86)\Microsoft SDKs\Speech\v11.0\Assembly\Microsoft.Speech.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\GV.Steps\GV.Steps.csproj" />
   </ItemGroup>
+
 
   <!--<ItemGroup>
     <Reference Include="Microsoft.Speech">

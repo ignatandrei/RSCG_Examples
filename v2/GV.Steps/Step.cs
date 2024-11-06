@@ -1,7 +1,6 @@
-﻿using System.Media;
-using Windows.Media.SpeechSynthesis;
+﻿using System.Diagnostics.CodeAnalysis;
 
-namespace GeneratorVideo;
+namespace GV.Steps;
 
 public class Step
 {
@@ -11,17 +10,17 @@ public class Step
     public string SpeakTest { get; set; }=string.Empty;
 }
     [System.Runtime.Versioning.SupportedOSPlatform("windows")]
-internal abstract record newStep(string typeScript, string arg):IParsable<newStep>, IDisposable
+public abstract record newStep(string typeScript, string arg):IParsable<newStep>, IDisposable
 {
-    protected internal string? OriginalFileNameFromWhereTheStepIsComing;
+    public string? OriginalFileNameFromWhereTheStepIsComing;
     public const string esc = "\u001B";
-    public int Number { get; internal set; }
+    public int Number { get; set; }
     public abstract Task Execute();
     public abstract void InitDefaults();
     public string Description => this.GetType().Name + " " + typeScript + " " + arg;
 
     public long DurationSeconds { get; set; }
-    public string SpeakTest { get; internal set; } = string.Empty;
+    public string SpeakTest { get; set; } = string.Empty;
     internal async Task Talk(bool speak)
     {
         if (!speak)
@@ -30,15 +29,15 @@ internal abstract record newStep(string typeScript, string arg):IParsable<newSte
         }
         if(string.IsNullOrWhiteSpace(SpeakTest))
             return;
-        using SpeechSynthesizer synth = new();
+        //using SpeechSynthesizer synth = new();
 
-        var stream = await synth.SynthesizeTextToStreamAsync(SpeakTest);
+        //var stream = await synth.SynthesizeTextToStreamAsync(SpeakTest);
 
 
-        using var audioStream = stream.AsStreamForRead();
+        //using var audioStream = stream.AsStreamForRead();
 
-        var player = new SoundPlayer(audioStream);
-        player.PlaySync();
+        //var player = new SoundPlayer(audioStream);
+        //player.PlaySync();
 
     }
     public static newStep Parse(string s, IFormatProvider? provider)

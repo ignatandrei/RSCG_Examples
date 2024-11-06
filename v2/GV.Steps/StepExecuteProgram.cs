@@ -1,4 +1,6 @@
-﻿namespace GeneratorVideo;
+﻿using System.Diagnostics;
+
+namespace  GV.Steps;
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 
 internal record StepExecuteProgram(string text, string value) : newStep(text, value)

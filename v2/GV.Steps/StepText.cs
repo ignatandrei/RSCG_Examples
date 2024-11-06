@@ -1,8 +1,4 @@
-﻿using Windows.Media.SpeechSynthesis;
-using System.IO;
-using System.Media;
-
-namespace GeneratorVideo;
+﻿namespace GV.Steps;
 internal record StepText(string text, string value) : newStep(text, value)
 {
     public override void InitDefaults()

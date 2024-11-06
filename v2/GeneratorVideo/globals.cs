@@ -1,13 +1,4 @@
 ﻿global using System.Text.Json;
-global using System.Diagnostics;
-//global using System.Speech.Synthesis;
-global using System.Diagnostics.CodeAnalysis;
 global using GeneratorVideo;
-global using System.Text.Json.Serialization;
 global using System.IO;
-global using System.Drawing;
-global using System.Text.Json.Serialization.Metadata;
-global using System.Windows.Media;
-global using Windows.Media.AppBroadcasting;
-global using WindowsInput;
-global using WindowsInput.Native;
+global using GV.Steps;

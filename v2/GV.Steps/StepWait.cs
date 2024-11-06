@@ -1,4 +1,4 @@
-﻿namespace GeneratorVideo;
+﻿namespace  GV.Steps;
 internal record StepWaitSeconds(string text,string value): newStep(text, value)
 {
     public override async Task Execute()

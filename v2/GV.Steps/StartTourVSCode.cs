@@ -1,5 +1,10 @@
-﻿namespace GeneratorVideo;
-internal record StartTourVSCode(string text, string value) : newStep(text,value)
+﻿using System.Text.Json;
+using WindowsInput.Native;
+using WindowsInput;
+
+namespace GV.Steps;
+
+internal record StartTourVSCode(string text, string value) : newStep(text, value)
 {
     public override void InitDefaults()
     {
@@ -8,13 +13,13 @@ internal record StartTourVSCode(string text, string value) : newStep(text,value)
     public override async Task Execute()
     {
         ArgumentNullException.ThrowIfNullOrWhiteSpace(base.OriginalFileNameFromWhereTheStepIsComing);
-        var folderWithTours = Path.Combine(Path.GetDirectoryName(base.OriginalFileNameFromWhereTheStepIsComing)!, value);        
+        var folderWithTours = Path.Combine(Path.GetDirectoryName(base.OriginalFileNameFromWhereTheStepIsComing)!, value);
         var tourFiles = Directory.GetFiles(folderWithTours, "*.tour");
         if (tourFiles.Length != 1)
         {
             throw new FileNotFoundException("must found 1 file in " + folderWithTours);
         }
-        var tourData= await File.ReadAllTextAsync(tourFiles[0]);
+        var tourData = await File.ReadAllTextAsync(tourFiles[0]);
         var data = JsonDocument.Parse(tourData);
         var steps = data.RootElement.GetProperty("steps");
         var nrSteps = steps.GetArrayLength();
@@ -30,11 +35,11 @@ internal record StartTourVSCode(string text, string value) : newStep(text,value)
         await ExecuteInVSCodeCommand(inputSimulator, "CodeTour:Start Tour");
         await Task.Delay(5000);
         Console.WriteLine("nr steps " + nrSteps);
-        for (var i = 0; i < nrSteps-1; i++)
+        for (var i = 0; i < nrSteps - 1; i++)
         {
             Console.WriteLine($"step {i} / {nrSteps} ");
             await NextTourStep(inputSimulator);
-            Console.ReadLine();            
+            Console.ReadLine();
         }
 
         //await ExecuteInVSCodeCommand(inputSimulator, "Explorer: focus on CodeTour View");
@@ -59,7 +64,7 @@ internal record StartTourVSCode(string text, string value) : newStep(text,value)
         inputSimulator.Keyboard.KeyUp(VirtualKeyCode.CONTROL);
         return true;
     }
-    private async Task<bool> ExecuteInVSCodeCommand(InputSimulator inputSimulator,  string text)
+    private async Task<bool> ExecuteInVSCodeCommand(InputSimulator inputSimulator, string text)
     {
         inputSimulator.Keyboard.KeyDown(VirtualKeyCode.CONTROL);
         inputSimulator.Keyboard.KeyDown(VirtualKeyCode.SHIFT);
@@ -76,6 +81,6 @@ internal record StartTourVSCode(string text, string value) : newStep(text,value)
 
     public override void Dispose()
     {
-        
+
     }
 }

@@ -1,9 +1,10 @@
-﻿using System.Drawing;
+﻿using System.Diagnostics;
+using System.Drawing;
 using System.Runtime.InteropServices;
 using WindowsInput;
 using WindowsInput.Native;
 
-namespace GeneratorVideo;
+namespace  GV.Steps;
 
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 internal record StepBrowser(string text, string value) : newStep(text,value)

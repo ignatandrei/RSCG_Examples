@@ -1,8 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using Windows.Graphics.Display;
-using WindowsInput;
-using WindowsInput.Native;
-namespace GeneratorVideo;
+﻿namespace GV.Steps;
 
 internal record StartProjectVSCode(string text, string value) : newStep(text, value)
 {
@@ -16,7 +12,7 @@ internal record StartProjectVSCode(string text, string value) : newStep(text, va
     public override async Task Execute()
     {
         InputSimulator inputSimulator = new InputSimulator();
-        StepText stepText = new ("text_1_text", "We will have a new clean terminal slate");
+        StepText stepText = new("text_1_text", "We will have a new clean terminal slate");
         await stepText.Execute();
         await ExecuteInVSCodeCommand(inputSimulator, "Terminal: Kill All Terminals");
         await Task.Delay(1000);
@@ -54,8 +50,8 @@ internal record StartProjectVSCode(string text, string value) : newStep(text, va
 
     public enum SystemMetric
     {
-        SM_CXSCREEN=0,
-        SM_CYSCREEN=1,
+        SM_CXSCREEN = 0,
+        SM_CYSCREEN = 1,
         VirtualScreenWidth = 78, // CXVIRTUALSCREEN 0x0000004E 
         VirtualScreenHeight = 79, // CYVIRTUALSCREEN 0x0000004F 
     }

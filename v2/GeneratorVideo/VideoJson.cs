@@ -14,11 +14,12 @@ internal class VideoJson
         var data = JsonSerializer.Deserialize<VideoJson>(json, opt);
         if (data == null) return null;
         List<newStep> steps = new List<newStep>();
-
+        var esc = GV.Steps.newStep.esc;
         for(var i = 0; i < data.steps.Length; i++)
         {
             var step = data.steps[i];
-            var newStep= GeneratorVideo.newStep.Parse("step_"+ i + "_"+step.typeStep + GeneratorVideo.newStep.esc + step.arg, null);
+            var newStep= GV.Steps.newStep.Parse("step_"+ i + "_"+step.typeStep + esc + step.arg, null);
+            if (newStep == null) continue;
             newStep.OriginalFileNameFromWhereTheStepIsComing = fileName;
             newStep.DurationSeconds = step.DurationSeconds;
             newStep.SpeakTest = step.SpeakTest;

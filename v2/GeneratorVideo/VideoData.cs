@@ -1,4 +1,6 @@
-﻿namespace GeneratorVideo;
+﻿using WindowsInput;
+
+namespace GeneratorVideo;
 [System.Runtime.Versioning.SupportedOSPlatform("windows")]
 
 internal class VideoData:IDisposable
