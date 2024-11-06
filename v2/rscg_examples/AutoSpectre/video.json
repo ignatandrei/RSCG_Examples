@@ -17,11 +17,11 @@
 {"typeStep":"text","arg":"Here is the code downloaded "},
 {"typeStep":"exec","arg":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoSpectre\\src\\ReadData.sln"},
 {"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
-{"typeStep":"exec","arg": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoSpectre\\src"},
+{"typeStep":"stepvscode","arg": "-n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoSpectre\\src"},
 
 {"typeStep":"text","arg": "To use it ,you will put the Nuget AutoSpectre.SourceGeneration into the csproj "},
 
-{"typeStep":"exec","arg": "C:\\Users\\ignat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe -r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoSpectre\\src\\ReadData\\ReadData.csproj"},
+{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\AutoSpectre\\src\\ReadData\\ReadData.csproj"},
 
 {"typeStep":"text","arg": "And now I will show you an example of using AutoSpectre.SourceGeneration"},
 
