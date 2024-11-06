@@ -6,9 +6,10 @@ internal record StepHide(string text, string value) : newStep(text, value)
     {
     }
 
-    public override void InitDefaults()
+    public override Task<bool> InitDefaults()
     {
         this.SpeakTest = "";
+        return Task.FromResult(true);
     }
 
     public override Task Execute()

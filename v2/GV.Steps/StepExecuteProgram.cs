@@ -17,7 +17,7 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
 
     }
     string program = "", args = "";
-    public override void InitDefaults()
+    public override Task<bool> InitDefaults()
     {
 
         var whereExe = value.IndexOf(".exe");
@@ -35,6 +35,7 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
         }
 
         this.SpeakTest = "I am starting " + program;
+        return Task.FromResult(true);
     }
     public override Task Execute()
     {

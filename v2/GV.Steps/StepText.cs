@@ -1,9 +1,10 @@
 ﻿namespace GV.Steps;
 internal record StepText(string text, string value) : newStep(text, value)
 {
-    public override void InitDefaults()
+    public override Task<bool> InitDefaults()
     {
         this.SpeakTest = value;
+        return Task.FromResult(true);
     }
     public override void Dispose()
     {

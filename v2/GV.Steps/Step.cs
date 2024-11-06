@@ -9,14 +9,14 @@ public class Step
     public long DurationSeconds { get; set; } = 0;
     public string SpeakTest { get; set; }=string.Empty;
 }
-    [System.Runtime.Versioning.SupportedOSPlatform("windows")]
+[System.Runtime.Versioning.SupportedOSPlatform("windows")]
 public abstract record newStep(string typeScript, string arg):IParsable<newStep>, IDisposable
 {
     public string? OriginalFileNameFromWhereTheStepIsComing;
     public const string esc = "\u001B";
     public int Number { get; set; }
     public abstract Task Execute();
-    public abstract void InitDefaults();
+    public abstract Task<bool> InitDefaults();
     public string Description => this.GetType().Name + " " + typeScript + " " + arg;
 
     public long DurationSeconds { get; set; }
@@ -83,6 +83,10 @@ public abstract record newStep(string typeScript, string arg):IParsable<newStep>
             case "waitseconds":
                 result = new StepWaitSeconds(split[0], split[1]);
                 break;
+            case "stepvscode":
+                result = new StepVSCode(split[0], split[1]);
+                break;
+
             default:
                 return false;
         }

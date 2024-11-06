@@ -28,11 +28,11 @@
 {"typeStep":"text","arg":"Here is the code downloaded "},
 {"typeStep":"exec","arg":"explorer.exe /select,@Model.Data!.outputFiles!.fullPathToSln!.Replace("\\","\\\\")"},
 {"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
-{"typeStep":"exec","arg": "@code -n @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")"},
+{"typeStep":"stepvscode","arg": "-n @Model.Data!.outputFiles!.FolderWithSln!.Replace("\\", "\\\\")"},
 
 {"typeStep":"text","arg": "To use it ,you will put the Nuget @generator.NameNugetFirst() into the csproj "},
 
-{"typeStep":"exec","arg": "@code -r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")"},
+{"typeStep":"stepvscode","arg": "-r -g @Model.Data!.outputFiles!.fullPathToCsproj!.Replace("\\", "\\\\")"},
 
 {"typeStep":"text","arg": "And now I will show you an example of using @generator.NameNugetFirst()"},
 

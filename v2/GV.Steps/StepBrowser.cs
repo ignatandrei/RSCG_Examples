@@ -24,9 +24,10 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
         }
             
     }
-    public override void InitDefaults()
+    public override Task<bool> InitDefaults()
     {
         this.SpeakTest = "I am launching browser with "+ value ;
+        return Task.FromResult(true);
     }
 
     public override async Task Execute()
