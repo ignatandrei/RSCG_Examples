@@ -42,15 +42,16 @@ foreach (string folder in folders)
 
     try
     {
+        Console.WriteLine($"executing {file}");
         using var v = new VideoData(file);
         var res=await v.Analyze();
         Console.WriteLine($"analysis successfull {res} , steps : {v.NrSteps()}");
         Console.WriteLine(await v.ExecuteToDetermineDuration());
-        //Console.ReadLine(); 
+        return; 
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"Error in {file} : {ex.Message}");
+        Console.WriteLine($"Error in {file} : {ex.Message} {ex.StackTrace}");
         //break;
     }
     

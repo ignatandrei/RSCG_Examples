@@ -14,7 +14,7 @@ internal class VideoJson
         var data = JsonSerializer.Deserialize<VideoJson>(json, opt);
         if (data == null) return null;
         List<newStep> steps = new List<newStep>();
-        var esc = GV.Steps.newStep.esc;
+        var esc = GV.Steps.newStep.esc; 
         for(var i = 0; i < data.steps.Length; i++)
         {
             var step = data.steps[i];
@@ -24,6 +24,7 @@ internal class VideoJson
             newStep.DurationSeconds = step.DurationSeconds;
             newStep.SpeakTest = step.SpeakTest;
             newStep.Number = (i+1);
+            await newStep.InitDefaults();
             steps.Add(newStep);
         }
         data.realSteps= steps.ToArray();

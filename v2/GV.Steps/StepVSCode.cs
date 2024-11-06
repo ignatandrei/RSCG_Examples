@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System.ComponentModel;
+using System.Diagnostics;
 
 namespace GV.Steps;
 
@@ -9,12 +10,29 @@ internal record StepVSCode(string text, string value) : newStep(text, value)
     string location = String.Empty;
     public override void Dispose()
     {
-        throw new NotImplementedException();
+        if (process != null)
+        {
+            process.Dispose();
+            process = null;
+        }
     }
 
     public override Task Execute()
     {
-        process = Process.Start(location, value);
+        try
+        {
+            process = Process.Start(location, value);
+        }
+        catch(Win32Exception) {
+            location = location + ".cmd";
+            try
+            {
+                process = Process.Start(location, value);
+                return Task.CompletedTask;
+            }
+            catch { }
+            throw;
+        }
         return Task.CompletedTask;
 
     }
@@ -33,8 +51,10 @@ internal record StepVSCode(string text, string value) : newStep(text, value)
         psi.UseShellExecute = false;
         psi.CreateNoWindow = true;
         psi.Arguments = exe;
+        psi.RedirectStandardOutput = true;
         var p = new Process();
         p.StartInfo = psi;
+        
         p.Start();
 
         await p.WaitForExitAsync();
