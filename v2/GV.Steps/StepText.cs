@@ -14,7 +14,7 @@ internal record StepText(string text, string value) : newStep(text, value)
     {
         await Task.Delay(1000);
         Console.WriteLine(value);
-        await Talk(true);        
+        //await Talk(true);        
         return;
     }
 }

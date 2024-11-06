@@ -24,12 +24,31 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
         }
             
     }
-    public override Task<bool> InitDefaults()
+    public override async Task<bool> InitDefaults()
     {
-        this.SpeakTest = "I am launching browser with "+ value ;
-        return Task.FromResult(true);
+        string Title = await GetPageTitle();
+        this.SpeakTest = "I am launching browser to the page "+ Title;
+        return true;
     }
+    static HttpClient client = new();
+    private async Task<string> GetPageTitle()
+    {
+        var req= await client.GetAsync(value);
+        req.EnsureSuccessStatusCode();
+        var content = await req.Content.ReadAsStringAsync();
+        var start = content.IndexOf("<title") + 4;
+        var end = content.IndexOf("</title>");
+        content= content.Substring(start, end - start);
+        while(!content.StartsWith(">"))
+            content = content.Substring(1);
+        content= content.Substring(1);
+        start = content.IndexOf("|");
+        
+        if (start > 0)
+            content = content.Substring(0, start).Trim();
 
+        return content;
+    }
     internal override async Task Execute()
     {
         await Task.Delay(1000);
