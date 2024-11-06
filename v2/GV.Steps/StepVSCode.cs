@@ -17,7 +17,7 @@ internal record StepVSCode(string text, string value) : newStep(text, value)
         }
     }
 
-    public override Task Execute()
+    internal override Task Execute()
     {
         try
         {

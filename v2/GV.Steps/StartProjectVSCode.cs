@@ -10,7 +10,7 @@ internal record StartProjectVSCode(string text, string value) : newStep(text, va
         SpeakTest = "I am launching now the project " + value;
         return Task.FromResult( true);
     }
-    public override async Task Execute()
+    internal override async Task Execute()
     {
         InputSimulator inputSimulator = new InputSimulator();
         StepText stepText = new("text_1_text", "We will have a new clean terminal slate");

@@ -19,7 +19,7 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
     {
         if(process != null) {
             Console.WriteLine("disposing " + process.Id);
-            process.Kill();
+            process.Kill(true);
             process.Dispose();
         }
             
@@ -30,7 +30,7 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
         return Task.FromResult(true);
     }
 
-    public override async Task Execute()
+    internal override async Task Execute()
     {
         await Task.Delay(1000);
         string program = "explorer.exe", args = value;

@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
+using System.Speech.Synthesis;
 
 namespace GV.Steps;
 
@@ -15,7 +16,11 @@ public abstract record newStep(string typeScript, string arg):IParsable<newStep>
     public string? OriginalFileNameFromWhereTheStepIsComing;
     public const string esc = "\u001B";
     public int Number { get; set; }
-    public abstract Task Execute();
+    internal abstract Task Execute();
+    public async Task ExecuteAndSpeak()
+    {
+        await Task.WhenAll(Talk(true), Execute());
+    }
     public abstract Task<bool> InitDefaults();
     public string Description => this.GetType().Name + " " + typeScript + " " + arg;
 
@@ -29,16 +34,14 @@ public abstract record newStep(string typeScript, string arg):IParsable<newStep>
         }
         if(string.IsNullOrWhiteSpace(SpeakTest))
             return;
-        //using SpeechSynthesizer synth = new();
+        using SpeechSynthesizer synth = new();
 
-        //var stream = await synth.SynthesizeTextToStreamAsync(SpeakTest);
-
-
-        //using var audioStream = stream.AsStreamForRead();
-
-        //var player = new SoundPlayer(audioStream);
-        //player.PlaySync();
-
+        var stream = synth.SpeakAsync(SpeakTest);
+        while(!stream.IsCompleted)
+        {
+            await Task.Delay(1000);
+        }
+        
     }
     public static newStep Parse(string s, IFormatProvider? provider)
     {

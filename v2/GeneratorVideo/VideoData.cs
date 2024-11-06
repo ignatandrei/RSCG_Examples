@@ -42,17 +42,17 @@ internal class VideoData:IDisposable
                 var step = execSteps[iStep];
                 Console.WriteLine($"executing {step.GetType().Name} {step.Number} /{nr}");// + "=>" + step.value);
                 var now = DateTime.Now;                                                                        // 
-                await step.Execute();
+                await step.ExecuteAndSpeak();
                 var DurationSeconds = DateTime.Now.Subtract(now).TotalSeconds;
                 step.DurationSeconds= (long)DurationSeconds;
                 Duration += step.DurationSeconds;
-                if (iStep <= nr - 1)
+                if (iStep == nr - 1)
                 {
-                    Console.WriteLine("========>next step " + execSteps[iStep + 1].Description);
+                    Console.WriteLine("no next step");
                 }
                 else
                 {
-                    Console.WriteLine("no next step");
+                    Console.WriteLine("========>next step " + execSteps[iStep + 1].Description);
                 }
                 //Console.ReadLine();
                 await Task.Delay(2000);
@@ -60,7 +60,7 @@ internal class VideoData:IDisposable
             }
             catch (Exception ex) 
             {
-                Console.WriteLine("Error :" + ex.Message);
+                Console.WriteLine("Error :" + ex.Message +"==>"+ ex.StackTrace);
                 return false;
             }
         }
@@ -74,7 +74,8 @@ internal class VideoData:IDisposable
         {
             try {
                 Console.WriteLine("disposing " + step.Number);
-                step.Dispose(); }
+                step.Dispose(); 
+            }
             catch
             {
                 Console.WriteLine("Error in dispose");

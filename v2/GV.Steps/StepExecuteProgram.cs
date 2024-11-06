@@ -11,7 +11,7 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
         if (process != null)
         {
             Console.WriteLine("disposing " + process.Id);
-            process.Kill();
+            process.Kill(true);
             process.Dispose();
         }
 
@@ -37,7 +37,7 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
         this.SpeakTest = "I am starting " + program;
         return Task.FromResult(true);
     }
-    public override Task Execute()
+    internal override Task Execute()
     {
         Console.WriteLine($"start program {program} with args {args}");
         process=Process.Start(program, args);

@@ -6,7 +6,7 @@ internal record StartTourVSCode(string text, string value) : newStep(text, value
         this.SpeakTest = "I am now going to show you the more relevant codes ";
         return Task.FromResult(true);
     }
-    public override async Task Execute()
+    internal override async Task Execute()
     {
         ArgumentNullException.ThrowIfNullOrWhiteSpace(base.OriginalFileNameFromWhereTheStepIsComing);
         var folderWithTours = Path.Combine(Path.GetDirectoryName(base.OriginalFileNameFromWhereTheStepIsComing)!, value);

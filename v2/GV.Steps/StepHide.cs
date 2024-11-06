@@ -12,7 +12,7 @@ internal record StepHide(string text, string value) : newStep(text, value)
         return Task.FromResult(true);
     }
 
-    public override Task Execute()
+    internal override Task Execute()
     {
         return Task.CompletedTask;
     }
