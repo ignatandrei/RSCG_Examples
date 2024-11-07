@@ -25,7 +25,7 @@ public abstract record newStep(string typeScript, string arg):IParsable<newStep>
     public string Description => this.GetType().Name + " " + typeScript + " " + arg;
 
     public long DurationSeconds { get; set; }
-    public string SpeakTest { get; set; } = string.Empty;
+    public string? SpeakTest { get; set; } = null;
     internal async Task Talk(bool speak)
     {
         if (!speak)

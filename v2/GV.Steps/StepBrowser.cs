@@ -27,7 +27,7 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
     public override async Task<bool> InitDefaults()
     {
         string Title = await GetPageTitle();
-        this.SpeakTest = "Now I will show you "+ Title;
+        this.SpeakTest ??= "Now I will show you "+ Title;
         return true;
     }
     static HttpClient client = new();

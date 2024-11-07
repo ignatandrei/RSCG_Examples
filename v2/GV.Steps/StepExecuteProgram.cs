@@ -34,7 +34,7 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
             args = string.Join(' ', data.Where((_, i) => i > 0).ToArray());
         }
         string nameProgram = Path.GetFileNameWithoutExtension(program);
-        this.SpeakTest = "I am starting " + nameProgram;
+        this.SpeakTest ??= "I am starting " + nameProgram;
         return Task.FromResult(true);
     }
     internal override Task Execute()

@@ -65,7 +65,7 @@ internal class VideoData:IDisposable
                 return false;
             }
         }
-        Console.WriteLine($"Duration Seconds={Duration}");
+        Console.WriteLine($"Duration Minutes={Duration/60}");
         return true;
     }
     public void Dispose()

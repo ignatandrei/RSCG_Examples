@@ -7,7 +7,7 @@ internal record StartProjectVSCode(string text, string value) : newStep(text, va
     }
     public override Task<bool> InitDefaults()
     {
-        SpeakTest = "I am launching now the project " + value;
+        SpeakTest ??= "I am launching now the project " + value;
         return Task.FromResult( true);
     }
     internal override async Task Execute()

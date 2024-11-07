@@ -11,7 +11,7 @@ internal record StepWaitSeconds(string text,string value): newStep(text, value)
     }
     public override Task<bool> InitDefaults()
     {
-        this.SpeakTest = "";
+        this.SpeakTest ??= "";
         return Task.FromResult(true);
     }
 }

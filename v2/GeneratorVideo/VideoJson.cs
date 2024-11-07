@@ -22,7 +22,7 @@ internal class VideoJson
             if (newStep == null) continue;
             newStep.OriginalFileNameFromWhereTheStepIsComing = fileName;
             newStep.DurationSeconds = step.DurationSeconds;
-            newStep.SpeakTest = step.SpeakTest;
+            newStep.SpeakTest ??= step.SpeakTest;
             newStep.Number = (i+1);
             await newStep.InitDefaults();
             steps.Add(newStep);

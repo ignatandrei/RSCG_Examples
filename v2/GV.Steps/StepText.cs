@@ -3,7 +3,7 @@ internal record StepText(string text, string value) : newStep(text, value)
 {
     public override Task<bool> InitDefaults()
     {
-        this.SpeakTest = value;
+        this.SpeakTest ??= value;
         return Task.FromResult(true);
     }
     public override void Dispose()
