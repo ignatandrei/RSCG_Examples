@@ -34,6 +34,7 @@ public abstract record newStep(string typeScript, string arg):IParsable<newStep>
         }
         if(string.IsNullOrWhiteSpace(SpeakTest))
             return;
+        Console.WriteLine("TALK:"+SpeakTest);
         using SpeechSynthesizer synth = new();
 
         var stream = synth.SpeakAsync(SpeakTest);

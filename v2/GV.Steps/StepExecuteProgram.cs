@@ -10,7 +10,7 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
     {
         if (process != null)
         {
-            Console.WriteLine("disposing " + process.Id);
+            //Console.WriteLine("disposing " + process.Id);
             process.Kill(true);
             process.Dispose();
         }
@@ -33,8 +33,8 @@ internal record StepExecuteProgram(string text, string value) : newStep(text, va
             program = data[0];
             args = string.Join(' ', data.Where((_, i) => i > 0).ToArray());
         }
-
-        this.SpeakTest = "I am starting " + program;
+        string nameProgram = Path.GetFileNameWithoutExtension(program);
+        this.SpeakTest = "I am starting " + nameProgram;
         return Task.FromResult(true);
     }
     internal override Task Execute()

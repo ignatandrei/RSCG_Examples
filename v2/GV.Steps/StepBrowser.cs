@@ -18,7 +18,7 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
     public override void Dispose()
     {
         if(process != null) {
-            Console.WriteLine("disposing " + process.Id);
+            //Console.WriteLine("disposing " + process.Id);
             process.Kill(true);
             process.Dispose();
         }
@@ -27,7 +27,7 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
     public override async Task<bool> InitDefaults()
     {
         string Title = await GetPageTitle();
-        this.SpeakTest = "I am launching browser to the page "+ Title;
+        this.SpeakTest = "Now I will show you "+ Title;
         return true;
     }
     static HttpClient client = new();
@@ -45,7 +45,7 @@ internal record StepBrowser(string text, string value) : newStep(text,value)
         start = content.IndexOf("|");
         
         if (start > 0)
-            content = content.Substring(0, start).Trim();
+            content = content.Substring(start+1).Trim();
 
         return content;
     }

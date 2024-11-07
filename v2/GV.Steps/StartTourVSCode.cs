@@ -35,6 +35,7 @@ internal record StartTourVSCode(string text, string value) : newStep(text, value
         {
             Console.WriteLine($"step {i+1} / {nrSteps} ");
             await NextTourStep(inputSimulator);
+            await Task.Delay(10_000);
             //Console.ReadLine();
         }
 

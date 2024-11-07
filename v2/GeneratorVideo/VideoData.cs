@@ -45,6 +45,7 @@ internal class VideoData:IDisposable
                 await step.ExecuteAndSpeak();
                 var DurationSeconds = DateTime.Now.Subtract(now).TotalSeconds;
                 step.DurationSeconds= (long)DurationSeconds;
+                Console.WriteLine("Duration:" + step.DurationSeconds);
                 Duration += step.DurationSeconds;
                 if (iStep == nr - 1)
                 {
@@ -73,7 +74,7 @@ internal class VideoData:IDisposable
         foreach (var step in vdata.realSteps)
         {
             try {
-                Console.WriteLine("disposing " + step.Number);
+                //Console.WriteLine("disposing " + step.Number);
                 step.Dispose(); 
             }
             catch
