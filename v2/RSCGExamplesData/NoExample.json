@@ -830,16 +830,5 @@
     "name":"laker https://github.com/Lakerfield/Lakerfield.Rpc",
     "why":"later"
   }
-  ,
-  {
-    "ID":176,
-    "name":"embed https://github.com/datacute/EmbeddedResourcePropertyGenerator",
-    "why":"issue opened"
-  },
-  {
-    "ID":177,
-    "name":"https://github.com/datacute/EmbeddedResourcePropertyGenerator",
-    "why":"later"
-  }
   
 ]

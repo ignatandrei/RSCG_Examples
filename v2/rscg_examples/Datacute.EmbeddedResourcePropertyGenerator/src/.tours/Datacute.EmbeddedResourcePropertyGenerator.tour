@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Datacute.EmbeddedResourcePropertyGenerator",
+  "steps": 
+  [
+    {
+      "file": "EmbedDemo/EmbedDemo.csproj",
+      "description": "First, we add Nuget  [Datacute.EmbeddedResourcePropertyGenerator](https://www.nuget.org/packages/Datacute.EmbeddedResourcePropertyGenerator/) in csproj  ",
+      "pattern": "Datacute.EmbeddedResourcePropertyGenerator"
+    }
+
+        ,{
+        "file": "EmbedDemo/TestData/Countries.txt",
+        "description": "File Countries.txt  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/TestData.cs",
+        "description": "File TestData.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EmbedDemo/EmbedDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EmbedDemo/obj/GX/Datacute.EmbeddedResourcePropertyGenerator/Datacute.EmbeddedResourcePropertyGenerator.Generator/EmbedDemo.TestData.g.cs",
+        "description": "Generated File 1  from 1 : EmbedDemo.TestData.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

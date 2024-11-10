@@ -1,6 +1,6 @@
-# RSCG - 165 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 166 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-11-02 => 02 November 2024
+## Latest Update : 2024-11-03 => 03 November 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 165 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 166 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 166. [Datacute.EmbeddedResourcePropertyGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Datacute.EmbeddedResourcePropertyGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2024-11-03 => 03 November 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Stephen Denne
+
+This project generates properties for embedded resources in a project. 
+
+Nuget: [https://www.nuget.org/packages/Datacute.EmbeddedResourcePropertyGenerator/](https://www.nuget.org/packages/Datacute.EmbeddedResourcePropertyGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Datacute.EmbeddedResourcePropertyGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Datacute.EmbeddedResourcePropertyGenerator)
+
+Source: [https://github.com/datacute/EmbeddedResourcePropertyGenerator/](https://github.com/datacute/EmbeddedResourcePropertyGenerator/)
+
+</details>
+
 ### 165. [rscg_queryables](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_queryables) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
 
 Generated on : 2024-11-02 => 02 November 2024
