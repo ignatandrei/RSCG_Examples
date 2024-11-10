@@ -163,3 +163,4 @@ Nr,Key,Source,Category
 162,MinimalHelpers.Routing.Analyzers, https://github.com/marcominerva/MinimalHelpers,API
 163,TypedSignalR.Client, https://github.com/nenoNaninu/TypedSignalR.Client,SignalR
 164,RazorSlices, https://github.com/DamianEdwards/RazorSlices,Templating
+165,rscg_queryables, https://github.com/ignatandrei/rscg_queryables,FunctionalProgramming

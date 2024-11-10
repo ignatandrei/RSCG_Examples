@@ -9,7 +9,7 @@
       "source":"https://github.com/DamianEdwards/RazorSlices"
    },
    "data":{
-      "goodFor":["Generating html from razor templates. Attention: generates IHttpResult, not html string."],
+      "goodFor":["Generating html from razor templates. Attention, generates IHttpResult, not html string."],
       "csprojDemo":"RazorDemoSlices.csproj",
       "csFiles":["Program.cs","PersonHTML.cshtml","Person.cs"],
       "excludeDirectoryGenerated":[""],

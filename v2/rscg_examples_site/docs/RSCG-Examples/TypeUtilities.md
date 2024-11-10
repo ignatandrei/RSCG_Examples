@@ -365,7 +365,7 @@ public partial class Person2
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypeUtilities
 
-### In the same category (FunctionalProgramming) - 12 other generators
+### In the same category (FunctionalProgramming) - 13 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -390,6 +390,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypeUtilities
 
 
 #### [PartiallyApplied](/docs/PartiallyApplied)
+
+
+#### [rscg_queryables](/docs/rscg_queryables)
 
 
 #### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
