@@ -3,7 +3,7 @@
     "steps":
 [
     {"typeStep":"exec","arg":"clipchamp.exe launch"},
-    {"typeStep":"text","arg": "Welcome to Roslyn Examples - the introduction is automatically generated"},
+    {"typeStep":"text","arg": "Welcome to Roslyn Examples"},
     {"typeStep":"text","arg":"If you want to see more examples , see  List Of RSCG"},
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
@@ -32,7 +32,8 @@
 {"typeStep":"text","arg":" This concludes the project"},
 {"typeStep":"waitseconds","arg":"30"},
 {"typeStep":"text","arg": "Remember, you can download the code from here"},
-{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy#download-example-net--c-"},
-
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy#download-example-net--c-",
+SpeakTest=" "},
+{"typeStep":"waitseconds","arg":"30"},
 ]
 }
