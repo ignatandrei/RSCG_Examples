@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Datacute.EmbeddedResourcePropertyGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Datacute.EmbeddedResourcePropertyGenerator/"
+      ],
+      "link":"https://github.com/datacute/EmbeddedResourcePropertyGenerator/",
+      "author":"Stephen Denne",
+      "source":"https://github.com/datacute/EmbeddedResourcePropertyGenerator/"
+   },
+   "data":{
+      "goodFor":["Generating class to access easy the embedded resource"],
+      "csprojDemo":"EmbedDemo.csproj",
+      "csFiles":["Program.cs","TestData.cs","Countries.txt"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

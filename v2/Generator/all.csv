@@ -164,3 +164,4 @@ Nr,Key,Source,Category
 163,TypedSignalR.Client, https://github.com/nenoNaninu/TypedSignalR.Client,SignalR
 164,RazorSlices, https://github.com/DamianEdwards/RazorSlices,Templating
 165,rscg_queryables, https://github.com/ignatandrei/rscg_queryables,FunctionalProgramming
+166,Datacute.EmbeddedResourcePropertyGenerator, https://github.com/datacute/EmbeddedResourcePropertyGenerator/,FilesToCode

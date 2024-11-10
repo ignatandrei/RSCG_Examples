@@ -1321,6 +1321,14 @@
       "Source": "https://github.com/ignatandrei/rscg_queryables",
       "Category": "FunctionalProgramming",
       "AddedOn": "2024-11-02T00:00:00"
+    },
+    {
+      "Name": "Datacute.EmbeddedResourcePropertyGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Datacute.EmbeddedResourcePropertyGenerator",
+      "NuGet": "https://www.nuget.org/packages/Datacute.EmbeddedResourcePropertyGenerator/",
+      "Source": "https://github.com/datacute/EmbeddedResourcePropertyGenerator/",
+      "Category": "FilesToCode",
+      "AddedOn": "2024-11-03T00:00:00"
     }
   ]
 }
