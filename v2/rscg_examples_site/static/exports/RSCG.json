@@ -1313,6 +1313,14 @@
       "Source": "https://github.com/DamianEdwards/RazorSlices",
       "Category": "Templating",
       "AddedOn": "2024-10-27T00:00:00"
+    },
+    {
+      "Name": "rscg_queryables",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_queryables",
+      "NuGet": "https://www.nuget.org/packages/rscg_queryables/",
+      "Source": "https://github.com/ignatandrei/rscg_queryables",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-11-02T00:00:00"
     }
   ]
 }

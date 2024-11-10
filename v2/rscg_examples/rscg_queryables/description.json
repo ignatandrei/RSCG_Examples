@@ -3,17 +3,17 @@
       "name":"rscg_queryables",
       "nuget":[
          "https://www.nuget.org/packages/rscg_queryables/",
-         "https://www.nuget.org/packages/rscg_queryablesCommon/",
+         "https://www.nuget.org/packages/rscg_queryablesCommon/"
          
       ],
       "link":"https://github.com/ignatandrei/rscg_queryables",
       "author":"Andrei Ignat",
-      "source":"https://github.com/ignatandrei/rscg_queryables",
+      "source":"https://github.com/ignatandrei/rscg_queryables"
    },
    "data":{
       "goodFor":["Generating code for .Where and .OrderBy by string, not by lambda"],
-      "csprojDemo":"rscg_queryablesDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"SortAndWhere.csproj",
+      "csFiles":["Program.cs","Student.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

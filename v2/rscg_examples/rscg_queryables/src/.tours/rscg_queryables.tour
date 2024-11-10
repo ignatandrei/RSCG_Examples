@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "rscg_queryables",
+  "steps": 
+  [
+    {
+      "file": "SortAndWhere/SortAndWhere.csproj",
+      "description": "First, we add Nuget  [rscg_queryables](https://www.nuget.org/packages/rscg_queryables/) in csproj  ",
+      "pattern": "rscg_queryables"
+    }
+
+        ,{
+        "file": "SortAndWhere/Student.cs",
+        "description": "File Student.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "SortAndWhere/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project SortAndWhere/SortAndWhere.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "SortAndWhere/obj/GX/rscg_queryables/rscg_queryables.GenerateWhere/SortAndWhere_Student_where.cs",
+        "description": "Generated File 2  from 2 : SortAndWhere_Student_where.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "SortAndWhere/obj/GX/rscg_queryables/rscg_queryables.GenerateOrderBy/SortAndWhere_Student_sortable.cs",
+        "description": "Generated File 1  from 2 : SortAndWhere_Student_sortable.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

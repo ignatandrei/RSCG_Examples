@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 164 RSCG list by category
-description: 164 RSCG list by category
+title: 165 RSCG list by category
+description: 165 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -623,7 +623,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:13</summary>
+  <summary>Expand FunctionalProgramming =>examples:14</summary>
         
 
 
@@ -688,6 +688,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Dusharp](/docs/Dusharp)
+
+        
+
+
+[rscg_queryables](/docs/rscg_queryables)
 
 </details>
     
@@ -1251,6 +1256,8 @@ flowchart LR;
     FunctionalProgramming--> Sera.Union((Sera.Union))
 
     FunctionalProgramming--> Dusharp((Dusharp))
+
+    FunctionalProgramming--> rscg_queryables((rscg_queryables))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 

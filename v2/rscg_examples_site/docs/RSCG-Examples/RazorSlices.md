@@ -252,7 +252,7 @@ The library is still new and features are being actively added.
 ### About
 :::note
 
-Generating html from razor templates. Attention: generates IHttpResult, not html string.
+Generating html from razor templates. Attention, generates IHttpResult, not html string.
 
 
 :::

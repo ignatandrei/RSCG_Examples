@@ -1,6 +1,6 @@
-# RSCG - 164 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 165 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-10-27 => 27 October 2024
+## Latest Update : 2024-11-02 => 02 November 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 164 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 165 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 165. [rscg_queryables](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_queryables) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2024-11-02 => 02 November 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Andrei Ignat
+
+Intercept method 
+
+Nuget: [https://www.nuget.org/packages/rscg_queryables/](https://www.nuget.org/packages/rscg_queryables/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_queryables](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_queryables)
+
+Source: [https://github.com/ignatandrei/rscg_queryables](https://github.com/ignatandrei/rscg_queryables)
+
+</details>
+
 ### 164. [RazorSlices](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RazorSlices) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
 
 Generated on : 2024-10-27 => 27 October 2024
