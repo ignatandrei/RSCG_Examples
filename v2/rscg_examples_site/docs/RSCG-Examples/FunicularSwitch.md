@@ -1175,7 +1175,7 @@ namespace FunicularSwitch.Generators
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch
 
-### In the same category (FunctionalProgramming) - 13 other generators
+### In the same category (FunctionalProgramming) - 14 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -1197,6 +1197,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/FunicularSwitch
 
 
 #### [PartiallyApplied](/docs/PartiallyApplied)
+
+
+#### [polytype](/docs/polytype)
 
 
 #### [rscg_queryables](/docs/rscg_queryables)

@@ -1,0 +1,72 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "polytype",
+  "steps": 
+  [
+    {
+      "file": "polytypeDemo/polytypeDemo.csproj",
+      "description": "First, we add Nuget  [polytype](https://www.nuget.org/packages/polytype/) in csproj  ",
+      "pattern": "polytype"
+    }
+
+        ,{
+        "file": "polytypeDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "polytypeDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project polytypeDemo/polytypeDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/GenerateShapeProvider.String.g.cs",
+        "description": "Generated File 7  from 7 : GenerateShapeProvider.String.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/GenerateShapeProvider.Person_Array.g.cs",
+        "description": "Generated File 6  from 7 : GenerateShapeProvider.Person_Array.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/GenerateShapeProvider.Person.g.cs",
+        "description": "Generated File 5  from 7 : GenerateShapeProvider.Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/GenerateShapeProvider.ITypeShapeProvider.g.cs",
+        "description": "Generated File 4  from 7 : GenerateShapeProvider.ITypeShapeProvider.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/GenerateShapeProvider.Int32.g.cs",
+        "description": "Generated File 3  from 7 : GenerateShapeProvider.Int32.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/GenerateShapeProvider.g.cs",
+        "description": "Generated File 2  from 7 : GenerateShapeProvider.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "polytypeDemo/obj/GX/PolyType.SourceGenerator/PolyType.SourceGenerator.TypeShapeIncrementalGenerator/ConsoleApp1.Person.ITypeShapeProviderOfT.g.cs",
+        "description": "Generated File 1  from 7 : ConsoleApp1.Person.ITypeShapeProviderOfT.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

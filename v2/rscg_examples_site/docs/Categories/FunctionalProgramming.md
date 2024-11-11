@@ -1,6 +1,6 @@
 <h1>FunctionalProgramming</h1>
 
-Number RSCG: 14
+Number RSCG: 15
 
    1 [cachesourcegenerator](/docs/cachesourcegenerator)
 
@@ -18,15 +18,17 @@ Number RSCG: 14
 
    8 [PartiallyApplied](/docs/PartiallyApplied)
 
-   9 [rscg_queryables](/docs/rscg_queryables)
+   9 [polytype](/docs/polytype)
 
-   10 [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
+   10 [rscg_queryables](/docs/rscg_queryables)
 
-   11 [Sera.Union](/docs/Sera.Union)
+   11 [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
 
-   12 [TypeUtilities](/docs/TypeUtilities)
+   12 [Sera.Union](/docs/Sera.Union)
 
-   13 [UnionGen](/docs/UnionGen)
+   13 [TypeUtilities](/docs/TypeUtilities)
 
-   14 [UnionsGenerator](/docs/UnionsGenerator)
+   14 [UnionGen](/docs/UnionGen)
+
+   15 [UnionsGenerator](/docs/UnionsGenerator)
     
