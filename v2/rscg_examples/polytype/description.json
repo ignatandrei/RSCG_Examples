@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"polytype",
+      "nuget":[
+         "https://www.nuget.org/packages/polytype/"
+      ],
+      "link":"https://github.com/eiriktsarpalis/PolyType",
+      "author":"Eirik Tsarpalis",
+      "source":"https://github.com/eiriktsarpalis/PolyType"
+   },
+   "data":{
+      "goodFor":["Generating shape like reflection from classes. See PolyType.Examples for more details"],
+      "csprojDemo":"polytypeDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
