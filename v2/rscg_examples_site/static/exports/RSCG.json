@@ -1329,6 +1329,14 @@
       "Source": "https://github.com/datacute/EmbeddedResourcePropertyGenerator/",
       "Category": "FilesToCode",
       "AddedOn": "2024-11-03T00:00:00"
+    },
+    {
+      "Name": "polytype",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/polytype",
+      "NuGet": "https://www.nuget.org/packages/polytype/",
+      "Source": "https://github.com/eiriktsarpalis/PolyType",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2024-11-04T00:00:00"
     }
   ]
 }

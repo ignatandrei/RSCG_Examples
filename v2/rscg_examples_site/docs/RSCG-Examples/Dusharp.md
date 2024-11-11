@@ -675,7 +675,7 @@ public partial struct ResultSave
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dusharp
 
-### In the same category (FunctionalProgramming) - 13 other generators
+### In the same category (FunctionalProgramming) - 14 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -697,6 +697,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dusharp
 
 
 #### [PartiallyApplied](/docs/PartiallyApplied)
+
+
+#### [polytype](/docs/polytype)
 
 
 #### [rscg_queryables](/docs/rscg_queryables)
