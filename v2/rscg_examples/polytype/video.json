@@ -15,13 +15,13 @@
 {"typeStep":"text","arg": "You can download the code from here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/polytype#download-example-net--c-"},
 {"typeStep":"text","arg":"Here is the code downloaded "},
-{"typeStep":"exec","arg":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\polytype\\src\\polytypeDemo\\polytypeDemo.sln"},
+{"typeStep":"exec","arg":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\polytype\\src\\polytypeDemo.sln"},
 {"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
-{"typeStep":"stepvscode","arg": "-n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\polytype\\src\\polytypeDemo"},
+{"typeStep":"stepvscode","arg": "-n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\polytype\\src"},
 
 {"typeStep":"text","arg": "To use it ,you will put the Nuget polytype into the csproj "},
 
-{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\polytype\\src\\polytypeDemo\\polytypeDemo\\polytypeDemo.csproj"},
+{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\polytype\\src\\polytypeDemo\\polytypeDemo.csproj"},
 
 {"typeStep":"text","arg": "And now I will show you an example of using polytype"},
 
