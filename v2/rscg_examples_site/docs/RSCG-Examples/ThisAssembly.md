@@ -602,7 +602,7 @@ partial class ThisAssembly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 
-### In the same category (EnhancementProject) - 16 other generators
+### In the same category (EnhancementProject) - 17 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -618,6 +618,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly
 
 
 #### [CommandLine](/docs/CommandLine)
+
+
+#### [Credfeto.Version.Information.Generator](/docs/Credfeto.Version.Information.Generator)
 
 
 #### [LinqGen.Generator](/docs/LinqGen.Generator)

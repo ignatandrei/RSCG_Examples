@@ -216,7 +216,7 @@ This is the CSharp Project that references **polytype**
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\Program.cs" label="Program.cs" >
 
   This is the use of **polytype** in *Program.cs*
 
@@ -244,7 +244,7 @@ Console.WriteLine(person.Childs[0]);
 ```
   </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\Person.cs" label="Person.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\Person.cs" label="Person.cs" >
 
   This is the use of **polytype** in *Person.cs*
 
@@ -276,7 +276,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\ConsoleApp1.Person.ITypeShapeProviderOfT.g.cs" label="ConsoleApp1.Person.ITypeShapeProviderOfT.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\ConsoleApp1.Person.ITypeShapeProviderOfT.g.cs" label="ConsoleApp1.Person.ITypeShapeProviderOfT.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -299,7 +299,7 @@ namespace ConsoleApp1
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.g.cs" label="GenerateShapeProvider.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.g.cs" label="GenerateShapeProvider.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -330,7 +330,7 @@ namespace PolyType.SourceGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.Int32.g.cs" label="GenerateShapeProvider.Int32.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.Int32.g.cs" label="GenerateShapeProvider.Int32.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -368,7 +368,7 @@ namespace PolyType.SourceGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.ITypeShapeProvider.g.cs" label="GenerateShapeProvider.ITypeShapeProvider.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.ITypeShapeProvider.g.cs" label="GenerateShapeProvider.ITypeShapeProvider.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -422,7 +422,7 @@ namespace PolyType.SourceGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.Person.g.cs" label="GenerateShapeProvider.Person.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.Person.g.cs" label="GenerateShapeProvider.Person.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -610,7 +610,7 @@ namespace PolyType.SourceGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.Person_Array.g.cs" label="GenerateShapeProvider.Person_Array.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.Person_Array.g.cs" label="GenerateShapeProvider.Person_Array.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -652,7 +652,7 @@ namespace PolyType.SourceGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.String.g.cs" label="GenerateShapeProvider.String.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\polytype\src\polytypeDemo\obj\GX\PolyType.SourceGenerator\PolyType.SourceGenerator.TypeShapeIncrementalGenerator\GenerateShapeProvider.String.g.cs" label="GenerateShapeProvider.String.g.cs" >
 
 
 ```csharp showLineNumbers 
