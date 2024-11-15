@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "GenPack",
+  "steps": 
+  [
+    {
+      "file": "Serializer/Serializer.csproj",
+      "description": "First, we add Nuget  [GenPack](https://www.nuget.org/packages/GenPack/) in csproj  ",
+      "pattern": "GenPack"
+    }
+
+        ,{
+        "file": "Serializer/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Serializer/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Serializer/Serializer.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Serializer/obj/GX/GenPack.SourceGenerator/GenPack.GenPackGenerator/PersonSchema.g.cs",
+        "description": "Generated File 1  from 1 : PersonSchema.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

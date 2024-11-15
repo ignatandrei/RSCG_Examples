@@ -1010,5 +1010,11 @@
     "Category": 1,
     "dtStart": "2024-11-05T00:00:00",
     "show": true
+  },
+  {
+    "ID":"GenPack",
+    "Category": 16,
+    "dtStart": "2024-11-06T00:00:00",
+    "show": true
   }
 ]

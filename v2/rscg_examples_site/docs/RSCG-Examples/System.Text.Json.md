@@ -767,7 +767,10 @@ namespace JsonSerializerOptionsExample
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.Json
 
-### In the same category (Serializer) - 3 other generators
+### In the same category (Serializer) - 4 other generators
+
+
+#### [GenPack](/docs/GenPack)
 
 
 #### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)

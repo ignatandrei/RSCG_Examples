@@ -1,12 +1,14 @@
 <h1>Serializer</h1>
 
-Number RSCG: 4
+Number RSCG: 5
 
-   1 [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+   1 [GenPack](/docs/GenPack)
 
-   2 [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
+   2 [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
 
-   3 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+   3 [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
-   4 [System.Text.Json](/docs/System.Text.Json)
+   4 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+
+   5 [System.Text.Json](/docs/System.Text.Json)
     

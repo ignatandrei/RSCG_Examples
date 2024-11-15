@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"GenPack",
+      "nuget":[
+         "https://www.nuget.org/packages/GenPack/"
+      ],
+      "link":"https://github.com/dimohy/GenPack",
+      "author":"dimohy",
+      "source":"https://github.com/dimohy/GenPack"
+   },
+   "data":{
+      "goodFor":["Generating Binary Serialization and properties for class"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

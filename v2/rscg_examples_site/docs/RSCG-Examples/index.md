@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 168 RSCG list by category
-description: 168 RSCG list by category
+title: 169 RSCG list by category
+description: 169 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -914,7 +914,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:4</summary>
+  <summary>Expand Serializer =>examples:5</summary>
         
 
 
@@ -934,6 +934,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
+
+        
+
+
+[GenPack](/docs/GenPack)
 
 </details>
     
@@ -1347,6 +1352,8 @@ flowchart LR;
     Serializer--> JsonPolymorphicGenerator((JsonPolymorphicGenerator))
 
     Serializer--> jsonConverterSourceGenerator((jsonConverterSourceGenerator))
+
+    Serializer--> GenPack((GenPack))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 

@@ -247,7 +247,10 @@ namespace JsonPolymorphicGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator
 
-### In the same category (Serializer) - 3 other generators
+### In the same category (Serializer) - 4 other generators
+
+
+#### [GenPack](/docs/GenPack)
 
 
 #### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)

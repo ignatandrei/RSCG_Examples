@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 168 RSCG with examples in descending chronological order
+## 169 RSCG with examples in descending chronological order
 
-This is the list of 168 ( 13 from Microsoft) RSCG with examples 
+This is the list of 169 ( 13 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 168 ( 13 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|169| [GenPack by dimohy ](/docs/GenPack)|2024-11-06 => 06 November 2024 | Serializer |
 |168| [Credfeto.Version.Information.Generator by Mark Ridgwell ](/docs/Credfeto.Version.Information.Generator)|2024-11-05 => 05 November 2024 | EnhancementProject |
 |167| [polytype by Eirik Tsarpalis ](/docs/polytype)|2024-11-04 => 04 November 2024 | FunctionalProgramming |
 |166| [Datacute.EmbeddedResourcePropertyGenerator by Stephen Denne ](/docs/Datacute.EmbeddedResourcePropertyGenerator)|2024-11-03 => 03 November 2024 | FilesToCode |

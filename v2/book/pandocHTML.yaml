@@ -182,6 +182,7 @@ input-files:
 - examples/Datacute.EmbeddedResourcePropertyGenerator.html
 - examples/polytype.html
 - examples/Credfeto.Version.Information.Generator.html
+- examples/GenPack.html
 
 # or you may use input-file: with a single value
 # defaults:

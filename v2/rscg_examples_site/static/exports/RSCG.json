@@ -1345,6 +1345,14 @@
       "Source": "https://github.com/credfeto/credfeto-version-constants-generator",
       "Category": "EnhancementProject",
       "AddedOn": "2024-11-05T00:00:00"
+    },
+    {
+      "Name": "GenPack",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/GenPack",
+      "NuGet": "https://www.nuget.org/packages/GenPack/",
+      "Source": "https://github.com/dimohy/GenPack",
+      "Category": "Serializer",
+      "AddedOn": "2024-11-06T00:00:00"
     }
   ]
 }
