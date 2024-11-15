@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"QueryStringGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/QueryStringGenerator/"
+      ],
+      "link":"https://github.com/tparviainen/query-string-generator",
+      "author":"Tomi Parviainen",
+      "source":"https://github.com/tparviainen/query-string-generator"
+   },
+   "data":{
+      "goodFor":["Generate from string properties of a class a query string for a URL."],
+      "csprojDemo":"DemoQuery.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

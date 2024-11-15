@@ -106,6 +106,8 @@ https://github.com/amis92/csharp-source-generators
 
 https://github.com/ironcev/awesome-roslyn#source-generators
 
+https://github.com/topics/csharp-sourcegenerator 
+
 Videos: 
 	
 Let's Code an incremental source generator with Roslyn - Stefan Pölz - NDC London 2023
