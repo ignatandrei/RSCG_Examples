@@ -1,4 +1,4 @@
-<img src="logo.png" width="128" height="128">
+
 
 # GenPack
 [![latest version](https://img.shields.io/nuget/v/GenPack)](https://www.nuget.org/packages/GenPack)
@@ -145,6 +145,6 @@ p.Age = 32;
 
 ------
 
-<img src="logo.png" width="32" height="32">
+
 
 [Icon creator: Freepik - Flaticon](https://www.flaticon.com/kr/free-icon/blocks_2021305)
