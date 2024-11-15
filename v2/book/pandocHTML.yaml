@@ -181,6 +181,7 @@ input-files:
 - examples/rscg_queryables.html
 - examples/Datacute.EmbeddedResourcePropertyGenerator.html
 - examples/polytype.html
+- examples/Credfeto.Version.Information.Generator.html
 
 # or you may use input-file: with a single value
 # defaults:

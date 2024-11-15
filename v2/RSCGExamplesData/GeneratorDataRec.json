@@ -1004,5 +1004,11 @@
     "Category": 10,
     "dtStart": "2024-11-04T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Credfeto.Version.Information.Generator",
+    "Category": 1,
+    "dtStart": "2024-11-05T00:00:00",
+    "show": true
   }
 ]

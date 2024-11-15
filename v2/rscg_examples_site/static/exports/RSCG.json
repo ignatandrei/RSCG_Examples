@@ -1337,6 +1337,14 @@
       "Source": "https://github.com/eiriktsarpalis/PolyType",
       "Category": "FunctionalProgramming",
       "AddedOn": "2024-11-04T00:00:00"
+    },
+    {
+      "Name": "Credfeto.Version.Information.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Credfeto.Version.Information.Generator",
+      "NuGet": "https://www.nuget.org/packages/Credfeto.Version.Information.Generator/",
+      "Source": "https://github.com/credfeto/credfeto-version-constants-generator",
+      "Category": "EnhancementProject",
+      "AddedOn": "2024-11-05T00:00:00"
     }
   ]
 }

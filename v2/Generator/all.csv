@@ -166,3 +166,4 @@ Nr,Key,Source,Category
 165,rscg_queryables, https://github.com/ignatandrei/rscg_queryables,FunctionalProgramming
 166,Datacute.EmbeddedResourcePropertyGenerator, https://github.com/datacute/EmbeddedResourcePropertyGenerator/,FilesToCode
 167,polytype, https://github.com/eiriktsarpalis/PolyType,FunctionalProgramming
+168,Credfeto.Version.Information.Generator, https://github.com/credfeto/credfeto-version-constants-generator,EnhancementProject

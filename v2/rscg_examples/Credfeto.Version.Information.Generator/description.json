@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Credfeto.Version.Information.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/Credfeto.Version.Information.Generator/"
+      ],
+      "link":"https://github.com/credfeto/credfeto-version-constants-generator",
+      "author":"Mark Ridgwell",
+      "source":"https://github.com/credfeto/credfeto-version-constants-generator"
+   },
+   "data":{
+      "goodFor":["Embedding build information as compile time constants in C# projects."],
+      "csprojDemo":"Info.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Credfeto.Version.Information.Generator",
+  "steps": 
+  [
+    {
+      "file": "Info/Info.csproj",
+      "description": "First, we add Nuget  [Credfeto.Version.Information.Generator](https://www.nuget.org/packages/Credfeto.Version.Information.Generator/) in csproj  ",
+      "pattern": "Credfeto.Version.Information.Generator"
+    }
+
+        ,{
+        "file": "Info/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Info/Info.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Info/obj/GX/Credfeto.Version.Information.Generator/Credfeto.Version.Information.Generator.VersionInformationCodeGenerator/Info.VersionInformation.generated.cs",
+        "description": "Generated File 1  from 1 : Info.VersionInformation.generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
