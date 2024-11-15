@@ -168,3 +168,4 @@ Nr,Key,Source,Category
 167,polytype, https://github.com/eiriktsarpalis/PolyType,FunctionalProgramming
 168,Credfeto.Version.Information.Generator, https://github.com/credfeto/credfeto-version-constants-generator,EnhancementProject
 169,GenPack, https://github.com/dimohy/GenPack,Serializer
+170,QueryStringGenerator, https://github.com/tparviainen/query-string-generator,EnhancementClass

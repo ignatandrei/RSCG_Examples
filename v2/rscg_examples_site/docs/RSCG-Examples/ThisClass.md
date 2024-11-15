@@ -304,7 +304,7 @@ sealed partial class ThisClassAttribute : Attribute
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisClass
 
-### In the same category (EnhancementClass) - 26 other generators
+### In the same category (EnhancementClass) - 27 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -362,6 +362,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisClass
 
 
 #### [OptionToStringGenerator](/docs/OptionToStringGenerator)
+
+
+#### [QueryStringGenerator](/docs/QueryStringGenerator)
 
 
 #### [RSCG_Decorator](/docs/RSCG_Decorator)

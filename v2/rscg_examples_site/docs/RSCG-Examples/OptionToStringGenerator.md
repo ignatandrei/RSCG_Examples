@@ -639,7 +639,7 @@ namespace Seekatar.OptionToStringGenerator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/OptionToStringGenerator
 
-### In the same category (EnhancementClass) - 26 other generators
+### In the same category (EnhancementClass) - 27 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -694,6 +694,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/OptionToStringGenerator
 
 
 #### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+
+
+#### [QueryStringGenerator](/docs/QueryStringGenerator)
 
 
 #### [RSCG_Decorator](/docs/RSCG_Decorator)

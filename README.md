@@ -1,6 +1,6 @@
-# RSCG - 169 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 170 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-11-06 => 06 November 2024
+## Latest Update : 2024-11-07 => 07 November 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 169 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 170 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 170. [QueryStringGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-11-07 => 07 November 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Tomi Parviainen
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/QueryStringGenerator/](https://www.nuget.org/packages/QueryStringGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator)
+
+Source: [https://github.com/tparviainen/query-string-generator](https://github.com/tparviainen/query-string-generator)
+
+</details>
+
 ### 169. [GenPack](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GenPack) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
 
 Generated on : 2024-11-06 => 06 November 2024

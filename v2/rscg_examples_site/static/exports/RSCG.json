@@ -1353,6 +1353,14 @@
       "Source": "https://github.com/dimohy/GenPack",
       "Category": "Serializer",
       "AddedOn": "2024-11-06T00:00:00"
+    },
+    {
+      "Name": "QueryStringGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator",
+      "NuGet": "https://www.nuget.org/packages/QueryStringGenerator/",
+      "Source": "https://github.com/tparviainen/query-string-generator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-11-07T00:00:00"
     }
   ]
 }

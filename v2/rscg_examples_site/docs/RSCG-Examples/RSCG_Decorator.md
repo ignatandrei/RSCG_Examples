@@ -492,7 +492,7 @@ namespace RSCG_DecoratorTestConsole {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator
 
-### In the same category (EnhancementClass) - 26 other generators
+### In the same category (EnhancementClass) - 27 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -550,6 +550,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Decorator
 
 
 #### [OptionToStringGenerator](/docs/OptionToStringGenerator)
+
+
+#### [QueryStringGenerator](/docs/QueryStringGenerator)
 
 
 #### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)

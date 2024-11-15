@@ -183,6 +183,7 @@ input-files:
 - examples/polytype.html
 - examples/Credfeto.Version.Information.Generator.html
 - examples/GenPack.html
+- examples/QueryStringGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:
