@@ -93,7 +93,7 @@ Controlled by the following properties:
 
 ## Changelog
 
-View [changelog](CHANGELOG.md)
+View [changelog](https://github.com/credfeto/credfeto-version-constants-generator/CHANGELOG.md)
 
 ## Contributors
 
