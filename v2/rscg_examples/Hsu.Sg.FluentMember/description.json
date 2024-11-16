@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Hsu.Sg.FluentMember",
+      "nuget":[
+         "https://www.nuget.org/packages/Hsu.Sg.FluentMember/"
+      ],
+      "link":"https://github.com/hsu-net/source-generators",
+      "author":"Net Hsu",
+      "source":"https://github.com/hsu-net/source-generators"
+   },
+   "data":{
+      "goodFor":["Adding builder pattern to classes"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
