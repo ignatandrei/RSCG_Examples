@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Hsu.Sg.FluentMember",
+  "steps": 
+  [
+    {
+      "file": "Builder/Builder.csproj",
+      "description": "First, we add Nuget  [Hsu.Sg.FluentMember](https://www.nuget.org/packages/Hsu.Sg.FluentMember/) in csproj  ",
+      "pattern": "Hsu.Sg.FluentMember"
+    }
+
+        ,{
+        "file": "Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Builder/obj/GX/Hsu.Sg.FluentMember/Hsu.Sg.FluentMember.Generator/Hsu.Sg.FluentMember.gen.cs",
+        "description": "Generated File 1  from 1 : Hsu.Sg.FluentMember.gen.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

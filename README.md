@@ -1,6 +1,6 @@
-# RSCG - 170 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
+# RSCG - 171 Examples of Roslyn Source Code Generators  / 13 created by Microsoft / 
 
-## Latest Update : 2024-11-07 => 07 November 2024
+## Latest Update : 2024-11-08 => 08 November 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 170 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 171 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 13 from Microsoft )
+### 171. [Hsu.Sg.FluentMember](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
+
+Generated on : 2024-11-08 => 08 November 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Net Hsu
+
+a fluent member source generator. 
+
+Nuget: [https://www.nuget.org/packages/Hsu.Sg.FluentMember/](https://www.nuget.org/packages/Hsu.Sg.FluentMember/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember)
+
+Source: [https://github.com/hsu-net/source-generators](https://github.com/hsu-net/source-generators)
+
+</details>
+
 ### 170. [QueryStringGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
 
 Generated on : 2024-11-07 => 07 November 2024

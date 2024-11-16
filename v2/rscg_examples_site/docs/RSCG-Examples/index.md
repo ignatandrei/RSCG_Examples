@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 170 RSCG list by category
-description: 170 RSCG list by category
+title: 171 RSCG list by category
+description: 171 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -113,7 +113,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:3</summary>
+  <summary>Expand Builder =>examples:4</summary>
         
 
 
@@ -128,6 +128,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Fluentify](/docs/Fluentify)
+
+        
+
+
+[Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
 
 </details>
     
@@ -1085,6 +1090,8 @@ flowchart LR;
     Builder--> Architect.DomainModeling((Architect.DomainModeling))
 
     Builder--> Fluentify((Fluentify))
+
+    Builder--> Hsu.Sg.FluentMember((Hsu.Sg.FluentMember))
 
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 

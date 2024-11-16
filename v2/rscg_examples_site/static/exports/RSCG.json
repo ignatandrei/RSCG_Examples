@@ -1361,6 +1361,14 @@
       "Source": "https://github.com/tparviainen/query-string-generator",
       "Category": "EnhancementClass",
       "AddedOn": "2024-11-07T00:00:00"
+    },
+    {
+      "Name": "Hsu.Sg.FluentMember",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember",
+      "NuGet": "https://www.nuget.org/packages/Hsu.Sg.FluentMember/",
+      "Source": "https://github.com/hsu-net/source-generators",
+      "Category": "Builder",
+      "AddedOn": "2024-11-08T00:00:00"
     }
   ]
 }
