@@ -152,7 +152,7 @@
   {
     "ID": 31,
     "name": "BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator",
-    "why": "old ISourceGenerator"
+    "why": "later"
   },
   {
     "ID": 32,

@@ -72,7 +72,7 @@ Why I have not put example: state machine - full of features. To be analyzed , n
 
 17)BlazorInteropGenerator https://github.com/surgicalcoder/BlazorInteropGenerator  
 
-Why I have not put example: old ISourceGenerator
+Why I have not put example: later
 
 18)BlazorOcticons https://github.com/BlazorOcticons/BlazorOcticons  
 
