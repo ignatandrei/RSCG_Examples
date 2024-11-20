@@ -1,0 +1,22 @@
+﻿@page "/"
+
+@inject IJSRuntime JS
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private async Task IncrementCount()
+    {
+        currentCount++;
+        var res= await JS.showModalAsync<bool>(currentCount);
+        await JS.setPageTitleVoidAsync($" after {currentCount}  the result is " + res);
+    }
+}

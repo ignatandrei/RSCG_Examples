@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"GoLive.Generator.BlazorInterop",
+      "nuget":[
+         "https://www.nuget.org/packages/GoLive.Generator.BlazorInterop/"
+      ],
+      "link":"https://github.com/surgicalcoder/BlazorInteropGenerator",
+      "author":"surgicalcoder",
+      "source":"https://github.com/surgicalcoder/BlazorInteropGenerator"
+   },
+   "data":{
+      "goodFor":["Generating interop from C# to javascript for Blazor"],
+      "csprojDemo":"MyTestBlazoe.csproj",
+      "csFiles":["BlazorInterop.json","blazorinterop.js","Home.razor","index.html"],
+      "excludeDirectoryGenerated":["Microsoft.CodeAnalysis.Razor.Compiler"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

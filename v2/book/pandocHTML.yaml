@@ -185,6 +185,7 @@ input-files:
 - examples/GenPack.html
 - examples/QueryStringGenerator.html
 - examples/Hsu.Sg.FluentMember.html
+- examples/GoLive.Generator.BlazorInterop.html
 
 # or you may use input-file: with a single value
 # defaults:

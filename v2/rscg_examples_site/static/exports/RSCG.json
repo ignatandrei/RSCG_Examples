@@ -1369,6 +1369,14 @@
       "Source": "https://github.com/hsu-net/source-generators",
       "Category": "Builder",
       "AddedOn": "2024-11-08T00:00:00"
+    },
+    {
+      "Name": "GoLive.Generator.BlazorInterop",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/GoLive.Generator.BlazorInterop",
+      "NuGet": "https://www.nuget.org/packages/GoLive.Generator.BlazorInterop/",
+      "Source": "https://github.com/surgicalcoder/BlazorInteropGenerator",
+      "Category": "Blazor",
+      "AddedOn": "2024-11-09T00:00:00"
     }
   ]
 }

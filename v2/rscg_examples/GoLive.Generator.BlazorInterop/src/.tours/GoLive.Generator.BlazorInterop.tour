@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "GoLive.Generator.BlazorInterop",
+  "steps": 
+  [
+    {
+      "file": "MyTestBlazoe/MyTestBlazoe.csproj",
+      "description": "First, we add Nuget  [GoLive.Generator.BlazorInterop](https://www.nuget.org/packages/GoLive.Generator.BlazorInterop/) in csproj  ",
+      "pattern": "GoLive.Generator.BlazorInterop"
+    }
+
+        ,{
+        "file": "MyTestBlazoe/wwwroot/index.html",
+        "description": "File index.html  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MyTestBlazoe/Pages/Home.razor",
+        "description": "File Home.razor  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MyTestBlazoe/wwwroot/blazorinterop.js",
+        "description": "File blazorinterop.js  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MyTestBlazoe/BlazorInterop.json",
+        "description": "File BlazorInterop.json  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "MyTestBlazoe/obj/GX/GoLive.Generator.BlazorInterop/GoLive.Generator.BlazorInterop.JSInteropGenerator/Generated.JSInterop.cs",
+        "description": "Generated File 1  from 1 : Generated.JSInterop.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

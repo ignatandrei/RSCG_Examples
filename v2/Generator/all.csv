@@ -170,3 +170,4 @@ Nr,Key,Source,Category
 169,GenPack, https://github.com/dimohy/GenPack,Serializer
 170,QueryStringGenerator, https://github.com/tparviainen/query-string-generator,EnhancementClass
 171,Hsu.Sg.FluentMember, https://github.com/hsu-net/source-generators,Builder
+172,GoLive.Generator.BlazorInterop, https://github.com/surgicalcoder/BlazorInteropGenerator,Blazor

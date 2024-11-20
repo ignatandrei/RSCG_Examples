@@ -1,0 +1,14 @@
+{
+  "Files": [
+    {
+      "Output_DeleteThis_ToHave_InYourProject": "JSInterop.cs",
+      "ClassName": "JSInterop",
+      "Source": "wwwroot\\blazorinterop.js",
+      "Namespace": "GoLive.Generator.BlazorInterop.Playground.Client",
+      "ObjectToInterop": "window.blazorInterop",
+      "Init": ["window={}"]
+    }
+  ],
+  "InvokeVoidString": "await JSRuntime.InvokeVoidAsync(\"{0}\", {1});",
+  "InvokeString": "return await JSRuntime.InvokeAsync<T>(\"{0}\",{1});"
+}

@@ -1292,5 +1292,8 @@ namespace System.Runtime.CompilerServices
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators
 
-### In the same category (Blazor) - 0 other generators
+### In the same category (Blazor) - 1 other generators
+
+
+#### [GoLive.Generator.BlazorInterop](/docs/GoLive.Generator.BlazorInterop)
 
