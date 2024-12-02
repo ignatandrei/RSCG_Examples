@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Microsoft.Windows.CsWin32",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.Windows.CsWin32/"
+      ],
+      "link":"https://github.com/microsoft/CsWin32",
+      "author":"Microsoft",
+      "source":"https://github.com/microsoft/CsWin32"
+   },
+   "data":{
+      "goodFor":["Generating WinAPI code in C#"],
+      "csprojDemo":"WinAPI.csproj",
+      "csFiles":["Program.cs","NativeMethods.txt"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 172 RSCG list by category
-description: 172 RSCG list by category
+title: 173 RSCG list by category
+description: 173 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1059,6 +1059,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## WinAPI 
+<details>
+    
+  <summary>Expand WinAPI =>examples:1</summary>
+        
+
+
+[Microsoft.Windows.CsWin32](/docs/Microsoft.Windows.CsWin32)
+
+</details>
+    
+
 
 ```mermaid 
 flowchart LR;
@@ -1407,6 +1419,8 @@ flowchart LR;
     Tests--> mocklis((mocklis))
 
     Tests--> MSTest((MSTest))
+
+    WinAPI--> Microsoft.Windows.CsWin32((Microsoft.Windows.CsWin32))
    
 ```
 
