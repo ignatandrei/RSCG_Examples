@@ -680,11 +680,6 @@
     "why": "too complicated for me, need help"
   },
   {
-    "ID": 139,
-    "name": "CsWin32 https://github.com/microsoft/CsWin32",
-    "why": "old ISourceGenerator"
-  },
-  {
     "ID": 140,
     "name": "EnvVariablesGenerator https://github.com/KAW0/EnvVariablesGenerator",
     "why": "old ISourceGenerator"

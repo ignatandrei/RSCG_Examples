@@ -30,5 +30,6 @@ public enum Category
     Actor,
     Mediator=26,
     SignalR=27,
+    WinAPI = 28,
 }
 

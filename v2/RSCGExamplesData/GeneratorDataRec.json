@@ -1035,5 +1035,11 @@
     "dtStart": "2024-11-09T00:00:00",
     "show": true
       
+  },
+  {
+    "ID":"Microsoft.Windows.CsWin32",
+    "Category": 28,
+    "dtStart": "2024-12-01T00:00:00",
+    "show": true
   }
 ]
