@@ -1377,6 +1377,14 @@
       "Source": "https://github.com/surgicalcoder/BlazorInteropGenerator",
       "Category": "Blazor",
       "AddedOn": "2024-11-09T00:00:00"
+    },
+    {
+      "Name": "Microsoft.Windows.CsWin32",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Windows.CsWin32",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.Windows.CsWin32/",
+      "Source": "https://github.com/microsoft/CsWin32",
+      "Category": "WinAPI",
+      "AddedOn": "2024-12-01T00:00:00"
     }
   ]
 }

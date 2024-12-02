@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 172 RSCG with examples in descending chronological order
+## 173 RSCG with examples in descending chronological order
 
-This is the list of 172 ( 13 from Microsoft) RSCG with examples 
+This is the list of 173 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 172 ( 13 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|173| [Microsoft.Windows.CsWin32 by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |
 |172| [GoLive.Generator.BlazorInterop by surgicalcoder ](/docs/GoLive.Generator.BlazorInterop)|2024-11-09 => 09 November 2024 | Blazor |
 |171| [Hsu.Sg.FluentMember by Net Hsu ](/docs/Hsu.Sg.FluentMember)|2024-11-08 => 08 November 2024 | Builder |
 |170| [QueryStringGenerator by Tomi Parviainen ](/docs/QueryStringGenerator)|2024-11-07 => 07 November 2024 | EnhancementClass |
@@ -196,7 +197,7 @@ This is the list of 172 ( 13 from Microsoft) RSCG with examples
 |2| [RSCG_TimeBombComment by Andrei Ignat ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | EnhancementProject |
 |1| [ThisAssembly by Daniel Cazzulino ](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | EnhancementProject |
 
-## 13 Created by Microsoft 
+## 14 Created by Microsoft 
 
 If you are interested in Microsoft RSCG, please see
 
@@ -215,6 +216,7 @@ If you are interested in Microsoft RSCG, please see
 |88| [Com  by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
 |90| [TelemetryLogging  by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
 |130| [MSTest  by Microsoft ](/docs/MSTest)|2024-04-04 => 04 April 2024 | Tests |
+|173| [Microsoft.Windows.CsWin32  by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |
 
 If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 
