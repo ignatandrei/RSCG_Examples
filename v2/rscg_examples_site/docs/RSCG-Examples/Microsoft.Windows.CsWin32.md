@@ -58,7 +58,7 @@ Source : https://github.com/microsoft/CsWin32
 * `SafeHandle`-types automatically generated.
 * Generates xml documentation based on and links back to docs.microsoft.com
 
-![Animation demonstrating p/invoke code generation](doc/demo.gif)
+![Animation demonstrating p/invoke code generation](https://github.com/microsoft/CsWin32/doc/demo.gif)
 
 ## Prerequisites
 
@@ -136,7 +136,7 @@ We recommend using just one NativeMethods.txt file and keeping it sorted for eas
 Multiple files perhaps makes the most sense in a Shared Project scenario where several API requests will be common across many projects, so sharing a NativeMethods.txt file with those same projects that contain all the necessary APIs for the set of shared source files make maintenance easier.
 
 Some APIs require targeting a specific architecture and are not available when your C# project compiles as "Any CPU".
-Learn more about [how this manifests and what your options are](doc/ArchSpecificAPIs.md).
+Learn more about [how this manifests and what your options are](https://github.com/microsoft/CsWin32/doc/ArchSpecificAPIs.md).
 
 ### Customizing generated code
 
