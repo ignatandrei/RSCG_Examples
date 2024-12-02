@@ -118,6 +118,7 @@ public class MultiGeneratorV2
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(doc/", $"({d.Generator!.Source}/doc/");
             text = text.Replace("(docs/rules/", $"({d.Generator!.Source}/docs/rules/");
             text = text.Replace("(CHANGELOG.md", $"({d.Generator!.Source}/CHANGELOG.md");
 
