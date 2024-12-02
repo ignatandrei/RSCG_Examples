@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Microsoft.Windows.CsWin32",
+  "steps": 
+  [
+    {
+      "file": "WinAPI/WinAPI.csproj",
+      "description": "First, we add Nuget  [Microsoft.Windows.CsWin32](https://www.nuget.org/packages/Microsoft.Windows.CsWin32/) in csproj  ",
+      "pattern": "Microsoft.Windows.CsWin32"
+    }
+
+        ,{
+        "file": "WinAPI/NativeMethods.txt",
+        "description": "File NativeMethods.txt  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "WinAPI/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project WinAPI/WinAPI.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "WinAPI/obj/GX/Microsoft.Windows.CsWin32/Microsoft.Windows.CsWin32.SourceGenerator/Windows.Win32.PInvoke.KERNEL32.dll.g.cs",
+        "description": "Generated File 2  from 2 : Windows.Win32.PInvoke.KERNEL32.dll.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "WinAPI/obj/GX/Microsoft.Windows.CsWin32/Microsoft.Windows.CsWin32.SourceGenerator/Windows.Win32.CsWin32Stamp.g.cs",
+        "description": "Generated File 1  from 2 : Windows.Win32.CsWin32Stamp.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
