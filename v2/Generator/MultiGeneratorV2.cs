@@ -718,7 +718,7 @@ public class MultiGeneratorV2
         //var x = 0;
         //x++;
         //if(x>2)
-        var lastGenerator = "Credfeto.Version.Information.Generator";
+        var lastGenerator = "GoLive.Generator.BlazorInterop";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
