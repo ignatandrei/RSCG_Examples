@@ -1385,6 +1385,14 @@
       "Source": "https://github.com/microsoft/CsWin32",
       "Category": "WinAPI",
       "AddedOn": "2024-12-01T00:00:00"
+    },
+    {
+      "Name": "Dapper.AOT",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dapper.AOT",
+      "NuGet": "https://www.nuget.org/packages/Dapper.AOT/",
+      "Source": "https://github.com/DapperLib/DapperAOT",
+      "Category": "Database",
+      "AddedOn": "2024-12-02T00:00:00"
     }
   ]
 }

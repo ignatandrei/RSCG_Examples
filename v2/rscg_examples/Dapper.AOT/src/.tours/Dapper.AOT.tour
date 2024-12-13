@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Dapper.AOT",
+  "steps": 
+  [
+    {
+      "file": "DapperDemo/DapperDemo.csproj",
+      "description": "First, we add Nuget  [Dapper.AOT](https://www.nuget.org/packages/Dapper.AOT/) in csproj  ",
+      "pattern": "Dapper.AOT"
+    }
+
+        ,{
+        "file": "DapperDemo/globals.cs",
+        "description": "File globals.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DapperDemo/Product.cs",
+        "description": "File Product.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DapperDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DapperDemo/DapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DapperDemo/DapperDemo.csproj",
+        "description": "File DapperDemo.csproj  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DapperDemo/obj/GX/Dapper.AOT.Analyzers/Dapper.CodeAnalysis.DapperInterceptorGenerator/DapperDemo.generated.cs",
+        "description": "Generated File 1  from 1 : DapperDemo.generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

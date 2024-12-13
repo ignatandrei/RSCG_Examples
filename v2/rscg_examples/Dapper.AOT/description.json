@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Dapper.AOT",
+      "nuget":[
+         "https://www.nuget.org/packages/Dapper.AOT/"
+      ],
+      "link":"https://aot.dapperlib.dev/",
+      "author":"Marc Gravell",
+      "source":"https://github.com/DapperLib/DapperAOT"
+   },
+   "data":{
+      "goodFor":["Generating AOT code for Dapper -hydrating classes from SQL queries."],
+      "csprojDemo":"DapperDemo.csproj",
+      "csFiles":["DapperDemo.csproj","Program.cs","Product.cs","globals.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
