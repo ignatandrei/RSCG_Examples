@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 173 RSCG with examples in descending chronological order
+## 174 RSCG with examples in descending chronological order
 
-This is the list of 173 ( 14 from Microsoft) RSCG with examples 
+This is the list of 174 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 173 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|174| [Dapper.AOT by Marc Gravell ](/docs/Dapper.AOT)|2024-12-02 => 02 December 2024 | Database |
 |173| [Microsoft.Windows.CsWin32 by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |
 |172| [GoLive.Generator.BlazorInterop by surgicalcoder ](/docs/GoLive.Generator.BlazorInterop)|2024-11-09 => 09 November 2024 | Blazor |
 |171| [Hsu.Sg.FluentMember by Net Hsu ](/docs/Hsu.Sg.FluentMember)|2024-11-08 => 08 November 2024 | Builder |

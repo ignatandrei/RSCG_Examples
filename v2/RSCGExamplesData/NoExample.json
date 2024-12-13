@@ -829,10 +829,5 @@
     "ID":179,
     "name":"Hsu.Sg.Proxy https://github.com/hsu-net/source-generators/",
     "why":"later"
-  },
-  {
-    "ID":180,
-    "name":"Dapper AOT https://github.com/DapperLib/DapperAOT",
-    "why":"later"
   }
 ]

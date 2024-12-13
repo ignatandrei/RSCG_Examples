@@ -171,3 +171,5 @@ Nr,Key,Source,Category
 170,QueryStringGenerator, https://github.com/tparviainen/query-string-generator,EnhancementClass
 171,Hsu.Sg.FluentMember, https://github.com/hsu-net/source-generators,Builder
 172,GoLive.Generator.BlazorInterop, https://github.com/surgicalcoder/BlazorInteropGenerator,Blazor
+173,Microsoft.Windows.CsWin32, https://github.com/microsoft/CsWin32,WinAPI
+174,Dapper.AOT, https://github.com/DapperLib/DapperAOT,Database

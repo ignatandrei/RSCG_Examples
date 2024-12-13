@@ -286,11 +286,11 @@ IService service = c.GetService<IEnumerable<IService>>();
 
 ### Console application
 
-Sample Jab usage in console application can be found in [src/samples/ConsoleSample](https://github.com/pakrym/jabsrc/samples/ConsoleSample
+Sample Jab usage in console application can be found in [src/samples/ConsoleSample](https://github.com/pakrym/jab/src/samples/ConsoleSample)
 
 ## Performance
 
-The performance benchmark project is available in [src/Jab.Performance/](https://github.com/pakrym/jabsrc/Jab.Performance/.
+The performance benchmark project is available in [src/Jab.Performance/](https://github.com/pakrym/jab/src/Jab.Performance/).
 
 ### Startup time
 

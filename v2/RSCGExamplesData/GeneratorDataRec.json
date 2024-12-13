@@ -1041,5 +1041,11 @@
     "Category": 28,
     "dtStart": "2024-12-01T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Dapper.AOT",
+    "Category": 14,
+    "dtStart": "2024-12-02T00:00:00",
+    "show": true
   }
 ]

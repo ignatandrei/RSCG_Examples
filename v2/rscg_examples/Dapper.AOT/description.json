@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating AOT code for Dapper -hydrating classes from SQL queries."],
       "csprojDemo":"DapperDemo.csproj",
-      "csFiles":["DapperDemo.csproj","Program.cs","Product.cs","global.cs"],
+      "csFiles":["DapperDemo.csproj","Program.cs","Product.cs","globals.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

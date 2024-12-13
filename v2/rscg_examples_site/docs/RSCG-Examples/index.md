@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 173 RSCG list by category
-description: 173 RSCG list by category
+title: 174 RSCG list by category
+description: 174 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -204,7 +204,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:3</summary>
+  <summary>Expand Database =>examples:4</summary>
         
 
 
@@ -219,6 +219,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TableStorage](/docs/TableStorage)
+
+        
+
+
+[Dapper.AOT](/docs/Dapper.AOT)
 
 </details>
     
@@ -1135,6 +1140,8 @@ flowchart LR;
     Database--> Breezy((Breezy))
 
     Database--> TableStorage((TableStorage))
+
+    Database--> Dapper.AOT((Dapper.AOT))
 
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 

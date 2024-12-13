@@ -1,6 +1,6 @@
-# RSCG - 173 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 174 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2024-12-01 => 01 December 2024
+## Latest Update : 2024-12-02 => 02 December 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 173 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 174 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 174. [Dapper.AOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dapper.AOT) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
+
+Generated on : 2024-12-02 => 02 December 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Marc Gravell
+
+Build time (AOT) tools for Dapper 
+
+Nuget: [https://www.nuget.org/packages/Dapper.AOT/](https://www.nuget.org/packages/Dapper.AOT/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dapper.AOT](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dapper.AOT)
+
+Source: [https://github.com/DapperLib/DapperAOT](https://github.com/DapperLib/DapperAOT)
+
+</details>
+
 ### 173. [Microsoft.Windows.CsWin32](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Windows.CsWin32) , in the [WinAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi) category 
 
 Generated on : 2024-12-01 => 01 December 2024
