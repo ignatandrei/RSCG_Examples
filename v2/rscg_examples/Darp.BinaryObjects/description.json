@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Darp.BinaryObjects",
+      "nuget":[
+         "https://www.nuget.org/packages/Darp.BinaryObjects/"
+      ],
+      "link":"https://github.com/rosslight/Darp.BinaryObjects",
+      "author":"Ross Light GmbH",
+      "source":"https://github.com/rosslight/Darp.BinaryObjects"
+   },
+   "data":{
+      "goodFor":["Serialize bits of data"],
+      "csprojDemo":"BitsDemo.csproj",
+      "csFiles":["Program.cs","BitStruct.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

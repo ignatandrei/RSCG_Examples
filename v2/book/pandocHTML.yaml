@@ -189,6 +189,7 @@ input-files:
 - examples/Microsoft.Windows.CsWin32.html
 - examples/Dapper.AOT.html
 - examples/Dolly.html
+- examples/Darp.BinaryObjects.html
 
 # or you may use input-file: with a single value
 # defaults:

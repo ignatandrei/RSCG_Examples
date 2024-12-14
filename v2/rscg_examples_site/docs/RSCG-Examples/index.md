@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 175 RSCG list by category
-description: 175 RSCG list by category
+title: 176 RSCG list by category
+description: 176 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -89,11 +89,16 @@ import DocCardList from '@theme/DocCardList';
 ## Bitwise 
 <details>
     
-  <summary>Expand Bitwise =>examples:1</summary>
+  <summary>Expand Bitwise =>examples:2</summary>
         
 
 
 [BitsKit](/docs/BitsKit)
+
+        
+
+
+[Darp.BinaryObjects](/docs/Darp.BinaryObjects)
 
 </details>
     
@@ -1116,6 +1121,8 @@ flowchart LR;
     API--> MinimalHelpers.Routing.Analyzers((MinimalHelpers.Routing.Analyzers))
 
     Bitwise--> BitsKit((BitsKit))
+
+    Bitwise--> Darp.BinaryObjects((Darp.BinaryObjects))
 
     Blazor--> Blazorators((Blazorators))
 

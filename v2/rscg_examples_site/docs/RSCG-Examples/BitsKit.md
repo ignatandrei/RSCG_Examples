@@ -472,5 +472,8 @@ namespace BitsDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BitsKit
 
-### In the same category (Bitwise) - 0 other generators
+### In the same category (Bitwise) - 1 other generators
+
+
+#### [Darp.BinaryObjects](/docs/Darp.BinaryObjects)
 

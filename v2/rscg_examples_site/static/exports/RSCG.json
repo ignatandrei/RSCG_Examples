@@ -1401,6 +1401,14 @@
       "Source": "https://github.com/AnderssonPeter/Dolly",
       "Category": "Clone",
       "AddedOn": "2024-12-03T00:00:00"
+    },
+    {
+      "Name": "Darp.BinaryObjects",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Darp.BinaryObjects",
+      "NuGet": "https://www.nuget.org/packages/Darp.BinaryObjects/",
+      "Source": "https://github.com/rosslight/Darp.BinaryObjects",
+      "Category": "Bitwise",
+      "AddedOn": "2024-12-04T00:00:00"
     }
   ]
 }
