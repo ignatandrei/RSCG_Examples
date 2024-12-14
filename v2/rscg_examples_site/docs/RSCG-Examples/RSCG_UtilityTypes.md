@@ -266,7 +266,7 @@ ret.LastName = data.LastName;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes
 
-### In the same category (EnhancementClass) - 27 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -276,9 +276,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes
 
 
 #### [CommonCodeGenerator](/docs/CommonCodeGenerator)
-
-
-#### [CopyTo](/docs/CopyTo)
 
 
 #### [DudNet](/docs/DudNet)

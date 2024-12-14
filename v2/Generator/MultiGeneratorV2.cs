@@ -876,7 +876,19 @@ public class MultiGeneratorV2
         ArgumentNullException.ThrowIfNull(it.Generator);
         string file = it.Generator.Name+ ".md";
         file=Path.Combine(folderToWrite,file);
-        await File.WriteAllTextAsync(file, output);
+        bool WriteFile = true;
+        if (File.Exists(file))
+        {           
+            var text = await File.ReadAllTextAsync(file);
+            text= text.Replace("\r","").Replace("\n", "");
+            var newText = output.Replace("\r", "").Replace("\n", "");
+            if(newText == text)
+            {
+                WriteFile = false;
+            }
+        }
+        if(WriteFile)
+            await File.WriteAllTextAsync(file, output);
         //await File.WriteAllTextAsync(Path.Combine(folderToWrite, it.Generator.Name + "_readme.md"), it.OriginalReadme);
          //Console.WriteLine(output);
         await Task.Delay(100);
