@@ -10,8 +10,8 @@
    },
    "data":{
       "goodFor":["Clone objects with ease."],
-      "csprojDemo":"DollyDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"CloneData.csproj",
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

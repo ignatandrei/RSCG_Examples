@@ -434,7 +434,7 @@ namespace System.Text.RegularExpressions.Generated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressions
 
-### In the same category (EnhancementClass) - 27 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -444,9 +444,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Text.RegularExpressio
 
 
 #### [CommonCodeGenerator](/docs/CommonCodeGenerator)
-
-
-#### [CopyTo](/docs/CopyTo)
 
 
 #### [DudNet](/docs/DudNet)

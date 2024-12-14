@@ -236,16 +236,13 @@ namespace ToStringData
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommonCodeGenerator
 
-### In the same category (EnhancementClass) - 27 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
 
 
 #### [AspectGenerator](/docs/AspectGenerator)
-
-
-#### [CopyTo](/docs/CopyTo)
 
 
 #### [DudNet](/docs/DudNet)

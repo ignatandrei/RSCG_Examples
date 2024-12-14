@@ -286,11 +286,11 @@ IService service = c.GetService<IEnumerable<IService>>();
 
 ### Console application
 
-Sample Jab usage in console application can be found in [src/samples/ConsoleSample](https://github.com/westermo/FactoryGeneratorsrc/samples/ConsoleSample
+Sample Jab usage in console application can be found in [src/samples/ConsoleSample](https://github.com/westermo/FactoryGenerator/src/samples/ConsoleSample)
 
 ## Performance
 
-The performance benchmark project is available in [src/Jab.Performance/](https://github.com/westermo/FactoryGeneratorsrc/Jab.Performance/.
+The performance benchmark project is available in [src/Jab.Performance/](https://github.com/westermo/FactoryGenerator/src/Jab.Performance/).
 
 ### Startup time
 
