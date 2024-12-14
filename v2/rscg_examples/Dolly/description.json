@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Dolly",
+      "nuget":[
+         "https://www.nuget.org/packages/Dolly/"
+      ],
+      "link":"https://github.com/AnderssonPeter/Dolly",
+      "author":"Peter Andersson",
+      "source":"https://github.com/AnderssonPeter/Dolly"
+   },
+   "data":{
+      "goodFor":["Clone objects with ease."],
+      "csprojDemo":"DollyDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -691,7 +691,7 @@
   },
   {
     "ID": "CopyTo",
-    "Category": 5,
+    "Category": 29,
     "dtStart": "2024-02-19T00:00:00",
     "show": true
   },
@@ -1046,6 +1046,12 @@
     "ID":"Dapper.AOT",
     "Category": 14,
     "dtStart": "2024-12-02T00:00:00",
+    "show": true
+  },
+  {
+    "ID":"Dolly",
+    "Category": 29,
+    "dtStart": "2024-12-03T00:00:00",
     "show": true
   }
 ]
