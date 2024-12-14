@@ -31,5 +31,6 @@ public enum Category
     Mediator=26,
     SignalR=27,
     WinAPI = 28,
+    Clone=29,
 }
 

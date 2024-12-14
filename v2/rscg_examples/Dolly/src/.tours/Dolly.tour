@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Dolly",
+  "steps": 
+  [
+    {
+      "file": "CloneData/CloneData.csproj",
+      "description": "First, we add Nuget  [Dolly](https://www.nuget.org/packages/Dolly/) in csproj  ",
+      "pattern": "Dolly"
+    }
+
+        ,{
+        "file": "CloneData/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CloneData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CloneData/CloneData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/Person.g.cs",
+        "description": "Generated File 4  from 4 : Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/IClonable.g.cs",
+        "description": "Generated File 3  from 4 : IClonable.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/CloneIgnoreAttribute.g.cs",
+        "description": "Generated File 2  from 4 : CloneIgnoreAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/ClonableAttribute.g.cs",
+        "description": "Generated File 1  from 4 : ClonableAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 174 RSCG with examples in descending chronological order
+## 175 RSCG with examples in descending chronological order
 
-This is the list of 174 ( 14 from Microsoft) RSCG with examples 
+This is the list of 175 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 174 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|175| [Dolly by Peter Andersson ](/docs/Dolly)|2024-12-03 => 03 December 2024 | Clone |
 |174| [Dapper.AOT by Marc Gravell ](/docs/Dapper.AOT)|2024-12-02 => 02 December 2024 | Database |
 |173| [Microsoft.Windows.CsWin32 by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |
 |172| [GoLive.Generator.BlazorInterop by surgicalcoder ](/docs/GoLive.Generator.BlazorInterop)|2024-11-09 => 09 November 2024 | Blazor |
@@ -81,7 +82,7 @@ This is the list of 174 ( 14 from Microsoft) RSCG with examples
 |119| [AutoGen by Feast Antelcat ](/docs/AutoGen)|2024-02-22 => 22 February 2024 | Mapper |
 |118| [RSCG_Wait by Andrei Ignat ](/docs/RSCG_Wait)|2024-02-21 => 21 February 2024 | EnhancementProject |
 |117| [PlantUmlClassDiagramGenerator by Hirotada Kobayashi ](/docs/PlantUmlClassDiagramGenerator)|2024-02-20 => 20 February 2024 | EnhancementProject |
-|116| [CopyTo by Paul Braetz ](/docs/CopyTo)|2024-02-19 => 19 February 2024 | EnhancementClass |
+|116| [CopyTo by Paul Braetz ](/docs/CopyTo)|2024-02-19 => 19 February 2024 | Clone |
 |115| [UnionsGenerator by Paul Braetz ](/docs/UnionsGenerator)|2024-02-18 => 18 February 2024 | FunctionalProgramming |
 |114| [corecraft by  ](/docs/corecraft)|2024-02-17 => 17 February 2024 | FilesToCode |
 |113| [sourcedepend by Colin Wilmans ](/docs/sourcedepend)|2024-02-16 => 16 February 2024 | Constructor |
