@@ -1,0 +1,1 @@
+A source generator to generate TryRead/Write Little/BigEndian methods for struct/class definitions for binary serialization.

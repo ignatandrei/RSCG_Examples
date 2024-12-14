@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Darp.BinaryObjects",
+  "steps": 
+  [
+    {
+      "file": "BitsDemo/BitsDemo.csproj",
+      "description": "First, we add Nuget  [Darp.BinaryObjects](https://www.nuget.org/packages/Darp.BinaryObjects/) in csproj  ",
+      "pattern": "Darp.BinaryObjects"
+    }
+
+        ,{
+        "file": "BitsDemo/BitStruct.cs",
+        "description": "File BitStruct.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BitsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project BitsDemo/BitsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BitsDemo/obj/GX/Darp.BinaryObjects.Generator/Darp.BinaryObjects.Generator.BinaryObjectsGenerator/BinaryObjectsGenerator.g.cs",
+        "description": "Generated File 1  from 1 : BinaryObjectsGenerator.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

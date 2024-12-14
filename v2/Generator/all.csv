@@ -174,3 +174,4 @@ Nr,Key,Source,Category
 173,Microsoft.Windows.CsWin32, https://github.com/microsoft/CsWin32,WinAPI
 174,Dapper.AOT, https://github.com/DapperLib/DapperAOT,Database
 175,Dolly, https://github.com/AnderssonPeter/Dolly,Clone
+176,Darp.BinaryObjects, https://github.com/rosslight/Darp.BinaryObjects,Bitwise
