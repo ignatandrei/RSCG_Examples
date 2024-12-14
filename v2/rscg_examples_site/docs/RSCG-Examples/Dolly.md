@@ -44,7 +44,7 @@ Source : https://github.com/AnderssonPeter/Dolly
 
 <p align="center">
   <a href="https://github.com/AnderssonPeter/Dolly">
-    <img src="icon_white.svg" alt="Logo" width="80" height="80">
+    Dolly
   </a>
 
   <h3 align="center">Dolly</h3>
