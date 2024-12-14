@@ -927,7 +927,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyTo",
       "NuGet": "https://www.nuget.org/packages/RhoMicro.CodeAnalysis.CopyToGenerator",
       "Source": "https://github.com/PaulBraetz/RhoMicro.CodeAnalysis",
-      "Category": "EnhancementClass",
+      "Category": "Clone",
       "AddedOn": "2024-02-19T00:00:00"
     },
     {
@@ -1393,6 +1393,14 @@
       "Source": "https://github.com/DapperLib/DapperAOT",
       "Category": "Database",
       "AddedOn": "2024-12-02T00:00:00"
+    },
+    {
+      "Name": "Dolly",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dolly",
+      "NuGet": "https://www.nuget.org/packages/Dolly/",
+      "Source": "https://github.com/AnderssonPeter/Dolly",
+      "Category": "Clone",
+      "AddedOn": "2024-12-03T00:00:00"
     }
   ]
 }

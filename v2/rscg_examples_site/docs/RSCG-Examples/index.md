@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 174 RSCG list by category
-description: 174 RSCG list by category
+title: 175 RSCG list by category
+description: 175 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -138,6 +138,23 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
+
+</details>
+    
+
+## Clone 
+<details>
+    
+  <summary>Expand Clone =>examples:2</summary>
+        
+
+
+[CopyTo](/docs/CopyTo)
+
+        
+
+
+[Dolly](/docs/Dolly)
 
 </details>
     
@@ -300,7 +317,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:28</summary>
+  <summary>Expand EnhancementClass =>examples:27</summary>
         
 
 
@@ -415,11 +432,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [OptionToStringGenerator](/docs/OptionToStringGenerator)
-
-        
-
-
-[CopyTo](/docs/CopyTo)
 
         
 
@@ -1117,6 +1129,10 @@ flowchart LR;
 
     Builder--> Hsu.Sg.FluentMember((Hsu.Sg.FluentMember))
 
+    Clone--> CopyTo((CopyTo))
+
+    Clone--> Dolly((Dolly))
+
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 
     CodeToString--> CodeAnalysis((CodeAnalysis))
@@ -1210,8 +1226,6 @@ flowchart LR;
     EnhancementClass--> HsuSgSync((HsuSgSync))
 
     EnhancementClass--> OptionToStringGenerator((OptionToStringGenerator))
-
-    EnhancementClass--> CopyTo((CopyTo))
 
     EnhancementClass--> CommonCodeGenerator((CommonCodeGenerator))
 

@@ -316,7 +316,7 @@ namespace QueryStringGenerator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator
 
-### In the same category (EnhancementClass) - 27 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -326,9 +326,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/QueryStringGenerator
 
 
 #### [CommonCodeGenerator](/docs/CommonCodeGenerator)
-
-
-#### [CopyTo](/docs/CopyTo)
 
 
 #### [DudNet](/docs/DudNet)

@@ -1,0 +1,1 @@
+Clone .net objects using source generation
