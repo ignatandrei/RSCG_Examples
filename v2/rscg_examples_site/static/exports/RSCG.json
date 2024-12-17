@@ -1409,6 +1409,14 @@
       "Source": "https://github.com/rosslight/Darp.BinaryObjects",
       "Category": "Bitwise",
       "AddedOn": "2024-12-04T00:00:00"
+    },
+    {
+      "Name": "Equatable.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Equatable.Generator",
+      "NuGet": "https://www.nuget.org/packages/Equatable.Generator/",
+      "Source": "https://github.com/loresoft/Equatable.Generator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2024-12-05T00:00:00"
     }
   ]
 }
