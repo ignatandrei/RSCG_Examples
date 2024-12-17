@@ -175,3 +175,4 @@ Nr,Key,Source,Category
 174,Dapper.AOT, https://github.com/DapperLib/DapperAOT,Database
 175,Dolly, https://github.com/AnderssonPeter/Dolly,Clone
 176,Darp.BinaryObjects, https://github.com/rosslight/Darp.BinaryObjects,Bitwise
+177,Equatable.Generator, https://github.com/loresoft/Equatable.Generator,EnhancementClass

@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Equatable.Generator",
+  "steps": 
+  [
+    {
+      "file": "GeneratorEqualsDemo/GeneratorEqualsDemo.csproj",
+      "description": "First, we add Nuget  [Equatable.Generator](https://www.nuget.org/packages/Equatable.Generator/) in csproj  ",
+      "pattern": "Equatable.Generator"
+    }
+
+        ,{
+        "file": "GeneratorEqualsDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project GeneratorEqualsDemo/GeneratorEqualsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Generator.Equals/Generator.Equals.EqualsGenerator/GeneratorEqualsDemo.Person.Generator.Equals.g.cs",
+        "description": "Generated File 2  from 2 : GeneratorEqualsDemo.Person.Generator.Equals.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Equatable.SourceGenerator/Equatable.SourceGenerator.EquatableGenerator/GeneratorEqualsDemo.Person.Equatable.g.cs",
+        "description": "Generated File 1  from 2 : GeneratorEqualsDemo.Person.Equatable.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -24,14 +24,8 @@
     
 
         ,{
-        "file": "DemoClass2Text/obj/GX/PlantUmlClassDiagramGenerator.SourceGenerator/PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator/generated-uml/Person.puml",
-        "description": "Generated File 2  from 2 : Person.puml ",
-        "line": 1
-        }
-    
-        ,{
         "file": "DemoClass2Text/obj/GX/PlantUmlClassDiagramGenerator.SourceGenerator/PlantUmlClassDiagramGenerator.SourceGenerator.PlantUmlSourceGenerator/Attributes.cs",
-        "description": "Generated File 1  from 2 : Attributes.cs ",
+        "description": "Generated File 1  from 1 : Attributes.cs ",
         "line": 1
         }
     

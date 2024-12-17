@@ -1,6 +1,6 @@
-# RSCG - 176 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 177 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2024-12-04 => 04 December 2024
+## Latest Update : 2024-12-05 => 05 December 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 176 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 177 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 177. [Equatable.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Equatable.Generator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2024-12-05 => 05 December 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Eden Prairie
+
+Source generator for Equals and GetHashCode 
+
+Nuget: [https://www.nuget.org/packages/Equatable.Generator/](https://www.nuget.org/packages/Equatable.Generator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Equatable.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Equatable.Generator)
+
+Source: [https://github.com/loresoft/Equatable.Generator](https://github.com/loresoft/Equatable.Generator)
+
+</details>
+
 ### 176. [Darp.BinaryObjects](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Darp.BinaryObjects) , in the [Bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise) category 
 
 Generated on : 2024-12-04 => 04 December 2024

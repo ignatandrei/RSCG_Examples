@@ -1729,7 +1729,7 @@ partial class Person : IMemoryPackable<Person>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack
 
-### In the same category (EnhancementClass) - 26 other generators
+### In the same category (EnhancementClass) - 27 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -1745,6 +1745,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemoryPack
 
 
 #### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
+
+
+#### [Equatable.Generator](/docs/Equatable.Generator)
 
 
 #### [FastGenericNew](/docs/FastGenericNew)
