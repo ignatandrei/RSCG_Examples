@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Equatable.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/Equatable.Generator/"
+      ],
+      "link":"https://github.com/loresoft/Equatable.Generator",
+      "author":"Eden Prairie",
+      "source":"https://github.com/loresoft/Equatable.Generator"
+   },
+   "data":{
+      "goodFor":["Generating Equals from properties"],
+      "csprojDemo":"GeneratorEqualsDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
