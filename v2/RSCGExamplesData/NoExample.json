@@ -839,6 +839,45 @@
     "ID":182,
     "name":"https://github.com/AlexNav73/CoreCraft",
     "why":"later"
+  },
+  {
+    "ID":183,
+    "name":"ConstructorGenerator https://github.com/Swarley97/ConstructorGenerator",
+    "why":"later"
+  },
+  {
+    "ID":184,
+    "name":"RazorGen https://github.com/dartk/RazorGen",
+    "why":"later"
+  },
+  {
+    "ID":185,
+    "name":"https://github.com/TheFo2sh/AsyncFlow",
+    "why":"later"
+  },
+  {
+    "ID":186,
+    "name":"https://github.com/dgmjr-io/InterfaceGenerator",
+    "why":"later"
+  },
+  {
+    "ID":187,
+    "name":"https://github.com/svee4/RequiredStaticMembers",    
+    "why":"later"
+  },
+  {
+    "ID":188,
+    "name":"https://github.com/Agentew04/CliToolkit",
+    "why":"later"
+  },
+  {
+    "ID":189,
+    "name":"https://github.com/GaoNian-NET/MapperToolkit",
+    "why":"later"
+  },
+  {
+    "ID":190,
+    "name":"https://github.com/chickensoft-games/LogicBlocks",  
+    "why":"later"
   }
-  
 ]
