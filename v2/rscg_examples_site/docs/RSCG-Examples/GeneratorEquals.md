@@ -465,86 +465,11 @@ namespace GeneratorEqualsDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals
 
-### In the same category (EnhancementClass) - 27 other generators
-
-
-#### [ApparatusAOT](/docs/ApparatusAOT)
-
-
-#### [AspectGenerator](/docs/AspectGenerator)
-
-
-#### [CommonCodeGenerator](/docs/CommonCodeGenerator)
-
-
-#### [DudNet](/docs/DudNet)
-
-
-#### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
+### In the same category (Equals) - 2 other generators
 
 
 #### [Equatable.Generator](/docs/Equatable.Generator)
 
 
-#### [FastGenericNew](/docs/FastGenericNew)
-
-
-#### [HsuSgSync](/docs/HsuSgSync)
-
-
-#### [Immutype](/docs/Immutype)
-
-
-#### [Ling.Audit](/docs/Ling.Audit)
-
-
-#### [Lombok.NET](/docs/Lombok.NET)
-
-
-#### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-#### [MemoryPack](/docs/MemoryPack)
-
-
-#### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-#### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-#### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-
-#### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-#### [OptionToStringGenerator](/docs/OptionToStringGenerator)
-
-
-#### [QueryStringGenerator](/docs/QueryStringGenerator)
-
-
-#### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-#### [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
-
-
-#### [StaticReflection](/docs/StaticReflection)
-
-
-#### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-#### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-#### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
-
-
-#### [TelemetryLogging](/docs/TelemetryLogging)
-
-
-#### [ThisClass](/docs/ThisClass)
+#### [Valuify](/docs/Valuify)
 

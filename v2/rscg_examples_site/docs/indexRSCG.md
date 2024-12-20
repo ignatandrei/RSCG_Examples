@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 177 RSCG with examples in descending chronological order
+## 178 RSCG with examples in descending chronological order
 
-This is the list of 177 ( 14 from Microsoft) RSCG with examples 
+This is the list of 178 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,7 +23,8 @@ This is the list of 177 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|177| [Equatable.Generator by Eden Prairie ](/docs/Equatable.Generator)|2024-12-05 => 05 December 2024 | EnhancementClass |
+|178| [Valuify by Paul Martins ](/docs/Valuify)|2023-12-06 => 06 December 2023 | Equals |
+|177| [Equatable.Generator by Eden Prairie ](/docs/Equatable.Generator)|2024-12-05 => 05 December 2024 | Equals |
 |176| [Darp.BinaryObjects by Ross Light GmbH ](/docs/Darp.BinaryObjects)|2024-12-04 => 04 December 2024 | Bitwise |
 |175| [Dolly by Peter Andersson ](/docs/Dolly)|2024-12-03 => 03 December 2024 | Clone |
 |174| [Dapper.AOT by Marc Gravell ](/docs/Dapper.AOT)|2024-12-02 => 02 December 2024 | Database |
@@ -159,7 +160,7 @@ This is the list of 177 ( 14 from Microsoft) RSCG with examples
 |44| [SyncMethodGenerator by Zomp Inc. ](/docs/SyncMethodGenerator)|2023-08-14 => 14 August 2023 | EnhancementClass |
 |43| [spreadcheetah by Sveinung ](/docs/spreadcheetah)|2023-08-13 => 13 August 2023 | Templating |
 |42| [Immutype by Nikolay Pianikov  ](/docs/Immutype)|2023-08-12 => 12 August 2023 | EnhancementClass |
-|41| [GeneratorEquals by Diego Frato ](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 | EnhancementClass |
+|41| [GeneratorEquals by Diego Frato ](/docs/GeneratorEquals)|2023-08-11 => 11 August 2023 | Equals |
 |40| [FastGenericNew by Boring3 Nyrest ](/docs/FastGenericNew)|2023-08-10 => 10 August 2023 | EnhancementClass |
 |39| [Breezy by Ludovicdln ](/docs/Breezy)|2023-08-09 => 09 August 2023 | Database |
 |38| [EnumClass by ashen.Blade ](/docs/EnumClass)|2023-08-08 => 08 August 2023 | Enum |

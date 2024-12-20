@@ -202,7 +202,7 @@ unsafe partial class DemoImport
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServices
 
-### In the same category (EnhancementClass) - 27 other generators
+### In the same category (EnhancementClass) - 25 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -220,13 +220,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/System.Runtime.InteropServic
 #### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
 
 
-#### [Equatable.Generator](/docs/Equatable.Generator)
-
-
 #### [FastGenericNew](/docs/FastGenericNew)
-
-
-#### [GeneratorEquals](/docs/GeneratorEquals)
 
 
 #### [HsuSgSync](/docs/HsuSgSync)

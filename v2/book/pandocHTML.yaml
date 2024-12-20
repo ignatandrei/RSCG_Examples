@@ -191,6 +191,7 @@ input-files:
 - examples/Dolly.html
 - examples/Darp.BinaryObjects.html
 - examples/Equatable.Generator.html
+- examples/Valuify.html
 
 # or you may use input-file: with a single value
 # defaults:

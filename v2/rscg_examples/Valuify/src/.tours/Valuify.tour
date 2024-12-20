@@ -1,0 +1,90 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Valuify",
+  "steps": 
+  [
+    {
+      "file": "GeneratorEqualsDemo/GeneratorEqualsDemo.csproj",
+      "description": "First, we add Nuget  [Valuify](https://www.nuget.org/packages/Valuify/) in csproj  ",
+      "pattern": "Valuify"
+    }
+
+        ,{
+        "file": "GeneratorEqualsDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project GeneratorEqualsDemo/GeneratorEqualsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.SequenceEqualityComparerGenerator/Valuify.Internal.SequenceEqualityComparer.g.cs",
+        "description": "Generated File 10  from 10 : Valuify.Internal.SequenceEqualityComparer.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.HashCodeGenerator/Valuify.Internal.HashCode.g.cs",
+        "description": "Generated File 9  from 10 : Valuify.Internal.HashCode.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.ToString.g.cs",
+        "description": "Generated File 8  from 10 : GeneratorEqualsDemo.Person.ToString.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.Inequality.g.cs",
+        "description": "Generated File 7  from 10 : GeneratorEqualsDemo.Person.Inequality.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.IEquatable.g.cs",
+        "description": "Generated File 6  from 10 : GeneratorEqualsDemo.Person.IEquatable.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.IEquatable.Equals.g.cs",
+        "description": "Generated File 5  from 10 : GeneratorEqualsDemo.Person.IEquatable.Equals.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.GetHashCode.g.cs",
+        "description": "Generated File 4  from 10 : GeneratorEqualsDemo.Person.GetHashCode.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.Equals.g.cs",
+        "description": "Generated File 3  from 10 : GeneratorEqualsDemo.Person.Equals.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.ClassGenerator/GeneratorEqualsDemo.Person.Equality.g.cs",
+        "description": "Generated File 2  from 10 : GeneratorEqualsDemo.Person.Equality.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "GeneratorEqualsDemo/obj/GX/Valuify/Valuify.AttributeGenerator/ValuifyAttribute.g.cs",
+        "description": "Generated File 1  from 10 : ValuifyAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
