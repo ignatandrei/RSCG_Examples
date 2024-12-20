@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 177 RSCG list by category
-description: 177 RSCG list by category
+title: 178 RSCG list by category
+description: 178 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -322,7 +322,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:28</summary>
+  <summary>Expand EnhancementClass =>examples:26</summary>
         
 
 
@@ -362,11 +362,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [FastGenericNew](/docs/FastGenericNew)
-
-        
-
-
-[GeneratorEquals](/docs/GeneratorEquals)
 
         
 
@@ -457,11 +452,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [QueryStringGenerator](/docs/QueryStringGenerator)
-
-        
-
-
-[Equatable.Generator](/docs/Equatable.Generator)
 
 </details>
     
@@ -591,6 +581,28 @@ import DocCardList from '@theme/DocCardList';
 
 
 [FusionReactor](/docs/FusionReactor)
+
+</details>
+    
+
+## Equals 
+<details>
+    
+  <summary>Expand Equals =>examples:3</summary>
+        
+
+
+[GeneratorEquals](/docs/GeneratorEquals)
+
+        
+
+
+[Equatable.Generator](/docs/Equatable.Generator)
+
+        
+
+
+[Valuify](/docs/Valuify)
 
 </details>
     
@@ -1209,8 +1221,6 @@ flowchart LR;
 
     EnhancementClass--> FastGenericNew((FastGenericNew))
 
-    EnhancementClass--> GeneratorEquals((GeneratorEquals))
-
     EnhancementClass--> Immutype((Immutype))
 
     EnhancementClass--> SyncMethodGenerator((SyncMethodGenerator))
@@ -1246,8 +1256,6 @@ flowchart LR;
     EnhancementClass--> Enhanced.GetTypes((Enhanced.GetTypes))
 
     EnhancementClass--> QueryStringGenerator((QueryStringGenerator))
-
-    EnhancementClass--> Equatable.Generator((Equatable.Generator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
@@ -1294,6 +1302,12 @@ flowchart LR;
     Enum--> EnumUtilities((EnumUtilities))
 
     Enum--> FusionReactor((FusionReactor))
+
+    Equals--> GeneratorEquals((GeneratorEquals))
+
+    Equals--> Equatable.Generator((Equatable.Generator))
+
+    Equals--> Valuify((Valuify))
 
     FilesToCode--> RSCG_Utils((RSCG_Utils))
 

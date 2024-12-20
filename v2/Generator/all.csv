@@ -39,7 +39,7 @@ Nr,Key,Source,Category
 38,EnumClass, https://github.com/ashenBlade/EnumClass,Enum
 39,Breezy, https://github.com/Ludovicdln/Breezy,Database
 40,FastGenericNew, https://github.com/Nyrest/FastGenericNew,EnhancementClass
-41,GeneratorEquals, https://github.com/diegofrata/Generator.Equals,EnhancementClass
+41,GeneratorEquals, https://github.com/diegofrata/Generator.Equals,Equals
 42,Immutype, https://github.com/DevTeam/Immutype,EnhancementClass
 43,spreadcheetah, https://github.com/sveinungf/spreadcheetah,Templating
 44,zomp, https://github.com/zompinc/sync-method-generator,EnhancementClass
@@ -175,4 +175,5 @@ Nr,Key,Source,Category
 174,Dapper.AOT, https://github.com/DapperLib/DapperAOT,Database
 175,Dolly, https://github.com/AnderssonPeter/Dolly,Clone
 176,Darp.BinaryObjects, https://github.com/rosslight/Darp.BinaryObjects,Bitwise
-177,Equatable.Generator, https://github.com/loresoft/Equatable.Generator,EnhancementClass
+177,Equatable.Generator, https://github.com/loresoft/Equatable.Generator,Equals
+178,Valuify, https://github.com/MooVC/valuify,Equals

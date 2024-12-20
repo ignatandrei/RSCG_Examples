@@ -32,5 +32,6 @@ public enum Category
     SignalR=27,
     WinAPI = 28,
     Clone=29,
+    Equals= 30, 
 }
 

@@ -241,7 +241,7 @@
   },
   {
     "ID": "GeneratorEquals",
-    "Category": 5,
+    "Category": 30,
     "dtStart": "2023-08-11T00:00:00",
     "show": true
   },
@@ -1062,8 +1062,15 @@
   },
   {
     "ID": "Equatable.Generator",
-    "Category": 5,
+    "Category": 30,
     "dtStart": "2024-12-05T00:00:00",
+    "show": true
+  }
+  ,
+  {
+    "ID": "Valuify",
+    "Category": 30,
+    "dtStart": "2024-12-06T00:00:00",
     "show": true
   }
 ]

@@ -1,6 +1,6 @@
-# RSCG - 177 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 178 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2024-12-05 => 05 December 2024
+## Latest Update : 2024-12-06 => 06 December 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -8,7 +8,7 @@ If you want just those from Microsoft, please click ***[Microsoft](https://ignat
 
 If you want to see by category, please click ***[category](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples)***
 or click any category below 
-[actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor)  -[aop](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop)  -[api](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api)  -[bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise)  -[blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor)  -[builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder)  -[clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone)  -[codetostring](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring)  -[constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor)  -[database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database)  -[dependencyinjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection)  -[disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer)  -[enhancementclass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass)  -[enhancementproject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject)  -[enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum)  -[filestocode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode)  -[functionalprogramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming)  -[hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire)  -[interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface)  -[mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper)  -[mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator)  -[mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm)  -[optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer)  -[primitiveobsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession)  -[serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer)  -[signalr](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#signalr)  -[templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating)  -[tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests)  -[winapi](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi)  -
+[actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor)  -[aop](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop)  -[api](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api)  -[bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise)  -[blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor)  -[builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder)  -[clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone)  -[codetostring](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring)  -[constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor)  -[database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database)  -[dependencyinjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection)  -[disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer)  -[enhancementclass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass)  -[enhancementproject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject)  -[enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum)  -[equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals)  -[filestocode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode)  -[functionalprogramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming)  -[hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire)  -[interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface)  -[mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper)  -[mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator)  -[mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm)  -[optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer)  -[primitiveobsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession)  -[serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer)  -[signalr](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#signalr)  -[templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating)  -[tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests)  -[winapi](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi)  -
 
 
 ## If you have a Roslyn Source Code Generator, please create an issue.
@@ -20,9 +20,31 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 177 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 178 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
-### 177. [Equatable.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Equatable.Generator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+### 178. [Valuify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Valuify) , in the [Equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals) category 
+
+Generated on : 2024-12-06 => 06 December 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Paul Martins
+
+A .NET Roslyn source generator that enables record-like behavior for classes in projects using C# versions prior to 9.0. 
+
+Nuget: [https://www.nuget.org/packages/Valuify/](https://www.nuget.org/packages/Valuify/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Valuify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Valuify)
+
+Source: [https://github.com/MooVC/valuify](https://github.com/MooVC/valuify)
+
+</details>
+
+### 177. [Equatable.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Equatable.Generator) , in the [Equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals) category 
 
 Generated on : 2024-12-05 => 05 December 2024
 
@@ -3107,7 +3129,7 @@ Source: [https://github.com/DevTeam/Immutype](https://github.com/DevTeam/Immutyp
 
 </details>
 
-### 41. [GeneratorEquals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+### 41. [GeneratorEquals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals) , in the [Equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals) category 
 
 Generated on : 2023-08-11 => 11 August 2023
 

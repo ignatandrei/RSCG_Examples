@@ -122,6 +122,7 @@ public class MultiGeneratorV2
             text = text.Replace("(doc/", $"({d.Generator!.Source}/doc/");
             text = text.Replace("(docs/rules/", $"({d.Generator!.Source}/docs/rules/");
             text = text.Replace("(CHANGELOG.md", $"({d.Generator!.Source}/CHANGELOG.md");
+            text = text.Replace("(/.github/CONTRIBUTING.md)", $"({d.Generator!.Source}/.github/CONTRIBUTING.md)");
 
             text = text.Replace("(img/", $"({d.Generator!.Source}/img/");
             text = text.Replace("(RoseLynn.GenericsAnalyzer/)", $"({d.Generator!.Source}/RoseLynn.GenericsAnalyzer/)");
