@@ -1,6 +1,6 @@
 # RSCG - 178 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2024-12-05 => 05 December 2024
+## Latest Update : 2024-12-06 => 06 December 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,7 +24,7 @@ Those are the 178 Roslyn Source Code Generators that I have tested you can see a
 ( including 14 from Microsoft )
 ### 178. [Valuify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Valuify) , in the [Equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals) category 
 
-Generated on : 2023-12-06 => 06 December 2023
+Generated on : 2024-12-06 => 06 December 2024
 
 <details>
   <summary>Expand</summary>

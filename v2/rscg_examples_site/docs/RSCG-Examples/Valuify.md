@@ -247,7 +247,7 @@ Rule ID                          | Category | Severity | Notes
 
 ## Contributing
 
-Contributions are welcome - see the [CONTRIBUTING.md](/.github/CONTRIBUTING.md) file for details.
+Contributions are welcome - see the [CONTRIBUTING.md](https://github.com/MooVC/valuify/.github/CONTRIBUTING.md) file for details.
 
 ## License
 

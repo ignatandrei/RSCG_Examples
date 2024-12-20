@@ -23,7 +23,7 @@ This is the list of 178 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|178| [Valuify by Paul Martins ](/docs/Valuify)|2023-12-06 => 06 December 2023 | Equals |
+|178| [Valuify by Paul Martins ](/docs/Valuify)|2024-12-06 => 06 December 2024 | Equals |
 |177| [Equatable.Generator by Eden Prairie ](/docs/Equatable.Generator)|2024-12-05 => 05 December 2024 | Equals |
 |176| [Darp.BinaryObjects by Ross Light GmbH ](/docs/Darp.BinaryObjects)|2024-12-04 => 04 December 2024 | Bitwise |
 |175| [Dolly by Peter Andersson ](/docs/Dolly)|2024-12-03 => 03 December 2024 | Clone |
