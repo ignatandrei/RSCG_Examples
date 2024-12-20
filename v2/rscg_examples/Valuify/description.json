@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Valuify",
+      "nuget":[
+         "https://www.nuget.org/packages/Valuify/"
+      ],
+      "link":"https://github.com/MooVC/valuify",
+      "author":"Paul Martins",
+      "source":"https://github.com/MooVC/valuify"
+   },
+   "data":{
+      "goodFor":["Generating Equals from properties"],
+      "csprojDemo":"GeneratorEqualsDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
