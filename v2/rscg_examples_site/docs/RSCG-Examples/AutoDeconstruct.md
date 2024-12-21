@@ -189,13 +189,16 @@ public static partial class PersonExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDeconstruct
 
-### In the same category (Constructor) - 5 other generators
+### In the same category (Constructor) - 6 other generators
 
 
 #### [AutoConstructor](/docs/AutoConstructor)
 
 
 #### [AutoCtor](/docs/AutoCtor)
+
+
+#### [ConstructorGenerator](/docs/ConstructorGenerator)
 
 
 #### [PrimaryParameter](/docs/PrimaryParameter)

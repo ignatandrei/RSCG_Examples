@@ -1,6 +1,6 @@
 <h1>Constructor</h1>
 
-Number RSCG: 6
+Number RSCG: 7
 
    1 [AutoConstructor](/docs/AutoConstructor)
 
@@ -8,9 +8,11 @@ Number RSCG: 6
 
    3 [AutoDeconstruct](/docs/AutoDeconstruct)
 
-   4 [PrimaryParameter](/docs/PrimaryParameter)
+   4 [ConstructorGenerator](/docs/ConstructorGenerator)
 
-   5 [QuickConstructor](/docs/QuickConstructor)
+   5 [PrimaryParameter](/docs/PrimaryParameter)
 
-   6 [sourcedepend](/docs/sourcedepend)
+   6 [QuickConstructor](/docs/QuickConstructor)
+
+   7 [sourcedepend](/docs/sourcedepend)
     

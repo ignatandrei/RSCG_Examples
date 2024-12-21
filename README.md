@@ -1,6 +1,6 @@
-# RSCG - 178 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 179 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2024-12-06 => 06 December 2024
+## Latest Update : 2024-12-07 => 07 December 2024
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 178 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 179 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 179. [ConstructorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConstructorGenerator) , in the [Constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor) category 
+
+Generated on : 2024-12-07 => 07 December 2024
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Swarley97
+
+Generates constructors for you. 
+
+Nuget: [https://www.nuget.org/packages/ConstructorGenerator/](https://www.nuget.org/packages/ConstructorGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConstructorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConstructorGenerator)
+
+Source: [https://github.com/Swarley97/ConstructorGenerator](https://github.com/Swarley97/ConstructorGenerator)
+
+</details>
+
 ### 178. [Valuify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Valuify) , in the [Equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals) category 
 
 Generated on : 2024-12-06 => 06 December 2024

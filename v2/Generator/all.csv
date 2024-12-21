@@ -177,3 +177,4 @@ Nr,Key,Source,Category
 176,Darp.BinaryObjects, https://github.com/rosslight/Darp.BinaryObjects,Bitwise
 177,Equatable.Generator, https://github.com/loresoft/Equatable.Generator,Equals
 178,Valuify, https://github.com/MooVC/valuify,Equals
+179,ConstructorGenerator, https://github.com/Swarley97/ConstructorGenerator,Constructor
