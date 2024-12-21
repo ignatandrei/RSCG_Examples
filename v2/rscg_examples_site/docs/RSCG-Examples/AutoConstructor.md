@@ -623,13 +623,16 @@ namespace QuickConstructorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoConstructor
 
-### In the same category (Constructor) - 5 other generators
+### In the same category (Constructor) - 6 other generators
 
 
 #### [AutoCtor](/docs/AutoCtor)
 
 
 #### [AutoDeconstruct](/docs/AutoDeconstruct)
+
+
+#### [ConstructorGenerator](/docs/ConstructorGenerator)
 
 
 #### [PrimaryParameter](/docs/PrimaryParameter)

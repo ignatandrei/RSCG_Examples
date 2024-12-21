@@ -326,7 +326,7 @@ namespace PrimaryParameter.SG
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter
 
-### In the same category (Constructor) - 5 other generators
+### In the same category (Constructor) - 6 other generators
 
 
 #### [AutoConstructor](/docs/AutoConstructor)
@@ -336,6 +336,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/PrimaryParameter
 
 
 #### [AutoDeconstruct](/docs/AutoDeconstruct)
+
+
+#### [ConstructorGenerator](/docs/ConstructorGenerator)
 
 
 #### [QuickConstructor](/docs/QuickConstructor)

@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ConstructorGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/ConstructorGenerator/"
+      ],
+      "link":"https://github.com/Swarley97/ConstructorGenerator",
+      "author":"Swarley97",
+      "source":"https://github.com/Swarley97/ConstructorGenerator"
+   },
+   "data":{
+      "goodFor":["Generate constructor for classes"],
+      "csprojDemo":"ConstructorDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

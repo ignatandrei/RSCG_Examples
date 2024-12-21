@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 178 RSCG list by category
-description: 178 RSCG list by category
+title: 179 RSCG list by category
+description: 179 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -189,7 +189,7 @@ import DocCardList from '@theme/DocCardList';
 ## Constructor 
 <details>
     
-  <summary>Expand Constructor =>examples:6</summary>
+  <summary>Expand Constructor =>examples:7</summary>
         
 
 
@@ -219,6 +219,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [sourcedepend](/docs/sourcedepend)
+
+        
+
+
+[ConstructorGenerator](/docs/ConstructorGenerator)
 
 </details>
     
@@ -1174,6 +1179,8 @@ flowchart LR;
     Constructor--> PrimaryParameter((PrimaryParameter))
 
     Constructor--> sourcedepend((sourcedepend))
+
+    Constructor--> ConstructorGenerator((ConstructorGenerator))
 
     Database--> Gedaq((Gedaq))
 

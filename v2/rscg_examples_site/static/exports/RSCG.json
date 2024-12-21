@@ -1425,6 +1425,14 @@
       "Source": "https://github.com/MooVC/valuify",
       "Category": "Equals",
       "AddedOn": "2024-12-06T00:00:00"
+    },
+    {
+      "Name": "ConstructorGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConstructorGenerator",
+      "NuGet": "https://www.nuget.org/packages/ConstructorGenerator/",
+      "Source": "https://github.com/Swarley97/ConstructorGenerator",
+      "Category": "Constructor",
+      "AddedOn": "2024-12-07T00:00:00"
     }
   ]
 }
