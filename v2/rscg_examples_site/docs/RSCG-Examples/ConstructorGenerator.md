@@ -327,7 +327,7 @@ internal MyClass(ILogger logger, IDependencyA dependency, IDependencyB dependenc
 
 ## License
 
-ConstructorGenerator is licensed under the [MIT license](LICENSE).
+ConstructorGenerator is licensed under the [MIT license](https://github.com/Swarley97/ConstructorGenerator/LICENSE).
 
 :::
 
