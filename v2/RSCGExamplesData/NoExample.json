@@ -841,11 +841,6 @@
     "why":"later"
   },
   {
-    "ID":183,
-    "name":"ConstructorGenerator https://github.com/Swarley97/ConstructorGenerator",
-    "why":"later"
-  },
-  {
     "ID":184,
     "name":"RazorGen https://github.com/dartk/RazorGen",
     "why":"later"
