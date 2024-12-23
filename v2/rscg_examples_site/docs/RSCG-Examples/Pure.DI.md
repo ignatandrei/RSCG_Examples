@@ -85,7 +85,7 @@ Pure.DI is not a framework or library, but a source code generator for creating 
   >Its high performance, zero memory consumption/preparation overhead, and lack of dependencies make it ideal for building libraries and frameworks.
 ![](https://github.com/DevTeam/Pure.DI/di.gif)
 
-## Schrödinger's cat will demonstrate how it all works [![CSharp](https://img.shields.io/badge/C%23-code-blue.svg)](samples/ShroedingersCat)
+## Schrödinger's cat will demonstrate how it all works [![CSharp](https://img.shields.io/badge/C%23-code-blue.svg)](https://github.com/DevTeam/Pure.DI/samples/ShroedingersCat)
 
 ### The reality is
 
@@ -203,7 +203,7 @@ class Program(IBox<ICat> box)
 
 _Pure.DI_ creates efficient code in a pure DI paradigm, using only basic language constructs as if you were writing code by hand. This allows you to take full advantage of Dependency Injection everywhere and always, without any compromise!
 
-The full analog of this application with top-level statements can be found [here](samples/ShroedingersCatTopLevelStatements).
+The full analog of this application with top-level statements can be found [here](https://github.com/DevTeam/Pure.DI/samples/ShroedingersCatTopLevelStatements).
 
 <details>
 <summary>Just try creating a project from scratch!</summary>
