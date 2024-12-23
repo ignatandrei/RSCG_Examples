@@ -1030,7 +1030,7 @@ Thank you for your interest in contributing to the _Pure.DI_ project! First of a
 
 Contribution prerequisites: [.NET SDK 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) or later is installed.
 
-The entire build logic is a regular [console .NET application](/build). You can use the [build.cmd](/build.cmd) and [build.sh](/build.sh) files with the appropriate command in the parameters to perform all basic actions on the project, e.g:
+The entire build logic is a regular [console .NET application](https://github.com/DevTeam/Pure.DI/build). You can use the [build.cmd](https://github.com/DevTeam/Pure.DI/build.cmd) and [build.sh](https://github.com/DevTeam/Pure.DI/build.sh) files with the appropriate command in the parameters to perform all basic actions on the project, e.g:
 
 | Command        | Description                                                       |
 |----------------|-------------------------------------------------------------------|

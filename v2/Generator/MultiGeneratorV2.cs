@@ -121,6 +121,8 @@ public class MultiGeneratorV2
             text = text.Replace("(src/", $"({d.Generator!.Source}/src/");
             text = text.Replace("(readme/", $"({d.Generator!.Source}/readme/");
             text = text.Replace("(samples/", $"({d.Generator!.Source}/samples/");
+            text = text.Replace("(/build", $"({d.Generator!.Source}/build");
+
 
             text = text.Replace("(readme/di.gif)", $"({d.Generator!.Source}/readme/di.gif)");
             text = text.Replace("(di.gif)", $"({d.Generator!.Source}/di.gif)");
