@@ -902,41 +902,6 @@ Then documentation for the composition root:
 
 </details>
 
-<details>
-<summary>Code generation workflow</summary>
-
-```mermaid
-flowchart TD
-    start@{ shape: circle, label: "Start" }
-    setups[fa:fa-search DI setups analysis]
-    types["`fa:fa-search Types analysis
-    constructors/methods/properties/fields`"] 
-    subgraph dep[Dependency graph]
-    option[fa:fa-search Selecting a next dependency set]
-    creating[fa:fa-cog Creating a dependency graph variant]
-    verification{fa:fa-check-circle Verification}
-    end
-    codeGeneration[fa:fa-code Code generation]
-    compilation[fa:fa-cog Compilation]
-    failed@{ shape: dbl-circ, label: "fa:fa-thumbs-down Compilation failed" }
-    success@{ shape: dbl-circ, label: "fa:fa-thumbs-up Success" }
-
-    start ==> setups
-    setups -.->|Has problems| failed
-    setups ==> types
-    types -.-> |Has problems| failed
-    types ==> option
-    option ==> creating
-    option -.-> |There are no other options| failed
-    creating ==> verification
-    verification -->|Has problems| option
-    verification ==>|Correct| codeGeneration
-    codeGeneration ==> compilation
-    compilation -.-> |Has problems| failed
-    compilation ==> success
-```
-
-</details>
 
 ## NuGet packages
 
