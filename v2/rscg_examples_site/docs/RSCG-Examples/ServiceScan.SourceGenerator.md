@@ -364,7 +364,7 @@ public static partial class MyServiceProvider
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ServiceScan.SourceGenerator
 
-### In the same category (DependencyInjection) - 5 other generators
+### In the same category (DependencyInjection) - 6 other generators
 
 
 #### [AutoRegisterInject](/docs/AutoRegisterInject)
@@ -380,4 +380,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ServiceScan.SourceGenerator
 
 
 #### [jab](/docs/jab)
+
+
+#### [Pure.DI](/docs/Pure.DI)
 

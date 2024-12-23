@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Pure.DI",
+      "nuget":[
+         "https://www.nuget.org/packages/Pure.DI/"
+      ],
+      "link":"https://github.com/DevTeam/Pure.DI",
+      "author":"Nikolay Pianikov",
+      "source":"https://github.com/DevTeam/Pure.DI"
+   },
+   "data":{
+      "goodFor":["Constructing injecting container"],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["Program.cs","DatabaseCon.cs","Database.cs","IDatabase.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

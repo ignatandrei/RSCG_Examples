@@ -119,6 +119,14 @@ public class MultiGeneratorV2
         { 
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(src/", $"({d.Generator!.Source}/src/");
+            text = text.Replace("(readme/", $"({d.Generator!.Source}/readme/");
+            text = text.Replace("(samples/", $"({d.Generator!.Source}/samples/");
+            text = text.Replace("(/build", $"({d.Generator!.Source}/build");
+
+
+            text = text.Replace("(readme/di.gif)", $"({d.Generator!.Source}/readme/di.gif)");
+            text = text.Replace("(di.gif)", $"({d.Generator!.Source}/di.gif)");
+
             text = text.Replace("(doc/", $"({d.Generator!.Source}/doc/");
             text = text.Replace("(docs/rules/", $"({d.Generator!.Source}/docs/rules/");
             text = text.Replace("(CHANGELOG.md", $"({d.Generator!.Source}/CHANGELOG.md");
@@ -292,16 +300,23 @@ public class MultiGeneratorV2
         var items = answer.RootElement.GetProperty("items");
         foreach (var item in items.EnumerateArray())
         {
-            var newItems = item.GetProperty("items");
-            foreach (var newItem in newItems.EnumerateArray())
+            try
             {
-                var cat=newItem.GetProperty("catalogEntry");
-                var desc=cat.GetProperty("description").GetString();
-                if (!string.IsNullOrEmpty(desc))
+                var newItems = item.GetProperty("items");
+                foreach (var newItem in newItems.EnumerateArray())
                 {
-                    await File.WriteAllTextAsync(nameFile, desc);
-                    return desc;
+                    var cat = newItem.GetProperty("catalogEntry");
+                    var desc = cat.GetProperty("description").GetString();
+                    if (!string.IsNullOrEmpty(desc))
+                    {
+                        await File.WriteAllTextAsync(nameFile, desc);
+                        return desc;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
         return "";

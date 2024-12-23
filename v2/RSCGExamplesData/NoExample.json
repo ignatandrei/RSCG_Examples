@@ -425,11 +425,6 @@
     "why": "old ISourceGenerator"
   },
   {
-    "ID": 87,
-    "name": "Pure.DI https://github.com/DevTeam/Pure.DI",
-    "why": "too complicated for me, need help"
-  },
-  {
     "ID": 88,
     "name": "RazorPageRouteGenerator https://github.com/surgicalcoder/RazorPageRouteGenerator",
     "why": "old ISourceGenerator"
