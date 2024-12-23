@@ -24,14 +24,8 @@
     
 
         ,{
-        "file": "GeneratorEqualsDemo/obj/GX/Generator.Equals/Generator.Equals.EqualsGenerator/GeneratorEqualsDemo.Person.Generator.Equals.g.cs",
-        "description": "Generated File 2  from 2 : GeneratorEqualsDemo.Person.Generator.Equals.g.cs ",
-        "line": 1
-        }
-    
-        ,{
         "file": "GeneratorEqualsDemo/obj/GX/Equatable.SourceGenerator/Equatable.SourceGenerator.EquatableGenerator/GeneratorEqualsDemo.Person.Equatable.g.cs",
-        "description": "Generated File 1  from 2 : GeneratorEqualsDemo.Person.Equatable.g.cs ",
+        "description": "Generated File 1  from 1 : GeneratorEqualsDemo.Person.Equatable.g.cs ",
         "line": 1
         }
     

@@ -178,3 +178,4 @@ Nr,Key,Source,Category
 177,Equatable.Generator, https://github.com/loresoft/Equatable.Generator,Equals
 178,Valuify, https://github.com/MooVC/valuify,Equals
 179,ConstructorGenerator, https://github.com/Swarley97/ConstructorGenerator,Constructor
+180,Pure.DI, https://github.com/DevTeam/Pure.DI,DependencyInjection

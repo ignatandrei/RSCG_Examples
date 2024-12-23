@@ -1,0 +1,66 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Pure.DI",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [Pure.DI](https://www.nuget.org/packages/Pure.DI/) in csproj  ",
+      "pattern": "Pure.DI"
+    }
+
+        ,{
+        "file": "InjectDemo/IDatabase.cs",
+        "description": "File IDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/Pure.DI/Pure.DI.SourceGenerator/Pure.DI.Features.Default.g.cs",
+        "description": "Generated File 4  from 4 : Pure.DI.Features.Default.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Pure.DI/Pure.DI.SourceGenerator/Pure.DI.Components.GenericTypeArguments.g.cs",
+        "description": "Generated File 3  from 4 : Pure.DI.Components.GenericTypeArguments.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Pure.DI/Pure.DI.SourceGenerator/Pure.DI.Components.Api.g.cs",
+        "description": "Generated File 2  from 4 : Pure.DI.Components.Api.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/Pure.DI/Pure.DI.SourceGenerator/Composition.g.cs",
+        "description": "Generated File 1  from 4 : Composition.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1078,5 +1078,11 @@
     "Category": 2,
     "dtStart": "2024-12-07T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Pure.DI",
+    "Category": 7,
+    "dtStart": "2024-12-08T00:00:00",
+    "show": true
   }
 ]

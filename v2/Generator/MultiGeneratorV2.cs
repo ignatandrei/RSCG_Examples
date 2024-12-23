@@ -292,16 +292,23 @@ public class MultiGeneratorV2
         var items = answer.RootElement.GetProperty("items");
         foreach (var item in items.EnumerateArray())
         {
-            var newItems = item.GetProperty("items");
-            foreach (var newItem in newItems.EnumerateArray())
+            try
             {
-                var cat=newItem.GetProperty("catalogEntry");
-                var desc=cat.GetProperty("description").GetString();
-                if (!string.IsNullOrEmpty(desc))
+                var newItems = item.GetProperty("items");
+                foreach (var newItem in newItems.EnumerateArray())
                 {
-                    await File.WriteAllTextAsync(nameFile, desc);
-                    return desc;
+                    var cat = newItem.GetProperty("catalogEntry");
+                    var desc = cat.GetProperty("description").GetString();
+                    if (!string.IsNullOrEmpty(desc))
+                    {
+                        await File.WriteAllTextAsync(nameFile, desc);
+                        return desc;
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
         }
         return "";
