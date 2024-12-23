@@ -44,14 +44,14 @@ Source : https://github.com/DevTeam/Pure.DI
 
 # Pure DI for .NET
 
-<a href="https://t.me/pure_di"><img src="https://github.com/DevTeam/Pure.DI/blob/master/readme/telegram.png" align="left" height="20" width="20" ></a>
+<a href="https://t.me/pure_di"><img src="https://github.com/DevTeam/Pure.DI/blob/master/readme/telegram.png" align="left" height="20" width="20" /></a>
 [![NuGet](https://img.shields.io/nuget/v/Pure.DI)](https://www.nuget.org/packages/Pure.DI)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/DevTeam/Pure.DI/LICENSE)
 [![Build](https://teamcity.jetbrains.com/app/rest/builds/buildType:(id:OpenSourceProjects_DevTeam_PureDi_BuildAndTestBuildType)/statusIcon)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=OpenSourceProjects_DevTeam_PureDi_BuildAndTestBuildType&guest=1)
 [![Performance Build](https://teamcity.jetbrains.com/app/rest/builds/buildType:(id:OpenSourceProjects_DevTeam_PureDi_PerformanceTests)/statusIcon)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=OpenSourceProjects_DevTeam_PureDi_PerformanceTests&guest=1)
 ![GitHub Build](https://github.com/DevTeam/Pure.DI/actions/workflows/main.yml/badge.svg)
 
-![](readme/di.gif)
+![](https://github.com/DevTeam/Pure.DI/readme/di.gif)
 
 _Supports .NET starting with [.NET Framework 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=6041), released 2005-10-27, and all newer versions._
 
@@ -83,13 +83,13 @@ Pure.DI is not a framework or library, but a source code generator for creating 
   >_Pure.DI_ already [supports](#base-class-library) many of [BCL types](https://docs.microsoft.com/en-us/dotnet/standard/framework-libraries#base-class-libraries) like `Array`, `IEnumerable<T>`, `IList<T>`, `IReadOnlyCollection<T>`, `IReadOnlyList<T>`, `ISet<T>`, `IProducerConsumerCollection<T>`, `ConcurrentBag<T>`, `Func<T>`, `ThreadLocal`, `ValueTask<T>`, `Task<T>`, `MemoryPool<T>`, `ArrayPool<T>`, `ReadOnlyMemory<T>`, `Memory<T>`, `ReadOnlySpan<T>`, `Span<T>`, `IComparer<T>`, `IEqualityComparer<T>` and etc. without any extra effort.
 - [X] Good for building libraries or frameworks where resource consumption is particularly critical.
   >Its high performance, zero memory consumption/preparation overhead, and lack of dependencies make it ideal for building libraries and frameworks.
-![](di.gif)
+![](https://github.com/DevTeam/Pure.DI/di.gif)
 
 ## Schrödinger's cat will demonstrate how it all works [![CSharp](https://img.shields.io/badge/C%23-code-blue.svg)](samples/ShroedingersCat)
 
 ### The reality is
 
-![Cat](readme/cat.png?raw=true)
+![Cat](https://github.com/DevTeam/Pure.DI/readme/cat.png?raw=true)
 
 ### Let's create an abstraction
 
@@ -232,137 +232,137 @@ dotnet run
 ## Examples
 
 ### Basics
-- [Auto-bindings](readme/auto-bindings.md)
-- [Injections of abstractions](readme/injections-of-abstractions.md)
-- [Composition roots](readme/composition-roots.md)
-- [Resolve methods](readme/resolve-methods.md)
-- [Simplified binding](readme/simplified-binding.md)
-- [Factory](readme/factory.md)
-- [Simplified factory](readme/simplified-factory.md)
-- [Class arguments](readme/class-arguments.md)
-- [Root arguments](readme/root-arguments.md)
-- [Tags](readme/tags.md)
-- [Smart tags](readme/smart-tags.md)
-- [Build up of an existing object](readme/build-up-of-an-existing-object.md)
-- [Field injection](readme/field-injection.md)
-- [Method injection](readme/method-injection.md)
-- [Property injection](readme/property-injection.md)
-- [Default values](readme/default-values.md)
-- [Required properties or fields](readme/required-properties-or-fields.md)
-- [Root binding](readme/root-binding.md)
-- [Async Root](readme/async-root.md)
-- [Consumer types](readme/consumer-types.md)
+- [Auto-bindings](https://github.com/DevTeam/Pure.DI/readme/auto-bindings.md)
+- [Injections of abstractions](https://github.com/DevTeam/Pure.DI/readme/injections-of-abstractions.md)
+- [Composition roots](https://github.com/DevTeam/Pure.DI/readme/composition-roots.md)
+- [Resolve methods](https://github.com/DevTeam/Pure.DI/readme/resolve-methods.md)
+- [Simplified binding](https://github.com/DevTeam/Pure.DI/readme/simplified-binding.md)
+- [Factory](https://github.com/DevTeam/Pure.DI/readme/factory.md)
+- [Simplified factory](https://github.com/DevTeam/Pure.DI/readme/simplified-factory.md)
+- [Class arguments](https://github.com/DevTeam/Pure.DI/readme/class-arguments.md)
+- [Root arguments](https://github.com/DevTeam/Pure.DI/readme/root-arguments.md)
+- [Tags](https://github.com/DevTeam/Pure.DI/readme/tags.md)
+- [Smart tags](https://github.com/DevTeam/Pure.DI/readme/smart-tags.md)
+- [Build up of an existing object](https://github.com/DevTeam/Pure.DI/readme/build-up-of-an-existing-object.md)
+- [Field injection](https://github.com/DevTeam/Pure.DI/readme/field-injection.md)
+- [Method injection](https://github.com/DevTeam/Pure.DI/readme/method-injection.md)
+- [Property injection](https://github.com/DevTeam/Pure.DI/readme/property-injection.md)
+- [Default values](https://github.com/DevTeam/Pure.DI/readme/default-values.md)
+- [Required properties or fields](https://github.com/DevTeam/Pure.DI/readme/required-properties-or-fields.md)
+- [Root binding](https://github.com/DevTeam/Pure.DI/readme/root-binding.md)
+- [Async Root](https://github.com/DevTeam/Pure.DI/readme/async-root.md)
+- [Consumer types](https://github.com/DevTeam/Pure.DI/readme/consumer-types.md)
 ### Lifetimes
-- [Transient](readme/transient.md)
-- [Singleton](readme/singleton.md)
-- [PerResolve](readme/perresolve.md)
-- [PerBlock](readme/perblock.md)
-- [Scope](readme/scope.md)
-- [Auto scoped](readme/auto-scoped.md)
-- [Default lifetime](readme/default-lifetime.md)
-- [Default lifetime for a type](readme/default-lifetime-for-a-type.md)
-- [Default lifetime for a type and a tag](readme/default-lifetime-for-a-type-and-a-tag.md)
-- [Disposable singleton](readme/disposable-singleton.md)
-- [Async disposable singleton](readme/async-disposable-singleton.md)
-- [Async disposable scope](readme/async-disposable-scope.md)
+- [Transient](https://github.com/DevTeam/Pure.DI/readme/transient.md)
+- [Singleton](https://github.com/DevTeam/Pure.DI/readme/singleton.md)
+- [PerResolve](https://github.com/DevTeam/Pure.DI/readme/perresolve.md)
+- [PerBlock](https://github.com/DevTeam/Pure.DI/readme/perblock.md)
+- [Scope](https://github.com/DevTeam/Pure.DI/readme/scope.md)
+- [Auto scoped](https://github.com/DevTeam/Pure.DI/readme/auto-scoped.md)
+- [Default lifetime](https://github.com/DevTeam/Pure.DI/readme/default-lifetime.md)
+- [Default lifetime for a type](https://github.com/DevTeam/Pure.DI/readme/default-lifetime-for-a-type.md)
+- [Default lifetime for a type and a tag](https://github.com/DevTeam/Pure.DI/readme/default-lifetime-for-a-type-and-a-tag.md)
+- [Disposable singleton](https://github.com/DevTeam/Pure.DI/readme/disposable-singleton.md)
+- [Async disposable singleton](https://github.com/DevTeam/Pure.DI/readme/async-disposable-singleton.md)
+- [Async disposable scope](https://github.com/DevTeam/Pure.DI/readme/async-disposable-scope.md)
 ### Base Class Library
-- [Func](readme/func.md)
-- [Enumerable](readme/enumerable.md)
-- [Enumerable generics](readme/enumerable-generics.md)
-- [Array](readme/array.md)
-- [Lazy](readme/lazy.md)
-- [Task](readme/task.md)
-- [ValueTask](readme/valuetask.md)
-- [Manually started tasks](readme/manually-started-tasks.md)
-- [Span and ReadOnlySpan](readme/span-and-readonlyspan.md)
-- [Tuple](readme/tuple.md)
-- [Weak Reference](readme/weak-reference.md)
-- [Async Enumerable](readme/async-enumerable.md)
-- [Service collection](readme/service-collection.md)
-- [Func with arguments](readme/func-with-arguments.md)
-- [Func with tag](readme/func-with-tag.md)
-- [Keyed service provider](readme/keyed-service-provider.md)
-- [Service provider](readme/service-provider.md)
-- [Service provider with scope](readme/service-provider-with-scope.md)
-- [Overriding the BCL binding](readme/overriding-the-bcl-binding.md)
+- [Func](https://github.com/DevTeam/Pure.DI/readme/func.md)
+- [Enumerable](https://github.com/DevTeam/Pure.DI/readme/enumerable.md)
+- [Enumerable generics](https://github.com/DevTeam/Pure.DI/readme/enumerable-generics.md)
+- [Array](https://github.com/DevTeam/Pure.DI/readme/array.md)
+- [Lazy](https://github.com/DevTeam/Pure.DI/readme/lazy.md)
+- [Task](https://github.com/DevTeam/Pure.DI/readme/task.md)
+- [ValueTask](https://github.com/DevTeam/Pure.DI/readme/valuetask.md)
+- [Manually started tasks](https://github.com/DevTeam/Pure.DI/readme/manually-started-tasks.md)
+- [Span and ReadOnlySpan](https://github.com/DevTeam/Pure.DI/readme/span-and-readonlyspan.md)
+- [Tuple](https://github.com/DevTeam/Pure.DI/readme/tuple.md)
+- [Weak Reference](https://github.com/DevTeam/Pure.DI/readme/weak-reference.md)
+- [Async Enumerable](https://github.com/DevTeam/Pure.DI/readme/async-enumerable.md)
+- [Service collection](https://github.com/DevTeam/Pure.DI/readme/service-collection.md)
+- [Func with arguments](https://github.com/DevTeam/Pure.DI/readme/func-with-arguments.md)
+- [Func with tag](https://github.com/DevTeam/Pure.DI/readme/func-with-tag.md)
+- [Keyed service provider](https://github.com/DevTeam/Pure.DI/readme/keyed-service-provider.md)
+- [Service provider](https://github.com/DevTeam/Pure.DI/readme/service-provider.md)
+- [Service provider with scope](https://github.com/DevTeam/Pure.DI/readme/service-provider-with-scope.md)
+- [Overriding the BCL binding](https://github.com/DevTeam/Pure.DI/readme/overriding-the-bcl-binding.md)
 ### Generics
-- [Generics](readme/generics.md)
-- [Generic composition roots](readme/generic-composition-roots.md)
-- [Complex generics](readme/complex-generics.md)
-- [Generic composition roots with constraints](readme/generic-composition-roots-with-constraints.md)
-- [Generic async composition roots with constraints](readme/generic-async-composition-roots-with-constraints.md)
-- [Custom generic argument](readme/custom-generic-argument.md)
-- [Build up of an existing generic object](readme/build-up-of-an-existing-generic-object.md)
-- [Generic root arguments](readme/generic-root-arguments.md)
+- [Generics](https://github.com/DevTeam/Pure.DI/readme/generics.md)
+- [Generic composition roots](https://github.com/DevTeam/Pure.DI/readme/generic-composition-roots.md)
+- [Complex generics](https://github.com/DevTeam/Pure.DI/readme/complex-generics.md)
+- [Generic composition roots with constraints](https://github.com/DevTeam/Pure.DI/readme/generic-composition-roots-with-constraints.md)
+- [Generic async composition roots with constraints](https://github.com/DevTeam/Pure.DI/readme/generic-async-composition-roots-with-constraints.md)
+- [Custom generic argument](https://github.com/DevTeam/Pure.DI/readme/custom-generic-argument.md)
+- [Build up of an existing generic object](https://github.com/DevTeam/Pure.DI/readme/build-up-of-an-existing-generic-object.md)
+- [Generic root arguments](https://github.com/DevTeam/Pure.DI/readme/generic-root-arguments.md)
 ### Attributes
-- [Constructor ordinal attribute](readme/constructor-ordinal-attribute.md)
-- [Member ordinal attribute](readme/member-ordinal-attribute.md)
-- [Tag attribute](readme/tag-attribute.md)
-- [Type attribute](readme/type-attribute.md)
-- [Inject attribute](readme/inject-attribute.md)
-- [Custom attributes](readme/custom-attributes.md)
-- [Custom universal attribute](readme/custom-universal-attribute.md)
-- [Custom generic argument attribute](readme/custom-generic-argument-attribute.md)
-- [Bind attribute](readme/bind-attribute.md)
-- [Bind attribute with lifetime and tag](readme/bind-attribute-with-lifetime-and-tag.md)
-- [Bind attribute for a generic type](readme/bind-attribute-for-a-generic-type.md)
+- [Constructor ordinal attribute](https://github.com/DevTeam/Pure.DI/readme/constructor-ordinal-attribute.md)
+- [Member ordinal attribute](https://github.com/DevTeam/Pure.DI/readme/member-ordinal-attribute.md)
+- [Tag attribute](https://github.com/DevTeam/Pure.DI/readme/tag-attribute.md)
+- [Type attribute](https://github.com/DevTeam/Pure.DI/readme/type-attribute.md)
+- [Inject attribute](https://github.com/DevTeam/Pure.DI/readme/inject-attribute.md)
+- [Custom attributes](https://github.com/DevTeam/Pure.DI/readme/custom-attributes.md)
+- [Custom universal attribute](https://github.com/DevTeam/Pure.DI/readme/custom-universal-attribute.md)
+- [Custom generic argument attribute](https://github.com/DevTeam/Pure.DI/readme/custom-generic-argument-attribute.md)
+- [Bind attribute](https://github.com/DevTeam/Pure.DI/readme/bind-attribute.md)
+- [Bind attribute with lifetime and tag](https://github.com/DevTeam/Pure.DI/readme/bind-attribute-with-lifetime-and-tag.md)
+- [Bind attribute for a generic type](https://github.com/DevTeam/Pure.DI/readme/bind-attribute-for-a-generic-type.md)
 ### Interception
-- [Decorator](readme/decorator.md)
-- [Interception](readme/interception.md)
-- [Advanced interception](readme/advanced-interception.md)
+- [Decorator](https://github.com/DevTeam/Pure.DI/readme/decorator.md)
+- [Interception](https://github.com/DevTeam/Pure.DI/readme/interception.md)
+- [Advanced interception](https://github.com/DevTeam/Pure.DI/readme/advanced-interception.md)
 ### Hints
-- [Resolve hint](readme/resolve-hint.md)
-- [ThreadSafe hint](readme/threadsafe-hint.md)
-- [OnDependencyInjection hint](readme/ondependencyinjection-hint.md)
-- [OnCannotResolve hint](readme/oncannotresolve-hint.md)
-- [OnNewInstance hint](readme/onnewinstance-hint.md)
-- [ToString hint](readme/tostring-hint.md)
-- [Check for a root](readme/check-for-a-root.md)
+- [Resolve hint](https://github.com/DevTeam/Pure.DI/readme/resolve-hint.md)
+- [ThreadSafe hint](https://github.com/DevTeam/Pure.DI/readme/threadsafe-hint.md)
+- [OnDependencyInjection hint](https://github.com/DevTeam/Pure.DI/readme/ondependencyinjection-hint.md)
+- [OnCannotResolve hint](https://github.com/DevTeam/Pure.DI/readme/oncannotresolve-hint.md)
+- [OnNewInstance hint](https://github.com/DevTeam/Pure.DI/readme/onnewinstance-hint.md)
+- [ToString hint](https://github.com/DevTeam/Pure.DI/readme/tostring-hint.md)
+- [Check for a root](https://github.com/DevTeam/Pure.DI/readme/check-for-a-root.md)
 ### Advanced
-- [Composition root kinds](readme/composition-root-kinds.md)
-- [Tag Type](readme/tag-type.md)
-- [Tag Unique](readme/tag-unique.md)
-- [Tag on injection site](readme/tag-on-injection-site.md)
-- [Tag on a constructor argument](readme/tag-on-a-constructor-argument.md)
-- [Tag on a member](readme/tag-on-a-member.md)
-- [Tag on a method argument](readme/tag-on-a-method-argument.md)
-- [Tag on injection site with wildcards](readme/tag-on-injection-site-with-wildcards.md)
-- [Dependent compositions](readme/dependent-compositions.md)
-- [Accumulators](readme/accumulators.md)
-- [Global compositions](readme/global-compositions.md)
-- [Partial class](readme/partial-class.md)
-- [A few partial classes](readme/a-few-partial-classes.md)
-- [Tracking disposable instances per a composition root](readme/tracking-disposable-instances-per-a-composition-root.md)
-- [Tracking disposable instances in delegates](readme/tracking-disposable-instances-in-delegates.md)
-- [Tracking disposable instances using pre-built classes](readme/tracking-disposable-instances-using-pre-built-classes.md)
-- [Tracking disposable instances with different lifetimes](readme/tracking-disposable-instances-with-different-lifetimes.md)
-- [Tracking async disposable instances per a composition root](readme/tracking-async-disposable-instances-per-a-composition-root.md)
-- [Tracking async disposable instances in delegates](readme/tracking-async-disposable-instances-in-delegates.md)
-- [Exposed roots](readme/exposed-roots.md)
-- [Exposed roots with tags](readme/exposed-roots-with-tags.md)
-- [Exposed roots via arg](readme/exposed-roots-via-arg.md)
-- [Exposed roots via root arg](readme/exposed-roots-via-root-arg.md)
-- [Exposed generic roots](readme/exposed-generic-roots.md)
-- [Exposed generic roots with args](readme/exposed-generic-roots-with-args.md)
-- [DI tracing via serilog](readme/di-tracing-via-serilog.md)
+- [Composition root kinds](https://github.com/DevTeam/Pure.DI/readme/composition-root-kinds.md)
+- [Tag Type](https://github.com/DevTeam/Pure.DI/readme/tag-type.md)
+- [Tag Unique](https://github.com/DevTeam/Pure.DI/readme/tag-unique.md)
+- [Tag on injection site](https://github.com/DevTeam/Pure.DI/readme/tag-on-injection-site.md)
+- [Tag on a constructor argument](https://github.com/DevTeam/Pure.DI/readme/tag-on-a-constructor-argument.md)
+- [Tag on a member](https://github.com/DevTeam/Pure.DI/readme/tag-on-a-member.md)
+- [Tag on a method argument](https://github.com/DevTeam/Pure.DI/readme/tag-on-a-method-argument.md)
+- [Tag on injection site with wildcards](https://github.com/DevTeam/Pure.DI/readme/tag-on-injection-site-with-wildcards.md)
+- [Dependent compositions](https://github.com/DevTeam/Pure.DI/readme/dependent-compositions.md)
+- [Accumulators](https://github.com/DevTeam/Pure.DI/readme/accumulators.md)
+- [Global compositions](https://github.com/DevTeam/Pure.DI/readme/global-compositions.md)
+- [Partial class](https://github.com/DevTeam/Pure.DI/readme/partial-class.md)
+- [A few partial classes](https://github.com/DevTeam/Pure.DI/readme/a-few-partial-classes.md)
+- [Tracking disposable instances per a composition root](https://github.com/DevTeam/Pure.DI/readme/tracking-disposable-instances-per-a-composition-root.md)
+- [Tracking disposable instances in delegates](https://github.com/DevTeam/Pure.DI/readme/tracking-disposable-instances-in-delegates.md)
+- [Tracking disposable instances using pre-built classes](https://github.com/DevTeam/Pure.DI/readme/tracking-disposable-instances-using-pre-built-classes.md)
+- [Tracking disposable instances with different lifetimes](https://github.com/DevTeam/Pure.DI/readme/tracking-disposable-instances-with-different-lifetimes.md)
+- [Tracking async disposable instances per a composition root](https://github.com/DevTeam/Pure.DI/readme/tracking-async-disposable-instances-per-a-composition-root.md)
+- [Tracking async disposable instances in delegates](https://github.com/DevTeam/Pure.DI/readme/tracking-async-disposable-instances-in-delegates.md)
+- [Exposed roots](https://github.com/DevTeam/Pure.DI/readme/exposed-roots.md)
+- [Exposed roots with tags](https://github.com/DevTeam/Pure.DI/readme/exposed-roots-with-tags.md)
+- [Exposed roots via arg](https://github.com/DevTeam/Pure.DI/readme/exposed-roots-via-arg.md)
+- [Exposed roots via root arg](https://github.com/DevTeam/Pure.DI/readme/exposed-roots-via-root-arg.md)
+- [Exposed generic roots](https://github.com/DevTeam/Pure.DI/readme/exposed-generic-roots.md)
+- [Exposed generic roots with args](https://github.com/DevTeam/Pure.DI/readme/exposed-generic-roots-with-args.md)
+- [DI tracing via serilog](https://github.com/DevTeam/Pure.DI/readme/di-tracing-via-serilog.md)
 ### Applications
 - Console
-  - [Schrödinger's cat](readme/Console.md)
-  - [Top level statements](readme/ConsoleTopLevelStatements.md)
-  - [Native AOT](readme/ConsoleNativeAOT.md)
+  - [Schrödinger's cat](https://github.com/DevTeam/Pure.DI/readme/Console.md)
+  - [Top level statements](https://github.com/DevTeam/Pure.DI/readme/ConsoleTopLevelStatements.md)
+  - [Native AOT](https://github.com/DevTeam/Pure.DI/readme/ConsoleNativeAOT.md)
 - UI
-  - [MAUI](readme/Maui.md)
-  - [WPF](readme/Wpf.md)
-  - [Avalonia](readme/Avalonia.md)
-  - [Win Forms Net Core](readme/WinFormsAppNetCore.md)
-  - [Win Forms](readme/WinFormsApp.md)
+  - [MAUI](https://github.com/DevTeam/Pure.DI/readme/Maui.md)
+  - [WPF](https://github.com/DevTeam/Pure.DI/readme/Wpf.md)
+  - [Avalonia](https://github.com/DevTeam/Pure.DI/readme/Avalonia.md)
+  - [Win Forms Net Core](https://github.com/DevTeam/Pure.DI/readme/WinFormsAppNetCore.md)
+  - [Win Forms](https://github.com/DevTeam/Pure.DI/readme/WinFormsApp.md)
 - Web
-  - [Web](readme/WebApp.md)
-  - [Minimal Web API](readme/MinimalWebAPI.md)
-  - [Web API](readme/WebAPI.md)
-  - [gRPC service](readme/GrpcService.md)
-  - [Blazor Server](readme/BlazorServerApp.md)
-  - [Blazor WebAssembly](readme/BlazorWebAssemblyApp.md)
+  - [Web](https://github.com/DevTeam/Pure.DI/readme/WebApp.md)
+  - [Minimal Web API](https://github.com/DevTeam/Pure.DI/readme/MinimalWebAPI.md)
+  - [Web API](https://github.com/DevTeam/Pure.DI/readme/WebAPI.md)
+  - [gRPC service](https://github.com/DevTeam/Pure.DI/readme/GrpcService.md)
+  - [Blazor Server](https://github.com/DevTeam/Pure.DI/readme/BlazorServerApp.md)
+  - [Blazor WebAssembly](https://github.com/DevTeam/Pure.DI/readme/BlazorWebAssemblyApp.md)
     - [https://devteam.github.io/Pure.DI/](https://devteam.github.io/Pure.DI/)
 - Git repo with examples
   - [Schrödinger's cat](https://github.com/DevTeam/Pure.DI.Example) 
@@ -412,7 +412,7 @@ partial class Composition
 The _compositionTypeName_ parameter can be omitted
 
 - if the setup is performed inside a partial class, then the composition will be created for this partial class
-- for the case of a class with composition kind `CompositionKind.Global`, see [this example](readme/global-compositions.md)
+- for the case of a class with composition kind `CompositionKind.Global`, see [this example](https://github.com/DevTeam/Pure.DI/readme/global-compositions.md)
 
 </details>
 
@@ -485,7 +485,7 @@ and there is no default constructor. It is important to remember that only those
 
 ### Scope constructor
 
-This constructor creates a composition instance for the new scope. This allows ``Lifetime.Scoped`` to be applied. See [this](readme/scope.md) example for details.
+This constructor creates a composition instance for the new scope. This allows ``Lifetime.Scoped`` to be applied. See [this](https://github.com/DevTeam/Pure.DI/readme/scope.md) example for details.
 
 </details>
 
@@ -586,7 +586,7 @@ or
 await using var composition = new Composition();
 ```
 
-To dispose objects of other lifetimes please see [this](readme/tracking-disposable-instances-per-a-composition-root.md) or [this](readme/tracking-disposable-instances-in-delegates.md) examples.
+To dispose objects of other lifetimes please see [this](https://github.com/DevTeam/Pure.DI/readme/tracking-disposable-instances-per-a-composition-root.md) or [this](https://github.com/DevTeam/Pure.DI/readme/tracking-disposable-instances-in-delegates.md) examples.
 
 </details>
 
@@ -711,7 +711,7 @@ DI.Setup("Composition")
 
 ### OnDependencyInjectionPartial Hint
 
-Determines whether to generate the _OnDependencyInjection_ partial method to control dependency injection. By default, this partial method is not generated. It cannot have an empty body because of the return value. It must be overridden when it is generated. This may be useful, for example, for [Interception Scenario](readme/interception.md).
+Determines whether to generate the _OnDependencyInjection_ partial method to control dependency injection. By default, this partial method is not generated. It cannot have an empty body because of the return value. It must be overridden when it is generated. This may be useful, for example, for [Interception Scenario](https://github.com/DevTeam/Pure.DI/readme/interception.md).
 
 ```c#
 // OnDependencyInjection = On
@@ -894,11 +894,11 @@ DI.Setup(nameof(Composition))
 
 Appropriate comments will be added to the generated ```Composition``` class and the documentation for the class, depending on the IDE used, will look something like this:
 
-![ReadmeDocumentation1.png](readme/ReadmeDocumentation1.png)
+![ReadmeDocumentation1.png](https://github.com/DevTeam/Pure.DI/readme/ReadmeDocumentation1.png)
 
 Then documentation for the composition root:
 
-![ReadmeDocumentation2.png](readme/ReadmeDocumentation2.png)
+![ReadmeDocumentation2.png](https://github.com/DevTeam/Pure.DI/readme/ReadmeDocumentation2.png)
 
 </details>
 
@@ -1072,119 +1072,9 @@ Articles
 RU DotNext video
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=nrp9SH-gLqg" target="_blank"><img src="http://img.youtube.com/vi/nrp9SH-gLqg/0.jpg"
-alt="DotNext Pure.DI" width="640" border="10"/></a>
+alt="DotNext Pure.DI" width="640" border="10" /></a>
 
 
-## Benchmarks
-
-<details>
-<summary>Array</summary>
-
-<table>
-<thead><tr><th>Method              </th><th>Mean  </th><th>Error</th><th>StdDev</th><th>Median</th><th>Ratio</th><th>RatioSD</th><th>Gen0</th><th>Gen1</th><th>Allocated</th><th>Alloc Ratio</th>
-</tr>
-</tr><tr><td>&#39;Pure.DI composition root&#39;</td><td>88.33 ns</td><td>1.075 ns</td><td>1.006 ns</td><td>88.58 ns</td><td>0.94</td><td>0.03</td><td>0.0377</td><td>-</td><td>632 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve&lt;T&gt;()&#39;</td><td>91.94 ns</td><td>1.832 ns</td><td>2.445 ns</td><td>91.66 ns</td><td>0.98</td><td>0.04</td><td>0.0377</td><td>-</td><td>632 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve(Type)&#39;</td><td>92.65 ns</td><td>2.244 ns</td><td>6.366 ns</td><td>89.18 ns</td><td>0.98</td><td>0.07</td><td>0.0377</td><td>-</td><td>632 B</td><td>1.00</td>
-</tr><tr><td>&#39;Hand Coded&#39;</td><td>94.24 ns</td><td>1.883 ns</td><td>2.578 ns</td><td>94.06 ns</td><td>1.00</td><td>0.04</td><td>0.0377</td><td>-</td><td>632 B</td><td>1.00</td>
-</tr><tr><td>DryIoc</td><td>99.10 ns</td><td>0.999 ns</td><td>0.834 ns</td><td>98.91 ns</td><td>1.05</td><td>0.03</td><td>0.0377</td><td>-</td><td>632 B</td><td>1.00</td>
-</tr><tr><td>LightInject</td><td>103.24 ns</td><td>2.119 ns</td><td>4.183 ns</td><td>102.65 ns</td><td>1.10</td><td>0.05</td><td>0.0377</td><td>-</td><td>632 B</td><td>1.00</td>
-</tr><tr><td>Unity</td><td>4,510.09 ns</td><td>74.628 ns</td><td>66.155 ns</td><td>4,488.31 ns</td><td>47.89</td><td>1.47</td><td>0.8621</td><td>0.0076</td><td>14520 B</td><td>22.97</td>
-</tr><tr><td>Autofac</td><td>15,134.66 ns</td><td>110.608 ns</td><td>86.355 ns</td><td>15,131.24 ns</td><td>160.72</td><td>4.45</td><td>1.7090</td><td>0.0610</td><td>28976 B</td><td>45.85</td>
-</tr></tbody></table>
-
-[Array details](readme/ArrayDetails.md)
-
-</details>
-
-<details>
-<summary>Enum</summary>
-
-<table>
-<thead><tr><th>Method              </th><th>Mean  </th><th>Error</th><th>StdDev</th><th>Median</th><th>Ratio</th><th>RatioSD</th><th>Gen0</th><th>Gen1</th><th>Allocated</th><th>Alloc Ratio</th>
-</tr>
-</tr><tr><td>&#39;Pure.DI composition root&#39;</td><td>64.36 ns</td><td>1.282 ns</td><td>2.919 ns</td><td>62.75 ns</td><td>1.00</td><td>0.05</td><td>0.0205</td><td>-</td><td>344 B</td><td>1.00</td>
-</tr><tr><td>&#39;Hand Coded&#39;</td><td>64.49 ns</td><td>0.791 ns</td><td>0.661 ns</td><td>64.47 ns</td><td>1.00</td><td>0.01</td><td>0.0205</td><td>-</td><td>344 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve&lt;T&gt;()&#39;</td><td>65.26 ns</td><td>0.965 ns</td><td>0.903 ns</td><td>65.56 ns</td><td>1.01</td><td>0.02</td><td>0.0205</td><td>-</td><td>344 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve(Type)&#39;</td><td>65.43 ns</td><td>1.004 ns</td><td>0.784 ns</td><td>65.23 ns</td><td>1.01</td><td>0.02</td><td>0.0205</td><td>-</td><td>344 B</td><td>1.00</td>
-</tr><tr><td>&#39;Microsoft DI&#39;</td><td>93.40 ns</td><td>1.322 ns</td><td>1.172 ns</td><td>92.96 ns</td><td>1.45</td><td>0.02</td><td>0.0281</td><td>-</td><td>472 B</td><td>1.37</td>
-</tr><tr><td>LightInject</td><td>147.58 ns</td><td>1.650 ns</td><td>1.544 ns</td><td>147.96 ns</td><td>2.29</td><td>0.03</td><td>0.0510</td><td>-</td><td>856 B</td><td>2.49</td>
-</tr><tr><td>DryIoc</td><td>147.61 ns</td><td>1.110 ns</td><td>0.984 ns</td><td>147.54 ns</td><td>2.29</td><td>0.03</td><td>0.0510</td><td>-</td><td>856 B</td><td>2.49</td>
-</tr><tr><td>Unity</td><td>3,736.48 ns</td><td>73.272 ns</td><td>68.539 ns</td><td>3,739.88 ns</td><td>57.94</td><td>1.18</td><td>0.8202</td><td>0.0076</td><td>13752 B</td><td>39.98</td>
-</tr><tr><td>Autofac</td><td>15,610.79 ns</td><td>288.580 ns</td><td>595.967 ns</td><td>15,436.50 ns</td><td>242.08</td><td>9.47</td><td>1.7395</td><td>0.0610</td><td>29104 B</td><td>84.60</td>
-</tr></tbody></table>
-
-[Enum details](readme/EnumDetails.md)
-
-</details>
-
-<details>
-<summary>Func</summary>
-
-<table>
-<thead><tr><th>Method              </th><th>Mean  </th><th>Error</th><th>StdDev</th><th>Ratio</th><th>RatioSD</th><th>Gen0</th><th>Gen1</th><th>Allocated</th><th>Alloc Ratio</th>
-</tr>
-</tr><tr><td>&#39;Pure.DI composition root&#39;</td><td>4.382 ns</td><td>0.0561 ns</td><td>0.0525 ns</td><td>0.84</td><td>0.01</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Hand Coded&#39;</td><td>5.193 ns</td><td>0.0649 ns</td><td>0.0542 ns</td><td>1.00</td><td>0.01</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve&lt;T&gt;()&#39;</td><td>5.914 ns</td><td>0.0753 ns</td><td>0.0667 ns</td><td>1.14</td><td>0.02</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve(Type)&#39;</td><td>6.375 ns</td><td>0.0465 ns</td><td>0.0388 ns</td><td>1.23</td><td>0.01</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>DryIoc</td><td>28.979 ns</td><td>0.3875 ns</td><td>0.3435 ns</td><td>5.58</td><td>0.08</td><td>0.0072</td><td>-</td><td>120 B</td><td>5.00</td>
-</tr><tr><td>LightInject</td><td>155.185 ns</td><td>2.9628 ns</td><td>2.7714 ns</td><td>29.89</td><td>0.60</td><td>0.0300</td><td>-</td><td>504 B</td><td>21.00</td>
-</tr><tr><td>Unity</td><td>1,760.400 ns</td><td>12.4774 ns</td><td>11.6714 ns</td><td>339.03</td><td>3.99</td><td>0.1507</td><td>-</td><td>2552 B</td><td>106.33</td>
-</tr><tr><td>Autofac</td><td>5,745.474 ns</td><td>36.1642 ns</td><td>30.1988 ns</td><td>1,106.51</td><td>12.28</td><td>0.8316</td><td>0.0076</td><td>14008 B</td><td>583.67</td>
-</tr></tbody></table>
-
-[Func details](readme/FuncDetails.md)
-
-</details>
-
-<details>
-<summary>Singleton</summary>
-
-<table>
-<thead><tr><th>Method              </th><th>Mean   </th><th>Error  </th><th>StdDev</th><th>Ratio</th><th>RatioSD</th><th>Gen0</th><th>Gen1</th><th>Allocated</th><th>Alloc Ratio</th>
-</tr>
-</thead><tbody><tr><td>&#39;Hand Coded&#39;</td><td>3.016 ns</td><td>0.0721 ns</td><td>0.0602 ns</td><td>1.00</td><td>0.03</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI composition root&#39;</td><td>3.337 ns</td><td>0.0778 ns</td><td>0.0728 ns</td><td>1.11</td><td>0.03</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve&lt;T&gt;()&#39;</td><td>3.517 ns</td><td>0.0602 ns</td><td>0.0533 ns</td><td>1.17</td><td>0.03</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve(Type)&#39;</td><td>4.649 ns</td><td>0.1417 ns</td><td>0.3832 ns</td><td>1.54</td><td>0.13</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>DryIoc</td><td>11.388 ns</td><td>0.0389 ns</td><td>0.0304 ns</td><td>3.78</td><td>0.07</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Simple Injector&#39;</td><td>16.630 ns</td><td>0.0782 ns</td><td>0.0693 ns</td><td>5.52</td><td>0.11</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Microsoft DI&#39;</td><td>19.551 ns</td><td>0.0684 ns</td><td>0.0606 ns</td><td>6.49</td><td>0.12</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>LightInject</td><td>426.861 ns</td><td>1.0945 ns</td><td>0.9702 ns</td><td>141.59</td><td>2.70</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>Unity</td><td>2,645.530 ns</td><td>47.7345 ns</td><td>66.9171 ns</td><td>877.51</td><td>27.40</td><td>0.1869</td><td>-</td><td>3184 B</td><td>132.67</td>
-</tr><tr><td>Autofac</td><td>9,723.452 ns</td><td>60.9124 ns</td><td>53.9972 ns</td><td>3,225.24</td><td>63.41</td><td>1.4343</td><td>0.0458</td><td>24208 B</td><td>1,008.67</td>
-</tr><tr><td>&#39;Castle Windsor&#39;</td><td>16,991.331 ns</td><td>93.5701 ns</td><td>87.5255 ns</td><td>5,635.97</td><td>110.23</td><td>1.4038</td><td>-</td><td>23912 B</td><td>996.33</td>
-</tr><tr><td>Ninject</td><td>67,297.995 ns</td><td>1,045.7465 ns</td><td>927.0271 ns</td><td>22,322.54</td><td>516.33</td><td>4.2725</td><td>1.0986</td><td>73176 B</td><td>3,049.00</td>
-</tr></tbody></table>
-
-[Singleton details](readme/SingletonDetails.md)
-
-</details>
-
-<details>
-<summary>Transient</summary>
-
-<table>
-<thead><tr><th>Method              </th><th>Mean    </th><th>Error  </th><th>StdDev </th><th>Ratio</th><th>RatioSD</th><th>Gen0</th><th>Gen1</th><th>Allocated</th><th>Alloc Ratio</th>
-</tr>
-</thead><tbody><tr><td>&#39;Pure.DI composition root&#39;</td><td>3.491 ns</td><td>0.1203 ns</td><td>0.2764 ns</td><td>0.97</td><td>0.09</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Hand Coded&#39;</td><td>3.619 ns</td><td>0.1132 ns</td><td>0.1952 ns</td><td>1.00</td><td>0.07</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve&lt;T&gt;()&#39;</td><td>4.417 ns</td><td>0.1377 ns</td><td>0.3429 ns</td><td>1.22</td><td>0.11</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Pure.DI Resolve(Type)&#39;</td><td>4.649 ns</td><td>0.1431 ns</td><td>0.1338 ns</td><td>1.29</td><td>0.08</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>LightInject</td><td>7.043 ns</td><td>0.0902 ns</td><td>0.0754 ns</td><td>1.95</td><td>0.10</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Microsoft DI&#39;</td><td>10.357 ns</td><td>0.1357 ns</td><td>0.1133 ns</td><td>2.87</td><td>0.15</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>DryIoc</td><td>10.673 ns</td><td>0.1197 ns</td><td>0.1119 ns</td><td>2.96</td><td>0.16</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>&#39;Simple Injector&#39;</td><td>14.594 ns</td><td>0.1373 ns</td><td>0.1217 ns</td><td>4.04</td><td>0.21</td><td>0.0014</td><td>-</td><td>24 B</td><td>1.00</td>
-</tr><tr><td>Unity</td><td>4,320.577 ns</td><td>85.0619 ns</td><td>175.6675 ns</td><td>1,197.13</td><td>78.58</td><td>0.3052</td><td>-</td><td>5176 B</td><td>215.67</td>
-</tr><tr><td>Autofac</td><td>12,616.111 ns</td><td>227.4971 ns</td><td>201.6703 ns</td><td>3,495.62</td><td>189.02</td><td>1.9836</td><td>0.0916</td><td>33224 B</td><td>1,384.33</td>
-</tr><tr><td>&#39;Castle Windsor&#39;</td><td>27,766.858 ns</td><td>312.7020 ns</td><td>277.2021 ns</td><td>7,693.52</td><td>405.54</td><td>3.2349</td><td>0.0305</td><td>54360 B</td><td>2,265.00</td>
-</tr><tr><td>Ninject</td><td>148,286.554 ns</td><td>3,309.2559 ns</td><td>9,600.7521 ns</td><td>41,086.58</td><td>3,398.59</td><td>7.5684</td><td>1.4648</td><td>128736 B</td><td>5,364.00</td>
-</tr></tbody></table>
-
-[Transient details](readme/TransientDetails.md)
-
-</details>
 
 <details>
 <summary>Benchmarks environment</summary>
