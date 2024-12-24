@@ -4272,14 +4272,14 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Hsu.Sg.Proxy&body=
 
 19) [https://github.com/Agentew04/CliToolkit]( https://github.com/Agentew04/CliToolkit) , https://github.com/Agentew04/CliToolkit 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Agentew04/CliToolkit&body=https://github.com/Agentew04/CliToolkit
 
 
 20) [https://github.com/AlexNav73/CoreCraft]( https://github.com/AlexNav73/CoreCraft) , https://github.com/AlexNav73/CoreCraft 
 
-Why I have not tested : later
+Why I have not tested : too complicated for me, need help
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/AlexNav73/CoreCraft&body=https://github.com/AlexNav73/CoreCraft
 
@@ -4300,14 +4300,14 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com
 
 23) [https://github.com/dgmjr-io/InterfaceGenerator]( https://github.com/dgmjr-io/InterfaceGenerator) , https://github.com/dgmjr-io/InterfaceGenerator 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/dgmjr-io/InterfaceGenerator&body=https://github.com/dgmjr-io/InterfaceGenerator
 
 
 24) [https://github.com/GaoNian-NET/MapperToolkit]( https://github.com/GaoNian-NET/MapperToolkit) , https://github.com/GaoNian-NET/MapperToolkit 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/GaoNian-NET/MapperToolkit&body=https://github.com/GaoNian-NET/MapperToolkit
 
@@ -4349,7 +4349,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com
 
 30) [https://github.com/svee4/RequiredStaticMembers]( https://github.com/svee4/RequiredStaticMembers) , https://github.com/svee4/RequiredStaticMembers 
 
-Why I have not tested : later
+Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/svee4/RequiredStaticMembers&body=https://github.com/svee4/RequiredStaticMembers
 

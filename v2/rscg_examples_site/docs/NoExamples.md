@@ -272,11 +272,11 @@ Why I have not put example: old ISourceGenerator
 
 67)https://github.com/Agentew04/CliToolkit https://github.com/Agentew04/CliToolkit  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 68)https://github.com/AlexNav73/CoreCraft https://github.com/AlexNav73/CoreCraft  
 
-Why I have not put example: later
+Why I have not put example: too complicated for me, need help
 
 69)https://github.com/bjornhellander/TestInheritanceGenerator https://github.com/bjornhellander/TestInheritanceGenerator  
 
@@ -288,11 +288,11 @@ Why I have not put example: later
 
 71)https://github.com/dgmjr-io/InterfaceGenerator https://github.com/dgmjr-io/InterfaceGenerator  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 72)https://github.com/GaoNian-NET/MapperToolkit https://github.com/GaoNian-NET/MapperToolkit  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 73)https://github.com/immediateplatform/immediate.apis https://github.com/immediateplatform/immediate.apis  
 
@@ -320,7 +320,7 @@ Why I have not put example: later
 
 79)https://github.com/svee4/RequiredStaticMembers https://github.com/svee4/RequiredStaticMembers  
 
-Why I have not put example: later
+Why I have not put example: issue opened
 
 80)https://github.com/SzymonHalucha/Minerals.AutoCommands https://github.com/SzymonHalucha/Minerals.AutoCommands  
 
