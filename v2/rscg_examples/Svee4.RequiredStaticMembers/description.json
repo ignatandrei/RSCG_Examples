@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Svee4.RequiredStaticMembers",
+      "nuget":[
+         "https://www.nuget.org/packages/Svee4.RequiredStaticMembers/"
+      ],
+      "link":"https://github.com/svee4/RequiredStaticMembers",
+      "author":"Sandra",
+      "source":"https://github.com/svee4/RequiredStaticMembers"
+   },
+   "data":{
+      "goodFor":["Required for static members"],
+      "csprojDemo":"Svee4.RequiredStaticMembersDemo.csproj",
+      "csFiles":["Program.cs","INameClass.cs","Person.cs","Employee.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
