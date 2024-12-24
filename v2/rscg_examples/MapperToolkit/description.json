@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MapperToolkit",
+      "nuget":[
+         "https://www.nuget.org/packages/MapperToolkit/"
+      ],
+      "link":"https://github.com/GaoNian-NET/MapperToolkit",
+      "author":"Gao Nian",
+      "source":"https://github.com/GaoNian-NET/MapperToolkit"
+   },
+   "data":{
+      "goodFor":["Generating function to map DTOs"],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDto.cs","Extensions.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
