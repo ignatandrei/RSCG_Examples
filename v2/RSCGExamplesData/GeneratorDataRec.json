@@ -1084,5 +1084,11 @@
     "Category": 7,
     "dtStart": "2024-12-08T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Larcanum.GitInfo",
+    "Category": 1,
+    "dtStart": "2025-01-17T00:00:00",
+    "show": true
   }
 ]
