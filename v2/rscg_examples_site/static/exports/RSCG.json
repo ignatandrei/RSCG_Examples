@@ -1441,6 +1441,14 @@
       "Source": "https://github.com/DevTeam/Pure.DI",
       "Category": "DependencyInjection",
       "AddedOn": "2024-12-08T00:00:00"
+    },
+    {
+      "Name": "Larcanum.GitInfo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Larcanum.GitInfo",
+      "NuGet": "https://www.nuget.org/packages/Larcanum.GitInfo/",
+      "Source": "https://github.com/lord-executor/Larcanum.GitInfo",
+      "Category": "EnhancementProject",
+      "AddedOn": "2025-01-17T00:00:00"
     }
   ]
 }

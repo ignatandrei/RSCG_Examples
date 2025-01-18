@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Larcanum.GitInfo",
+      "nuget":[
+         "https://www.nuget.org/packages/Larcanum.GitInfo/"
+      ],
+      "link":"https://github.com/lord-executor/Larcanum.GitInfo",
+      "author":"",
+      "source":"https://github.com/lord-executor/Larcanum.GitInfo"
+   },
+   "data":{
+      "goodFor":["Generates GitInfo data from the current environment."],
+      "csprojDemo":"DemoGit.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
