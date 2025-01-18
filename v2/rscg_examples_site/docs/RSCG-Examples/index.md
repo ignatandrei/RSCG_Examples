@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 180 RSCG list by category
-description: 180 RSCG list by category
+title: 181 RSCG list by category
+description: 181 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -469,7 +469,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:18</summary>
+  <summary>Expand EnhancementProject =>examples:19</summary>
         
 
 
@@ -559,6 +559,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Credfeto.Version.Information.Generator](/docs/Credfeto.Version.Information.Generator)
+
+        
+
+
+[Larcanum.GitInfo](/docs/Larcanum.GitInfo)
 
 </details>
     
@@ -1306,6 +1311,8 @@ flowchart LR;
     EnhancementProject--> RSCG_NameGenerator((RSCG_NameGenerator))
 
     EnhancementProject--> Credfeto.Version.Information.Generator((Credfeto.Version.Information.Generator))
+
+    EnhancementProject--> Larcanum.GitInfo((Larcanum.GitInfo))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

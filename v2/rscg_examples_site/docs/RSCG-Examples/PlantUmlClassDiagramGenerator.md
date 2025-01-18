@@ -897,7 +897,7 @@ class Person  {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator
 
-### In the same category (EnhancementProject) - 17 other generators
+### In the same category (EnhancementProject) - 18 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -916,6 +916,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerato
 
 
 #### [Credfeto.Version.Information.Generator](/docs/Credfeto.Version.Information.Generator)
+
+
+#### [Larcanum.GitInfo](/docs/Larcanum.GitInfo)
 
 
 #### [LinqGen.Generator](/docs/LinqGen.Generator)

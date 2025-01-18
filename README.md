@@ -1,6 +1,6 @@
-# RSCG - 180 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 181 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2024-12-08 => 08 December 2024
+## Latest Update : 2025-01-17 => 17 January 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 180 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 181 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 181. [Larcanum.GitInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Larcanum.GitInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2025-01-17 => 17 January 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: 
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/Larcanum.GitInfo/](https://www.nuget.org/packages/Larcanum.GitInfo/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Larcanum.GitInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Larcanum.GitInfo)
+
+Source: [https://github.com/lord-executor/Larcanum.GitInfo](https://github.com/lord-executor/Larcanum.GitInfo)
+
+</details>
+
 ### 180. [Pure.DI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pure.DI) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
 
 Generated on : 2024-12-08 => 08 December 2024

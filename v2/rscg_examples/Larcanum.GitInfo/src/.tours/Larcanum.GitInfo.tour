@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Larcanum.GitInfo",
+  "steps": 
+  [
+    {
+      "file": "DemoGit/DemoGit.csproj",
+      "description": "First, we add Nuget  [Larcanum.GitInfo](https://www.nuget.org/packages/Larcanum.GitInfo/) in csproj  ",
+      "pattern": "Larcanum.GitInfo"
+    }
+
+        ,{
+        "file": "DemoGit/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoGit/DemoGit.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoGit/obj/GX/Larcanum.GitInfo/Larcanum.GitInfo.GitInfoGenerator/GitInfo.g.cs",
+        "description": "Generated File 1  from 1 : GitInfo.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
