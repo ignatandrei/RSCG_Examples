@@ -9,7 +9,7 @@
       "source":"https://github.com/lord-executor/Larcanum.GitInfo"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Generates GitInfo data from the current environment."],
       "csprojDemo":"DemoGit.csproj",
       "csFiles":["Program.cs"],
       "excludeDirectoryGenerated":[""],

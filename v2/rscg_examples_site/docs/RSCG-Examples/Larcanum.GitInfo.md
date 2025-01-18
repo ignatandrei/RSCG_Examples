@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1810
 title: 181 - Larcanum.GitInfo
-description: 
+description: Generates GitInfo data from the current environment.
 slug: /Larcanum.GitInfo
 ---
 import Tabs from '@theme/Tabs';
@@ -301,7 +301,7 @@ The NuGet authorization is handled with a NuGet access token that is configured 
 ### About
 :::note
 
-
+Generates GitInfo data from the current environment.
 
 
 :::

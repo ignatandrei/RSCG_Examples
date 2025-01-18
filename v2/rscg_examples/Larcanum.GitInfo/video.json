@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present Larcanum.GitInfo .  ."},
+{"typeStep":"text","arg": "Today I will present Larcanum.GitInfo . Generates GitInfo data from the current environment. ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/Larcanum.GitInfo/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Larcanum.GitInfo"},
