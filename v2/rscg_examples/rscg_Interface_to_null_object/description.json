@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"rscg_Interface_to_null_object",
+      "nuget":[
+         "https://www.nuget.org/packages/rscg_Interface_to_null_object/",
+         "https://www.nuget.org/packages/rscg_Interface_to_null_object_common",
+      ],
+      "link":"https://github.com/ignatandrei/rscg_Interface_to_null_object/",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/rscg_Interface_to_null_object/"
+   },
+   "data":{
+      "goodFor":["Generate null objects for interfaces"],
+      "csprojDemo":"NullInterface.csproj",
+      "csFiles":["Program.cs","IEmployee.cs","IDepartment.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
