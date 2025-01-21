@@ -1,6 +1,6 @@
-# RSCG - 181 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 182 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-01-17 => 17 January 2025
+## Latest Update : 2025-01-18 => 18 January 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 181 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 182 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 182. [rscg_Interface_to_null_object](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_Interface_to_null_object) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2025-01-18 => 18 January 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Andrei Ignat
+
+Interface to null object - common 
+
+Nuget: [https://www.nuget.org/packages/rscg_Interface_to_null_object/](https://www.nuget.org/packages/rscg_Interface_to_null_object/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_Interface_to_null_object](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_Interface_to_null_object)
+
+Source: [https://github.com/ignatandrei/rscg_Interface_to_null_object/](https://github.com/ignatandrei/rscg_Interface_to_null_object/)
+
+</details>
+
 ### 181. [Larcanum.GitInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Larcanum.GitInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2025-01-17 => 17 January 2025

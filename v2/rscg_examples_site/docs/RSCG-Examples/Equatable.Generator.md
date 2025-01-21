@@ -295,6 +295,88 @@ namespace GeneratorEqualsDemo
   </TabItem>
 
 
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Equatable.Generator\src\GeneratorEqualsDemo\obj\GX\Generator.Equals\Generator.Equals.EqualsGenerator\GeneratorEqualsDemo.Person.Generator.Equals.g.cs" label="GeneratorEqualsDemo.Person.Generator.Equals.g.cs" >
+
+
+```csharp showLineNumbers 
+
+#nullable enable
+#pragma warning disable CS0612,CS0618
+#pragma warning disable CS0436
+
+namespace GeneratorEqualsDemo
+{
+    partial class Person : global::System.IEquatable<Person>
+    {
+        /// <summary>
+        /// Indicates whether the object on the left is equal to the object on the right.
+        /// </summary>
+        /// <param name="left">The left object</param>
+        /// <param name="right">The right object</param>
+        /// <returns>true if the objects are equal; otherwise, false.</returns>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Generator.Equals", "1.0.0.0")]
+        public static bool operator ==(
+            global::GeneratorEqualsDemo.Person? left,
+            global::GeneratorEqualsDemo.Person? right) =>
+            global::Generator.Equals.DefaultEqualityComparer<global::GeneratorEqualsDemo.Person?>.Default
+                .Equals(left, right);
+        
+        /// <summary>
+        /// Indicates whether the object on the left is not equal to the object on the right.
+        /// </summary>
+        /// <param name="left">The left object</param>
+        /// <param name="right">The right object</param>
+        /// <returns>true if the objects are not equal; otherwise, false.</returns>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Generator.Equals", "1.0.0.0")]
+        public static bool operator !=(global::GeneratorEqualsDemo.Person? left, global::GeneratorEqualsDemo.Person? right) =>
+            !(left == right);
+        
+        /// <inheritdoc/>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Generator.Equals", "1.0.0.0")]
+        public override bool Equals(object? obj) =>
+            Equals(obj as global::GeneratorEqualsDemo.Person);
+        
+        /// <inheritdoc/>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Generator.Equals", "1.0.0.0")]
+        bool global::System.IEquatable<global::GeneratorEqualsDemo.Person>.Equals(global::GeneratorEqualsDemo.Person? obj) => Equals((object?) obj);
+        
+        /// <inheritdoc/>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Generator.Equals", "1.0.0.0")]
+        protected bool Equals(global::GeneratorEqualsDemo.Person? other)
+        {
+            if (ReferenceEquals(null, other)) return false;
+            if (ReferenceEquals(this, other)) return true;
+            
+            return other.GetType() == this.GetType()
+                && global::Generator.Equals.DefaultEqualityComparer<global::System.String?>.Default.Equals(this.FirstName!, other.FirstName!)
+                && global::Generator.Equals.DefaultEqualityComparer<global::System.String?>.Default.Equals(this.LastName!, other.LastName!)
+                ;
+        }
+        
+        /// <inheritdoc/>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Generator.Equals", "1.0.0.0")]
+        public override int GetHashCode()
+        {
+            var hashCode = new global::System.HashCode();
+            
+            hashCode.Add(this.GetType());
+            hashCode.Add(
+                this.FirstName!,
+                global::Generator.Equals.DefaultEqualityComparer<global::System.String?>.Default);
+            hashCode.Add(
+                this.LastName!,
+                global::Generator.Equals.DefaultEqualityComparer<global::System.String?>.Default);
+            
+            return hashCode.ToHashCode();
+        }
+    }
+}
+
+```
+
+  </TabItem>
+
+
 </Tabs>
 
 ## Usefull

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 181 RSCG list by category
-description: 181 RSCG list by category
+title: 182 RSCG list by category
+description: 182 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -796,7 +796,7 @@ import DocCardList from '@theme/DocCardList';
 ## Interface 
 <details>
     
-  <summary>Expand Interface =>examples:10</summary>
+  <summary>Expand Interface =>examples:11</summary>
         
 
 
@@ -846,6 +846,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
+
+        
+
+
+[rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
 
 </details>
     
@@ -1409,6 +1414,8 @@ flowchart LR;
     Interface--> Farskeptic.AutoCompose((Farskeptic.AutoCompose))
 
     Interface--> Minerals.AutoInterfaces((Minerals.AutoInterfaces))
+
+    Interface--> rscg_Interface_to_null_object((rscg_Interface_to_null_object))
 
     Mapper--> mapperly((mapperly))
 

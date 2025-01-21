@@ -407,7 +407,7 @@ namespace Class2Interface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface
 
-### In the same category (Interface) - 9 other generators
+### In the same category (Interface) - 10 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
@@ -432,6 +432,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetAutomaticInterface
 
 
 #### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+
+
+#### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
 
 
 #### [RSCG_Static](/docs/RSCG_Static)
