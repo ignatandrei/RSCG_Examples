@@ -3,7 +3,7 @@
       "name":"rscg_Interface_to_null_object",
       "nuget":[
          "https://www.nuget.org/packages/rscg_Interface_to_null_object/",
-         "https://www.nuget.org/packages/rscg_Interface_to_null_object_common",
+         "https://www.nuget.org/packages/rscg_Interface_to_null_object_common"
       ],
       "link":"https://github.com/ignatandrei/rscg_Interface_to_null_object/",
       "author":"Andrei Ignat",

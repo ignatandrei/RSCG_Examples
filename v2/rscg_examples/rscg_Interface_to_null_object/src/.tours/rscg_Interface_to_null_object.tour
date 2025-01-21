@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "rscg_Interface_to_null_object",
+  "steps": 
+  [
+    {
+      "file": "NullInterface/NullInterface.csproj",
+      "description": "First, we add Nuget  [rscg_Interface_to_null_object](https://www.nuget.org/packages/rscg_Interface_to_null_object/) in csproj  ",
+      "pattern": "rscg_Interface_to_null_object"
+    }
+
+        ,{
+        "file": "NullInterface/IDepartment.cs",
+        "description": "File IDepartment.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "NullInterface/IEmployee.cs",
+        "description": "File IEmployee.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "NullInterface/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project NullInterface/NullInterface.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "NullInterface/obj/GX/rscg_Interface_to_null_object/rscg_Interface_to_null_object.GenerateNullObjectFromInterface/IEmployee_null.cs",
+        "description": "Generated File 3  from 3 : IEmployee_null.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/rscg_Interface_to_null_object/rscg_Interface_to_null_object.GenerateNullObjectFromInterface/IDepartment_null.cs",
+        "description": "Generated File 2  from 3 : IDepartment_null.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/NameGenerator/NameGenerator.NameGen/TheAssemblyInfo.g.cs",
+        "description": "Generated File 1  from 3 : TheAssemblyInfo.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
