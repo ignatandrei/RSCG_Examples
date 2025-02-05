@@ -874,5 +874,21 @@
     "ID": 101,
     "name":"https://github.com/usausa/service-registration-generator",
     "why":"later"
+  },
+  {
+    "ID":102,
+    "name":"https://github.com/TarasKovalenko/EntityLengths.Generator/",
+    "why":"later"
+  }
+  ,
+  {
+    "ID":103,
+    "name":"https://github.com/connorivy/MockMe/",
+    "why":"later"
+  },
+  {
+    "ID":104,
+    "name":"https://github.com/ramhari-dev/PropGenAoT", 
+    "why":"later"
   }
 ]
