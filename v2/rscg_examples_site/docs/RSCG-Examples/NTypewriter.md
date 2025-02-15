@@ -49,7 +49,7 @@ Source : https://github.com/NeVeSpl/NTypewriter
 [![Nuget](https://img.shields.io/nuget/v/NTypewriter.SourceGenerator?color=%23004880&label=NTypewriter.SourceGenerator)](https://www.nuget.org/packages/NTypewriter.SourceGenerator)
 [![Nuget](https://img.shields.io/nuget/v/NTypewriter?color=%23004880&label=NTypewriter%20nugets)](https://www.nuget.org/packages?q=NTypewriter)
 
-![NTypewriter LivePreview](Documentation/LivePreview.gif)
+![NTypewriter LivePreview](https://github.com/NeVeSpl/NTypewriter/Documentation/LivePreview.gif)
 
 <h3 align="center">
 Scriban templates + Roslyn C# code model => generated files
@@ -67,18 +67,18 @@ With NTypewriter you can:
 - create a typed TypeScript API client for your ASP.net web API
 
 NTypewriter comes in many flavours, that can be used according to your needs:
-- [NTypewriter editor for Visual Studio](Documentation/EditorForVisualStudio.md#NTypewriter-editor-for-Visual-Studio) - extension for Visual Studio that adds support for editing *.nt templates, with syntax highlighting, code completion, live preview, design time rendering, [available on vs marketplace](https://marketplace.visualstudio.com/items?itemName=NeVeS.NTypewriterEditorForVisualStudio)   
-- [NTypewriter.SourceGenerator](Documentation/SourceGenerator.md#NTypewriterSourceGenerator) - nuget, Roslyn source generator that renders *.nt templates during compilation, since it is a compiler extension, it can be used with any IDE or CI/pipeline that supports source generators
+- [NTypewriter editor for Visual Studio](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#NTypewriter-editor-for-Visual-Studio) - extension for Visual Studio that adds support for editing *.nt templates, with syntax highlighting, code completion, live preview, design time rendering, [available on vs marketplace](https://marketplace.visualstudio.com/items?itemName=NeVeS.NTypewriterEditorForVisualStudio)   
+- [NTypewriter.SourceGenerator](https://github.com/NeVeSpl/NTypewriter/Documentation/SourceGenerator.md#NTypewriterSourceGenerator) - nuget, Roslyn source generator that renders *.nt templates during compilation, since it is a compiler extension, it can be used with any IDE or CI/pipeline that supports source generators
 - [NTypewriter.Online](https://nevespl.github.io/NTypewriter/) - blazor client side, online demo of NTypewriter capabilities
-- NTypewriter - nuget, library that enables you to create run time solution which will be able to render *.nt templates, for example: [your own CLI](Documentation/NTypewriter.md#Build-your-own-CLI)
+- NTypewriter - nuget, library that enables you to create run time solution which will be able to render *.nt templates, for example: [your own CLI](https://github.com/NeVeSpl/NTypewriter/Documentation/NTypewriter.md#Build-your-own-CLI)
 - NTypewriter.CodeModel.Roslyn - nuget, library that exposes C# code model from an instance of `Microsoft.CodeAnalysis.Compilation`, useful if you would like to use a different template engine  
 
-more about NTypewriter architecture and all extension points that can be used, you will find [here](Documentation/Architecture.md#NTypewriter-architecture)
+more about NTypewriter architecture and all extension points that can be used, you will find [here](https://github.com/NeVeSpl/NTypewriter/Documentation/Architecture.md#NTypewriter-architecture)
 
 
 <ins>For those who know Typewriter</ins>:
 
-NTypewriter is a younger and more immature brother of beloved [Typewriter](https://github.com/frhagn/Typewriter). They share the same ideas but with a completely different implementation. NTypwriter uses [Scriban](https://github.com/scriban/scriban) as a template engine, thus template files are completely not interchangeable. While code model API is about 95% compatible between them, there are some differences. NTypewriter code model is 100% pure, without any amenities that help generate TS files. All things that help  generate TypeScript from ASP.NET are located in built-in functions: [Action](Documentation/BuiltInFunctions.md#actionfunctions), [Type](Documentation/BuiltInFunctions.md#typefunctions).
+NTypewriter is a younger and more immature brother of beloved [Typewriter](https://github.com/frhagn/Typewriter). They share the same ideas but with a completely different implementation. NTypwriter uses [Scriban](https://github.com/scriban/scriban) as a template engine, thus template files are completely not interchangeable. While code model API is about 95% compatible between them, there are some differences. NTypewriter code model is 100% pure, without any amenities that help generate TS files. All things that help  generate TypeScript from ASP.NET are located in built-in functions: [Action](https://github.com/NeVeSpl/NTypewriter/Documentation/BuiltInFunctions.md#actionfunctions), [Type](https://github.com/NeVeSpl/NTypewriter/Documentation/BuiltInFunctions.md#typefunctions).
 
 Oh, did I forget to mention that NTypewriter also solves most of the awaited issues of the Typewriter that were promised for 2.0 version:
 - support for attribute properties/values, statics, indexers, default parameters, nullable, records, constructors
@@ -88,7 +88,7 @@ Oh, did I forget to mention that NTypewriter also solves most of the awaited iss
 - sharable custom functions between templates
 - full control over whitespaces
 - compile-time rendering, without any IDE needed
-- built-in support for getting all types used in type declaration ([Type.AllReferencedTypes](Documentation/BuiltInFunctions.md#allreferencedtypes))
+- built-in support for getting all types used in type declaration ([Type.AllReferencedTypes](https://github.com/NeVeSpl/NTypewriter/Documentation/BuiltInFunctions.md#allreferencedtypes))
 - you can debug custom functions
 
  
@@ -97,36 +97,36 @@ Oh, did I forget to mention that NTypewriter also solves most of the awaited iss
 * [Typewriter vs NTypewriter](#Typewriter-vs-NTypewriter)
 * [Examples: *.nt templates](#Examples)
 * Getting started
-   * [NTypewriter editor for Visual Studio](Documentation/EditorForVisualStudio.md#Getting-started)
-       * [Install](Documentation/EditorForVisualStudio.md#Install)
-       * [CodeModel](Documentation/EditorForVisualStudio.md#CodeModel)
-       * [Capture](Documentation/EditorForVisualStudio.md#Capture)       
-       * [Save](Documentation/EditorForVisualStudio.md#Save)
-       * [Run](Documentation/EditorForVisualStudio.md#Run)
-       * [When something goes wrong](Documentation/EditorForVisualStudio.md#Error)
-   * [NTypewriter.SourceGenerator](Documentation/SourceGenerator.md)
-   * [Build your own CLI](Documentation/NTypewriter.md#Build-your-own-CLI)
+   * [NTypewriter editor for Visual Studio](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Getting-started)
+       * [Install](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Install)
+       * [CodeModel](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#CodeModel)
+       * [Capture](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Capture)       
+       * [Save](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Save)
+       * [Run](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Run)
+       * [When something goes wrong](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Error)
+   * [NTypewriter.SourceGenerator](https://github.com/NeVeSpl/NTypewriter/Documentation/SourceGenerator.md)
+   * [Build your own CLI](https://github.com/NeVeSpl/NTypewriter/Documentation/NTypewriter.md#Build-your-own-CLI)
 * Documentation
    * [Template language](https://github.com/scriban/scriban/blob/master/doc/language.md)
-   * [Code model](Documentation/CodeModel.md)
-   * [Built-in functions](Documentation/BuiltInFunctions.md)   
-   * [Name vs BareName vs FullName](Documentation/NameVariants.md)
+   * [Code model](https://github.com/NeVeSpl/NTypewriter/Documentation/CodeModel.md)
+   * [Built-in functions](https://github.com/NeVeSpl/NTypewriter/Documentation/BuiltInFunctions.md)   
+   * [Name vs BareName vs FullName](https://github.com/NeVeSpl/NTypewriter/Documentation/NameVariants.md)
    * Custom Functions
-       * [Nugets](Documentation/CustomFunctions.md#Nugets)
-       * [Custom functions](Documentation/CustomFunctions.md#Custom-functions)  
-       * [How to debug](Documentation/CustomFunctions.md#How-to-debug)
+       * [Nugets](https://github.com/NeVeSpl/NTypewriter/Documentation/CustomFunctions.md#Nugets)
+       * [Custom functions](https://github.com/NeVeSpl/NTypewriter/Documentation/CustomFunctions.md#Custom-functions)  
+       * [How to debug](https://github.com/NeVeSpl/NTypewriter/Documentation/CustomFunctions.md#How-to-debug)
    * Configuration
-       * [Nugets](Documentation/Configuration.md#Nugets)
-       * [Local vs Global configuration](Documentation/Configuration.md#local-vs-global-configuration)       
+       * [Nugets](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#Nugets)
+       * [Local vs Global configuration](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#local-vs-global-configuration)       
        * Options    
-           * [AddGeneratedFilesToVSProject](Documentation/Configuration.md#AddGeneratedFilesToVSProject)
-           * [NamespacesToBeSearched](Documentation/Configuration.md#NamespacesToBeSearched)
-           * [ProjectsToBeSearched](Documentation/Configuration.md#ProjectsToBeSearched)  
-           * [SearchInReferencedProjectsAndAssemblies](Documentation/Configuration.md#SearchInReferencedProjectsAndAssemblies)   
-           * [RenderWhenTemplateIsSaved](Documentation/Configuration.md#renderwhentemplateissaved)
-           * [RenderWhenProjectBuildIsDone](Documentation/Configuration.md#RenderWhenProjectBuildIsDone)
-   * [Visual Studio Configuration](Documentation/EditorForVisualStudio.md#Configuration)
-       * [Live preview](Documentation/EditorForVisualStudio.md#Live-preview)
+           * [AddGeneratedFilesToVSProject](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#AddGeneratedFilesToVSProject)
+           * [NamespacesToBeSearched](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#NamespacesToBeSearched)
+           * [ProjectsToBeSearched](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#ProjectsToBeSearched)  
+           * [SearchInReferencedProjectsAndAssemblies](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#SearchInReferencedProjectsAndAssemblies)   
+           * [RenderWhenTemplateIsSaved](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#renderwhentemplateissaved)
+           * [RenderWhenProjectBuildIsDone](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#RenderWhenProjectBuildIsDone)
+   * [Visual Studio Configuration](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Configuration)
+       * [Live preview](https://github.com/NeVeSpl/NTypewriter/Documentation/EditorForVisualStudio.md#Live-preview)
         
 * [Known issues](#Known-issues)
 
@@ -148,17 +148,17 @@ Unit of work | file | there is no concept of a file in NTypewriter, you work on 
 Access modifiers | code model contains only public types | code model contains all types 
 Partial classes | treated as separate units | all parts of the class are treated as a whole unit
 **Automation** | 
-Auto-render template on save| yes (opt-out is possible)| [yes (opt-in is possible)](Documentation/Configuration.md#renderwhentemplateissaved)
+Auto-render template on save| yes (opt-out is possible)| [yes (opt-in is possible)](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#renderwhentemplateissaved)
 Auto-render when C# file changes| yes (opt-out is possible)| no
-Auto-render on build | no | [yes (opt-in is possible)](Documentation/Configuration.md#RenderWhenProjectBuildIsDone)
+Auto-render on build | no | [yes (opt-in is possible)](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#RenderWhenProjectBuildIsDone)
 **Custom functions** | 
 Placement|inside template file (.tst)| in separate file (*.nt.cs)|
 Can be shared|separate for every template| shared between templates inside a project |
-Can be debug|no| [yes](Documentation/CustomFunctions.md#How-to-debug) |
+Can be debug|no| [yes](https://github.com/NeVeSpl/NTypewriter/Documentation/CustomFunctions.md#How-to-debug) |
 Can be unit tested | no | yes
 **VS Integration** |
 Supported versions of Visual Studio | 2015, 2017, 2019 | 2019 ([min ver 16.11.x](https://github.com/NeVeSpl/NTypewriter/issues/55)), 2022
-Add generated files to VS project | yes (opt-out is possible) | [yes (opt-out is possible)](Documentation/Configuration.md#addgeneratedfilestovsproject)
+Add generated files to VS project | yes (opt-out is possible) | [yes (opt-out is possible)](https://github.com/NeVeSpl/NTypewriter/Documentation/Configuration.md#addgeneratedfilestovsproject)
 Sync deleted or renamed C# types with generated files | there is a part of the code that should do that  but it does not work anymore | yes (only when the above option is enabled)
 
 
