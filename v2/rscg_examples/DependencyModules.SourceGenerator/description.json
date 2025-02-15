@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"DependencyModules.SourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/DependencyModules.SourceGenerator/",
+         "https://www.nuget.org/packages/DependencyModules.Runtime/"
+         
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"DependencyModules.SourceGeneratorDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
