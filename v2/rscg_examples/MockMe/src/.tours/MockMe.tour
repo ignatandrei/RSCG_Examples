@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MockMe",
+  "steps": 
+  [
+    {
+      "file": "TestClock/TestClock.csproj",
+      "description": "First, we add Nuget  [MockMe](https://www.nuget.org/packages/MockMe/) in csproj  ",
+      "pattern": "MockMe"
+    }
+
+        ,{
+        "file": "TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "TestClock/obj/GX/MockMe.Generator/MockMe.Generator.MockStoreGenerator/MyClockMock.g.cs",
+        "description": "Generated File 4  from 4 : MyClockMock.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestClock/obj/GX/MockMe.Generator/MockMe.Generator.MockStoreGenerator/Mock.g.cs",
+        "description": "Generated File 3  from 4 : Mock.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestClock/obj/GX/MockMe.Generator/MockMe.Generator.MockStoreGenerator/Mock.DummyDeclaration.g.cs",
+        "description": "Generated File 2  from 4 : Mock.DummyDeclaration.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "TestClock/obj/GX/MockMe.Generator/MockMe.Generator.MockStoreGenerator/AssemblyAttributes.g.cs",
+        "description": "Generated File 1  from 4 : AssemblyAttributes.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
