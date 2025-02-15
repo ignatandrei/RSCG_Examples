@@ -243,7 +243,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 ```csharp showLineNumbers 
-// Generated from mixin\IDName.mixin at 2024-09-22 18:53:00 UTC
+// Generated from mixin\IDName.mixin at 2024-05-11 16:36:04 UTC
 namespace MorrisMoxyDemo
 {
     
@@ -263,7 +263,7 @@ namespace MorrisMoxyDemo
 
 
 ```csharp showLineNumbers 
-// Generated at 2024-09-22 18:53:00 UTC
+// Generated at 2024-05-11 16:36:06 UTC
 namespace MorrisMoxyDemo
 {
   partial class Department
@@ -282,7 +282,7 @@ namespace MorrisMoxyDemo
 
 
 ```csharp showLineNumbers 
-// Generated at 2024-09-22 18:53:01 UTC
+// Generated at 2024-05-11 16:36:06 UTC
 namespace MorrisMoxyDemo
 {
   partial class Employee
@@ -321,7 +321,7 @@ namespace MorrisMoxyDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 
-### In the same category (Templating) - 10 other generators
+### In the same category (Templating) - 11 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -337,6 +337,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/MorrisMoxy
 
 
 #### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+
+
+#### [NTypewriter](/docs/NTypewriter)
 
 
 #### [RazorBlade](/docs/RazorBlade)

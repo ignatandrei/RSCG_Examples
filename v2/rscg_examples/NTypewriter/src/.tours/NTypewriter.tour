@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NTypewriter",
+  "steps": 
+  [
+    {
+      "file": "DemoTemplateConsole/DemoTemplateConsole.csproj",
+      "description": "First, we add Nuget  [NTypewriter.SourceGenerator](https://www.nuget.org/packages/NTypewriter.SourceGenerator) in csproj  ",
+      "pattern": "NTypewriter.SourceGenerator"
+    }
+
+        ,{
+        "file": "DemoTemplateConsole/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoTemplateConsole/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoTemplateConsole/DemoTemplateConsole.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoTemplateConsole/obj/GX/NTypewriter.SourceGenerator/NTypewriter.SourceGenerator.NTypewriterSourceGenerator/diagnostics-sg-last-run.g.cs",
+        "description": "Generated File 2  from 2 : diagnostics-sg-last-run.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoTemplateConsole/obj/GX/NTypewriter.SourceGenerator/NTypewriter.SourceGenerator.NTypewriterSourceGenerator/diagnostics-initialization.g.cs",
+        "description": "Generated File 1  from 2 : diagnostics-initialization.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

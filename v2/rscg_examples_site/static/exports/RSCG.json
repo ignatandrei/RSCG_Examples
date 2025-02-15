@@ -1457,6 +1457,14 @@
       "Source": "https://github.com/ignatandrei/rscg_Interface_to_null_object/",
       "Category": "Interface",
       "AddedOn": "2025-01-18T00:00:00"
+    },
+    {
+      "Name": "NTypewriter",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NTypewriter",
+      "NuGet": "https://www.nuget.org/packages/NTypewriter.SourceGenerator",
+      "Source": "https://github.com/NeVeSpl/NTypewriter",
+      "Category": "Templating",
+      "AddedOn": "2025-01-19T00:00:00"
     }
   ]
 }

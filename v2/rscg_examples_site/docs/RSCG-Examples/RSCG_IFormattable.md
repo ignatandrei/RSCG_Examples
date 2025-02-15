@@ -234,7 +234,7 @@ namespace RSCG_IFormattableDemo {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable
 
-### In the same category (Templating) - 10 other generators
+### In the same category (Templating) - 11 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -253,6 +253,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_IFormattable
 
 
 #### [MorrisMoxy](/docs/MorrisMoxy)
+
+
+#### [NTypewriter](/docs/NTypewriter)
 
 
 #### [RazorBlade](/docs/RazorBlade)

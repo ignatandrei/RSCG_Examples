@@ -1,6 +1,6 @@
 <h1>Templating</h1>
 
-Number RSCG: 11
+Number RSCG: 12
 
    1 [Gobie](/docs/Gobie)
 
@@ -14,13 +14,15 @@ Number RSCG: 11
 
    6 [MorrisMoxy](/docs/MorrisMoxy)
 
-   7 [RazorBlade](/docs/RazorBlade)
+   7 [NTypewriter](/docs/NTypewriter)
 
-   8 [RazorSlices](/docs/RazorSlices)
+   8 [RazorBlade](/docs/RazorBlade)
 
-   9 [RSCG_IFormattable](/docs/RSCG_IFormattable)
+   9 [RazorSlices](/docs/RazorSlices)
 
-   10 [RSCG_Templating](/docs/RSCG_Templating)
+   10 [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
-   11 [spreadcheetah](/docs/spreadcheetah)
+   11 [RSCG_Templating](/docs/RSCG_Templating)
+
+   12 [spreadcheetah](/docs/spreadcheetah)
     

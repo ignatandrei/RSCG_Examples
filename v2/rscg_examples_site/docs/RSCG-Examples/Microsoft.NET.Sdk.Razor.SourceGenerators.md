@@ -1227,7 +1227,7 @@ using RazorAppDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators
 
-### In the same category (Templating) - 10 other generators
+### In the same category (Templating) - 11 other generators
 
 
 #### [Gobie](/docs/Gobie)
@@ -1243,6 +1243,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.Sour
 
 
 #### [MorrisMoxy](/docs/MorrisMoxy)
+
+
+#### [NTypewriter](/docs/NTypewriter)
 
 
 #### [RazorBlade](/docs/RazorBlade)

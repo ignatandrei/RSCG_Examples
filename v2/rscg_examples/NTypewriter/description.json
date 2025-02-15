@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"NTypewriter",
+      "nuget":[
+         "https://www.nuget.org/packages/NTypewriter.SourceGenerator"
+      ],
+      "link":"https://github.com/NeVeSpl/NTypewriter",
+      "author":"NeVeSpl",
+      "source":"https://github.com/NeVeSpl/NTypewriter"
+   },
+   "data":{
+      "goodFor":["Generating code with a template from classes in project"],
+      "csprojDemo":"DemoTemplateConsole.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

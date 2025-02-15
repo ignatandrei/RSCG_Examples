@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 182 RSCG list by category
-description: 182 RSCG list by category
+title: 183 RSCG list by category
+description: 183 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1032,7 +1032,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:11</summary>
+  <summary>Expand Templating =>examples:12</summary>
         
 
 
@@ -1087,6 +1087,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RazorSlices](/docs/RazorSlices)
+
+        
+
+
+[NTypewriter](/docs/NTypewriter)
 
 </details>
     
@@ -1488,6 +1493,8 @@ flowchart LR;
     Templating--> JKToolKit.TemplatePropertyGenerator((JKToolKit.TemplatePropertyGenerator))
 
     Templating--> RazorSlices((RazorSlices))
+
+    Templating--> NTypewriter((NTypewriter))
 
     Tests--> Rocks((Rocks))
 
