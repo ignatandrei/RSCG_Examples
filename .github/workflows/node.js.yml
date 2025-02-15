@@ -37,7 +37,7 @@ jobs:
         npm run build 
         
     - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.1.2
+      uses: actions/upload-artifact@v4.6.0
       with:
         name: docsv2
         path: 'v2/rscg_examples_site/build/*'
