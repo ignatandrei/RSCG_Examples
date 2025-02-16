@@ -885,5 +885,42 @@
     "ID":194,
     "name":"https://github.com/ramhari-dev/PropGenAoT", 
     "why":"later"
+  },
+  {
+    "ID":195,
+    "name":"https://github.com/dimohy/GenPack",
+    "why":"later"
+  },
+  {
+    "ID":196,
+    "name":"https://github.com/inputfalken/Dynatello",
+    "why":"later"
+  },
+  {
+    "ID":197,
+    "name":"https://github.com/borisdj/CsCodeGenerator",
+    "why":"later" 
+  },
+  {
+    "ID":198,
+    "name":"https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator",
+    "why":"later" 
+  },
+  {
+    "ID":199,
+    "name":"https://github.com/hughesjs/SuperFluid",  
+    "why":"later"
+  },
+  {
+    "ID":200,
+    "name":"https://github.com/TarasKovalenko/EntityLengths.Generator",
+    "why":"later"
+  },
+  {
+    "ID":201,
+    "name":"https://github.com/stbychkov/AutoLoggerMessage",
+    "why":"later"
   }
+
+
 ]
