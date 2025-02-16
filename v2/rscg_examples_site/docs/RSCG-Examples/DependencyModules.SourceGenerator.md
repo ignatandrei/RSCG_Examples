@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1840
-title: 184 - DependencyModules.SourceGenerator
+sidebar_position: 1850
+title: 185 - DependencyModules.SourceGenerator
 description: Generating service dependencies from attributes. 
 slug: /DependencyModules.SourceGenerator
 ---
