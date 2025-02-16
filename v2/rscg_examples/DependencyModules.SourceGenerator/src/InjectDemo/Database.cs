@@ -1,7 +1,7 @@
 ﻿using DependencyModules.Runtime.Attributes;
 
 namespace InjectDemo;
-[SingletonService]
+[SingletonService(ServiceType = typeof(Database))]
 partial class Database : IDatabase
 {
     private readonly IDatabase con;

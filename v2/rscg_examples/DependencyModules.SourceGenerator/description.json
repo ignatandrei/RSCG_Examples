@@ -6,14 +6,15 @@
          "https://www.nuget.org/packages/DependencyModules.Runtime/"
          
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/ipjohnson/DependencyModules",
+      "author":"Ian Johnson",
+      "source":"https://github.com/ipjohnson/DependencyModules"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Generating service dependencies from attributes. ",
+               "Also,by the author, a more advanced example you will find in the DemoWithTest.zip inside the zip file"],
       "csprojDemo":"DependencyModules.SourceGeneratorDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","MyModule.cs","IDatabase.cs","Database.cs","DatabaseCon.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

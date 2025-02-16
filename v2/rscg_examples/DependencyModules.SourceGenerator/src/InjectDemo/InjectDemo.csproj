@@ -11,7 +11,9 @@
 		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
 	</PropertyGroup>
 	<ItemGroup>
-	  <PackageReference Include="DependencyModules.Runtime" Version="1.0.0-RC9072" />
-	  <PackageReference Include="DependencyModules.SourceGenerator" Version="1.0.0-RC9072" />
+	  <PackageReference Include="DependencyModules.Runtime" Version="1.0.0-RC9074" />
+	  <PackageReference Include="DependencyModules.SourceGenerator" Version="1.0.0-RC9074" />
+	 <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
+
 	</ItemGroup>
 </Project>

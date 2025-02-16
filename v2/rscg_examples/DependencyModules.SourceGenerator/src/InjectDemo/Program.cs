@@ -5,8 +5,13 @@ using Microsoft.Extensions.DependencyInjection;
 
 var serviceCollection = new ServiceCollection();
 
-//serviceCollection.AddModule<MyModule>();
+serviceCollection.AddModule<MyModule>();
 
-//var provider = serviceCollection.BuildServiceProvider();
+var provider = serviceCollection.BuildServiceProvider();
 
-//var service = provider.GetService<Database>();
+var service = provider.GetService<Database>();
+
+if(service == null)
+    throw new Exception("Service not found");
+else
+    service.Open();
