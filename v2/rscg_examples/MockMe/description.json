@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MockMe",
+      "nuget":[
+         "https://www.nuget.org/packages/MockMe/"
+      ],
+      "link":"https://github.com/connorivy/MockMe/",
+      "author":"connorivy",
+      "source":"https://github.com/connorivy/MockMe/"
+   },
+   "data":{
+      "goodFor":["Creating mocks for testing classes"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["TestClock.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1467,12 +1467,12 @@
       "AddedOn": "2025-01-19T00:00:00"
     },
     {
-      "Name": "DependencyModules.SourceGenerator",
-      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator",
-      "NuGet": "https://www.nuget.org/packages/DependencyModules.SourceGenerator/",
-      "Source": "https://github.com/ipjohnson/DependencyModules",
-      "Category": "DependencyInjection",
-      "AddedOn": "2025-02-16T00:00:00"
+      "Name": "MockMe",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MockMe",
+      "NuGet": "https://www.nuget.org/packages/MockMe/",
+      "Source": "https://github.com/connorivy/MockMe/",
+      "Category": "Tests",
+      "AddedOn": "2025-02-10T00:00:00"
     }
   ]
 }
