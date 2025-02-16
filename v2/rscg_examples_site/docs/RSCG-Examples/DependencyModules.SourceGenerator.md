@@ -219,7 +219,7 @@ public class OtherServiceTests
 
 Behind the scenes the library generates registration code that can be used with any `IServiceCollection` compatible DI container.
 
-Example generated code for [SutModule.cs](integ-tests/SutProject/SutModule.cs)
+Example generated code for [SutModule.cs](https://github.com/ipjohnson/DependencyModules/integ-tests/SutProject/SutModule.cs)
 ```csharp
     // SutModule.Dependencies.g.cs
     public partial class SutModule
