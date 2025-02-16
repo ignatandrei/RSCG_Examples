@@ -1,6 +1,6 @@
-# RSCG - 184 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 185 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-02-10 => 10 February 2025
+## Latest Update : 2025-02-16 => 16 February 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 184 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 185 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 185. [DependencyModules.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
+
+Generated on : 2025-02-16 => 16 February 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ian Johnson
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/DependencyModules.SourceGenerator/](https://www.nuget.org/packages/DependencyModules.SourceGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator)
+
+Source: [https://github.com/ipjohnson/DependencyModules](https://github.com/ipjohnson/DependencyModules)
+
+</details>
+
 ### 184. [MockMe](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MockMe) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
 
 Generated on : 2025-02-10 => 10 February 2025

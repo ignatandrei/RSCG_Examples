@@ -975,10 +975,13 @@ internal partial class MyServiceProvider : global::System.IDisposable,
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/jab
 
-### In the same category (DependencyInjection) - 6 other generators
+### In the same category (DependencyInjection) - 7 other generators
 
 
 #### [AutoRegisterInject](/docs/AutoRegisterInject)
+
+
+#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
 
 
 #### [depso](/docs/depso)

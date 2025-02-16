@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "DependencyModules.SourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [DependencyModules.SourceGenerator](https://www.nuget.org/packages/DependencyModules.SourceGenerator/) in csproj  ",
+      "pattern": "DependencyModules.SourceGenerator"
+    }
+
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/IDatabase.cs",
+        "description": "File IDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/MyModule.cs",
+        "description": "File MyModule.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/DependencyModules.SourceGenerator/DependencyModules.SourceGenerator.SourceGenerator/MyModule.858.Module.g.cs",
+        "description": "Generated File 2  from 2 : MyModule.858.Module.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/DependencyModules.SourceGenerator/DependencyModules.SourceGenerator.SourceGenerator/MyModule.858.Dependencies.g.cs",
+        "description": "Generated File 1  from 2 : MyModule.858.Dependencies.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

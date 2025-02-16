@@ -846,10 +846,13 @@ public partial class MyServiceProvider
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/depso
 
-### In the same category (DependencyInjection) - 6 other generators
+### In the same category (DependencyInjection) - 7 other generators
 
 
 #### [AutoRegisterInject](/docs/AutoRegisterInject)
+
+
+#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
 
 
 #### [FactoryGenerator](/docs/FactoryGenerator)
