@@ -470,10 +470,13 @@ namespace Microsoft.Extensions.DependencyInjection
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio
 
-### In the same category (DependencyInjection) - 6 other generators
+### In the same category (DependencyInjection) - 7 other generators
 
 
 #### [AutoRegisterInject](/docs/AutoRegisterInject)
+
+
+#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
 
 
 #### [depso](/docs/depso)

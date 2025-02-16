@@ -1465,6 +1465,14 @@
       "Source": "https://github.com/NeVeSpl/NTypewriter",
       "Category": "Templating",
       "AddedOn": "2025-01-19T00:00:00"
+    },
+    {
+      "Name": "DependencyModules.SourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/DependencyModules.SourceGenerator/",
+      "Source": "https://github.com/ipjohnson/DependencyModules",
+      "Category": "DependencyInjection",
+      "AddedOn": "2025-02-16T00:00:00"
     }
   ]
 }

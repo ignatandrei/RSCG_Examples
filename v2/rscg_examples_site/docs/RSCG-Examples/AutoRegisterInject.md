@@ -384,7 +384,10 @@ serviceCollection.AddSingleton<AutoRegisterInjectDemo.DatabaseCon>();
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoRegisterInject
 
-### In the same category (DependencyInjection) - 6 other generators
+### In the same category (DependencyInjection) - 7 other generators
+
+
+#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
 
 
 #### [depso](/docs/depso)

@@ -873,10 +873,13 @@ public sealed partial class LifetimeScope : IContainer
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator
 
-### In the same category (DependencyInjection) - 6 other generators
+### In the same category (DependencyInjection) - 7 other generators
 
 
 #### [AutoRegisterInject](/docs/AutoRegisterInject)
+
+
+#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
 
 
 #### [depso](/docs/depso)
