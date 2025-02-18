@@ -1,6 +1,6 @@
-# RSCG - 185 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 186 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-02-16 => 16 February 2025
+## Latest Update : 2025-02-18 => 18 February 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 185 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 186 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 186. [RSCG_CompositeProvider](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_CompositeProvider) , in the [Interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface) category 
+
+Generated on : 2025-02-18 => 18 February 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ignat Andrei
+
+Interface to null object - common 
+
+Nuget: [https://www.nuget.org/packages/RSCG_CompositeProvider/](https://www.nuget.org/packages/RSCG_CompositeProvider/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_CompositeProvider](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_CompositeProvider)
+
+Source: [https://github.com/ignatandrei/RSCG_CompositeProvider](https://github.com/ignatandrei/RSCG_CompositeProvider)
+
+</details>
+
 ### 185. [DependencyModules.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator) , in the [DependencyInjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection) category 
 
 Generated on : 2025-02-16 => 16 February 2025

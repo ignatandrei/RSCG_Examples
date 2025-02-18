@@ -233,11 +233,11 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
                         
                         public static readonly System.DateTime DateGeneratedUTC ;
                         public const string AssemblyName = "NullInterface";
-                        public const string GeneratedNameNice = "Olga Tokarczuk is feeling quick-witted in Quito";
-                        public const string GeneratedNameSmall = "quick-witted-Olga Tokarczuk";
-                        public const string GeneratedName = "quick-witted-Olga Tokarczuk-Quito";
+                        public const string GeneratedNameNice = "Nadine Gordimer is feeling rational in Seoul";
+                        public const string GeneratedNameSmall = "rational-Nadine Gordimer";
+                        public const string GeneratedName = "rational-Nadine Gordimer-Seoul";
                         static TheAssemblyInfo(){
-                            DateGeneratedUTC = System.DateTime.ParseExact("2025-02-15 15:42:10", "yyyy-MM-dd HH:mm:ss", null);
+                            DateGeneratedUTC = System.DateTime.ParseExact("2025-01-21 13:29:00", "yyyy-MM-dd HH:mm:ss", null);
                         }
                     }
                 }
@@ -352,7 +352,7 @@ public partial class Employee_null : global::NullInterface.IEmployee
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_Interface_to_null_object
 
-### In the same category (Interface) - 10 other generators
+### In the same category (Interface) - 11 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
@@ -380,6 +380,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_Interface_to_null_objec
 
 
 #### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+
+
+#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
 
 
 #### [RSCG_Static](/docs/RSCG_Static)

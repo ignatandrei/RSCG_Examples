@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_CompositeProvider",
+  "steps": 
+  [
+    {
+      "file": "CP_Console/CP_Console.csproj",
+      "description": "First, we add Nuget  [RSCG_CompositeProvider](https://www.nuget.org/packages/RSCG_CompositeProvider/) in csproj  ",
+      "pattern": "RSCG_CompositeProvider"
+    }
+
+        ,{
+        "file": "CP_Console/DataFromHttp.cs",
+        "description": "File DataFromHttp.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CP_Console/IDataValue.cs",
+        "description": "File IDataValue.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CP_Console/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CP_Console/CP_Console.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CP_Console/obj/GX/RSCG_CompositeProvider/RSCG_CompositeProvider.ToCompositeProvider/IDataValue_cp.cs",
+        "description": "Generated File 1  from 1 : IDataValue_cp.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

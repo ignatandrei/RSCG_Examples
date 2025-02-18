@@ -184,3 +184,4 @@ Nr,Key,Source,Category
 183,NTypewriter, https://github.com/NeVeSpl/NTypewriter,Templating
 184,MockMe, https://github.com/connorivy/MockMe/,Tests
 185,DependencyModules.SourceGenerator, https://github.com/ipjohnson/DependencyModules,DependencyInjection
+186,RSCG_CompositeProvider, https://github.com/ignatandrei/RSCG_CompositeProvider,Interface

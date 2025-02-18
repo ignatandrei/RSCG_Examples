@@ -547,7 +547,7 @@ internal partial class CoffeeWithLogging
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat
 
-### In the same category (Interface) - 10 other generators
+### In the same category (Interface) - 11 other generators
 
 
 #### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
@@ -572,6 +572,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyCat
 
 
 #### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+
+
+#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
 
 
 #### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
