@@ -191,7 +191,7 @@ namespace System.Runtime.CompilerServices
     using System;
     using System.CodeDom.Compiler;
 
-    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.10.6711")]
+    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.10.36612")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
     file sealed class InterceptsLocationAttribute : Attribute
     {
@@ -212,7 +212,7 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
     using System.Globalization;
     using System.Runtime.CompilerServices;
 
-    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.10.6711")]
+    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.10.36612")]
     file static class BindingExtensions
     {
         #region OptionsBuilder<TOptions> extensions.

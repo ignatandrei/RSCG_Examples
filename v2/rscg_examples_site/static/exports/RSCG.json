@@ -1481,6 +1481,14 @@
       "Source": "https://github.com/ipjohnson/DependencyModules",
       "Category": "DependencyInjection",
       "AddedOn": "2025-02-16T00:00:00"
+    },
+    {
+      "Name": "RSCG_CompositeProvider",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_CompositeProvider",
+      "NuGet": "https://www.nuget.org/packages/RSCG_CompositeProvider/",
+      "Source": "https://github.com/ignatandrei/RSCG_CompositeProvider",
+      "Category": "Interface",
+      "AddedOn": "2025-02-18T00:00:00"
     }
   ]
 }

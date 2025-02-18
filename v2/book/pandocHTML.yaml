@@ -198,6 +198,8 @@ input-files:
 - examples/rscg_Interface_to_null_object.html
 - examples/NTypewriter.html
 - examples/MockMe.html
+- examples/DependencyModules.SourceGenerator.html
+- examples/RSCG_CompositeProvider.html
 
 # or you may use input-file: with a single value
 # defaults:

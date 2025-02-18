@@ -403,14 +403,14 @@ namespace PolyType.SourceGenerator
             if (type == typeof(global::ConsoleApp1.Person[]))
                 return Person_Array;
             
+            if (type == typeof(int))
+                return Int32;
+            
             if (type == typeof(string))
                 return String;
             
             if (type == typeof(global::ConsoleApp1.Person))
                 return Person;
-            
-            if (type == typeof(int))
-                return Int32;
             
             return null;
         }

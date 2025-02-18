@@ -1,6 +1,6 @@
 <h1>Interface</h1>
 
-Number RSCG: 11
+Number RSCG: 12
 
    1 [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
@@ -20,7 +20,9 @@ Number RSCG: 11
 
    9 [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
-   10 [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
+   10 [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
 
-   11 [RSCG_Static](/docs/RSCG_Static)
+   11 [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
+
+   12 [RSCG_Static](/docs/RSCG_Static)
     

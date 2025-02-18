@@ -256,7 +256,7 @@ namespace FromInterface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 
-### In the same category (Interface) - 10 other generators
+### In the same category (Interface) - 11 other generators
 
 
 #### [CopyCat](/docs/CopyCat)
@@ -281,6 +281,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Biwen.AutoClassGen
 
 
 #### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+
+
+#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
 
 
 #### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)

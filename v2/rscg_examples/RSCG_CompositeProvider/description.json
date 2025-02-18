@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"RSCG_CompositeProvider",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_CompositeProvider/",
+         "https://www.nuget.org/packages/RSCG_CompositeProvider_common/"
+
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_CompositeProvider",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_CompositeProvider"
+   },
+   "data":{
+      "goodFor":["Generate composite class from interface, using multiple sources"],
+      "csprojDemo":"CP_Console.csproj",
+      "csFiles":["Program.cs","IDataValue.cs","DataFromHttp.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
