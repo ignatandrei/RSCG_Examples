@@ -1,0 +1,22 @@
+﻿# Just later
+
+## Latest Update : {{LatestUpdate | date.to_string '%F => %d %B %Y' }}
+
+
+
+## This are to be done later
+
+<details>
+  <summary>Expand</summary>
+
+{{~ for descNoExample in rscgNoExamplesOld ~}} 
+
+{{for.index+1}}) [{{descNoExample.NameRSCG}}]( {{descNoExample.SiteRSCG}}) , {{descNoExample.SiteRSCG}} 
+
+Why I have not tested : {{descNoExample.why}}
+
+
+{{~ end ~}}
+
+</details>
+

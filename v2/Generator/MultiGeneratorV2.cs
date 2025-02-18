@@ -919,6 +919,7 @@ public class MultiGeneratorV2
     {
         oldDesc = oldDesc.Where(ut => ut != null).ToArray();
         var readMe = Path.Combine(rootPath, "..", "README.md");
+        var later = Path.Combine(rootPath, "..", "later.md");
         var template = await File.ReadAllTextAsync("frontReadmeNew.txt");
         var templateScriban = Scriban.Template.Parse(template);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
@@ -947,8 +948,30 @@ public class MultiGeneratorV2
             },
             member => member.Name); 
         await File.WriteAllTextAsync(readMe, output);
+
+        var templateLater = await File.ReadAllTextAsync("later.txt");
+        var templateLaterScriban = Scriban.Template.Parse(templateLater);
+        var outputLater = templateLaterScriban.Render(
+            new
+            {
+                nrNoExamples = rscgNoExamples.Length,
+                rscgNoExamples = rscgNoExamples.Where(it => !notShow.Contains(it.why)).ToArray(),
+                nrOld = rscgNoExamples.Where(it => notShow.Contains(it.why)).Count(),
+                rscgNoExamplesOld = rscgNoExamples.Where(it => it.why == "later").ToArray(),
+                oldDesc,
+                nr = _AllDescriptions.Length,
+                all = _AllDescriptions,
+                MSFT_RSCG = MicrosoftRSCG,
+                MSFT_RSCG_NR = MicrosoftRSCG.Length,
+                LatestUpdate = _AllDescriptions.Max(it => it!.GeneratorData!.dtStart),
+                categories,
+            },
+            member => member.Name);
+        await File.WriteAllTextAsync(later, outputLater);
+
+
     }
-    
+
 
     internal async Task<long> GenerateMSFT()
     {

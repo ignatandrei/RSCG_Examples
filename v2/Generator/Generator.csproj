@@ -35,6 +35,9 @@
     <None Remove="RSCG_List.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="later.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="frontReadmeNew.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
