@@ -11,6 +11,18 @@
     }
 
         ,{
+        "file": "EntityDemo/DotNetStatsContext.cs",
+        "description": "File DotNetStatsContext.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EntityDemo/globals.cs",
+        "description": "File globals.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "EntityDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project EntityDemo/EntityDemo.csproj ",
         "pattern": "this is the code"

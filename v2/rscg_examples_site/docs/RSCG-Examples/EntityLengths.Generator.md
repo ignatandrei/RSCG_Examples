@@ -319,6 +319,76 @@ Console.WriteLine("The max length of the Name property of the Project entity is:
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EntityLengths.Generator\src\EntityDemo\globals.cs" label="globals.cs" >
+
+  This is the use of **EntityLengths.Generator** in *globals.cs*
+
+```csharp showLineNumbers 
+global using Microsoft.EntityFrameworkCore;
+global using Stats.Database;
+using EntityLengths.Generator.Configuration;
+
+[assembly: EntityLengthsGenerator(
+    GenerateDocumentation = false,
+    GeneratedClassName = "Constants",
+    LengthSuffix = "Length",
+    IncludeNamespaces = ["Stats.Database"],
+    ExcludeNamespaces = [],
+    ScanNestedNamespaces = true,
+    ScanEntitySuffix = null,
+    Namespace = "Stats.Database"
+)]
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EntityLengths.Generator\src\EntityDemo\DotNetStatsContext.cs" label="DotNetStatsContext.cs" >
+
+  This is the use of **EntityLengths.Generator** in *DotNetStatsContext.cs*
+
+```csharp showLineNumbers 
+
+namespace Stats.Database;
+public partial class DotNetStatsContext : DbContext
+{
+    internal DotNetStatsContext() : base() { }
+    public DotNetStatsContext(DbContextOptions<DotNetStatsContext> options)
+        : base(options)
+    {
+        
+    }
+    
+    public virtual DbSet<Project> Projects { get; set; }
+
+    public virtual DbSet<Star> Stars { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Project>(entity =>
+        {
+            entity.ToTable("Project");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Description).HasMaxLength(500);
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.SourceCodeUrl).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<Star>(entity =>
+        {
+            entity.Property(e => e.Id)
+                .HasColumnName("ID");
+            entity.Property(e => e.Idproject).HasColumnName("IDProject");
+        });
+
+        OnModelCreatingPartial(modelBuilder);
+    }
+
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+}
+
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files
