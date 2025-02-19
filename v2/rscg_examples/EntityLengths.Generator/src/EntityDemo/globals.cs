@@ -10,5 +10,5 @@ using EntityLengths.Generator.Configuration;
     ExcludeNamespaces = [],
     ScanNestedNamespaces = true,
     ScanEntitySuffix = null,
-    Namespace = "EntityLengths.Generator.Sample"
+    Namespace = "Stats.Database"
 )]
