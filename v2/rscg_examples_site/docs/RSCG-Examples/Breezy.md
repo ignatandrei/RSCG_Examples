@@ -980,10 +980,13 @@ public sealed class TableAttribute : Attribute
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Breezy
 
-### In the same category (Database) - 3 other generators
+### In the same category (Database) - 4 other generators
 
 
 #### [Dapper.AOT](/docs/Dapper.AOT)
+
+
+#### [EntityLengths.Generator](/docs/EntityLengths.Generator)
 
 
 #### [Gedaq](/docs/Gedaq)

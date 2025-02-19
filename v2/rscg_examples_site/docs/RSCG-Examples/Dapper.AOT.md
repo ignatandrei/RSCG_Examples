@@ -352,10 +352,13 @@ namespace System.Runtime.CompilerServices
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dapper.AOT
 
-### In the same category (Database) - 3 other generators
+### In the same category (Database) - 4 other generators
 
 
 #### [Breezy](/docs/Breezy)
+
+
+#### [EntityLengths.Generator](/docs/EntityLengths.Generator)
 
 
 #### [Gedaq](/docs/Gedaq)

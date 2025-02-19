@@ -1,0 +1,1 @@
+A C# source generator that automatically generates string length constants from Entity Framework configurations and data annotations.

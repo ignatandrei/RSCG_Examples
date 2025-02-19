@@ -874,11 +874,6 @@
     "ID": 191,
     "name":"https://github.com/usausa/service-registration-generator",
     "why":"later"
-  },
-  {
-    "ID":192,
-    "name":"https://github.com/TarasKovalenko/EntityLengths.Generator/",
-    "why":"later"
   }
   ,
   {
@@ -899,11 +894,6 @@
   {
     "ID":197,
     "name":"https://github.com/borisdj/CsCodeGenerator",
-    "why":"later" 
-  },
-  {
-    "ID":198,
-    "name":"https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator",
     "why":"later" 
   },
   {

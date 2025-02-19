@@ -1489,6 +1489,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_CompositeProvider",
       "Category": "Interface",
       "AddedOn": "2025-02-18T00:00:00"
+    },
+    {
+      "Name": "EntityLengths.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EntityLengths.Generator",
+      "NuGet": "https://www.nuget.org/packages/EntityLengths.Generator/",
+      "Source": "https://github.com/TarasKovalenko/EntityLengths.Generator/",
+      "Category": "Database",
+      "AddedOn": "2025-02-19T00:00:00"
     }
   ]
 }

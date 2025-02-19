@@ -2551,13 +2551,16 @@ WHERE
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gedaq
 
-### In the same category (Database) - 3 other generators
+### In the same category (Database) - 4 other generators
 
 
 #### [Breezy](/docs/Breezy)
 
 
 #### [Dapper.AOT](/docs/Dapper.AOT)
+
+
+#### [EntityLengths.Generator](/docs/EntityLengths.Generator)
 
 
 #### [TableStorage](/docs/TableStorage)

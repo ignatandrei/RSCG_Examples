@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"EntityLengths.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/EntityLengths.Generator/"
+      ],
+      "link":"https://github.com/TarasKovalenko/EntityLengths.Generator/",
+      "author":"Taras Kovalenko",
+      "source":"https://github.com/TarasKovalenko/EntityLengths.Generator/"
+   },
+   "data":{
+      "goodFor":["Generating constants for max length for properties in entities"],
+      "csprojDemo":"EntityDemo.csproj",
+      "csFiles":["Program.cs","globals.cs","DotNetStatsContext.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
