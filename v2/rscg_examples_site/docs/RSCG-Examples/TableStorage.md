@@ -597,13 +597,16 @@ namespace test
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage
 
-### In the same category (Database) - 3 other generators
+### In the same category (Database) - 4 other generators
 
 
 #### [Breezy](/docs/Breezy)
 
 
 #### [Dapper.AOT](/docs/Dapper.AOT)
+
+
+#### [EntityLengths.Generator](/docs/EntityLengths.Generator)
 
 
 #### [Gedaq](/docs/Gedaq)

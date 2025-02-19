@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "EntityLengths.Generator",
+  "steps": 
+  [
+    {
+      "file": "EntityDemo/EntityDemo.csproj",
+      "description": "First, we add Nuget  [EntityLengths.Generator](https://www.nuget.org/packages/EntityLengths.Generator/) in csproj  ",
+      "pattern": "EntityLengths.Generator"
+    }
+
+        ,{
+        "file": "EntityDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EntityDemo/EntityDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EntityDemo/obj/GX/EntityLengths.Generator/EntityLengths.Generator.EntityMaxLengthGenerator/Constants.g.cs",
+        "description": "Generated File 1  from 1 : Constants.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

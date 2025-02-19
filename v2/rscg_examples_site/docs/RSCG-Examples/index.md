@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 186 RSCG list by category
-description: 186 RSCG list by category
+title: 187 RSCG list by category
+description: 187 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -231,7 +231,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:4</summary>
+  <summary>Expand Database =>examples:5</summary>
         
 
 
@@ -251,6 +251,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Dapper.AOT](/docs/Dapper.AOT)
+
+        
+
+
+[EntityLengths.Generator](/docs/EntityLengths.Generator)
 
 </details>
     
@@ -1224,6 +1229,8 @@ flowchart LR;
     Database--> TableStorage((TableStorage))
 
     Database--> Dapper.AOT((Dapper.AOT))
+
+    Database--> EntityLengths.Generator((EntityLengths.Generator))
 
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 
