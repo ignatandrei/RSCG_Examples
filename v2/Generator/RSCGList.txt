@@ -29,7 +29,7 @@ inDescOrder =  all  | array.sort "ReverseNr"
 {{~ for desc in inDescOrder ~}} 
 {{~ isMsft= (desc.Generator.Author == "Microsoft")?"by Microsoft":"" ~}}
 {{~ isMsft= "by " + desc.Generator.Author  ~}}
-|{{desc.Nr}}| [{{desc.Generator.Name}} {{isMsft}} ](/docs/{{desc.Generator.Name}})|{{desc.generatedDate  | date.to_string '%F => %d %B %Y' }} | {{desc.GeneratorData.Category}} |
+|{{desc.Nr}}| [{{desc.Generator.Name}} {{isMsft}} ](/docs/{{desc.Generator.Name}})|{{desc.generatedDate  | date.to_string '%F => %d %B %Y' }} | [{{desc.GeneratorData.Category}}](/docs/Categories/{{desc.GeneratorData.Category}}) |
 {{~ end ~}}
 
 ## {{nrMSFT}} Created by Microsoft 

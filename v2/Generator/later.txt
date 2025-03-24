@@ -6,8 +6,6 @@
 
 ## This are to be done later
 
-<details>
-  <summary>Expand</summary>
 
 {{~ for descNoExample in rscgNoExamplesOld ~}} 
 
@@ -18,5 +16,4 @@ Why I have not tested : {{descNoExample.why}}
 
 {{~ end ~}}
 
-</details>
 
