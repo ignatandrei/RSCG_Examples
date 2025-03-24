@@ -289,7 +289,7 @@ namespace MockMe.Generated.MockData
         public MyClockMockSetup.MyClockMockCallTracker.MyClockMockAsserter Assert { get; }
         private MyClockMockSetup.MyClockMockCallTracker CallTracker { get; }
 
-        internal sealed class Patchc7ee80333a4e4f9c8cd65e1c335b3b10
+        internal sealed class Patch23f715ba229342e08d6fb11494a17f90
         {
             private static bool Prefix(global::MockData.MyClock __instance, ref global::System.DateTime __result)
             {
@@ -302,7 +302,7 @@ namespace MockMe.Generated.MockData
                 return true;
             }
         }
-        internal sealed class Patchba0bfb2023b14b7a948f049392536934
+        internal sealed class Patch147ac8e5593f4d678d1855b2e81726e7
         {
             private static bool Prefix(global::MockData.MyClock __instance, ref global::System.DateTime __result)
             {
@@ -319,15 +319,15 @@ namespace MockMe.Generated.MockData
         {
             var harmony = new global::HarmonyLib.Harmony("com.mockme.patch");
 
-            var originalPatchc7ee80333a4e4f9c8cd65e1c335b3b10 = typeof(global::MockData.MyClock).GetMethod("GetNow", new Type[] {  } );
-            var Patchc7ee80333a4e4f9c8cd65e1c335b3b10 = typeof(Patchc7ee80333a4e4f9c8cd65e1c335b3b10).GetMethod("Prefix", global::System.Reflection.BindingFlags.Static | global::System.Reflection.BindingFlags.NonPublic);
+            var originalPatch23f715ba229342e08d6fb11494a17f90 = typeof(global::MockData.MyClock).GetMethod("GetNow", new Type[] {  } );
+            var Patch23f715ba229342e08d6fb11494a17f90 = typeof(Patch23f715ba229342e08d6fb11494a17f90).GetMethod("Prefix", global::System.Reflection.BindingFlags.Static | global::System.Reflection.BindingFlags.NonPublic);
 
-            harmony.Patch(originalPatchc7ee80333a4e4f9c8cd65e1c335b3b10, prefix: new HarmonyMethod(Patchc7ee80333a4e4f9c8cd65e1c335b3b10));
+            harmony.Patch(originalPatch23f715ba229342e08d6fb11494a17f90, prefix: new HarmonyMethod(Patch23f715ba229342e08d6fb11494a17f90));
 
-            var originalPatchba0bfb2023b14b7a948f049392536934 = typeof(global::MockData.MyClock).GetMethod("GetUtcNow", new Type[] {  } );
-            var Patchba0bfb2023b14b7a948f049392536934 = typeof(Patchba0bfb2023b14b7a948f049392536934).GetMethod("Prefix", global::System.Reflection.BindingFlags.Static | global::System.Reflection.BindingFlags.NonPublic);
+            var originalPatch147ac8e5593f4d678d1855b2e81726e7 = typeof(global::MockData.MyClock).GetMethod("GetUtcNow", new Type[] {  } );
+            var Patch147ac8e5593f4d678d1855b2e81726e7 = typeof(Patch147ac8e5593f4d678d1855b2e81726e7).GetMethod("Prefix", global::System.Reflection.BindingFlags.Static | global::System.Reflection.BindingFlags.NonPublic);
 
-            harmony.Patch(originalPatchba0bfb2023b14b7a948f049392536934, prefix: new HarmonyMethod(Patchba0bfb2023b14b7a948f049392536934));
+            harmony.Patch(originalPatch147ac8e5593f4d678d1855b2e81726e7, prefix: new HarmonyMethod(Patch147ac8e5593f4d678d1855b2e81726e7));
 
         }
 
