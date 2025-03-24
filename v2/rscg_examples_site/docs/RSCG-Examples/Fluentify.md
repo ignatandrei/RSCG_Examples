@@ -680,7 +680,7 @@ namespace Fluentify.Internal
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Fluentify
 
-### In the same category (Builder) - 3 other generators
+### In the same category (Builder) - 4 other generators
 
 
 #### [Architect.DomainModeling](/docs/Architect.DomainModeling)
@@ -690,4 +690,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Fluentify
 
 
 #### [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
+
+
+#### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
 

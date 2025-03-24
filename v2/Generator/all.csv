@@ -186,3 +186,4 @@ Nr,Key,Source,Category
 185,DependencyModules.SourceGenerator, https://github.com/ipjohnson/DependencyModules,DependencyInjection
 186,RSCG_CompositeProvider, https://github.com/ignatandrei/RSCG_CompositeProvider,Interface
 187,EntityLengths.Generator, https://github.com/TarasKovalenko/EntityLengths.Generator/,Database
+188,StepwiseBuilderGenerator, https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator,Builder

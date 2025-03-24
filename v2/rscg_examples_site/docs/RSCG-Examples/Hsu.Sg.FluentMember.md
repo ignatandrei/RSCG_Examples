@@ -340,7 +340,7 @@ namespace Hsu.Sg.FluentMember
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember
 
-### In the same category (Builder) - 3 other generators
+### In the same category (Builder) - 4 other generators
 
 
 #### [Architect.DomainModeling](/docs/Architect.DomainModeling)
@@ -350,4 +350,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember
 
 
 #### [Fluentify](/docs/Fluentify)
+
+
+#### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
 
