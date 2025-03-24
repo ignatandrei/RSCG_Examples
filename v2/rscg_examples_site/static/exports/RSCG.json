@@ -1497,6 +1497,14 @@
       "Source": "https://github.com/TarasKovalenko/EntityLengths.Generator/",
       "Category": "Database",
       "AddedOn": "2025-02-19T00:00:00"
+    },
+    {
+      "Name": "StepwiseBuilderGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/StepwiseBuilderGenerator",
+      "NuGet": "https://www.nuget.org/packages/StepwiseBuilderGenerator/",
+      "Source": "https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator",
+      "Category": "Builder",
+      "AddedOn": "2025-03-23T00:00:00"
     }
   ]
 }

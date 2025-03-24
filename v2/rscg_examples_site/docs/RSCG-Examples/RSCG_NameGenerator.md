@@ -171,12 +171,13 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
                     public static class TheAssemblyInfo
                     {
                         public const string AssemblyName = "TestNameGenerator";
-                        public const string GeneratedNameNice = "Heinrich Böll is feeling dynamic in Canberra";
-                        public const string GeneratedNameSmall = "dynamic-Heinrich Böll";
-                        public const string GeneratedName = "dynamic-Heinrich Böll-Canberra";
+                        public const string GeneratedNameNice = "Sir Winston Churchill is feeling private in Naypyidaw";
+                        public const string GeneratedNameSmall = "private-Sir Winston Churchill";
+                        public const string GeneratedName = "private-Sir Winston Churchill-Naypyidaw";
                         
                     }
                 }
+                
 ```
 
   </TabItem>

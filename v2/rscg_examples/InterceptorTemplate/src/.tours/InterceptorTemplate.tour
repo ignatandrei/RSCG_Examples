@@ -41,6 +41,66 @@
         }
     
 
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_Test_2.cs",
+        "description": "Generated File 10  from 10 : RSCG_DemoObjects.Person_Test_2.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_TestFullNameWithArguments_6.cs",
+        "description": "Generated File 9  from 10 : RSCG_DemoObjects.Person_TestFullNameWithArguments_6.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_ShowRandomPersonNumber_7.cs",
+        "description": "Generated File 8  from 10 : RSCG_DemoObjects.Person_ShowRandomPersonNumber_7.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_PersonsLoaded_5.cs",
+        "description": "Generated File 7  from 10 : RSCG_DemoObjects.Person_PersonsLoaded_5.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_PersonsLoaded_4.cs",
+        "description": "Generated File 6  from 10 : RSCG_DemoObjects.Person_PersonsLoaded_4.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_FullName_3.cs",
+        "description": "Generated File 5  from 10 : RSCG_DemoObjects.Person_FullName_3.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.Person_FullName_1.cs",
+        "description": "Generated File 4  from 10 : RSCG_DemoObjects.Person_FullName_1.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.PersonLoader_SavePerson_8.cs",
+        "description": "Generated File 3  from 10 : RSCG_DemoObjects.PersonLoader_SavePerson_8.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.PersonLoader_Connect_9.cs",
+        "description": "Generated File 2  from 10 : RSCG_DemoObjects.PersonLoader_Connect_9.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RSCG_InterceptorTemplateConsole/obj/GX/RSCG_InterceptorTemplate/RSCG_InterceptorTemplate.MethodIntercept/RSCG_DemoObjects.IPersonLoader_InsertPerson_10.cs",
+        "description": "Generated File 1  from 10 : RSCG_DemoObjects.IPersonLoader_InsertPerson_10.cs ",
+        "line": 1
+        }
+    
   ],
 
   "ref": "main"

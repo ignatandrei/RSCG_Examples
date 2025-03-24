@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"StepwiseBuilderGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/StepwiseBuilderGenerator/"
+      ],
+      "link":"https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator",
+      "author":"Georgiy Petrov",
+      "source":"https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator"
+   },
+   "data":{
+      "goodFor":["Generating Builder- as steps "],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

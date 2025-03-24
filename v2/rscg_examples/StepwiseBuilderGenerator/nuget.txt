@@ -1,0 +1,1 @@
+This package provides a Source Generator that creates strongly-typed, stepwise “fluent” builders for your types. You simply annotate a class with [StepwiseBuilder] and specify the steps you need in the class’s parameterless constructor. The source generator then produces a partial class containing builder interfaces and step methods.

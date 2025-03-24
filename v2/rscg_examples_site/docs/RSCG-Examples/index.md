@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 187 RSCG list by category
-description: 187 RSCG list by category
+title: 188 RSCG list by category
+description: 188 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -123,7 +123,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:4</summary>
+  <summary>Expand Builder =>examples:5</summary>
         
 
 
@@ -143,6 +143,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
+
+        
+
+
+[StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
 
 </details>
     
@@ -1197,6 +1202,8 @@ flowchart LR;
     Builder--> Fluentify((Fluentify))
 
     Builder--> Hsu.Sg.FluentMember((Hsu.Sg.FluentMember))
+
+    Builder--> StepwiseBuilderGenerator((StepwiseBuilderGenerator))
 
     Clone--> CopyTo((CopyTo))
 
