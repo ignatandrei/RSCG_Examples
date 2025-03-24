@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MemberAccessor",
+      "nuget":[
+         "https://www.nuget.org/packages/BunnyTail.MemberAccessor/"
+      ],
+      "link":"https://github.com/usausa/member-accessor-generator",
+      "author":"Yamaokuno",
+      "source":"https://github.com/usausa/member-accessor-generator"
+   },
+   "data":{
+      "goodFor":["Generate getter and setter for class members."],
+      "csprojDemo":"DemoMember.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

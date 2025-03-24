@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MemberAccessor",
+  "steps": 
+  [
+    {
+      "file": "DemoMember/DemoMember.csproj",
+      "description": "First, we add Nuget  [BunnyTail.MemberAccessor](https://www.nuget.org/packages/BunnyTail.MemberAccessor/) in csproj  ",
+      "pattern": "BunnyTail.MemberAccessor"
+    }
+
+        ,{
+        "file": "DemoMember/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoMember/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoMember/DemoMember.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoMember/obj/GX/BunnyTail.MemberAccessor.Generator/BunnyTail.MemberAccessor.Generator.TemplateGenerator/DemoMember_Person_Accessor.g.cs",
+        "description": "Generated File 2  from 2 : DemoMember_Person_Accessor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoMember/obj/GX/BunnyTail.MemberAccessor.Generator/BunnyTail.MemberAccessor.Generator.TemplateGenerator/AccessorInitializer.g.cs",
+        "description": "Generated File 1  from 2 : AccessorInitializer.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

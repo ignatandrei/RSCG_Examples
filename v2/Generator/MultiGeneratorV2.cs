@@ -296,7 +296,7 @@ public class MultiGeneratorV2
             AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
         };
         HttpClient _client = new(handler);
-     
+        Console.WriteLine($"grab data from {url}");
         var response = await _client.GetAsync(url);
         var data=await response.Content.ReadAsStringAsync();
         var answer= JsonDocument.Parse(data);

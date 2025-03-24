@@ -187,3 +187,4 @@ Nr,Key,Source,Category
 186,RSCG_CompositeProvider, https://github.com/ignatandrei/RSCG_CompositeProvider,Interface
 187,EntityLengths.Generator, https://github.com/TarasKovalenko/EntityLengths.Generator/,Database
 188,StepwiseBuilderGenerator, https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator,Builder
+189,MemberAccessor, https://github.com/usausa/member-accessor-generator,EnhancementClass
