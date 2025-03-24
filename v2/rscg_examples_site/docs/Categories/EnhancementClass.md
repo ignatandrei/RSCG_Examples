@@ -1,6 +1,6 @@
 <h1>EnhancementClass</h1>
 
-Number RSCG: 26
+Number RSCG: 27
 
    1 [ApparatusAOT](/docs/ApparatusAOT)
 
@@ -24,33 +24,35 @@ Number RSCG: 26
 
    11 [M31.FluentAPI](/docs/M31.FluentAPI)
 
-   12 [MemoryPack](/docs/MemoryPack)
+   12 [MemberAccessor](/docs/MemberAccessor)
 
-   13 [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
+   13 [MemoryPack](/docs/MemoryPack)
 
-   14 [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
+   14 [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
-   15 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+   15 [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
-   16 [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+   16 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
-   17 [OptionToStringGenerator](/docs/OptionToStringGenerator)
+   17 [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
-   18 [QueryStringGenerator](/docs/QueryStringGenerator)
+   18 [OptionToStringGenerator](/docs/OptionToStringGenerator)
 
-   19 [RSCG_Decorator](/docs/RSCG_Decorator)
+   19 [QueryStringGenerator](/docs/QueryStringGenerator)
 
-   20 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+   20 [RSCG_Decorator](/docs/RSCG_Decorator)
 
-   21 [StaticReflection](/docs/StaticReflection)
+   21 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
-   22 [SyncMethodGenerator](/docs/SyncMethodGenerator)
+   22 [StaticReflection](/docs/StaticReflection)
 
-   23 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
+   23 [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
-   24 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+   24 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
 
-   25 [TelemetryLogging](/docs/TelemetryLogging)
+   25 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
-   26 [ThisClass](/docs/ThisClass)
+   26 [TelemetryLogging](/docs/TelemetryLogging)
+
+   27 [ThisClass](/docs/ThisClass)
     

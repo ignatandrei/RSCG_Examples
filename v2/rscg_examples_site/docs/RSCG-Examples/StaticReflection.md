@@ -644,7 +644,7 @@ namespace StaticReflectionDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection
 
-### In the same category (EnhancementClass) - 25 other generators
+### In the same category (EnhancementClass) - 26 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -678,6 +678,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/StaticReflection
 
 
 #### [M31.FluentAPI](/docs/M31.FluentAPI)
+
+
+#### [MemberAccessor](/docs/MemberAccessor)
 
 
 #### [MemoryPack](/docs/MemoryPack)

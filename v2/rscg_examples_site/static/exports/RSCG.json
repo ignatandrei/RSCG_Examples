@@ -1505,6 +1505,14 @@
       "Source": "https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator",
       "Category": "Builder",
       "AddedOn": "2025-03-23T00:00:00"
+    },
+    {
+      "Name": "MemberAccessor",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemberAccessor",
+      "NuGet": "https://www.nuget.org/packages/BunnyTail.MemberAccessor/",
+      "Source": "https://github.com/usausa/member-accessor-generator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2025-03-24T00:00:00"
     }
   ]
 }
