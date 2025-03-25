@@ -356,7 +356,7 @@ public static class ColorsGeneratedExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum
 
-### In the same category (Enum) - 4 other generators
+### In the same category (Enum) - 5 other generators
 
 
 #### [EnumClass](/docs/EnumClass)
@@ -369,4 +369,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum
 
 
 #### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+
+
+#### [PMart.Enumeration](/docs/PMart.Enumeration)
 

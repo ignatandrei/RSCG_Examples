@@ -1,13 +1,11 @@
 # Just later
 
-## Latest Update : 2025-03-24 => 24 March 2025
+## Latest Update : 2025-03-25 => 25 March 2025
 
 
 
 ## This are to be done later
 
-<details>
-  <summary>Expand</summary>
 
 
 1) [ArgumentParsing]( https://github.com/DoctorKrolic/ArgumentParsing) , https://github.com/DoctorKrolic/ArgumentParsing 
@@ -154,5 +152,4 @@ Why I have not tested : later
 
 
 
-</details>
 

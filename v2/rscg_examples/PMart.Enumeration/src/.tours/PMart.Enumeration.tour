@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "PMart.Enumeration",
+  "steps": 
+  [
+    {
+      "file": "DemoPMart/DemoPMart.csproj",
+      "description": "First, we add Nuget  [PMart.Enumeration.Generator](https://www.nuget.org/packages/PMart.Enumeration.Generator/) in csproj  ",
+      "pattern": "PMart.Enumeration.Generator"
+    }
+
+        ,{
+        "file": "DemoPMart/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoPMart/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoPMart/DemoPMart.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoPMart/obj/GX/PMart.Enumeration.Generator/PMart.Enumeration.Generator.EnumerationGenerator/PersonType.g.cs",
+        "description": "Generated File 1  from 1 : PersonType.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

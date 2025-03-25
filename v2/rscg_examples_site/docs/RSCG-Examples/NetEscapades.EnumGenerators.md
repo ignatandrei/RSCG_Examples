@@ -1330,7 +1330,7 @@ using System;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators
 
-### In the same category (Enum) - 4 other generators
+### In the same category (Enum) - 5 other generators
 
 
 #### [CredFetoEnum](/docs/CredFetoEnum)
@@ -1343,4 +1343,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators
 
 
 #### [FusionReactor](/docs/FusionReactor)
+
+
+#### [PMart.Enumeration](/docs/PMart.Enumeration)
 

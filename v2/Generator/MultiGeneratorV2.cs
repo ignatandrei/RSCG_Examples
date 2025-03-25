@@ -119,6 +119,7 @@ public class MultiGeneratorV2
         { 
             var text=await File.ReadAllTextAsync(nameFile);
             text = text.Replace("(integ-tests/", $"({d.Generator!.Source}/integ-tests/");
+            text = text.Replace("(./samples", $"({d.Generator!.Source}/samples");
 
             text = text.Replace("(Documentation/", $"({d.Generator!.Source}/Documentation/");
             text = text.Replace("(src/", $"({d.Generator!.Source}/src/");

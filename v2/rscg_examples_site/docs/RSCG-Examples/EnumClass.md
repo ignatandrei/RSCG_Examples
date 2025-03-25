@@ -1082,7 +1082,7 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 
-### In the same category (Enum) - 4 other generators
+### In the same category (Enum) - 5 other generators
 
 
 #### [CredFetoEnum](/docs/CredFetoEnum)
@@ -1095,4 +1095,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 
 
 #### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+
+
+#### [PMart.Enumeration](/docs/PMart.Enumeration)
 

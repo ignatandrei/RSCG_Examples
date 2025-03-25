@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 189 RSCG list by category
-description: 189 RSCG list by category
+title: 190 RSCG list by category
+description: 190 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -591,7 +591,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:5</summary>
+  <summary>Expand Enum =>examples:6</summary>
         
 
 
@@ -616,6 +616,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [FusionReactor](/docs/FusionReactor)
+
+        
+
+
+[PMart.Enumeration](/docs/PMart.Enumeration)
 
 </details>
     
@@ -1371,6 +1376,8 @@ flowchart LR;
     Enum--> EnumUtilities((EnumUtilities))
 
     Enum--> FusionReactor((FusionReactor))
+
+    Enum--> PMart.Enumeration((PMart.Enumeration))
 
     Equals--> GeneratorEquals((GeneratorEquals))
 

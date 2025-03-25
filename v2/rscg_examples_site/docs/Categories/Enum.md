@@ -1,6 +1,6 @@
 <h1>Enum</h1>
 
-Number RSCG: 5
+Number RSCG: 6
 
    1 [CredFetoEnum](/docs/CredFetoEnum)
 
@@ -11,4 +11,6 @@ Number RSCG: 5
    4 [FusionReactor](/docs/FusionReactor)
 
    5 [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+
+   6 [PMart.Enumeration](/docs/PMart.Enumeration)
     

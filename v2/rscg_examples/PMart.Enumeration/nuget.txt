@@ -1,0 +1,1 @@
+Source code generator to easly create Enumeration classes.
