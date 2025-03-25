@@ -1,6 +1,6 @@
-# RSCG - 189 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 190 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-03-24 => 24 March 2025
+## Latest Update : 2025-03-25 => 25 March 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 189 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 190 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 190. [PMart.Enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PMart.Enumeration) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2025-03-25 => 25 March 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Martinho
+
+Source code generator to easly create Enumeration classes. 
+
+Nuget: [https://www.nuget.org/packages/PMart.Enumeration.Generator/](https://www.nuget.org/packages/PMart.Enumeration.Generator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/PMart.Enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PMart.Enumeration)
+
+Source: [https://github.com/p-martinho/Enumeration](https://github.com/p-martinho/Enumeration)
+
+</details>
+
 ### 189. [MemberAccessor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MemberAccessor) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
 
 Generated on : 2025-03-24 => 24 March 2025

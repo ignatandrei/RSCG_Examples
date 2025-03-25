@@ -1513,6 +1513,14 @@
       "Source": "https://github.com/usausa/member-accessor-generator",
       "Category": "EnhancementClass",
       "AddedOn": "2025-03-24T00:00:00"
+    },
+    {
+      "Name": "PMart.Enumeration",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PMart.Enumeration",
+      "NuGet": "https://www.nuget.org/packages/PMart.Enumeration.Generator/",
+      "Source": "https://github.com/p-martinho/Enumeration",
+      "Category": "Enum",
+      "AddedOn": "2025-03-25T00:00:00"
     }
   ]
 }

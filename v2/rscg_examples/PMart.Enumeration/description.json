@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"PMart.Enumeration",
+      "nuget":[
+         "https://www.nuget.org/packages/PMart.Enumeration.Generator/",
+         "https://www.nuget.org/packages/PMart.Enumeration/"
+
+      ],
+      "link":"https://github.com/p-martinho/Enumeration",
+      "author":"Martinho",
+      "source":"https://github.com/p-martinho/Enumeration"
+   },
+   "data":{
+      "goodFor":["Constants as enumeration. With EFCore, Swagger and other implementations."],
+      "csprojDemo":"DemoPMart.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

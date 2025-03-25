@@ -1451,7 +1451,7 @@ public class GenerateEnumExtensionsAttribute : Attribute
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FusionReactor
 
-### In the same category (Enum) - 4 other generators
+### In the same category (Enum) - 5 other generators
 
 
 #### [CredFetoEnum](/docs/CredFetoEnum)
@@ -1464,4 +1464,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/FusionReactor
 
 
 #### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+
+
+#### [PMart.Enumeration](/docs/PMart.Enumeration)
 
