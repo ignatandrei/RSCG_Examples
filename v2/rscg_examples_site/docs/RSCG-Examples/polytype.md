@@ -403,14 +403,14 @@ namespace PolyType.SourceGenerator
             if (type == typeof(global::ConsoleApp1.Person[]))
                 return Person_Array;
             
+            if (type == typeof(int))
+                return Int32;
+            
             if (type == typeof(string))
                 return String;
             
             if (type == typeof(global::ConsoleApp1.Person))
                 return Person;
-            
-            if (type == typeof(int))
-                return Int32;
             
             return null;
         }
@@ -714,7 +714,7 @@ namespace PolyType.SourceGenerator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/polytype
 
-### In the same category (FunctionalProgramming) - 14 other generators
+### In the same category (FunctionalProgramming) - 15 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -739,6 +739,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/polytype
 
 
 #### [PartiallyApplied](/docs/PartiallyApplied)
+
+
+#### [rscg_demeter](/docs/rscg_demeter)
 
 
 #### [rscg_queryables](/docs/rscg_queryables)

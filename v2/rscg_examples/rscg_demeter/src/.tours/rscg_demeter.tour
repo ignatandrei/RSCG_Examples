@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "rscg_demeter",
+  "steps": 
+  [
+    {
+      "file": "RSCG_Console/RSCG_Console.csproj",
+      "description": "First, we add Nuget  [rscg_demeter](https://www.nuget.org/packages/rscg_demeter/) in csproj  ",
+      "pattern": "rscg_demeter"
+    }
+
+        ,{
+        "file": "RSCG_Console/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RSCG_Console/RSCG_Console.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RSCG_Console/obj/GX/RSCG_Console.csproj.txt",
+        "description": "Generated File 1  from 1 : RSCG_Console.csproj.txt ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 190 RSCG list by category
-description: 190 RSCG list by category
+title: 191 RSCG list by category
+description: 191 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -727,7 +727,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:15</summary>
+  <summary>Expand FunctionalProgramming =>examples:16</summary>
         
 
 
@@ -802,6 +802,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [polytype](/docs/polytype)
+
+        
+
+
+[rscg_demeter](/docs/rscg_demeter)
 
 </details>
     
@@ -1442,6 +1447,8 @@ flowchart LR;
     FunctionalProgramming--> rscg_queryables((rscg_queryables))
 
     FunctionalProgramming--> polytype((polytype))
+
+    FunctionalProgramming--> rscg_demeter((rscg_demeter))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 

@@ -1,6 +1,6 @@
-# RSCG - 190 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 191 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-03-25 => 25 March 2025
+## Latest Update : 2025-03-26 => 26 March 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 190 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 191 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 191. [rscg_demeter](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_demeter) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
+
+Generated on : 2025-03-26 => 26 March 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Andrei Ignat
+
+Interface to null object - common 
+
+Nuget: [https://www.nuget.org/packages/rscg_demeter/](https://www.nuget.org/packages/rscg_demeter/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_demeter](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_demeter)
+
+Source: [https://github.com/ignatandrei/rscg_demeter/](https://github.com/ignatandrei/rscg_demeter/)
+
+</details>
+
 ### 190. [PMart.Enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PMart.Enumeration) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
 Generated on : 2025-03-25 => 25 March 2025

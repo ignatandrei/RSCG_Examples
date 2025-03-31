@@ -1362,7 +1362,7 @@ internal static class WhatIsTheStringMatchExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet
 
-### In the same category (FunctionalProgramming) - 14 other generators
+### In the same category (FunctionalProgramming) - 15 other generators
 
 
 #### [cachesourcegenerator](/docs/cachesourcegenerator)
@@ -1387,6 +1387,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet
 
 
 #### [polytype](/docs/polytype)
+
+
+#### [rscg_demeter](/docs/rscg_demeter)
 
 
 #### [rscg_queryables](/docs/rscg_queryables)

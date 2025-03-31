@@ -1521,6 +1521,14 @@
       "Source": "https://github.com/p-martinho/Enumeration",
       "Category": "Enum",
       "AddedOn": "2025-03-25T00:00:00"
+    },
+    {
+      "Name": "rscg_demeter",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_demeter",
+      "NuGet": "https://www.nuget.org/packages/rscg_demeter/",
+      "Source": "https://github.com/ignatandrei/rscg_demeter/",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2025-03-26T00:00:00"
     }
   ]
 }

@@ -508,7 +508,7 @@ namespace CacheSourceGenerator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator
 
-### In the same category (FunctionalProgramming) - 14 other generators
+### In the same category (FunctionalProgramming) - 15 other generators
 
 
 #### [dunet](/docs/dunet)
@@ -533,6 +533,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/cachesourcegenerator
 
 
 #### [polytype](/docs/polytype)
+
+
+#### [rscg_demeter](/docs/rscg_demeter)
 
 
 #### [rscg_queryables](/docs/rscg_queryables)
