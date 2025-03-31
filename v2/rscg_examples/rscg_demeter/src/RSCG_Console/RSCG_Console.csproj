@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsPackable>false</IsPackable>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<WarningsNotAsErrors>CS0436,NU1903</WarningsNotAsErrors>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<CompilerVisibleProperty Include="RSCG_Demeter_GenerateFile" />
+	</ItemGroup>
+
+	<PropertyGroup>
+		<RSCG_Demeter_GenerateFile>obj/gx/RSCG_Console.csproj.txt</RSCG_Demeter_GenerateFile>
+	</PropertyGroup>
+
+
+<ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.3" />
+    <PackageReference Include="RSCG_Demeter" Version="2026.328.706" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+
+
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>

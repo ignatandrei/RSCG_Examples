@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"rscg_demeter",
+      "nuget":[
+         "https://www.nuget.org/packages/rscg_demeter/"
+      ],
+      "link":"https://github.com/ignatandrei/rscg_demeter/",
+      "author":"Andrei Ignat",
+      "source":"https://github.com/ignatandrei/rscg_demeter/"
+   },
+   "data":{
+      "goodFor":["Generating diagnostics about Law of Demeter violations"],      
+      "csprojDemo":"RSCG_Console.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":["NameGenerator"],
+      "includeAdditionalFiles":["RSCG_Console.csproj.txt"]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
