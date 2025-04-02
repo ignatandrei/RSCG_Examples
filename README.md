@@ -1,6 +1,6 @@
-# RSCG - 192 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 193 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-03-26 => 26 March 2025
+## Latest Update : 2025-03-28 => 28 March 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,11 +20,34 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 192 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 193 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 193. [NativeObjects](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NativeObjects) , in the [WinAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi) category 
+
+Generated on : 2025-03-28 => 28 March 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Kevin Gosse
+
+Source generator for native interop.
+      Generates implementation for interfaces to expose managed objects as COM-like, or call methods on COM-like native objects. 
+
+Nuget: [https://www.nuget.org/packages/NativeObjects/](https://www.nuget.org/packages/NativeObjects/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NativeObjects](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NativeObjects)
+
+Source: [https://github.com/kevingosse/NativeObjects](https://github.com/kevingosse/NativeObjects)
+
+</details>
+
 ### 192. [immediate.apis](https://ignatandrei.github.io/RSCG_Examples/v2/docs/immediate.apis) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
 
-Generated on : 2024-09-20 => 20 September 2024
+Generated on : 2024-09-27 => 27 September 2024
 
 <details>
   <summary>Expand</summary>
@@ -2388,7 +2411,7 @@ Source: [https://github.com/ignatandrei/RSCG_InterceptorTemplate](https://github
 
 </details>
 
-### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+### 88. [Com](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Com) , in the [WinAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi) category 
 
 Generated on : 2023-11-20 => 20 November 2023
 

@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NativeObjects",
+  "steps": 
+  [
+    {
+      "file": "NativeObjectsDemo/NativeObjectsDemo.csproj",
+      "description": "First, we add Nuget  [NativeObjects](https://www.nuget.org/packages/NativeObjects/) in csproj  ",
+      "pattern": "NativeObjects"
+    }
+
+        ,{
+        "file": "NativeObjectsDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project NativeObjectsDemo/NativeObjectsDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/NativeObjectsDemo.IPerson.g.cs",
+        "description": "Generated File 4  from 4 : NativeObjectsDemo.IPerson.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/NativeObjectsDemo.ICalculator.g.cs",
+        "description": "Generated File 3  from 4 : NativeObjectsDemo.ICalculator.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/NativeObjectAttribute.g.cs",
+        "description": "Generated File 2  from 4 : NativeObjectAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/.ICalculator.g.cs",
+        "description": "Generated File 1  from 4 : .ICalculator.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

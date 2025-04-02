@@ -86,7 +86,7 @@ Nr,Key,Source,Category
 85,OptValidator, https://github.com/dotnet/runtime,EnhancementClass
 86,ConfigBinder, https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator,API
 87,RDG, https://github.com/dotnet/aspnetcore,API
-88,COM, https://github.com/dotnet/runtime,EnhancementProject
+88,COM, https://github.com/dotnet/runtime,WinAPI
 89,InterceptorTemplate, https://github.com/ignatandrei/RSCG_InterceptorTemplate,Templating
 90,TelemetryLogging, https://github.com/dotnet/extensions,EnhancementClass
 91,Ling.Audit, https://github.com/ling921/dotnet-lib/,EnhancementClass
@@ -191,3 +191,4 @@ Nr,Key,Source,Category
 190,PMart.Enumeration, https://github.com/p-martinho/Enumeration,Enum
 191,rscg_demeter, https://github.com/ignatandrei/rscg_demeter/,FunctionalProgramming
 192,Immediate.APIs, https://github.com/immediateplatform/immediate.apis,API
+193,NativeObjects, https://github.com/kevingosse/NativeObjects,WinAPI

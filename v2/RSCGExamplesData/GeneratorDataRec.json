@@ -523,7 +523,7 @@
   },
   {
     "ID": "COM",
-    "Category": 1,
+    "Category": 28,
     "dtStart": "2023-11-20T00:00:00",
     "show": true
   },
@@ -1157,7 +1157,13 @@
   {
     "ID":"Immediate.APIs",
     "Category": 15,
-    "dtStart": "2024-09-20T00:00:00",
+    "dtStart": "2024-09-27T00:00:00",
+    "show": true
+  },
+  {
+    "ID":"NativeObjects",
+    "Category": 28,
+    "dtStart": "2025-03-28T00:00:00",
     "show": true
   }
 ]

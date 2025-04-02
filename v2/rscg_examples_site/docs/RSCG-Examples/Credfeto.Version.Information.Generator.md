@@ -235,7 +235,7 @@ internal static class VersionInformation
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Credfeto.Version.Information.Generator
 
-### In the same category (EnhancementProject) - 18 other generators
+### In the same category (EnhancementProject) - 17 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -245,9 +245,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Credfeto.Version.Information
 
 
 #### [BuildInfo](/docs/BuildInfo)
-
-
-#### [Com](/docs/Com)
 
 
 #### [CommandLine](/docs/CommandLine)

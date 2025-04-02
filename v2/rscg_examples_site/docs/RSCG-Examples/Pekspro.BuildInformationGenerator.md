@@ -461,7 +461,7 @@ namespace BuildInfo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.BuildInformationGenerator
 
-### In the same category (EnhancementProject) - 18 other generators
+### In the same category (EnhancementProject) - 17 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
@@ -471,9 +471,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.BuildInformationGene
 
 
 #### [BuildInfo](/docs/BuildInfo)
-
-
-#### [Com](/docs/Com)
 
 
 #### [CommandLine](/docs/CommandLine)

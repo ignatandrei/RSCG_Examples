@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 192 RSCG list by category
-description: 192 RSCG list by category
+title: 193 RSCG list by category
+description: 193 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -494,7 +494,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:19</summary>
+  <summary>Expand EnhancementProject =>examples:18</summary>
         
 
 
@@ -514,11 +514,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
-
-        
-
-
-[Com](/docs/Com)
 
         
 
@@ -1171,11 +1166,21 @@ import DocCardList from '@theme/DocCardList';
 ## WinAPI 
 <details>
     
-  <summary>Expand WinAPI =>examples:1</summary>
+  <summary>Expand WinAPI =>examples:3</summary>
+        
+
+
+[Com](/docs/Com)
+
         
 
 
 [Microsoft.Windows.CsWin32](/docs/Microsoft.Windows.CsWin32)
+
+        
+
+
+[NativeObjects](/docs/NativeObjects)
 
 </details>
     
@@ -1348,8 +1353,6 @@ flowchart LR;
     EnhancementProject--> RSCG_AMS((RSCG_AMS))
 
     EnhancementProject--> RSCG_FunctionsWithDI((RSCG_FunctionsWithDI))
-
-    EnhancementProject--> Com((Com))
 
     EnhancementProject--> BuildInfo((BuildInfo))
 
@@ -1567,7 +1570,11 @@ flowchart LR;
 
     Tests--> MockMe((MockMe))
 
+    WinAPI--> Com((Com))
+
     WinAPI--> Microsoft.Windows.CsWin32((Microsoft.Windows.CsWin32))
+
+    WinAPI--> NativeObjects((NativeObjects))
    
 ```
 
