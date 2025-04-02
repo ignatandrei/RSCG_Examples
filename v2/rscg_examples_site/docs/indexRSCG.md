@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 192 RSCG with examples in descending chronological order
+## 193 RSCG with examples in descending chronological order
 
-This is the list of 192 ( 14 from Microsoft) RSCG with examples 
+This is the list of 193 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,7 +23,8 @@ This is the list of 192 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|192| [immediate.apis by Stuart Turner ](/docs/immediate.apis)|2024-09-20 => 20 September 2024 | [API](/docs/Categories/API) |
+|193| [NativeObjects by Kevin Gosse ](/docs/NativeObjects)|2025-03-28 => 28 March 2025 | [WinAPI](/docs/Categories/WinAPI) |
+|192| [immediate.apis by Stuart Turner ](/docs/immediate.apis)|2024-09-27 => 27 September 2024 | [API](/docs/Categories/API) |
 |191| [rscg_demeter by Andrei Ignat ](/docs/rscg_demeter)|2025-03-26 => 26 March 2025 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |190| [PMart.Enumeration by Martinho ](/docs/PMart.Enumeration)|2025-03-25 => 25 March 2025 | [Enum](/docs/Categories/Enum) |
 |189| [MemberAccessor by Yamaokuno ](/docs/MemberAccessor)|2025-03-24 => 24 March 2025 | [EnhancementClass](/docs/Categories/EnhancementClass) |
@@ -127,7 +128,7 @@ This is the list of 192 ( 14 from Microsoft) RSCG with examples
 |91| [Ling.Audit by Jing Ling ](/docs/Ling.Audit)|2023-12-12 => 12 December 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |89| [InterceptorTemplate by Andrei Ignat ](/docs/InterceptorTemplate)|2023-11-29 => 29 November 2023 | [Templating](/docs/Categories/Templating) |
-|88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | [WinAPI](/docs/Categories/WinAPI) |
 |87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | [API](/docs/Categories/API) |
 |86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | [API](/docs/Categories/API) |
 |85| [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator by Microsoft ](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)|2023-11-17 => 17 November 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
@@ -232,7 +233,7 @@ If you are interested in Microsoft RSCG, please see
 |85| [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator  by Microsoft ](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)|2023-11-17 => 17 November 2023 | EnhancementClass |
 |86| [Microsoft.Extensions.Configuration.Binder  by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | API |
 |87| [RDG  by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | API |
-|88| [Com  by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | EnhancementProject |
+|88| [Com  by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | WinAPI |
 |90| [TelemetryLogging  by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
 |130| [MSTest  by Microsoft ](/docs/MSTest)|2024-04-04 => 04 April 2024 | Tests |
 |173| [Microsoft.Windows.CsWin32  by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |

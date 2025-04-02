@@ -992,16 +992,13 @@ namespace ReadData
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoSpectre
 
-### In the same category (EnhancementProject) - 18 other generators
+### In the same category (EnhancementProject) - 17 other generators
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
 
 
 #### [BuildInfo](/docs/BuildInfo)
-
-
-#### [Com](/docs/Com)
 
 
 #### [CommandLine](/docs/CommandLine)

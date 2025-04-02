@@ -1,0 +1,2 @@
+Source generator for native interop.
+      Generates implementation for interfaces to expose managed objects as COM-like, or call methods on COM-like native objects.

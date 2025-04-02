@@ -703,7 +703,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/COM",
       "NuGet": "https://www.nuget.org/packages/System.Runtime.InteropServices/",
       "Source": "https://github.com/dotnet/runtime",
-      "Category": "EnhancementProject",
+      "Category": "WinAPI",
       "AddedOn": "2023-11-20T00:00:00"
     },
     {
@@ -1536,7 +1536,15 @@
       "NuGet": "https://www.nuget.org/packages/immediate.apis/",
       "Source": "https://github.com/immediateplatform/immediate.apis",
       "Category": "API",
-      "AddedOn": "2024-09-20T00:00:00"
+      "AddedOn": "2024-09-27T00:00:00"
+    },
+    {
+      "Name": "NativeObjects",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NativeObjects",
+      "NuGet": "https://www.nuget.org/packages/NativeObjects/",
+      "Source": "https://github.com/kevingosse/NativeObjects",
+      "Category": "WinAPI",
+      "AddedOn": "2025-03-28T00:00:00"
     }
   ]
 }

@@ -376,5 +376,11 @@ namespace Windows.Win32
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Windows.CsWin32
 
-### In the same category (WinAPI) - 0 other generators
+### In the same category (WinAPI) - 2 other generators
+
+
+#### [Com](/docs/Com)
+
+
+#### [NativeObjects](/docs/NativeObjects)
 

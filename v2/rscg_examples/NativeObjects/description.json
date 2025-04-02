@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Object to IntPtr and back"],
       "csprojDemo":"NativeObjectsDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
