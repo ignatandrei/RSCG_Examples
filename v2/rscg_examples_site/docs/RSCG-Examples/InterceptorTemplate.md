@@ -426,6 +426,11 @@ public interface IPersonLoader
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
+<Tabs>
+
+
+</Tabs>
+
 ## Usefull
 
 ### Download Example (.NET  C# )

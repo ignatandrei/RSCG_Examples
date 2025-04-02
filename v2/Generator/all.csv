@@ -190,3 +190,4 @@ Nr,Key,Source,Category
 189,MemberAccessor, https://github.com/usausa/member-accessor-generator,EnhancementClass
 190,PMart.Enumeration, https://github.com/p-martinho/Enumeration,Enum
 191,rscg_demeter, https://github.com/ignatandrei/rscg_demeter/,FunctionalProgramming
+192,Immediate.APIs, https://github.com/immediateplatform/immediate.apis,API

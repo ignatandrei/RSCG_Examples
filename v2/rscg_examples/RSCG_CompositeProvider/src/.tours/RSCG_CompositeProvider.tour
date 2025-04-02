@@ -31,13 +31,7 @@
 
         ,{
         "file": "CP_Console/obj/GX/RSCG_CompositeProvider/RSCG_CompositeProvider.ToCompositeProvider/IDataValue_cp.cs",
-        "description": "Generated File 2  from 2 : IDataValue_cp.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "CP_Console/obj/GX/NameGenerator/NameGenerator.NameGen/TheAssemblyInfo.g.cs",
-        "description": "Generated File 1  from 2 : TheAssemblyInfo.g.cs ",
+        "description": "Generated File 1  from 1 : IDataValue_cp.cs ",
         "line": 1
         }
     

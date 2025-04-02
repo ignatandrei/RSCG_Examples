@@ -10,8 +10,8 @@
    },
    "data":{
       "goodFor":["Defining APIs in classes instead of  in minimal API or controllers"],
-      "csprojDemo":"immediate.apisDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"APIDemo.csproj",
+      "csFiles":["Program.cs","PersonAPI.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
