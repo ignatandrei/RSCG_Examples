@@ -1,16 +1,16 @@
 {
    "generator":{
-      "name":"Immediate.Apis",
+      "name":"immediate.apis",
       "nuget":[
-         "https://www.nuget.org/packages/Immediate.Apis/"
+         "https://www.nuget.org/packages/immediate.apis/"
       ],
       "link":"https://github.com/immediateplatform/immediate.apis",
       "author":"Stuart Turner",
       "source":"https://github.com/immediateplatform/immediate.apis"
    },
    "data":{
-      "goodFor":["Registering APIs similar to controllers in ASP.NET Core"],
-      "csprojDemo":"Immediate.ApisDemo.csproj",
+      "goodFor":["Defining APIs in classes instead of  in minimal API or controllers"],
+      "csprojDemo":"immediate.apisDemo.csproj",
       "csFiles":["Program.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
