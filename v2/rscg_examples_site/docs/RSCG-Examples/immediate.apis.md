@@ -57,7 +57,7 @@ Immediate.Apis is a source generator for minimal APIs, for
 `[Handler]` class and an endpoint will automatically be added.
 
 #### Examples
-* [Immediate.Apis.FunctionalTests](./tests/Immediate.Apis.FunctionalTests)
+* [Immediate.Apis.FunctionalTests](https://github.com/immediateplatform/immediate.apis/tests/Immediate.Apis.FunctionalTests)
 
 ## Installing Immediate.Apis
 
