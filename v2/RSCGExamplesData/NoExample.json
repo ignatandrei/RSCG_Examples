@@ -816,11 +816,6 @@
     "why":"later"
   },
   {
-    "ID":178,
-    "name":"https://github.com/immediateplatform/immediate.apis",
-    "why":"later"
-  },
-  {
     "ID":179,
     "name":"Hsu.Sg.Proxy https://github.com/hsu-net/source-generators/",
     "why":"later"
@@ -881,11 +876,7 @@
     "name":"https://github.com/ramhari-dev/PropGenAoT", 
     "why":"later"
   },
-  {
-    "ID":195,
-    "name":"https://github.com/dimohy/GenPack",
-    "why":"later"
-  },
+  
   {
     "ID":196,
     "name":"https://github.com/inputfalken/Dynatello",

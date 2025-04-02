@@ -1529,6 +1529,14 @@
       "Source": "https://github.com/ignatandrei/rscg_demeter/",
       "Category": "FunctionalProgramming",
       "AddedOn": "2025-03-26T00:00:00"
+    },
+    {
+      "Name": "immediate.apis",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immediate.APIs",
+      "NuGet": "https://www.nuget.org/packages/immediate.apis/",
+      "Source": "https://github.com/immediateplatform/immediate.apis",
+      "Category": "API",
+      "AddedOn": "2024-09-20T00:00:00"
     }
   ]
 }

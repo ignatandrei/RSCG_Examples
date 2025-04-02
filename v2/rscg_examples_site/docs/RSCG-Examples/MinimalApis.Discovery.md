@@ -262,7 +262,10 @@ namespace MinimalApis.Discovery
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery
 
-### In the same category (API) - 8 other generators
+### In the same category (API) - 9 other generators
+
+
+#### [immediate.apis](/docs/immediate.apis)
 
 
 #### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)

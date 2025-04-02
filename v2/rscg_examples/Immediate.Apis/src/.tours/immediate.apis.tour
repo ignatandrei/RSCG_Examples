@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "immediate.apis",
+  "steps": 
+  [
+    {
+      "file": "APIDemo/APIDemo.csproj",
+      "description": "First, we add Nuget  [immediate.apis](https://www.nuget.org/packages/immediate.apis/) in csproj  ",
+      "pattern": "immediate.apis"
+    }
+
+        ,{
+        "file": "APIDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "APIDemo/PersonAPI.cs",
+        "description": "File PersonAPI.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "APIDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project APIDemo/APIDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "APIDemo/obj/GX/Immediate.Handlers.Generators/Immediate.Handlers.Generators.ImmediateHandlers.ImmediateHandlersGenerator/IH.ServiceCollectionExtensions.g.cs",
+        "description": "Generated File 4  from 4 : IH.ServiceCollectionExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "APIDemo/obj/GX/Immediate.Handlers.Generators/Immediate.Handlers.Generators.ImmediateHandlers.ImmediateHandlersGenerator/IH.APIDemo.PersonAPI.g.cs",
+        "description": "Generated File 3  from 4 : IH.APIDemo.PersonAPI.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "APIDemo/obj/GX/Immediate.Apis.Generators/Immediate.Apis.Generators.ImmediateApisGenerator/RoutesBuilder.g.cs",
+        "description": "Generated File 2  from 4 : RoutesBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "APIDemo/obj/GX/Immediate.Apis.Generators/Immediate.Apis.Generators.ImmediateApisGenerator/RouteBuilder.APIDemo_PersonAPI.g.cs",
+        "description": "Generated File 1  from 4 : RouteBuilder.APIDemo_PersonAPI.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -374,7 +374,10 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder
 
-### In the same category (API) - 8 other generators
+### In the same category (API) - 9 other generators
+
+
+#### [immediate.apis](/docs/immediate.apis)
 
 
 #### [MinimalApiBuilder](/docs/MinimalApiBuilder)
