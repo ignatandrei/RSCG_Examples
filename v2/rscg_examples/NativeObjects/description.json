@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"NativeObjects",
+      "nuget":[
+         "https://www.nuget.org/packages/NativeObjects/"
+      ],
+      "link":"https://github.com/kevingosse/NativeObjects",
+      "author":"Kevin Gosse",
+      "source":"https://github.com/kevingosse/NativeObjects"
+   },
+   "data":{
+      "goodFor":["Object to IntPtr and back"],
+      "csprojDemo":"NativeObjectsDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
