@@ -906,6 +906,26 @@
     "ID":204,
     "name":"https://github.com/eddievelasquez/IntercodeToolbox",
     "why":"later"
+  },
+  {
+    "ID":205,
+    "name":"https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator",
+    "why":"later"
+  },
+  {
+    "ID":206,
+    "name":"https://github.com/ionite34/MinimalApiMapper",
+    "why":"later"
+  },
+  {
+    "ID":207,
+    "name":"https://github.com/DimonSmart/BuilderGenerator",
+    "why":"later"
+  },
+  {
+    "ID":208,
+    "name":"https://github.com/BlackWhiteYoshi",
+    "why":"later"
   }
 
 ]
