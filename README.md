@@ -47,7 +47,7 @@ Source: [https://github.com/kevingosse/NativeObjects](https://github.com/kevingo
 
 ### 192. [immediate.apis](https://ignatandrei.github.io/RSCG_Examples/v2/docs/immediate.apis) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
 
-Generated on : 2024-09-27 => 27 September 2024
+Generated on : 2025-03-27 => 27 March 2025
 
 <details>
   <summary>Expand</summary>

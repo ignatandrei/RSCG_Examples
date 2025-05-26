@@ -856,6 +856,23 @@ internal class PlantUmlDiagramAttribute : System.Attribute
   </TabItem>
 
 
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\PlantUmlClassDiagramGenerator\src\DemoClass2Text\DemoClass2Text\generated-uml\Person.puml" label="Person.puml" >
+
+
+```csharp showLineNumbers 
+@startuml Person
+class Person  {
+    + FirstName : string? <<get>> <<set>>
+    + LastName : string? <<get>> <<set>>
+    + FullName() : string?
+    + Person()
+}
+@enduml
+```
+
+  </TabItem>
+
+
 </Tabs>
 
 ## Usefull

@@ -182,6 +182,31 @@ static void SomeNativeCode(IntPtr nativePerson)
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\NativeObjects\src\NativeObjectsDemo\Person.cs" label="Person.cs" >
+
+  This is the use of **NativeObjects** in *Person.cs*
+
+```csharp showLineNumbers 
+namespace NativeObjectsDemo;
+[NativeObject]
+public interface IPerson
+{
+    public int CalculateAge();
+}
+class Person : IPerson
+{
+    public DateTime DateOfBirth { get; set; }
+
+    public int CalculateAge()
+    {
+
+        return (int)DateTime.Now.Subtract(DateOfBirth).TotalDays / 365;
+    }
+}
+
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files

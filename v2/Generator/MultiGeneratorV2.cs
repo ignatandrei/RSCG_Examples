@@ -740,12 +740,12 @@ public class MultiGeneratorV2
         //var x = 0;
         //x++;
         //if(x>2)
-        var lastGenerator = "EntityLengths.Generator";
+        var lastGenerator = "rscg_demeter";
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
             .Where(it => it.generatedDate > latest.dtStart)
-            //.Take(10) 
+            //.Take(10)  
             .Select(it => WrotePost(it, pathDocusaurus))
             .ToArray());
     }

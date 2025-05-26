@@ -11,6 +11,12 @@
     }
 
         ,{
+        "file": "NativeObjectsDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "NativeObjectsDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project NativeObjectsDemo/NativeObjectsDemo.csproj ",
         "pattern": "this is the code"
