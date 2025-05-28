@@ -1,0 +1,24 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "zlinq",
+  "steps": 
+  [
+    {
+      "file": "zlinqDemo/zlinqDemo.csproj",
+      "description": "First, we add Nuget  [ZLinq.DropInGenerator](https://www.nuget.org/packages/ZLinq.DropInGenerator/) in csproj  ",
+      "pattern": "ZLinq.DropInGenerator"
+    }
+
+        ,{
+        "file": "zlinqDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project zlinqDemo/zlinqDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+  ],
+
+  "ref": "main"
+
+}

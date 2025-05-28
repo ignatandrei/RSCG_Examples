@@ -1545,6 +1545,14 @@
       "Source": "https://github.com/kevingosse/NativeObjects",
       "Category": "WinAPI",
       "AddedOn": "2025-03-28T00:00:00"
+    },
+    {
+      "Name": "zlinq",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/zlinq",
+      "NuGet": "https://www.nuget.org/packages/ZLinq.DropInGenerator/",
+      "Source": "https://github.com/Cysharp/ZLinq",
+      "Category": "Linq",
+      "AddedOn": "2025-05-02T00:00:00"
     }
   ]
 }

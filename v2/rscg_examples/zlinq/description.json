@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"zlinq",
+      "nuget":[
+         "https://www.nuget.org/packages/ZLinq.DropInGenerator/",
+          "https://www.nuget.org/packages/ZLinq/"
+      ],
+      "link":"https://neuecc.medium.com/zlinq-a-zero-allocation-linq-library-for-net-1bb0a3e5c749",
+      "author":"Cysharp - subsidiary of Cygames",
+      "source":"https://github.com/Cysharp/ZLinq"
+   },
+   "data":{
+      "goodFor":[" zero allocations for LINQ operations, high performance, functional programming"],
+      "csprojDemo":"zlinqDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
