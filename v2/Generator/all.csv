@@ -192,3 +192,4 @@ Nr,Key,Source,Category
 191,rscg_demeter, https://github.com/ignatandrei/rscg_demeter/,FunctionalProgramming
 192,Immediate.APIs, https://github.com/immediateplatform/immediate.apis,API
 193,NativeObjects, https://github.com/kevingosse/NativeObjects,WinAPI
+194,zlinq, https://github.com/Cysharp/ZLinq,Linq

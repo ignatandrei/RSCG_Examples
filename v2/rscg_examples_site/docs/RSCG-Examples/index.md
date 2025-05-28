@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 193 RSCG list by category
-description: 193 RSCG list by category
+title: 194 RSCG list by category
+description: 194 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -890,6 +890,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Linq 
+<details>
+    
+  <summary>Expand Linq =>examples:1</summary>
+        
+
+
+[zlinq](/docs/zlinq)
+
+</details>
+    
+
 ## Mapper 
 <details>
     
@@ -1485,6 +1497,8 @@ flowchart LR;
     Interface--> rscg_Interface_to_null_object((rscg_Interface_to_null_object))
 
     Interface--> RSCG_CompositeProvider((RSCG_CompositeProvider))
+
+    Linq--> zlinq((zlinq))
 
     Mapper--> mapperly((mapperly))
 
