@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1940
 title: 194 - zlinq
-description:  zero allocations fpr LINQ operations, high performance, functional programming
+description:  zero allocations for LINQ operations, high performance, functional programming
 slug: /zlinq
 ---
 import Tabs from '@theme/Tabs';
@@ -53,7 +53,7 @@ ZLinq
 
 Zero allocation LINQ with LINQ to Span, LINQ to SIMD, and LINQ to Tree (FileSystem, JSON, GameObject, etc.) for all .NET platforms(netstandard2.0, 2.1, net8, net9) and Unity, Godot.
 
-![](img/benchmarkhead.jpg)
+![](https://github.com/Cysharp/ZLinq/img/benchmarkhead.jpg)
 
 Unlike regular LINQ, ZLinq doesn't increase allocations when adding more method chains, and it also has higher basic performance. You can check various benchmark patterns at [GitHub Actions/Benchmark](https://github.com/Cysharp/ZLinq/actions/runs/14569138271). ZLinq shows high performance in almost all patterns, with some benchmarks showing overwhelming differences.
 
@@ -83,7 +83,7 @@ foreach (var item in seq) { }
 
 In ZLinq, we have proven high compatibility and performance by running [dotnet/runtime's System.Linq.Tests](https://github.com/Cysharp/ZLinq/tree/main/tests/System.Linq.Tests) as a drop-in replacement, passing 9000 tests.
 
-![](img/testrun.png)
+![](https://github.com/Cysharp/ZLinq/img/testrun.png)
 
 Previously, value type-based LINQ implementations were often experimental, but ZLinq fully implements all methods to completely replace standard LINQ in production use, delivering high performance suitable even for demanding applications like games. The performance aspects are based on my experience with previous LINQ implementations ([linq.js](https://github.com/neuecc/linq.js/), [SimdLinq](https://github.com/Cysharp/SimdLinq/), [UniRx](https://github.com/neuecc/UniRx), [R3](https://github.com/Cysharp/R3)), zero-allocation implementations ([ZString](https://github.com/Cysharp/ZString), [ZLogger](https://github.com/Cysharp/ZLogger)), and high-performance serializers ([MessagePack-CSharp](https://github.com/MessagePack-CSharp/MessagePack-CSharp/), [MemoryPack](https://github.com/Cysharp/MemoryPack)).
 
@@ -308,7 +308,7 @@ When introducing `ZLinq.DropInGenerator`, you can automatically use ZLinq for al
 dotnet add package ZLinq.DropInGenerator
 ```
 
-![](img/dropin.jpg)
+![](https://github.com/Cysharp/ZLinq/img/dropin.jpg)
 
 It works by using a Source Generator to add extension methods for each type that take priority, making `ZLinq` methods be selected instead of System.Linq when the same name and arguments are used.
 After installing the package, you need to configure it with an assembly attribute.
@@ -535,7 +535,7 @@ LINQ to Tree
 ---
 LINQ to XML introduced the concept of querying around axes to C#. Even if you don't use XML, similar APIs are incorporated into Roslyn and effectively used for exploring SyntaxTrees. ZLinq extends this concept to make it applicable to anything that can be considered a Tree, allowing `Ancestors`, `Children`, `Descendants`, `BeforeSelf`, and `AfterSelf` to be applied.
 
-![](img/axis.jpg)
+![](https://github.com/Cysharp/ZLinq/img/axis.jpg)
 
 Specifically, by defining a struct that implements the following interface, it becomes iterable:
 
@@ -797,7 +797,7 @@ https://github.com/Cysharp/ZLinq.git?path=src/ZLinq.Unity/Assets/ZLinq.Unity
 
 With the help of the Unity package, in addition to the standard ZLinq, LINQ to GameObject functionality becomes available for exploring GameObject/Transform.
 
-![](img/axis.jpg)
+![](https://github.com/Cysharp/ZLinq/img/axis.jpg)
 
 ```csharp
 using ZLinq;
@@ -902,7 +902,7 @@ To support Native Collections in addition to regular DropIn types, you can use `
 
 This is not just about Unity, but using `AsValueEnumerable()` even if only for foreach on `IEnumerable<T>` can sometimes reduce allocations. If the actual implementation of `IEnumerable<T>` is a `T[]` or `List<T>`, ZLinq will process it appropriately without allocations.
 
-![](img/unityforeach.png)
+![](https://github.com/Cysharp/ZLinq/img/unityforeach.png)
 
 ```csharp
 void IterateNormal(IEnumerable<int> source)
@@ -936,7 +936,7 @@ dotnet add package ZLinq.Godot
 
 In addition to the standard ZLinq, LINQ to Node functionality is available.
 
-![](img/godot.jpg)
+![](https://github.com/Cysharp/ZLinq/img/godot.jpg)
 
 ```csharp
 using Godot;
@@ -1179,7 +1179,7 @@ This library is under MIT License.
 ### About
 :::note
 
- zero allocations fpr LINQ operations, high performance, functional programming
+ zero allocations for LINQ operations, high performance, functional programming
 
 
 :::

@@ -118,6 +118,8 @@ public class MultiGeneratorV2
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(img/", $"({d.Generator!.Source}/img/");
+
             text = text.Replace("(integ-tests/", $"({d.Generator!.Source}/integ-tests/");
             text = text.Replace("(./samples", $"({d.Generator!.Source}/samples");
             text = text.Replace("(./tests", $"({d.Generator!.Source}/tests");
