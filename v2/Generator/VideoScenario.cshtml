@@ -10,7 +10,7 @@
     var nrGenerated = Model.Data?.outputFiles?.generatedFiles?.Length??0;
 }
 {
-    "scriptName": "@Model.Generator.Name",
+    "scriptName": "@Model.Generator!.Name",
     "steps":
 [
     {"typeStep":"exec","arg":"clipchamp.exe launch"},
