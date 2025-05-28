@@ -1,6 +1,6 @@
 <h1>EnhancementClass</h1>
 
-Number RSCG: 27
+Number RSCG: 28
 
    1 [ApparatusAOT](/docs/ApparatusAOT)
 
@@ -8,51 +8,53 @@ Number RSCG: 27
 
    3 [CommonCodeGenerator](/docs/CommonCodeGenerator)
 
-   4 [DudNet](/docs/DudNet)
+   4 [Comparison](/docs/Comparison)
 
-   5 [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
+   5 [DudNet](/docs/DudNet)
 
-   6 [FastGenericNew](/docs/FastGenericNew)
+   6 [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
 
-   7 [HsuSgSync](/docs/HsuSgSync)
+   7 [FastGenericNew](/docs/FastGenericNew)
 
-   8 [Immutype](/docs/Immutype)
+   8 [HsuSgSync](/docs/HsuSgSync)
 
-   9 [Ling.Audit](/docs/Ling.Audit)
+   9 [Immutype](/docs/Immutype)
 
-   10 [Lombok.NET](/docs/Lombok.NET)
+   10 [Ling.Audit](/docs/Ling.Audit)
 
-   11 [M31.FluentAPI](/docs/M31.FluentAPI)
+   11 [Lombok.NET](/docs/Lombok.NET)
 
-   12 [MemberAccessor](/docs/MemberAccessor)
+   12 [M31.FluentAPI](/docs/M31.FluentAPI)
 
-   13 [MemoryPack](/docs/MemoryPack)
+   13 [MemberAccessor](/docs/MemberAccessor)
 
-   14 [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
+   14 [MemoryPack](/docs/MemoryPack)
 
-   15 [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
+   15 [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
 
-   16 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
+   16 [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
 
-   17 [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
+   17 [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
 
-   18 [OptionToStringGenerator](/docs/OptionToStringGenerator)
+   18 [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
 
-   19 [QueryStringGenerator](/docs/QueryStringGenerator)
+   19 [OptionToStringGenerator](/docs/OptionToStringGenerator)
 
-   20 [RSCG_Decorator](/docs/RSCG_Decorator)
+   20 [QueryStringGenerator](/docs/QueryStringGenerator)
 
-   21 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+   21 [RSCG_Decorator](/docs/RSCG_Decorator)
 
-   22 [StaticReflection](/docs/StaticReflection)
+   22 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
-   23 [SyncMethodGenerator](/docs/SyncMethodGenerator)
+   23 [StaticReflection](/docs/StaticReflection)
 
-   24 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
+   24 [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
-   25 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+   25 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
 
-   26 [TelemetryLogging](/docs/TelemetryLogging)
+   26 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
-   27 [ThisClass](/docs/ThisClass)
+   27 [TelemetryLogging](/docs/TelemetryLogging)
+
+   28 [ThisClass](/docs/ThisClass)
     

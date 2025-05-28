@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Comparison",
+  "steps": 
+  [
+    {
+      "file": "ComparisonDemo/ComparisonDemo.csproj",
+      "description": "First, we add Nuget  [ReflectionIT.ComparisonOperatorsGenerator](https://www.nuget.org/packages/ReflectionIT.ComparisonOperatorsGenerator/) in csproj  ",
+      "pattern": "ReflectionIT.ComparisonOperatorsGenerator"
+    }
+
+        ,{
+        "file": "ComparisonDemo/Room.cs",
+        "description": "File Room.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ComparisonDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ComparisonDemo/ComparisonDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ComparisonDemo/obj/GX/ReflectionIT.ComparisonOperatorsGenerator/ReflectionIT.ComparisonOperatorsGenerator.DisposableGenerator/ComparisonOperatorsGenerator.Attributes.g.cs",
+        "description": "Generated File 2  from 2 : ComparisonOperatorsGenerator.Attributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ComparisonDemo/obj/GX/ReflectionIT.ComparisonOperatorsGenerator/ReflectionIT.ComparisonOperatorsGenerator.DisposableGenerator/ComparisonDemo.Room.g.cs",
+        "description": "Generated File 1  from 2 : ComparisonDemo.Room.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

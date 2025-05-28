@@ -1,0 +1,1 @@
+A Source Generator package that generates the `>`, `>=`, `<`, `<=` operators for a `partial` type (`class`, `struct` or `record`) which implements`IComparable<T>`.

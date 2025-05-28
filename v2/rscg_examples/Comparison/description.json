@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Comparison",
+      "nuget":[
+         "https://www.nuget.org/packages/ReflectionIT.ComparisonOperatorsGenerator/"
+      ],
+      "link":"https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator",
+      "author":"Fons Sonnemans",
+      "source":"https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator"
+   },
+   "data":{
+      "goodFor":["If you want to generate comparison operators for your classes, startin with IComparable"],
+      "csprojDemo":"ComparisonDemo.csproj",
+      "csFiles":["Program.cs", "Room.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
