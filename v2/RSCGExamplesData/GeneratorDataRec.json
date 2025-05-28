@@ -1171,5 +1171,11 @@
     "Category": 31,
     "dtStart": "2025-05-02T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Comparison",
+    "Category": 5,
+    "dtStart": "2025-05-25T00:00:00",
+    "show": true
   }
 ]

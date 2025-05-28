@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 194 RSCG list by category
-description: 194 RSCG list by category
+title: 195 RSCG list by category
+description: 195 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -352,7 +352,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:27</summary>
+  <summary>Expand EnhancementClass =>examples:28</summary>
         
 
 
@@ -487,6 +487,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MemberAccessor](/docs/MemberAccessor)
+
+        
+
+
+[Comparison](/docs/Comparison)
 
 </details>
     
@@ -1357,6 +1362,8 @@ flowchart LR;
     EnhancementClass--> QueryStringGenerator((QueryStringGenerator))
 
     EnhancementClass--> MemberAccessor((MemberAccessor))
+
+    EnhancementClass--> Comparison((Comparison))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

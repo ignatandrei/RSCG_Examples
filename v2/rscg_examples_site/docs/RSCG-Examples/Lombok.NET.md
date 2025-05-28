@@ -457,7 +457,7 @@ public partial class Person
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 
-### In the same category (EnhancementClass) - 26 other generators
+### In the same category (EnhancementClass) - 27 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -467,6 +467,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Lombok.NET
 
 
 #### [CommonCodeGenerator](/docs/CommonCodeGenerator)
+
+
+#### [Comparison](/docs/Comparison)
 
 
 #### [DudNet](/docs/DudNet)

@@ -193,3 +193,4 @@ Nr,Key,Source,Category
 192,Immediate.APIs, https://github.com/immediateplatform/immediate.apis,API
 193,NativeObjects, https://github.com/kevingosse/NativeObjects,WinAPI
 194,zlinq, https://github.com/Cysharp/ZLinq,Linq
+195,Comparison, https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator,EnhancementClass

@@ -301,7 +301,7 @@ namespace GetTypesForInterface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Enhanced.GetTypes
 
-### In the same category (EnhancementClass) - 26 other generators
+### In the same category (EnhancementClass) - 27 other generators
 
 
 #### [ApparatusAOT](/docs/ApparatusAOT)
@@ -311,6 +311,9 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/Enhanced.GetTypes
 
 
 #### [CommonCodeGenerator](/docs/CommonCodeGenerator)
+
+
+#### [Comparison](/docs/Comparison)
 
 
 #### [DudNet](/docs/DudNet)

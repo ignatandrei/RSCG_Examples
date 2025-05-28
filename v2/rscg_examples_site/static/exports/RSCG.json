@@ -1553,6 +1553,14 @@
       "Source": "https://github.com/Cysharp/ZLinq",
       "Category": "Linq",
       "AddedOn": "2025-05-02T00:00:00"
+    },
+    {
+      "Name": "Comparison",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Comparison",
+      "NuGet": "https://www.nuget.org/packages/ReflectionIT.ComparisonOperatorsGenerator/",
+      "Source": "https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2025-05-25T00:00:00"
     }
   ]
 }

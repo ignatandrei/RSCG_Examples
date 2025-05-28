@@ -1,6 +1,6 @@
-# RSCG - 194 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 195 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-05-02 => 02 May 2025
+## Latest Update : 2025-05-25 => 25 May 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 194 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 195 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 195. [Comparison](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Comparison) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2025-05-25 => 25 May 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Fons Sonnemans
+
+A Source Generator package that generates the `>`, `>=`, `<`, `<=` operators for a `partial` type (`class`, `struct` or `record`) which implements`IComparable<T>`. 
+
+Nuget: [https://www.nuget.org/packages/ReflectionIT.ComparisonOperatorsGenerator/](https://www.nuget.org/packages/ReflectionIT.ComparisonOperatorsGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Comparison](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Comparison)
+
+Source: [https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator](https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator)
+
+</details>
+
 ### 194. [zlinq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/zlinq) , in the [Linq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#linq) category 
 
 Generated on : 2025-05-02 => 02 May 2025
