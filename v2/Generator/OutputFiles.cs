@@ -84,6 +84,25 @@ public class OutputFiles
                 fileFound = fileFound.Where(it => !it.Contains("GX")).ToArray();
 
             }
+            if(fileFound.Length > 1)
+            {
+                var first= fileFound.FirstOrDefault();
+                var fileInf = new FileInfo(first!);
+                bool sameFile= true;
+                foreach (var item in fileFound)
+                {
+                    var fiLoop = new FileInfo(item!);
+                    if(fiLoop.Length != fileInf.Length)
+                    {
+                        sameFile = false;
+                        break;
+                    }
+                }
+                if (sameFile)
+                {
+                    fileFound = new[] { first! }; 
+                }
+            }
             if (fileFound.Length != 1)
             {
                 throw new Exception($"must have 1, but {fileFound.Length}  files search {file} in {dir} for GX");

@@ -27,9 +27,22 @@ try
     {
         originalFolder = @"D:\gth\RSCG_Examples";
     }
-    DbRSCGContext db=new (originalFolder);
+    if (!Directory.Exists(originalFolder))
+    {
+        originalFolder = @"D:\eu\GitHub\RSCG_Examples";
+    }
+    if (!Directory.Exists(originalFolder))
+    {
+        throw new DirectoryNotFoundException($"Cannot find the folder {originalFolder}. Please set the correct path to the RSCG_Examples folder.");
+    }
+
+    DbRSCGContext db =new (originalFolder); 
     var noExamples = db.NoExamples.ToArray();
     var examplesRec = db.Examples.ToArray();
+    if(examplesRec.Length == 0 )
+    {
+        throw new InvalidOperationException($"No examples found in the database {originalFolder}. Please ensure that the database is populated with example data.");
+    }
     //var genEx= GeneratorDataRec
     //    .Data()
     //    .Select(it =>

@@ -742,7 +742,20 @@ public class MultiGeneratorV2
         //var x = 0;
         //x++;
         //if(x>2)
-        var lastGenerator = "rscg_demeter";
+        var lastGenerator = "Comparison";
+        if(generators.Count == 0)
+        {
+            throw new Exception("no generators found");
+        }
+        if (!generators.ContainsKey(lastGenerator))
+        {
+            var generatorsKey = string.Join(",", generators
+                .Where(it => it.Value.show)
+                .Select(it => it.Key));
+            throw new Exception($"cannot find {lastGenerator} in  {generatorsKey}");
+
+
+        }
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)
