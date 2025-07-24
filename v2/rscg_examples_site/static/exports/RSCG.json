@@ -1552,7 +1552,7 @@
       "NuGet": "https://www.nuget.org/packages/ZLinq.DropInGenerator/",
       "Source": "https://github.com/Cysharp/ZLinq",
       "Category": "Linq",
-      "AddedOn": "2025-05-02T00:00:00"
+      "AddedOn": "2025-07-02T00:00:00"
     },
     {
       "Name": "Comparison",

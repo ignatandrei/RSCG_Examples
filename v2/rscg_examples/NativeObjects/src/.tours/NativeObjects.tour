@@ -25,25 +25,13 @@
 
         ,{
         "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/NativeObjectsDemo.IPerson.g.cs",
-        "description": "Generated File 4  from 4 : NativeObjectsDemo.IPerson.g.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/NativeObjectsDemo.ICalculator.g.cs",
-        "description": "Generated File 3  from 4 : NativeObjectsDemo.ICalculator.g.cs ",
+        "description": "Generated File 2  from 2 : NativeObjectsDemo.IPerson.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/NativeObjectAttribute.g.cs",
-        "description": "Generated File 2  from 4 : NativeObjectAttribute.g.cs ",
-        "line": 1
-        }
-    
-        ,{
-        "file": "NativeObjectsDemo/obj/GX/NativeObjects/NativeObjectGenerator.NativeObjectGenerator/.ICalculator.g.cs",
-        "description": "Generated File 1  from 4 : .ICalculator.g.cs ",
+        "description": "Generated File 1  from 2 : NativeObjectAttribute.g.cs ",
         "line": 1
         }
     

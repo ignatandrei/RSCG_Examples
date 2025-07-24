@@ -308,7 +308,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 ```csharp showLineNumbers 
-// NTypewriter.SourceGenerator                      0.5.9.0  C:\Users\ignat\AppData\Local\Temp\VBCSCompiler\AnalyzerAssemblyLoader\3c1ac59792da4d3297a073f33c6e2daf\4a40c9db-c376-41d2-8a7c-26eda7296396\NTypewriter.SourceGenerator.dll NTypewriter.SourceGenerator, Version=0.5.9.0, Culture=neutral, PublicKeyToken=null
+// NTypewriter.SourceGenerator                      0.5.9.0  C:\Users\ignat\AppData\Local\Temp\VBCSCompiler\AnalyzerAssemblyLoader\0e6b7591c3724d53addfcceb277c5688\7\NTypewriter.SourceGenerator.dll NTypewriter.SourceGenerator, Version=0.5.9.0, Culture=neutral, PublicKeyToken=null
 // NTypewriter                                      0.5.9.0  C:\Users\ignat\AppData\Local\Temp\NTSG\NTypewriter.v0.5.9.0.dll NTypewriter, Version=0.5.9.0, Culture=neutral, PublicKeyToken=686471615d7a8f08
 // NTypewriter.CodeModel                            0.5.9.0  C:\Users\ignat\AppData\Local\Temp\NTSG\NTypewriter.CodeModel.v0.5.9.0.dll NTypewriter.CodeModel, Version=0.5.9.0, Culture=neutral, PublicKeyToken=9bd097c4961606db
 // NTypewriter.CodeModel.Functions                  0.5.9.0  C:\Users\ignat\AppData\Local\Temp\NTSG\NTypewriter.CodeModel.Functions.v0.5.9.0.dll NTypewriter.CodeModel.Functions, Version=0.5.9.0, Culture=neutral, PublicKeyToken=64a6b4cdbb438ab5
@@ -316,10 +316,10 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 // NTypewriter.Editor.Config                        0.5.9.0  C:\Users\ignat\AppData\Local\Temp\NTSG\NTypewriter.Editor.Config.v0.5.9.0.dll NTypewriter.Editor.Config, Version=0.5.9.0, Culture=neutral, PublicKeyToken=b9f8710003231974
 // NTypewriter.Runtime                              0.5.9.0  C:\Users\ignat\AppData\Local\Temp\NTSG\NTypewriter.Runtime.v0.5.9.0.dll NTypewriter.Runtime, Version=0.5.9.0, Culture=neutral, PublicKeyToken=4fac57df20922078
 // Scriban.Signed                                   5.0.0.0  C:\Users\ignat\AppData\Local\Temp\NTSG\Scriban.Signed.v5.10.0.0.dll Scriban.Signed, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5675fb69b15f2433
-// System.Text.Json                                 9.0.0.0  C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.2\System.Text.Json.dll System.Text.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
-// System.Text.RegularExpressions                   9.0.0.0  C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.2\System.Text.RegularExpressions.dll System.Text.RegularExpressions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
-// Microsoft.CodeAnalysis                           4.13.0.0  C:\Program Files\dotnet\sdk\9.0.200\Roslyn\bincore\Microsoft.CodeAnalysis.dll Microsoft.CodeAnalysis, Version=4.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
-// Microsoft.CodeAnalysis.CSharp                    4.13.0.0  C:\Program Files\dotnet\sdk\9.0.200\Roslyn\bincore\Microsoft.CodeAnalysis.CSharp.dll Microsoft.CodeAnalysis.CSharp, Version=4.13.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+// System.Text.Json                                 9.0.0.0  C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.7\System.Text.Json.dll System.Text.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+// System.Text.RegularExpressions                   9.0.0.0  C:\Program Files\dotnet\shared\Microsoft.NETCore.App\9.0.7\System.Text.RegularExpressions.dll System.Text.RegularExpressions, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+// Microsoft.CodeAnalysis                           4.14.0.0  C:\Program Files\dotnet\sdk\9.0.302\Roslyn\bincore\Microsoft.CodeAnalysis.dll Microsoft.CodeAnalysis, Version=4.14.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+// Microsoft.CodeAnalysis.CSharp                    4.14.0.0  C:\Program Files\dotnet\sdk\9.0.302\Roslyn\bincore\Microsoft.CodeAnalysis.CSharp.dll Microsoft.CodeAnalysis.CSharp, Version=4.14.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 // Microsoft.CodeAnalysis.Scripting                 4.0.0.0  C:\Users\ignat\AppData\Local\Temp\NTSG\Microsoft.CodeAnalysis.Scripting.v4.0.1.0.dll Microsoft.CodeAnalysis.Scripting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 // Microsoft.CodeAnalysis.CSharp.Scripting          4.0.0.0  C:\Users\ignat\AppData\Local\Temp\NTSG\Microsoft.CodeAnalysis.CSharp.Scripting.v4.0.1.0.dll Microsoft.CodeAnalysis.CSharp.Scripting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
 // Microsoft.CodeAnalysis.Workspaces                4.0.0.0  C:\Users\ignat\AppData\Local\Temp\NTSG\Microsoft.CodeAnalysis.Workspaces.v4.0.1.0.dll Microsoft.CodeAnalysis.Workspaces, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
@@ -335,11 +335,11 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 ```csharp showLineNumbers 
     // NTypewriter.SourceGenerator v0.5.9.0
     // total runs     : 1, total renders : 1
-    // touch file     : D:\gth\RSCG_Examples\v2\rscg_examples\NTypewriter\src\DemoTemplateConsole\bin\Debug\net9.0\.touch
-    // log file       : D:\gth\RSCG_Examples\v2\rscg_examples\NTypewriter\src\DemoTemplateConsole\bin\Debug\net9.0\DemoTemplateConsole.ntsg.log                    
-    // last build     : 2/18/2025 7:58:16 PM
-    // last *.nt edit : 2/16/2025 3:33:30 PM
-    // last render    : 2/18/2025 7:58:16 PM
+    // touch file     : D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\NTypewriter\src\DemoTemplateConsole\bin\Debug\net9.0\.touch
+    // log file       : D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\NTypewriter\src\DemoTemplateConsole\bin\Debug\net9.0\DemoTemplateConsole.ntsg.log                    
+    // last build     : 7/24/2025 7:40:57 AM
+    // last *.nt edit : 7/21/2025 7:28:06 AM
+    // last render    : 7/24/2025 7:40:57 AM
 ```
 
   </TabItem>

@@ -171,9 +171,9 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
                     public static class TheAssemblyInfo
                     {
                         public const string AssemblyName = "TestNameGenerator";
-                        public const string GeneratedNameNice = "Heinrich Böll is feeling dynamic in Canberra";
-                        public const string GeneratedNameSmall = "dynamic-Heinrich Böll";
-                        public const string GeneratedName = "dynamic-Heinrich Böll-Canberra";
+                        public const string GeneratedNameNice = "Henri Bergson is feeling clear in Dhaka";
+                        public const string GeneratedNameSmall = "clear-Henri Bergson";
+                        public const string GeneratedName = "clear-Henri Bergson-Dhaka";
                         
                     }
                 }

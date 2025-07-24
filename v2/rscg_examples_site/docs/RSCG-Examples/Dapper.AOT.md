@@ -192,7 +192,7 @@ namespace Dapper.AOT // interceptors must be in a known namespace
 {
     file static class DapperGeneratedInterceptors
     {
-        [global::System.Runtime.CompilerServices.InterceptsLocationAttribute("D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\Dapper.AOT\\src\\DapperDemo\\Product.cs", 8, 93)]
+        [global::System.Runtime.CompilerServices.InterceptsLocationAttribute("D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\Dapper.AOT\\src\\DapperDemo\\Product.cs", 8, 93)]
         internal static global::DapperDemo.Product QueryFirst0(this global::System.Data.IDbConnection cnn, string sql, object? param, global::System.Data.IDbTransaction? transaction, int? commandTimeout, global::System.Data.CommandType? commandType)
         {
             // Query, TypedResult, HasParameters, SingleRow, Text, AtLeastOne, BindResultsByName, KnownParameters

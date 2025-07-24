@@ -29,12 +29,6 @@
         }
     
 
-        ,{
-        "file": "AutoDTODemo/obj/GX/AutoDto.SourceGen/AutoDto.SourceGen.DtoFromBlGenerator/DepartmentDTO.g.cs",
-        "description": "Generated File 1  from 1 : DepartmentDTO.g.cs ",
-        "line": 1
-        }
-    
   ],
 
   "ref": "main"

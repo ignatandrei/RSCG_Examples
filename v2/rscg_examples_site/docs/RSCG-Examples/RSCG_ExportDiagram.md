@@ -254,7 +254,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 ```csharp showLineNumbers 
 
 //JSONFolder=obj/GX/
-//projectDir=D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_ExportDiagram\src\DiagramDemoConsole\
+//projectDir=D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\RSCG_ExportDiagram\src\DiagramDemoConsole\
 //projectName=DiagramDemoConsole
 //excludeData=
 file class Program_References_1
