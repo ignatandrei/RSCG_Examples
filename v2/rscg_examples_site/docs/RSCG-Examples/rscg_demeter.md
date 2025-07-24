@@ -190,7 +190,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
       "startLine": 5,
       "nrDots": 2,
       "endLine": 5,
-      "filePath": "D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
+      "filePath": "D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
       "text": "dep.Employees.Add(new Employee())"
     },
     {
@@ -198,7 +198,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
       "startLine": 9,
       "nrDots": 2,
       "endLine": 9,
-      "filePath": "D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
+      "filePath": "D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
       "text": "    dep.EmployeeNames.Add(emp.Name)"
     },
     {
@@ -206,7 +206,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
       "startLine": 12,
       "nrDots": 2,
       "endLine": 12,
-      "filePath": "D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
+      "filePath": "D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
       "text": "it.Name.StartsWith(\u0022a\u0022)"
     },
     {
@@ -214,7 +214,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
       "startLine": 14,
       "nrDots": 2,
       "endLine": 14,
-      "filePath": "D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
+      "filePath": "D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
       "text": "empAll.Select(it =\u003E it.ID).Distinct().OrderBy(it =\u003E it)"
     },
     {
@@ -222,7 +222,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
       "startLine": 17,
       "nrDots": 3,
       "endLine": 20,
-      "filePath": "D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
+      "filePath": "D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\rscg_demeter\\src\\RSCG_Console\\Program.cs",
       "text": "AppDomain.CurrentDomain.GetAssemblies()\r\n    .Where(it =\u003E data.Any(a =\u003E !(it.FullName?.StartsWith(a) ?? false)))\r\n    .Distinct()\r\n    .ToArray()"
     }
   ]

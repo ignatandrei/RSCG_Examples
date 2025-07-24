@@ -676,7 +676,7 @@ namespace AspectGenerator
 		/// </summary>
 		//
 		// Intercepts p.FullName().
-		[System.Runtime.CompilerServices.InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\AspectGenerator\src\AG\Program.cs", line: 4, character: 10)]
+		[System.Runtime.CompilerServices.InterceptsLocation(@"D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\AspectGenerator\src\AG\Program.cs", line: 4, character: 10)]
 		//
 		[System.Runtime.CompilerServices.CompilerGenerated]
 		//[System.Diagnostics.DebuggerStepThrough]

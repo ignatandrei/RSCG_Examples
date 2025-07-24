@@ -265,8 +265,6 @@ public partial class DepartmentDTO {
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
-
-
 <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\obj\GX\AutoDto.SourceGen\AutoDto.SourceGen.DtoFromBlGenerator\DepartmentDTO.g.cs" label="DepartmentDTO.g.cs" >
 
 
@@ -281,7 +279,6 @@ public System.String Name { get; set; }
 ```
 
   </TabItem>
-
 
 </Tabs>
 

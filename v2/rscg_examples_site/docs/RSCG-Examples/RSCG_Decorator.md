@@ -361,7 +361,7 @@ namespace RSCG_DecoratorTestConsole {
         public string FullName(string separator = " ")
         {
         var FullName_14 =new RSCG_DecoratorCommon.MethodRecognizer("Person","FullName");
-        FullName_14.FileName="D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
+        FullName_14.FileName="D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
         FullName_14.Line=14;
 
             FullName_14.ValueTypeParameters.Add("separator", separator);
@@ -383,7 +383,7 @@ namespace RSCG_DecoratorTestConsole {
         public void DisplayNameOnConsole()
         {
         var DisplayNameOnConsole_19 =new RSCG_DecoratorCommon.MethodRecognizer("Person","DisplayNameOnConsole");
-        DisplayNameOnConsole_19.FileName="D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
+        DisplayNameOnConsole_19.FileName="D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
         DisplayNameOnConsole_19.Line=19;
         using var mrUtils= new RSCG_DecoratorCommon.MRUtils(DisplayNameOnConsole_19, original);
         try{
@@ -403,7 +403,7 @@ namespace RSCG_DecoratorTestConsole {
         public async System.Threading.Tasks.Task<string> GetName()
         {
         var GetName_23 =new RSCG_DecoratorCommon.MethodRecognizer("Person","GetName");
-        GetName_23.FileName="D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
+        GetName_23.FileName="D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
         GetName_23.Line=23;
         using var mrUtils= new RSCG_DecoratorCommon.MRUtils(GetName_23, original);
         try{
@@ -423,7 +423,7 @@ namespace RSCG_DecoratorTestConsole {
         public async System.Threading.Tasks.Task<string> GetFullName()
         {
         var GetFullName_28 =new RSCG_DecoratorCommon.MethodRecognizer("Person","GetFullName");
-        GetFullName_28.FileName="D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
+        GetFullName_28.FileName="D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
         GetFullName_28.Line=28;
         using var mrUtils= new RSCG_DecoratorCommon.MRUtils(GetFullName_28, original);
         try{
@@ -443,7 +443,7 @@ namespace RSCG_DecoratorTestConsole {
         public async System.Threading.Tasks.Task SaveId(int id)
         {
         var SaveId_32 =new RSCG_DecoratorCommon.MethodRecognizer("Person","SaveId");
-        SaveId_32.FileName="D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
+        SaveId_32.FileName="D:\\eu\\GitHub\\RSCG_Examples\\v2\\rscg_examples\\RSCG_Decorator\\src\\RSCG_DecoratorTestConsole\\Person.cs";
         SaveId_32.Line=32;
 
             SaveId_32.ValueTypeParameters.Add("id", id);

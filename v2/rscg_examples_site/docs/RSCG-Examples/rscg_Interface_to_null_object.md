@@ -233,11 +233,11 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
                         
                         public static readonly System.DateTime DateGeneratedUTC ;
                         public const string AssemblyName = "NullInterface";
-                        public const string GeneratedNameNice = "Nadine Gordimer is feeling rational in Seoul";
-                        public const string GeneratedNameSmall = "rational-Nadine Gordimer";
-                        public const string GeneratedName = "rational-Nadine Gordimer-Seoul";
+                        public const string GeneratedNameNice = "Wisława Szymborska is feeling complex in Ramallah";
+                        public const string GeneratedNameSmall = "complex-Wisława Szymborska";
+                        public const string GeneratedName = "complex-Wisława Szymborska-Ramallah";
                         static TheAssemblyInfo(){
-                            DateGeneratedUTC = System.DateTime.ParseExact("2025-01-21 13:29:00", "yyyy-MM-dd HH:mm:ss", null);
+                            DateGeneratedUTC = System.DateTime.ParseExact("2025-07-21 05:55:02", "yyyy-MM-dd HH:mm:ss", null);
                         }
                     }
                 }

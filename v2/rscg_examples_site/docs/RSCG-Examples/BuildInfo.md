@@ -214,8 +214,8 @@ internal static class BuildInformation
     /// <summary>
     /// Returns the build date (UTC).
     /// </summary>
-    /// <remarks>Value is: 2024-09-22T18:47:23.1595814Z</remarks>
-    public static readonly DateTime BuildAt = DateTime.ParseExact("2024-09-22T18:47:23.1595814Z", "O", CultureInfo.InvariantCulture, DateTimeStyles.RoundtripKind);
+    /// <remarks>Value is: 2025-07-24T04:39:49.8012643Z</remarks>
+    public static readonly DateTime BuildAt = DateTime.ParseExact("2025-07-24T04:39:49.8012643Z", "O", CultureInfo.InvariantCulture, DateTimeStyles.RoundtripKind);
 
     /// <summary>
     /// Returns the platform.

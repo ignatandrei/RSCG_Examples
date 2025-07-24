@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 195 RSCG list by category
-description: 195 RSCG list by category
+title: 196 RSCG list by category
+description: 196 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -192,6 +192,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RossLean.StringificationGenerator](/docs/RossLean.StringificationGenerator)
+
+</details>
+    
+
+## CommandLine 
+<details>
+    
+  <summary>Expand CommandLine =>examples:1</summary>
+        
+
+
+[ArgumentParsing](/docs/ArgumentParsing)
 
 </details>
     
@@ -1258,6 +1270,8 @@ flowchart LR;
     CodeToString--> CodeAnalysis((CodeAnalysis))
 
     CodeToString--> RossLean.StringificationGenerator((RossLean.StringificationGenerator))
+
+    CommandLine--> ArgumentParsing((ArgumentParsing))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 

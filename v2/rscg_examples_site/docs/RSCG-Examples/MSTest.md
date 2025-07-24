@@ -222,7 +222,7 @@ namespace DemoTest
             DisplayName = "UnitTest1",
             Properties = new Msg::IProperty[1]
             {
-                new Msg::TestFileLocationProperty(@"D:\gth\RSCG_Examples\v2\rscg_examples\MSTest\src\DemoTest\UnitTest1.cs", new(new(6, -1), new(22, -1))),
+                new Msg::TestFileLocationProperty(@"D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\MSTest\src\DemoTest\UnitTest1.cs", new(new(6, -1), new(22, -1))),
             },
             Tests = new MSTF::TestNode[]
             {
@@ -239,7 +239,7 @@ namespace DemoTest
                             "TestMethod1",
                             Sys::Array.Empty<string>(),
                             "System.Void"),
-                        new Msg::TestFileLocationProperty(@"D:\gth\RSCG_Examples\v2\rscg_examples\MSTest\src\DemoTest\UnitTest1.cs", new(new(9, -1), new(13, -1))),
+                        new Msg::TestFileLocationProperty(@"D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\MSTest\src\DemoTest\UnitTest1.cs", new(new(9, -1), new(13, -1))),
                     },
                     Body = static testExecutionContext =>
                     {
@@ -271,7 +271,7 @@ namespace DemoTest
                                 "System.Int32",
                             },
                             "System.Void"),
-                        new Msg::TestFileLocationProperty(@"D:\gth\RSCG_Examples\v2\rscg_examples\MSTest\src\DemoTest\UnitTest1.cs", new(new(15, -1), new(21, -1))),
+                        new Msg::TestFileLocationProperty(@"D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\MSTest\src\DemoTest\UnitTest1.cs", new(new(15, -1), new(21, -1))),
                     },
                     GetArguments = static () => new MSTF::InternalUnsafeTestArgumentsEntry<(int left, int right)>[]
                     {

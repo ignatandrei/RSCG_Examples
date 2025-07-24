@@ -191,7 +191,7 @@ namespace System.Runtime.CompilerServices
     using System;
     using System.CodeDom.Compiler;
 
-    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.10.36612")]
+    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.12.31117")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
     file sealed class InterceptsLocationAttribute : Attribute
     {
@@ -212,12 +212,12 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
     using System.Globalization;
     using System.Runtime.CompilerServices;
 
-    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.10.36612")]
+    [GeneratedCode("Microsoft.Extensions.Configuration.Binder.SourceGeneration", "8.0.12.31117")]
     file static class BindingExtensions
     {
         #region OptionsBuilder<TOptions> extensions.
         /// <summary>Registers the dependency injection container to bind <typeparamref name="TOptions"/> against the <see cref="IConfiguration"/> obtained from the DI service provider.</summary>
-        [InterceptsLocation(@"D:\gth\RSCG_Examples\v2\rscg_examples\ConfigBinder\src\ConfigBinderDemo\Program.cs", 20, 14)]
+        [InterceptsLocation(@"D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\ConfigBinder\src\ConfigBinderDemo\Program.cs", 20, 14)]
         public static OptionsBuilder<TOptions> BindConfiguration<TOptions>(this OptionsBuilder<TOptions> optionsBuilder, string configSectionPath, Action<BinderOptions>? configureBinder = null) where TOptions : class
         {
             if (optionsBuilder is null)

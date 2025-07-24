@@ -190,12 +190,16 @@ public static string build_property_rscg_wait_seconds => @"10";
 public static string build_property_targetframework => @"net8.0";
 //real name: build_property.targetplatformminversion
 public static string build_property_targetplatformminversion => @"";
+//real name: build_property.enablecodestyleseverity
+public static string build_property_enablecodestyleseverity => @"";
 //real name: build_property.invariantglobalization
 public static string build_property_invariantglobalization => @"";
 //real name: build_property.platformneutralassembly
 public static string build_property_platformneutralassembly => @"";
+//real name: build_property.effectiveanalysislevelstyle
+public static string build_property_effectiveanalysislevelstyle => @"8.0";
 //real name: build_property.projectdir
-public static string build_property_projectdir => @"D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_Wait\src\Console_Wait\";
+public static string build_property_projectdir => @"D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\RSCG_Wait\src\Console_Wait\";
 //real name: build_property.enablecomhosting
 public static string build_property_enablecomhosting => @"";
 //real name: build_property.enablegeneratedcominterfacecomimportinterop
@@ -227,7 +231,7 @@ public static string build_property_usingmicrosoftnetsdkweb => @"";
 namespace RSCG_Wait;
 partial class MyGeneratedCode
 {
-    public static string DateEnd => "9/22/2024 9:58:14 PM";
+    public static string DateEnd => "7/24/2025 7:41:45 AM";
     
 }
 ```
@@ -255,7 +259,7 @@ namespace RSCG_Wait;
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 partial class MyGeneratedCode
 {
-    public static string DateStart => "9/22/2024 9:58:04 PM";
+    public static string DateStart => "7/24/2025 7:41:33 AM";
     public static int SecondsToWait=10;
 }
 #nullable restore

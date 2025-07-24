@@ -375,16 +375,16 @@ namespace BuildInfo
     {
 
         /// <summary>
-        /// Build time: 2024-09-22 18:55:57
+        /// Build time: 2025-07-21 05:53:23
         /// Value was taken from the system clock.
         /// </summary>
-        public static readonly global::System.DateTime BuildTime = new global::System.DateTime(638626281578057885L, global::System.DateTimeKind.Utc);
+        public static readonly global::System.DateTime BuildTime = new global::System.DateTime(638886740032443853L, global::System.DateTimeKind.Utc);
 
         /// <summary>
-        /// Local build time: 2024-09-22 21:55:57 (+03:00)
+        /// Local build time: 2025-07-21 08:53:23 (+03:00)
         /// Value was taken from the system clock.
         /// </summary>
-        public static readonly global::System.DateTimeOffset LocalBuildTime = new global::System.DateTimeOffset(638626389578057885L, new global::System.TimeSpan(108000000000));
+        public static readonly global::System.DateTimeOffset LocalBuildTime = new global::System.DateTimeOffset(638886848032443853L, new global::System.TimeSpan(108000000000));
 
         /// <summary>
         /// Build information related to git.
@@ -396,19 +396,21 @@ namespace BuildInfo
             /// The commit id in git at the time of build.
             /// Value was taken from the AssemblyInformationalVersion attribute.
             /// </summary>
-            public const string CommitId = "4e734c748598553362149f59ca7aa41c10823d6a";
+            public const string CommitId = "cde253eca53efd2602cf42cb93295671cba5a418";
 
             /// <summary>
             /// The short commit id in git at the time of build.
             /// Value was taken from the AssemblyInformationalVersion attribute.
             /// </summary>
-            public const string ShortCommitId = "4e734c74";
+            public const string ShortCommitId = "cde253ec";
+
+#warning An error occurred while getting the git branch: An error occurred trying to start process 'git' with working directory 'D:\eu\GitHub\RSCG_Examples\v2\rscg_examples\Pekspro.BuildInformationGenerator\src\BuildInfo'. The system cannot find the file specified.
 
             /// <summary>
             /// The git branch used at build time.
-            /// Value was taken from the git branch command.
+            /// 
             /// </summary>
-            public const string Branch = "302-immediatehandlers";
+            public const string Branch = "";
 
         }
 
@@ -422,13 +424,13 @@ namespace BuildInfo
         /// OS version of the building machine.
         /// Value was taken from Environment.OSVersion.
         /// </summary>
-        public const string OSVersion = "Microsoft Windows NT 10.0.22631.0";
+        public const string OSVersion = "Microsoft Windows NT 10.0.26100.0";
 
         /// <summary>
         /// .NET SDK version used at build time.
         /// Value was taken from the dotnet --version command.
         /// </summary>
-        public const string DotNetSdkVersion = "8.0.400";
+        public const string DotNetSdkVersion = "9.0.302";
 
     }
 }

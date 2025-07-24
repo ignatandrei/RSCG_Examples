@@ -385,20 +385,279 @@ namespace RSCG_AMSDemo {
         /// </summary>
         public XAboutMySoftware_828469749970839076110119122(){
             AssemblyName ="RSCG_AMSDemo" ; 
-            DateGenerated = DateTime.ParseExact("20240922185715", "yyyyMMddHHmmss", null); 
+            DateGenerated = DateTime.ParseExact("20250724044122", "yyyyMMddHHmmss", null); 
             CommitId  = "not in a CI run" ; 
             RepoUrl ="https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md" ; 
             CISourceControl = "not in a CI run" ; 
             SourceCommit = "https://ignatandrei.github.io/RSCG_AMS/runtimeMessages/NotFound.md" ; 
             Authors= "";
             Version= "";    
-            EnvironmentVars =";User_TMP;User_OneDrive;User_OneDriveConsumer;User_Path;User_MinVerVerbosity;User_ChocolateyLastPathUpdate;User_AZURE_OPENAI_API_KEY;User_TEMP;Process_ZES_ENABLE_SYSMAN;Process_MSBuildLoadMicrosoftTargetsReadOnly;Process_DOTNET_HOST_PATH;Process_COMPUTERNAME;Process_OneDrive;Process_ProgramData;Process_PUBLIC;Process_Path;Process_JAVA_HOME;Process_PROCESSOR_ARCHITECTURE;Process_LOCALAPPDATA;Process_USERDOMAIN_ROAMINGPROFILE;Process_SystemDrive;Process_WT_PROFILE_ID;Process_MSBuildSDKsPath;Process_DOTNET_WATCH_ITERATION;Process_NUGET_PACKAGES;Process_VCPKG_DEFAULT_BINARY_CACHE;Process_MSBUILDFAILONDRIVEENUMERATINGWILDCARD;Process_AZURE_OPENAI_API_KEY;Process_MinVerVerbosity;Process_USERPROFILE;Process_PROCESSOR_IDENTIFIER;Process_PROCESSOR_LEVEL;Process_DOTNET_CLI_TELEMETRY_SESSIONID;Process_USERNAME;Process_OneDriveConsumer;Process_windir;Process_ALLUSERSPROFILE;Process_CommonProgramFiles(x86);Process_HOMEPATH;Process_LOGONSERVER;Process_TEMP;Process_DriverData;Process_OS;Process_HOMEDRIVE;Process_ChocolateyLastPathUpdate;Process_MSBUILDUSESERVER;Process_ProgramFiles;Process_PATHEXT;Process_PIP_CACHE_DIR;Process_PSModulePath;Process_TMP;Process_CARGO_HOME;Process_USERDOMAIN;Process_NUMBER_OF_PROCESSORS;Process_ProgramW6432;Process_PROCESSOR_REVISION;Process_ProgramFiles(x86);Process_CommonProgramW6432;Process_MSBuildExtensionsPath;Process_DOTNET_WATCH;Process_CommonProgramFiles;Process_ComSpec;Process_SystemRoot;Process_MAVEN_OPTS;Process_npm_config_cache;Process_ChocolateyInstall;Process_WSLENV;Process_APPDATA;Process_SESSIONNAME;Process_POWERSHELL_DISTRIBUTION_CHANNEL;Process_DOTNET_LAUNCH_PROFILE;Process_WT_SESSION;Machine_ZES_ENABLE_SYSMAN;Machine_PSModulePath;Machine_DriverData;Machine_OS;Machine_windir;Machine_JAVA_HOME;Machine_MAVEN_OPTS;Machine_PROCESSOR_ARCHITECTURE;Machine_PATHEXT;Machine_ComSpec;Machine_PROCESSOR_LEVEL;Machine_POWERSHELL_DISTRIBUTION_CHANNEL;Machine_VCPKG_DEFAULT_BINARY_CACHE;Machine_ChocolateyInstall;Machine_CARGO_HOME;Machine_TMP;Machine_Path;Machine_PROCESSOR_IDENTIFIER;Machine_NUMBER_OF_PROCESSORS;Machine_PIP_CACHE_DIR;Machine_USERNAME;Machine_npm_config_cache;Machine_NUGET_PACKAGES;Machine_TEMP;Machine_PROCESSOR_REVISION";
+            EnvironmentVars =";User_TMP;User_OneDriveConsumer;User_Path;User_TEMP;User_OneDrive;Process_windir;Process_CommonProgramW6432;Process_TEMP;Process_ProgramData;Process_PROCESSOR_ARCHITECTURE;Process_CommonProgramFiles;Process_MSBuildLoadMicrosoftTargetsReadOnly;Process_HOMEPATH;Process_ACProArtSvcPort;Process_ProgramW6432;Process_DOTNET_CLI_TELEMETRY_SESSIONID;Process_SystemDrive;Process_SystemRoot;Process_WSLENV;Process_DriverData;Process_MSBUILDFAILONDRIVEENUMERATINGWILDCARD;Process_POWERSHELL_DISTRIBUTION_CHANNEL;Process_LOCALAPPDATA;Process_LOGONSERVER;Process_APPDATA;Process_PROCESSOR_IDENTIFIER;Process_ProgramFiles;Process_WT_SESSION;Process_OS;Process_TMP;Process_OneDrive;Process_HOMEDRIVE;Process_USERDOMAIN;Process_PUBLIC;Process_ComSpec;Process_PSModulePath;Process_MSBuildSDKsPath;Process_ProgramFiles(x86);Process_SESSIONNAME;Process_MSBUILDUSESERVER;Process__MSBUILDTLENABLED;Process_PATHEXT;Process_USERDOMAIN_ROAMINGPROFILE;Process_PROCESSOR_REVISION;Process_USERPROFILE;Process_ALLUSERSPROFILE;Process_PROCESSOR_LEVEL;Process_COMPUTERNAME;Process_Path;Process_USERNAME;Process_MSBuildExtensionsPath;Process_DOTNET_HOST_PATH;Process_CommonProgramFiles(x86);Process_OneDriveConsumer;Process_NUMBER_OF_PROCESSORS;Process_WT_PROFILE_ID;Machine_TEMP;Machine_PROCESSOR_ARCHITECTURE;Machine_PROCESSOR_REVISION;Machine_POWERSHELL_DISTRIBUTION_CHANNEL;Machine_ComSpec;Machine_PSModulePath;Machine_PATHEXT;Machine_ACProArtSvcPort;Machine_DriverData;Machine_USERNAME;Machine_windir;Machine_NUMBER_OF_PROCESSORS;Machine_PROCESSOR_LEVEL;Machine_PROCESSOR_IDENTIFIER;Machine_TMP;Machine_Path;Machine_OS";
             User = "ignat";
             IsInCI=false;
             
 { var v=new VersionReleased();
 v.Name = "FutureRelease" ;
 v.ISODateTime=DateTime.ParseExact("99990416","yyyyMMdd",null); { 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "6cadf69e7812f243cb0c50f49c64aca303475459";
+rd.Subject = "Merge pull request #372 from ignatandrei/ReflectionIT.ComparisonOperatorsGenerator";
+rd.ReleaseDate = DateTime.ParseExact("20250528","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "2f47cc89cc4d1003efa65684a3fa631f747f79f5";
+rd.Subject = "Merge pull request #365 from ignatandrei/zlinq";
+rd.ReleaseDate = DateTime.ParseExact("20250528","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "727237a1675f3a3c5d39716d083f626f0f48cf1e";
+rd.Subject = "Merge pull request #363 from ignatandrei/NativeObjects";
+rd.ReleaseDate = DateTime.ParseExact("20250402","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "4fe8d3b066502a77557765755fde613ddc287a7f";
+rd.Subject = "Merge pull request #362 from ignatandrei/CSharpGeneratorAnalyzerTest";
+rd.ReleaseDate = DateTime.ParseExact("20250402","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "69ba3487315daa886b894b6f11e70d72307d016e";
+rd.Subject = "Merge pull request #361 from ignatandrei/PMart.Enumeration";
+rd.ReleaseDate = DateTime.ParseExact("20250325","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "69c167895f4695eb43fc7240a26d9bbf4ea11aa2";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20250324","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "21b27256e5a951c50c191b502e1c331153e99c90";
+rd.Subject = "Merge pull request #359 from ignatandrei/MemberAccessor";
+rd.ReleaseDate = DateTime.ParseExact("20250324","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "aeb3321e3e879916e29986b967397172e8d21b41";
+rd.Subject = "Merge pull request #358 from ignatandrei/StepwiseBuilderGenerator";
+rd.ReleaseDate = DateTime.ParseExact("20250324","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "6d89d3d97e5d1721f17e1c00083291f1306cbc56";
+rd.Subject = "Merge pull request #357 from ignatandrei/356-httpsgithubcomtaraskovalenkoentitylengthsgenerator";
+rd.ReleaseDate = DateTime.ParseExact("20250219","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "ef1df7ed94ae964d47a1b15e57088cd383b9536a";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20250218","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "3167efa3445433894ba3d27ccb7165b945fa250b";
+rd.Subject = "Merge pull request #354 from ignatandrei/RSCG_CompositeProvider";
+rd.ReleaseDate = DateTime.ParseExact("20250218","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "92250ab71fb91a7cdde886f13d3e1d4e09da2461";
+rd.Subject = "Merge pull request #353 from ignatandrei/349-httpsgithubcomipjohnsondependencymodules";
+rd.ReleaseDate = DateTime.ParseExact("20250216","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "6564afa4766e5c517eefc16183b79d893aeca3cf";
+rd.Subject = "Merge branch 'main' into 349-httpsgithubcomipjohnsondependencymodules";
+rd.ReleaseDate = DateTime.ParseExact("20250216","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "fb44f6423695af32ab20bcc8920e56e3e797033d";
+rd.Subject = "Merge pull request #352 from ignatandrei/351-httpsgithubcomconnorivymockme";
+rd.ReleaseDate = DateTime.ParseExact("20250216","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9b940b93346ae788f4749f1c583dfc120197897e";
+rd.Subject = "Merge pull request #348 from ignatandrei/NullObject";
+rd.ReleaseDate = DateTime.ParseExact("20250121","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "94104c202c607a526657f27a7ed22444c79b4bfa";
+rd.Subject = "Merge pull request #347 from ignatandrei/Larcanum.GitInfo";
+rd.ReleaseDate = DateTime.ParseExact("20250118","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "ef42b9d39956f0c72eae520dc76623a409d32b1a";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20241223","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "a0a15b980f215ec25ebb8ae897ca61bb82568076";
+rd.Subject = "Merge pull request #344 from ignatandrei/Pure.DI";
+rd.ReleaseDate = DateTime.ParseExact("20241223","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "3859435334a35f3d3ae779b97e1865f06e62be87";
+rd.Subject = "Merge pull request #342 from ignatandrei/341-constructorgenerator";
+rd.ReleaseDate = DateTime.ParseExact("20241221","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "40b0dd883c6813a547c33c69a0f17663e9596115";
+rd.Subject = "Merge pull request #340 from ignatandrei/valuify";
+rd.ReleaseDate = DateTime.ParseExact("20241220","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "a228abe3e56b291a5e9653ec3beee1a77e7d3be3";
+rd.Subject = "Merge pull request #339 from ignatandrei/Equatable.Generator";
+rd.ReleaseDate = DateTime.ParseExact("20241217","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "883108b005de69963a3c7eba15328294aaf2c0b2";
+rd.Subject = "Merge pull request #338 from ignatandrei/337-httpsgithubcomrosslightdarpbinaryobjects";
+rd.ReleaseDate = DateTime.ParseExact("20241214","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "a966c8a12cafd67d83970a007c0ec50e2a0ea096";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20241214","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "f42fff8cccae1113d13aecf62d998402af6c953c";
+rd.Subject = "Merge pull request #336 from ignatandrei/335-httpsgithubcomanderssonpeterdolly";
+rd.ReleaseDate = DateTime.ParseExact("20241214","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "5e16e5c3f702c884b7cfaf1db5b7c8802c56081a";
+rd.Subject = "Merge pull request #333 from ignatandrei/Dapper.AOT";
+rd.ReleaseDate = DateTime.ParseExact("20241213","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9d20748b45ceab865ac9574cd1b7387c81035449";
+rd.Subject = "Merge pull request #332 from ignatandrei/Microsoft.Windows.CsWin32";
+rd.ReleaseDate = DateTime.ParseExact("20241202","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "a7008d8d7b2ef18280c2f01a51e904720964333f";
+rd.Subject = "Merge pull request #329 from ignatandrei/328-httpsgithubcomimmediateplatformimmediateapis";
+rd.ReleaseDate = DateTime.ParseExact("20241118","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9272a073e16abb55477423a7ef86a5cc3d57c9c3";
+rd.Subject = "Merge pull request #326 from ignatandrei/Hsu.Sg.FluentMember";
+rd.ReleaseDate = DateTime.ParseExact("20241116","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "d0ee5781d8aa4aa4ad56d5ba48944a0937d5f6ca";
+rd.Subject = "Merge branch 'main' of https://github.com/ignatandrei/RSCG_Examples";
+rd.ReleaseDate = DateTime.ParseExact("20241115","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "537d05b93a222c08a2390f0d7112037979105b5b";
+rd.Subject = "Merge pull request #324 from ignatandrei/323-httpsgithubcomcredfetocredfeto-version-constants-generator";
+rd.ReleaseDate = DateTime.ParseExact("20241115","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "92a910eb0ade76240350c10c9aa90875b9479ae1";
+rd.Subject = "Merge pull request #322 from ignatandrei/PolyType";
+rd.ReleaseDate = DateTime.ParseExact("20241111","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "0f508f4ad1195e7640ac77a0942ac33ebdae0d31";
+rd.Subject = "Merge pull request #321 from ignatandrei/320-httpsgithubcomdatacuteembeddedresourcepropertygenerator";
+rd.ReleaseDate = DateTime.ParseExact("20241110","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "20c8400745cfc9a4d32c626b448372fd3f3bc143";
+rd.Subject = "Merge pull request #319 from ignatandrei/rscg_queryables";
+rd.ReleaseDate = DateTime.ParseExact("20241110","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "c23dc01d09efe053d7b8cd6df4a2d4557dfd1404";
+rd.Subject = "Merge pull request #317 from ignatandrei/316-razorslices";
+rd.ReleaseDate = DateTime.ParseExact("20241028","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "9d432edec0a632ac802315b7ca35bc3e532ae9f9";
+rd.Subject = "Merge pull request #315 from ignatandrei/313-typedsignalr";
+rd.ReleaseDate = DateTime.ParseExact("20241027","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "858c3b5a4f815d95461154b08033c06259585566";
+rd.Subject = "Merge pull request #311 from ignatandrei/MinimalHelpers.Routing.Analyzers";
+rd.ReleaseDate = DateTime.ParseExact("20241021","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
+var rd=new ReleaseData();
+rd.Author = "Andrei Ignat";
+rd.CommitId = "7d60ec2e0aaffa3a74b60d9f160fc6be97a2de1f";
+rd.Subject = "Merge pull request #303 from ignatandrei/302-immediatehandlers";
+rd.ReleaseDate = DateTime.ParseExact("20240923","yyyyMMdd",null);  
+v.AddRelease(rd);
+}{ 
 var rd=new ReleaseData();
 rd.Author = "Andrei Ignat";
 rd.CommitId = "d50dab7ca83ffc49e0983e33c59e92a7bcb8aff7";

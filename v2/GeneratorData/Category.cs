@@ -34,5 +34,6 @@ public enum Category
     Clone=29,
     Equals= 30, 
     Linq=31,
+    CommandLine=32,
 }
 
