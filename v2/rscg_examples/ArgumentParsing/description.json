@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ArgumentParsing",
+      "nuget":[
+         "https://www.nuget.org/packages/ArgumentParsing/"
+      ],
+      "link":"https://github.com/DoctorKrolic/ArgumentParsing",
+      "author":"",
+      "source":"https://github.com/DoctorKrolic/ArgumentParsing"
+   },
+   "data":{
+      "goodFor":["Transform command line arguments into strongly typed objects"],
+      "csprojDemo":"ArgPars.csproj",
+      "csFiles":["Program.cs","FileProcessorOptions.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
