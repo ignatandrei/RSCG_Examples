@@ -1248,10 +1248,7 @@ foreach (var item in x)
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
-<Tabs>
 
-
-</Tabs>
 
 ## Usefull
 
