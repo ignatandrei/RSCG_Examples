@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ArgumentParsing",
+  "steps": 
+  [
+    {
+      "file": "ArgPars/ArgPars.csproj",
+      "description": "First, we add Nuget  [ArgumentParsing](https://www.nuget.org/packages/ArgumentParsing/) in csproj  ",
+      "pattern": "ArgumentParsing"
+    }
+
+        ,{
+        "file": "ArgPars/FileProcessorOptions.cs",
+        "description": "File FileProcessorOptions.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ArgPars/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ArgPars/ArgPars.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ArgPars/obj/GX/ArgumentParsing.Generators/ArgumentParsing.Generators.ArgumentParserGenerator/VersionCommandHandler.ArgPars.g.cs",
+        "description": "Generated File 3  from 3 : VersionCommandHandler.ArgPars.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ArgPars/obj/GX/ArgumentParsing.Generators/ArgumentParsing.Generators.ArgumentParserGenerator/HelpCommandHandler.ExampleProject.FileProcessorOptions.g.cs",
+        "description": "Generated File 2  from 3 : HelpCommandHandler.ExampleProject.FileProcessorOptions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ArgPars/obj/GX/ArgumentParsing.Generators/ArgumentParsing.Generators.ArgumentParserGenerator/ExampleProject.FileProcessorOptions.g.cs",
+        "description": "Generated File 1  from 3 : ExampleProject.FileProcessorOptions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

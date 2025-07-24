@@ -1561,6 +1561,14 @@
       "Source": "https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator",
       "Category": "EnhancementClass",
       "AddedOn": "2025-05-25T00:00:00"
+    },
+    {
+      "Name": "ArgumentParsing",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ArgumentParsing",
+      "NuGet": "https://www.nuget.org/packages/ArgumentParsing/",
+      "Source": "https://github.com/DoctorKrolic/ArgumentParsing",
+      "Category": "CommandLine",
+      "AddedOn": "2025-07-01T00:00:00"
     }
   ]
 }
