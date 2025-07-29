@@ -695,11 +695,6 @@
     "why": "too complicated for me, need help"
   },
   {
-    "ID": 145,
-    "name": "ArgumentParsing https://github.com/DoctorKrolic/ArgumentParsing",
-    "why": "later"
-  },
-  {
     "ID": 146,
     "name": "DI https://github.com/Frederik91/DependencyInjection.SourceGenerator",
     "why": "old ISourceGenerator"

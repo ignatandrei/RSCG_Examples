@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"BunnyTailServiceRegistration",
+      "nuget":[
+         "https://www.nuget.org/packages/BunnyTail.ServiceRegistration/"
+      ],
+      "link":"https://github.com/usausa/service-registration-generator",
+      "author":"Machi Pon",
+      "source":"https://github.com/usausa/service-registration-generator"
+   },
+   "data":{
+      "goodFor":["Generating service registration code from attributes"],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["ServiceCollectionExtensions","Program.cs","IDatabase.cs","Database.cs","DatabaseCon.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
