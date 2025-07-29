@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BunnyTailServiceRegistration",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [BunnyTail.ServiceRegistration](https://www.nuget.org/packages/BunnyTail.ServiceRegistration/) in csproj  ",
+      "pattern": "BunnyTail.ServiceRegistration"
+    }
+
+        ,{
+        "file": "InjectDemo/DatabaseCon.cs",
+        "description": "File DatabaseCon.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Database.cs",
+        "description": "File Database.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/IDatabase.cs",
+        "description": "File IDatabase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/ServiceCollectionExtensions.cs",
+        "description": "File ServiceCollectionExtensions.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/BunnyTail.ServiceRegistration.Generator/BunnyTail.ServiceRegistration.Generator.ServiceRegistrationGenerator/ServiceCollectionExtensions.g.cs",
+        "description": "Generated File 1  from 1 : ServiceCollectionExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

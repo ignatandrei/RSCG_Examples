@@ -195,3 +195,5 @@ Nr,Key,Source,Category
 194,zlinq, https://github.com/Cysharp/ZLinq,Linq
 195,Comparison, https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator,EnhancementClass
 196,ArgumentParsing, https://github.com/DoctorKrolic/ArgumentParsing,CommandLine
+197,BunnyTailServiceRegistration, https://github.com/usausa/service-registration-generator,DependencyInjection
+198,DimonSmart.BuilderGenerator, https://github.com/DimonSmart/BuilderGenerator,Builder

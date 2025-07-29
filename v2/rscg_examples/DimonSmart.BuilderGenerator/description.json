@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"DimonSmart.BuilderGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/DimonSmart.BuilderGenerator/"
+      ],
+      "link":"https://github.com/DimonSmart/BuilderGenerator",
+      "author":"Dmitry Dorogoy",
+      "source":"https://github.com/DimonSmart/BuilderGenerator"
+   },
+   "data":{
+      "goodFor":["Generating builder pattern code for classes"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

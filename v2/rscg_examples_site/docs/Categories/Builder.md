@@ -1,14 +1,16 @@
 <h1>Builder</h1>
 
-Number RSCG: 5
+Number RSCG: 6
 
    1 [Architect.DomainModeling](/docs/Architect.DomainModeling)
 
    2 [BuilderGenerator](/docs/BuilderGenerator)
 
-   3 [Fluentify](/docs/Fluentify)
+   3 [DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
 
-   4 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
+   4 [Fluentify](/docs/Fluentify)
 
-   5 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+   5 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
+
+   6 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
     

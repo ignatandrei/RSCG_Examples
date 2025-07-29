@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 196 RSCG list by category
-description: 196 RSCG list by category
+title: 198 RSCG list by category
+description: 198 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -128,7 +128,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:5</summary>
+  <summary>Expand Builder =>examples:6</summary>
         
 
 
@@ -153,6 +153,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+
+        
+
+
+[DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
 
 </details>
     
@@ -285,7 +290,7 @@ import DocCardList from '@theme/DocCardList';
 ## DependencyInjection 
 <details>
     
-  <summary>Expand DependencyInjection =>examples:8</summary>
+  <summary>Expand DependencyInjection =>examples:9</summary>
         
 
 
@@ -325,6 +330,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
+
+        
+
+
+[BunnyTailServiceRegistration](/docs/BunnyTailServiceRegistration)
 
 </details>
     
@@ -1261,6 +1271,8 @@ flowchart LR;
 
     Builder--> StepwiseBuilderGenerator((StepwiseBuilderGenerator))
 
+    Builder--> DimonSmart.BuilderGenerator((DimonSmart.BuilderGenerator))
+
     Clone--> CopyTo((CopyTo))
 
     Clone--> Dolly((Dolly))
@@ -1312,6 +1324,8 @@ flowchart LR;
     DependencyInjection--> Pure.DI((Pure.DI))
 
     DependencyInjection--> DependencyModules.SourceGenerator((DependencyModules.SourceGenerator))
+
+    DependencyInjection--> BunnyTailServiceRegistration((BunnyTailServiceRegistration))
 
     Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 

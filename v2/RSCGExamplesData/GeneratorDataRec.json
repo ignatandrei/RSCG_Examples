@@ -1183,5 +1183,17 @@
     "Category": 32,
     "dtStart": "2025-07-01T00:00:00",
     "show": true
+  },
+  {
+    "ID":"BunnyTailServiceRegistration",
+    "Category":7,
+    "dtStart": "2025-07-02T00:00:00",
+    "show": true
+  },
+  {
+    "ID":"DimonSmart.BuilderGenerator",
+    "Category": 4,
+    "dtStart": "2025-07-03T00:00:00",
+    "show": true
   }
 ]
