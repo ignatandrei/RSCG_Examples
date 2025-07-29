@@ -1,0 +1,1 @@
+Generate builder classes via source generation. Simplifies object creation with Builder pattern.

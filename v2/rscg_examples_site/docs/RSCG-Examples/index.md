@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 197 RSCG list by category
-description: 197 RSCG list by category
+title: 198 RSCG list by category
+description: 198 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -128,7 +128,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:5</summary>
+  <summary>Expand Builder =>examples:6</summary>
         
 
 
@@ -153,6 +153,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+
+        
+
+
+[DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
 
 </details>
     
@@ -1265,6 +1270,8 @@ flowchart LR;
     Builder--> Hsu.Sg.FluentMember((Hsu.Sg.FluentMember))
 
     Builder--> StepwiseBuilderGenerator((StepwiseBuilderGenerator))
+
+    Builder--> DimonSmart.BuilderGenerator((DimonSmart.BuilderGenerator))
 
     Clone--> CopyTo((CopyTo))
 

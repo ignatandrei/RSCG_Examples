@@ -1577,6 +1577,14 @@
       "Source": "https://github.com/usausa/service-registration-generator",
       "Category": "DependencyInjection",
       "AddedOn": "2025-07-02T00:00:00"
+    },
+    {
+      "Name": "DimonSmart.BuilderGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DimonSmart.BuilderGenerator",
+      "NuGet": "https://www.nuget.org/packages/DimonSmart.BuilderGenerator/",
+      "Source": "https://github.com/DimonSmart/BuilderGenerator",
+      "Category": "Builder",
+      "AddedOn": "2025-07-03T00:00:00"
     }
   ]
 }

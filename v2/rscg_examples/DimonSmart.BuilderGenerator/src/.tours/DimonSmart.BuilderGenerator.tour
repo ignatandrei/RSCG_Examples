@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "DimonSmart.BuilderGenerator",
+  "steps": 
+  [
+    {
+      "file": "Builder/Builder.csproj",
+      "description": "First, we add Nuget  [DimonSmart.BuilderGenerator](https://www.nuget.org/packages/DimonSmart.BuilderGenerator/) in csproj  ",
+      "pattern": "DimonSmart.BuilderGenerator"
+    }
+
+        ,{
+        "file": "Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Builder/obj/GX/DimonSmart.BuilderGenerator.Source/BuilderGenerator.Source.BuilderIncrementalGenerator/PersonBuilderContainerBuilder.g.cs",
+        "description": "Generated File 4  from 4 : PersonBuilderContainerBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/DimonSmart.BuilderGenerator.Source/BuilderGenerator.Source.BuilderIncrementalGenerator/PersonBuilderBuilder.g.cs",
+        "description": "Generated File 3  from 4 : PersonBuilderBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/DimonSmart.BuilderGenerator.Source/BuilderGenerator.Source.BuilderIncrementalGenerator/PersonBuilder.g.cs",
+        "description": "Generated File 2  from 4 : PersonBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/DimonSmart.BuilderGenerator.Source/BuilderGenerator.Source.BuilderIncrementalGenerator/GenerateBuilderAttribute.g.cs",
+        "description": "Generated File 1  from 4 : GenerateBuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
