@@ -644,13 +644,18 @@ public class MultiGeneratorV2
         return (p.ExitCode == 0);
 
     }
-    internal async Task<bool> WroteDocusaurusAll()
+    internal async Task<bool> WroteDocusaurusAll(string lastGenerator)
     {
+        VerifyLastGenerator(lastGenerator);
+        var latest = generators[lastGenerator];
+
         //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
         await ModifyDocusaurusTotalExamples(pathDocusaurus, generators.Count);
         await ModifyDocusaurusWithoutExamples(pathDocusaurus);
         ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        await Task.WhenAll(_AllDescriptions.Select(it => WroteDocusaurus(it, pathDocusaurus)));
+        await Task.WhenAll(_AllDescriptions
+            .Where(it=>it.generatedDate > latest.dtStart)
+            .Select(it => WroteDocusaurus(it, pathDocusaurus)));
         if(!await WroteIndexListOfRSCG(this.rootPath))
         {
             Console.WriteLine(" please make true to all to write index");
@@ -733,17 +738,13 @@ public class MultiGeneratorV2
 
         return true;
     }
-
-    internal async Task WrotePost()
+    private void VerifyLastGenerator(string lastGenerator)
     {
-        await Task.Delay(1000);
-        //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
-        ArgumentNullException.ThrowIfNull(_AllDescriptions);
-        //var x = 0;
-        //x++;
-        //if(x>2)
-        var lastGenerator = "Comparison";
-        if(generators.Count == 0)
+        if (string.IsNullOrWhiteSpace(lastGenerator))
+        {
+            throw new ArgumentException("lastGenerator cannot be null or empty");
+        }
+        if (generators.Count == 0)
         {
             throw new Exception("no generators found");
         }
@@ -753,9 +754,18 @@ public class MultiGeneratorV2
                 .Where(it => it.Value.show)
                 .Select(it => it.Key));
             throw new Exception($"cannot find {lastGenerator} in  {generatorsKey}");
-
-
         }
+    }
+    internal async Task WrotePost(string lastGenerator)
+    {
+        await Task.Delay(1000);
+        //var pathDocusaurus = Path.Combine(this.rootPath, "rscg_examples_site");
+        ArgumentNullException.ThrowIfNull(_AllDescriptions);
+        //var x = 0;
+        //x++;
+        //if(x>2)
+        
+        VerifyLastGenerator(lastGenerator);
         var latest = generators[lastGenerator];
         await Task.WhenAll(_AllDescriptions
             .OrderByDescending(it => it.generatedDate)

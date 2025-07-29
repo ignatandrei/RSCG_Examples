@@ -154,9 +154,10 @@ $$"""
 
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :" + nr);
+    var lastGenerator = "Comparison";
 
-    await m.WrotePost();     
-    await m.WroteDocusaurusAll();
+    await m.WrotePost(lastGenerator);     
+    await m.WroteDocusaurusAll(lastGenerator);
 
     await m.WriteFrontReadMe(oldDesc);
     //int x = 1;

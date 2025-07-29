@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 196 RSCG list by category
-description: 196 RSCG list by category
+title: 197 RSCG list by category
+description: 197 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -285,7 +285,7 @@ import DocCardList from '@theme/DocCardList';
 ## DependencyInjection 
 <details>
     
-  <summary>Expand DependencyInjection =>examples:8</summary>
+  <summary>Expand DependencyInjection =>examples:9</summary>
         
 
 
@@ -325,6 +325,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
+
+        
+
+
+[BunnyTailServiceRegistration](/docs/BunnyTailServiceRegistration)
 
 </details>
     
@@ -1312,6 +1317,8 @@ flowchart LR;
     DependencyInjection--> Pure.DI((Pure.DI))
 
     DependencyInjection--> DependencyModules.SourceGenerator((DependencyModules.SourceGenerator))
+
+    DependencyInjection--> BunnyTailServiceRegistration((BunnyTailServiceRegistration))
 
     Disposer--> BenutomoAutomaticDisposeImplSourceGenerator((BenutomoAutomaticDisposeImplSourceGenerator))
 

@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating service registration code from attributes"],
       "csprojDemo":"InjectDemo.csproj",
-      "csFiles":["ServiceCollectionExtensions","Program.cs","IDatabase.cs","Database.cs","DatabaseCon.cs"],
+      "csFiles":["ServiceCollectionExtensions.cs","Program.cs","IDatabase.cs","Database.cs","DatabaseCon.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
