@@ -1585,6 +1585,14 @@
       "Source": "https://github.com/DimonSmart/BuilderGenerator",
       "Category": "Builder",
       "AddedOn": "2025-07-03T00:00:00"
+    },
+    {
+      "Name": "SuperFluid",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SuperFluid",
+      "NuGet": "https://www.nuget.org/packages/SuperFluid/",
+      "Source": "https://github.com/hughesjs/SuperFluid",
+      "Category": "StateMachine",
+      "AddedOn": "2025-07-04T00:00:00"
     }
   ]
 }

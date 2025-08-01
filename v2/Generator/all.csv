@@ -197,3 +197,4 @@ Nr,Key,Source,Category
 196,ArgumentParsing, https://github.com/DoctorKrolic/ArgumentParsing,CommandLine
 197,BunnyTailServiceRegistration, https://github.com/usausa/service-registration-generator,DependencyInjection
 198,DimonSmart.BuilderGenerator, https://github.com/DimonSmart/BuilderGenerator,Builder
+199,SuperFluid, https://github.com/hughesjs/SuperFluid,StateMachine

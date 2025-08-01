@@ -1,6 +1,6 @@
 # Just later
 
-## Latest Update : 2025-07-03 => 03 July 2025
+## Latest Update : 2025-07-04 => 04 July 2025
 
 
 
@@ -8,139 +8,289 @@
 
 
 
-1) [Hsu.Sg.Proxy]( https://github.com/hsu-net/source-generators/) , https://github.com/hsu-net/source-generators/ 
+1) [AdaskoTheBeAsT.Identity.Dapper]( https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper) , https://github.com/AdaskoTheBeAsT/AdaskoTheBeAsT.Identity.Dapper 
 
 Why I have not tested : later
 
 
 
-2) [https://github.com/bjornhellander/TestInheritanceGenerator]( https://github.com/bjornhellander/TestInheritanceGenerator) , https://github.com/bjornhellander/TestInheritanceGenerator 
+2) [AttributeFactoryGenerator]( https://github.com/PaulBraetz/AttributeFactoryGenerator) , https://github.com/PaulBraetz/AttributeFactoryGenerator 
 
 Why I have not tested : later
 
 
 
-3) [https://github.com/BlackWhiteYoshi]( https://github.com/BlackWhiteYoshi) , https://github.com/BlackWhiteYoshi 
+3) [BigMachines]( https://github.com/archi-Doc/BigMachines) , https://github.com/archi-Doc/BigMachines 
 
 Why I have not tested : later
 
 
 
-4) [https://github.com/borisdj/CsCodeGenerator]( https://github.com/borisdj/CsCodeGenerator) , https://github.com/borisdj/CsCodeGenerator 
+4) [Dexie]( https://github.com/b-straub/DexieNET) , https://github.com/b-straub/DexieNET 
 
 Why I have not tested : later
 
 
 
-5) [https://github.com/chickensoft-games/LogicBlocks]( https://github.com/chickensoft-games/LogicBlocks) , https://github.com/chickensoft-games/LogicBlocks 
+5) [epj.RouteGenerator]( https://github.com/ewerspej/epj.RouteGenerator) , https://github.com/ewerspej/epj.RouteGenerator 
 
 Why I have not tested : later
 
 
 
-6) [https://github.com/eddievelasquez/IntercodeToolbox]( https://github.com/eddievelasquez/IntercodeToolbox) , https://github.com/eddievelasquez/IntercodeToolbox 
+6) [FastEndpoints]( https://github.com/FastEndpoints/FastEndpoints) , https://github.com/FastEndpoints/FastEndpoints 
 
 Why I have not tested : later
 
 
 
-7) [https://github.com/hughesjs/SuperFluid]( https://github.com/hughesjs/SuperFluid) , https://github.com/hughesjs/SuperFluid 
+7) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
 
 Why I have not tested : later
 
 
 
-8) [https://github.com/inputfalken/Dynatello]( https://github.com/inputfalken/Dynatello) , https://github.com/inputfalken/Dynatello 
+8) [GRPC-Mock-Server]( https://github.com/cezarypiatek/GRPC-Mock-Server) , https://github.com/cezarypiatek/GRPC-Mock-Server 
 
 Why I have not tested : later
 
 
 
-9) [https://github.com/ionite34/MinimalApiMapper]( https://github.com/ionite34/MinimalApiMapper) , https://github.com/ionite34/MinimalApiMapper 
+9) [H.NSwag.Generator]( https://github.com/HavenDV/H.NSwag.Generator) , https://github.com/HavenDV/H.NSwag.Generator 
 
 Why I have not tested : later
 
 
 
-10) [https://github.com/ramhari-dev/PropGenAoT]( https://github.com/ramhari-dev/PropGenAoT) , https://github.com/ramhari-dev/PropGenAoT 
+10) [Hsu.Sg.Proxy]( https://github.com/hsu-net/source-generators/) , https://github.com/hsu-net/source-generators/ 
 
 Why I have not tested : later
 
 
 
-11) [https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator]( https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator) , https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator 
+11) [https://github.com/AlexNav73/CoreCraft]( https://github.com/AlexNav73/CoreCraft) , https://github.com/AlexNav73/CoreCraft 
 
 Why I have not tested : later
 
 
 
-12) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 
+12) [https://github.com/bjornhellander/TestInheritanceGenerator]( https://github.com/bjornhellander/TestInheritanceGenerator) , https://github.com/bjornhellander/TestInheritanceGenerator 
 
 Why I have not tested : later
 
 
 
-13) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
+13) [https://github.com/BlackWhiteYoshi]( https://github.com/BlackWhiteYoshi) , https://github.com/BlackWhiteYoshi 
 
 Why I have not tested : later
 
 
 
-14) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
+14) [https://github.com/borisdj/CsCodeGenerator]( https://github.com/borisdj/CsCodeGenerator) , https://github.com/borisdj/CsCodeGenerator 
 
 Why I have not tested : later
 
 
 
-15) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
+15) [https://github.com/chickensoft-games/LogicBlocks]( https://github.com/chickensoft-games/LogicBlocks) , https://github.com/chickensoft-games/LogicBlocks 
 
 Why I have not tested : later
 
 
 
-16) [https://github.com/TheFo2sh/AsyncFlow]( https://github.com/TheFo2sh/AsyncFlow) , https://github.com/TheFo2sh/AsyncFlow 
+16) [https://github.com/eddievelasquez/IntercodeToolbox]( https://github.com/eddievelasquez/IntercodeToolbox) , https://github.com/eddievelasquez/IntercodeToolbox 
 
 Why I have not tested : later
 
 
 
-17) [https://github.com/usausa/service-registration-generator]( https://github.com/usausa/service-registration-generator) , https://github.com/usausa/service-registration-generator 
+17) [https://github.com/inputfalken/Dynatello]( https://github.com/inputfalken/Dynatello) , https://github.com/inputfalken/Dynatello 
 
 Why I have not tested : later
 
 
 
-18) [laker]( https://github.com/Lakerfield/Lakerfield.Rpc) , https://github.com/Lakerfield/Lakerfield.Rpc 
+18) [https://github.com/ionite34/MinimalApiMapper]( https://github.com/ionite34/MinimalApiMapper) , https://github.com/ionite34/MinimalApiMapper 
 
 Why I have not tested : later
 
 
 
-19) [Minerals.AutoCQRS]( https://github.com/SzymonHalucha/Minerals.AutoCQRS) , https://github.com/SzymonHalucha/Minerals.AutoCQRS 
+19) [https://github.com/JasonBock/CslaGeneratorSerialization]( https://github.com/JasonBock/CslaGeneratorSerialization) , https://github.com/JasonBock/CslaGeneratorSerialization 
 
 Why I have not tested : later
 
 
 
-20) [Minerals.AutoDomain]( https://github.com/SzymonHalucha/Minerals.AutoDomain) , https://github.com/SzymonHalucha/Minerals.AutoDomain 
+20) [https://github.com/MeltyPlayer/Schema]( https://github.com/MeltyPlayer/Schema) , https://github.com/MeltyPlayer/Schema 
 
 Why I have not tested : later
 
 
 
-21) [observable]( https://github.com/notanaverageman/Bindables) , https://github.com/notanaverageman/Bindables 
+21) [https://github.com/ramhari-dev/PropGenAoT]( https://github.com/ramhari-dev/PropGenAoT) , https://github.com/ramhari-dev/PropGenAoT 
 
 Why I have not tested : later
 
 
 
-22) [RazorGen]( https://github.com/dartk/RazorGen) , https://github.com/dartk/RazorGen 
+22) [https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator]( https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator) , https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator 
 
 Why I have not tested : later
 
 
 
-23) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
+23) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 
+
+Why I have not tested : later
+
+
+
+24) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
+
+Why I have not tested : later
+
+
+
+25) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
+
+Why I have not tested : later
+
+
+
+26) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
+
+Why I have not tested : later
+
+
+
+27) [https://github.com/TheFo2sh/AsyncFlow]( https://github.com/TheFo2sh/AsyncFlow) , https://github.com/TheFo2sh/AsyncFlow 
+
+Why I have not tested : later
+
+
+
+28) [https://github.com/usausa/service-registration-generator]( https://github.com/usausa/service-registration-generator) , https://github.com/usausa/service-registration-generator 
+
+Why I have not tested : later
+
+
+
+29) [Jos.Enumeration,]( https://github.com/joseftw/jos.enumeration) , https://github.com/joseftw/jos.enumeration 
+
+Why I have not tested : later
+
+
+
+30) [laker]( https://github.com/Lakerfield/Lakerfield.Rpc) , https://github.com/Lakerfield/Lakerfield.Rpc 
+
+Why I have not tested : later
+
+
+
+31) [ManagedDotnetProfiler]( https://github.com/kevingosse/ManagedDotnetProfiler) , https://github.com/kevingosse/ManagedDotnetProfiler 
+
+Why I have not tested : later
+
+
+
+32) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
+
+Why I have not tested : later
+
+
+
+33) [Minerals.AutoCQRS]( https://github.com/SzymonHalucha/Minerals.AutoCQRS) , https://github.com/SzymonHalucha/Minerals.AutoCQRS 
+
+Why I have not tested : later
+
+
+
+34) [Minerals.AutoDomain]( https://github.com/SzymonHalucha/Minerals.AutoDomain) , https://github.com/SzymonHalucha/Minerals.AutoDomain 
+
+Why I have not tested : later
+
+
+
+35) [MvvmGen]( https://github.com/thomasclaudiushuber/mvvmgen) , https://github.com/thomasclaudiushuber/mvvmgen 
+
+Why I have not tested : later
+
+
+
+36) [observable]( https://github.com/notanaverageman/Bindables) , https://github.com/notanaverageman/Bindables 
+
+Why I have not tested : later
+
+
+
+37) [Overloader]( https://github.com/emptycoder/Overloader) , https://github.com/emptycoder/Overloader 
+
+Why I have not tested : later
+
+
+
+38) [PolySharp]( https://github.com/Sergio0694/PolySharp) , https://github.com/Sergio0694/PolySharp 
+
+Why I have not tested : later
+
+
+
+39) [RazorGen]( https://github.com/dartk/RazorGen) , https://github.com/dartk/RazorGen 
+
+Why I have not tested : later
+
+
+
+40) [schema]( https://github.com/MeltyPlayer/Schema) , https://github.com/MeltyPlayer/Schema 
+
+Why I have not tested : later
+
+
+
+41) [SogePoco]( https://github.com/d-p-y/SogePoco) , https://github.com/d-p-y/SogePoco 
+
+Why I have not tested : later
+
+
+
+42) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
+
+Why I have not tested : later
+
+
+
+43) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
+
+Why I have not tested : later
+
+
+
+44) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
+
+Why I have not tested : later
+
+
+
+45) [Tortuga.Shipwright]( https://github.com/TortugaResearch/Tortuga.Shipwright) , https://github.com/TortugaResearch/Tortuga.Shipwright 
+
+Why I have not tested : later
+
+
+
+46) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+
+Why I have not tested : later
+
+
+
+47) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+
+Why I have not tested : later
+
+
+
+48) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : later
 

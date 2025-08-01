@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SuperFluid",
+  "steps": 
+  [
+    {
+      "file": "StateMachineExample/SuperFluidDemo.csproj",
+      "description": "First, we add Nuget  [SuperFluid](https://www.nuget.org/packages/SuperFluid/) in csproj  ",
+      "pattern": "SuperFluid"
+    }
+
+        ,{
+        "file": "StateMachineExample/CalculatorService.cs",
+        "description": "File CalculatorService.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "StateMachineExample/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project StateMachineExample/SuperFluidDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "StateMachineExample/Calculator.fluid.yml",
+        "description": "File Calculator.fluid.yml  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "StateMachineExample/obj/GX/SuperFluid/SuperFluid.Internal.SourceGenerators.FluidApiSourceGenerator/ICanAddOrSubtractOrCalculate.fluid.g.cs",
+        "description": "Generated File 3  from 3 : ICanAddOrSubtractOrCalculate.fluid.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StateMachineExample/obj/GX/SuperFluid/SuperFluid.Internal.SourceGenerators.FluidApiSourceGenerator/ICanAddOrSubtract.fluid.g.cs",
+        "description": "Generated File 2  from 3 : ICanAddOrSubtract.fluid.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "StateMachineExample/obj/GX/SuperFluid/SuperFluid.Internal.SourceGenerators.FluidApiSourceGenerator/ICalculator.fluid.g.cs",
+        "description": "Generated File 1  from 3 : ICalculator.fluid.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 198 RSCG list by category
-description: 198 RSCG list by category
+title: 199 RSCG list by category
+description: 199 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1103,6 +1103,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## StateMachine 
+<details>
+    
+  <summary>Expand StateMachine =>examples:1</summary>
+        
+
+
+[SuperFluid](/docs/SuperFluid)
+
+</details>
+    
+
 ## Templating 
 <details>
     
@@ -1584,6 +1596,8 @@ flowchart LR;
     Serializer--> GenPack((GenPack))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
+
+    StateMachine--> SuperFluid((SuperFluid))
 
     Templating--> RazorBlade((RazorBlade))
 
