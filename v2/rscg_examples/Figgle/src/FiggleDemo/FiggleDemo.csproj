@@ -10,5 +10,9 @@
   <ItemGroup>
     <PackageReference Include="Figgle.Generator" Version="0.6.4" PrivateAssets="all"  />
   </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
 
 </Project>

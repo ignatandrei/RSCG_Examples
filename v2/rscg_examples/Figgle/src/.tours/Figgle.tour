@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Figgle",
+  "steps": 
+  [
+    {
+      "file": "FiggleDemo/FiggleDemo.csproj",
+      "description": "First, we add Nuget  [Figgle.Generator](https://www.nuget.org/packages/Figgle.Generator/) in csproj  ",
+      "pattern": "Figgle.Generator"
+    }
+
+        ,{
+        "file": "FiggleDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project FiggleDemo/FiggleDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "FiggleDemo/obj/GX/Figgle.Generator/Figgle.Generator.RenderTextSourceGenerator/MyTexts.g.cs",
+        "description": "Generated File 3  from 3 : MyTexts.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FiggleDemo/obj/GX/Figgle.Generator/Figgle.Generator.RenderTextSourceGenerator/GenerateFiggleTextAttribute.cs",
+        "description": "Generated File 2  from 3 : GenerateFiggleTextAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "FiggleDemo/obj/GX/Figgle.Generator/Figgle.Generator.EmbedFontSourceGenerator/EmbedFiggleFontAttribute.cs",
+        "description": "Generated File 1  from 3 : EmbedFiggleFontAttribute.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

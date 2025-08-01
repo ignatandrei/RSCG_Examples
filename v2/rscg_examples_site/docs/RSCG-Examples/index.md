@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 199 RSCG list by category
-description: 199 RSCG list by category
+title: 200 RSCG list by category
+description: 200 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -209,6 +209,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ArgumentParsing](/docs/ArgumentParsing)
+
+</details>
+    
+
+## Console 
+<details>
+    
+  <summary>Expand Console =>examples:1</summary>
+        
+
+
+[Figgle](/docs/Figgle)
 
 </details>
     
@@ -1296,6 +1308,8 @@ flowchart LR;
     CodeToString--> RossLean.StringificationGenerator((RossLean.StringificationGenerator))
 
     CommandLine--> ArgumentParsing((ArgumentParsing))
+
+    Console--> Figgle((Figgle))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 

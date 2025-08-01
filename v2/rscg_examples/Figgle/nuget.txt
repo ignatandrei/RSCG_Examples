@@ -1,0 +1,6 @@
+A source generator that produces ASCII banners at compile-time.
+
+      This package is a great choice if the strings you want to render
+      are static (i.e. string literals). If you want to render dynamic
+      strings, use the Figgle package directly instead. You can use both
+      at the same time.

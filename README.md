@@ -1,6 +1,6 @@
-# RSCG - 199 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 200 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-07-04 => 04 July 2025
+## Latest Update : 2025-07-05 => 05 July 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -8,7 +8,7 @@ If you want just those from Microsoft, please click ***[Microsoft](https://ignat
 
 If you want to see by category, please click ***[category](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples)***
 or click any category below 
-[actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor)  -[aop](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop)  -[api](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api)  -[bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise)  -[blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor)  -[builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder)  -[clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone)  -[codetostring](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring)  -[commandline](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline)  -[constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor)  -[database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database)  -[dependencyinjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection)  -[disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer)  -[enhancementclass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass)  -[enhancementproject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject)  -[enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum)  -[equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals)  -[filestocode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode)  -[functionalprogramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming)  -[hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire)  -[interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface)  -[linq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#linq)  -[mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper)  -[mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator)  -[mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm)  -[optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer)  -[primitiveobsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession)  -[serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer)  -[signalr](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#signalr)  -[statemachine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#statemachine)  -[templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating)  -[tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests)  -[winapi](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi)  -
+[actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor)  -[aop](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop)  -[api](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api)  -[bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise)  -[blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor)  -[builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder)  -[clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone)  -[codetostring](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring)  -[commandline](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline)  -[console](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#console)  -[constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor)  -[database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database)  -[dependencyinjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection)  -[disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer)  -[enhancementclass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass)  -[enhancementproject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject)  -[enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum)  -[equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals)  -[filestocode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode)  -[functionalprogramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming)  -[hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire)  -[interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface)  -[linq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#linq)  -[mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper)  -[mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator)  -[mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm)  -[optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer)  -[primitiveobsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession)  -[serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer)  -[signalr](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#signalr)  -[statemachine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#statemachine)  -[templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating)  -[tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests)  -[winapi](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi)  -
 
 
 ## If you have a Roslyn Source Code Generator, please create an issue.
@@ -20,8 +20,35 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 199 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 200 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 200. [Figgle](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Figgle) , in the [Console](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#console) category 
+
+Generated on : 2025-07-05 => 05 July 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Drew Noakes
+
+A source generator that produces ASCII banners at compile-time.
+
+      This package is a great choice if the strings you want to render
+      are static (i.e. string literals). If you want to render dynamic
+      strings, use the Figgle package directly instead. You can use both
+      at the same time. 
+
+Nuget: [https://www.nuget.org/packages/Figgle.Generator/](https://www.nuget.org/packages/Figgle.Generator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Figgle](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Figgle)
+
+Source: [https://github.com/drewnoakes/figgle](https://github.com/drewnoakes/figgle)
+
+</details>
+
 ### 199. [SuperFluid](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SuperFluid) , in the [StateMachine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#statemachine) category 
 
 Generated on : 2025-07-04 => 04 July 2025
@@ -5060,7 +5087,7 @@ Why I have not tested : not maintained as in readme
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=WrapperValueObject&body=https://github.com/martinothamar/WrapperValueObject
 
 
-## Do not want to test 111 ( old ISourceGenerator )
+## Do not want to test 110 ( old ISourceGenerator )
 
 <details>
   <summary>Expand</summary>
@@ -5284,451 +5311,445 @@ Why I have not tested : no readme
 
 
 
-37) [Figgle,]( https://github.com/drewnoakes/figgle) , https://github.com/drewnoakes/figgle 
+37) [Flattening]( https://github.com/Kros-sk/Kros.Generators.Flattening) , https://github.com/Kros-sk/Kros.Generators.Flattening 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-38) [Flattening]( https://github.com/Kros-sk/Kros.Generators.Flattening) , https://github.com/Kros-sk/Kros.Generators.Flattening 
+38) [FluentBuilder]( https://github.com/StefH/FluentBuilder) , https://github.com/StefH/FluentBuilder 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-39) [FluentBuilder]( https://github.com/StefH/FluentBuilder) , https://github.com/StefH/FluentBuilder 
+39) [fonderie]( https://github.com/jeromelaban/fonderie) , https://github.com/jeromelaban/fonderie 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-40) [fonderie]( https://github.com/jeromelaban/fonderie) , https://github.com/jeromelaban/fonderie 
+40) [GenerateHelperLibraries]( https://github.com/musictopia2/GenerateHelperLibraries) , https://github.com/musictopia2/GenerateHelperLibraries 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-41) [GenerateHelperLibraries]( https://github.com/musictopia2/GenerateHelperLibraries) , https://github.com/musictopia2/GenerateHelperLibraries 
+41) [Generators.Blazor]( https://github.com/excubo-ag/Generators.Blazor) , https://github.com/excubo-ag/Generators.Blazor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-42) [Generators.Blazor]( https://github.com/excubo-ag/Generators.Blazor) , https://github.com/excubo-ag/Generators.Blazor 
+42) [Generators.Grouping]( https://github.com/excubo-ag/Generators.Grouping) , https://github.com/excubo-ag/Generators.Grouping 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-43) [Generators.Grouping]( https://github.com/excubo-ag/Generators.Grouping) , https://github.com/excubo-ag/Generators.Grouping 
+43) [GitBuildInfo.SourceGenerator]( https://github.com/Elskom/GitBuildInfo.SourceGenerator) , https://github.com/Elskom/GitBuildInfo.SourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-44) [GitBuildInfo.SourceGenerator]( https://github.com/Elskom/GitBuildInfo.SourceGenerator) , https://github.com/Elskom/GitBuildInfo.SourceGenerator 
+44) [GraphQL.Tools]( https://github.com/MoienTajik/GraphQL.Tools) , https://github.com/MoienTajik/GraphQL.Tools 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-45) [GraphQL.Tools]( https://github.com/MoienTajik/GraphQL.Tools) , https://github.com/MoienTajik/GraphQL.Tools 
+45) [GrpcInjection]( https://github.com/juniorporfirio/grpcinjection) , https://github.com/juniorporfirio/grpcinjection 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-46) [GrpcInjection]( https://github.com/juniorporfirio/grpcinjection) , https://github.com/juniorporfirio/grpcinjection 
+46) [HttpClientCodeGenerator]( https://github.com/Jalalx/HttpClientCodeGenerator) , https://github.com/Jalalx/HttpClientCodeGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-47) [HttpClientCodeGenerator]( https://github.com/Jalalx/HttpClientCodeGenerator) , https://github.com/Jalalx/HttpClientCodeGenerator 
+47) [https://github.com/nevsnirG/MinimalRichDomain]( https://github.com/nevsnirG/MinimalRichDomain) , https://github.com/nevsnirG/MinimalRichDomain 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-48) [https://github.com/nevsnirG/MinimalRichDomain]( https://github.com/nevsnirG/MinimalRichDomain) , https://github.com/nevsnirG/MinimalRichDomain 
-
-Why I have not tested : old ISourceGenerator
-
-
-
-49) [HubClientProxyGenerator]( https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator) , https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator 
+48) [HubClientProxyGenerator]( https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator) , https://www.nuget.org/packages/Microsoft.AspNetCore.SignalR.Client.SourceGenerator 
 
 Why I have not tested : not having nuget, but having IIncrementalGenerator
 
 
 
-50) [Imp.NET]( https://github.com/DouglasDwyer/Imp.NET) , https://github.com/DouglasDwyer/Imp.NET 
+49) [Imp.NET]( https://github.com/DouglasDwyer/Imp.NET) , https://github.com/DouglasDwyer/Imp.NET 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-51) [InterfaceGenerator]( https://github.com/daver32/InterfaceGenerator) , https://github.com/daver32/InterfaceGenerator 
+50) [InterfaceGenerator]( https://github.com/daver32/InterfaceGenerator) , https://github.com/daver32/InterfaceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-52) [IoTHubClientGenerator]( https://github.com/alonf/IoTHubClientGenerator) , https://github.com/alonf/IoTHubClientGenerator 
+51) [IoTHubClientGenerator]( https://github.com/alonf/IoTHubClientGenerator) , https://github.com/alonf/IoTHubClientGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-53) [JsonByExampleGenerator]( https://github.com/hermanussen/JsonByExampleGenerator) , https://github.com/hermanussen/JsonByExampleGenerator 
+52) [JsonByExampleGenerator]( https://github.com/hermanussen/JsonByExampleGenerator) , https://github.com/hermanussen/JsonByExampleGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-54) [JsonDeserializeResourceSourceGenerator]( https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator) , https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator 
+53) [JsonDeserializeResourceSourceGenerator]( https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator) , https://github.com/musictopia2/JsonDeserializeResourceSourceGenerator 
 
 Why I have not tested : no readme
 
 
 
-55) [JsonMergePatch]( https://github.com/ladeak/JsonMergePatch) , https://github.com/ladeak/JsonMergePatch 
+54) [JsonMergePatch]( https://github.com/ladeak/JsonMergePatch) , https://github.com/ladeak/JsonMergePatch 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-56) [JsonSerializerContextGenerator]( https://github.com/musictopia2/JsonSerializerContextGenerator) , https://github.com/musictopia2/JsonSerializerContextGenerator 
+55) [JsonSerializerContextGenerator]( https://github.com/musictopia2/JsonSerializerContextGenerator) , https://github.com/musictopia2/JsonSerializerContextGenerator 
 
 Why I have not tested : no readme
 
 
 
-57) [JsonSourceGenerator]( https://github.com/Pilchie/JsonSourceGenerator) , https://github.com/Pilchie/JsonSourceGenerator 
+56) [JsonSourceGenerator]( https://github.com/Pilchie/JsonSourceGenerator) , https://github.com/Pilchie/JsonSourceGenerator 
 
 Why I have not tested : not having nuget, but having IIncrementalGenerator
 
 
 
-58) [JsonSrcGen]( https://github.com/trampster/JsonSrcGen) , https://github.com/trampster/JsonSrcGen 
+57) [JsonSrcGen]( https://github.com/trampster/JsonSrcGen) , https://github.com/trampster/JsonSrcGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-59) [kli.Localize]( https://github.com/kl1mm/localize) , https://github.com/kl1mm/localize 
+58) [kli.Localize]( https://github.com/kl1mm/localize) , https://github.com/kl1mm/localize 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-60) [lambdajection]( https://github.com/cythral/lambdajection) , https://github.com/cythral/lambdajection 
+59) [lambdajection]( https://github.com/cythral/lambdajection) , https://github.com/cythral/lambdajection 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-61) [Lazysh]( https://github.com/B1Z0N/LazyshGen) , https://github.com/B1Z0N/LazyshGen 
+60) [Lazysh]( https://github.com/B1Z0N/LazyshGen) , https://github.com/B1Z0N/LazyshGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-62) [MapDataReader]( https://github.com/jitbit/MapDataReader) , https://github.com/jitbit/MapDataReader 
+61) [MapDataReader]( https://github.com/jitbit/MapDataReader) , https://github.com/jitbit/MapDataReader 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-63) [MappingCloningExtensions]( https://github.com/musictopia2/MappingCloningExtensions) , https://github.com/musictopia2/MappingCloningExtensions 
+62) [MappingCloningExtensions]( https://github.com/musictopia2/MappingCloningExtensions) , https://github.com/musictopia2/MappingCloningExtensions 
 
 Why I have not tested : no readme
 
 
 
-64) [MediatR]( https://github.com/Burgyn/MMLib.MediatR.Generators) , https://github.com/Burgyn/MMLib.MediatR.Generators 
+63) [MediatR]( https://github.com/Burgyn/MMLib.MediatR.Generators) , https://github.com/Burgyn/MMLib.MediatR.Generators 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-65) [MemberAccessGenerator]( https://github.com/ufcpp/MemberAccessGenerator) , https://github.com/ufcpp/MemberAccessGenerator 
+64) [MemberAccessGenerator]( https://github.com/ufcpp/MemberAccessGenerator) , https://github.com/ufcpp/MemberAccessGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-66) [MemoizeSourceGenerator]( https://github.com/Zoxive/MemoizeSourceGenerator) , https://github.com/Zoxive/MemoizeSourceGenerator 
+65) [MemoizeSourceGenerator]( https://github.com/Zoxive/MemoizeSourceGenerator) , https://github.com/Zoxive/MemoizeSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-67) [MiniRazor]( https://github.com/Tyrrrz/MiniRazor/) , https://github.com/Tyrrrz/MiniRazor/ 
+66) [MiniRazor]( https://github.com/Tyrrrz/MiniRazor/) , https://github.com/Tyrrrz/MiniRazor/ 
 
 Why I have not tested : archived
 
 
 
-68) [MockableStaticGenerator]( https://github.com/HamedFathi/MockableStaticGenerator) , https://github.com/HamedFathi/MockableStaticGenerator 
+67) [MockableStaticGenerator]( https://github.com/HamedFathi/MockableStaticGenerator) , https://github.com/HamedFathi/MockableStaticGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-69) [MockGen]( https://github.com/thomas-girotto/MockGen) , https://github.com/thomas-girotto/MockGen 
+68) [MockGen]( https://github.com/thomas-girotto/MockGen) , https://github.com/thomas-girotto/MockGen 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-70) [MockSourceGenerator]( https://github.com/hermanussen/MockSourceGenerator) , https://github.com/hermanussen/MockSourceGenerator 
+69) [MockSourceGenerator]( https://github.com/hermanussen/MockSourceGenerator) , https://github.com/hermanussen/MockSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-71) [MrMeeseeks.DIE]( https://github.com/Yeah69/MrMeeseeks.DIE) , https://github.com/Yeah69/MrMeeseeks.DIE 
+70) [MrMeeseeks.DIE]( https://github.com/Yeah69/MrMeeseeks.DIE) , https://github.com/Yeah69/MrMeeseeks.DIE 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-72) [MrMeeseeks.ResXToViewModelGenerator]( https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator) , https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator 
+71) [MrMeeseeks.ResXToViewModelGenerator]( https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator) , https://github.com/Yeah69/MrMeeseeks.ResXToViewModelGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-73) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
+72) [MrMeeseeks.StaticDelegateGenerator]( https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator) , https://github.com/Yeah69/MrMeeseeks.StaticDelegateGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-74) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
+73) [MrMeeseeks.Visitor]( https://github.com/Yeah69/MrMeeseeks.Visitor) , https://github.com/Yeah69/MrMeeseeks.Visitor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-75) [Neon.Roslyn]( https://www.nuget.org/packages/Neon.Roslyn) , https://www.nuget.org/packages/Neon.Roslyn 
+74) [Neon.Roslyn]( https://www.nuget.org/packages/Neon.Roslyn) , https://www.nuget.org/packages/Neon.Roslyn 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-76) [net_automatic_interface]( https://github.com/codecentric/net_automatic_interface) , https://github.com/codecentric/net_automatic_interface 
+75) [net_automatic_interface]( https://github.com/codecentric/net_automatic_interface) , https://github.com/codecentric/net_automatic_interface 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-77) [NSourceGenerators]( https://github.com/NeVeSpl/NSourceGenerators/) , https://github.com/NeVeSpl/NSourceGenerators/ 
+76) [NSourceGenerators]( https://github.com/NeVeSpl/NSourceGenerators/) , https://github.com/NeVeSpl/NSourceGenerators/ 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-78) [Pipelines]( https://github.com/DumplingsDevs/Pipelines/) , https://github.com/DumplingsDevs/Pipelines/ 
+77) [Pipelines]( https://github.com/DumplingsDevs/Pipelines/) , https://github.com/DumplingsDevs/Pipelines/ 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-79) [Plastic]( https://github.com/sang-hyeon/Plastic) , https://github.com/sang-hyeon/Plastic 
+78) [Plastic]( https://github.com/sang-hyeon/Plastic) , https://github.com/sang-hyeon/Plastic 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-80) [PrimaryConstructor]( https://github.com/chaowlert/PrimaryConstructor) , https://github.com/chaowlert/PrimaryConstructor 
+79) [PrimaryConstructor]( https://github.com/chaowlert/PrimaryConstructor) , https://github.com/chaowlert/PrimaryConstructor 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-81) [PrimitiveStaticDataGenerator]( https://github.com/iiweis/PrimitiveStaticDataGenerator) , https://github.com/iiweis/PrimitiveStaticDataGenerator 
+80) [PrimitiveStaticDataGenerator]( https://github.com/iiweis/PrimitiveStaticDataGenerator) , https://github.com/iiweis/PrimitiveStaticDataGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-82) [PrintMembersGenerator]( https://github.com/Youssef1313/PrintMembersGenerator) , https://github.com/Youssef1313/PrintMembersGenerator 
+81) [PrintMembersGenerator]( https://github.com/Youssef1313/PrintMembersGenerator) , https://github.com/Youssef1313/PrintMembersGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-83) [ProxyInterfaceGenerator]( https://github.com/StefH/ProxyInterfaceSourceGenerator) , https://github.com/StefH/ProxyInterfaceSourceGenerator 
+82) [ProxyInterfaceGenerator]( https://github.com/StefH/ProxyInterfaceSourceGenerator) , https://github.com/StefH/ProxyInterfaceSourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-84) [PureHDF]( https://github.com/Apollo3zehn/PureHDF) , https://github.com/Apollo3zehn/PureHDF 
+83) [PureHDF]( https://github.com/Apollo3zehn/PureHDF) , https://github.com/Apollo3zehn/PureHDF 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-85) [RazorPageRouteGenerator]( https://github.com/surgicalcoder/RazorPageRouteGenerator) , https://github.com/surgicalcoder/RazorPageRouteGenerator 
+84) [RazorPageRouteGenerator]( https://github.com/surgicalcoder/RazorPageRouteGenerator) , https://github.com/surgicalcoder/RazorPageRouteGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-86) [ReForge.Union]( https://github.com/nalcorso/ReForge.Union) , https://github.com/nalcorso/ReForge.Union 
+85) [ReForge.Union]( https://github.com/nalcorso/ReForge.Union) , https://github.com/nalcorso/ReForge.Union 
 
 Why I have not tested : not having nuget, but having IIncrementalGenerator
 
 
 
-87) [RoslynWeave]( https://github.com/Jishun/RoslynWeave) , https://github.com/Jishun/RoslynWeave 
+86) [RoslynWeave]( https://github.com/Jishun/RoslynWeave) , https://github.com/Jishun/RoslynWeave 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-88) [ScenarioTests]( https://github.com/koenbeuk/ScenarioTests) , https://github.com/koenbeuk/ScenarioTests 
+87) [ScenarioTests]( https://github.com/koenbeuk/ScenarioTests) , https://github.com/koenbeuk/ScenarioTests 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-89) [SmallSharp]( https://github.com/devlooped/SmallSharp) , https://github.com/devlooped/SmallSharp 
+88) [SmallSharp]( https://github.com/devlooped/SmallSharp) , https://github.com/devlooped/SmallSharp 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-90) [SmartAnnotations]( https://github.com/fiseni/SmartAnnotations) , https://github.com/fiseni/SmartAnnotations 
+89) [SmartAnnotations]( https://github.com/fiseni/SmartAnnotations) , https://github.com/fiseni/SmartAnnotations 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-91) [SourceApi]( https://github.com/alekshura/SourceApi) , https://github.com/alekshura/SourceApi 
+90) [SourceApi]( https://github.com/alekshura/SourceApi) , https://github.com/alekshura/SourceApi 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-92) [SourceConfig]( https://github.com/alekshura/SourceConfig) , https://github.com/alekshura/SourceConfig 
+91) [SourceConfig]( https://github.com/alekshura/SourceConfig) , https://github.com/alekshura/SourceConfig 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-93) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
+92) [SourceGeneratorQuery]( https://github.com/roeibajayo/SourceGeneratorQuery) , https://github.com/roeibajayo/SourceGeneratorQuery 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-94) [SourceInject]( https://github.com/giggio/sourceinject/) , https://github.com/giggio/sourceinject/ 
+93) [SourceInject]( https://github.com/giggio/sourceinject/) , https://github.com/giggio/sourceinject/ 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-95) [SourceMapper]( https://github.com/alekshura/SourceMapper) , https://github.com/alekshura/SourceMapper 
+94) [SourceMapper]( https://github.com/alekshura/SourceMapper) , https://github.com/alekshura/SourceMapper 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-96) [SourceMapper]( https://github.com/paiden/SourceMapper/) , https://github.com/paiden/SourceMapper/ 
+95) [SourceMapper]( https://github.com/paiden/SourceMapper/) , https://github.com/paiden/SourceMapper/ 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-97) [SqlMarshal]( https://github.com/kant2002/SqlMarshal) , https://github.com/kant2002/SqlMarshal 
+96) [SqlMarshal]( https://github.com/kant2002/SqlMarshal) , https://github.com/kant2002/SqlMarshal 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-98) [StackXML]( https://github.com/ZingBallyhoo/StackXML) , https://github.com/ZingBallyhoo/StackXML 
+97) [StackXML]( https://github.com/ZingBallyhoo/StackXML) , https://github.com/ZingBallyhoo/StackXML 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-99) [StaticProxyGenerator]( https://github.com/robertturner/StaticProxyGenerator) , https://github.com/robertturner/StaticProxyGenerator 
+98) [StaticProxyGenerator]( https://github.com/robertturner/StaticProxyGenerator) , https://github.com/robertturner/StaticProxyGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-100) [Strings.ResourceGenerator]( https://github.com/biggik/Strings.ResourceGenerator) , https://github.com/biggik/Strings.ResourceGenerator 
+99) [Strings.ResourceGenerator]( https://github.com/biggik/Strings.ResourceGenerator) , https://github.com/biggik/Strings.ResourceGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-101) [StronglyTypedEmbeddedResources]( https://github.com/surgicalcoder/StronglyTypedEmbeddedResources) , https://github.com/surgicalcoder/StronglyTypedEmbeddedResources 
+100) [StronglyTypedEmbeddedResources]( https://github.com/surgicalcoder/StronglyTypedEmbeddedResources) , https://github.com/surgicalcoder/StronglyTypedEmbeddedResources 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-102) [StructPacker]( https://github.com/RudolfKurka/StructPacker) , https://github.com/RudolfKurka/StructPacker 
+101) [StructPacker]( https://github.com/RudolfKurka/StructPacker) , https://github.com/RudolfKurka/StructPacker 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-103) [Svg]( https://github.com/wieslawsoltes/Svg.Skia) , https://github.com/wieslawsoltes/Svg.Skia 
+102) [Svg]( https://github.com/wieslawsoltes/Svg.Skia) , https://github.com/wieslawsoltes/Svg.Skia 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-104) [tecli]( https://github.com/tyevco/TeCLI) , https://github.com/tyevco/TeCLI 
+103) [tecli]( https://github.com/tyevco/TeCLI) , https://github.com/tyevco/TeCLI 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-105) [Thunderboltloc]( https://github.com/AlyElhaddad/ThunderboltIoc) , https://github.com/AlyElhaddad/ThunderboltIoc 
+104) [Thunderboltloc]( https://github.com/AlyElhaddad/ThunderboltIoc) , https://github.com/AlyElhaddad/ThunderboltIoc 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-106) [ToString]( https://github.com/Burgyn/MMLib.ToString) , https://github.com/Burgyn/MMLib.ToString 
+105) [ToString]( https://github.com/Burgyn/MMLib.ToString) , https://github.com/Burgyn/MMLib.ToString 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-107) [Transplator]( https://github.com/atifaziz/Transplator) , https://github.com/atifaziz/Transplator 
+106) [Transplator]( https://github.com/atifaziz/Transplator) , https://github.com/atifaziz/Transplator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-108) [TxtToListGenerator]( https://github.com/musictopia2/TxtToListGenerator) , https://github.com/musictopia2/TxtToListGenerator 
+107) [TxtToListGenerator]( https://github.com/musictopia2/TxtToListGenerator) , https://github.com/musictopia2/TxtToListGenerator 
 
 Why I have not tested : no readme
 
 
 
-109) [ValueChangedGenerator]( https://github.com/ufcpp/ValueChangedGenerator) , https://github.com/ufcpp/ValueChangedGenerator 
+108) [ValueChangedGenerator]( https://github.com/ufcpp/ValueChangedGenerator) , https://github.com/ufcpp/ValueChangedGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-110) [ValueObjectGenerator]( https://github.com/RyotaMurohoshi/ValueObjectGenerator) , https://github.com/RyotaMurohoshi/ValueObjectGenerator 
+109) [ValueObjectGenerator]( https://github.com/RyotaMurohoshi/ValueObjectGenerator) , https://github.com/RyotaMurohoshi/ValueObjectGenerator 
 
 Why I have not tested : old ISourceGenerator
 
 
 
-111) [Xtz.StronglyTyped]( https://github.com/dev-experience/Xtz.StronglyTyped) , https://github.com/dev-experience/Xtz.StronglyTyped 
+110) [Xtz.StronglyTyped]( https://github.com/dev-experience/Xtz.StronglyTyped) , https://github.com/dev-experience/Xtz.StronglyTyped 
 
 Why I have not tested : old ISourceGenerator
 

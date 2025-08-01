@@ -1593,6 +1593,14 @@
       "Source": "https://github.com/hughesjs/SuperFluid",
       "Category": "StateMachine",
       "AddedOn": "2025-07-04T00:00:00"
+    },
+    {
+      "Name": "Figgle",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Figgle",
+      "NuGet": "https://www.nuget.org/packages/Figgle.Generator/",
+      "Source": "https://github.com/drewnoakes/figgle",
+      "Category": "Console",
+      "AddedOn": "2025-07-05T00:00:00"
     }
   ]
 }
