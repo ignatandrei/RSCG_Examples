@@ -36,5 +36,6 @@ public enum Category
     Linq=31,
     CommandLine=32,
     StateMachine=33, 
+    Console=34,
 }
 

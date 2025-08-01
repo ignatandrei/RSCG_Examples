@@ -565,11 +565,6 @@
     "why": "later"
   },
   {
-    "ID": 116,
-    "name": "Figgle, https://github.com/drewnoakes/figgle",
-    "why": "old ISourceGenerator"
-  },
-  {
     "ID": 117,
     "name": "Jos.Enumeration, https://github.com/joseftw/jos.enumeration",
     "why": "later"

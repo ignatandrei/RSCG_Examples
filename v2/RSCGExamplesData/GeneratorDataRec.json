@@ -1201,5 +1201,11 @@
     "Category": 33,
     "dtStart": "2025-07-04T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Figgle",
+    "Category": 34,
+    "dtStart": "2025-07-05T00:00:00",
+    "show": true
   }
 ]

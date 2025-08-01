@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Figgle",
+      "nuget":[
+         "https://www.nuget.org/packages/Figgle.Generator/"
+      ],
+      "link":"https://github.com/drewnoakes/figgle",
+      "author":"Drew Noakes",
+      "source":"https://github.com/drewnoakes/figgle"
+   },
+   "data":{
+      "goodFor":["Generating ASCII art text for console applications"],
+      "csprojDemo":"FiggleDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
