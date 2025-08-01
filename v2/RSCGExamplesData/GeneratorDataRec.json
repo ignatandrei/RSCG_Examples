@@ -1195,5 +1195,11 @@
     "Category": 4,
     "dtStart": "2025-07-03T00:00:00",
     "show": true
+  },
+  {
+    "ID":"SuperFluid",
+    "Category": 33,
+    "dtStart": "2025-07-04T00:00:00",
+    "show": true
   }
 ]

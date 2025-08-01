@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"SuperFluid",
+      "nuget":[
+         "https://www.nuget.org/packages/SuperFluid/"
+      ],
+      "link":"https://github.com/hughesjs/SuperFluid",
+      "author":"James Hughes",
+      "source":"https://github.com/hughesjs/SuperFluid"
+   },
+   "data":{
+      "goodFor":["Generate a state machine from a yaml file"],
+      "csprojDemo":"SuperFluidDemo.csproj",
+      "csFiles":["Calculator.fluid.yml","Program.cs","CalculatorService.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

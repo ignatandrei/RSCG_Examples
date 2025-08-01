@@ -1,0 +1,27 @@
+Name: "ICalculator"
+Namespace: "SimpleFluentExample"
+InitialState:
+  Name: "Create"
+  CanTransitionTo: 
+    - "Add"
+    - "Subtract"
+Methods:
+  - Name: "Add"
+    Arguments:
+      - Name: "value"
+        Type: "int"
+    CanTransitionTo:
+      - "Add"
+      - "Subtract"
+      - "Calculate"
+  - Name: "Subtract"
+    Arguments:
+      - Name: "value"
+        Type: "int"
+    CanTransitionTo:
+      - "Add"
+      - "Subtract"
+      - "Calculate"
+  - Name: "Calculate"
+    ReturnType: "int"
+    CanTransitionTo: []
