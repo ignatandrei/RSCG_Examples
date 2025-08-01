@@ -110,10 +110,10 @@ If you just want to see some code (it's not that complex) check out one of the f
 
 | Sample | Description |
 | :----- | :---------- |
-| [Basics](samples/1-basics) | The easiest option, if you don't care about application size or memory use. |
-| [Static text generation](samples/2-static-text) | **For statically-known text**, have a source generator embed the rendered text directly into your assembly. Uses the `Figgle.Generator` package, and uses a single attribute to render the text at compile time. If all Figgle text is rendered this way, you don't have to ship any `Figgle` assembly with your app. |
-| [Embed font from package](samples/3-embed-font-from-package) | **For dynamic text, using a font from the `Figgle.Fonts` package** via an attribute. The font is embedded directly into your assembly. With this approach, you only need the lightweight `Figgle` package at runtime. |
-| [Embed font from `.flf` file](samples/4-embed-font-from-file) | **For dynamic text, using a `.flf` font file** via an attribute and `<AdditionalFiles>` project item in the `.csproj`. The font is embedded directly into your assembly. With this approach, you only need the lightweight `Figgle` package at runtime. |
+| [Basics](https://github.com/drewnoakes/figgle/samples/1-basics) | The easiest option, if you don't care about application size or memory use. |
+| [Static text generation](https://github.com/drewnoakes/figgle/samples/2-static-text) | **For statically-known text**, have a source generator embed the rendered text directly into your assembly. Uses the `Figgle.Generator` package, and uses a single attribute to render the text at compile time. If all Figgle text is rendered this way, you don't have to ship any `Figgle` assembly with your app. |
+| [Embed font from package](https://github.com/drewnoakes/figgle/samples/3-embed-font-from-package) | **For dynamic text, using a font from the `Figgle.Fonts` package** via an attribute. The font is embedded directly into your assembly. With this approach, you only need the lightweight `Figgle` package at runtime. |
+| [Embed font from `.flf` file](https://github.com/drewnoakes/figgle/samples/4-embed-font-from-file) | **For dynamic text, using a `.flf` font file** via an attribute and `<AdditionalFiles>` project item in the `.csproj`. The font is embedded directly into your assembly. With this approach, you only need the lightweight `Figgle` package at runtime. |
 
 ## More output examples
 
@@ -218,6 +218,115 @@ This is the CSharp Project that references **Figgle**
 
 ```csharp showLineNumbers 
 Console.WriteLine(MyTexts.MyName);
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Figgle\src\FiggleDemo\MyTexts.cs" label="MyTexts.cs" >
+
+  This is the use of **Figgle** in *MyTexts.cs*
+
+```csharp showLineNumbers 
+
+[Figgle.GenerateFiggleText(memberName: "MyName", fontName: "standard", sourceText: "AndreiIgnat")]
+internal static partial class MyTexts
+{
+}
+/*
+List of available fonts from https://github.com/drewnoakes/figgle/blob/master/src/Figgle.Fonts/Aliases.csv
+1row,OneRow
+3-d,ThreeD
+3d_diagonal,ThreeDDiagonal
+3x5,ThreeByFive
+4max,FourMax
+5lineoblique,FiveLineOblique
+amc3line,Amc3Line
+amc3liv1,Amc3Liv1
+amcaaa01,AmcAaa01
+amcneko,AmcNeko
+amcrazo2,AmcRazor2
+amcrazor,AmcRazor
+amcslash,AmcSlash
+amcslder,AmcSlder
+amcthin,AmcThin
+amctubes,AmcTubes
+amcun1,AmcUn1
+barbwire,BarbWire
+bigchief,BigChief
+bigfig,BigFig
+broadway_kb,BroadwayKB
+calgphy2,Caligraphy2
+catwalk,CatWalk
+cyberlarge,CyberLarge
+cybermedium,CyberMedium
+cybersmall,CyberSmall
+dancingfont,DancingFont
+defleppard,DefLeppard
+dietcola,DietCola
+dosrebel,DosRebel
+dotmatrix,DotMatrix
+doubleshorts,DoubleShorts
+drpepper,DRPepper
+dwhistled,DWhistled
+eftichess,EftiChess
+eftifont,EftiFont
+eftipiti,EftiPiti
+eftirobot,EftiRobot
+eftitalic,EftiItalic
+eftiwall,EftiWall
+eftiwater,EftiWater
+flowerpower,FlowerPower
+fourtops,FourTops
+funface,FunFace
+funfaces,FunFaces
+georgi16,Georgia16
+Georgia11,Georgia11
+graffiti,Graffiti
+henry3d,Henry3d
+horizontalleft,HorizontalLeft
+horizontalright,HorizontalRight
+impossible,Impossible
+kontoslant,KontoSlant
+larry3d,Larry3d
+lildevil,LilDevil
+lineblocks,LineBlocks
+lockergnome,LockerGnome
+maxfour,MaxFour
+mshebrew210,Mshebrew210
+nancyj,NancyJ
+nancyj-fancy,NancyJFancy
+nancyj-improved,NancyJImproved
+nancyj-underlined,NancyJUnderlined
+nscript,NScript
+ntgreek,NTGreek
+nvscript,NVScript
+oldbanner,OldBanner
+os2,OS2
+ogre,Ogre
+peaksslant,PeaksSlant
+rectangles,Rectangles
+rowancap,RowanCap
+santaclara,SantaClara
+sblood,SBlood
+slant,Slant
+slscript,ScriptSlant
+serifcap,SerifCap
+smallcaps,SmallCaps
+smisome1,IsometricSmall
+smkeyboard,KeyboardSmall
+smpoison,PoisonSmall
+smscript,ScriptSmall
+smshadow,ShadowSmall
+smslant,SlantSmall
+smtengwar,TengwarSmall
+standard,Standard
+threepoint,ThreePoint
+ticksslant,TicksSlant
+tinker-toy,TinkerToy
+twopoint,TwoPoint
+usaflag,UsaFlag
+wetletter,WetLetter
+
+*/
 ```
   </TabItem>
 

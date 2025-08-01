@@ -11,6 +11,12 @@
     }
 
         ,{
+        "file": "FiggleDemo/MyTexts.cs",
+        "description": "File MyTexts.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "FiggleDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project FiggleDemo/FiggleDemo.csproj ",
         "pattern": "this is the code"
