@@ -45,7 +45,7 @@ Source : https://github.com/hughesjs/SuperFluid
 [![GitHub Workflow Status CI](https://img.shields.io/github/actions/workflow/status/hughesjs/SuperFluid/dotnet-ci.yml?label=BUILD%20CI&style=for-the-badge&branch=master)](https://github.com/hughesjs/SuperFluid/actions)
 [![GitHub Workflow Status CD](https://img.shields.io/github/actions/workflow/status/hughesjs/SuperFluid/dotnet-cd.yml?label=BUILD%20CD&style=for-the-badge&branch=master)](https://github.com/hughesjs/SuperFluid/actions)
 ![GitHub top language](https://img.shields.io/github/languages/top/hughesjs/SuperFluid?style=for-the-badge)
-[![GitHub](https://img.shields.io/github/license/hughesjs/SuperFluid?style=for-the-badge)](LICENSE)
+[![GitHub](https://img.shields.io/github/license/hughesjs/SuperFluid?style=for-the-badge)](https://github.com/hughesjs/SuperFluid/LICENSE)
 [![Nuget (with prereleases)](https://img.shields.io/nuget/vpre/SuperFluid?style=for-the-badge)](https://nuget.org/packages/SuperFluid/)
 [![Nuget](https://img.shields.io/nuget/dt/SuperFluid?style=for-the-badge)](https://nuget.org/packages/SuperFluid/)
 ![FTB](https://raw.githubusercontent.com/hughesjs/custom-badges/master/made-in/made-in-scotland.svg)
