@@ -1207,5 +1207,11 @@
     "Category": 34,
     "dtStart": "2025-07-05T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Strings.ResourceGenerator",
+    "Category": 8,
+    "dtStart": "2025-07-06T00:00:00",
+    "show": true
   }
 ]

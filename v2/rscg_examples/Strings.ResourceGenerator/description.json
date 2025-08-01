@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Strings.ResourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Strings.ResourceGenerator/"
+      ],
+      "link":"https://github.com/biggik/Strings.ResourceGenerator",
+      "author":"Birgir Kristmannsson",
+      "source":"https://github.com/biggik/Strings.ResourceGenerator"
+   },
+   "data":{
+      "goodFor":["Generating strongly typed string resources - with parameter and Localization"],
+      "csprojDemo":"EmbedDemo.csproj",
+      "csFiles":["Program.cs","Countries.json"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

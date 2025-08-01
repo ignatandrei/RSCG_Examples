@@ -1,0 +1,20 @@
+﻿{
+	"config": {
+		"public": true,
+		"namespace": "Strings.ResourceGenerator.Examples.Resources"
+	},
+	"strings": [
+				{
+			"key": "Goodbye",
+			"values": [
+				{
+					"value": "Goodbye {within@string}"
+				},
+				{
+					"locale": "it",
+					"value": "Ciao {within@string}"
+				}
+			]
+		}
+	]
+}

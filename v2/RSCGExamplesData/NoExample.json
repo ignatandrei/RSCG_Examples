@@ -793,13 +793,8 @@
     "ID":170,
     "name":"schema https://github.com/MeltyPlayer/Schema",
     "why":"later"
-  },
-  {
-    "ID":173,
-    "name":"Strings.ResourceGenerator https://github.com/biggik/Strings.ResourceGenerator",
-    "why":"old ISourceGenerator"
   }
-    ,
+  ,
   {
     "ID":175,
     "name":"laker https://github.com/Lakerfield/Lakerfield.Rpc",
