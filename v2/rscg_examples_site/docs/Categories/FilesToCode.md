@@ -1,6 +1,6 @@
 <h1>FilesToCode</h1>
 
-Number RSCG: 14
+Number RSCG: 15
 
    1 [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
@@ -24,9 +24,11 @@ Number RSCG: 14
 
    11 [RSCG_Utils](/docs/RSCG_Utils)
 
-   12 [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+   12 [Strings.ResourceGenerator](/docs/Strings.ResourceGenerator)
 
-   13 [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
+   13 [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
-   14 [Weave](/docs/Weave)
+   14 [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
+
+   15 [Weave](/docs/Weave)
     

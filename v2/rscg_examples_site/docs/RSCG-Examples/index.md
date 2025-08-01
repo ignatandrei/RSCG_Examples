@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 200 RSCG list by category
-description: 200 RSCG list by category
+title: 201 RSCG list by category
+description: 201 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -689,7 +689,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:14</summary>
+  <summary>Expand FilesToCode =>examples:15</summary>
         
 
 
@@ -759,6 +759,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Datacute.EmbeddedResourcePropertyGenerator](/docs/Datacute.EmbeddedResourcePropertyGenerator)
+
+        
+
+
+[Strings.ResourceGenerator](/docs/Strings.ResourceGenerator)
 
 </details>
     
@@ -1500,6 +1505,8 @@ flowchart LR;
     FilesToCode--> ThisAssembly.Strings((ThisAssembly.Strings))
 
     FilesToCode--> Datacute.EmbeddedResourcePropertyGenerator((Datacute.EmbeddedResourcePropertyGenerator))
+
+    FilesToCode--> Strings.ResourceGenerator((Strings.ResourceGenerator))
 
     FunctionalProgramming--> dunet((dunet))
 

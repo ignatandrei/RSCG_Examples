@@ -1,0 +1,1 @@
+A Roslyn ISourceGenerator that reads string resources from various file formats and generates resource accessors

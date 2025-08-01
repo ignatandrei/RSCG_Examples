@@ -1601,6 +1601,14 @@
       "Source": "https://github.com/drewnoakes/figgle",
       "Category": "Console",
       "AddedOn": "2025-07-05T00:00:00"
+    },
+    {
+      "Name": "Strings.ResourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strings.ResourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/Strings.ResourceGenerator/",
+      "Source": "https://github.com/biggik/Strings.ResourceGenerator",
+      "Category": "FilesToCode",
+      "AddedOn": "2025-07-06T00:00:00"
     }
   ]
 }

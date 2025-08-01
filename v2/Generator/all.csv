@@ -199,3 +199,4 @@ Nr,Key,Source,Category
 198,DimonSmart.BuilderGenerator, https://github.com/DimonSmart/BuilderGenerator,Builder
 199,SuperFluid, https://github.com/hughesjs/SuperFluid,StateMachine
 200,Figgle, https://github.com/drewnoakes/figgle,Console
+201,Strings.ResourceGenerator, https://github.com/biggik/Strings.ResourceGenerator,FilesToCode
