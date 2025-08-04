@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 {{Description.Generator.MarkDownNugetDownloads}}
 {{Description.Generator.MarkdownLastCommit}}
 {{Description.Generator.MarkDownStars}}
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at {{Description.Generator.Link}}
 
-Source : {{ Description.Generator.Source }}
+Source: {{ Description.Generator.Source }}
 
 :::
 
@@ -60,7 +60,7 @@ Source : {{ Description.Generator.Source }}
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -112,9 +112,9 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 </Tabs>
 
-## Usefull
+## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
