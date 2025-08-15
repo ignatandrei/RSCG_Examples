@@ -1,6 +1,6 @@
 <h1>Templating</h1>
 
-Number RSCG: 12
+Number RSCG: 13
 
    1 [Gobie](/docs/Gobie)
 
@@ -25,4 +25,6 @@ Number RSCG: 12
    11 [RSCG_Templating](/docs/RSCG_Templating)
 
    12 [spreadcheetah](/docs/spreadcheetah)
+
+   13 [Tortuga.Shipwright](/docs/Tortuga.Shipwright)
     
