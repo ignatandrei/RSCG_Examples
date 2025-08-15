@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Antelcat.AutoGen?label=Antelcat.AutoGen)](https://www.nuget.org/packages/Antelcat.AutoGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Antelcat/AutoGen?label=updated)](https://github.com/Antelcat/AutoGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Antelcat/AutoGen?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at ,https://github.com/Antelcat/AutoGen
 
-Source : https://github.com/Antelcat/AutoGen
+Source: https://github.com/Antelcat/AutoGen
 
 :::
 
@@ -138,7 +138,7 @@ Generating function to map DTOs
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -295,7 +295,7 @@ namespace mapperDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

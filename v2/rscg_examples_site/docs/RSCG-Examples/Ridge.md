@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Ridge?label=Ridge)](https://www.nuget.org/packages/Ridge/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Melchy/Ridge?label=updated)](https://github.com/Melchy/Ridge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Melchy/Ridge?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Melchy/Ridge
 
-Source : https://github.com/Melchy/Ridge
+Source: https://github.com/Melchy/Ridge
 
 :::
 
@@ -186,7 +186,7 @@ Generating test classes for controllers
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -416,7 +416,7 @@ namespace RidgeDemoWebApp.Controllers
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

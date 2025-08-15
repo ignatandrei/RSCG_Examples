@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/PlantUmlClassDiagramGenerator.SourceGenerator?label=PlantUmlClassDiagramGenerator.SourceGenerator)](https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.SourceGenerator/)[![Nuget](https://img.shields.io/nuget/dt/PlantUmlClassDiagramGenerator.Attributes?label=PlantUmlClassDiagramGenerator.Attributes)](https://www.nuget.org/packages/PlantUmlClassDiagramGenerator.Attributes/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/pierre3/PlantUmlClassDiagramGenerator?label=updated)](https://github.com/pierre3/PlantUmlClassDiagramGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pierre3/PlantUmlClassDiagramGenerator?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/pierre3/PlantUmlClassDiagramGenerator/
 
-Source : https://github.com/pierre3/PlantUmlClassDiagramGenerator/
+Source: https://github.com/pierre3/PlantUmlClassDiagramGenerator/
 
 :::
 
@@ -754,7 +754,7 @@ Generating UML from class definitions
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -875,7 +875,7 @@ class Person  {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

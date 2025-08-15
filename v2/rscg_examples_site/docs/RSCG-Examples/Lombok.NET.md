@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Lombok.NET?label=Lombok.NET)](https://www.nuget.org/packages/Lombok.NET/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/CollinAlpert/Lombok.NET?label=updated)](https://github.com/CollinAlpert/Lombok.NET)
 ![GitHub Repo stars](https://img.shields.io/github/stars/CollinAlpert/Lombok.NET?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/CollinAlpert/Lombok.NET
 
-Source : https://github.com/CollinAlpert/Lombok.NET
+Source: https://github.com/CollinAlpert/Lombok.NET
 
 :::
 
@@ -327,7 +327,7 @@ Generating toString from props/fields. Other demos on site
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -435,7 +435,7 @@ public partial class Person
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

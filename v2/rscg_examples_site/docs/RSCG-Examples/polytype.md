@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/polytype?label=polytype)](https://www.nuget.org/packages/polytype/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/eiriktsarpalis/PolyType?label=updated)](https://github.com/eiriktsarpalis/PolyType)
 ![GitHub Repo stars](https://img.shields.io/github/stars/eiriktsarpalis/PolyType?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/eiriktsarpalis/PolyType
 
-Source : https://github.com/eiriktsarpalis/PolyType
+Source: https://github.com/eiriktsarpalis/PolyType
 
 :::
 
@@ -185,7 +185,7 @@ Generating shape like reflection from classes. See PolyType.Examples for more de
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -692,7 +692,7 @@ namespace PolyType.SourceGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

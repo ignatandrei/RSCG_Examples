@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/StringLiteralGenerator?label=StringLiteralGenerator)](https://www.nuget.org/packages/StringLiteralGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ufcpp/StringLiteralGenerator?label=updated)](https://github.com/ufcpp/StringLiteralGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ufcpp/StringLiteralGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ufcpp/StringLiteralGenerator
 
-Source : https://github.com/ufcpp/StringLiteralGenerator
+Source: https://github.com/ufcpp/StringLiteralGenerator
 
 :::
 
@@ -233,7 +233,7 @@ namespace StringLiteral
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

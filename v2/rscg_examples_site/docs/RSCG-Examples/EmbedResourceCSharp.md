@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/EmbedResourceCSharp?label=EmbedResourceCSharp)](https://www.nuget.org/packages/EmbedResourceCSharp/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/pCYSl5EDgo/EmbeddingResourceCSharp?label=updated)](https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pCYSl5EDgo/EmbeddingResourceCSharp?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
 
-Source : https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
+Source: https://github.com/pCYSl5EDgo/EmbeddingResourceCSharp
 
 :::
 
@@ -147,7 +147,7 @@ reading embedded resources fast
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -317,7 +317,7 @@ namespace EmbeddingResourceCSharpDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

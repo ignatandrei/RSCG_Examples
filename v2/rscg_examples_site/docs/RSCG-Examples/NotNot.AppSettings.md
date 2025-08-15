@@ -34,7 +34,7 @@ NuGet:
 
 You can find more details at https://github.com/jasonswearingen/NotNot.AppSettings/
 
-Source : https://github.com/jasonswearingen/NotNot.AppSettings/tree/main
+Source: https://github.com/jasonswearingen/NotNot.AppSettings/tree/main
 
 :::
 
@@ -55,7 +55,7 @@ Application Settings to strongly typed classes. Generate also from AppSettings d
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -346,7 +346,7 @@ public interface IAppSettingsBinder
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

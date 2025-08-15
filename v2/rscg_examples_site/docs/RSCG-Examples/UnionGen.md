@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/UnionGen?label=UnionGen)](https://www.nuget.org/packages/UnionGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/markushaslinger/union_source_generator?label=updated)](https://github.com/markushaslinger/union_source_generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/markushaslinger/union_source_generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/markushaslinger/union_source_generator
 
-Source : https://github.com/markushaslinger/union_source_generator
+Source: https://github.com/markushaslinger/union_source_generator
 
 :::
 
@@ -132,7 +132,7 @@ Generating unions between types
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -363,7 +363,7 @@ namespace UnionTypesDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

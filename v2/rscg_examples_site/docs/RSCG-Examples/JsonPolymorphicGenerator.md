@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/GoLive.Generator.JsonPolymorphicGenerator?label=GoLive.Generator.JsonPolymorphicGenerator)](https://www.nuget.org/packages/GoLive.Generator.JsonPolymorphicGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/surgicalcoder/JsonPolymorphicGenerator?label=updated)](https://github.com/surgicalcoder/JsonPolymorphicGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/surgicalcoder/JsonPolymorphicGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/surgicalcoder/JsonPolymorphicGenerator
 
-Source : https://github.com/surgicalcoder/JsonPolymorphicGenerator
+Source: https://github.com/surgicalcoder/JsonPolymorphicGenerator
 
 :::
 
@@ -94,7 +94,7 @@ Generating JsonDerivedType to be added to the base class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -225,7 +225,7 @@ namespace JsonPolymorphicGeneratorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

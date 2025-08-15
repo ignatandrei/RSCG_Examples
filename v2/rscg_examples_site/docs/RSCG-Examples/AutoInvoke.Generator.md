@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoInvoke.Generator?label=AutoInvoke.Generator)](https://www.nuget.org/packages/AutoInvoke.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/LokiMidgard/AutoInvoke.Generator?label=updated)](https://github.com/LokiMidgard/AutoInvoke.Generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LokiMidgard/AutoInvoke.Generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/LokiMidgard/AutoInvoke.Generator
 
-Source : https://github.com/LokiMidgard/AutoInvoke.Generator
+Source: https://github.com/LokiMidgard/AutoInvoke.Generator
 
 :::
 
@@ -151,7 +151,7 @@ Finding all implementation of an interface/class and invoke them.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -338,7 +338,7 @@ partial class RemoteCollection {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

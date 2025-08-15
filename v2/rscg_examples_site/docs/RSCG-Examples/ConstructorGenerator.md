@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ConstructorGenerator?label=ConstructorGenerator)](https://www.nuget.org/packages/ConstructorGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Swarley97/ConstructorGenerator?label=updated)](https://github.com/Swarley97/ConstructorGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Swarley97/ConstructorGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Swarley97/ConstructorGenerator
 
-Source : https://github.com/Swarley97/ConstructorGenerator
+Source: https://github.com/Swarley97/ConstructorGenerator
 
 :::
 
@@ -341,7 +341,7 @@ Generate constructor for classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -442,7 +442,7 @@ namespace QuickConstructorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

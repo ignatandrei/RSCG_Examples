@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_TimeBombComment?label=RSCG_TimeBombComment)](https://www.nuget.org/packages/RSCG_TimeBombComment/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_TimeBombComment?label=updated)](https://github.com/ignatandrei/RSCG_TimeBombComment)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at http://msprogrammer.serviciipeweb.ro/category/roslyn/
 
-Source : https://github.com/ignatandrei/RSCG_TimeBombComment
+Source: https://github.com/ignatandrei/RSCG_TimeBombComment
 
 :::
 
@@ -129,7 +129,7 @@ This will generate an error from the comment after a certain date
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -210,7 +210,7 @@ namespace Console_TimeBombComment {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

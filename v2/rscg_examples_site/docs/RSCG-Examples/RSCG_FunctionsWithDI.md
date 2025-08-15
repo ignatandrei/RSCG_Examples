@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_FunctionsWithDI?label=RSCG_FunctionsWithDI)](https://www.nuget.org/packages/RSCG_FunctionsWithDI/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/functionsdi?label=updated)](https://github.com/ignatandrei/functionsdi)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/functionsdi?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/functionsdi
 
-Source : https://github.com/ignatandrei/functionsdi
+Source: https://github.com/ignatandrei/functionsdi
 
 :::
 
@@ -205,7 +205,7 @@ Generating functions that have parameters from services
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -355,7 +355,7 @@ return  TestMyFunc1(t1,t2,x,y);
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/SafeRouting?label=SafeRouting)](https://www.nuget.org/packages/SafeRouting/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/daviddotcs/safe-routing?label=updated)](https://github.com/daviddotcs/safe-routing)
 ![GitHub Repo stars](https://img.shields.io/github/stars/daviddotcs/safe-routing?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/daviddotcs/safe-routing
 
-Source : https://github.com/daviddotcs/safe-routing
+Source: https://github.com/daviddotcs/safe-routing
 
 :::
 
@@ -380,7 +380,7 @@ Safe Routing for MVC
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1665,7 +1665,7 @@ global using static SafeRouting.Extensions.RouteValueExtensions;
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/rscg_demeter?label=rscg_demeter)](https://www.nuget.org/packages/rscg_demeter/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_demeter?label=updated)](https://github.com/ignatandrei/rscg_demeter/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/rscg_demeter?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/rscg_demeter/
 
-Source : https://github.com/ignatandrei/rscg_demeter/
+Source: https://github.com/ignatandrei/rscg_demeter/
 
 :::
 
@@ -87,7 +87,7 @@ Generating diagnostics about Law of Demeter violations
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -234,7 +234,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

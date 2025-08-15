@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Aigamo.ResXGenerator?label=Aigamo.ResXGenerator)](https://www.nuget.org/packages/Aigamo.ResXGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ycanardeau/ResXGenerator?label=updated)](https://github.com/ycanardeau/ResXGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ycanardeau/ResXGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ycanardeau/ResXGenerator
 
-Source : https://github.com/ycanardeau/ResXGenerator
+Source: https://github.com/ycanardeau/ResXGenerator
 
 :::
 
@@ -565,7 +565,7 @@ Resources as string
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -916,7 +916,7 @@ internal static class GenResourcesModel
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

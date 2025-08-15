@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_IFormattable?label=RSCG_IFormattable)](https://www.nuget.org/packages/RSCG_IFormattable/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_IFormattableCommon?label=RSCG_IFormattableCommon)](https://www.nuget.org/packages/RSCG_IFormattableCommon/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_iformattable?label=updated)](https://github.com/ignatandrei/rscg_iformattable/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/rscg_iformattable?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/rscg_iformattable/
 
-Source : https://github.com/ignatandrei/rscg_iformattable/
+Source: https://github.com/ignatandrei/rscg_iformattable/
 
 :::
 
@@ -91,7 +91,7 @@ Generating .ToString for IFormattable
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -212,7 +212,7 @@ namespace RSCG_IFormattableDemo {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

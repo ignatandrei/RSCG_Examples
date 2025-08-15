@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Funcky.DiscriminatedUnion?label=Funcky.DiscriminatedUnion)](https://www.nuget.org/packages/Funcky.DiscriminatedUnion/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/polyadic/funcky-discriminated-union?label=updated)](https://github.com/polyadic/funcky-discriminated-union)
 ![GitHub Repo stars](https://img.shields.io/github/stars/polyadic/funcky-discriminated-union?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/polyadic/funcky-discriminated-union
 
-Source : https://github.com/polyadic/funcky-discriminated-union
+Source: https://github.com/polyadic/funcky-discriminated-union
 
 :::
 
@@ -189,7 +189,7 @@ Generating discriminated unions for C# 9.0 and above.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -365,7 +365,7 @@ namespace Union
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

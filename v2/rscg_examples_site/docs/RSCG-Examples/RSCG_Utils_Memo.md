@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Utils?label=updated)](https://github.com/ignatandrei/RSCG_Utils)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
 
-Source : https://github.com/ignatandrei/RSCG_Utils
+Source: https://github.com/ignatandrei/RSCG_Utils
 
 :::
 
@@ -175,7 +175,7 @@ Memo the function result
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -340,7 +340,7 @@ partial class fibTest
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Roozie.AutoInterface?label=Roozie.AutoInterface)](https://www.nuget.org/packages/Roozie.AutoInterface/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlexRussak/Roozie.AutoInterface?label=updated)](https://github.com/AlexRussak/Roozie.AutoInterface)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AlexRussak/Roozie.AutoInterface?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/AlexRussak/Roozie.AutoInterface
 
-Source : https://github.com/AlexRussak/Roozie.AutoInterface
+Source: https://github.com/AlexRussak/Roozie.AutoInterface
 
 :::
 
@@ -119,7 +119,7 @@ Generating interfaces from project
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -221,7 +221,8 @@ public partial interface IPerson
     string? LastName { get; set; }
 
     string FullName();
-}
+
+}
 
 ```
 
@@ -230,7 +231,7 @@ public partial interface IPerson
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

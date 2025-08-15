@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/LinqGen.Generator?label=LinqGen.Generator)](https://www.nuget.org/packages/LinqGen.Generator/)[![Nuget](https://img.shields.io/nuget/dt/LinqGen?label=LinqGen)](https://www.nuget.org/packages/LinqGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/cathei/LinqGen?label=updated)](https://github.com/cathei/LinqGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/cathei/LinqGen?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/cathei/LinqGen
 
-Source : https://github.com/cathei/LinqGen
+Source: https://github.com/cathei/LinqGen
 
 :::
 
@@ -236,7 +236,7 @@ No-alloc for Linq operations
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -463,7 +463,7 @@ namespace Cathei.LinqGen
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

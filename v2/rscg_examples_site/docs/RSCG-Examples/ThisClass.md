@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ThisClass?label=ThisClass)](https://www.nuget.org/packages/ThisClass/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/trympet/ThisClass?label=updated)](https://github.com/trympet/ThisClass)
 ![GitHub Repo stars](https://img.shields.io/github/stars/trympet/ThisClass?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/trympet/ThisClass
 
-Source : https://github.com/trympet/ThisClass
+Source: https://github.com/trympet/ThisClass
 
 :::
 
@@ -169,7 +169,7 @@ Generate full class name from class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -282,7 +282,7 @@ sealed partial class ThisClassAttribute : Attribute
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

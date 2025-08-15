@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Zomp.SyncMethodGenerator?label=Zomp.SyncMethodGenerator)](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/zompinc/sync-method-generator?label=updated)](https://github.com/zompinc/sync-method-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/zompinc/sync-method-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/zompinc/sync-method-generator
 
-Source : https://github.com/zompinc/sync-method-generator
+Source: https://github.com/zompinc/sync-method-generator
 
 :::
 
@@ -262,7 +262,7 @@ partial class Writer
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

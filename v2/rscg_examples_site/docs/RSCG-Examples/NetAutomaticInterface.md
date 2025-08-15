@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutomaticInterface?label=AutomaticInterface)](https://www.nuget.org/packages/AutomaticInterface/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/codecentric/net_automatic_interface?label=updated)](https://github.com/codecentric/net_automatic_interface)
 ![GitHub Repo stars](https://img.shields.io/github/stars/codecentric/net_automatic_interface?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/codecentric/net_automatic_interface
 
-Source : https://github.com/codecentric/net_automatic_interface
+Source: https://github.com/codecentric/net_automatic_interface
 
 :::
 
@@ -244,7 +244,7 @@ GEnerating interface from class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -385,7 +385,7 @@ namespace Class2Interface
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

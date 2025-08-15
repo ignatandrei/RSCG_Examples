@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AltaSoft.DomainPrimitives.Generator?label=AltaSoft.DomainPrimitives.Generator)](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Generator)[![Nuget](https://img.shields.io/nuget/dt/AltaSoft.DomainPrimitives.Abstractions?label=AltaSoft.DomainPrimitives.Abstractions)](https://www.nuget.org/packages/AltaSoft.DomainPrimitives.Abstractions)
 [![GitHub last commit](https://img.shields.io/github/last-commit/altasoft/DomainPrimitives?label=updated)](https://github.com/altasoft/DomainPrimitives)
 ![GitHub Repo stars](https://img.shields.io/github/stars/altasoft/DomainPrimitives?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/altasoft/DomainPrimitives
 
-Source : https://github.com/altasoft/DomainPrimitives
+Source: https://github.com/altasoft/DomainPrimitives
 
 :::
 
@@ -760,7 +760,7 @@ One of the most complete and mature libraries for DomainPrimitives in  .NET
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1838,7 +1838,7 @@ public sealed class YearDateTypeConverter : Int32Converter
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Farskeptic.AutoCompose?label=Farskeptic.AutoCompose)](https://www.nuget.org/packages/Farskeptic.AutoCompose/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/farskeptic/AutoCompose?label=updated)](https://github.com/farskeptic/AutoCompose)
 ![GitHub Repo stars](https://img.shields.io/github/stars/farskeptic/AutoCompose?style=social)
@@ -36,7 +36,7 @@ NuGet:
 
 You can find more details at https://github.com/farskeptic/AutoCompose
 
-Source : https://github.com/farskeptic/AutoCompose
+Source: https://github.com/farskeptic/AutoCompose
 
 :::
 
@@ -122,7 +122,7 @@ Generating decorators for classes that implements interfaces.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -276,7 +276,7 @@ namespace Decorator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

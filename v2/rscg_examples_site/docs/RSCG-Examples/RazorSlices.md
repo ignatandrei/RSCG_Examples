@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RazorSlices?label=RazorSlices)](https://www.nuget.org/packages/RazorSlices/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DamianEdwards/RazorSlices?label=updated)](https://github.com/DamianEdwards/RazorSlices)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DamianEdwards/RazorSlices?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/DamianEdwards/RazorSlices
 
-Source : https://github.com/DamianEdwards/RazorSlices
+Source: https://github.com/DamianEdwards/RazorSlices
 
 :::
 
@@ -259,7 +259,7 @@ Generating html from razor templates. Attention, generates IHttpResult, not html
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -654,7 +654,7 @@ namespace RazorDemoSlices.Slices
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

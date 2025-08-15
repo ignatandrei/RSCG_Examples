@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Constants?label=ThisAssembly.Constants)](https://www.nuget.org/packages/ThisAssembly.Constants/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
@@ -63,7 +63,7 @@ NuGet:
 
 You can find more details at https://github.com/devlooped/ThisAssembly
 
-Source : https://github.com/devlooped/ThisAssembly
+Source: https://github.com/devlooped/ThisAssembly
 
 :::
 
@@ -509,7 +509,7 @@ Generating Constants from csproj
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -597,7 +597,7 @@ partial class ThisAssembly
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

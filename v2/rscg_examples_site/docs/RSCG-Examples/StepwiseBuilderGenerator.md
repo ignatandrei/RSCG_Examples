@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/StepwiseBuilderGenerator?label=StepwiseBuilderGenerator)](https://www.nuget.org/packages/StepwiseBuilderGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Georgiy-Petrov/StepwiseBuilderGenerator?label=updated)](https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/StepwiseBuilderGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator
 
-Source : https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator
+Source: https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator
 
 :::
 
@@ -425,7 +425,7 @@ public static partial class StepwiseBuilders
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

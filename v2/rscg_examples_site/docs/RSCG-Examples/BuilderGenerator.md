@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/BuilderGenerator?label=BuilderGenerator)](https://www.nuget.org/packages/BuilderGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/MelGrubb/BuilderGenerator?label=updated)](https://github.com/MelGrubb/BuilderGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MelGrubb/BuilderGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/MelGrubb/BuilderGenerator
 
-Source : https://github.com/MelGrubb/BuilderGenerator
+Source: https://github.com/MelGrubb/BuilderGenerator
 
 :::
 
@@ -138,7 +138,7 @@ Generating Builder class for an object
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -409,7 +409,7 @@ namespace Builder
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoCtor?label=AutoCtor)](https://www.nuget.org/packages/AutoCtor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/distantcam/AutoCtor?label=updated)](https://github.com/distantcam/AutoCtor)
 ![GitHub Repo stars](https://img.shields.io/github/stars/distantcam/AutoCtor?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at 
 
-Source : https://github.com/distantcam/AutoCtor
+Source: https://github.com/distantcam/AutoCtor
 
 :::
 
@@ -209,7 +209,7 @@ Generate constructor from non-initialized fields
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -347,7 +347,7 @@ namespace AutoCtorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Gedaq?label=Gedaq)](https://www.nuget.org/packages/Gedaq/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SoftStoneDevelop/Gedaq?label=updated)](https://github.com/SoftStoneDevelop/Gedaq)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SoftStoneDevelop/Gedaq?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/SoftStoneDevelop/Gedaq
 
-Source : https://github.com/SoftStoneDevelop/Gedaq
+Source: https://github.com/SoftStoneDevelop/Gedaq
 
 :::
 
@@ -202,7 +202,7 @@ Generating code from attribute query
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -2529,7 +2529,7 @@ WHERE
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

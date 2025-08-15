@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/SourceGenerator.Helper.CopyCode?label=SourceGenerator.Helper.CopyCode)](https://www.nuget.org/packages/SourceGenerator.Helper.CopyCode/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/LokiMidgard/SourceGenerator.Helper.CopyCode?label=updated)](https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LokiMidgard/SourceGenerator.Helper.CopyCode?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode
 
-Source : https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode
+Source: https://github.com/LokiMidgard/SourceGenerator.Helper.CopyCode
 
 :::
 
@@ -259,7 +259,7 @@ internal  static partial class Copy {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

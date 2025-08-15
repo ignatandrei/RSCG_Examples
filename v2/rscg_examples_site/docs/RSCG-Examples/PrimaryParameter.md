@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/FaustVX.PrimaryParameter.SG?label=FaustVX.PrimaryParameter.SG)](https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG)
 [![GitHub last commit](https://img.shields.io/github/last-commit/FaustVX/PrimaryParameter?label=updated)](https://github.com/FaustVX/PrimaryParameter)
 ![GitHub Repo stars](https://img.shields.io/github/stars/FaustVX/PrimaryParameter?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/FaustVX/PrimaryParameter
 
-Source : https://github.com/FaustVX/PrimaryParameter
+Source: https://github.com/FaustVX/PrimaryParameter
 
 :::
 
@@ -141,7 +141,7 @@ Generating properties from .NET 8 constructor parameters
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -304,7 +304,7 @@ namespace PrimaryParameter.SG
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

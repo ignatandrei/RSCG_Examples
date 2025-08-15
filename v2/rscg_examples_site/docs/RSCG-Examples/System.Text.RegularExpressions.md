@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/System.Text.RegularExpressions?label=System.Text.RegularExpressions)](https://www.nuget.org/packages/System.Text.RegularExpressions/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -43,7 +43,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators/
 
-Source : https://github.com/dotnet/runtime
+Source: https://github.com/dotnet/runtime
 
 :::
 
@@ -139,7 +139,7 @@ Regex compiled
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -412,7 +412,7 @@ namespace System.Text.RegularExpressions.Generated
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

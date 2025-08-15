@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Coplt.Dropping?label=Coplt.Dropping)](https://www.nuget.org/packages/Coplt.Dropping/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/2A5F/Coplt.Dropping?label=updated)](https://github.com/2A5F/Coplt.Dropping)
 ![GitHub Repo stars](https://img.shields.io/github/stars/2A5F/Coplt.Dropping?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/2A5F/Coplt.Dropping
 
-Source : https://github.com/2A5F/Coplt.Dropping
+Source: https://github.com/2A5F/Coplt.Dropping
 
 :::
 
@@ -97,7 +97,7 @@ Generating disposable
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -243,7 +243,7 @@ internal partial class DALDB : global::System.IDisposable
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

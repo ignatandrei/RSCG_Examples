@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/StronglyTypedUid?label=StronglyTypedUid)](https://www.nuget.org/packages/StronglyTypedUid/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/vicosanz/StronglyTypedUid?label=updated)](https://github.com/vicosanz/StronglyTypedUid)
 ![GitHub Repo stars](https://img.shields.io/github/stars/vicosanz/StronglyTypedUid?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/vicosanz/StronglyTypedUid
 
-Source : https://github.com/vicosanz/StronglyTypedUid
+Source: https://github.com/vicosanz/StronglyTypedUid
 
 :::
 
@@ -380,7 +380,7 @@ public class PersonIdJsonConverter : JsonConverter<PersonId>
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

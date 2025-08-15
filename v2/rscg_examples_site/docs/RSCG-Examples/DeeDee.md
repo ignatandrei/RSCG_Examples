@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/DeeDee?label=DeeDee)](https://www.nuget.org/packages/DeeDee/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/joh-pot/DeeDee?label=updated)](https://github.com/joh-pot/DeeDee/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/joh-pot/DeeDee?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/joh-pot/DeeDee/
 
-Source : https://github.com/joh-pot/DeeDee/
+Source: https://github.com/joh-pot/DeeDee/
 
 :::
 
@@ -65,7 +65,7 @@ Mediatr generated data
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -384,7 +384,7 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

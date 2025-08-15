@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/DimonSmart.BuilderGenerator?label=DimonSmart.BuilderGenerator)](https://www.nuget.org/packages/DimonSmart.BuilderGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DimonSmart/BuilderGenerator?label=updated)](https://github.com/DimonSmart/BuilderGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DimonSmart/BuilderGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/DimonSmart/BuilderGenerator
 
-Source : https://github.com/DimonSmart/BuilderGenerator
+Source: https://github.com/DimonSmart/BuilderGenerator
 
 :::
 
@@ -259,7 +259,7 @@ Generating builder pattern code for classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -632,7 +632,7 @@ namespace Builder
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

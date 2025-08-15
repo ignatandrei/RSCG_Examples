@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Biwen.AutoClassGen?label=Biwen.AutoClassGen)](https://www.nuget.org/packages/Biwen.AutoClassGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/vipwan/Biwen.AutoClassGen?label=updated)](https://github.com/vipwan/Biwen.AutoClassGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/vipwan/Biwen.AutoClassGen?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/vipwan/Biwen.AutoClassGen
 
-Source : https://github.com/vipwan/Biwen.AutoClassGen
+Source: https://github.com/vipwan/Biwen.AutoClassGen
 
 :::
 
@@ -84,7 +84,7 @@ Generating properties  from interface to class.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -234,7 +234,7 @@ namespace FromInterface
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

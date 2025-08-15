@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RubenBroere.LingoGen?label=RubenBroere.LingoGen)](https://www.nuget.org/packages/RubenBroere.LingoGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/RubenBroere/lingo-gen?label=updated)](https://github.com/RubenBroere/lingo-gen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/RubenBroere/lingo-gen?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/RubenBroere/lingo-gen
 
-Source : https://github.com/RubenBroere/lingo-gen
+Source: https://github.com/RubenBroere/lingo-gen
 
 :::
 
@@ -218,7 +218,7 @@ Translating from multiple languages
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -346,7 +346,7 @@ public static partial class Lingo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

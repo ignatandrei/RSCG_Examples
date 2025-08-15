@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Gobie?label=Gobie)](https://www.nuget.org/packages/Gobie/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GobieGenerator/Gobie?label=updated)](https://github.com/GobieGenerator/Gobie/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/GobieGenerator/Gobie?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/GobieGenerator/Gobie/
 
-Source : https://github.com/GobieGenerator/Gobie/
+Source: https://github.com/GobieGenerator/Gobie/
 
 :::
 
@@ -80,7 +80,7 @@ templating for classes , fields ...
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -234,7 +234,7 @@ namespace Gobie
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

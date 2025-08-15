@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoSpectre.SourceGeneration?label=AutoSpectre.SourceGeneration)](https://www.nuget.org/packages/AutoSpectre.SourceGeneration)[![Nuget](https://img.shields.io/nuget/dt/AutoSpectre?label=AutoSpectre)](https://www.nuget.org/packages/AutoSpectre)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jeppevammenkristensen/auto-spectre?label=updated)](https://github.com/jeppevammenkristensen/auto-spectre)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jeppevammenkristensen/auto-spectre?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/jeppevammenkristensen/auto-spectre
 
-Source : https://github.com/jeppevammenkristensen/auto-spectre
+Source: https://github.com/jeppevammenkristensen/auto-spectre
 
 :::
 
@@ -807,7 +807,7 @@ Generating prompt to input values for a console application.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -970,7 +970,7 @@ namespace ReadData
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

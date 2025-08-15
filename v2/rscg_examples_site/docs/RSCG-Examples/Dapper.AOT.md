@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Dapper.AOT?label=Dapper.AOT)](https://www.nuget.org/packages/Dapper.AOT/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DapperLib/DapperAOT?label=updated)](https://github.com/DapperLib/DapperAOT)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DapperLib/DapperAOT?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://aot.dapperlib.dev/
 
-Source : https://github.com/DapperLib/DapperAOT
+Source: https://github.com/DapperLib/DapperAOT
 
 :::
 
@@ -63,7 +63,7 @@ Generating AOT code for Dapper -hydrating classes from SQL queries.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -330,7 +330,7 @@ namespace System.Runtime.CompilerServices
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

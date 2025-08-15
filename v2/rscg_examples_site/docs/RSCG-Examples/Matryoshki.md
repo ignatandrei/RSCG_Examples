@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Matryoshki?label=Matryoshki)](https://www.nuget.org/packages/Matryoshki/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/krasin-ga/matryoshki?label=updated)](https://github.com/krasin-ga/matryoshki/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/krasin-ga/matryoshki?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/krasin-ga/matryoshki/
 
-Source : https://github.com/krasin-ga/matryoshki/
+Source: https://github.com/krasin-ga/matryoshki/
 
 :::
 
@@ -285,7 +285,7 @@ Adding decorators to an implementation of interface
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -524,7 +524,7 @@ public class PersonMatryoshka : MatryoshkiDemo.IPerson
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

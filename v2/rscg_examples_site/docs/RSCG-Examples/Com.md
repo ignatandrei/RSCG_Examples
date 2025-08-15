@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -42,7 +42,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/native-interop/comwrappers-source-generation
 
-Source : https://github.com/dotnet/runtime
+Source: https://github.com/dotnet/runtime
 
 :::
 
@@ -138,7 +138,7 @@ Generating Com Declarations
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -404,7 +404,7 @@ namespace test
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Dusharp?label=Dusharp)](https://www.nuget.org/packages/Dusharp/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/kolebynov/Dusharp?label=updated)](https://github.com/kolebynov/Dusharp)
 ![GitHub Repo stars](https://img.shields.io/github/stars/kolebynov/Dusharp?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/kolebynov/Dusharp
 
-Source : https://github.com/kolebynov/Dusharp
+Source: https://github.com/kolebynov/Dusharp
 
 :::
 
@@ -144,7 +144,7 @@ Generate tagged union
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -509,7 +509,7 @@ namespace UnionTypesDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

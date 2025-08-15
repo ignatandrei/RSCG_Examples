@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/mocklis?label=mocklis)](https://www.nuget.org/packages/mocklis/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mocklis/mocklis?label=updated)](https://github.com/mocklis/mocklis/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mocklis/mocklis?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://mocklis.readthedocs.io/en/latest/getting-started/index.html
 
-Source : https://github.com/mocklis/mocklis/
+Source: https://github.com/mocklis/mocklis/
 
 :::
 
@@ -69,7 +69,7 @@ Generating mocks from classes for unit tests
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -215,7 +215,7 @@ namespace TestClock
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

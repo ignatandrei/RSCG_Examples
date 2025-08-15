@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Chorn.EmbeddedResourceAccessGenerator?label=Chorn.EmbeddedResourceAccessGenerator)](https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ChristophHornung/EmbeddedResourceGenerator?label=updated)](https://github.com/ChristophHornung/EmbeddedResourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ChristophHornung/EmbeddedResourceGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ChristophHornung/EmbeddedResourceGenerator
 
-Source : https://github.com/ChristophHornung/EmbeddedResourceGenerator
+Source: https://github.com/ChristophHornung/EmbeddedResourceGenerator
 
 :::
 
@@ -110,7 +110,7 @@ Embedded Resources to C# Code
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -328,7 +328,7 @@ public enum EmbeddedResourcesql
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

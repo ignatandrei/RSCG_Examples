@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoDTO?label=AutoDTO)](https://www.nuget.org/packages/AutoDTO/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ohorodnikov/AutoDto?label=updated)](https://github.com/Ohorodnikov/AutoDto)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ohorodnikov/AutoDto?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Ohorodnikov/AutoDto
 
-Source : https://github.com/Ohorodnikov/AutoDto
+Source: https://github.com/Ohorodnikov/AutoDto
 
 :::
 
@@ -174,7 +174,7 @@ Generate DTO classes from business/ef classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -282,7 +282,7 @@ public System.String Name { get; set; }
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

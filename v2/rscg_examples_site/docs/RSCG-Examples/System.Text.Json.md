@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/System.Text.Json?label=System.Text.Json)](https://www.nuget.org/packages/System.Text.Json/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/source-generation
 
-Source : https://github.com/dotnet/runtime
+Source: https://github.com/dotnet/runtime
 
 :::
 
@@ -131,7 +131,7 @@ Json Serialize without reflection
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -745,7 +745,7 @@ namespace JsonSerializerOptionsExample
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

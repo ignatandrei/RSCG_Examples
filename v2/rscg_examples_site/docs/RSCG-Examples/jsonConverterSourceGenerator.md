@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Aviationexam.GeneratedJsonConverters.SourceGenerator?label=Aviationexam.GeneratedJsonConverters.SourceGenerator)](https://www.nuget.org/packages/Aviationexam.GeneratedJsonConverters.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/aviationexam/json-converter-source-generator?label=updated)](https://github.com/aviationexam/json-converter-source-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/aviationexam/json-converter-source-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/aviationexam/json-converter-source-generator
 
-Source : https://github.com/aviationexam/json-converter-source-generator
+Source: https://github.com/aviationexam/json-converter-source-generator
 
 :::
 
@@ -174,7 +174,7 @@ Json Polymorphic generator
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1631,7 +1631,7 @@ public partial class ProjectJsonSerializerContext
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

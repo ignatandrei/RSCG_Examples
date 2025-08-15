@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/LightweightObjectMapper?label=LightweightObjectMapper)](https://www.nuget.org/packages/LightweightObjectMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/stratosblue/LightweightObjectMapper?label=updated)](https://github.com/stratosblue/LightweightObjectMapper)
 ![GitHub Repo stars](https://img.shields.io/github/stars/stratosblue/LightweightObjectMapper?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/stratosblue/LightweightObjectMapper
 
-Source : https://github.com/stratosblue/LightweightObjectMapper
+Source: https://github.com/stratosblue/LightweightObjectMapper
 
 :::
 
@@ -231,7 +231,7 @@ Generating function to map DTOs
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -863,7 +863,7 @@ namespace LightweightObjectMapper
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Http?label=Microsoft.Extensions.Http)](https://www.nuget.org/packages/Microsoft.Extensions.Http)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/aspnetcore?label=updated)](https://github.com/dotnet/aspnetcore)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/aspnetcore?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/aspnet/core/fundamentals/aot/request-delegate-generator/rdg?view=aspnetcore-8.0
 
-Source : https://github.com/dotnet/aspnetcore
+Source: https://github.com/dotnet/aspnetcore
 
 :::
 
@@ -121,7 +121,7 @@ Generating replacing for minimal API Map
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -603,7 +603,7 @@ namespace Microsoft.AspNetCore.Http.Generated
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

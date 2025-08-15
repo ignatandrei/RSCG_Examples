@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/spreadcheetah?label=spreadcheetah)](https://www.nuget.org/packages/spreadcheetah/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/sveinungf/spreadcheetah?label=updated)](https://github.com/sveinungf/spreadcheetah)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sveinungf/spreadcheetah?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/sveinungf/spreadcheetah
 
-Source : https://github.com/sveinungf/spreadcheetah
+Source: https://github.com/sveinungf/spreadcheetah
 
 :::
 
@@ -416,7 +416,7 @@ namespace spreadcheetahDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

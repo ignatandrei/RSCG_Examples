@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Riok.Mapperly?label=Riok.Mapperly)](https://www.nuget.org/packages/Riok.Mapperly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/riok/mapperly?label=updated)](https://github.com/riok/mapperly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/riok/mapperly?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://mapperly.riok.app/docs/getting-started/installation/
 
-Source : https://github.com/riok/mapperly
+Source: https://github.com/riok/mapperly
 
 :::
 
@@ -115,7 +115,7 @@ Mapping classes to/from DTO
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -256,7 +256,7 @@ namespace mapperlyDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

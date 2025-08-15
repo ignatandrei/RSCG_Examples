@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Vogen?label=Vogen)](https://www.nuget.org/packages/Vogen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SteveDunn/Vogen?label=updated)](https://github.com/SteveDunn/Vogen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SteveDunn/Vogen?style=social)
@@ -52,7 +52,7 @@ NuGet:
 
 You can find more details at https://dunnhq.com/posts/2021/primitive-obsession/
 
-Source : https://github.com/SteveDunn/Vogen
+Source: https://github.com/SteveDunn/Vogen
 
 :::
 
@@ -871,7 +871,7 @@ If you know what are ValueObject,that is one solution
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1342,7 +1342,7 @@ namespace DemoVogen
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

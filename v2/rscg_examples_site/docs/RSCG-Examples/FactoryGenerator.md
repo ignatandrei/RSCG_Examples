@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/FactoryGenerator?label=FactoryGenerator)](https://www.nuget.org/packages/FactoryGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/westermo/FactoryGenerator?label=updated)](https://github.com/westermo/FactoryGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/westermo/FactoryGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/westermo/FactoryGenerator
 
-Source : https://github.com/westermo/FactoryGenerator
+Source: https://github.com/westermo/FactoryGenerator
 
 :::
 
@@ -359,7 +359,7 @@ generating DI code
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -851,7 +851,7 @@ public sealed partial class LifetimeScope : IContainer
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

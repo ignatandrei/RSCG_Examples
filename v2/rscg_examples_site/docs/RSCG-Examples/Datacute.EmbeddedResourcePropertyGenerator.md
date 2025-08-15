@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Datacute.EmbeddedResourcePropertyGenerator?label=Datacute.EmbeddedResourcePropertyGenerator)](https://www.nuget.org/packages/Datacute.EmbeddedResourcePropertyGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/datacute/EmbeddedResourcePropertyGenerator?label=updated)](https://github.com/datacute/EmbeddedResourcePropertyGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/datacute/EmbeddedResourcePropertyGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/datacute/EmbeddedResourcePropertyGenerator/
 
-Source : https://github.com/datacute/EmbeddedResourcePropertyGenerator/
+Source: https://github.com/datacute/EmbeddedResourcePropertyGenerator/
 
 :::
 
@@ -280,7 +280,7 @@ Generating class to access easy the embedded resource
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -455,7 +455,7 @@ public static partial class TestData
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

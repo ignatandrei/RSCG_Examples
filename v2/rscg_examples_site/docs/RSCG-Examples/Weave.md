@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Weave?label=Weave)](https://www.nuget.org/packages/Weave/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/otac0n/Weave?label=updated)](https://github.com/otac0n/Weave)
 ![GitHub Repo stars](https://img.shields.io/github/stars/otac0n/Weave?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/otac0n/Weave
 
-Source : https://github.com/otac0n/Weave
+Source: https://github.com/otac0n/Weave
 
 :::
 
@@ -105,7 +105,7 @@ Scriban like generator
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -255,7 +255,7 @@ namespace
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

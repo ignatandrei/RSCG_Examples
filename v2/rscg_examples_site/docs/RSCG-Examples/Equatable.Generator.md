@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Equatable.Generator?label=Equatable.Generator)](https://www.nuget.org/packages/Equatable.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/loresoft/Equatable.Generator?label=updated)](https://github.com/loresoft/Equatable.Generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/loresoft/Equatable.Generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/loresoft/Equatable.Generator
 
-Source : https://github.com/loresoft/Equatable.Generator
+Source: https://github.com/loresoft/Equatable.Generator
 
 :::
 
@@ -147,7 +147,7 @@ Generating Equals from properties
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -297,7 +297,7 @@ namespace GeneratorEqualsDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

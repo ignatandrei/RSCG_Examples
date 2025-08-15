@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/DependencyModules.SourceGenerator?label=DependencyModules.SourceGenerator)](https://www.nuget.org/packages/DependencyModules.SourceGenerator/)[![Nuget](https://img.shields.io/nuget/dt/DependencyModules.Runtime?label=DependencyModules.Runtime)](https://www.nuget.org/packages/DependencyModules.Runtime/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ipjohnson/DependencyModules?label=updated)](https://github.com/ipjohnson/DependencyModules)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ipjohnson/DependencyModules?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ipjohnson/DependencyModules
 
-Source : https://github.com/ipjohnson/DependencyModules
+Source: https://github.com/ipjohnson/DependencyModules
 
 :::
 
@@ -291,7 +291,7 @@ Also,by the author, a more advanced example you will find in the DemoWithTest.zi
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -521,7 +521,7 @@ public partial class MyModule : IDependencyModule
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

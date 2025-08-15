@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ArgumentParsing?label=ArgumentParsing)](https://www.nuget.org/packages/ArgumentParsing/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DoctorKrolic/ArgumentParsing?label=updated)](https://github.com/DoctorKrolic/ArgumentParsing)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DoctorKrolic/ArgumentParsing?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/DoctorKrolic/ArgumentParsing
 
-Source : https://github.com/DoctorKrolic/ArgumentParsing
+Source: https://github.com/DoctorKrolic/ArgumentParsing
 
 :::
 
@@ -130,7 +130,7 @@ Transform command line arguments into strongly typed objects
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -739,7 +739,7 @@ namespace ArgumentParsing.Generated
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/DotMake.CommandLine?label=DotMake.CommandLine)](https://www.nuget.org/packages/DotMake.CommandLine/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotmake-build/command-line?label=updated)](https://github.com/dotmake-build/command-line)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotmake-build/command-line?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/dotmake-build/command-line
 
-Source : https://github.com/dotmake-build/command-line
+Source: https://github.com/dotmake-build/command-line
 
 :::
 
@@ -1087,7 +1087,7 @@ Generating easy command line applications.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1470,7 +1470,7 @@ namespace GeneratedCode
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

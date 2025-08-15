@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Valuify?label=Valuify)](https://www.nuget.org/packages/Valuify/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/MooVC/valuify?label=updated)](https://github.com/MooVC/valuify)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MooVC/valuify?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/MooVC/valuify
 
-Source : https://github.com/MooVC/valuify
+Source: https://github.com/MooVC/valuify
 
 :::
 
@@ -266,7 +266,7 @@ Generating Equals from properties
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -719,7 +719,7 @@ namespace Valuify.Internal
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

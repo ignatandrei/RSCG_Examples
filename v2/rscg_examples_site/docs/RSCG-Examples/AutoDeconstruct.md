@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoDeconstruct?label=AutoDeconstruct)](https://www.nuget.org/packages/AutoDeconstruct)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jasonbock/autodeconstruct?label=updated)](https://github.com/jasonbock/autodeconstruct)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jasonbock/autodeconstruct?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/JasonBock/AutoDeconstruct/blob/main/docs/Overview.md
 
-Source : https://github.com/jasonbock/autodeconstruct
+Source: https://github.com/jasonbock/autodeconstruct
 
 :::
 
@@ -64,7 +64,7 @@ Automatically add deconstruct for all types in an assembly
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -167,7 +167,7 @@ public static partial class PersonExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

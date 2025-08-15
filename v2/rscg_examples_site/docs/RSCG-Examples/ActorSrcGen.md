@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ActorSrcGen?label=ActorSrcGen)](https://www.nuget.org/packages/ActorSrcGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/aabs/ActorSrcGen?label=updated)](https://github.com/aabs/ActorSrcGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/aabs/ActorSrcGen?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/aabs/ActorSrcGen
 
-Source : https://github.com/aabs/ActorSrcGen
+Source: https://github.com/aabs/ActorSrcGen
 
 :::
 
@@ -462,7 +462,7 @@ Generating source code for actors in C#.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -734,7 +734,7 @@ public partial class DayWorkflow : Dataflow<Person>, IActor<Person>
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

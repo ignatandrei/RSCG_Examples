@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Rocks?label=Rocks)](https://www.nuget.org/packages/Rocks/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/Rocks?label=updated)](https://github.com/JasonBock/Rocks/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/Rocks?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/JasonBock/Rocks/blob/main/docs/Quickstart.md
 
-Source : https://github.com/JasonBock/Rocks/
+Source: https://github.com/JasonBock/Rocks/
 
 :::
 
@@ -102,7 +102,7 @@ Creating mocks for testing interfaces/classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -270,7 +270,7 @@ namespace MockRock
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

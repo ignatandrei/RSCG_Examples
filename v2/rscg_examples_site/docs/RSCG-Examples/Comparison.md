@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ReflectionIT.ComparisonOperatorsGenerator?label=ReflectionIT.ComparisonOperatorsGenerator)](https://www.nuget.org/packages/ReflectionIT.ComparisonOperatorsGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator?label=updated)](https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator
 
-Source : https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator
+Source: https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator
 
 :::
 
@@ -161,7 +161,7 @@ If you want to generate comparison operators for your classes, startin with ICom
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -358,7 +358,7 @@ public class ComparisonOperatorsAttribute : Attribute {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

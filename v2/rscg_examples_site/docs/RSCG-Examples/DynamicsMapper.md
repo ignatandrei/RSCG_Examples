@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/YC.DynamicsMapper?label=YC.DynamicsMapper)](https://www.nuget.org/packages/YC.DynamicsMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/YonatanCohavi/DynamicsMapper?label=updated)](https://github.com/YonatanCohavi/DynamicsMapper/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/YonatanCohavi/DynamicsMapper?style=social)
@@ -36,7 +36,7 @@ NuGet:
 
 You can find more details at https://github.com/YonatanCohavi/DynamicsMapper/
 
-Source : https://github.com/YonatanCohavi/DynamicsMapper/
+Source: https://github.com/YonatanCohavi/DynamicsMapper/
 
 :::
 
@@ -144,7 +144,7 @@ Mapper for Dataverse client - generates also column names from properties
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -348,7 +348,7 @@ namespace NextGenMapperDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

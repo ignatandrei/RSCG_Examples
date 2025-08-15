@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/BuildInfo?label=BuildInfo)](https://www.nuget.org/packages/BuildInfo/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/linkdotnet/BuildInformation?label=updated)](https://github.com/linkdotnet/BuildInformation)
 ![GitHub Repo stars](https://img.shields.io/github/stars/linkdotnet/BuildInformation?style=social)
@@ -41,7 +41,7 @@ NuGet:
 
 You can find more details at https://github.com/linkdotnet/BuildInformation
 
-Source : https://github.com/linkdotnet/BuildInformation
+Source: https://github.com/linkdotnet/BuildInformation
 
 :::
 
@@ -135,7 +135,7 @@ Generating build information
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -279,7 +279,7 @@ internal static class BuildInformation
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

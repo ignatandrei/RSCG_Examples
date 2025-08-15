@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MinimalApiBuilder?label=MinimalApiBuilder)](https://www.nuget.org/packages/MinimalApiBuilder/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JensDll/MinimalApiBuilder?label=updated)](https://github.com/JensDll/MinimalApiBuilder)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JensDll/MinimalApiBuilder?style=social)
@@ -36,7 +36,7 @@ NuGet:
 
 You can find more details at https://github.com/JensDll/MinimalApiBuilder
 
-Source : https://github.com/JensDll/MinimalApiBuilder
+Source: https://github.com/JensDll/MinimalApiBuilder
 
 :::
 
@@ -136,7 +136,7 @@ Generate Minimal API from classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -292,7 +292,7 @@ public partial class BasicEndpoint : global::MinimalApiBuilder.IEndpoint
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

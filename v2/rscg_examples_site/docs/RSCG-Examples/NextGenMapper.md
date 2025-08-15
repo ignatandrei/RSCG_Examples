@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/NextGenMapper?label=NextGenMapper)](https://www.nuget.org/packages/NextGenMapper/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DedAnton/NextGenMapper?label=updated)](https://github.com/DedAnton/NextGenMapper)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DedAnton/NextGenMapper?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/DedAnton/NextGenMapper
 
-Source : https://github.com/DedAnton/NextGenMapper
+Source: https://github.com/DedAnton/NextGenMapper
 
 :::
 
@@ -190,7 +190,7 @@ Automating generating mapping between classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -443,7 +443,7 @@ namespace NextGenMapper
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

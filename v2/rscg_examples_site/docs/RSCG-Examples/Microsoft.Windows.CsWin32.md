@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Windows.CsWin32?label=Microsoft.Windows.CsWin32)](https://www.nuget.org/packages/Microsoft.Windows.CsWin32/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/CsWin32?label=updated)](https://github.com/microsoft/CsWin32)
 ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/CsWin32?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/microsoft/CsWin32
 
-Source : https://github.com/microsoft/CsWin32
+Source: https://github.com/microsoft/CsWin32
 
 :::
 
@@ -220,7 +220,7 @@ Generating WinAPI code in C#
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -354,7 +354,7 @@ namespace Windows.Win32
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

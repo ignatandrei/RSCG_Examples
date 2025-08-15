@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Strings.ResourceGenerator?label=Strings.ResourceGenerator)](https://www.nuget.org/packages/Strings.ResourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/biggik/Strings.ResourceGenerator?label=updated)](https://github.com/biggik/Strings.ResourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/biggik/Strings.ResourceGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/biggik/Strings.ResourceGenerator
 
-Source : https://github.com/biggik/Strings.ResourceGenerator
+Source: https://github.com/biggik/Strings.ResourceGenerator
 
 :::
 
@@ -560,7 +560,7 @@ namespace Strings.ResourceGenerator.Examples.Resources
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Configuration.Binder?label=Microsoft.Extensions.Configuration.Binder)](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/)
 [![GitHub last commit](https://img.shields.io/learn.microsoft/last-commit/en-us/dotnet?label=updated)](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator)
 ![GitHub Repo stars](https://img.shields.io/learn.microsoft/stars/en-us/dotnet?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/dotnet/runtime
 
-Source : https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator
+Source: https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#configuration-binding-source-generator
 
 :::
 
@@ -56,7 +56,7 @@ Generating Binding for configuration files
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -352,7 +352,7 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

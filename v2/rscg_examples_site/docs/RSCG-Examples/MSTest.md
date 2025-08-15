@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MSTest.SourceGeneration?label=MSTest.SourceGeneration)](https://www.nuget.org/packages/MSTest.SourceGeneration/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/testfx?label=updated)](https://github.com/microsoft/testfx)
 ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/testfx?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/microsoft/testfx
 
-Source : https://github.com/microsoft/testfx
+Source: https://github.com/microsoft/testfx
 
 :::
 
@@ -98,7 +98,7 @@ AOP for MSTest
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -389,7 +389,7 @@ namespace DemoTest
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

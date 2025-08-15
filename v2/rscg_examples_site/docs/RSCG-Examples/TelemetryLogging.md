@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Telemetry.Abstractions?label=Microsoft.Extensions.Telemetry.Abstractions)](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/extensions?label=updated)](https://github.com/dotnet/extensions)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/extensions?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://andrewlock.net/behind-logproperties-and-the-new-telemetry-logging-source-generator/
 
-Source : https://github.com/dotnet/extensions
+Source: https://github.com/dotnet/extensions
 
 :::
 
@@ -111,7 +111,7 @@ Generating deep logging messages for a class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -377,7 +377,7 @@ partial class LoggingSample
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

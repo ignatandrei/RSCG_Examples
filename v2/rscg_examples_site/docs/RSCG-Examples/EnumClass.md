@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/EnumClass.Generator?label=EnumClass.Generator)](https://www.nuget.org/packages/EnumClass.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ashenBlade/EnumClass?label=updated)](https://github.com/ashenBlade/EnumClass)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ashenBlade/EnumClass?style=social)
@@ -40,7 +40,7 @@ NuGet:
 
 You can find more details at https://github.com/ashenBlade/EnumClass
 
-Source : https://github.com/ashenBlade/EnumClass
+Source: https://github.com/ashenBlade/EnumClass
 
 :::
 
@@ -363,7 +363,7 @@ enum 2 class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1060,7 +1060,7 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

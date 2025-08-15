@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/BunnyTail.ServiceRegistration?label=BunnyTail.ServiceRegistration)](https://www.nuget.org/packages/BunnyTail.ServiceRegistration/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/usausa/service-registration-generator?label=updated)](https://github.com/usausa/service-registration-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/usausa/service-registration-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/usausa/service-registration-generator
 
-Source : https://github.com/usausa/service-registration-generator
+Source: https://github.com/usausa/service-registration-generator
 
 :::
 
@@ -95,7 +95,7 @@ Generating service registration code from attributes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -262,7 +262,7 @@ partial class ServiceCollectionExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MapTo?label=MapTo)](https://www.nuget.org/packages/MapTo/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mrtaikandi/MapTo?label=updated)](https://github.com/mrtaikandi/MapTo)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mrtaikandi/MapTo?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/mrtaikandi/MapTo
 
-Source : https://github.com/mrtaikandi/MapTo
+Source: https://github.com/mrtaikandi/MapTo
 
 :::
 
@@ -182,7 +182,7 @@ AutoGenerate Mapping
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -319,7 +319,7 @@ public static class PersonMapToExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

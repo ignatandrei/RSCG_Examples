@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Enhanced.GetTypes?label=Enhanced.GetTypes)](https://www.nuget.org/packages/Enhanced.GetTypes/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/duskembayev/Enhanced.GetTypes?label=updated)](https://github.com/duskembayev/Enhanced.GetTypes)
 ![GitHub Repo stars](https://img.shields.io/github/stars/duskembayev/Enhanced.GetTypes?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/duskembayev/Enhanced.GetTypes
 
-Source : https://github.com/duskembayev/Enhanced.GetTypes
+Source: https://github.com/duskembayev/Enhanced.GetTypes
 
 :::
 
@@ -136,7 +136,7 @@ Generating list of PUBLIC classes that implements an interface
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -279,7 +279,7 @@ namespace GetTypesForInterface
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

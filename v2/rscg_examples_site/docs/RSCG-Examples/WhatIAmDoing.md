@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_WhatIAmDoing?label=RSCG_WhatIAmDoing)](https://www.nuget.org/packages/RSCG_WhatIAmDoing/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_WhatIAmDoing_Common?label=RSCG_WhatIAmDoing_Common)](https://www.nuget.org/packages/RSCG_WhatIAmDoing_Common/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_WhatIAmDoing?label=updated)](https://github.com/ignatandrei/RSCG_WhatIAmDoing)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WhatIAmDoing?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_WhatIAmDoing
 
-Source : https://github.com/ignatandrei/RSCG_WhatIAmDoing
+Source: https://github.com/ignatandrei/RSCG_WhatIAmDoing
 
 :::
 
@@ -158,7 +158,7 @@ Intercept any method in any project
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -579,7 +579,7 @@ $$$""""
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

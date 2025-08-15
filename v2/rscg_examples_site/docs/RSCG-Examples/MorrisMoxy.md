@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Morris.Moxy?label=Morris.Moxy)](https://www.nuget.org/packages/Morris.Moxy/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mrpmorris/Morris.Moxy?label=updated)](https://github.com/mrpmorris/Morris.Moxy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mrpmorris/Morris.Moxy?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at  https://github.com/mrpmorris/Morris.Moxy
 
-Source : https://github.com/mrpmorris/Morris.Moxy
+Source: https://github.com/mrpmorris/Morris.Moxy
 
 :::
 
@@ -127,7 +127,7 @@ Generate C# code for classes from template using attributes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -299,7 +299,7 @@ namespace MorrisMoxyDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

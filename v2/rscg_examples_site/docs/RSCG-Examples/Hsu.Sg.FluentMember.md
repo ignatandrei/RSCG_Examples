@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Hsu.Sg.FluentMember?label=Hsu.Sg.FluentMember)](https://www.nuget.org/packages/Hsu.Sg.FluentMember/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/hsu-net/source-generators?label=updated)](https://github.com/hsu-net/source-generators)
 ![GitHub Repo stars](https://img.shields.io/github/stars/hsu-net/source-generators?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/hsu-net/source-generators
 
-Source : https://github.com/hsu-net/source-generators
+Source: https://github.com/hsu-net/source-generators
 
 :::
 
@@ -103,7 +103,7 @@ Adding builder pattern to classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -318,7 +318,7 @@ namespace Hsu.Sg.FluentMember
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

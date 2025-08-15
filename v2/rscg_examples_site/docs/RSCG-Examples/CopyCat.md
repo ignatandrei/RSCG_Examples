@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Copycat?label=Copycat)](https://www.nuget.org/packages/Copycat/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Otaman/Copycat?label=updated)](https://github.com/Otaman/Copycat/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Otaman/Copycat?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Otaman/Copycat/
 
-Source : https://github.com/Otaman/Copycat/
+Source: https://github.com/Otaman/Copycat/
 
 :::
 
@@ -314,7 +314,7 @@ Implementation of the Decorator pattern in C# - only for not implemented methods
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -525,7 +525,7 @@ internal partial class CoffeeWithLogging
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/depso?label=depso)](https://www.nuget.org/packages/depso/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/notanaverageman/Depso?label=updated)](https://github.com/notanaverageman/Depso)
 ![GitHub Repo stars](https://img.shields.io/github/stars/notanaverageman/Depso?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/notanaverageman/Depso
 
-Source : https://github.com/notanaverageman/Depso
+Source: https://github.com/notanaverageman/Depso
 
 :::
 
@@ -359,7 +359,7 @@ generating DI code
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -824,7 +824,7 @@ public partial class MyServiceProvider
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

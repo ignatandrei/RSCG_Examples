@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/jab?label=jab)](https://www.nuget.org/packages/jab/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/pakrym/jab?label=updated)](https://github.com/pakrym/jab)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pakrym/jab?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/pakrym/jab
 
-Source : https://github.com/pakrym/jab
+Source: https://github.com/pakrym/jab
 
 :::
 
@@ -359,7 +359,7 @@ generating DI code
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -953,7 +953,7 @@ internal partial class MyServiceProvider : global::System.IDisposable,
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

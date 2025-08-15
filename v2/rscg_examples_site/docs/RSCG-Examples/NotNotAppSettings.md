@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/NotNot.AppSettings?label=NotNot.AppSettings)](https://www.nuget.org/packages/NotNot.AppSettings/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jasonswearingen/NotNot.AppSettings?label=updated)](https://github.com/jasonswearingen/NotNot.AppSettings/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jasonswearingen/NotNot.AppSettings?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/jasonswearingen/NotNot.AppSettings/
 
-Source : https://github.com/jasonswearingen/NotNot.AppSettings/
+Source: https://github.com/jasonswearingen/NotNot.AppSettings/
 
 :::
 
@@ -184,7 +184,7 @@ Application Settings to strongly typed classes. Generate also from AppSettings d
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -475,7 +475,7 @@ public interface IAppSettingsBinder
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/FastGenericNew.SourceGenerator?label=FastGenericNew.SourceGenerator)](https://www.nuget.org/packages/FastGenericNew.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Nyrest/FastGenericNew?label=updated)](https://github.com/Nyrest/FastGenericNew)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Nyrest/FastGenericNew?style=social)
@@ -46,7 +46,7 @@ NuGet:
 
 You can find more details at https://github.com/Nyrest/FastGenericNew
 
-Source : https://github.com/Nyrest/FastGenericNew
+Source: https://github.com/Nyrest/FastGenericNew
 
 :::
 
@@ -187,7 +187,7 @@ Creating instances fast. As generator show source code. Otherwise could be a dll
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -2092,7 +2092,7 @@ namespace @FastGenericNew
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

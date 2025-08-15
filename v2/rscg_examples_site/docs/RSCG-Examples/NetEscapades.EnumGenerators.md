@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/NetEscapades.EnumGenerators?label=NetEscapades.EnumGenerators)](https://www.nuget.org/packages/NetEscapades.EnumGenerators/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/andrewlock/NetEscapades.EnumGenerators?label=updated)](https://github.com/andrewlock/NetEscapades.EnumGenerators)
 ![GitHub Repo stars](https://img.shields.io/github/stars/andrewlock/NetEscapades.EnumGenerators?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://andrewlock.net/netescapades-enumgenerators-a-source-generator-for-enum-performance/
 
-Source : https://github.com/andrewlock/NetEscapades.EnumGenerators
+Source: https://github.com/andrewlock/NetEscapades.EnumGenerators
 
 :::
 
@@ -279,7 +279,7 @@ Running fast tostring and other  features for enum
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1308,7 +1308,7 @@ using System;
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AutoConstructor?label=AutoConstructor)](https://www.nuget.org/packages/AutoConstructor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/k94ll13nn3/AutoConstructor?label=updated)](https://github.com/k94ll13nn3/AutoConstructor)
 ![GitHub Repo stars](https://img.shields.io/github/stars/k94ll13nn3/AutoConstructor?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/k94ll13nn3/AutoConstructor
 
-Source : https://github.com/k94ll13nn3/AutoConstructor
+Source: https://github.com/k94ll13nn3/AutoConstructor
 
 :::
 
@@ -412,7 +412,7 @@ Generating constructor for class with many properties
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -601,7 +601,7 @@ namespace QuickConstructorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

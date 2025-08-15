@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/rscg_Interface_to_null_object?label=rscg_Interface_to_null_object)](https://www.nuget.org/packages/rscg_Interface_to_null_object/)[![Nuget](https://img.shields.io/nuget/dt/rscg_Interface_to_null_object_common?label=rscg_Interface_to_null_object_common)](https://www.nuget.org/packages/rscg_Interface_to_null_object_common)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_Interface_to_null_object?label=updated)](https://github.com/ignatandrei/rscg_Interface_to_null_object/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/rscg_Interface_to_null_object?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/rscg_Interface_to_null_object/
 
-Source : https://github.com/ignatandrei/rscg_Interface_to_null_object/
+Source: https://github.com/ignatandrei/rscg_Interface_to_null_object/
 
 :::
 
@@ -116,7 +116,7 @@ Generate null objects for interfaces
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -330,7 +330,7 @@ public partial class Employee_null : global::NullInterface.IEmployee
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

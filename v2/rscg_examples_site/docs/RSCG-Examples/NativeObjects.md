@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/NativeObjects?label=NativeObjects)](https://www.nuget.org/packages/NativeObjects/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/kevingosse/NativeObjects?label=updated)](https://github.com/kevingosse/NativeObjects)
 ![GitHub Repo stars](https://img.shields.io/github/stars/kevingosse/NativeObjects?style=social)
@@ -36,7 +36,7 @@ NuGet:
 
 You can find more details at https://github.com/kevingosse/NativeObjects
 
-Source : https://github.com/kevingosse/NativeObjects
+Source: https://github.com/kevingosse/NativeObjects
 
 :::
 
@@ -128,7 +128,7 @@ Object to IntPtr and back
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -331,7 +331,7 @@ namespace NativeObjects
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Breezy.SourceGenerator?label=Breezy.SourceGenerator)](https://www.nuget.org/packages/Breezy.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ludovicdln/Breezy?label=updated)](https://github.com/Ludovicdln/Breezy)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ludovicdln/Breezy?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Ludovicdln/Breezy
 
-Source : https://github.com/Ludovicdln/Breezy
+Source: https://github.com/Ludovicdln/Breezy
 
 :::
 
@@ -311,7 +311,7 @@ ORM Mapper
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -958,7 +958,7 @@ public sealed class TableAttribute : Attribute
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

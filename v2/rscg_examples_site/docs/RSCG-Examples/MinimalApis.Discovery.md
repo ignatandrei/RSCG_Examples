@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MinimalApis.Discovery?label=MinimalApis.Discovery)](https://www.nuget.org/packages/MinimalApis.Discovery/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/shawnwildermuth/MinimalApis?label=updated)](https://github.com/shawnwildermuth/MinimalApis)
 ![GitHub Repo stars](https://img.shields.io/github/stars/shawnwildermuth/MinimalApis?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/shawnwildermuth/MinimalApis
 
-Source : https://github.com/shawnwildermuth/MinimalApis
+Source: https://github.com/shawnwildermuth/MinimalApis
 
 :::
 
@@ -62,7 +62,7 @@ Controller like API registering
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -240,7 +240,7 @@ namespace MinimalApis.Discovery
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

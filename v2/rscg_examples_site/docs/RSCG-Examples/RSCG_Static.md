@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Static?label=RSCG_Static)](https://www.nuget.org/packages/RSCG_Static/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Static?label=updated)](https://github.com/ignatandrei/RSCG_Static)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Static?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_Static
 
-Source : https://github.com/ignatandrei/RSCG_Static
+Source: https://github.com/ignatandrei/RSCG_Static
 
 :::
 
@@ -88,7 +88,7 @@ Generate interfaces and classes from static classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -197,7 +197,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

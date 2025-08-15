@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_WaitAndOptions?label=RSCG_WaitAndOptions)](https://www.nuget.org/packages/RSCG_WaitAndOptions/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_WaitAndOptions?label=updated)](https://github.com/ignatandrei/RSCG_WaitAndOptions)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WaitAndOptions?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_WaitAndOptions
 
-Source : https://github.com/ignatandrei/RSCG_WaitAndOptions
+Source: https://github.com/ignatandrei/RSCG_WaitAndOptions
 
 :::
 
@@ -94,7 +94,7 @@ Demo for waiting in compilation and show the options of compiling the code
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -270,7 +270,7 @@ partial class MyGeneratedCode
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

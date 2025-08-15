@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Disposer?label=Disposer)](https://www.nuget.org/packages/Disposer/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/HakamFostok/Disposer?label=updated)](https://github.com/HakamFostok/Disposer)
 ![GitHub Repo stars](https://img.shields.io/github/stars/HakamFostok/Disposer?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/HakamFostok/Disposer
 
-Source : https://github.com/HakamFostok/Disposer
+Source: https://github.com/HakamFostok/Disposer
 
 :::
 
@@ -143,7 +143,7 @@ Generates partials for dispose resources
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -308,7 +308,7 @@ namespace IDisposableGeneratorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

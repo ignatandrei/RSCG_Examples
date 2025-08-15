@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/sourcedepend?label=sourcedepend)](https://www.nuget.org/packages/sourcedepend/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/crwsolutions/sourcedepend?label=updated)](https://github.com/crwsolutions/sourcedepend)
 ![GitHub Repo stars](https://img.shields.io/github/stars/crwsolutions/sourcedepend?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/crwsolutions/sourcedepend
 
-Source : https://github.com/crwsolutions/sourcedepend
+Source: https://github.com/crwsolutions/sourcedepend
 
 :::
 
@@ -350,7 +350,7 @@ namespace CtorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

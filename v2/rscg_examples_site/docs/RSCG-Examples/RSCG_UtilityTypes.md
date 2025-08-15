@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypes?label=RSCG_UtilityTypes)](https://www.nuget.org/packages/RSCG_UtilityTypes/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypesCommon?label=RSCG_UtilityTypesCommon)](https://www.nuget.org/packages/RSCG_UtilityTypesCommon)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_UtilityTypes?label=updated)](https://github.com/ignatandrei/RSCG_UtilityTypes)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_UtilityTypes?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_UtilityTypes
 
-Source : https://github.com/ignatandrei/RSCG_UtilityTypes
+Source: https://github.com/ignatandrei/RSCG_UtilityTypes
 
 :::
 
@@ -89,7 +89,7 @@ Add omit and pick to selectively generate types from existing types
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -244,7 +244,7 @@ ret.LastName = data.LastName;
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

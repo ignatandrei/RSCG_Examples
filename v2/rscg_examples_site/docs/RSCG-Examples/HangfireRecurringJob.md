@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/IeuanWalker.Hangfire.RecurringJob?label=IeuanWalker.Hangfire.RecurringJob)](https://www.nuget.org/packages/IeuanWalker.Hangfire.RecurringJob/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/IeuanWalker/Hangfire.RecurringJob?label=updated)](https://github.com/IeuanWalker/Hangfire.RecurringJob)
 ![GitHub Repo stars](https://img.shields.io/github/stars/IeuanWalker/Hangfire.RecurringJob?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/IeuanWalker/Hangfire.RecurringJob
 
-Source : https://github.com/IeuanWalker/Hangfire.RecurringJob
+Source: https://github.com/IeuanWalker/Hangfire.RecurringJob
 
 :::
 
@@ -122,7 +122,7 @@ Generating recurring jobs for Hangfire from class attribute
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -287,7 +287,7 @@ public static class RecurringJobRegistrationExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

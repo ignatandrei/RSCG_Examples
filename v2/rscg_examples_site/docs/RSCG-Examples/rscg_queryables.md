@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/rscg_queryables?label=rscg_queryables)](https://www.nuget.org/packages/rscg_queryables/)[![Nuget](https://img.shields.io/nuget/dt/rscg_queryablesCommon?label=rscg_queryablesCommon)](https://www.nuget.org/packages/rscg_queryablesCommon/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/rscg_queryables?label=updated)](https://github.com/ignatandrei/rscg_queryables)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/rscg_queryables?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/rscg_queryables
 
-Source : https://github.com/ignatandrei/rscg_queryables
+Source: https://github.com/ignatandrei/rscg_queryables
 
 :::
 
@@ -233,7 +233,7 @@ Generating code for .Where and .OrderBy by string, not by lambda
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -721,7 +721,7 @@ public static class Student_{
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

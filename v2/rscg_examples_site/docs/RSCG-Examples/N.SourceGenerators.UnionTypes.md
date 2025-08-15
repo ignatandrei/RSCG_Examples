@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/N.SourceGenerators.UnionTypes?label=N.SourceGenerators.UnionTypes)](https://www.nuget.org/packages/N.SourceGenerators.UnionTypes/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Ne4to/N.SourceGenerators.UnionTypes?label=updated)](https://github.com/Ne4to/N.SourceGenerators.UnionTypes)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ne4to/N.SourceGenerators.UnionTypes?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Ne4to/N.SourceGenerators.UnionTypes
 
-Source : https://github.com/Ne4to/N.SourceGenerators.UnionTypes
+Source: https://github.com/Ne4to/N.SourceGenerators.UnionTypes
 
 :::
 
@@ -322,7 +322,7 @@ Generating different union types
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -857,7 +857,7 @@ namespace N.SourceGenerators.UnionTypes
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

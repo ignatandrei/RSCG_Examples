@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/NTypewriter.SourceGenerator?label=NTypewriter.SourceGenerator)](https://www.nuget.org/packages/NTypewriter.SourceGenerator)
 [![GitHub last commit](https://img.shields.io/github/last-commit/NeVeSpl/NTypewriter?label=updated)](https://github.com/NeVeSpl/NTypewriter)
 ![GitHub Repo stars](https://img.shields.io/github/stars/NeVeSpl/NTypewriter?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/NeVeSpl/NTypewriter
 
-Source : https://github.com/NeVeSpl/NTypewriter
+Source: https://github.com/NeVeSpl/NTypewriter
 
 :::
 
@@ -230,7 +230,7 @@ Generating code with a template from classes in project
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -347,7 +347,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

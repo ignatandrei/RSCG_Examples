@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ProxyGen.net?label=ProxyGen.net)](https://www.nuget.org/packages/ProxyGen.net/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Sholtee/ProxyGen?label=updated)](https://github.com/Sholtee/ProxyGen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Sholtee/ProxyGen?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Sholtee/ProxyGen
 
-Source : https://github.com/Sholtee/ProxyGen
+Source: https://github.com/Sholtee/ProxyGen
 
 :::
 
@@ -228,7 +228,7 @@ intercepting and duck typing
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -375,7 +375,7 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

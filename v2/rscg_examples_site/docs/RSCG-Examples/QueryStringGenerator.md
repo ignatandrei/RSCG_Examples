@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/QueryStringGenerator?label=QueryStringGenerator)](https://www.nuget.org/packages/QueryStringGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/tparviainen/query-string-generator?label=updated)](https://github.com/tparviainen/query-string-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/tparviainen/query-string-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/tparviainen/query-string-generator
 
-Source : https://github.com/tparviainen/query-string-generator
+Source: https://github.com/tparviainen/query-string-generator
 
 :::
 
@@ -152,7 +152,7 @@ Generate from string properties of a class a query string for a URL.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -294,7 +294,7 @@ namespace QueryStringGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Larcanum.GitInfo?label=Larcanum.GitInfo)](https://www.nuget.org/packages/Larcanum.GitInfo/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lord-executor/Larcanum.GitInfo?label=updated)](https://github.com/lord-executor/Larcanum.GitInfo)
 ![GitHub Repo stars](https://img.shields.io/github/stars/lord-executor/Larcanum.GitInfo?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/lord-executor/Larcanum.GitInfo
 
-Source : https://github.com/lord-executor/Larcanum.GitInfo
+Source: https://github.com/lord-executor/Larcanum.GitInfo
 
 :::
 
@@ -308,7 +308,7 @@ Generates GitInfo data from the current environment.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -416,7 +416,7 @@ internal partial class GitInfo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

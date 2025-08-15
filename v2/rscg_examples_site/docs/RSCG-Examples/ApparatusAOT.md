@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Apparatus.AOT.Reflection?label=Apparatus.AOT.Reflection)](https://www.nuget.org/packages/Apparatus.AOT.Reflection/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/byme8/Apparatus.AOT.Reflection?label=updated)](https://github.com/byme8/Apparatus.AOT.Reflection)
 ![GitHub Repo stars](https://img.shields.io/github/stars/byme8/Apparatus.AOT.Reflection?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/byme8/Apparatus.AOT.Reflection
 
-Source : https://github.com/byme8/Apparatus.AOT.Reflection
+Source: https://github.com/byme8/Apparatus.AOT.Reflection
 
 :::
 
@@ -365,7 +365,7 @@ This will generate code for investigating at runtime the properties of an object
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -512,7 +512,7 @@ namespace Apparatus.AOT.Reflection
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

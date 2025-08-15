@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 [![GitHub last commit](https://img.shields.io/www.nuget.org/last-commit/packages/System.Runtime.InteropServices?label=updated)](https://www.nuget.org/packages/System.Runtime.InteropServices/)
 ![GitHub Repo stars](https://img.shields.io/www.nuget.org/stars/packages/System.Runtime.InteropServices?style=social)
@@ -42,7 +42,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/standard/native-interop/pinvoke-source-generation
 
-Source : https://www.nuget.org/packages/System.Runtime.InteropServices/
+Source: https://www.nuget.org/packages/System.Runtime.InteropServices/
 
 :::
 
@@ -180,7 +180,7 @@ unsafe partial class DemoImport
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RossLean.StringificationGenerator?label=RossLean.StringificationGenerator)](https://www.nuget.org/packages/RossLean.StringificationGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/RossLean/RossLean?label=updated)](https://github.com/RossLean/RossLean/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/RossLean/RossLean?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/RossLean/RossLean/
 
-Source : https://github.com/RossLean/RossLean/
+Source: https://github.com/RossLean/RossLean/
 
 :::
 
@@ -121,7 +121,7 @@ Generating constructor code as string
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -242,7 +242,7 @@ public partial class ConstructionCodeGeneration : BaseConstructionCodeGeneration
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RazorBlade?label=RazorBlade)](https://www.nuget.org/packages/RazorBlade/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ltrzesniewski/RazorBlade?label=updated)](https://github.com/ltrzesniewski/RazorBlade)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ltrzesniewski/RazorBlade?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ltrzesniewski/RazorBlade
 
-Source : https://github.com/ltrzesniewski/RazorBlade
+Source: https://github.com/ltrzesniewski/RazorBlade
 
 :::
 
@@ -193,7 +193,7 @@ Do not forget to put into AdditionalFiles section of csproj file
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1060,7 +1060,7 @@ namespace RazorBladeDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

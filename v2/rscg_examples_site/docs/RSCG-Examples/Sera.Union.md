@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Sera.Union?label=Sera.Union)](https://www.nuget.org/packages/Sera.Union/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/sera-net/Sera.Union?label=updated)](https://github.com/sera-net/Sera.Union)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sera-net/Sera.Union?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/sera-net/Sera.Union
 
-Source : https://github.com/sera-net/Sera.Union
+Source: https://github.com/sera-net/Sera.Union
 
 :::
 
@@ -681,7 +681,7 @@ Generate tagged union
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -937,7 +937,7 @@ public partial struct ResultSave
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

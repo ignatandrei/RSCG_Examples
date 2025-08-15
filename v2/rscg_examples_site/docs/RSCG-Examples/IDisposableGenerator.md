@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/IDisposableGenerator?label=IDisposableGenerator)](https://www.nuget.org/packages/IDisposableGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Elskom/IDisposableGenerator?label=updated)](https://github.com/Elskom/IDisposableGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Elskom/IDisposableGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Elskom/IDisposableGenerator
 
-Source : https://github.com/Elskom/IDisposableGenerator
+Source: https://github.com/Elskom/IDisposableGenerator
 
 :::
 
@@ -84,7 +84,7 @@ Generating disposable
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -279,7 +279,7 @@ namespace IDisposableGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

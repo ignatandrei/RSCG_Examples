@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_NameGenerator?label=RSCG_NameGenerator)](https://www.nuget.org/packages/RSCG_NameGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/NameGenerator?label=updated)](https://github.com/ignatandrei/NameGenerator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/NameGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/NameGenerator/
 
-Source : https://github.com/ignatandrei/NameGenerator/
+Source: https://github.com/ignatandrei/NameGenerator/
 
 :::
 
@@ -97,7 +97,7 @@ Generating unique names for assemblies
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -184,7 +184,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

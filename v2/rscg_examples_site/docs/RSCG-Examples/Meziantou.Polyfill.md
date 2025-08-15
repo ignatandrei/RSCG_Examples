@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Meziantou.Polyfill?label=Meziantou.Polyfill)](https://www.nuget.org/packages/Meziantou.Polyfill/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/meziantou/Meziantou.Polyfill?label=updated)](https://github.com/meziantou/Meziantou.Polyfill)
 ![GitHub Repo stars](https://img.shields.io/github/stars/meziantou/Meziantou.Polyfill?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://www.meziantou.net/polyfills-in-dotnet-to-ease-multi-targeting.htm
 
-Source : https://github.com/meziantou/Meziantou.Polyfill
+Source: https://github.com/meziantou/Meziantou.Polyfill
 
 :::
 
@@ -83,7 +83,7 @@ Generating polyfills that you can see source without de-compiling
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -5867,7 +5867,7 @@ namespace System.Threading.Tasks
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

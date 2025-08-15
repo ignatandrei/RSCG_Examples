@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/corecraft?label=corecraft)](https://www.nuget.org/packages/corecraft/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlexNav73/CoreCraft?label=updated)](https://github.com/AlexNav73/CoreCraft)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AlexNav73/CoreCraft?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/AlexNav73/CoreCraft
 
-Source : https://github.com/AlexNav73/CoreCraft
+Source: https://github.com/AlexNav73/CoreCraft
 
 :::
 
@@ -183,7 +183,7 @@ Decomposing properties and class into Domain Models. Seems however too complicat
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -638,7 +638,7 @@ namespace Json2Code.Person.Entities
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

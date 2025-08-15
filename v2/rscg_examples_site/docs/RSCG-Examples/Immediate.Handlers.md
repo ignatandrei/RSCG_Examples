@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Immediate.Handlers?label=Immediate.Handlers)](https://www.nuget.org/packages/Immediate.Handlers/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/immediateplatform/Immediate.Handlers?label=updated)](https://github.com/immediateplatform/Immediate.Handlers)
 ![GitHub Repo stars](https://img.shields.io/github/stars/immediateplatform/Immediate.Handlers?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/immediateplatform/Immediate.Handlers
 
-Source : https://github.com/immediateplatform/Immediate.Handlers
+Source: https://github.com/immediateplatform/Immediate.Handlers
 
 :::
 
@@ -301,7 +301,7 @@ Generating mediator like handlers
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -549,7 +549,7 @@ public static class HandlerServiceCollectionExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

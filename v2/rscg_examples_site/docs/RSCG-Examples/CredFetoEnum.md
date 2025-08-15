@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Credfeto.Enumeration.Source.Generation?label=Credfeto.Enumeration.Source.Generation)](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/credfeto/credfeto-enum-source-generation?label=updated)](https://github.com/credfeto/credfeto-enum-source-generation)
 ![GitHub Repo stars](https://img.shields.io/github/stars/credfeto/credfeto-enum-source-generation?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/credfeto/credfeto-enum-source-generation
 
-Source : https://github.com/credfeto/credfeto-enum-source-generation
+Source: https://github.com/credfeto/credfeto-enum-source-generation
 
 :::
 
@@ -199,7 +199,7 @@ Enum / description to string
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -334,7 +334,7 @@ public static class ColorsGeneratedExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

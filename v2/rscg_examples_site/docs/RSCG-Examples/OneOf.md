@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/OneOf.SourceGenerator?label=OneOf.SourceGenerator)](https://www.nuget.org/packages/OneOf.SourceGenerator)[![Nuget](https://img.shields.io/nuget/dt/OneOf?label=OneOf)](https://www.nuget.org/packages/OneOf/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/mcintyre321/OneOf?label=updated)](https://github.com/mcintyre321/OneOf)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mcintyre321/OneOf?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/mcintyre321/OneOf
 
-Source : https://github.com/mcintyre321/OneOf
+Source: https://github.com/mcintyre321/OneOf
 
 :::
 
@@ -257,7 +257,7 @@ Functional discriminated unions
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -384,7 +384,7 @@ namespace OneOfDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

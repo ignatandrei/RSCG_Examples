@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Ling.Audit?label=Ling.Audit)](https://www.nuget.org/packages/Ling.Audit/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ling921/dotnet-lib?label=updated)](https://github.com/ling921/dotnet-lib/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ling921/dotnet-lib?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ling921/dotnet-lib/
 
-Source : https://github.com/ling921/dotnet-lib/
+Source: https://github.com/ling921/dotnet-lib/
 
 :::
 
@@ -72,7 +72,7 @@ Generating audit data from class implementation of interfaces
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -204,7 +204,7 @@ namespace LingDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

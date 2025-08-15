@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Generator.Equals?label=Generator.Equals)](https://www.nuget.org/packages/Generator.Equals/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/diegofrata/Generator.Equals?label=updated)](https://github.com/diegofrata/Generator.Equals)
 ![GitHub Repo stars](https://img.shields.io/github/stars/diegofrata/Generator.Equals?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/diegofrata/Generator.Equals
 
-Source : https://github.com/diegofrata/Generator.Equals
+Source: https://github.com/diegofrata/Generator.Equals
 
 :::
 
@@ -273,7 +273,7 @@ Generating Equals from properties
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -443,7 +443,7 @@ namespace GeneratorEqualsDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

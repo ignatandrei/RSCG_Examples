@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/DotnetYang?label=DotnetYang)](https://www.nuget.org/packages/DotnetYang/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/westermo/DotnetYang?label=updated)](https://github.com/westermo/DotnetYang)
 ![GitHub Repo stars](https://img.shields.io/github/stars/westermo/DotnetYang?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/westermo/DotnetYang
 
-Source : https://github.com/westermo/DotnetYang
+Source: https://github.com/westermo/DotnetYang
 
 :::
 
@@ -161,7 +161,7 @@ Generating source code from YANG models
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -633,7 +633,7 @@ public class YangNode
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

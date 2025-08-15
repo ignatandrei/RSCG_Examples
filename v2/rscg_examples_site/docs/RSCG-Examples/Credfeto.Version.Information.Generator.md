@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Credfeto.Version.Information.Generator?label=Credfeto.Version.Information.Generator)](https://www.nuget.org/packages/Credfeto.Version.Information.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/credfeto/credfeto-version-constants-generator?label=updated)](https://github.com/credfeto/credfeto-version-constants-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/credfeto/credfeto-version-constants-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/credfeto/credfeto-version-constants-generator
 
-Source : https://github.com/credfeto/credfeto-version-constants-generator
+Source: https://github.com/credfeto/credfeto-version-constants-generator
 
 :::
 
@@ -118,7 +118,7 @@ Embedding build information as compile time constants in C# projects.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -213,7 +213,7 @@ internal static class VersionInformation
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

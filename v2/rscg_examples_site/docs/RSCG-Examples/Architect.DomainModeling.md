@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Architect.DomainModeling?label=Architect.DomainModeling)](https://www.nuget.org/packages/Architect.DomainModeling/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheArchitectDev/Architect.DomainModeling?label=updated)](https://github.com/TheArchitectDev/Architect.DomainModeling)
 ![GitHub Repo stars](https://img.shields.io/github/stars/TheArchitectDev/Architect.DomainModeling?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/TheArchitectDev/Architect.DomainModeling
 
-Source : https://github.com/TheArchitectDev/Architect.DomainModeling
+Source: https://github.com/TheArchitectDev/Architect.DomainModeling
 
 :::
 
@@ -536,7 +536,7 @@ Domain Modelling -DDD, Entity and more. Here I will show just the builder
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -697,7 +697,7 @@ namespace Builder
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

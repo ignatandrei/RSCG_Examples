@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/AspectGenerator?label=AspectGenerator)](https://www.nuget.org/packages/AspectGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/igor-tkachev/AspectGenerator?label=updated)](https://github.com/igor-tkachev/AspectGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/igor-tkachev/AspectGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/igor-tkachev/AspectGenerator
 
-Source : https://github.com/igor-tkachev/AspectGenerator
+Source: https://github.com/igor-tkachev/AspectGenerator
 
 :::
 
@@ -392,7 +392,7 @@ AOP for methods in the same project. Uses interceptors
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -708,7 +708,7 @@ namespace AspectGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/GenPack?label=GenPack)](https://www.nuget.org/packages/GenPack/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dimohy/GenPack?label=updated)](https://github.com/dimohy/GenPack)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dimohy/GenPack?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/dimohy/GenPack
 
-Source : https://github.com/dimohy/GenPack
+Source: https://github.com/dimohy/GenPack
 
 :::
 
@@ -206,7 +206,7 @@ Generating Binary Serialization and properties for class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -337,7 +337,7 @@ namespace SerializerDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Podimo.ConstEmbed?label=Podimo.ConstEmbed)](https://www.nuget.org/packages/Podimo.ConstEmbed/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/podimo/Podimo.ConstEmbed?label=updated)](https://github.com/podimo/Podimo.ConstEmbed)
 ![GitHub Repo stars](https://img.shields.io/github/stars/podimo/Podimo.ConstEmbed?style=social)
@@ -39,7 +39,7 @@ NuGet:
 
 You can find more details at https://github.com/podimo/Podimo.ConstEmbed
 
-Source : https://github.com/podimo/Podimo.ConstEmbed
+Source: https://github.com/podimo/Podimo.ConstEmbed
 
 :::
 
@@ -72,7 +72,7 @@ File content transformed to constants
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -172,7 +172,7 @@ GO;
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

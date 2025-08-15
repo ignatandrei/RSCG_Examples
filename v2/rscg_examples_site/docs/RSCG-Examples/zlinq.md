@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ZLinq.DropInGenerator?label=ZLinq.DropInGenerator)](https://www.nuget.org/packages/ZLinq.DropInGenerator/)[![Nuget](https://img.shields.io/nuget/dt/ZLinq?label=ZLinq)](https://www.nuget.org/packages/ZLinq/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cysharp/ZLinq?label=updated)](https://github.com/Cysharp/ZLinq)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Cysharp/ZLinq?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://neuecc.medium.com/zlinq-a-zero-allocation-linq-library-for-net-1bb0a3e5c749
 
-Source : https://github.com/Cysharp/ZLinq
+Source: https://github.com/Cysharp/ZLinq
 
 :::
 
@@ -1186,7 +1186,7 @@ This library is under MIT License.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1250,7 +1250,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

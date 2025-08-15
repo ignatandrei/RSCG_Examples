@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_InterceptorTemplate?label=RSCG_InterceptorTemplate)](https://www.nuget.org/packages/RSCG_InterceptorTemplate/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_InterceptorTemplate?label=updated)](https://github.com/ignatandrei/RSCG_InterceptorTemplate)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_InterceptorTemplate?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_InterceptorTemplate
 
-Source : https://github.com/ignatandrei/RSCG_InterceptorTemplate
+Source: https://github.com/ignatandrei/RSCG_InterceptorTemplate
 
 :::
 
@@ -175,7 +175,7 @@ Andrei Ignat
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -427,7 +427,7 @@ public interface IPersonLoader
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

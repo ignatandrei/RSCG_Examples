@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Metadata?label=ThisAssembly.Metadata)](https://www.nuget.org/packages/ThisAssembly.Metadata/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/devlooped/ThisAssembly?label=updated)](https://github.com/devlooped/ThisAssembly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social)
@@ -62,7 +62,7 @@ NuGet:
 
 You can find more details at https://github.com/devlooped/ThisAssembly
 
-Source : https://github.com/devlooped/ThisAssembly
+Source: https://github.com/devlooped/ThisAssembly
 
 :::
 
@@ -506,7 +506,7 @@ Generating code from assembly metadata
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -613,7 +613,7 @@ Andrei
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

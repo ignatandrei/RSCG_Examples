@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/immediate.apis?label=immediate.apis)](https://www.nuget.org/packages/immediate.apis/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/immediateplatform/immediate.apis?label=updated)](https://github.com/immediateplatform/immediate.apis)
 ![GitHub Repo stars](https://img.shields.io/github/stars/immediateplatform/immediate.apis?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/immediateplatform/immediate.apis
 
-Source : https://github.com/immediateplatform/immediate.apis
+Source: https://github.com/immediateplatform/immediate.apis
 
 :::
 
@@ -227,7 +227,7 @@ Defining APIs in classes instead of  in minimal API or controllers
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -558,7 +558,7 @@ public static class HandlerServiceCollectionExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

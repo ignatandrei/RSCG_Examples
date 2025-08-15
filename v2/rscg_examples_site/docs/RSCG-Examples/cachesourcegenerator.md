@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/cachesourcegenerator?label=cachesourcegenerator)](https://www.nuget.org/packages/cachesourcegenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/jeppevammenkristensen/cachesourcegenerator?label=updated)](https://github.com/jeppevammenkristensen/cachesourcegenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jeppevammenkristensen/cachesourcegenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/jeppevammenkristensen/cachesourcegenerator
 
-Source : https://github.com/jeppevammenkristensen/cachesourcegenerator
+Source: https://github.com/jeppevammenkristensen/cachesourcegenerator
 
 :::
 
@@ -275,7 +275,7 @@ Caching methods results
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -486,7 +486,7 @@ namespace CacheSourceGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

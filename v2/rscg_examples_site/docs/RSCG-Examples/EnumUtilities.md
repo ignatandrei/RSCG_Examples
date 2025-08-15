@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Raiqub.Generators.EnumUtilities?label=Raiqub.Generators.EnumUtilities)](https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/skarllot/EnumUtilities?label=updated)](https://github.com/skarllot/EnumUtilities)
 ![GitHub Repo stars](https://img.shields.io/github/stars/skarllot/EnumUtilities?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/skarllot/EnumUtilities
 
-Source : https://github.com/skarllot/EnumUtilities
+Source: https://github.com/skarllot/EnumUtilities
 
 :::
 
@@ -300,7 +300,7 @@ Enum to string- and multiple other extensions for an enum
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -853,7 +853,7 @@ namespace EnumClassDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/BitsKit?label=BitsKit)](https://www.nuget.org/packages/BitsKit/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/barncastle/BitsKit?label=updated)](https://github.com/barncastle/BitsKit)
 ![GitHub Repo stars](https://img.shields.io/github/stars/barncastle/BitsKit?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/barncastle/BitsKit
 
-Source : https://github.com/barncastle/BitsKit
+Source: https://github.com/barncastle/BitsKit
 
 :::
 
@@ -290,7 +290,7 @@ Reading efficiently from a bit structure
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -450,7 +450,7 @@ namespace BitsDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

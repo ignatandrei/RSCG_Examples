@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ServiceScan.SourceGenerator?label=ServiceScan.SourceGenerator)](https://www.nuget.org/packages/ServiceScan.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Dreamescaper/ServiceScan.SourceGenerator?label=updated)](https://github.com/Dreamescaper/ServiceScan.SourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Dreamescaper/ServiceScan.SourceGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Dreamescaper/ServiceScan.SourceGenerator
 
-Source : https://github.com/Dreamescaper/ServiceScan.SourceGenerator
+Source: https://github.com/Dreamescaper/ServiceScan.SourceGenerator
 
 :::
 
@@ -342,7 +342,7 @@ public static partial class MyServiceProvider
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

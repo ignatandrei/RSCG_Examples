@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/LaDeak.ProtobufSourceGenerator?label=LaDeak.ProtobufSourceGenerator)](https://www.nuget.org/packages/LaDeak.ProtobufSourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ladeak/ProtobufSourceGenerator?label=updated)](https://github.com/ladeak/ProtobufSourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ladeak/ProtobufSourceGenerator?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ladeak/ProtobufSourceGenerator
 
-Source : https://github.com/ladeak/ProtobufSourceGenerator
+Source: https://github.com/ladeak/ProtobufSourceGenerator
 
 :::
 
@@ -200,7 +200,7 @@ Serializing a class to protobuf
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -299,7 +299,7 @@ public partial class Person
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

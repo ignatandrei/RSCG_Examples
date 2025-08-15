@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MinimalHelpers.Routing.Analyzers?label=MinimalHelpers.Routing.Analyzers)](https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/marcominerva/MinimalHelpers?label=updated)](https://github.com/marcominerva/MinimalHelpers)
 ![GitHub Repo stars](https://img.shields.io/github/stars/marcominerva/MinimalHelpers?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/marcominerva/MinimalHelpers
 
-Source : https://github.com/marcominerva/MinimalHelpers
+Source: https://github.com/marcominerva/MinimalHelpers
 
 :::
 
@@ -451,7 +451,7 @@ Controller like API registering
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -660,7 +660,7 @@ public interface IEndpointRouteHandlerBuilder
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/PropertyChanged.SourceGenerator?label=PropertyChanged.SourceGenerator)](https://www.nuget.org/packages/PropertyChanged.SourceGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/canton7/PropertyChanged.SourceGenerator?label=updated)](https://github.com/canton7/PropertyChanged.SourceGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/canton7/PropertyChanged.SourceGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/canton7/PropertyChanged.SourceGenerator
 
-Source : https://github.com/canton7/PropertyChanged.SourceGenerator
+Source: https://github.com/canton7/PropertyChanged.SourceGenerator
 
 :::
 
@@ -731,7 +731,7 @@ Generating PropertyChange to properties
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1001,7 +1001,7 @@ namespace PropChangeDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

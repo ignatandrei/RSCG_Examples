@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/FunicularSwitch.Generators?label=FunicularSwitch.Generators)](https://www.nuget.org/packages/FunicularSwitch.Generators/)[![Nuget](https://img.shields.io/nuget/dt/FunicularSwitch?label=FunicularSwitch)](https://www.nuget.org/packages/FunicularSwitch)
 [![GitHub last commit](https://img.shields.io/github/last-commit/bluehands/Funicular-Switch?label=updated)](https://github.com/bluehands/Funicular-Switch)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bluehands/Funicular-Switch?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/bluehands/Funicular-Switch
 
-Source : https://github.com/bluehands/Funicular-Switch
+Source: https://github.com/bluehands/Funicular-Switch
 
 :::
 
@@ -474,7 +474,7 @@ Generating discriminated unions for C# 9.0 and above.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1153,7 +1153,7 @@ namespace FunicularSwitch.Generators
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Darp.BinaryObjects?label=Darp.BinaryObjects)](https://www.nuget.org/packages/Darp.BinaryObjects/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/rosslight/Darp.BinaryObjects?label=updated)](https://github.com/rosslight/Darp.BinaryObjects)
 ![GitHub Repo stars](https://img.shields.io/github/stars/rosslight/Darp.BinaryObjects?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/rosslight/Darp.BinaryObjects
 
-Source : https://github.com/rosslight/Darp.BinaryObjects
+Source: https://github.com/rosslight/Darp.BinaryObjects
 
 :::
 
@@ -296,7 +296,7 @@ Serialize bits of data
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -518,7 +518,7 @@ namespace Darp.BinaryObjects.Generated
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

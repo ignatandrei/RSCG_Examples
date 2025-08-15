@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MemoryPack?label=MemoryPack)](https://www.nuget.org/packages/MemoryPack/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cysharp/MemoryPack?label=updated)](https://github.com/Cysharp/MemoryPack)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Cysharp/MemoryPack?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Cysharp/MemoryPack
 
-Source : https://github.com/Cysharp/MemoryPack
+Source: https://github.com/Cysharp/MemoryPack
 
 :::
 
@@ -1463,7 +1463,7 @@ Efficient serializer
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1707,7 +1707,7 @@ partial class Person : IMemoryPackable<Person>
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

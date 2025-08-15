@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/TypedSignalR.Client?label=TypedSignalR.Client)](https://www.nuget.org/packages/TypedSignalR.Client/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/nenoNaninu/TypedSignalR.Client?label=updated)](https://github.com/nenoNaninu/TypedSignalR.Client)
 ![GitHub Repo stars](https://img.shields.io/github/stars/nenoNaninu/TypedSignalR.Client?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/nenoNaninu/TypedSignalR.Client
 
-Source : https://github.com/nenoNaninu/TypedSignalR.Client
+Source: https://github.com/nenoNaninu/TypedSignalR.Client
 
 :::
 
@@ -360,7 +360,7 @@ Creating typed Signal R clients
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1278,7 +1278,7 @@ namespace TypedSignalR.Client
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

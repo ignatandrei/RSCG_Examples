@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/JKToolKit.TemplatePropertyGenerator?label=JKToolKit.TemplatePropertyGenerator)](https://www.nuget.org/packages/JKToolKit.TemplatePropertyGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JKamsker/JKToolKit.TemplatePropertyGenerator?label=updated)](https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JKamsker/JKToolKit.TemplatePropertyGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator
 
-Source : https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator
+Source: https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator
 
 :::
 
@@ -115,7 +115,7 @@ String templating for a class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -251,7 +251,7 @@ namespace SimpleTemplate
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

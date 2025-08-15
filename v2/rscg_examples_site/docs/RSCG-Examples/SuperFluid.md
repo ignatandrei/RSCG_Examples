@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/SuperFluid?label=SuperFluid)](https://www.nuget.org/packages/SuperFluid/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/hughesjs/SuperFluid?label=updated)](https://github.com/hughesjs/SuperFluid)
 ![GitHub Repo stars](https://img.shields.io/github/stars/hughesjs/SuperFluid?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/hughesjs/SuperFluid
 
-Source : https://github.com/hughesjs/SuperFluid
+Source: https://github.com/hughesjs/SuperFluid
 
 :::
 
@@ -503,7 +503,7 @@ public interface ICanAddOrSubtractOrCalculate
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

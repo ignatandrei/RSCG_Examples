@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/EntityLengths.Generator?label=EntityLengths.Generator)](https://www.nuget.org/packages/EntityLengths.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/TarasKovalenko/EntityLengths.Generator?label=updated)](https://github.com/TarasKovalenko/EntityLengths.Generator/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/TarasKovalenko/EntityLengths.Generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/TarasKovalenko/EntityLengths.Generator/
 
-Source : https://github.com/TarasKovalenko/EntityLengths.Generator/
+Source: https://github.com/TarasKovalenko/EntityLengths.Generator/
 
 :::
 
@@ -269,7 +269,7 @@ Generating constants for max length for properties in entities
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -422,7 +422,7 @@ public static partial class Constants
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

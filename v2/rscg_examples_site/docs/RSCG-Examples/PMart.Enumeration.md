@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration.Generator?label=PMart.Enumeration.Generator)](https://www.nuget.org/packages/PMart.Enumeration.Generator/)[![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration?label=PMart.Enumeration)](https://www.nuget.org/packages/PMart.Enumeration/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/p-martinho/Enumeration?label=updated)](https://github.com/p-martinho/Enumeration)
 ![GitHub Repo stars](https://img.shields.io/github/stars/p-martinho/Enumeration?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/p-martinho/Enumeration
 
-Source : https://github.com/p-martinho/Enumeration
+Source: https://github.com/p-martinho/Enumeration
 
 :::
 
@@ -1161,7 +1161,7 @@ Constants as enumeration. With EFCore, Swagger and other implementations.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1271,7 +1271,7 @@ namespace DemoPMart
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

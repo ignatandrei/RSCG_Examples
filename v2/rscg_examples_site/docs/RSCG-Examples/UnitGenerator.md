@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/UnitGenerator?label=UnitGenerator)](https://www.nuget.org/packages/UnitGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cysharp/UnitGenerator?label=updated)](https://github.com/Cysharp/UnitGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Cysharp/UnitGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Cysharp/UnitGenerator
 
-Source : https://github.com/Cysharp/UnitGenerator
+Source: https://github.com/Cysharp/UnitGenerator
 
 :::
 
@@ -623,7 +623,7 @@ Generating classes instead of value objects( e.g. int)
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1234,7 +1234,7 @@ namespace UnitGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

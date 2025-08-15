@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_ExportDiagram?label=RSCG_ExportDiagram)](https://github.com/ignatandrei/RSCG_ExportDiagram)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_ExportDiagram?label=updated)](https://github.com/ignatandrei/RSCG_ExportDiagram)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_ExportDiagram?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at RSCG_ExportDiagram
 
-Source : https://github.com/ignatandrei/RSCG_ExportDiagram
+Source: https://github.com/ignatandrei/RSCG_ExportDiagram
 
 :::
 
@@ -161,7 +161,7 @@ Generating diagram for relation classes within referenced project
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -351,7 +351,7 @@ Main --> Person.PersonData
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

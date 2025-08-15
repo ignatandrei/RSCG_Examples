@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RhoMicro.CodeAnalysis.CopyToGenerator?label=RhoMicro.CodeAnalysis.CopyToGenerator)](https://www.nuget.org/packages/RhoMicro.CodeAnalysis.CopyToGenerator)
 [![GitHub last commit](https://img.shields.io/github/last-commit/PaulBraetz/RhoMicro.CodeAnalysis?label=updated)](https://github.com/PaulBraetz/RhoMicro.CodeAnalysis)
 ![GitHub Repo stars](https://img.shields.io/github/stars/PaulBraetz/RhoMicro.CodeAnalysis?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/PaulBraetz/RhoMicro.CodeAnalysis
 
-Source : https://github.com/PaulBraetz/RhoMicro.CodeAnalysis
+Source: https://github.com/PaulBraetz/RhoMicro.CodeAnalysis
 
 :::
 
@@ -67,7 +67,7 @@ Generating copy to code for  properties of a class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -224,7 +224,7 @@ namespace CopyToDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Dolly?label=Dolly)](https://www.nuget.org/packages/Dolly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AnderssonPeter/Dolly?label=updated)](https://github.com/AnderssonPeter/Dolly)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AnderssonPeter/Dolly?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/AnderssonPeter/Dolly
 
-Source : https://github.com/AnderssonPeter/Dolly
+Source: https://github.com/AnderssonPeter/Dolly
 
 :::
 
@@ -141,7 +141,7 @@ Clone objects with ease.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -310,7 +310,7 @@ partial class Person : IClonable<Person>
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

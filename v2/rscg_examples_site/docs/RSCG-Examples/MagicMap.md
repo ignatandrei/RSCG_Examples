@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/bramerdaniel/MagicMap
 
-Source : https://github.com/bramerdaniel/MagicMap
+Source: https://github.com/bramerdaniel/MagicMap
 
 :::
 
@@ -92,7 +92,7 @@ Auto mapping
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -478,7 +478,7 @@ namespace MagicMap
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

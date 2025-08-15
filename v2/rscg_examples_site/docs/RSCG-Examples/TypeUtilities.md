@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/TypeUtilities?label=TypeUtilities)](https://www.nuget.org/packages/TypeUtilities/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DragonsLord/TypeUtilities?label=updated)](https://github.com/DragonsLord/TypeUtilities)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DragonsLord/TypeUtilities?style=social)
@@ -38,7 +38,7 @@ NuGet:
 
 You can find more details at https://github.com/DragonsLord/TypeUtilities
 
-Source : https://github.com/DragonsLord/TypeUtilities
+Source: https://github.com/DragonsLord/TypeUtilities
 
 :::
 
@@ -189,7 +189,7 @@ Pick/Omit for classes ( also have some mapping )
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -343,7 +343,7 @@ public partial class Person2
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

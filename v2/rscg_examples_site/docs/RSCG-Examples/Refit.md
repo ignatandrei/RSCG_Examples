@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Refit?label=Refit)](https://www.nuget.org/packages/Refit/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/reactiveui/refit?label=updated)](https://github.com/reactiveui/refit)
 ![GitHub Repo stars](https://img.shields.io/github/stars/reactiveui/refit?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/reactiveui/refit
 
-Source : https://github.com/reactiveui/refit
+Source: https://github.com/reactiveui/refit
 
 :::
 
@@ -1360,7 +1360,7 @@ Generates code for retrieving data from HTTP API
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1559,7 +1559,7 @@ namespace RefitDemoRefitInternalGenerated
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

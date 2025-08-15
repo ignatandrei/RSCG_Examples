@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Feast.CodeAnalysis.Literal?label=Feast.CodeAnalysis.Literal)](https://www.nuget.org/packages/Feast.CodeAnalysis.Literal/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/feast107/CodeAnalysis?label=updated)](https://github.com/feast107/CodeAnalysis)
 ![GitHub Repo stars](https://img.shields.io/github/stars/feast107/CodeAnalysis?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/feast107/CodeAnalysis
 
-Source : https://github.com/feast107/CodeAnalysis
+Source: https://github.com/feast107/CodeAnalysis
 
 :::
 
@@ -126,7 +126,7 @@ Code to string literal. Unfortunately, it carries also some other CodeAnalysis g
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -226,7 +226,7 @@ namespace DemoLit
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_Decorator?label=RSCG_Decorator)](https://www.nuget.org/packages/RSCG_Decorator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_Decorator?label=updated)](https://github.com/ignatandrei/RSCG_Decorator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Decorator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_Decorator
 
-Source : https://github.com/ignatandrei/RSCG_Decorator
+Source: https://github.com/ignatandrei/RSCG_Decorator
 
 :::
 
@@ -130,7 +130,7 @@ Intercept methods - start, stop,exception
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -470,7 +470,7 @@ namespace RSCG_DecoratorTestConsole {
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

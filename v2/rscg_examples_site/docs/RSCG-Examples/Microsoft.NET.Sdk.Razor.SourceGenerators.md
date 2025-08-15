@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 
 
 
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at 
 
-Source : 
+Source: 
 
 :::
 
@@ -56,7 +56,7 @@ Generating razor/cshtml pages to cs pages
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1205,7 +1205,7 @@ using RazorAppDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

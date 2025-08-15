@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/DisposableHelpers?label=DisposableHelpers)](https://www.nuget.org/packages/DisposableHelpers/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Kiryuumaru/DisposableHelpers?label=updated)](https://github.com/Kiryuumaru/DisposableHelpers)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Kiryuumaru/DisposableHelpers?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Kiryuumaru/DisposableHelpers
 
-Source : https://github.com/Kiryuumaru/DisposableHelpers
+Source: https://github.com/Kiryuumaru/DisposableHelpers
 
 :::
 
@@ -220,7 +220,7 @@ Generating boilerplate for thread safe Dispose
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -484,7 +484,7 @@ namespace IDisposableGeneratorDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

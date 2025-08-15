@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Strongly?label=Strongly)](https://www.nuget.org/packages/Strongly/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lucasteles/Strongly?label=updated)](https://github.com/lucasteles/Strongly/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/lucasteles/Strongly?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/lucasteles/Strongly/
 
-Source : https://github.com/lucasteles/Strongly/
+Source: https://github.com/lucasteles/Strongly/
 
 :::
 
@@ -1096,7 +1096,7 @@ namespace Strongly
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

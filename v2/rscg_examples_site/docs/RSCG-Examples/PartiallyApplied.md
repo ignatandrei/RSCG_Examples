@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/PartiallyApplied?label=PartiallyApplied)](https://www.nuget.org/packages/PartiallyApplied/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/JasonBock/PartiallyApplied?label=updated)](https://github.com/JasonBock/PartiallyApplied)
 ![GitHub Repo stars](https://img.shields.io/github/stars/JasonBock/PartiallyApplied?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/JasonBock/PartiallyApplied/blob/main/docs/Quickstart.md
 
-Source : https://github.com/JasonBock/PartiallyApplied
+Source: https://github.com/JasonBock/PartiallyApplied
 
 :::
 
@@ -80,7 +80,7 @@ If you need to curry functions, you can use this package
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -179,7 +179,7 @@ public static partial class Partially
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

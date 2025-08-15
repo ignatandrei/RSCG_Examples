@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/dunet?label=dunet)](https://www.nuget.org/packages/dunet/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/domn1995/dunet?label=updated)](https://github.com/domn1995/dunet)
 ![GitHub Repo stars](https://img.shields.io/github/stars/domn1995/dunet?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/domn1995/dunet
 
-Source : https://github.com/domn1995/dunet
+Source: https://github.com/domn1995/dunet
 
 :::
 
@@ -422,7 +422,7 @@ Check his examples-  awesome
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1340,7 +1340,7 @@ internal static class WhatIsTheStringMatchExtensions
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

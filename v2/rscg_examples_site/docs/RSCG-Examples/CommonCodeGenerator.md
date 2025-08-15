@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/CommonCodeGenerator?label=CommonCodeGenerator)](https://www.nuget.org/packages/CommonCodeGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/usausa/common-code-generator?label=updated)](https://github.com/usausa/common-code-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/usausa/common-code-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/usausa/common-code-generator
 
-Source : https://github.com/usausa/common-code-generator
+Source: https://github.com/usausa/common-code-generator
 
 :::
 
@@ -101,7 +101,7 @@ Generating ToString from classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -214,7 +214,7 @@ namespace ToStringData
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_WebAPIExports?label=RSCG_WebAPIExports)](https://www.nuget.org/packages/RSCG_WebAPIExports/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_WebAPIExports?label=updated)](https://github.com/ignatandrei/RSCG_WebAPIExports/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WebAPIExports?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_WebAPIExports/
 
-Source : https://github.com/ignatandrei/RSCG_WebAPIExports/
+Source: https://github.com/ignatandrei/RSCG_WebAPIExports/
 
 :::
 
@@ -91,7 +91,7 @@ Generating Excel from WebAPI json array
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -411,7 +411,7 @@ public class MiddlewareExportToFile : IMiddleware
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

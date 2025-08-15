@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Blazor.SourceGenerators?label=Blazor.SourceGenerators)](https://www.nuget.org/packages/Blazor.SourceGenerators/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/IEvangelist/blazorators?label=updated)](https://github.com/IEvangelist/blazorators/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/IEvangelist/blazorators?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/IEvangelist/blazorators/
 
-Source : https://github.com/IEvangelist/blazorators/
+Source: https://github.com/IEvangelist/blazorators/
 
 :::
 
@@ -849,7 +849,7 @@ Generate javascript interop code for Blazor WASM projects.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1270,7 +1270,7 @@ namespace System.Runtime.CompilerServices
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

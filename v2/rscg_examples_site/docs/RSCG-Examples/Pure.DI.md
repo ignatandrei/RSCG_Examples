@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Pure.DI?label=Pure.DI)](https://www.nuget.org/packages/Pure.DI/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/DevTeam/Pure.DI?label=updated)](https://github.com/DevTeam/Pure.DI)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DevTeam/Pure.DI?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/DevTeam/Pure.DI
 
-Source : https://github.com/DevTeam/Pure.DI
+Source: https://github.com/DevTeam/Pure.DI
 
 :::
 
@@ -1067,7 +1067,7 @@ Constructing injecting container
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -6228,7 +6228,7 @@ namespace Pure.DI
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/BunnyTail.MemberAccessor?label=BunnyTail.MemberAccessor)](https://www.nuget.org/packages/BunnyTail.MemberAccessor/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/usausa/member-accessor-generator?label=updated)](https://github.com/usausa/member-accessor-generator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/usausa/member-accessor-generator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/usausa/member-accessor-generator
 
-Source : https://github.com/usausa/member-accessor-generator
+Source: https://github.com/usausa/member-accessor-generator
 
 :::
 
@@ -115,7 +115,7 @@ Generate getter and setter for class members.
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -262,7 +262,7 @@ internal sealed class Person_AccessorFactory : global::BunnyTail.MemberAccessor.
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

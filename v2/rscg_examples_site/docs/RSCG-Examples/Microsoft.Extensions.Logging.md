@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Logging?label=Microsoft.Extensions.Logging)](https://www.nuget.org/packages/Microsoft.Extensions.Logging/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/dotnet/runtime?label=updated)](https://github.com/dotnet/runtime)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://learn.microsoft.com/en-us/dotnet/core/extensions/logger-message-generator-generators/
 
-Source : https://github.com/dotnet/runtime
+Source: https://github.com/dotnet/runtime
 
 :::
 
@@ -131,7 +131,7 @@ Logging defined and compiled
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -351,7 +351,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

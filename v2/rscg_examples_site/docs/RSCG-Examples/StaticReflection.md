@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection?label=FastStaticReflection)](https://www.nuget.org/packages/FastStaticReflection/)[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection.CodeGen?label=FastStaticReflection.CodeGen)](https://www.nuget.org/packages/FastStaticReflection.CodeGen/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Cricle/StaticReflection?label=updated)](https://github.com/Cricle/StaticReflection/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Cricle/StaticReflection?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/Cricle/StaticReflection/
 
-Source : https://github.com/Cricle/StaticReflection/
+Source: https://github.com/Cricle/StaticReflection/
 
 :::
 
@@ -622,7 +622,7 @@ namespace StaticReflectionDemo
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

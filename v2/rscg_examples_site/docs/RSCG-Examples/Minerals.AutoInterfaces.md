@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Minerals.AutoInterfaces?label=Minerals.AutoInterfaces)](https://www.nuget.org/packages/Minerals.AutoInterfaces/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SzymonHalucha/Minerals.AutoInterfaces?label=updated)](https://github.com/SzymonHalucha/Minerals.AutoInterfaces)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SzymonHalucha/Minerals.AutoInterfaces?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/SzymonHalucha/Minerals.AutoInterfaces
 
-Source : https://github.com/SzymonHalucha/Minerals.AutoInterfaces
+Source: https://github.com/SzymonHalucha/Minerals.AutoInterfaces
 
 :::
 
@@ -179,7 +179,7 @@ Generating interface from class
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -317,7 +317,7 @@ namespace Class2Interface
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

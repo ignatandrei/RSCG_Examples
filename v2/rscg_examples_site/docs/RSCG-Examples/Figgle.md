@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Figgle.Generator?label=Figgle.Generator)](https://www.nuget.org/packages/Figgle.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/drewnoakes/figgle?label=updated)](https://github.com/drewnoakes/figgle)
 ![GitHub Repo stars](https://img.shields.io/github/stars/drewnoakes/figgle?style=social)
@@ -40,7 +40,7 @@ NuGet:
 
 You can find more details at https://github.com/drewnoakes/figgle
 
-Source : https://github.com/drewnoakes/figgle
+Source: https://github.com/drewnoakes/figgle
 
 :::
 
@@ -181,7 +181,7 @@ Generating ASCII art text for console applications
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -526,7 +526,7 @@ partial class MyTexts
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

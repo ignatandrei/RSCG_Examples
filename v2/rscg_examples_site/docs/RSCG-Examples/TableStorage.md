@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/TableStorage?label=TableStorage)](https://www.nuget.org/packages/TableStorage/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/StevenThuriot/TableStorage?label=updated)](https://github.com/StevenThuriot/TableStorage)
 ![GitHub Repo stars](https://img.shields.io/github/stars/StevenThuriot/TableStorage?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/StevenThuriot/TableStorage
 
-Source : https://github.com/StevenThuriot/TableStorage
+Source: https://github.com/StevenThuriot/TableStorage
 
 :::
 
@@ -167,7 +167,7 @@ Generate resources for accessing Azure Table Storage
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -575,7 +575,7 @@ namespace test
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

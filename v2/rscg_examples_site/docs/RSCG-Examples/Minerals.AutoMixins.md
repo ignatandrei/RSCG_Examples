@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Minerals.AutoMixins?label=Minerals.AutoMixins)](https://www.nuget.org/packages/Minerals.AutoMixins/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SzymonHalucha/Minerals.AutoMixins?label=updated)](https://github.com/SzymonHalucha/Minerals.AutoMixins)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SzymonHalucha/Minerals.AutoMixins?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/SzymonHalucha/Minerals.AutoMixins
 
-Source : https://github.com/SzymonHalucha/Minerals.AutoMixins
+Source: https://github.com/SzymonHalucha/Minerals.AutoMixins
 
 :::
 
@@ -219,7 +219,7 @@ Generate Mixin from another classes
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -384,7 +384,7 @@ namespace Minerals.AutoMixins
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

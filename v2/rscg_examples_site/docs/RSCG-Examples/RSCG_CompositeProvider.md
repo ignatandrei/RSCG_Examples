@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/RSCG_CompositeProvider?label=RSCG_CompositeProvider)](https://www.nuget.org/packages/RSCG_CompositeProvider/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_CompositeProvider_common?label=RSCG_CompositeProvider_common)](https://www.nuget.org/packages/RSCG_CompositeProvider_common/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_CompositeProvider?label=updated)](https://github.com/ignatandrei/RSCG_CompositeProvider)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_CompositeProvider?style=social)
@@ -37,7 +37,7 @@ NuGet:
 
 You can find more details at https://github.com/ignatandrei/RSCG_CompositeProvider
 
-Source : https://github.com/ignatandrei/RSCG_CompositeProvider
+Source: https://github.com/ignatandrei/RSCG_CompositeProvider
 
 :::
 
@@ -131,7 +131,7 @@ Generate composite class from interface, using multiple sources
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -366,7 +366,7 @@ public global::CP_Console.IDataValue Get(int nr){
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

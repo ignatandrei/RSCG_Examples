@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Seekatar.OptionToStringGenerator?label=Seekatar.OptionToStringGenerator)](https://www.nuget.org/packages/Seekatar.OptionToStringGenerator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Seekatar/OptionToStringGenerator?label=updated)](https://github.com/Seekatar/OptionToStringGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Seekatar/OptionToStringGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Seekatar/OptionToStringGenerator
 
-Source : https://github.com/Seekatar/OptionToStringGenerator
+Source: https://github.com/Seekatar/OptionToStringGenerator
 
 :::
 
@@ -510,7 +510,7 @@ Generating similar ToString method for classes with many properties. It can also
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -617,7 +617,7 @@ namespace Seekatar.OptionToStringGenerator
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

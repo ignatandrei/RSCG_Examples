@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MakeInterface.Generator?label=MakeInterface.Generator)](https://www.nuget.org/packages/MakeInterface.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Frederik91/MakeInterface?label=updated)](https://github.com/Frederik91/MakeInterface)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Frederik91/MakeInterface?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/Frederik91/MakeInterface
 
-Source : https://github.com/Frederik91/MakeInterface
+Source: https://github.com/Frederik91/MakeInterface
 
 :::
 
@@ -97,7 +97,7 @@ Generating interface from class definition
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -215,7 +215,7 @@ public partial interface IPerson
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 

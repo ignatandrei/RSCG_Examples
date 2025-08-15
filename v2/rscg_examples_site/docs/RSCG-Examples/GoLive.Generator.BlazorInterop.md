@@ -13,7 +13,7 @@ import TOCInline from '@theme/TOCInline';
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/GoLive.Generator.BlazorInterop?label=GoLive.Generator.BlazorInterop)](https://www.nuget.org/packages/GoLive.Generator.BlazorInterop/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/surgicalcoder/BlazorInteropGenerator?label=updated)](https://github.com/surgicalcoder/BlazorInteropGenerator)
 ![GitHub Repo stars](https://img.shields.io/github/stars/surgicalcoder/BlazorInteropGenerator?style=social)
@@ -35,7 +35,7 @@ NuGet:
 
 You can find more details at https://github.com/surgicalcoder/BlazorInteropGenerator
 
-Source : https://github.com/surgicalcoder/BlazorInteropGenerator
+Source: https://github.com/surgicalcoder/BlazorInteropGenerator
 
 :::
 
@@ -97,7 +97,7 @@ Generating interop from C# to javascript for Blazor
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -302,7 +302,7 @@ namespace GoLive.Generator.BlazorInterop.Playground.Client
 
 </Tabs>
 
-## Usefull
+## Useful
 
 ### Download Example (.NET  C# )
 
