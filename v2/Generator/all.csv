@@ -200,3 +200,4 @@ Nr,Key,Source,Category
 199,SuperFluid, https://github.com/hughesjs/SuperFluid,StateMachine
 200,Figgle, https://github.com/drewnoakes/figgle,Console
 201,Strings.ResourceGenerator, https://github.com/biggik/Strings.ResourceGenerator,FilesToCode
+202,Jos.Enumeration, https://github.com/joseftw/jos.enumeration,Enum

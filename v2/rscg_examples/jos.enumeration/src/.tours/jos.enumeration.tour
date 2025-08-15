@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "jos.enumeration",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [jos.enumeration](https://www.nuget.org/packages/jos.enumeration/) in csproj  ",
+      "pattern": "jos.enumeration"
+    }
+
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/JOS.Enumeration.SourceGenerator/JOS.Enumeration.SourceGenerator.EnumerationSourceGenerator/Enumerations.generated.cs",
+        "description": "Generated File 2  from 2 : Enumerations.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/JOS.Enumeration.SourceGenerator/JOS.Enumeration.SourceGenerator.EnumerationSourceGenerator/CarTypes.Implementation.generated.cs",
+        "description": "Generated File 1  from 2 : CarTypes.Implementation.generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
