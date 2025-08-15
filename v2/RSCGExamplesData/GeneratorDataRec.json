@@ -1213,5 +1213,11 @@
     "Category": 8,
     "dtStart": "2025-07-06T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Jos.Enumeration",
+    "Category":19,
+    "dtStart":"2025-07-20T00:00:00",
+    "show":true
   }
 ]

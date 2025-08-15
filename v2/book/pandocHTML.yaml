@@ -215,6 +215,7 @@ input-files:
 - examples/SuperFluid.html
 - examples/Figgle.html
 - examples/Strings.ResourceGenerator.html
+- examples/jos.enumeration.html
 
 # or you may use input-file: with a single value
 # defaults:

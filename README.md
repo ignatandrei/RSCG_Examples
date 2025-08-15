@@ -1,6 +1,6 @@
-# RSCG - 201 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 202 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-07-06 => 06 July 2025
+## Latest Update : 2025-07-20 => 20 July 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 201 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 202 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 202. [jos.enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jos.enumeration) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2025-07-20 => 20 July 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Josef Ottosson
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/jos.enumeration/](https://www.nuget.org/packages/jos.enumeration/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/jos.enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/jos.enumeration)
+
+Source: [https://github.com/joseftw/jos.enumeration](https://github.com/joseftw/jos.enumeration)
+
+</details>
+
 ### 201. [Strings.ResourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strings.ResourceGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
 
 Generated on : 2025-07-06 => 06 July 2025
@@ -4822,95 +4844,95 @@ Why I have not tested : later
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/JasonBock/CslaGeneratorSerialization&body=https://github.com/JasonBock/CslaGeneratorSerialization
 
 
-31) [https://github.com/MeltyPlayer/Schema]( https://github.com/MeltyPlayer/Schema) , https://github.com/MeltyPlayer/Schema 
+31) [https://github.com/JinShil/JinShil.MixinSourceGenerator]( https://github.com/JinShil/JinShil.MixinSourceGenerator) , https://github.com/JinShil/JinShil.MixinSourceGenerator 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/JinShil/JinShil.MixinSourceGenerator&body=https://github.com/JinShil/JinShil.MixinSourceGenerator
+
+
+32) [https://github.com/MeltyPlayer/Schema]( https://github.com/MeltyPlayer/Schema) , https://github.com/MeltyPlayer/Schema 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/MeltyPlayer/Schema&body=https://github.com/MeltyPlayer/Schema
 
 
-32) [https://github.com/OrgEleCho/EleCho.Internationalization]( https://github.com/OrgEleCho/EleCho.Internationalization) , https://github.com/OrgEleCho/EleCho.Internationalization 
+33) [https://github.com/OrgEleCho/EleCho.Internationalization]( https://github.com/OrgEleCho/EleCho.Internationalization) , https://github.com/OrgEleCho/EleCho.Internationalization 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/OrgEleCho/EleCho.Internationalization&body=https://github.com/OrgEleCho/EleCho.Internationalization
 
 
-33) [https://github.com/ramhari-dev/PropGenAoT]( https://github.com/ramhari-dev/PropGenAoT) , https://github.com/ramhari-dev/PropGenAoT 
+34) [https://github.com/ramhari-dev/PropGenAoT]( https://github.com/ramhari-dev/PropGenAoT) , https://github.com/ramhari-dev/PropGenAoT 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/ramhari-dev/PropGenAoT&body=https://github.com/ramhari-dev/PropGenAoT
 
 
-34) [https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator]( https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator) , https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator 
+35) [https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator]( https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator) , https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator&body=https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator
 
 
-35) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 
+36) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/stbychkov/AutoLoggerMessage&body=https://github.com/stbychkov/AutoLoggerMessage
 
 
-36) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
+37) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Stepami/visitor-net&body=https://github.com/Stepami/visitor-net
 
 
-37) [https://github.com/svee4/RequiredStaticMembers]( https://github.com/svee4/RequiredStaticMembers) , https://github.com/svee4/RequiredStaticMembers 
+38) [https://github.com/svee4/RequiredStaticMembers]( https://github.com/svee4/RequiredStaticMembers) , https://github.com/svee4/RequiredStaticMembers 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/svee4/RequiredStaticMembers&body=https://github.com/svee4/RequiredStaticMembers
 
 
-38) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
+39) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/SzymonHalucha/Minerals.AutoCommands&body=https://github.com/SzymonHalucha/Minerals.AutoCommands
 
 
-39) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
+40) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Teleopti/Saspect&body=https://github.com/Teleopti/Saspect
 
 
-40) [https://github.com/TheFo2sh/AsyncFlow]( https://github.com/TheFo2sh/AsyncFlow) , https://github.com/TheFo2sh/AsyncFlow 
+41) [https://github.com/TheFo2sh/AsyncFlow]( https://github.com/TheFo2sh/AsyncFlow) , https://github.com/TheFo2sh/AsyncFlow 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/TheFo2sh/AsyncFlow&body=https://github.com/TheFo2sh/AsyncFlow
 
 
-41) [https://github.com/usausa/service-registration-generator]( https://github.com/usausa/service-registration-generator) , https://github.com/usausa/service-registration-generator 
+42) [https://github.com/usausa/service-registration-generator]( https://github.com/usausa/service-registration-generator) , https://github.com/usausa/service-registration-generator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/usausa/service-registration-generator&body=https://github.com/usausa/service-registration-generator
 
 
-42) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
+43) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
 
 Why I have not tested : not understand how to use 
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Intellenum&body=https://github.com/SteveDunn/Intellenum
-
-
-43) [Jos.Enumeration,]( https://github.com/joseftw/jos.enumeration) , https://github.com/joseftw/jos.enumeration 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Jos.Enumeration,&body=https://github.com/joseftw/jos.enumeration
 
 
 44) [laker]( https://github.com/Lakerfield/Lakerfield.Rpc) , https://github.com/Lakerfield/Lakerfield.Rpc 

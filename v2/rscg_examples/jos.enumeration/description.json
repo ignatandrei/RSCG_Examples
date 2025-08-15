@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"jos.enumeration",
+      "nuget":[
+         "https://www.nuget.org/packages/jos.enumeration/"
+      ],
+      "link":"https://github.com/joseftw/jos.enumeration",
+      "author":"Josef Ottosson",
+      "source":"https://github.com/joseftw/jos.enumeration"
+   },
+   "data":{
+      "goodFor":["Generating enum from static consts "],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
