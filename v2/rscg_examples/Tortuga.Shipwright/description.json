@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Tortuga.Shipwright",
+      "nuget":[
+         "https://www.nuget.org/packages/Tortuga.Shipwright/"
+      ],
+      "link":"https://github.com/TortugaResearch/Tortuga.Shipwright",
+      "author":"Tortuga Research",
+      "source":"https://github.com/TortugaResearch/Tortuga.Shipwright"
+   },
+   "data":{
+      "goodFor":["Generate mixin between classes"],
+      "csprojDemo":"MixinConsoleDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","Employee.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

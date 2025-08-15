@@ -1,6 +1,6 @@
 # Just later
 
-## Latest Update : 2025-07-20 => 20 July 2025
+## Latest Update : 2025-07-21 => 21 July 2025
 
 
 
@@ -272,25 +272,19 @@ Why I have not tested : later
 
 
 
-45) [Tortuga.Shipwright]( https://github.com/TortugaResearch/Tortuga.Shipwright) , https://github.com/TortugaResearch/Tortuga.Shipwright 
+45) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested : later
 
 
 
-46) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+46) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : later
 
 
 
-47) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
-
-Why I have not tested : later
-
-
-
-48) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
+47) [Visor]( https://github.com/Tinkoff/Visor) , https://github.com/Tinkoff/Visor 
 
 Why I have not tested : later
 

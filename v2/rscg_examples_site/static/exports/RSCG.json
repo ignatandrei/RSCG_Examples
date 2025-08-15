@@ -1609,6 +1609,22 @@
       "Source": "https://github.com/biggik/Strings.ResourceGenerator",
       "Category": "FilesToCode",
       "AddedOn": "2025-07-06T00:00:00"
+    },
+    {
+      "Name": "jos.enumeration",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Jos.Enumeration",
+      "NuGet": "https://www.nuget.org/packages/jos.enumeration/",
+      "Source": "https://github.com/joseftw/jos.enumeration",
+      "Category": "Enum",
+      "AddedOn": "2025-07-20T00:00:00"
+    },
+    {
+      "Name": "Tortuga.Shipwright",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Tortuga.Shipwright",
+      "NuGet": "https://www.nuget.org/packages/Tortuga.Shipwright/",
+      "Source": "https://github.com/TortugaResearch/Tortuga.Shipwright",
+      "Category": "Templating",
+      "AddedOn": "2025-07-21T00:00:00"
     }
   ]
 }

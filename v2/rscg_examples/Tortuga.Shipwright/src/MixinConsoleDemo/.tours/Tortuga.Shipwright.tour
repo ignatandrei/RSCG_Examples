@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Tortuga.Shipwright",
+  "steps": 
+  [
+    {
+      "file": "MixinConsoleDemo/MixinConsoleDemo.csproj",
+      "description": "First, we add Nuget  [Tortuga.Shipwright](https://www.nuget.org/packages/Tortuga.Shipwright/) in csproj  ",
+      "pattern": "Tortuga.Shipwright"
+    }
+
+        ,{
+        "file": "MixinConsoleDemo/Employee.cs",
+        "description": "File Employee.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MixinConsoleDemo/MixinConsoleDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "MixinConsoleDemo/GX/Tortuga.Shipwright/Tortuga.Shipwright.TraitGenerator/MixinConsoleDemo.Employee.cs",
+        "description": "Generated File 2  from 2 : MixinConsoleDemo.Employee.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/GX/Tortuga.Shipwright/Tortuga.Shipwright.TraitGenerator/Logs.cs",
+        "description": "Generated File 1  from 2 : Logs.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
