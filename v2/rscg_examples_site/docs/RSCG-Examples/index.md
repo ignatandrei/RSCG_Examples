@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 203 RSCG list by category
-description: 203 RSCG list by category
+title: 204 RSCG list by category
+description: 204 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1140,7 +1140,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:13</summary>
+  <summary>Expand Templating =>examples:14</summary>
         
 
 
@@ -1205,6 +1205,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Tortuga.Shipwright](/docs/Tortuga.Shipwright)
+
+        
+
+
+[InlineComposition](/docs/InlineComposition)
 
 </details>
     
@@ -1657,6 +1662,8 @@ flowchart LR;
     Templating--> NTypewriter((NTypewriter))
 
     Templating--> Tortuga.Shipwright((Tortuga.Shipwright))
+
+    Templating--> InlineComposition((InlineComposition))
 
     Tests--> Rocks((Rocks))
 

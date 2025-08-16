@@ -841,13 +841,7 @@
     "name":"https://github.com/chickensoft-games/LogicBlocks",  
     "why":"later"
   },
-  {
-    "ID": 191,
-    "name":"https://github.com/usausa/service-registration-generator",
-    "why":"later"
-  }
-  ,
-  {
+ {
     "ID":194,
     "name":"https://github.com/ramhari-dev/PropGenAoT", 
     "why":"later"

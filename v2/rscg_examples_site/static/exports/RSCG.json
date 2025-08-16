@@ -1625,6 +1625,14 @@
       "Source": "https://github.com/TortugaResearch/Tortuga.Shipwright",
       "Category": "Templating",
       "AddedOn": "2025-07-21T00:00:00"
+    },
+    {
+      "Name": "InlineComposition",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/InlineComposition",
+      "NuGet": "https://www.nuget.org/packages/InlineComposition/",
+      "Source": "https://github.com/BlackWhiteYoshi/InlineComposition",
+      "Category": "Templating",
+      "AddedOn": "2025-07-22T00:00:00"
     }
   ]
 }

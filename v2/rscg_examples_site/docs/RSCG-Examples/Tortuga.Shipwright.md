@@ -385,10 +385,13 @@ namespace MixinConsoleDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Tortuga.Shipwright
 
-### In the same category (Templating) - 12 other generators
+### In the same category (Templating) - 13 other generators
 
 
 #### [Gobie](/docs/Gobie)
+
+
+#### [InlineComposition](/docs/InlineComposition)
 
 
 #### [InterceptorTemplate](/docs/InterceptorTemplate)

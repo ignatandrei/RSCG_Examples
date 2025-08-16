@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"InlineComposition",
+      "nuget":[
+         "https://www.nuget.org/packages/InlineComposition/"
+      ],
+      "link":"https://github.com/BlackWhiteYoshi/InlineComposition",
+      "author":"Black White Yoshi",
+      "source":"https://github.com/BlackWhiteYoshi/InlineComposition"
+   },
+   "data":{
+      "goodFor":["Mixin classes and interfaces together"],
+     "csprojDemo":"MixinConsoleDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","Employee.cs","IId.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

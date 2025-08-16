@@ -1,30 +1,32 @@
 <h1>Templating</h1>
 
-Number RSCG: 13
+Number RSCG: 14
 
    1 [Gobie](/docs/Gobie)
 
-   2 [InterceptorTemplate](/docs/InterceptorTemplate)
+   2 [InlineComposition](/docs/InlineComposition)
 
-   3 [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
+   3 [InterceptorTemplate](/docs/InterceptorTemplate)
 
-   4 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
+   4 [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
 
-   5 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+   5 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
-   6 [MorrisMoxy](/docs/MorrisMoxy)
+   6 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
-   7 [NTypewriter](/docs/NTypewriter)
+   7 [MorrisMoxy](/docs/MorrisMoxy)
 
-   8 [RazorBlade](/docs/RazorBlade)
+   8 [NTypewriter](/docs/NTypewriter)
 
-   9 [RazorSlices](/docs/RazorSlices)
+   9 [RazorBlade](/docs/RazorBlade)
 
-   10 [RSCG_IFormattable](/docs/RSCG_IFormattable)
+   10 [RazorSlices](/docs/RazorSlices)
 
-   11 [RSCG_Templating](/docs/RSCG_Templating)
+   11 [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
-   12 [spreadcheetah](/docs/spreadcheetah)
+   12 [RSCG_Templating](/docs/RSCG_Templating)
 
-   13 [Tortuga.Shipwright](/docs/Tortuga.Shipwright)
+   13 [spreadcheetah](/docs/spreadcheetah)
+
+   14 [Tortuga.Shipwright](/docs/Tortuga.Shipwright)
     
