@@ -202,3 +202,4 @@ Nr,Key,Source,Category
 201,Strings.ResourceGenerator, https://github.com/biggik/Strings.ResourceGenerator,FilesToCode
 202,Jos.Enumeration, https://github.com/joseftw/jos.enumeration,Enum
 203,Tortuga.Shipwright, https://github.com/TortugaResearch/Tortuga.Shipwright,Templating
+204,InlineComposition, https://github.com/BlackWhiteYoshi/InlineComposition,Templating

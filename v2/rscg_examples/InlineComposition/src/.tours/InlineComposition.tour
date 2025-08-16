@@ -1,0 +1,84 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "InlineComposition",
+  "steps": 
+  [
+    {
+      "file": "MixinConsoleDemo/MixinConsoleDemo.csproj",
+      "description": "First, we add Nuget  [InlineComposition](https://www.nuget.org/packages/InlineComposition/) in csproj  ",
+      "pattern": "InlineComposition"
+    }
+
+        ,{
+        "file": "MixinConsoleDemo/IId.cs",
+        "description": "File IId.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/Employee.cs",
+        "description": "File Employee.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MixinConsoleDemo/MixinConsoleDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/NoInlineAttribute.g.cs",
+        "description": "Generated File 7  from 7 : NoInlineAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/MixinConsoleDemo.Employee.g.cs",
+        "description": "Generated File 6  from 7 : MixinConsoleDemo.Employee.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/InlineMethodAttribute.g.cs",
+        "description": "Generated File 5  from 7 : InlineMethodAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/InlineFinalizerAttribute.g.cs",
+        "description": "Generated File 4  from 7 : InlineFinalizerAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/InlineConstructorAttribute.g.cs",
+        "description": "Generated File 3  from 7 : InlineConstructorAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/InlineBaseAttribute.g.cs",
+        "description": "Generated File 2  from 7 : InlineBaseAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MixinConsoleDemo/obj/GX/InlineComposition/InlineComposition.InlineCompositionGenerator/InlineAttribute.g.cs",
+        "description": "Generated File 1  from 7 : InlineAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

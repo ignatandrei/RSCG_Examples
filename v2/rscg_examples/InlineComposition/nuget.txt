@@ -1,0 +1,1 @@
+A source generator that merges the content of other classes into one class.
