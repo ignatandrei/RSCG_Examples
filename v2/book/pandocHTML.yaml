@@ -218,6 +218,7 @@ input-files:
 - examples/jos.enumeration.html
 - examples/Tortuga.Shipwright.html
 - examples/InlineComposition.html
+- examples/Flaggen.html
 
 # or you may use input-file: with a single value
 # defaults:
