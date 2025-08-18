@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ShadowWriterBuilder",
+      "nuget":[
+         "https://www.nuget.org/packages/ShadowWriter/"
+      ],
+      "link":"https://github.com/StefanStolz/ShadowWriter",
+      "author":"Stefan Stolz",
+      "source":"https://github.com/StefanStolz/ShadowWriter"
+   },
+   "data":{
+      "goodFor":["Generating null objects for testing"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":["ShadowWriter.NullObjectGenerator","ShadowWriter.ProjectInfoGenerator"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

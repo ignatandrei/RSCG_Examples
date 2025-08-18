@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 205 RSCG list by category
-description: 205 RSCG list by category
+title: 207 RSCG list by category
+description: 207 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -128,7 +128,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:6</summary>
+  <summary>Expand Builder =>examples:7</summary>
         
 
 
@@ -158,6 +158,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
+
+        
+
+
+[ShadowWriterBuilder](/docs/ShadowWriterBuilder)
 
 </details>
     
@@ -880,7 +885,7 @@ import DocCardList from '@theme/DocCardList';
 ## Interface 
 <details>
     
-  <summary>Expand Interface =>examples:12</summary>
+  <summary>Expand Interface =>examples:13</summary>
         
 
 
@@ -940,6 +945,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
+
+        
+
+
+[AutoInterface](/docs/AutoInterface)
 
 </details>
     
@@ -1322,6 +1332,8 @@ flowchart LR;
 
     Builder--> DimonSmart.BuilderGenerator((DimonSmart.BuilderGenerator))
 
+    Builder--> ShadowWriterBuilder((ShadowWriterBuilder))
+
     Clone--> CopyTo((CopyTo))
 
     Clone--> Dolly((Dolly))
@@ -1589,6 +1601,8 @@ flowchart LR;
     Interface--> rscg_Interface_to_null_object((rscg_Interface_to_null_object))
 
     Interface--> RSCG_CompositeProvider((RSCG_CompositeProvider))
+
+    Interface--> AutoInterface((AutoInterface))
 
     Linq--> zlinq((zlinq))
 

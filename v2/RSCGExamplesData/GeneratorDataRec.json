@@ -1238,5 +1238,17 @@
     "Category": 19,
     "dtStart": "2025-07-23T00:00:00",
     "show": true
-  }
+  },
+{
+  "ID":"ShadowWriterBuilder",
+  "Category": 4,
+  "dtStart": "2025-07-24T00:00:00",
+  "show": true
+}
+,{
+  "ID":"AutoInterface",
+  "Category": 20,
+  "dtStart": "2025-07-25T00:00:00",
+  "show": true
+}
 ]

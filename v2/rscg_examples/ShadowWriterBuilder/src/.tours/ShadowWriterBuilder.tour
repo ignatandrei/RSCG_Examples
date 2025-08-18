@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ShadowWriterBuilder",
+  "steps": 
+  [
+    {
+      "file": "Builder/Builder.csproj",
+      "description": "First, we add Nuget  [ShadowWriter](https://www.nuget.org/packages/ShadowWriter/) in csproj  ",
+      "pattern": "ShadowWriter"
+    }
+
+        ,{
+        "file": "Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Builder/obj/GX/ShadowWriter/ShadowWriter.BuilderGenerator/BuilderPerson.g.cs",
+        "description": "Generated File 2  from 2 : BuilderPerson.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Builder/obj/GX/ShadowWriter/ShadowWriter.BuilderGenerator/BuilderAttribute.g.cs",
+        "description": "Generated File 1  from 2 : BuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
