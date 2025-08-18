@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AutoInterface",
+      "nuget":[
+         "https://www.nuget.org/packages/AutoInterface/"
+      ],
+      "link":"https://github.com/BlackWhiteYoshi/AutoInterface",
+      "author":"Black White Yoshi",
+      "source":"https://github.com/BlackWhiteYoshi/AutoInterface"
+   },
+   "data":{
+      "goodFor":["generating interface from a class"],
+      "csprojDemo":"NullInterface.csproj",
+      "csFiles":["Program.cs","Department.cs","Employee.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

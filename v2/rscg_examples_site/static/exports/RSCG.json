@@ -1641,6 +1641,22 @@
       "Source": "https://github.com/ricardoboss/Flaggen",
       "Category": "Enum",
       "AddedOn": "2025-07-23T00:00:00"
+    },
+    {
+      "Name": "ShadowWriterBuilder",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterBuilder",
+      "NuGet": "https://www.nuget.org/packages/ShadowWriter/",
+      "Source": "https://github.com/StefanStolz/ShadowWriter",
+      "Category": "Builder",
+      "AddedOn": "2025-07-24T00:00:00"
+    },
+    {
+      "Name": "AutoInterface",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInterface",
+      "NuGet": "https://www.nuget.org/packages/AutoInterface/",
+      "Source": "https://github.com/BlackWhiteYoshi/AutoInterface",
+      "Category": "Interface",
+      "AddedOn": "2025-07-25T00:00:00"
     }
   ]
 }

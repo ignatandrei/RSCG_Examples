@@ -1,0 +1,1 @@
+AutoInterface is a source generator that generates an interface based on your class/struct. Basically, you write your class and get the corresponding interface for free.

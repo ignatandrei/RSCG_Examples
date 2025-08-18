@@ -204,3 +204,5 @@ Nr,Key,Source,Category
 203,Tortuga.Shipwright, https://github.com/TortugaResearch/Tortuga.Shipwright,Templating
 204,InlineComposition, https://github.com/BlackWhiteYoshi/InlineComposition,Templating
 205,Flaggen, https://github.com/ricardoboss/Flaggen,Enum
+206,ShadowWriterBuilder, https://github.com/StefanStolz/ShadowWriter,Builder
+207,AutoInterface, https://github.com/BlackWhiteYoshi/AutoInterface,Interface

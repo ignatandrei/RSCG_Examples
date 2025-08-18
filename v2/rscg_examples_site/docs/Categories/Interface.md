@@ -1,28 +1,30 @@
 <h1>Interface</h1>
 
-Number RSCG: 12
+Number RSCG: 13
 
-   1 [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
+   1 [AutoInterface](/docs/AutoInterface)
 
-   2 [CopyCat](/docs/CopyCat)
+   2 [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
 
-   3 [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
+   3 [CopyCat](/docs/CopyCat)
 
-   4 [MakeInterface.Generator](/docs/MakeInterface.Generator)
+   4 [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
 
-   5 [Matryoshki](/docs/Matryoshki)
+   5 [MakeInterface.Generator](/docs/MakeInterface.Generator)
 
-   6 [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
+   6 [Matryoshki](/docs/Matryoshki)
 
-   7 [NetAutomaticInterface](/docs/NetAutomaticInterface)
+   7 [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
 
-   8 [ProxyGen](/docs/ProxyGen)
+   8 [NetAutomaticInterface](/docs/NetAutomaticInterface)
 
-   9 [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
+   9 [ProxyGen](/docs/ProxyGen)
 
-   10 [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
+   10 [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
 
-   11 [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
+   11 [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
 
-   12 [RSCG_Static](/docs/RSCG_Static)
+   12 [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
+
+   13 [RSCG_Static](/docs/RSCG_Static)
     

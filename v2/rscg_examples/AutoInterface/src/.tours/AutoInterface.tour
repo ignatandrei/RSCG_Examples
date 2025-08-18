@@ -1,24 +1,24 @@
 
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "rscg_Interface_to_null_object",
+  "title": "AutoInterface",
   "steps": 
   [
     {
       "file": "NullInterface/NullInterface.csproj",
-      "description": "First, we add Nuget  [rscg_Interface_to_null_object](https://www.nuget.org/packages/rscg_Interface_to_null_object/) in csproj  ",
-      "pattern": "rscg_Interface_to_null_object"
+      "description": "First, we add Nuget  [AutoInterface](https://www.nuget.org/packages/AutoInterface/) in csproj  ",
+      "pattern": "AutoInterface"
     }
 
         ,{
-        "file": "NullInterface/IDepartment.cs",
-        "description": "File IDepartment.cs  ",
+        "file": "NullInterface/Employee.cs",
+        "description": "File Employee.cs  ",
         "pattern": "this is the code"
         }
     
         ,{
-        "file": "NullInterface/IEmployee.cs",
-        "description": "File IEmployee.cs  ",
+        "file": "NullInterface/Department.cs",
+        "description": "File Department.cs  ",
         "pattern": "this is the code"
         }
     
@@ -31,55 +31,61 @@
 
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/IgnoreAutoInterfaceAttribute.g.cs",
-        "description": "Generated File 9  from 9 : IgnoreAutoInterfaceAttribute.g.cs ",
+        "description": "Generated File 10  from 10 : IgnoreAutoInterfaceAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/IEmployee_NullInterface.Employee_Employee.cs.g.cs",
-        "description": "Generated File 8  from 9 : IEmployee_NullInterface.Employee_Employee.cs.g.cs ",
+        "description": "Generated File 9  from 10 : IEmployee_NullInterface.Employee_Employee.cs.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/IDepartment_NullInterface.Department_IDepartment.cs.g.cs",
-        "description": "Generated File 7  from 9 : IDepartment_NullInterface.Department_IDepartment.cs.g.cs ",
+        "description": "Generated File 8  from 10 : IDepartment_NullInterface.Department_IDepartment.cs.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/IDepartment_NullInterface.Department_Department.cs.g.cs",
+        "description": "Generated File 7  from 10 : IDepartment_NullInterface.Department_Department.cs.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/AutoInterfaceVisibilityPublicAttribute.g.cs",
-        "description": "Generated File 6  from 9 : AutoInterfaceVisibilityPublicAttribute.g.cs ",
+        "description": "Generated File 6  from 10 : AutoInterfaceVisibilityPublicAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/AutoInterfaceVisibilityProtectedInternalAttribute.g.cs",
-        "description": "Generated File 5  from 9 : AutoInterfaceVisibilityProtectedInternalAttribute.g.cs ",
+        "description": "Generated File 5  from 10 : AutoInterfaceVisibilityProtectedInternalAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/AutoInterfaceVisibilityProtectedAttribute.g.cs",
-        "description": "Generated File 4  from 9 : AutoInterfaceVisibilityProtectedAttribute.g.cs ",
+        "description": "Generated File 4  from 10 : AutoInterfaceVisibilityProtectedAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/AutoInterfaceVisibilityPrivateProtectedAttribute.g.cs",
-        "description": "Generated File 3  from 9 : AutoInterfaceVisibilityPrivateProtectedAttribute.g.cs ",
+        "description": "Generated File 3  from 10 : AutoInterfaceVisibilityPrivateProtectedAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/AutoInterfaceVisibilityInternalAttribute.g.cs",
-        "description": "Generated File 2  from 9 : AutoInterfaceVisibilityInternalAttribute.g.cs ",
+        "description": "Generated File 2  from 10 : AutoInterfaceVisibilityInternalAttribute.g.cs ",
         "line": 1
         }
     
         ,{
         "file": "NullInterface/obj/GX/AutoInterface/AutoInterface.AutoInterfaceGenerator/AutoInterfaceAttribute.g.cs",
-        "description": "Generated File 1  from 9 : AutoInterfaceAttribute.g.cs ",
+        "description": "Generated File 1  from 10 : AutoInterfaceAttribute.g.cs ",
         "line": 1
         }
     
