@@ -45,7 +45,7 @@ Source: https://github.com/StefanStolz/ShadowWriter
 # ShadowWriter
 
 [![NuGet](https://img.shields.io/nuget/v/ShadowWriter.svg)](https://www.nuget.org/packages/ShadowWriter)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/StefanStolz/ShadowWriter/LICENSE)
 [![Build](https://img.shields.io/github/actions/workflow/status/StefanStolz/ShadowWriter/build.yml?branch=main)](https://github.com/StefanStolz/ShadowWriter/actions)
 
 **ShadowWriter** is a Roslyn Source Generator designed to simplify and automate aspects of .NET development.  
