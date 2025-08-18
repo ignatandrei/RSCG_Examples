@@ -767,7 +767,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/HsuSgSync",
       "NuGet": "https://www.nuget.org/packages/Hsu.Sg.Sync/",
       "Source": "https://github.com/hsu-net/source-generators",
-      "Category": "EnhancementClass",
+      "Category": "Async",
       "AddedOn": "2024-01-10T00:00:00"
     },
     {
@@ -1657,6 +1657,14 @@
       "Source": "https://github.com/BlackWhiteYoshi/AutoInterface",
       "Category": "Interface",
       "AddedOn": "2025-07-25T00:00:00"
+    },
+    {
+      "Name": "AsyncIt",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AsyncIt",
+      "NuGet": "https://www.nuget.org/packages/AsyncIt/",
+      "Source": "https://github.com/oleg-shilo/AsyncIt",
+      "Category": "Async",
+      "AddedOn": "2025-07-26T00:00:00"
     }
   ]
 }

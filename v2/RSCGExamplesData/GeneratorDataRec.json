@@ -571,7 +571,7 @@
   },
   {
     "ID": "HsuSgSync",
-    "Category": 5,
+    "Category": 35,
     "dtStart": "2024-01-10T00:00:00",
     "show": true
   },
@@ -1249,6 +1249,12 @@
   "ID":"AutoInterface",
   "Category": 20,
   "dtStart": "2025-07-25T00:00:00",
+  "show": true
+},
+{
+  "ID":"AsyncIt",
+  "Category":35,
+  "dtStart": "2025-07-26T00:00:00",
   "show": true
 }
 ]
