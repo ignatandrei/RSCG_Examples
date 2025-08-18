@@ -1,4 +1,4 @@
-# RSCG - 208 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 209 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
 ## Latest Update : 2025-07-26 => 26 July 2025
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 208 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 209 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 209. [ShadowWriterProjectInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
+
+Generated on : 2025-07-24 => 24 July 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Stefan Stolz
+
+Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently. 
+
+Nuget: [https://www.nuget.org/packages/ShadowWriter/](https://www.nuget.org/packages/ShadowWriter/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo)
+
+Source: [https://github.com/StefanStolz/ShadowWriter](https://github.com/StefanStolz/ShadowWriter)
+
+</details>
+
 ### 208. [AsyncIt](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AsyncIt) , in the [Async](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#async) category 
 
 Generated on : 2025-07-26 => 26 July 2025

@@ -1665,6 +1665,14 @@
       "Source": "https://github.com/oleg-shilo/AsyncIt",
       "Category": "Async",
       "AddedOn": "2025-07-26T00:00:00"
+    },
+    {
+      "Name": "ShadowWriterProjectInfo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo",
+      "NuGet": "https://www.nuget.org/packages/ShadowWriter/",
+      "Source": "https://github.com/StefanStolz/ShadowWriter",
+      "Category": "Builder",
+      "AddedOn": "2025-07-24T00:00:00"
     }
   ]
 }

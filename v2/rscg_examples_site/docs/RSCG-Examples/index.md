@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 208 RSCG list by category
-description: 208 RSCG list by category
+title: 209 RSCG list by category
+description: 209 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -145,7 +145,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:7</summary>
+  <summary>Expand Builder =>examples:8</summary>
         
 
 
@@ -180,6 +180,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ShadowWriterBuilder](/docs/ShadowWriterBuilder)
+
+        
+
+
+[ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
 
 </details>
     
@@ -1349,6 +1354,8 @@ flowchart LR;
     Builder--> DimonSmart.BuilderGenerator((DimonSmart.BuilderGenerator))
 
     Builder--> ShadowWriterBuilder((ShadowWriterBuilder))
+
+    Builder--> ShadowWriterProjectInfo((ShadowWriterProjectInfo))
 
     Clone--> CopyTo((CopyTo))
 
