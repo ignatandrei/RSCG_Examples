@@ -1232,5 +1232,11 @@
     "Category": 12,
     "dtStart": "2025-07-22T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Flaggen",
+    "Category": 19,
+    "dtStart": "2025-07-23T00:00:00",
+    "show": true
   }
 ]
