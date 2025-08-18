@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AsyncIt",
+      "nuget":[
+         "https://www.nuget.org/packages/AsyncIt/"
+      ],
+      "link":"https://github.com/oleg-shilo/AsyncIt/",
+      "author":"Oleg Shilo",
+      "source":"https://github.com/oleg-shilo/AsyncIt"
+   },
+   "data":{
+      "goodFor":["Generate async from sync or sync from async"],
+      "csprojDemo":"AsyncDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

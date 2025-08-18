@@ -1,0 +1,1 @@
+AsyncIt is a C# source generator (CodeAnalyzer) for automatic generation of async/sync versions of the type API.

@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AsyncIt",
+  "steps": 
+  [
+    {
+      "file": "ASyncDemo/ASyncDemo.csproj",
+      "description": "First, we add Nuget  [AsyncIt](https://www.nuget.org/packages/AsyncIt/) in csproj  ",
+      "pattern": "AsyncIt"
+    }
+
+        ,{
+        "file": "ASyncDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "ASyncDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ASyncDemo/ASyncDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ASyncDemo/obj/GX/AsyncIt/AsyncIt.AsyncExtensionsGenerator/Person.AsyncDemo.Person.g.cs",
+        "description": "Generated File 2  from 2 : Person.AsyncDemo.Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ASyncDemo/obj/GX/AsyncIt/AsyncIt.AsyncExtensionsGenerator/AsyncAttribute.g.cs",
+        "description": "Generated File 1  from 2 : AsyncAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

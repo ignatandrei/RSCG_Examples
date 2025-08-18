@@ -37,5 +37,6 @@ public enum Category
     CommandLine=32,
     StateMachine=33, 
     Console=34,
+    Async=35,
 }
 

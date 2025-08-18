@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 207 RSCG with examples in descending chronological order
+## 208 RSCG with examples in descending chronological order
 
-This is the list of 207 ( 14 from Microsoft) RSCG with examples 
+This is the list of 208 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,6 +23,7 @@ This is the list of 207 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|208| [AsyncIt by Oleg Shilo ](/docs/AsyncIt)|2025-07-26 => 26 July 2025 | [Async](/docs/Categories/Async) |
 |207| [AutoInterface by Black White Yoshi ](/docs/AutoInterface)|2025-07-25 => 25 July 2025 | [Interface](/docs/Categories/Interface) |
 |206| [ShadowWriterBuilder by Stefan Stolz ](/docs/ShadowWriterBuilder)|2025-07-24 => 24 July 2025 | [Builder](/docs/Categories/Builder) |
 |205| [Flaggen by Ricardo Boss ](/docs/Flaggen)|2025-07-23 => 23 July 2025 | [Enum](/docs/Categories/Enum) |
@@ -134,7 +135,7 @@ This is the list of 207 ( 14 from Microsoft) RSCG with examples
 |99| [MakeInterface.Generator by Frederik ](/docs/MakeInterface.Generator)|2024-01-19 => 19 January 2024 | [Interface](/docs/Categories/Interface) |
 |98| [Funcky.DiscriminatedUnion by Polyadic ](/docs/Funcky.DiscriminatedUnion)|2024-01-18 => 18 January 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |97| [DomainPrimitives by Alta Software - Teimuraz Nikolaishvili ](/docs/DomainPrimitives)|2024-01-11 => 11 January 2024 | [PrimitiveObsession](/docs/Categories/PrimitiveObsession) |
-|96| [HsuSgSync by Net Hsu ](/docs/HsuSgSync)|2024-01-10 => 10 January 2024 | [EnhancementClass](/docs/Categories/EnhancementClass) |
+|96| [HsuSgSync by Net Hsu ](/docs/HsuSgSync)|2024-01-10 => 10 January 2024 | [Async](/docs/Categories/Async) |
 |95| [CopyCat by Serhii Buta ](/docs/CopyCat)|2024-01-09 => 09 January 2024 | [Interface](/docs/Categories/Interface) |
 |94| [AspectGenerator by Igor Tkachev ](/docs/AspectGenerator)|2024-01-07 => 07 January 2024 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |93| [mocklis by Esbjörn Redmo ](/docs/mocklis)|2024-01-03 => 03 January 2024 | [Tests](/docs/Categories/Tests) |

@@ -94,7 +94,7 @@ Nr,Key,Source,Category
 93,Mocklis, https://github.com/mocklis/mocklis/,Tests
 94,AspectGenerator, https://github.com/igor-tkachev/AspectGenerator,EnhancementClass
 95,CopyCat, https://github.com/Otaman/Copycat/,Interface
-96,HsuSgSync, https://github.com/hsu-net/source-generators,EnhancementClass
+96,HsuSgSync, https://github.com/hsu-net/source-generators,Async
 97,DomainPrimitives, https://github.com/altasoft/DomainPrimitives,PrimitiveObsession
 98,FUD, https://github.com/polyadic/funcky-discriminated-union,FunctionalProgramming
 99,MakeInterface, https://github.com/Frederik91/MakeInterface,Interface
@@ -206,3 +206,4 @@ Nr,Key,Source,Category
 205,Flaggen, https://github.com/ricardoboss/Flaggen,Enum
 206,ShadowWriterBuilder, https://github.com/StefanStolz/ShadowWriter,Builder
 207,AutoInterface, https://github.com/BlackWhiteYoshi/AutoInterface,Interface
+208,AsyncIt, https://github.com/oleg-shilo/AsyncIt,Async
