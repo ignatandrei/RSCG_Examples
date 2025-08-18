@@ -1633,6 +1633,14 @@
       "Source": "https://github.com/BlackWhiteYoshi/InlineComposition",
       "Category": "Templating",
       "AddedOn": "2025-07-22T00:00:00"
+    },
+    {
+      "Name": "Flaggen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Flaggen",
+      "NuGet": "https://www.nuget.org/packages/Flaggen/",
+      "Source": "https://github.com/ricardoboss/Flaggen",
+      "Category": "Enum",
+      "AddedOn": "2025-07-23T00:00:00"
     }
   ]
 }
