@@ -1,14 +1,14 @@
 ---
-sidebar_position: 2060
-title: 206 - ShadowWriterBuilder
-description: Generating null objects for testing
-slug: /ShadowWriterBuilder
+sidebar_position: 2090
+title: 209 - ShadowWriterProjectInfo
+description: Generating C# code from project attributes
+slug: /ShadowWriterProjectInfo
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# ShadowWriterBuilder  by Stefan Stolz
+# ShadowWriterProjectInfo  by Stefan Stolz
 
 
 <TOCInline toc={toc}  />
@@ -23,7 +23,7 @@ import TOCInline from '@theme/TOCInline';
 ### Info
 :::info
 
-Name: **ShadowWriterBuilder**
+Name: **ShadowWriterProjectInfo**
 
 Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently.
 
@@ -45,7 +45,7 @@ Source: https://github.com/StefanStolz/ShadowWriter
 # ShadowWriter
 
 [![NuGet](https://img.shields.io/nuget/v/ShadowWriter.svg)](https://www.nuget.org/packages/ShadowWriter)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/StefanStolz/ShadowWriter/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Build](https://img.shields.io/github/actions/workflow/status/StefanStolz/ShadowWriter/build.yml?branch=main)](https://github.com/StefanStolz/ShadowWriter/actions)
 
 **ShadowWriter** is a Roslyn Source Generator designed to simplify and automate aspects of .NET development.  
@@ -155,7 +155,7 @@ This project is licensed under the MIT License.
 ### About
 :::note
 
-Generating null objects for testing
+Generating C# code from project attributes
 
 
 :::
@@ -168,71 +168,43 @@ Generating null objects for testing
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references **ShadowWriterBuilder**
-```xml showLineNumbers {14}
+This is the CSharp Project that references **ShadowWriterProjectInfo**
+```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
-	  <PropertyGroup>
-        <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-        <CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
-    </PropertyGroup>
-
-	  <ItemGroup>
-	    <PackageReference Include="ShadowWriter" Version="0.9.5">
-	      <PrivateAssets>all</PrivateAssets>
-	      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-	    </PackageReference>
-	  </ItemGroup>
-
-	  
+  <ItemGroup>
+    <PackageReference Include="ShadowWriter" Version="0.9.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
 </Project>
 
 ```
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterBuilder\src\Builder\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterProjectInfo\src\DemoAttr\Program.cs" label="Program.cs" >
 
-  This is the use of **ShadowWriterBuilder** in *Program.cs*
-
-```csharp showLineNumbers 
-using Builder;
-
-var pOld = new Person("Andrei", "G", "Ignat");
-var build = new Person.Builder();
-build.FirstName = pOld.FirstName;
-build.MiddleName = "";
-build.LastName = (pOld.LastName)    ;
-
-var pNew = build.Build();
-System.Console.WriteLine(pNew.FullName());
-System.Console.WriteLine(pOld.FullName());
-
-```
-  </TabItem>
-
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterBuilder\src\Builder\Person.cs" label="Person.cs" >
-
-  This is the use of **ShadowWriterBuilder** in *Person.cs*
+  This is the use of **ShadowWriterProjectInfo** in *Program.cs*
 
 ```csharp showLineNumbers 
-namespace Builder;
-
-[ShadowWriter.Builder]
-public partial record Person(string FirstName, string? MiddleName, string LastName)
-{
-    public string FullName()
-    {
-        return FirstName + " " + MiddleName + " "+LastName;
-    }
-    
-}
-
+// Access project information anywhere in your code 
+using ShadowWriter;
+Console.WriteLine($"Project Name: {TheProject.Name}");
+Console.WriteLine($"Project Version: {TheProject.Version}");
+Console.WriteLine($"Project Build Date: {TheProject.BuildTimeUtc}");
 ```
   </TabItem>
 
@@ -245,7 +217,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterBuilder\src\Builder\obj\GX\ShadowWriter\ShadowWriter.BuilderGenerator\BuilderAttribute.g.cs" label="BuilderAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterProjectInfo\src\DemoAttr\obj\GX\ShadowWriter\ShadowWriter.BuilderGenerator\BuilderAttribute.g.cs" label="BuilderAttribute.g.cs" >
 
 
 ```csharp showLineNumbers 
@@ -270,37 +242,70 @@ namespace ShadowWriter
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterBuilder\src\Builder\obj\GX\ShadowWriter\ShadowWriter.BuilderGenerator\BuilderPerson.g.cs" label="BuilderPerson.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterProjectInfo\src\DemoAttr\obj\GX\ShadowWriter\ShadowWriter.NullObjectGenerator\NullObjectAttribute.g.cs" label="NullObjectAttribute.g.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated/>
+
+using System;
+using System.CodeDom.Compiler;
+using System.Runtime.CompilerServices;
+
+namespace ShadowWriter
+{
+    [CompilerGenerated]
+    [GeneratedCode("ShadowWriter", "0.9.5.0")]
+    [System.AttributeUsage(AttributeTargets.Interface | AttributeTargets.Class)]
+    internal sealed class NullObjectAttribute : System.Attribute
+    {
+
+    }
+
+    [CompilerGenerated]
+    [GeneratedCode("ShadowWriter", "0.9.5.0")]
+    [System.AttributeUsage(System.AttributeTargets.Interface)]
+    internal sealed class ClassNameAttribute : System.Attribute
+    {
+        public string Name { get; }
+
+        public ClassNameAttribute(string name)
+        {
+            this.Name = name;
+        }
+
+        public ClassNameAttribute()
+        {
+            this.Name = string.Empty;
+        }
+    }
+}
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterProjectInfo\src\DemoAttr\obj\GX\ShadowWriter\ShadowWriter.ProjectInfoGenerator\ShadowWriter.TheProject.g.cs" label="ShadowWriter.TheProject.g.cs" >
 
 
 ```csharp showLineNumbers 
 using System;
-using System.Threading.Tasks;
 using System.CodeDom.Compiler;
 using System.Runtime.CompilerServices;
 
-#nullable disable
-
-namespace Builder;
+namespace ShadowWriter;
 
 [CompilerGenerated]
 [GeneratedCode("ShadowWriter", "0.9.5.0")]
-public partial record Person
+internal static class TheProject
 {
-    public sealed class Builder
-{
-      // Parameter: FirstName: string
-  public string FirstName { get; set; } = "";
-  // Parameter: MiddleName: string?
-  public string? MiddleName { get; set; } = "";
-  // Parameter: LastName: string
-  public string LastName { get; set; } = "";
-  public Person Build()
-  {
-    return new(this.FirstName, this.MiddleName, this.LastName    );
-  }
-
-}
+  public static string FullPath => @"D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterProjectInfo\src\DemoAttr\DemoAttr\DemoAttr.csproj";
+  public static string ProjectDirectory => @"D:\gth\RSCG_Examples\v2\rscg_examples\ShadowWriterProjectInfo\src\DemoAttr\DemoAttr";
+  public static string Name => @"DemoAttr";
+  public static string OutDir => @"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\bin\Debug\net9.0\";
+  public static string Version => @"1.0.0";
+  public static string RootNamespace => @"DemoAttr";
+  public static DateTimeOffset BuildTimeUtc => new DateTimeOffset(638911364201257764, TimeSpan.Zero);
 }
 ```
 
@@ -315,21 +320,21 @@ public partial record Person
 
 :::tip
 
-[Download Example project ShadowWriterBuilder ](/sources/ShadowWriterBuilder.zip)
+[Download Example project ShadowWriterProjectInfo ](/sources/ShadowWriterProjectInfo.zip)
 
 :::
 
 
-### Share ShadowWriterBuilder 
+### Share ShadowWriterProjectInfo 
 
 <ul>
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterBuilder&quote=ShadowWriterBuilder" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterBuilder&text=ShadowWriterBuilder:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterBuilder" target="_blank" title="Tweet">Share in Twitter</a></li>
-  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterBuilder&title=ShadowWriterBuilder" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterBuilder&title=ShadowWriterBuilder&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterBuilder" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterProjectInfo&quote=ShadowWriterProjectInfo" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterProjectInfo&text=ShadowWriterProjectInfo:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterProjectInfo" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterProjectInfo&title=ShadowWriterProjectInfo" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterProjectInfo&title=ShadowWriterProjectInfo&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FShadowWriterProjectInfo" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
 </ul>
 
-https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterBuilder
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo
 
 ### In the same category (Builder) - 7 other generators
 
@@ -349,7 +354,7 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterBuilder
 #### [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
 
 
-#### [ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
+#### [ShadowWriterBuilder](/docs/ShadowWriterBuilder)
 
 
 #### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)

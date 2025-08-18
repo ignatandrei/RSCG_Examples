@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ShadowWriterProjectInfo",
+      "nuget":[
+         "https://www.nuget.org/packages/ShadowWriter/"
+      ],
+      "link":"https://github.com/StefanStolz/ShadowWriter",
+      "author":"Stefan Stolz",
+      "source":"https://github.com/StefanStolz/ShadowWriter"
+   },
+   "data":{
+      "goodFor":["Generating C# code from project attributes"],
+      "csprojDemo":"DemoAttr.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
