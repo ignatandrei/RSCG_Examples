@@ -1,6 +1,6 @@
-# RSCG - 204 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 205 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-07-22 => 22 July 2025
+## Latest Update : 2025-07-23 => 23 July 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 204 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 205 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 205. [Flaggen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Flaggen) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2025-07-23 => 23 July 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ricardo Boss
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/Flaggen/](https://www.nuget.org/packages/Flaggen/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Flaggen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Flaggen)
+
+Source: [https://github.com/ricardoboss/Flaggen](https://github.com/ricardoboss/Flaggen)
+
+</details>
+
 ### 204. [InlineComposition](https://ignatandrei.github.io/RSCG_Examples/v2/docs/InlineComposition) , in the [Templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating) category 
 
 Generated on : 2025-07-22 => 22 July 2025

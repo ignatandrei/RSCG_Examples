@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Flaggen",
+      "nuget":[
+         "https://www.nuget.org/packages/Flaggen/"
+      ],
+      "link":"https://github.com/ricardoboss/Flaggen",
+      "author":"Ricardo Boss",
+      "source":"https://github.com/ricardoboss/Flaggen"
+   },
+   "data":{
+      "goodFor":["Explicit operations about flags with enums, and bitwise operations"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","Colors.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
