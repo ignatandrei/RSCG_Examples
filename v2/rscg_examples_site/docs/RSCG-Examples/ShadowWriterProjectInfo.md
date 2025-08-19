@@ -336,7 +336,10 @@ internal static class TheProject
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo
 
-### In the same category (EnhancementProject) - 18 other generators
+### In the same category (EnhancementProject) - 19 other generators
+
+
+#### [AssemblyVersionInfo](/docs/AssemblyVersionInfo)
 
 
 #### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)

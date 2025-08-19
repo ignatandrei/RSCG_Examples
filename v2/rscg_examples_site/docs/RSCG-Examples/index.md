@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 209 RSCG list by category
-description: 209 RSCG list by category
+title: 210 RSCG list by category
+description: 210 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -550,7 +550,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:19</summary>
+  <summary>Expand EnhancementProject =>examples:20</summary>
         
 
 
@@ -645,6 +645,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
+
+        
+
+
+[AssemblyVersionInfo](/docs/AssemblyVersionInfo)
 
 </details>
     
@@ -1512,6 +1517,8 @@ flowchart LR;
     EnhancementProject--> Larcanum.GitInfo((Larcanum.GitInfo))
 
     EnhancementProject--> ShadowWriterProjectInfo((ShadowWriterProjectInfo))
+
+    EnhancementProject--> AssemblyVersionInfo((AssemblyVersionInfo))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

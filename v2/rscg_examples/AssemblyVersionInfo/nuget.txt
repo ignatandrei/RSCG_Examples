@@ -1,0 +1,1 @@
+AssemblyVersionInfo is a very simple source generator that generates constant strings of your assembly name and version. The intended usage is for the System.CodeDom.Compiler.GeneratedCodeAttribute.

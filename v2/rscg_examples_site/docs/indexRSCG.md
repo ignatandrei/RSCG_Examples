@@ -10,9 +10,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <script src={useBaseUrl('/js/mailerlite.js')} />;
 </head>
 
-## 209 RSCG with examples in descending chronological order
+## 210 RSCG with examples in descending chronological order
 
-This is the list of 209 ( 14 from Microsoft) RSCG with examples 
+This is the list of 210 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -23,7 +23,8 @@ This is the list of 209 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|209| [ShadowWriterProjectInfo by Stefan Stolz ](/docs/ShadowWriterProjectInfo)|2025-07-24 => 24 July 2025 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|210| [AssemblyVersionInfo by Black White Yoshi ](/docs/AssemblyVersionInfo)|2025-07-28 => 28 July 2025 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|209| [ShadowWriterProjectInfo by Stefan Stolz ](/docs/ShadowWriterProjectInfo)|2025-07-27 => 27 July 2025 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |208| [AsyncIt by Oleg Shilo ](/docs/AsyncIt)|2025-07-26 => 26 July 2025 | [Async](/docs/Categories/Async) |
 |207| [AutoInterface by Black White Yoshi ](/docs/AutoInterface)|2025-07-25 => 25 July 2025 | [Interface](/docs/Categories/Interface) |
 |206| [ShadowWriterBuilder by Stefan Stolz ](/docs/ShadowWriterBuilder)|2025-07-24 => 24 July 2025 | [Builder](/docs/Categories/Builder) |
