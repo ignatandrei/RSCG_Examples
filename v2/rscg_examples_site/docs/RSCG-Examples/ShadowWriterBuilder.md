@@ -331,7 +331,7 @@ public partial record Person
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterBuilder
 
-### In the same category (Builder) - 7 other generators
+### In the same category (Builder) - 6 other generators
 
 
 #### [Architect.DomainModeling](/docs/Architect.DomainModeling)
@@ -347,9 +347,6 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterBuilder
 
 
 #### [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
-
-
-#### [ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
 
 
 #### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 209 RSCG list by category
-description: 209 RSCG list by category
+title: 210 RSCG list by category
+description: 210 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -145,7 +145,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:8</summary>
+  <summary>Expand Builder =>examples:7</summary>
         
 
 
@@ -180,11 +180,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ShadowWriterBuilder](/docs/ShadowWriterBuilder)
-
-        
-
-
-[ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
 
 </details>
     
@@ -555,7 +550,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:18</summary>
+  <summary>Expand EnhancementProject =>examples:20</summary>
         
 
 
@@ -645,6 +640,16 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Larcanum.GitInfo](/docs/Larcanum.GitInfo)
+
+        
+
+
+[ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
+
+        
+
+
+[AssemblyVersionInfo](/docs/AssemblyVersionInfo)
 
 </details>
     
@@ -1355,8 +1360,6 @@ flowchart LR;
 
     Builder--> ShadowWriterBuilder((ShadowWriterBuilder))
 
-    Builder--> ShadowWriterProjectInfo((ShadowWriterProjectInfo))
-
     Clone--> CopyTo((CopyTo))
 
     Clone--> Dolly((Dolly))
@@ -1512,6 +1515,10 @@ flowchart LR;
     EnhancementProject--> Credfeto.Version.Information.Generator((Credfeto.Version.Information.Generator))
 
     EnhancementProject--> Larcanum.GitInfo((Larcanum.GitInfo))
+
+    EnhancementProject--> ShadowWriterProjectInfo((ShadowWriterProjectInfo))
+
+    EnhancementProject--> AssemblyVersionInfo((AssemblyVersionInfo))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 

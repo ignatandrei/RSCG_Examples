@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AssemblyVersionInfo",
+  "steps": 
+  [
+    {
+      "file": "DemoAttr/DemoAttr.csproj",
+      "description": "First, we add Nuget  [AssemblyVersionInfo](https://www.nuget.org/packages/AssemblyVersionInfo/) in csproj  ",
+      "pattern": "AssemblyVersionInfo"
+    }
+
+        ,{
+        "file": "DemoAttr/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoAttr/DemoAttr.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoAttr/obj/GX/ShadowWriter/ShadowWriter.ProjectInfoGenerator/ShadowWriter.TheProject.g.cs",
+        "description": "Generated File 4  from 4 : ShadowWriter.TheProject.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoAttr/obj/GX/ShadowWriter/ShadowWriter.NullObjectGenerator/NullObjectAttribute.g.cs",
+        "description": "Generated File 3  from 4 : NullObjectAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoAttr/obj/GX/ShadowWriter/ShadowWriter.BuilderGenerator/BuilderAttribute.g.cs",
+        "description": "Generated File 2  from 4 : BuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoAttr/obj/GX/AssemblyVersionInfo/AssemblyVersionInfo.Generator/Assembly.g.cs",
+        "description": "Generated File 1  from 4 : Assembly.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

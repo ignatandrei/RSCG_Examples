@@ -336,26 +336,62 @@ internal static class TheProject
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo
 
-### In the same category (Builder) - 7 other generators
+### In the same category (EnhancementProject) - 19 other generators
 
 
-#### [Architect.DomainModeling](/docs/Architect.DomainModeling)
+#### [AssemblyVersionInfo](/docs/AssemblyVersionInfo)
 
 
-#### [BuilderGenerator](/docs/BuilderGenerator)
+#### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
 
 
-#### [DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
+#### [AutoSpectre](/docs/AutoSpectre)
 
 
-#### [Fluentify](/docs/Fluentify)
+#### [BuildInfo](/docs/BuildInfo)
 
 
-#### [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
+#### [CommandLine](/docs/CommandLine)
 
 
-#### [ShadowWriterBuilder](/docs/ShadowWriterBuilder)
+#### [Credfeto.Version.Information.Generator](/docs/Credfeto.Version.Information.Generator)
 
 
-#### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+#### [Larcanum.GitInfo](/docs/Larcanum.GitInfo)
+
+
+#### [LinqGen.Generator](/docs/LinqGen.Generator)
+
+
+#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
+
+
+#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
+
+
+#### [RSCG_AMS](/docs/RSCG_AMS)
+
+
+#### [RSCG_ExportDiagram](/docs/RSCG_ExportDiagram)
+
+
+#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
+
+
+#### [RSCG_NameGenerator](/docs/RSCG_NameGenerator)
+
+
+#### [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment)
+
+
+#### [RSCG_Wait](/docs/RSCG_Wait)
+
+
+#### [ThisAssembly](/docs/ThisAssembly)
+
+
+#### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
+
+
+#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
 

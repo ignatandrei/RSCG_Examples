@@ -1,6 +1,6 @@
 <h1>Builder</h1>
 
-Number RSCG: 8
+Number RSCG: 7
 
    1 [Architect.DomainModeling](/docs/Architect.DomainModeling)
 
@@ -14,7 +14,5 @@ Number RSCG: 8
 
    6 [ShadowWriterBuilder](/docs/ShadowWriterBuilder)
 
-   7 [ShadowWriterProjectInfo](/docs/ShadowWriterProjectInfo)
-
-   8 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+   7 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
     

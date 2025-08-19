@@ -1,6 +1,6 @@
-# RSCG - 209 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 210 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-07-26 => 26 July 2025
+## Latest Update : 2025-07-28 => 28 July 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,11 +20,33 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 209 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 210 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
-### 209. [ShadowWriterProjectInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
+### 210. [AssemblyVersionInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyVersionInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
-Generated on : 2025-07-24 => 24 July 2025
+Generated on : 2025-07-28 => 28 July 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Black White Yoshi
+
+AssemblyVersionInfo is a very simple source generator that generates constant strings of your assembly name and version. The intended usage is for the System.CodeDom.Compiler.GeneratedCodeAttribute. 
+
+Nuget: [https://www.nuget.org/packages/AssemblyVersionInfo/](https://www.nuget.org/packages/AssemblyVersionInfo/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyVersionInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyVersionInfo)
+
+Source: [https://github.com/BlackWhiteYoshi/AssemblyVersionInfo](https://github.com/BlackWhiteYoshi/AssemblyVersionInfo)
+
+</details>
+
+### 209. [ShadowWriterProjectInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+
+Generated on : 2025-07-27 => 27 July 2025
 
 <details>
   <summary>Expand</summary>
