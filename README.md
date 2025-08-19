@@ -22,7 +22,7 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 Those are the 209 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
-### 209. [ShadowWriterProjectInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
+### 209. [ShadowWriterProjectInfo](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2025-07-24 => 24 July 2025
 
