@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AssemblyVersionInfo",
+      "nuget":[
+         "https://www.nuget.org/packages/AssemblyVersionInfo/"
+      ],
+      "link":"https://github.com/BlackWhiteYoshi/AssemblyVersionInfo",
+      "author":"Black White Yoshi",
+      "source":"https://github.com/BlackWhiteYoshi/AssemblyVersionInfo"
+   },
+   "data":{
+      "goodFor":["Generating assembly version and other info from csproj to csharp"],
+      "csprojDemo":"DemoAttr.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

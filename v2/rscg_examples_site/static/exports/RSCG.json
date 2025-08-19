@@ -1671,8 +1671,16 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterProjectInfo",
       "NuGet": "https://www.nuget.org/packages/ShadowWriter/",
       "Source": "https://github.com/StefanStolz/ShadowWriter",
-      "Category": "Builder",
-      "AddedOn": "2025-07-24T00:00:00"
+      "Category": "EnhancementProject",
+      "AddedOn": "2025-07-27T00:00:00"
+    },
+    {
+      "Name": "AssemblyVersionInfo",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyVersionInfo",
+      "NuGet": "https://www.nuget.org/packages/AssemblyVersionInfo/",
+      "Source": "https://github.com/BlackWhiteYoshi/AssemblyVersionInfo",
+      "Category": "EnhancementProject",
+      "AddedOn": "2025-07-28T00:00:00"
     }
   ]
 }
