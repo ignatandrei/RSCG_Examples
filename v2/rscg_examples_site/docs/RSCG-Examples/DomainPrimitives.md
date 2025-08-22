@@ -7,6 +7,7 @@ slug: /DomainPrimitives
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import PrimitiveObsession from './../Categories/_PrimitiveObsession.mdx';
 
 # DomainPrimitives  by Alta Software - Teimuraz Nikolaishvili
 
@@ -1862,15 +1863,4 @@ https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives
 
 ### In the same category (PrimitiveObsession) - 4 other generators
 
-
-#### [Strongly](/docs/Strongly)
-
-
-#### [StronglyTypedUid](/docs/StronglyTypedUid)
-
-
-#### [UnitGenerator](/docs/UnitGenerator)
-
-
-#### [Vogen](/docs/Vogen)
-
+<PrimitiveObsession />
