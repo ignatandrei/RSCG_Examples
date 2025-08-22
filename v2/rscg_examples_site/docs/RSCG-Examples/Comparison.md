@@ -100,7 +100,7 @@ partial class Point : System.Numerics.IComparisonOperators<Point,Point,bool>
 }
 ```
 
-## Implement IComparisonOperators<TSelf,TOther,TResult> interface
+## Implement IComparisonOperators\<TSelf,TOther,TResult\> interface
 
 You can automatically implement the `IComparisonOperators<TSelf,TOther,TResult>` interface using the `ImplementIComparisonOperatorsInterface` property of the `ComparisonOperators` attribute.
 

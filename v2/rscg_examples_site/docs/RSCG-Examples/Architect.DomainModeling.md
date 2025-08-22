@@ -334,7 +334,7 @@ public partial class PaymentDummyBuilder
 }
 ```
 
-The generated `Build()` method opts for _the most visible, simplest parameterized constructor_, since it tends to represent the most "regular" way of constructing the domain object. Specifically, it picks by { greatest visibility, parameterized over default, fewest parameters }. The builder's properties and fluent methods are based on that same constructor. We can deviate by manually implementing the `Build()` method and manually adding properties and fluent methods. To remove generated fluent methods, we can obscure them by manually implementing them as private, protected, or internal.
+The generated `Build()` method opts for _the most visible, simplest parameterized constructor_, since it tends to represent the most "regular" way of constructing the domain object. Specifically, it picks by  greatest visibility, parameterized over default, fewest parameters . The builder's properties and fluent methods are based on that same constructor. We can deviate by manually implementing the `Build()` method and manually adding properties and fluent methods. To remove generated fluent methods, we can obscure them by manually implementing them as private, protected, or internal.
 
 Dummy builders generally live in a test project, or in a library project consumed solely by test projects.
 

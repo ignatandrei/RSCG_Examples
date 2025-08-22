@@ -359,7 +359,7 @@ Given the following Resx file:
 | Infrastructure_MissingService | Service {0} is required.              | For logging only! |
 | Shopping_NoShipping           | We cannot ship {0} to {1}.            |                   |
 | Shopping_OutOfStock           | Product is out of stock at this time. |                   |
-| Shopping_AvailableOn          | Product available on {date:yyyy-MM}.  |                   |
+| Shopping_AvailableOn          | Product available on \{date:yyyy-MM\}.  |                   |
 
 The following code would be generated:
 
@@ -397,11 +397,11 @@ partial class ThisAssembly
                 => Strings.GetResourceManager("ThisStore.Properties.Resources").GetString("OutOfStock");
 
             /// <summary>
-            /// Product available on {date:yyyy-MM}.
+            /// Product available on \{date:yyyy-MM\}.
             /// </summary>
             public static string AvailableOn(object date) 
                 => string.Format(CultureInfo.CurrentCulture, 
-                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("{date:yyyy-MM}", "{0}"), 
+                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("\{date:yyyy-MM\}", "{0}"), 
                     ((IFormattable)date).ToString("yyyy-MM", CultureInfo.CurrentCulture));
         }
     }

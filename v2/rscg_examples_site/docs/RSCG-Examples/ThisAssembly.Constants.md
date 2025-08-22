@@ -30,16 +30,16 @@ This package generates a static `ThisAssembly.Constants` class with public
 constants for each Constant MSBuild item in the project.
 
 For example:
-
+```csharp
   <ItemGroup>
   <Constant Include="Foo.Bar" Value="Baz" />
   </ItemGroup>
-
+```
 Results in a corresponding `ThisAssembly.Constants.Foo.Bar` constant with the value `Baz`:
 
 Generated code:
 C#:
-
+```csharp
   partial class ThisAssembly
   {
       public static partial class Constants
@@ -51,7 +51,7 @@ C#:
       }
   }
 
-    
+```
 
         Built from https://github.com/kzu/ThisAssembly/tree/c7bb40af9
 
@@ -379,7 +379,7 @@ Given the following Resx file:
 | Infrastructure_MissingService | Service {0} is required.              | For logging only! |
 | Shopping_NoShipping           | We cannot ship {0} to {1}.            |                   |
 | Shopping_OutOfStock           | Product is out of stock at this time. |                   |
-| Shopping_AvailableOn          | Product available on {date:yyyy-MM}.  |                   |
+| Shopping_AvailableOn          | Product available on \{date:yyyy-MM\}.|                   |
 
 The following code would be generated:
 
@@ -417,11 +417,11 @@ partial class ThisAssembly
                 => Strings.GetResourceManager("ThisStore.Properties.Resources").GetString("OutOfStock");
 
             /// <summary>
-            /// Product available on {date:yyyy-MM}.
+            /// Product available on \{date:yyyy-MM\}.
             /// </summary>
             public static string AvailableOn(object date) 
                 => string.Format(CultureInfo.CurrentCulture, 
-                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("{date:yyyy-MM}", "{0}"), 
+                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("\{date:yyyy-MM\}", "{0}"), 
                     ((IFormattable)date).ToString("yyyy-MM", CultureInfo.CurrentCulture));
         }
     }

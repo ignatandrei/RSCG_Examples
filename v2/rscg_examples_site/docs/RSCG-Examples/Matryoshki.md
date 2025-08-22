@@ -232,7 +232,7 @@ internal static class Example
 }
 ```
 
-### Chains of decorations with INesting<T1, ..., TN>
+### Chains of decorations with INesting\<T1, ..., TN\>
 
 Reusable decoration chains can be described by creating a type that implements `INesting<T1, ..., TN>`:
 

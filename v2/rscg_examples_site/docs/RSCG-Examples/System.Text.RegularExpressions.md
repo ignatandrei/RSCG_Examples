@@ -70,7 +70,7 @@ all supported platforms, as well as the sources to .NET runtime and libraries.
 
 ## What is .NET?
 
-Official Starting Page: <https://dotnet.microsoft.com>
+Official Starting Page: \<https://dotnet.microsoft.com\>
 
 * [How to use .NET](https://docs.microsoft.com/dotnet/core/get-started) (with VS, VS Code, command-line CLI)
   * [Install official releases](https://dotnet.microsoft.com/download)
@@ -91,7 +91,7 @@ We welcome contributions! Many people all over the world have helped make this p
 
 ## Reporting security issues and security bugs
 
-Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC) <secure@microsoft.com>. You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Further information, including the MSRC PGP key, can be found in the [Security TechCenter](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's Security doc.
+Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC) \<secure@microsoft.com\>. You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Further information, including the MSRC PGP key, can be found in the [Security TechCenter](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's Security doc.
 
 Also see info about related [Microsoft .NET Core and ASP.NET Core Bug Bounty Program](https://www.microsoft.com/msrc/bounty-dot-net-core).
 

@@ -171,7 +171,7 @@ Those are basically the four (actually three) main operations on `Result` - `Cre
 - 'Ok if item from a dictionary was found, otherwise (nice) error' - `TryGetValue` extension on Dictionary
 - 'Ok if type T is `as` convertible to T1, error otherwise' - 'As' extension returning Result
 - 'Ok if item is valid regarding custom validations, error otherwise' - `Validate`
-- 'Async support' - `Map` `Bind` and `Aggregate` overloads with async lambdas and extensions defined on Task<...>
+- 'Async support' - `Map` `Bind` and `Aggregate` overloads with async lambdas and extensions defined on Task\<...\>
 - ...
 
 If you miss functionality it can be added easily by writing your own extension methods. If it is useful for us all don't hesitate to make pull request. Finally a little example demonstrating some of the functionality mentioned above (validation, aggregation, async pipeline). Lets cook:

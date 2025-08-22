@@ -72,19 +72,19 @@ Example
 
     @namespace MyProject
     @methodname RenderFizzBuzz
-    @model IEnumerable<int>
+    @model IEnumerable\<int\>
 
-    {{each i in model}}
-        {{if i % 3 == 0 && i % 5 == 0}}
-            {{= i }} FizzBuzz
-        {{elif i % 3 == 0}}
-            {{= i }} Fizz
-        {{elif i % 5 == 0}}
-            {{= i }} Buzz
-        {{else}}
-            {{= i }}
-        {{/if}}
-    {{/each}}
+    \{\{each i in model\}\}
+        \{\{if i % 3 == 0 && i % 5 == 0\}\}
+            \{\{= i \}\} FizzBuzz
+        \{\{elif i % 3 == 0\}\}
+            \{\{= i \}\} Fizz
+        \{\{elif i % 5 == 0\}\}
+            \{\{= i \}\} Buzz
+        \{\{else\}\}
+            \{\{= i \}\}
+        \{\{/if\}\}
+    \{\{/each\}\}
 
 This would generate a static (by default) method named `RenderFizzBuzz` in the `Templates` class (again, by default).  You would use this method like so:
 

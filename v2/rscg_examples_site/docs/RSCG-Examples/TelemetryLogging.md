@@ -69,7 +69,7 @@ We welcome contributions! Many people all over the world have helped make this p
 
 ## Reporting security issues and security bugs
 
-Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC) <secure@microsoft.com>. You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Further information, including the MSRC PGP key, can be found in the [Security TechCenter](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's [Security doc](https://github.com/dotnet/extensions/SECURITY.md).
+Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC) \<secure@microsoft.com\>. You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Further information, including the MSRC PGP key, can be found in the [Security TechCenter](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's [Security doc](https://github.com/dotnet/extensions/SECURITY.md).
 
 Also see info about related [Microsoft .NET Core and ASP.NET Core Bug Bounty Program](https://www.microsoft.com/msrc/bounty-dot-net-core).
 

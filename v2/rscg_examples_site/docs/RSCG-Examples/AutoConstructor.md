@@ -57,14 +57,6 @@ C# source generator that generates a constructor from readonly fields/properties
 
 - Grab the latest package on [NuGet](https://www.nuget.org/packages/AutoConstructor/).
 
-## Requirements
-
-| Version | Visual Studio | .NET SDK |
-|---------|---------------|----------|
-| <=1.3.0 | 16.10+        | 5.0.300+ |
-| >=2.0.0 | 17.0+         | 6.0.100+ |
-| >=5.0.0 | 17.6+         | 7.0.302+ |
-
 ## Basic usage
 
 The following code:

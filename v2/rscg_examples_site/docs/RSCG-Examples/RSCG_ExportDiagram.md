@@ -44,7 +44,7 @@ Source: https://github.com/ignatandrei/RSCG_ExportDiagram
 
 # RSCG_ExportDiagram
 
-export diagram for external relations for a csproj  with other csproj
+Usefull diagram for external relations for a csproj  with other csproj
 
 ## Install
 

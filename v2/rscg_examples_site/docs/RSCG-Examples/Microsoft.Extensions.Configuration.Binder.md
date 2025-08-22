@@ -63,6 +63,7 @@ Generating Binding for configuration files
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **Microsoft.Extensions.Configuration.Binder**
+
 ```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk.Web">
 

@@ -166,7 +166,7 @@ You can also specify query parameters in the URL:
 
 A request URL can be updated dynamically using replacement blocks and
 parameters on the method. A replacement block is an alphanumeric string
-surrounded by { and }.
+surrounded by \{ and \}.
 
 If the name of your parameter doesn't match the name in the URL path, use the
 `AliasAs` attribute.
@@ -207,7 +207,7 @@ GroupList(4, "desc");
 
 Round-tripping route parameter syntax: Forward slashes aren't encoded when using a double-asterisk (\*\*) catch-all parameter syntax.
 
-During link generation, the routing system encodes the value captured in a double-asterisk (\*\*) catch-all parameter (for example, {**myparametername}) except the forward slashes.
+During link generation, the routing system encodes the value captured in a double-asterisk (\*\*) catch-all parameter (for example, \{**myparametername\}) except the forward slashes.
 
 The type of round-tripping route parameter must be string.
 

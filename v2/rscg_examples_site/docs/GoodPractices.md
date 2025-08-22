@@ -24,7 +24,9 @@ To see the files generated , add the following to the csproj file
 
  Then go to the obj/GX folder and inspect the files generated 
 
-<details><summary>Example - click to expand</summary>
+<details>
+    <summary>Example - click to expand</summary>
+
 If you have downloaded https://github.com/ignatandrei/RSCG_WaitAndOptions , 
 see src\Console_Wait\Console_Wait.csproj file 
 
@@ -79,7 +81,8 @@ Then add a simple console ( or any other project) and reference the Roslyn proje
 
 Then in the Roslyn project you can add a breakpoint and debug the code .
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 If you have downloaded https://github.com/ignatandrei/RSCG_WaitAndOptions , 
 see src\RSCG_Wait\RSCG_Wait.csproj file 
@@ -90,7 +93,8 @@ see src\RSCG_Wait\RSCG_Wait.csproj file
 
 If you want continuous debugging, a la dotnet watch run , you should delete the bin and obj files of the target project and run dotnet build again
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 This is the powershell that I use for this with the name rscg_build.ps1 . I run it in the src\Console_Wait folder from https://github.com/ignatandrei/RSCG_WaitAndOptions , i.e in the target project folder.
 
 ```powershell
@@ -119,7 +123,8 @@ Generally speaking , the work of a Roslyn generator is to generate code. So, you
 
 So, you should aim for ReferenceOutputAssembly="false" in the csproj file that reference the Roslyn generator.
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 </details>
 
@@ -160,7 +165,8 @@ See the documentation at https://github.com/dotnet/roslyn/blob/main/docs/feature
 
 Add a .g.cs generated suffix so some tools consider the file to be generated
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 The following code is from the project https://github.com/ignatandrei/RSCG_WaitAndOptions 
 
@@ -189,7 +195,8 @@ As a header of the file generated, add the following comment
 // </auto-generated>
 //------------------------------------------------------------------------------
 ```
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 In the project  https://github.com/ignatandrei/RSCG_WaitAndOptions , this the header
 
 ```csharp
@@ -220,7 +227,8 @@ static string Header()
 ```
 You could use the version from the generator in order to know what version of the generator was used to generate the code.
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 You could use AssemblyInfo , as I have done myself into the project https://github.com/ignatandrei/RSCG_WaitAndOptions 
 
@@ -256,7 +264,8 @@ public partial class OptionsFromBuild{
 Because of the 260 characters limit for the path, you should the path of the files generated shorter. See more at
 https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 The files generated for the project src\Console_Wait\Console_Wait.csproj 
 
@@ -276,7 +285,8 @@ Add the following attribute to the generated code
 [global::System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
 ```
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj 
 ```csharp
@@ -305,7 +315,8 @@ Or if not , add
 ```
 to the generated code
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 
 In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj 
 
@@ -332,7 +343,8 @@ partial class MyGeneratedCode
 ```
 at the end of the file
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj
 
 ```csharp
@@ -366,7 +378,8 @@ So you should follow documentation at https://learn.microsoft.com/en-us/nuget/cr
 
 Read also https://www.meziantou.net/ensuring-best-practices-for-nuget-packages.htm 
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj
 
 ```xml
@@ -415,7 +428,8 @@ The generator should be packed in analyzer folder in nuget package
 
 ![image](/img/addToNuget.png)
 
-<details><summary>Example - click to expand</summary>
+<details>
+<summary>Example - click to expand</summary>
 In the mentioned project src\RSCG_Wait\RSCG_Wait.csproj
 
 ```xml

@@ -61,7 +61,7 @@ Install https://www.nuget.org/packages/SkinnyControllersCommon/
 Step 3:
 
 Add a field to your action either via DI, either directly
-
+```csharp
     [ApiController]
     [Route("[controller]/[action]")]
     public partial class WeatherForecastController : ControllerBase
@@ -75,7 +75,7 @@ Add a field to your action either via DI, either directly
             //or make
 			//this.repository=new RepositoryWF();
         }
-
+```
 		
 
 Step 4:

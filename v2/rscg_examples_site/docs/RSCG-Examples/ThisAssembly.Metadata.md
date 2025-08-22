@@ -36,14 +36,14 @@ So for an attribute like:
 A corresponding `ThisAssembly.Metadata.Foo` constant with the value `Bar` is provided. 
 The metadata attribute can alternatively be declared using MSBuild in the project 
 (for .NET 5.0+ projects):
-
+```csharp
     <ItemGroup>
       <AssemblyMetadata Include="Foo" Value="Bar" />
     </ItemGroup>
-
+```
 Generated code:
 C#:
-
+```csharp
   partial class ThisAssembly
   {
       public static partial class Metadata
@@ -51,7 +51,7 @@ C#:
           public const string Foo = "Bar";
       }
   }
-
+```
 
 
 Author: Daniel Cazzulino
@@ -376,7 +376,7 @@ Given the following Resx file:
 | Infrastructure_MissingService | Service {0} is required.              | For logging only! |
 | Shopping_NoShipping           | We cannot ship {0} to {1}.            |                   |
 | Shopping_OutOfStock           | Product is out of stock at this time. |                   |
-| Shopping_AvailableOn          | Product available on {date:yyyy-MM}.  |                   |
+| Shopping_AvailableOn          | Product available on \{date:yyyy-MM\}.  |                   |
 
 The following code would be generated:
 
@@ -414,11 +414,11 @@ partial class ThisAssembly
                 => Strings.GetResourceManager("ThisStore.Properties.Resources").GetString("OutOfStock");
 
             /// <summary>
-            /// Product available on {date:yyyy-MM}.
+            /// Product available on \{date:yyyy-MM\}.
             /// </summary>
             public static string AvailableOn(object date) 
                 => string.Format(CultureInfo.CurrentCulture, 
-                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("{date:yyyy-MM}", "{0}"), 
+                    Strings.GetResourceManager("ThisAssemblyTests.Resources").GetString("WithNamedFormat").Replace("\{date:yyyy-MM\}", "{0}"), 
                     ((IFormattable)date).ToString("yyyy-MM", CultureInfo.CurrentCulture));
         }
     }
@@ -513,6 +513,7 @@ Generating code from assembly metadata
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **ThisAssembly.Metadata**
+
 ```xml showLineNumbers {13}
 <Project Sdk="Microsoft.NET.Sdk">
 

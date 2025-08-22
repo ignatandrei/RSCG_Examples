@@ -56,15 +56,15 @@ The generated accessors use the current region when selecting the language to pi
 
 For all of the formats the following applies:
 * Keys must be unique for each string resource
-* Values can either use standard formatting (e.g. {0}, {1}, etc) or interpolation (e.g. {name}), but not both
+* Values can either use standard formatting (e.g. {0}, {1}, etc) or interpolation (e.g. \{name\}), but not both
 * Signatures must match for all languages
 
 Parameters to strings also support type specifiers, formatting specifiers and signature ordering
 * Format: `:format`, e.g. `"String with {0:n2} formatted"`
-* Type: `@type`, e.g. `"String with {name@string}"`
-* Order: `@order`, e.g. `String with {name@string@1}"` (order requires type as well)
+* Type: `@type`, e.g. `"String with \{name@string\}"`
+* Order: `@order`, e.g. `String with \{name@string@1\}"` (order requires type as well)
 
-Example of using all: `"String with {amount:n2@decimal@3}"'
+Example of using all: `"String with \{amount:n2@decimal@3\}"'
 
 See examples of files online on the [project site](https://github.com/biggik/Strings.ResourceGenerator/tree/main/Strings.ResourceGenerator.Examples/Resources)
 

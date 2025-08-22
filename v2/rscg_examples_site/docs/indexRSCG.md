@@ -6,9 +6,6 @@ slug: /List-of-RSCG
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-<head>
-  <script src={useBaseUrl('/js/mailerlite.js')} />;
-</head>
 
 ## 210 RSCG with examples in descending chronological order
 
