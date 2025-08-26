@@ -209,3 +209,4 @@ Nr,Key,Source,Category
 208,AsyncIt, https://github.com/oleg-shilo/AsyncIt,Async
 209,ShadowWriterProjectInfo, https://github.com/StefanStolz/ShadowWriter,EnhancementProject
 210,AssemblyVersionInfo, https://github.com/BlackWhiteYoshi/AssemblyVersionInfo,EnhancementProject
+211,ShadowWriterNullobjects, https://github.com/StefanStolz/ShadowWriter,Interface

@@ -1,0 +1,66 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ShadowWriterNullobjects",
+  "steps": 
+  [
+    {
+      "file": "NullInterface/NullInterface.csproj",
+      "description": "First, we add Nuget  [ShadowWriter](https://www.nuget.org/packages/ShadowWriter/) in csproj  ",
+      "pattern": "ShadowWriter"
+    }
+
+        ,{
+        "file": "NullInterface/Employee.cs",
+        "description": "File Employee.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "NullInterface/Department.cs",
+        "description": "File Department.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "NullInterface/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project NullInterface/NullInterface.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "NullInterface/obj/GX/ShadowWriter/ShadowWriter.ProjectInfoGenerator/ShadowWriter.TheProject.g.cs",
+        "description": "Generated File 5  from 5 : ShadowWriter.TheProject.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/ShadowWriter/ShadowWriter.NullObject.NullObjectGenerator/NullObjectAttribute.g.cs",
+        "description": "Generated File 4  from 5 : NullObjectAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/ShadowWriter/ShadowWriter.NullObject.NullObjectGenerator/NullInterfaceEmployee.g.cs",
+        "description": "Generated File 3  from 5 : NullInterfaceEmployee.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/ShadowWriter/ShadowWriter.NullObject.NullObjectGenerator/NullInterfaceDepartment.g.cs",
+        "description": "Generated File 2  from 5 : NullInterfaceDepartment.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "NullInterface/obj/GX/ShadowWriter/ShadowWriter.BuilderGenerator/BuilderAttribute.g.cs",
+        "description": "Generated File 1  from 5 : BuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

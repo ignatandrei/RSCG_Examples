@@ -1,6 +1,6 @@
 <h1>Interface</h1>
 
-Number RSCG: 13
+Number RSCG: 14
 
    1 [AutoInterface](/docs/AutoInterface)
 
@@ -27,4 +27,6 @@ Number RSCG: 13
    12 [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
 
    13 [RSCG_Static](/docs/RSCG_Static)
+
+   14 [ShadowWriterNullobjects](/docs/ShadowWriterNullobjects)
     

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 210 RSCG list by category
-description: 210 RSCG list by category
+title: 211 RSCG list by category
+description: 211 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -907,7 +907,7 @@ import DocCardList from '@theme/DocCardList';
 ## Interface 
 <details>
     
-  <summary>Expand Interface =>examples:13</summary>
+  <summary>Expand Interface =>examples:14</summary>
         
 
 
@@ -972,6 +972,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AutoInterface](/docs/AutoInterface)
+
+        
+
+
+[ShadowWriterNullobjects](/docs/ShadowWriterNullobjects)
 
 </details>
     
@@ -1631,6 +1636,8 @@ flowchart LR;
     Interface--> RSCG_CompositeProvider((RSCG_CompositeProvider))
 
     Interface--> AutoInterface((AutoInterface))
+
+    Interface--> ShadowWriterNullobjects((ShadowWriterNullobjects))
 
     Linq--> zlinq((zlinq))
 
