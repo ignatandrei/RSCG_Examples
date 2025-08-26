@@ -6,6 +6,9 @@ slug: /List-of-RSCG
 ---
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+<head>
+  <script src={useBaseUrl('/js/mailerlite.js')} />;
+</head>
 
 ## 211 RSCG with examples in descending chronological order
 
@@ -20,7 +23,7 @@ This is the list of 211 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|211| [ShadowWriterNullobjects by Stefan Stolz` ](/docs/ShadowWriterNullobjects)|2025-07-29 => 29 July 2025 | [Interface](/docs/Categories/Interface) |
+|211| [ShadowWriterNullobjects by Stefan Stolz ](/docs/ShadowWriterNullobjects)|2025-07-29 => 29 July 2025 | [Interface](/docs/Categories/Interface) |
 |210| [AssemblyVersionInfo by Black White Yoshi ](/docs/AssemblyVersionInfo)|2025-07-28 => 28 July 2025 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |209| [ShadowWriterProjectInfo by Stefan Stolz ](/docs/ShadowWriterProjectInfo)|2025-07-27 => 27 July 2025 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |208| [AsyncIt by Oleg Shilo ](/docs/AsyncIt)|2025-07-26 => 26 July 2025 | [Async](/docs/Categories/Async) |

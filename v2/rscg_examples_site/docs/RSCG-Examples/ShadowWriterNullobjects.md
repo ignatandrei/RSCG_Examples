@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 
-# ShadowWriterNullobjects  by Stefan Stolz`
+# ShadowWriterNullobjects  by Stefan Stolz
 
 
 <TOCInline toc={toc}  />
@@ -27,7 +27,7 @@ Name: **ShadowWriterNullobjects**
 
 Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently.
 
-Author: Stefan Stolz`
+Author: Stefan Stolz
 
 NuGet: 
 *https://www.nuget.org/packages/ShadowWriter/*   

@@ -31,7 +31,7 @@ Generated on : 2025-07-29 => 29 July 2025
 
 
 
-Author: Stefan Stolz`
+Author: Stefan Stolz
 
 Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently. 
 
