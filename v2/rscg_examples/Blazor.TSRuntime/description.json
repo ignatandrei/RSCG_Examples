@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Blazor.TSRuntime",
+      "nuget":[
+         "https://www.nuget.org/packages/Blazor.TSRuntime/"
+      ],
+      "link":"https://github.com/BlackWhiteYoshi/Blazor.TSRuntime",
+      "author":"Black White Yoshi",
+      "source":"https://github.com/BlackWhiteYoshi/Blazor.TSRuntime"
+   },
+   "data":{
+      "goodFor":["Generating C# Code for Blazor from javascript files"],
+      "csprojDemo":"BlazorData.csproj",
+      "csFiles":["Program.cs","tsruntime.json","Home.razor","Home.razor.js"],
+      "excludeDirectoryGenerated":["Microsoft.CodeAnalysis.Razor.Compiler"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

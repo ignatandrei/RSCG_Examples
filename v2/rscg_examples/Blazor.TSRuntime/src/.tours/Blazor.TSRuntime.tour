@@ -1,0 +1,102 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Blazor.TSRuntime",
+  "steps": 
+  [
+    {
+      "file": "BlazorData/BlazorData.csproj",
+      "description": "First, we add Nuget  [Blazor.TSRuntime](https://www.nuget.org/packages/Blazor.TSRuntime/) in csproj  ",
+      "pattern": "Blazor.TSRuntime"
+    }
+
+        ,{
+        "file": "BlazorData/Pages/Home.razor.js",
+        "description": "File Home.razor.js  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BlazorData/Pages/Home.razor",
+        "description": "File Home.razor  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BlazorData/tsruntime.json",
+        "description": "File tsruntime.json  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BlazorData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project BlazorData/BlazorData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/TSRuntime_ServiceExtension.g.cs",
+        "description": "Generated File 10  from 10 : TSRuntime_ServiceExtension.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/TSRuntime.g.cs",
+        "description": "Generated File 9  from 10 : TSRuntime.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_Home.g.cs",
+        "description": "Generated File 8  from 10 : ITSRuntime_Home.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_Core.g.cs",
+        "description": "Generated File 7  from 10 : ITSRuntime_Core.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_bootstrap_min.g.cs",
+        "description": "Generated File 6  from 10 : ITSRuntime_bootstrap_min.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_bootstrap_esm_min.g.cs",
+        "description": "Generated File 5  from 10 : ITSRuntime_bootstrap_esm_min.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_bootstrap_esm.g.cs",
+        "description": "Generated File 4  from 10 : ITSRuntime_bootstrap_esm.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_bootstrap_bundle_min.g.cs",
+        "description": "Generated File 3  from 10 : ITSRuntime_bootstrap_bundle_min.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_bootstrap_bundle.g.cs",
+        "description": "Generated File 2  from 10 : ITSRuntime_bootstrap_bundle.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BlazorData/obj/GX/Blazor.TSRuntime/TSRuntime.TSRuntimeGenerator/ITSRuntime_bootstrap.g.cs",
+        "description": "Generated File 1  from 10 : ITSRuntime_bootstrap.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

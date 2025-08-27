@@ -1,6 +1,6 @@
-# RSCG - 212 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 213 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-08-01 => 01 August 2025
+## Latest Update : 2025-08-02 => 02 August 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 212 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 213 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 213. [Blazor.TSRuntime](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazor.TSRuntime) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor) category 
+
+Generated on : 2025-08-02 => 02 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Black White Yoshi
+
+TSRuntime is an improved JSRuntime with automatic JS-module loading and caching, compile time errors instead of runtime errors and nice IntelliSense guidance. 
+
+Nuget: [https://www.nuget.org/packages/Blazor.TSRuntime/](https://www.nuget.org/packages/Blazor.TSRuntime/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazor.TSRuntime](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazor.TSRuntime)
+
+Source: [https://github.com/BlackWhiteYoshi/Blazor.TSRuntime](https://github.com/BlackWhiteYoshi/Blazor.TSRuntime)
+
+</details>
+
 ### 212. [StackXML](https://ignatandrei.github.io/RSCG_Examples/v2/docs/StackXML) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
 
 Generated on : 2025-08-01 => 01 August 2025
