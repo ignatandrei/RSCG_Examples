@@ -7,6 +7,7 @@ slug: /MinimalApis.Discovery
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 # MinimalApis.Discovery  by Shawn Wildermuth
 
@@ -242,7 +243,7 @@ namespace MinimalApis.Discovery
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -262,32 +263,6 @@ namespace MinimalApis.Discovery
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApis.Discovery
 
-### In the same category (API) - 9 other generators
-
-
-#### [immediate.apis](/docs/immediate.apis)
-
-
-#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-
-#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
-
-
-#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
-
-
-#### [RDG](/docs/RDG)
-
-
-#### [Refit](/docs/Refit)
-
-
-#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-
-#### [SafeRouting](/docs/SafeRouting)
-
-
-#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+aaa
+<SameCategory />
 

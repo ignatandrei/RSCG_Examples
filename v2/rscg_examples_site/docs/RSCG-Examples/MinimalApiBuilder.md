@@ -7,6 +7,7 @@ slug: /MinimalApiBuilder
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 # MinimalApiBuilder  by 
 
@@ -294,7 +295,7 @@ public partial class BasicEndpoint : global::MinimalApiBuilder.IEndpoint
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -314,32 +315,6 @@ public partial class BasicEndpoint : global::MinimalApiBuilder.IEndpoint
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalApiBuilder
 
-### In the same category (API) - 9 other generators
-
-
-#### [immediate.apis](/docs/immediate.apis)
-
-
-#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-
-#### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
-
-
-#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
-
-
-#### [RDG](/docs/RDG)
-
-
-#### [Refit](/docs/Refit)
-
-
-#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-
-#### [SafeRouting](/docs/SafeRouting)
-
-
-#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+aaa
+<SameCategory />
 

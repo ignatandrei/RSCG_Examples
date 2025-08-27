@@ -7,6 +7,7 @@ slug: /ShadowWriterBuilder
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveBuilder.mdx';
 
 # ShadowWriterBuilder  by Stefan Stolz
 
@@ -331,23 +332,6 @@ public partial record Person
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterBuilder
 
-### In the same category (Builder) - 6 other generators
-
-
-#### [Architect.DomainModeling](/docs/Architect.DomainModeling)
-
-
-#### [BuilderGenerator](/docs/BuilderGenerator)
-
-
-#### [DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
-
-
-#### [Fluentify](/docs/Fluentify)
-
-
-#### [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
-
-
-#### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+aaa
+<SameCategory />
 

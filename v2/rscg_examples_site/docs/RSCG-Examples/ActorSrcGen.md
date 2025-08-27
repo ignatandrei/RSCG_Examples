@@ -7,6 +7,7 @@ slug: /ActorSrcGen
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveActor.mdx';
 
 # ActorSrcGen  by Andrew Matthews
 
@@ -736,7 +737,7 @@ public partial class DayWorkflow : Dataflow<Person>, IActor<Person>
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -756,5 +757,6 @@ public partial class DayWorkflow : Dataflow<Person>, IActor<Person>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ActorSrcGen
 
-### In the same category (Actor) - 0 other generators
+aaa
+<SameCategory />
 

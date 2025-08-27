@@ -7,6 +7,7 @@ slug: /Rocks
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTests.mdx';
 
 # Rocks  by Json Bock
 
@@ -272,7 +273,7 @@ namespace MockRock
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -292,17 +293,6 @@ namespace MockRock
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Rocks
 
-### In the same category (Tests) - 4 other generators
-
-
-#### [mocklis](/docs/mocklis)
-
-
-#### [MockMe](/docs/MockMe)
-
-
-#### [MSTest](/docs/MSTest)
-
-
-#### [Ridge](/docs/Ridge)
+aaa
+<SameCategory />
 

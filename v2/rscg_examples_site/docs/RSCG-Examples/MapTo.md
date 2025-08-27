@@ -7,6 +7,7 @@ slug: /MapTo
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # MapTo  by Mohammedreza Taikandi
 
@@ -321,7 +322,7 @@ public static class PersonMapToExtensions
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -341,26 +342,6 @@ public static class PersonMapToExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapTo
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoDTO](/docs/AutoDTO)
-
-
-#### [AutoGen](/docs/AutoGen)
-
-
-#### [DynamicsMapper](/docs/DynamicsMapper)
-
-
-#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
-
-
-#### [MagicMap](/docs/MagicMap)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [NextGenMapper](/docs/NextGenMapper)
+aaa
+<SameCategory />
 

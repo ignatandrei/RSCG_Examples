@@ -7,6 +7,7 @@ slug: /mocklis
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTests.mdx';
 
 # mocklis  by Esbjörn Redmo
 
@@ -217,7 +218,7 @@ namespace TestClock
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -237,17 +238,6 @@ namespace TestClock
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/mocklis
 
-### In the same category (Tests) - 4 other generators
-
-
-#### [MockMe](/docs/MockMe)
-
-
-#### [MSTest](/docs/MSTest)
-
-
-#### [Ridge](/docs/Ridge)
-
-
-#### [Rocks](/docs/Rocks)
+aaa
+<SameCategory />
 

@@ -7,13 +7,14 @@ slug: /MagicMap
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # MagicMap  by Bramer Daniel
 
 
 <TOCInline toc={toc}  />
 
-## Nuget / site data
+## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/MagicMap?label=MagicMap)](https://www.nuget.org/packages/MagicMap/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/bramerdaniel/MagicMap?label=updated)](https://github.com/bramerdaniel/MagicMap)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bramerdaniel/MagicMap?style=social)
@@ -480,7 +481,7 @@ namespace MagicMap
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -500,26 +501,6 @@ namespace MagicMap
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicMap
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoDTO](/docs/AutoDTO)
-
-
-#### [AutoGen](/docs/AutoGen)
-
-
-#### [DynamicsMapper](/docs/DynamicsMapper)
-
-
-#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [MapTo](/docs/MapTo)
-
-
-#### [NextGenMapper](/docs/NextGenMapper)
+aaa
+<SameCategory />
 

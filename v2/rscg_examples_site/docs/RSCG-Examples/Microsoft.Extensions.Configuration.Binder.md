@@ -7,6 +7,7 @@ slug: /Microsoft.Extensions.Configuration.Binder
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 # Microsoft.Extensions.Configuration.Binder  by Microsoft
 
@@ -63,7 +64,6 @@ Generating Binding for configuration files
 <TabItem value="csproj" label="CSharp Project">
 
 This is the CSharp Project that references **Microsoft.Extensions.Configuration.Binder**
-
 ```xml showLineNumbers {11}
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
@@ -355,7 +355,7 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -375,32 +375,6 @@ namespace Microsoft.Extensions.Configuration.Binder.SourceGeneration
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder
 
-### In the same category (API) - 9 other generators
-
-
-#### [immediate.apis](/docs/immediate.apis)
-
-
-#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
-
-
-#### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
-
-
-#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
-
-
-#### [RDG](/docs/RDG)
-
-
-#### [Refit](/docs/Refit)
-
-
-#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-
-#### [SafeRouting](/docs/SafeRouting)
-
-
-#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+aaa
+<SameCategory />
 

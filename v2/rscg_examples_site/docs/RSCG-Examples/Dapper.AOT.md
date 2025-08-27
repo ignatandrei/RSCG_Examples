@@ -7,6 +7,7 @@ slug: /Dapper.AOT
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDatabase.mdx';
 
 # Dapper.AOT  by Marc Gravell
 
@@ -332,7 +333,7 @@ namespace System.Runtime.CompilerServices
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -352,17 +353,6 @@ namespace System.Runtime.CompilerServices
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dapper.AOT
 
-### In the same category (Database) - 4 other generators
-
-
-#### [Breezy](/docs/Breezy)
-
-
-#### [EntityLengths.Generator](/docs/EntityLengths.Generator)
-
-
-#### [Gedaq](/docs/Gedaq)
-
-
-#### [TableStorage](/docs/TableStorage)
+aaa
+<SameCategory />
 

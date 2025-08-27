@@ -7,6 +7,7 @@ slug: /Injectio
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDependencyInjection.mdx';
 
 # Injectio  by LoreSoft
 
@@ -450,7 +451,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -470,26 +471,6 @@ namespace Microsoft.Extensions.DependencyInjection
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Injectio
 
-### In the same category (DependencyInjection) - 7 other generators
-
-
-#### [AutoRegisterInject](/docs/AutoRegisterInject)
-
-
-#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
-
-
-#### [depso](/docs/depso)
-
-
-#### [FactoryGenerator](/docs/FactoryGenerator)
-
-
-#### [jab](/docs/jab)
-
-
-#### [Pure.DI](/docs/Pure.DI)
-
-
-#### [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+aaa
+<SameCategory />
 

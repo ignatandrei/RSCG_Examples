@@ -7,6 +7,7 @@ slug: /DynamicsMapper
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # DynamicsMapper  by Yonatan Cohavi
 
@@ -350,7 +351,7 @@ namespace NextGenMapperDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -370,26 +371,6 @@ namespace NextGenMapperDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DynamicsMapper
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoDTO](/docs/AutoDTO)
-
-
-#### [AutoGen](/docs/AutoGen)
-
-
-#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
-
-
-#### [MagicMap](/docs/MagicMap)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [MapTo](/docs/MapTo)
-
-
-#### [NextGenMapper](/docs/NextGenMapper)
+aaa
+<SameCategory />
 

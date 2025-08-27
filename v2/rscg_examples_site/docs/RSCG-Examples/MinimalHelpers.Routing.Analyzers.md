@@ -7,6 +7,7 @@ slug: /MinimalHelpers.Routing.Analyzers
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 # MinimalHelpers.Routing.Analyzers  by Maroc Minerva
 
@@ -662,7 +663,7 @@ public interface IEndpointRouteHandlerBuilder
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -682,32 +683,6 @@ public interface IEndpointRouteHandlerBuilder
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MinimalHelpers.Routing.Analyzers
 
-### In the same category (API) - 9 other generators
-
-
-#### [immediate.apis](/docs/immediate.apis)
-
-
-#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-
-#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
-
-
-#### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
-
-
-#### [RDG](/docs/RDG)
-
-
-#### [Refit](/docs/Refit)
-
-
-#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-
-#### [SafeRouting](/docs/SafeRouting)
-
-
-#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /NativeObjects
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveWinAPI.mdx';
 
 # NativeObjects  by Kevin Gosse
 
@@ -333,7 +334,7 @@ namespace NativeObjects
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -353,11 +354,6 @@ namespace NativeObjects
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NativeObjects
 
-### In the same category (WinAPI) - 2 other generators
-
-
-#### [Com](/docs/Com)
-
-
-#### [Microsoft.Windows.CsWin32](/docs/Microsoft.Windows.CsWin32)
+aaa
+<SameCategory />
 

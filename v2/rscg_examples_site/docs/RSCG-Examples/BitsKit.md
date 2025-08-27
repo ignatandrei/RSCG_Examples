@@ -7,6 +7,7 @@ slug: /BitsKit
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveBitwise.mdx';
 
 # BitsKit  by barncastle
 
@@ -452,7 +453,7 @@ namespace BitsDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -472,8 +473,6 @@ namespace BitsDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BitsKit
 
-### In the same category (Bitwise) - 1 other generators
-
-
-#### [Darp.BinaryObjects](/docs/Darp.BinaryObjects)
+aaa
+<SameCategory />
 

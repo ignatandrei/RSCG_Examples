@@ -7,6 +7,7 @@ slug: /StringLiteral
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveOptimizer.mdx';
 
 # StringLiteral  by Nobuyuki Iwanaga
 
@@ -124,7 +125,7 @@ Optimizing memory for strings
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -235,7 +236,7 @@ namespace StringLiteral
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -255,5 +256,6 @@ namespace StringLiteral
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/StringLiteral
 
-### In the same category (Optimizer) - 0 other generators
+aaa
+<SameCategory />
 

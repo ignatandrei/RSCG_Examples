@@ -7,6 +7,7 @@ slug: /Tortuga.Shipwright
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTemplating.mdx';
 
 # Tortuga.Shipwright  by Tortuga Research
 
@@ -385,44 +386,6 @@ namespace MixinConsoleDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Tortuga.Shipwright
 
-### In the same category (Templating) - 13 other generators
-
-
-#### [Gobie](/docs/Gobie)
-
-
-#### [InlineComposition](/docs/InlineComposition)
-
-
-#### [InterceptorTemplate](/docs/InterceptorTemplate)
-
-
-#### [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
-
-
-#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
-
-
-#### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
-
-
-#### [MorrisMoxy](/docs/MorrisMoxy)
-
-
-#### [NTypewriter](/docs/NTypewriter)
-
-
-#### [RazorBlade](/docs/RazorBlade)
-
-
-#### [RazorSlices](/docs/RazorSlices)
-
-
-#### [RSCG_IFormattable](/docs/RSCG_IFormattable)
-
-
-#### [RSCG_Templating](/docs/RSCG_Templating)
-
-
-#### [spreadcheetah](/docs/spreadcheetah)
+aaa
+<SameCategory />
 

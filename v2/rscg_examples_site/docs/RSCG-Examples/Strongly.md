@@ -7,6 +7,7 @@ slug: /Strongly
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitivePrimitiveObsession.mdx';
 
 # Strongly  by Lucas Teles
 
@@ -386,7 +387,7 @@ Generate and customize strong id structs
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -1098,7 +1099,7 @@ namespace Strongly
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1118,17 +1119,6 @@ namespace Strongly
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Strongly
 
-### In the same category (PrimitiveObsession) - 4 other generators
-
-
-#### [DomainPrimitives](/docs/DomainPrimitives)
-
-
-#### [StronglyTypedUid](/docs/StronglyTypedUid)
-
-
-#### [UnitGenerator](/docs/UnitGenerator)
-
-
-#### [Vogen](/docs/Vogen)
+aaa
+<SameCategory />
 

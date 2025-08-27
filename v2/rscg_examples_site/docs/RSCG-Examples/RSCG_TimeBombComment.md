@@ -7,6 +7,7 @@ slug: /RSCG_TimeBombComment
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnhancementProject.mdx';
 
 # RSCG_TimeBombComment  by Andrei Ignat
 
@@ -212,7 +213,7 @@ namespace Console_TimeBombComment {
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -232,56 +233,6 @@ namespace Console_TimeBombComment {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_TimeBombComment
 
-### In the same category (EnhancementProject) - 17 other generators
-
-
-#### [AutoInvoke.Generator](/docs/AutoInvoke.Generator)
-
-
-#### [AutoSpectre](/docs/AutoSpectre)
-
-
-#### [BuildInfo](/docs/BuildInfo)
-
-
-#### [CommandLine](/docs/CommandLine)
-
-
-#### [Credfeto.Version.Information.Generator](/docs/Credfeto.Version.Information.Generator)
-
-
-#### [Larcanum.GitInfo](/docs/Larcanum.GitInfo)
-
-
-#### [LinqGen.Generator](/docs/LinqGen.Generator)
-
-
-#### [Pekspro.BuildInformationGenerator](/docs/Pekspro.BuildInformationGenerator)
-
-
-#### [PlantUmlClassDiagramGenerator](/docs/PlantUmlClassDiagramGenerator)
-
-
-#### [RSCG_AMS](/docs/RSCG_AMS)
-
-
-#### [RSCG_ExportDiagram](/docs/RSCG_ExportDiagram)
-
-
-#### [RSCG_FunctionsWithDI](/docs/RSCG_FunctionsWithDI)
-
-
-#### [RSCG_NameGenerator](/docs/RSCG_NameGenerator)
-
-
-#### [RSCG_Wait](/docs/RSCG_Wait)
-
-
-#### [ThisAssembly](/docs/ThisAssembly)
-
-
-#### [ThisAssembly.Constants](/docs/ThisAssembly.Constants)
-
-
-#### [ThisAssembly.Metadata](/docs/ThisAssembly.Metadata)
+aaa
+<SameCategory />
 

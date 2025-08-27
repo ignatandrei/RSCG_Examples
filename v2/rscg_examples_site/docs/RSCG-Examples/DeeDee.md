@@ -7,6 +7,7 @@ slug: /DeeDee
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMediator.mdx';
 
 # DeeDee  by joh-pot
 
@@ -386,7 +387,7 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -406,11 +407,6 @@ namespace DeeDeeDemo.DeeDee.Generated.Models
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DeeDee
 
-### In the same category (Mediator) - 2 other generators
-
-
-#### [Immediate.Handlers](/docs/Immediate.Handlers)
-
-
-#### [Mediator](/docs/Mediator)
+aaa
+<SameCategory />
 

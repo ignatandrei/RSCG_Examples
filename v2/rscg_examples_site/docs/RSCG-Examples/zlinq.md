@@ -7,6 +7,7 @@ slug: /zlinq
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveLinq.mdx';
 
 # zlinq  by Cysharp - subsidiary of Cygames
 
@@ -1248,11 +1249,14 @@ foreach (var item in x)
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
+<Tabs>
 
+
+</Tabs>
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1272,5 +1276,6 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/zlinq
 
-### In the same category (Linq) - 0 other generators
+aaa
+<SameCategory />
 

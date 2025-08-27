@@ -7,6 +7,7 @@ slug: /TableStorage
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDatabase.mdx';
 
 # TableStorage  by Steven Thuriot
 
@@ -577,7 +578,7 @@ namespace test
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -597,17 +598,6 @@ namespace test
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/TableStorage
 
-### In the same category (Database) - 4 other generators
-
-
-#### [Breezy](/docs/Breezy)
-
-
-#### [Dapper.AOT](/docs/Dapper.AOT)
-
-
-#### [EntityLengths.Generator](/docs/EntityLengths.Generator)
-
-
-#### [Gedaq](/docs/Gedaq)
+aaa
+<SameCategory />
 

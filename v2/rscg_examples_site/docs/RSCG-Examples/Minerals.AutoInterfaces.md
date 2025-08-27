@@ -7,6 +7,7 @@ slug: /Minerals.AutoInterfaces
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveInterface.mdx';
 
 # Minerals.AutoInterfaces  by Szymon Hałucha
 
@@ -319,7 +320,7 @@ namespace Class2Interface
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -339,38 +340,6 @@ namespace Class2Interface
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoInterfaces
 
-### In the same category (Interface) - 11 other generators
-
-
-#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-
-#### [CopyCat](/docs/CopyCat)
-
-
-#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
-
-
-#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-#### [Matryoshki](/docs/Matryoshki)
-
-
-#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
-
-
-#### [ProxyGen](/docs/ProxyGen)
-
-
-#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
-
-
-#### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
-
-
-#### [RSCG_Static](/docs/RSCG_Static)
+aaa
+<SameCategory />
 

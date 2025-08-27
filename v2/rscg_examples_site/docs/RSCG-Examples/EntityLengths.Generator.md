@@ -7,6 +7,7 @@ slug: /EntityLengths.Generator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDatabase.mdx';
 
 # EntityLengths.Generator  by Taras Kovalenko
 
@@ -424,7 +425,7 @@ public static partial class Constants
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -444,17 +445,6 @@ public static partial class Constants
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EntityLengths.Generator
 
-### In the same category (Database) - 4 other generators
-
-
-#### [Breezy](/docs/Breezy)
-
-
-#### [Dapper.AOT](/docs/Dapper.AOT)
-
-
-#### [Gedaq](/docs/Gedaq)
-
-
-#### [TableStorage](/docs/TableStorage)
+aaa
+<SameCategory />
 

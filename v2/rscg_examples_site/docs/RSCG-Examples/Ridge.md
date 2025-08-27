@@ -7,6 +7,7 @@ slug: /Ridge
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTests.mdx';
 
 # Ridge  by Michal Motyčka
 
@@ -418,7 +419,7 @@ namespace RidgeDemoWebApp.Controllers
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -438,17 +439,6 @@ namespace RidgeDemoWebApp.Controllers
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Ridge
 
-### In the same category (Tests) - 4 other generators
-
-
-#### [mocklis](/docs/mocklis)
-
-
-#### [MockMe](/docs/MockMe)
-
-
-#### [MSTest](/docs/MSTest)
-
-
-#### [Rocks](/docs/Rocks)
+aaa
+<SameCategory />
 

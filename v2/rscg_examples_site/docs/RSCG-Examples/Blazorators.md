@@ -7,6 +7,7 @@ slug: /Blazorators
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveBlazor.mdx';
 
 # Blazorators  by David Pine
 
@@ -1272,7 +1273,7 @@ namespace System.Runtime.CompilerServices
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1292,8 +1293,6 @@ namespace System.Runtime.CompilerServices
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazorators
 
-### In the same category (Blazor) - 1 other generators
-
-
-#### [GoLive.Generator.BlazorInterop](/docs/GoLive.Generator.BlazorInterop)
+aaa
+<SameCategory />
 

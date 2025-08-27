@@ -7,6 +7,7 @@ slug: /CredFetoEnum
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # CredFetoEnum  by Mark Ridgwell
 
@@ -336,7 +337,7 @@ public static class ColorsGeneratedExtensions
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -356,20 +357,6 @@ public static class ColorsGeneratedExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CredFetoEnum
 
-### In the same category (Enum) - 5 other generators
-
-
-#### [EnumClass](/docs/EnumClass)
-
-
-#### [EnumUtilities](/docs/EnumUtilities)
-
-
-#### [FusionReactor](/docs/FusionReactor)
-
-
-#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-#### [PMart.Enumeration](/docs/PMart.Enumeration)
+aaa
+<SameCategory />
 

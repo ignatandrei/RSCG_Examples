@@ -7,6 +7,7 @@ slug: /AutoGen
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # AutoGen  by Feast Antelcat
 
@@ -297,7 +298,7 @@ namespace mapperDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -317,26 +318,6 @@ namespace mapperDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoGen
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoDTO](/docs/AutoDTO)
-
-
-#### [DynamicsMapper](/docs/DynamicsMapper)
-
-
-#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
-
-
-#### [MagicMap](/docs/MagicMap)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [MapTo](/docs/MapTo)
-
-
-#### [NextGenMapper](/docs/NextGenMapper)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /JsonPolymorphicGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
 
 # JsonPolymorphicGenerator  by surgicalcoder
 
@@ -227,7 +228,7 @@ namespace JsonPolymorphicGeneratorDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -247,17 +248,6 @@ namespace JsonPolymorphicGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/JsonPolymorphicGenerator
 
-### In the same category (Serializer) - 4 other generators
-
-
-#### [GenPack](/docs/GenPack)
-
-
-#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
-
-
-#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
-
-
-#### [System.Text.Json](/docs/System.Text.Json)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /Dolly
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveClone.mdx';
 
 # Dolly  by Peter Andersson
 
@@ -312,7 +313,7 @@ partial class Person : IClonable<Person>
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -332,8 +333,6 @@ partial class Person : IClonable<Person>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dolly
 
-### In the same category (Clone) - 1 other generators
-
-
-#### [CopyTo](/docs/CopyTo)
+aaa
+<SameCategory />
 

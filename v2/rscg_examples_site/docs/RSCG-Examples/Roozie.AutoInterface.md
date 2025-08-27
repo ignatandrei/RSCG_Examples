@@ -7,6 +7,7 @@ slug: /Roozie.AutoInterface
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveInterface.mdx';
 
 # Roozie.AutoInterface  by Alex Russak
 
@@ -221,8 +222,7 @@ public partial interface IPerson
     string? LastName { get; set; }
 
     string FullName();
-
-}
+}
 
 ```
 
@@ -233,7 +233,7 @@ public partial interface IPerson
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -253,38 +253,6 @@ public partial interface IPerson
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Roozie.AutoInterface
 
-### In the same category (Interface) - 11 other generators
-
-
-#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-
-#### [CopyCat](/docs/CopyCat)
-
-
-#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
-
-
-#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-#### [Matryoshki](/docs/Matryoshki)
-
-
-#### [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
-
-
-#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
-
-
-#### [ProxyGen](/docs/ProxyGen)
-
-
-#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
-
-
-#### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
-
-
-#### [RSCG_Static](/docs/RSCG_Static)
+aaa
+<SameCategory />
 

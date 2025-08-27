@@ -7,6 +7,7 @@ slug: /ProxyGen
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveInterface.mdx';
 
 # ProxyGen  by Dénes Solti
 
@@ -377,7 +378,7 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -397,38 +398,6 @@ internal sealed class Duck_BB1E45629CF5010E4068E5BFBB7EF53B : global::Solti.Util
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProxyGen
 
-### In the same category (Interface) - 11 other generators
-
-
-#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-
-#### [CopyCat](/docs/CopyCat)
-
-
-#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
-
-
-#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-#### [Matryoshki](/docs/Matryoshki)
-
-
-#### [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
-
-
-#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
-
-
-#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
-
-
-#### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
-
-
-#### [RSCG_Static](/docs/RSCG_Static)
+aaa
+<SameCategory />
 

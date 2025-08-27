@@ -7,6 +7,7 @@ slug: /immediate.apis
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 # immediate.apis  by Stuart Turner
 
@@ -560,7 +561,7 @@ public static class HandlerServiceCollectionExtensions
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -580,32 +581,6 @@ public static class HandlerServiceCollectionExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/immediate.apis
 
-### In the same category (API) - 9 other generators
-
-
-#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-
-#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
-
-
-#### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
-
-
-#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
-
-
-#### [RDG](/docs/RDG)
-
-
-#### [Refit](/docs/Refit)
-
-
-#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-
-#### [SafeRouting](/docs/SafeRouting)
-
-
-#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+aaa
+<SameCategory />
 

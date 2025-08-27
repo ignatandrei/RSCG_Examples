@@ -7,6 +7,7 @@ slug: /Flaggen
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # Flaggen  by Ricardo Boss
 
@@ -249,26 +250,6 @@ namespace EnumDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Flaggen
 
-### In the same category (Enum) - 7 other generators
-
-
-#### [CredFetoEnum](/docs/CredFetoEnum)
-
-
-#### [EnumClass](/docs/EnumClass)
-
-
-#### [EnumUtilities](/docs/EnumUtilities)
-
-
-#### [FusionReactor](/docs/FusionReactor)
-
-
-#### [jos.enumeration](/docs/jos.enumeration)
-
-
-#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-#### [PMart.Enumeration](/docs/PMart.Enumeration)
+aaa
+<SameCategory />
 

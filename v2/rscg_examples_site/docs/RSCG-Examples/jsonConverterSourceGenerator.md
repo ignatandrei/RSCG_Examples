@@ -7,6 +7,7 @@ slug: /jsonConverterSourceGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
 
 # jsonConverterSourceGenerator  by Aviationexam
 
@@ -1633,7 +1634,7 @@ public partial class ProjectJsonSerializerContext
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1653,17 +1654,6 @@ public partial class ProjectJsonSerializerContext
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/jsonConverterSourceGenerator
 
-### In the same category (Serializer) - 4 other generators
-
-
-#### [GenPack](/docs/GenPack)
-
-
-#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-
-#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
-
-
-#### [System.Text.Json](/docs/System.Text.Json)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /RossLean.StringificationGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveCodeToString.mdx';
 
 # RossLean.StringificationGenerator  by Alex Kalfakakos
 
@@ -244,7 +245,7 @@ public partial class ConstructionCodeGeneration : BaseConstructionCodeGeneration
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -264,11 +265,6 @@ public partial class ConstructionCodeGeneration : BaseConstructionCodeGeneration
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RossLean.StringificationGenerator
 
-### In the same category (CodeToString) - 2 other generators
-
-
-#### [CodeAnalysis](/docs/CodeAnalysis)
-
-
-#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+aaa
+<SameCategory />
 

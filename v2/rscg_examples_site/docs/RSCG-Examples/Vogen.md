@@ -7,6 +7,7 @@ slug: /Vogen
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitivePrimitiveObsession.mdx';
 
 # Vogen  by Steve Dunn
 
@@ -1344,7 +1345,7 @@ namespace DemoVogen
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1364,17 +1365,6 @@ namespace DemoVogen
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vogen
 
-### In the same category (PrimitiveObsession) - 4 other generators
-
-
-#### [DomainPrimitives](/docs/DomainPrimitives)
-
-
-#### [Strongly](/docs/Strongly)
-
-
-#### [StronglyTypedUid](/docs/StronglyTypedUid)
-
-
-#### [UnitGenerator](/docs/UnitGenerator)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /Figgle
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveConsole.mdx';
 
 # Figgle  by Drew Noakes
 
@@ -528,7 +529,7 @@ partial class MyTexts
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -548,5 +549,6 @@ partial class MyTexts
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Figgle
 
-### In the same category (Console) - 0 other generators
+aaa
+<SameCategory />
 

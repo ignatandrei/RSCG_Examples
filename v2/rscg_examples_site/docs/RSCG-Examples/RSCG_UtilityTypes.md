@@ -7,6 +7,7 @@ slug: /RSCG_UtilityTypes
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnhancementClass.mdx';
 
 # RSCG_UtilityTypes  by Andrei Ignat
 
@@ -246,7 +247,7 @@ ret.LastName = data.LastName;
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -266,86 +267,6 @@ ret.LastName = data.LastName;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_UtilityTypes
 
-### In the same category (EnhancementClass) - 27 other generators
-
-
-#### [ApparatusAOT](/docs/ApparatusAOT)
-
-
-#### [AspectGenerator](/docs/AspectGenerator)
-
-
-#### [CommonCodeGenerator](/docs/CommonCodeGenerator)
-
-
-#### [Comparison](/docs/Comparison)
-
-
-#### [DudNet](/docs/DudNet)
-
-
-#### [Enhanced.GetTypes](/docs/Enhanced.GetTypes)
-
-
-#### [FastGenericNew](/docs/FastGenericNew)
-
-
-#### [HsuSgSync](/docs/HsuSgSync)
-
-
-#### [Immutype](/docs/Immutype)
-
-
-#### [Ling.Audit](/docs/Ling.Audit)
-
-
-#### [Lombok.NET](/docs/Lombok.NET)
-
-
-#### [M31.FluentAPI](/docs/M31.FluentAPI)
-
-
-#### [MemberAccessor](/docs/MemberAccessor)
-
-
-#### [MemoryPack](/docs/MemoryPack)
-
-
-#### [Meziantou.Polyfill](/docs/Meziantou.Polyfill)
-
-
-#### [Microsoft.Extensions.Logging](/docs/Microsoft.Extensions.Logging)
-
-
-#### [Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator](/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator)
-
-
-#### [Microsoft.Interop.JavaScript.JSImportGenerator](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)
-
-
-#### [OptionToStringGenerator](/docs/OptionToStringGenerator)
-
-
-#### [QueryStringGenerator](/docs/QueryStringGenerator)
-
-
-#### [RSCG_Decorator](/docs/RSCG_Decorator)
-
-
-#### [StaticReflection](/docs/StaticReflection)
-
-
-#### [SyncMethodGenerator](/docs/SyncMethodGenerator)
-
-
-#### [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
-
-
-#### [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
-
-
-#### [TelemetryLogging](/docs/TelemetryLogging)
-
-
-#### [ThisClass](/docs/ThisClass)
+aaa
+<SameCategory />
 

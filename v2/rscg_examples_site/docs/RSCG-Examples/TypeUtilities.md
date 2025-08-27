@@ -7,6 +7,7 @@ slug: /TypeUtilities
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveFunctionalProgramming.mdx';
 
 # TypeUtilities  by Yevhenii Serdiuk
 
@@ -345,7 +346,7 @@ public partial class Person2
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -365,50 +366,6 @@ public partial class Person2
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypeUtilities
 
-### In the same category (FunctionalProgramming) - 15 other generators
-
-
-#### [cachesourcegenerator](/docs/cachesourcegenerator)
-
-
-#### [dunet](/docs/dunet)
-
-
-#### [Dusharp](/docs/Dusharp)
-
-
-#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
-
-
-#### [FunicularSwitch](/docs/FunicularSwitch)
-
-
-#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
-
-
-#### [OneOf](/docs/OneOf)
-
-
-#### [PartiallyApplied](/docs/PartiallyApplied)
-
-
-#### [polytype](/docs/polytype)
-
-
-#### [rscg_demeter](/docs/rscg_demeter)
-
-
-#### [rscg_queryables](/docs/rscg_queryables)
-
-
-#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
-
-
-#### [Sera.Union](/docs/Sera.Union)
-
-
-#### [UnionGen](/docs/UnionGen)
-
-
-#### [UnionsGenerator](/docs/UnionsGenerator)
+aaa
+<SameCategory />
 

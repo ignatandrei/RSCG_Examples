@@ -7,6 +7,7 @@ slug: /GenPack
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
 
 # GenPack  by dimohy
 
@@ -339,7 +340,7 @@ namespace SerializerDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -359,17 +360,6 @@ namespace SerializerDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/GenPack
 
-### In the same category (Serializer) - 4 other generators
-
-
-#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
-
-
-#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-
-#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
-
-
-#### [System.Text.Json](/docs/System.Text.Json)
+aaa
+<SameCategory />
 

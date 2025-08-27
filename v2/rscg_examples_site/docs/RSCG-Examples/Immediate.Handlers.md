@@ -7,6 +7,7 @@ slug: /Immediate.Handlers
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMediator.mdx';
 
 # Immediate.Handlers  by Stuart Turner
 
@@ -551,7 +552,7 @@ public static class HandlerServiceCollectionExtensions
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -571,11 +572,6 @@ public static class HandlerServiceCollectionExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Immediate.Handlers
 
-### In the same category (Mediator) - 2 other generators
-
-
-#### [DeeDee](/docs/DeeDee)
-
-
-#### [Mediator](/docs/Mediator)
+aaa
+<SameCategory />
 

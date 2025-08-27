@@ -7,6 +7,7 @@ slug: /EnumClass
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # EnumClass  by ashen.Blade
 
@@ -1062,7 +1063,7 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1082,20 +1083,6 @@ public abstract partial class Colors: IEquatable<Colors>, IEquatable<global::Enu
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumClass
 
-### In the same category (Enum) - 5 other generators
-
-
-#### [CredFetoEnum](/docs/CredFetoEnum)
-
-
-#### [EnumUtilities](/docs/EnumUtilities)
-
-
-#### [FusionReactor](/docs/FusionReactor)
-
-
-#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-#### [PMart.Enumeration](/docs/PMart.Enumeration)
+aaa
+<SameCategory />
 

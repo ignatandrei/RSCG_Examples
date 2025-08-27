@@ -7,6 +7,7 @@ slug: /Valuify
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEquals.mdx';
 
 # Valuify  by Paul Martins
 
@@ -721,7 +722,7 @@ namespace Valuify.Internal
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -741,11 +742,6 @@ namespace Valuify.Internal
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Valuify
 
-### In the same category (Equals) - 2 other generators
-
-
-#### [Equatable.Generator](/docs/Equatable.Generator)
-
-
-#### [GeneratorEquals](/docs/GeneratorEquals)
+aaa
+<SameCategory />
 

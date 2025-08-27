@@ -7,6 +7,7 @@ slug: /dunet
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveFunctionalProgramming.mdx';
 
 # dunet  by Domn Werner
 
@@ -1342,7 +1343,7 @@ internal static class WhatIsTheStringMatchExtensions
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1362,50 +1363,6 @@ internal static class WhatIsTheStringMatchExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/dunet
 
-### In the same category (FunctionalProgramming) - 15 other generators
-
-
-#### [cachesourcegenerator](/docs/cachesourcegenerator)
-
-
-#### [Dusharp](/docs/Dusharp)
-
-
-#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
-
-
-#### [FunicularSwitch](/docs/FunicularSwitch)
-
-
-#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
-
-
-#### [OneOf](/docs/OneOf)
-
-
-#### [PartiallyApplied](/docs/PartiallyApplied)
-
-
-#### [polytype](/docs/polytype)
-
-
-#### [rscg_demeter](/docs/rscg_demeter)
-
-
-#### [rscg_queryables](/docs/rscg_queryables)
-
-
-#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
-
-
-#### [Sera.Union](/docs/Sera.Union)
-
-
-#### [TypeUtilities](/docs/TypeUtilities)
-
-
-#### [UnionGen](/docs/UnionGen)
-
-
-#### [UnionsGenerator](/docs/UnionsGenerator)
+aaa
+<SameCategory />
 

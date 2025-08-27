@@ -7,6 +7,7 @@ slug: /NextGenMapper
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # NextGenMapper  by Anton Ryabchikov
 
@@ -445,7 +446,7 @@ namespace NextGenMapper
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -465,26 +466,6 @@ namespace NextGenMapper
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NextGenMapper
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoDTO](/docs/AutoDTO)
-
-
-#### [AutoGen](/docs/AutoGen)
-
-
-#### [DynamicsMapper](/docs/DynamicsMapper)
-
-
-#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
-
-
-#### [MagicMap](/docs/MagicMap)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [MapTo](/docs/MapTo)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /BenutomoAutomaticDisposeImplSourceGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDisposer.mdx';
 
 # BenutomoAutomaticDisposeImplSourceGenerator  by benutomo
 
@@ -786,7 +787,7 @@ namespace Benutomo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -806,17 +807,6 @@ namespace Benutomo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator
 
-### In the same category (Disposer) - 4 other generators
-
-
-#### [Coplt.Dropping](/docs/Coplt.Dropping)
-
-
-#### [DisposableHelpers](/docs/DisposableHelpers)
-
-
-#### [Disposer](/docs/Disposer)
-
-
-#### [IDisposableGenerator](/docs/IDisposableGenerator)
+aaa
+<SameCategory />
 

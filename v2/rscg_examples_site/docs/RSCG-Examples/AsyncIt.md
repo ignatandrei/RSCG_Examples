@@ -7,6 +7,7 @@ slug: /AsyncIt
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAsync.mdx';
 
 # AsyncIt  by Oleg Shilo
 
@@ -430,8 +431,6 @@ namespace AsyncDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AsyncIt
 
-### In the same category (Async) - 1 other generators
-
-
-#### [HsuSgSync](/docs/HsuSgSync)
+aaa
+<SameCategory />
 

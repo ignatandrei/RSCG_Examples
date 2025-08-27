@@ -7,6 +7,7 @@ slug: /AutoRegisterInject
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDependencyInjection.mdx';
 
 # AutoRegisterInject  by Patrick Klaeren
 
@@ -364,7 +365,7 @@ serviceCollection.AddSingleton<AutoRegisterInjectDemo.DatabaseCon>();
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -384,26 +385,6 @@ serviceCollection.AddSingleton<AutoRegisterInjectDemo.DatabaseCon>();
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoRegisterInject
 
-### In the same category (DependencyInjection) - 7 other generators
-
-
-#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
-
-
-#### [depso](/docs/depso)
-
-
-#### [FactoryGenerator](/docs/FactoryGenerator)
-
-
-#### [Injectio](/docs/Injectio)
-
-
-#### [jab](/docs/jab)
-
-
-#### [Pure.DI](/docs/Pure.DI)
-
-
-#### [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+aaa
+<SameCategory />
 

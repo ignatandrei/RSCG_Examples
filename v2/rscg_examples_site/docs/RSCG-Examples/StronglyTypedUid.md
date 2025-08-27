@@ -7,6 +7,7 @@ slug: /StronglyTypedUid
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitivePrimitiveObsession.mdx';
 
 # StronglyTypedUid  by Victor Sánchez
 
@@ -186,7 +187,7 @@ Transforming a record into a GUID
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -382,7 +383,7 @@ public class PersonIdJsonConverter : JsonConverter<PersonId>
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -402,17 +403,6 @@ public class PersonIdJsonConverter : JsonConverter<PersonId>
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/StronglyTypedUid
 
-### In the same category (PrimitiveObsession) - 4 other generators
-
-
-#### [DomainPrimitives](/docs/DomainPrimitives)
-
-
-#### [Strongly](/docs/Strongly)
-
-
-#### [UnitGenerator](/docs/UnitGenerator)
-
-
-#### [Vogen](/docs/Vogen)
+aaa
+<SameCategory />
 

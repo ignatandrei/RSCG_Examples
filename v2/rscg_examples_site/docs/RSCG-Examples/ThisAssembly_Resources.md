@@ -7,6 +7,7 @@ slug: /ThisAssembly_Resources
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveFilesToCode.mdx';
 
 # ThisAssembly_Resources  by Daniel Cazzulino
 
@@ -669,7 +670,7 @@ static class EmbeddedResource
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -689,44 +690,6 @@ static class EmbeddedResource
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ThisAssembly_Resources
 
-### In the same category (FilesToCode) - 13 other generators
-
-
-#### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
-
-
-#### [corecraft](/docs/corecraft)
-
-
-#### [Datacute.EmbeddedResourcePropertyGenerator](/docs/Datacute.EmbeddedResourcePropertyGenerator)
-
-
-#### [DotnetYang](/docs/DotnetYang)
-
-
-#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
-
-
-#### [LingoGen](/docs/LingoGen)
-
-
-#### [NotNotAppSettings](/docs/NotNotAppSettings)
-
-
-#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
-
-
-#### [ResXGenerator](/docs/ResXGenerator)
-
-
-#### [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
-
-
-#### [RSCG_Utils](/docs/RSCG_Utils)
-
-
-#### [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
-
-
-#### [Weave](/docs/Weave)
+aaa
+<SameCategory />
 

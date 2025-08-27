@@ -7,6 +7,7 @@ slug: /Minerals.AutoMixins
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTemplating.mdx';
 
 # Minerals.AutoMixins  by Szymon Halucha
 
@@ -386,7 +387,7 @@ namespace Minerals.AutoMixins
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -406,38 +407,6 @@ namespace Minerals.AutoMixins
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Minerals.AutoMixins
 
-### In the same category (Templating) - 11 other generators
-
-
-#### [Gobie](/docs/Gobie)
-
-
-#### [InterceptorTemplate](/docs/InterceptorTemplate)
-
-
-#### [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
-
-
-#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
-
-
-#### [MorrisMoxy](/docs/MorrisMoxy)
-
-
-#### [NTypewriter](/docs/NTypewriter)
-
-
-#### [RazorBlade](/docs/RazorBlade)
-
-
-#### [RazorSlices](/docs/RazorSlices)
-
-
-#### [RSCG_IFormattable](/docs/RSCG_IFormattable)
-
-
-#### [RSCG_Templating](/docs/RSCG_Templating)
-
-
-#### [spreadcheetah](/docs/spreadcheetah)
+aaa
+<SameCategory />
 

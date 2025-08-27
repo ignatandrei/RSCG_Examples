@@ -7,6 +7,7 @@ slug: /{{Description.Generator.Name}}
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_Primitive{{category}}.mdx';
 
 # {{ Description.Generator.Name }}  by {{Description.Generator.Author}}
 
@@ -134,10 +135,6 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
 
-### In the same category ({{category}}) - {{otherDesc.size}} other generators
+aaa
+<SameCategory />
 
-{{~ for rscgV in otherDesc ~}}
-
-#### [{{rscgV.Generator.Name}}](/docs/{{rscgV.Generator.Name}})
-
-{{~ end ~}}

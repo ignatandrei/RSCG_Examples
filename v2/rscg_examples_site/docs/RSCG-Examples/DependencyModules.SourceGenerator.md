@@ -7,6 +7,7 @@ slug: /DependencyModules.SourceGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDependencyInjection.mdx';
 
 # DependencyModules.SourceGenerator  by Ian Johnson
 
@@ -523,7 +524,7 @@ public partial class MyModule : IDependencyModule
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -543,26 +544,6 @@ public partial class MyModule : IDependencyModule
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator
 
-### In the same category (DependencyInjection) - 7 other generators
-
-
-#### [AutoRegisterInject](/docs/AutoRegisterInject)
-
-
-#### [depso](/docs/depso)
-
-
-#### [FactoryGenerator](/docs/FactoryGenerator)
-
-
-#### [Injectio](/docs/Injectio)
-
-
-#### [jab](/docs/jab)
-
-
-#### [Pure.DI](/docs/Pure.DI)
-
-
-#### [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+aaa
+<SameCategory />
 

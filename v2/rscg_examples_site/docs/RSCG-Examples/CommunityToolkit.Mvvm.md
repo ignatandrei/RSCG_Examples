@@ -7,6 +7,7 @@ slug: /CommunityToolkit.Mvvm
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMVVM.mdx';
 
 # CommunityToolkit.Mvvm  by Microsoft
 
@@ -842,7 +843,7 @@ namespace test
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -862,8 +863,6 @@ namespace test
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm
 
-### In the same category (MVVM) - 1 other generators
-
-
-#### [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+aaa
+<SameCategory />
 

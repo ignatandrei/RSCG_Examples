@@ -7,7 +7,7 @@ slug: /DomainPrimitives
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
-import PrimitiveObsession from './../Categories/_PrimitiveObsession.mdx';
+import SameCategory from '../Categories/_PrimitivePrimitiveObsession.mdx';
 
 # DomainPrimitives  by Alta Software - Teimuraz Nikolaishvili
 
@@ -1841,7 +1841,7 @@ public sealed class YearDateTypeConverter : Int32Converter
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1861,6 +1861,6 @@ public sealed class YearDateTypeConverter : Int32Converter
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DomainPrimitives
 
-### In the same category (PrimitiveObsession) - 4 other generators
+aaa
+<SameCategory />
 
-<PrimitiveObsession />

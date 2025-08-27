@@ -7,6 +7,7 @@ slug: /Coplt.Dropping
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDisposer.mdx';
 
 # Coplt.Dropping  by 2A5F
 
@@ -245,7 +246,7 @@ internal partial class DALDB : global::System.IDisposable
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -265,17 +266,6 @@ internal partial class DALDB : global::System.IDisposable
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Coplt.Dropping
 
-### In the same category (Disposer) - 4 other generators
-
-
-#### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-
-#### [DisposableHelpers](/docs/DisposableHelpers)
-
-
-#### [Disposer](/docs/Disposer)
-
-
-#### [IDisposableGenerator](/docs/IDisposableGenerator)
+aaa
+<SameCategory />
 

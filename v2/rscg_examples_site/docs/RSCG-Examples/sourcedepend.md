@@ -7,6 +7,7 @@ slug: /sourcedepend
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveConstructor.mdx';
 
 # sourcedepend  by Colin Wilmans
 
@@ -208,7 +209,7 @@ Generating constructor for DI
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -352,7 +353,7 @@ namespace CtorDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -372,23 +373,6 @@ namespace CtorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/sourcedepend
 
-### In the same category (Constructor) - 6 other generators
-
-
-#### [AutoConstructor](/docs/AutoConstructor)
-
-
-#### [AutoCtor](/docs/AutoCtor)
-
-
-#### [AutoDeconstruct](/docs/AutoDeconstruct)
-
-
-#### [ConstructorGenerator](/docs/ConstructorGenerator)
-
-
-#### [PrimaryParameter](/docs/PrimaryParameter)
-
-
-#### [QuickConstructor](/docs/QuickConstructor)
+aaa
+<SameCategory />
 

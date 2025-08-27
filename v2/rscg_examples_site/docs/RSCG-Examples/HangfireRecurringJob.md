@@ -7,6 +7,7 @@ slug: /HangfireRecurringJob
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveHangfire.mdx';
 
 # HangfireRecurringJob  by Ieuan Walker
 
@@ -289,7 +290,7 @@ public static class RecurringJobRegistrationExtensions
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -309,5 +310,6 @@ public static class RecurringJobRegistrationExtensions
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/HangfireRecurringJob
 
-### In the same category (Hangfire) - 0 other generators
+aaa
+<SameCategory />
 

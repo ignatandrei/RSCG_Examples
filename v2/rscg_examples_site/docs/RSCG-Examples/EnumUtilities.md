@@ -7,6 +7,7 @@ slug: /EnumUtilities
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # EnumUtilities  by Fabricio Godoy
 
@@ -855,7 +856,7 @@ namespace EnumClassDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -875,20 +876,6 @@ namespace EnumClassDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumUtilities
 
-### In the same category (Enum) - 5 other generators
-
-
-#### [CredFetoEnum](/docs/CredFetoEnum)
-
-
-#### [EnumClass](/docs/EnumClass)
-
-
-#### [FusionReactor](/docs/FusionReactor)
-
-
-#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-#### [PMart.Enumeration](/docs/PMart.Enumeration)
+aaa
+<SameCategory />
 

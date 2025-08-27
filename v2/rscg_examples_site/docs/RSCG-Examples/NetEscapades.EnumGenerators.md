@@ -7,6 +7,7 @@ slug: /NetEscapades.EnumGenerators
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # NetEscapades.EnumGenerators  by Andrew Lock
 
@@ -1310,7 +1311,7 @@ using System;
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1330,20 +1331,6 @@ using System;
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators
 
-### In the same category (Enum) - 5 other generators
-
-
-#### [CredFetoEnum](/docs/CredFetoEnum)
-
-
-#### [EnumClass](/docs/EnumClass)
-
-
-#### [EnumUtilities](/docs/EnumUtilities)
-
-
-#### [FusionReactor](/docs/FusionReactor)
-
-
-#### [PMart.Enumeration](/docs/PMart.Enumeration)
+aaa
+<SameCategory />
 

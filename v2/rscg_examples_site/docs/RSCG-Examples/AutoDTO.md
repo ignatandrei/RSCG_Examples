@@ -7,6 +7,7 @@ slug: /AutoDTO
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # AutoDTO  by Ohorodnikov
 
@@ -265,26 +266,13 @@ public partial class DepartmentDTO {
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
 <Tabs>
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\AutoDTO\src\AutoDTODemo\obj\GX\AutoDto.SourceGen\AutoDto.SourceGen.DtoFromBlGenerator\DepartmentDTO.g.cs" label="DepartmentDTO.g.cs" >
 
-
-```csharp showLineNumbers 
-namespace AutoDTODemo;
-
-public partial class DepartmentDTO
-{
-public System.Int32 ID { get; set; }
-public System.String Name { get; set; }
-}
-```
-
-  </TabItem>
 
 </Tabs>
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -304,26 +292,6 @@ public System.String Name { get; set; }
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoDTO
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoGen](/docs/AutoGen)
-
-
-#### [DynamicsMapper](/docs/DynamicsMapper)
-
-
-#### [LightweightObjectMapper](/docs/LightweightObjectMapper)
-
-
-#### [MagicMap](/docs/MagicMap)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [MapTo](/docs/MapTo)
-
-
-#### [NextGenMapper](/docs/NextGenMapper)
+aaa
+<SameCategory />
 

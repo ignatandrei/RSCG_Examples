@@ -7,6 +7,7 @@ slug: /Gobie
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTemplating.mdx';
 
 # Gobie  by Mike Conrad
 
@@ -236,7 +237,7 @@ namespace Gobie
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -256,38 +257,6 @@ namespace Gobie
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Gobie
 
-### In the same category (Templating) - 11 other generators
-
-
-#### [InterceptorTemplate](/docs/InterceptorTemplate)
-
-
-#### [JKToolKit.TemplatePropertyGenerator](/docs/JKToolKit.TemplatePropertyGenerator)
-
-
-#### [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
-
-
-#### [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
-
-
-#### [MorrisMoxy](/docs/MorrisMoxy)
-
-
-#### [NTypewriter](/docs/NTypewriter)
-
-
-#### [RazorBlade](/docs/RazorBlade)
-
-
-#### [RazorSlices](/docs/RazorSlices)
-
-
-#### [RSCG_IFormattable](/docs/RSCG_IFormattable)
-
-
-#### [RSCG_Templating](/docs/RSCG_Templating)
-
-
-#### [spreadcheetah](/docs/spreadcheetah)
+aaa
+<SameCategory />
 

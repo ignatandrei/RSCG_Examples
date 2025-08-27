@@ -7,6 +7,7 @@ slug: /LightweightObjectMapper
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # LightweightObjectMapper  by Stratos
 
@@ -865,7 +866,7 @@ namespace LightweightObjectMapper
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -885,26 +886,6 @@ namespace LightweightObjectMapper
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/LightweightObjectMapper
 
-### In the same category (Mapper) - 7 other generators
-
-
-#### [AutoDTO](/docs/AutoDTO)
-
-
-#### [AutoGen](/docs/AutoGen)
-
-
-#### [DynamicsMapper](/docs/DynamicsMapper)
-
-
-#### [MagicMap](/docs/MagicMap)
-
-
-#### [mapperly](/docs/mapperly)
-
-
-#### [MapTo](/docs/MapTo)
-
-
-#### [NextGenMapper](/docs/NextGenMapper)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /MSTest
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTests.mdx';
 
 # MSTest  by Microsoft
 
@@ -53,6 +54,7 @@ Source: https://github.com/microsoft/testfx
 [![GitHub pulls-opened](https://img.shields.io/github/issues-pr/microsoft/testfx.svg)](https://GitHub.com/microsoft/testfx/pulls?q=is%3Aissue+is%3Aopened)
 [![GitHub pulls-merged](https://img.shields.io/github/issues-search/microsoft/testfx?label=merged%20pull%20requests&query=is%3Apr%20is%3Aclosed%20is%3Amerged&color=darkviolet)](https://github.com/microsoft/testfx/pulls?q=is%3Apr+is%3Aclosed+is%3Amerged)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/testfx.svg)](https://GitHub.com/microsoft/testfx/graphs/contributors/)
+[![Commit Activity](https://img.shields.io/github/commit-activity/m/microsoft/testfx)](.)
 [![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/Microsoft/testfx/microsoft.testfx?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=209&branchName=main)
 
 MSTest, Microsoft Testing Framework, is a unit testing framework for .NET applications. It allows you to write tests, use Test Explorer, create test suites, and apply the red, green, refactor pattern to write code.
@@ -390,7 +392,7 @@ namespace DemoTest
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -410,17 +412,6 @@ namespace DemoTest
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MSTest
 
-### In the same category (Tests) - 4 other generators
-
-
-#### [mocklis](/docs/mocklis)
-
-
-#### [MockMe](/docs/MockMe)
-
-
-#### [Ridge](/docs/Ridge)
-
-
-#### [Rocks](/docs/Rocks)
+aaa
+<SameCategory />
 

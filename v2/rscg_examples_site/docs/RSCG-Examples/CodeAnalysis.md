@@ -7,6 +7,7 @@ slug: /CodeAnalysis
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveCodeToString.mdx';
 
 # CodeAnalysis  by Feast
 
@@ -228,7 +229,7 @@ namespace DemoLit
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -248,11 +249,6 @@ namespace DemoLit
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CodeAnalysis
 
-### In the same category (CodeToString) - 2 other generators
-
-
-#### [RossLean.StringificationGenerator](/docs/RossLean.StringificationGenerator)
-
-
-#### [SourceGenerator.Helper.CopyCode](/docs/SourceGenerator.Helper.CopyCode)
+aaa
+<SameCategory />
 

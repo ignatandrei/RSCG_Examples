@@ -7,6 +7,7 @@ slug: /RDG
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 # RDG  by Microsoft
 
@@ -605,7 +606,7 @@ namespace Microsoft.AspNetCore.Http.Generated
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -625,32 +626,6 @@ namespace Microsoft.AspNetCore.Http.Generated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RDG
 
-### In the same category (API) - 9 other generators
-
-
-#### [immediate.apis](/docs/immediate.apis)
-
-
-#### [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-
-#### [MinimalApiBuilder](/docs/MinimalApiBuilder)
-
-
-#### [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
-
-
-#### [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
-
-
-#### [Refit](/docs/Refit)
-
-
-#### [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-
-#### [SafeRouting](/docs/SafeRouting)
-
-
-#### [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+aaa
+<SameCategory />
 

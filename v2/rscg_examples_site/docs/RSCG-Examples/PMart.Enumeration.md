@@ -7,6 +7,7 @@ slug: /PMart.Enumeration
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # PMart.Enumeration  by Martinho
 
@@ -1273,7 +1274,7 @@ namespace DemoPMart
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1293,20 +1294,6 @@ namespace DemoPMart
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PMart.Enumeration
 
-### In the same category (Enum) - 5 other generators
-
-
-#### [CredFetoEnum](/docs/CredFetoEnum)
-
-
-#### [EnumClass](/docs/EnumClass)
-
-
-#### [EnumUtilities](/docs/EnumUtilities)
-
-
-#### [FusionReactor](/docs/FusionReactor)
-
-
-#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
+aaa
+<SameCategory />
 

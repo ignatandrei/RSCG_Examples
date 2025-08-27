@@ -7,6 +7,7 @@ slug: /LingoGen
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveFilesToCode.mdx';
 
 # LingoGen  by Ruben Broere
 
@@ -348,7 +349,7 @@ public static partial class Lingo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -368,44 +369,6 @@ public static partial class Lingo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/LingoGen
 
-### In the same category (FilesToCode) - 13 other generators
-
-
-#### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
-
-
-#### [corecraft](/docs/corecraft)
-
-
-#### [Datacute.EmbeddedResourcePropertyGenerator](/docs/Datacute.EmbeddedResourcePropertyGenerator)
-
-
-#### [DotnetYang](/docs/DotnetYang)
-
-
-#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
-
-
-#### [NotNotAppSettings](/docs/NotNotAppSettings)
-
-
-#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
-
-
-#### [ResXGenerator](/docs/ResXGenerator)
-
-
-#### [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
-
-
-#### [RSCG_Utils](/docs/RSCG_Utils)
-
-
-#### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
-
-
-#### [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
-
-
-#### [Weave](/docs/Weave)
+aaa
+<SameCategory />
 

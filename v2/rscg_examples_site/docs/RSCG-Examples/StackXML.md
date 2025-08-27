@@ -7,6 +7,7 @@ slug: /StackXML
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
 
 # StackXML  by Zing
 
@@ -392,20 +393,6 @@ namespace SerializerDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/StackXML
 
-### In the same category (Serializer) - 5 other generators
-
-
-#### [GenPack](/docs/GenPack)
-
-
-#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
-
-
-#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-
-#### [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
-
-
-#### [System.Text.Json](/docs/System.Text.Json)
+aaa
+<SameCategory />
 

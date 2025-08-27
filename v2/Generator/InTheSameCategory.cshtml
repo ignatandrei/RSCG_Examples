@@ -1,0 +1,20 @@
+@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>;
+@{
+    string linkCategory = $"[{Model.Key}](/docs/Categories/{Model.Key})";
+}
+### Category "@(Model.Key)" has the following generators:
+@{
+    int i=1;
+    var values = Model.Value.OrderBy(it=>it.Generator?.Name).ToArray();
+}
+@foreach (var rscgV in values)
+{
+    string data = $"[{rscgV.Generator?.Name}](/docs/{rscgV.Generator?.Name})";
+<text>
+   @(i++) @data
+</text>
+}
+
+### See category
+
+@linkCategory

@@ -7,6 +7,7 @@ slug: /PropertyChangedSourceGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMVVM.mdx';
 
 # PropertyChangedSourceGenerator  by Antony Male
 
@@ -1003,7 +1004,7 @@ namespace PropChangeDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1023,8 +1024,6 @@ namespace PropChangeDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator
 
-### In the same category (MVVM) - 1 other generators
-
-
-#### [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
+aaa
+<SameCategory />
 

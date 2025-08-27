@@ -7,6 +7,7 @@ slug: /ArgumentParsing
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveCommandLine.mdx';
 
 # ArgumentParsing  by 
 
@@ -741,7 +742,7 @@ namespace ArgumentParsing.Generated
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -761,5 +762,6 @@ namespace ArgumentParsing.Generated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ArgumentParsing
 
-### In the same category (CommandLine) - 0 other generators
+aaa
+<SameCategory />
 

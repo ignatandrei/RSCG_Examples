@@ -7,6 +7,7 @@ slug: /jab
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDependencyInjection.mdx';
 
 # jab  by Pavel Krymets
 
@@ -955,7 +956,7 @@ internal partial class MyServiceProvider : global::System.IDisposable,
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -975,26 +976,6 @@ internal partial class MyServiceProvider : global::System.IDisposable,
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/jab
 
-### In the same category (DependencyInjection) - 7 other generators
-
-
-#### [AutoRegisterInject](/docs/AutoRegisterInject)
-
-
-#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
-
-
-#### [depso](/docs/depso)
-
-
-#### [FactoryGenerator](/docs/FactoryGenerator)
-
-
-#### [Injectio](/docs/Injectio)
-
-
-#### [Pure.DI](/docs/Pure.DI)
-
-
-#### [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+aaa
+<SameCategory />
 

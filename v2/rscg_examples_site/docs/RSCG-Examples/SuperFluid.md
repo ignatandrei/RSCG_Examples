@@ -7,6 +7,7 @@ slug: /SuperFluid
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveStateMachine.mdx';
 
 # SuperFluid  by James Hughes
 
@@ -305,7 +306,7 @@ Generate a state machine from a yaml file
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -505,7 +506,7 @@ public interface ICanAddOrSubtractOrCalculate
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -525,5 +526,6 @@ public interface ICanAddOrSubtractOrCalculate
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SuperFluid
 
-### In the same category (StateMachine) - 0 other generators
+aaa
+<SameCategory />
 

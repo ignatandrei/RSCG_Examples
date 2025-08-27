@@ -7,6 +7,7 @@ slug: /WhatIAmDoing
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveAOP.mdx';
 
 # WhatIAmDoing  by Ignat Andrei
 
@@ -581,7 +582,7 @@ $$$""""
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -601,5 +602,6 @@ $$$""""
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/WhatIAmDoing
 
-### In the same category (AOP) - 0 other generators
+aaa
+<SameCategory />
 

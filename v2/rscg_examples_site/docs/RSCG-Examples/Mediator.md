@@ -7,6 +7,7 @@ slug: /Mediator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveMediator.mdx';
 
 # Mediator  by Martin Othamar
 
@@ -1636,7 +1637,7 @@ namespace Mediator
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1656,11 +1657,6 @@ namespace Mediator
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mediator
 
-### In the same category (Mediator) - 2 other generators
-
-
-#### [DeeDee](/docs/DeeDee)
-
-
-#### [Immediate.Handlers](/docs/Immediate.Handlers)
+aaa
+<SameCategory />
 

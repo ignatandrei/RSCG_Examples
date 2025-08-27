@@ -7,6 +7,7 @@ slug: /BuilderGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveBuilder.mdx';
 
 # BuilderGenerator  by Mell Grubb
 
@@ -411,7 +412,7 @@ namespace Builder
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -431,17 +432,6 @@ namespace Builder
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/BuilderGenerator
 
-### In the same category (Builder) - 4 other generators
-
-
-#### [Architect.DomainModeling](/docs/Architect.DomainModeling)
-
-
-#### [Fluentify](/docs/Fluentify)
-
-
-#### [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
-
-
-#### [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+aaa
+<SameCategory />
 

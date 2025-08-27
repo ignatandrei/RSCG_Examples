@@ -7,6 +7,7 @@ slug: /RSCG_CompositeProvider
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveInterface.mdx';
 
 # RSCG_CompositeProvider  by Ignat Andrei
 
@@ -368,7 +369,7 @@ public global::CP_Console.IDataValue Get(int nr){
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -388,38 +389,6 @@ public global::CP_Console.IDataValue Get(int nr){
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_CompositeProvider
 
-### In the same category (Interface) - 11 other generators
-
-
-#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-
-#### [CopyCat](/docs/CopyCat)
-
-
-#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
-
-
-#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-#### [Matryoshki](/docs/Matryoshki)
-
-
-#### [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
-
-
-#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
-
-
-#### [ProxyGen](/docs/ProxyGen)
-
-
-#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-#### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
-
-
-#### [RSCG_Static](/docs/RSCG_Static)
+aaa
+<SameCategory />
 

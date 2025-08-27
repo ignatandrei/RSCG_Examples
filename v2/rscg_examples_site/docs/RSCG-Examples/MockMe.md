@@ -7,6 +7,7 @@ slug: /MockMe
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveTests.mdx';
 
 # MockMe  by connorivy
 
@@ -407,7 +408,7 @@ namespace MockMe.Generated.MockData
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -427,17 +428,6 @@ namespace MockMe.Generated.MockData
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/MockMe
 
-### In the same category (Tests) - 4 other generators
-
-
-#### [mocklis](/docs/mocklis)
-
-
-#### [MSTest](/docs/MSTest)
-
-
-#### [Ridge](/docs/Ridge)
-
-
-#### [Rocks](/docs/Rocks)
+aaa
+<SameCategory />
 

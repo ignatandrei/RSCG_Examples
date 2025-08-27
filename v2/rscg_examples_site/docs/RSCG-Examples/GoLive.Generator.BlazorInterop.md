@@ -7,6 +7,7 @@ slug: /GoLive.Generator.BlazorInterop
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveBlazor.mdx';
 
 # GoLive.Generator.BlazorInterop  by surgicalcoder
 
@@ -304,7 +305,7 @@ namespace GoLive.Generator.BlazorInterop.Playground.Client
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -324,8 +325,6 @@ namespace GoLive.Generator.BlazorInterop.Playground.Client
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/GoLive.Generator.BlazorInterop
 
-### In the same category (Blazor) - 1 other generators
-
-
-#### [Blazorators](/docs/Blazorators)
+aaa
+<SameCategory />
 

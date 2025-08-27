@@ -7,6 +7,7 @@ slug: /ConstructorGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveConstructor.mdx';
 
 # ConstructorGenerator  by Swarley97
 
@@ -444,7 +445,7 @@ namespace QuickConstructorDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -464,23 +465,6 @@ namespace QuickConstructorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConstructorGenerator
 
-### In the same category (Constructor) - 6 other generators
-
-
-#### [AutoConstructor](/docs/AutoConstructor)
-
-
-#### [AutoCtor](/docs/AutoCtor)
-
-
-#### [AutoDeconstruct](/docs/AutoDeconstruct)
-
-
-#### [PrimaryParameter](/docs/PrimaryParameter)
-
-
-#### [QuickConstructor](/docs/QuickConstructor)
-
-
-#### [sourcedepend](/docs/sourcedepend)
+aaa
+<SameCategory />
 

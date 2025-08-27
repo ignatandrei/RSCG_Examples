@@ -7,6 +7,7 @@ slug: /ProtobufSourceGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
 
 # ProtobufSourceGenerator  by Laszlo Deak
 
@@ -301,7 +302,7 @@ public partial class Person
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -321,17 +322,6 @@ public partial class Person
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/ProtobufSourceGenerator
 
-### In the same category (Serializer) - 4 other generators
-
-
-#### [GenPack](/docs/GenPack)
-
-
-#### [jsonConverterSourceGenerator](/docs/jsonConverterSourceGenerator)
-
-
-#### [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
-
-
-#### [System.Text.Json](/docs/System.Text.Json)
+aaa
+<SameCategory />
 

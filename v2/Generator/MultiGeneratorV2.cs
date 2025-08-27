@@ -697,12 +697,16 @@ public class MultiGeneratorV2
         foreach (var item in categDict)
         {
             var category = await new CategoryDisplay(item).RenderAsync();
+            var inTheSameCategory = await new InTheSameCategory(item).RenderAsync();
             var folder = Path.Combine(pathDocusaurus, "docs", "Categories");
             if(!Directory.Exists(folder))
                 Directory.CreateDirectory(folder);
             var pathCategory = Path.Combine(folder, item.Key + ".md");
             await File.WriteAllTextAsync(pathCategory, category);
-                
+            pathCategory = Path.Combine(folder, "_Primitive"+item.Key + ".mdx");
+
+            await File.WriteAllTextAsync(pathCategory, inTheSameCategory);
+
         }
         var outputMermaid = templateMermaid.Render(new { nr = _AllDescriptions.Length,  categs,all,categDict}, 
             memberRenamer:(MemberInfo mi)=> mi.Name);

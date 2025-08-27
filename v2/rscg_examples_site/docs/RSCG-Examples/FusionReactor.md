@@ -7,6 +7,7 @@ slug: /FusionReactor
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
 
 # FusionReactor  by OhFlowi
 
@@ -1431,7 +1432,7 @@ public class GenerateEnumExtensionsAttribute : Attribute
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1451,20 +1452,6 @@ public class GenerateEnumExtensionsAttribute : Attribute
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FusionReactor
 
-### In the same category (Enum) - 5 other generators
-
-
-#### [CredFetoEnum](/docs/CredFetoEnum)
-
-
-#### [EnumClass](/docs/EnumClass)
-
-
-#### [EnumUtilities](/docs/EnumUtilities)
-
-
-#### [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-
-#### [PMart.Enumeration](/docs/PMart.Enumeration)
+aaa
+<SameCategory />
 

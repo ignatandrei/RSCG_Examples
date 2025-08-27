@@ -7,6 +7,7 @@ slug: /SourceGenerator.Helper.CopyCode
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveCodeToString.mdx';
 
 # SourceGenerator.Helper.CopyCode  by Patrick Kranz
 
@@ -108,7 +109,7 @@ Transform Code to string
 
 ## How to use
 
-### Example ( source csproj, source files )
+### Example (source csproj, source files)
 
 <Tabs>
 
@@ -261,7 +262,7 @@ internal  static partial class Copy {
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -281,11 +282,6 @@ internal  static partial class Copy {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode
 
-### In the same category (CodeToString) - 2 other generators
-
-
-#### [CodeAnalysis](/docs/CodeAnalysis)
-
-
-#### [RossLean.StringificationGenerator](/docs/RossLean.StringificationGenerator)
+aaa
+<SameCategory />
 

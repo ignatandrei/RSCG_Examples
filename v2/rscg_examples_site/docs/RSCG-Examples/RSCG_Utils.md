@@ -7,6 +7,7 @@ slug: /RSCG_Utils
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveFilesToCode.mdx';
 
 # RSCG_Utils  by Ignat Andrei
 
@@ -198,7 +199,7 @@ as C# const
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -218,44 +219,6 @@ as C# const
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_Utils
 
-### In the same category (FilesToCode) - 13 other generators
-
-
-#### [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
-
-
-#### [corecraft](/docs/corecraft)
-
-
-#### [Datacute.EmbeddedResourcePropertyGenerator](/docs/Datacute.EmbeddedResourcePropertyGenerator)
-
-
-#### [DotnetYang](/docs/DotnetYang)
-
-
-#### [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
-
-
-#### [LingoGen](/docs/LingoGen)
-
-
-#### [NotNotAppSettings](/docs/NotNotAppSettings)
-
-
-#### [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
-
-
-#### [ResXGenerator](/docs/ResXGenerator)
-
-
-#### [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
-
-
-#### [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
-
-
-#### [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
-
-
-#### [Weave](/docs/Weave)
+aaa
+<SameCategory />
 

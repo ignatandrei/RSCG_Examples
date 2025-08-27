@@ -7,6 +7,7 @@ slug: /AutoInterface
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveInterface.mdx';
 
 # AutoInterface  by Black White Yoshi
 
@@ -1128,41 +1129,6 @@ internal sealed class IgnoreAutoInterfaceAttribute : Attribute { }
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/AutoInterface
 
-### In the same category (Interface) - 12 other generators
-
-
-#### [Biwen.AutoClassGen](/docs/Biwen.AutoClassGen)
-
-
-#### [CopyCat](/docs/CopyCat)
-
-
-#### [Farskeptic.AutoCompose](/docs/Farskeptic.AutoCompose)
-
-
-#### [MakeInterface.Generator](/docs/MakeInterface.Generator)
-
-
-#### [Matryoshki](/docs/Matryoshki)
-
-
-#### [Minerals.AutoInterfaces](/docs/Minerals.AutoInterfaces)
-
-
-#### [NetAutomaticInterface](/docs/NetAutomaticInterface)
-
-
-#### [ProxyGen](/docs/ProxyGen)
-
-
-#### [Roozie.AutoInterface](/docs/Roozie.AutoInterface)
-
-
-#### [RSCG_CompositeProvider](/docs/RSCG_CompositeProvider)
-
-
-#### [rscg_Interface_to_null_object](/docs/rscg_Interface_to_null_object)
-
-
-#### [RSCG_Static](/docs/RSCG_Static)
+aaa
+<SameCategory />
 

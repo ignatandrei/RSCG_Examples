@@ -7,6 +7,7 @@ slug: /FactoryGenerator
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDependencyInjection.mdx';
 
 # FactoryGenerator  by Westermo Network Technologies
 
@@ -853,7 +854,7 @@ public sealed partial class LifetimeScope : IContainer
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -873,26 +874,6 @@ public sealed partial class LifetimeScope : IContainer
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator
 
-### In the same category (DependencyInjection) - 7 other generators
-
-
-#### [AutoRegisterInject](/docs/AutoRegisterInject)
-
-
-#### [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
-
-
-#### [depso](/docs/depso)
-
-
-#### [Injectio](/docs/Injectio)
-
-
-#### [jab](/docs/jab)
-
-
-#### [Pure.DI](/docs/Pure.DI)
-
-
-#### [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+aaa
+<SameCategory />
 

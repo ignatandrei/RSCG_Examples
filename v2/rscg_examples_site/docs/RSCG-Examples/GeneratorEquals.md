@@ -7,6 +7,7 @@ slug: /GeneratorEquals
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEquals.mdx';
 
 # GeneratorEquals  by Diego Frato
 
@@ -445,7 +446,7 @@ namespace GeneratorEqualsDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -465,11 +466,6 @@ namespace GeneratorEqualsDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/GeneratorEquals
 
-### In the same category (Equals) - 2 other generators
-
-
-#### [Equatable.Generator](/docs/Equatable.Generator)
-
-
-#### [Valuify](/docs/Valuify)
+aaa
+<SameCategory />
 

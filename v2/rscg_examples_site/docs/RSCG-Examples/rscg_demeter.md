@@ -7,6 +7,7 @@ slug: /rscg_demeter
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveFunctionalProgramming.mdx';
 
 # rscg_demeter  by Andrei Ignat
 
@@ -236,7 +237,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -256,50 +257,6 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg_demeter
 
-### In the same category (FunctionalProgramming) - 15 other generators
-
-
-#### [cachesourcegenerator](/docs/cachesourcegenerator)
-
-
-#### [dunet](/docs/dunet)
-
-
-#### [Dusharp](/docs/Dusharp)
-
-
-#### [Funcky.DiscriminatedUnion](/docs/Funcky.DiscriminatedUnion)
-
-
-#### [FunicularSwitch](/docs/FunicularSwitch)
-
-
-#### [N.SourceGenerators.UnionTypes](/docs/N.SourceGenerators.UnionTypes)
-
-
-#### [OneOf](/docs/OneOf)
-
-
-#### [PartiallyApplied](/docs/PartiallyApplied)
-
-
-#### [polytype](/docs/polytype)
-
-
-#### [rscg_queryables](/docs/rscg_queryables)
-
-
-#### [RSCG_Utils_Memo](/docs/RSCG_Utils_Memo)
-
-
-#### [Sera.Union](/docs/Sera.Union)
-
-
-#### [TypeUtilities](/docs/TypeUtilities)
-
-
-#### [UnionGen](/docs/UnionGen)
-
-
-#### [UnionsGenerator](/docs/UnionsGenerator)
+aaa
+<SameCategory />
 

@@ -7,6 +7,7 @@ slug: /DisposableHelpers
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDisposer.mdx';
 
 # DisposableHelpers  by Clynt Neiko Rupinta
 
@@ -486,7 +487,7 @@ namespace IDisposableGeneratorDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -506,17 +507,6 @@ namespace IDisposableGeneratorDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/DisposableHelpers
 
-### In the same category (Disposer) - 4 other generators
-
-
-#### [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator)
-
-
-#### [Coplt.Dropping](/docs/Coplt.Dropping)
-
-
-#### [Disposer](/docs/Disposer)
-
-
-#### [IDisposableGenerator](/docs/IDisposableGenerator)
+aaa
+<SameCategory />
 

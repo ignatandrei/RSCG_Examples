@@ -7,6 +7,7 @@ slug: /TypedSignalR.Client
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveSignalR.mdx';
 
 # TypedSignalR.Client  by nenoNaninu
 
@@ -1280,7 +1281,7 @@ namespace TypedSignalR.Client
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -1300,5 +1301,6 @@ namespace TypedSignalR.Client
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedSignalR.Client
 
-### In the same category (SignalR) - 0 other generators
+aaa
+<SameCategory />
 

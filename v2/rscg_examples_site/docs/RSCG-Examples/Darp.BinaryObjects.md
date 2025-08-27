@@ -7,6 +7,7 @@ slug: /Darp.BinaryObjects
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveBitwise.mdx';
 
 # Darp.BinaryObjects  by Ross Light GmbH
 
@@ -520,7 +521,7 @@ namespace Darp.BinaryObjects.Generated
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -540,8 +541,6 @@ namespace Darp.BinaryObjects.Generated
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Darp.BinaryObjects
 
-### In the same category (Bitwise) - 1 other generators
-
-
-#### [BitsKit](/docs/BitsKit)
+aaa
+<SameCategory />
 

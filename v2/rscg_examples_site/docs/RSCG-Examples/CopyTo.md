@@ -7,6 +7,7 @@ slug: /CopyTo
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveClone.mdx';
 
 # CopyTo  by Paul Braetz
 
@@ -226,7 +227,7 @@ namespace CopyToDemo
 
 ## Useful
 
-### Download Example (.NET  C# )
+### Download Example (.NET  C#)
 
 :::tip
 
@@ -246,8 +247,6 @@ namespace CopyToDemo
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/CopyTo
 
-### In the same category (Clone) - 1 other generators
-
-
-#### [Dolly](/docs/Dolly)
+aaa
+<SameCategory />
 
