@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ShadowWriterNullobjects",
+      "nuget":[
+         "https://www.nuget.org/packages/ShadowWriter/"
+      ],
+      "link":"https://github.com/StefanStolz/ShadowWriter",
+      "author":"Stefan Stolz",
+      "source":"https://github.com/StefanStolz/ShadowWriter"
+   },
+   "data":{
+      "goodFor":["Generate null object for an class that implements an interface "],
+      "csprojDemo":"NullInterface.csproj",
+      "csFiles":["Program.cs","Department.cs","Employee.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

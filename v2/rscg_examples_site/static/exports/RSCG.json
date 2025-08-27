@@ -1681,6 +1681,14 @@
       "Source": "https://github.com/BlackWhiteYoshi/AssemblyVersionInfo",
       "Category": "EnhancementProject",
       "AddedOn": "2025-07-28T00:00:00"
+    },
+    {
+      "Name": "ShadowWriterNullobjects",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ShadowWriterNullobjects",
+      "NuGet": "https://www.nuget.org/packages/ShadowWriter/",
+      "Source": "https://github.com/StefanStolz/ShadowWriter",
+      "Category": "Interface",
+      "AddedOn": "2025-07-29T00:00:00"
     }
   ]
 }

@@ -813,7 +813,7 @@ public class MultiGeneratorV2
     }
     private async Task ModifyDocusaurusIndex(string pathDocusaurus, int nr)
     {
-        var index = Path.Combine(pathDocusaurus, "src", "components", "HomepageFeatures", "index.tsx");
+        var index = Path.Combine(pathDocusaurus, "src", "components", "HomepageFeatures", "index.js");
         var content = await File.ReadAllLinesAsync(index);
         string newContent = "";
         foreach(var line in content)

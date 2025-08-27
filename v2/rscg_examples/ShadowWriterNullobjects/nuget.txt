@@ -1,0 +1,1 @@
+Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently.
