@@ -929,6 +929,14 @@ public class MultiGeneratorV2
             .Replace(" } ", " \\} ")
             .Replace("Action<>", "Action&lt;&gt;")
             .Replace("Func<>", "Func&lt;&gt;")
+            .Replace("{Type}", "\\{Type}\\}")
+            .Replace("{Name}", "\\{Name}\\}")
+            .Replace("{PropertyName}", "\\{PropertyName}\\}")
+            .Replace("{TypeName}", "\\{TypeName}\\}")
+            .Replace("{NameOfProperty}", "\\{NameOfProperty}\\}")
+            .Replace("{SingularName}", "\\{SingularName}\\}")
+            .Replace("{get}", "\\{get}\\}")
+
             ;
         string folderToWrite = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples");
         ArgumentNullException.ThrowIfNull(it.Generator);

@@ -265,10 +265,6 @@ public partial class DepartmentDTO {
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
 
-<Tabs>
-
-
-</Tabs>
 
 ## Useful
 

@@ -45,7 +45,7 @@ Source: https://github.com/ignatandrei/NameGenerator/
 
 # NameGenerator
 
-Generator of names for an assembly /  product release . Generates names  for {adjective}-{name} or {adjective-name-city} 
+Generator of names for an assembly /  product release . Generates names  for \{adjective\}-\{name\} or \{adjective-name-city\} 
 
 The fact that is a Roslyn Code Generator ensures that you can use it in your projects without any additional dependencies - and get rid of him !
 
