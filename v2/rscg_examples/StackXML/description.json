@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"StackXML",
+      "nuget":[
+         "https://www.nuget.org/packages/StackXML/"
+      ],
+      "link":"https://github.com/ZingBallyhoo/StackXML",
+      "author":"Zing",
+      "source":"https://github.com/ZingBallyhoo/StackXML"
+   },
+   "data":{
+      "goodFor":["Generating XML serializer without reflection"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
