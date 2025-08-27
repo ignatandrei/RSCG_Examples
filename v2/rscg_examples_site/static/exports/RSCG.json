@@ -1697,6 +1697,14 @@
       "Source": "https://github.com/ZingBallyhoo/StackXML",
       "Category": "Serializer",
       "AddedOn": "2025-08-01T00:00:00"
+    },
+    {
+      "Name": "Blazor.TSRuntime",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazor.TSRuntime",
+      "NuGet": "https://www.nuget.org/packages/Blazor.TSRuntime/",
+      "Source": "https://github.com/BlackWhiteYoshi/Blazor.TSRuntime",
+      "Category": "Blazor",
+      "AddedOn": "2025-08-02T00:00:00"
     }
   ]
 }

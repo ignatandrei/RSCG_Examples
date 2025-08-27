@@ -211,3 +211,4 @@ Nr,Key,Source,Category
 210,AssemblyVersionInfo, https://github.com/BlackWhiteYoshi/AssemblyVersionInfo,EnhancementProject
 211,ShadowWriterNullobjects, https://github.com/StefanStolz/ShadowWriter,Interface
 212,StackXML, https://github.com/ZingBallyhoo/StackXML,Serializer
+213,Blazor.TSRuntime, https://github.com/BlackWhiteYoshi/Blazor.TSRuntime,Blazor

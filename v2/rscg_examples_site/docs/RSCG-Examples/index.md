@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 212 RSCG list by category
-description: 212 RSCG list by category
+title: 213 RSCG list by category
+description: 213 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -128,7 +128,7 @@ import DocCardList from '@theme/DocCardList';
 ## Blazor 
 <details>
     
-  <summary>Expand Blazor =>examples:2</summary>
+  <summary>Expand Blazor =>examples:3</summary>
         
 
 
@@ -138,6 +138,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [GoLive.Generator.BlazorInterop](/docs/GoLive.Generator.BlazorInterop)
+
+        
+
+
+[Blazor.TSRuntime](/docs/Blazor.TSRuntime)
 
 </details>
     
@@ -1355,6 +1360,8 @@ flowchart LR;
     Blazor--> Blazorators((Blazorators))
 
     Blazor--> GoLive.Generator.BlazorInterop((GoLive.Generator.BlazorInterop))
+
+    Blazor--> Blazor.TSRuntime((Blazor.TSRuntime))
 
     Builder--> BuilderGenerator((BuilderGenerator))
 

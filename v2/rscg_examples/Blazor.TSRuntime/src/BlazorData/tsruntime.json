@@ -1,0 +1,25 @@
+{
+  "invoke function": {
+    "sync enabled": false,
+    "trysync enabled": true,
+    "async enabled": false,
+    "name pattern": {
+      "pattern": "#function#",
+      "module transform": "first upper case",
+      "function transform": "first upper case",
+      "action transform": "none"
+    },
+    "type map": {
+      "number": {
+        "type": "TNumber",
+        "generic types": {
+          "name": "TNumber",
+          "constraint": "INumber<TNumber>"
+        }
+      },
+      "boolean": "bool",
+      "Uint8Array": "byte[]",
+      "HTMLElement": "ElementReference"
+    }
+  }
+}

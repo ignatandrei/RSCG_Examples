@@ -172,6 +172,7 @@ public class MultiGeneratorV2
             text = text.Replace("(CopyTo)", $"({d.Generator!.Source}/CopyTo");
             text=text.Replace("(./docs/BenchmarksResults)", $"({d.Generator!.Source}/docs/BenchmarksResults");
             text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
+            text = text.Replace("(Readme_md/", $"({d.Generator!.Source}Readme_md/");
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
             text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");
             text = text.Replace("(src/Jab.Performance/)", $"({d.Generator!.Source}src/Jab.Performance/");
@@ -923,7 +924,20 @@ public class MultiGeneratorV2
         var template = await File.ReadAllTextAsync("DocusaurusExample.txt");
         var templateScriban = Scriban.Template.Parse(template);
         var output = templateScriban.Render(new {Description=it, otherDesc, category}, member => member.Name);
-            
+        output = output
+            .Replace(" { ", " \\{ ")
+            .Replace(" } ", " \\} ")
+            .Replace("Action<>", "Action&lt;&gt;")
+            .Replace("Func<>", "Func&lt;&gt;")
+            .Replace("{Type}", "\\{Type}\\}")
+            .Replace("{Name}", "\\{Name}\\}")
+            .Replace("{PropertyName}", "\\{PropertyName}\\}")
+            .Replace("{TypeName}", "\\{TypeName}\\}")
+            .Replace("{NameOfProperty}", "\\{NameOfProperty}\\}")
+            .Replace("{SingularName}", "\\{SingularName}\\}")
+            .Replace("{get}", "\\{get}\\}")
+
+            ;
         string folderToWrite = Path.Combine(pathDocusaurus, "docs", "RSCG-Examples");
         ArgumentNullException.ThrowIfNull(it.Generator);
         string file = it.Generator.Name+ ".md";

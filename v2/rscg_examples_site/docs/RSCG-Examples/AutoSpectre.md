@@ -431,7 +431,7 @@ When requesting input for a collection we will often work with a List of T and c
 
 * Array will result in a ToList()
 * HashSet will be initalized with new HashSet of T
-* Immutable collection types will append ToImmutable{Type}()
+* Immutable collection types will append ToImmutable\{Type\}()
 * Interfaces like `IList of T` `ICollection of T` `IEnumerable of T` `IReadOnlyCollection of T` `IReadOnlyList of T` have their values directly set as `List of T` inherit directly from them
 
 ### Example
@@ -533,7 +533,7 @@ public class ConverterFormsSpectreFactory : IConverterFormsSpectreFactory
 
 ## Validation
 
-You can define validation by using the `Validator` property on the `TextPromptAttribute` or by following the {PropertyName}Validator convention.
+You can define validation by using the `Validator` property on the `TextPromptAttribute` or by following the \{PropertyName\}Validator convention.
 
 The method being pointed to should return a nullable string. If validation is succesfull `null` should be returned, otherwise the validation error text message should be returned.
 
@@ -614,7 +614,7 @@ ctx =>
 
 ## Choices
 
-You can define choices for a property by using the `ChoicesSource` property or by following the {PropertyName}Choices convention. The source can be a property, method (no parameters) or field that returns the singular type of the property.
+You can define choices for a property by using the `ChoicesSource` property or by following the \{PropertyName\}Choices convention. The source can be a property, method (no parameters) or field that returns the singular type of the property.
 
 The choices are autocomplete and will be displayed in the prompt. The style of how they are displayed can be controlled through the `ChoicesStyle` prpoerty. When the user types something that is not in the choices, an invalid text will be displayed (this can be overloaded with `ChoicesInvalidText`).
 
@@ -678,7 +678,7 @@ public OtherForm InitializeChildForm() => new("Some title");
 ...
 ```
 
-Like in other scenarios this can also be achieved by convention. This is done by naming the method Init{TypeName} and have the correct signature.
+Like in other scenarios this can also be achieved by convention. This is done by naming the method Init\{TypeName\} and have the correct signature.
 
 ```csharp
 ## Styles
@@ -734,7 +734,7 @@ The following conventions come into play
 
 ### Source
 
-You can leave out the Source in the SelectPromptAttribute if you have a property or method that is named {NameOfProperty}Source and have the correct structure ( No input parameters and returns an enumerable of the type of the given property)
+You can leave out the Source in the SelectPromptAttribute if you have a property or method that is named \{NameOfProperty\}Source and have the correct structure ( No input parameters and returns an enumerable of the type of the given property)
 
 #### Example
 
@@ -752,7 +752,7 @@ public IEnumerable<string> NameSource()
 
 ### Converter
 
-You can also leave out the `Converter` in the `AskAttribute` if you have a method with the name {NameOfProperty}Converter and the correct structure (One parameter of the same type as the property and returning a string)
+You can also leave out the `Converter` in the `AskAttribute` if you have a method with the name \{NameOfProperty\}Converter and the correct structure (One parameter of the same type as the property and returning a string)
 
 #### Example
 
@@ -765,7 +765,7 @@ public string NameConverter(FullName name) => $"{name.FirstName} {name.LastName}
 
 ### Validation
 
-It's possible to leave out the `Validator` in the `TextPromptAttribute` if you have a method with the name {NameOfProperty}Validator and the correct structure (see the part about Validation)
+It's possible to leave out the `Validator` in the `TextPromptAttribute` if you have a method with the name \{NameOfProperty\}Validator and the correct structure (see the part about Validation)
 
 #### Example
 
@@ -781,7 +781,7 @@ public string? AgeValidator(int age)
 
 ### Condition
 
-It's possible to leave out the `Condition` in a prompt attribute if you have a method with no parameters returning bool or a property returning bool that matches {NameOfProperty}Condition. If you want to negate this you will still need to provide the `NegateCondition` manually.
+It's possible to leave out the `Condition` in a prompt attribute if you have a method with no parameters returning bool or a property returning bool that matches \{NameOfProperty\}Condition. If you want to negate this you will still need to provide the `NegateCondition` manually.
 
 ```csharp
 [TextPrompt]

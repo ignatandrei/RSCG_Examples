@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+<a  onclick="@SayHello">Click</a>
+
+
+@code {
+    [Inject]
+    IJSRuntime JS { get; set; }
+
+    [Inject]
+    public required ITSRuntime TsRuntime { private get; init; }
+
+    public async Task SayHello()
+    {
+        Console.WriteLine("Hello from Blazor");
+        await TsRuntime.SayHello("Andrei");
+    }
+}

@@ -236,7 +236,7 @@ public partial class Department : IDepartment
 
 public interface IDepartment
 {
-    public string Name { get; set; }
+    public string Name \{ get; set; }
 }
 ```
   </TabItem>
@@ -252,14 +252,14 @@ namespace NullInterface;
 [ShadowWriter.NullObject]
 public partial class Employee: IEmployee
 {
-    public IDepartment Department { get; set; } = NullInterface.Department.Instance;
+    public IDepartment Department \{ get; set; \} = NullInterface.Department.Instance;
 }
 
 public interface IEmployee
 {
-    public string FirstName { get; set; } 
-    public string LastName { get; set; }
-    public IDepartment Department { get; set; }
+    public string FirstName \{ get; set; \} 
+    public string LastName \{ get; set; }
+    public IDepartment Department \{ get; set; }
     public string GetFullName();
     public string GetFullNameAndDepartment(string separator);
 
@@ -324,7 +324,7 @@ public sealed partial class Department
   private Department()
   {}
 
-  public static NullInterface.Department Instance { get; } = new Department();
+  public static NullInterface.Department Instance \{ get; \} = new Department();
 
   public string Name
   {
@@ -360,7 +360,7 @@ public sealed partial class Employee
   private Employee()
   {}
 
-  public static NullInterface.Employee Instance { get; } = new Employee();
+  public static NullInterface.Employee Instance \{ get; \} = new Employee();
 
   public string FirstName
   {
@@ -413,7 +413,7 @@ namespace ShadowWriter
     [System.AttributeUsage(System.AttributeTargets.Interface)]
     internal sealed class ClassNameAttribute : System.Attribute
     {
-        public string Name { get; }
+        public string Name \{ get; }
 
         public ClassNameAttribute(string name)
         {
