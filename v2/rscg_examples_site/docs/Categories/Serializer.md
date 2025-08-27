@@ -1,6 +1,6 @@
 <h1>Serializer</h1>
 
-Number RSCG: 5
+Number RSCG: 6
 
    1 [GenPack](/docs/GenPack)
 
@@ -10,5 +10,7 @@ Number RSCG: 5
 
    4 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
-   5 [System.Text.Json](/docs/System.Text.Json)
+   5 [StackXML](/docs/StackXML)
+
+   6 [System.Text.Json](/docs/System.Text.Json)
     

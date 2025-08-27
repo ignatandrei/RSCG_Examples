@@ -1689,6 +1689,14 @@
       "Source": "https://github.com/StefanStolz/ShadowWriter",
       "Category": "Interface",
       "AddedOn": "2025-07-29T00:00:00"
+    },
+    {
+      "Name": "StackXML",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/StackXML",
+      "NuGet": "https://www.nuget.org/packages/StackXML/",
+      "Source": "https://github.com/ZingBallyhoo/StackXML",
+      "Category": "Serializer",
+      "AddedOn": "2025-08-01T00:00:00"
     }
   ]
 }
