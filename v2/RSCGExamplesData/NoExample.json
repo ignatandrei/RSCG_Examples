@@ -843,7 +843,7 @@
   },
  {
     "ID":194,
-    "name":"https://github.com/ramhari-dev/PropGenAoT", 
+    "name":"https://github.com/ramhari-dev/`PropGenAoT", 
     "why":"later"
   },
   
@@ -870,11 +870,6 @@
   {
     "ID":204,
     "name":"https://github.com/eddievelasquez/IntercodeToolbox",
-    "why":"later"
-  },
-  {
-    "ID":205,
-    "name":"https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator",
     "why":"later"
   },
   {
