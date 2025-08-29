@@ -227,6 +227,7 @@ input-files:
 - examples/ShadowWriterNullobjects.html
 - examples/StackXML.html
 - examples/Blazor.TSRuntime.html
+- examples/Genbox.FastEnum.html
 
 # or you may use input-file: with a single value
 # defaults:
