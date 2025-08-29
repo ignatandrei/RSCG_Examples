@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Genbox.FastEnum",
+      "nuget":[
+         "https://www.nuget.org/packages/Genbox.FastEnum/"
+      ],
+      "link":"https://github.com/Genbox/FastEnum",
+      "author":"Ian Qvist",
+      "source":"https://github.com/Genbox/FastEnum"
+   },
+   "data":{
+      "goodFor":["Generating values for enums"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

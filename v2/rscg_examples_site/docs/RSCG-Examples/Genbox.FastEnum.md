@@ -1,0 +1,815 @@
+---
+sidebar_position: 2140
+title: 214 - Genbox.FastEnum
+description: Generating values for enums
+slug: /Genbox.FastEnum
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnum.mdx';
+
+# Genbox.FastEnum  by Ian Qvist
+
+
+<TOCInline toc={toc}  />
+
+## NuGet / site data
+[![Nuget](https://img.shields.io/nuget/dt/Genbox.FastEnum?label=Genbox.FastEnum)](https://www.nuget.org/packages/Genbox.FastEnum/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Genbox/FastEnum?label=updated)](https://github.com/Genbox/FastEnum)
+![GitHub Repo stars](https://img.shields.io/github/stars/Genbox/FastEnum?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **Genbox.FastEnum**
+
+Easy to use source generator for enums.
+
+Author: Ian Qvist
+
+NuGet: 
+*https://www.nuget.org/packages/Genbox.FastEnum/*   
+
+
+You can find more details at https://github.com/Genbox/FastEnum
+
+Source: https://github.com/Genbox/FastEnum
+
+:::
+
+### Original Readme
+:::note
+
+# FastEnum
+
+[![NuGet](https://img.shields.io/nuget/v/Genbox.FastEnum.svg?style=flat-square&label=nuget)](https://www.nuget.org/packages/Genbox.FastEnum/)
+[![License](https://img.shields.io/github/license/Genbox/FastEnum)](https://github.com/Genbox/FastEnum/blob/master/LICENSE.txt)
+
+### Description
+
+A source generator to generate common methods for your enum types at compile-time.
+Print values, parse, or get the underlying value of enums without using reflection.
+
+### Features
+
+* Intuitive API with discoverability through IntelliSense. All enums can be accessed via the `Enums` class.
+* High-performance
+    * Zero allocations whenever possible.
+    * `GetMemberNames()`, `GetMemberValues()` etc. are cached by default. Use `DisableCache` to disable it.
+    * `MemberCount` and `IsFlagsEnum` is const to allow the compiler to fold constants.
+* Supports name and description from [DisplayAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute?view=net-7.0).
+* Support for flag enums via the [FlagsAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.flagsattribute?view=net-7.0).
+* Support for skipping enum values completely with `[EnumOmitValue]` on enum members.
+* Support for private/internal enums
+* Support for enums nested inside classes
+* Support for user-set underlying values such as long, uint, byte, etc.
+* Support for duplicate enum names from different namespaces
+* Support for enums that reside in the global namespace
+* Has several options to control namespace, class name and more for generated code. See Options section below for details.
+
+### Examples
+
+Lets create a very simple enum, and add the `[FastEnum]` attribute to it.
+
+```csharp
+[FastEnum]
+public enum Color
+{
+    Red,
+    Green,
+    Blue
+}
+```
+
+#### Extensions
+
+Extensions tell you something about an instance of an enum you have. For example, `MyEnum.Value1.GetString()` is the same as `MyEnum.Value1.ToString()` from dotnet, except that it does not need to do any work at runtime.
+
+The following extensions are auto-generated:
+
+```csharp
+Color c = Color.Red;
+
+Console.WriteLine("String value: " + e.GetString());
+Console.WriteLine("Underlying value: " + e.GetUnderlyingValue());
+```
+
+Output:
+
+```
+String value: Red
+Underlying value: 0
+```
+
+#### Enums class
+
+`Enums` is a class that contains metadata about the auto-generated enum.
+
+```csharp
+Console.WriteLine("Number of members: " + Enums.Color.MemberCount);
+Console.WriteLine("Parse: " + Enums.Color.Parse("Red"));
+Console.WriteLine("Is Green part of the enum: " + Enums.Color.IsDefined(Color.Green));
+
+PrintArray("Member names:", Enums.Color.GetMemberNames());
+PrintArray("Underlying values:", Enums.Color.GetUnderlyingValues());
+```
+
+PrintArray simply iterates an array and list the values on separate lines.
+
+Output:
+
+```
+Number of members: 3
+Parse: Red
+Is Green part of the enum: True
+Member names:
+- Red
+- Green
+- Blue
+Underlying values:
+- 0
+- 1
+- 2
+```
+
+### Values via attributes
+
+#### DisplayAttribute
+
+If you add [DisplayAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute?view=net-7.0) to an enum, the source generator will generate extra methods. For example, you can add [DisplayAttribute] to an enum value like this:
+
+```csharp
+[FastEnum]
+internal enum MyEnum
+{
+    [Display(Name = "Value1Name", Description = "Value1Description")]
+    Value1 = 1,
+    Value2 = 2
+}
+```
+It will generate `GetDisplayName()` and `GetDescription()` extensions to your enum.
+
+```csharp
+MyEnum e = MyEnum.Value1;
+Console.WriteLine("Display name: " + e.GetDisplayName());
+Console.WriteLine("Description: " + e.GetDescription());
+```
+
+Output:
+```
+Display name: Value1Name
+Description: Value1Description
+```
+
+#### FlagsAttribute
+
+If you have an enum with the [FlagsAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.flagsattribute?view=net-7.0), FastEnum will add a method called `IsFlagSet()`.
+
+```csharp
+[Flags]
+[FastEnum]
+internal enum MyFlagsEnum
+{
+    None = 0,
+    Value1 = 1,
+    Value2 = 2
+    Value3 = 4
+}
+```
+
+```csharp
+MyFlagsEnum e = MyFlagsEnum.Value1 | MyFlagsEnum.Value3;
+Console.WriteLine("Is Value2 set: " + e.IsFlagSet(MyFlagsEnum.Value2));
+```
+
+Output:
+```
+Is Value2 set: False
+```
+
+### Options
+
+`[FastEnum]` have several options to control the behavior of the generated code.
+
+#### ExtensionClassName
+
+The generated extension class is `partial` by default. So if you want to combine extension from your own class and the autogenerated one, you can use this option to set the name to
+the same as your extensions class. Defaults to &lt;EnumName&gt;Extensions.
+
+#### ExtensionClassNamespace
+
+Use this to control which namespace the extensions class belongs to. Defaults to the namespace of the enum.
+
+#### EnumsClassName
+
+Use this to set the name of the `Enums` class to something else.
+
+#### EnumsClassNamespace
+
+Used this to specify the namespace for the Enums class. Defaults to the namespace of the enum.
+
+#### EnumNameOverride
+
+Sometimes you might have two enums named the same, but in different namespaces. You can use this option to override the name of the enum in the generated code.
+For example, if your enum is named `MyEnum` the Enums class can be accessed like this:
+
+```csharp
+Enums.MyEnum.GetMemberNames()
+```
+
+If you set EnumNameOverride to `OtherEnum` it will look like this instead:
+
+```csharp
+Enums.OtherEnum.GetMemberNames()
+```
+
+#### DisableEnumsWrapper
+
+Enable this to avoid generating the static Enums class that wraps all the enums. When enabled, Enums.MyEnum becomes MyEnum. This is handy if you want to set all enums inside the same namespace
+across projects. Note that you must use `EnumNameOverride` or set `EnumsClassNamespace` to something to avoid the name collision between your enum and the generated class.
+
+#### DisableCache
+
+By default arrays from `GetMemberNames()`, `GetMemberValues()` etc. is cached to avoid an allocation each time you call them. If your application only needs the arrays once, then caching them in memory take up unnecessary space.
+Use this option to disable the cache.
+
+### Transformations
+
+You can transform the string output of enums with `[EnumTransform]` at compile time. There are a few ways to do this.
+
+```csharp
+[EnumTransform(Preset = EnumTransform.UpperCase)] //Will uppercase all enum values
+[EnumTransform(Regex = "/^Enum//")] //A regex to replace values starting with "Enum" with nothing.
+[EnumTransform(CasePattern = "U_U_U")] //Uppercase the first, third and fifth characters
+```
+
+Note: You can only specify one `[EnumTransform]` at the time.
+
+*Regex* must have the format `/regex-here/replacement-here/`.
+
+*CasePattern* is a way to either uppercase, lowercase or omit charaters.
+
+The language uses the following modifier chars:
+* U: Uppercase the char
+* L: Lowercase the char
+* O: Omit the char
+* _: Do nothing. Keep the char as-is.
+
+Let's say you want to omit the first character in all values, uppercase the third character and lowercase the rest.
+
+```csharp
+[FastEnum]
+[EnumTransform(CasePattern = "OOULLLLL")]
+public enum MyEnum
+{
+    Myvalue1,
+    Myvalue2,
+    Myvalue3
+}
+```
+
+The pattern is matched as much as possible. A pattern of `U` will simply uppercase the first character, and a pattern of `UUUUUUUUUUUU` will uppercase the first 12 characters, even if the enum value is only 6 characters long.
+
+### Omitting values
+
+It is possible to omit enum value both fully and partially. This is useful if you, let's say, want to use the enum values directly in a dropdown on a website, but don't want to include a value in the list.
+
+```csharp
+[FastEnum]
+public enum Color
+{
+    [EnumOmitValue] //Completely omitted
+    Unknown,
+
+    [EnumOmitValue(Exclude = EnumOmitExclude.GetMemberNames] //Partially omitted
+    Red,
+    Green
+}
+```
+
+If you call `GetMemberNames()` or any other method on the `Enums.Color` class, the Unknown value will be omitted.
+
+```csharp
+foreach (string name in Enums.Color.GetMemberNames())
+{
+    Console.WriteLine(name);
+}
+```
+
+Output:
+```
+Red
+Green
+```
+
+Since we excluded `GetMemberNames()` for the Red color, it showed up in the list above, but it won't show up when calling `GetMemberValues()`.
+
+```csharp
+foreach (Color value in Enums.Color.GetMemberValues())
+{
+    Console.WriteLine(value.ToString());
+}
+```
+
+Output:
+```
+Green
+```
+
+### Notes
+
+#### Parse/TryParse methods
+
+FastEnum has some additional features compared to dotnet's `Enum.Parse<T>()` and `Enum.TryParse<T>()`:
+
+* Supports [StringComparison](https://learn.microsoft.com/en-us/dotnet/api/system.stringcomparison?view=net-7.0) (defaults to ordinal comparison)
+* Supports parsing `ValueOverride` when using `[EnumTransformValue]`. Also supports `DisplayName` and `Description` when using [DisplayAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute?view=net-7.0)
+* You can enable/disable Name, Value, DisplayName or Description parsing via an enum: `Enums.MyEnum.TryParse("val", out MyEnum v, MyEnumFormat.Name | MyEnumFormat.DisplayName)`
+
+#### IsDefined method
+
+The IsDefined method is different than the one provided by dotnet. It supports flags out of the box. `Enums.MyEnum.IsDefined((MyEnum)42)`
+and `Enums.MyEnum.IsDefined(MyEnum.Value1 | MyEnum.Value3)` both work.
+
+### Benchmarks
+
+Here are benchmarks for calling different methods in dotnet vs. using CodeGen vs. using [Enums.net](https://github.com/TylerBrinkley/Enums.NET).
+Enums.net is a high-performance library for working with enum values.
+
+The table below shows that Enums.net is between 2-80x faster than dotnet, but FastEnum is 2-14x faster than Enums.net.
+
+| Method                        |          Mean |      Error |     StdDev |        Median |
+|-------------------------------|--------------:|-----------:|-----------:|--------------:|
+| EnumHasFlag                   |     0.0056 ns |  0.0083 ns |  0.0074 ns |     0.0030 ns |
+| CodeGenHasFlag                |     0.0101 ns |  0.0062 ns |  0.0058 ns |     0.0083 ns |
+| EnumsNetHasFlag               |     0.6253 ns |  0.0238 ns |  0.0211 ns |     0.6192 ns |
+|                               |               |            |            |               |
+| EnumIsDefined                 |    42.6278 ns |  0.4633 ns |  0.4334 ns |    42.5181 ns |
+| CodeGenIsDefined              |     0.0045 ns |  0.0066 ns |  0.0058 ns |     0.0013 ns |
+| EnumsNetIsDefined             |     0.4842 ns |  0.0101 ns |  0.0085 ns |     0.4845 ns |
+|                               |               |            |            |               |
+| EnumLength                    |    20.5705 ns |  0.3509 ns |  0.5566 ns |    20.5117 ns |
+| CodeGenLength                 |     0.0001 ns |  0.0004 ns |  0.0003 ns |     0.0000 ns |
+| EnumsNetLength                |     5.3362 ns |  0.1085 ns |  0.0906 ns |     5.3495 ns |
+|                               |               |            |            |               |
+| EnumGetNames                  |    17.5890 ns |  0.2905 ns |  0.2717 ns |    17.6505 ns |
+| CodeGenGetNames               |     1.5764 ns |  0.0476 ns |  0.0446 ns |     1.5843 ns |
+| EnumsNetGetNames              |     1.6052 ns |  0.0323 ns |  0.0286 ns |     1.5994 ns |
+|                               |               |            |            |               |
+| EnumToString                  |    15.3389 ns |  0.1815 ns |  0.1698 ns |    15.3113 ns |
+| CodeGenToString               |     0.8379 ns |  0.0380 ns |  0.0337 ns |     0.8267 ns |
+| EnumsNetToString              |    21.3269 ns |  0.0836 ns |  0.0653 ns |    21.3056 ns |
+|                               |               |            |            |               |
+| ReflectionGetDisplayName      | 1,008.3327 ns |  6.6111 ns |  5.8606 ns | 1,007.1464 ns |
+| CodeGenGetDisplayName         |     3.2780 ns |  0.1182 ns |  0.1495 ns |     3.2501 ns |
+| EnumsNetGetDisplayName        |     9.3953 ns |  0.1237 ns |  0.0966 ns |     9.4036 ns |
+|                               |               |            |            |               |
+| EnumTryParse                  |    31.4662 ns |  0.4013 ns |  0.3557 ns |    31.3008 ns |
+| CodeGenTryParse               |     6.4197 ns |  0.0495 ns |  0.0463 ns |     6.4246 ns |
+| EnumsNetTryParse              |    41.8299 ns |  0.4277 ns |  0.4001 ns |    41.7159 ns |
+|                               |               |            |            |               |
+| ReflectionTryParseDisplayName | 1,763.8422 ns | 17.7619 ns | 15.7455 ns | 1,764.9430 ns |
+| CodeGenTryParseDisplayName    |     3.9371 ns |  0.0177 ns |  0.0138 ns |     3.9381 ns |
+| EnumsNetTryParseDisplayName   |    40.4373 ns |  0.7966 ns |  0.7061 ns |    40.6816 ns |
+|                               |               |            |            |               |
+| EnumGetValues                 |     0.0000 ns |  0.0000 ns |  0.0000 ns |     0.0000 ns |
+| CodeGenGetValues              |     2.2281 ns |  0.0281 ns |  0.0263 ns |     2.2237 ns |
+| EnumsNetGetValues             |     4.6160 ns |  0.0868 ns |  0.0769 ns |     4.6156 ns |
+|                               |               |            |            |               |
+| EnumGetValues                 |   254.3910 ns |  2.2232 ns |  1.8565 ns |   253.8503 ns |
+| CodeGenGetValues              |     1.6647 ns |  0.0508 ns |  0.0475 ns |     1.6750 ns |
+| EnumsNetGetValues             |     2.4889 ns |  0.0416 ns |  0.0389 ns |     2.4874 ns |
+
+:::
+
+### About
+:::note
+
+Generating values for enums
+
+
+:::
+
+## How to use
+
+### Example (source csproj, source files)
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **Genbox.FastEnum**
+```xml showLineNumbers {16}
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Genbox.FastEnum" Version="1.0.0">
+    </PackageReference>
+  </ItemGroup>
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Genbox.FastEnum\src\EnumDemo\Program.cs" label="Program.cs" >
+
+  This is the use of **Genbox.FastEnum** in *Program.cs*
+
+```csharp showLineNumbers 
+// See https://aka.ms/new-console-template for more information
+using EnumDemo;
+
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Car types:" + Enums.CarTypes.MemberCount);
+var cars= Enums.CarTypes.GetMemberValues();
+foreach (var car in cars)
+{
+    Console.WriteLine( car.GetString());
+}
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Genbox.FastEnum\src\EnumDemo\CarTypes.cs" label="CarTypes.cs" >
+
+  This is the use of **Genbox.FastEnum** in *CarTypes.cs*
+
+```csharp showLineNumbers 
+
+namespace EnumDemo;
+[Genbox.FastEnum.FastEnum]
+public enum CarTypes 
+{
+    None,
+    Dacia ,
+    Tesla ,
+    BMW ,
+    Mercedes ,
+}
+
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+
+<Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Genbox.FastEnum\src\EnumDemo\obj\GX\Genbox.FastEnum\Genbox.FastEnum.EnumGenerator\EnumDemo.CarTypes_EnumFormat.g.cs" label="EnumDemo.CarTypes_EnumFormat.g.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated />
+// Generated by Genbox.FastEnum 1.0.0.0
+// Generated on: 2025-08-29 11:58:11 UTC
+#nullable enable
+using System;
+
+namespace EnumDemo;
+
+[Flags]
+public enum CarTypesFormat : byte
+{
+    None = 0,
+    Name = 1,
+    Value = 2,
+    Default = Name | Value
+}
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Genbox.FastEnum\src\EnumDemo\obj\GX\Genbox.FastEnum\Genbox.FastEnum.EnumGenerator\EnumDemo.CarTypes_Enums.g.cs" label="EnumDemo.CarTypes_Enums.g.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated />
+// Generated by Genbox.FastEnum 1.0.0.0
+// Generated on: 2025-08-29 11:58:11 UTC
+#nullable enable
+using System;
+
+namespace EnumDemo;
+
+public static partial class Enums
+{
+    public static partial class CarTypes
+    {
+        public const int MemberCount = 5;
+        public const bool IsFlagEnum = false;
+
+        public static string[] GetMemberNames() => _names ??= new string[] {
+                "None",
+                "Dacia",
+                "Tesla",
+                "BMW",
+                "Mercedes"
+            };
+
+        public static EnumDemo.CarTypes[] GetMemberValues() => _values ??= new EnumDemo.CarTypes[] {
+                EnumDemo.CarTypes.None,
+                EnumDemo.CarTypes.Dacia,
+                EnumDemo.CarTypes.Tesla,
+                EnumDemo.CarTypes.BMW,
+                EnumDemo.CarTypes.Mercedes
+            };
+
+        public static Int32[] GetUnderlyingValues() => _underlyingValues ??= new Int32[] {
+                0,
+                1,
+                2,
+                3,
+                4
+            };
+
+        public static bool TryParse(string value, out EnumDemo.CarTypes result, EnumDemo.CarTypesFormat format = EnumDemo.CarTypesFormat.Default, StringComparison comparison = StringComparison.Ordinal)
+        {
+            if (format.HasFlag(EnumDemo.CarTypesFormat.Name))
+            {
+                if (value.Equals("None", comparison))
+                {
+                    result = EnumDemo.CarTypes.None;
+                    return true;
+                }
+
+                if (value.Equals("Dacia", comparison))
+                {
+                    result = EnumDemo.CarTypes.Dacia;
+                    return true;
+                }
+
+                if (value.Equals("Tesla", comparison))
+                {
+                    result = EnumDemo.CarTypes.Tesla;
+                    return true;
+                }
+
+                if (value.Equals("BMW", comparison))
+                {
+                    result = EnumDemo.CarTypes.BMW;
+                    return true;
+                }
+
+                if (value.Equals("Mercedes", comparison))
+                {
+                    result = EnumDemo.CarTypes.Mercedes;
+                    return true;
+                }
+            }
+            if (format.HasFlag(EnumDemo.CarTypesFormat.Value))
+            {
+                if (value.Equals("0", comparison))
+                {
+                    result = EnumDemo.CarTypes.None;
+                    return true;
+                }
+
+                if (value.Equals("1", comparison))
+                {
+                    result = EnumDemo.CarTypes.Dacia;
+                    return true;
+                }
+
+                if (value.Equals("2", comparison))
+                {
+                    result = EnumDemo.CarTypes.Tesla;
+                    return true;
+                }
+
+                if (value.Equals("3", comparison))
+                {
+                    result = EnumDemo.CarTypes.BMW;
+                    return true;
+                }
+
+                if (value.Equals("4", comparison))
+                {
+                    result = EnumDemo.CarTypes.Mercedes;
+                    return true;
+                }
+            }
+            result = default;
+            return false;
+        }
+
+#if NETSTANDARD2_1_OR_GREATER || NETCOREAPP3_1_OR_GREATER
+        public static bool TryParse(ReadOnlySpan<char> value, out EnumDemo.CarTypes result, EnumDemo.CarTypesFormat format = EnumDemo.CarTypesFormat.Default, StringComparison comparison = StringComparison.Ordinal)
+        {
+            if (format.HasFlag(EnumDemo.CarTypesFormat.Name))
+            {
+                if (value.Equals("None", comparison))
+                {
+                    result = EnumDemo.CarTypes.None;
+                    return true;
+                }
+
+                if (value.Equals("Dacia", comparison))
+                {
+                    result = EnumDemo.CarTypes.Dacia;
+                    return true;
+                }
+
+                if (value.Equals("Tesla", comparison))
+                {
+                    result = EnumDemo.CarTypes.Tesla;
+                    return true;
+                }
+
+                if (value.Equals("BMW", comparison))
+                {
+                    result = EnumDemo.CarTypes.BMW;
+                    return true;
+                }
+
+                if (value.Equals("Mercedes", comparison))
+                {
+                    result = EnumDemo.CarTypes.Mercedes;
+                    return true;
+                }
+            }
+            if (format.HasFlag(EnumDemo.CarTypesFormat.Value))
+            {
+                if (value.Equals("0", comparison))
+                {
+                    result = EnumDemo.CarTypes.None;
+                    return true;
+                }
+
+                if (value.Equals("1", comparison))
+                {
+                    result = EnumDemo.CarTypes.Dacia;
+                    return true;
+                }
+
+                if (value.Equals("2", comparison))
+                {
+                    result = EnumDemo.CarTypes.Tesla;
+                    return true;
+                }
+
+                if (value.Equals("3", comparison))
+                {
+                    result = EnumDemo.CarTypes.BMW;
+                    return true;
+                }
+
+                if (value.Equals("4", comparison))
+                {
+                    result = EnumDemo.CarTypes.Mercedes;
+                    return true;
+                }
+            }
+            result = default;
+            return false;
+        }
+
+        public static EnumDemo.CarTypes Parse(ReadOnlySpan<char> value, EnumDemo.CarTypesFormat format = EnumDemo.CarTypesFormat.Default, StringComparison comparison = StringComparison.Ordinal)
+        {
+            if (!TryParse(value, out EnumDemo.CarTypes result, format, comparison))
+                throw new ArgumentOutOfRangeException($"Invalid value: {value.ToString()}");
+
+            return result;
+        }
+#endif
+
+        public static EnumDemo.CarTypes Parse(string value, EnumDemo.CarTypesFormat format = EnumDemo.CarTypesFormat.Default, StringComparison comparison = StringComparison.Ordinal)
+        {
+            if (!TryParse(value, out EnumDemo.CarTypes result, format, comparison))
+                throw new ArgumentOutOfRangeException($"Invalid value: {value}");
+
+            return result;
+        }
+
+        public static bool IsDefined(EnumDemo.CarTypes input)
+        {
+            Int32[] _isDefinedValues = GetUnderlyingValues();
+
+            for (int i = 0; i < _isDefinedValues.Length; i++)
+            {
+                if (_isDefinedValues[i] == (Int32)input)
+                    return true;
+            }
+
+            return false;
+        }
+
+        private static string[]? _names;
+        private static EnumDemo.CarTypes[]? _values;
+        private static Int32[]? _underlyingValues;
+
+    }
+}
+```
+
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Genbox.FastEnum\src\EnumDemo\obj\GX\Genbox.FastEnum\Genbox.FastEnum.EnumGenerator\EnumDemo.CarTypes_Extensions.g.cs" label="EnumDemo.CarTypes_Extensions.g.cs" >
+
+
+```csharp showLineNumbers 
+// <auto-generated />
+// Generated by Genbox.FastEnum 1.0.0.0
+// Generated on: 2025-08-29 11:58:11 UTC
+#nullable enable
+using System;
+using System.Diagnostics.CodeAnalysis;
+
+namespace EnumDemo;
+
+public static partial class CarTypesExtensions
+{
+    public static string GetString(this EnumDemo.CarTypes value) => value switch
+    {
+        EnumDemo.CarTypes.None => "None",
+        EnumDemo.CarTypes.Dacia => "Dacia",
+        EnumDemo.CarTypes.Tesla => "Tesla",
+        EnumDemo.CarTypes.BMW => "BMW",
+        EnumDemo.CarTypes.Mercedes => "Mercedes",
+        _ => value.ToString()
+    };
+
+    public static bool TryGetUnderlyingValue(this EnumDemo.CarTypes value, out Int32 underlyingValue)
+    {
+        switch (value)
+        {
+            case EnumDemo.CarTypes.None:
+                underlyingValue = 0;
+                return true;
+            case EnumDemo.CarTypes.Dacia:
+                underlyingValue = 1;
+                return true;
+            case EnumDemo.CarTypes.Tesla:
+                underlyingValue = 2;
+                return true;
+            case EnumDemo.CarTypes.BMW:
+                underlyingValue = 3;
+                return true;
+            case EnumDemo.CarTypes.Mercedes:
+                underlyingValue = 4;
+                return true;
+        }
+        underlyingValue = default;
+        return false;
+    }
+
+    public static Int32 GetUnderlyingValue(this EnumDemo.CarTypes value)
+    {
+        if (!TryGetUnderlyingValue(value, out Int32 underlyingValue))
+            throw new ArgumentOutOfRangeException($"Invalid value: {value}");
+
+        return underlyingValue;
+    }
+}
+```
+
+  </TabItem>
+
+
+</Tabs>
+
+## Useful
+
+### Download Example (.NET  C#)
+
+:::tip
+
+[Download Example project Genbox.FastEnum ](/sources/Genbox.FastEnum.zip)
+
+:::
+
+
+### Share Genbox.FastEnum 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FGenbox.FastEnum&quote=Genbox.FastEnum" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FGenbox.FastEnum&text=Genbox.FastEnum:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FGenbox.FastEnum" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FGenbox.FastEnum&title=Genbox.FastEnum" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FGenbox.FastEnum&title=Genbox.FastEnum&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FGenbox.FastEnum" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/Genbox.FastEnum
+
+aaa
+<SameCategory />
+

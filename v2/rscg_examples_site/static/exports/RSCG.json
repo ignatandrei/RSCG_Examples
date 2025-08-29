@@ -1705,6 +1705,14 @@
       "Source": "https://github.com/BlackWhiteYoshi/Blazor.TSRuntime",
       "Category": "Blazor",
       "AddedOn": "2025-08-02T00:00:00"
+    },
+    {
+      "Name": "Genbox.FastEnum",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Genbox.FastEnum",
+      "NuGet": "https://www.nuget.org/packages/Genbox.FastEnum/",
+      "Source": "https://github.com/Genbox/FastEnum",
+      "Category": "Enum",
+      "AddedOn": "2025-08-03T00:00:00"
     }
   ]
 }
