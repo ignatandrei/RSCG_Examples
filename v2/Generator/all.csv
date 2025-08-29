@@ -212,3 +212,5 @@ Nr,Key,Source,Category
 211,ShadowWriterNullobjects, https://github.com/StefanStolz/ShadowWriter,Interface
 212,StackXML, https://github.com/ZingBallyhoo/StackXML,Serializer
 213,Blazor.TSRuntime, https://github.com/BlackWhiteYoshi/Blazor.TSRuntime,Blazor
+214,Genbox.FastEnum, https://github.com/Genbox/FastEnum,Enum
+215,BadIdeas.Icons.FontAwesome, https://github.com/phil-scott-78/Icons/,Blazor

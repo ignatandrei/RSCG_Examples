@@ -1,6 +1,6 @@
-# RSCG - 213 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 215 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-08-02 => 02 August 2025
+## Latest Update : 2025-08-03 => 03 August 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,52 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 213 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 215 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 215. [BadIdeas.Icons.FontAwesome](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BadIdeas.Icons.FontAwesome) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor) category 
+
+Generated on : 2025-08-03 => 03 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Phil Scott
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/BadIdeas.Icons.FontAwesome/](https://www.nuget.org/packages/BadIdeas.Icons.FontAwesome/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/BadIdeas.Icons.FontAwesome](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BadIdeas.Icons.FontAwesome)
+
+Source: [https://github.com/phil-scott-78/Icons/](https://github.com/phil-scott-78/Icons/)
+
+</details>
+
+### 214. [Genbox.FastEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Genbox.FastEnum) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2025-08-03 => 03 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ian Qvist
+
+Easy to use source generator for enums. 
+
+Nuget: [https://www.nuget.org/packages/Genbox.FastEnum/](https://www.nuget.org/packages/Genbox.FastEnum/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Genbox.FastEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Genbox.FastEnum)
+
+Source: [https://github.com/Genbox/FastEnum](https://github.com/Genbox/FastEnum)
+
+</details>
+
 ### 213. [Blazor.TSRuntime](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Blazor.TSRuntime) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor) category 
 
 Generated on : 2025-08-02 => 02 August 2025
@@ -5023,81 +5067,81 @@ Why I have not tested : later
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/bjornhellander/TestInheritanceGenerator&body=https://github.com/bjornhellander/TestInheritanceGenerator
 
 
-22) [https://github.com/BlackWhiteYoshi]( https://github.com/BlackWhiteYoshi) , https://github.com/BlackWhiteYoshi 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/BlackWhiteYoshi&body=https://github.com/BlackWhiteYoshi
-
-
-23) [https://github.com/borisdj/CsCodeGenerator]( https://github.com/borisdj/CsCodeGenerator) , https://github.com/borisdj/CsCodeGenerator 
+22) [https://github.com/borisdj/CsCodeGenerator]( https://github.com/borisdj/CsCodeGenerator) , https://github.com/borisdj/CsCodeGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/borisdj/CsCodeGenerator&body=https://github.com/borisdj/CsCodeGenerator
 
 
-24) [https://github.com/CharlieDigital/SKPromptGenerator]( https://github.com/CharlieDigital/SKPromptGenerator) , https://github.com/CharlieDigital/SKPromptGenerator 
+23) [https://github.com/CharlieDigital/SKPromptGenerator]( https://github.com/CharlieDigital/SKPromptGenerator) , https://github.com/CharlieDigital/SKPromptGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/CharlieDigital/SKPromptGenerator&body=https://github.com/CharlieDigital/SKPromptGenerator
 
 
-25) [https://github.com/chickensoft-games/LogicBlocks]( https://github.com/chickensoft-games/LogicBlocks) , https://github.com/chickensoft-games/LogicBlocks 
+24) [https://github.com/chickensoft-games/LogicBlocks]( https://github.com/chickensoft-games/LogicBlocks) , https://github.com/chickensoft-games/LogicBlocks 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/chickensoft-games/LogicBlocks&body=https://github.com/chickensoft-games/LogicBlocks
 
 
-26) [https://github.com/dgmjr-io/InterfaceGenerator]( https://github.com/dgmjr-io/InterfaceGenerator) , https://github.com/dgmjr-io/InterfaceGenerator 
+25) [https://github.com/dgmjr-io/InterfaceGenerator]( https://github.com/dgmjr-io/InterfaceGenerator) , https://github.com/dgmjr-io/InterfaceGenerator 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/dgmjr-io/InterfaceGenerator&body=https://github.com/dgmjr-io/InterfaceGenerator
 
 
-27) [https://github.com/eddievelasquez/IntercodeToolbox]( https://github.com/eddievelasquez/IntercodeToolbox) , https://github.com/eddievelasquez/IntercodeToolbox 
+26) [https://github.com/eddievelasquez/IntercodeToolbox]( https://github.com/eddievelasquez/IntercodeToolbox) , https://github.com/eddievelasquez/IntercodeToolbox 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/eddievelasquez/IntercodeToolbox&body=https://github.com/eddievelasquez/IntercodeToolbox
 
 
-28) [https://github.com/GaoNian-NET/MapperToolkit]( https://github.com/GaoNian-NET/MapperToolkit) , https://github.com/GaoNian-NET/MapperToolkit 
+27) [https://github.com/GaoNian-NET/MapperToolkit]( https://github.com/GaoNian-NET/MapperToolkit) , https://github.com/GaoNian-NET/MapperToolkit 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/GaoNian-NET/MapperToolkit&body=https://github.com/GaoNian-NET/MapperToolkit
 
 
-29) [https://github.com/inputfalken/Dynatello]( https://github.com/inputfalken/Dynatello) , https://github.com/inputfalken/Dynatello 
+28) [https://github.com/inputfalken/Dynatello]( https://github.com/inputfalken/Dynatello) , https://github.com/inputfalken/Dynatello 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/inputfalken/Dynatello&body=https://github.com/inputfalken/Dynatello
 
 
-30) [https://github.com/ionite34/MinimalApiMapper]( https://github.com/ionite34/MinimalApiMapper) , https://github.com/ionite34/MinimalApiMapper 
+29) [https://github.com/ionite34/MinimalApiMapper]( https://github.com/ionite34/MinimalApiMapper) , https://github.com/ionite34/MinimalApiMapper 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/ionite34/MinimalApiMapper&body=https://github.com/ionite34/MinimalApiMapper
 
 
-31) [https://github.com/JasonBock/CslaGeneratorSerialization]( https://github.com/JasonBock/CslaGeneratorSerialization) , https://github.com/JasonBock/CslaGeneratorSerialization 
+30) [https://github.com/JasonBock/CslaGeneratorSerialization]( https://github.com/JasonBock/CslaGeneratorSerialization) , https://github.com/JasonBock/CslaGeneratorSerialization 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/JasonBock/CslaGeneratorSerialization&body=https://github.com/JasonBock/CslaGeneratorSerialization
 
 
-32) [https://github.com/JinShil/JinShil.MixinSourceGenerator]( https://github.com/JinShil/JinShil.MixinSourceGenerator) , https://github.com/JinShil/JinShil.MixinSourceGenerator 
+31) [https://github.com/JinShil/JinShil.MixinSourceGenerator]( https://github.com/JinShil/JinShil.MixinSourceGenerator) , https://github.com/JinShil/JinShil.MixinSourceGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/JinShil/JinShil.MixinSourceGenerator&body=https://github.com/JinShil/JinShil.MixinSourceGenerator
+
+
+32) [https://github.com/kevingosse/NativeObjects]( https://github.com/kevingosse/NativeObjects) , https://github.com/kevingosse/NativeObjects 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/kevingosse/NativeObjects&body=https://github.com/kevingosse/NativeObjects
 
 
 33) [https://github.com/MeltyPlayer/Schema]( https://github.com/MeltyPlayer/Schema) , https://github.com/MeltyPlayer/Schema 
@@ -5114,25 +5158,25 @@ Why I have not tested : issue opened
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/OrgEleCho/EleCho.Internationalization&body=https://github.com/OrgEleCho/EleCho.Internationalization
 
 
-35) [https://github.com/ramhari-dev/PropGenAoT]( https://github.com/ramhari-dev/PropGenAoT) , https://github.com/ramhari-dev/PropGenAoT 
+35) [https://github.com/phil-scott-78/Icons/]( https://github.com/phil-scott-78/Icons/) , https://github.com/phil-scott-78/Icons/ 
+
+Why I have not tested : later
+
+https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/phil-scott-78/Icons/&body=https://github.com/phil-scott-78/Icons/
+
+
+36) [https://github.com/ramhari-dev/PropGenAoT]( https://github.com/ramhari-dev/PropGenAoT) , https://github.com/ramhari-dev/PropGenAoT 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/ramhari-dev/PropGenAoT&body=https://github.com/ramhari-dev/PropGenAoT
 
 
-36) [https://github.com/SG4MVC/SG4MVC]( https://github.com/SG4MVC/SG4MVC) , https://github.com/SG4MVC/SG4MVC 
+37) [https://github.com/SG4MVC/SG4MVC]( https://github.com/SG4MVC/SG4MVC) , https://github.com/SG4MVC/SG4MVC 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/SG4MVC/SG4MVC&body=https://github.com/SG4MVC/SG4MVC
-
-
-37) [https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator]( https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator) , https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator&body=https://github.com/sonnemaf/ReflectionIT.ComparisonOperatorsGenerator
 
 
 38) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 

@@ -1,0 +1,66 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BadIdeas.Icons.FontAwesome",
+  "steps": 
+  [
+    {
+      "file": "DemoBlazor/DemoBlazor.csproj",
+      "description": "First, we add Nuget  [BadIdeas.Icons.FontAwesome](https://www.nuget.org/packages/BadIdeas.Icons.FontAwesome/) in csproj  ",
+      "pattern": "BadIdeas.Icons.FontAwesome"
+    }
+
+        ,{
+        "file": "DemoBlazor/Pages/Home.razor",
+        "description": "File Home.razor  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/_Imports_razor.g.cs",
+        "description": "Generated File 7  from 7 : _Imports_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Weather_razor.g.cs",
+        "description": "Generated File 6  from 7 : Pages_Weather_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Home_razor.g.cs",
+        "description": "Generated File 5  from 7 : Pages_Home_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Pages_Counter_razor.g.cs",
+        "description": "Generated File 4  from 7 : Pages_Counter_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Layout_NavMenu_razor.g.cs",
+        "description": "Generated File 3  from 7 : Layout_NavMenu_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/Layout_MainLayout_razor.g.cs",
+        "description": "Generated File 2  from 7 : Layout_MainLayout_razor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoBlazor/obj/GX/Microsoft.CodeAnalysis.Razor.Compiler/Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator/App_razor.g.cs",
+        "description": "Generated File 1  from 7 : App_razor.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

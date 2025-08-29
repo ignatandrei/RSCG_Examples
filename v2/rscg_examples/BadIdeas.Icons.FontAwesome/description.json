@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"BadIdeas.Icons.FontAwesome",
+      "nuget":[
+         "https://www.nuget.org/packages/BadIdeas.Icons.FontAwesome/"
+      ],
+      "link":"https://github.com/phil-scott-78/Icons/",
+      "author":"Phil Scott",
+      "source":"https://github.com/phil-scott-78/Icons/"
+   },
+   "data":{
+      "goodFor":["generate font awesome icons"],
+      "csprojDemo":"DemoBlazor.csproj",
+      "csFiles":["Home.razor"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

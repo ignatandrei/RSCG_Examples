@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 213 RSCG list by category
-description: 213 RSCG list by category
+title: 215 RSCG list by category
+description: 215 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -128,7 +128,7 @@ import DocCardList from '@theme/DocCardList';
 ## Blazor 
 <details>
     
-  <summary>Expand Blazor =>examples:3</summary>
+  <summary>Expand Blazor =>examples:4</summary>
         
 
 
@@ -143,6 +143,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Blazor.TSRuntime](/docs/Blazor.TSRuntime)
+
+        
+
+
+[BadIdeas.Icons.FontAwesome](/docs/BadIdeas.Icons.FontAwesome)
 
 </details>
     
@@ -662,7 +667,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:8</summary>
+  <summary>Expand Enum =>examples:9</summary>
         
 
 
@@ -702,6 +707,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Flaggen](/docs/Flaggen)
+
+        
+
+
+[Genbox.FastEnum](/docs/Genbox.FastEnum)
 
 </details>
     
@@ -1363,6 +1373,8 @@ flowchart LR;
 
     Blazor--> Blazor.TSRuntime((Blazor.TSRuntime))
 
+    Blazor--> BadIdeas.Icons.FontAwesome((BadIdeas.Icons.FontAwesome))
+
     Builder--> BuilderGenerator((BuilderGenerator))
 
     Builder--> Architect.DomainModeling((Architect.DomainModeling))
@@ -1552,6 +1564,8 @@ flowchart LR;
     Enum--> jos.enumeration((jos.enumeration))
 
     Enum--> Flaggen((Flaggen))
+
+    Enum--> Genbox.FastEnum((Genbox.FastEnum))
 
     Equals--> GeneratorEquals((GeneratorEquals))
 

@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Genbox.FastEnum",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [Genbox.FastEnum](https://www.nuget.org/packages/Genbox.FastEnum/) in csproj  ",
+      "pattern": "Genbox.FastEnum"
+    }
+
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/Genbox.FastEnum/Genbox.FastEnum.EnumGenerator/EnumDemo.CarTypes_Extensions.g.cs",
+        "description": "Generated File 3  from 3 : EnumDemo.CarTypes_Extensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Genbox.FastEnum/Genbox.FastEnum.EnumGenerator/EnumDemo.CarTypes_Enums.g.cs",
+        "description": "Generated File 2  from 3 : EnumDemo.CarTypes_Enums.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Genbox.FastEnum/Genbox.FastEnum.EnumGenerator/EnumDemo.CarTypes_EnumFormat.g.cs",
+        "description": "Generated File 1  from 3 : EnumDemo.CarTypes_EnumFormat.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
