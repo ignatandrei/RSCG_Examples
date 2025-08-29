@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 214 RSCG with examples in descending chronological order
+## 215 RSCG with examples in descending chronological order
 
-This is the list of 214 ( 14 from Microsoft) RSCG with examples 
+This is the list of 215 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 214 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|215| [BadIdeas.Icons.FontAwesome by Phil Scott ](/docs/BadIdeas.Icons.FontAwesome)|2025-08-03 => 03 August 2025 | [Blazor](/docs/Categories/Blazor) |
 |214| [Genbox.FastEnum by Ian Qvist ](/docs/Genbox.FastEnum)|2025-08-03 => 03 August 2025 | [Enum](/docs/Categories/Enum) |
 |213| [Blazor.TSRuntime by Black White Yoshi ](/docs/Blazor.TSRuntime)|2025-08-02 => 02 August 2025 | [Blazor](/docs/Categories/Blazor) |
 |212| [StackXML by Zing ](/docs/StackXML)|2025-08-01 => 01 August 2025 | [Serializer](/docs/Categories/Serializer) |

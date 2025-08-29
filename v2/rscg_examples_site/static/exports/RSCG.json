@@ -1713,6 +1713,14 @@
       "Source": "https://github.com/Genbox/FastEnum",
       "Category": "Enum",
       "AddedOn": "2025-08-03T00:00:00"
+    },
+    {
+      "Name": "BadIdeas.Icons.FontAwesome",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BadIdeas.Icons.FontAwesome",
+      "NuGet": "https://www.nuget.org/packages/BadIdeas.Icons.FontAwesome/",
+      "Source": "https://github.com/phil-scott-78/Icons/",
+      "Category": "Blazor",
+      "AddedOn": "2025-08-03T00:00:00"
     }
   ]
 }
