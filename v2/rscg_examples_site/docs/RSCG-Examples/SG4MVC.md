@@ -54,7 +54,7 @@ R4MVC runs as you build, and currently has only been tested on net6.0
 
 ## Get Started?
 
-Just want to get started? Visit the [Get Started page](../../wiki/1.-Get-Started) for installation and configuration instructions.
+Just want to get started? Visit the [Get Started page](https://github.com/SG4MVC/SG4MVC/wiki/1.-Get-Started) for installation and configuration instructions.
 
 ## Benefits
 
@@ -81,7 +81,7 @@ and that's just the beginning!
 
 ### Use the following links to get started
 
-*   **Install** SG4MVC is distributed using using [NuGet](http://nuget.org). Visit the [Get Started page](../../wiki/1.-Get-Started)
+*   **Install** SG4MVC is distributed using using [NuGet](http://nuget.org). Visit the [Get Started page](https://github.com/SG4MVC/SG4MVC/wiki/1.-Get-Started)
 *   **Discuss**: Discuss it on [GitHub](https://github.com/SG4MVC/SG4MVC/issues)
 *   **Contribute**
 *   **History &amp; release notes**: [change history](https://github.com/SG4MVC/SG4MVC/CHANGELOG.md)
