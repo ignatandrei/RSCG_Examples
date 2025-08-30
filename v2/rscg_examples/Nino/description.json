@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Nino",
+      "nuget":[
+         "https://www.nuget.org/packages/Nino/"
+      ],
+      "link":"https://github.com/JasonXuDeveloper/Nino",
+      "author":"Jason Xu",
+      "source":"https://github.com/JasonXuDeveloper/Nino"
+   },
+   "data":{
+      "goodFor":["binary serialization"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
