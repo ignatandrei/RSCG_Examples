@@ -1304,5 +1304,11 @@
   "Category": 36,
   "dtStart": "2025-08-04T00:00:00",
   "show": true
+},
+{
+  "ID":"EnumsEnhanced",
+  "Category": 19,
+  "dtStart": "2025-08-05T00:00:00",
+  "show": true
 }
 ]

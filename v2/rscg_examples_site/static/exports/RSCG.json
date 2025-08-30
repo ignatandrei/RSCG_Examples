@@ -1729,6 +1729,14 @@
       "Source": "https://github.com/SG4MVC/SG4MVC",
       "Category": "MVC",
       "AddedOn": "2025-08-04T00:00:00"
+    },
+    {
+      "Name": "EnumsEnhanced",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumsEnhanced",
+      "NuGet": "https://www.nuget.org/packages/EnumsEnhanced/",
+      "Source": "https://github.com/snowberry-software/EnumsEnhanced",
+      "Category": "Enum",
+      "AddedOn": "2025-08-05T00:00:00"
     }
   ]
 }

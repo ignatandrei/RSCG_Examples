@@ -1,6 +1,6 @@
-# RSCG - 216 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 217 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-08-04 => 04 August 2025
+## Latest Update : 2025-08-05 => 05 August 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 216 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 217 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 217. [EnumsEnhanced](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumsEnhanced) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2025-08-05 => 05 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: VNCC
+
+Source generator for generating common (extension) methods for enums without having the cost of the Reflection API. 
+
+Nuget: [https://www.nuget.org/packages/EnumsEnhanced/](https://www.nuget.org/packages/EnumsEnhanced/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumsEnhanced](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumsEnhanced)
+
+Source: [https://github.com/snowberry-software/EnumsEnhanced](https://github.com/snowberry-software/EnumsEnhanced)
+
+</details>
+
 ### 216. [SG4MVC](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SG4MVC) , in the [MVC](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvc) category 
 
 Generated on : 2025-08-04 => 04 August 2025
