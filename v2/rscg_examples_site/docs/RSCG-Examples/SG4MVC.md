@@ -40,6 +40,12 @@ Source: https://github.com/SG4MVC/SG4MVC
 
 :::
 
+### Author
+:::note
+Mark Flanagan 
+![Alt text](https://github.com/MarkFl12.png)
+:::
+
 ### Original Readme
 :::note
 

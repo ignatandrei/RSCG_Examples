@@ -40,6 +40,12 @@ Source: https://github.com/Genbox/FastEnum
 
 :::
 
+### Author
+:::note
+Ian Qvist 
+![Alt text](https:/github.com/Genbox.png)
+:::
+
 ### Original Readme
 :::note
 

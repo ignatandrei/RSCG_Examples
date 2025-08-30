@@ -42,6 +42,13 @@ Source: {{ Description.Generator.Source }}
 
 :::
 
+### Author
+:::note
+{{Description.Generator.Author }} 
+{{~ image = Description.Generator.ExistImageAuthor ? "![Alt text](" + Description.Generator.ImageAuthor+")":"" ~}}
+{{image}}
+:::
+
 ### Original Readme
 :::note
 

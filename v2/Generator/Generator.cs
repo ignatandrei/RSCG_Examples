@@ -43,6 +43,38 @@ public class Generator
 
     [JsonPropertyName("source")]
     public string? Source { get; set; }
+    public bool ExistImageAuthor
+    {
+        get
+        {
+            if (string.IsNullOrWhiteSpace(ImageAuthor))
+                return false;
+            return true;
+        }
+    }
+    public string ImageAuthor
+    {
+        get
+        {
+            if(string.IsNullOrWhiteSpace(Source))
+                return "";
+
+            var splitSlash = Source
+                .TrimEnd('/')
+                .Split("/", StringSplitOptions.RemoveEmptyEntries)
+                .ToList();
+
+            if (splitSlash.Count <2)
+                return "";
+            splitSlash.RemoveAt(splitSlash.Count - 1);
+            splitSlash[splitSlash.Count-1 ] = splitSlash[splitSlash.Count - 1]+".png";
+
+            var author =string.Join('/',splitSlash);
+            if(author.StartsWith("https:/github.com/SG4MVC", StringComparison.InvariantCultureIgnoreCase))
+                return "https://github.com/MarkFl12.png";
+            return author;
+        }
+    }
     public string NamePackage(string item)
     {
         var l = "https://www.nuget.org/packages/".Length;

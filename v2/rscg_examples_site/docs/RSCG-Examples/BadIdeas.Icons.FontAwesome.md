@@ -40,6 +40,12 @@ Source: https://github.com/phil-scott-78/Icons/
 
 :::
 
+### Author
+:::note
+Phil Scott 
+![Alt text](https:/github.com/phil-scott-78.png)
+:::
+
 ### Original Readme
 :::note
 
