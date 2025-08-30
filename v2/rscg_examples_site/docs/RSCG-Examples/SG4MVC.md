@@ -84,7 +84,7 @@ and that's just the beginning!
 *   **Install** SG4MVC is distributed using using [NuGet](http://nuget.org). Visit the [Get Started page](../../wiki/1.-Get-Started)
 *   **Discuss**: Discuss it on [GitHub](https://github.com/SG4MVC/SG4MVC/issues)
 *   **Contribute**
-*   **History &amp; release notes**: [change history](CHANGELOG.md)
+*   **History &amp; release notes**: [change history](https://github.com/SG4MVC/SG4MVC/CHANGELOG.md)
 
 
 :::
