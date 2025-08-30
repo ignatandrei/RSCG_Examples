@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"SG4MVC",
+      "nuget":[
+         "https://www.nuget.org/packages/SG4MVC/"
+      ],
+      "link":"https://github.com/SG4MVC/SG4MVC",
+      "author":"Mark Flanagan",
+      "source":"https://github.com/SG4MVC/SG4MVC"
+   },
+   "data":{
+      "goodFor":["Generate strong typed HTML helpers for ASP.NET MVC projects."],
+      "csprojDemo":"MVCDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":["Microsoft.CodeAnalysis.Razor.Compiler"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

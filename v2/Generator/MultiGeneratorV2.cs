@@ -123,6 +123,7 @@ public class MultiGeneratorV2
             text = text.Replace("(integ-tests/", $"({d.Generator!.Source}/integ-tests/");
             text = text.Replace("(./samples", $"({d.Generator!.Source}/samples");
             text = text.Replace("(./tests", $"({d.Generator!.Source}/tests");
+            text = text.Replace("(../../wiki/", $"({d.Generator!.Source}/wiki/");
 
             text = text.Replace("(Documentation/", $"({d.Generator!.Source}/Documentation/");
             text = text.Replace("(src/", $"({d.Generator!.Source}/src/");

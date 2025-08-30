@@ -1721,6 +1721,14 @@
       "Source": "https://github.com/phil-scott-78/Icons/",
       "Category": "Blazor",
       "AddedOn": "2025-08-03T00:00:00"
+    },
+    {
+      "Name": "SG4MVC",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SG4MVC",
+      "NuGet": "https://www.nuget.org/packages/SG4MVC/",
+      "Source": "https://github.com/SG4MVC/SG4MVC",
+      "Category": "MVC",
+      "AddedOn": "2025-08-04T00:00:00"
     }
   ]
 }

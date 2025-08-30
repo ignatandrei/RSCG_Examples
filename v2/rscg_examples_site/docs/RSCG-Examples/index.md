@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 215 RSCG list by category
-description: 215 RSCG list by category
+title: 216 RSCG list by category
+description: 216 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1077,6 +1077,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## MVC 
+<details>
+    
+  <summary>Expand MVC =>examples:1</summary>
+        
+
+
+[SG4MVC](/docs/SG4MVC)
+
+</details>
+    
+
 ## MVVM 
 <details>
     
@@ -1688,6 +1700,8 @@ flowchart LR;
     Mediator--> DeeDee((DeeDee))
 
     Mediator--> Immediate.Handlers((Immediate.Handlers))
+
+    MVC--> SG4MVC((SG4MVC))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
