@@ -10,8 +10,8 @@
    },
    "data":{
       "goodFor":["generating enums fast retrieval"],
-      "csprojDemo":"EnumsEnhancedDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

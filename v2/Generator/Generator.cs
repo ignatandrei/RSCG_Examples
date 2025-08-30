@@ -72,7 +72,7 @@ public class Generator
             var author =string.Join('/',splitSlash);
             if(author.StartsWith("https:/github.com/SG4MVC", StringComparison.InvariantCultureIgnoreCase))
                 return "https://github.com/MarkFl12.png";
-            if(author.StartsWith("https://github.com/snowberry-software", StringComparison.InvariantCultureIgnoreCase))
+            if(author.Contains("snowberry-software", StringComparison.InvariantCultureIgnoreCase))
                 return "https://github.com/VNNCC.png";
 
             return author;

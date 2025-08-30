@@ -1,0 +1,1 @@
+Source generator for generating common (extension) methods for enums without having the cost of the Reflection API.
