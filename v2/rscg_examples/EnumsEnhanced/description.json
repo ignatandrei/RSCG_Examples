@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"EnumsEnhanced",
+      "nuget":[
+         "https://www.nuget.org/packages/EnumsEnhanced/"
+      ],
+      "link":"https://github.com/snowberry-software/EnumsEnhanced",
+      "author":"VNCC",
+      "source":"https://github.com/snowberry-software/EnumsEnhanced"
+   },
+   "data":{
+      "goodFor":["generating enums fast retrieval"],
+      "csprojDemo":"EnumsEnhancedDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
