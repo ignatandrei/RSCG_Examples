@@ -1,0 +1,96 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Nino",
+  "steps": 
+  [
+    {
+      "file": "Serializer/Serializer.csproj",
+      "description": "First, we add Nuget  [Nino](https://www.nuget.org/packages/Nino/) in csproj  ",
+      "pattern": "Nino"
+    }
+
+        ,{
+        "file": "Serializer/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Serializer/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Serializer/Serializer.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Types.g.cs",
+        "description": "Generated File 11  from 11 : Serializer.NinoGen.Types.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.TypeConst.g.cs",
+        "description": "Generated File 10  from 11 : Serializer.NinoGen.TypeConst.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Serializer.Generic.g.cs",
+        "description": "Generated File 9  from 11 : Serializer.NinoGen.Serializer.Generic.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Serializer.g.cs",
+        "description": "Generated File 8  from 11 : Serializer.NinoGen.Serializer.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Serializer.Collection.g.cs",
+        "description": "Generated File 7  from 11 : Serializer.NinoGen.Serializer.Collection.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.PrivateAccessor.g.cs",
+        "description": "Generated File 6  from 11 : Serializer.NinoGen.PrivateAccessor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.PartialClass.g.cs",
+        "description": "Generated File 5  from 11 : Serializer.NinoGen.PartialClass.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Graph.g.cs",
+        "description": "Generated File 4  from 11 : Serializer.NinoGen.Graph.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Deserializer.Generic.g.cs",
+        "description": "Generated File 3  from 11 : Serializer.NinoGen.Deserializer.Generic.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Deserializer.g.cs",
+        "description": "Generated File 2  from 11 : Serializer.NinoGen.Deserializer.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Nino.Generator/Nino.Generator.GlobalGenerator/Serializer.NinoGen.Deserializer.Collection.g.cs",
+        "description": "Generated File 1  from 11 : Serializer.NinoGen.Deserializer.Collection.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

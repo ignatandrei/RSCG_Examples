@@ -1,6 +1,6 @@
-# RSCG - 217 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 218 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-08-05 => 05 August 2025
+## Latest Update : 2025-08-06 => 06 August 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 217 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 218 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 218. [Nino](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Nino) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2025-08-06 => 06 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Jason Xu
+
+High performance and low size binary serialization solution, especially for Unity. 
+
+Nuget: [https://www.nuget.org/packages/Nino/](https://www.nuget.org/packages/Nino/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Nino](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Nino)
+
+Source: [https://github.com/JasonXuDeveloper/Nino](https://github.com/JasonXuDeveloper/Nino)
+
+</details>
+
 ### 217. [EnumsEnhanced](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EnumsEnhanced) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
 Generated on : 2025-08-05 => 05 August 2025

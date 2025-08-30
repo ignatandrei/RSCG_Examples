@@ -1737,6 +1737,14 @@
       "Source": "https://github.com/snowberry-software/EnumsEnhanced",
       "Category": "Enum",
       "AddedOn": "2025-08-05T00:00:00"
+    },
+    {
+      "Name": "Nino",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Nino",
+      "NuGet": "https://www.nuget.org/packages/Nino/",
+      "Source": "https://github.com/JasonXuDeveloper/Nino",
+      "Category": "Serializer",
+      "AddedOn": "2025-08-06T00:00:00"
     }
   ]
 }

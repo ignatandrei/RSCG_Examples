@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 217 RSCG list by category
-description: 217 RSCG list by category
+title: 218 RSCG list by category
+description: 218 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1158,7 +1158,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:6</summary>
+  <summary>Expand Serializer =>examples:7</summary>
         
 
 
@@ -1188,6 +1188,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [StackXML](/docs/StackXML)
+
+        
+
+
+[Nino](/docs/Nino)
 
 </details>
     
@@ -1737,6 +1742,8 @@ flowchart LR;
     Serializer--> GenPack((GenPack))
 
     Serializer--> StackXML((StackXML))
+
+    Serializer--> Nino((Nino))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 
