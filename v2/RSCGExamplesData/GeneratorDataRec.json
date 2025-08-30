@@ -1299,4 +1299,10 @@
   "dtStart": "2025-08-03T00:00:00",
   "show": true
 }
+,{
+  "ID":"SG4MVC",
+  "Category": 36,
+  "dtStart": "2025-08-04T00:00:00",
+  "show": true
+}
 ]

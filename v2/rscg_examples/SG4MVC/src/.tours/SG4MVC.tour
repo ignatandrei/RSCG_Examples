@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SG4MVC",
+  "steps": 
+  [
+    {
+      "file": "MVCDemo/MVCDemo.csproj",
+      "description": "First, we add Nuget  [SG4MVC](https://www.nuget.org/packages/SG4MVC/) in csproj  ",
+      "pattern": "SG4MVC"
+    }
+
+        ,{
+        "file": "MVCDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project MVCDemo/MVCDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "MVCDemo/obj/GX/Sg4Mvc.Generator/Sg4Mvc.Generator.Generator/Sg4Mvc.generated.cs",
+        "description": "Generated File 4  from 4 : Sg4Mvc.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MVCDemo/obj/GX/Sg4Mvc.Generator/Sg4Mvc.Generator.Generator/MVCPages.cs",
+        "description": "Generated File 3  from 4 : MVCPages.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MVCDemo/obj/GX/Sg4Mvc.Generator/Sg4Mvc.Generator.Generator/MVCDemo_Controllers_HomeController.generated.cs",
+        "description": "Generated File 2  from 4 : MVCDemo_Controllers_HomeController.generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "MVCDemo/obj/GX/Sg4Mvc.Generator/Sg4Mvc.Generator.Generator/MVC.cs",
+        "description": "Generated File 1  from 4 : MVC.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
