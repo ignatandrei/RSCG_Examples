@@ -38,5 +38,6 @@ public enum Category
     StateMachine=33, 
     Console=34,
     Async=35,
+    MVC=36,
 }
 
