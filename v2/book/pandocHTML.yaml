@@ -231,6 +231,7 @@ input-files:
 - examples/BadIdeas.Icons.FontAwesome.html
 - examples/SG4MVC.html
 - examples/EnumsEnhanced.html
+- examples/Nino.html
 
 # or you may use input-file: with a single value
 # defaults:
