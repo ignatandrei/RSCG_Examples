@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"JinShil.MixinSourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/JinShil.MixinSourceGenerator/"
+      ],
+      "link":"https://github.com/JinShil/JinShil.MixinSourceGenerator",
+      "author":"Jin Shil",
+      "source":"https://github.com/JinShil/JinShil.MixinSourceGenerator"
+   },
+   "data":{
+      "goodFor":["Generate mixins of classes"],
+      "csprojDemo":"DemoMixin.csproj",
+      "csFiles":["Program.cs","Person.cs","LogData.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
