@@ -51,7 +51,7 @@ Natalie Howes
 
 # C# FileEmbed
 
-A source generator for embedding resource files directly into your assembly. Access them as a `ReadOnlySpanAndrei<byte>`, with no allocations or reflection needed.
+A source generator for embedding resource files directly into your assembly. Access them as a `ReadOnlySpan<byte>`, with no allocations or reflection needed.
 
 Add the package to your application using
 
@@ -71,9 +71,9 @@ namespace EmbedExample;
 //partial methods must be in partial types
 public static partial class Program
 {
-    //Place the attribute on a static partial method that returns a ReadOnlySpanAndrei<byte>
+    //Place the attribute on a static partial method that returns a ReadOnlySpan<byte>
     [FileEmbed(@"Capture.PNG")]
-    public static partial ReadOnlySpanAndrei<byte> Bytes();
+    public static partial ReadOnlySpan<byte> Bytes();
 
 
     //works in any type that can contain a static method
@@ -81,14 +81,14 @@ public static partial class Program
     {
         //Path is relative to your project directory (specifically, the ProjectDir MSBuild property)
         [FileEmbed(@"Resources\Capture.7z")]
-        internal static partial ReadOnlySpanAndrei<byte> StructBytes();
+        internal static partial ReadOnlySpan<byte> StructBytes();
     }
 
     public partial interface IExampleInterface
     {
         //two optional arguments, Offset and Length, allow you to embed a slice of the file
         [FileEmbed(@"Resources\Capture.7z", 4, 8)]
-        internal static partial ReadOnlySpanAndrei<byte> InterfaceBytes();
+        internal static partial ReadOnlySpan<byte> InterfaceBytes();
     }
 
     public static void Main()
@@ -108,7 +108,7 @@ namespace EmbedExample
 		partial interface IExampleInterface
 		{
 			[global::System.CodeDom.Compiler.GeneratedCodeAttribute("FileEmbed", "0.1.0.0")]
-			internal static partial global::System.ReadOnlySpanAndrei<byte> InterfaceBytes() => new byte[] \{ 39,28,0,4,115,228,9,158, };
+			internal static partial global::System.ReadOnlySpan<byte> InterfaceBytes() => new byte[] \{ 39,28,0,4,115,228,9,158, };
 		}
 	}
 }
