@@ -40,5 +40,6 @@ public enum Category
     Async=35,
     MVC=36,
     AI=37,
+    RX=38,
 }
 

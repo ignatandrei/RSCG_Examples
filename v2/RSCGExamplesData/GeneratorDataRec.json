@@ -1329,5 +1329,11 @@
   "Category": 8,
   "dtStart": "2025-08-08T00:00:00",
   "show": true
+},
+{
+  "ID":"RxSourceGenerator",
+  "Category": 38,
+  "dtStart": "2025-08-09T00:00:00",
+  "show": true
 }
 ]

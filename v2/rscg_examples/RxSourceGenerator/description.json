@@ -9,9 +9,9 @@
       "source":"https://github.com/Zalutskii/Reactive-Extensions-event-generator"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Generates RX Extensions for events"],
       "csprojDemo":"RxDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
