@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Finch.Generators",
+  "steps": 
+  [
+    {
+      "file": "DB/DB.csproj",
+      "description": "First, we add Nuget  [Finch.Generators](https://www.nuget.org/packages/Finch.Generators/) in csproj  ",
+      "pattern": "Finch.Generators"
+    }
+
+        ,{
+        "file": "DB/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DB/DB.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DB/obj/GX/Finch.Generators/Finch.Generators.SqlserverGenerator/SqlserverPropertyMapper.Person.g.cs",
+        "description": "Generated File 5  from 5 : SqlserverPropertyMapper.Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DB/obj/GX/Finch.Generators/Finch.Generators.SqlserverGenerator/SqlserverObjectMapper.g.cs",
+        "description": "Generated File 4  from 5 : SqlserverObjectMapper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DB/obj/GX/Finch.Generators/Finch.Generators.SqlserverGenerator/SqlserverConnectionExtensions.QueryAsyncWithParameter.g.cs",
+        "description": "Generated File 3  from 5 : SqlserverConnectionExtensions.QueryAsyncWithParameter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DB/obj/GX/Finch.Generators/Finch.Generators.SqlserverGenerator/SqlserverConnectionExtensions.QueryAsync.g.cs",
+        "description": "Generated File 2  from 5 : SqlserverConnectionExtensions.QueryAsync.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DB/obj/GX/Finch.Generators/Finch.Generators.SqlserverGenerator/SqlserverConnectionExtensions.Query.g.cs",
+        "description": "Generated File 1  from 5 : SqlserverConnectionExtensions.Query.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
