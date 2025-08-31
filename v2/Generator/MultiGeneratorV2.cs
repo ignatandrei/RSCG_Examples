@@ -205,7 +205,7 @@ public class MultiGeneratorV2
             text = text.Replace("(./", $"({d.Generator!.Source}/");
 
 
-            text = text.Replace("<byte>", "Andrei<byte>");
+            //text = text.Replace("<byte>", "<byte>");
             return text;
         }
             ;

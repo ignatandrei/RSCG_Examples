@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RxSourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/RxSourceGenerator/"
+      ],
+      "link":"https://github.com/Zalutskii/Reactive-Extensions-event-generator",
+      "author":"Ivan Zalutskii",
+      "source":"https://github.com/Zalutskii/Reactive-Extensions-event-generator"
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"RxDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
