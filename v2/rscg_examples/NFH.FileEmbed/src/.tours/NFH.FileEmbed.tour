@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NFH.FileEmbed",
+  "steps": 
+  [
+    {
+      "file": "EmbedDemo/EmbedDemo.csproj",
+      "description": "First, we add Nuget  [NFH.FileEmbed](https://www.nuget.org/packages/NFH.FileEmbed/) in csproj  ",
+      "pattern": "NFH.FileEmbed"
+    }
+
+        ,{
+        "file": "EmbedDemo/TestData/Countries.txt",
+        "description": "File Countries.txt  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/TestData.cs",
+        "description": "File TestData.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EmbedDemo/EmbedDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EmbedDemo/obj/GX/FileEmbed/FileEmbed.FileEmbedGenerator/FileEmbedAttribute.g.cs",
+        "description": "Generated File 2  from 2 : FileEmbedAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EmbedDemo/obj/GX/FileEmbed/FileEmbed.FileEmbedGenerator/EMBEDDED__Countries.txt.g.cs",
+        "description": "Generated File 1  from 2 : EMBEDDED__Countries.txt.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
