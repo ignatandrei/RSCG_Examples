@@ -205,7 +205,7 @@ public class MultiGeneratorV2
             text = text.Replace("(./", $"({d.Generator!.Source}/");
 
 
-            //text = text.Replace("<byte>", "<byte>");
+            text = text.Replace("Access them as a ReadOnlySpan<byte>", "Access them as a ReadOnlySpan\\<byte\\>");
             return text;
         }
             ;

@@ -41,5 +41,6 @@ public enum Category
     MVC=36,
     AI=37,
     RX=38,
+    Mixin=39,
 }
 

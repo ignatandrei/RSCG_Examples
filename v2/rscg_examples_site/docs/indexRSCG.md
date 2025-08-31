@@ -102,7 +102,7 @@ This is the list of 222 ( 14 from Microsoft) RSCG with examples
 |143| [FactoryGenerator by Westermo Network Technologies ](/docs/FactoryGenerator)|2024-06-27 => 27 June 2024 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |142| [TableStorage by Steven Thuriot ](/docs/TableStorage)|2024-06-01 => 01 June 2024 | [Database](/docs/Categories/Database) |
 |141| [ActorSrcGen by Andrew Matthews ](/docs/ActorSrcGen)|2024-05-01 => 01 May 2024 | [Actor](/docs/Categories/Actor) |
-|140| [Minerals.AutoMixins by Szymon Halucha ](/docs/Minerals.AutoMixins)|2024-04-20 => 20 April 2024 | [Templating](/docs/Categories/Templating) |
+|140| [Minerals.AutoMixins by Szymon Halucha ](/docs/Minerals.AutoMixins)|2024-04-20 => 20 April 2024 | [Mixin](/docs/Categories/Mixin) |
 |139| [ThisClass by Trym Lund Flogard ](/docs/ThisClass)|2024-04-19 => 19 April 2024 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |138| [RossLean.StringificationGenerator by Alex Kalfakakos ](/docs/RossLean.StringificationGenerator)|2024-04-18 => 18 April 2024 | [CodeToString](/docs/Categories/CodeToString) |
 |137| [Minerals.AutoInterfaces by Szymon Hałucha ](/docs/Minerals.AutoInterfaces)|2024-04-17 => 17 April 2024 | [Interface](/docs/Categories/Interface) |
@@ -211,7 +211,7 @@ This is the list of 222 ( 14 from Microsoft) RSCG with examples
 |34| [MemoryPack by Cysharp, Inc ](/docs/MemoryPack)|2023-08-04 => 04 August 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |33| [Matryoshki by Georgy Krasin ](/docs/Matryoshki)|2023-08-03 => 03 August 2023 | [Interface](/docs/Categories/Interface) |
 |32| [Mediator by Martin Othamar ](/docs/Mediator)|2023-08-02 => 02 August 2023 | [Mediator](/docs/Categories/Mediator) |
-|31| [MorrisMoxy by Peter Morris ](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | [Templating](/docs/Categories/Templating) |
+|31| [MorrisMoxy by Peter Morris ](/docs/MorrisMoxy)|2023-08-01 => 01 August 2023 | [Mixin](/docs/Categories/Mixin) |
 |30| [Refit by ReactiveUI ](/docs/Refit)|2023-07-31 => 31 July 2023 | [API](/docs/Categories/API) |
 |29| [Gedaq by Vyacheslav Brevnov ](/docs/Gedaq)|2023-07-29 => 29 July 2023 | [Database](/docs/Categories/Database) |
 |28| [Lombok.NET by Colin Alpert ](/docs/Lombok.NET)|2023-04-16 => 16 April 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |

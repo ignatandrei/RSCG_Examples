@@ -29,7 +29,7 @@ Nr,Key,Source,Category
 28,Lombok.NET, https://github.com/CollinAlpert/Lombok.NET,EnhancementClass
 29,Gedaq, https://github.com/SoftStoneDevelop/Gedaq,Database
 30,Refit, https://github.com/reactiveui/refit,API
-31,MorrisMoxy, https://github.com/mrpmorris/Morris.Moxy,Templating
+31,MorrisMoxy, https://github.com/mrpmorris/Morris.Moxy,Mixin
 32,Mediator, https://github.com/martinothamar/Mediator,Mediator
 33,Matryoshki, https://github.com/krasin-ga/matryoshki/,Interface
 34,MemoryPack, https://github.com/Cysharp/MemoryPack,EnhancementClass
@@ -138,7 +138,7 @@ Nr,Key,Source,Category
 137,Minerals.AutoInterfaces, https://github.com/SzymonHalucha/Minerals.AutoInterfaces,Interface
 138,RossLean.StringificationGenerator, https://github.com/RossLean/RossLean/,CodeToString
 139,ThisClass, https://github.com/trympet/ThisClass,EnhancementClass
-140,Minerals.AutoMixins, https://github.com/SzymonHalucha/Minerals.AutoMixins,Templating
+140,Minerals.AutoMixins, https://github.com/SzymonHalucha/Minerals.AutoMixins,Mixin
 141,ActorSrcGen, https://github.com/aabs/ActorSrcGen,Actor
 142,TableStorage, https://github.com/StevenThuriot/TableStorage,Database
 143,FactoryGenerator, https://github.com/westermo/FactoryGenerator,DependencyInjection

@@ -1,6 +1,6 @@
 <h1>Templating</h1>
 
-Number RSCG: 14
+Number RSCG: 12
 
    1 [Gobie](/docs/Gobie)
 
@@ -12,21 +12,17 @@ Number RSCG: 14
 
    5 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
 
-   6 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+   6 [NTypewriter](/docs/NTypewriter)
 
-   7 [MorrisMoxy](/docs/MorrisMoxy)
+   7 [RazorBlade](/docs/RazorBlade)
 
-   8 [NTypewriter](/docs/NTypewriter)
+   8 [RazorSlices](/docs/RazorSlices)
 
-   9 [RazorBlade](/docs/RazorBlade)
+   9 [RSCG_IFormattable](/docs/RSCG_IFormattable)
 
-   10 [RazorSlices](/docs/RazorSlices)
+   10 [RSCG_Templating](/docs/RSCG_Templating)
 
-   11 [RSCG_IFormattable](/docs/RSCG_IFormattable)
+   11 [spreadcheetah](/docs/spreadcheetah)
 
-   12 [RSCG_Templating](/docs/RSCG_Templating)
-
-   13 [spreadcheetah](/docs/spreadcheetah)
-
-   14 [Tortuga.Shipwright](/docs/Tortuga.Shipwright)
+   12 [Tortuga.Shipwright](/docs/Tortuga.Shipwright)
     

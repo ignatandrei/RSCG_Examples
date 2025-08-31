@@ -1104,6 +1104,23 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Mixin 
+<details>
+    
+  <summary>Expand Mixin =>examples:2</summary>
+        
+
+
+[MorrisMoxy](/docs/MorrisMoxy)
+
+        
+
+
+[Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+
+</details>
+    
+
 ## MVC 
 <details>
     
@@ -1258,7 +1275,7 @@ import DocCardList from '@theme/DocCardList';
 ## Templating 
 <details>
     
-  <summary>Expand Templating =>examples:14</summary>
+  <summary>Expand Templating =>examples:12</summary>
         
 
 
@@ -1268,11 +1285,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Microsoft.NET.Sdk.Razor.SourceGenerators](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)
-
-        
-
-
-[MorrisMoxy](/docs/MorrisMoxy)
 
         
 
@@ -1293,11 +1305,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [InterceptorTemplate](/docs/InterceptorTemplate)
-
-        
-
-
-[Minerals.AutoMixins](/docs/Minerals.AutoMixins)
 
         
 
@@ -1753,6 +1760,10 @@ flowchart LR;
 
     Mediator--> Immediate.Handlers((Immediate.Handlers))
 
+    Mixin--> MorrisMoxy((MorrisMoxy))
+
+    Mixin--> Minerals.AutoMixins((Minerals.AutoMixins))
+
     MVC--> SG4MVC((SG4MVC))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
@@ -1795,8 +1806,6 @@ flowchart LR;
 
     Templating--> Microsoft.NET.Sdk.Razor.SourceGenerators((Microsoft.NET.Sdk.Razor.SourceGenerators))
 
-    Templating--> MorrisMoxy((MorrisMoxy))
-
     Templating--> spreadcheetah((spreadcheetah))
 
     Templating--> Gobie((Gobie))
@@ -1804,8 +1813,6 @@ flowchart LR;
     Templating--> RSCG_Templating((RSCG_Templating))
 
     Templating--> InterceptorTemplate((InterceptorTemplate))
-
-    Templating--> Minerals.AutoMixins((Minerals.AutoMixins))
 
     Templating--> RSCG_IFormattable((RSCG_IFormattable))
 

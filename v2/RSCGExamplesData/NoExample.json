@@ -887,16 +887,26 @@
     "name":"https://github.com/wieslawsoltes/ReactiveGenerator",
     "why":"later"
   }
-  ,
+  
+,
   {
-    "ID":213,
-    "name":"https://github.com/CharlieDigital/SKPromptGenerator",
+    "ID":218,
+    "name":"https://github.com/Atoen/TextLocalizer",
+    "why":"later"
+  },
+  {
+    "ID":219,
+    "name":"https://github.com/ivmazurenko/factory-generator",
     "why":"later"
   }
-,
-{
-  "ID":217,
-  "name":"https://github.com/kevingosse/NativeObjects",
-  "why":"later"
-}
+  ,{
+    "ID":220,
+    "name":"https://github.com/MarkFl12/BlazorLinks",
+    "why":"later"
+  },
+  {
+    "ID":221,
+    "name":"https://github.com/buchmiet/FastFsm",
+    "why":"later"
+  }
 ]
