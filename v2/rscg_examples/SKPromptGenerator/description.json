@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"SKPromptGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/SKPromptGenerator/"
+      ],
+      "link":"https://github.com/CharlieDigital/SKPromptGenerator",
+      "author":"Charlie Chen",
+      "source":"https://github.com/CharlieDigital/SKPromptGenerator"
+   },
+   "data":{
+      "goodFor":["Generate typed prompts for Semantic Kernel"],
+      "csprojDemo":"DemoAI.csproj",
+      "csFiles":["Program.cs","WeatherCity.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

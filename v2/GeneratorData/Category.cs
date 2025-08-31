@@ -39,5 +39,6 @@ public enum Category
     Console=34,
     Async=35,
     MVC=36,
+    AI=37,
 }
 

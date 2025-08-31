@@ -1,0 +1,1 @@
+A source generator to automatically create classes from string prompts.

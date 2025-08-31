@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 218 RSCG list by category
-description: 218 RSCG list by category
+title: 219 RSCG list by category
+description: 219 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -18,6 +18,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [ActorSrcGen](/docs/ActorSrcGen)
+
+</details>
+    
+
+## AI 
+<details>
+    
+  <summary>Expand AI =>examples:1</summary>
+        
+
+
+[SKPromptGenerator](/docs/SKPromptGenerator)
 
 </details>
     
@@ -1358,6 +1370,8 @@ flowchart LR;
 
 
     Actor--> ActorSrcGen((ActorSrcGen))
+
+    AI--> SKPromptGenerator((SKPromptGenerator))
 
     AOP--> WhatIAmDoing((WhatIAmDoing))
 

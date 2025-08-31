@@ -1745,6 +1745,14 @@
       "Source": "https://github.com/JasonXuDeveloper/Nino",
       "Category": "Serializer",
       "AddedOn": "2025-08-06T00:00:00"
+    },
+    {
+      "Name": "SKPromptGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SKPromptGenerator",
+      "NuGet": "https://www.nuget.org/packages/SKPromptGenerator/",
+      "Source": "https://github.com/CharlieDigital/SKPromptGenerator",
+      "Category": "AI",
+      "AddedOn": "2025-08-07T00:00:00"
     }
   ]
 }

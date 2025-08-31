@@ -103,17 +103,9 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 {{~ for fileContent in Description.Data.outputFiles.generatedFiles ~}}
 
 <TabItem value="{{fileContent.fullPathFile}}" label="{{fileContent.file}}" >
-
-{{~ if fileContent.content | string.contains  "```" ~}}
-
-{{fileContent.content}}
-
-{{~ else ~}}
-
 ```csharp showLineNumbers 
 {{fileContent.content}}
 ```
-{{end}}
   </TabItem>
 
 {{~ end ~}}

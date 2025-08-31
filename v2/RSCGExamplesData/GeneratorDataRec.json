@@ -1317,5 +1317,11 @@
   "Category": 16,
   "dtStart": "2025-08-06T00:00:00",
   "show": true
+},
+{
+  "ID":"SKPromptGenerator",
+  "Category": 37,
+  "dtStart": "2025-08-07T00:00:00",
+  "show": true
 }
 ]
