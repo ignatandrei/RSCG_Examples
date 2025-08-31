@@ -43,7 +43,7 @@ Source: https://github.com/JasonXuDeveloper/Nino
 ### Author
 :::note
 Jason Xu 
-![Alt text](https:/github.com/JasonXuDeveloper.png)
+![Alt text](https://github.com/JasonXuDeveloper.png)
 :::
 
 ### Original Readme

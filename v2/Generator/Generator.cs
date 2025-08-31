@@ -70,12 +70,12 @@ public class Generator
             splitSlash[splitSlash.Count-1 ] = splitSlash[splitSlash.Count - 1]+".png";
 
             var author =string.Join('/',splitSlash);
-            if(author.StartsWith("https:/github.com/SG4MVC", StringComparison.InvariantCultureIgnoreCase))
+            if(author.Contains("SG4MVC", StringComparison.InvariantCultureIgnoreCase))
                 return "https://github.com/MarkFl12.png";
             if(author.Contains("snowberry-software", StringComparison.InvariantCultureIgnoreCase))
                 return "https://github.com/VNNCC.png";
 
-            return author;
+            return author.Replace("https:/","https://");
         }
     }
     public string NamePackage(string item)

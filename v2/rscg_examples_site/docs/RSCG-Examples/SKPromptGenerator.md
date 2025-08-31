@@ -43,7 +43,7 @@ Source: https://github.com/CharlieDigital/SKPromptGenerator
 ### Author
 :::note
 Charlie Chen 
-![Alt text](https:/github.com/CharlieDigital.png)
+![Alt text](https://github.com/CharlieDigital.png)
 :::
 
 ### Original Readme
