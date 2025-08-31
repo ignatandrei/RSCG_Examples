@@ -1335,5 +1335,11 @@
   "Category": 38,
   "dtStart": "2025-08-09T00:00:00",
   "show": true
-}
+},
+  {
+    "ID":"Finch.Generators",
+    "Category": 14,
+    "dtStart": "2025-08-10T00:00:00",
+    "show": true
+  }
 ]
