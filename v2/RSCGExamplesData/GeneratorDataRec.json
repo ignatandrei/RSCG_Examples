@@ -1341,5 +1341,11 @@
     "Category": 14,
     "dtStart": "2025-08-10T00:00:00",
     "show": true
+  },
+  {
+    "ID":"JinShil.MixinSourceGenerator",
+    "Category": 39,
+    "dtStart": "2025-08-11T00:00:00",
+    "show": true
   }
 ]

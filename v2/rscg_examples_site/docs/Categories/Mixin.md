@@ -1,8 +1,10 @@
 <h1>Mixin</h1>
 
-Number RSCG: 2
+Number RSCG: 3
 
-   1 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+   1 [JinShil.MixinSourceGenerator](/docs/JinShil.MixinSourceGenerator)
 
-   2 [MorrisMoxy](/docs/MorrisMoxy)
+   2 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+
+   3 [MorrisMoxy](/docs/MorrisMoxy)
     

@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "JinShil.MixinSourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "DemoMixin/DemoMixin.csproj",
+      "description": "First, we add Nuget  [JinShil.MixinSourceGenerator](https://www.nuget.org/packages/JinShil.MixinSourceGenerator/) in csproj  ",
+      "pattern": "JinShil.MixinSourceGenerator"
+    }
+
+        ,{
+        "file": "DemoMixin/LogData.cs",
+        "description": "File LogData.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoMixin/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoMixin/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoMixin/DemoMixin.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoMixin/obj/GX/JinShil.MixinSourceGenerator/JinShil.MixinSourceGenerator.SourceGenerator/Person.g.cs",
+        "description": "Generated File 3  from 3 : Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoMixin/obj/GX/JinShil.MixinSourceGenerator/JinShil.MixinSourceGenerator.SourceGenerator/MixinIgnoreAttribute.g.cs",
+        "description": "Generated File 2  from 3 : MixinIgnoreAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoMixin/obj/GX/JinShil.MixinSourceGenerator/JinShil.MixinSourceGenerator.SourceGenerator/MixinAttribute.g.cs",
+        "description": "Generated File 1  from 3 : MixinAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

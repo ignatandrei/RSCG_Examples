@@ -1777,6 +1777,14 @@
       "Source": "https://github.com/ivmazurenko/finch",
       "Category": "Database",
       "AddedOn": "2025-08-10T00:00:00"
+    },
+    {
+      "Name": "JinShil.MixinSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/JinShil.MixinSourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/JinShil.MixinSourceGenerator/",
+      "Source": "https://github.com/JinShil/JinShil.MixinSourceGenerator",
+      "Category": "Mixin",
+      "AddedOn": "2025-08-11T00:00:00"
     }
   ]
 }

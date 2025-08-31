@@ -340,7 +340,7 @@ Why I have not put example: issue opened
 
 84)https://github.com/ramhari-dev/PropGenAoT https://github.com/ramhari-dev/PropGenAoT  
 
-Why I have not put example: later
+Why I have not put example: no readme
 
 85)https://github.com/stbychkov/AutoLoggerMessage https://github.com/stbychkov/AutoLoggerMessage  
 

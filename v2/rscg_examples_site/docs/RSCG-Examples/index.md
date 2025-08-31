@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 222 RSCG list by category
-description: 222 RSCG list by category
+title: 223 RSCG list by category
+description: 223 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1107,7 +1107,7 @@ import DocCardList from '@theme/DocCardList';
 ## Mixin 
 <details>
     
-  <summary>Expand Mixin =>examples:2</summary>
+  <summary>Expand Mixin =>examples:3</summary>
         
 
 
@@ -1117,6 +1117,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Minerals.AutoMixins](/docs/Minerals.AutoMixins)
+
+        
+
+
+[JinShil.MixinSourceGenerator](/docs/JinShil.MixinSourceGenerator)
 
 </details>
     
@@ -1763,6 +1768,8 @@ flowchart LR;
     Mixin--> MorrisMoxy((MorrisMoxy))
 
     Mixin--> Minerals.AutoMixins((Minerals.AutoMixins))
+
+    Mixin--> JinShil.MixinSourceGenerator((JinShil.MixinSourceGenerator))
 
     MVC--> SG4MVC((SG4MVC))
 

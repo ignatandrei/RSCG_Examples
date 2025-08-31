@@ -221,3 +221,4 @@ Nr,Key,Source,Category
 220,NFH.FileEmbed, https://github.com/SirCxyrtyx/FileEmbed,FilesToCode
 221,RxSourceGenerator, https://github.com/Zalutskii/Reactive-Extensions-event-generator,RX
 222,Finch.Generators, https://github.com/ivmazurenko/finch,Database
+223,JinShil.MixinSourceGenerator, https://github.com/JinShil/JinShil.MixinSourceGenerator,Mixin
