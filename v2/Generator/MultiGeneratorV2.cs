@@ -204,6 +204,8 @@ public class MultiGeneratorV2
             text = text.Replace("(docs/building.md)", $"({d.Generator!.Source}/docs/building.md)");
             text = text.Replace("(./", $"({d.Generator!.Source}/");
 
+
+            text = text.Replace("<byte>", "Andrei<byte>");
             return text;
         }
             ;

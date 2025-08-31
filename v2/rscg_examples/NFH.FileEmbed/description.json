@@ -10,8 +10,8 @@
    },
    "data":{
       "goodFor":["Generating embedded files "],
-      "csprojDemo":"NFH.FileEmbedDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"EmbedDemo.csproj",
+      "csFiles":["Program.cs","TestData.cs","Countries.txt"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

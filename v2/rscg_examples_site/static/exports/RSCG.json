@@ -1753,6 +1753,14 @@
       "Source": "https://github.com/CharlieDigital/SKPromptGenerator",
       "Category": "AI",
       "AddedOn": "2025-08-07T00:00:00"
+    },
+    {
+      "Name": "NFH.FileEmbed",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NFH.FileEmbed",
+      "NuGet": "https://www.nuget.org/packages/NFH.FileEmbed/",
+      "Source": "https://github.com/SirCxyrtyx/FileEmbed",
+      "Category": "FilesToCode",
+      "AddedOn": "2025-08-08T00:00:00"
     }
   ]
 }

@@ -1,6 +1,6 @@
-# RSCG - 219 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 220 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-08-07 => 07 August 2025
+## Latest Update : 2025-08-08 => 08 August 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 219 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 220 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 220. [NFH.FileEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NFH.FileEmbed) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2025-08-08 => 08 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Natalie Howes
+
+A source generator for embedding resource files directly into your assembly. Access them as a ReadOnlySpan<byte>, with no allocations or reflection needed. 
+
+Nuget: [https://www.nuget.org/packages/NFH.FileEmbed/](https://www.nuget.org/packages/NFH.FileEmbed/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NFH.FileEmbed](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NFH.FileEmbed)
+
+Source: [https://github.com/SirCxyrtyx/FileEmbed](https://github.com/SirCxyrtyx/FileEmbed)
+
+</details>
+
 ### 219. [SKPromptGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SKPromptGenerator) , in the [AI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#ai) category 
 
 Generated on : 2025-08-07 => 07 August 2025

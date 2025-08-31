@@ -1,0 +1,1 @@
+A source generator for embedding resource files directly into your assembly. Access them as a ReadOnlySpan<byte>, with no allocations or reflection needed.
