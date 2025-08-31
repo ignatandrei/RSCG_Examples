@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Finch.Generators",
+      "nuget":[
+         "https://www.nuget.org/packages/Finch.Generators/"
+      ],
+      "link":"https://github.com/ivmazurenko/finch",
+      "author":"Ivan Mazurenko",
+      "source":"https://github.com/ivmazurenko/finch"
+   },
+   "data":{
+      "goodFor":["dapper style generator"],
+      "csprojDemo":"DB.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

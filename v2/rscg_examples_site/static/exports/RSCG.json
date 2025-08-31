@@ -1769,6 +1769,14 @@
       "Source": "https://github.com/Zalutskii/Reactive-Extensions-event-generator",
       "Category": "RX",
       "AddedOn": "2025-08-09T00:00:00"
+    },
+    {
+      "Name": "Finch.Generators",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Finch.Generators",
+      "NuGet": "https://www.nuget.org/packages/Finch.Generators/",
+      "Source": "https://github.com/ivmazurenko/finch",
+      "Category": "Database",
+      "AddedOn": "2025-08-10T00:00:00"
     }
   ]
 }

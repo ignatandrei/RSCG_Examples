@@ -1,6 +1,6 @@
-# RSCG - 221 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 222 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-08-09 => 09 August 2025
+## Latest Update : 2025-08-10 => 10 August 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 221 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 222 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 222. [Finch.Generators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Finch.Generators) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
+
+Generated on : 2025-08-10 => 10 August 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ivan Mazurenko
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/Finch.Generators/](https://www.nuget.org/packages/Finch.Generators/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Finch.Generators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Finch.Generators)
+
+Source: [https://github.com/ivmazurenko/finch](https://github.com/ivmazurenko/finch)
+
+</details>
+
 ### 221. [RxSourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RxSourceGenerator) , in the [RX](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#rx) category 
 
 Generated on : 2025-08-09 => 09 August 2025
