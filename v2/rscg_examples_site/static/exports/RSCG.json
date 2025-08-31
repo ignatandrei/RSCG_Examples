@@ -1761,6 +1761,14 @@
       "Source": "https://github.com/SirCxyrtyx/FileEmbed",
       "Category": "FilesToCode",
       "AddedOn": "2025-08-08T00:00:00"
+    },
+    {
+      "Name": "RxSourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RxSourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/RxSourceGenerator/",
+      "Source": "https://github.com/Zalutskii/Reactive-Extensions-event-generator",
+      "Category": "RX",
+      "AddedOn": "2025-08-09T00:00:00"
     }
   ]
 }

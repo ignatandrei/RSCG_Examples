@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 220 RSCG list by category
-description: 220 RSCG list by category
+title: 221 RSCG list by category
+description: 221 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1172,6 +1172,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## RX 
+<details>
+    
+  <summary>Expand RX =>examples:1</summary>
+        
+
+
+[RxSourceGenerator](/docs/RxSourceGenerator)
+
+</details>
+    
+
 ## Serializer 
 <details>
     
@@ -1751,6 +1763,8 @@ flowchart LR;
     PrimitiveObsession--> DomainPrimitives((DomainPrimitives))
 
     PrimitiveObsession--> StronglyTypedUid((StronglyTypedUid))
+
+    RX--> RxSourceGenerator((RxSourceGenerator))
 
     Serializer--> System.Text.Json((System.Text.Json))
 

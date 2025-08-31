@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RxSourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "RxDemo/RxDemo.csproj",
+      "description": "First, we add Nuget  [RxSourceGenerator](https://www.nuget.org/packages/RxSourceGenerator/) in csproj  ",
+      "pattern": "RxSourceGenerator"
+    }
+
+        ,{
+        "file": "RxDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "RxDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project RxDemo/RxDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "RxDemo/obj/GX/RxSourceGenerator/RxSourceGenerator.RxIncrementalGenerator/RxGeneratedMethods.g.cs",
+        "description": "Generated File 2  from 2 : RxGeneratedMethods.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "RxDemo/obj/GX/RxSourceGenerator/RxSourceGenerator.RxIncrementalGenerator/RxExtensionsForglobal__RxDemo_Person.g.cs",
+        "description": "Generated File 1  from 2 : RxExtensionsForglobal__RxDemo_Person.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
