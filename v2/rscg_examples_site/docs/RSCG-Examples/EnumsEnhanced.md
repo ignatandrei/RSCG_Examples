@@ -614,8 +614,6 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 
 <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\EnumsEnhanced\src\EnumDemo\obj\GX\EnumsEnhanced\EnumsEnhanced.EnumsEnhanced\CarTypesEnhanced.g.cs" label="CarTypesEnhanced.g.cs" >
-
-
 ```csharp showLineNumbers 
 #nullable enable
 
@@ -1009,7 +1007,6 @@ if(subValue.Equals("Mercedes", StringComparison.OrdinalIgnoreCase)) {
 
             #nullable restore
 ```
-
   </TabItem>
 
 

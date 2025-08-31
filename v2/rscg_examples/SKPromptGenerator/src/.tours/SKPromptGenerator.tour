@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SKPromptGenerator",
+  "steps": 
+  [
+    {
+      "file": "DemoAI/DemoAI.csproj",
+      "description": "First, we add Nuget  [SKPromptGenerator](https://www.nuget.org/packages/SKPromptGenerator/) in csproj  ",
+      "pattern": "SKPromptGenerator"
+    }
+
+        ,{
+        "file": "DemoAI/WeatherCity.cs",
+        "description": "File WeatherCity.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "DemoAI/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project DemoAI/DemoAI.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "DemoAI/obj/GX/SKPromptGenerator/SKPromptGenerator.PromptTemplateBaseGenerator/PromptTemplateBase.g.cs",
+        "description": "Generated File 3  from 3 : PromptTemplateBase.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoAI/obj/GX/SKPromptGenerator/SKPromptGenerator.PromptTemplateAttributeGenerator/PromptTemplateAttribute.g.cs",
+        "description": "Generated File 2  from 3 : PromptTemplateAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "DemoAI/obj/GX/SKPromptGenerator/SKPromptGenerator.PromptGenerator/WeatherPrompt.g.cs",
+        "description": "Generated File 1  from 3 : WeatherPrompt.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
