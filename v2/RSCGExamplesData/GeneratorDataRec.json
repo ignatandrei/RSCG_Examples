@@ -1323,5 +1323,11 @@
   "Category": 37,
   "dtStart": "2025-08-07T00:00:00",
   "show": true
+},
+{
+  "ID":"NFH.FileEmbed",
+  "Category": 8,
+  "dtStart": "2025-08-08T00:00:00",
+  "show": true
 }
 ]

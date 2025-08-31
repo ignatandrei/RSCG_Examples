@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"NFH.FileEmbed",
+      "nuget":[
+         "https://www.nuget.org/packages/NFH.FileEmbed/"
+      ],
+      "link":"https://github.com/SirCxyrtyx/FileEmbed",
+      "author":"Natalie Howes",
+      "source":"https://github.com/SirCxyrtyx/FileEmbed"
+   },
+   "data":{
+      "goodFor":["Generating embedded files "],
+      "csprojDemo":"NFH.FileEmbedDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
