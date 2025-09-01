@@ -1,0 +1,23 @@
+{
+   "generator":{
+      "name":"FactoryGenerator.Abstractions",
+      "nuget":[
+         "https://www.nuget.org/packages/FactoryGenerator.Abstractions/",
+         "https://www.nuget.org/packages/FactoryGenerator.Microsoft.Extensions.DependencyInjection/"
+      ],
+      "link":"https://github.com/ivmazurenko/factory-generator",
+      "author":"Ivan Mazurenko",
+      "source":"https://github.com/ivmazurenko/factory-generator"
+   },
+   "data":{
+      "goodFor":["Generating DI Factory based on the first parameter "],
+      "csprojDemo":"FactoryGenerator.AbstractionsDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
