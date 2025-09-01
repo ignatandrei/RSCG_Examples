@@ -312,6 +312,5 @@ public sealed class PersonTypePersonFactoryFactory : FactoryGenerator.Abstractio
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator.Abstractions
 
-aaa
 <SameCategory />
 

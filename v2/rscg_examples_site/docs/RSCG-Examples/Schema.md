@@ -1403,6 +1403,5 @@ public partial class Person {
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/Schema
 
-aaa
 <SameCategory />
 

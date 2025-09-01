@@ -402,6 +402,5 @@ namespace DemoMixin
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/JinShil.MixinSourceGenerator
 
-aaa
 <SameCategory />
 

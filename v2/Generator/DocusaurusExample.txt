@@ -134,6 +134,5 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 
 https://ignatandrei.github.io/RSCG_Examples/v2/docs/{{ Description.Generator.Name }}
 
-aaa
 <SameCategory />
 

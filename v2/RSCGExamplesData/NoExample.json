@@ -774,11 +774,6 @@
     "ID": 169,
     "name":"tecli https://github.com/tyevco/TeCLI",
     "why":"old ISourceGenerator"
-  },
-  {
-    "ID":170,
-    "name":"schema https://github.com/MeltyPlayer/Schema",
-    "why":"later"
   }
   ,
   {
