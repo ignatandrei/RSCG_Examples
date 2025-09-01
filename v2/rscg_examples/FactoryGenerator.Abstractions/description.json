@@ -10,12 +10,12 @@
       "source":"https://github.com/ivmazurenko/factory-generator"
    },
    "data":{
-      "goodFor":["Generating DI Factory based on the first parameter "],
-      "csprojDemo":"FactoryGenerator.AbstractionsDemo.csproj",
-      "csFiles":["Program.cs"],
+      "goodFor":["Generating DI Factory based on the first parameter(s) "],
+      "csprojDemo":"InjectDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
-   },
+},
    "links":{
       "blog":"",
       "video":""
