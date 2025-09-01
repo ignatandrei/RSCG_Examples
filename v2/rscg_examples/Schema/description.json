@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Schema",
+      "nuget":[
+         "https://www.nuget.org/packages/Schema/"
+      ],
+      "link":"https://github.com/MeltyPlayer/Schema",
+      "author":"Melty Player",
+      "source":"https://github.com/MeltyPlayer/Schema"
+   },
+   "data":{
+      "goodFor":["Generate binary serialization code"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
