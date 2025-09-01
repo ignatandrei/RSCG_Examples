@@ -1,0 +1,317 @@
+---
+sidebar_position: 2240
+title: 224 - FactoryGenerator.Abstractions
+description: Generating DI Factory based on the first parameter(s) 
+slug: /FactoryGenerator.Abstractions
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDependencyInjection.mdx';
+
+# FactoryGenerator.Abstractions  by Ivan Mazurenko
+
+
+<TOCInline toc={toc}  />
+
+## NuGet / site data
+[![Nuget](https://img.shields.io/nuget/dt/FactoryGenerator.Abstractions?label=FactoryGenerator.Abstractions)](https://www.nuget.org/packages/FactoryGenerator.Abstractions/)[![Nuget](https://img.shields.io/nuget/dt/FactoryGenerator.Microsoft.Extensions.DependencyInjection?label=FactoryGenerator.Microsoft.Extensions.DependencyInjection)](https://www.nuget.org/packages/FactoryGenerator.Microsoft.Extensions.DependencyInjection/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ivmazurenko/factory-generator?label=updated)](https://github.com/ivmazurenko/factory-generator)
+![GitHub Repo stars](https://img.shields.io/github/stars/ivmazurenko/factory-generator?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **FactoryGenerator.Abstractions**
+
+Package Description
+
+Author: Ivan Mazurenko
+
+NuGet: 
+*https://www.nuget.org/packages/FactoryGenerator.Abstractions/*   
+
+*https://www.nuget.org/packages/FactoryGenerator.Microsoft.Extensions.DependencyInjection/*   
+
+
+You can find more details at https://github.com/ivmazurenko/factory-generator
+
+Source: https://github.com/ivmazurenko/factory-generator
+
+:::
+
+### Author
+:::note
+Ivan Mazurenko 
+![Alt text](https://github.com/ivmazurenko.png)
+:::
+
+### Original Readme
+:::note
+
+# FactoryGenerator
+
+.NET source generator that automatically
+generates and registers [factories](https://github.com/ivmazurenko/factory-generator/blob/master/FactoryGenerator.Abstractions/IFactory.cs)
+
+
+## Installation
+
+Add the following packages to your project:
+
+```bash
+$ dotnet add package FactoryGenerator.Abstractions
+$ dotnet add package FactoryGenerator.Microsoft.Extensions.DependencyInjection
+```
+
+## Usage
+
+### Add the attribute to your class
+
+Use one of the `GenerateIFactory` attributes to specify how your factory should be
+generated:
+
+```c#
+[GenerateIFactory<int>]
+public class Service(int value, Dependency dependency)
+{
+    // ...
+}
+```
+
+This will generate an implementation of `IFactory<int, Service>`, allowing you to create instances of `Service` with an
+`int` parameter while automatically resolving other dependencies from the DI container. FactoryGenerator
+provides [multiple attribute variations](https://github.com/ivmazurenko/factory-generator/blob/master/FactoryGenerator.Abstractions/GenerateIFactoryAttribute.cs)
+depending on the number of parameters your factory should accept.
+
+### Register generated factories in the DI container
+
+The `RegisterGeneratedFactories()` method automatically registers all factories created by the source
+generator.
+
+```c#
+
+var serviceCollection = new ServiceCollection()
+    .RegisterGeneratedFactories();
+
+```
+
+### Use the factory
+
+```c#
+using var serviceProvider = serviceCollection.BuildServiceProvider();
+
+var factory = serviceProvider.GetRequiredService<IFactory<int, Service>>();
+
+var service = factory.Create(1);
+```
+
+Full sample can be found [here](https://github.com/ivmazurenko/factory-generator/blob/master/Samples/Program.cs).
+
+:::
+
+### About
+:::note
+
+Generating DI Factory based on the first parameter(s) 
+
+
+:::
+
+## How to use
+
+### Example (source csproj, source files)
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **FactoryGenerator.Abstractions**
+```xml showLineNumbers {14}
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="FactoryGenerator.Abstractions" Version="0.0.23" />
+	  <PackageReference Include="FactoryGenerator.Microsoft.Extensions.DependencyInjection" Version="0.0.22" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
+	</ItemGroup>
+	
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FactoryGenerator.Abstractions\src\InjectDemo\Program.cs" label="Program.cs" >
+
+  This is the use of **FactoryGenerator.Abstractions** in *Program.cs*
+
+```csharp showLineNumbers 
+using FactoryGenerator.Abstractions;
+using InjectDemo;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using AutoGeneratedNamespaceFromFactoryGenerator;
+
+Console.WriteLine("Hello, World!");
+var services = new ServiceCollection();
+services.RegisterGeneratedFactories();
+var prov = services.BuildServiceProvider();
+var factory = prov.GetRequiredService<IFactory<PersonType, PersonFactory>>();
+var factoryEmployee = factory.Create(PersonType.Employee);
+Console.WriteLine(factoryEmployee.Create().TypeName);
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FactoryGenerator.Abstractions\src\InjectDemo\Person.cs" label="Person.cs" >
+
+  This is the use of **FactoryGenerator.Abstractions** in *Person.cs*
+
+```csharp showLineNumbers 
+
+using FactoryGenerator.Abstractions;
+
+namespace InjectDemo;
+public enum PersonType
+{
+    Employee,
+    Customer
+}
+[GenerateIFactory<PersonType>]
+public class PersonFactory
+{
+    private readonly PersonType person;
+
+    public PersonFactory(PersonType person)
+    {
+        this.person = person;
+    }
+    public Person Create()
+    {
+        return person switch
+        {
+            PersonType.Employee => new Employee()
+            {
+                TypeName = nameof(Employee)
+            },
+            PersonType.Customer => new Customer()
+            {
+                TypeName = nameof(Customer)
+            },
+            _ => throw new NotImplementedException()
+        };
+    }
+}
+
+public class Person
+{
+    public string Name \{ get; set; \} = string.Empty;
+    public string TypeName \{ get;init; \} = string.Empty;
+}
+
+public class Employee : Person
+{
+}
+public class Customer : Person
+{
+}
+
+
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+
+<Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FactoryGenerator.Abstractions\src\InjectDemo\obj\GX\FactoryGenerator.Microsoft.Extensions.DependencyInjection\FactoryGenerator.Microsoft.Extensions.DependencyInjection.FactoryGenerator\FactoryGenerator.Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.g.cs" label="FactoryGenerator.Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.g.cs" >
+```csharp showLineNumbers 
+// <auto-generated/>
+using FactoryGenerator.Abstractions;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace AutoGeneratedNamespaceFromFactoryGenerator;
+
+public static class ServiceCollectionExtensions
+{
+    public static IServiceCollection RegisterGeneratedFactories(this IServiceCollection self)
+    {
+        self.AddTransient<FactoryGenerator.Abstractions.IFactory<global::InjectDemo.PersonType, InjectDemo.PersonFactory>, InjectDemo.PersonTypePersonFactoryFactory>();
+
+        return self;
+    }
+}
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\FactoryGenerator.Abstractions\src\InjectDemo\obj\GX\FactoryGenerator.Microsoft.Extensions.DependencyInjection\FactoryGenerator.Microsoft.Extensions.DependencyInjection.FactoryGenerator\InjectDemo.PersonTypePersonFactoryFactory.g.cs" label="InjectDemo.PersonTypePersonFactoryFactory.g.cs" >
+```csharp showLineNumbers 
+// <auto-generated/>
+
+using FactoryGenerator.Abstractions;
+
+namespace InjectDemo;
+
+public sealed class PersonTypePersonFactoryFactory : FactoryGenerator.Abstractions.IFactory<global::InjectDemo.PersonType, InjectDemo.PersonFactory>
+{
+    
+
+    public PersonTypePersonFactoryFactory()
+    {
+        
+    }
+
+    public InjectDemo.PersonFactory Create(global::InjectDemo.PersonType dependency0)
+    {
+        return new InjectDemo.PersonFactory(dependency0);
+    }
+}
+```
+  </TabItem>
+
+
+</Tabs>
+
+## Useful
+
+### Download Example (.NET  C#)
+
+:::tip
+
+[Download Example project FactoryGenerator.Abstractions ](/sources/FactoryGenerator.Abstractions.zip)
+
+:::
+
+
+### Share FactoryGenerator.Abstractions 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FFactoryGenerator.Abstractions&quote=FactoryGenerator.Abstractions" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FFactoryGenerator.Abstractions&text=FactoryGenerator.Abstractions:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FFactoryGenerator.Abstractions" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FFactoryGenerator.Abstractions&title=FactoryGenerator.Abstractions" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FFactoryGenerator.Abstractions&title=FactoryGenerator.Abstractions&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FFactoryGenerator.Abstractions" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator.Abstractions
+
+aaa
+<SameCategory />
+

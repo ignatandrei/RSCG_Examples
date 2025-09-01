@@ -1785,6 +1785,14 @@
       "Source": "https://github.com/JinShil/JinShil.MixinSourceGenerator",
       "Category": "Mixin",
       "AddedOn": "2025-08-11T00:00:00"
+    },
+    {
+      "Name": "FactoryGenerator.Abstractions",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/FactoryGenerator.Abstractions",
+      "NuGet": "https://www.nuget.org/packages/FactoryGenerator.Abstractions/",
+      "Source": "https://github.com/ivmazurenko/factory-generator",
+      "Category": "DependencyInjection",
+      "AddedOn": "2025-08-12T00:00:00"
     }
   ]
 }

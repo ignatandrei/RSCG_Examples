@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "FactoryGenerator.Abstractions",
+  "steps": 
+  [
+    {
+      "file": "InjectDemo/InjectDemo.csproj",
+      "description": "First, we add Nuget  [FactoryGenerator.Abstractions](https://www.nuget.org/packages/FactoryGenerator.Abstractions/) in csproj  ",
+      "pattern": "FactoryGenerator.Abstractions"
+    }
+
+        ,{
+        "file": "InjectDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "InjectDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project InjectDemo/InjectDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator.Microsoft.Extensions.DependencyInjection/FactoryGenerator.Microsoft.Extensions.DependencyInjection.FactoryGenerator/InjectDemo.PersonTypePersonFactoryFactory.g.cs",
+        "description": "Generated File 2  from 2 : InjectDemo.PersonTypePersonFactoryFactory.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "InjectDemo/obj/GX/FactoryGenerator.Microsoft.Extensions.DependencyInjection/FactoryGenerator.Microsoft.Extensions.DependencyInjection.FactoryGenerator/FactoryGenerator.Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.g.cs",
+        "description": "Generated File 1  from 2 : FactoryGenerator.Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

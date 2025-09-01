@@ -1,6 +1,6 @@
 <h1>DependencyInjection</h1>
 
-Number RSCG: 9
+Number RSCG: 10
 
    1 [AutoRegisterInject](/docs/AutoRegisterInject)
 
@@ -12,11 +12,13 @@ Number RSCG: 9
 
    5 [FactoryGenerator](/docs/FactoryGenerator)
 
-   6 [Injectio](/docs/Injectio)
+   6 [FactoryGenerator.Abstractions](/docs/FactoryGenerator.Abstractions)
 
-   7 [jab](/docs/jab)
+   7 [Injectio](/docs/Injectio)
 
-   8 [Pure.DI](/docs/Pure.DI)
+   8 [jab](/docs/jab)
 
-   9 [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+   9 [Pure.DI](/docs/Pure.DI)
+
+   10 [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
     

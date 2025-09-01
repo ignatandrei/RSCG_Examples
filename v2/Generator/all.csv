@@ -222,3 +222,4 @@ Nr,Key,Source,Category
 221,RxSourceGenerator, https://github.com/Zalutskii/Reactive-Extensions-event-generator,RX
 222,Finch.Generators, https://github.com/ivmazurenko/finch,Database
 223,JinShil.MixinSourceGenerator, https://github.com/JinShil/JinShil.MixinSourceGenerator,Mixin
+224,FactoryGenerator.Abstractions, https://github.com/ivmazurenko/factory-generator,DependencyInjection
