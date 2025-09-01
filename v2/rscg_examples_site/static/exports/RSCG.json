@@ -1793,6 +1793,14 @@
       "Source": "https://github.com/ivmazurenko/factory-generator",
       "Category": "DependencyInjection",
       "AddedOn": "2025-08-12T00:00:00"
+    },
+    {
+      "Name": "Schema",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Schema",
+      "NuGet": "https://www.nuget.org/packages/Schema/",
+      "Source": "https://github.com/MeltyPlayer/Schema",
+      "Category": "Serializer",
+      "AddedOn": "2025-08-13T00:00:00"
     }
   ]
 }
