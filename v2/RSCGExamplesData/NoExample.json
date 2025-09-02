@@ -588,7 +588,7 @@
   {
     "ID": 123,
     "name": "FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual",
-    "why": "atchived"
+    "why": "archived"
   },
   {
     "ID": 124,
@@ -855,7 +855,7 @@
   {
     "ID":206,
     "name":"https://github.com/ionite34/MinimalApiMapper",
-    "why":"later"
+    "why":"own idea where to generate files, so overwrites"
   },
   {
     "ID":210,
