@@ -1801,6 +1801,14 @@
       "Source": "https://github.com/MeltyPlayer/Schema",
       "Category": "Serializer",
       "AddedOn": "2025-08-13T00:00:00"
+    },
+    {
+      "Name": "requiredenum",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/requiredenum",
+      "NuGet": "https://www.nuget.org/packages/requiredenum/",
+      "Source": "https://github.com/emptycoder/RequiredEnum",
+      "Category": "Enum",
+      "AddedOn": "2025-08-14T00:00:00"
     }
   ]
 }

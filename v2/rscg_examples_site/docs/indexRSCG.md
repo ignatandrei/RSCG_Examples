@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 225 RSCG with examples in descending chronological order
+## 226 RSCG with examples in descending chronological order
 
-This is the list of 225 ( 14 from Microsoft) RSCG with examples 
+This is the list of 226 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 225 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|226| [requiredenum by Yaroslav ](/docs/requiredenum)|2025-08-14 => 14 August 2025 | [Enum](/docs/Categories/Enum) |
 |225| [Schema by Melty Player ](/docs/Schema)|2025-08-13 => 13 August 2025 | [Serializer](/docs/Categories/Serializer) |
 |224| [FactoryGenerator.Abstractions by Ivan Mazurenko ](/docs/FactoryGenerator.Abstractions)|2025-08-12 => 12 August 2025 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |223| [JinShil.MixinSourceGenerator by Jin Shil ](/docs/JinShil.MixinSourceGenerator)|2025-08-11 => 11 August 2025 | [Mixin](/docs/Categories/Mixin) |

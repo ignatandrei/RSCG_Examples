@@ -319,67 +319,6 @@ internal class LogData
 ### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
-
-<Tabs>
-
-
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\JinShil.MixinSourceGenerator\src\DemoMixin\obj\GX\JinShil.MixinSourceGenerator\JinShil.MixinSourceGenerator.SourceGenerator\MixinAttribute.g.cs" label="MixinAttribute.g.cs" >
-```csharp showLineNumbers 
-
-namespace JinShil.MixinSourceGenerator
-{
-    /// <summary>
-    /// Specifies the type whose members are to be mixed in to a partial class or struct.
-    /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Struct, AllowMultiple = true)]
-    public class MixinAttribute : System.Attribute
-    {
-        public System.Type Type \{ get; }
-        public MixinAttribute(System.Type type)
-        {
-            Type = type;
-        }
-    }
-}
-```
-  </TabItem>
-
-
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\JinShil.MixinSourceGenerator\src\DemoMixin\obj\GX\JinShil.MixinSourceGenerator\JinShil.MixinSourceGenerator.SourceGenerator\MixinIgnoreAttribute.g.cs" label="MixinIgnoreAttribute.g.cs" >
-```csharp showLineNumbers 
-
-namespace JinShil.MixinSourceGenerator
-{
-    /// <summary>
-    /// Used to identify a member that should be ignored when mixing in members from other types.
-    /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Method | System.AttributeTargets.Property | System.AttributeTargets.Field | System.AttributeTargets.Event, AllowMultiple = false)]
-    public class MixinIgnoreAttribute : System.Attribute
-    {
-        public MixinIgnoreAttribute()
-        \{ }
-    }
-}
-```
-  </TabItem>
-
-
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\JinShil.MixinSourceGenerator\src\DemoMixin\obj\GX\JinShil.MixinSourceGenerator\JinShil.MixinSourceGenerator.SourceGenerator\Person.g.cs" label="Person.g.cs" >
-```csharp showLineNumbers 
-#nullable enable
-namespace DemoMixin
-{
-    partial class Person
-    {
-        public void Log(string data) => Console.WriteLine(data);
-    }
-}
-```
-  </TabItem>
-
-
-</Tabs>
-
 ## Useful
 
 ### Download Example (.NET  C#)

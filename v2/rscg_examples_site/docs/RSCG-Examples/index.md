@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 225 RSCG list by category
-description: 225 RSCG list by category
+title: 226 RSCG list by category
+description: 226 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -689,7 +689,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:10</summary>
+  <summary>Expand Enum =>examples:11</summary>
         
 
 
@@ -739,6 +739,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [EnumsEnhanced](/docs/EnumsEnhanced)
+
+        
+
+
+[requiredenum](/docs/requiredenum)
 
 </details>
     
@@ -1652,6 +1657,8 @@ flowchart LR;
     Enum--> Genbox.FastEnum((Genbox.FastEnum))
 
     Enum--> EnumsEnhanced((EnumsEnhanced))
+
+    Enum--> requiredenum((requiredenum))
 
     Equals--> GeneratorEquals((GeneratorEquals))
 

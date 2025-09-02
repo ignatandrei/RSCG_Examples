@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "requiredenum",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [requiredenum](https://www.nuget.org/packages/requiredenum/) in csproj  ",
+      "pattern": "requiredenum"
+    }
+
+        ,{
+        "file": "EnumDemo/RequiredCarTypes.cs",
+        "description": "File RequiredCarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+  ],
+
+  "ref": "main"
+
+}

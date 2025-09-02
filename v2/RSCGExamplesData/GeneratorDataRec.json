@@ -1359,5 +1359,11 @@
     "Category": 16,
     "dtStart": "2025-08-13T00:00:00",
     "show": true
-  }
+  },
+{
+  "ID":"requiredenum",
+  "Category": 19,
+  "dtStart": "2025-08-14T00:00:00",
+  "show": true
+}
 ]
