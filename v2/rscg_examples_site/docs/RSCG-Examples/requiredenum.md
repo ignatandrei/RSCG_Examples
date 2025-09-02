@@ -192,8 +192,6 @@ public enum RequiredCarTypes
 </Tabs>
 
 ### Generated Files
-
-Those are taken from $(BaseIntermediateOutputPath)\GX
 ## Useful
 
 ### Download Example (.NET  C#)

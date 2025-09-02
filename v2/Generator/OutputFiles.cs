@@ -39,6 +39,8 @@ public class OutputFiles
     }
     public string[]? excludeDirectoryGenerated { get; internal set; }
     public string[]? includeAdditionalFiles { get; internal set; }
+    public bool HasFilesGenerated() => generatedFiles?.Length > 0;
+
 
     public async Task GatherData(string nuget)
     {
