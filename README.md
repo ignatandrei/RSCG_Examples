@@ -5255,7 +5255,7 @@ https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FastEndpoints&body
 
 14) [FluentAssertions.Eventual]( https://github.com/mazharenko/FluentAssertions.Eventual) , https://github.com/mazharenko/FluentAssertions.Eventual 
 
-Why I have not tested : atchived
+Why I have not tested : archived
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=FluentAssertions.Eventual&body=https://github.com/mazharenko/FluentAssertions.Eventual
 

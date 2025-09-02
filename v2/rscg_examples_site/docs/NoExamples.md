@@ -208,7 +208,7 @@ Why I have not put example: old ISourceGenerator
 
 51)FluentAssertions.Eventual https://github.com/mazharenko/FluentAssertions.Eventual  
 
-Why I have not put example: atchived
+Why I have not put example: archived
 
 52)FluentBuilder https://github.com/StefH/FluentBuilder  
 
