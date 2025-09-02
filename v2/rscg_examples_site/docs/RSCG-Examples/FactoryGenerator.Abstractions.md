@@ -237,7 +237,6 @@ public class Customer : Person
 ### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
-
 <Tabs>
 
 
@@ -289,7 +288,6 @@ public sealed class PersonTypePersonFactoryFactory : FactoryGenerator.Abstractio
 
 
 </Tabs>
-
 ## Useful
 
 ### Download Example (.NET  C#)

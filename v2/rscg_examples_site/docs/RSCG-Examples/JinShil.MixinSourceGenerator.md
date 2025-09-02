@@ -319,7 +319,6 @@ internal class LogData
 ### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
-
 <Tabs>
 
 
@@ -379,7 +378,6 @@ namespace DemoMixin
 
 
 </Tabs>
-
 ## Useful
 
 ### Download Example (.NET  C#)

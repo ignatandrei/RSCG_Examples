@@ -95,9 +95,9 @@ This is the CSharp Project that references **{{ Description.Generator.Name }}**
 </Tabs>
 
 ### Generated Files
+{{~ if HasFilesGenerated ~}}
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
-
 <Tabs>
 
 {{~ for fileContent in Description.Data.outputFiles.generatedFiles ~}}
@@ -111,7 +111,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 {{~ end ~}}
 
 </Tabs>
-
+{{~ end ~}}
 ## Useful
 
 ### Download Example (.NET  C#)

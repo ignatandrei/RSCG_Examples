@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"requiredenum",
+      "nuget":[
+         "https://www.nuget.org/packages/requiredenum/"
+      ],
+      "link":"https://github.com/emptycoder/RequiredEnum",
+      "author":"Yaroslav",
+      "source":"https://github.com/emptycoder/RequiredEnum"
+   },
+   "data":{
+      "goodFor":["Raise an error at compile time if not have switch handle case all enums values "],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","RequiredCarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

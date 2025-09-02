@@ -224,3 +224,4 @@ Nr,Key,Source,Category
 223,JinShil.MixinSourceGenerator, https://github.com/JinShil/JinShil.MixinSourceGenerator,Mixin
 224,FactoryGenerator.Abstractions, https://github.com/ivmazurenko/factory-generator,DependencyInjection
 225,Schema, https://github.com/MeltyPlayer/Schema,Serializer
+226,requiredenum, https://github.com/emptycoder/RequiredEnum,Enum

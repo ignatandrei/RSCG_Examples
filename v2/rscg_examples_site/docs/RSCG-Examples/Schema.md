@@ -419,7 +419,6 @@ public partial class Person : IBinaryConvertible
 ### Generated Files
 
 Those are taken from $(BaseIntermediateOutputPath)\GX
-
 <Tabs>
 
 
@@ -1380,7 +1379,6 @@ public partial class Person {
 
 
 </Tabs>
-
 ## Useful
 
 ### Download Example (.NET  C#)

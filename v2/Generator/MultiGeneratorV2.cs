@@ -924,10 +924,10 @@ public class MultiGeneratorV2
             .Where(loop=>loop.Generator?.Name != it.Generator?.Name)
             .OrderBy(it=>it.Generator?.Name)
             .ToArray();
-         
+        bool HasFilesGenerated = it?.Data?.outputFiles?.HasFilesGenerated() ?? false;
         var template = await File.ReadAllTextAsync("DocusaurusExample.txt");
         var templateScriban = Scriban.Template.Parse(template);
-        var output = templateScriban.Render(new {Description=it, otherDesc, category}, member => member.Name);
+        var output = templateScriban.Render(new {Description=it,HasFilesGenerated, otherDesc, category}, member => member.Name);
         output = output
             .Replace(" { ", " \\{ ")
             .Replace(" } ", " \\} ")

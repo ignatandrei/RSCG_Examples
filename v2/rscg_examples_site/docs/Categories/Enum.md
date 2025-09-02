@@ -1,6 +1,6 @@
 <h1>Enum</h1>
 
-Number RSCG: 10
+Number RSCG: 11
 
    1 [CredFetoEnum](/docs/CredFetoEnum)
 
@@ -21,4 +21,6 @@ Number RSCG: 10
    9 [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
 
    10 [PMart.Enumeration](/docs/PMart.Enumeration)
+
+   11 [requiredenum](/docs/requiredenum)
     
