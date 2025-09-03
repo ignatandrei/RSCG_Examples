@@ -304,7 +304,7 @@ Why I have not put example: too complicated
 
 75)https://github.com/ionite34/MinimalApiMapper https://github.com/ionite34/MinimalApiMapper  
 
-Why I have not put example: later
+Why I have not put example: own idea where to generate files, so overwrites
 
 76)https://github.com/JasonBock/CslaGeneratorSerialization https://github.com/JasonBock/CslaGeneratorSerialization  
 
