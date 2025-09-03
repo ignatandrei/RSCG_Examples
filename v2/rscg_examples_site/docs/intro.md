@@ -100,6 +100,8 @@ Pawel Gerr on RSCG: https://www.thinktecture.com/en/net/roslyn-source-generators
 
 Unity: https://docs.unity3d.com/Packages/com.unity.roslyn@0.2/manual/index.html
 
+Elmah blog: https://blog.elmah.io/mastering-incremental-source-generators-in-csharp-a-complete-guide-with-example/
+
 Other sites with RSCG:
 
 https://github.com/amis92/csharp-source-generators
