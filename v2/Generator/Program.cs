@@ -154,13 +154,13 @@ $$"""
 
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :" + nr);
-    var lastGenerator = "Finch.Generators";
+    var lastGenerator = "Schema";
 
     await m.WrotePost(lastGenerator);     
     await m.WroteDocusaurusAll(lastGenerator);
 
     await m.WriteFrontReadMe(oldDesc);
-    //int x = 1;
+    //int x = 1;`
     //if (x == 1)
     //    throw new ArgumentException("test");
 
