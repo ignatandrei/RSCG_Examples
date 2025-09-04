@@ -874,5 +874,18 @@
     "ID":221,
     "name":"https://github.com/buchmiet/FastFsm",
     "why":"later"
+  },
+  {"ID":222,
+    "name":"https://github.com/Tim-Maes/Facet",
+    "why":"later"
+  },
+  {"ID":223,
+    "name":"https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator",
+    "why":"later"
+  },
+  {
+    "ID":224,
+    "name":"https://github.com/pekspro/BuildInformationGenerator",
+    "why":"later"
   }
 ]
