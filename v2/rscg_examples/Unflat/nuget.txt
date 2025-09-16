@@ -1,0 +1,1 @@
+AOT ORM Сode generator for fast parsing DataReader into complex classes/structs with zero allocations

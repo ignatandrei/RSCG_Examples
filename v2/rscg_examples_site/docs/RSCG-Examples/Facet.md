@@ -60,7 +60,7 @@ Tim Maes
 "One part of a subject, situation, object that has many parts."
 </div>
 
-<br/>
+<br />
 
 <div align="center">
   

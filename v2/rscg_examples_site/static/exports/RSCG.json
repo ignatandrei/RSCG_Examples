@@ -1833,6 +1833,14 @@
       "Source": "https://github.com/Tim-Maes/Facet/",
       "Category": "Mapper",
       "AddedOn": "2025-08-17T00:00:00"
+    },
+    {
+      "Name": "Unflat",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Unflat",
+      "NuGet": "https://www.nuget.org/packages/Unflat/",
+      "Source": "https://github.com/pstlnce/unflat",
+      "Category": "Database",
+      "AddedOn": "2025-08-18T00:00:00"
     }
   ]
 }

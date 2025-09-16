@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 229 RSCG list by category
-description: 229 RSCG list by category
+title: 230 RSCG list by category
+description: 230 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -319,7 +319,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:6</summary>
+  <summary>Expand Database =>examples:7</summary>
         
 
 
@@ -349,6 +349,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Finch.Generators](/docs/Finch.Generators)
+
+        
+
+
+[Unflat](/docs/Unflat)
 
 </details>
     
@@ -1530,6 +1535,8 @@ flowchart LR;
     Database--> EntityLengths.Generator((EntityLengths.Generator))
 
     Database--> Finch.Generators((Finch.Generators))
+
+    Database--> Unflat((Unflat))
 
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 

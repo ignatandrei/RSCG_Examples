@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Unflat",
+      "nuget":[
+         "https://www.nuget.org/packages/Unflat/"
+      ],
+      "link":"https://github.com/pstlnce/unflat",
+      "author":"pstlnce",
+      "source":"https://github.com/pstlnce/unflat"
+   },
+   "data":{
+      "goodFor":["DataReader to Object Model"],
+      "csprojDemo":"UnflatDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
