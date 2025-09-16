@@ -1,0 +1,1 @@
+Generate lean DTOs, slim views, or faceted projections of your models with a single attribute.

@@ -1,6 +1,6 @@
 <h1>Mapper</h1>
 
-Number RSCG: 8
+Number RSCG: 9
 
    1 [AutoDTO](/docs/AutoDTO)
 
@@ -8,13 +8,15 @@ Number RSCG: 8
 
    3 [DynamicsMapper](/docs/DynamicsMapper)
 
-   4 [LightweightObjectMapper](/docs/LightweightObjectMapper)
+   4 [Facet](/docs/Facet)
 
-   5 [MagicMap](/docs/MagicMap)
+   5 [LightweightObjectMapper](/docs/LightweightObjectMapper)
 
-   6 [mapperly](/docs/mapperly)
+   6 [MagicMap](/docs/MagicMap)
 
-   7 [MapTo](/docs/MapTo)
+   7 [mapperly](/docs/mapperly)
 
-   8 [NextGenMapper](/docs/NextGenMapper)
+   8 [MapTo](/docs/MapTo)
+
+   9 [NextGenMapper](/docs/NextGenMapper)
     

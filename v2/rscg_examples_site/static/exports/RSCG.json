@@ -1825,6 +1825,14 @@
       "Source": "https://github.com/thomasclaudiushuber/mvvmgen",
       "Category": "Serializer",
       "AddedOn": "2025-08-16T00:00:00"
+    },
+    {
+      "Name": "Facet",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Facet",
+      "NuGet": "https://www.nuget.org/packages/Facet/",
+      "Source": "https://github.com/Tim-Maes/Facet/",
+      "Category": "Mapper",
+      "AddedOn": "2025-08-17T00:00:00"
     }
   ]
 }
