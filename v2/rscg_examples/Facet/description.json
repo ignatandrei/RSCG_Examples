@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Facet",
+      "nuget":[
+         "https://www.nuget.org/packages/Facet/"
+      ],
+      "link":"https://github.com/Tim-Maes/Facet/",
+      "author":"Tim Maes",
+      "source":"https://github.com/Tim-Maes/Facet/"
+   },
+   "data":{
+      "goodFor":["Custom generation and mapper"],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDto.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
