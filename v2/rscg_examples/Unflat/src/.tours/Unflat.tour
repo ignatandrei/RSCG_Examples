@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Unflat",
+  "steps": 
+  [
+    {
+      "file": "UnflatDemo/UnflatDemo.csproj",
+      "description": "First, we add Nuget  [Unflat](https://www.nuget.org/packages/Unflat/) in csproj  ",
+      "pattern": "Unflat"
+    }
+
+        ,{
+        "file": "UnflatDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "UnflatDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project UnflatDemo/UnflatDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "UnflatDemo/obj/GX/Unflat/Unflat.SourceGen/UnflatDemo.PersonParser.g.cs",
+        "description": "Generated File 2  from 2 : UnflatDemo.PersonParser.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "UnflatDemo/obj/GX/Unflat/Unflat.SourceGen/Unflat.UnflatMarkerAttribute.g.cs",
+        "description": "Generated File 1  from 2 : Unflat.UnflatMarkerAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

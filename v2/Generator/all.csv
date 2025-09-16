@@ -228,3 +228,4 @@ Nr,Key,Source,Category
 227,UtilityVerse.Copy, https://github.com/purkayasta/TheUtilityVerse,Clone
 228,mvvmgen, https://github.com/thomasclaudiushuber/mvvmgen,Serializer
 229,Facet, https://github.com/Tim-Maes/Facet/,Mapper
+230,Unflat, https://github.com/pstlnce/unflat,Database

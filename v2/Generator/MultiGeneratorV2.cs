@@ -930,8 +930,13 @@ public class MultiGeneratorV2
         var templateScriban = Scriban.Template.Parse(template);
         var output = templateScriban.Render(new {Description=it,HasFilesGenerated, otherDesc, category}, member => member.Name);
         output = output
+            .Replace("a Result<TTarget> type", "a Result&lt;TTarget&gt; type")
+            .Replace("(e.g., Converter<T>)", "(e.g., Converter&lt;T&gt;)")
+            .Replace("width=\"400\">", "width=\"400\" />")
+            .Replace("<br>","<br />")
             .Replace(" { ", " \\{ ")
             .Replace(" } ", " \\} ")
+            .Replace("<column_index>", "&lt;column_index&gt;")
             .Replace("Action<>", "Action&lt;&gt;")
             .Replace("Func<>", "Func&lt;&gt;")
             .Replace("{Type}", "\\{Type}\\}")
