@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"UtilityVerse.Copy",
+      "nuget":[
+         "https://www.nuget.org/packages/UtilityVerse.Copy/"
+      ],
+      "link":"https://github.com/purkayasta/TheUtilityVerse",
+      "author":"pritom purkayasta",
+      "source":"https://github.com/purkayasta/TheUtilityVerse"
+   },
+   "data":{
+      "goodFor":["Deep Clone and Shallow Copy of objects"],
+      "csprojDemo":"CloneData.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

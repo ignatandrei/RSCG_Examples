@@ -1,0 +1,156 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "mvvmgen",
+  "steps": 
+  [
+    {
+      "file": "PropChangeDemo/PropChangeDemo.csproj",
+      "description": "First, we add Nuget  [mvvmgen](https://www.nuget.org/packages/mvvmgen/) in csproj  ",
+      "pattern": "mvvmgen"
+    }
+
+        ,{
+        "file": "PropChangeDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "PropChangeDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project PropChangeDemo/PropChangeDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/Person.g.cs",
+        "description": "Generated File 21  from 21 : Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/EventArgsCache.g.cs",
+        "description": "Generated File 20  from 21 : EventArgsCache.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/PropertyChanged.SourceGenerator/PropertyChanged.SourceGenerator.PropertyChangedSourceGenerator/Attributes.cs",
+        "description": "Generated File 19  from 21 : Attributes.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/PropChangeDemo.Person.g.cs",
+        "description": "Generated File 18  from 21 : PropChangeDemo.Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.ViewModels.ViewModelBase.g.cs",
+        "description": "Generated File 17  from 21 : MvvmGen.ViewModels.ViewModelBase.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.ViewModels.IViewModelFactory.g.cs",
+        "description": "Generated File 16  from 21 : MvvmGen.ViewModels.IViewModelFactory.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Events.IEventSubscriber.g.cs",
+        "description": "Generated File 15  from 21 : MvvmGen.Events.IEventSubscriber.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Events.IEventAggregator.g.cs",
+        "description": "Generated File 14  from 21 : MvvmGen.Events.IEventAggregator.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Events.EventAggregator.g.cs",
+        "description": "Generated File 13  from 21 : MvvmGen.Events.EventAggregator.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Commands.IDelegateCommand.g.cs",
+        "description": "Generated File 12  from 21 : MvvmGen.Commands.IDelegateCommand.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Commands.DelegateCommand.g.cs",
+        "description": "Generated File 11  from 21 : MvvmGen.Commands.DelegateCommand.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.ViewModelGenerateInterfaceAttribute.g.cs",
+        "description": "Generated File 10  from 21 : MvvmGen.Attributes.ViewModelGenerateInterfaceAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.ViewModelGenerateFactoryAttribute.g.cs",
+        "description": "Generated File 9  from 21 : MvvmGen.Attributes.ViewModelGenerateFactoryAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.ViewModelAttribute.g.cs",
+        "description": "Generated File 8  from 21 : MvvmGen.Attributes.ViewModelAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.PropertyPublishEventAttribute.g.cs",
+        "description": "Generated File 7  from 21 : MvvmGen.Attributes.PropertyPublishEventAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.PropertyInvalidateAttribute.g.cs",
+        "description": "Generated File 6  from 21 : MvvmGen.Attributes.PropertyInvalidateAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.PropertyCallMethodAttribute.g.cs",
+        "description": "Generated File 5  from 21 : MvvmGen.Attributes.PropertyCallMethodAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.PropertyAttribute.g.cs",
+        "description": "Generated File 4  from 21 : MvvmGen.Attributes.PropertyAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.InjectAttribute.g.cs",
+        "description": "Generated File 3  from 21 : MvvmGen.Attributes.InjectAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.CommandInvalidateAttribute.g.cs",
+        "description": "Generated File 2  from 21 : MvvmGen.Attributes.CommandInvalidateAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "PropChangeDemo/obj/GX/MvvmGen.PureCodeGeneration.SourceGenerators/MvvmGen.ViewModelGenerator/MvvmGen.Attributes.CommandAttribute.g.cs",
+        "description": "Generated File 1  from 21 : MvvmGen.Attributes.CommandAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

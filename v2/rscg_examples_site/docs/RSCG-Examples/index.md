@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 226 RSCG list by category
-description: 226 RSCG list by category
+title: 228 RSCG list by category
+description: 228 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -209,7 +209,7 @@ import DocCardList from '@theme/DocCardList';
 ## Clone 
 <details>
     
-  <summary>Expand Clone =>examples:2</summary>
+  <summary>Expand Clone =>examples:3</summary>
         
 
 
@@ -219,6 +219,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Dolly](/docs/Dolly)
+
+        
+
+
+[UtilityVerse.Copy](/docs/UtilityVerse.Copy)
 
 </details>
     
@@ -1224,7 +1229,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:8</summary>
+  <summary>Expand Serializer =>examples:9</summary>
         
 
 
@@ -1264,6 +1269,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Schema](/docs/Schema)
+
+        
+
+
+[mvvmgen](/docs/mvvmgen)
 
 </details>
     
@@ -1477,6 +1487,8 @@ flowchart LR;
     Clone--> CopyTo((CopyTo))
 
     Clone--> Dolly((Dolly))
+
+    Clone--> UtilityVerse.Copy((UtilityVerse.Copy))
 
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 
@@ -1825,6 +1837,8 @@ flowchart LR;
     Serializer--> Nino((Nino))
 
     Serializer--> Schema((Schema))
+
+    Serializer--> mvvmgen((mvvmgen))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 

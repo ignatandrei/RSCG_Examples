@@ -1,6 +1,6 @@
 <h1>Serializer</h1>
 
-Number RSCG: 8
+Number RSCG: 9
 
    1 [GenPack](/docs/GenPack)
 
@@ -8,13 +8,15 @@ Number RSCG: 8
 
    3 [JsonPolymorphicGenerator](/docs/JsonPolymorphicGenerator)
 
-   4 [Nino](/docs/Nino)
+   4 [mvvmgen](/docs/mvvmgen)
 
-   5 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
+   5 [Nino](/docs/Nino)
 
-   6 [Schema](/docs/Schema)
+   6 [ProtobufSourceGenerator](/docs/ProtobufSourceGenerator)
 
-   7 [StackXML](/docs/StackXML)
+   7 [Schema](/docs/Schema)
 
-   8 [System.Text.Json](/docs/System.Text.Json)
+   8 [StackXML](/docs/StackXML)
+
+   9 [System.Text.Json](/docs/System.Text.Json)
     

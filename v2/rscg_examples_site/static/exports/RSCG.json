@@ -1809,6 +1809,22 @@
       "Source": "https://github.com/emptycoder/RequiredEnum",
       "Category": "Enum",
       "AddedOn": "2025-08-14T00:00:00"
+    },
+    {
+      "Name": "UtilityVerse.Copy",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/UtilityVerse.Copy",
+      "NuGet": "https://www.nuget.org/packages/UtilityVerse.Copy/",
+      "Source": "https://github.com/purkayasta/TheUtilityVerse",
+      "Category": "Clone",
+      "AddedOn": "2025-08-15T00:00:00"
+    },
+    {
+      "Name": "mvvmgen",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/mvvmgen",
+      "NuGet": "https://www.nuget.org/packages/mvvmgen/",
+      "Source": "https://github.com/thomasclaudiushuber/mvvmgen",
+      "Category": "Serializer",
+      "AddedOn": "2025-08-16T00:00:00"
     }
   ]
 }

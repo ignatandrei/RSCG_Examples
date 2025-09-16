@@ -1,0 +1,2 @@
+A Roslyn source generator for generating shallow copy and deep copy for class,
+            records and structs

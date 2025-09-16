@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"mvvmgen",
+      "nuget":[
+         "https://www.nuget.org/packages/mvvmgen/"
+      ],
+      "link":"https://github.com/thomasclaudiushuber/mvvmgen",
+      "author":"Thomas Claudius Huber",
+      "source":"https://github.com/thomasclaudiushuber/mvvmgen"
+   },
+   "data":{
+      "goodFor":["Generate MVVM boilerplate code"],
+      "csprojDemo":"PropChangeDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

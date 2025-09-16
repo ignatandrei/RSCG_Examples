@@ -1,0 +1,1 @@
+MvvmGen is a next generation MVVM library for XAML applications built with C# source generators. MvvmGen helps you to efficently build your WPF, WinUI, and MAUI apps with the Model-View-ViewModel pattern, as it generates all the boilerplate for you.

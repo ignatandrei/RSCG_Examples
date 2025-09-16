@@ -225,3 +225,5 @@ Nr,Key,Source,Category
 224,FactoryGenerator.Abstractions, https://github.com/ivmazurenko/factory-generator,DependencyInjection
 225,Schema, https://github.com/MeltyPlayer/Schema,Serializer
 226,requiredenum, https://github.com/emptycoder/RequiredEnum,Enum
+227,UtilityVerse.Copy, https://github.com/purkayasta/TheUtilityVerse,Clone
+228,mvvmgen, https://github.com/thomasclaudiushuber/mvvmgen,Serializer

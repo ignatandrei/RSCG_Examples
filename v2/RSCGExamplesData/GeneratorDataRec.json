@@ -1365,5 +1365,17 @@
   "Category": 19,
   "dtStart": "2025-08-14T00:00:00",
   "show": true
+},
+{
+  "ID":"UtilityVerse.Copy",
+  "Category": 29, 
+  "dtStart": "2025-08-15T00:00:00",
+  "show": true
+},
+{
+  "ID":"mvvmgen",
+  "Category": 16,
+  "dtStart": "2025-08-16T00:00:00",
+  "show": true
 }
 ]

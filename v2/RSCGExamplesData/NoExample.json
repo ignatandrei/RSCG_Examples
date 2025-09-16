@@ -389,11 +389,7 @@
     "name": "MrMeeseeks.Visitor https://github.com/Yeah69/MrMeeseeks.Visitor",
     "why": "old ISourceGenerator"
   },
-  {
-    "ID": 80,
-    "name": "MvvmGen https://github.com/thomasclaudiushuber/mvvmgen",
-    "why": "later"
-  },
+  
   {
     "ID": 81,
     "name": "net_automatic_interface https://github.com/codecentric/net_automatic_interface",
@@ -879,10 +875,6 @@
     "name":"https://github.com/Tim-Maes/Facet",
     "why":"later"
   },
-  {"ID":223,
-    "name":"https://github.com/JKamsker/JKToolKit.TemplatePropertyGenerator",
-    "why":"later"
-  },
   {
     "ID":224,
     "name":"https://github.com/pstlnce/unflat",
@@ -891,11 +883,6 @@
   {
     "ID":225,
     "name":"https://github.com/pierre3/PlantUmlClassDiagramGenerator",
-    "why":"later"
-  },
-  {
-    "ID":226,
-    "name":"https://github.com/purkayasta/TheUtilityVerse/blob/development/src/UtilityVerse.Copy/README.md",
     "why":"later"
   }
 ]

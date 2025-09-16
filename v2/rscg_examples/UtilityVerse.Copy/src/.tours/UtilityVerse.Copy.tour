@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "UtilityVerse.Copy",
+  "steps": 
+  [
+    {
+      "file": "CloneData/CloneData.csproj",
+      "description": "First, we add Nuget  [UtilityVerse.Copy](https://www.nuget.org/packages/UtilityVerse.Copy/) in csproj  ",
+      "pattern": "UtilityVerse.Copy"
+    }
+
+        ,{
+        "file": "CloneData/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CloneData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CloneData/CloneData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CloneData/obj/GX/UtilityVerse.Copy/UtilityVerse.Copy.CopyGenerator/CloneData_Person_DeepCopy.g.cs",
+        "description": "Generated File 5  from 5 : CloneData_Person_DeepCopy.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/Person.g.cs",
+        "description": "Generated File 4  from 5 : Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/IClonable.g.cs",
+        "description": "Generated File 3  from 5 : IClonable.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/CloneIgnoreAttribute.g.cs",
+        "description": "Generated File 2  from 5 : CloneIgnoreAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/ClonableAttribute.g.cs",
+        "description": "Generated File 1  from 5 : ClonableAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
