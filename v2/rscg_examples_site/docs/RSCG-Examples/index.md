@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 228 RSCG list by category
-description: 228 RSCG list by category
+title: 229 RSCG list by category
+description: 229 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1053,7 +1053,7 @@ import DocCardList from '@theme/DocCardList';
 ## Mapper 
 <details>
     
-  <summary>Expand Mapper =>examples:8</summary>
+  <summary>Expand Mapper =>examples:9</summary>
         
 
 
@@ -1093,6 +1093,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [LightweightObjectMapper](/docs/LightweightObjectMapper)
+
+        
+
+
+[Facet](/docs/Facet)
 
 </details>
     
@@ -1789,6 +1794,8 @@ flowchart LR;
     Mapper--> AutoGen((AutoGen))
 
     Mapper--> LightweightObjectMapper((LightweightObjectMapper))
+
+    Mapper--> Facet((Facet))
 
     Mediator--> Mediator((Mediator))
 

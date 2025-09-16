@@ -1,0 +1,72 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Facet",
+  "steps": 
+  [
+    {
+      "file": "mapperDemo/mapperDemo.csproj",
+      "description": "First, we add Nuget  [Facet](https://www.nuget.org/packages/Facet/) in csproj  ",
+      "pattern": "Facet"
+    }
+
+        ,{
+        "file": "mapperDemo/PersonDTO.cs",
+        "description": "File PersonDTO.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "mapperDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "mapperDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project mapperDemo/mapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/PredefinedSpecialTypeMapping.Generated.cs",
+        "description": "Generated File 6  from 6 : PredefinedSpecialTypeMapping.Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LOMMapExtensions_mapperDemo_Person.g.cs",
+        "description": "Generated File 5  from 6 : LOMMapExtensions_mapperDemo_Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LightweightObjectMapper.PreCodes.PredefinedSpecialTypeMapping.cs",
+        "description": "Generated File 4  from 6 : LightweightObjectMapper.PreCodes.PredefinedSpecialTypeMapping.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LightweightObjectMapper.PreCodes.LightweightObjectMapperPreCodes.cs",
+        "description": "Generated File 3  from 6 : LightweightObjectMapper.PreCodes.LightweightObjectMapperPreCodes.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/Extensions.Generated.cs",
+        "description": "Generated File 2  from 6 : Extensions.Generated.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "mapperDemo/obj/GX/Facet/Facet.Generators.FacetGenerator/PersonDTO.g.cs",
+        "description": "Generated File 1  from 6 : PersonDTO.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
