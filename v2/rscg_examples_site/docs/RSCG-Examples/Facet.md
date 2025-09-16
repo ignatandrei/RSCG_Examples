@@ -53,14 +53,14 @@ Tim Maes
   <img
     src="https://raw.githubusercontent.com/Tim-Maes/Facet/master/assets/Facet.png"
     alt="Facet logo"
-    width="400">
+    width="400" />
 </div>
 
 <div align="center">
 "One part of a subject, situation, object that has many parts."
 </div>
 
-<br>
+<br/>
 
 <div align="center">
   
@@ -98,8 +98,8 @@ You can think of it like **carving out a specific facet** of a gem:
 
 ## :clipboard: Documentation
 
-- **[Documentation & Guides](docs/README.md)**
-- [What is being generated?](docs/07_WhatIsBeingGenerated.md)
+- **[Documentation & Guides](https://github.com/Tim-Maes/Facet//docs/README.md)**
+- [What is being generated?](https://github.com/Tim-Maes/Facet//docs/07_WhatIsBeingGenerated.md)
 
 ## :star: Key Features
 
