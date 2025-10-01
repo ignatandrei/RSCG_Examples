@@ -215,7 +215,7 @@ The default class name in the generated code is the filename without the culture
 This behaviour can be overridden with the `ClassName` attribute on the `Localize` element.
 
 
-## [Changelog](CHANGELOG.md)
+## [Changelog](https://github.com/kl1mm/localize/CHANGELOG.md)
 
 ## Help! Why is no code generated?
 
