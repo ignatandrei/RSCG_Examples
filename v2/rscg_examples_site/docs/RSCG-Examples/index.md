@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 230 RSCG list by category
-description: 230 RSCG list by category
+title: 231 RSCG list by category
+description: 231 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -783,7 +783,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:16</summary>
+  <summary>Expand FilesToCode =>examples:17</summary>
         
 
 
@@ -863,6 +863,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [NFH.FileEmbed](/docs/NFH.FileEmbed)
+
+        
+
+
+[kli.Localize](/docs/kli.Localize)
 
 </details>
     
@@ -1721,6 +1726,8 @@ flowchart LR;
     FilesToCode--> Strings.ResourceGenerator((Strings.ResourceGenerator))
 
     FilesToCode--> NFH.FileEmbed((NFH.FileEmbed))
+
+    FilesToCode--> kli.Localize((kli.Localize))
 
     FunctionalProgramming--> dunet((dunet))
 

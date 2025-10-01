@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 230 RSCG with examples in descending chronological order
+## 231 RSCG with examples in descending chronological order
 
-This is the list of 230 ( 14 from Microsoft) RSCG with examples 
+This is the list of 231 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 230 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|231| [kli.Localize by Tobias Klimm ](/docs/kli.Localize)|2025-10-01 => 01 October 2025 | [FilesToCode](/docs/Categories/FilesToCode) |
 |230| [Unflat by pstlnce ](/docs/Unflat)|2025-08-18 => 18 August 2025 | [Database](/docs/Categories/Database) |
 |229| [Facet by Tim Maes ](/docs/Facet)|2025-08-17 => 17 August 2025 | [Mapper](/docs/Categories/Mapper) |
 |228| [mvvmgen by Thomas Claudius Huber ](/docs/mvvmgen)|2025-08-16 => 16 August 2025 | [Serializer](/docs/Categories/Serializer) |
