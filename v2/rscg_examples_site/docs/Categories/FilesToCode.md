@@ -1,6 +1,6 @@
 <h1>FilesToCode</h1>
 
-Number RSCG: 16
+Number RSCG: 17
 
    1 [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator)
 
@@ -12,25 +12,27 @@ Number RSCG: 16
 
    5 [EmbedResourceCSharp](/docs/EmbedResourceCSharp)
 
-   6 [LingoGen](/docs/LingoGen)
+   6 [kli.Localize](/docs/kli.Localize)
 
-   7 [NFH.FileEmbed](/docs/NFH.FileEmbed)
+   7 [LingoGen](/docs/LingoGen)
 
-   8 [NotNotAppSettings](/docs/NotNotAppSettings)
+   8 [NFH.FileEmbed](/docs/NFH.FileEmbed)
 
-   9 [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
+   9 [NotNotAppSettings](/docs/NotNotAppSettings)
 
-   10 [ResXGenerator](/docs/ResXGenerator)
+   10 [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed)
 
-   11 [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
+   11 [ResXGenerator](/docs/ResXGenerator)
 
-   12 [RSCG_Utils](/docs/RSCG_Utils)
+   12 [RSCG_JSON2Class](/docs/RSCG_JSON2Class)
 
-   13 [Strings.ResourceGenerator](/docs/Strings.ResourceGenerator)
+   13 [RSCG_Utils](/docs/RSCG_Utils)
 
-   14 [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
+   14 [Strings.ResourceGenerator](/docs/Strings.ResourceGenerator)
 
-   15 [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
+   15 [ThisAssembly_Resources](/docs/ThisAssembly_Resources)
 
-   16 [Weave](/docs/Weave)
+   16 [ThisAssembly.Strings](/docs/ThisAssembly.Strings)
+
+   17 [Weave](/docs/Weave)
     

@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "kli.Localize",
+  "steps": 
+  [
+    {
+      "file": "EmbedDemo/EmbedDemo.csproj",
+      "description": "First, we add Nuget  [kli.Localize](https://www.nuget.org/packages/kli.Localize/) in csproj  ",
+      "pattern": "kli.Localize"
+    }
+
+        ,{
+        "file": "EmbedDemo/TestData/AllText_ro.json",
+        "description": "File AllText_ro.json  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/TestData/AllText_en.json",
+        "description": "File AllText_en.json  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EmbedDemo/EmbedDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EmbedDemo/obj/GX/kli.Localize.Generator/kli.Localize.Generator.LocalizeCodeGenerator/AllText.g.cs",
+        "description": "Generated File 1  from 1 : AllText.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

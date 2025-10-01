@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"kli.Localize",
+      "nuget":[
+         "https://www.nuget.org/packages/kli.Localize/"
+      ],
+      "link":"https://github.com/kl1mm/localize",
+      "author":"Tobias Klimm",
+      "source":"https://github.com/kl1mm/localize"
+   },
+   "data":{
+      "goodFor":["Generating locality files from json files"],
+      "csprojDemo":"EmbedDemo.csproj",
+      "csFiles":["Program.cs","AllText_en.json","AllText_ro.json"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

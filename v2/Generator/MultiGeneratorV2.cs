@@ -154,6 +154,7 @@ public class MultiGeneratorV2
             text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");
             text = text.Replace("(./CONTRIBUTING.md)", $"({d.Generator!.Source}/CONTRIBUTING.md)");
             text = text.Replace("(./LICENSE)", $"({d.Generator!.Source}/LICENSE)");
+            text = text.Replace("(CHANGELOG.md)", $"({d.Generator!.Source}/CHANGELOG.md)");
             text = text.Replace("(LICENSE)", $"({d.Generator!.Source}/LICENSE)");
             text = text.Replace("(LICENSE.md)", $"({d.Generator!.Source}/LICENSE.md)");
             text = text.Replace("(docs/README.md)", $"({d.Generator!.Source}/docs/README.md)");

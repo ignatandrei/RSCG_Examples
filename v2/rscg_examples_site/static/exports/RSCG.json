@@ -1841,6 +1841,14 @@
       "Source": "https://github.com/pstlnce/unflat",
       "Category": "Database",
       "AddedOn": "2025-08-18T00:00:00"
+    },
+    {
+      "Name": "kli.Localize",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/kli.Localize",
+      "NuGet": "https://www.nuget.org/packages/kli.Localize/",
+      "Source": "https://github.com/kl1mm/localize",
+      "Category": "FilesToCode",
+      "AddedOn": "2025-10-01T00:00:00"
     }
   ]
 }
