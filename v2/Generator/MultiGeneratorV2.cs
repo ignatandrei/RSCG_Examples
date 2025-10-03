@@ -148,7 +148,7 @@ public class MultiGeneratorV2
 
             text = text.Replace("(MinimalApis.FluentValidation.md)", $"({d.Generator!.Source}/MinimalApis.FluentValidation.md)");
             text = text.Replace("(MinimalApis.Discovery.md)", $"({d.Generator!.Source}/MinimalApis.Discovery.md)");
-
+            text = text.Replace("<details><summary>Full generated source code</summary>", "<details><summary>Full generated source code</summary></details>");
             text = text.Replace("(docs/Map.md)", $"({d.Generator!.Source}/docs/Map.md)");
             text = text.Replace("(/src/PlantUmlClassDiagramGenerator.SourceGenerator)", $"({d.Generator!.Source}/src/PlantUmlClassDiagramGenerator.SourceGenerator)");
             text = text.Replace("(./README.zh.md)", $"({d.Generator!.Source}/README.zh.md)");
@@ -931,6 +931,9 @@ public class MultiGeneratorV2
         var templateScriban = Scriban.Template.Parse(template);
         var output = templateScriban.Render(new {Description=it,HasFilesGenerated, otherDesc, category}, member => member.Name);
         output = output
+            .Replace("[IParsable<TSelf>.TryParse]", "[IParsable&lt;TSelf&gt;.TryParse]")
+            .Replace("[ISpanParsable<TSelf>.TryParse]", "[ISpanParsable&lt;TSelf&gt;.TryParse]")
+            .Replace("```\r\n</details>\r\n","\r\n\r\n```")
             .Replace("a Result<TTarget> type", "a Result&lt;TTarget&gt; type")
             .Replace("(e.g., Converter<T>)", "(e.g., Converter&lt;T&gt;)")
             .Replace("width=\"400\">", "width=\"400\" />")

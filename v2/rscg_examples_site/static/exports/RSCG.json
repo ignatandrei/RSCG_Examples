@@ -1849,6 +1849,14 @@
       "Source": "https://github.com/kl1mm/localize",
       "Category": "FilesToCode",
       "AddedOn": "2025-10-01T00:00:00"
+    },
+    {
+      "Name": "ConsoleAppFramework",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework",
+      "NuGet": "https://www.nuget.org/packages/ConsoleAppFramework/",
+      "Source": "https://github.com/Cysharp/ConsoleAppFramework",
+      "Category": "Console",
+      "AddedOn": "2025-10-02T00:00:00"
     }
   ]
 }

@@ -230,3 +230,4 @@ Nr,Key,Source,Category
 229,Facet, https://github.com/Tim-Maes/Facet/,Mapper
 230,Unflat, https://github.com/pstlnce/unflat,Database
 231,kli.Localize, https://github.com/kl1mm/localize,FilesToCode
+232,ConsoleAppFramework, https://github.com/Cysharp/ConsoleAppFramework,Console
