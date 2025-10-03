@@ -1,5 +1,9 @@
 # RSCG - 232 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 232 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+
+This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
+
 ## Latest Update : 2025-10-02 => 02 October 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
