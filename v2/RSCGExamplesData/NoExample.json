@@ -875,5 +875,30 @@
     "ID":225,
     "name":"https://github.com/pierre3/PlantUmlClassDiagramGenerator",
     "why":"later"
-  }
+  },
+  {
+    "ID":226,
+    "name":"https://github.com/Hookyns/validly",
+    "why":"later"
+  },
+  {
+    "ID":227,
+    "name":"https://github.com/hanachiru/RapidEnum",
+    "why":"later" 
+  },
+  {
+    "ID":228,
+    "name":"https://github.com/nuskey8/Csv-CSharp",
+     "why":"later"
+    },
+    {
+    "ID":229,
+    "name":"https://github.com/hadashiA/VYaml",
+    "why":"later"
+    },
+    {
+    "ID":230,
+    "name":"https://github.com/FoundatioFx/Foundatio.Mediator",
+    "why":"later"
+    }
 ]
