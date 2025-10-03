@@ -1,6 +1,6 @@
 <h1>Serializer</h1>
 
-Number RSCG: 9
+Number RSCG: 10
 
    1 [GenPack](/docs/GenPack)
 
@@ -19,4 +19,6 @@ Number RSCG: 9
    8 [StackXML](/docs/StackXML)
 
    9 [System.Text.Json](/docs/System.Text.Json)
+
+   10 [VYaml](/docs/VYaml)
     

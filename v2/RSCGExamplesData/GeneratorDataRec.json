@@ -1401,5 +1401,12 @@
   "Category":34,
   "dtStart": "2025-10-02T00:00:00",
   "show": true
+},
+
+{
+  "ID":"Vyaml",
+  "Category":16,
+  "dtStart": "2025-10-03T00:00:00",
+  "show": true
 }
 ]

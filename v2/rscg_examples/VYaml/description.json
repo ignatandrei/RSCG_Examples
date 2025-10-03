@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"VYaml",
+      "nuget":[
+         "https://www.nuget.org/packages/VYaml/"
+      ],
+      "link":"https://github.com/hadashiA/VYaml",
+      "author":"Hadashi A",
+      "source":"https://github.com/hadashiA/VYaml"
+   },
+   "data":{
+      "goodFor":["Serializing to/from YAML format"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

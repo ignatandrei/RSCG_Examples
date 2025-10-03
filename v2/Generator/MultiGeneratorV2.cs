@@ -936,6 +936,8 @@ public class MultiGeneratorV2
             .Replace("```\r\n</details>\r\n","\r\n\r\n```")
             .Replace("a Result<TTarget> type", "a Result&lt;TTarget&gt; type")
             .Replace("(e.g., Converter<T>)", "(e.g., Converter&lt;T&gt;)")
+            .Replace("`IYamlFormatter<T>`", "`IYamlFormatter&lt;T&gt;`")
+            .Replace("and identifies IYamlFormatter<T>", "and identifies IYamlFormatter&lt;T&gt;")
             .Replace("width=\"400\">", "width=\"400\" />")
             .Replace("<br>","<br />")
             .Replace(" { ", " \\{ ")
