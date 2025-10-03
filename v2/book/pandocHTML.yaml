@@ -245,6 +245,7 @@ input-files:
 - examples/Facet.html
 - examples/Unflat.html
 - examples/kli.Localize.html
+- examples/ConsoleAppFramework.html
 
 # or you may use input-file: with a single value
 # defaults:

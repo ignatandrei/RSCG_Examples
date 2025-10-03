@@ -1,6 +1,6 @@
-# RSCG - 231 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 232 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-## Latest Update : 2025-10-01 => 01 October 2025
+## Latest Update : 2025-10-02 => 02 October 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -20,8 +20,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 231 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 232 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 232. [ConsoleAppFramework](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework) , in the [Console](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#console) category 
+
+Generated on : 2025-10-02 => 02 October 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Cysharp, Inc.
+
+Micro-framework for console applications. 
+
+Nuget: [https://www.nuget.org/packages/ConsoleAppFramework/](https://www.nuget.org/packages/ConsoleAppFramework/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework)
+
+Source: [https://github.com/Cysharp/ConsoleAppFramework](https://github.com/Cysharp/ConsoleAppFramework)
+
+</details>
+
 ### 231. [kli.Localize](https://ignatandrei.github.io/RSCG_Examples/v2/docs/kli.Localize) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
 
 Generated on : 2025-10-01 => 01 October 2025

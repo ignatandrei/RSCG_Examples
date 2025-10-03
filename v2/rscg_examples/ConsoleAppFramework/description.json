@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ConsoleAppFramework",
+      "nuget":[
+         "https://www.nuget.org/packages/ConsoleAppFramework/"
+      ],
+      "link":"https://github.com/Cysharp/ConsoleAppFramework",
+      "author":"Cysharp, Inc.",
+      "source":"https://github.com/Cysharp/ConsoleAppFramework"
+   },
+   "data":{
+      "goodFor":["Generating console parser for functions"],
+      "csprojDemo":"ConsoleDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

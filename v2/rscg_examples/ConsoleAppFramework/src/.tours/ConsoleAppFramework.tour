@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ConsoleAppFramework",
+  "steps": 
+  [
+    {
+      "file": "ConsoleDemo/ConsoleDemo.csproj",
+      "description": "First, we add Nuget  [ConsoleAppFramework](https://www.nuget.org/packages/ConsoleAppFramework/) in csproj  ",
+      "pattern": "ConsoleAppFramework"
+    }
+
+        ,{
+        "file": "ConsoleDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project ConsoleDemo/ConsoleDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "ConsoleDemo/obj/GX/ConsoleAppFramework/ConsoleAppFramework.ConsoleAppGenerator/ConsoleApp.g.cs",
+        "description": "Generated File 4  from 4 : ConsoleApp.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConsoleDemo/obj/GX/ConsoleAppFramework/ConsoleAppFramework.ConsoleAppGenerator/ConsoleApp.Builder.Run.g.cs",
+        "description": "Generated File 3  from 4 : ConsoleApp.Builder.Run.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConsoleDemo/obj/GX/ConsoleAppFramework/ConsoleAppFramework.ConsoleAppGenerator/ConsoleApp.Builder.Help.g.cs",
+        "description": "Generated File 2  from 4 : ConsoleApp.Builder.Help.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "ConsoleDemo/obj/GX/ConsoleAppFramework/ConsoleAppFramework.ConsoleAppGenerator/ConsoleApp.Builder.g.cs",
+        "description": "Generated File 1  from 4 : ConsoleApp.Builder.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,0 +1,1 @@
+Micro-framework for console applications.

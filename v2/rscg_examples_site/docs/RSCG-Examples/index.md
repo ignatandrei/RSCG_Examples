@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 231 RSCG list by category
-description: 231 RSCG list by category
+title: 232 RSCG list by category
+description: 232 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -265,11 +265,16 @@ import DocCardList from '@theme/DocCardList';
 ## Console 
 <details>
     
-  <summary>Expand Console =>examples:1</summary>
+  <summary>Expand Console =>examples:2</summary>
         
 
 
 [Figgle](/docs/Figgle)
+
+        
+
+
+[ConsoleAppFramework](/docs/ConsoleAppFramework)
 
 </details>
     
@@ -1514,6 +1519,8 @@ flowchart LR;
     CommandLine--> ArgumentParsing((ArgumentParsing))
 
     Console--> Figgle((Figgle))
+
+    Console--> ConsoleAppFramework((ConsoleAppFramework))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 
