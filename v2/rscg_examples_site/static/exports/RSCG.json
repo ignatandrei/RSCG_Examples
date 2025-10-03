@@ -1857,6 +1857,14 @@
       "Source": "https://github.com/Cysharp/ConsoleAppFramework",
       "Category": "Console",
       "AddedOn": "2025-10-02T00:00:00"
+    },
+    {
+      "Name": "VYaml",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Vyaml",
+      "NuGet": "https://www.nuget.org/packages/VYaml/",
+      "Source": "https://github.com/hadashiA/VYaml",
+      "Category": "Serializer",
+      "AddedOn": "2025-10-03T00:00:00"
     }
   ]
 }

@@ -231,3 +231,4 @@ Nr,Key,Source,Category
 230,Unflat, https://github.com/pstlnce/unflat,Database
 231,kli.Localize, https://github.com/kl1mm/localize,FilesToCode
 232,ConsoleAppFramework, https://github.com/Cysharp/ConsoleAppFramework,Console
+233,Vyaml, https://github.com/hadashiA/VYaml,Serializer
