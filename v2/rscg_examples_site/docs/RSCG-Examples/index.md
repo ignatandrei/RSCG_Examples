@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 234 RSCG list by category
-description: 234 RSCG list by category
+title: 235 RSCG list by category
+description: 235 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1259,7 +1259,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:9</summary>
+  <summary>Expand Serializer =>examples:10</summary>
         
 
 
@@ -1304,6 +1304,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [VYaml](/docs/VYaml)
+
+        
+
+
+[Csvcsharp](/docs/Csvcsharp)
 
 </details>
     
@@ -1881,6 +1886,8 @@ flowchart LR;
     Serializer--> Schema((Schema))
 
     Serializer--> VYaml((VYaml))
+
+    Serializer--> Csvcsharp((Csvcsharp))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 

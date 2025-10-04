@@ -1,0 +1,1 @@
+Fast CSV Serializer for .NET and Unity.

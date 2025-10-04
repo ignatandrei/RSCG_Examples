@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Csvcsharp",
+  "steps": 
+  [
+    {
+      "file": "Serializer/Serializer.csproj",
+      "description": "First, we add Nuget  [Csvcsharp](https://www.nuget.org/packages/Csvcsharp/) in csproj  ",
+      "pattern": "Csvcsharp"
+    }
+
+        ,{
+        "file": "Serializer/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Serializer/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Serializer/Serializer.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Serializer/obj/GX/VYaml.SourceGenerator/VYaml.SourceGenerator.VYamlIncrementalSourceGenerator/SerializerDemo.Person.YamlFormatter.g.cs",
+        "description": "Generated File 2  from 2 : SerializerDemo.Person.YamlFormatter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "Serializer/obj/GX/Csv.SourceGenerator/Csv.SourceGenerator.CsvSerializerGenerator/SerializerDemo.Person.CsvSerializer.g.cs",
+        "description": "Generated File 1  from 2 : SerializerDemo.Person.CsvSerializer.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

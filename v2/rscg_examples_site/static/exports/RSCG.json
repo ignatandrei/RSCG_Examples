@@ -1873,6 +1873,14 @@
       "Source": "https://github.com/hanachiru/RapidEnum",
       "Category": "Enum",
       "AddedOn": "2025-10-04T00:00:00"
+    },
+    {
+      "Name": "Csvcsharp",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CsvCsharp",
+      "NuGet": "https://www.nuget.org/packages/Csvcsharp/",
+      "Source": "https://github.com/nuskey8/Csv-CSharp",
+      "Category": "Serializer",
+      "AddedOn": "2025-10-05T00:00:00"
     }
   ]
 }
