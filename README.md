@@ -1,10 +1,10 @@
-# RSCG - 234 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 235 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 234 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 235 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-10-04 => 04 October 2025
+## Latest Update : 2025-10-05 => 05 October 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 234 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 235 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 14 from Microsoft )
+### 235. [Csvcsharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Csvcsharp) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2025-10-05 => 05 October 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Yusuke Nakada
+
+Fast CSV Serializer for .NET and Unity. 
+
+Nuget: [https://www.nuget.org/packages/Csvcsharp/](https://www.nuget.org/packages/Csvcsharp/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Csvcsharp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Csvcsharp)
+
+Source: [https://github.com/nuskey8/Csv-CSharp](https://github.com/nuskey8/Csv-CSharp)
+
+</details>
+
 ### 234. [RapidEnum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RapidEnum) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
 Generated on : 2025-10-04 => 04 October 2025

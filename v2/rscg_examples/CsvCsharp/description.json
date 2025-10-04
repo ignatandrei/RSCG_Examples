@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Csvcsharp",
+      "nuget":[
+         "https://www.nuget.org/packages/Csvcsharp/"
+      ],
+      "link":"https://github.com/nuskey8/Csv-CSharp",
+      "author":"Yusuke Nakada",
+      "source":"https://github.com/nuskey8/Csv-CSharp"
+   },
+   "data":{
+      "goodFor":["Serializer for CSV files"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -12,7 +12,7 @@ import SameCategory from '../Categories/_Primitive{{category}}.mdx';
 # {{ Description.Generator.Name }}  by {{Description.Generator.Author}}
 
 
-<TOCInline toc={toc}  />
+<TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
 
 ## NuGet / site data
 {{Description.Generator.MarkDownNugetDownloads}}
