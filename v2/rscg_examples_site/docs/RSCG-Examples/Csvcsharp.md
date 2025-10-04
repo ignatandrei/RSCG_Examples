@@ -12,7 +12,7 @@ import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
 # Csvcsharp  by Yusuke Nakada
 
 
-<TOCInline toc={toc} minHeadingLevel={2}  maxHeadingLevel={2} />
+<TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
 
 ## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/Csvcsharp?label=Csvcsharp)](https://www.nuget.org/packages/Csvcsharp/)

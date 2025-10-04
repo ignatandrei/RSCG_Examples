@@ -1,0 +1,1 @@
+Powerful, efficient, and highly customizable validation library for .NET, leveraging the capabilities of C# Source Generators to provide compile-time validation logic generation.

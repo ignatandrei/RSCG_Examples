@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"validly",
+      "nuget":[
+         "https://www.nuget.org/packages/validly/"
+      ],
+      "link":"https://github.com/Hookyns/validly",
+      "author":"Roman Jambor",
+      "source":"https://github.com/Hookyns/validly"
+   },
+   "data":{
+      "goodFor":["Generates validation code for C# classes based on attributes."],
+      "csprojDemo":"valid.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
