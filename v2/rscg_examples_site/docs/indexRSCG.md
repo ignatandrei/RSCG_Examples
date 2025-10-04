@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 233 RSCG with examples in descending chronological order
+## 234 RSCG with examples in descending chronological order
 
-This is the list of 233 ( 14 from Microsoft) RSCG with examples 
+This is the list of 234 ( 14 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 233 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|234| [RapidEnum by hanachiru ](/docs/RapidEnum)|2025-10-04 => 04 October 2025 | [Enum](/docs/Categories/Enum) |
 |233| [VYaml by Hadashi A ](/docs/VYaml)|2025-10-03 => 03 October 2025 | [Serializer](/docs/Categories/Serializer) |
 |232| [ConsoleAppFramework by Cysharp, Inc. ](/docs/ConsoleAppFramework)|2025-10-02 => 02 October 2025 | [Console](/docs/Categories/Console) |
 |231| [kli.Localize by Tobias Klimm ](/docs/kli.Localize)|2025-10-01 => 01 October 2025 | [FilesToCode](/docs/Categories/FilesToCode) |

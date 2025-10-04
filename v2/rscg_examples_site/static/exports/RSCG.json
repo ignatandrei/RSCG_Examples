@@ -1865,6 +1865,14 @@
       "Source": "https://github.com/hadashiA/VYaml",
       "Category": "Serializer",
       "AddedOn": "2025-10-03T00:00:00"
+    },
+    {
+      "Name": "RapidEnum",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RapidEnum",
+      "NuGet": "https://www.nuget.org/packages/RapidEnum/",
+      "Source": "https://github.com/hanachiru/RapidEnum",
+      "Category": "Enum",
+      "AddedOn": "2025-10-04T00:00:00"
     }
   ]
 }
