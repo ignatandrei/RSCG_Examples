@@ -26,7 +26,7 @@ This is the list of 234 ( 14 from Microsoft) RSCG with examples
 |231| [kli.Localize by Tobias Klimm ](/docs/kli.Localize)|2025-10-01 => 01 October 2025 | [FilesToCode](/docs/Categories/FilesToCode) |
 |230| [Unflat by pstlnce ](/docs/Unflat)|2025-08-18 => 18 August 2025 | [Database](/docs/Categories/Database) |
 |229| [Facet by Tim Maes ](/docs/Facet)|2025-08-17 => 17 August 2025 | [Mapper](/docs/Categories/Mapper) |
-|228| [mvvmgen by Thomas Claudius Huber ](/docs/mvvmgen)|2025-08-16 => 16 August 2025 | [Serializer](/docs/Categories/Serializer) |
+|228| [mvvmgen by Thomas Claudius Huber ](/docs/mvvmgen)|2025-08-16 => 16 August 2025 | [MVVM](/docs/Categories/MVVM) |
 |227| [UtilityVerse.Copy by pritom purkayasta ](/docs/UtilityVerse.Copy)|2025-08-15 => 15 August 2025 | [Clone](/docs/Categories/Clone) |
 |226| [requiredenum by Yaroslav ](/docs/requiredenum)|2025-08-14 => 14 August 2025 | [Enum](/docs/Categories/Enum) |
 |225| [Schema by Melty Player ](/docs/Schema)|2025-08-13 => 13 August 2025 | [Serializer](/docs/Categories/Serializer) |

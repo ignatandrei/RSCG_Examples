@@ -1181,7 +1181,7 @@ import DocCardList from '@theme/DocCardList';
 ## MVVM 
 <details>
     
-  <summary>Expand MVVM =>examples:2</summary>
+  <summary>Expand MVVM =>examples:3</summary>
         
 
 
@@ -1191,6 +1191,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+
+        
+
+
+[mvvmgen](/docs/mvvmgen)
 
 </details>
     
@@ -1254,7 +1259,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:10</summary>
+  <summary>Expand Serializer =>examples:9</summary>
         
 
 
@@ -1294,11 +1299,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Schema](/docs/Schema)
-
-        
-
-
-[mvvmgen](/docs/mvvmgen)
 
         
 
@@ -1848,6 +1848,8 @@ flowchart LR;
 
     MVVM--> PropertyChangedSourceGenerator((PropertyChangedSourceGenerator))
 
+    MVVM--> mvvmgen((mvvmgen))
+
     Optimizer--> StringLiteral((StringLiteral))
 
     PrimitiveObsession--> Vogen((Vogen))
@@ -1877,8 +1879,6 @@ flowchart LR;
     Serializer--> Nino((Nino))
 
     Serializer--> Schema((Schema))
-
-    Serializer--> mvvmgen((mvvmgen))
 
     Serializer--> VYaml((VYaml))
 

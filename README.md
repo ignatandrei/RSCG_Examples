@@ -158,7 +158,7 @@ Source: [https://github.com/Tim-Maes/Facet/](https://github.com/Tim-Maes/Facet/)
 
 </details>
 
-### 228. [mvvmgen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mvvmgen) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+### 228. [mvvmgen](https://ignatandrei.github.io/RSCG_Examples/v2/docs/mvvmgen) , in the [MVVM](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm) category 
 
 Generated on : 2025-08-16 => 16 August 2025
 

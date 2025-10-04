@@ -1823,7 +1823,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/mvvmgen",
       "NuGet": "https://www.nuget.org/packages/mvvmgen/",
       "Source": "https://github.com/thomasclaudiushuber/mvvmgen",
-      "Category": "Serializer",
+      "Category": "MVVM",
       "AddedOn": "2025-08-16T00:00:00"
     },
     {
