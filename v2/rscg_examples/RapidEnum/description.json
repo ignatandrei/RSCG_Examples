@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RapidEnum",
+      "nuget":[
+         "https://www.nuget.org/packages/RapidEnum/"
+      ],
+      "link":"https://github.com/hanachiru/RapidEnum",
+      "author":"hanachiru",
+      "source":"https://github.com/hanachiru/RapidEnum"
+   },
+   "data":{
+      "goodFor":["Generate enum values without reflection"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,6 +1,6 @@
 <h1>Enum</h1>
 
-Number RSCG: 11
+Number RSCG: 12
 
    1 [CredFetoEnum](/docs/CredFetoEnum)
 
@@ -22,5 +22,7 @@ Number RSCG: 11
 
    10 [PMart.Enumeration](/docs/PMart.Enumeration)
 
-   11 [requiredenum](/docs/requiredenum)
+   11 [RapidEnum](/docs/RapidEnum)
+
+   12 [requiredenum](/docs/requiredenum)
     

@@ -1,0 +1,39 @@
+{
+    "scriptName": "RapidEnum",
+    "steps":
+[
+    {"typeStep":"exec","arg":"clipchamp.exe launch"},
+    {"typeStep":"text","arg": "Welcome to Roslyn Examples"},
+    {"typeStep":"text","arg":"If you want to see more examples , see  List Of RSCG"},
+    {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
+    {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
+
+{"typeStep":"text","arg": "Today I will present RapidEnum . Generate enum values without reflection ."},
+{"typeStep":"browser","arg":"https://www.nuget.org/packages/RapidEnum/"},
+{"typeStep":"text","arg": "The whole example is here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RapidEnum"},
+{"typeStep":"text","arg": "You can download the code from here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RapidEnum#download-example-net--c-"},
+{"typeStep":"text","arg":"Here is the code downloaded "},
+{"typeStep":"exec","arg":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RapidEnum\\src\\EnumDemo.sln"},
+{"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
+{"typeStep":"stepvscode","arg": "-n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RapidEnum\\src"},
+
+{"typeStep":"text","arg": "To use it ,you will put the Nuget RapidEnum into the csproj "},
+
+{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\RapidEnum\\src\\EnumDemo\\EnumDemo.csproj"},
+
+{"typeStep":"text","arg": "And now I will show you an example of using RapidEnum"},
+
+{"typeStep":"hide","arg": "now execute the tour in VSCode"},
+{"typeStep":"tour", "arg": "src/.tours/"},
+{"typeStep":"text","arg":" And I will execute the project"}, 
+{"typeStep":"showproj", "arg":"EnumDemo.csproj"},
+{"typeStep":"text","arg":" This concludes the project"},
+{"typeStep":"waitseconds","arg":"30"},
+{"typeStep":"text","arg": "Remember, you can download the code from here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/RapidEnum#download-example-net--c-",
+SpeakTest=" "},
+{"typeStep":"waitseconds","arg":"30"},
+]
+}

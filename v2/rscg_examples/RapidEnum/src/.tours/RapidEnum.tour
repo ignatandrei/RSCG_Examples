@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RapidEnum",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [RapidEnum](https://www.nuget.org/packages/RapidEnum/) in csproj  ",
+      "pattern": "RapidEnum"
+    }
+
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/RapidEnum.Generators/RapidEnum.RapidEnumGenerator/RapidEnumAttributes.g.cs",
+        "description": "Generated File 2  from 2 : RapidEnumAttributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/RapidEnum.Generators/RapidEnum.RapidEnumGenerator/CarTypesEnumExtensions.g.cs",
+        "description": "Generated File 1  from 2 : CarTypesEnumExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
