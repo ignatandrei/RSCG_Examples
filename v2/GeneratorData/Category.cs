@@ -42,5 +42,6 @@ public enum Category
     AI=37,
     RX=38,
     Mixin=39,
+    Validator=40,
 }
 

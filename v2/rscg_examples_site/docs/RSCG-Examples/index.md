@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 235 RSCG list by category
-description: 235 RSCG list by category
+title: 236 RSCG list by category
+description: 236 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1436,6 +1436,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Validator 
+<details>
+    
+  <summary>Expand Validator =>examples:1</summary>
+        
+
+
+[validly](/docs/validly)
+
+</details>
+    
+
 ## WinAPI 
 <details>
     
@@ -1926,6 +1938,8 @@ flowchart LR;
     Tests--> MSTest((MSTest))
 
     Tests--> MockMe((MockMe))
+
+    Validator--> validly((validly))
 
     WinAPI--> Com((Com))
 

@@ -1,6 +1,6 @@
 # Just later
 
-## Latest Update : 2025-10-05 => 05 October 2025
+## Latest Update : 2025-10-06 => 06 October 2025
 
 
 
@@ -62,85 +62,73 @@ Why I have not tested : later
 
 
 
-10) [https://github.com/Hookyns/validly]( https://github.com/Hookyns/validly) , https://github.com/Hookyns/validly 
+10) [https://github.com/pierre3/PlantUmlClassDiagramGenerator]( https://github.com/pierre3/PlantUmlClassDiagramGenerator) , https://github.com/pierre3/PlantUmlClassDiagramGenerator 
 
 Why I have not tested : later
 
 
 
-11) [https://github.com/nuskey8/Csv-CSharp]( https://github.com/nuskey8/Csv-CSharp) , https://github.com/nuskey8/Csv-CSharp 
+11) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
 
 Why I have not tested : later
 
 
 
-12) [https://github.com/pierre3/PlantUmlClassDiagramGenerator]( https://github.com/pierre3/PlantUmlClassDiagramGenerator) , https://github.com/pierre3/PlantUmlClassDiagramGenerator 
+12) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
 
 Why I have not tested : later
 
 
 
-13) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
+13) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
 
 Why I have not tested : later
 
 
 
-14) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
+14) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
 
 Why I have not tested : later
 
 
 
-15) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
+15) [Minerals.AutoCQRS]( https://github.com/SzymonHalucha/Minerals.AutoCQRS) , https://github.com/SzymonHalucha/Minerals.AutoCQRS 
 
 Why I have not tested : later
 
 
 
-16) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
+16) [Minerals.AutoDomain]( https://github.com/SzymonHalucha/Minerals.AutoDomain) , https://github.com/SzymonHalucha/Minerals.AutoDomain 
 
 Why I have not tested : later
 
 
 
-17) [Minerals.AutoCQRS]( https://github.com/SzymonHalucha/Minerals.AutoCQRS) , https://github.com/SzymonHalucha/Minerals.AutoCQRS 
+17) [observable]( https://github.com/notanaverageman/Bindables) , https://github.com/notanaverageman/Bindables 
 
 Why I have not tested : later
 
 
 
-18) [Minerals.AutoDomain]( https://github.com/SzymonHalucha/Minerals.AutoDomain) , https://github.com/SzymonHalucha/Minerals.AutoDomain 
+18) [RazorGen]( https://github.com/dartk/RazorGen) , https://github.com/dartk/RazorGen 
 
 Why I have not tested : later
 
 
 
-19) [observable]( https://github.com/notanaverageman/Bindables) , https://github.com/notanaverageman/Bindables 
+19) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
 
 Why I have not tested : later
 
 
 
-20) [RazorGen]( https://github.com/dartk/RazorGen) , https://github.com/dartk/RazorGen 
+20) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested : later
 
 
 
-21) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
-
-Why I have not tested : later
-
-
-
-22) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
-
-Why I have not tested : later
-
-
-
-23) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
+21) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : later
 

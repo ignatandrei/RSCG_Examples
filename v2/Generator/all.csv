@@ -234,3 +234,4 @@ Nr,Key,Source,Category
 233,Vyaml, https://github.com/hadashiA/VYaml,Serializer
 234,RapidEnum, https://github.com/hanachiru/RapidEnum,Enum
 235,CsvCsharp, https://github.com/nuskey8/Csv-CSharp,Serializer
+236,Validly, https://github.com/Hookyns/validly,Validator

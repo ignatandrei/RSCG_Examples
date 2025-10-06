@@ -1881,6 +1881,14 @@
       "Source": "https://github.com/nuskey8/Csv-CSharp",
       "Category": "Serializer",
       "AddedOn": "2025-10-05T00:00:00"
+    },
+    {
+      "Name": "validly",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Validly",
+      "NuGet": "https://www.nuget.org/packages/validly/",
+      "Source": "https://github.com/Hookyns/validly",
+      "Category": "Validator",
+      "AddedOn": "2025-10-06T00:00:00"
     }
   ]
 }

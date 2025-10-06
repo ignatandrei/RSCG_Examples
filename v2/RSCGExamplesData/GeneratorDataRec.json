@@ -1421,5 +1421,12 @@
   "Category":16,
   "dtStart": "2025-10-05T00:00:00",
   "show": true
+},
+
+{
+  "ID":"Validly",
+  "Category":40,
+  "dtStart": "2025-10-06T00:00:00",
+  "show": true
 }
 ]

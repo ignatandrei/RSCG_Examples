@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "validly",
+  "steps": 
+  [
+    {
+      "file": "Valid/Valid.csproj",
+      "description": "First, we add Nuget  [validly](https://www.nuget.org/packages/validly/) in csproj  ",
+      "pattern": "validly"
+    }
+
+        ,{
+        "file": "Valid/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "Valid/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project Valid/Valid.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "Valid/obj/GX/Validly.SourceGenerator/Validly.SourceGenerator.ValidatableSourceGenerator/Person.Validator.g.cs",
+        "description": "Generated File 1  from 1 : Person.Validator.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
