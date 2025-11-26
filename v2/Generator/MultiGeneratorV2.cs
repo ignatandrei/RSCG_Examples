@@ -138,11 +138,19 @@ public class MultiGeneratorV2
 
             text = text.Replace("(readme/di.gif)", $"({d.Generator!.Source}/readme/di.gif)");
             text = text.Replace("(di.gif)", $"({d.Generator!.Source}/di.gif)");
+            
+            text = text.Replace("(./docs/", $"({d.Generator!.Source}/docs/");
 
             text = text.Replace("(doc/", $"({d.Generator!.Source}/doc/");
             text = text.Replace("(docs/rules/", $"({d.Generator!.Source}/docs/rules/");
             text = text.Replace("(CHANGELOG.md", $"({d.Generator!.Source}/CHANGELOG.md");
             text = text.Replace("(/.github/CONTRIBUTING.md)", $"({d.Generator!.Source}/.github/CONTRIBUTING.md)");
+
+            text = text.Replace("(CONTRIBUTING", $"({d.Generator!.Source}/CONTRIBUTING");
+            text = text.Replace("(SECURITY", $"({d.Generator!.Source}/SECURITY");
+            text = text.Replace("(./CODE-OF-CONDUCT", $"({d.Generator!.Source}/CODE-OF-CONDUCT");
+
+
 
             text = text.Replace("(img/", $"({d.Generator!.Source}/img/");
             text = text.Replace("(RoseLynn.GenericsAnalyzer/)", $"({d.Generator!.Source}/RoseLynn.GenericsAnalyzer/)");

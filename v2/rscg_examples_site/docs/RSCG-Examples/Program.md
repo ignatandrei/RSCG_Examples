@@ -73,16 +73,16 @@ See the [Triage Process](https://github.com/dotnet/aspnetcore/blob/main/docs/Tri
 Some of the best ways to contribute are to try things out, file issues, join in design conversations,
 and make pull-requests.
 
-* [Download our latest daily builds](./docs/DailyBuilds.md)
+* [Download our latest daily builds](https://github.com/dotnet/aspnetcore//docs/DailyBuilds.md)
 * Follow along with the development of ASP.NET Core:
     * [Community Standup](https://live.asp.net): The community standup is held every week and streamed live on YouTube. You can view past standups in the linked playlist.
     * [Roadmap](https://aka.ms/aspnet/roadmap): The schedule and milestone themes for ASP.NET Core.
-* [Build ASP.NET Core source code](./docs/BuildFromSource.md)
-* Check out the [contributing](CONTRIBUTING.md) page to see the best places to log issues and start discussions.
+* [Build ASP.NET Core source code](https://github.com/dotnet/aspnetcore//docs/BuildFromSource.md)
+* Check out the [contributing](https://github.com/dotnet/aspnetcore//CONTRIBUTING.md) page to see the best places to log issues and start discussions.
 
 ## Reporting security issues and bugs
 
-Security issues and bugs should be reported privately to the Microsoft Security Response Center (MSRC) via the [MSRC Researcher Portal](https://msrc.microsoft.com/report/vulnerability/new). You should receive a response within 24 hours. Further information can be found in the [MSRC Report an Issue FAQ](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's [Security doc](SECURITY.md).
+Security issues and bugs should be reported privately to the Microsoft Security Response Center (MSRC) via the [MSRC Researcher Portal](https://msrc.microsoft.com/report/vulnerability/new). You should receive a response within 24 hours. Further information can be found in the [MSRC Report an Issue FAQ](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's [Security doc](https://github.com/dotnet/aspnetcore//SECURITY.md).
 
 Also see info about related [Microsoft .NET Bounty Program](https://www.microsoft.com/msrc/bounty-dot-net-core).
 
@@ -97,7 +97,7 @@ These are some other repos for related projects:
 
 ## Code of conduct
 
-See [CODE-OF-CONDUCT](./CODE-OF-CONDUCT.md)
+See [CODE-OF-CONDUCT](https://github.com/dotnet/aspnetcore//CODE-OF-CONDUCT.md)
 
 ## Nightly builds
 
