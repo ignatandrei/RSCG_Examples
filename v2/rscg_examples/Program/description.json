@@ -2,7 +2,7 @@
    "generator":{
       "name":"Program",
       "nuget":[
-         "https://www.nuget.org/packages/Program/"
+         "https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi"
       ],
       "link":"https://github.com/dotnet/aspnetcore/blob/70d851104f739fb906aabcd6a07c0935ce2549c9/src/Framework/AspNetCoreAnalyzers/src/SourceGenerators/PublicTopLevelProgramGenerator.cs#L11",
       "author":"Microsoft",

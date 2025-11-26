@@ -1,8 +1,6 @@
 <h1>Console</h1>
 
-Number RSCG: 2
+Number RSCG: 1
 
-   1 [ConsoleAppFramework](/docs/ConsoleAppFramework)
-
-   2 [Figgle](/docs/Figgle)
+   1 [Figgle](/docs/Figgle)
     

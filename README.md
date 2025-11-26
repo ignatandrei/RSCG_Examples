@@ -1,10 +1,10 @@
-# RSCG - 236 Examples of Roslyn Source Code Generators  / 14 created by Microsoft / 
+# RSCG - 237 Examples of Roslyn Source Code Generators  / 15 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 236 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 237 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-10-06 => 06 October 2025
+## Latest Update : 2025-11-06 => 06 November 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,32 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 236 Roslyn Source Code Generators that I have tested you can see and download source code example.
-( including 14 from Microsoft )
+Those are the 237 Roslyn Source Code Generators that I have tested you can see and download source code example.
+( including 15 from Microsoft )
+### 237. [Program](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Program) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2025-11-06 => 06 November 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Microsoft
+
+Provides APIs for annotating route handler endpoints in ASP.NET Core with OpenAPI annotations.
+
+This package was built from the source code at https://github.com/dotnet/aspnetcore/tree/e77cb01b5529c137130757859f09f892dbdd2436 
+
+Nuget: [https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi](https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Program](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Program)
+
+Source: [https://github.com/dotnet/aspnetcore/](https://github.com/dotnet/aspnetcore/)
+
+</details>
+
 ### 236. [validly](https://ignatandrei.github.io/RSCG_Examples/v2/docs/validly) , in the [Validator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#validator) category 
 
 Generated on : 2025-10-06 => 06 October 2025
@@ -114,7 +138,7 @@ Source: [https://github.com/hadashiA/VYaml](https://github.com/hadashiA/VYaml)
 
 </details>
 
-### 232. [ConsoleAppFramework](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework) , in the [Console](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#console) category 
+### 232. [ConsoleAppFramework](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework) , in the [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline) category 
 
 Generated on : 2025-10-02 => 02 October 2025
 
@@ -2921,7 +2945,7 @@ Source: [https://github.com/bluehands/Funicular-Switch](https://github.com/blueh
 
 </details>
 
-### 108. [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
+### 108. [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine) , in the [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline) category 
 
 Generated on : 2024-02-11 => 11 February 2024
 

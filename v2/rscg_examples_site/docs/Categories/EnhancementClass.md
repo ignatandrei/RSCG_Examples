@@ -1,6 +1,6 @@
 <h1>EnhancementClass</h1>
 
-Number RSCG: 27
+Number RSCG: 28
 
    1 [ApparatusAOT](/docs/ApparatusAOT)
 
@@ -38,21 +38,23 @@ Number RSCG: 27
 
    18 [OptionToStringGenerator](/docs/OptionToStringGenerator)
 
-   19 [QueryStringGenerator](/docs/QueryStringGenerator)
+   19 [Program](/docs/Program)
 
-   20 [RSCG_Decorator](/docs/RSCG_Decorator)
+   20 [QueryStringGenerator](/docs/QueryStringGenerator)
 
-   21 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
+   21 [RSCG_Decorator](/docs/RSCG_Decorator)
 
-   22 [StaticReflection](/docs/StaticReflection)
+   22 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes)
 
-   23 [SyncMethodGenerator](/docs/SyncMethodGenerator)
+   23 [StaticReflection](/docs/StaticReflection)
 
-   24 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
+   24 [SyncMethodGenerator](/docs/SyncMethodGenerator)
 
-   25 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
+   25 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices)
 
-   26 [TelemetryLogging](/docs/TelemetryLogging)
+   26 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions)
 
-   27 [ThisClass](/docs/ThisClass)
+   27 [TelemetryLogging](/docs/TelemetryLogging)
+
+   28 [ThisClass](/docs/ThisClass)
     
