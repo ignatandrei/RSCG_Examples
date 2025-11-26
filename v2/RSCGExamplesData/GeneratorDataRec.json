@@ -643,7 +643,7 @@
   },
   {
     "ID": "CommandLine",
-    "Category": 1,
+    "Category": 32,
     "dtStart": "2024-02-11T00:00:00",
     "show": true
   },
@@ -1398,7 +1398,7 @@
 },
 {
   "ID":"ConsoleAppFramework",
-  "Category":34,
+  "Category":32,
   "dtStart": "2025-10-02T00:00:00",
   "show": true
 },
