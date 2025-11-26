@@ -1,0 +1,11 @@
+@TestProgram_HostAddress = http://localhost:5219
+
+GET {{TestProgram_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{TestProgram_HostAddress}}/todos/1
+Accept: application/json
+
+###

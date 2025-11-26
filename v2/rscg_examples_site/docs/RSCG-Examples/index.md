@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 236 RSCG list by category
-description: 236 RSCG list by category
+title: 237 RSCG list by category
+description: 237 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -253,11 +253,21 @@ import DocCardList from '@theme/DocCardList';
 ## CommandLine 
 <details>
     
-  <summary>Expand CommandLine =>examples:1</summary>
+  <summary>Expand CommandLine =>examples:3</summary>
+        
+
+
+[CommandLine](/docs/CommandLine)
+
         
 
 
 [ArgumentParsing](/docs/ArgumentParsing)
+
+        
+
+
+[ConsoleAppFramework](/docs/ConsoleAppFramework)
 
 </details>
     
@@ -265,16 +275,11 @@ import DocCardList from '@theme/DocCardList';
 ## Console 
 <details>
     
-  <summary>Expand Console =>examples:2</summary>
+  <summary>Expand Console =>examples:1</summary>
         
 
 
 [Figgle](/docs/Figgle)
-
-        
-
-
-[ConsoleAppFramework](/docs/ConsoleAppFramework)
 
 </details>
     
@@ -455,7 +460,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:27</summary>
+  <summary>Expand EnhancementClass =>examples:28</summary>
         
 
 
@@ -591,13 +596,18 @@ import DocCardList from '@theme/DocCardList';
 
 [Comparison](/docs/Comparison)
 
+        
+
+
+[Program](/docs/Program)
+
 </details>
     
 
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:20</summary>
+  <summary>Expand EnhancementProject =>examples:19</summary>
         
 
 
@@ -622,11 +632,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [BuildInfo](/docs/BuildInfo)
-
-        
-
-
-[CommandLine](/docs/CommandLine)
 
         
 
@@ -1543,11 +1548,13 @@ flowchart LR;
 
     CodeToString--> RossLean.StringificationGenerator((RossLean.StringificationGenerator))
 
+    CommandLine--> CommandLine((CommandLine))
+
     CommandLine--> ArgumentParsing((ArgumentParsing))
 
-    Console--> Figgle((Figgle))
+    CommandLine--> ConsoleAppFramework((ConsoleAppFramework))
 
-    Console--> ConsoleAppFramework((ConsoleAppFramework))
+    Console--> Figgle((Figgle))
 
     Constructor--> AutoDeconstruct((AutoDeconstruct))
 
@@ -1661,6 +1668,8 @@ flowchart LR;
 
     EnhancementClass--> Comparison((Comparison))
 
+    EnhancementClass--> Program((Program))
+
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
     EnhancementProject--> RSCG_TimeBombComment((RSCG_TimeBombComment))
@@ -1670,8 +1679,6 @@ flowchart LR;
     EnhancementProject--> RSCG_FunctionsWithDI((RSCG_FunctionsWithDI))
 
     EnhancementProject--> BuildInfo((BuildInfo))
-
-    EnhancementProject--> CommandLine((CommandLine))
 
     EnhancementProject--> PlantUmlClassDiagramGenerator((PlantUmlClassDiagramGenerator))
 

@@ -863,7 +863,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/CommandLine",
       "NuGet": "https://www.nuget.org/packages/DotMake.CommandLine/",
       "Source": "https://github.com/dotmake-build/command-line",
-      "Category": "EnhancementProject",
+      "Category": "CommandLine",
       "AddedOn": "2024-02-11T00:00:00"
     },
     {
@@ -1855,7 +1855,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ConsoleAppFramework",
       "NuGet": "https://www.nuget.org/packages/ConsoleAppFramework/",
       "Source": "https://github.com/Cysharp/ConsoleAppFramework",
-      "Category": "Console",
+      "Category": "CommandLine",
       "AddedOn": "2025-10-02T00:00:00"
     },
     {
@@ -1889,6 +1889,14 @@
       "Source": "https://github.com/Hookyns/validly",
       "Category": "Validator",
       "AddedOn": "2025-10-06T00:00:00"
+    },
+    {
+      "Name": "Program",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Program",
+      "NuGet": "https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi",
+      "Source": "https://github.com/dotnet/aspnetcore/",
+      "Category": "EnhancementClass",
+      "AddedOn": "2025-11-06T00:00:00"
     }
   ]
 }

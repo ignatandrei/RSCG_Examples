@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 236 RSCG with examples in descending chronological order
+## 237 RSCG with examples in descending chronological order
 
-This is the list of 236 ( 14 from Microsoft) RSCG with examples 
+This is the list of 237 ( 15 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,11 +20,12 @@ This is the list of 236 ( 14 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|237| [Program by Microsoft ](/docs/Program)|2025-11-06 => 06 November 2025 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |236| [validly by Roman Jambor ](/docs/validly)|2025-10-06 => 06 October 2025 | [Validator](/docs/Categories/Validator) |
 |235| [Csvcsharp by Yusuke Nakada ](/docs/Csvcsharp)|2025-10-05 => 05 October 2025 | [Serializer](/docs/Categories/Serializer) |
 |234| [RapidEnum by hanachiru ](/docs/RapidEnum)|2025-10-04 => 04 October 2025 | [Enum](/docs/Categories/Enum) |
 |233| [VYaml by Hadashi A ](/docs/VYaml)|2025-10-03 => 03 October 2025 | [Serializer](/docs/Categories/Serializer) |
-|232| [ConsoleAppFramework by Cysharp, Inc. ](/docs/ConsoleAppFramework)|2025-10-02 => 02 October 2025 | [Console](/docs/Categories/Console) |
+|232| [ConsoleAppFramework by Cysharp, Inc. ](/docs/ConsoleAppFramework)|2025-10-02 => 02 October 2025 | [CommandLine](/docs/Categories/CommandLine) |
 |231| [kli.Localize by Tobias Klimm ](/docs/kli.Localize)|2025-10-01 => 01 October 2025 | [FilesToCode](/docs/Categories/FilesToCode) |
 |230| [Unflat by pstlnce ](/docs/Unflat)|2025-08-18 => 18 August 2025 | [Database](/docs/Categories/Database) |
 |229| [Facet by Tim Maes ](/docs/Facet)|2025-08-17 => 17 August 2025 | [Mapper](/docs/Categories/Mapper) |
@@ -148,7 +149,7 @@ This is the list of 236 ( 14 from Microsoft) RSCG with examples
 |111| [cachesourcegenerator by Jeppe Roi Kristensen ](/docs/cachesourcegenerator)|2024-02-14 => 14 February 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |110| [jab by Pavel Krymets ](/docs/jab)|2024-02-13 => 13 February 2024 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |109| [FunicularSwitch by bluehands ](/docs/FunicularSwitch)|2024-02-12 => 12 February 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
-|108| [CommandLine by DotMake ](/docs/CommandLine)|2024-02-11 => 11 February 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|108| [CommandLine by DotMake ](/docs/CommandLine)|2024-02-11 => 11 February 2024 | [CommandLine](/docs/Categories/CommandLine) |
 |107| [NetAutomaticInterface by codecentric AG ](/docs/NetAutomaticInterface)|2024-01-29 => 29 January 2024 | [Interface](/docs/Categories/Interface) |
 |106| [WhatIAmDoing by Ignat Andrei ](/docs/WhatIAmDoing)|2024-01-28 => 28 January 2024 | [AOP](/docs/Categories/AOP) |
 |105| [Weave by John Gietzen ](/docs/Weave)|2024-01-27 => 27 January 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
@@ -257,7 +258,7 @@ This is the list of 236 ( 14 from Microsoft) RSCG with examples
 |2| [RSCG_TimeBombComment by Andrei Ignat ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |1| [ThisAssembly by Daniel Cazzulino ](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 
-## 14 Created by Microsoft 
+## 15 Created by Microsoft 
 
 If you are interested in Microsoft RSCG, please see
 
@@ -277,6 +278,7 @@ If you are interested in Microsoft RSCG, please see
 |90| [TelemetryLogging  by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | EnhancementClass |
 |130| [MSTest  by Microsoft ](/docs/MSTest)|2024-04-04 => 04 April 2024 | Tests |
 |173| [Microsoft.Windows.CsWin32  by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |
+|237| [Program  by Microsoft ](/docs/Program)|2025-11-06 => 06 November 2025 | EnhancementClass |
 
 If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 
