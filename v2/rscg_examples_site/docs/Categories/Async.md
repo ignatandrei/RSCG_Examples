@@ -2,7 +2,7 @@
 
 Number RSCG: 2
 
-   1 [AsyncIt](/docs/AsyncIt)
-
-   2 [HsuSgSync](/docs/HsuSgSync)
+        1 [AsyncIt](/docs/AsyncIt) [![Nuget](https://img.shields.io/nuget/dt/AsyncIt?label=AsyncIt)](https://www.nuget.org/packages/AsyncIt/) ![GitHub Repo stars](https://img.shields.io/github/stars/oleg-shilo/AsyncIt?style=social) 2025-07-26
     
+        2 [HsuSgSync](/docs/HsuSgSync) [![Nuget](https://img.shields.io/nuget/dt/Hsu.Sg.Sync?label=Hsu.Sg.Sync)](https://www.nuget.org/packages/Hsu.Sg.Sync/) ![GitHub Repo stars](https://img.shields.io/github/stars/hsu-net/source-generators?style=social) 2024-01-10
+        

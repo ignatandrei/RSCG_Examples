@@ -1,4 +1,4 @@
-@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>;
+@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>
 <h1>@Model.Key</h1>
 
 Number RSCG: @Model.Value.Count()
@@ -9,8 +9,8 @@ Number RSCG: @Model.Value.Count()
 @foreach (var rscgV in values)
 {
     string data = $"[{rscgV.Generator?.Name}](/docs/{rscgV.Generator?.Name})";
-<text>
-   @(i++) @data
-</text>
+    <text>
+        @(i++) @data @rscgV.Generator?.MarkDownNugetDownloads @(rscgV.Generator?.MarkDownStars) @(rscgV.generatedDate.ToString("yyyy-MM-dd"))
+    </text>
 }
     

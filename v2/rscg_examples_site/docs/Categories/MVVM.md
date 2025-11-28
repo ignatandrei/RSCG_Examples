@@ -2,9 +2,9 @@
 
 Number RSCG: 3
 
-   1 [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm)
-
-   2 [mvvmgen](/docs/mvvmgen)
-
-   3 [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator)
+        1 [CommunityToolkit.Mvvm](/docs/CommunityToolkit.Mvvm) [![Nuget](https://img.shields.io/nuget/dt/CommunityToolkit.Mvvm?label=CommunityToolkit.Mvvm)](https://www.nuget.org/packages/CommunityToolkit.Mvvm) ![GitHub Repo stars](https://img.shields.io/github/stars/CommunityToolkit/dotnet?style=social) 2023-04-16
     
+        2 [mvvmgen](/docs/mvvmgen) [![Nuget](https://img.shields.io/nuget/dt/mvvmgen?label=mvvmgen)](https://www.nuget.org/packages/mvvmgen/) ![GitHub Repo stars](https://img.shields.io/github/stars/thomasclaudiushuber/mvvmgen?style=social) 2025-08-16
+    
+        3 [PropertyChangedSourceGenerator](/docs/PropertyChangedSourceGenerator) [![Nuget](https://img.shields.io/nuget/dt/PropertyChanged.SourceGenerator?label=PropertyChanged.SourceGenerator)](https://www.nuget.org/packages/PropertyChanged.SourceGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/canton7/PropertyChanged.SourceGenerator?style=social) 2023-08-18
+        

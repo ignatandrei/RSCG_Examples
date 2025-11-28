@@ -2,23 +2,23 @@
 
 Number RSCG: 10
 
-   1 [AutoRegisterInject](/docs/AutoRegisterInject)
-
-   2 [BunnyTailServiceRegistration](/docs/BunnyTailServiceRegistration)
-
-   3 [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator)
-
-   4 [depso](/docs/depso)
-
-   5 [FactoryGenerator](/docs/FactoryGenerator)
-
-   6 [FactoryGenerator.Abstractions](/docs/FactoryGenerator.Abstractions)
-
-   7 [Injectio](/docs/Injectio)
-
-   8 [jab](/docs/jab)
-
-   9 [Pure.DI](/docs/Pure.DI)
-
-   10 [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator)
+        1 [AutoRegisterInject](/docs/AutoRegisterInject) [![Nuget](https://img.shields.io/nuget/dt/AutoRegisterInject?label=AutoRegisterInject)](https://www.nuget.org/packages/AutoRegisterInject/) ![GitHub Repo stars](https://img.shields.io/github/stars/patrickklaeren/AutoRegisterInject?style=social) 2023-08-07
     
+        2 [BunnyTailServiceRegistration](/docs/BunnyTailServiceRegistration) [![Nuget](https://img.shields.io/nuget/dt/BunnyTail.ServiceRegistration?label=BunnyTail.ServiceRegistration)](https://www.nuget.org/packages/BunnyTail.ServiceRegistration/) ![GitHub Repo stars](https://img.shields.io/github/stars/usausa/service-registration-generator?style=social) 2025-07-02
+    
+        3 [DependencyModules.SourceGenerator](/docs/DependencyModules.SourceGenerator) [![Nuget](https://img.shields.io/nuget/dt/DependencyModules.SourceGenerator?label=DependencyModules.SourceGenerator)](https://www.nuget.org/packages/DependencyModules.SourceGenerator/)[![Nuget](https://img.shields.io/nuget/dt/DependencyModules.Runtime?label=DependencyModules.Runtime)](https://www.nuget.org/packages/DependencyModules.Runtime/) ![GitHub Repo stars](https://img.shields.io/github/stars/ipjohnson/DependencyModules?style=social) 2025-02-16
+    
+        4 [depso](/docs/depso) [![Nuget](https://img.shields.io/nuget/dt/depso?label=depso)](https://www.nuget.org/packages/depso/) ![GitHub Repo stars](https://img.shields.io/github/stars/notanaverageman/Depso?style=social) 2024-06-28
+    
+        5 [FactoryGenerator](/docs/FactoryGenerator) [![Nuget](https://img.shields.io/nuget/dt/FactoryGenerator?label=FactoryGenerator)](https://www.nuget.org/packages/FactoryGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/westermo/FactoryGenerator?style=social) 2024-06-27
+    
+        6 [FactoryGenerator.Abstractions](/docs/FactoryGenerator.Abstractions) [![Nuget](https://img.shields.io/nuget/dt/FactoryGenerator.Abstractions?label=FactoryGenerator.Abstractions)](https://www.nuget.org/packages/FactoryGenerator.Abstractions/)[![Nuget](https://img.shields.io/nuget/dt/FactoryGenerator.Microsoft.Extensions.DependencyInjection?label=FactoryGenerator.Microsoft.Extensions.DependencyInjection)](https://www.nuget.org/packages/FactoryGenerator.Microsoft.Extensions.DependencyInjection/) ![GitHub Repo stars](https://img.shields.io/github/stars/ivmazurenko/factory-generator?style=social) 2025-08-12
+    
+        7 [Injectio](/docs/Injectio) [![Nuget](https://img.shields.io/nuget/dt/Injectio?label=Injectio)](https://www.nuget.org/packages/Injectio/) ![GitHub Repo stars](https://img.shields.io/github/stars/loresoft/Injectio?style=social) 2023-08-17
+    
+        8 [jab](/docs/jab) [![Nuget](https://img.shields.io/nuget/dt/jab?label=jab)](https://www.nuget.org/packages/jab/) ![GitHub Repo stars](https://img.shields.io/github/stars/pakrym/jab?style=social) 2024-02-13
+    
+        9 [Pure.DI](/docs/Pure.DI) [![Nuget](https://img.shields.io/nuget/dt/Pure.DI?label=Pure.DI)](https://www.nuget.org/packages/Pure.DI/) ![GitHub Repo stars](https://img.shields.io/github/stars/DevTeam/Pure.DI?style=social) 2024-12-08
+    
+        10 [ServiceScan.SourceGenerator](/docs/ServiceScan.SourceGenerator) [![Nuget](https://img.shields.io/nuget/dt/ServiceScan.SourceGenerator?label=ServiceScan.SourceGenerator)](https://www.nuget.org/packages/ServiceScan.SourceGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Dreamescaper/ServiceScan.SourceGenerator?style=social) 2024-07-22
+        

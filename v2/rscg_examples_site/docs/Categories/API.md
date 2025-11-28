@@ -2,23 +2,23 @@
 
 Number RSCG: 10
 
-   1 [immediate.apis](/docs/immediate.apis)
-
-   2 [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder)
-
-   3 [MinimalApiBuilder](/docs/MinimalApiBuilder)
-
-   4 [MinimalApis.Discovery](/docs/MinimalApis.Discovery)
-
-   5 [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers)
-
-   6 [RDG](/docs/RDG)
-
-   7 [Refit](/docs/Refit)
-
-   8 [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports)
-
-   9 [SafeRouting](/docs/SafeRouting)
-
-   10 [SkinnyControllersCommon](/docs/SkinnyControllersCommon)
+        1 [immediate.apis](/docs/immediate.apis) [![Nuget](https://img.shields.io/nuget/dt/immediate.apis?label=immediate.apis)](https://www.nuget.org/packages/immediate.apis/) ![GitHub Repo stars](https://img.shields.io/github/stars/immediateplatform/immediate.apis?style=social) 2025-03-27
     
+        2 [Microsoft.Extensions.Configuration.Binder](/docs/Microsoft.Extensions.Configuration.Binder) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Configuration.Binder?label=Microsoft.Extensions.Configuration.Binder)](https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Binder/) ![GitHub Repo stars](https://img.shields.io/learn.microsoft/stars/en-us/dotnet?style=social) 2023-11-18
+    
+        3 [MinimalApiBuilder](/docs/MinimalApiBuilder) [![Nuget](https://img.shields.io/nuget/dt/MinimalApiBuilder?label=MinimalApiBuilder)](https://www.nuget.org/packages/MinimalApiBuilder/) ![GitHub Repo stars](https://img.shields.io/github/stars/JensDll/MinimalApiBuilder?style=social) 2023-10-26
+    
+        4 [MinimalApis.Discovery](/docs/MinimalApis.Discovery) [![Nuget](https://img.shields.io/nuget/dt/MinimalApis.Discovery?label=MinimalApis.Discovery)](https://www.nuget.org/packages/MinimalApis.Discovery/) ![GitHub Repo stars](https://img.shields.io/github/stars/shawnwildermuth/MinimalApis?style=social) 2024-04-16
+    
+        5 [MinimalHelpers.Routing.Analyzers](/docs/MinimalHelpers.Routing.Analyzers) [![Nuget](https://img.shields.io/nuget/dt/MinimalHelpers.Routing.Analyzers?label=MinimalHelpers.Routing.Analyzers)](https://www.nuget.org/packages/MinimalHelpers.Routing.Analyzers/) ![GitHub Repo stars](https://img.shields.io/github/stars/marcominerva/MinimalHelpers?style=social) 2024-10-21
+    
+        6 [RDG](/docs/RDG) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Http?label=Microsoft.Extensions.Http)](https://www.nuget.org/packages/Microsoft.Extensions.Http) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/aspnetcore?style=social) 2023-11-19
+    
+        7 [Refit](/docs/Refit) [![Nuget](https://img.shields.io/nuget/dt/Refit?label=Refit)](https://www.nuget.org/packages/Refit/) ![GitHub Repo stars](https://img.shields.io/github/stars/reactiveui/refit?style=social) 2023-07-31
+    
+        8 [RSCG_WebAPIExports](/docs/RSCG_WebAPIExports) [![Nuget](https://img.shields.io/nuget/dt/RSCG_WebAPIExports?label=RSCG_WebAPIExports)](https://www.nuget.org/packages/RSCG_WebAPIExports/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WebAPIExports?style=social) 2023-08-23
+    
+        9 [SafeRouting](/docs/SafeRouting) [![Nuget](https://img.shields.io/nuget/dt/SafeRouting?label=SafeRouting)](https://www.nuget.org/packages/SafeRouting/) ![GitHub Repo stars](https://img.shields.io/github/stars/daviddotcs/safe-routing?style=social) 2023-09-23
+    
+        10 [SkinnyControllersCommon](/docs/SkinnyControllersCommon) [![Nuget](https://img.shields.io/nuget/dt/SkinnyControllersCommon?label=SkinnyControllersCommon)](https://www.nuget.org/packages/SkinnyControllersCommon) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/SkinnyControllersGenerator?style=social) 2023-04-16
+        

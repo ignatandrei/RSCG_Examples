@@ -1,0 +1,66 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TeCLI",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/TeCLI/src/ConsoleDemo/ConsoleDemo.csproj",
+      "description": "First, we add Nuget  [TeCLI](https://www.nuget.org/packages/TeCLI/) in csproj  ",
+      "pattern": "TeCLI"
+    }
+
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/CmdForSum.cs",
+        "description": "File CmdForSum.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/TeCLI/src/ConsoleDemo/ConsoleDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/obj/GX/TeCLI.Extensions.DependencyInjection/TeCLI.Extensions.DependencyInjection.Generators.DependencyInjectionInvokerGenerator/CommandDispatcher.Registrations.cs",
+        "description": "Generated File 6  from 6 : CommandDispatcher.Registrations.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/obj/GX/TeCLI.Extensions.DependencyInjection/TeCLI.Extensions.DependencyInjection.Generators.DependencyInjectionInvokerGenerator/CommandDispatcher.Invoker.cs",
+        "description": "Generated File 5  from 6 : CommandDispatcher.Invoker.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/obj/GX/TeCLI/TeCLI.Generators.CommandLineArgsGenerator/CommandDispatcher.Documentation.cs",
+        "description": "Generated File 4  from 6 : CommandDispatcher.Documentation.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/obj/GX/TeCLI/TeCLI.Generators.CommandLineArgsGenerator/CommandDispatcher.cs",
+        "description": "Generated File 3  from 6 : CommandDispatcher.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/obj/GX/TeCLI/TeCLI.Generators.CommandLineArgsGenerator/CommandDispatcher.Command.CmdForSum.Documentation.cs",
+        "description": "Generated File 2  from 6 : CommandDispatcher.Command.CmdForSum.Documentation.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TeCLI/src/ConsoleDemo/obj/GX/TeCLI/TeCLI.Generators.CommandLineArgsGenerator/CommandDispatcher.Command.CmdForSum.cs",
+        "description": "Generated File 1  from 6 : CommandDispatcher.Command.CmdForSum.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

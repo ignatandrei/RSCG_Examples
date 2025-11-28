@@ -2,27 +2,27 @@
 
 Number RSCG: 12
 
-   1 [CredFetoEnum](/docs/CredFetoEnum)
-
-   2 [EnumClass](/docs/EnumClass)
-
-   3 [EnumsEnhanced](/docs/EnumsEnhanced)
-
-   4 [EnumUtilities](/docs/EnumUtilities)
-
-   5 [Flaggen](/docs/Flaggen)
-
-   6 [FusionReactor](/docs/FusionReactor)
-
-   7 [Genbox.FastEnum](/docs/Genbox.FastEnum)
-
-   8 [jos.enumeration](/docs/jos.enumeration)
-
-   9 [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators)
-
-   10 [PMart.Enumeration](/docs/PMart.Enumeration)
-
-   11 [RapidEnum](/docs/RapidEnum)
-
-   12 [requiredenum](/docs/requiredenum)
+        1 [CredFetoEnum](/docs/CredFetoEnum) [![Nuget](https://img.shields.io/nuget/dt/Credfeto.Enumeration.Source.Generation?label=Credfeto.Enumeration.Source.Generation)](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) ![GitHub Repo stars](https://img.shields.io/github/stars/credfeto/credfeto-enum-source-generation?style=social) 2023-10-12
     
+        2 [EnumClass](/docs/EnumClass) [![Nuget](https://img.shields.io/nuget/dt/EnumClass.Generator?label=EnumClass.Generator)](https://www.nuget.org/packages/EnumClass.Generator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ashenBlade/EnumClass?style=social) 2023-08-08
+    
+        3 [EnumsEnhanced](/docs/EnumsEnhanced) [![Nuget](https://img.shields.io/nuget/dt/EnumsEnhanced?label=EnumsEnhanced)](https://www.nuget.org/packages/EnumsEnhanced/) ![GitHub Repo stars](https://img.shields.io/github/stars/snowberry-software/EnumsEnhanced?style=social) 2025-08-05
+    
+        4 [EnumUtilities](/docs/EnumUtilities) [![Nuget](https://img.shields.io/nuget/dt/Raiqub.Generators.EnumUtilities?label=Raiqub.Generators.EnumUtilities)](https://www.nuget.org/packages/Raiqub.Generators.EnumUtilities/) ![GitHub Repo stars](https://img.shields.io/github/stars/skarllot/EnumUtilities?style=social) 2024-04-05
+    
+        5 [Flaggen](/docs/Flaggen) [![Nuget](https://img.shields.io/nuget/dt/Flaggen?label=Flaggen)](https://www.nuget.org/packages/Flaggen/) ![GitHub Repo stars](https://img.shields.io/github/stars/ricardoboss/Flaggen?style=social) 2025-07-23
+    
+        6 [FusionReactor](/docs/FusionReactor) [![Nuget](https://img.shields.io/nuget/dt/FusionReactor.SourceGenerators.EnumExtensions?label=FusionReactor.SourceGenerators.EnumExtensions)](https://www.nuget.org/packages/FusionReactor.SourceGenerators.EnumExtensions) ![GitHub Repo stars](https://img.shields.io/github/stars/OhFlowi/FusionReactor.SourceGenerators.EnumExtensions?style=social) 2024-04-06
+    
+        7 [Genbox.FastEnum](/docs/Genbox.FastEnum) [![Nuget](https://img.shields.io/nuget/dt/Genbox.FastEnum?label=Genbox.FastEnum)](https://www.nuget.org/packages/Genbox.FastEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/Genbox/FastEnum?style=social) 2025-08-03
+    
+        8 [jos.enumeration](/docs/jos.enumeration) [![Nuget](https://img.shields.io/nuget/dt/jos.enumeration?label=jos.enumeration)](https://www.nuget.org/packages/jos.enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/joseftw/jos.enumeration?style=social) 2025-07-20
+    
+        9 [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators) [![Nuget](https://img.shields.io/nuget/dt/NetEscapades.EnumGenerators?label=NetEscapades.EnumGenerators)](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) ![GitHub Repo stars](https://img.shields.io/github/stars/andrewlock/NetEscapades.EnumGenerators?style=social) 2023-04-16
+    
+        10 [PMart.Enumeration](/docs/PMart.Enumeration) [![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration.Generator?label=PMart.Enumeration.Generator)](https://www.nuget.org/packages/PMart.Enumeration.Generator/)[![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration?label=PMart.Enumeration)](https://www.nuget.org/packages/PMart.Enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/p-martinho/Enumeration?style=social) 2025-03-25
+    
+        11 [RapidEnum](/docs/RapidEnum) [![Nuget](https://img.shields.io/nuget/dt/RapidEnum?label=RapidEnum)](https://www.nuget.org/packages/RapidEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/hanachiru/RapidEnum?style=social) 2025-10-04
+    
+        12 [requiredenum](/docs/requiredenum) [![Nuget](https://img.shields.io/nuget/dt/requiredenum?label=requiredenum)](https://www.nuget.org/packages/requiredenum/) ![GitHub Repo stars](https://img.shields.io/github/stars/emptycoder/RequiredEnum?style=social) 2025-08-14
+        

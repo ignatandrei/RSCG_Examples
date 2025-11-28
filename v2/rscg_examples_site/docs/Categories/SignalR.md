@@ -2,5 +2,5 @@
 
 Number RSCG: 1
 
-   1 [TypedSignalR.Client](/docs/TypedSignalR.Client)
-    
+        1 [TypedSignalR.Client](/docs/TypedSignalR.Client) [![Nuget](https://img.shields.io/nuget/dt/TypedSignalR.Client?label=TypedSignalR.Client)](https://www.nuget.org/packages/TypedSignalR.Client/) ![GitHub Repo stars](https://img.shields.io/github/stars/nenoNaninu/TypedSignalR.Client?style=social) 2024-10-26
+        

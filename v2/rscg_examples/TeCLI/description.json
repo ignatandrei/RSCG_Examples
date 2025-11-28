@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TeCLI",
+      "nuget":[
+         "https://www.nuget.org/packages/TeCLI/"
+      ],
+      "link":"https://github.com/tyevco/TeCLI",
+      "author":"Tyler Coles",
+      "source":"https://github.com/tyevco/TeCLI"
+   },
+   "data":{
+      "goodFor":["Parse Command line arguments "],
+      "csprojDemo":"ConsoleDemo.csproj",
+      "csFiles":["Program.cs","CmdForSum.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

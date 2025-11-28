@@ -2,9 +2,9 @@
 
 Number RSCG: 3
 
-   1 [DeeDee](/docs/DeeDee)
-
-   2 [Immediate.Handlers](/docs/Immediate.Handlers)
-
-   3 [Mediator](/docs/Mediator)
+        1 [DeeDee](/docs/DeeDee) [![Nuget](https://img.shields.io/nuget/dt/DeeDee?label=DeeDee)](https://www.nuget.org/packages/DeeDee/) ![GitHub Repo stars](https://img.shields.io/github/stars/joh-pot/DeeDee?style=social) 2023-08-05
     
+        2 [Immediate.Handlers](/docs/Immediate.Handlers) [![Nuget](https://img.shields.io/nuget/dt/Immediate.Handlers?label=Immediate.Handlers)](https://www.nuget.org/packages/Immediate.Handlers/) ![GitHub Repo stars](https://img.shields.io/github/stars/immediateplatform/Immediate.Handlers?style=social) 2024-09-20
+    
+        3 [Mediator](/docs/Mediator) [![Nuget](https://img.shields.io/nuget/dt/Mediator.SourceGenerator?label=Mediator.SourceGenerator)](https://www.nuget.org/packages/Mediator.SourceGenerator)[![Nuget](https://img.shields.io/nuget/dt/Mediator.Abstractions?label=Mediator.Abstractions)](https://www.nuget.org/packages/Mediator.Abstractions) ![GitHub Repo stars](https://img.shields.io/github/stars/martinothamar/Mediator?style=social) 2023-08-02
+        

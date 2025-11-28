@@ -2,17 +2,17 @@
 
 Number RSCG: 7
 
-   1 [Architect.DomainModeling](/docs/Architect.DomainModeling)
-
-   2 [BuilderGenerator](/docs/BuilderGenerator)
-
-   3 [DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator)
-
-   4 [Fluentify](/docs/Fluentify)
-
-   5 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember)
-
-   6 [ShadowWriterBuilder](/docs/ShadowWriterBuilder)
-
-   7 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator)
+        1 [Architect.DomainModeling](/docs/Architect.DomainModeling) [![Nuget](https://img.shields.io/nuget/dt/Architect.DomainModeling?label=Architect.DomainModeling)](https://www.nuget.org/packages/Architect.DomainModeling/) ![GitHub Repo stars](https://img.shields.io/github/stars/TheArchitectDev/Architect.DomainModeling?style=social) 2024-03-02
     
+        2 [BuilderGenerator](/docs/BuilderGenerator) [![Nuget](https://img.shields.io/nuget/dt/BuilderGenerator?label=BuilderGenerator)](https://www.nuget.org/packages/BuilderGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/MelGrubb/BuilderGenerator?style=social) 2023-10-04
+    
+        3 [DimonSmart.BuilderGenerator](/docs/DimonSmart.BuilderGenerator) [![Nuget](https://img.shields.io/nuget/dt/DimonSmart.BuilderGenerator?label=DimonSmart.BuilderGenerator)](https://www.nuget.org/packages/DimonSmart.BuilderGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/DimonSmart/BuilderGenerator?style=social) 2025-07-03
+    
+        4 [Fluentify](/docs/Fluentify) [![Nuget](https://img.shields.io/nuget/dt/Fluentify?label=Fluentify)](https://www.nuget.org/packages/Fluentify/) ![GitHub Repo stars](https://img.shields.io/github/stars/MooVC/fluentify?style=social) 2024-08-02
+    
+        5 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember) [![Nuget](https://img.shields.io/nuget/dt/Hsu.Sg.FluentMember?label=Hsu.Sg.FluentMember)](https://www.nuget.org/packages/Hsu.Sg.FluentMember/) ![GitHub Repo stars](https://img.shields.io/github/stars/hsu-net/source-generators?style=social) 2024-11-08
+    
+        6 [ShadowWriterBuilder](/docs/ShadowWriterBuilder) [![Nuget](https://img.shields.io/nuget/dt/ShadowWriter?label=ShadowWriter)](https://www.nuget.org/packages/ShadowWriter/) ![GitHub Repo stars](https://img.shields.io/github/stars/StefanStolz/ShadowWriter?style=social) 2025-07-24
+    
+        7 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator) [![Nuget](https://img.shields.io/nuget/dt/StepwiseBuilderGenerator?label=StepwiseBuilderGenerator)](https://www.nuget.org/packages/StepwiseBuilderGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/StepwiseBuilderGenerator?style=social) 2025-03-23
+        

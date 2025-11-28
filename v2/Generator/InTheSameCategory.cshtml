@@ -1,4 +1,4 @@
-@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>;
+@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>
 @{
     string linkCategory = $"[{Model.Key}](/docs/Categories/{Model.Key})";
 }
@@ -10,8 +10,10 @@
 @foreach (var rscgV in values)
 {
     string data = $"[{rscgV.Generator?.Name}](/docs/{rscgV.Generator?.Name})";
+    string packageName = rscgV.Generator?.NugetFirst ?? "";
+
 <text>
-   @(i++) @data
+   @(i++) @data @rscgV.Generator?.MarkDownNugetDownloads @(rscgV.Generator?.MarkDownStars) @(rscgV.generatedDate.ToString("yyyy-MM-dd"))
 </text>
 }
 

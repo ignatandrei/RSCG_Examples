@@ -236,3 +236,4 @@ Nr,Key,Source,Category
 235,CsvCsharp, https://github.com/nuskey8/Csv-CSharp,Serializer
 236,Validly, https://github.com/Hookyns/validly,Validator
 237,Program, https://github.com/dotnet/aspnetcore/,EnhancementClass
+238,TeCLI, https://github.com/tyevco/TeCLI,CommandLine
