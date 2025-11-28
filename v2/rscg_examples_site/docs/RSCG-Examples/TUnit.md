@@ -49,7 +49,7 @@ Tom Longhurst
 ### Original Readme
 :::note
 
-![](assets/banner.png)
+![](https://github.com/thomhurst/TUnit/assets/banner.png)
 
 # 🚀 The Modern Testing Framework for .NET
 
