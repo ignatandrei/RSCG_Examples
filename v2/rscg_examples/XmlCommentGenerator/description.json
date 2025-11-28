@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"XmlCommentGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi/"
+      ],
+      "link":"https://dotnet.microsoft.com/en-us/apps/aspnet",
+      "author":"Microsoft",
+      "source":"https://github.com/dotnet/dotnet/"
+   },
+   "data":{
+      "goodFor":["Adding Xml comments to generated OpenAPI documentation"],
+      "csprojDemo":"TestProgram.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":["Microsoft.AspNetCore.App.SourceGenerators",
+      "Microsoft.AspNetCore.Http.RequestDelegateGenerator",
+   "System.Text.Json.SourceGeneration"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

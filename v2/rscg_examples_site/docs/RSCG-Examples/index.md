@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 239 RSCG list by category
-description: 239 RSCG list by category
+title: 240 RSCG list by category
+description: 240 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -49,7 +49,7 @@ import DocCardList from '@theme/DocCardList';
 ## API 
 <details>
     
-  <summary>Expand API =>examples:10</summary>
+  <summary>Expand API =>examples:11</summary>
         
 
 
@@ -99,6 +99,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [immediate.apis](/docs/immediate.apis)
+
+        
+
+
+[XmlCommentGenerator](/docs/XmlCommentGenerator)
 
 </details>
     
@@ -1515,6 +1520,8 @@ flowchart LR;
     API--> MinimalHelpers.Routing.Analyzers((MinimalHelpers.Routing.Analyzers))
 
     API--> immediate.apis((immediate.apis))
+
+    API--> XmlCommentGenerator((XmlCommentGenerator))
 
     Async--> HsuSgSync((HsuSgSync))
 

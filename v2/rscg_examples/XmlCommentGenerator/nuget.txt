@@ -1,0 +1,3 @@
+Provides APIs for annotating route handler endpoints in ASP.NET Core with OpenAPI annotations.
+
+This package was built from the source code at https://github.com/dotnet/aspnetcore/tree/e77cb01b5529c137130757859f09f892dbdd2436
