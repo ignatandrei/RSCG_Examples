@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TUnit",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/TUnit/src/TestDemo/TestDemo.csproj",
+      "description": "First, we add Nuget  [TUnit](https://www.nuget.org/packages/TUnit/) in csproj  ",
+      "pattern": "TUnit"
+    }
+
+        ,{
+        "file": "rscg_examples/TUnit/src/TestDemo/FirstTest.cs",
+        "description": "File FirstTest.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/TUnit/src/TestDemo/obj/GX/TUnit.Core.SourceGenerator/TUnit.Core.SourceGenerator.Generators.TestMetadataGenerator/TestDemo_FirstTest_Add_WithTwoNumbers_ReturnsSum.g.cs",
+        "description": "Generated File 4  from 4 : TestDemo_FirstTest_Add_WithTwoNumbers_ReturnsSum.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TUnit/src/TestDemo/obj/GX/TUnit.Core.SourceGenerator/TUnit.Core.SourceGenerator.Generators.AotConverterGenerator/AotConverters.g.cs",
+        "description": "Generated File 3  from 4 : AotConverters.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TUnit/src/TestDemo/obj/GX/TUnit.Core.SourceGenerator/TUnit.Core.SourceGenerator.CodeGenerators.DisableReflectionScannerGenerator/DisableReflectionScanner.g.cs",
+        "description": "Generated File 2  from 4 : DisableReflectionScanner.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TUnit/src/TestDemo/obj/GX/TUnit.Core.SourceGenerator/TUnit.Core.SourceGenerator.CodeGenerators.AssemblyLoaderGenerator/AssemblyLoader.g.cs",
+        "description": "Generated File 1  from 4 : AssemblyLoader.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

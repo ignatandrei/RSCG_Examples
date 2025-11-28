@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TUnit",
+      "nuget":[
+         "https://www.nuget.org/packages/TUnit/"
+      ],
+      "link":"https://github.com/thomhurst/TUnit",
+      "author":"Tom Longhurst",
+      "source":"https://github.com/thomhurst/TUnit"
+   },
+   "data":{
+      "goodFor":["Writing unit tests"],
+      "csprojDemo":"TestDemo.csproj",
+      "csFiles":["FirstTest.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

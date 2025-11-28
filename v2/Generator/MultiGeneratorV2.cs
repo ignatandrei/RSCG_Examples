@@ -127,7 +127,8 @@ public class MultiGeneratorV2
             
             text = text.Replace("(COVERAGE", $"({d.Generator!.Source}/COVERAGE");
             text = text.Replace("(TeCLI.", $"({d.Generator!.Source}/TeCLI.");
-
+            
+            text = text.Replace("(assets/banner.", $"({d.Generator!.Source}/assets/banner.");
             text = text.Replace("(integ-tests/", $"({d.Generator!.Source}/integ-tests/");
             text = text.Replace("(./samples", $"({d.Generator!.Source}/samples");
             text = text.Replace("(./tests", $"({d.Generator!.Source}/tests");
