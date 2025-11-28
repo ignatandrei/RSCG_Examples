@@ -1905,6 +1905,14 @@
       "Source": "https://github.com/tyevco/TeCLI",
       "Category": "CommandLine",
       "AddedOn": "2025-11-07T00:00:00"
+    },
+    {
+      "Name": "TUnit",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TUnit",
+      "NuGet": "https://www.nuget.org/packages/TUnit/",
+      "Source": "https://github.com/thomhurst/TUnit",
+      "Category": "Tests",
+      "AddedOn": "2025-11-08T00:00:00"
     }
   ]
 }
