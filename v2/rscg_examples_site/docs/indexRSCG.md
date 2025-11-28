@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 239 RSCG with examples in descending chronological order
+## 240 RSCG with examples in descending chronological order
 
-This is the list of 239 ( 15 from Microsoft) RSCG with examples 
+This is the list of 240 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 239 ( 15 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|240| [XmlCommentGenerator by Microsoft ](/docs/XmlCommentGenerator)|2025-11-09 => 09 November 2025 | [API](/docs/Categories/API) |
 |239| [TUnit by Tom Longhurst ](/docs/TUnit)|2025-11-08 => 08 November 2025 | [Tests](/docs/Categories/Tests) |
 |238| [TeCLI by Tyler Coles ](/docs/TeCLI)|2025-11-07 => 07 November 2025 | [CommandLine](/docs/Categories/CommandLine) |
 |237| [Program by Microsoft ](/docs/Program)|2025-11-06 => 06 November 2025 | [EnhancementClass](/docs/Categories/EnhancementClass) |
@@ -260,7 +261,7 @@ This is the list of 239 ( 15 from Microsoft) RSCG with examples
 |2| [RSCG_TimeBombComment by Andrei Ignat ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |1| [ThisAssembly by Daniel Cazzulino ](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 
-## 15 Created by Microsoft 
+## 16 Created by Microsoft 
 
 If you are interested in Microsoft RSCG, please see
 
@@ -281,6 +282,7 @@ If you are interested in Microsoft RSCG, please see
 |130| [MSTest  by Microsoft ](/docs/MSTest)|2024-04-04 => 04 April 2024 | Tests |
 |173| [Microsoft.Windows.CsWin32  by Microsoft ](/docs/Microsoft.Windows.CsWin32)|2024-12-01 => 01 December 2024 | WinAPI |
 |237| [Program  by Microsoft ](/docs/Program)|2025-11-06 => 06 November 2025 | EnhancementClass |
+|240| [XmlCommentGenerator  by Microsoft ](/docs/XmlCommentGenerator)|2025-11-09 => 09 November 2025 | API |
 
 If you want to study ,there are more at https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type=code 
 

@@ -1,6 +1,6 @@
 <h1>API</h1>
 
-Number RSCG: 10
+Number RSCG: 11
 
         1 [immediate.apis](/docs/immediate.apis) [![Nuget](https://img.shields.io/nuget/dt/immediate.apis?label=immediate.apis)](https://www.nuget.org/packages/immediate.apis/) ![GitHub Repo stars](https://img.shields.io/github/stars/immediateplatform/immediate.apis?style=social) 2025-03-27
     
@@ -21,4 +21,6 @@ Number RSCG: 10
         9 [SafeRouting](/docs/SafeRouting) [![Nuget](https://img.shields.io/nuget/dt/SafeRouting?label=SafeRouting)](https://www.nuget.org/packages/SafeRouting/) ![GitHub Repo stars](https://img.shields.io/github/stars/daviddotcs/safe-routing?style=social) 2023-09-23
     
         10 [SkinnyControllersCommon](/docs/SkinnyControllersCommon) [![Nuget](https://img.shields.io/nuget/dt/SkinnyControllersCommon?label=SkinnyControllersCommon)](https://www.nuget.org/packages/SkinnyControllersCommon) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/SkinnyControllersGenerator?style=social) 2023-04-16
+    
+        11 [XmlCommentGenerator](/docs/XmlCommentGenerator) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.OpenApi?label=Microsoft.AspNetCore.OpenApi)](https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/dotnet?style=social) 2025-11-09
         
