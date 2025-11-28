@@ -2,9 +2,9 @@
 
 Number RSCG: 3
 
-   1 [Com](/docs/Com)
-
-   2 [Microsoft.Windows.CsWin32](/docs/Microsoft.Windows.CsWin32)
-
-   3 [NativeObjects](/docs/NativeObjects)
+        1 [Com](/docs/Com) [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social) 2023-11-20
     
+        2 [Microsoft.Windows.CsWin32](/docs/Microsoft.Windows.CsWin32) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Windows.CsWin32?label=Microsoft.Windows.CsWin32)](https://www.nuget.org/packages/Microsoft.Windows.CsWin32/) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/CsWin32?style=social) 2024-12-01
+    
+        3 [NativeObjects](/docs/NativeObjects) [![Nuget](https://img.shields.io/nuget/dt/NativeObjects?label=NativeObjects)](https://www.nuget.org/packages/NativeObjects/) ![GitHub Repo stars](https://img.shields.io/github/stars/kevingosse/NativeObjects?style=social) 2025-03-28
+        

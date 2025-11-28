@@ -2,17 +2,17 @@
 
 Number RSCG: 7
 
-   1 [AutoConstructor](/docs/AutoConstructor)
-
-   2 [AutoCtor](/docs/AutoCtor)
-
-   3 [AutoDeconstruct](/docs/AutoDeconstruct)
-
-   4 [ConstructorGenerator](/docs/ConstructorGenerator)
-
-   5 [PrimaryParameter](/docs/PrimaryParameter)
-
-   6 [QuickConstructor](/docs/QuickConstructor)
-
-   7 [sourcedepend](/docs/sourcedepend)
+        1 [AutoConstructor](/docs/AutoConstructor) [![Nuget](https://img.shields.io/nuget/dt/AutoConstructor?label=AutoConstructor)](https://www.nuget.org/packages/AutoConstructor/) ![GitHub Repo stars](https://img.shields.io/github/stars/k94ll13nn3/AutoConstructor?style=social) 2023-10-28
     
+        2 [AutoCtor](/docs/AutoCtor) [![Nuget](https://img.shields.io/nuget/dt/AutoCtor?label=AutoCtor)](https://www.nuget.org/packages/AutoCtor/) ![GitHub Repo stars](https://img.shields.io/github/stars/distantcam/AutoCtor?style=social) 2023-04-16
+    
+        3 [AutoDeconstruct](/docs/AutoDeconstruct) [![Nuget](https://img.shields.io/nuget/dt/AutoDeconstruct?label=AutoDeconstruct)](https://www.nuget.org/packages/AutoDeconstruct) ![GitHub Repo stars](https://img.shields.io/github/stars/jasonbock/autodeconstruct?style=social) 2023-04-16
+    
+        4 [ConstructorGenerator](/docs/ConstructorGenerator) [![Nuget](https://img.shields.io/nuget/dt/ConstructorGenerator?label=ConstructorGenerator)](https://www.nuget.org/packages/ConstructorGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Swarley97/ConstructorGenerator?style=social) 2024-12-07
+    
+        5 [PrimaryParameter](/docs/PrimaryParameter) [![Nuget](https://img.shields.io/nuget/dt/FaustVX.PrimaryParameter.SG?label=FaustVX.PrimaryParameter.SG)](https://www.nuget.org/packages/FaustVX.PrimaryParameter.SG) ![GitHub Repo stars](https://img.shields.io/github/stars/FaustVX/PrimaryParameter?style=social) 2023-11-15
+    
+        6 [QuickConstructor](/docs/QuickConstructor) [![Nuget](https://img.shields.io/nuget/dt/QuickConstructor?label=QuickConstructor)](https://www.nuget.org/packages/QuickConstructor) ![GitHub Repo stars](https://img.shields.io/github/stars/flavien/QuickConstructor?style=social) 2023-04-16
+    
+        7 [sourcedepend](/docs/sourcedepend) [![Nuget](https://img.shields.io/nuget/dt/sourcedepend?label=sourcedepend)](https://www.nuget.org/packages/sourcedepend/) ![GitHub Repo stars](https://img.shields.io/github/stars/crwsolutions/sourcedepend?style=social) 2024-02-16
+        

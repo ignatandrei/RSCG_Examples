@@ -2,5 +2,5 @@
 
 Number RSCG: 1
 
-   1 [WhatIAmDoing](/docs/WhatIAmDoing)
-    
+        1 [WhatIAmDoing](/docs/WhatIAmDoing) [![Nuget](https://img.shields.io/nuget/dt/RSCG_WhatIAmDoing?label=RSCG_WhatIAmDoing)](https://www.nuget.org/packages/RSCG_WhatIAmDoing/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_WhatIAmDoing_Common?label=RSCG_WhatIAmDoing_Common)](https://www.nuget.org/packages/RSCG_WhatIAmDoing_Common/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_WhatIAmDoing?style=social) 2024-01-28
+        

@@ -1435,5 +1435,11 @@
   "Category":5,
   "dtStart": "2025-11-06T00:00:00",
   "show": true
+},
+{
+  "ID":"TeCLI",
+  "Category":32,
+  "dtStart": "2025-11-07T00:00:00",
+  "show": true
 }
 ]

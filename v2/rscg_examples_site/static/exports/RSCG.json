@@ -1897,6 +1897,14 @@
       "Source": "https://github.com/dotnet/aspnetcore/",
       "Category": "EnhancementClass",
       "AddedOn": "2025-11-06T00:00:00"
+    },
+    {
+      "Name": "TeCLI",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TeCLI",
+      "NuGet": "https://www.nuget.org/packages/TeCLI/",
+      "Source": "https://github.com/tyevco/TeCLI",
+      "Category": "CommandLine",
+      "AddedOn": "2025-11-07T00:00:00"
     }
   ]
 }
