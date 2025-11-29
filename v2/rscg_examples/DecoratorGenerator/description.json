@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"DecoratorGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/DecoratorGenerator/"
+      ],
+      "link":"https://github.com/CodingFlow/decorator-generator",
+      "author":"Leopoldo Fu",
+      "source":"https://github.com/CodingFlow/decorator-generator"
+   },
+   "data":{
+      "goodFor":["adding decorator for classes/ interfaces"],
+      "csprojDemo":"DecoratorDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
