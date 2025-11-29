@@ -684,6 +684,22 @@ public class MultiGeneratorV2
         {
             Console.WriteLine(" please make true to all to write index");
         }
+        var dictAuthors = _AllDescriptions
+            .Where(it=> !string.IsNullOrWhiteSpace(it.Generator?.Author))
+            .GroupBy(it=> it.Generator!.Author!)
+            .ToDictionary(it=>it.Key,it=>it.ToArray());
+        foreach(var author in dictAuthors)
+        {
+            var authorPage = new AuthorWithData(author);
+            var content = await authorPage.RenderAsync();
+            var folder = Path.Combine(pathDocusaurus, "docs", "Authors");
+            if(!Directory.Exists(folder))
+                Directory.CreateDirectory(folder);
+            var nameFile = author.Key.Replace(" ","_").Replace(".","_").Replace(",","_");
+            var pathAuthor = Path.Combine(folder, nameFile + ".md");
+            await File.WriteAllTextAsync(pathAuthor, content);
+        }
+
         return true;
     }
 

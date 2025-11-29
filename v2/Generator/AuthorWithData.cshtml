@@ -1,0 +1,19 @@
+@inherits RazorBlade.PlainTextTemplate<KeyValuePair<string,Description[]>>
+@{
+    int i = 1;
+}
+# Author : @Model.Key
+
+Number RSCG: @Model.Value.Count()
+
+@foreach (var rscgV in Model.Value)
+{
+    
+    string data = $"[{rscgV.Generator?.Name}](/docs/{rscgV.Generator?.Name})";
+    string packageName = rscgV.Generator?.NugetFirst ?? "";
+
+    <text>
+        @(i++) @data @rscgV.Generator?.MarkDownNugetDownloads @(rscgV.Generator?.MarkDownStars) @(rscgV.generatedDate.ToString("yyyy-MM-dd"))
+    </text>
+}
+
