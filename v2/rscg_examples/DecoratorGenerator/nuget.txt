@@ -1,0 +1,3 @@
+Source generator for decorator pattern boilerplate code in C#.
+
+When implementing the decorator pattern in C#, it requires adding boilerplate code for every interface that needs to support decorators, namely the abstract class. Boilerplate is tedious to write and error-prone. This source generator solves this problem by automatically generating the abstract class. It only needs to be told which interfaces it should generate the abstract class for.

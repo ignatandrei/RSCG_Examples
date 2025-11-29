@@ -1921,6 +1921,14 @@
       "Source": "https://github.com/dotnet/dotnet/",
       "Category": "API",
       "AddedOn": "2025-11-09T00:00:00"
+    },
+    {
+      "Name": "DecoratorGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator",
+      "NuGet": "https://www.nuget.org/packages/DecoratorGenerator/",
+      "Source": "https://github.com/CodingFlow/decorator-generator",
+      "Category": "Decorator",
+      "AddedOn": "2025-11-10T00:00:00"
     }
   ]
 }

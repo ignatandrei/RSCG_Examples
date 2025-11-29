@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["adding decorator for classes/ interfaces"],
       "csprojDemo":"DecoratorDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","Person.cs","IPerson.cs","LogPerson.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

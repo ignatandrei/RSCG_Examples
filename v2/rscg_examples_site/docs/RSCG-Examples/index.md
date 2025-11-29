@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 240 RSCG list by category
-description: 240 RSCG list by category
+title: 241 RSCG list by category
+description: 241 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -374,6 +374,18 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Unflat](/docs/Unflat)
+
+</details>
+    
+
+## Decorator 
+<details>
+    
+  <summary>Expand Decorator =>examples:1</summary>
+        
+
+
+[DecoratorGenerator](/docs/DecoratorGenerator)
 
 </details>
     
@@ -1602,6 +1614,8 @@ flowchart LR;
     Database--> Finch.Generators((Finch.Generators))
 
     Database--> Unflat((Unflat))
+
+    Decorator--> DecoratorGenerator((DecoratorGenerator))
 
     DependencyInjection--> AutoRegisterInject((AutoRegisterInject))
 
