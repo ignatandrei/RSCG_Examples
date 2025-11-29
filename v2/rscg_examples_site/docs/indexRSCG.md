@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 240 RSCG with examples in descending chronological order
+## 241 RSCG with examples in descending chronological order
 
-This is the list of 240 ( 16 from Microsoft) RSCG with examples 
+This is the list of 241 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 240 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|241| [DecoratorGenerator by Leopoldo Fu ](/docs/DecoratorGenerator)|2025-11-10 => 10 November 2025 | [Decorator](/docs/Categories/Decorator) |
 |240| [XmlCommentGenerator by Microsoft ](/docs/XmlCommentGenerator)|2025-11-09 => 09 November 2025 | [API](/docs/Categories/API) |
 |239| [TUnit by Tom Longhurst ](/docs/TUnit)|2025-11-08 => 08 November 2025 | [Tests](/docs/Categories/Tests) |
 |238| [TeCLI by Tyler Coles ](/docs/TeCLI)|2025-11-07 => 07 November 2025 | [CommandLine](/docs/Categories/CommandLine) |

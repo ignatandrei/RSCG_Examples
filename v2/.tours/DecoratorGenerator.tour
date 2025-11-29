@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "DecoratorGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/DecoratorGenerator/src/DecoratorDemo/DecoratorDemo.csproj",
+      "description": "First, we add Nuget  [DecoratorGenerator](https://www.nuget.org/packages/DecoratorGenerator/) in csproj  ",
+      "pattern": "DecoratorGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/DecoratorGenerator/src/DecoratorDemo/LogPerson.cs",
+        "description": "File LogPerson.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/DecoratorGenerator/src/DecoratorDemo/IPerson.cs",
+        "description": "File IPerson.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/DecoratorGenerator/src/DecoratorDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/DecoratorGenerator/src/DecoratorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/DecoratorGenerator/src/DecoratorDemo/DecoratorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/DecoratorGenerator/src/DecoratorDemo/obj/GX/DecoratorGenerator/DecoratorGenerator.Main/PersonDecorator.generated.cs",
+        "description": "Generated File 1  from 1 : PersonDecorator.generated.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

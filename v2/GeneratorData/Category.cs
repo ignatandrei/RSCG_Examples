@@ -43,5 +43,6 @@ public enum Category
     RX=38,
     Mixin=39,
     Validator=40,
+    Decorator= 41
 }
 
