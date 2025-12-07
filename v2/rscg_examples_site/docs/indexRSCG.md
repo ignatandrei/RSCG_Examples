@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 242 RSCG with examples in descending chronological order
+## 243 RSCG with examples in descending chronological order
 
-This is the list of 242 ( 16 from Microsoft) RSCG with examples 
+This is the list of 243 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,8 +20,9 @@ This is the list of 242 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|242| [RSCG_MCP2File by Ignat Andrei ](/docs/RSCG_MCP2File)|2025-11-11 => 11 November 2025 | [MCP](/docs/Categories/MCP) |
-|241| [DecoratorGenerator by Leopoldo Fu ](/docs/DecoratorGenerator)|2025-11-10 => 10 November 2025 | [Decorator](/docs/Categories/Decorator) |
+|243| [RSCG_MCP2File by Ignat Andrei ](/docs/RSCG_MCP2File)|2025-11-15 => 15 November 2025 | [MCP](/docs/Categories/MCP) |
+|242| [DecoratorGenerator by Leopoldo Fu ](/docs/DecoratorGenerator)|2025-11-13 => 13 November 2025 | [Decorator](/docs/Categories/Decorator) |
+|241| [RSCG_MCP2OpenAPI by Ignat Andrei ](/docs/RSCG_MCP2OpenAPI)|2025-11-11 => 11 November 2025 | [MCP](/docs/Categories/MCP) |
 |240| [XmlCommentGenerator by Microsoft ](/docs/XmlCommentGenerator)|2025-11-09 => 09 November 2025 | [API](/docs/Categories/API) |
 |239| [TUnit by Tom Longhurst ](/docs/TUnit)|2025-11-08 => 08 November 2025 | [Tests](/docs/Categories/Tests) |
 |238| [TeCLI by Tyler Coles ](/docs/TeCLI)|2025-11-07 => 07 November 2025 | [CommandLine](/docs/Categories/CommandLine) |

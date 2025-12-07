@@ -1,6 +1,6 @@
 # Author : Ignat Andrei
 
-Number RSCG: 22
+Number RSCG: 23
 
 
         1 [RSCG_TimeBombComment](/docs/RSCG_TimeBombComment) [![Nuget](https://img.shields.io/nuget/dt/RSCG_TimeBombComment?label=RSCG_TimeBombComment)](https://www.nuget.org/packages/RSCG_TimeBombComment/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_TimeBombComment?style=social) 2023-04-16
@@ -45,5 +45,7 @@ Number RSCG: 22
     
         21 [rscg_demeter](/docs/rscg_demeter) [![Nuget](https://img.shields.io/nuget/dt/rscg_demeter?label=rscg_demeter)](https://www.nuget.org/packages/rscg_demeter/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/rscg_demeter?style=social) 2025-03-26
     
-        22 [RSCG_MCP2File](/docs/RSCG_MCP2File) [![Nuget](https://img.shields.io/nuget/dt/RSCG_MCP2File?label=RSCG_MCP2File)](https://www.nuget.org/packages/RSCG_MCP2File/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_OpenApi2MCP?style=social) 2025-11-11
+        22 [RSCG_MCP2OpenAPI](/docs/RSCG_MCP2OpenAPI) [![Nuget](https://img.shields.io/nuget/dt/RSCG_MCP2OpenAPI?label=RSCG_MCP2OpenAPI)](https://www.nuget.org/packages/RSCG_MCP2OpenAPI/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_OpenApi2MCP?style=social) 2025-11-11
+    
+        23 [RSCG_MCP2File](/docs/RSCG_MCP2File) [![Nuget](https://img.shields.io/nuget/dt/RSCG_MCP2File?label=RSCG_MCP2File)](https://www.nuget.org/packages/RSCG_MCP2File/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_OpenApi2MCP?style=social) 2025-11-15
     

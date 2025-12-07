@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+		<PackageReference Include="ModelContextProtocol" Version="0.5.0-preview.1" />
+		<PackageReference Include="ModelContextProtocol.AspNetCore" Version="0.5.0-preview.1" />
+		<PackageReference Include="RSCG_MCP2OpenAPI" Version="9.2025.1202.1952" />
+		<PackageReference Include="OpenAPISwaggerUI" Version="9.2024.1215.2209" />
+		<PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+
+	</ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>

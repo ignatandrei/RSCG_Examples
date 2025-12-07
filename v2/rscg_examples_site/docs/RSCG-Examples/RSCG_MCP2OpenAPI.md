@@ -1,21 +1,21 @@
 ---
-sidebar_position: 2430
-title: 243 - RSCG_MCP2File
-description: Generating code for saving MCP result to file.
-slug: /RSCG_MCP2File
+sidebar_position: 2410
+title: 241 - RSCG_MCP2OpenAPI
+description: Generating OpenAPI based on MCP source code.
+slug: /RSCG_MCP2OpenAPI
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
 import SameCategory from '../Categories/_PrimitiveMCP.mdx';
 
-# RSCG_MCP2File  by Ignat Andrei
+# RSCG_MCP2OpenAPI  by Ignat Andrei
 
 
 <TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
 
 ## NuGet / site data
-[![Nuget](https://img.shields.io/nuget/dt/RSCG_MCP2File?label=RSCG_MCP2File)](https://www.nuget.org/packages/RSCG_MCP2File/)
+[![Nuget](https://img.shields.io/nuget/dt/RSCG_MCP2OpenAPI?label=RSCG_MCP2OpenAPI)](https://www.nuget.org/packages/RSCG_MCP2OpenAPI/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ignatandrei/RSCG_OpenApi2MCP?label=updated)](https://github.com/ignatandrei/RSCG_OpenApi2MCP)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_OpenApi2MCP?style=social)
 
@@ -24,14 +24,14 @@ import SameCategory from '../Categories/_PrimitiveMCP.mdx';
 ### Info
 :::info
 
-Name: **RSCG_MCP2File**
+Name: **RSCG_MCP2OpenAPI**
 
-Generating MCP tool function that exports to file the result of another MCP tool.
+Generating Swagger/OpenAPI function from MCP tool.
 
 Author: Ignat Andrei
 
 NuGet: 
-*https://www.nuget.org/packages/RSCG_MCP2File/*   
+*https://www.nuget.org/packages/RSCG_MCP2OpenAPI/*   
 
 
 You can find more details at https://github.com/ignatandrei/RSCG_OpenApi2MCP
@@ -57,7 +57,7 @@ This is a place holder
 ### About
 :::note
 
-Generating code for saving MCP result to file.
+Generating OpenAPI based on MCP source code.
 
 
 :::
@@ -70,7 +70,7 @@ Generating code for saving MCP result to file.
 
 <TabItem value="csproj" label="CSharp Project">
 
-This is the CSharp Project that references **RSCG_MCP2File**
+This is the CSharp Project that references **RSCG_MCP2OpenAPI**
 ```xml showLineNumbers {15}
 <Project Sdk="Microsoft.NET.Sdk">
 
@@ -86,7 +86,7 @@ This is the CSharp Project that references **RSCG_MCP2File**
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
 		<PackageReference Include="ModelContextProtocol" Version="0.5.0-preview.1" />
 		<PackageReference Include="ModelContextProtocol.AspNetCore" Version="0.5.0-preview.1" />
-		<PackageReference Include="RSCG_MCP2File" Version="9.2025.1202.1952" />
+		<PackageReference Include="RSCG_MCP2OpenAPI" Version="9.2025.1202.1952" />
 		<PackageReference Include="OpenAPISwaggerUI" Version="9.2024.1215.2209" />
 		<PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
 
@@ -101,20 +101,18 @@ This is the CSharp Project that references **RSCG_MCP2File**
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2File\src\MCPDemo\MCPDemo\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2OpenAPI\src\MCPDemo\Program.cs" label="Program.cs" >
 
-  This is the use of **RSCG_MCP2File** in *Program.cs*
+  This is the use of **RSCG_MCP2OpenAPI** in *Program.cs*
 
 ```csharp showLineNumbers 
 // See https://aka.ms/new-console-template for more information
+global using Microsoft.AspNetCore.Builder;
 using MCPDemo;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using OpenAPISwaggerUI;
-using Serilog;
-using Serilog.Events;
+
 
 Console.WriteLine("Hello, World!");
 var    builderApp = Host.CreateApplicationBuilder(args);
@@ -135,7 +133,6 @@ serverWeb = serverWeb.WithHttpTransport();
 serverWeb.WithTools<MyTools>();
 
 
-
 builderWeb.Services.AddOpenApi();
 builderWeb.Services.AddTransient<MyTools>();
     
@@ -145,9 +142,7 @@ var web = builderWeb.Build();
     web.MapOpenApi("/openapi/{documentName}.yaml");
     web.MapMcp();
     web.UseOpenAPISwaggerUI();
-    
-    
-
+web.AddAll_MyTools();
 
 var t1 = web.RunAsync();
 var t2 = app.RunAsync();
@@ -157,9 +152,9 @@ await Task.WhenAll(t1, t2);
 ```
   </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2File\src\MCPDemo\MCPDemo\MyTools.cs" label="MyTools.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2OpenAPI\src\MCPDemo\MyTools.cs" label="MyTools.cs" >
 
-  This is the use of **RSCG_MCP2File** in *MyTools.cs*
+  This is the use of **RSCG_MCP2OpenAPI** in *MyTools.cs*
 
 ```csharp showLineNumbers 
 using ModelContextProtocol.Server;
@@ -169,7 +164,7 @@ using System.ComponentModel;
 using System.Text;
 
 namespace MCPDemo;
-[MCP2File.AddMCPExportToFile()]
+[MCP2OpenAPI.AddMCP2OpenApi()]
 partial class MyTools
 {
     [McpServerTool]
@@ -193,20 +188,20 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2File\src\MCPDemo\MCPDemo\obj\GX\RSCG_MCP2File\RSCG_MCP2File.MCP2File\MCPExportToFile.g.cs" label="MCPExportToFile.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2OpenAPI\src\MCPDemo\obj\GX\RSCG_MCP2OpenAPI\RSCG_MCP2OpenAPI.MCP2OpenAPI\MCP2OpenAPI.g.cs" label="MCP2OpenAPI.g.cs" >
 ```csharp showLineNumbers 
 
-                namespace MCP2File
+                namespace MCP2OpenAPI
                 {
                     [global::Microsoft.CodeAnalysis.EmbeddedAttribute]
                     [global::System.AttributeUsage(global::System.AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
-                    internal class AddMCPExportToFile: global::System.Attribute {} 
+                    internal class AddMCP2OpenApi: global::System.Attribute {} 
                 }
 ```
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2File\src\MCPDemo\MCPDemo\obj\GX\RSCG_MCP2File\RSCG_MCP2File.MCP2File\Microsoft.CodeAnalysis.EmbeddedAttribute.cs" label="Microsoft.CodeAnalysis.EmbeddedAttribute.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2OpenAPI\src\MCPDemo\obj\GX\RSCG_MCP2OpenAPI\RSCG_MCP2OpenAPI.MCP2OpenAPI\Microsoft.CodeAnalysis.EmbeddedAttribute.cs" label="Microsoft.CodeAnalysis.EmbeddedAttribute.cs" >
 ```csharp showLineNumbers 
 // <auto-generated/>
 namespace Microsoft.CodeAnalysis
@@ -219,34 +214,35 @@ namespace Microsoft.CodeAnalysis
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2File\src\MCPDemo\MCPDemo\obj\GX\RSCG_MCP2File\RSCG_MCP2File.MCP2File\MyTools_ExportToFile.g.cs" label="MyTools_ExportToFile.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2OpenAPI\src\MCPDemo\obj\GX\RSCG_MCP2OpenAPI\RSCG_MCP2OpenAPI.MCP2OpenAPI\MyTools_ExportToFile.g.cs" label="MyTools_ExportToFile.g.cs" >
 ```csharp showLineNumbers 
-// Auto-generated by MCP2File
-namespace MCPDemo
-{
-    public partial class MyTools
-    {
-         [global::ModelContextProtocol.Server.McpServerTool]
-               [global::System.ComponentModel.Description("calls the SendEcho and saves the result to a file ")]
-        public async Task SendEchoExportToFile(string echoData, string exportToFile)
-        {
-            dynamic result = await SendEcho(echoData);
-            if (result is byte[] bytes)
-            {
-                await File.WriteAllBytesAsync(exportToFile, bytes);
-            }
-            else if (result is string str)
-            {
-                await File.WriteAllTextAsync(exportToFile, str);
-            }
-            else
-            {
-                await File.WriteAllTextAsync(exportToFile, result?.ToString() ?? string.Empty);
-            }
-        }
 
+namespace MCPDemo;
+
+
+///Number methods : 1
+internal static partial class MyTools_OpenAPI
+{
+    public static void AddAll_MyTools(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder builder){
+Add_SendEcho(builder);
     }
+
+
+
+    public record rec_SendEcho ( string? echoData );
+    
+public static void Add_SendEcho (Microsoft.AspNetCore.Routing.IEndpointRouteBuilder builder){
+    
+        builder.MapPost("/api/mcp/MyTools/SendEcho",([Microsoft.AspNetCore.Mvc.FromServices]MCPDemo.MyTools toolClass,[Microsoft.AspNetCore.Mvc.FromBody]rec_SendEcho  value)=>
+        toolClass.SendEcho(value.echoData)
+        );
+
 }
+
+
+
+}
+
 
 ```
   </TabItem>
@@ -259,21 +255,21 @@ namespace MCPDemo
 
 :::tip
 
-[Download Example project RSCG_MCP2File ](/sources/RSCG_MCP2File.zip)
+[Download Example project RSCG_MCP2OpenAPI ](/sources/RSCG_MCP2OpenAPI.zip)
 
 :::
 
 
-### Share RSCG_MCP2File 
+### Share RSCG_MCP2OpenAPI 
 
 <ul>
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2File&quote=RSCG_MCP2File" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2File&text=RSCG_MCP2File:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2File" target="_blank" title="Tweet">Share in Twitter</a></li>
-  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2File&title=RSCG_MCP2File" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2File&title=RSCG_MCP2File&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2File" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2OpenAPI&quote=RSCG_MCP2OpenAPI" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2OpenAPI&text=RSCG_MCP2OpenAPI:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2OpenAPI" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2OpenAPI&title=RSCG_MCP2OpenAPI" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2OpenAPI&title=RSCG_MCP2OpenAPI&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FRSCG_MCP2OpenAPI" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
 </ul>
 
-https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2OpenAPI
 
 <SameCategory />
 
