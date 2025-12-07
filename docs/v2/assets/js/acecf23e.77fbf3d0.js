@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrscg_examples=self.webpackChunkrscg_examples||[]).push([[81903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/RSCG_Examples/v2/blog","blogTitle":"Blog","authorsListPath":"/RSCG_Examples/v2/blog/authors"}')}}]);
