@@ -254,6 +254,7 @@ input-files:
 - examples/TeCLI.html
 - examples/TUnit.html
 - examples/XmlCommentGenerator.html
+- examples/RSCG_MCP2OpenAPI.html
 - examples/DecoratorGenerator.html
 - examples/RSCG_MCP2File.html
 

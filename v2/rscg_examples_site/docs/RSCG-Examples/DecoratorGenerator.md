@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2410
-title: 241 - DecoratorGenerator
+sidebar_position: 2420
+title: 242 - DecoratorGenerator
 description: adding decorator for classes/ interfaces
 slug: /DecoratorGenerator
 ---

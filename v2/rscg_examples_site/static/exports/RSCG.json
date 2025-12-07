@@ -1923,12 +1923,20 @@
       "AddedOn": "2025-11-09T00:00:00"
     },
     {
+      "Name": "RSCG_MCP2OpenAPI",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2OpenAPI",
+      "NuGet": "https://www.nuget.org/packages/RSCG_MCP2OpenAPI/",
+      "Source": "https://github.com/ignatandrei/RSCG_OpenApi2MCP",
+      "Category": "MCP",
+      "AddedOn": "2025-11-11T00:00:00"
+    },
+    {
       "Name": "DecoratorGenerator",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator",
       "NuGet": "https://www.nuget.org/packages/DecoratorGenerator/",
       "Source": "https://github.com/CodingFlow/decorator-generator",
       "Category": "Decorator",
-      "AddedOn": "2025-11-10T00:00:00"
+      "AddedOn": "2025-11-13T00:00:00"
     },
     {
       "Name": "RSCG_MCP2File",
@@ -1936,7 +1944,7 @@
       "NuGet": "https://www.nuget.org/packages/RSCG_MCP2File/",
       "Source": "https://github.com/ignatandrei/RSCG_OpenApi2MCP",
       "Category": "MCP",
-      "AddedOn": "2025-11-11T00:00:00"
+      "AddedOn": "2025-11-15T00:00:00"
     }
   ]
 }

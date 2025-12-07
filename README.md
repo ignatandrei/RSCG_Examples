@@ -1,10 +1,10 @@
-# RSCG - 242 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 243 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 242 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 243 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-11-11 => 11 November 2025
+## Latest Update : 2025-11-15 => 15 November 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,11 +24,11 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 242 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 243 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
-### 242. [RSCG_MCP2File](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File) , in the [MCP](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mcp) category 
+### 243. [RSCG_MCP2File](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File) , in the [MCP](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mcp) category 
 
-Generated on : 2025-11-11 => 11 November 2025
+Generated on : 2025-11-15 => 15 November 2025
 
 <details>
   <summary>Expand</summary>
@@ -48,9 +48,9 @@ Source: [https://github.com/ignatandrei/RSCG_OpenApi2MCP](https://github.com/ign
 
 </details>
 
-### 241. [DecoratorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator) , in the [Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#decorator) category 
+### 242. [DecoratorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator) , in the [Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#decorator) category 
 
-Generated on : 2025-11-10 => 10 November 2025
+Generated on : 2025-11-13 => 13 November 2025
 
 <details>
   <summary>Expand</summary>
@@ -69,6 +69,28 @@ Nuget: [https://www.nuget.org/packages/DecoratorGenerator/](https://www.nuget.or
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator)
 
 Source: [https://github.com/CodingFlow/decorator-generator](https://github.com/CodingFlow/decorator-generator)
+
+</details>
+
+### 241. [RSCG_MCP2OpenAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2OpenAPI) , in the [MCP](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mcp) category 
+
+Generated on : 2025-11-11 => 11 November 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ignat Andrei
+
+Generating Swagger/OpenAPI function from MCP tool. 
+
+Nuget: [https://www.nuget.org/packages/RSCG_MCP2OpenAPI/](https://www.nuget.org/packages/RSCG_MCP2OpenAPI/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2OpenAPI](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2OpenAPI)
+
+Source: [https://github.com/ignatandrei/RSCG_OpenApi2MCP](https://github.com/ignatandrei/RSCG_OpenApi2MCP)
 
 </details>
 

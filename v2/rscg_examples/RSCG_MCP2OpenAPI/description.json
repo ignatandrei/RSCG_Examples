@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"RSCG_MCP2OpenAPI",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_MCP2OpenAPI/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_OpenApi2MCP",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_OpenApi2MCP"
+   },
+   "data":{
+      "goodFor":["Generating OpenAPI based on MCP source code."],
+      "csprojDemo":"MCPDemo.csproj",
+      "csFiles":["Program.cs","MyTools.cs"],
+      "excludeDirectoryGenerated":[
+         "Microsoft.AspNetCore.OpenApi.SourceGenerators",
+         "Microsoft.AspNetCore.App.SourceGenerators"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
