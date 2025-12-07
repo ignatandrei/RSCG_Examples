@@ -240,3 +240,4 @@ Nr,Key,Source,Category
 239,TUnit, https://github.com/thomhurst/TUnit,Tests
 240,XmlCommentGenerator, https://github.com/dotnet/dotnet/,API
 241,DecoratorGenerator, https://github.com/CodingFlow/decorator-generator,Decorator
+242,RSCG_MCP2File, https://github.com/ignatandrei/RSCG_OpenApi2MCP,MCP

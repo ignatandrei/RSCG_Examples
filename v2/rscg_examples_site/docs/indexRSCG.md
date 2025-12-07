@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 241 RSCG with examples in descending chronological order
+## 242 RSCG with examples in descending chronological order
 
-This is the list of 241 ( 16 from Microsoft) RSCG with examples 
+This is the list of 242 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|242| [RSCG_MCP2File by Ignat Andrei ](/docs/RSCG_MCP2File)|2025-11-11 => 11 November 2025 | [MCP](/docs/Categories/MCP) |
 |241| [DecoratorGenerator by Leopoldo Fu ](/docs/DecoratorGenerator)|2025-11-10 => 10 November 2025 | [Decorator](/docs/Categories/Decorator) |
 |240| [XmlCommentGenerator by Microsoft ](/docs/XmlCommentGenerator)|2025-11-09 => 09 November 2025 | [API](/docs/Categories/API) |
 |239| [TUnit by Tom Longhurst ](/docs/TUnit)|2025-11-08 => 08 November 2025 | [Tests](/docs/Categories/Tests) |
@@ -70,7 +71,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |194| [zlinq by Cysharp - subsidiary of Cygames ](/docs/zlinq)|2025-07-02 => 02 July 2025 | [Linq](/docs/Categories/Linq) |
 |193| [NativeObjects by Kevin Gosse ](/docs/NativeObjects)|2025-03-28 => 28 March 2025 | [WinAPI](/docs/Categories/WinAPI) |
 |192| [immediate.apis by Stuart Turner ](/docs/immediate.apis)|2025-03-27 => 27 March 2025 | [API](/docs/Categories/API) |
-|191| [rscg_demeter by Andrei Ignat ](/docs/rscg_demeter)|2025-03-26 => 26 March 2025 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
+|191| [rscg_demeter by Ignat Andrei ](/docs/rscg_demeter)|2025-03-26 => 26 March 2025 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |190| [PMart.Enumeration by Martinho ](/docs/PMart.Enumeration)|2025-03-25 => 25 March 2025 | [Enum](/docs/Categories/Enum) |
 |189| [MemberAccessor by Yamaokuno ](/docs/MemberAccessor)|2025-03-24 => 24 March 2025 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |188| [StepwiseBuilderGenerator by Georgiy Petrov ](/docs/StepwiseBuilderGenerator)|2025-03-23 => 23 March 2025 | [Builder](/docs/Categories/Builder) |
@@ -79,7 +80,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |185| [DependencyModules.SourceGenerator by Ian Johnson ](/docs/DependencyModules.SourceGenerator)|2025-02-16 => 16 February 2025 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |184| [MockMe by connorivy ](/docs/MockMe)|2025-02-10 => 10 February 2025 | [Tests](/docs/Categories/Tests) |
 |183| [NTypewriter by NeVeSpl ](/docs/NTypewriter)|2025-01-19 => 19 January 2025 | [Templating](/docs/Categories/Templating) |
-|182| [rscg_Interface_to_null_object by Andrei Ignat ](/docs/rscg_Interface_to_null_object)|2025-01-18 => 18 January 2025 | [Interface](/docs/Categories/Interface) |
+|182| [rscg_Interface_to_null_object by Ignat Andrei ](/docs/rscg_Interface_to_null_object)|2025-01-18 => 18 January 2025 | [Interface](/docs/Categories/Interface) |
 |181| [Larcanum.GitInfo by  ](/docs/Larcanum.GitInfo)|2025-01-17 => 17 January 2025 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |180| [Pure.DI by Nikolay Pianikov ](/docs/Pure.DI)|2024-12-08 => 08 December 2024 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |179| [ConstructorGenerator by Swarley97 ](/docs/ConstructorGenerator)|2024-12-07 => 07 December 2024 | [Constructor](/docs/Categories/Constructor) |
@@ -96,7 +97,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |168| [Credfeto.Version.Information.Generator by Mark Ridgwell ](/docs/Credfeto.Version.Information.Generator)|2024-11-05 => 05 November 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |167| [polytype by Eirik Tsarpalis ](/docs/polytype)|2024-11-04 => 04 November 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |166| [Datacute.EmbeddedResourcePropertyGenerator by Stephen Denne ](/docs/Datacute.EmbeddedResourcePropertyGenerator)|2024-11-03 => 03 November 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
-|165| [rscg_queryables by Andrei Ignat ](/docs/rscg_queryables)|2024-11-02 => 02 November 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
+|165| [rscg_queryables by Ignat Andrei ](/docs/rscg_queryables)|2024-11-02 => 02 November 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |164| [RazorSlices by Damiam Edwards ](/docs/RazorSlices)|2024-10-27 => 27 October 2024 | [Templating](/docs/Categories/Templating) |
 |163| [TypedSignalR.Client by nenoNaninu ](/docs/TypedSignalR.Client)|2024-10-26 => 26 October 2024 | [SignalR](/docs/Categories/SignalR) |
 |162| [MinimalHelpers.Routing.Analyzers by Maroc Minerva ](/docs/MinimalHelpers.Routing.Analyzers)|2024-10-21 => 21 October 2024 | [API](/docs/Categories/API) |
@@ -105,7 +106,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |159| [LightweightObjectMapper by Stratos ](/docs/LightweightObjectMapper)|2024-09-18 => 18 September 2024 | [Mapper](/docs/Categories/Mapper) |
 |158| [Enhanced.GetTypes by duskembayev ](/docs/Enhanced.GetTypes)|2024-09-17 => 17 September 2024 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |157| [Sera.Union by Sera ](/docs/Sera.Union)|2024-08-26 => 26 August 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
-|156| [RSCG_NameGenerator by Andrei Ignat ](/docs/RSCG_NameGenerator)|2024-08-25 => 25 August 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|156| [RSCG_NameGenerator by Ignat Andrei ](/docs/RSCG_NameGenerator)|2024-08-25 => 25 August 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |155| [Coplt.Dropping by 2A5F ](/docs/Coplt.Dropping)|2024-08-13 => 13 August 2024 | [Disposer](/docs/Categories/Disposer) |
 |154| [Fluentify by Paul Martins ](/docs/Fluentify)|2024-08-02 => 02 August 2024 | [Builder](/docs/Categories/Builder) |
 |153| [RSCG_ExportDiagram by AndreiIgnat ](/docs/RSCG_ExportDiagram)|2024-08-01 => 01 August 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
@@ -115,7 +116,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |149| [Pekspro.BuildInformationGenerator by pekspro ](/docs/Pekspro.BuildInformationGenerator)|2024-07-19 => 19 July 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |148| [ThisAssembly.Constants by Daniel Cazzulino ](/docs/ThisAssembly.Constants)|2024-07-18 => 18 July 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |147| [JKToolKit.TemplatePropertyGenerator by Jonas Kamsker ](/docs/JKToolKit.TemplatePropertyGenerator)|2024-07-17 => 17 July 2024 | [Templating](/docs/Categories/Templating) |
-|146| [RSCG_IFormattable by Andrei Ignat ](/docs/RSCG_IFormattable)|2024-06-29 => 29 June 2024 | [Templating](/docs/Categories/Templating) |
+|146| [RSCG_IFormattable by Ignat Andrei ](/docs/RSCG_IFormattable)|2024-06-29 => 29 June 2024 | [Templating](/docs/Categories/Templating) |
 |145| [DotnetYang by Westermo Network Technologies ](/docs/DotnetYang)|2024-06-29 => 29 June 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
 |144| [depso by Yusuf Tarık Günaydın ](/docs/depso)|2024-06-28 => 28 June 2024 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |143| [FactoryGenerator by Westermo Network Technologies ](/docs/FactoryGenerator)|2024-06-27 => 27 June 2024 | [DependencyInjection](/docs/Categories/DependencyInjection) |
@@ -139,11 +140,11 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |125| [AutoInvoke.Generator by Patrick Kranz ](/docs/AutoInvoke.Generator)|2024-03-03 => 03 March 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |124| [Architect.DomainModeling by Timo van Zijll Langhout ](/docs/Architect.DomainModeling)|2024-03-02 => 02 March 2024 | [Builder](/docs/Categories/Builder) |
 |123| [CodeAnalysis by Feast ](/docs/CodeAnalysis)|2024-03-01 => 01 March 2024 | [CodeToString](/docs/Categories/CodeToString) |
-|122| [RSCG_JSON2Class by Andrei Ignat ](/docs/RSCG_JSON2Class)|2024-02-29 => 29 February 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
+|122| [RSCG_JSON2Class by Ignat Andrei ](/docs/RSCG_JSON2Class)|2024-02-29 => 29 February 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
 |121| [AutoSpectre by Jeppe Roi Kristensen ](/docs/AutoSpectre)|2024-02-24 => 24 February 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |120| [LingoGen by Ruben Broere ](/docs/LingoGen)|2024-02-23 => 23 February 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
 |119| [AutoGen by Feast Antelcat ](/docs/AutoGen)|2024-02-22 => 22 February 2024 | [Mapper](/docs/Categories/Mapper) |
-|118| [RSCG_Wait by Andrei Ignat ](/docs/RSCG_Wait)|2024-02-21 => 21 February 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|118| [RSCG_Wait by Ignat Andrei ](/docs/RSCG_Wait)|2024-02-21 => 21 February 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |117| [PlantUmlClassDiagramGenerator by Hirotada Kobayashi ](/docs/PlantUmlClassDiagramGenerator)|2024-02-20 => 20 February 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |116| [CopyTo by Paul Braetz ](/docs/CopyTo)|2024-02-19 => 19 February 2024 | [Clone](/docs/Categories/Clone) |
 |115| [UnionsGenerator by Paul Braetz ](/docs/UnionsGenerator)|2024-02-18 => 18 February 2024 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
@@ -169,10 +170,10 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |95| [CopyCat by Serhii Buta ](/docs/CopyCat)|2024-01-09 => 09 January 2024 | [Interface](/docs/Categories/Interface) |
 |94| [AspectGenerator by Igor Tkachev ](/docs/AspectGenerator)|2024-01-07 => 07 January 2024 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |93| [mocklis by Esbjörn Redmo ](/docs/mocklis)|2024-01-03 => 03 January 2024 | [Tests](/docs/Categories/Tests) |
-|92| [RSCG_UtilityTypes by Andrei Ignat ](/docs/RSCG_UtilityTypes)|2023-12-22 => 22 December 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
+|92| [RSCG_UtilityTypes by Ignat Andrei ](/docs/RSCG_UtilityTypes)|2023-12-22 => 22 December 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |91| [Ling.Audit by Jing Ling ](/docs/Ling.Audit)|2023-12-12 => 12 December 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |90| [TelemetryLogging by Microsoft ](/docs/TelemetryLogging)|2023-11-30 => 30 November 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
-|89| [InterceptorTemplate by Andrei Ignat ](/docs/InterceptorTemplate)|2023-11-29 => 29 November 2023 | [Templating](/docs/Categories/Templating) |
+|89| [InterceptorTemplate by Ignat Andrei ](/docs/InterceptorTemplate)|2023-11-29 => 29 November 2023 | [Templating](/docs/Categories/Templating) |
 |88| [Com by Microsoft ](/docs/Com)|2023-11-20 => 20 November 2023 | [WinAPI](/docs/Categories/WinAPI) |
 |87| [RDG by Microsoft ](/docs/RDG)|2023-11-19 => 19 November 2023 | [API](/docs/Categories/API) |
 |86| [Microsoft.Extensions.Configuration.Binder by Microsoft ](/docs/Microsoft.Extensions.Configuration.Binder)|2023-11-18 => 18 November 2023 | [API](/docs/Categories/API) |
@@ -192,14 +193,14 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |72| [Meziantou.Polyfill by Gérald Barré ](/docs/Meziantou.Polyfill)|2023-10-10 => 10 October 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |71| [DisposableHelpers by Clynt Neiko Rupinta ](/docs/DisposableHelpers)|2023-10-09 => 09 October 2023 | [Disposer](/docs/Categories/Disposer) |
 |70| [MagicMap by Bramer Daniel ](/docs/MagicMap)|2023-10-08 => 08 October 2023 | [Mapper](/docs/Categories/Mapper) |
-|69| [RSCG_Templating by Andrei Ignat ](/docs/RSCG_Templating)|2023-10-07 => 07 October 2023 | [Templating](/docs/Categories/Templating) |
+|69| [RSCG_Templating by Ignat Andrei ](/docs/RSCG_Templating)|2023-10-07 => 07 October 2023 | [Templating](/docs/Categories/Templating) |
 |68| [JsonPolymorphicGenerator by surgicalcoder ](/docs/JsonPolymorphicGenerator)|2023-10-06 => 06 October 2023 | [Serializer](/docs/Categories/Serializer) |
 |67| [MapTo by Mohammedreza Taikandi ](/docs/MapTo)|2023-10-05 => 05 October 2023 | [Mapper](/docs/Categories/Mapper) |
 |66| [BuilderGenerator by Mell Grubb ](/docs/BuilderGenerator)|2023-10-04 => 04 October 2023 | [Builder](/docs/Categories/Builder) |
 |65| [Disposer by Hakan Fıstık ](/docs/Disposer)|2023-10-03 => 03 October 2023 | [Disposer](/docs/Categories/Disposer) |
 |64| [ResXGenerator by Aigamo ](/docs/ResXGenerator)|2023-10-02 => 02 October 2023 | [FilesToCode](/docs/Categories/FilesToCode) |
 |63| [StringLiteral by Nobuyuki Iwanaga ](/docs/StringLiteral)|2023-10-01 => 01 October 2023 | [Optimizer](/docs/Categories/Optimizer) |
-|62| [RSCG_Decorator by Andrei Ignat ](/docs/RSCG_Decorator)|2023-09-30 => 30 September 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
+|62| [RSCG_Decorator by Ignat Andrei ](/docs/RSCG_Decorator)|2023-09-30 => 30 September 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |61| [ProtobufSourceGenerator by Laszlo Deak ](/docs/ProtobufSourceGenerator)|2023-09-24 => 24 September 2023 | [Serializer](/docs/Categories/Serializer) |
 |60| [SafeRouting by David Wake ](/docs/SafeRouting)|2023-09-23 => 23 September 2023 | [API](/docs/Categories/API) |
 |59| [SourceGenerator.Helper.CopyCode by Patrick Kranz ](/docs/SourceGenerator.Helper.CopyCode)|2023-09-17 => 17 September 2023 | [CodeToString](/docs/Categories/CodeToString) |
@@ -208,7 +209,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |56| [Roozie.AutoInterface by Alex Russak ](/docs/Roozie.AutoInterface)|2023-08-26 => 26 August 2023 | [Interface](/docs/Categories/Interface) |
 |55| [M31.FluentAPI by Kevin Schaal ](/docs/M31.FluentAPI)|2023-08-25 => 25 August 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |54| [AutoDTO by Ohorodnikov ](/docs/AutoDTO)|2023-08-24 => 24 August 2023 | [Mapper](/docs/Categories/Mapper) |
-|53| [RSCG_WebAPIExports by Andrei Ignat ](/docs/RSCG_WebAPIExports)|2023-08-23 => 23 August 2023 | [API](/docs/Categories/API) |
+|53| [RSCG_WebAPIExports by Ignat Andrei ](/docs/RSCG_WebAPIExports)|2023-08-23 => 23 August 2023 | [API](/docs/Categories/API) |
 |52| [Gobie by Mike Conrad ](/docs/Gobie)|2023-08-22 => 22 August 2023 | [Templating](/docs/Categories/Templating) |
 |51| [OneOf by Harry McIntyre ](/docs/OneOf)|2023-08-21 => 21 August 2023 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |50| [Ridge by Michal Motyčka ](/docs/Ridge)|2023-08-20 => 20 August 2023 | [Tests](/docs/Categories/Tests) |
@@ -239,7 +240,7 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |25| [mapperly by Riok ](/docs/mapperly)|2023-04-16 => 16 April 2023 | [Mapper](/docs/Categories/Mapper) |
 |24| [Rocks by Json Bock ](/docs/Rocks)|2023-04-16 => 16 April 2023 | [Tests](/docs/Categories/Tests) |
 |23| [Microsoft.NET.Sdk.Razor.SourceGenerators by Microsoft ](/docs/Microsoft.NET.Sdk.Razor.SourceGenerators)|2023-04-16 => 16 April 2023 | [Templating](/docs/Categories/Templating) |
-|22| [RSCG_FunctionsWithDI by Andrei Ignat ](/docs/RSCG_FunctionsWithDI)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|22| [RSCG_FunctionsWithDI by Ignat Andrei ](/docs/RSCG_FunctionsWithDI)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |21| [Microsoft.Interop.JavaScript.JSImportGenerator by Microsoft ](/docs/Microsoft.Interop.JavaScript.JSImportGenerator)|2023-04-16 => 16 April 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |20| [NetEscapades.EnumGenerators by Andrew Lock ](/docs/NetEscapades.EnumGenerators)|2023-04-16 => 16 April 2023 | [Enum](/docs/Categories/Enum) |
 |19| [ApparatusAOT by Stanislav Silin ](/docs/ApparatusAOT)|2023-04-16 => 16 April 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
@@ -253,13 +254,13 @@ This is the list of 241 ( 16 from Microsoft) RSCG with examples
 |11| [AutoDeconstruct by Jason Bock ](/docs/AutoDeconstruct)|2023-04-16 => 16 April 2023 | [Constructor](/docs/Categories/Constructor) |
 |10| [RSCG_AMS by Ignat Andrei ](/docs/RSCG_AMS)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |9| [CommunityToolkit.Mvvm by Microsoft ](/docs/CommunityToolkit.Mvvm)|2023-04-16 => 16 April 2023 | [MVVM](/docs/Categories/MVVM) |
-|8| [RSCG_Static by Andrei Ignat ](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | [Interface](/docs/Categories/Interface) |
+|8| [RSCG_Static by Ignat Andrei ](/docs/RSCG_Static)|2023-04-16 => 16 April 2023 | [Interface](/docs/Categories/Interface) |
 |7| [Microsoft.Extensions.Logging by Microsoft ](/docs/Microsoft.Extensions.Logging)|2023-04-16 => 16 April 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |6| [SkinnyControllersCommon by Ignat Andrei ](/docs/SkinnyControllersCommon)|2023-04-16 => 16 April 2023 | [API](/docs/Categories/API) |
 |5| [System.Text.RegularExpressions by Microsoft ](/docs/System.Text.RegularExpressions)|2023-04-16 => 16 April 2023 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |4| [RSCG_Utils by Ignat Andrei ](/docs/RSCG_Utils)|2023-04-16 => 16 April 2023 | [FilesToCode](/docs/Categories/FilesToCode) |
 |3| [System.Text.Json by Microsoft ](/docs/System.Text.Json)|2023-04-16 => 16 April 2023 | [Serializer](/docs/Categories/Serializer) |
-|2| [RSCG_TimeBombComment by Andrei Ignat ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|2| [RSCG_TimeBombComment by Ignat Andrei ](/docs/RSCG_TimeBombComment)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |1| [ThisAssembly by Daniel Cazzulino ](/docs/ThisAssembly)|2023-04-16 => 16 April 2023 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 
 ## 16 Created by Microsoft 

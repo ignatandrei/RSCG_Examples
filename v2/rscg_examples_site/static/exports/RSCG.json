@@ -1929,6 +1929,14 @@
       "Source": "https://github.com/CodingFlow/decorator-generator",
       "Category": "Decorator",
       "AddedOn": "2025-11-10T00:00:00"
+    },
+    {
+      "Name": "RSCG_MCP2File",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File",
+      "NuGet": "https://www.nuget.org/packages/RSCG_MCP2File/",
+      "Source": "https://github.com/ignatandrei/RSCG_OpenApi2MCP",
+      "Category": "MCP",
+      "AddedOn": "2025-11-11T00:00:00"
     }
   ]
 }
