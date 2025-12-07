@@ -157,6 +157,34 @@ await Task.WhenAll(t1, t2);
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\RSCG_MCP2File\src\MCPDemo\MCPDemo\MyTools.cs" label="MyTools.cs" >
+
+  This is the use of **RSCG_MCP2File** in *MyTools.cs*
+
+```csharp showLineNumbers 
+using ModelContextProtocol.Server;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Text;
+
+namespace MCPDemo;
+[MCP2File.AddMCPExportToFile()]
+partial class MyTools
+{
+    [McpServerTool]
+    [Description("Echo demo")]
+    public async Task<string> SendEcho([Description("echo")] string echoData)
+    {
+        await Task.Delay(10);
+        return echoData;
+    }
+
+}
+
+```
+  </TabItem>
+
 </Tabs>
 
 ### Generated Files

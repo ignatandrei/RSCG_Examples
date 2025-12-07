@@ -11,6 +11,12 @@
     }
 
         ,{
+        "file": "rscg_examples/RSCG_MCP2File/src/MCPDemo/MCPDemo/MyTools.cs",
+        "description": "File MyTools.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "rscg_examples/RSCG_MCP2File/src/MCPDemo/MCPDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/RSCG_MCP2File/src/MCPDemo/MCPDemo/MCPDemo.csproj ",
         "pattern": "this is the code"

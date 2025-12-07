@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating code for saving MCP result to file."],
       "csprojDemo":"MCPDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","MyTools.cs"],
       "excludeDirectoryGenerated":[
          "Microsoft.AspNetCore.OpenApi.SourceGenerators",
          "Microsoft.AspNetCore.App.SourceGenerators"],
