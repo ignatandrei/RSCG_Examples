@@ -696,8 +696,17 @@ public class MultiGeneratorV2
             if(!Directory.Exists(folder))
                 Directory.CreateDirectory(folder);
             var nameFile = author.Key.Replace(" ","_").Replace(".","_").Replace(",","_");
+            nameFile= nameFile.Replace("\\","_").Replace(":","_").Replace("/","_");
             var pathAuthor = Path.Combine(folder, nameFile + ".md");
-            await File.WriteAllTextAsync(pathAuthor, content);
+            try
+            {
+                await File.WriteAllTextAsync(pathAuthor, content);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"cannot write author page for {author.Key} in {pathAuthor} because {ex.Message}");
+                throw;
+            }
         }
 
         return true;

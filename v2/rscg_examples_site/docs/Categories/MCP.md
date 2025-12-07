@@ -1,0 +1,6 @@
+<h1>MCP</h1>
+
+Number RSCG: 1
+
+        1 [RSCG_MCP2File](/docs/RSCG_MCP2File) [![Nuget](https://img.shields.io/nuget/dt/RSCG_MCP2File?label=RSCG_MCP2File)](https://www.nuget.org/packages/RSCG_MCP2File/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_OpenApi2MCP?style=social) 2025-11-11
+        

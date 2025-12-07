@@ -1,18 +1,18 @@
-# RSCG - 241 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 242 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 241 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 242 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-11-10 => 10 November 2025
+## Latest Update : 2025-11-11 => 11 November 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
-If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/category/microsoft-examples)***
+If you want just those from Microsoft, please click ***[Microsoft](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Authors/Microsoft)***
 
 If you want to see by category, please click ***[category](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples)***
 or click any category below 
-[actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor)  -[ai](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#ai)  -[aop](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop)  -[api](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api)  -[async](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#async)  -[bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise)  -[blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor)  -[builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder)  -[clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone)  -[codetostring](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring)  -[commandline](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline)  -[console](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#console)  -[constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor)  -[database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database)  -[decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#decorator)  -[dependencyinjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection)  -[disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer)  -[enhancementclass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass)  -[enhancementproject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject)  -[enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum)  -[equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals)  -[filestocode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode)  -[functionalprogramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming)  -[hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire)  -[interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface)  -[linq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#linq)  -[mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper)  -[mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator)  -[mixin](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mixin)  -[mvc](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvc)  -[mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm)  -[optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer)  -[primitiveobsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession)  -[rx](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#rx)  -[serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer)  -[signalr](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#signalr)  -[statemachine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#statemachine)  -[templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating)  -[tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests)  -[validator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#validator)  -[winapi](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi)  -
+[actor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#actor)  -[ai](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#ai)  -[aop](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#aop)  -[api](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api)  -[async](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#async)  -[bitwise](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bitwise)  -[blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor)  -[builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder)  -[clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone)  -[codetostring](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#codetostring)  -[commandline](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline)  -[console](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#console)  -[constructor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#constructor)  -[database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database)  -[decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#decorator)  -[dependencyinjection](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#dependencyinjection)  -[disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer)  -[enhancementclass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass)  -[enhancementproject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject)  -[enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum)  -[equals](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#equals)  -[filestocode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode)  -[functionalprogramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming)  -[hangfire](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#hangfire)  -[interface](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#interface)  -[linq](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#linq)  -[mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper)  -[mcp](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mcp)  -[mediator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mediator)  -[mixin](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mixin)  -[mvc](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvc)  -[mvvm](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvvm)  -[optimizer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#optimizer)  -[primitiveobsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession)  -[rx](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#rx)  -[serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer)  -[signalr](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#signalr)  -[statemachine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#statemachine)  -[templating](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#templating)  -[tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests)  -[validator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#validator)  -[winapi](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#winapi)  -
 
 
 ## If you have a Roslyn Source Code Generator, please create an issue.
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 241 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 242 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 242. [RSCG_MCP2File](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File) , in the [MCP](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mcp) category 
+
+Generated on : 2025-11-11 => 11 November 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Ignat Andrei
+
+Generating MCP tool function that exports to file the result of another MCP tool. 
+
+Nuget: [https://www.nuget.org/packages/RSCG_MCP2File/](https://www.nuget.org/packages/RSCG_MCP2File/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File](https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_MCP2File)
+
+Source: [https://github.com/ignatandrei/RSCG_OpenApi2MCP](https://github.com/ignatandrei/RSCG_OpenApi2MCP)
+
+</details>
+
 ### 241. [DecoratorGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/DecoratorGenerator) , in the [Decorator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#decorator) category 
 
 Generated on : 2025-11-10 => 10 November 2025
@@ -1148,7 +1170,7 @@ Generated on : 2025-03-26 => 26 March 2025
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Interface to null object - common 
 
@@ -1346,7 +1368,7 @@ Generated on : 2025-01-18 => 18 January 2025
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Interface to null object - common 
 
@@ -1720,7 +1742,7 @@ Generated on : 2024-11-02 => 02 November 2024
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Intercept method 
 
@@ -1918,7 +1940,7 @@ Generated on : 2024-08-25 => 25 August 2024
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Generates uniqe names for release 
 
@@ -2203,7 +2225,7 @@ Generated on : 2024-06-29 => 29 June 2024
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Implement IFormattable for a class 
 
@@ -2738,7 +2760,7 @@ Generated on : 2024-02-29 => 29 February 2024
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 This package transforms any json into a class 
 
@@ -2826,7 +2848,7 @@ Generated on : 2024-02-21 => 21 February 2024
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 This package wait for a time and put all global options into a cs file 
 
@@ -3404,7 +3426,7 @@ Generated on : 2023-12-22 => 22 December 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Roslyn Utility Types - Pick, Omit 
 
@@ -3470,7 +3492,7 @@ Generated on : 2023-11-29 => 29 November 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Package Description 
 
@@ -3921,7 +3943,7 @@ Generated on : 2023-10-07 => 07 October 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Roslyn Templating for all 
 
@@ -4075,7 +4097,7 @@ Generated on : 2023-09-30 => 30 September 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Roslyn Decorator for a class- intercept methods 
 
@@ -4277,7 +4299,7 @@ Generated on : 2023-08-23 => 23 August 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Add Excel export to your WebAPI 
 
@@ -4981,7 +5003,7 @@ Generated on : 2023-04-16 => 16 April 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 Generate correct functions from  [FromServices] 
 
@@ -5321,7 +5343,7 @@ Generated on : 2023-04-16 => 16 April 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 This package make you an interface and  record from static properties / methods 
 
@@ -5461,7 +5483,7 @@ Generated on : 2023-04-16 => 16 April 2023
 
 
 
-Author: Andrei Ignat
+Author: Ignat Andrei
 
 This package make a time bomb from comment. 
 

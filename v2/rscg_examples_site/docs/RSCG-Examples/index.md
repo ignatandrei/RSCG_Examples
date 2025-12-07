@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 241 RSCG list by category
-description: 241 RSCG list by category
+title: 242 RSCG list by category
+description: 242 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1149,6 +1149,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## MCP 
+<details>
+    
+  <summary>Expand MCP =>examples:1</summary>
+        
+
+
+[RSCG_MCP2File](/docs/RSCG_MCP2File)
+
+</details>
+    
+
 ## Mediator 
 <details>
     
@@ -1886,6 +1898,8 @@ flowchart LR;
     Mapper--> LightweightObjectMapper((LightweightObjectMapper))
 
     Mapper--> Facet((Facet))
+
+    MCP--> RSCG_MCP2File((RSCG_MCP2File))
 
     Mediator--> Mediator((Mediator))
 
