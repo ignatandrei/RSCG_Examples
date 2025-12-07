@@ -1,0 +1,24 @@
+{
+   "generator":{
+      "name":"RSCG_MCP2File",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_MCP2File/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_OpenApi2MCP",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_OpenApi2MCP"
+   },
+   "data":{
+      "goodFor":["Generating code for saving MCP result to file."],
+      "csprojDemo":"MCPDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[
+         "Microsoft.AspNetCore.OpenApi.SourceGenerators",
+         "Microsoft.AspNetCore.App.SourceGenerators"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
