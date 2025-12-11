@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BoolParameterGenerator",
+  "steps": 
+  [
+    {
+      "file": "BoolDemo/BoolDemo.csproj",
+      "description": "First, we add Nuget  [BoolParameterGenerator](https://www.nuget.org/packages/BoolParameterGenerator/) in csproj  ",
+      "pattern": "BoolParameterGenerator"
+    }
+
+        ,{
+        "file": "BoolDemo/IsValid.cs",
+        "description": "File IsValid.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "BoolDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project BoolDemo/BoolDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "BoolDemo/obj/GX/BoolParameterGenerator/PrimS.BoolParameterGenerator.BoolEnumGenerator/GeneratorHeartbeat.g.cs",
+        "description": "Generated File 2  from 2 : GeneratorHeartbeat.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "BoolDemo/obj/GX/BoolParameterGenerator/PrimS.BoolParameterGenerator.BinaryEnumGenerator/IsValid.g.cs",
+        "description": "Generated File 1  from 2 : IsValid.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

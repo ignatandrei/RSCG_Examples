@@ -1,0 +1,3 @@
+BoolParameterGenerator is a Roslyn analyzer and source generator that automatically creates replacement types for boolean parameters in C# code.
+      This improves code readability and maintainability by replacing ambiguous bools with descriptive types.
+      See the README for usage and examples.

@@ -44,6 +44,7 @@ public enum Category
     Mixin=39,
     Validator=40,
     Decorator= 41,
-    MCP= 42
+    MCP= 42,
+    Bool=43
 }
 

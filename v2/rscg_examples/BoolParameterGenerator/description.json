@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"BoolParameterGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/BoolParameterGenerator/"
+      ],
+      "link":"https://github.com/9swampy/BoolEnumGenerator",
+      "author":"Justin Buchanan",
+      "source":"https://github.com/9swampy/BoolEnumGenerator"
+   },
+   "data":{
+      "goodFor":["Generate boolean enum types"],
+      "csprojDemo":"BoolDemo.csproj",
+      "csFiles":["Program.cs","IsValid.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
