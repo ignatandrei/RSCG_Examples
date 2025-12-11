@@ -1945,6 +1945,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_OpenApi2MCP",
       "Category": "MCP",
       "AddedOn": "2025-11-15T00:00:00"
+    },
+    {
+      "Name": "BoolParameterGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/BoolParameterGenerator",
+      "NuGet": "https://www.nuget.org/packages/BoolParameterGenerator/",
+      "Source": "https://github.com/9swampy/BoolEnumGenerator",
+      "Category": "Bool",
+      "AddedOn": "2025-12-11T00:00:00"
     }
   ]
 }
