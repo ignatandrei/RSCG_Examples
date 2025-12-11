@@ -144,10 +144,10 @@ public partial class MyBoolEnum \{ }
 
 For detailed examples illustrating the benefits of BoolParameterGenerator, see the following:
 
-- **Good Examples: Caller IntelliSense** — [CallerIntellisenseGoodExamples.cs](./BoolParameterGenerator.Github.Example/CallerIntellisenseGoodExamples.cs)  
-- **Good Examples: Implementation Patterns** — [ImplementationGoodExamples.cs](./BoolParameterGenerator.Github.Example/ImplementationGoodExamples.cs)  
-- **Bad Examples: Caller IntelliSense Pitfalls** — [CallerIntellisenseBadExamples.cs](./BoolParameterGenerator.Github.Example/CallerIntellisenseBadExamples.cs)  
-- **Bad Examples: Implementation Pitfalls** — [ImplementationBadExamples.cs](./BoolParameterGenerator.Github.Example/ImplementationBadExamples.cs)  
+- **Good Examples: Caller IntelliSense** — [CallerIntellisenseGoodExamples.cs](https://github.com/9swampy/BoolEnumGenerator/BoolParameterGenerator.Github.Example/CallerIntellisenseGoodExamples.cs)  
+- **Good Examples: Implementation Patterns** — [ImplementationGoodExamples.cs](https://github.com/9swampy/BoolEnumGenerator/BoolParameterGenerator.Github.Example/ImplementationGoodExamples.cs)  
+- **Bad Examples: Caller IntelliSense Pitfalls** — [CallerIntellisenseBadExamples.cs](https://github.com/9swampy/BoolEnumGenerator/BoolParameterGenerator.Github.Example/CallerIntellisenseBadExamples.cs)  
+- **Bad Examples: Implementation Pitfalls** — [ImplementationBadExamples.cs](https://github.com/9swampy/BoolEnumGenerator/BoolParameterGenerator.Github.Example/ImplementationBadExamples.cs)  
 
 These demonstrate why replacing raw `bool` parameters with strongly typed proxies enhances readability, API clarity, and maintainability.
 
