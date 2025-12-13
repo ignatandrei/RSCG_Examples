@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"BlazorOcticons",
+      "nuget":[
+         "https://www.nuget.org/packages/BlazorOcticons/"
+      ],
+      "link":"https://github.com/BlazorOcticons/BlazorOcticons",
+      "author":"Evgeniy K.",
+      "source":"https://github.com/BlazorOcticons/BlazorOcticons"
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"BlazorDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":["Microsoft.CodeAnalysis.Razor.Compiler"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
