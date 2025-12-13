@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Monify",
+      "nuget":[
+         "https://www.nuget.org/packages/Monify/"
+      ],
+      "link":"https://github.com/MooVC/monify",
+      "author":"Paul Martin",
+      "source":"https://github.com/MooVC/monify"
+   },
+   "data":{
+      "goodFor":["Generate primitive strongly typed wrapper around a single value object"],
+      "csprojDemo":"PrimiiveDemp.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
