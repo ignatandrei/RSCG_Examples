@@ -1953,6 +1953,14 @@
       "Source": "https://github.com/9swampy/BoolEnumGenerator",
       "Category": "Bool",
       "AddedOn": "2025-12-11T00:00:00"
+    },
+    {
+      "Name": "Monify",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Monify",
+      "NuGet": "https://www.nuget.org/packages/Monify/",
+      "Source": "https://github.com/MooVC/monify",
+      "Category": "PrimitiveObsession",
+      "AddedOn": "2025-12-12T00:00:00"
     }
   ]
 }

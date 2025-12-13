@@ -1,10 +1,10 @@
-# RSCG - 244 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 245 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 244 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 245 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-12-11 => 11 December 2025
+## Latest Update : 2025-12-12 => 12 December 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 244 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 245 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 245. [Monify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Monify) , in the [PrimitiveObsession](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#primitiveobsession) category 
+
+Generated on : 2025-12-12 => 12 December 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Paul Martin
+
+Monify, a .NET Roslyn source generator, automates the creation of strongly-typed wrappers around single values, improving semantic clarity, type safety, and maintainability. 
+
+Nuget: [https://www.nuget.org/packages/Monify/](https://www.nuget.org/packages/Monify/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Monify](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Monify)
+
+Source: [https://github.com/MooVC/monify](https://github.com/MooVC/monify)
+
+</details>
+
 ### 244. [BoolParameterGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BoolParameterGenerator) , in the [Bool](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#bool) category 
 
 Generated on : 2025-12-11 => 11 December 2025

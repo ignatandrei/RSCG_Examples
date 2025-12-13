@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 244 RSCG list by category
-description: 244 RSCG list by category
+title: 245 RSCG list by category
+description: 245 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1271,7 +1271,7 @@ import DocCardList from '@theme/DocCardList';
 ## PrimitiveObsession 
 <details>
     
-  <summary>Expand PrimitiveObsession =>examples:5</summary>
+  <summary>Expand PrimitiveObsession =>examples:6</summary>
         
 
 
@@ -1296,6 +1296,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [StronglyTypedUid](/docs/StronglyTypedUid)
+
+        
+
+
+[Monify](/docs/Monify)
 
 </details>
     
@@ -1953,6 +1958,8 @@ flowchart LR;
     PrimitiveObsession--> DomainPrimitives((DomainPrimitives))
 
     PrimitiveObsession--> StronglyTypedUid((StronglyTypedUid))
+
+    PrimitiveObsession--> Monify((Monify))
 
     RX--> RxSourceGenerator((RxSourceGenerator))
 

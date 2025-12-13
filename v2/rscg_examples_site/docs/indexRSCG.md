@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 244 RSCG with examples in descending chronological order
+## 245 RSCG with examples in descending chronological order
 
-This is the list of 244 ( 16 from Microsoft) RSCG with examples 
+This is the list of 245 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 244 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|245| [Monify by Paul Martin ](/docs/Monify)|2025-12-12 => 12 December 2025 | [PrimitiveObsession](/docs/Categories/PrimitiveObsession) |
 |244| [BoolParameterGenerator by Justin Buchanan ](/docs/BoolParameterGenerator)|2025-12-11 => 11 December 2025 | [Bool](/docs/Categories/Bool) |
 |243| [RSCG_MCP2File by Ignat Andrei ](/docs/RSCG_MCP2File)|2025-11-15 => 15 November 2025 | [MCP](/docs/Categories/MCP) |
 |242| [DecoratorGenerator by Leopoldo Fu ](/docs/DecoratorGenerator)|2025-11-13 => 13 November 2025 | [Decorator](/docs/Categories/Decorator) |

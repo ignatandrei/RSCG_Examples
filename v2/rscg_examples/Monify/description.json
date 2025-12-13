@@ -10,7 +10,7 @@
    },
    "data":{
       "goodFor":["Generate primitive strongly typed wrapper around a single value object"],
-      "csprojDemo":"PrimiiveDemp.csproj",
+      "csprojDemo":"PrimitiveDemo.csproj",
       "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]

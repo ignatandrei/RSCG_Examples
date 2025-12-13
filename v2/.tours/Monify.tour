@@ -1,0 +1,144 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Monify",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Monify/src/PrimitiveDemo/PrimitiveDemo.csproj",
+      "description": "First, we add Nuget  [Monify](https://www.nuget.org/packages/Monify/) in csproj  ",
+      "pattern": "Monify"
+    }
+
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Monify/src/PrimitiveDemo/PrimitiveDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age._value.g.cs",
+        "description": "Generated File 19  from 19 : PrimitiveDemo.Age._value.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.ToString.g.cs",
+        "description": "Generated File 18  from 19 : PrimitiveDemo.Age.ToString.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.Inequality.Value.g.cs",
+        "description": "Generated File 17  from 19 : PrimitiveDemo.Age.Inequality.Value.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.Inequality.Self.g.cs",
+        "description": "Generated File 16  from 19 : PrimitiveDemo.Age.Inequality.Self.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.IEquatable.Value.g.cs",
+        "description": "Generated File 15  from 19 : PrimitiveDemo.Age.IEquatable.Value.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.IEquatable.Value.Equals.g.cs",
+        "description": "Generated File 14  from 19 : PrimitiveDemo.Age.IEquatable.Value.Equals.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.IEquatable.Self.g.cs",
+        "description": "Generated File 13  from 19 : PrimitiveDemo.Age.IEquatable.Self.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.IEquatable.Self.Equals.g.cs",
+        "description": "Generated File 12  from 19 : PrimitiveDemo.Age.IEquatable.Self.Equals.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.GetHashCode.g.cs",
+        "description": "Generated File 11  from 19 : PrimitiveDemo.Age.GetHashCode.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.Equals.g.cs",
+        "description": "Generated File 10  from 19 : PrimitiveDemo.Age.Equals.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.Equality.Value.g.cs",
+        "description": "Generated File 9  from 19 : PrimitiveDemo.Age.Equality.Value.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.Equality.Self.g.cs",
+        "description": "Generated File 8  from 19 : PrimitiveDemo.Age.Equality.Self.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.ctor.g.cs",
+        "description": "Generated File 7  from 19 : PrimitiveDemo.Age.ctor.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.ConvertTo.g.cs",
+        "description": "Generated File 6  from 19 : PrimitiveDemo.Age.ConvertTo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.TypeGenerator/PrimitiveDemo.Age.ConvertFrom.g.cs",
+        "description": "Generated File 5  from 19 : PrimitiveDemo.Age.ConvertFrom.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.SequenceEqualityComparerGenerator/Monify.Internal.SequenceEqualityComparer.g.cs",
+        "description": "Generated File 4  from 19 : Monify.Internal.SequenceEqualityComparer.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.HashCodeGenerator/Monify.Internal.HashCode.g.cs",
+        "description": "Generated File 3  from 19 : Monify.Internal.HashCode.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.AttributeGenerator/MonifyAttribute.NonGeneric.g.cs",
+        "description": "Generated File 2  from 19 : MonifyAttribute.NonGeneric.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Monify/src/PrimitiveDemo/obj/GX/Monify/Monify.AttributeGenerator/MonifyAttribute.Generic.g.cs",
+        "description": "Generated File 1  from 19 : MonifyAttribute.Generic.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
