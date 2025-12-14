@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Imposter",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Imposter/src/TestClock/TestClock.csproj",
+      "description": "First, we add Nuget  [Imposter](https://www.nuget.org/packages/Imposter/) in csproj  ",
+      "pattern": "Imposter"
+    }
+
+        ,{
+        "file": "rscg_examples/Imposter/src/TestClock/Usings.cs",
+        "description": "File Usings.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Imposter/src/TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Imposter/src/TestClock/obj/GX/Imposter.CodeGenerator/Imposter.CodeGenerator.CodeGenerator.ImposterGenerator/IMyClockImposter.g.cs",
+        "description": "Generated File 1  from 1 : IMyClockImposter.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
