@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Imposter",
+      "nuget":[
+         "https://www.nuget.org/packages/Imposter/"
+      ],
+      "link":"https://github.com/themidnightgospel/Imposter",
+      "author":"Bitchiko Tchelidze",
+      "source":"https://github.com/themidnightgospel/Imposter"
+   },
+   "data":{
+      "goodFor":["Generate classes from interfaces and allows return of mock data.","Useful for testing and prototyping."],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["TestClock.cs","Usings.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
