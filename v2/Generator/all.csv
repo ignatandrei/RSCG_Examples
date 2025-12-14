@@ -244,3 +244,4 @@ Nr,Key,Source,Category
 243,RSCG_MCP2File, https://github.com/ignatandrei/RSCG_OpenApi2MCP,MCP
 244,BoolParameterGenerator, https://github.com/9swampy/BoolEnumGenerator,Bool
 245,Monify, https://github.com/MooVC/monify,PrimitiveObsession
+246,Imposter, https://github.com/themidnightgospel/Imposter,Tests
