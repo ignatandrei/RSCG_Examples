@@ -8,11 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="andrei.svg" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <AdditionalFiles Include="andrei.svg" />
+    <AdditionalFiles Include="andrei-16.svg" />
   </ItemGroup>
 	
 
