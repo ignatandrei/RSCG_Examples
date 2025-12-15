@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 246 RSCG list by category
-description: 246 RSCG list by category
+title: 247 RSCG list by category
+description: 247 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -145,7 +145,7 @@ import DocCardList from '@theme/DocCardList';
 ## Blazor 
 <details>
     
-  <summary>Expand Blazor =>examples:4</summary>
+  <summary>Expand Blazor =>examples:5</summary>
         
 
 
@@ -165,6 +165,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [BadIdeas.Icons.FontAwesome](/docs/BadIdeas.Icons.FontAwesome)
+
+        
+
+
+[BlazorOcticons](/docs/BlazorOcticons)
 
 </details>
     
@@ -1589,6 +1594,8 @@ flowchart LR;
     Blazor--> Blazor.TSRuntime((Blazor.TSRuntime))
 
     Blazor--> BadIdeas.Icons.FontAwesome((BadIdeas.Icons.FontAwesome))
+
+    Blazor--> BlazorOcticons((BlazorOcticons))
 
     Bool--> BoolParameterGenerator((BoolParameterGenerator))
 

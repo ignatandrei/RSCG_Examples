@@ -245,3 +245,4 @@ Nr,Key,Source,Category
 244,BoolParameterGenerator, https://github.com/9swampy/BoolEnumGenerator,Bool
 245,Monify, https://github.com/MooVC/monify,PrimitiveObsession
 246,Imposter, https://github.com/themidnightgospel/Imposter,Tests
+247,BlazorOcticons, https://github.com/BlazorOcticons/BlazorOcticons,Blazor

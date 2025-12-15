@@ -9,9 +9,9 @@
       "source":"https://github.com/BlazorOcticons/BlazorOcticons"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["Generates Blazor components for GitHub Octicons SVG icons or from svg.","Easily integrate GitHub Octicons into your Blazor applications."],
       "csprojDemo":"BlazorDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","andrei-16.svg","Andrei16.razor"],
       "excludeDirectoryGenerated":["Microsoft.CodeAnalysis.Razor.Compiler"],
       "includeAdditionalFiles":[""]
    },
