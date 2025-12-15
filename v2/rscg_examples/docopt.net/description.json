@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"docopt.net",
+      "nuget":[
+         "https://www.nuget.org/packages/docopt.net/"
+      ],
+      "link":"https://github.com/docopt/docopt.net",
+      "author":"Atif Aziz",
+      "source":"https://github.com/docopt/docopt.net"
+   },
+   "data":{
+      "goodFor":["Generating command line argument parsers from usage documentation."],
+      "csprojDemo":"ConsoleArgs.csproj",
+      "csFiles":["Program.cs","Program.docopt.txt"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

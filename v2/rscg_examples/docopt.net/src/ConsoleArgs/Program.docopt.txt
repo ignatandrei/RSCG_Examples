@@ -1,0 +1,12 @@
+Array 2 Any
+
+Usage:
+  array_2_any.exe translate <text>
+  array_2_any.exe translatefile <nameFile>
+  array_2_any.exe (-h | --help)
+  array_2_any.exe --version
+
+Options:
+  -h --help     Show this screen.
+  --version     Show version.
+  --verbose     Show more output.
