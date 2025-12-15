@@ -63,17 +63,17 @@ hypothetical program called Naval Fate:
     Naval Fate.
 
     Usage:
-      naval_fate.exe ship new <name>...
-      naval_fate.exe ship <name> move <x> <y> [--speed=<kn>]
-      naval_fate.exe ship shoot <x> <y>
-      naval_fate.exe mine (set|remove) <x> <y> [--moored | --drifting]
+      naval_fate.exe ship new \<name\>...
+      naval_fate.exe ship \<name\> move \<x\> \<y\> [--speed=\<kn\>]
+      naval_fate.exe ship shoot \<x\> \<y\>
+      naval_fate.exe mine (set|remove) \<x\> \<y\> [--moored | --drifting]
       naval_fate.exe (-h | --help)
       naval_fate.exe --version
 
     Options:
       -h --help     Show this screen.
       --version     Show version.
-      --speed=<kn>  Speed in knots [default: 10].
+      --speed=\<kn\>  Speed in knots [default: 10].
       --moored      Moored (anchored) mine.
       --drifting    Drifting mine.
 
@@ -90,8 +90,8 @@ using DocoptNet;
 const string usage = @"Naval Fate.
 
 Usage:
-  naval_fate.exe ship new <name>...
-  naval_fate.exe ship <name> move <x> <y> [--speed=<kn>]
+  naval_fate.exe ship new \<name\>...
+  naval_fate.exe ship \<name\> move <x> <y> [--speed=\<kn\>]
   naval_fate.exe ship shoot <x> <y>
   naval_fate.exe mine (set|remove) <x> <y> [--moored | --drifting]
   naval_fate.exe (-h | --help)
@@ -100,7 +100,7 @@ Usage:
 Options:
   -h --help     Show this screen.
   --version     Show version.
-  --speed=<kn>  Speed in knots [default: 10].
+  --speed=\<kn\>  Speed in knots [default: 10].
   --moored      Moored (anchored) mine.
   --drifting    Drifting mine.
 
@@ -115,7 +115,7 @@ See the [documentation] for more examples and uses of the **docopt.net** API.
 
 ## Documentation
 
-The documentation can be found online at <https://docopt.github.io/docopt.net/>.
+The documentation can be found online at https://docopt.github.io/docopt.net/.
 
 ## Installation
 
@@ -125,8 +125,8 @@ Install [the package][nupkg] in a .NET project using:
 
 ## Copyright and License
 
-- &copy; 2012-2014 Vladimir Keleshev <vladimir@keleshev.com>
-- &copy; 2013 Dinh Doan Van Bien <dinh@doanvanbien.com>
+- &copy; 2012-2014 Vladimir Keleshev vladimir@keleshev.com
+- &copy; 2013 Dinh Doan Van Bien dinh@doanvanbien.com
 - &copy; 2021 Atif Aziz
 - Portions &copy; .NET Foundation and Contributors
 - Portions &copy; West Wind Technologies, 2008
