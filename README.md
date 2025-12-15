@@ -1,10 +1,10 @@
-# RSCG - 246 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 247 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 246 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 247 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-12-13 => 13 December 2025
+## Latest Update : 2025-12-14 => 14 December 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 246 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 247 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 247. [BlazorOcticons](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BlazorOcticons) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor) category 
+
+Generated on : 2025-12-14 => 14 December 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Evgeniy K.
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/BlazorOcticons/](https://www.nuget.org/packages/BlazorOcticons/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/BlazorOcticons](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BlazorOcticons)
+
+Source: [https://github.com/BlazorOcticons/BlazorOcticons](https://github.com/BlazorOcticons/BlazorOcticons)
+
+</details>
+
 ### 246. [Imposter](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Imposter) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
 
 Generated on : 2025-12-13 => 13 December 2025

@@ -260,6 +260,7 @@ input-files:
 - examples/BoolParameterGenerator.html
 - examples/Monify.html
 - examples/Imposter.html
+- examples/BlazorOcticons.html
 
 # or you may use input-file: with a single value
 # defaults:

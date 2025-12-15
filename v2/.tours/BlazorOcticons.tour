@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "BlazorOcticons",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/BlazorOcticons/src/BlazorDemo/BlazorDemo.csproj",
+      "description": "First, we add Nuget  [BlazorOcticons](https://www.nuget.org/packages/BlazorOcticons/) in csproj  ",
+      "pattern": "BlazorOcticons"
+    }
+
+        ,{
+        "file": "rscg_examples/BlazorOcticons/src/BlazorDemo/Octicons/Andrei16.razor",
+        "description": "File Andrei16.razor  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/BlazorOcticons/src/BlazorDemo/andrei-16.svg",
+        "description": "File andrei-16.svg  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/BlazorOcticons/src/BlazorDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/BlazorOcticons/src/BlazorDemo/BlazorDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+  ],
+
+  "ref": "main"
+
+}
