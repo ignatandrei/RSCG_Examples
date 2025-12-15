@@ -1977,6 +1977,14 @@
       "Source": "https://github.com/BlazorOcticons/BlazorOcticons",
       "Category": "Blazor",
       "AddedOn": "2025-12-14T00:00:00"
+    },
+    {
+      "Name": "docopt.net",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/docopt.net",
+      "NuGet": "https://www.nuget.org/packages/docopt.net/",
+      "Source": "https://github.com/docopt/docopt.net",
+      "Category": "CommandLine",
+      "AddedOn": "2025-12-15T00:00:00"
     }
   ]
 }

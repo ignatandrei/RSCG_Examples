@@ -246,3 +246,4 @@ Nr,Key,Source,Category
 245,Monify, https://github.com/MooVC/monify,PrimitiveObsession
 246,Imposter, https://github.com/themidnightgospel/Imposter,Tests
 247,BlazorOcticons, https://github.com/BlazorOcticons/BlazorOcticons,Blazor
+248,docopt.net, https://github.com/docopt/docopt.net,CommandLine

@@ -1,10 +1,10 @@
-# RSCG - 247 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 248 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 247 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 248 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-12-14 => 14 December 2025
+## Latest Update : 2025-12-15 => 15 December 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,32 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 247 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 248 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 248. [docopt.net](https://ignatandrei.github.io/RSCG_Examples/v2/docs/docopt.net) , in the [CommandLine](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#commandline) category 
+
+Generated on : 2025-12-15 => 15 December 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Atif Aziz
+
+docopt.net is the .net version of the docopt python beautiful command line parser.  docopt.net helps you define an interface for your command-line app, and automatically generate a parser for it. docopt.net is based on conventions that have been used for decades in help messages and man pages for program interface description.  Interface description in docopt.net is such a help message, but formalized. Check out http://docopt.org for a more detailed explanation.
+         Quick example:  var arguments = new DocOpt().Apply("Usage: prog [-a] [-b] FILE", args); if (arguments["-a"].IsTrue) { ... }
+          } 
+
+Nuget: [https://www.nuget.org/packages/docopt.net/](https://www.nuget.org/packages/docopt.net/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/docopt.net](https://ignatandrei.github.io/RSCG_Examples/v2/docs/docopt.net)
+
+Source: [https://github.com/docopt/docopt.net](https://github.com/docopt/docopt.net)
+
+</details>
+
 ### 247. [BlazorOcticons](https://ignatandrei.github.io/RSCG_Examples/v2/docs/BlazorOcticons) , in the [Blazor](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#blazor) category 
 
 Generated on : 2025-12-14 => 14 December 2025

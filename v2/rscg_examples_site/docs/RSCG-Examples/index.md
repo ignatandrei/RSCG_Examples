@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 247 RSCG list by category
-description: 247 RSCG list by category
+title: 248 RSCG list by category
+description: 248 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -275,7 +275,7 @@ import DocCardList from '@theme/DocCardList';
 ## CommandLine 
 <details>
     
-  <summary>Expand CommandLine =>examples:4</summary>
+  <summary>Expand CommandLine =>examples:5</summary>
         
 
 
@@ -295,6 +295,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TeCLI](/docs/TeCLI)
+
+        
+
+
+[docopt.net](/docs/docopt.net)
 
 </details>
     
@@ -1632,6 +1637,8 @@ flowchart LR;
     CommandLine--> ConsoleAppFramework((ConsoleAppFramework))
 
     CommandLine--> TeCLI((TeCLI))
+
+    CommandLine--> docopt.net((docopt.net))
 
     Console--> Figgle((Figgle))
 
