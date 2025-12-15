@@ -14,11 +14,18 @@
 
 
 	<ItemGroup>
-    <PackageReference Include="BlazorOcticons" Version="1.2.0" />
-    <PackageReference Include="BlazorOcticonsGenerator" Version="1.2.0">
+    <PackageReference Include="BlazorOcticons" Version="1.3.0" />
+    <PackageReference Include="BlazorOcticonsGenerator" Version="1.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.1" PrivateAssets="all" />
+  </ItemGroup>
+
+  <!-- Use only local test icons -->
+  <ItemGroup>
+    <AdditionalFiles Remove="$(BlazorOcticonsIconsPath)**\*.svg" />
   </ItemGroup>
 	
 
