@@ -74,6 +74,12 @@ https://github.com/search?q=repo%3Adotnet%2Fruntime%20IIncrementalGenerator&type
 https://github.com/search?q=org%3Adotnet+IIncrementalGenerator+language%3AC%23&type=code&l=C%23&p=2
 
 
+## Benefits
+
+https://levelup.gitconnected.com/why-we-left-automapper-for-net-source-generators-36c47e0c10d9
+
+https://www.tim-maes.com/blog/2025/11/07/dotnet-mappers-in-2025/ 
+
 
 ## More Links
 
@@ -87,8 +93,15 @@ Second iteration , incremental generators: https://github.com/dotnet/roslyn/blob
 
 Andrew Lock's blog post on source generators:  https://andrewlock.net/series/creating-a-source-generator/
 
-Also please read 
+Also from Andrew Lock please read 
+
 https://andrewlock.net/creating-a-source-generator-part-8-solving-the-source-generator-marker-attribute-problem-part2/
+
+https://andrewlock.net/creating-a-source-generator-part-13-providing-and-accessing-msbuild-settings-in-source-generators/
+
+For creating the Attribute please read
+
+https://andrewlock.net/exploring-dotnet-10-preview-features-4-solving-the-source-generator-marker-attribute-problem-in-dotnet-10
 
 Jason Bock on constructing AutoDeconstruct : https://codemag.com/Article/2305061/Writing-Code-to-Generate-Code-in-C#
 
@@ -125,3 +138,8 @@ Nuget:
 https://www.nuget.org/packages?q=Tags%3A%22SourceGenerator%22&prerel=true&sortby=created-desc
 
 https://www.nuget.org/packages?q=Tags%3A%22source-generation%22&prerel=false&sortby=created-desc
+
+Github
+
+https://github.com/search?q=repo%3Adotnet%2Fdotnet%20IIncrementalGenerator&type=code
+

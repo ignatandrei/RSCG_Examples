@@ -961,6 +961,16 @@
       "ID":246,
       "name":"https://www.nuget.org/packages/X39.Roslyn.Property",
       "why":"later"
+    },
+    {
+      "ID":247,
+      "name":"https://github.com/IeuanWalker/MinimalApi.Endpoints/",
+      "why":"later"
+    },
+    {
+      "ID":248,
+      "name":"https://github.com/Aymen83/AspectWeaver",
+      "why":"later"
     }
 
   ]
