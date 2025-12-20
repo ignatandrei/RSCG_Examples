@@ -11,6 +11,12 @@
     }
 
         ,{
+        "file": "rscg_examples/Silhouette/src/ProfilerDemo/MyProfiler.cs",
+        "description": "File MyProfiler.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "rscg_examples/Silhouette/src/ProfilerDemo/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Silhouette/src/ProfilerDemo/ProfilerDemo.csproj ",
         "pattern": "this is the code"
