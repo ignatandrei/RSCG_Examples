@@ -2164,7 +2164,7 @@ Generated on : 2024-08-01 => 01 August 2024
 
 
 
-Author: AndreiIgnat
+Author: Ignat Andrei
 
 Roslyn Diagram generator for external dependencies 
 

@@ -116,7 +116,7 @@ This is the list of 249 ( 16 from Microsoft) RSCG with examples
 |156| [RSCG_NameGenerator by Ignat Andrei ](/docs/RSCG_NameGenerator)|2024-08-25 => 25 August 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |155| [Coplt.Dropping by 2A5F ](/docs/Coplt.Dropping)|2024-08-13 => 13 August 2024 | [Disposer](/docs/Categories/Disposer) |
 |154| [Fluentify by Paul Martins ](/docs/Fluentify)|2024-08-02 => 02 August 2024 | [Builder](/docs/Categories/Builder) |
-|153| [RSCG_ExportDiagram by AndreiIgnat ](/docs/RSCG_ExportDiagram)|2024-08-01 => 01 August 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|153| [RSCG_ExportDiagram by Ignat Andrei ](/docs/RSCG_ExportDiagram)|2024-08-01 => 01 August 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |152| [ServiceScan.SourceGenerator by Oleksandr Liakhevych ](/docs/ServiceScan.SourceGenerator)|2024-07-22 => 22 July 2024 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |151| [ThisAssembly.Strings by Daniel Cazzulino ](/docs/ThisAssembly.Strings)|2024-07-21 => 21 July 2024 | [FilesToCode](/docs/Categories/FilesToCode) |
 |150| [ThisAssembly.Metadata by Daniel Cazzulino ](/docs/ThisAssembly.Metadata)|2024-07-20 => 20 July 2024 | [EnhancementProject](/docs/Categories/EnhancementProject) |
