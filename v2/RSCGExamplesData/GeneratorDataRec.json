@@ -1503,5 +1503,11 @@
     "Category": 32,
     "dtStart": "2025-12-15T00:00:00",
     "show": true
+  },
+  {
+    "ID":"Silhouette",
+    "Category": 44,
+    "dtStart": "2025-12-16T00:00:00",
+    "show": true
   }
 ]

@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Silhouette",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Silhouette/src/ProfilerDemo/ProfilerDemo.csproj",
+      "description": "First, we add Nuget  [Silhouette](https://www.nuget.org/packages/Silhouette/) in csproj  ",
+      "pattern": "Silhouette"
+    }
+
+        ,{
+        "file": "rscg_examples/Silhouette/src/ProfilerDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Silhouette/src/ProfilerDemo/ProfilerDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Silhouette/src/ProfilerDemo/obj/GX/Silhouette.SourceGenerator/Silhouette.SourceGenerator.ProfilerAttributeSourceGenerator/silhouette.dllmain.g.cs",
+        "description": "Generated File 1  from 1 : silhouette.dllmain.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

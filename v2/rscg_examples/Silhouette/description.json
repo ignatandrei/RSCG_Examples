@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Silhouette",
+      "nuget":[
+         "https://www.nuget.org/packages/Silhouette/"
+      ],
+      "link":"https://github.com/kevingosse/Silhouette",
+      "author":"Kevin Gosse",
+      "source":"https://github.com/kevingosse/Silhouette"
+   },
+   "data":{
+      "goodFor":["Profiling .net applications","Measuring performance improvements"],
+      "csprojDemo":"ProfilerDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":["NativeObjects"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
