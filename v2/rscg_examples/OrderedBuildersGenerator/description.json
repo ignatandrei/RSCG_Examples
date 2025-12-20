@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"OrderedBuildersGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/OrderedBuildersGenerator/"
+      ],
+      "link":"https://github.com/Georgiy-Petrov/OrderedBuildersGenerator",
+      "author":"Georgiy Petrov",
+      "source":"https://github.com/Georgiy-Petrov/OrderedBuildersGenerator"
+   },
+   "data":{
+      "goodFor":["Generating builder classes with enforced property setting order"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
