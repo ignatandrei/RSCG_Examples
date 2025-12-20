@@ -1993,6 +1993,14 @@
       "Source": "https://github.com/kevingosse/Silhouette",
       "Category": "Profiler",
       "AddedOn": "2025-12-16T00:00:00"
+    },
+    {
+      "Name": "Facet.Search",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Facet.Search",
+      "NuGet": "https://www.nuget.org/packages/Facet.Search/",
+      "Source": "https://github.com/Tim-Maes/Facet.Search",
+      "Category": "Database",
+      "AddedOn": "2025-12-17T00:00:00"
     }
   ]
 }

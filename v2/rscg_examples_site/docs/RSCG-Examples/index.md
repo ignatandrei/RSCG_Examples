@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 249 RSCG list by category
-description: 249 RSCG list by category
+title: 250 RSCG list by category
+description: 250 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -361,7 +361,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:7</summary>
+  <summary>Expand Database =>examples:8</summary>
         
 
 
@@ -396,6 +396,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Unflat](/docs/Unflat)
+
+        
+
+
+[Facet.Search](/docs/Facet.Search)
 
 </details>
     
@@ -1681,6 +1686,8 @@ flowchart LR;
     Database--> Finch.Generators((Finch.Generators))
 
     Database--> Unflat((Unflat))
+
+    Database--> Facet.Search((Facet.Search))
 
     Decorator--> DecoratorGenerator((DecoratorGenerator))
 

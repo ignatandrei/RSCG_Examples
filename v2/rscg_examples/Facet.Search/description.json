@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating search from C# clasess and properties","Integrating search in .NET applications"],
       "csprojDemo":"SearchDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
