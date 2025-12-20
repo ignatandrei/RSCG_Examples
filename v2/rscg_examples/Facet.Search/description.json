@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Facet.Search",
+      "nuget":[
+         "https://www.nuget.org/packages/Facet.Search/"
+      ],
+      "link":"https://github.com/Tim-Maes/Facet.Search",
+      "author":"Tim Maes",
+      "source":"https://github.com/Tim-Maes/Facet.Search"
+   },
+   "data":{
+      "goodFor":["Generating search from C# clasess and properties","Integrating search in .NET applications"],
+      "csprojDemo":"SearchDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

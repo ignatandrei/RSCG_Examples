@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Facet.Search",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Facet.Search/src/SearchDemo/SearchDemo.csproj",
+      "description": "First, we add Nuget  [Facet.Search](https://www.nuget.org/packages/Facet.Search/) in csproj  ",
+      "pattern": "Facet.Search"
+    }
+
+        ,{
+        "file": "rscg_examples/Facet.Search/src/SearchDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Facet.Search/src/SearchDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Facet.Search/src/SearchDemo/SearchDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Facet.Search/src/SearchDemo/obj/GX/Facet.Search.Generators/Facet.Search.Generators.FacetSearchGenerator/PersonSearchMetadata.g.cs",
+        "description": "Generated File 4  from 4 : PersonSearchMetadata.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Facet.Search/src/SearchDemo/obj/GX/Facet.Search.Generators/Facet.Search.Generators.FacetSearchGenerator/PersonSearchFilter.g.cs",
+        "description": "Generated File 3  from 4 : PersonSearchFilter.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Facet.Search/src/SearchDemo/obj/GX/Facet.Search.Generators/Facet.Search.Generators.FacetSearchGenerator/PersonSearchExtensions.g.cs",
+        "description": "Generated File 2  from 4 : PersonSearchExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Facet.Search/src/SearchDemo/obj/GX/Facet.Search.Generators/Facet.Search.Generators.FacetSearchGenerator/PersonFacetAggregations.g.cs",
+        "description": "Generated File 1  from 4 : PersonFacetAggregations.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
