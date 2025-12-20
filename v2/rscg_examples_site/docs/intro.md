@@ -115,6 +115,7 @@ Unity: https://docs.unity3d.com/Packages/com.unity.roslyn@0.2/manual/index.html
 
 Elmah blog: https://blog.elmah.io/mastering-incremental-source-generators-in-csharp-a-complete-guide-with-example/
 
+JSON Bock : https://codemag.com/Article/2305061/Writing-Code-to-Generate-Code-in-C# 
 Other sites with RSCG:
 
 https://github.com/amis92/csharp-source-generators
