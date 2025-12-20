@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "OrderedBuildersGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/OrderedBuildersGenerator/src/Builder/Builder.csproj",
+      "description": "First, we add Nuget  [OrderedBuildersGenerator](https://www.nuget.org/packages/OrderedBuildersGenerator/) in csproj  ",
+      "pattern": "OrderedBuildersGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/OrderedBuildersGenerator/src/Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/OrderedBuildersGenerator/src/Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/OrderedBuildersGenerator/src/Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/OrderedBuildersGenerator/src/Builder/obj/GX/OrderedBuildersGenerator/OrderedBuildersGenerator.OrderedBuildersGenerator/PersonBuilder.g.cs",
+        "description": "Generated File 2  from 2 : PersonBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/OrderedBuildersGenerator/src/Builder/obj/GX/OrderedBuildersGenerator/OrderedBuildersGenerator.OrderedBuildersGenerator/OrderBuilder.g.cs",
+        "description": "Generated File 1  from 2 : OrderBuilder.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

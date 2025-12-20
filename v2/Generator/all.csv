@@ -249,3 +249,4 @@ Nr,Key,Source,Category
 248,docopt.net, https://github.com/docopt/docopt.net,CommandLine
 249,Silhouette, https://github.com/kevingosse/Silhouette,Profiler
 250,Facet.Search, https://github.com/Tim-Maes/Facet.Search,Database
+251,OrderedBuildersGenerator, https://github.com/Georgiy-Petrov/OrderedBuildersGenerator,Builder

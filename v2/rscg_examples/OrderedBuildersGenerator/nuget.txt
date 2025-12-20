@@ -1,0 +1,1 @@
+Fluent, compile-safe step builders from simple annotated classes — powered by a Roslyn incremental source generator.

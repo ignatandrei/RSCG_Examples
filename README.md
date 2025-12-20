@@ -1,10 +1,10 @@
-# RSCG - 250 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 251 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 250 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 251 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2025-12-17 => 17 December 2025
+## Latest Update : 2025-12-18 => 18 December 2025
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 250 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 251 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 251. [OrderedBuildersGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OrderedBuildersGenerator) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
+
+Generated on : 2025-12-18 => 18 December 2025
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Georgiy Petrov
+
+Fluent, compile-safe step builders from simple annotated classes — powered by a Roslyn incremental source generator. 
+
+Nuget: [https://www.nuget.org/packages/OrderedBuildersGenerator/](https://www.nuget.org/packages/OrderedBuildersGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/OrderedBuildersGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/OrderedBuildersGenerator)
+
+Source: [https://github.com/Georgiy-Petrov/OrderedBuildersGenerator](https://github.com/Georgiy-Petrov/OrderedBuildersGenerator)
+
+</details>
+
 ### 250. [Facet.Search](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Facet.Search) , in the [Database](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#database) category 
 
 Generated on : 2025-12-17 => 17 December 2025

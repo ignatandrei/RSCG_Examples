@@ -1,6 +1,6 @@
 # Just later
 
-## Latest Update : 2025-12-17 => 17 December 2025
+## Latest Update : 2025-12-18 => 18 December 2025
 
 
 

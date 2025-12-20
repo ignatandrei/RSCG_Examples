@@ -1,6 +1,6 @@
 <h1>Builder</h1>
 
-Number RSCG: 7
+Number RSCG: 8
 
         1 [Architect.DomainModeling](/docs/Architect.DomainModeling) [![Nuget](https://img.shields.io/nuget/dt/Architect.DomainModeling?label=Architect.DomainModeling)](https://www.nuget.org/packages/Architect.DomainModeling/) ![GitHub Repo stars](https://img.shields.io/github/stars/TheArchitectDev/Architect.DomainModeling?style=social) 2024-03-02
     
@@ -12,7 +12,9 @@ Number RSCG: 7
     
         5 [Hsu.Sg.FluentMember](/docs/Hsu.Sg.FluentMember) [![Nuget](https://img.shields.io/nuget/dt/Hsu.Sg.FluentMember?label=Hsu.Sg.FluentMember)](https://www.nuget.org/packages/Hsu.Sg.FluentMember/) ![GitHub Repo stars](https://img.shields.io/github/stars/hsu-net/source-generators?style=social) 2024-11-08
     
-        6 [ShadowWriterBuilder](/docs/ShadowWriterBuilder) [![Nuget](https://img.shields.io/nuget/dt/ShadowWriter?label=ShadowWriter)](https://www.nuget.org/packages/ShadowWriter/) ![GitHub Repo stars](https://img.shields.io/github/stars/StefanStolz/ShadowWriter?style=social) 2025-07-24
+        6 [OrderedBuildersGenerator](/docs/OrderedBuildersGenerator) [![Nuget](https://img.shields.io/nuget/dt/OrderedBuildersGenerator?label=OrderedBuildersGenerator)](https://www.nuget.org/packages/OrderedBuildersGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/OrderedBuildersGenerator?style=social) 2025-12-18
     
-        7 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator) [![Nuget](https://img.shields.io/nuget/dt/StepwiseBuilderGenerator?label=StepwiseBuilderGenerator)](https://www.nuget.org/packages/StepwiseBuilderGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/StepwiseBuilderGenerator?style=social) 2025-03-23
+        7 [ShadowWriterBuilder](/docs/ShadowWriterBuilder) [![Nuget](https://img.shields.io/nuget/dt/ShadowWriter?label=ShadowWriter)](https://www.nuget.org/packages/ShadowWriter/) ![GitHub Repo stars](https://img.shields.io/github/stars/StefanStolz/ShadowWriter?style=social) 2025-07-24
+    
+        8 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator) [![Nuget](https://img.shields.io/nuget/dt/StepwiseBuilderGenerator?label=StepwiseBuilderGenerator)](https://www.nuget.org/packages/StepwiseBuilderGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/StepwiseBuilderGenerator?style=social) 2025-03-23
         
