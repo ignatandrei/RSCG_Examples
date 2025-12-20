@@ -262,6 +262,7 @@ input-files:
 - examples/Imposter.html
 - examples/BlazorOcticons.html
 - examples/docopt.net.html
+- examples/Silhouette.html
 
 # or you may use input-file: with a single value
 # defaults:
