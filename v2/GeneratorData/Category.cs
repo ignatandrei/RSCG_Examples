@@ -45,6 +45,7 @@ public enum Category
     Validator=40,
     Decorator= 41,
     MCP= 42,
-    Bool=43
+    Bool=43,
+    Profiler=44,
 }
 

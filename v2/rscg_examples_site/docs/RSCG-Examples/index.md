@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 248 RSCG list by category
-description: 248 RSCG list by category
+title: 249 RSCG list by category
+description: 249 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1315,6 +1315,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Profiler 
+<details>
+    
+  <summary>Expand Profiler =>examples:1</summary>
+        
+
+
+[Silhouette](/docs/Silhouette)
+
+</details>
+    
+
 ## RX 
 <details>
     
@@ -1979,6 +1991,8 @@ flowchart LR;
     PrimitiveObsession--> StronglyTypedUid((StronglyTypedUid))
 
     PrimitiveObsession--> Monify((Monify))
+
+    Profiler--> Silhouette((Silhouette))
 
     RX--> RxSourceGenerator((RxSourceGenerator))
 
