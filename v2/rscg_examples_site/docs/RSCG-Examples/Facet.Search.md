@@ -327,7 +327,7 @@ obj/Debug/net8.0/generated/Facet.Search.Generators/
 
 ## License
 
-MIT License — see [LICENSE.txt](LICENSE.txt) for details.
+MIT License — see [LICENSE.txt](https://github.com/Tim-Maes/Facet.Search/LICENSE.md) for details.
 
 ## Contributing
 
