@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"RSCG_idempotency",
+      "nuget":[
+         "https://www.nuget.org/packages/RSCG_idempotency/"
+      ],
+      "link":"https://github.com/ignatandrei/RSCG_idempotency",
+      "author":"Ignat Andrei",
+      "source":"https://github.com/ignatandrei/RSCG_idempotency"
+   },
+   "data":{
+      "goodFor":["Generating code for idempotency"],
+      "csprojDemo":"IdempotencyDemo.csproj",
+      "csFiles":["Program.cs","Purchase.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

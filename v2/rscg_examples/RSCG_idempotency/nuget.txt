@@ -1,0 +1,1 @@
+Automatic generating Idempotency for function parameters

@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "RSCG_idempotency",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/IdempotencyDemo.csproj",
+      "description": "First, we add Nuget  [RSCG_idempotency](https://www.nuget.org/packages/RSCG_idempotency/) in csproj  ",
+      "pattern": "RSCG_idempotency"
+    }
+
+        ,{
+        "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/Purchase.cs",
+        "description": "File Purchase.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/RSCG_idempotency/src/IdempotencyDemo/IdempotencyDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/obj/GX/RSCG_idempotency/RSCG_idempotency.IPGen/TimeProvider.gen.cs",
+        "description": "Generated File 4  from 4 : TimeProvider.gen.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/obj/GX/RSCG_idempotency/RSCG_idempotency.IPGen/Microsoft.CodeAnalysis.EmbeddedAttribute.cs",
+        "description": "Generated File 3  from 4 : Microsoft.CodeAnalysis.EmbeddedAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/obj/GX/RSCG_idempotency/RSCG_idempotency.IPGen/IdempotentAttribute.gen.cs",
+        "description": "Generated File 2  from 4 : IdempotentAttribute.gen.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/RSCG_idempotency/src/IdempotencyDemo/obj/GX/RSCG_idempotency/RSCG_idempotency.IPGen/IdempotencyDemo_Purchase_PurchaseNow_UniqueId.cs",
+        "description": "Generated File 1  from 4 : IdempotencyDemo_Purchase_PurchaseNow_UniqueId.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
