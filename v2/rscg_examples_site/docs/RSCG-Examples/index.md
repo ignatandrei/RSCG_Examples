@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 251 RSCG list by category
-description: 251 RSCG list by category
+title: 252 RSCG list by category
+description: 252 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1040,6 +1040,18 @@ import DocCardList from '@theme/DocCardList';
 </details>
     
 
+## Idempotency 
+<details>
+    
+  <summary>Expand Idempotency =>examples:1</summary>
+        
+
+
+[RSCG_idempotency](/docs/RSCG_idempotency)
+
+</details>
+    
+
 ## Interface 
 <details>
     
@@ -1919,6 +1931,8 @@ flowchart LR;
     FunctionalProgramming--> rscg_demeter((rscg_demeter))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
+
+    Idempotency--> RSCG_idempotency((RSCG_idempotency))
 
     Interface--> RSCG_Static((RSCG_Static))
 

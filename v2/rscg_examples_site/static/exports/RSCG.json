@@ -2009,6 +2009,14 @@
       "Source": "https://github.com/Georgiy-Petrov/OrderedBuildersGenerator",
       "Category": "Builder",
       "AddedOn": "2025-12-18T00:00:00"
+    },
+    {
+      "Name": "RSCG_idempotency",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/RSCG_idempotency",
+      "NuGet": "https://www.nuget.org/packages/RSCG_idempotency/",
+      "Source": "https://github.com/ignatandrei/RSCG_idempotency",
+      "Category": "Idempotency",
+      "AddedOn": "2026-01-28T00:00:00"
     }
   ]
 }
