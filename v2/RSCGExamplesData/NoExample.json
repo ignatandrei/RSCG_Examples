@@ -997,16 +997,6 @@
       "name":"https://github.com/sebastienros/comptime",
       "why":"later"
     },
-    {
-      "ID":254,
-      "name":"https://github.com/skarllot/EnumUtilities",
-      "why":"later"
-    },
-    {
-      "ID":255,
-      "name":"https://github.com/lofcz/FastCloner/",
-      "why":"later"
-    },
     {"ID":256,
   "name":"https://github.com/ANcpLua/ErrorOrX",
   "why":"later" 
