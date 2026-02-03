@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 252 RSCG with examples in descending chronological order
+## 253 RSCG with examples in descending chronological order
 
-This is the list of 252 ( 16 from Microsoft) RSCG with examples 
+This is the list of 253 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 252 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|253| [FastCloner by Matěj Štágl ](/docs/FastCloner)|2026-02-01 => 01 February 2026 | [Clone](/docs/Categories/Clone) |
 |252| [RSCG_idempotency by Ignat Andrei ](/docs/RSCG_idempotency)|2026-01-28 => 28 January 2026 | [Idempotency](/docs/Categories/Idempotency) |
 |251| [OrderedBuildersGenerator by Georgiy Petrov ](/docs/OrderedBuildersGenerator)|2025-12-18 => 18 December 2025 | [Builder](/docs/Categories/Builder) |
 |250| [Facet.Search by Tim Maes ](/docs/Facet.Search)|2025-12-17 => 17 December 2025 | [Database](/docs/Categories/Database) |
