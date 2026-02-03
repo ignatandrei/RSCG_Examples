@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"FastCloner",
+      "nuget":[
+         "https://www.nuget.org/packages/FastCloner/"
+      ],
+      "link":"https://github.com/lofcz/FastCloner/",
+      "author":"Matěj Štágl",
+      "source":"https://github.com/lofcz/FastCloner/"
+   },
+   "data":{
+      "goodFor":["Cloning objects"],
+      "csprojDemo":"CloneData.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

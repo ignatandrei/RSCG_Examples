@@ -2017,6 +2017,14 @@
       "Source": "https://github.com/ignatandrei/RSCG_idempotency",
       "Category": "Idempotency",
       "AddedOn": "2026-01-28T00:00:00"
+    },
+    {
+      "Name": "FastCloner",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastCloner",
+      "NuGet": "https://www.nuget.org/packages/FastCloner/",
+      "Source": "https://github.com/lofcz/FastCloner/",
+      "Category": "Clone",
+      "AddedOn": "2026-02-01T00:00:00"
     }
   ]
 }

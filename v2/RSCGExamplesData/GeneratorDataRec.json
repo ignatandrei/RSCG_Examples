@@ -1527,5 +1527,12 @@
     "Category":45,
     "dtStart":"2026-01-28T00:00:00",
     "show":true
+  },
+  {
+
+    "ID":"FastCloner",
+    "Category":29,
+    "dtStart":"2026-02-01T00:00:00",
+    "show":true
   }
 ]

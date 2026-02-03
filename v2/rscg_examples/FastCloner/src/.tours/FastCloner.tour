@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "FastCloner",
+  "steps": 
+  [
+    {
+      "file": "CloneData/CloneData.csproj",
+      "description": "First, we add Nuget  [FastCloner](https://www.nuget.org/packages/FastCloner/) in csproj  ",
+      "pattern": "FastCloner"
+    }
+
+        ,{
+        "file": "CloneData/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CloneData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CloneData/CloneData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CloneData/obj/GX/FastCloner.SourceGenerator/FastCloner.SourceGenerator.FastClonerIncrementalGenerator/CloneData_Person_FastDeepClone.g.cs",
+        "description": "Generated File 5  from 5 : CloneData_Person_FastDeepClone.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/Person.g.cs",
+        "description": "Generated File 4  from 5 : Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/IClonable.g.cs",
+        "description": "Generated File 3  from 5 : IClonable.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/CloneIgnoreAttribute.g.cs",
+        "description": "Generated File 2  from 5 : CloneIgnoreAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/Dolly/Dolly.DollyGenerator/ClonableAttribute.g.cs",
+        "description": "Generated File 1  from 5 : ClonableAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 252 RSCG list by category
-description: 252 RSCG list by category
+title: 253 RSCG list by category
+description: 253 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -236,7 +236,7 @@ import DocCardList from '@theme/DocCardList';
 ## Clone 
 <details>
     
-  <summary>Expand Clone =>examples:3</summary>
+  <summary>Expand Clone =>examples:4</summary>
         
 
 
@@ -251,6 +251,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [UtilityVerse.Copy](/docs/UtilityVerse.Copy)
+
+        
+
+
+[FastCloner](/docs/FastCloner)
 
 </details>
     
@@ -1659,6 +1664,8 @@ flowchart LR;
     Clone--> Dolly((Dolly))
 
     Clone--> UtilityVerse.Copy((UtilityVerse.Copy))
+
+    Clone--> FastCloner((FastCloner))
 
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 
