@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Comptime",
+      "nuget":[
+         "https://www.nuget.org/packages/Comptime/"
+      ],
+      "link":"https://github.com/sebastienros/comptime",
+      "author":"Sebastien Ros",
+      "source":"https://github.com/sebastienros/comptime"
+   },
+   "data":{
+      "goodFor":["Replace code with result of computation at compile time"],
+      "csprojDemo":"ComptimeDemo.csproj",
+      "csFiles":["Program.cs","<ath.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
