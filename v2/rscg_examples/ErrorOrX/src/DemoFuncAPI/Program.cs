@@ -2,9 +2,9 @@ using OpenAPISwaggerUI;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+//instead of this
+//builder.Services.AddOpenApi();
+builder.Services.AddErrorOrOpenApi();
 builder.Services.AddErrorOrEndpoints();
 var app = builder.Build();
 

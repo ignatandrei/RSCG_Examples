@@ -9,10 +9,10 @@
       "source":"https://github.com/ANcpLua/ErrorOrX/"
    },
    "data":{
-      "goodFor":["API results from Functional returns"],
+      "goodFor":["API results from Functional returns of ErroOrX"],
       "csprojDemo":"DemoFuncAPI.csproj",
-      "csFiles":["Program.cs"],
-      "excludeDirectoryGenerated":[""],
+      "csFiles":["Program.cs","PersonAPI.cs"],
+      "excludeDirectoryGenerated":["Microsoft.AspNetCore.App.SourceGenerators","Microsoft.AspNetCore.OpenApi.SourceGenerators"],
       "includeAdditionalFiles":[""]
    },
    "links":{
