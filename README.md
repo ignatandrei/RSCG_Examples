@@ -1,10 +1,10 @@
-# RSCG - 253 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 254 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 253 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 254 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-02-01 => 01 February 2026
+## Latest Update : 2026-02-02 => 02 February 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 253 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 254 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 254. [ErrorOrX](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX) , in the [API](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#api) category 
+
+Generated on : 2026-02-02 => 02 February 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Alexander Nachtmanns
+
+A discriminated union type for .NET with source-generated ASP.NET Core Minimal API integration. Zero boilerplate, full AOT support. 
+
+Nuget: [https://www.nuget.org/packages/ErrorOrX/](https://www.nuget.org/packages/ErrorOrX/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX)
+
+Source: [https://github.com/ANcpLua/ErrorOrX/](https://github.com/ANcpLua/ErrorOrX/)
+
+</details>
+
 ### 253. [FastCloner](https://ignatandrei.github.io/RSCG_Examples/v2/docs/FastCloner) , in the [Clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone) category 
 
 Generated on : 2026-02-01 => 01 February 2026
@@ -5897,483 +5919,476 @@ Why I have not tested : too complicated
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/AlexNav73/CoreCraft&body=https://github.com/AlexNav73/CoreCraft
 
 
-19) [https://github.com/ANcpLua/ErrorOrX]( https://github.com/ANcpLua/ErrorOrX) , https://github.com/ANcpLua/ErrorOrX 
-
-Why I have not tested : later
-
-https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/ANcpLua/ErrorOrX&body=https://github.com/ANcpLua/ErrorOrX
-
-
-20) [https://github.com/atc-net/atc-source-generators]( https://github.com/atc-net/atc-source-generators) , https://github.com/atc-net/atc-source-generators 
+19) [https://github.com/atc-net/atc-source-generators]( https://github.com/atc-net/atc-source-generators) , https://github.com/atc-net/atc-source-generators 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/atc-net/atc-source-generators&body=https://github.com/atc-net/atc-source-generators
 
 
-21) [https://github.com/Atoen/TextLocalizer]( https://github.com/Atoen/TextLocalizer) , https://github.com/Atoen/TextLocalizer 
+20) [https://github.com/Atoen/TextLocalizer]( https://github.com/Atoen/TextLocalizer) , https://github.com/Atoen/TextLocalizer 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Atoen/TextLocalizer&body=https://github.com/Atoen/TextLocalizer
 
 
-22) [https://github.com/Aymen83/AspectWeaver]( https://github.com/Aymen83/AspectWeaver) , https://github.com/Aymen83/AspectWeaver 
+21) [https://github.com/Aymen83/AspectWeaver]( https://github.com/Aymen83/AspectWeaver) , https://github.com/Aymen83/AspectWeaver 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Aymen83/AspectWeaver&body=https://github.com/Aymen83/AspectWeaver
 
 
-23) [https://github.com/bjornhellander/TestInheritanceGenerator]( https://github.com/bjornhellander/TestInheritanceGenerator) , https://github.com/bjornhellander/TestInheritanceGenerator 
+22) [https://github.com/bjornhellander/TestInheritanceGenerator]( https://github.com/bjornhellander/TestInheritanceGenerator) , https://github.com/bjornhellander/TestInheritanceGenerator 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/bjornhellander/TestInheritanceGenerator&body=https://github.com/bjornhellander/TestInheritanceGenerator
 
 
-24) [https://github.com/borisdj/CsCodeGenerator]( https://github.com/borisdj/CsCodeGenerator) , https://github.com/borisdj/CsCodeGenerator 
+23) [https://github.com/borisdj/CsCodeGenerator]( https://github.com/borisdj/CsCodeGenerator) , https://github.com/borisdj/CsCodeGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/borisdj/CsCodeGenerator&body=https://github.com/borisdj/CsCodeGenerator
 
 
-25) [https://github.com/buchmiet/FastFsm]( https://github.com/buchmiet/FastFsm) , https://github.com/buchmiet/FastFsm 
+24) [https://github.com/buchmiet/FastFsm]( https://github.com/buchmiet/FastFsm) , https://github.com/buchmiet/FastFsm 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/buchmiet/FastFsm&body=https://github.com/buchmiet/FastFsm
 
 
-26) [https://github.com/chickensoft-games/LogicBlocks]( https://github.com/chickensoft-games/LogicBlocks) , https://github.com/chickensoft-games/LogicBlocks 
+25) [https://github.com/chickensoft-games/LogicBlocks]( https://github.com/chickensoft-games/LogicBlocks) , https://github.com/chickensoft-games/LogicBlocks 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/chickensoft-games/LogicBlocks&body=https://github.com/chickensoft-games/LogicBlocks
 
 
-27) [https://github.com/dgmjr-io/InterfaceGenerator]( https://github.com/dgmjr-io/InterfaceGenerator) , https://github.com/dgmjr-io/InterfaceGenerator 
+26) [https://github.com/dgmjr-io/InterfaceGenerator]( https://github.com/dgmjr-io/InterfaceGenerator) , https://github.com/dgmjr-io/InterfaceGenerator 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/dgmjr-io/InterfaceGenerator&body=https://github.com/dgmjr-io/InterfaceGenerator
 
 
-28) [https://github.com/eddievelasquez/IntercodeToolbox]( https://github.com/eddievelasquez/IntercodeToolbox) , https://github.com/eddievelasquez/IntercodeToolbox 
+27) [https://github.com/eddievelasquez/IntercodeToolbox]( https://github.com/eddievelasquez/IntercodeToolbox) , https://github.com/eddievelasquez/IntercodeToolbox 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/eddievelasquez/IntercodeToolbox&body=https://github.com/eddievelasquez/IntercodeToolbox
 
 
-29) [https://github.com/FoundatioFx/Foundatio.Mediator]( https://github.com/FoundatioFx/Foundatio.Mediator) , https://github.com/FoundatioFx/Foundatio.Mediator 
+28) [https://github.com/FoundatioFx/Foundatio.Mediator]( https://github.com/FoundatioFx/Foundatio.Mediator) , https://github.com/FoundatioFx/Foundatio.Mediator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/FoundatioFx/Foundatio.Mediator&body=https://github.com/FoundatioFx/Foundatio.Mediator
 
 
-30) [https://github.com/GaoNian-NET/MapperToolkit]( https://github.com/GaoNian-NET/MapperToolkit) , https://github.com/GaoNian-NET/MapperToolkit 
+29) [https://github.com/GaoNian-NET/MapperToolkit]( https://github.com/GaoNian-NET/MapperToolkit) , https://github.com/GaoNian-NET/MapperToolkit 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/GaoNian-NET/MapperToolkit&body=https://github.com/GaoNian-NET/MapperToolkit
 
 
-31) [https://github.com/IeuanWalker/MinimalApi.Endpoints/]( https://github.com/IeuanWalker/MinimalApi.Endpoints/) , https://github.com/IeuanWalker/MinimalApi.Endpoints/ 
+30) [https://github.com/IeuanWalker/MinimalApi.Endpoints/]( https://github.com/IeuanWalker/MinimalApi.Endpoints/) , https://github.com/IeuanWalker/MinimalApi.Endpoints/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/IeuanWalker/MinimalApi.Endpoints/&body=https://github.com/IeuanWalker/MinimalApi.Endpoints/
 
 
-32) [https://github.com/inputfalken/Dynatello]( https://github.com/inputfalken/Dynatello) , https://github.com/inputfalken/Dynatello 
+31) [https://github.com/inputfalken/Dynatello]( https://github.com/inputfalken/Dynatello) , https://github.com/inputfalken/Dynatello 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/inputfalken/Dynatello&body=https://github.com/inputfalken/Dynatello
 
 
-33) [https://github.com/ionite34/MinimalApiMapper]( https://github.com/ionite34/MinimalApiMapper) , https://github.com/ionite34/MinimalApiMapper 
+32) [https://github.com/ionite34/MinimalApiMapper]( https://github.com/ionite34/MinimalApiMapper) , https://github.com/ionite34/MinimalApiMapper 
 
 Why I have not tested : own idea where to generate files, so overwrites
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/ionite34/MinimalApiMapper&body=https://github.com/ionite34/MinimalApiMapper
 
 
-34) [https://github.com/JasonBock/CslaGeneratorSerialization]( https://github.com/JasonBock/CslaGeneratorSerialization) , https://github.com/JasonBock/CslaGeneratorSerialization 
+33) [https://github.com/JasonBock/CslaGeneratorSerialization]( https://github.com/JasonBock/CslaGeneratorSerialization) , https://github.com/JasonBock/CslaGeneratorSerialization 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/JasonBock/CslaGeneratorSerialization&body=https://github.com/JasonBock/CslaGeneratorSerialization
 
 
-35) [https://github.com/MoslemBenDhaou/DataSurface]( https://github.com/MoslemBenDhaou/DataSurface) , https://github.com/MoslemBenDhaou/DataSurface 
+34) [https://github.com/MoslemBenDhaou/DataSurface]( https://github.com/MoslemBenDhaou/DataSurface) , https://github.com/MoslemBenDhaou/DataSurface 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/MoslemBenDhaou/DataSurface&body=https://github.com/MoslemBenDhaou/DataSurface
 
 
-36) [https://github.com/mu-dawood/EasyValidate]( https://github.com/mu-dawood/EasyValidate) , https://github.com/mu-dawood/EasyValidate 
+35) [https://github.com/mu-dawood/EasyValidate]( https://github.com/mu-dawood/EasyValidate) , https://github.com/mu-dawood/EasyValidate 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/mu-dawood/EasyValidate&body=https://github.com/mu-dawood/EasyValidate
 
 
-37) [https://github.com/nuskey8/Csv-CSharp]( https://github.com/nuskey8/Csv-CSharp) , https://github.com/nuskey8/Csv-CSharp 
+36) [https://github.com/nuskey8/Csv-CSharp]( https://github.com/nuskey8/Csv-CSharp) , https://github.com/nuskey8/Csv-CSharp 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/nuskey8/Csv-CSharp&body=https://github.com/nuskey8/Csv-CSharp
 
 
-38) [https://github.com/OrgEleCho/EleCho.Internationalization]( https://github.com/OrgEleCho/EleCho.Internationalization) , https://github.com/OrgEleCho/EleCho.Internationalization 
+37) [https://github.com/OrgEleCho/EleCho.Internationalization]( https://github.com/OrgEleCho/EleCho.Internationalization) , https://github.com/OrgEleCho/EleCho.Internationalization 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/OrgEleCho/EleCho.Internationalization&body=https://github.com/OrgEleCho/EleCho.Internationalization
 
 
-39) [https://github.com/pekspro/DataAnnotationValuesExtractor]( https://github.com/pekspro/DataAnnotationValuesExtractor) , https://github.com/pekspro/DataAnnotationValuesExtractor 
+38) [https://github.com/pekspro/DataAnnotationValuesExtractor]( https://github.com/pekspro/DataAnnotationValuesExtractor) , https://github.com/pekspro/DataAnnotationValuesExtractor 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/pekspro/DataAnnotationValuesExtractor&body=https://github.com/pekspro/DataAnnotationValuesExtractor
 
 
-40) [https://github.com/pierre3/PlantUmlClassDiagramGenerator]( https://github.com/pierre3/PlantUmlClassDiagramGenerator) , https://github.com/pierre3/PlantUmlClassDiagramGenerator 
+39) [https://github.com/pierre3/PlantUmlClassDiagramGenerator]( https://github.com/pierre3/PlantUmlClassDiagramGenerator) , https://github.com/pierre3/PlantUmlClassDiagramGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/pierre3/PlantUmlClassDiagramGenerator&body=https://github.com/pierre3/PlantUmlClassDiagramGenerator
 
 
-41) [https://github.com/sebastienros/comptime]( https://github.com/sebastienros/comptime) , https://github.com/sebastienros/comptime 
+40) [https://github.com/sebastienros/comptime]( https://github.com/sebastienros/comptime) , https://github.com/sebastienros/comptime 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/sebastienros/comptime&body=https://github.com/sebastienros/comptime
 
 
-42) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 
+41) [https://github.com/stbychkov/AutoLoggerMessage]( https://github.com/stbychkov/AutoLoggerMessage) , https://github.com/stbychkov/AutoLoggerMessage 
 
 Why I have not tested : Microsoft have done same feature
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/stbychkov/AutoLoggerMessage&body=https://github.com/stbychkov/AutoLoggerMessage
 
 
-43) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
+42) [https://github.com/Stepami/visitor-net]( https://github.com/Stepami/visitor-net) , https://github.com/Stepami/visitor-net 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Stepami/visitor-net&body=https://github.com/Stepami/visitor-net
 
 
-44) [https://github.com/svee4/RequiredStaticMembers]( https://github.com/svee4/RequiredStaticMembers) , https://github.com/svee4/RequiredStaticMembers 
+43) [https://github.com/svee4/RequiredStaticMembers]( https://github.com/svee4/RequiredStaticMembers) , https://github.com/svee4/RequiredStaticMembers 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/svee4/RequiredStaticMembers&body=https://github.com/svee4/RequiredStaticMembers
 
 
-45) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
+44) [https://github.com/SzymonHalucha/Minerals.AutoCommands]( https://github.com/SzymonHalucha/Minerals.AutoCommands) , https://github.com/SzymonHalucha/Minerals.AutoCommands 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/SzymonHalucha/Minerals.AutoCommands&body=https://github.com/SzymonHalucha/Minerals.AutoCommands
 
 
-46) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
+45) [https://github.com/Teleopti/Saspect]( https://github.com/Teleopti/Saspect) , https://github.com/Teleopti/Saspect 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/Teleopti/Saspect&body=https://github.com/Teleopti/Saspect
 
 
-47) [https://github.com/TheFo2sh/AsyncFlow]( https://github.com/TheFo2sh/AsyncFlow) , https://github.com/TheFo2sh/AsyncFlow 
+46) [https://github.com/TheFo2sh/AsyncFlow]( https://github.com/TheFo2sh/AsyncFlow) , https://github.com/TheFo2sh/AsyncFlow 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/TheFo2sh/AsyncFlow&body=https://github.com/TheFo2sh/AsyncFlow
 
 
-48) [https://github.com/wieslawsoltes/ReactiveGenerator]( https://github.com/wieslawsoltes/ReactiveGenerator) , https://github.com/wieslawsoltes/ReactiveGenerator 
+47) [https://github.com/wieslawsoltes/ReactiveGenerator]( https://github.com/wieslawsoltes/ReactiveGenerator) , https://github.com/wieslawsoltes/ReactiveGenerator 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://github.com/wieslawsoltes/ReactiveGenerator&body=https://github.com/wieslawsoltes/ReactiveGenerator
 
 
-49) [https://www.nuget.org/packages/Aspid.Generators.Helper]( https://www.nuget.org/packages/Aspid.Generators.Helper) , https://www.nuget.org/packages/Aspid.Generators.Helper 
+48) [https://www.nuget.org/packages/Aspid.Generators.Helper]( https://www.nuget.org/packages/Aspid.Generators.Helper) , https://www.nuget.org/packages/Aspid.Generators.Helper 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/Aspid.Generators.Helper&body=https://www.nuget.org/packages/Aspid.Generators.Helper
 
 
-50) [https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator]( https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator) , https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator 
+49) [https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator]( https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator) , https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator&body=https://www.nuget.org/packages/AsyncTaskOrchestratorGenerator
 
 
-51) [https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/]( https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/) , https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/ 
+50) [https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/]( https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/) , https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/&body=https://www.nuget.org/packages/Csla.Generator.AutoImplementProperties.CSharp/
 
 
-52) [https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/]( https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/) , https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/ 
+51) [https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/]( https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/) , https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/&body=https://www.nuget.org/packages/Csla.Generator.AutoSerialization.CSharp/
 
 
-53) [https://www.nuget.org/packages/CTMGenerator]( https://www.nuget.org/packages/CTMGenerator) , https://www.nuget.org/packages/CTMGenerator 
+52) [https://www.nuget.org/packages/CTMGenerator]( https://www.nuget.org/packages/CTMGenerator) , https://www.nuget.org/packages/CTMGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/CTMGenerator&body=https://www.nuget.org/packages/CTMGenerator
 
 
-54) [https://www.nuget.org/packages/DecoWeaver]( https://www.nuget.org/packages/DecoWeaver) , https://www.nuget.org/packages/DecoWeaver 
+53) [https://www.nuget.org/packages/DecoWeaver]( https://www.nuget.org/packages/DecoWeaver) , https://www.nuget.org/packages/DecoWeaver 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/DecoWeaver&body=https://www.nuget.org/packages/DecoWeaver
 
 
-55) [https://www.nuget.org/packages/JsonDerivedTypeGenerator]( https://www.nuget.org/packages/JsonDerivedTypeGenerator) , https://www.nuget.org/packages/JsonDerivedTypeGenerator 
+54) [https://www.nuget.org/packages/JsonDerivedTypeGenerator]( https://www.nuget.org/packages/JsonDerivedTypeGenerator) , https://www.nuget.org/packages/JsonDerivedTypeGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/JsonDerivedTypeGenerator&body=https://www.nuget.org/packages/JsonDerivedTypeGenerator
 
 
-56) [https://www.nuget.org/packages/MappingSourceGenerator]( https://www.nuget.org/packages/MappingSourceGenerator) , https://www.nuget.org/packages/MappingSourceGenerator 
+55) [https://www.nuget.org/packages/MappingSourceGenerator]( https://www.nuget.org/packages/MappingSourceGenerator) , https://www.nuget.org/packages/MappingSourceGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/MappingSourceGenerator&body=https://www.nuget.org/packages/MappingSourceGenerator
 
 
-57) [https://www.nuget.org/packages/Optikode.FluentMapper]( https://www.nuget.org/packages/Optikode.FluentMapper) , https://www.nuget.org/packages/Optikode.FluentMapper 
+56) [https://www.nuget.org/packages/Optikode.FluentMapper]( https://www.nuget.org/packages/Optikode.FluentMapper) , https://www.nuget.org/packages/Optikode.FluentMapper 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/Optikode.FluentMapper&body=https://www.nuget.org/packages/Optikode.FluentMapper
 
 
-58) [https://www.nuget.org/packages/SoapProxyPocoGenerator]( https://www.nuget.org/packages/SoapProxyPocoGenerator) , https://www.nuget.org/packages/SoapProxyPocoGenerator 
+57) [https://www.nuget.org/packages/SoapProxyPocoGenerator]( https://www.nuget.org/packages/SoapProxyPocoGenerator) , https://www.nuget.org/packages/SoapProxyPocoGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/SoapProxyPocoGenerator&body=https://www.nuget.org/packages/SoapProxyPocoGenerator
 
 
-59) [https://www.nuget.org/packages/TinyMediator]( https://www.nuget.org/packages/TinyMediator) , https://www.nuget.org/packages/TinyMediator 
+58) [https://www.nuget.org/packages/TinyMediator]( https://www.nuget.org/packages/TinyMediator) , https://www.nuget.org/packages/TinyMediator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/TinyMediator&body=https://www.nuget.org/packages/TinyMediator
 
 
-60) [https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder]( https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder) , https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder 
+59) [https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder]( https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder) , https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder&body=https://www.nuget.org/packages/TomRR.SourceGenerator.SettingsBinder
 
 
-61) [https://www.nuget.org/packages/X39.Roslyn.Property]( https://www.nuget.org/packages/X39.Roslyn.Property) , https://www.nuget.org/packages/X39.Roslyn.Property 
+60) [https://www.nuget.org/packages/X39.Roslyn.Property]( https://www.nuget.org/packages/X39.Roslyn.Property) , https://www.nuget.org/packages/X39.Roslyn.Property 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/X39.Roslyn.Property&body=https://www.nuget.org/packages/X39.Roslyn.Property
 
 
-62) [https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/]( https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/) , https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/ 
+61) [https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/]( https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/) , https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/&body=https://www.nuget.org/packages/ZeroReflection.Mapper.Generator/
 
 
-63) [https://www.nuget.org/packages/ZeroReflection.Mediator.Generator]( https://www.nuget.org/packages/ZeroReflection.Mediator.Generator) , https://www.nuget.org/packages/ZeroReflection.Mediator.Generator 
+62) [https://www.nuget.org/packages/ZeroReflection.Mediator.Generator]( https://www.nuget.org/packages/ZeroReflection.Mediator.Generator) , https://www.nuget.org/packages/ZeroReflection.Mediator.Generator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=https://www.nuget.org/packages/ZeroReflection.Mediator.Generator&body=https://www.nuget.org/packages/ZeroReflection.Mediator.Generator
 
 
-64) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
+63) [Intellenum]( https://github.com/SteveDunn/Intellenum) , https://github.com/SteveDunn/Intellenum 
 
 Why I have not tested : not understand how to use 
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Intellenum&body=https://github.com/SteveDunn/Intellenum
 
 
-65) [laker]( https://github.com/Lakerfield/Lakerfield.Rpc) , https://github.com/Lakerfield/Lakerfield.Rpc 
+64) [laker]( https://github.com/Lakerfield/Lakerfield.Rpc) , https://github.com/Lakerfield/Lakerfield.Rpc 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=laker&body=https://github.com/Lakerfield/Lakerfield.Rpc
 
 
-66) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
+65) [LoggingDecoratorGenerator]( https://github.com/DavidFineboym/LoggingDecoratorGenerator) , https://github.com/DavidFineboym/LoggingDecoratorGenerator 
 
 Why I have not tested : Microsoft have done same feature
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=LoggingDecoratorGenerator&body=https://github.com/DavidFineboym/LoggingDecoratorGenerator
 
 
-67) [lucide-blazor]( https://github.com/brecht-vde/lucide-blazor/) , https://github.com/brecht-vde/lucide-blazor/ 
+66) [lucide-blazor]( https://github.com/brecht-vde/lucide-blazor/) , https://github.com/brecht-vde/lucide-blazor/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=lucide-blazor&body=https://github.com/brecht-vde/lucide-blazor/
 
 
-68) [ManagedDotnetProfiler]( https://github.com/kevingosse/ManagedDotnetProfiler) , https://github.com/kevingosse/ManagedDotnetProfiler 
+67) [ManagedDotnetProfiler]( https://github.com/kevingosse/ManagedDotnetProfiler) , https://github.com/kevingosse/ManagedDotnetProfiler 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ManagedDotnetProfiler&body=https://github.com/kevingosse/ManagedDotnetProfiler
 
 
-69) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
+68) [Maui.BindableProperty.Generator]( https://github.com/rrmanzano/maui-bindableproperty-generator) , https://github.com/rrmanzano/maui-bindableproperty-generator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Maui.BindableProperty.Generator&body=https://github.com/rrmanzano/maui-bindableproperty-generator
 
 
-70) [Minerals.AutoCQRS]( https://github.com/SzymonHalucha/Minerals.AutoCQRS) , https://github.com/SzymonHalucha/Minerals.AutoCQRS 
+69) [Minerals.AutoCQRS]( https://github.com/SzymonHalucha/Minerals.AutoCQRS) , https://github.com/SzymonHalucha/Minerals.AutoCQRS 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Minerals.AutoCQRS&body=https://github.com/SzymonHalucha/Minerals.AutoCQRS
 
 
-71) [Minerals.AutoDomain]( https://github.com/SzymonHalucha/Minerals.AutoDomain) , https://github.com/SzymonHalucha/Minerals.AutoDomain 
+70) [Minerals.AutoDomain]( https://github.com/SzymonHalucha/Minerals.AutoDomain) , https://github.com/SzymonHalucha/Minerals.AutoDomain 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Minerals.AutoDomain&body=https://github.com/SzymonHalucha/Minerals.AutoDomain
 
 
-72) [observable]( https://github.com/notanaverageman/Bindables) , https://github.com/notanaverageman/Bindables 
+71) [observable]( https://github.com/notanaverageman/Bindables) , https://github.com/notanaverageman/Bindables 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=observable&body=https://github.com/notanaverageman/Bindables
 
 
-73) [PolySharp]( https://github.com/Sergio0694/PolySharp) , https://github.com/Sergio0694/PolySharp 
+72) [PolySharp]( https://github.com/Sergio0694/PolySharp) , https://github.com/Sergio0694/PolySharp 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=PolySharp&body=https://github.com/Sergio0694/PolySharp
 
 
-74) [RazorGen]( https://github.com/dartk/RazorGen) , https://github.com/dartk/RazorGen 
+73) [RazorGen]( https://github.com/dartk/RazorGen) , https://github.com/dartk/RazorGen 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=RazorGen&body=https://github.com/dartk/RazorGen
 
 
-75) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
+74) [SerdeDn]( https://github.com/serdedotnet/serde) , https://github.com/serdedotnet/serde 
 
 Why I have not tested : serializer. Done by MSFT with System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SerdeDn&body=https://github.com/serdedotnet/serde
 
 
-76) [SogePoco]( https://github.com/d-p-y/SogePoco) , https://github.com/d-p-y/SogePoco 
+75) [SogePoco]( https://github.com/d-p-y/SogePoco) , https://github.com/d-p-y/SogePoco 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SogePoco&body=https://github.com/d-p-y/SogePoco
 
 
-77) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
+76) [SourceCrafter.HttpServiceClientGenerator]( https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/) , https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=SourceCrafter.HttpServiceClientGenerator&body=https://github.com/pedro-gilmora/SourceCrafter.HttpServiceClientGenerator/
 
 
-78) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
+77) [ST.NSwag.ServerSourceGenerator]( https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator) , https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ST.NSwag.ServerSourceGenerator&body=https://github.com/s-tarasov/ST.NSwag.ServerSourceGenerator
 
 
-79) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
+78) [StrongInject]( https://github.com/YairHalberstadt/stronginject/) , https://github.com/YairHalberstadt/stronginject/ 
 
 Why I have not tested : later
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=StrongInject&body=https://github.com/YairHalberstadt/stronginject/
 
 
-80) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
+79) [TeuJson]( https://github.com/Terria-K/TeuJson) , https://github.com/Terria-K/TeuJson 
 
 Why I have not tested : json a class, was done in System.Text.Json
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TeuJson&body=https://github.com/Terria-K/TeuJson
 
 
-81) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
+80) [Tinyhand]( https://github.com/archi-Doc/Tinyhand) , https://github.com/archi-Doc/Tinyhand 
 
 Why I have not tested : tried, need documentation
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=Tinyhand&body=https://github.com/archi-Doc/Tinyhand
 
 
-82) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
+81) [TupleOverloadGenerator]( https://github.com/ProphetLamb/TupleOverloadGenerator) , https://github.com/ProphetLamb/TupleOverloadGenerator 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TupleOverloadGenerator&body=https://github.com/ProphetLamb/TupleOverloadGenerator
 
 
-83) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
+82) [TypealizR]( https://github.com/earloc/TypealizR) , https://github.com/earloc/TypealizR 
 
 Why I have not tested : depends on Microsoft.Extensions.Localization
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=TypealizR&body=https://github.com/earloc/TypealizR
 
 
-84) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
+83) [UnitTestBlazor]( https://github.com/bUnit-dev/bUnit) , https://github.com/bUnit-dev/bUnit 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=UnitTestBlazor&body=https://github.com/bUnit-dev/bUnit
 
 
-85) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
+84) [ValueLink]( https://github.com/archi-Doc/ValueLink) , https://github.com/archi-Doc/ValueLink 
 
 Why I have not tested : too complicated
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=ValueLink&body=https://github.com/archi-Doc/ValueLink
 
 
-86) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
+85) [VisitorPatternGenerator]( https://github.com/hikarin522/VisitorPatternGenerator/) , https://github.com/hikarin522/VisitorPatternGenerator/ 
 
 Why I have not tested : issue opened
 
 https://github.com/ignatandrei/RSCG_Examples/issues/new?title=VisitorPatternGenerator&body=https://github.com/hikarin522/VisitorPatternGenerator/
 
 
-87) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
+86) [WrapperValueObject]( https://github.com/martinothamar/WrapperValueObject) , https://github.com/martinothamar/WrapperValueObject 
 
 Why I have not tested : not maintained as in readme
 

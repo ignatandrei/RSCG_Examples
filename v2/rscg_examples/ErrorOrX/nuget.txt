@@ -1,0 +1,1 @@
+A discriminated union type for .NET with source-generated ASP.NET Core Minimal API integration. Zero boilerplate, full AOT support.
