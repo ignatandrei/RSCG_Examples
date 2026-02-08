@@ -252,3 +252,4 @@ Nr,Key,Source,Category
 251,OrderedBuildersGenerator, https://github.com/Georgiy-Petrov/OrderedBuildersGenerator,Builder
 252,RSCG_idempotency, https://github.com/ignatandrei/RSCG_idempotency,Idempotency
 253,FastCloner, https://github.com/lofcz/FastCloner/,Clone
+254,ErrorOrX, https://github.com/ANcpLua/ErrorOrX,API

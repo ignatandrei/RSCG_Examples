@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ErrorOrX",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/DemoFuncAPI.csproj",
+      "description": "First, we add Nuget  [ErrorOrX](https://www.nuget.org/packages/ErrorOrX/) in csproj  ",
+      "pattern": "ErrorOrX"
+    }
+
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/PersonAPI.cs",
+        "description": "File PersonAPI.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/ErrorOrX/src/DemoFuncAPI/DemoFuncAPI.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/obj/GX/ErrorOrX.Generators/ErrorOr.Generators.OpenApiTransformerGenerator/OpenApiTransformers.g.cs",
+        "description": "Generated File 5  from 5 : OpenApiTransformers.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/obj/GX/ErrorOrX.Generators/ErrorOr.Generators.ErrorOrEndpointGenerator/ErrorOrEndpoints.GlobalUsings.g.cs",
+        "description": "Generated File 4  from 5 : ErrorOrEndpoints.GlobalUsings.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/obj/GX/ErrorOrX.Generators/ErrorOr.Generators.ErrorOrEndpointGenerator/ErrorOrEndpointOptions.g.cs",
+        "description": "Generated File 3  from 5 : ErrorOrEndpointOptions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/obj/GX/ErrorOrX.Generators/ErrorOr.Generators.ErrorOrEndpointGenerator/ErrorOrEndpointMappings.cs",
+        "description": "Generated File 2  from 5 : ErrorOrEndpointMappings.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/ErrorOrX/src/DemoFuncAPI/obj/GX/ErrorOrX.Generators/ErrorOr.Generators.ErrorOrEndpointGenerator/ErrorOrEndpointAttributes.Mappings.g.cs",
+        "description": "Generated File 1  from 5 : ErrorOrEndpointAttributes.Mappings.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

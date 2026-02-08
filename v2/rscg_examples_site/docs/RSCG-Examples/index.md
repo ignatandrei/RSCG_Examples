@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 253 RSCG list by category
-description: 253 RSCG list by category
+title: 254 RSCG list by category
+description: 254 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -49,7 +49,7 @@ import DocCardList from '@theme/DocCardList';
 ## API 
 <details>
     
-  <summary>Expand API =>examples:11</summary>
+  <summary>Expand API =>examples:12</summary>
         
 
 
@@ -104,6 +104,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [XmlCommentGenerator](/docs/XmlCommentGenerator)
+
+        
+
+
+[ErrorOrX](/docs/ErrorOrX)
 
 </details>
     
@@ -1622,6 +1627,8 @@ flowchart LR;
     API--> immediate.apis((immediate.apis))
 
     API--> XmlCommentGenerator((XmlCommentGenerator))
+
+    API--> ErrorOrX((ErrorOrX))
 
     Async--> HsuSgSync((HsuSgSync))
 

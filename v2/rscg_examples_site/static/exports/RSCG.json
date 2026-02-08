@@ -2025,6 +2025,14 @@
       "Source": "https://github.com/lofcz/FastCloner/",
       "Category": "Clone",
       "AddedOn": "2026-02-01T00:00:00"
+    },
+    {
+      "Name": "ErrorOrX",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX",
+      "NuGet": "https://www.nuget.org/packages/ErrorOrX/",
+      "Source": "https://github.com/ANcpLua/ErrorOrX",
+      "Category": "API",
+      "AddedOn": "2026-02-02T00:00:00"
     }
   ]
 }
