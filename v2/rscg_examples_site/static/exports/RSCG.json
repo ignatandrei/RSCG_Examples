@@ -2030,7 +2030,7 @@
       "Name": "ErrorOrX",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX",
       "NuGet": "https://www.nuget.org/packages/ErrorOrX/",
-      "Source": "https://github.com/ANcpLua/ErrorOrX/",
+      "Source": "https://github.com/ANcpLua/ErrorOrX",
       "Category": "API",
       "AddedOn": "2026-02-02T00:00:00"
     }

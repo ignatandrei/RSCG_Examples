@@ -16,7 +16,7 @@ import SameCategory from '../Categories/_PrimitiveAPI.mdx';
 
 ## NuGet / site data
 [![Nuget](https://img.shields.io/nuget/dt/ErrorOrX?label=ErrorOrX)](https://www.nuget.org/packages/ErrorOrX/)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ANcpLua/ErrorOrX?label=updated)](https://github.com/ANcpLua/ErrorOrX/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ANcpLua/ErrorOrX?label=updated)](https://github.com/ANcpLua/ErrorOrX)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ANcpLua/ErrorOrX?style=social)
 
 ## Details
@@ -34,9 +34,9 @@ NuGet:
 *https://www.nuget.org/packages/ErrorOrX/*   
 
 
-You can find more details at https://github.com/ANcpLua/ErrorOrX/
+You can find more details at https://github.com/ANcpLua/ErrorOrX
 
-Source: https://github.com/ANcpLua/ErrorOrX/
+Source: https://github.com/ANcpLua/ErrorOrX
 
 :::
 
@@ -85,7 +85,7 @@ For each `[Get]`, `[Post]`, `[Put]`, `[Delete]`, `[Patch]` method:
 - Applies route constraints (`{id:guid}`, `{count:int}`)
 - Sets operation name (`.WithName()`) and tags (`.WithTags()`)
 
-[See EndpointMetadataEmitter.cs](src/ErrorOrX.Generators/Emitters/EndpointMetadataEmitter.cs)
+[See EndpointMetadataEmitter.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Emitters/EndpointMetadataEmitter.cs)
 
 ### Parameter Binding
 
@@ -99,7 +99,7 @@ Automatic inference based on type and HTTP method:
 | Service | Interface, abstract, or DI naming pattern (`*Service`, `*Repository`) |
 | Special | `HttpContext`, `CancellationToken`, `IFormFile`                       |
 
-[See BindingCodeEmitter.cs](src/ErrorOrX.Generators/Emitters/BindingCodeEmitter.cs)
+[See BindingCodeEmitter.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Emitters/BindingCodeEmitter.cs)
 
 ### Error-to-HTTP Mapping
 
@@ -117,7 +117,7 @@ ProblemDetails:
 | Unexpected   | 500         | `InternalServerError<ProblemDetails>` |
 | Custom(422)  | 422         | `UnprocessableEntity<ProblemDetails>` |
 
-[See ErrorMapping.cs](src/ErrorOrX.Generators/Models/ErrorMapping.cs)
+[See ErrorMapping.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Models/ErrorMapping.cs)
 
 ### Request Validation
 
@@ -138,7 +138,7 @@ Full OpenAPI documentation without manual attributes:
 - Operation IDs from method name
 - XML doc comments extracted to summaries
 
-[See OpenApiTransformerGenerator.cs](src/ErrorOrX.Generators/OpenApiTransformerGenerator.cs)
+[See OpenApiTransformerGenerator.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/OpenApiTransformerGenerator.cs)
 
 ### Builder API
 
@@ -169,7 +169,7 @@ Real-time IDE feedback covering:
 | Naming     | EOE032-033  | Duplicate route binding, non-PascalCase handler                      |
 | AOT Safety | EOE034-038  | `Activator.CreateInstance`, `dynamic`, `Expression.Compile()`        |
 
-[See Descriptors.cs](src/ErrorOrX.Generators/Analyzers/Descriptors.cs)
+[See Descriptors.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Analyzers/Descriptors.cs)
 
 ## Installation
 
@@ -382,7 +382,7 @@ The builder methods `WithCamelCase()` and `WithIgnoreNulls()` are only needed if
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+See [CHANGELOG.md](https://github.com/ANcpLua/ErrorOrX/CHANGELOG.md) for version history.
 
 
 :::

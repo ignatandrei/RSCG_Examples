@@ -44,7 +44,7 @@ Nuget: [https://www.nuget.org/packages/ErrorOrX/](https://www.nuget.org/packages
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ErrorOrX)
 
-Source: [https://github.com/ANcpLua/ErrorOrX/](https://github.com/ANcpLua/ErrorOrX/)
+Source: [https://github.com/ANcpLua/ErrorOrX](https://github.com/ANcpLua/ErrorOrX)
 
 </details>
 

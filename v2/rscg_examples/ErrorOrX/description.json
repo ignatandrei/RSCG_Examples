@@ -4,9 +4,9 @@
       "nuget":[
          "https://www.nuget.org/packages/ErrorOrX/"
       ],
-      "link":"https://github.com/ANcpLua/ErrorOrX/",
+      "link":"https://github.com/ANcpLua/ErrorOrX",
       "author":"Alexander Nachtmanns",
-      "source":"https://github.com/ANcpLua/ErrorOrX/"
+      "source":"https://github.com/ANcpLua/ErrorOrX"
    },
    "data":{
       "goodFor":["API results from Functional returns of ErroOrX"],
