@@ -253,3 +253,4 @@ Nr,Key,Source,Category
 252,RSCG_idempotency, https://github.com/ignatandrei/RSCG_idempotency,Idempotency
 253,FastCloner, https://github.com/lofcz/FastCloner/,Clone
 254,ErrorOrX, https://github.com/ANcpLua/ErrorOrX,API
+255,KnockOff, https://github.com/NeatooDotNet/KnockOff,Tests

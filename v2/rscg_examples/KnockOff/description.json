@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"KnockOff",
+      "nuget":[
+         "https://www.nuget.org/packages/KnockOff/"
+      ],
+      "link":"https://github.com/NeatooDotNet/KnockOff",
+      "author":"Keith Voels",
+      "source":"https://github.com/NeatooDotNet/KnockOff"
+   },
+   "data":{
+      "goodFor":["Generating test stubs with mocking for interfaces"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["IMyClock.cs","TestClock.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

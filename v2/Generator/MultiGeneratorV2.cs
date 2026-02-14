@@ -227,6 +227,11 @@ public class MultiGeneratorV2
 
 
             text = text.Replace("Access them as a ReadOnlySpan<byte>", "Access them as a ReadOnlySpan\\<byte\\>");
+            text = text.Replace("### ", "##### ");
+            text = text.Replace("## ", "#### ");
+            text = text.Replace("# ", "### ");
+            
+
             return text;
         }
             ;

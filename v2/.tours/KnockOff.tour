@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "KnockOff",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/KnockOff/src/TestClock/TestClock.csproj",
+      "description": "First, we add Nuget  [KnockOff](https://www.nuget.org/packages/KnockOff/) in csproj  ",
+      "pattern": "KnockOff"
+    }
+
+        ,{
+        "file": "rscg_examples/KnockOff/src/TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/KnockOff/src/Mock/IMyClock.cs",
+        "description": "File IMyClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/KnockOff/src/TestClock/obj/GX/KnockOff.Generator/KnockOff.KnockOffGenerator/QuickStartRepoStub.g.cs",
+        "description": "Generated File 2  from 2 : QuickStartRepoStub.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/KnockOff/src/TestClock/obj/GX/KnockOff.Generator/KnockOff.KnockOffGenerator/QuickStartRepoStub.Base.g.cs",
+        "description": "Generated File 1  from 2 : QuickStartRepoStub.Base.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
