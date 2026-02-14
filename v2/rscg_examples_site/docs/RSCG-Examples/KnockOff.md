@@ -87,7 +87,7 @@ public partial class MyRepoStub(List<User> Users) : IMyRepo
 <!-- endSnippet -->
 
 - **`[KnockOff]` + `partial class`** — KnockOff generates a base class that implements every member of `IMyRepo`. Your stub is a real class — define it once, reuse it across your entire test project. Pass it around, register it in DI, share it between test fixtures.
-- **Constructor parameters** — `List<User> Users` is a primary constructor. Test data flows in naturally, just like any other C### class.
+- **Constructor parameters** — `List<User> Users` is a primary constructor. Test data flows in naturally, just like any other C# class.
 - **Overrides are optional** — `GetUser_` and `Update_` override the generated defaults. Only override what you need — everything else still works with [Return/Call](https://github.com/NeatooDotNet/KnockOff/docs/guides/methods.md), [Return(value)](https://github.com/NeatooDotNet/KnockOff/docs/reference/interceptor-api.md), or [When chains](https://github.com/NeatooDotNet/KnockOff/docs/guides/parameter-matching.md).
 - **Tighter type safety** — Every Return, Call, and When call is complete in a single step — no forgotten `.Returns()` that [silently breaks at runtime](https://github.com/NeatooDotNet/KnockOff/docs/type-safety.md). No manual `<T1, T2>` type parameters that can drift. [Details →](https://github.com/NeatooDotNet/KnockOff/docs/type-safety.md)
 
@@ -178,7 +178,7 @@ myRepoKO.Verify();
 - **[Ref/out parameters](https://github.com/NeatooDotNet/KnockOff/docs/guides/ref-out-parameters.md)** — Natural lambda syntax with `ref`/`out` keywords. No special matchers or index-based access.
 - **[Multiple interfaces](https://github.com/NeatooDotNet/KnockOff/docs/guides/multiple-interfaces.md)** — Unified interceptors on one stub. No `.As<T>()` references or casting.
 - **[Tighter type safety](https://github.com/NeatooDotNet/KnockOff/docs/type-safety.md)** — Each Return/Call/When call is complete in one step — no forgotten `.Returns()` that silently breaks at runtime.
-- **[Parameter matching](https://github.com/NeatooDotNet/KnockOff/docs/guides/parameter-matching-comparison.md)** — `Return((a, b) => a > 0 ? 100 : 0)` — standard C### conditionals instead of `Arg.Is<>` or `It.Is<>` per parameter.
+- **[Parameter matching](https://github.com/NeatooDotNet/KnockOff/docs/guides/parameter-matching-comparison.md)** — `Return((a, b) => a > 0 ? 100 : 0)` — standard C# conditionals instead of `Arg.Is<>` or `It.Is<>` per parameter.
 - **Built-in argument capture** — `LastArg`, `LastArgs`, `LastSetValue`, `LastSetEntry` — no manual `Arg.Do<>` or `Callback<>` setup.
 - **Event verification** — `VerifyAdd()` / `VerifyRemove()` / `HasSubscribers` — not available in Moq or NSubstitute.
 - **Explicit Get/Set verification** — `VerifyGet(Called)` / `VerifySet(Called)` for properties and indexers.
@@ -420,7 +420,7 @@ formatter.Format(Arg.Any<string>(), Arg.Any<int>()).Returns("int overload");
 **KnockOff:**
 <!-- snippet: readme-knockoff-any-value -->
 ```cs
-// Explicit parameter types resolve the overload - standard C### syntax
+// Explicit parameter types resolve the overload - standard C# syntax
 stub.Format.Return((string input, bool uppercase) => "bool overload");
 stub.Format.Return((string input, int maxLength) => "int overload");
 ```
@@ -475,7 +475,7 @@ stub.Format.Return((string input, bool uppercase) => uppercase ? input.ToUpper()
 **The Difference:**
 - Moq: `It.IsAny<bool>()` + `.Returns<string, bool>((input, uppercase) => ...)` to match any value and access arguments
 - NSubstitute: `Arg.Any<bool>()` + `x.ArgAt<bool>(1)` to match any value and access arguments
-- KnockOff: `(string input, bool uppercase)` - standard C### lambda with named, typed parameters
+- KnockOff: `(string input, bool uppercase)` - standard C# lambda with named, typed parameters
 
 ---
 
@@ -544,7 +544,7 @@ Source generation turned out to be a great fit for AI code generation. The work 
 
 ######### Claude Code Skill
 
-KnockOff includes a [Claude Code skill](skills/knockoff/) that teaches Claude how to use the library. Copy the `skills/knockoff/` directory into your project and Claude Code will know how to create stubs, configure behavior, write tests with KnockOff, and migrate from Moq — without you explaining the API.
+KnockOff includes a [Claude Code skill](https://github.com/NeatooDotNet/KnockOff/skillsknockoff/) that teaches Claude how to use the library. Copy the `skills/knockoff/` directory into your project and Claude Code will know how to create stubs, configure behavior, write tests with KnockOff, and migrate from Moq — without you explaining the API.
 
 The skill includes slash commands:
 - **`/knockoff:create-stub`** — Create a new stub class with the pattern of your choice

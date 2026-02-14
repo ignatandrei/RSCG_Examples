@@ -224,13 +224,13 @@ public class MultiGeneratorV2
             text = text.Replace("(LICENSE.TXT)", $"({d.Generator!.Source}/LICENSE.TXT)");
             text = text.Replace("(docs/building.md)", $"({d.Generator!.Source}/docs/building.md)");
             text = text.Replace("(./", $"({d.Generator!.Source}/");
-
+            text = text.Replace("(skills/", $"({d.Generator!.Source}/skills");
 
             text = text.Replace("Access them as a ReadOnlySpan<byte>", "Access them as a ReadOnlySpan\\<byte\\>");
             text = text.Replace("### ", "##### ");
             text = text.Replace("## ", "#### ");
             text = text.Replace("# ", "### ");
-            
+            text= text.Replace("C###", "C#");
 
             return text;
         }
