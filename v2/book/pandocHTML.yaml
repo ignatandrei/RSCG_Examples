@@ -268,6 +268,7 @@ input-files:
 - examples/RSCG_idempotency.html
 - examples/FastCloner.html
 - examples/ErrorOrX.html
+- examples/KnockOff.html
 
 # or you may use input-file: with a single value
 # defaults:
