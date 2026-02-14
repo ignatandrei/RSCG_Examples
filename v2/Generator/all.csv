@@ -254,3 +254,4 @@ Nr,Key,Source,Category
 253,FastCloner, https://github.com/lofcz/FastCloner/,Clone
 254,ErrorOrX, https://github.com/ANcpLua/ErrorOrX,API
 255,KnockOff, https://github.com/NeatooDotNet/KnockOff,Tests
+256,Sundew.DiscriminatedUnions, https://github.com/sundews/Sundew.DiscriminatedUnions,FunctionalProgramming

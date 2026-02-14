@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 255 RSCG list by category
-description: 255 RSCG list by category
+title: 256 RSCG list by category
+description: 256 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -954,7 +954,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:16</summary>
+  <summary>Expand FunctionalProgramming =>examples:17</summary>
         
 
 
@@ -1034,6 +1034,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [rscg_demeter](/docs/rscg_demeter)
+
+        
+
+
+[Sundew.DiscriminatedUnions](/docs/Sundew.DiscriminatedUnions)
 
 </details>
     
@@ -1948,6 +1953,8 @@ flowchart LR;
     FunctionalProgramming--> polytype((polytype))
 
     FunctionalProgramming--> rscg_demeter((rscg_demeter))
+
+    FunctionalProgramming--> Sundew.DiscriminatedUnions((Sundew.DiscriminatedUnions))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 
