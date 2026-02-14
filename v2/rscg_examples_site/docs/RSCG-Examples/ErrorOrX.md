@@ -46,10 +46,10 @@ Alexander Nachtmanns
 ![Alt text](https://github.com/ANcpLua.png)
 :::
 
-### Original Readme
+## Original Readme
 :::note
 
-# ErrorOrX
+### ErrorOrX
 
 [![NuGet](https://img.shields.io/nuget/v/ErrorOrX.Generators.svg)](https://www.nuget.org/packages/ErrorOrX.Generators/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/ErrorOrX.Generators.svg)](https://www.nuget.org/packages/ErrorOrX.Generators/)
@@ -58,7 +58,7 @@ Alexander Nachtmanns
 Railway-Oriented Programming for .NET with source-generated ASP.NET Core Minimal API integration. Zero boilerplate, full
 Native AOT support.
 
-## Features
+###### Features
 
 - **Discriminated Unions** - `ErrorOr<T>` represents success or a list of typed errors
 - **Fluent API** - Chain operations with `Then`, `Else`, `Match`, `Switch`, and `FailIf`
@@ -72,12 +72,12 @@ Native AOT support.
 - **API Versioning** - Integrates with Asp.Versioning.Http for versioned endpoint groups
 - **41 Analyzers** - Real-time IDE feedback for route conflicts, binding errors, AOT compatibility
 
-## What the Generator Produces
+###### What the Generator Produces
 
 The source generator transforms your handler methods into complete ASP.NET Core Minimal API endpoints.
 You write the business logic, the generator handles everything else.
 
-### Endpoint Wiring
+######### Endpoint Wiring
 
 For each `[Get]`, `[Post]`, `[Put]`, `[Delete]`, `[Patch]` method:
 
@@ -87,7 +87,7 @@ For each `[Get]`, `[Post]`, `[Put]`, `[Delete]`, `[Patch]` method:
 
 [See EndpointMetadataEmitter.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Emitters/EndpointMetadataEmitter.cs)
 
-### Parameter Binding
+######### Parameter Binding
 
 Automatic inference based on type and HTTP method:
 
@@ -101,7 +101,7 @@ Automatic inference based on type and HTTP method:
 
 [See BindingCodeEmitter.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Emitters/BindingCodeEmitter.cs)
 
-### Error-to-HTTP Mapping
+######### Error-to-HTTP Mapping
 
 Converts `ErrorOr` errors to proper HTTP responses with [RFC 7807](https://www.rfc-editor.org/rfc/rfc7807)
 ProblemDetails:
@@ -119,7 +119,7 @@ ProblemDetails:
 
 [See ErrorMapping.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Models/ErrorMapping.cs)
 
-### Request Validation
+######### Request Validation
 
 Generated code validates before calling your handler:
 
@@ -128,7 +128,7 @@ Generated code validates before calling your handler:
 - JSON deserialization (catches `JsonException`)
 - Content-Type checking (returns 415 for wrong type)
 
-### OpenAPI Metadata
+######### OpenAPI Metadata
 
 Full OpenAPI documentation without manual attributes:
 
@@ -140,7 +140,7 @@ Full OpenAPI documentation without manual attributes:
 
 [See OpenApiTransformerGenerator.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/OpenApiTransformerGenerator.cs)
 
-### Builder API
+######### Builder API
 
 Fluent configuration following ASP.NET Core patterns:
 
@@ -155,7 +155,7 @@ app.MapErrorOrEndpoints()
     .RequireRateLimiting("api");                  // Global rate limit
 ```
 
-### Analyzers (38 Diagnostics)
+######### Analyzers (38 Diagnostics)
 
 Real-time IDE feedback covering:
 
@@ -171,7 +171,7 @@ Real-time IDE feedback covering:
 
 [See Descriptors.cs](https://github.com/ANcpLua/ErrorOrX/src/ErrorOrX.Generators/Analyzers/Descriptors.cs)
 
-## Installation
+###### Installation
 
 ```bash
 dotnet add package ErrorOrX.Generators
@@ -179,7 +179,7 @@ dotnet add package ErrorOrX.Generators
 
 This package includes both the source generator and the `ErrorOrX` runtime library.
 
-## Quick Start
+###### Quick Start
 
 ```csharp
 // Program.cs
@@ -208,7 +208,7 @@ public static class TodoApi
 }
 ```
 
-## Error Types
+###### Error Types
 
 Create structured errors mapped to HTTP status codes:
 
@@ -223,7 +223,7 @@ Error.Unexpected("Unknown", "An unexpected error occurred")        // 500
 Error.Custom(422, "Validation.Complex", "Complex validation failed")
 ```
 
-## Nullable-to-ErrorOr Extensions
+###### Nullable-to-ErrorOr Extensions
 
 Convert nullable values to `ErrorOr<T>` with auto-generated error codes:
 
@@ -250,7 +250,7 @@ return value.OrError(() => BuildExpensiveError());  // Lazy evaluation
 | `.OrError(Error)`   | Any          | Any  | Custom error             |
 | `.OrError(Func)`    | Any          | Any  | Lazy custom error        |
 
-## Fluent API
+###### Fluent API
 
 Chain operations using railway-oriented programming patterns:
 
@@ -275,7 +275,7 @@ GetUser(id).Switch(
     errors => Logger.LogError(errors.First().Description));
 ```
 
-## Result Markers
+###### Result Markers
 
 Use semantic markers for endpoints without response bodies:
 
@@ -286,7 +286,7 @@ Result.Updated   // 204 No Content
 Result.Deleted   // 204 No Content
 ```
 
-## Interface Types with `[ReturnsError]`
+###### Interface Types with `[ReturnsError]`
 
 Document possible errors on interface methods for OpenAPI generation:
 
@@ -307,7 +307,7 @@ public static ErrorOr<Todo> GetById(Guid id, ITodoService svc) =>
 The generator reads `[ReturnsError]` attributes from interface/abstract methods to build the complete `Results<...>`
 union for OpenAPI documentation.
 
-## Smart Parameter Binding
+###### Smart Parameter Binding
 
 The generator automatically infers parameter sources:
 
@@ -325,7 +325,7 @@ public static ErrorOr<Todo> GetById(
     => svc.GetById(id).OrNotFound();
 ```
 
-## Middleware Attributes
+###### Middleware Attributes
 
 Standard ASP.NET Core attributes on your handler methods are translated to Minimal API fluent calls:
 
@@ -343,7 +343,7 @@ public static ErrorOr<User> CreateAdmin(CreateUserRequest req) \{ }
 //    .CacheOutput(policy => policy.Expire(TimeSpan.FromSeconds(60)));
 ```
 
-## Native AOT
+###### Native AOT
 
 Fully compatible with `PublishAot=true`. Create a `JsonSerializerContext` with your endpoint types:
 
@@ -373,14 +373,14 @@ app.Run();
 The `[JsonSourceGenerationOptions]` on your context controls serialization behavior (camelCase, null handling).
 The builder methods `WithCamelCase()` and `WithIgnoreNulls()` are only needed if you want to override at runtime.
 
-## Packages
+###### Packages
 
 | Package               | Target           | Description                          |
 |-----------------------|------------------|--------------------------------------|
 | `ErrorOrX.Generators` | `netstandard2.0` | Source generator (includes ErrorOrX) |
 | `ErrorOrX`            | `net10.0`        | Runtime library (auto-referenced)    |
 
-## Changelog
+###### Changelog
 
 See [CHANGELOG.md](https://github.com/ANcpLua/ErrorOrX/CHANGELOG.md) for version history.
 

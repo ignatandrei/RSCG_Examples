@@ -2033,6 +2033,14 @@
       "Source": "https://github.com/ANcpLua/ErrorOrX",
       "Category": "API",
       "AddedOn": "2026-02-02T00:00:00"
+    },
+    {
+      "Name": "KnockOff",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/KnockOff",
+      "NuGet": "https://www.nuget.org/packages/KnockOff/",
+      "Source": "https://github.com/NeatooDotNet/KnockOff",
+      "Category": "Tests",
+      "AddedOn": "2026-02-13T00:00:00"
     }
   ]
 }
