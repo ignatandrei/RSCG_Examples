@@ -1,6 +1,6 @@
 <h1>EnhancementClass</h1>
 
-Number RSCG: 28
+Number RSCG: 29
 
         1 [ApparatusAOT](/docs/ApparatusAOT) [![Nuget](https://img.shields.io/nuget/dt/Apparatus.AOT.Reflection?label=Apparatus.AOT.Reflection)](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) ![GitHub Repo stars](https://img.shields.io/github/stars/byme8/Apparatus.AOT.Reflection?style=social) 2023-04-16
     
@@ -38,23 +38,25 @@ Number RSCG: 28
     
         18 [OptionToStringGenerator](/docs/OptionToStringGenerator) [![Nuget](https://img.shields.io/nuget/dt/Seekatar.OptionToStringGenerator?label=Seekatar.OptionToStringGenerator)](https://www.nuget.org/packages/Seekatar.OptionToStringGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Seekatar/OptionToStringGenerator?style=social) 2024-02-15
     
-        19 [Program](/docs/Program) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.OpenApi?label=Microsoft.AspNetCore.OpenApi)](https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/aspnetcore?style=social) 2025-11-06
+        19 [Pekspro.DataAnnotationValuesExtractor](/docs/Pekspro.DataAnnotationValuesExtractor) [![Nuget](https://img.shields.io/nuget/dt/Pekspro.DataAnnotationValuesExtractor?label=Pekspro.DataAnnotationValuesExtractor)](https://www.nuget.org/packages/Pekspro.DataAnnotationValuesExtractor/) ![GitHub Repo stars](https://img.shields.io/github/stars/pekspro/DataAnnotationValuesExtractor?style=social) 2026-02-15
     
-        20 [QueryStringGenerator](/docs/QueryStringGenerator) [![Nuget](https://img.shields.io/nuget/dt/QueryStringGenerator?label=QueryStringGenerator)](https://www.nuget.org/packages/QueryStringGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/tparviainen/query-string-generator?style=social) 2024-11-07
+        20 [Program](/docs/Program) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.OpenApi?label=Microsoft.AspNetCore.OpenApi)](https://www.nuget.org/packages/Microsoft.AspNetCore.OpenApi) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/aspnetcore?style=social) 2025-11-06
     
-        21 [RSCG_Decorator](/docs/RSCG_Decorator) [![Nuget](https://img.shields.io/nuget/dt/RSCG_Decorator?label=RSCG_Decorator)](https://www.nuget.org/packages/RSCG_Decorator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Decorator?style=social) 2023-09-30
+        21 [QueryStringGenerator](/docs/QueryStringGenerator) [![Nuget](https://img.shields.io/nuget/dt/QueryStringGenerator?label=QueryStringGenerator)](https://www.nuget.org/packages/QueryStringGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/tparviainen/query-string-generator?style=social) 2024-11-07
     
-        22 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes) [![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypes?label=RSCG_UtilityTypes)](https://www.nuget.org/packages/RSCG_UtilityTypes/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypesCommon?label=RSCG_UtilityTypesCommon)](https://www.nuget.org/packages/RSCG_UtilityTypesCommon) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_UtilityTypes?style=social) 2023-12-22
+        22 [RSCG_Decorator](/docs/RSCG_Decorator) [![Nuget](https://img.shields.io/nuget/dt/RSCG_Decorator?label=RSCG_Decorator)](https://www.nuget.org/packages/RSCG_Decorator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Decorator?style=social) 2023-09-30
     
-        23 [StaticReflection](/docs/StaticReflection) [![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection?label=FastStaticReflection)](https://www.nuget.org/packages/FastStaticReflection/)[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection.CodeGen?label=FastStaticReflection.CodeGen)](https://www.nuget.org/packages/FastStaticReflection.CodeGen/) ![GitHub Repo stars](https://img.shields.io/github/stars/Cricle/StaticReflection?style=social) 2023-10-13
+        23 [RSCG_UtilityTypes](/docs/RSCG_UtilityTypes) [![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypes?label=RSCG_UtilityTypes)](https://www.nuget.org/packages/RSCG_UtilityTypes/)[![Nuget](https://img.shields.io/nuget/dt/RSCG_UtilityTypesCommon?label=RSCG_UtilityTypesCommon)](https://www.nuget.org/packages/RSCG_UtilityTypesCommon) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_UtilityTypes?style=social) 2023-12-22
     
-        24 [SyncMethodGenerator](/docs/SyncMethodGenerator) [![Nuget](https://img.shields.io/nuget/dt/Zomp.SyncMethodGenerator?label=Zomp.SyncMethodGenerator)](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/zompinc/sync-method-generator?style=social) 2023-08-14
+        24 [StaticReflection](/docs/StaticReflection) [![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection?label=FastStaticReflection)](https://www.nuget.org/packages/FastStaticReflection/)[![Nuget](https://img.shields.io/nuget/dt/FastStaticReflection.CodeGen?label=FastStaticReflection.CodeGen)](https://www.nuget.org/packages/FastStaticReflection.CodeGen/) ![GitHub Repo stars](https://img.shields.io/github/stars/Cricle/StaticReflection?style=social) 2023-10-13
     
-        25 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices) [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/) ![GitHub Repo stars](https://img.shields.io/www.nuget.org/stars/packages/System.Runtime.InteropServices?style=social) 2023-04-16
+        25 [SyncMethodGenerator](/docs/SyncMethodGenerator) [![Nuget](https://img.shields.io/nuget/dt/Zomp.SyncMethodGenerator?label=Zomp.SyncMethodGenerator)](https://www.nuget.org/packages/Zomp.SyncMethodGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/zompinc/sync-method-generator?style=social) 2023-08-14
     
-        26 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions) [![Nuget](https://img.shields.io/nuget/dt/System.Text.RegularExpressions?label=System.Text.RegularExpressions)](https://www.nuget.org/packages/System.Text.RegularExpressions/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social) 2023-04-16
+        26 [System.Runtime.InteropServices](/docs/System.Runtime.InteropServices) [![Nuget](https://img.shields.io/nuget/dt/System.Runtime.InteropServices?label=System.Runtime.InteropServices)](https://www.nuget.org/packages/System.Runtime.InteropServices/) ![GitHub Repo stars](https://img.shields.io/www.nuget.org/stars/packages/System.Runtime.InteropServices?style=social) 2023-04-16
     
-        27 [TelemetryLogging](/docs/TelemetryLogging) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Telemetry.Abstractions?label=Microsoft.Extensions.Telemetry.Abstractions)](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/extensions?style=social) 2023-11-30
+        27 [System.Text.RegularExpressions](/docs/System.Text.RegularExpressions) [![Nuget](https://img.shields.io/nuget/dt/System.Text.RegularExpressions?label=System.Text.RegularExpressions)](https://www.nuget.org/packages/System.Text.RegularExpressions/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/runtime?style=social) 2023-04-16
     
-        28 [ThisClass](/docs/ThisClass) [![Nuget](https://img.shields.io/nuget/dt/ThisClass?label=ThisClass)](https://www.nuget.org/packages/ThisClass/) ![GitHub Repo stars](https://img.shields.io/github/stars/trympet/ThisClass?style=social) 2024-04-19
+        28 [TelemetryLogging](/docs/TelemetryLogging) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Telemetry.Abstractions?label=Microsoft.Extensions.Telemetry.Abstractions)](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/extensions?style=social) 2023-11-30
+    
+        29 [ThisClass](/docs/ThisClass) [![Nuget](https://img.shields.io/nuget/dt/ThisClass?label=ThisClass)](https://www.nuget.org/packages/ThisClass/) ![GitHub Repo stars](https://img.shields.io/github/stars/trympet/ThisClass?style=social) 2024-04-19
         

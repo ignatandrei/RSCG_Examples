@@ -2049,6 +2049,14 @@
       "Source": "https://github.com/sundews/Sundew.DiscriminatedUnions",
       "Category": "FunctionalProgramming",
       "AddedOn": "2026-02-14T00:00:00"
+    },
+    {
+      "Name": "Pekspro.DataAnnotationValuesExtractor",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pekspro.DataAnnotationValuesExtractor",
+      "NuGet": "https://www.nuget.org/packages/Pekspro.DataAnnotationValuesExtractor/",
+      "Source": "https://github.com/pekspro/DataAnnotationValuesExtractor",
+      "Category": "EnhancementClass",
+      "AddedOn": "2026-02-15T00:00:00"
     }
   ]
 }

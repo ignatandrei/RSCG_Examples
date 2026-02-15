@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Pekspro.DataAnnotationValuesExtractor",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Pekspro.DataAnnotationValuesExtractor/src/Attr/Attr.csproj",
+      "description": "First, we add Nuget  [Pekspro.DataAnnotationValuesExtractor](https://www.nuget.org/packages/Pekspro.DataAnnotationValuesExtractor/) in csproj  ",
+      "pattern": "Pekspro.DataAnnotationValuesExtractor"
+    }
+
+        ,{
+        "file": "rscg_examples/Pekspro.DataAnnotationValuesExtractor/src/Attr/Values.cs",
+        "description": "File Values.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Pekspro.DataAnnotationValuesExtractor/src/Attr/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Pekspro.DataAnnotationValuesExtractor/src/Attr/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Pekspro.DataAnnotationValuesExtractor/src/Attr/Attr.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Pekspro.DataAnnotationValuesExtractor/src/Attr/obj/GX/Pekspro.DataAnnotationValuesExtractor/Pekspro.DataAnnotationValuesExtractor.DataAnnotationValuesExtractor/Values.g.cs",
+        "description": "Generated File 1  from 1 : Values.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

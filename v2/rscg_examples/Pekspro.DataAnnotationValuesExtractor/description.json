@@ -4,14 +4,14 @@
       "nuget":[
          "https://www.nuget.org/packages/Pekspro.DataAnnotationValuesExtractor/"
       ],
-      "link":"",
-      "author":"",
-      "source":""
+      "link":"https://github.com/pekspro/DataAnnotationValuesExtractor",
+      "author":"Pekspro",
+      "source":"https://github.com/pekspro/DataAnnotationValuesExtractor"
    },
    "data":{
-      "goodFor":[""],
-      "csprojDemo":"Pekspro.DataAnnotationValuesExtractorDemo.csproj",
-      "csFiles":["Program.cs"],
+      "goodFor":["Generating code to extract values from data annotations in C#."],
+      "csprojDemo":"Attr.csproj",
+      "csFiles":["Program.cs","Person.cs","Values.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
