@@ -270,6 +270,7 @@ input-files:
 - examples/ErrorOrX.html
 - examples/KnockOff.html
 - examples/Sundew.DiscriminatedUnions.html
+- examples/Pekspro.DataAnnotationValuesExtractor.html
 
 # or you may use input-file: with a single value
 # defaults:
