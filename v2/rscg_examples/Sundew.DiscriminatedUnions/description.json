@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Sundew.DiscriminatedUnions",
+      "nuget":[
+         "https://www.nuget.org/packages/Sundew.DiscriminatedUnions/"
+      ],
+      "link":"https://github.com/sundews/Sundew.DiscriminatedUnions",
+      "author":"Kim Hugener Ohlsen",
+      "source":"https://github.com/sundews/Sundew.DiscriminatedUnions"
+   },
+   "data":{
+      "goodFor":["Generate tagged union"],
+      "csprojDemo":"UnionTypesDemo.csproj",
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

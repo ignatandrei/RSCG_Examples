@@ -2041,6 +2041,14 @@
       "Source": "https://github.com/NeatooDotNet/KnockOff",
       "Category": "Tests",
       "AddedOn": "2026-02-13T00:00:00"
+    },
+    {
+      "Name": "Sundew.DiscriminatedUnions",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Sundew.DiscriminatedUnions",
+      "NuGet": "https://www.nuget.org/packages/Sundew.DiscriminatedUnions/",
+      "Source": "https://github.com/sundews/Sundew.DiscriminatedUnions",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2026-02-14T00:00:00"
     }
   ]
 }

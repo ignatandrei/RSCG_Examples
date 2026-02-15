@@ -227,6 +227,7 @@ public class MultiGeneratorV2
             text = text.Replace("(skills/", $"({d.Generator!.Source}/skills");
 
             text = text.Replace("Access them as a ReadOnlySpan<byte>", "Access them as a ReadOnlySpan\\<byte\\>");
+            text = text.Replace("<TUnion>", "\\<TUnion\\>");
             text = text.Replace("### ", "##### ");
             text = text.Replace("## ", "#### ");
             text = text.Replace("# ", "### ");
