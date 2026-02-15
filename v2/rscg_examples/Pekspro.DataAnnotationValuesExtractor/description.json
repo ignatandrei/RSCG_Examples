@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Pekspro.DataAnnotationValuesExtractor",
+      "nuget":[
+         "https://www.nuget.org/packages/Pekspro.DataAnnotationValuesExtractor/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"Pekspro.DataAnnotationValuesExtractorDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
