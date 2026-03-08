@@ -271,6 +271,7 @@ input-files:
 - examples/KnockOff.html
 - examples/Sundew.DiscriminatedUnions.html
 - examples/Pekspro.DataAnnotationValuesExtractor.html
+- examples/REslava.ResultFlow.html
 
 # or you may use input-file: with a single value
 # defaults:
