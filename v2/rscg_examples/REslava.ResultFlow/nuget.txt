@@ -1,0 +1,1 @@
+Source generator that auto-generates Mermaid pipeline diagrams at compile time for any Result library. Add [ResultFlow] to any fluent method and get a generated const string diagram — zero runtime overhead, zero manual maintenance.

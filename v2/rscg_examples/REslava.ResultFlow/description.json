@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"REslava.ResultFlow",
+      "nuget":[
+         "https://www.nuget.org/packages/REslava.ResultFlow/"
+      ],
+      "link":"https://github.com/reslava/nuget-package-reslava-result/",
+      "author":"Rafa Eslava",
+      "source":"https://github.com/reslava/nuget-package-reslava-result/"
+   },
+   "data":{
+      "goodFor":["Functional Code as Mermaid diagrams"],
+      "csprojDemo":"ResultFlowGenerator.csproj",
+      "csFiles":["Program.cs","Helpers.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,0 +1,3659 @@
+---
+sidebar_position: 2580
+title: 258 - REslava.ResultFlow
+description: Functional Code as Mermaid diagrams
+slug: /REslava.ResultFlow
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveDocumentation.mdx';
+
+# REslava.ResultFlow  by Rafa Eslava
+
+
+<TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
+
+## NuGet / site data
+[![Nuget](https://img.shields.io/nuget/dt/REslava.ResultFlow?label=REslava.ResultFlow)](https://www.nuget.org/packages/REslava.ResultFlow/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/reslava/nuget-package-reslava-result?label=updated)](https://github.com/reslava/nuget-package-reslava-result/)
+![GitHub Repo stars](https://img.shields.io/github/stars/reslava/nuget-package-reslava-result?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **REslava.ResultFlow**
+
+Source generator that auto-generates Mermaid pipeline diagrams at compile time for any Result library. Add [ResultFlow] to any fluent method and get a generated const string diagram — zero runtime overhead, zero manual maintenance.
+
+Author: Rafa Eslava
+
+NuGet: 
+*https://www.nuget.org/packages/REslava.ResultFlow/*   
+
+
+You can find more details at https://github.com/reslava/nuget-package-reslava-result/
+
+Source: https://github.com/reslava/nuget-package-reslava-result/
+
+:::
+
+### Author
+:::note
+Rafa Eslava 
+![Alt text](https://github.com/reslava.png)
+:::
+
+## Original Readme
+:::note
+
+REslava.Result - Railway-Oriented Programming for .NET
+
+<div align="center">
+                  
+[![Documentation](https://img.shields.io/badge/Documentation-mkDocs-0094F5?logo=materialformkdocs)](https://reslava.github.io/nuget-package-reslava-result/)
+[![DocFX](https://img.shields.io/badge/DocFX-API%20Reference-2A579A?logo=docfx&logoColor=white)](https://reslava.github.io/nuget-package-reslava-result/reference/api/index.html)
+![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?&logo=csharp&logoColor=white)
+![NuGet Version](https://img.shields.io/nuget/v/REslava.Result.AspNetCore?style=flat&logo=nuget)
+![License](https://img.shields.io/badge/license-MIT-green)
+[![GitHub contributors](https://img.shields.io/github/contributors/reslava/REslava.Result)](https://GitHub.com/reslava/REslava.Result/graphs/contributors/) 
+[![GitHub Stars](https://img.shields.io/github/stars/reslava/REslava.Result)](https://github.com/reslava/REslava.Result/stargazers) 
+[![NuGet Downloads](https://img.shields.io/nuget/dt/REslava.Result)](https://www.nuget.org/packages/REslava.Result)
+![Test Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)
+![Test Suite](https://img.shields.io/badge/tests-3960%20passing-brightgreen)
+
+</div>
+
+**📐 Complete Functional Programming Framework + ASP.NET Integration + OneOf Extensions**
+
+**📖 Comprehensive documentation is available at [reslava.github.io/nuget-package-reslava-result](https://reslava.github.io/nuget-package-reslava-result/)**
+Includes API reference, advanced patterns, and interactive examples.
+
+**Why REslava.Result?**
+
+> **The only .NET library that combines functional error handling with compile-time ASP.NET API generation.**
+
+| | REslava.Result | FluentResults | ErrorOr | LanguageExt |
+|---|:---:|:---:|:---:|:---:|
+| Result&lt;T&gt; pattern | ✅ | ✅ | ✅ | ✅ |
+| OneOf discriminated unions | ✅ (2-6 types) | — | — | ✅ |
+| Maybe&lt;T&gt; | ✅ | — | — | ✅ |
+| **ASP.NET source generators (Minimal API + MVC)** | **✅** | — | — | — |
+| **SmartEndpoints (zero-boilerplate APIs)** | **✅** | — | — | — |
+| **OpenAPI metadata auto-generation** | **✅** | — | — | — |
+| **Authorization & Policy support** | **✅** | — | — | — |
+| **Roslyn safety analyzers** | **✅** | — | — | — |
+| **JSON serialization (System.Text.Json)** | **✅** | — | — | — |
+| **Async patterns (WhenAll, Retry, Timeout)** | **✅** | — | — | — |
+| **Domain error hierarchy (NotFound, Validation, etc.)** | **✅** | — | Partial | — |
+| **Pipeline visualization (`[ResultFlow]`)** | **✅** | — | — | — |
+| Validation framework | ✅ | Basic | — | ✅ |
+| Zero dependencies | ✅ | ✅ | ✅ | — |
+| **[`Ok` creation speed](https://reslava.github.io/nuget-package-reslava-result/reference/performance/)** | **5.9 ns / 48 B** | 57 ns / 112 B | — | — |
+| **[Failure path vs exceptions](https://reslava.github.io/nuget-package-reslava-result/reference/performance/)** | **6.8× faster** | ~5.8× faster | — | — |
+
+⚡ **[Performance benchmarks](https://reslava.github.io/nuget-package-reslava-result/reference/performance/)** — `Ok` creation **9.6× faster** than FluentResults · failure handling **6.8× faster** than exceptions · all measured on .NET 9 with BenchmarkDotNet.
+
+**Unique advantage**: SmartEndpoints auto-generates complete Minimal API endpoints from your business logic — including routing, DI, HTTP status mapping, error handling, full OpenAPI metadata (`.Produces<T>()`, `.WithSummary()`, `.WithTags()`), and authorization (`.RequireAuthorization()`, `.AllowAnonymous()`). No other .NET library does this.
+
+> 🗺️ **See how your `Result< T >` flows — before it runs.**
+> One attribute. Zero runtime overhead. Instant Mermaid diagram of every success path, failure branch, and side effect in your pipeline — comment auto-generated with one click.
+> [→ [ResultFlow] Pipeline Visualization](#3--resultflow--mermaid-diagrams-autogenerated)
+
+> 📚 **New to functional programming?** The [progressive tutorial series](https://github.com/reslava/nuget-package-reslava-result//samples/lessons/) teaches functional & railway-oriented programming step by step — 9 self-contained lessons from plain C# exceptions to async pipelines and ASP.NET, each a standalone `dotnet run`. Covers `REslava.Result`, `REslava.ResultFlow`, and `REslava.Result.AspNetCore`. YouTube video series — coming soon.
+
+---
+
+###### 1. 📚 Table of Contents
+
+- [1. 📚 Table of Contents](#1--table-of-contents)
+- [2. Getting Started](#2-getting-started)
+  - [2.1. 📦 Installation](#21--installation)
+    - [2.1.1. NuGet CLI](#211-nuget-cli)
+    - [2.1.2. PackageReference (csproj)](#212-packagereference-csproj)
+    - [2.1.3. Supported Frameworks](#213-supported-frameworks)
+    - [2.1.4. Prerequisites](#214-prerequisites)
+  - [2.2. 🚀 Quick Start](#22--quick-start)
+  - [2.3. 🧪 Quick Start Scenarios](#23--quick-start-scenarios)
+    - [2.3.1. Scenario 1: Functional Programming Foundation](#231-scenario-1-functional-programming-foundation)
+    - [2.3.2. Scenario 2: ASP.NET Integration](#232-scenario-2-aspnet-integration)
+    - [2.3.3. Scenario 3: OneOf Extensions (NEW!)](#233-scenario-3-oneof-extensions-new)
+  - [2.4. 📚 Choose Your Path](#24--choose-your-path)
+  - [2.5. 🎯 The Transformation: 70-90% Less Code](#25--the-transformation-70-90-less-code)
+    - [2.5.1. ❌ BEFORE: Traditional Minimal API](#251--before-traditional-minimal-api)
+    - [2.5.2. ✅ AFTER: REslava.Result Magic](#252--after-reslavaresult-magic)
+- [3. 🧩 ResultFlow — Mermaid diagrams autogenerated](#3--resultflow--mermaid-diagrams-autogenerated)
+  - [3.1. 🗺️ Pipeline Visualization — `[ResultFlow]`](#31-️-pipeline-visualization--resultflow)
+  - [3.2. 📦 Standalone Package](#32--standalone-package)
+  - [3.3. 🛠️ Code Action — Insert Diagram as Comment](#33-️-code-action--insert-diagram-as-comment)
+  - [3.4. 🌐 Supported Libraries](#34--supported-libraries)
+  - [3.5. ⚙️ resultflow.json — Custom Classification](#35-️-resultflowjson--custom-classification)
+- [4. 📐 REslava.Result Core Library](#4--reslavaresult-core-library)
+  - [4.1. Core Operations](#41-core-operations)
+    - [4.1.1. 💡 Why Result Instead of Exceptions?](#411--why-result-instead-of-exceptions)
+    - [4.1.2. 🧠 Functional Programming Foundation](#412--functional-programming-foundation)
+    - [4.1.3. 🔧 Complete Method Catalog](#413--complete-method-catalog)
+      - [4.1.3.1. **Core Operations**](#4131-core-operations)
+      - [4.1.3.2. **Functional Composition**](#4132-functional-composition)
+      - [4.1.3.3. **Async Operations**](#4133-async-operations)
+      - [4.1.3.4. **Async Patterns (WhenAll, Retry, Timeout)**](#4134-async-patterns-whenall-retry-timeout)
+    - [4.1.4. 📊 LINQ Integration](#414--linq-integration)
+    - [4.1.5. 🎯 Advanced Patterns](#415--advanced-patterns)
+      - [4.1.5.1. **Maybe - Null-Safe Optionals**](#4151-maybe---null-safe-optionals)
+      - [4.1.5.2. **OneOf - Discriminated Unions**](#4152-oneof---discriminated-unions)
+      - [4.1.5.3. **Validation Rules Framework**](#4153-validation-rules-framework)
+      - [4.1.5.4. **JSON Serialization (System.Text.Json)**](#4154-json-serialization-systemtextjson)
+    - [4.1.6. 🔧 CRTP Pattern \& Method Chaining](#416--crtp-pattern--method-chaining)
+    - [4.1.7. 🔄 Advanced Extensions](#417--advanced-extensions)
+    - [4.1.8. 🚫 Tap on Failure — `TapOnFailure`](#418--tap-on-failure--taponfailure)
+    - [4.1.9. 🔀 Conditional Factories — `OkIf` / `FailIf`](#419--conditional-factories--okif--failif)
+  - [4.2. Async Patterns](#42-async-patterns)
+    - [4.2.1. 🛡️ Exception Wrapping — `Try` / `TryAsync`](#421-️-exception-wrapping--try--tryasync)
+    - [4.2.2. ⏳ CancellationToken Support](#422--cancellationtoken-support)
+    - [4.2.3. 🪤 Inline Exception Handling — `Catch<TException>` / `CatchAsync<TException>`](#423--inline-exception-handling--catchtexception--catchasynctexception)
+  - [4.3. Extensions](#43-extensions)
+    - [4.3.1. 📡 OpenTelemetry Integration — `WithActivity`](#431--opentelemetry-integration--withactivity)
+    - [4.3.2. 📝 Structured Logging — `WithLogger` / `LogOnFailure`](#432--structured-logging--withlogger--logonfailure)
+    - [4.3.3. 🔄 Railway Recovery — `Recover` / `RecoverAsync`](#433--railway-recovery--recover--recoverasync)
+    - [4.3.4. 🔍 Predicate Filtering — `Filter` / `FilterAsync`](#434--predicate-filtering--filter--filterasync)
+    - [4.3.5. 🔀 Void Dispatch — `Switch` / `SwitchAsync`](#435--void-dispatch--switch--switchasync)
+    - [4.3.6. 🗺️ Error Path Transform — `MapError` / `MapErrorAsync`](#436-️-error-path-transform--maperror--maperrorasync)
+    - [4.3.7. 🔄 Fallback on Failure — `Or` / `OrElse` / `OrElseAsync`](#437--fallback-on-failure--or--orelse--orelseasync)
+  - [4.4. Advanced](#44-advanced)
+    - [4.4.1. ✅ Applicative Validation — `Result.Validate`](#441--applicative-validation--resultvalidate)
+    - [4.4.2. 🔓 Tuple Unpacking — `Result< T >.Deconstruct`](#442--tuple-unpacking--resulttdeconstruct)
+    - [4.4.3. 🔁 `Maybe< T >` ↔ `Result< T >` Interop](#443--maybet--resultt-interop)
+    - [4.4.4. ✅ Best Practices](#444--best-practices)
+    - [4.4.5. 🎯 When to Use Each Pattern](#445--when-to-use-each-pattern)
+    - [4.4.6. 🔄 Functional Composition](#446--functional-composition)
+    - [4.4.7. 🚀 Performance Patterns](#447--performance-patterns)
+- [5. ⚠️ Error Types](#5-️-error-types)
+  - [5.1. Error Hierarchy](#51-error-hierarchy)
+  - [5.2. Domain Errors](#52-domain-errors)
+  - [5.3. Generic Errors](#53-generic-errors)
+  - [5.4. Custom Error Types](#54-custom-error-types)
+  - [5.5. Rich Error Context — Tags \& Fluent Chaining](#55-rich-error-context--tags--fluent-chaining)
+  - [5.6. `Success` — Success Reasons](#56-success--success-reasons)
+- [6. ✅ Validation Rules](#6--validation-rules)
+  - [6.1. Basic Usage](#61-basic-usage)
+  - [6.2. All Failures Collected](#62-all-failures-collected)
+  - [6.3. Pipeline Composition](#63-pipeline-composition)
+  - [6.4. Custom Validators](#64-custom-validators)
+  - [6.5. Native Validation DSL](#65-native-validation-dsl)
+  - [6.6. 🏷️ Validation Attributes](#66-️-validation-attributes)
+    - [6.6.1. Quick Setup](#661-quick-setup)
+    - [6.6.2. Generated Extension Method](#662-generated-extension-method)
+    - [6.6.3. Pipeline Integration](#663-pipeline-integration)
+    - [6.6.4. Supported Annotations](#664-supported-annotations)
+    - [6.6.5. Error Details](#665-error-details)
+- [7. 🎲 Maybe](#7--maybe)
+  - [7.1. Operations](#71-operations)
+  - [7.2. When to Use `Maybe< T >`](#72-when-to-use-maybet)
+- [8. 🔀 OneOf Unions](#8--oneof-unions)
+  - [8.1. Arities: 2, 3, 4, 5, 6](#81-arities-2-3-4-5-6)
+  - [8.2. Convert to `Result< T >` or `IResult`](#82-convert-to-resultt-or-iresult)
+  - [8.3. When to Use `OneOf<...>` vs `Result< T >`](#83-when-to-use-oneof-vs-resultt)
+- [9. 🚀 SmartEndpoints](#9--smartendpoints)
+  - [9.1. Setup](#91-setup)
+    - [9.1.1. `[AutoGenerateEndpoints]` — Class-Level Attribute](#911-autogenerateendpoints--class-level-attribute)
+    - [9.1.2. `[AutoMapEndpoint]` — Method-Level Override](#912-automapendpoint--method-level-override)
+    - [9.1.3. HTTP Verb Convention](#913-http-verb-convention)
+    - [9.1.4. Mapping Strategy](#914-mapping-strategy)
+  - [9.2. Features](#92-features)
+    - [9.2.1. OpenAPI Auto-Generation](#921-openapi-auto-generation)
+    - [9.2.2. Authorization](#922-authorization)
+    - [9.2.3. Endpoint Filters — `[SmartFilter]`](#923-endpoint-filters--smartfilter)
+    - [9.2.4. Output Caching \& Rate Limiting](#924-output-caching--rate-limiting)
+    - [9.2.5. Attribute Precedence Cheat Sheet](#925-attribute-precedence-cheat-sheet)
+    - [9.2.6. Auto-Validation](#926-auto-validation)
+  - [9.3. Advanced Usage](#93-advanced-usage)
+    - [9.3.1. CancellationToken Support](#931-cancellationtoken-support)
+    - [9.3.2. FluentValidation Bridge](#932-fluentvalidation-bridge)
+  - [9.4. 🔀 OneOf to IResult](#94--oneof-to-iresult)
+    - [9.4.1. `OneOf<T1,T2>.ToIResult()`](#941-oneoft1t2toiresult)
+    - [9.4.2. `OneOf<T1,T2,T3>.ToIResult()`](#942-oneoft1t2t3toiresult)
+    - [9.4.3. `OneOf<T1,T2,T3,T4>.ToIResult()`](#943-oneoft1t2t3t4toiresult)
+    - [9.4.4. HTTP Method Variants](#944-http-method-variants)
+    - [9.4.5. Error → HTTP Status Mapping](#945-error--http-status-mapping)
+- [10. 🚀 ASP.NET Integration](#10--aspnet-integration)
+  - [10.1. 🌐 ResultToIResult Extensions](#101--resulttoiresult-extensions)
+  - [10.2. 🧠 Smart HTTP Mapping](#102--smart-http-mapping)
+  - [10.3. 🎯 ResultToActionResult Extensions (MVC Support — v1.21.0)](#103--resulttoactionresult-extensions-mvc-support--v1210)
+  - [10.4. 🎯 OneOfToActionResult Extensions (MVC OneOf Support — v1.22.0)](#104--oneoftoactionresult-extensions-mvc-oneof-support--v1220)
+  - [10.5. 📝 Problem Details Integration](#105--problem-details-integration)
+  - [10.6. 🌐 Http Client — REslava.Result.Http](#106--http-client--reslavaresulthttp)
+    - [10.6.1. `GetResult< T >` — Type-safe GET](#1061-getresultt--type-safe-get)
+    - [10.6.2. `PostResult<TBody, TResponse>` — Type-safe POST](#1062-postresulttbody-tresponse--type-safe-post)
+    - [10.6.3. `PutResult<TBody, TResponse>` — Type-safe PUT](#1063-putresulttbody-tresponse--type-safe-put)
+    - [10.6.4. `DeleteResult` — Type-safe DELETE (no body)](#1064-deleteresult--type-safe-delete-no-body)
+    - [10.6.5. `DeleteResult< T >` — Type-safe DELETE (with response body)](#1065-deleteresultt--type-safe-delete-with-response-body)
+    - [10.6.6. `HttpResultOptions` — Custom JSON \& Error Mapping](#1066-httpresultoptions--custom-json--error-mapping)
+    - [10.6.7. Status Code → Error Mapping (defaults)](#1067-status-code--error-mapping-defaults)
+- [11. 📐 Complete Architecture](#11--complete-architecture)
+  - [11.1. 📦 Base Library: REslava.Result](#111--base-library-reslavaresult)
+  - [11.2. 🚀 Source Generators: REslava.Result.AspNetCore](#112--source-generators-reslavaresultaspnetcore)
+  - [11.3. 🎯 SOLID Principles in Action](#113--solid-principles-in-action)
+  - [11.4. 🔄 How Components Work Together](#114--how-components-work-together)
+  - [11.5. 🚀 Smart Auto-Detection (v1.10.0)](#115--smart-auto-detection-v1100)
+  - [11.6. 🗺️ Error → HTTP Status Code Convention](#116-️-error--http-status-code-convention)
+  - [11.7. 🔧 Source Generator Core Library Components](#117--source-generator-core-library-components)
+- [12. 📦 Package Structure](#12--package-structure)
+  - [12.1. 🚀 NuGet Package Contents](#121--nuget-package-contents)
+  - [12.2. 🎯 Generated Output Structure](#122--generated-output-structure)
+  - [12.3. 🔄 Build Integration](#123--build-integration)
+- [13. 🔧 How Generators Work](#13--how-generators-work)
+  - [13.1. Two-Phase Pipeline](#131-two-phase-pipeline)
+  - [13.2. SOLID Design (v1.9.4+)](#132-solid-design-v194)
+  - [13.3. Incremental Rebuilds](#133-incremental-rebuilds)
+- [14. 📦 Sample Projects](#14--sample-projects)
+- [15. 🎯 Quick Examples](#15--quick-examples)
+  - [15.1. 📦 **Core Library - Type-Safe Error Handling**](#151--core-library---type-safe-error-handling)
+  - [15.2. 🚀 **Source Generator - Zero Boilerplate**](#152--source-generator---zero-boilerplate)
+  - [15.3. 🧠 **Advanced Patterns - Functional Programming**](#153--advanced-patterns---functional-programming)
+- [16. 🧪 Testing \& Quality Assurance](#16--testing--quality-assurance)
+  - [16.1. 📊 Comprehensive Test Suite](#161--comprehensive-test-suite)
+  - [16.2. 📐 Source Generator Test Architecture](#162--source-generator-test-architecture)
+  - [16.3. 🎯 Generator Test Coverage](#163--generator-test-coverage)
+  - [16.4. 🚀 CI/CD Pipeline](#164--cicd-pipeline)
+  - [16.5. 🧪 Test Categories](#165--test-categories)
+  - [16.6. 📁 Sample Projects \& Integration Tests](#166--sample-projects--integration-tests)
+  - [16.7. 🔍 Test Quality Metrics](#167--test-quality-metrics)
+  - [16.8. 🏃‍♂️ Running Tests Locally](#168-️-running-tests-locally)
+- [17. 🛡️ Safety Analyzers](#17-️-safety-analyzers)
+  - [17.1. RESL1001 — Unsafe `.Value` Access `[Warning + Code Fix]`](#171-resl1001--unsafe-value-access-warning--code-fix)
+  - [17.2. RESL1002 — Discarded `Result< T >` Return Value `[Warning]`](#172-resl1002--discarded-resultt-return-value-warning)
+  - [17.3. RESL1003 — Prefer `Match()` Over If-Check `[Info]`](#173-resl1003--prefer-match-over-if-check-info)
+  - [17.4. RESL1004 — `Task<Result< T >>` Not Awaited `[Warning + Code Fix]`](#174-resl1004--taskresultt-not-awaited-warning--code-fix)
+  - [17.5. RESL2001 — Unsafe `OneOf.AsT*` Access `[Warning + Code Fix]`](#175-resl2001--unsafe-oneofast-access-warning--code-fix)
+  - [17.6. RESL1005 — Consider Domain Error `[Info]`](#176-resl1005--consider-domain-error-info)
+  - [17.7. RESL1006 — Conflicting `[Validate]` + `[FluentValidate]` `[Error]`](#177-resl1006--conflicting-validate--fluentvalidate-error)
+- [18. 📈 Production Benefits](#18--production-benefits)
+  - [18.1. 🌍 Real-World Impact](#181--real-world-impact)
+    - [18.1.1. 🏢 **For Enterprise Teams**](#1811--for-enterprise-teams)
+    - [18.1.2. 🧪 **For Test-Driven Development**](#1812--for-test-driven-development)
+    - [18.1.3. 👥 **For Team Collaboration**](#1813--for-team-collaboration)
+    - [18.1.4. 🚀 **For Performance \& Scalability**](#1814--for-performance--scalability)
+  - [18.2. 🏆 Why Choose REslava.Result?](#182--why-choose-reslavaresult)
+    - [18.2.1. ✅ **Zero Dependencies**](#1821--zero-dependencies)
+    - [18.2.2. ✅ **Production-Ready**](#1822--production-ready)
+    - [18.2.3. ✅ **Developer Experience**](#1823--developer-experience)
+- [19. ⚡ Performance](#19--performance)
+- [20. 🎯 Roadmap](#20--roadmap)
+  - [20.1. v1.37.0 (Current) ✅](#201-v1370-current-)
+  - [20.2. v1.36.0 ✅](#202-v1360-)
+  - [20.3. v1.35.0 ✅](#203-v1350-)
+  - [20.4. v1.34.0 ✅](#204-v1340-)
+  - [20.5. v1.33.0 ✅](#205-v1330-)
+  - [20.6. v1.32.0 ✅](#206-v1320-)
+  - [20.7. v1.31.0 ✅](#207-v1310-)
+  - [20.8. v1.30.0 ✅](#208-v1300-)
+  - [20.9. v1.29.0 ✅](#209-v1290-)
+  - [20.10. v1.28.0 ✅](#2010-v1280-)
+  - [20.11. v1.27.0 ✅](#2011-v1270-)
+  - [20.12. v1.26.0 ✅](#2012-v1260-)
+  - [20.13. v1.25.0 ✅](#2013-v1250-)
+  - [20.14. v1.24.0 ✅](#2014-v1240-)
+  - [20.15. v1.23.0 ✅](#2015-v1230-)
+  - [20.16. v1.22.0 ✅](#2016-v1220-)
+  - [20.17. v1.21.0 ✅](#2017-v1210-)
+  - [20.18. v1.20.0 ✅](#2018-v1200-)
+  - [20.19. v1.19.0 ✅](#2019-v1190-)
+  - [20.20. v1.18.0 ✅](#2020-v1180-)
+  - [20.21. v1.17.0 ✅](#2021-v1170-)
+  - [20.22. v1.16.0 ✅](#2022-v1160-)
+  - [20.23. v1.15.0 ✅](#2023-v1150-)
+  - [20.24. v1.14.x ✅](#2024-v114x-)
+  - [20.25. v1.13.0 ✅](#2025-v1130-)
+- [21. 📈 Version History](#21--version-history)
+- [22. 🤝 Contributing](#22--contributing)
+- [23. 📄 License](#23--license)
+- [24. 🙏 Acknowledgments](#24--acknowledgments)
+- [25. Contributors](#25-contributors)
+
+---
+
+###### 2. Getting Started
+
+######### 2.1. 📦 Installation
+
+########## 2.1.1. NuGet CLI
+
+```bash
+dotnet add package REslava.Result                      ### Core library — Result< T >, errors, functional composition
+dotnet add package REslava.Result.AspNetCore     ### Source generators — SmartEndpoints, [Validate], OneOfToIResult
+dotnet add package REslava.Result.Analyzers            ### Roslyn analyzers — catch unsafe .Value access at compile time
+
+### ⚠️ OPTIONAL — HTTP client extensions. Only if you need typed Result< T > from HttpClient calls.
+dotnet add package REslava.Result.Http
+
+### ⚠️ OPTIONAL — migration bridge only. NOT needed for new projects.
+### REslava.Result already includes full validation via [Validate] + Validation DSL.
+### Only install if your team already uses FluentValidation and wants to keep existing validators.
+dotnet add package REslava.Result.FluentValidation
+```
+
+########## 2.1.2. PackageReference (csproj)
+
+> [!WARNING]
+> **`REslava.Result.SourceGenerators` was renamed to `REslava.Result.AspNetCore`** in v1.36.0.
+> Update your `PackageReference` directly — no compatibility shim is provided.
+
+```xml
+<ItemGroup>
+  <PackageReference Include="REslava.Result" Version="1.37.0" />
+  <PackageReference Include="REslava.Result.AspNetCore" Version="1.37.0" />
+  <PackageReference Include="REslava.Result.Analyzers" Version="1.37.0" />
+
+  <!-- OPTIONAL — pipeline diagram generator: works with any Result library -->
+  <PackageReference Include="REslava.ResultFlow" Version="1.37.0" />
+
+  <!-- OPTIONAL — HTTP client extensions: wrap HttpClient calls as typed Result< T > -->
+  <PackageReference Include="REslava.Result.Http" Version="1.37.0" />
+
+  <!--
+    OPTIONAL — migration bridge. NOT needed for new projects.
+    REslava.Result already includes equivalent validation via [Validate] + Validation DSL.
+    Only add this if your team has existing FluentValidation validators you want to keep.
+  -->
+  <PackageReference Include="REslava.Result.FluentValidation" Version="1.37.0" />
+</ItemGroup>
+```
+
+########## 2.1.3. Supported Frameworks
+
+| Package | Target Frameworks |
+|---------|------------------|
+| `REslava.Result` | .NET 8, .NET 9, .NET 10 |
+| `REslava.Result.AspNetCore` | .NET Standard 2.0 (generates code for any TFM) |
+| `REslava.Result.Analyzers` | .NET Standard 2.0 |
+| `REslava.Result.FluentValidation` ⚠️ **Optional** | .NET Standard 2.0 (generator-only, no runtime) — migration bridge only |
+
+########## 2.1.4. Prerequisites
+
+- **.NET 8 SDK or later** — required for the core library
+- **C# 12 or later** — recommended (required for some generator patterns)
+- **Visual Studio 2022 17.8+**, **VS Code with C# Dev Kit**, or **JetBrains Rider**
+
+---
+
+######### 2.2. 🚀 Quick Start
+
+See [📦 Installation](#-installation) for NuGet setup.
+
+Decorate a controller class — the source generator builds complete Minimal API endpoints automatically:
+
+```csharp
+[AutoGenerateEndpoints(RoutePrefix = "/api/users")]
+public class UserController
+{
+    private readonly UserService _service;
+    public UserController(UserService service) => _service = service;
+
+    public async Task<OneOf<ValidationError, NotFoundError, User>>
+        GetUser(int id) => await _service.GetUserByIdAsync(id);
+
+    public async Task<OneOf<ValidationError, ConflictError, User>>
+        CreateUser(CreateUserRequest request) => await _service.CreateAsync(request);
+
+    public async Task<Result<List<User>>> GetUsers() => await _service.GetAllAsync();
+}
+```
+
+**Generated automatically — zero manual code:**
+- `GET /api/users/{id}` → 200 / 400 / 404 (HTTP status from `OneOf` error types)
+- `POST /api/users` → 201 / 400 / 409
+- `GET /api/users` → 200
+- Full OpenAPI metadata — `.Produces<T>()`, `.WithSummary()`, `.WithTags()`, `.WithName()`
+
+For complete feature documentation see [🚀 SmartEndpoints](#-smartendpoints), [🌐 ASP.NET Integration](#-aspnet-integration), and the sections below.
+
+---
+
+######### 2.3. 🧪 Quick Start Scenarios
+
+See [📦 Installation](#-installation) for NuGet setup.
+
+########## 2.3.1. Scenario 1: Functional Programming Foundation
+```csharp
+using REslava.Result;
+
+// Core Result pattern usage
+public Result<User> GetUser(int id)
+{
+    if (id <= 0)
+        return Result<User>.Fail("Invalid user ID");
+
+    var user = FindUser(id);
+    return user is null ? Result<User>.Fail($"User {id} not found") : Result<User>.Ok(user);
+}
+
+// Functional composition
+public Result<UserDto> GetUserDto(int id) =>
+    GetUser(id)
+        .Map(ToDto)
+        .Tap(LogAccess)
+        .Ensure(dto => dto.IsActive, "User is inactive");
+
+// LINQ integration
+public Result<UserDto> GetUserDtoLinq(int id) =>
+    from user in GetUser(id)
+    from validation in ValidateUser(user)
+    from dto in ToDto(user)
+    select dto;
+```
+
+########## 2.3.2. Scenario 2: ASP.NET Integration
+```csharp
+[ApiController]
+public class UsersController : ControllerBase
+{
+    // Automatic HTTP mapping
+    [HttpGet("{id}")]
+    public IResult GetUser(int id) => 
+        GetUser(id).ToIResult(); // 200 OK or 404/400
+    
+    // POST with created response
+    [HttpPost]
+    public IResult CreateUser([FromBody] CreateUserRequest request) =>
+        CreateUser(request).ToPostResult(); // 201 Created or 400
+}
+```
+
+########## 2.3.3. Scenario 3: OneOf Extensions (NEW!)
+```csharp
+using REslava.Result;
+using Generated.OneOfExtensions;
+
+// REslava.Result internal OneOf with automatic mapping
+public OneOf<ValidationError, NotFoundError, User> GetUser(int id)
+{
+    if (id <= 0)
+        return new ValidationError("Invalid ID");
+
+    var user = FindUser(id);
+    if (user is null) return new NotFoundError($"User {id} not found");
+    return user;
+}
+
+[HttpGet("{id}")]
+public IResult GetUser(int id) => 
+    GetUser(id).ToIResult(); // 400, 404, or 200
+```
+
+---
+
+######### 2.4. 📚 Choose Your Path
+
+**Find exactly what you need based on your goals:**
+
+| 🎯 **I'm building a...** | 📖 **Start Here** | 🚀 **What You'll Learn** |
+|--------------------------|-------------------|---------------------------|
+| **Web API** | [🌐 ASP.NET Integration](#-aspnet-integration) | Auto-conversion, error mapping, OneOf extensions |
+| **Library/Service** | [📐 Core Library](#-reslavaresult-core-library) | Result pattern, validation, functional programming |
+| **Custom Generator** | [⚙️ How Generators Work](#-how-generators-work) | Build your own source generators |
+| **Advanced App** | [🧠 Advanced Patterns](#-advanced-patterns) | Maybe, OneOf, validation rules |
+| **Testing** | [🧪 Testing & Quality](#-testing--quality-assurance) | 2,862+ tests, CI/CD, test strategies |
+| **Curious About Magic** | [📐 Complete Architecture](#-complete-architecture) | How generators work, SOLID design |
+
+---
+
+######### 2.5. 🎯 The Transformation: 70-90% Less Code
+
+**See how REslava.Result eliminates boilerplate in real .NET 10 applications:**
+
+########## 2.5.1. ❌ BEFORE: Traditional Minimal API
+```csharp
+// Manual error handling, validation, and HTTP responses
+app.MapPost("/users", async (CreateUserRequest request, IUserService service) =>
+{
+    // Manual validation
+    if (string.IsNullOrWhiteSpace(request.Email))
+        return Results.BadRequest(new \{ error = "Email required" });
+    
+    if (!IsValidEmail(request.Email))
+        return Results.BadRequest(new \{ error = "Invalid email" });
+        
+    // Manual duplicate checking
+    if (await EmailExistsAsync(request.Email))
+        return Results.Conflict(new \{ error = "Email already exists" });
+        
+    try
+    {
+        var user = await service.CreateUserAsync(request);
+        return Results.Created($"/users/{user.Id}", user);
+    }
+    catch (ValidationException ex)
+    {
+        return Results.BadRequest(new \{ errors = ex.Errors });
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem("Internal server error");
+    }
+});
+```
+
+########## 2.5.2. ✅ AFTER: REslava.Result Magic
+```csharp
+// Clean, declarative, type-safe - 3 lines instead of 25+
+app.MapPost("/users", async (CreateUserRequest request) => 
+    await CreateUser(request));
+
+// Service layer handles everything elegantly
+public async Task<Result<User>> CreateUser(CreateUserRequest request) =>
+    await Result<CreateUserRequest>.Ok(request)
+        .Ensure(r => !string.IsNullOrWhiteSpace(r.Email), "Email required")
+        .Ensure(r => IsValidEmail(r.Email), "Invalid email format")
+        .EnsureAsync(async r => !await EmailExistsAsync(r.Email), "Email already exists")
+        .BindAsync(async r => await _userService.CreateUserAsync(r))
+        .WithSuccess("User created successfully");
+```
+
+**🚀 Result: 70-90% less code, 100% type-safe, automatic HTTP responses, rich error context!**
+
+---
+
+###### 3. 🧩 ResultFlow — Mermaid diagrams autogenerated
+
+######### 3.1. 🗺️ Pipeline Visualization — `[ResultFlow]`
+
+Annotate any fluent pipeline with `[ResultFlow]` and with **single-click code action** ResultFlow will insert a **Mermaid diagram comment** so you can visualize every success path, failure branch, and side effect in your pipeline — zero runtime overhead, zero maintenance.
+
+```csharp
+/*
+flowchart LR
+    N0_EnsureAsync["EnsureAsync"]:::gatekeeper
+    N0_EnsureAsync -->|pass| N1_BindAsync
+    N0_EnsureAsync -->|fail| F0["Failure"]:::failure
+    N1_BindAsync["BindAsync"]:::transform
+    N1_BindAsync -->|ok| N2_TapAsync
+    N1_BindAsync -->|fail| F1["Failure"]:::failure
+    N2_TapAsync["TapAsync"]:::sideeffect
+    N2_TapAsync --> N3_MapAsync
+    N3_MapAsync["MapAsync"]:::transform
+    classDef gatekeeper fill:#e3e9fa,color:#3f5c9a
+    classDef failure fill:#f8e3e3,color:#b13e3e
+    classDef transform fill:#e3f0e8,color:#2f7a5c
+    classDef sideeffect fill:#fff4d9,color:#b8882c
+*/
+[ResultFlow]
+public async Task<Result<UserDto>> RegisterAsync(RegisterCommand cmd)
+{
+    return await CreateUser(cmd)
+        .EnsureAsync(IsEmailValid, new InvalidEmailError())
+        .BindAsync(SaveUser)
+        .TapAsync(SendWelcomeEmail)
+        .MapAsync(ToDto);
+}
+```
+
+Paste the comment into any [Mermaid renderer](https://mermaid.live) to instantly see the data flow.
+
+Each operation is color-coded by semantic role: **lavender** = gatekeepers (Ensure), **mint** = transforms (Bind/Map), **vanilla** = side effects (Tap), **soft pink** = failure paths.
+
+######### 3.2. 📦 Standalone Package
+
+`[ResultFlow]` is provided by the **`REslava.ResultFlow`** package — completely independent of `REslava.Result`. It works with any fluent Result library.
+
+```bash
+dotnet add package REslava.ResultFlow
+```
+
+Add `using REslava.ResultFlow;` — the attribute type is injected automatically by the generator, no separate assembly reference needed.
+
+######### 3.3. 🛠️ Code Action — Insert Diagram as Comment
+
+ On every `[ResultFlow]` method with a detectable chain a **single-click code action** inserts the Mermaid diagram as a `/* ... */` block comment directly above the method — no build required:
+
+```csharp
+/*
+flowchart LR
+    N0_EnsureAsync["EnsureAsync"]:::gatekeeper
+    N0_EnsureAsync -->|pass| N1_BindAsync
+    ...
+*/
+[ResultFlow]
+public async Task<Result<UserDto>> RegisterAsync(RegisterCommand cmd) => ...
+```
+NOTE: this is done by the companion analyzer (REF002)
+
+######### 3.4. 🌐 Supported Libraries
+
+Built-in convention dictionary — zero configuration for the most popular Result libraries:
+
+| Library | Recognized methods |
+|---|---|
+| **REslava.Result** | `Ensure`, `Bind`, `Map`, `Tap`, `TapOnFailure`, `TapBoth`, `Match`, `WithSuccess` (+ Async) |
+| **ErrorOr** | `Then`, `ThenAsync`, `Switch`, `SwitchAsync` |
+| **LanguageExt** | `Filter`, `Do`, `DoAsync`, `DoLeft`, `DoLeftAsync` |
+| **FluentResults** | `Bind`, `Map` |
+
+Any unrecognized method is rendered as a generic operation node — the diagram is still generated.
+
+######### 3.5. ⚙️ resultflow.json — Custom Classification
+
+Add a `resultflow.json` AdditionalFile to classify custom or third-party methods. Config entries **override** the built-in dictionary.
+
+```json
+{
+  "mappings": [
+    {
+      "bind":       ["Chain", "AndThen"],
+      "map":        ["Transform"],
+      "tap":        ["Log", "Audit"],
+      "gatekeeper": ["Require"],
+      "terminal":   ["Fold"]
+    }
+  ]
+}
+```
+
+```xml
+<ItemGroup>
+  <AdditionalFiles Include="resultflow.json" />
+</ItemGroup>
+```
+
+Supported keys: `bind`, `map`, `tap`, `tapOnFailure`, `gatekeeper`, `terminal`.
+
+---
+
+###### 4. 📐 REslava.Result Core Library
+
+######### 4.1. Core Operations
+
+########## 4.1.1. 💡 Why Result Instead of Exceptions?
+
+| | ❌ Exceptions | ✅ Result Pattern |
+|--|---|---|
+| **Visibility** | Hidden in method signatures | Explicit in return type |
+| **Surprises** | Runtime surprises | Compile-time guarantees |
+| **Code** | Complex try-catch blocks | Simple pattern matching |
+| **Testing** | Hard to test error paths | Easy to test both paths |
+| **Composition** | Break the call chain | Chain operations cleanly |
+
+########## 4.1.2. 🧠 Functional Programming Foundation
+**Railway-Oriented Programming (ROP)**
+- **Immutable Results**: Thread-safe functional data structures
+- **Error Composition**: Chain operations without exception handling
+- **Success/Failure Pipelines**: Clean separation of happy and error paths
+- **Type Safety**: Compile-time guarantees for error handling
+
+########## 4.1.3. 🔧 Complete Method Catalog
+
+########### 4.1.3.1. **Core Operations**
+```csharp
+// Factory Methods
+Result< T >.Ok(value)                    // Success result
+Result< T >.Fail("error")                 // Failure result
+Result.Fail("error")                    // Non-generic failure
+
+// Pattern Matching
+result.Match(
+    onSuccess: value => DoSomething(value),
+    onFailure: errors => HandleErrors(errors)
+);
+
+// Value Access
+result.Value                            // Throws if failed
+result.GetValueOrDefault(defaultValue)  // Safe access
+```
+
+########### 4.1.3.2. **Functional Composition**
+```csharp
+// Bind (Chain operations)
+var result = Result<int>.Ok(5)
+    .Bind(x => Result<string>.Ok(x.ToString()))
+    .Bind(s => ValidateEmail(s));
+
+// Map (Transform success values)
+var result = Result<int>.Ok(5)
+    .Map(x => x * 2)
+    .Map(x => x.ToString());
+
+// Tap (Side effects without changing result)
+var result = Result<User>.Ok(user)
+    .Tap(u => LogUserAccess(u))
+    .Tap(u => SendNotification(u));
+
+// Ensure (Validation)
+var result = Result<string>.Ok(email)
+    .Ensure(e => IsValidEmail(e), "Invalid email format")
+    .EnsureAsync(async e => !await EmailExistsAsync(e), "Email already registered");
+```
+
+########### 4.1.3.3. **Async Operations**
+```csharp
+// All methods have async variants
+var result = await Result<int>.Ok(id)
+    .BindAsync(async i => await GetUserAsync(i))
+    .MapAsync(async user => await ToDtoAsync(user))
+    .TapAsync(async dto => await LogAccessAsync(dto))
+    .EnsureAsync(async dto => await ValidateDtoAsync(dto), "Invalid DTO");
+```
+
+########### 4.1.3.4. **Async Patterns (WhenAll, Retry, Timeout)**
+```csharp
+// Run multiple async results concurrently — typed tuples!
+var result = await Result.WhenAll(GetUser(id), GetAccount(id));
+var (user, account) = result.Value;
+
+// Retry with exponential backoff
+var result = await Result.Retry(
+    () => CallExternalApi(),
+    maxRetries: 3,
+    delay: TimeSpan.FromSeconds(1),
+    backoffFactor: 2.0);
+
+// Enforce time limits
+var result = await GetSlowData().Timeout(TimeSpan.FromSeconds(5));
+```
+
+########## 4.1.4. 📊 LINQ Integration
+**Functional Query Comprehensions**
+```csharp
+// LINQ-like syntax for Result operations
+var result = from user in GetUser(id)
+            from validation in ValidateUser(user)
+            from saved in SaveUser(validation)
+            from notification in SendNotification(saved)
+            select saved;
+
+// Complex queries
+var results = from id in userIds
+             from user in GetUserAsync(id)
+             from updated in UpdateUserAsync(user)
+             select updated;
+
+// Equivalent to method chaining
+var result = GetUser(id)
+    .Bind(ValidateUser)
+    .Bind(SaveUser)
+    .Bind(SendNotification);
+```
+
+########## 4.1.5. 🎯 Advanced Patterns
+
+########### 4.1.5.1. **Maybe< T > - Null-Safe Optionals**
+```csharp
+// Instead of null references
+Maybe<User> user = GetUserFromCache(id);
+var email = user
+    .Map(u => u.Email)
+    .Filter(email => email.Contains("@"))
+    .ValueOrDefault("no-reply@example.com");
+
+// Safe operations
+var result = user
+    .Map(u => u.Name)
+    .Bind(name => ValidateName(name))
+    .ToResult(() => new UserNotFoundError(id));
+```
+
+########### 4.1.5.2. **OneOf - Discriminated Unions**
+```csharp
+// Internal OneOf implementation
+OneOf<ValidationError, User> result = ValidateAndCreateUser(request);
+return result.Match(
+    case1: error => BadRequest(error),
+    case2: user => Ok(user)
+);
+
+// Three-type OneOf
+OneOf<ValidationError, NotFoundError, User> GetUser(int id) \{ /* logic */ }
+
+// Conversion to Result
+var result = oneOf.ToResult(); // Convert OneOf to Result
+```
+
+########### 4.1.5.3. **Validation Rules Framework**
+```csharp
+// Built-in validation DSL
+var rules = new ValidatorRuleBuilder<User>()
+    .EmailAddress(u => u.Email)
+    .NotEmpty(u => u.Name)
+    .GreaterThan(u => u.Age, 17, "Must be 18 or older")
+    .Build();                          // returns ValidatorRuleSet<User>
+
+var result = rules.Validate(user);    // returns ValidationResult<User>
+```
+
+########### 4.1.5.4. **JSON Serialization (System.Text.Json)**
+```csharp
+using REslava.Result.Serialization;
+
+// Register converters once
+var options = new JsonSerializerOptions();
+options.AddREslavaResultConverters();
+
+// Result< T > serialization
+var result = Result<User>.Ok(new User("Alice", "alice@test.com"));
+var json = JsonSerializer.Serialize(result, options);
+// {"isSuccess":true,"value":{"name":"Alice","email":"alice@test.com"},"errors":[],"successes":[]}
+
+var deserialized = JsonSerializer.Deserialize<Result<User>>(json, options);
+
+// OneOf<T1,T2> serialization
+OneOf<Error, User> oneOf = OneOf<Error, User>.FromT2(user);
+var json2 = JsonSerializer.Serialize(oneOf, options);
+// {"index":1,"value":{"name":"Alice","email":"alice@test.com"}}
+
+// Maybe< T > serialization
+var maybe = Maybe<string>.Some("hello");
+var json3 = JsonSerializer.Serialize(maybe, options);
+// {"hasValue":true,"value":"hello"}
+```
+
+########## 4.1.6. 🔧 CRTP Pattern & Method Chaining
+**Curiously Recurring Template Pattern**
+```csharp
+// Fluent method chaining with CRTP
+var result = Result<User>.Ok(user)
+    .Ensure(ValidateEmail)
+    .Map(ToDto)
+    .Tap(SendWelcomeEmail)
+    .Bind(SaveToDatabase)
+    .WithSuccess("User created successfully");
+```
+
+########## 4.1.7. 🔄 Advanced Extensions
+**Functional Composition**
+```csharp
+// Function composition
+var createUser = Compose(
+    ValidateRequest,
+    MapToUser,
+    SaveUser,
+    SendNotification
+);
+
+// Higher-order functions
+var results = users
+    .Where(u => u.IsActive)
+    .Select(u => ProcessUser(u))
+    .Sequence(); // Turns IEnumerable<Result< T >> into Result<IEnumerable<T>>
+
+// Traverse operations
+var results = userIds
+    .Traverse(id => GetUserAsync(id)); // Async version of Sequence
+```
+
+########## 4.1.8. 🚫 Tap on Failure — `TapOnFailure`
+
+Execute a side-effect **only when the result has failed** — logging, metrics, alerting. The result passes through unchanged:
+
+```csharp
+Result<User> result = await GetUserAsync(id)
+    .TapOnFailure(error => _logger.LogWarning("GetUser failed: {Msg}", error.Message));
+
+// Async side-effect
+Result<Order> order = await CreateOrderAsync(request)
+    .TapOnFailureAsync(async error => await _metrics.IncrementAsync("order.failed"));
+
+// Non-generic Result
+Result operation = await DeleteUserAsync(id)
+    .TapOnFailure(error => _audit.RecordFailure("delete_user", error));
+```
+
+Combine with `Tap()` for full success/failure observability in one chain:
+
+```csharp
+Result<Order> order = await CreateOrderAsync(request)
+    .Tap(o => _logger.LogInformation("Order {Id} created", o.Id))
+    .TapOnFailure(e => _logger.LogError("Order creation failed: {Msg}", e.Message));
+```
+
+########## 4.1.9. 🔀 Conditional Factories — `OkIf` / `FailIf`
+
+Create results directly from boolean conditions — no if/else boilerplate:
+
+```csharp
+// Result (no value)
+Result r1 = Result.OkIf(age >= 18, "Must be 18 or older");
+Result r2 = Result.FailIf(user.IsSuspended, new ValidationError("Account suspended"));
+
+// Result< T > — value on success
+Result<User> r3 = Result<User>.OkIf(user != null, user!, "User not found");
+Result<User> r4 = Result<User>.FailIf(user.Age < 18, new ValidationError("Age", "Must be 18+"), user);
+
+// Lazy evaluation — condition and/or value computed only when needed
+Result<User> r5 = Result<User>.OkIf(
+    () => _db.IsUserActive(id),         // predicate evaluated lazily
+    () => _db.LoadUser(id),             // value only loaded when needed
+    "User not found");
+
+// Async versions
+Result result = await Result.OkIfAsync(() => _api.CheckExistsAsync(id), "Not found");
+Result<User> result = await Result<User>.OkIfAsync(
+    () => _api.CheckExistsAsync(id),
+    () => _api.LoadUserAsync(id),
+    "User not found");
+```
+
+######### 4.2. Async Patterns
+
+########## 4.2.1. 🛡️ Exception Wrapping — `Try` / `TryAsync`
+
+Safely execute code that may throw — exceptions become `ExceptionError` in a failed `Result< T >`:
+
+```csharp
+// Sync — wraps any thrown exception
+Result<int> parsed = Result<int>.Try(() => int.Parse(input));
+Result<User> user  = Result<User>.Try(() => GetUser(id));
+
+// Custom error handler — map exception to a domain error
+Result<User> result = Result<User>.Try(
+    () => JsonSerializer.Deserialize<User>(json),
+    ex => new ValidationError("body", $"Invalid JSON: {ex.Message}"));
+
+// Async
+Result<User> result = await Result<User>.TryAsync(
+    async () => await _api.FetchUserAsync(id));
+
+// Async with custom handler
+Result<User> result = await Result<User>.TryAsync(
+    async () => await _repo.GetAsync(id),
+    ex => new NotFoundError($"User {id} not found"));
+```
+
+########## 4.2.2. ⏳ CancellationToken Support
+
+All `*Async` methods accept `CancellationToken cancellationToken = default`:
+
+```csharp
+// Pass through from your endpoint/controller
+Result<User> result = await Result<User>.TryAsync(
+    async () => await _repo.GetAsync(id),
+    cancellationToken: ct);
+
+// Bind / Map / Tap async chains also accept ct
+Result<UserDto> dto = await result
+    .BindAsync(u => _mapper.MapAsync(u, ct))
+    .TapAsync(d => _cache.SetAsync(d, ct));
+```
+
+########## 4.2.3. 🪤 Inline Exception Handling — `Catch<TException>` / `CatchAsync<TException>`
+
+When a pipeline step may throw a specific exception type, `Catch` converts the `ExceptionError` wrapping that exception into a domain error — without breaking the pipeline:
+
+```csharp
+// Convert HttpRequestException to a domain NotFoundError
+Result<User> user = await Result<User>.TryAsync(() => _api.FetchUserAsync(id))
+    .Catch<HttpRequestException>(ex => new NotFoundError("User", id));
+
+// Convert DbException to ConflictError
+Result<Order> order = await Result<Order>.TryAsync(() => _db.InsertOrderAsync(dto))
+    .Catch<DbException>(ex => new ConflictError($"Order insert failed: {ex.Message}"));
+
+// Async handler
+Result<User> result = await Result<User>.TryAsync(() => _api.FetchUserAsync(id))
+    .CatchAsync<HttpRequestException>(async ex =>
+    {
+        await _telemetry.TrackExceptionAsync(ex);
+        return new NotFoundError("User", id);
+    });
+```
+
+The `ExceptionError` is replaced **in-place** — preserving its position in the error list. Other errors are untouched. If there is no matching exception error, or the result is successful, it passes through unchanged.
+
+---
+
+######### 4.3. Extensions
+
+########## 4.3.1. 📡 OpenTelemetry Integration — `WithActivity`
+
+Enriches an existing `Activity` span with result outcome metadata — Tap-style, returns the result unchanged:
+
+```csharp
+using var activity = ActivitySource.StartActivity("GetUser");
+
+Result<User> user = await _userService.GetAsync(id)
+    .WithActivity(activity);    // or Activity.Current
+```
+
+Tags set on the activity:
+
+| Tag | Value |
+|-----|-------|
+| `result.outcome` | `"success"` or `"failure"` |
+| `result.error.type` | First error type name (on failure) |
+| `result.error.message` | First error message (on failure) |
+| `result.error.count` | Error count (only when > 1) |
+
+Activity status is set to `ActivityStatusCode.Ok` on success, `ActivityStatusCode.Error` on failure. Null-safe — no-op when `activity` is `null`. No extra NuGet dependency — uses BCL `System.Diagnostics.Activity`.
+
+---
+
+########## 4.3.2. 📝 Structured Logging — `WithLogger` / `LogOnFailure`
+
+Tap-style ILogger integration — log result outcomes without breaking the pipeline:
+
+```csharp
+// Log every result: Debug on success, Warning/Error on failure
+Result<User> user = await _userService.GetAsync(id)
+    .WithLogger(_logger, "GetUser");
+
+// Log only failures — success is silent
+Result<Order> order = await _orderService.CreateAsync(dto)
+    .LogOnFailure(_logger, "CreateOrder");
+
+// Composable in pipelines
+Result<UserDto> dto = await _userService.GetAsync(id)
+    .WithLogger(_logger, "GetUser")
+    .MapAsync(u => _mapper.Map(u));
+```
+
+Log levels per outcome:
+
+| Outcome | Level | When |
+|---------|-------|------|
+| Success | `Debug` | `IsSuccess` |
+| Domain failure | `Warning` | `IsFailure`, no `ExceptionError` |
+| Exception failure | `Error` | `IsFailure`, contains `ExceptionError` |
+
+Structured log properties on every failure entry: `{OperationName}`, `{ErrorType}`, `{ErrorMessage}`, `{ErrorCount}` (when > 1 error). `Task<Result< T >>` extensions accept `CancellationToken`.
+
+---
+
+########## 4.3.3. 🔄 Railway Recovery — `Recover` / `RecoverAsync`
+
+The counterpart to `Bind`: where `Bind` chains on the success path, `Recover` chains on the failure path. Transform any failure into a new `Result` — which can itself succeed or fail:
+
+```csharp
+// Fallback to cache if the primary DB call fails
+Result<User> user = await _userRepo.GetAsync(id)
+    .Recover(errors => _cache.Get(id));
+
+// Async fallback — secondary data source
+Result<User> user = await _userRepo.GetAsync(id)
+    .RecoverAsync(errors => _fallbackApi.GetUserAsync(id));
+
+// Context-aware: skip recovery on ForbiddenError
+Result<Document> doc = await FetchDocument(id)
+    .Recover(errors => errors.Any(e => e is ForbiddenError)
+        ? Result<Document>.Fail(errors)
+        : _localCache.Get(id));
+
+// Non-generic Result — command recovery
+Result result = await DeleteUser(id)
+    .Recover(errors => ArchiveUser(id));
+```
+
+The recovery func receives the full `ImmutableList<IError>` — enabling context-aware branching. Pass-through on success. Distinct from `Catch<TException>`: `Catch` targets only `ExceptionError` wrapping a specific exception type and always returns a failure; `Recover` handles any failure and can return success.
+
+---
+
+########## 4.3.4. 🔍 Predicate Filtering — `Filter` / `FilterAsync`
+
+Convert a successful result to a failure when a predicate on the value is not met. The error factory receives the value — enabling contextual error messages that embed actual data:
+
+```csharp
+// Value-dependent error — the primary Filter use case
+Result<User> activeUser = userResult
+    .Filter(u => u.IsActive, u => new Error($"User '{u.Name}' is not active."));
+
+// Static error — convenience overload
+Result<Order> pending = orderResult
+    .Filter(o => o.Status == OrderStatus.Pending, new ConflictError("Order", "Status", OrderStatus.Pending));
+
+// String message — convenience overload
+Result<Product> inStock = productResult
+    .Filter(p => p.Stock > 0, "Product is out of stock.");
+
+// Async predicate (e.g. external validation service)
+Result<Order> valid = await orderResult
+    .FilterAsync(async o => await _validator.IsValidAsync(o),
+                 o => new ValidationError("Order", o.Id.ToString(), "failed validation"));
+```
+
+Distinct from `Ensure`: `Ensure` takes a static `Error` fixed at the call site. `Filter` takes `Func<T, IError>` — the error is built from the value itself, enabling messages like `"User 'John' is not active"`. Predicate exceptions are wrapped in `ExceptionError`. Pass-through on failure.
+
+---
+
+########## 4.3.5. 🔀 Void Dispatch — `Switch` / `SwitchAsync`
+
+Route success and failure to two actions without returning a value. The explicit intent signal for end-of-chain side-effect dispatch — distinct from `void Match` (same semantics, but `Switch` signals that the caller explicitly has no interest in a return value). The primary new value is the `Task` extensions, which don't exist for `void Match`:
+
+```csharp
+// Sync — named parameters make intent explicit
+result.Switch(
+    onSuccess: user   => _cache.Set(user.Id, user),
+    onFailure: errors => _metrics.Increment("fetch.error"));
+
+// Async — end-of-chain after async pipeline
+await GetUserAsync(id)
+    .Switch(
+        onSuccess: user   => _cache.Set(user.Id, user),
+        onFailure: errors => _metrics.Increment("fetch.error"));
+
+// Async actions — Task<Result< T >> extension
+await CreateOrderAsync(dto)
+    .SwitchAsync(
+        onSuccess: async order  => await PublishAsync(order),
+        onFailure: async errors => await AlertAsync(errors[0]));
+```
+
+Pass-through: `Switch` returns `void` — use `Tap`/`TapOnFailure` when you need to continue the chain.
+
+---
+
+########## 4.3.6. 🗺️ Error Path Transform — `MapError` / `MapErrorAsync`
+
+Transforms errors in the failure path. The symmetric counterpart to `Map`: where `Map` transforms the success value, `MapError` transforms the error list. Success passes through unchanged; the result state (IsSuccess/IsFailure) **never changes**:
+
+```csharp
+// Enrich errors with service context — success unchanged
+Result<User> result = await userRepository.GetAsync(id)
+    .MapError(errors => errors
+        .Select(e => (IError)new NotFoundError($"[UserService] {e.Message}"))
+        .ToImmutableList());
+
+// Async mapper
+Result<Order> result = await orderTask
+    .MapErrorAsync(async errors =>
+    {
+        await _audit.LogAsync(errors);
+        return errors.Select(e => (IError)new Error($"[OrderSvc] {e.Message}")).ToImmutableList();
+    });
+```
+
+Distinct from `Recover`: `Recover` can turn failure into success; `MapError` always remains a failure. Use `MapError` to add context or re-wrap errors mid-pipeline without breaking the chain.
+
+---
+
+########## 4.3.7. 🔄 Fallback on Failure — `Or` / `OrElse` / `OrElseAsync`
+
+Return a fallback result when failure occurs. Simpler API than `Recover` for the common case where you just need a default:
+
+```csharp
+// Or — eager fallback (pre-built result)
+Result<User> result = TryGetUser(id).Or(Result<User>.Ok(GuestUser.Instance));
+
+// OrElse — lazy fallback (receives the error list, computed on demand)
+Result<User> result = TryGetUser(id)
+    .OrElse(errors => _cache.Get(errors[0].Message));
+
+// OrElse — fallback can itself fail
+Result<User> result = TryPrimary(id)
+    .OrElse(errors => TrySecondary(id));
+
+// Task extension — end-of-chain after async pipeline
+Result<User> result = await TryGetUserAsync(id)
+    .OrElse(errors => _localCache.Get(id));
+
+// Async factory
+Result<User> result = await TryGetUserAsync(id)
+    .OrElseAsync(async errors => await FetchFromCacheAsync(id));
+```
+
+Distinct from `Recover`: semantically identical — `Or`/`OrElse` are the discoverable, intention-revealing names. `Or` is the eager overload (pass the fallback directly), `OrElse` is lazy (factory only called on failure). The fallback can itself be a failure.
+
+---
+
+######### 4.4. Advanced
+
+########## 4.4.1. ✅ Applicative Validation — `Result.Validate`
+
+Run multiple independent validations and accumulate **all** errors at once. Distinct from `Bind` (which short-circuits on first failure) and `Combine` (same-type collection, no mapper):
+
+```csharp
+// All three validations run regardless of individual failure — ALL errors surface
+Result<CreateOrderDto> dto = Result.Validate(
+    ValidateName(request.Name),       // Result<string>
+    ValidateEmail(request.Email),     // Result<string>
+    ValidateAge(request.Age),         // Result<int>
+    (name, email, age) => new CreateOrderDto(name, email, age));
+
+// If Name and Age fail, dto.Errors contains BOTH errors simultaneously
+// If all succeed, dto.Value = new CreateOrderDto(...)
+```
+
+2-way and 4-way overloads follow the same pattern. Mapper is only invoked when all inputs succeed.
+
+---
+
+########## 4.4.2. 🔓 Tuple Unpacking — `Result< T >.Deconstruct`
+
+C# 8+ deconstruction support for concise result handling:
+
+```csharp
+// 2-component: value is default when IsFailure
+var (value, errors) = GetUser(id);
+if (errors.Count == 0) Console.WriteLine(value!.Name);
+
+// 3-component: full unpack
+var (isSuccess, value, errors) = GetUser(id);
+if (isSuccess) Console.WriteLine(value!.Name);
+
+// Non-generic Result
+var (isSuccess, errors) = DoSomething();
+```
+
+---
+
+########## 4.4.3. 🔁 `Maybe< T >` ↔ `Result< T >` Interop
+
+Bridge between the two optional-value types in the library:
+
+```csharp
+// Maybe → Result (None becomes a typed failure)
+Maybe<User> maybe = repository.FindUser(id);
+Result<User> result = maybe.ToResult(() => new NotFoundError("User", id)); // lazy factory
+Result<User> result = maybe.ToResult(new NotFoundError("User", id));      // static error
+Result<User> result = maybe.ToResult("User not found");                    // string overload
+
+// Result → Maybe (error info is discarded — use when absence, not error detail, is needed)
+Maybe<User> maybe = result.ToMaybe(); // Some(user) on success, None on failure
+```
+
+---
+
+########## 4.4.4. ✅ Best Practices
+
+**Do:**
+- Use `Result< T >` for expected business failures (validation, not found, conflict)
+- Create custom error types for your domain (`OrderNotFoundError`, `InsufficientStockError`)
+- Use tags to add structured context: `.WithTag("OrderId", id).WithTag("StatusCode", 422)`
+- Chain operations with `Bind` for sequential steps; `Map` for transforms only
+- Test both success and failure paths in unit tests
+
+**Avoid:**
+- Using `Result< T >` for truly unexpected/exceptional cases — those still warrant exceptions
+- Accessing `.Value` without checking `IsSuccess` first (use `GetValueOrDefault` or `Match`)
+- Deep nesting — break complex pipelines into small named methods
+- Ignoring errors — always handle the failure case in `Match`
+
+########## 4.4.5. 🎯 When to Use Each Pattern
+
+| Pattern | Best For | When to Avoid |
+|---------|----------|---------------|
+| **Maybe\<T>** | Optional values, cache lookups | When you need error details |
+| **OneOf\<T1,...>** | Typed multi-outcome returns, API responses | When you have >6 outcomes |
+| **Result + LINQ** | Complex data pipelines with query syntax | Simple single-step operations |
+| **Compose / Sequence** | Multi-step pipelines, fan-out/fan-in | Single-step operations |
+
+########## 4.4.6. 🔄 Functional Composition
+**Build complex operations from simple functions:**
+```csharp
+// Function composition
+Func<CreateUserRequest, Result<User>> createUserPipeline = Compose(
+    ValidateRequest,
+    MapToUser,
+    ValidateUser,
+    SaveUser,
+    SendWelcomeEmail
+);
+
+// Use the composed function
+var result = createUserPipeline(request);
+
+// Higher-order functions with Result
+var results = users
+    .Where(u => u.IsActive)
+    .Select(u => ProcessUser(u))
+    .Sequence(); // Turns IEnumerable<Result< T >> into Result<IEnumerable<T>>
+
+// Async traverse operations
+var results = await userIds
+    .Traverse(id => GetUserAsync(id)); // Async version of Sequence
+
+// Error aggregation
+var aggregatedResult = results
+    .Map(users => users.ToList())
+    .Tap(users => LogInfo($"Processed {users.Count} users"));
+```
+
+########## 4.4.7. 🚀 Performance Patterns
+**Optimize for high-performance scenarios:**
+```csharp
+// Value objects for reduced allocations
+public readonly record struct UserEmail(string Value)
+{
+    public static Result<UserEmail> Create(string email) =>
+        string.IsNullOrWhiteSpace(email)
+            ? Result<UserEmail>.Fail("Email required")
+            : email.Contains("@")
+                ? Result<UserEmail>.Ok(new UserEmail(email))
+                : Result<UserEmail>.Fail("Invalid email format");
+}
+
+// Array pooling for high-throughput scenarios
+using System.Buffers;
+
+var result = Result<string[]>.Ok(ArrayPool<string>.Shared.Rent(1000))
+    .Ensure(arr => arr.Length >= 1000, "Array too small")
+    .Tap(arr => ArrayPool<string>.Shared.Return(arr));
+
+// Memory-efficient validation
+public ref struct ValidationSpan(ReadOnlySpan<char> input)
+{
+    public bool IsValid => !input.IsEmpty && input.Contains('@');
+    public Result<ReadOnlySpan<char>> AsResult() =>
+        IsValid ? Result<ReadOnlySpan<char>>.Ok(input)
+                : Result<ReadOnlySpan<char>>.Fail("Invalid email");
+}
+```
+
+---
+
+###### 5. ⚠️ Error Types
+
+All errors inherit from `Reason<TReason>` (CRTP base) and implement `IError`. Domain errors automatically set an `HttpStatusCode` tag that drives HTTP mapping in `ToIResult()` and `ToActionResult()`.
+
+######### 5.1. Error Hierarchy
+
+```
+Reason<TReason> (abstract, immutable, CRTP)
+├── Error                    — generic error, no HTTP tag
+├── ValidationError          — HTTP 422 Unprocessable Entity
+├── NotFoundError            — HTTP 404 Not Found
+├── ConflictError            — HTTP 409 Conflict
+├── UnauthorizedError        — HTTP 401 Unauthorized
+├── ForbiddenError           — HTTP 403 Forbidden
+├── ExceptionError           — wraps .NET exceptions
+└── ConversionError          — implicit conversion failures
+Success                      — used with .WithSuccess()
+```
+
+######### 5.2. Domain Errors
+
+Built-in errors for the most common HTTP scenarios (v1.20.0+):
+
+| Type | HTTP | Constructor overloads | Key tags |
+|---|---|---|---|
+| `ValidationError` | 422 | `(message)` \| `(fieldName, message)` | `FieldName`, `HttpStatusCode` |
+| `NotFoundError` | 404 | `(message)` \| `(entityName, id)` | `EntityName`, `EntityId`, `HttpStatusCode` |
+| `ConflictError` | 409 | `(message)` \| `(entityName, field, value)` | `EntityName`, `ConflictField`, `ConflictValue`, `HttpStatusCode` |
+| `UnauthorizedError` | 401 | `()` \| `(message)` | `HttpStatusCode` |
+| `ForbiddenError` | 403 | `()` \| `(message)` \| `(action, resource)` | `Action`, `Resource`, `HttpStatusCode` |
+
+```csharp
+// ValidationError — with or without field name
+new ValidationError("Email is required")
+new ValidationError("email", "Must be a valid email address")   // FieldName = "email"
+
+// NotFoundError — resource-style message auto-formatted
+new NotFoundError("User not found")
+new NotFoundError("User", userId)           // "User with id '42' was not found"
+
+// ConflictError — conflict details auto-formatted
+new ConflictError("A user with this email already exists")
+new ConflictError("User", "email", email)   // "User with email 'x@y.com' already exists"
+
+// UnauthorizedError / ForbiddenError
+new UnauthorizedError()                         // "Authentication required"
+new UnauthorizedError("Token has expired")
+new ForbiddenError()                            // "Access denied"
+new ForbiddenError("Delete", "Order")           // "Access denied: insufficient permissions to Delete Order"
+```
+
+######### 5.3. Generic Errors
+
+| Type | Constructor | Use case |
+|---|---|---|
+| `Error` | `(message)` | Generic domain error without HTTP tag |
+| `ExceptionError` | `(exception)` \| `(message, exception)` | Wraps .NET exceptions (set by `Try`/`TryAsync`) |
+| `ConversionError` | `(reason)` | Created automatically by implicit conversion failures |
+
+```csharp
+new Error("Something went wrong")
+new ExceptionError(ex)                     // message from ex.Message, tags: ExceptionType, StackTrace
+new ExceptionError("Custom message", ex)   // custom message, same tags
+
+// ConversionError is created automatically when an implicit Result< T > → T conversion fails.
+// Severity tag is set to Warning (not Error) — rarely constructed manually.
+new ConversionError("Cannot convert 'abc' to int")
+// result.Errors[0].Tags["Severity"] == "Warning"
+```
+
+######### 5.4. Custom Error Types
+
+Extend `Reason<TYourError>` with the CRTP pattern:
+
+```csharp
+public class InsufficientStockError : Reason<InsufficientStockError>, IError
+{
+    public int ProductId \{ get; }
+    public int Requested \{ get; }
+    public int Available \{ get; }
+
+    public InsufficientStockError(int productId, int requested, int available)
+        : base(
+            $"Insufficient stock for product {productId}: requested {requested}, available {available}",
+            ImmutableDictionary<string, object>.Empty
+                .Add("HttpStatusCode", 409)
+                .Add("ProductId", productId)
+                .Add("Requested", requested)
+                .Add("Available", available))
+    {
+        ProductId = productId;
+        Requested = requested;
+        Available = available;
+    }
+
+    private InsufficientStockError(string message, ImmutableDictionary<string, object> tags,
+        int productId, int requested, int available)
+        : base(message, tags)
+    {
+        ProductId = productId; Requested = requested; Available = available;
+    }
+
+    protected override InsufficientStockError CreateNew(
+        string message, ImmutableDictionary<string, object> tags)
+        => new(message, tags, ProductId, Requested, Available);
+}
+
+// Usage
+Result<Order>.Fail(new InsufficientStockError(productId: 42, requested: 10, available: 3));
+```
+
+######### 5.5. Rich Error Context — Tags & Fluent Chaining
+
+Every error type supports immutable tag chaining via `WithTag()`:
+
+```csharp
+// Chain additional context onto any error
+var error = new ValidationError("email", "Invalid format")
+    .WithTag("AttemptedValue", userInput)
+    .WithTag("RequestId", requestId)
+    .WithTag("Timestamp", DateTime.UtcNow);
+
+// Tags surface in ProblemDetails.Extensions (via ToIResult/ToActionResult)
+// and are accessible on the error object:
+var statusCode = (int)error.Tags["HttpStatusCode"];  // 422
+var field = error.Tags["FieldName"];                  // "email"
+```
+
+######### 5.6. `Success` — Success Reasons
+
+Used with `.WithSuccess()` to attach informational messages to successful results:
+
+```csharp
+var result = Result<User>.Ok(user)
+    .WithSuccess("User created successfully");
+
+result.Successes // IEnumerable<ISuccess>
+result.Successes.First().Message // "User created successfully"
+```
+
+---
+
+###### 6. ✅ Validation Rules
+
+The built-in validation framework lets you compose declarative rules that accumulate all failures and return `Result< T >`.
+
+######### 6.1. Basic Usage
+
+```csharp
+var rules = new ValidatorRuleBuilder<User>()
+    .EmailAddress(u => u.Email, "Invalid email address")
+    .NotEmpty(u => u.Name, "Name is required")
+    .GreaterThan(u => u.Age, 17, "Must be 18 or older")
+    .Build();
+
+Result<User> result = rules.Validate(user);
+```
+
+######### 6.2. All Failures Collected
+
+Unlike `if`/`throw` validation, every rule is always evaluated — all failures surface together:
+
+```csharp
+if (!result.IsSuccess)
+{
+    foreach (var error in result.Errors)
+        Console.WriteLine($"{error.Message}");
+    // Outputs all failures in one pass
+}
+```
+
+######### 6.3. Pipeline Composition
+
+```csharp
+// Validate → bind business logic → transform output
+Result<OrderDto> dto = await rules.Validate(request)
+    .BindAsync(r => _service.CreateOrderAsync(r))
+    .Map(order => order.ToDto());
+
+// In Minimal APIs
+return rules.Validate(request).ToIResult();
+```
+
+######### 6.4. Custom Validators
+
+```csharp
+public class PasswordValidator : IValidatorRuleSync<RegisterRequest>
+{
+    public string Name => "Password";
+    public string ErrorMessage => "Password must be at least 8 characters";
+
+    public ValidationResult<RegisterRequest> Validate(RegisterRequest request) =>
+        request.Password.Length >= 8
+            ? ValidationResult<RegisterRequest>.Success(request)
+            : ValidationResult<RegisterRequest>.Failure(
+                new ValidationError("Password", ErrorMessage));
+}
+
+var rules = new ValidatorRuleBuilder<RegisterRequest>()
+    .AddRule(new PasswordValidator())
+    .Build();
+```
+
+######### 6.5. Native Validation DSL
+
+**v1.27.0** — `ValidatorRuleBuilderExtensions` adds 19 named, fluent methods on `ValidatorRuleBuilder< T >`. Property names are inferred automatically from `Expression<Func<T, TProperty>>` for clear default error messages — no raw predicates needed:
+
+```csharp
+// Before — verbose, raw predicates, manual error messages
+var validator = new ValidatorRuleBuilder<CreateUserRequest>()
+    .Rule(u => u.Name, "NotEmpty", "Name is required", v => !string.IsNullOrEmpty(v))
+    .Rule(u => u.Name, "MaxLength", "Name is too long", v => v.Length <= 100)
+    .Rule(u => u.Email, "Email", "Invalid email", v => emailRegex.IsMatch(v))
+    .Rule(u => u.Age, "Range", "Age must be 18–120", v => v >= 18 && v <= 120)
+    .Build();
+
+// After — native DSL, field names auto-inferred in default messages
+var validator = new ValidatorRuleBuilder<CreateUserRequest>()
+    .NotEmpty(u => u.Name)                    // "'Name' must not be empty."
+    .MaxLength(u => u.Name, 100)              // "'Name' must not exceed 100 characters."
+    .EmailAddress(u => u.Email)               // "'Email' must be a valid email address."
+    .Range(u => u.Age, 18, 120)              // "'Age' must be between 18 and 120."
+    .Build();
+```
+
+| Category | Rules |
+|----------|-------|
+| **String** | `NotEmpty`, `NotWhiteSpace`, `MinLength`, `MaxLength`, `Length`, `EmailAddress`, `Matches`, `StartsWith`, `EndsWith`, `Contains` |
+| **Numeric** (`IComparable<TNum>`) | `GreaterThan`, `LessThan`, `Range`, `Positive`, `NonNegative` |
+| **Collection** | `NotEmpty<TItem>`, `MinCount`, `MaxCount` |
+| **Reference** | `NotNull` |
+
+All numeric rules are generic — work with `int`, `long`, `double`, `decimal`, and any `IComparable<TNum>`.
+
+---
+
+<!-- anchor: §10 Validation Attributes merged into §9 Validation Rules -->
+######### 6.6. 🏷️ Validation Attributes
+
+**v1.24.0** — The `[Validate]` source generator creates a `.Validate()` extension method for any record or class decorated with `System.ComponentModel.DataAnnotations` attributes, returning `Result< T >` — fully composable with the rest of the pipeline.
+
+########## 6.6.1. Quick Setup
+
+```csharp
+using REslava.Result.AspNetCore;
+
+[Validate]
+public record CreateProductRequest(
+    [Required] string Name,
+    [Range(0.01, double.MaxValue)] decimal Price,
+    [StringLength(500)] string? Description
+);
+```
+
+########## 6.6.2. Generated Extension Method
+
+The generator emits this code at compile time — no runtime reflection overhead:
+
+```csharp
+// Auto-generated in Generated.ValidationExtensions namespace
+public static Result<CreateProductRequest> Validate(this CreateProductRequest instance)
+{
+    var context = new ValidationContext(instance);
+    var results = new List<ValidationResult>();
+    if (Validator.TryValidateObject(instance, context, results, validateAllProperties: true))
+        return Result<CreateProductRequest>.Ok(instance);
+
+    var errors = results
+        .Select(r => (IError)new ValidationError(
+            r.ErrorMessage ?? "Validation failed",
+            r.MemberNames.FirstOrDefault()))
+        .ToList();
+    return Result<CreateProductRequest>.Fail(errors);
+}
+```
+
+########## 6.6.3. Pipeline Integration
+
+```csharp
+// Minimal API — validate and respond in one line
+app.MapPost("/api/products", (CreateProductRequest request) =>
+    request.Validate().ToIResult());
+
+// MVC Controller — validate then call service
+return (await request.Validate()
+    .BindAsync(r => _service.CreateAsync(r)))
+    .ToActionResult();
+
+// Chain further operations
+Result<ProductDto> result = await request.Validate()
+    .BindAsync(r => _service.CreateAsync(r))
+    .Map(p => p.ToDto());
+```
+
+########## 6.6.4. Supported Annotations
+
+All 20+ `System.ComponentModel.DataAnnotations` types work automatically because the generator delegates to `Validator.TryValidateObject`:
+
+`[Required]`, `[Range]`, `[StringLength]`, `[MinLength]`, `[MaxLength]`, `[RegularExpression]`, `[EmailAddress]`, `[Phone]`, `[Url]`, `[Compare]`, `[CreditCard]`, `[DataType]`, and any custom class inheriting from `ValidationAttribute`.
+
+########## 6.6.5. Error Details
+
+Each `ValidationError` carries the field name and message:
+
+```csharp
+result.Errors.OfType<ValidationError>().ToList().ForEach(e =>
+    Console.WriteLine($"{e.FieldName}: {e.Message}"));
+// → Name: The Name field is required.
+// → Price: The field Price must be between 0.01 and 1.7976931348623157E+308.
+```
+
+---
+
+###### 7. 🎲 Maybe
+
+Null-safe optional values — eliminate null reference exceptions with a composable type:
+
+```csharp
+// ❌ Traditional null checking
+string email = user?.Email?.ToLower();
+if (string.IsNullOrEmpty(email))
+    email = "no-reply@example.com";
+
+// ✅ Maybe< T > functional approach
+Maybe<User> maybeUser = GetUserFromCache(id);
+string email = maybeUser
+    .Map(u => u.Email)
+    .Filter(e => !string.IsNullOrWhiteSpace(e))
+    .Map(e => e.ToLower())
+    .ValueOrDefault("no-reply@example.com");
+```
+
+######### 7.1. Operations
+
+```csharp
+Maybe<User> maybe = GetUserFromCache(id);
+
+// Transform the value if present
+Maybe<string> name = maybe.Select(u => u.Name);
+
+// Filter — becomes None if predicate is false
+Maybe<User> active = maybe.Filter(u => u.IsActive);
+
+// Chain safely through nested optionals
+var theme = maybe
+    .Select(u => u.Profile)
+    .Select(p => p.Settings)
+    .Select(s => s.Theme)
+    .ValueOrDefault("default-theme");
+
+// Extract value
+User user = maybe.Value;                        // throws if None
+User user = maybe.ValueOrDefault(fallback);     // safe
+bool has = maybe.HasValue;                      // true/false
+
+// Convert to Result for error pipeline integration
+Result<User> result = maybe.ToResult(new NotFoundError("User", id));
+```
+
+######### 7.2. When to Use `Maybe< T >`
+
+- Cache lookups that may miss
+- Optional configuration values
+- Database queries that return null for "not found" (when no error context is needed)
+- Anywhere `T?` causes null-safety issues in functional pipelines
+
+---
+
+###### 8. 🔀 OneOf Unions
+
+Express multiple possible return types with exhaustive pattern matching — no inheritance, no casting:
+
+```csharp
+// Declare: method returns one of three types
+public OneOf<ValidationError, NotFoundError, User> GetUser(int id) \{ ... }
+
+// Consume: exhaustive Match (compiler ensures all cases handled)
+return GetUser(id).Match(
+    validationError => Results.UnprocessableEntity(validationError.Message),
+    notFoundError   => Results.NotFound(notFoundError.Message),
+    user            => Results.Ok(user));
+```
+
+######### 8.1. Arities: 2, 3, 4, 5, 6
+
+```csharp
+// OneOf<T1, T2> — binary outcome
+OneOf<Error, User> result = TryGetUser(id);
+
+// OneOf<T1, T2, T3> — three-way outcome
+OneOf<ValidationError, NotFoundError, User> result = ValidateAndGet(id);
+
+// OneOf<T1, T2, T3, T4> — four-way outcome (v1.12.0+)
+OneOf<ValidationError, UnauthorizedError, NotFoundError, Order> result = GetOrder(id);
+
+// OneOf<T1, T2, T3, T4, T5> — five-way outcome (v1.27.0+)
+OneOf<ValidationError, UnauthorizedError, NotFoundError, ConflictError, Order> result = ProcessOrder(id);
+
+// OneOf<T1, T2, T3, T4, T5, T6> — six-way outcome (v1.27.0+)
+OneOf<ValidationError, UnauthorizedError, NotFoundError, ConflictError, ForbiddenError, Order> result = ComplexOp(id);
+```
+
+Chain extension methods convert between adjacent arities:
+
+```csharp
+// Up-convert: add a new type slot (anchors the new type via defaultValue — not used at runtime)
+OneOf<ValidationError, NotFoundError, User> three = ...;
+OneOf<ValidationError, NotFoundError, User, ConflictError> four = three.ToFourWay(default(ConflictError));
+OneOf<ValidationError, NotFoundError, User, ConflictError, ForbiddenError> five = four.ToFiveWay(default(ForbiddenError));
+
+// Down-convert: narrows to lower arity — returns null if the dropped type slot was active
+OneOf<ValidationError, NotFoundError, User>? narrowed = four.ToThreeWay();
+```
+
+######### 8.2. Convert to `Result< T >` or `IResult`
+
+```csharp
+// ToResult — joins all failure cases into Result.Errors
+Result<User> r = GetUser(id).ToResult();
+
+// ToIResult / ToPostResult / etc. — HTTP mapping (see OneOf → IResult)
+return GetUser(id).ToIResult();     // 422 / 404 / 200
+```
+
+######### 8.3. When to Use `OneOf<...>` vs `Result< T >`
+
+| | `Result< T >` | `OneOf<T1,...,T4>` |
+|---|---|---|
+| **Success** | Single value `T` | One of N types |
+| **Failure** | `IEnumerable<IError>` | Typed failure cases |
+| **Pattern match** | `Match(onSuccess, onFailure)` | `Match(case1, case2, ...)` |
+| **HTTP mapping** | `ToIResult()` | `ToIResult()` |
+| **Best for** | Validation pipelines, multiple errors | API responses, typed error discrimination |
+
+---
+
+###### 9. 🚀 SmartEndpoints
+
+Decorate a plain C# class with `[AutoGenerateEndpoints]` — the source generator produces complete Minimal API endpoints with HTTP mapping, route inference, OpenAPI metadata, authorization, filters, caching, and rate limiting. Zero boilerplate.
+
+**Before SmartEndpoints (manual, ~50 lines):**
+```csharp
+app.MapGet("/api/users/{id}", async (int id, UserService svc) =>
+{
+    var user = await svc.GetByIdAsync(id);
+    if (user is null) return Results.NotFound();
+    return Results.Ok(user);
+}).Produces<User>(200).Produces(404).WithSummary("Get user").WithTags("Users");
+// ... repeat for every endpoint
+```
+
+**With SmartEndpoints (5 lines, same result):**
+```csharp
+[AutoGenerateEndpoints(RoutePrefix = "/api/users")]
+public class UserController
+{
+    public async Task<OneOf<NotFoundError, User>> GetUser(int id)
+        => await _service.GetByIdAsync(id);
+}
+```
+
+######### 9.1. Setup
+
+########## 9.1.1. `[AutoGenerateEndpoints]` — Class-Level Attribute
+
+Applied to any plain class (no base class required). Controls route prefix, tags, auth, strategy, caching, and rate limiting for all methods in the class.
+
+| Property | Type | Default | Description |
+|---|---|---|---|
+| `RoutePrefix` | `string?` | class name | Route prefix, e.g. `"/api/users"` |
+| `Tags` | `string[]?` | class name | OpenAPI tags |
+| `IncludeClassNameInRoute` | `bool` | `true` | Include class name in auto-generated route |
+| `RequiresAuth` | `bool` | `false` | Require authentication for all methods |
+| `Policies` | `string[]?` | — | Authorization policy names |
+| `Roles` | `string[]?` | — | Allowed roles |
+| `Strategy` | `EndpointMappingStrategy` | `Convention` | Which methods to map |
+| `CacheSeconds` | `int` | `0` | GET response cache duration (class default) |
+| `RateLimitPolicy` | `string?` | — | Rate limiting policy name (class default) |
+
+```csharp
+[AutoGenerateEndpoints(
+    RoutePrefix = "/api/products",
+    Tags = new[] \{ "Products", "Catalog" },
+    RequiresAuth = true,
+    Policies = new[] \{ "AdminOnly" },
+    Strategy = EndpointMappingStrategy.Convention,
+    CacheSeconds = 60,
+    RateLimitPolicy = "standard")]
+public class ProductController \{ /* ... */ }
+```
+
+########## 9.1.2. `[AutoMapEndpoint]` — Method-Level Override
+
+Override or supplement class-level settings per method. Enables explicit routes, custom HTTP methods, method-level auth, and per-method caching/rate limiting. Required when `Strategy = Explicit`.
+
+| Property | Type | Default | Description |
+|---|---|---|---|
+| `route` | `string` | *(required)* | Explicit route template |
+| `HttpMethod` | `string` | `"GET"` | HTTP method: `"GET"`, `"POST"`, `"PUT"`, `"DELETE"`, `"PATCH"` |
+| `Name` | `string?` | auto | Endpoint name for URL generation |
+| `Tags` | `string[]?` | class tags | Override OpenAPI tags |
+| `Summary` | `string?` | from method name | Override `.WithSummary()` |
+| `RequiresAuth` | `bool` | class default | Require auth for this method |
+| `Policies` | `string[]?` | class default | Authorization policies |
+| `Roles` | `string[]?` | class default | Allowed roles |
+| `AllowAnonymous` | `bool` | `false` | Override class `RequiresAuth = true` |
+| `CacheSeconds` | `int` | `0` | GET cache duration (`-1` to disable) |
+| `RateLimitPolicy` | `string?` | class default | Rate limit policy (`"none"` to disable) |
+
+```csharp
+[AutoGenerateEndpoints(RoutePrefix = "/api/orders", RequiresAuth = true)]
+public class OrderController
+{
+    // Convention-mapped (GET /api/orders/{id})
+    public Task<Result<Order>> GetOrder(int id) => ...;
+
+    // Explicit override — custom route + HTTP method
+    [AutoMapEndpoint("/api/orders/{id}/cancel", HttpMethod = "POST",
+        Summary = "Cancel an order", CacheSeconds = -1)]
+    public Task<Result<Order>> CancelOrder(int id) => ...;
+
+    // Per-method anonymous access override
+    [AutoMapEndpoint("/api/orders/public", AllowAnonymous = true)]
+    public Task<Result<List<OrderSummary>>> GetPublicOrders() => ...;
+}
+```
+
+########## 9.1.3. HTTP Verb Convention
+
+When `Strategy = Convention` (default), method names determine HTTP verb and route:
+
+| Method prefix | HTTP verb | Route (no `id` param) | Route (with `id` param) |
+|---|---|---|---|
+| `Get*` | `GET` | `{prefix}` | `{prefix}/{id}` |
+| `Create*` / `Add*` | `POST` | `{prefix}` | `{prefix}` |
+| `Update*` | `PUT` | `{prefix}` | `{prefix}/{id}` |
+| `Delete*` | `DELETE` | `{prefix}` | `{prefix}/{id}` |
+
+```csharp
+public Task<Result<List<Product>>> GetProducts()          // GET /api/products
+public Task<Result<Product>> GetProduct(int id)           // GET /api/products/{id}
+public Task<Result<Product>> CreateProduct(ProductRequest r) // POST /api/products
+public Task<Result<Product>> UpdateProduct(int id, ...)   // PUT /api/products/{id}
+public Task<Result> DeleteProduct(int id)                 // DELETE /api/products/{id}
+```
+
+########## 9.1.4. Mapping Strategy
+
+`EndpointMappingStrategy` controls which methods the generator maps:
+
+| Value | Behaviour |
+|---|---|
+| `Convention` | Map methods matching naming conventions (`Get*`, `Create*`, `Add*`, `Update*`, `Delete*`) |
+| `Explicit` | Map only methods decorated with `[AutoMapEndpoint]` |
+| `All` | Map all `public` methods returning `Result< T >` or `OneOf<...>` |
+
+```csharp
+// Convention (default) — naming convention drives mapping
+[AutoGenerateEndpoints(RoutePrefix = "/api/users", Strategy = EndpointMappingStrategy.Convention)]
+
+// Explicit — only [AutoMapEndpoint]-decorated methods are mapped
+[AutoGenerateEndpoints(RoutePrefix = "/api/admin", Strategy = EndpointMappingStrategy.Explicit)]
+
+// All — every public Result< T >/OneOf<...> method is mapped
+[AutoGenerateEndpoints(RoutePrefix = "/api/internal", Strategy = EndpointMappingStrategy.All)]
+```
+
+######### 9.2. Features
+
+########## 9.2.1. OpenAPI Auto-Generation
+
+Every generated endpoint gets full OpenAPI metadata at compile time — nothing to configure:
+
+| Source | Generated metadata |
+|---|---|
+| Method name (`CreateOrder`) | `.WithName("Class_CreateOrder")` + `.WithSummary("Create order")` |
+| Class name (`OrderController`) | `.WithTags("Order")` + `MapGroup("/api/orders")` |
+| Success return type (`Order`) | `.Produces<Order>(200)` or `.Produces<Order>(201)` for POST |
+| `OneOf` error types | `.Produces(statusCode)` per error (e.g. `NotFoundError` → `404`) |
+| `int id` parameter | `/{id}` route segment |
+| Request body parameter | JSON body binding |
+
+########## 9.2.2. Authorization
+
+Class-level auth applies to all convention-mapped methods. Use `[SmartAllowAnonymous]` or `[AutoMapEndpoint(AllowAnonymous = true)]` to exempt individual methods:
+
+```csharp
+[AutoGenerateEndpoints(RoutePrefix = "/api/orders", RequiresAuth = true,
+    Policies = new[] \{ "CanReadOrders" })]
+public class OrderController
+{
+    // Inherits RequiresAuth = true + "CanReadOrders" policy
+    public Task<Result<Order>> GetOrder(int id) => ...;
+
+    // [SmartAllowAnonymous] — override class-level auth for public reads
+    [SmartAllowAnonymous]
+    public Task<Result<List<OrderSummary>>> GetOrderSummaries() => ...;
+
+    // [AutoMapEndpoint] — per-method roles override
+    [AutoMapEndpoint("/api/orders", HttpMethod = "POST",
+        Roles = new[] \{ "Admin", "OrderManager" })]
+    public Task<Result<Order>> CreateOrder(CreateOrderRequest request) => ...;
+}
+```
+
+########## 9.2.3. Endpoint Filters — `[SmartFilter]`
+
+Apply `IEndpointFilter` implementations to individual methods. Stack multiple filters — applied in declaration order:
+
+```csharp
+[AutoGenerateEndpoints(RoutePrefix = "/api/products")]
+public class ProductController
+{
+    // Single filter
+    [SmartFilter(typeof(LoggingFilter))]
+    public Task<Result<Product>> GetProduct(int id) => ...;
+
+    // Stacked filters — LoggingFilter runs first, then ValidationFilter
+    [SmartFilter(typeof(LoggingFilter))]
+    [SmartFilter(typeof(ValidationFilter<CreateProductRequest>))]
+    public Task<Result<Product>> CreateProduct(CreateProductRequest request) => ...;
+}
+```
+
+########## 9.2.4. Output Caching & Rate Limiting
+
+Set response cache duration and rate limiting at class level (as defaults) and override per method:
+
+```csharp
+[AutoGenerateEndpoints(
+    RoutePrefix = "/api/catalog",
+    CacheSeconds = 300,          // 5-minute GET cache for all methods
+    RateLimitPolicy = "standard")]  // standard rate limit for all methods
+public class CatalogController
+{
+    // Inherits 5-min cache + standard rate limit
+    public Task<Result<List<Product>>> GetProducts() => ...;
+
+    // Override: shorter cache, stricter rate limit
+    [AutoMapEndpoint("/api/catalog/{id}", CacheSeconds = 60, RateLimitPolicy = "strict")]
+    public Task<Result<Product>> GetProduct(int id) => ...;
+
+    // Opt out: disable cache and rate limiting for this method
+    [AutoMapEndpoint("/api/catalog", HttpMethod = "POST",
+        CacheSeconds = -1, RateLimitPolicy = "none")]
+    public Task<Result<Product>> CreateProduct(CreateProductRequest request) => ...;
+}
+```
+
+########## 9.2.5. Attribute Precedence Cheat Sheet
+
+When class-level and method-level attributes overlap, the rule is always **method wins over class**. The table below shows the full resolution order for each configurable feature.
+
+| Feature | Highest priority → Lowest priority | Opt-out value |
+|---|---|---|
+| **Auth: allow anonymous** | `[SmartAllowAnonymous]` → `[AutoMapEndpoint(AllowAnonymous = true)]` → *(not set)* | — |
+| **Auth: require auth** | `[AutoMapEndpoint(RequiresAuth/Policies/Roles)]` → class `RequiresAuth/Policies/Roles` | `[SmartAllowAnonymous]` |
+| **Output cache** | `[AutoMapEndpoint(CacheSeconds = N)]` → class `CacheSeconds` → no cache | `-1` (method-level disables even if class sets it) |
+| **Rate limiting** | `[AutoMapEndpoint(RateLimitPolicy = "X")]` → class `RateLimitPolicy` → no limiting | `"none"` (method-level disables even if class sets it) |
+| **Endpoint filters** | `[SmartFilter]` on the method only — no class-level inheritance | remove the attribute |
+| **OpenAPI summary** | XML `<summary>` doc → `[AutoMapEndpoint(Summary)]` → PascalCase inference | — |
+| **Route / HTTP method** | `[AutoMapEndpoint(Route, HttpMethod)]` → naming convention (`Get*`, `Create*`, …) | — |
+
+**Key rules to remember:**
+- `[SmartAllowAnonymous]` is atomic — it wins over everything, no other auth check applies to that method.
+- `-1` and `"none"` are explicit opt-outs, not zero values. `CacheSeconds = 0` means "use class default"; `CacheSeconds = -1` means "disable cache for this method."
+- Filters never inherit from the class — every method that needs a filter must declare it explicitly.
+
+########## 9.2.6. Auto-Validation
+
+Decorate a request type with `[Validate]` (from `REslava.Result.AspNetCore`) and SmartEndpoints injects the validation call automatically — no extra code in the controller method needed:
+
+```csharp
+[Validate]
+public record CreateProductRequest(
+    [Required] string Name,
+    [Range(0.01, double.MaxValue)] decimal Price);
+
+[AutoGenerateEndpoints(RoutePrefix = "/api/catalog")]
+public class CatalogController
+{
+    public Task<Result<Product>> CreateProduct(CreateProductRequest request) => ...;
+}
+```
+
+Generated lambda (v1.26.0+):
+```csharp
+catalogGroup.MapPost("", async (CreateProductRequest request, CatalogController service) =>
+{
+    var validation = request.Validate();
+    if (!validation.IsSuccess) return validation.ToIResult();  // 422 on failure
+    var result = await service.CreateProduct(request);
+    return result.ToIResult();
+});
+```
+
+Before v1.26.0 this required a manual `.Validate().ToIResult()` in the endpoint body. Now placing `[Validate]` on the request type is the only signal required. Only POST/PUT body parameters are auto-validated; GET query parameters are not affected.
+
+######### 9.3. Advanced Usage
+
+########## 9.3.1. CancellationToken Support
+
+**v1.27.0** — When a service method declares `CancellationToken cancellationToken = default`, SmartEndpoints detects it and injects the cancellation token through the generated lambda automatically. Methods without this parameter are unaffected — fully backward-compatible.
+
+```csharp
+[AutoGenerateEndpoints(RoutePrefix = "/api/users")]
+public class UserController
+{
+    // CancellationToken detected — generator threads it through
+    public async Task<Result<User>> GetUser(int id, CancellationToken cancellationToken = default)
+        => await _service.GetByIdAsync(id, cancellationToken);
+
+    // No CancellationToken — generated normally, no change
+    public async Task<Result<List<User>>> GetUsers()
+        => await _service.GetAllAsync();
+}
+```
+
+Generated lambdas (v1.27.0+):
+
+```csharp
+// With CancellationToken — ct injected by ASP.NET Minimal API
+userGroup.MapGet("/{id}", async (int id, UserController service, CancellationToken ct) =>
+{
+    var result = await service.GetUser(id, ct);
+    return result.ToIResult();
+});
+
+// Without CancellationToken — unchanged
+userGroup.MapGet("", async (UserController service) =>
+{
+    var result = await service.GetUsers();
+    return result.ToIResult();
+});
+```
+
+########## 9.3.2. FluentValidation Bridge
+
+> ⚠️ **Optional — migration bridge only. Not needed for new projects.**
+>
+> REslava.Result already includes full native validation via `[Validate]` (DataAnnotations → `Result< T >`) and the Validation DSL (19 fluent rules). This package exists **only** for teams that already have FluentValidation validators and want to adopt REslava.Result without rewriting them. New projects should use `[Validate]` or the Validation DSL instead.
+
+**v1.28.0** — For teams migrating from FluentValidation, the `REslava.Result.FluentValidation` package emits `.Validate(IValidator< T >)` extensions and integrates with SmartEndpoints — existing validators require zero changes:
+
+```bash
+dotnet add package REslava.Result.FluentValidation
+dotnet add package FluentValidation   ### your existing validators
+```
+
+```csharp
+using REslava.Result.FluentValidation;
+
+[FluentValidate]   // ← swap [Validate] for [FluentValidate] on existing FV types
+public record CreateOrderRequest(string CustomerId, decimal Amount);
+
+// Your AbstractValidator<T> stays unchanged
+public class CreateOrderRequestValidator : AbstractValidator<CreateOrderRequest>
+{
+    public CreateOrderRequestValidator()
+    {
+        RuleFor(x => x.CustomerId).NotEmpty();
+        RuleFor(x => x.Amount).GreaterThan(0);
+    }
+}
+```
+
+Generated lambda (v1.28.0+):
+```csharp
+ordersGroup.MapPost("", async (
+    CreateOrderRequest req,
+    IValidator<CreateOrderRequest> reqValidator,   // ← auto-injected from DI
+    IOrderService svc,
+    CancellationToken cancellationToken) =>
+{
+    var validation = req.Validate(reqValidator);   // ← uses FluentValidation internally
+    if (!validation.IsSuccess) return validation.ToIResult();
+
+    var result = await svc.CreateOrder(req, cancellationToken);
+    return result.ToIResult();
+});
+```
+
+Register in DI once — SmartEndpoints handles the rest:
+```csharp
+builder.Services.AddScoped<IValidator<CreateOrderRequest>, CreateOrderRequestValidator>();
+```
+
+> **Note:** `[FluentValidate]` and `[Validate]` cannot be applied to the same type (RESL1006 compile error). Choose the bridge for existing FV validators; use `[Validate]` for new types with DataAnnotations.
+
+---
+
+<!-- anchor: §15 OneOf to IResult — folded into ASP.NET Integration as ######### subsection -->
+######### 9.4. 🔀 OneOf to IResult
+
+Convert `OneOf<T1,T2,...>` discriminated unions to `IResult` in a single call — HTTP status codes are inferred from error type names and `HttpStatusCode` tags.
+
+```csharp
+// In Minimal API endpoints
+app.MapGet("/users/{id}", async (int id) =>
+    (await _service.GetUserAsync(id)).ToIResult());
+
+app.MapPost("/users", async (CreateUserRequest req) =>
+    (await _service.CreateAsync(req)).ToPostResult());   // 201 Created on success
+```
+
+> **Setup — add only the arities you use:**
+> ```csharp
+> [assembly: GenerateOneOf2ExtensionsAttribute]  // OneOf<T1,T2>.ToIResult()
+> [assembly: GenerateOneOf3ExtensionsAttribute]  // OneOf<T1,T2,T3>.ToIResult()
+> [assembly: GenerateOneOf4ExtensionsAttribute]  // OneOf<T1,T2,T3,T4>.ToIResult()
+> ```
+> Without the corresponding attribute that arity's `.ToIResult()` extension is not generated.
+
+########## 9.4.1. `OneOf<T1,T2>.ToIResult()`
+
+```csharp
+OneOf<NotFoundError, User> result = await _service.GetAsync(id);
+return result.ToIResult();  // 404 or 200
+```
+
+########## 9.4.2. `OneOf<T1,T2,T3>.ToIResult()`
+
+```csharp
+OneOf<ValidationError, ConflictError, User> result = await _service.CreateAsync(request);
+return result.ToIResult();  // 422 or 409 or 200
+```
+
+########## 9.4.3. `OneOf<T1,T2,T3,T4>.ToIResult()`
+
+```csharp
+OneOf<ValidationError, UnauthorizedError, NotFoundError, Order> result =
+    await _service.GetOrderAsync(id);
+return result.ToIResult();  // 422 or 401 or 404 or 200
+```
+
+########## 9.4.4. HTTP Method Variants
+
+Use typed variants for non-GET endpoints to get the correct success status:
+
+| Method | Success status | Typical use |
+|---|---|---|
+| `.ToIResult()` | 200 OK | GET |
+| `.ToPostResult()` | 201 Created | POST |
+| `.ToPutResult()` | 200 OK | PUT / PATCH |
+| `.ToDeleteResult()` | 204 No Content | DELETE |
+
+```csharp
+app.MapPost("/orders",    async (req) => (await _svc.CreateAsync(req)).ToPostResult());
+app.MapPut("/orders/{id}", async (id, req) => (await _svc.UpdateAsync(id, req)).ToPutResult());
+app.MapDelete("/orders/{id}", async (id) => (await _svc.DeleteAsync(id)).ToDeleteResult());
+```
+
+########## 9.4.5. Error → HTTP Status Mapping
+
+Status codes are resolved in order of precedence:
+
+1. `HttpStatusCode` tag set on the error object at construction (domain errors set this automatically)
+2. Type-name heuristic — `NotFoundError` → 404, `ValidationError` → 422, `ConflictError` → 409, etc.
+3. Default → 400 Bad Request
+
+```csharp
+// Domain errors set HttpStatusCode at construction — no configuration needed
+public class NotFoundError : Reason<NotFoundError>      // → 404
+public class ValidationError : Reason<ValidationError>  // → 422
+public class ConflictError : Reason<ConflictError>      // → 409
+public class UnauthorizedError : Reason<UnauthorizedError>  // → 401
+public class ForbiddenError : Reason<ForbiddenError>    // → 403
+
+// Custom error with explicit tag
+public class PaymentRequiredError : Error
+{
+    public PaymentRequiredError() => this.WithTag(HttpStatusCode.PaymentRequired);
+}
+```
+
+---
+
+###### 10. 🚀 ASP.NET Integration
+
+######### 10.1. 🌐 ResultToIResult Extensions
+
+> **Setup — required once per assembly:**
+> ```csharp
+> // Any .cs file — typically Program.cs or AssemblyInfo.cs
+> [assembly: GenerateResultExtensions]
+> ```
+> Without this attribute the source generator does not emit `ToIResult()` / `ToPostResult()` / etc. for this assembly.
+
+**Complete HTTP Method Support**
+```csharp
+// GET requests
+return GetUser(id).ToIResult(); // 200 OK or 404/400
+
+// POST requests  
+return CreateUser(request).ToPostResult(); // 201 Created or 400
+
+// PUT requests
+return UpdateUser(id, request).ToPutResult(); // 200 OK or 404
+
+// DELETE requests
+return DeleteUser(id).ToDeleteResult(); // 204 No Content or 404
+
+// PATCH requests
+return PatchUser(id, request).ToPatchResult(); // 200 OK or 404
+```
+
+######### 10.2. 🧠 Smart HTTP Mapping
+**Domain Error-Aware Status Code Detection (v1.20.0)**
+
+The `ToIResult()` family reads the `HttpStatusCode` tag from domain errors for accurate HTTP mapping:
+
+| Domain Error | HTTP Status | IResult |
+|---|---|---|
+| `NotFoundError` | 404 | `Results.NotFound(message)` |
+| `ValidationError` | 422 | `Results.Problem(detail, statusCode: 422)` |
+| `ConflictError` | 409 | `Results.Conflict(message)` |
+| `UnauthorizedError` | 401 | `Results.Unauthorized()` |
+| `ForbiddenError` | 403 | `Results.Forbid()` |
+| No tag / generic Error | 400 | `Results.Problem(detail, statusCode: 400)` |
+
+```csharp
+// Domain errors automatically map to correct HTTP status codes
+var result = Result<User>.Fail(new NotFoundError("User", 42));
+return result.ToIResult(); // → 404 Not Found (reads HttpStatusCode tag)
+```
+
+######### 10.3. 🎯 ResultToActionResult Extensions (MVC Support — v1.21.0)
+
+> **Setup — required once per assembly:**
+> ```csharp
+> // Any .cs file — typically Program.cs or AssemblyInfo.cs
+> [assembly: GenerateActionResultExtensions]
+> ```
+> Without this attribute the source generator does not emit `ToActionResult()` / `ToPostActionResult()` / etc. for this assembly.
+
+**Convention-based HTTP mapping for ASP.NET MVC Controllers**
+```csharp
+// Convention-based — domain errors auto-map to correct HTTP status codes
+[HttpGet]
+public async Task<IActionResult> GetAll()
+    => (await _service.GetAllUsersAsync()).ToActionResult();
+
+[HttpPost]
+public async Task<IActionResult> Create([FromBody] CreateUserRequest request)
+    => (await _service.CreateUserAsync(request)).ToPostActionResult();
+
+[HttpDelete("{id:int}")]
+public async Task<IActionResult> Delete(int id)
+    => (await _service.DeleteUserAsync(id)).ToDeleteActionResult();
+    // NotFoundError → 404, ConflictError → 409, success → 204
+
+// Explicit overload — escape hatch for full control
+[HttpGet("{id:int}")]
+public async Task<IActionResult> GetById(int id)
+{
+    return (await _service.GetUserAsync(id))
+        .ToActionResult(
+            onSuccess: user => Ok(user),
+            onFailure: errors => NotFound(errors.First().Message));
+}
+```
+
+| Method | Success | Failure |
+|--------|---------|---------|
+| `ToActionResult< T >()` | `OkObjectResult` (200) | Auto-mapped via `HttpStatusCode` tag |
+| `ToActionResult< T >(onSuccess, onFailure)` | Custom | Custom |
+| `ToPostActionResult< T >()` | `CreatedResult` (201) | Auto-mapped |
+| `ToPutActionResult< T >()` | `OkObjectResult` (200) | Auto-mapped |
+| `ToPatchActionResult< T >()` | `OkObjectResult` (200) | Auto-mapped |
+| `ToDeleteActionResult< T >()` | `NoContentResult` (204) | Auto-mapped |
+
+**MVC Error Auto-Mapping (MapErrorToActionResult)**
+
+| Domain Error | HTTP | MVC Result Type |
+|-------------|------|-----------------|
+| `NotFoundError` | 404 | `NotFoundObjectResult` |
+| `UnauthorizedError` | 401 | `UnauthorizedResult` |
+| `ForbiddenError` | 403 | `ForbidResult` |
+| `ConflictError` | 409 | `ConflictObjectResult` |
+| `ValidationError` | 422 | `ObjectResult \{ StatusCode = 422 }` |
+| No tag / other | 400 | `ObjectResult \{ StatusCode = 400 }` |
+
+######### 10.4. 🎯 OneOfToActionResult Extensions (MVC OneOf Support — v1.22.0)
+**One-liner MVC controllers for discriminated union returns**
+```csharp
+// BEFORE — manual .Match() for every OneOf return
+[HttpPost]
+public async Task<IActionResult> Create([FromBody] CreateOrderRequest request)
+{
+    var result = await _service.CreateOrderAsync(request);
+    return result.Match(
+        notFound => new NotFoundObjectResult(notFound.Message) as IActionResult,
+        conflict => new ConflictObjectResult(conflict.Message),
+        validation => new ObjectResult(validation.Message) \{ StatusCode = 422 },
+        order => new OkObjectResult(order));
+}
+
+// AFTER — one-liner, domain errors auto-mapped
+[HttpPost]
+public async Task<IActionResult> Create([FromBody] CreateOrderRequest request)
+    => (await _service.CreateOrderAsync(request)).ToActionResult();
+    // NotFoundError → 404, ConflictError → 409, ValidationError → 422, success → 200
+```
+
+Uses the same two-phase error mapping as OneOfToIResult:
+1. **Phase 1**: Checks `IError.Tags["HttpStatusCode"]` for tag-based mapping
+2. **Phase 2**: Falls back to type-name heuristic (NotFound → 404, Conflict → 409, etc.)
+
+######### 10.5. 📝 Problem Details Integration
+**RFC 7807 Compliance**
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `StatusCode` | `int` | HTTP status code for this error type |
+| `Title` | `string?` | Short human-readable summary (RFC 7807 `title`) |
+| `Type` | `string?` | RFC 7807 `type` URI identifying the error class |
+| `IncludeTags` | `bool` | Include the error's `.Tags` dict in `ProblemDetails.Extensions` (default: `false`) |
+
+```csharp
+[MapToProblemDetails(StatusCode = 404, Title = "User Not Found")]
+public class UserNotFoundError : Error
+{
+    public int UserId \{ get; }
+    public UserNotFoundError(int userId) : base($"User {userId} not found")
+    {
+        UserId = userId;
+        this.WithTag("UserId", userId);
+    }
+}
+
+// Automatically generates:
+{
+    "type": "https://httpstatuses.com/404",
+    "title": "User Not Found",
+    "status": 404,
+    "userId": 123
+}
+```
+
+Use `Type` and `IncludeTags` for richer RFC 7807 responses:
+
+```csharp
+[MapToProblemDetails(
+    StatusCode = 404,
+    Title = "User Not Found",
+    Type = "https://api.example.com/errors/user-not-found",  // RFC 7807 type URI
+    IncludeTags = true)]  // adds Tags dict to ProblemDetails.Extensions
+public class UserNotFoundError : Error
+{
+    public UserNotFoundError(int userId) : base($"User {userId} not found")
+        => this.WithTag("UserId", userId).WithTag("Resource", "User");
+}
+
+// Response with Type + IncludeTags:
+{
+    "type": "https://api.example.com/errors/user-not-found",
+    "title": "User Not Found",
+    "status": 404,
+    "extensions": {
+        "UserId": 42,
+        "Resource": "User"
+    }
+}
+```
+
+######### 10.6. 🌐 Http Client — REslava.Result.Http
+
+> **REslava.Result.Http** wraps `HttpClient` calls so every HTTP response and network failure becomes a typed `Result< T >`. The client-side complement to `ToIResult()` — completes the full round-trip.
+
+Install: `dotnet add package REslava.Result.Http`
+
+########## 10.6.1. `GetResult< T >` — Type-safe GET
+
+Sends a GET request and deserializes the body on 2xx; maps 4xx/5xx to typed domain errors automatically. Accepts both `string` and `Uri` overloads.
+
+```csharp
+using REslava.Result.Http;
+
+// string overload
+Result<User> user = await httpClient.GetResult<User>("/api/users/42");
+
+user.Match(
+    onSuccess: u  => Console.WriteLine($"Got {u.Name}"),
+    onFailure: errors => Console.WriteLine(errors[0].Message));
+    // 404 → NotFoundError, 401 → UnauthorizedError, network failure → ExceptionError
+
+// Uri overload
+Result<User> user2 = await httpClient.GetResult<User>(new Uri("https://api.example.com/users/42"));
+```
+
+########## 10.6.2. `PostResult<TBody, TResponse>` — Type-safe POST
+
+Sends a POST request with a JSON-serialized body and returns `Result<TResponse>`.
+
+```csharp
+Result<User> created = await httpClient.PostResult<CreateUserRequest, User>(
+    "/api/users",
+    new CreateUserRequest("Alice", "alice@example.com"));
+
+if (created.IsSuccess)
+    Console.WriteLine($"Created user {created.Value.Id}");
+```
+
+########## 10.6.3. `PutResult<TBody, TResponse>` — Type-safe PUT
+
+Sends a PUT request with a JSON-serialized body and returns `Result<TResponse>`.
+
+```csharp
+Result<User> updated = await httpClient.PutResult<UpdateUserRequest, User>(
+    "/api/users/42",
+    new UpdateUserRequest("Alice Updated"));
+
+updated.Match(
+    onSuccess: u    => Console.WriteLine($"Updated: {u.Name}"),
+    onFailure: errors => Console.WriteLine(errors[0].Message));
+```
+
+########## 10.6.4. `DeleteResult` — Type-safe DELETE (no body)
+
+Sends a DELETE request and returns a non-generic `Result` — use when the API returns no body on success (204 No Content pattern).
+
+```csharp
+Result deleted = await httpClient.DeleteResult("/api/users/42");
+
+if (deleted.IsSuccess)
+    Console.WriteLine("Resource deleted");
+```
+
+########## 10.6.5. `DeleteResult< T >` — Type-safe DELETE (with response body)
+
+Sends a DELETE request and deserializes the response body into `Result< T >` — use when the API returns the deleted resource or a confirmation object.
+
+```csharp
+Result<DeletedUserDto> result = await httpClient.DeleteResult<DeletedUserDto>("/api/users/42");
+
+if (result.IsSuccess)
+    Console.WriteLine($"Archived at: {result.Value.ArchivedAt}");
+```
+
+########## 10.6.6. `HttpResultOptions` — Custom JSON & Error Mapping
+
+Configures JSON deserialization options and/or replaces the entire status-code-to-error mapping with a custom delegate. Pass as the last parameter to any extension method.
+
+```csharp
+var options = new HttpResultOptions
+{
+    // Custom JSON serialization (default: JsonSerializerDefaults.Web)
+    JsonOptions = new JsonSerializerOptions
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
+    },
+
+    // Complete override of the status-code → IError mapping
+    StatusCodeMapper = (statusCode, reasonPhrase) => statusCode switch
+    {
+        (HttpStatusCode)429 => new RateLimitError("Too many requests — back off and retry"),
+        _                   => new Error($"HTTP {(int)statusCode}: `{reasonPhrase`}")
+    }
+};
+
+Result<User> user = await httpClient.GetResult<User>("/api/users/42", options);
+```
+
+########## 10.6.7. Status Code → Error Mapping (defaults)
+
+| HTTP Status | Domain Error | Default Message |
+|------------|-------------|-----------------|
+| 404 Not Found | `NotFoundError` | "Resource not found" |
+| 401 Unauthorized | `UnauthorizedError` | "Authentication required" |
+| 403 Forbidden | `ForbiddenError` | "Access denied" |
+| 409 Conflict | `ConflictError` | "A conflict occurred" |
+| 422 Unprocessable Entity | `ValidationError` | "Validation failed" |
+| Other 4xx / 5xx | `Error` | "HTTP `{code`}: `{reasonPhrase`}" |
+| Network / timeout | `ExceptionError` | ex.Message |
+
+Override any or all mappings via `HttpResultOptions.StatusCodeMapper`.
+
+See [REslava.Result.Http README](https://github.com/reslava/nuget-package-reslava-result/blob/main/docs/nuget/README.REslava.Result.Http.md) for the full API reference.
+
+---
+
+###### 11. 📐 Complete Architecture
+
+**REslava.Result is a comprehensive ecosystem with two main components that work together seamlessly:**
+
+######### 11.1. 📦 Base Library: REslava.Result
+**Core Functional Programming Foundation**
+```
+src/
+├── Result.cs                      ### 🎯 Core Result< T > implementation
+├── Result.NonGeneric.cs           ### 📄 Non-generic Result for void operations
+├── AdvancedPatterns/
+│   ├── Maybe.cs                   ### 🎲 Safe null handling
+│   ├── OneOf.cs                   ### 🔀 Discriminated unions (2, 3, 4+ types)
+│   ├── OneOfResultExtensions.cs   ### � OneOf ↔ Result conversions
+│   └── Validation/
+│       ├── Validator.cs           ### ✅ Validation framework
+│       ├── IValidationRule.cs     ### 📋 Validation rule interface
+│       └── ValidationResult.cs    ### 📊 Validation results
+├── Extensions/
+│   ├── ResultExtensions.cs        ### 🔗 LINQ and async extensions
+│   ├── ResultMapExtensions.cs     ### 🗺️ Mapping and transformation
+│   └── ResultFunctionalExtensions.cs ### 🧠 Functional composition
+└── Utilities/
+    ├── Compose.cs                 ### 🔄 Function composition utilities
+    └── Error.cs                   ### ❌ Error base classes
+```
+
+######### 11.2. 🚀 Source Generators: REslava.Result.AspNetCore
+**Zero-Boilerplate Code Generation**
+```
+SourceGenerator/
+├── Core/                           ### 📐 Generator Infrastructure
+│   ├── CodeGeneration/            ### 📝 CodeBuilder utilities
+│   ├── Utilities/                 ### 🌐 HttpStatusCodeMapper, AttributeParser
+│   ├── Configuration/             ### ⚙️ Configuration base classes
+│   └── Interfaces/                ### � SOLID interfaces
+├── Generators/                     ### 📦 Individual Generators
+│   ├── ResultToIResult/          ### 🎯 Result → Minimal API IResult conversion
+│   │   ├── Attributes/            ### 🏷️ Auto-generated attributes
+│   │   ├── CodeGeneration/        ### 💻 Extension method generation
+│   │   └── Orchestration/         ### 🎼 Pipeline coordination
+│   ├── ResultToActionResult/      ### 🎯 Result → MVC IActionResult conversion (v1.21.0)
+│   │   ├── Attributes/            ### 🏷️ Auto-generated attributes
+│   │   ├── CodeGeneration/        ### 💻 Extension method generation
+│   │   └── Orchestration/         ### 🎼 Pipeline coordination
+│   ├── OneOfToIResult/            ### 🚀 OneOf<T1,...,TN> → HTTP (consolidated v1.14.1)
+│   │   ├── OneOf2ToIResultGenerator.cs  ### 🎯 Thin wrapper (arity=2)
+│   │   ├── OneOf3ToIResultGenerator.cs  ### 🎯 Thin wrapper (arity=3)
+│   │   ├── OneOf4ToIResultGenerator.cs  ### 🎯 Thin wrapper (arity=4)
+│   │   ├── Attributes/            ### 🏷️ Shared attribute generators
+│   │   ├── CodeGeneration/        ### 💻 Arity-parameterized extensions
+│   │   └── Orchestration/         ### 🎼 Single shared orchestrator
+│   ├── OneOfToActionResult/       ### 🎯 OneOf<T1,...,TN> → MVC IActionResult (v1.22.0)
+│   │   ├── OneOf2ToActionResultGenerator.cs  ### 🎯 Thin wrapper (arity=2)
+│   │   ├── OneOf3ToActionResultGenerator.cs  ### 🎯 Thin wrapper (arity=3)
+│   │   ├── OneOf4ToActionResultGenerator.cs  ### 🎯 Thin wrapper (arity=4)
+│   │   ├── Attributes/            ### 🏷️ Shared attribute generators
+│   │   ├── CodeGeneration/        ### 💻 Arity-parameterized extensions
+│   │   └── Orchestration/         ### 🎼 Single shared orchestrator
+│   └── SmartEndpoints/            ### ⚡ Auto-generate Minimal APIs (v1.11.0+)
+│       ├── Attributes/            ### 🏷️ AutoGenerateEndpoints attribute
+│       ├── CodeGeneration/        ### 💻 SmartEndpointExtensionGenerator
+│       ├── Models/                ### 📋 EndpointMetadata
+│       └── Orchestration/         ### 🎼 SmartEndpointsOrchestrator
+└── Tests/                         ### 🧪 Comprehensive Test Suite (1,976+ tests)
+    ├── OneOfToIResult/           ### ✅ 12/12 tests (unified, covers arity 2/3/4)
+    ├── OneOfToActionResult/      ### ✅ 12/12 tests passing (NEW v1.22.0!)
+    ├── SmartEndpoints/           ### ✅ 4/4 tests passing
+    ├── ResultToIResult/          ### ✅ 6/6 tests passing
+    ├── ResultToActionResult/     ### ✅ 9/9 tests passing (NEW v1.21.0!)
+    ├── CoreLibrary/              ### 📚 Base library tests
+    └── GeneratorTest/             ### � Integration tests
+```
+
+> 📐 **Visual Architecture**: See [Core Type Hierarchy](https://github.com/reslava/nuget-package-reslava-result//docs/uml/UML-v1.12.1-core.md) and [Source Generator Pipeline](https://github.com/reslava/nuget-package-reslava-result//docs/uml/UML-v1.12.1-generators.md) for detailed Mermaid diagrams.
+
+######### 11.3. 🎯 SOLID Principles in Action
+
+| **Principle** | **Implementation** | **Benefit** |
+|---------------|-------------------|-------------|
+| **Single Responsibility** | Separate classes for attributes, code generation, orchestration | Zero duplicate generation, clear concerns |
+| **Open/Closed** | Interface-based design (IAttributeGenerator, ICodeGenerator, IOrchestrator) | Easy to add new generators without modifying existing code |
+| **Liskov Substitution** | All generators implement common interfaces | Interchangeable components, consistent behavior |
+| **Interface Segregation** | Focused interfaces for specific responsibilities | Minimal contracts, easier testing |
+| **Dependency Inversion** | Constructor injection with abstractions | Testable, maintainable, loosely coupled |
+
+######### 11.4. 🔄 How Components Work Together
+
+```mermaid
+graph TB
+    A[Your Code] --> B[REslava.Result Base Library]
+    B --> C[Result T / Maybe T / OneOf T]
+    C --> D[Source Generators]
+    D --> E[Generated Extensions]
+    E --> F[ASP.NET Core IResult]
+
+    G[REslava.Result OneOf] --> H[OneOf2ToIResult Generator]
+    G --> I[OneOf3ToIResult Generator]
+    G --> J[OneOf4ToIResult Generator]
+    H --> F
+    I --> F
+    J --> F
+
+    K[SmartEndpoints Generator] --> L[MapSmartEndpoints]
+    L --> F
+```
+
+######### 11.5. 🚀 Smart Auto-Detection (v1.10.0)
+**Zero Configuration Required**
+- **Setup Detection**: Automatically detects your REslava.Result OneOf setup
+- **Conflict Prevention**: Generators only run when appropriate types are found
+- **Perfect Coexistence**: OneOf generators work seamlessly together
+- **Zero Compilation Errors**: Clean developer experience guaranteed
+
+######### 11.6. 🗺️ Error → HTTP Status Code Convention
+
+The source generators use convention-based name matching to determine HTTP status codes automatically. No configuration needed for the common cases:
+
+| Error Name Pattern | HTTP Status | Examples |
+|---|---|---|
+| `*NotFound*`, `*DoesNotExist*`, `*Missing*` | **404** | `UserNotFoundError`, `RecordMissingException` |
+| `*Validation*`, `*Invalid*`, `*Malformed*` | **422** | `ValidationError`, `InvalidInputException` |
+| `*Unauthorized*`, `*Unauthenticated*` | **401** | `UnauthorizedError`, `NotAuthenticatedException` |
+| `*Forbidden*`, `*AccessDenied*` | **403** | `ForbiddenError`, `AccessDeniedException` |
+| `*Conflict*`, `*Duplicate*`, `*AlreadyExists*` | **409** | `ConflictError`, `DuplicateResourceException` |
+| `*RateLimit*`, `*Throttle*` | **429** | `RateLimitError`, `ThrottleException` |
+| `*Timeout*`, `*TimedOut*` | **408** | `TimeoutError`, `RequestTimedOutException` |
+| *(default)* | **400** | Any other error type |
+
+For non-convention errors use `IError.Tags["HttpStatusCode"]` or `SmartEndpoints`' `[SmartFilter]` for explicit mapping.
+
+######### 11.7. 🔧 Source Generator Core Library Components
+
+The `REslava.Result.AspNetCore` project uses a shared Core Library infrastructure that each generator delegates to:
+
+| Component | Purpose |
+|---|---|
+| `CodeBuilder` | Fluent API for emitting well-indented C# code (class/method declarations, XML docs, braces) |
+| `HttpStatusCodeMapper` | Convention-based + custom error-name → HTTP status resolution |
+| `AttributeParser` | Type-safe extraction of attribute arguments (string, bool, int, arrays) |
+| `GeneratorConfigurationBase<T>` | Base class for generator configs: validation + deep cloning |
+| `IncrementalGeneratorBase<T>` | Base for configuration-driven `IIncrementalGenerator` implementations |
+
+Each generator (`ResultToIResultGenerator`, `SmartEndpointsGenerator`, `ValidateGenerator`, etc.) is a thin `[Generator]`-attributed wrapper that delegates to an Orchestrator → AttributeGenerator + CodeGenerator pair.
+
+---
+
+###### 12. 📦 Package Structure
+
+**Four NuGet packages for a complete development experience:**
+
+| Package | Purpose |
+|---------|---------|
+| `REslava.Result` | Core library — Result&lt;T&gt;, Maybe&lt;T&gt;, OneOf, domain errors (NotFound/Validation/Conflict/Unauthorized/Forbidden), LINQ, validation, JSON serialization, async patterns |
+| `REslava.Result.AspNetCore` | ASP.NET source generators — SmartEndpoints, ToIResult (Minimal API), ToActionResult (MVC), OneOf extensions |
+| `REslava.Result.Analyzers` | Roslyn safety analyzers — RESL1001–RESL1006 + RESL2001 (7 diagnostics + 3 code fixes) |
+| `REslava.Result.FluentValidation` ⚠️ **Optional** | FluentValidation bridge — `[FluentValidate]` generator + SmartEndpoints auto-injection. **Migration aid only** — not needed for new projects; REslava.Result includes equivalent validation natively |
+
+######### 12.1. 🚀 NuGet Package Contents
+```
+REslava.Result.AspNetCore.1.10.0.nupkg/
+├── analyzers/dotnet/cs/
+│   ├── REslava.Result.AspNetCore.dll           ### Main source generators
+│   └── REslava.Result.AspNetCore.Core.dll      ### Generator infrastructure
+├── content/
+│   └── MapToProblemDetailsAttribute.cs                ### Runtime attribute
+├── build/
+│   └── REslava.Result.AspNetCore.props         ### MSBuild integration
+├── lib/
+│   └── netstandard2.0/
+│       └── REslava.Result.AspNetCore.dll        ### Reference assembly
+└── README.md                                          ### Package documentation
+```
+
+######### 12.2. 🎯 Generated Output Structure
+**When your project builds:**
+```
+YourProject/
+├── obj/
+│   └── GeneratedFiles/
+│       └── net10.0/
+│           └── REslava.Result.AspNetCore/
+│               ├── REslava.Result.AspNetCore.Generators.ResultToIResult.ResultToIResultRefactoredGenerator/
+│               │   ├── GenerateResultExtensionsAttribute.g.cs    ### Auto-generated attribute
+│               │   ├── MapToProblemDetailsAttribute.g.cs         ### Auto-generated attribute
+│               │   └── ResultToIResultExtensions.g.cs            ### HTTP extension methods
+│               ├── REslava.Result.AspNetCore.Generators.ResultToActionResult.ResultToActionResultGenerator/
+│               │   ├── GenerateActionResultExtensionsAttribute.g.cs ### MVC attribute
+│               │   └── ResultToActionResultExtensions.g.cs          ### MVC extension methods
+│               ├── REslava.Result.AspNetCore.Generators.OneOf2ToIResult.OneOf2ToIResultGenerator/
+│               │   ├── GenerateOneOf2ExtensionsAttribute.g.cs    ### OneOf2 attribute
+│               │   ├── MapToProblemDetailsAttribute.g.cs         ### OneOf2 mapping attribute
+│               │   └── OneOf2ToIResultExtensions.g.cs            ### OneOf2 HTTP extensions
+│               ├── REslava.Result.AspNetCore.Generators.OneOf3ToIResult.OneOf3ToIResultGenerator/
+│               │   ├── GenerateOneOf3ExtensionsAttribute.g.cs    ### OneOf3 attribute
+│               │   ├── MapToProblemDetailsAttribute.g.cs         ### OneOf3 mapping attribute
+│               │   └── OneOf3ToIResultExtensions.g.cs            ### OneOf3 HTTP extensions
+│               ├── REslava.Result.AspNetCore.Generators.OneOfToActionResult.OneOf2ToActionResultGenerator/
+│               │   ├── GenerateOneOf2ActionResultExtensionsAttribute.g.cs  ### OneOf2 MVC attribute
+│               │   └── OneOf2ActionResultExtensions.g.cs                   ### OneOf2 MVC extensions
+│               └── REslava.Result.AspNetCore.Generators.OneOfToActionResult.OneOf3ToActionResultGenerator/
+│                   ├── GenerateOneOf3ActionResultExtensionsAttribute.g.cs  ### OneOf3 MVC attribute
+│                   └── OneOf3ActionResultExtensions.g.cs                   ### OneOf3 MVC extensions
+└── bin/
+    └── Your compiled application with auto-generated extensions
+```
+
+######### 12.3. 🔄 Build Integration
+**Automatic MSBuild Integration:**
+```xml
+<!-- Automatically added to your project -->
+<Import Project="..\packages\REslava.Result.AspNetCore.1.10.0\build\REslava.Result.AspNetCore.props" />
+```
+
+**What happens during build:**
+1. **Analysis Phase**: Generators scan your code for Result< T > or OneOf< T1 T2 > or OneOf< T1 T2 T3 > usage
+2. **Generation Phase**: Creates appropriate extension methods and attributes (ToIResult for Minimal API, ToActionResult for MVC)
+3. **Compilation Phase**: Generated code is compiled into your assembly
+4. **Runtime Phase**: Extensions available for automatic HTTP conversion
+
+---
+
+###### 13. 🔧 How Generators Work
+
+REslava.Result.AspNetCore uses Roslyn's **incremental generator API** (`IIncrementalGenerator`) for zero-overhead, fast-rebuild code generation.
+
+######### 13.1. Two-Phase Pipeline
+
+Every generator follows the same pattern: **Phase 1** emits the attribute definition (available immediately, in the same compilation). **Phase 2** reads the compilation to find code using that attribute and emits the extension methods.
+
+```
+Source files in your project
+    │
+    ▼
+[Generator] class (thin wrapper)
+    │  delegates to
+    ▼
+Orchestrator
+    ├── AttributeGenerator   → RegisterPostInitializationOutput
+    │   └── emits [AutoGenerateEndpoints] etc. (Phase 1 — always runs)
+    │
+    └── ExtensionGenerator   → RegisterSourceOutput
+        └── emits .ToIResult(), .ToActionResult(), .Validate() etc.
+            (Phase 2 — runs only when matching types found)
+```
+
+######### 13.2. SOLID Design (v1.9.4+)
+
+Each generator is split into three focused classes following SRP:
+
+| Class | Responsibility |
+|---|---|
+| `*Generator` (e.g. `ResultToIResultGenerator`) | Entry point — thin `[Generator]` wrapper, delegates to orchestrator |
+| `*Orchestrator` | Coordinates pipeline — registers Phase 1 + Phase 2 |
+| `*AttributeGenerator` | Emits the `[GenerateResultExtensions]` / `[AutoGenerateEndpoints]` etc. attribute |
+| `*ExtensionGenerator` / `*CodeGenerator` | Emits the actual extension methods |
+
+This eliminates duplicate generation (CS0101/CS0579 errors) and makes each piece independently testable.
+
+######### 13.3. Incremental Rebuilds
+
+Using `RegisterSourceOutput` with `SyntaxValueProvider`, generators only re-run when relevant syntax changes. On a clean build, all generators run; on subsequent builds, only the generators whose inputs changed run — keeping build times fast even in large solutions.
+
+---
+
+###### 14. 📦 Sample Projects
+
+Working code samples — each is a standalone `dotnet run` project.
+
+| Project | Framework | Description |
+|---------|-----------|-------------|
+| **[FastMinimalAPI Demo](https://github.com/reslava/nuget-package-reslava-result/tree/main/samples/FastMinimalAPI.REslava.Result.Demo)** | .NET 10 Minimal API | SmartEndpoints, OneOf, `[Validate]`, DSL, `[FluentValidate]`, EF Core, Scalar UI |
+| **[FastMvcAPI Demo](https://github.com/reslava/nuget-package-reslava-result/tree/main/samples/REslava.Result.Samples.Console)** | .NET 10 MVC API | MVC controllers, `ToActionResult()`, `[Validate]`, OneOf, CancellationToken, EF Core |
+| **[Console Samples](https://github.com/reslava/nuget-package-reslava-result/tree/main/samples/FastMvcAPI.REslava.Result.Demo)** | .NET 10 Console | 16 examples — Result\<T\>, Maybe\<T\>, OneOf5/6, Validation DSL, Async patterns |
+| **[Tutorial Lessons](https://github.com/reslava/nuget-package-reslava-result/tree/main/samples/lessons)** | .NET 9 Console | 9 progressive lessons — functional & railway-oriented programming from scratch |
+| **[ResultFlow Sample](https://github.com/reslava/nuget-package-reslava-result/tree/main/samples/resultflow)** | .NET 9 Console | `[ResultFlow]` pipeline diagram generator — 6 pipelines, all node kinds |
+
+```bash
+### Web API (Minimal API + SmartEndpoints)
+cd samples/FastMinimalAPI.REslava.Result.Demo && dotnet run
+### → http://localhost:5000/scalar/v1
+
+### Web API (MVC)
+cd samples/FastMvcAPI.REslava.Result.Demo && dotnet run
+### → http://localhost:5001/scalar/v1
+
+### Console examples (16 patterns)
+cd samples/REslava.Result.Samples.Console && dotnet run
+
+### Tutorial series — start here if you're new to functional programming
+cd samples/lessons/lesson-01 && dotnet run
+
+### ResultFlow diagram generator
+cd samples/resultflow && dotnet run
+```
+
+---
+
+###### 15. 🎯 Quick Examples
+
+######### 15.1. 📦 **Core Library - Type-Safe Error Handling**
+
+```csharp
+// Fluent, chainable operations
+var result = await Result<string>.Ok(email)
+    .Ensure(e => IsValidEmail(e), "Invalid email format")
+    .EnsureAsync(async e => !await EmailExistsAsync(e), "Email already registered")
+    .BindAsync(async e => await CreateUserAsync(e))
+    .WithSuccessAsync("User created successfully");
+
+// Pattern matching
+return result.Match(
+    onSuccess: user => CreatedAtAction(nameof(GetUser), new \{ id = user.Id }, user),
+    onFailure: errors => BadRequest(new \{ errors })
+);
+```
+
+######### 15.2. 🚀 **Source Generator - Zero Boilerplate**
+
+```csharp
+// Your service returns Result< T >
+public async Task<Result<User>> GetUserAsync(int id)
+{
+    return await Result<int>.Ok(id)
+        .Ensure(i => i > 0, "Invalid user ID")
+        .BindAsync(async i => await _repository.FindAsync(i))
+        .EnsureAsync(u => u != null, new NotFoundError("User", id));
+}
+
+// Your controller just returns the Result - auto-converted!
+app.MapGet("/users/{id}", async (int id) =>
+    await _userService.GetUserAsync(id));
+
+// 🆕 v1.10.0: OneOf extensions also work!
+public OneOf<ValidationError, NotFoundError, User> GetOneOfUser(int id) \{ /* logic */ }
+
+app.MapGet("/users/oneof/{id}", async (int id) =>
+    GetOneOfUser(id)); // Auto-converts OneOf too!
+
+// HTTP responses are automatically generated:
+// 200 OK with User data
+// 404 Not Found with ProblemDetails
+// 400 Bad Request with validation errors
+```
+
+######### 15.3. 🧠 **Advanced Patterns - Functional Programming**
+
+```csharp
+// Maybe< T > for safe null handling
+Maybe<User> user = GetUserFromCache(id);
+var email = user
+    .Map(u => u.Email)
+    .Filter(email => email.Contains("@"))
+    .ValueOrDefault("no-reply@example.com");
+
+// 🆕 v1.10.0: Enhanced OneOf support
+OneOf<ValidationError, NotFoundError, User> result = ValidateAndCreateUser(request);
+return result.Match(
+    case1: error => BadRequest(error),
+    case2: notFound => NotFound(notFound),
+    case3: user => Ok(user)
+);
+
+// 🆕 v1.10.0: OneOf with auto-detection
+public OneOf<ValidationError, NotFoundError, User> GetUser(int id) \{ /* logic */ }
+return GetUser(id).ToIResult(); // 🆕 Automatic HTTP mapping!
+```
+
+---
+
+###### 16. 🧪 Testing & Quality Assurance
+
+######### 16.1. 📊 Comprehensive Test Suite
+**3,783 Tests Passing** 🎉
+- **Core Library Tests**: 1,157 tests per TFM (net8.0, net9.0, net10.0) = 3,471 tests
+- **Source Generator Tests**: 131 tests for all generators
+- **Analyzer Tests**: 68 tests for RESL1001–RESL1006 + RESL2001
+- **FluentValidation Bridge Tests**: 26 tests for [FluentValidate] generator + SmartEndpoints integration
+- **ResultFlow Tests**: 27 tests
+- **Http Tests**: 20 tests per TFM (net8.0, net9.0, net10.0) = 60 tests
+- **Multi-TFM**: All core and Http tests run on 3 target frameworks
+
+######### 16.2. 📐 Source Generator Test Architecture
+**Complete Test Coverage for v1.22.0**
+```
+tests/REslava.Result.AspNetCore.Tests/
+├── OneOf2ToIResult/          ### ✅ 5/5 tests passing
+├── OneOf3ToIResult/          ### ✅ 4/4 tests passing
+├── OneOf4ToIResult/          ### ✅ 5/5 tests passing
+├── OneOfToActionResult/      ### ✅ 12/12 tests passing (NEW v1.22.0!)
+├── ResultToIResult/          ### ✅ 6/6 tests passing
+├── ResultToActionResult/     ### ✅ 9/9 tests passing (NEW v1.21.0!)
+├── SmartEndpoints/           ### ✅ 4/4 tests passing
+├── CoreLibrary/              ### Core utilities tests
+├── GeneratorTest/             ### Console validation tests
+└── Legacy/                    ### Historical tests (disabled)
+```
+
+######### 16.3. 🎯 Generator Test Coverage
+**OneOf4ToIResult Generator (NEW v1.12.0)**
+- ✅ Extension method generation for OneOf< T1 T2 T3 T4 >
+- ✅ Intelligent HTTP status mapping
+- ✅ Error type detection and handling
+- ✅ Attribute generation  
+- ✅ Type combinations (ValidationError  NotFoundError ConflictError ServerError)
+- ✅ Conditional generation (no false positives)
+- ✅ HTTP mapping validation (T1→400, T2→200)
+
+**OneOf3ToIResult Generator** 
+- ✅ Extension method generation (`OneOf3Extensions`)
+- ✅ Attribute generation
+- ✅ Type combinations (3-way scenarios)
+- ✅ Conditional generation
+- ✅ HTTP mapping validation (T1→400, T2→400, T3→200)
+
+**ResultToIResult Generator**
+- ✅ Extension method generation
+- ✅ Attribute generation
+- ✅ Syntax tree detection
+- ✅ Conditional generation (zero false positives)
+
+**ResultToActionResult Generator (NEW v1.21.0)**
+- ✅ Extension method generation (ToActionResult, ToPostActionResult, etc.)
+- ✅ Explicit overload generation (onSuccess, onFailure)
+- ✅ MVC result types (OkObjectResult, CreatedResult, NoContentResult, etc.)
+- ✅ Attribute generation
+- ✅ Correct namespace (Generated.ActionResultExtensions)
+- ✅ Conditional generation (zero false positives)
+- ✅ Error-free compilation, initialization, and empty compilation handling
+
+**OneOfToActionResult Generator (NEW v1.22.0)**
+- ✅ Extension method generation for OneOf< T1 T2 T3 T4 > → IActionResult
+- ✅ IError.Tags["HttpStatusCode"] tag-based mapping (Phase 1)
+- ✅ Type-name heuristic fallback (Phase 2)
+- ✅ MVC result types (OkObjectResult NotFoundObjectResult ConflictObjectResult etc.)
+- ✅ Attribute generation per arity (2/3/4)
+- ✅ Correct namespace (Generated.OneOfActionResultExtensions)
+- ✅ Conditional generation (zero false positives)
+
+######### 16.4. 🚀 CI/CD Pipeline
+**Automated Testing**
+```yaml
+### .github/workflows/ci.yml
+- Build Solution: dotnet build --configuration Release
+- Run Tests: dotnet test --configuration Release --no-build
+- Total Tests: 2,862+ passing
+- Coverage: 95%+ code coverage
+```
+
+######### 16.5. 🧪 Test Categories
+**Source Generator Tests**
+- **Unit Tests**: Individual generator behavior
+- **Integration Tests**: Generator compilation scenarios
+- **Regression Tests**: Prevent breaking changes
+- **Performance Tests**: Generation speed and memory
+
+**Core Library Tests**
+- **Functional Tests**: Result pattern operations
+- **Async Tests**: Task-based operations
+- **Validation Tests**: Error handling scenarios
+- **Extension Tests**: Method chaining and composition
+
+######### 16.6. 📁 Sample Projects & Integration Tests
+**Real-World Validation**
+- **OneOfTest.Api**: Live API testing with OneOf2ToIResult & OneOf3ToIResult
+- **Integration Tests**: End-to-end HTTP mapping validation
+- **Performance Benchmarks**: Memory allocation and speed tests
+- **Production Samples**: Enterprise-grade implementations
+
+######### 16.7. 🔍 Test Quality Metrics
+**High Standards**
+- ✅ **2,862/2,862 tests passing** (100% success rate)
+- ✅ **95%+ code coverage** (comprehensive coverage)
+- ✅ **Zero flaky tests** (reliable CI/CD)
+- ✅ **Fast execution** (complete suite < 15 seconds)
+- ✅ **Clean architecture** (SOLID test organization)
+
+######### 16.8. 🏃‍♂️ Running Tests Locally
+**Quick Test Commands**
+```bash
+### Run all tests (2,862 tests across 3 TFMs)
+dotnet test --configuration Release
+
+### Run only Source Generator tests (106 tests)
+dotnet test tests/REslava.Result.AspNetCore.Tests/
+
+### Run only Analyzer tests (68 tests)
+dotnet test tests/REslava.Result.Analyzers.Tests/
+
+### Run core library tests (896 per TFM)
+dotnet test tests/REslava.Result.Tests/
+```
+
+**Test Output Example**
+```
+Passed!  - Failed: 0, Passed: 896 - REslava.Result.Tests.dll (net8.0)
+Passed!  - Failed: 0, Passed: 896 - REslava.Result.Tests.dll (net9.0)
+Passed!  - Failed: 0, Passed: 896 - REslava.Result.Tests.dll (net10.0)
+Passed!  - Failed: 0, Passed:  56 - REslava.Result.AspNetCore.Tests.dll (net10.0)
+Passed!  - Failed: 0, Passed:  54 - REslava.Result.Analyzers.Tests.dll (net10.0)
+```
+
+---
+
+###### 17. 🛡️ Safety Analyzers
+
+Catch common `Result< T >` and `OneOf` mistakes **at compile time** — 5 diagnostics and 3 code fixes included in `REslava.Result.Analyzers`.
+
+```bash
+dotnet add package REslava.Result.Analyzers
+```
+
+######### 17.1. RESL1001 — Unsafe `.Value` Access `[Warning + Code Fix]`
+
+```csharp
+var result = GetUser(id);
+var name = result.Value;        // ⚠️ RESL1001: Access to '.Value' without checking 'IsSuccess'
+                                // 💡 Fix A: Wrap in if (result.IsSuccess) \{ ... }
+                                // 💡 Fix B: Replace with result.Match(v => v, e => default)
+
+// ✅ Safe alternatives:
+if (result.IsSuccess)
+    var name = result.Value;    // No warning — guarded by IsSuccess
+
+var name = result.Match(        // No warning — pattern matching
+    onSuccess: u => u.Name,
+    onFailure: _ => "Unknown");
+```
+
+######### 17.2. RESL1002 — Discarded `Result< T >` Return Value `[Warning]`
+
+```csharp
+Save();                         // ⚠️ RESL1002: Return value of type 'Result< T >' is discarded
+await SaveAsync();              // ⚠️ Warning: errors silently swallowed
+
+// ✅ Safe alternatives:
+var result = Save();            // No warning — assigned
+return Save();                  // No warning — returned
+```
+
+######### 17.3. RESL1003 — Prefer `Match()` Over If-Check `[Info]`
+
+```csharp
+if (result.IsSuccess)           // ℹ️ RESL1003: Consider using Match() instead
+{
+    var x = result.Value;
+}
+else
+{
+    var e = result.Errors;
+}
+
+// ✅ Cleaner with Match():
+var x = result.Match(v => v, e => HandleErrors(e));
+```
+
+######### 17.4. RESL1004 — `Task<Result< T >>` Not Awaited `[Warning + Code Fix]`
+
+```csharp
+async Task M()
+{
+    var result = GetFromDb(id); // ⚠️ RESL1004: 'GetFromDb' returns Task<Result< T >> but is not awaited
+                                // 💡 Fix: Add 'await'
+}
+
+// ✅ Safe:
+var result = await GetFromDb(id);                    // No warning — properly awaited
+Task<Result<User>> task = GetFromDb(id);             // No warning — explicit Task type (intentional)
+```
+
+######### 17.5. RESL2001 — Unsafe `OneOf.AsT*` Access `[Warning + Code Fix]`
+
+```csharp
+var oneOf = GetResult();        // OneOf<User, NotFound, ValidationError>
+var user = oneOf.AsT1;          // ⚠️ RESL2001: Access to '.AsT1' without checking '.IsT1'
+                                // 💡 Fix: Replace with oneOf.Match(...)
+
+// ✅ Safe alternatives:
+if (oneOf.IsT1)
+    var user = oneOf.AsT1;      // No warning — guarded
+
+var user = oneOf.Match(         // No warning — exhaustive pattern match
+    user => user,
+    notFound => throw new NotFoundException(),
+    error => throw new ValidationException());
+```
+
+######### 17.6. RESL1005 — Consider Domain Error `[Info]`
+
+```csharp
+// ⚠️ RESL1005: Consider using 'NotFoundError' instead of 'Error' — it carries HTTP status context
+//            and integrates automatically with 'ToIResult()'
+return Result<User>.Fail(new Error("user not found"));
+
+// ✅ Domain-specific — sets HttpStatusCode=404 automatically, ToIResult() maps it correctly:
+return Result<User>.Fail(new NotFoundError("user not found"));
+```
+
+Triggers when the message string implies a known HTTP error category:
+
+| Keyword(s) in message | Suggested type |
+|---|---|
+| `not found`, `missing` | `NotFoundError` |
+| `conflict`, `already exists` | `ConflictError` |
+| `unauthorized` | `UnauthorizedError` |
+| `forbidden`, `access denied` | `ForbiddenError` |
+| `invalid`, `validation` | `ValidationError` |
+
+######### 17.7. RESL1006 — Conflicting `[Validate]` + `[FluentValidate]` `[Error]`
+
+```csharp
+// ❌ RESL1006: 'CreateOrderRequest' has both [Validate] and [FluentValidate] applied.
+// These generate conflicting .Validate() extension methods. Remove one.
+[Validate]
+[FluentValidate]
+public record CreateOrderRequest(string CustomerId, decimal Amount);
+
+// ✅ Use only one:
+[FluentValidate]   // for teams with existing FluentValidation validators
+public record CreateOrderRequest(string CustomerId, decimal Amount);
+```
+
+
+---
+
+###### 18. 📈 Production Benefits
+
+| 🎯 **Challenge** | 🚀 **REslava.Result Solution** |
+|------------------|------------------------------|
+| **Hidden exceptions** | Explicit error contracts in method signatures |
+| **Complex error handling** | Fluent, chainable operations |
+| **Hard to debug failures** | Rich error context with tags |
+| **Inconsistent error responses** | Automatic RFC 7807 compliance |
+| **Slow development** | 70-90% less boilerplate code |
+| **🆕 OneOf integration pain** | Smart auto-detection, zero configuration |
+| **🆕 Multiple library conflicts** | Perfect coexistence, no compilation errors |
+
+---
+
+<!-- anchor: §24 Real-World Impact merged into §23 Production Benefits -->
+######### 18.1. 🌍 Real-World Impact
+
+########## 18.1.1. 🏢 **For Enterprise Teams**
+**Explicit failure tracking replaces hidden exception flows**
+- **Rich error context** with tags for debugging and monitoring
+- **Better observability** with structured error information  
+- **Consistent error handling** across all services and APIs
+- **Audit trails** with detailed error metadata for compliance
+
+########## 18.1.2. 🧪 **For Test-Driven Development**
+**Predictable patterns make unit tests simple and reliable**
+- **No complex exception setups** - just assert on Result values
+- **Faster test writing** with deterministic results
+- **Clear test scenarios** - success, failure, and edge cases are explicit
+- **Better test coverage** - error paths are first-class citizens
+
+########## 18.1.3. 👥 **For Team Collaboration**
+**Clear contracts between services and components**
+- **Consistent patterns** across the entire codebase
+- **Improved onboarding** for new team members
+- **Self-documenting code** with explicit error types
+- **Reduced cognitive load** - one way to handle errors everywhere
+
+########## 18.1.4. 🚀 **For Performance & Scalability**
+**Optimized for modern applications**
+- **Zero allocation failures** - immutable design prevents memory leaks
+- **Compile-time guarantees** - no runtime reflection or magic
+- **AOT & NativeAOT compatible** - works with trimming and native compilation
+- **Minimal overhead** - lightweight Result objects with smart optimizations
+
+---
+
+<!-- anchor: §25 Why Choose merged into §23 Production Benefits -->
+######### 18.2. 🏆 Why Choose REslava.Result?
+
+########## 18.2.1. ✅ **Zero Dependencies**
+- **No external packages** - Reduces security vulnerabilities
+- **Small footprint** - Only ~50KB compiled
+- **Fast compilation** - No complex dependency chains
+
+########## 18.2.2. ✅ **Production-Ready**
+- **95%+ code coverage** - Reliable in production
+- **Comprehensive testing** - Unit, integration, and performance tests
+- **Memory efficient** - Immutable design, predictable allocations
+
+########## 18.2.3. ✅ **Developer Experience**
+- **Rich IntelliSense** - Extensive XML documentation
+- **Modern C#** - Supports .NET 8, 9, and 10
+- **AOT compatible** - Works with NativeAOT and trimming
+- **🆕 Smart Auto-Detection** - Zero configuration for v1.10.0
+
+---
+
+###### 19. ⚡ Performance
+
+Measured with [BenchmarkDotNet](https://benchmarkdotnet.org/) on .NET 9 / AMD Ryzen 5 4600G.
+
+| Scenario | REslava.Result | vs FluentResults | vs Exceptions |
+|----------|---------------|-----------------|---------------|
+| `Result< T >.Ok(value)` creation | **5.9 ns / 48 B** | 9.6× faster | — |
+| `Result< T >.Fail(error)` creation | **212 ns / 448 B** | 20% faster | — |
+| Failure-path handling | **511 ns** | 14% faster | **6.8× faster** than throw/catch |
+| 5-step railway chain | **~767 ns** | — | — |
+
+> **Design tradeoff** — each pipeline step allocates a new immutable `Result< T >`.
+> This costs ~30–40% more per step than mutable alternatives (FluentResults), but guarantees
+> thread-safety and eliminates accidental state sharing between pipeline stages.
+> At realistic I/O latencies (1–10 ms per DB/HTTP call) the overhead is negligible.
+
+📊 [Full benchmark report and analysis →](https://reslava.github.io/nuget-package-reslava-result/reference/performance/)
+
+---
+
+###### 20. 🎯 Roadmap
+
+######### 20.1. v1.37.0 (Current) ✅
+- **`Switch()` / `SwitchAsync()`** — void side-effect dispatch; routes success/failure to two actions; explicit intent signal for void branching; `Task<Result>` / `Task<Result< T >>` extensions enable clean end-of-chain dispatch after async pipelines
+- **`MapError()` / `MapErrorAsync()`** — transforms errors in the failure path; symmetric counterpart to `Map`; success passes through unchanged; result state never changes; Task extensions included
+- **`Or()` / `OrElse()` / `OrElseAsync()`** — fallback result on failure; simpler API than `Recover`; `Or(fallback)` is eager, `OrElse(factory)` is lazy and receives the error list; Task extensions included
+- 136 features across 13 categories
+- 3,960 tests
+
+######### 20.2. v1.36.0 ✅
+- **`REslava.ResultFlow` standalone package** — independent of `REslava.Result`; works with any fluent Result library via built-in convention dictionary (REslava.Result, ErrorOr, LanguageExt) or custom `resultflow.json`
+- **REF002 + Code Action** — IDE code action inserts the Mermaid diagram as a `/* ... */` block comment above the method; no build required
+- **Convention dictionary expansion** — ErrorOr (`Then`/`Switch`), LanguageExt (`Filter`/`Do`/`DoLeft`) built-in support
+- **`resultflow.json` config** — AdditionalFile escape hatch; config entries override the built-in dictionary
+- **REF003 diagnostic** — Warning when `resultflow.json` is malformed, fallback to convention
+- **`REslava.Result.AspNetCore`** — renamed from `REslava.Result.SourceGenerators` ⚠️ *breaking rename*
+- 133 features across 13 categories
+- 3,783 tests
+
+######### 20.3. v1.35.0 ✅
+- **`[ResultFlow]` source generator** — annotate any fluent `Result< T >` pipeline method → auto-generated Mermaid `flowchart LR` diagram as a `public const string` in `Generated.ResultFlow.{Class}_Flows` at compile time; zero runtime overhead; 9 operation semantics; REF001 info diagnostic for non-fluent methods
+- 128 features across 13 categories
+- 3,768 tests
+
+######### 20.4. v1.34.0 ✅
+- **`IResultResponse<T>` → `IResultBase<T>`** ⚠️ *breaking rename* — `IResultResponse` carried an unintended HTTP connotation; `IResultBase` is the semantically correct name (base contract for all Result types). Update direct references from `IResultResponse<T>` to `IResultBase<T>`.
+- **Documentation gaps filled** — Http extensions usage guide, generator setup guide, `ConversionError` in error type table
+- 123 features across 12 categories
+- 3,756 tests
+
+######### 20.5. v1.33.0 ✅
+- **`REslava.Result.Http`** — new 5th NuGet package; `GetResult< T >`, `PostResult<TBody, TResponse>`, `PutResult<TBody, TResponse>`, `DeleteResult`, `DeleteResult< T >` extension methods on `HttpClient`; every HTTP error and network failure becomes a typed `Result< T >`; configurable via `HttpResultOptions` (custom JSON options, custom status code mapper)
+- **README/TOC restructure** — full logical reorganization of all 26 sections; improved hierarchy and navigation
+- **MkDocs restructure** — sub-folder grid-card navigation across all sections; `architecture/source-generators/` sub-folder split; orphan detection tooling
+- 123 features across 12 categories
+- 3,756 tests
+
+######### 20.6. v1.32.0 ✅
+- **`Result.Validate(r1, r2, ..., mapper)`** — applicative validation; runs 2/3/4 independent `Result< T >` validations simultaneously, accumulates ALL errors (no short-circuit), maps heterogeneous success values via typed mapper func to `Result<TResult>`
+- **`Result< T >.Deconstruct()`** — C# 8+ tuple syntax; `var (value, errors) = result` and `var (isSuccess, value, errors) = result` for `Result< T >`; `var (isSuccess, errors) = result` for non-generic `Result`
+- **`Maybe< T >` ↔ `Result< T >` interop** — `maybe.ToResult(errorFactory/error/string)` bridges `None` to typed failure; `result.ToMaybe()` discards errors and returns `Some(value)` or `None`
+- 117 features across 11 categories
+- 3,696 tests
+
+######### 20.7. v1.31.0 ✅
+- **`Result.WithLogger(ILogger, string)`** / **`LogOnFailure(ILogger, string)`** — Tap-style ILogger integration; Debug on success, Warning on domain failure, Error on ExceptionError; structured log properties (`result.outcome`, `result.error.type`, `result.error.message`); Task extensions with CancellationToken
+- **`Result.Recover()`** / **`RecoverAsync()`** — railway recovery; transforms any failure into a new `Result< T >` (success or failure) via a fallback func; error list passed to recovery func for context-aware branching; both `Result` and `Result< T >`; Task extensions
+- **`Result.Filter()`** / **`FilterAsync()`** — convert success to failure when a predicate fails; `Func<T, IError>` error factory enables value-dependent contextual messages; 3 sync overloads (factory / static IError / string); async predicate variant; Task extensions
+- 114 features across 11 categories
+- 3,591 tests
+
+######### 20.8. v1.30.0 ✅
+- **`Result.Catch<TException>()`** / **`CatchAsync<TException>()`** — inline typed exception handler in the railway; converts an `ExceptionError` wrapping `TException` to any `IError`; `Task<Result< T >>` extension also catches direct throws from the source task
+- **`Result.WithActivity(Activity?)`** — enriches an existing OTel `Activity` span with outcome tags (`result.outcome`, `result.error.type`, `result.error.message`); Tap-style (returns result unchanged), null-safe, no new NuGet dependency
+- 111 features across 11 categories
+- 3,432 tests
+
+######### 20.9. v1.29.0 ✅
+- **`IsFailed` → `IsFailure`** ⚠️ *breaking rename* — `IsSuccess` / `IsFailure` is the correct symmetric pair; find-and-replace across call sites
+- **Console samples** — 3 new examples: `14_ValidationDSL`, `15_OneOf5_OneOf6`, `16_AsyncPatterns_Advanced` (covers all v1.27–v1.28 features)
+- **FastMinimalAPI validation showcase** — side-by-side `/api/smart/validation` (DSL vs DataAnnotations) and `/api/smart/fluent-validation` (bridge demo)
+- **FastMvcAPI parity** — explicit `.Validate()` guard + `CancellationToken` in MVC controllers
+- **Feature Reference page** — 109 features across 11 categories in docs
+- 3,339 tests
+
+######### 20.10. v1.28.0 ✅
+- **FluentValidation Bridge** ⚠️ *optional migration bridge* — new `REslava.Result.FluentValidation` package (4th NuGet); `[FluentValidate]` attribute generates `.Validate(IValidator< T >)` + `.ValidateAsync()` extensions; SmartEndpoints auto-injects `IValidator< T >` as a lambda parameter; for teams with existing FV validators only — **new projects do not need this package**
+- **RESL1006 analyzer** — compile error when both `[Validate]` and `[FluentValidate]` appear on the same type (conflicting `.Validate()` signatures)
+- 3,339 tests
+
+######### 20.11. v1.27.0 ✅
+- **CancellationToken Support in SmartEndpoints** — generated lambdas detect `CancellationToken` in service method signatures and inject it as an endpoint parameter; backward-compatible
+- **OneOf5 / OneOf6** — `OneOf<T1..T5>` and `OneOf<T1..T6>` structs with full `Match`, `Switch`, `MapT*`, `BindT*`, equality, and implicit conversions; OneOf4 bug fixes
+- **OneOf chain extensions** — `ToFourWay`, `ToFiveWay`, `ToSixWay` and corresponding down-conversions across the full 2↔3↔4↔5↔6 arity chain
+- **Native Validation DSL** — 19 fluent methods on `ValidatorRuleBuilder< T >`: `NotEmpty`, `NotWhiteSpace`, `MinLength`, `MaxLength`, `Length`, `EmailAddress`, `Matches`, `StartsWith`, `EndsWith`, `Contains`, `GreaterThan`, `LessThan`, `Range`, `Positive`, `NonNegative`, `NotEmpty<TItem>`, `MinCount`, `MaxCount`, `NotNull`; `Expression<Func<T, TProperty>>` auto-infers field names
+- **DocFX API Reference** — all public types, members, and XML docs fully surfaced at `/reference/api/`
+- 3,313 tests
+
+######### 20.12. v1.26.0 ✅
+- **RESL1005 analyzer** — Info-level diagnostic suggests domain error types (`NotFoundError`, `ConflictError`, etc.) when `new Error("...")` message implies an HTTP error category; 14 new tests
+- **SmartEndpoints Auto-Validation** — `[Validate]` on a body parameter type auto-injects `.Validate()` into the generated lambda; returns 422 early on failure; 5 new tests
+- 2,862 tests
+
+######### 20.13. v1.25.0 ✅
+- **Documentation Website** — MkDocs Material site auto-generated from README.md; 8 nav sections, dark/light, search, social cards
+- **DocFX API Reference landing page** — Bootstrap namespace cards, Core Types grid, quick-links to docs/GitHub/NuGet
+- **CI optimization** — path allowlist (https://github.com/reslava/nuget-package-reslava-result//src/tests only); docs commits no longer trigger test suite
+- 2,843 tests (unchanged)
+
+######### 20.14. v1.24.0 ✅
+- **`[Validate]` Source Generator** — decorate any record/class to get `.Validate()` returning `Result< T >`; delegates to `Validator.TryValidateObject` (all 20+ `DataAnnotations` types supported); field errors surface as `ValidationError` with `FieldName`; composable with `.Bind()` / `.ToIResult()` / `.ToActionResult()`
+- 7 new generator tests, 2,843 total tests
+
+######### 20.15. v1.23.0 ✅
+- **SmartEndpoints: Endpoint Filters** — `[SmartFilter(typeof(T))]` attribute generates `.AddEndpointFilter<T>()`, stackable (AllowMultiple = true)
+- **SmartEndpoints: Output Caching** — `CacheSeconds` property on `[AutoGenerateEndpoints]` and `[AutoMapEndpoint]`; class-level default, method-level override, `-1` to opt out; only applied to GET
+- **SmartEndpoints: Rate Limiting** — `RateLimitPolicy` property on both attribute levels; `"none"` to opt out; inherits class default
+- **FastMinimalAPI Demo: SmartCatalogController** — showcases all three features with `LoggingEndpointFilter`
+- 11 new source generator tests, 2,836 total tests
+
+######### 20.16. v1.22.0 ✅
+- **OneOf.ToActionResult() — MVC One-Liners** — source-generated `IActionResult` extension methods for `OneOf<T1,...,T4>` in MVC controllers, domain errors auto-map via `IError.Tags["HttpStatusCode"]`
+- **OneOfToIResult: Tag-Based Error Mapping Fix** — `MapErrorToHttpResult` checks `IError.Tags["HttpStatusCode"]` first before falling back to type-name heuristics
+- **SmartEndpoints: Accurate OpenAPI Error Docs** — `ValidationError` → 422 (was 400), `Result< T >` endpoints declare 400/404/409/422
+- 12 new source generator tests, 2,825 total tests
+
+######### 20.17. v1.21.0 ✅
+- **Result< T >.ToActionResult() — ASP.NET MVC Support** — source-generated `IActionResult` extension methods for MVC controllers, convention-based HTTP mapping with explicit overload escape hatch
+- **FastMvcAPI Demo App** — MVC equivalent of FastMinimalAPI demo (Users, Products, Orders) on port 5001
+- 9 new source generator tests
+
+######### 20.18. v1.20.0 ✅
+- **Structured Error Hierarchy** — 5 built-in domain errors (`NotFoundError`, `ValidationError`, `ConflictError`, `UnauthorizedError`, `ForbiddenError`) with HTTP status code tags and CRTP fluent chaining
+- **ResultToIResult: Domain Error-Aware HTTP Mapping** — reads `HttpStatusCode` tag for accurate status codes (was always 400)
+- **Test Coverage Hardening** — 150 new tests covering OkIf/FailIf, Try, Combine, Tap, LINQ Task extensions
+- **Internal Quality** — cached computed properties, ExceptionError namespace fix, Result\<T\> constructor encapsulation, ToString() override, dead code cleanup, convention-based SmartEndpoints route prefix
+
+######### 20.19. v1.19.0 ✅
+- **RESL1004 — Async Result Not Awaited** — detects `Task<Result< T >>` assigned without `await` + code fix
+- **CancellationToken Support Throughout** — `CancellationToken cancellationToken = default` on all async methods (source-compatible)
+- 5 diagnostics + 3 code fixes
+
+######### 20.20. v1.18.0 ✅
+- **Task-Based Async Patterns** — `Result.WhenAll()` (typed tuples), `Result.Retry()` (exponential backoff), `.Timeout()` extension
+
+######### 20.21. v1.17.0 ✅
+- **JSON Serialization Support (System.Text.Json)** — `JsonConverter` for `Result< T >`, `OneOf<T1..T4>`, `Maybe< T >`
+
+######### 20.22. v1.16.0 ✅
+- Tailored NuGet README for each of the 3 packages
+
+######### 20.23. v1.15.0 ✅
+- Repository cleanup: removed unused Node.js toolchain, stale samples, incomplete templates
+
+######### 20.24. v1.14.x ✅
+- **REslava.Result.Analyzers** — RESL1001, RESL1002, RESL1003, RESL2001 + 3 code fixes
+- OneOf generator consolidation (15 files → 7)
+
+######### 20.25. v1.13.0 ✅
+- **SmartEndpoints: Authorization & Policy Support** — `RequiresAuth`, `Roles`, `Policies`, `[SmartAllowAnonymous]`
+- **LINQ query comprehension syntax for Result< T >**
+- SmartEndpoints: OpenAPI Metadata Auto-Generation
+
+---
+
+###### 21. 📈 Version History
+
+- **v1.37.0** - `Switch`/`SwitchAsync` void dispatch, `MapError`/`MapErrorAsync` error-path transform, `Or`/`OrElse`/`OrElseAsync` fallback on failure; Task extensions for all three; 136 features, 3,960 tests
+- **v1.36.0** - `REslava.ResultFlow` standalone package (library-agnostic), REF002 + Code Action (insert diagram as comment), convention dictionary for ErrorOr + LanguageExt, `resultflow.json` config, `REslava.Result.AspNetCore` rename, 133 features, 3,783 tests
+- **v1.35.0** - `[ResultFlow]` source generator: auto-generate Mermaid pipeline diagrams at compile time, `Generated.ResultFlow.{Class}_Flows` constants, REF001 diagnostic, 128 features, 3,768 tests
+- **v1.34.0** - `IResultResponse<T>` → `IResultBase<T>` breaking rename (correct semantic naming), documentation gaps filled (Http, generator setup, ConversionError), 123 features, 3,756 tests
+- **v1.33.0** - `REslava.Result.Http` 5th NuGet package (HttpClient → typed `Result< T >`), README/TOC/MkDocs restructure, 123 features, 3,756 tests
+- **v1.32.0** - `Result.Validate` applicative validation (2/3/4-way), `Result< T >.Deconstruct()` tuple unpacking, `Maybe< T >`↔`Result< T >` interop, 117 features, 3,696 tests
+- **v1.31.0** - `Result.WithLogger`/`LogOnFailure` ILogger integration, `Result.Recover`/`RecoverAsync` railway recovery, `Result.Filter`/`FilterAsync` predicate-based success filtering, 114 features, 3,591 tests
+- **v1.30.0** - `Result.Catch<TException>` inline exception handling in pipelines, `Result.WithActivity` OTel Activity enrichment, 111 features, 3,432 tests
+- **v1.29.0** - `IsFailed` → `IsFailure` rename (breaking), 3 new console samples (ValidationDSL, OneOf5/6, AsyncPatterns), FastMinimalAPI validation showcase, FastMvcAPI parity, Feature Reference page, 3,339 tests
+- **v1.28.0** - FluentValidation Bridge (`REslava.Result.FluentValidation` — *optional migration bridge, new projects don't need it*), `[FluentValidate]` generator, SmartEndpoints `IValidator< T >` auto-injection, RESL1006 dual-attribute analyzer, 26 new tests, 3,339 tests
+- **v1.27.0** - CancellationToken Support in SmartEndpoints, OneOf5/OneOf6 + OneOf4 fixes + chain extensions (ToFourWay↔ToSixWay), Native Validation DSL (19 methods on ValidatorRuleBuilder< T >), DocFX full XML docs, 451 new tests, 3,313 tests
+- **v1.26.0** - RESL1005 domain error suggestion analyzer, SmartEndpoints auto-validation ([Validate] on body param type injects .Validate() into lambda), 19 new tests, 2,862 tests
+- **v1.25.0** - Documentation Site & API Reference: MkDocs Material website, DocFX Bootstrap landing page, CI path filtering, pipeline fixes, 2,843 tests
+- **v1.24.0** - Compile-Time Validation Generator: [Validate] attribute generates .Validate() → Result< T > via Validator.TryValidateObject, 7 new tests, 2,843 tests
+- **v1.23.0** - SmartEndpoints Production Readiness: Endpoint Filters ([SmartFilter]), Output Caching (CacheSeconds), Rate Limiting (RateLimitPolicy), 11 new tests, 2,836 tests
+- **v1.22.0** - Domain Error Completeness: OneOf.ToActionResult() MVC generator, OneOfToIResult tag-based error mapping, SmartEndpoints accurate OpenAPI docs (ValidationError → 422), 12 new tests, 2,825 tests
+- **v1.21.0** - ASP.NET MVC Support: Result< T >.ToActionResult() source generator (convention-based + explicit overload), FastMvcAPI demo app, 9 new tests
+- **v1.20.0** - Domain Error Hierarchy (NotFoundError, ValidationError, ConflictError, UnauthorizedError, ForbiddenError), domain error-aware ResultToIResult HTTP mapping, 150 new tests, internal quality fixes
+- **v1.19.0** - RESL1004 Async Result Not Awaited analyzer + CancellationToken support throughout
+- **v1.18.0** - Task-Based Async Patterns: WhenAll (typed tuples), Retry (exponential backoff), Timeout
+- **v1.17.0** - JSON Serialization Support: JsonConverter for Result< T >, OneOf, Maybe< T > with System.Text.Json
+- **v1.16.0** - Tailored NuGet READMEs for each package
+- **v1.15.0** - Repository cleanup: removed Node.js toolchain, stale samples, templates; emoji standardization (📐 for architecture)
+- **v1.14.2** - Analyzers Phase 2+3: RESL1003 (prefer Match), RESL2001 (unsafe OneOf.AsT*), code fixes for RESL1001 & RESL2001, shared GuardDetectionHelper
+- **v1.14.1** - Internal refactor: consolidated OneOf2/3/4ToIResult generators into single arity-parameterized OneOfToIResult (15 files → 7)
+- **v1.14.0** - NEW: REslava.Result.Analyzers package (RESL1001 unsafe .Value access, RESL1002 discarded Result), package icons for all NuGet packages
+- **v1.13.0** - SmartEndpoints Authorization & Policy Support (RequireAuthorization, AllowAnonymous, Roles, Policies, Produces(401))
+- **v1.12.2** - SmartEndpoints OpenAPI metadata auto-generation (Produces, WithSummary, WithTags, MapGroup)
+- **v1.12.1** - SmartEndpoints DI + async support, FastMinimalAPI demo, Console samples
+- **v1.12.0** - OneOf4ToIResult generator, enhanced SmartEndpoints
+- **v1.11.0** - SmartEndpoints generator for zero-boilerplate API generation
+- **v1.10.3** - OneOf2ToIResult & OneOf3ToIResult generators
+- **v1.10.2** - Initial ResultToIResult generator
+- **v1.10.1** - Core Result types and error handling
+- **v1.10.0** - Framework foundation with ROP patterns
+###### 22. 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](https://github.com/reslava/nuget-package-reslava-result//CONTRIBUTING.md) for details.
+
+---
+
+###### 23. 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/reslava/nuget-package-reslava-result//LICENSE) file for details.
+
+---
+
+###### 24. 🙏 Acknowledgments
+
+- **Functional Programming Community** - For the ROP methodology and patterns
+- **Roslyn** team - Powerful source generator framework
+- **[ErrorOr](https://github.com/amantinband/error-or)** by Amanti Band - Convention methods `Then` / `Switch` are recognized in the `[ResultFlow]` built-in dictionary
+- **[LanguageExt](https://github.com/louthy/language-ext)** by Paul Louth - Convention methods `Filter` / `Do` / `DoLeft` are recognized in the `[ResultFlow]` built-in dictionary
+- **[FluentResults](https://github.com/altmann/FluentResults)** by Michael Altmann - Already supported by the existing dictionary entries (`Bind`, `Map`).
+
+---
+
+###### 25. Contributors
+
+- [reslava](https://github.com/reslava)
+
+See the full list of contributors in [CONTRIBUTORS.md](https://github.com/reslava/nuget-package-reslava-result//CONTRIBUTORS.md).
+
+---
+
+<div align="center" markdown>
+
+**⭐ Star this REslava.Result repository if you find it useful!**
+
+Made with ❤️ by [Rafa Eslava](https://github.com/reslava) for developers community
+
+[Report Bug](https://github.com/reslava/nuget-package-reslava-result/issues) • [Request Feature](https://github.com/reslava/nuget-package-reslava-result/issues) • [Discussions](https://github.com/reslava/nuget-package-reslava-result/discussions)
+
+</div>
+
+---
+
+:::
+
+### About
+:::note
+
+Functional Code as Mermaid diagrams
+
+
+:::
+
+## How to use
+
+### Example (source csproj, source files)
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **REslava.ResultFlow**
+```xml showLineNumbers {16}
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="REslava.Result" Version="1.36.0" />
+    <PackageReference Include="REslava.Result.Analyzers" Version="1.36.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	<PackageReference Include="REslava.ResultFlow" Version="1.36.0">
+		<PrivateAssets>all</PrivateAssets>
+		<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+  </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\REslava.ResultFlow\src\ResultFlowGenerator\Program.cs" label="Program.cs" >
+
+  This is the use of **REslava.ResultFlow** in *Program.cs*
+
+```csharp showLineNumbers 
+// See https://aka.ms/new-console-template for more information
+using ResultFlowGenerator;
+Console.WriteLine("The mermaid is working!");
+Console.WriteLine(Generated.ResultFlow.Helpers_Flows.GetValueFromConsole);
+Console.WriteLine("Please enter an int");
+var result = Helpers.GetValueFromConsole();
+Console.WriteLine(result.IsSuccess
+    ? $"You entered: {result.Value}"
+    : $"Failed to get a valid integer: {result.Errors.First().Message}");
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\REslava.ResultFlow\src\ResultFlowGenerator\Helpers.cs" label="Helpers.cs" >
+
+  This is the use of **REslava.ResultFlow** in *Helpers.cs*
+
+```csharp showLineNumbers 
+using REslava.Result;
+using REslava.Result.AdvancedPatterns;
+using REslava.Result.Extensions;
+using System;
+using System.Collections.Generic;
+
+namespace ResultFlowGenerator;
+
+internal class Helpers
+{
+    [REslava.ResultFlow.ResultFlow]
+    public static Result<int> GetValueFromConsole()
+    {
+        var value = Console.ReadLine() ?? "";
+        return Result<string>.Ok(value)
+            .Ensure(s => !string.IsNullOrWhiteSpace(s), new Error("Input cannot be empty"))
+            .Map(s => s.ToUpper())
+            .Tap(s => Console.WriteLine($"Processed: {s}"))
+            .TapOnFailure(e => Console.WriteLine($"Error: {e.Message}"))
+            .Ensure(s => int.TryParse(s, out _), new Error("Input must be a valid integer"))
+            .Map(s => int.Parse(s))
+            ;
+
+
+    }
+}
+
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+<Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\REslava.ResultFlow\src\ResultFlowGenerator\obj\GX\REslava.ResultFlow\REslava.ResultFlow.Generators.ResultFlow.ResultFlowGenerator\Helpers_Flows.g.cs" label="Helpers_Flows.g.cs" >
+```csharp showLineNumbers 
+// <auto-generated/>
+// REslava.Result.Flow — auto-generated pipeline diagrams
+// Do not edit manually.
+
+namespace Generated.ResultFlow
+{
+    internal static class Helpers_Flows
+    {
+        /// <summary>
+        /// Mermaid flow diagram for GetValueFromConsole.
+        /// Copy into any Mermaid renderer to visualize the pipeline.
+        /// </summary>
+        public const string GetValueFromConsole = @"
+flowchart LR
+    N0_Ok[""Ok""]:::operation
+    N0_Ok --> N1_Ensure
+    N1_Ensure[""Ensure""]:::gatekeeper
+    N1_Ensure -->|pass| N2_Map
+    N1_Ensure -->|fail| F1[""Failure""]:::failure
+    N2_Map[""Map""]:::transform
+    N2_Map --> N3_Tap
+    N3_Tap[""Tap""]:::sideeffect
+    N3_Tap --> N4_TapOnFailure
+    N4_TapOnFailure[""TapOnFailure""]:::sideeffect
+    N4_TapOnFailure --> N5_Ensure
+    N5_Ensure[""Ensure""]:::gatekeeper
+    N5_Ensure -->|pass| N6_Map
+    N5_Ensure -->|fail| F5[""Failure""]:::failure
+    N6_Map[""Map""]:::transform
+    classDef operation fill:#e8f4f0,color:#1c7e6f
+    classDef gatekeeper fill:#e3e9fa,color:#3f5c9a
+    classDef failure fill:#f8e3e3,color:#b13e3e
+    classDef transform fill:#e3f0e8,color:#2f7a5c
+    classDef sideeffect fill:#fff4d9,color:#b8882c
+";
+
+    }
+}
+
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\REslava.ResultFlow\src\ResultFlowGenerator\obj\GX\REslava.ResultFlow\REslava.ResultFlow.Generators.ResultFlow.ResultFlowGenerator\ResultFlowAttribute.g.cs" label="ResultFlowAttribute.g.cs" >
+```csharp showLineNumbers 
+// <auto-generated/>
+using System;
+
+namespace REslava.ResultFlow
+{
+    /// <summary>
+    /// Marks a method for automatic Mermaid flow diagram generation.
+    /// Apply to methods that use fluent Result&lt;T&gt; pipeline chains (Bind, Map, Ensure, Tap, Match).
+    /// The generated diagram constant is available at Generated.ResultFlow.{ClassName}_Flows.{MethodName}.
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
+    public sealed class ResultFlowAttribute : Attribute \{ }
+}
+```
+  </TabItem>
+
+
+</Tabs>
+## Useful
+
+### Download Example (.NET  C#)
+
+:::tip
+
+[Download Example project REslava.ResultFlow ](/sources/REslava.ResultFlow.zip)
+
+:::
+
+
+### Share REslava.ResultFlow 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FREslava.ResultFlow&quote=REslava.ResultFlow" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FREslava.ResultFlow&text=REslava.ResultFlow:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FREslava.ResultFlow" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FREslava.ResultFlow&title=REslava.ResultFlow" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FREslava.ResultFlow&title=REslava.ResultFlow&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FREslava.ResultFlow" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/REslava.ResultFlow
+
+<SameCategory />
+
