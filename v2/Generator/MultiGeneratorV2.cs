@@ -154,8 +154,11 @@ public class MultiGeneratorV2
             text = text.Replace("(docs/rules/", $"({d.Generator!.Source}/docs/rules/");
             text = text.Replace("(CHANGELOG.md", $"({d.Generator!.Source}/CHANGELOG.md");
             text = text.Replace("(/.github/CONTRIBUTING.md)", $"({d.Generator!.Source}/.github/CONTRIBUTING.md)");
+            text = text.Replace("{reasonPhrase}", "`{reasonPhrase`}");
+            text = text.Replace("{code}", "`{code`}");
 
             text = text.Replace("(CONTRIBUTING", $"({d.Generator!.Source}/CONTRIBUTING");
+            text = text.Replace("(CONTRIBUTORS", $"({d.Generator!.Source}/CONTRIBUTORS");
             text = text.Replace("(SECURITY", $"({d.Generator!.Source}/SECURITY");
             text = text.Replace("(./CODE-OF-CONDUCT", $"({d.Generator!.Source}/CODE-OF-CONDUCT");
 

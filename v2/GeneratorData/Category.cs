@@ -48,6 +48,6 @@ public enum Category
     Bool=43,
     Profiler=44,
     Idempotency=45,
-    Documentation=46,
+    Documentation=46, 
 }
 
