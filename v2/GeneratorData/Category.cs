@@ -47,6 +47,7 @@ public enum Category
     MCP= 42,
     Bool=43,
     Profiler=44,
-    Idempotency=45
+    Idempotency=45,
+    Documentation=46,
 }
 

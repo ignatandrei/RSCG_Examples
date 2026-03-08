@@ -1558,5 +1558,23 @@
     "Category": 5,
     "dtStart": "2026-02-15T00:00:00",
     "show": true
+  },
+  {
+    "ID":"RSCG_Validation",
+    "Category": 5,
+    "dtStart": "2026-02-16T00:00:00",
+    "show": true
+  },
+  {
+    "ID":"RSCG_Validation.AspNetCore",
+    "Category": 5,
+    "dtStart": "2026-02-17T00:00:00",
+    "show": true
+  },
+  {
+    "ID":"REslava.ResultFlow",
+    "Category": 46,
+    "dtStart": "2026-03-18T00:00:00",
+    "show": true
   }
 ]
