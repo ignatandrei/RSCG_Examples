@@ -4,9 +4,9 @@
       "nuget":[
          "https://www.nuget.org/packages/TypedPaths/"
       ],
-      "link":"https://github.com/AlexChim1231/TypedPaths",
+      "link":"https://github.com/AlexChim1231/TypedPaths/",
       "author":"Alex Chim",
-      "source":"https://github.com/AlexChim1231/TypedPaths"
+      "source":"https://github.com/AlexChim1231/TypedPaths/"
    },
    "data":{
       "goodFor":["Generating strongly-typed paths for file system operations in C# projects."],

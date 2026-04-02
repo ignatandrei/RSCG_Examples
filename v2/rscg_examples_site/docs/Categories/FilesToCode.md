@@ -1,6 +1,6 @@
 <h1>FilesToCode</h1>
 
-Number RSCG: 17
+Number RSCG: 18
 
         1 [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator) [![Nuget](https://img.shields.io/nuget/dt/Chorn.EmbeddedResourceAccessGenerator?label=Chorn.EmbeddedResourceAccessGenerator)](https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ChristophHornung/EmbeddedResourceGenerator?style=social) 2024-01-21
     
@@ -34,5 +34,7 @@ Number RSCG: 17
     
         16 [ThisAssembly.Strings](/docs/ThisAssembly.Strings) [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Strings?label=ThisAssembly.Strings)](https://www.nuget.org/packages/ThisAssembly.Strings/) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social) 2024-07-21
     
-        17 [Weave](/docs/Weave) [![Nuget](https://img.shields.io/nuget/dt/Weave?label=Weave)](https://www.nuget.org/packages/Weave/) ![GitHub Repo stars](https://img.shields.io/github/stars/otac0n/Weave?style=social) 2024-01-27
+        17 [TypedPaths](/docs/TypedPaths) [![Nuget](https://img.shields.io/nuget/dt/TypedPaths?label=TypedPaths)](https://www.nuget.org/packages/TypedPaths/) ![GitHub Repo stars](https://img.shields.io/github/stars/AlexChim1231/TypedPaths?style=social) 2026-04-01
+    
+        18 [Weave](/docs/Weave) [![Nuget](https://img.shields.io/nuget/dt/Weave?label=Weave)](https://www.nuget.org/packages/Weave/) ![GitHub Repo stars](https://img.shields.io/github/stars/otac0n/Weave?style=social) 2024-01-27
         

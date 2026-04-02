@@ -339,7 +339,17 @@ public class MultiGeneratorV2
         Console.WriteLine($"grab data from {url}");
         var response = await _client.GetAsync(url);
         var data=await response.Content.ReadAsStringAsync();
-        var answer= JsonDocument.Parse(data);
+        Console.WriteLine($"{namePackage}: {data}");
+        JsonDocument answer;
+        try
+        {
+            answer = JsonDocument.Parse(data);
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine($"cannot parse json from {url} for {namePackage} because {ex.Message}");
+            return "";
+        }
         var items = answer.RootElement.GetProperty("items");
         foreach (var item in items.EnumerateArray())
         {
