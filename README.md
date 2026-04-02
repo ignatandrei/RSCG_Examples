@@ -37,9 +37,9 @@ Generated on : 2026-04-01 => 01 April 2026
 
 Author: Alex Chim
 
- 
+A Roslyn source generator that turns a folder tree into strongly typed path constants at compile time. 
 
-Nuget: [https://www.nuget.org/packages/TypedPaths/](https://www.nuget.org/packages/TypedPaths/) 
+Nuget: [https://www.nuget.org/packages/TypedPaths.Generator/](https://www.nuget.org/packages/TypedPaths.Generator/) 
 
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedPaths](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedPaths)

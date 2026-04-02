@@ -8,8 +8,8 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present TypedPaths . Generating strongly-typed paths for file system operations in C# projects. ."},
-{"typeStep":"browser","arg":"https://www.nuget.org/packages/TypedPaths/"},
+{"typeStep":"text","arg": "Today I will present TypedPaths.Generator . Generating strongly-typed paths for file system operations in C# projects. ."},
+{"typeStep":"browser","arg":"https://www.nuget.org/packages/TypedPaths.Generator/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedPaths"},
 {"typeStep":"text","arg": "You can download the code from here"},
@@ -19,11 +19,11 @@
 {"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
 {"typeStep":"stepvscode","arg": "-n D:\\gth\\RSCG_Examples\\v2"},
 
-{"typeStep":"text","arg": "To use it ,you will put the Nuget TypedPaths into the csproj "},
+{"typeStep":"text","arg": "To use it ,you will put the Nuget TypedPaths.Generator into the csproj "},
 
 {"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\TypedPaths\\src\\FolderToCode\\FolderToCode.csproj"},
 
-{"typeStep":"text","arg": "And now I will show you an example of using TypedPaths"},
+{"typeStep":"text","arg": "And now I will show you an example of using TypedPaths.Generator"},
 
 {"typeStep":"hide","arg": "now execute the tour in VSCode"},
 {"typeStep":"tour", "arg": "src/.tours/"},

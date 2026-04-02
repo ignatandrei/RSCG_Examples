@@ -2,7 +2,7 @@
    "generator":{
       "name":"TypedPaths",
       "nuget":[
-         "https://www.nuget.org/packages/TypedPaths/"
+         "https://www.nuget.org/packages/TypedPaths.Generator/"
       ],
       "link":"https://github.com/AlexChim1231/TypedPaths/",
       "author":"Alex Chim",

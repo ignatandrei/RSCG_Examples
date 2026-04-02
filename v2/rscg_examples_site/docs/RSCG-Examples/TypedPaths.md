@@ -15,7 +15,7 @@ import SameCategory from '../Categories/_PrimitiveFilesToCode.mdx';
 <TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
 
 ## NuGet / site data
-[![Nuget](https://img.shields.io/nuget/dt/TypedPaths?label=TypedPaths)](https://www.nuget.org/packages/TypedPaths/)
+[![Nuget](https://img.shields.io/nuget/dt/TypedPaths.Generator?label=TypedPaths.Generator)](https://www.nuget.org/packages/TypedPaths.Generator/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/AlexChim1231/TypedPaths?label=updated)](https://github.com/AlexChim1231/TypedPaths/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/AlexChim1231/TypedPaths?style=social)
 
@@ -26,12 +26,12 @@ import SameCategory from '../Categories/_PrimitiveFilesToCode.mdx';
 
 Name: **TypedPaths**
 
-
+A Roslyn source generator that turns a folder tree into strongly typed path constants at compile time.
 
 Author: Alex Chim
 
 NuGet: 
-*https://www.nuget.org/packages/TypedPaths/*   
+*https://www.nuget.org/packages/TypedPaths.Generator/*   
 
 
 You can find more details at https://github.com/AlexChim1231/TypedPaths/
@@ -49,11 +49,11 @@ Alex Chim
 ## Original Readme
 :::note
 
-# TypedPaths.Generator
+### TypedPaths.Generator
 
 A Roslyn source generator that turns configured folder trees into **strongly typed path constants** at compile time. Each configured folder becomes a nested static class (for example `Src`, `Template`) so you can avoid magic strings.
 
-## What you get
+###### What you get
 
 Given a structure like:
 
@@ -148,14 +148,14 @@ public static class Template
 
 With `using TypedPaths;` you can use `Src.FolderA.Template2.Value` and `Template.Email.Welcome.Value` instead of raw string paths.
 
-## Requirements
+###### Requirements
 
 - .NET 8 (or the TFM your project uses; the generator targets .NET Standard 2.0)
 - MSBuild / SDK-style projects
 
-## Setup
+###### Setup
 
-### Option A: consume from NuGet (recommended)
+######### Option A: consume from NuGet (recommended)
 
 ```xml
 <ItemGroup>
@@ -171,7 +171,7 @@ With `using TypedPaths;` you can use `Src.FolderA.Template2.Value` and `Template
 That is the only configuration needed in consumer projects.  
 `TypedPaths.Generator.targets` (from package `build`) automatically maps each `TypedPathsFolder` to `AdditionalFiles` for source generation.
 
-### Option B: local project reference (repository development)
+######### Option B: local project reference (repository development)
 
 ```xml
 <ItemGroup>
@@ -193,7 +193,7 @@ The explicit `<Import />` is required only for local project-reference scenarios
 
 Build the project; the generator runs and adds `TypedPaths.*.g.cs` files to the compilation.
 
-## Usage in code
+###### Usage in code
 
 Add `using TypedPaths;` and use the generated classes directly. Each configured root folder becomes a top-level static class (e.g. `Src`, `Template`):
 
@@ -215,7 +215,7 @@ var fullPath = Path.Combine(projectRoot, Src.FolderA.Template2.Value);
 
 Nested child classes are emitted only for folders (because only folders can contain files/subfolders).
 
-## Naming rules
+###### Naming rules
 
 - Folder and file names become **PascalCase** identifiers.
 - Invalid identifier characters are dropped or split; leading digits get a `_` prefix.
@@ -226,7 +226,7 @@ Nested child classes are emitted only for folders (because only folders can cont
   - the file name becomes `FileName + ExtensionWithoutDot` (example: `report/` + `report.txt` -> `Report` and `ReportTxt`);
   - if the conflicting file has no extension, use `File` suffix (example: `data/` + `data` -> `Data` and `DataFile`).
 
-## Repository layout
+###### Repository layout
 
 
 | Project                       | Description                                                |
@@ -236,7 +236,7 @@ Nested child classes are emitted only for folders (because only folders can cont
 | `TypedPaths.Generator.Tests`  | Unit tests for the generator.                              |
 
 
-## Build and test
+###### Build and test
 
 ```bash
 dotnet restore
@@ -250,9 +250,9 @@ Run the sample:
 dotnet run --project TypedPaths.Generator.Sample
 ```
 
-## License
+###### License
 
-See the repository for [license](LICENSE) information.
+See the repository for [license](https://github.com/AlexChim1231/TypedPaths//LICENSE) information.
 
 :::
 

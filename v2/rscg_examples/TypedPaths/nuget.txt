@@ -1,0 +1,1 @@
+A Roslyn source generator that turns a folder tree into strongly typed path constants at compile time.

@@ -6,8 +6,8 @@
   [
     {
       "file": "rscg_examples/TypedPaths/src/FolderToCode/FolderToCode.csproj",
-      "description": "First, we add Nuget  [TypedPaths](https://www.nuget.org/packages/TypedPaths/) in csproj  ",
-      "pattern": "TypedPaths"
+      "description": "First, we add Nuget  [TypedPaths.Generator](https://www.nuget.org/packages/TypedPaths.Generator/) in csproj  ",
+      "pattern": "TypedPaths.Generator"
     }
 
         ,{

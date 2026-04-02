@@ -2069,7 +2069,7 @@
     {
       "Name": "TypedPaths",
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedPaths",
-      "NuGet": "https://www.nuget.org/packages/TypedPaths/",
+      "NuGet": "https://www.nuget.org/packages/TypedPaths.Generator/",
       "Source": "https://github.com/AlexChim1231/TypedPaths/",
       "Category": "FilesToCode",
       "AddedOn": "2026-04-01T00:00:00"
