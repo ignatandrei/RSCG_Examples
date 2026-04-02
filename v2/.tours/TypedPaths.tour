@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TypedPaths",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/TypedPaths/src/FolderToCode/FolderToCode.csproj",
+      "description": "First, we add Nuget  [TypedPaths.Generator](https://www.nuget.org/packages/TypedPaths.Generator/) in csproj  ",
+      "pattern": "TypedPaths.Generator"
+    }
+
+        ,{
+        "file": "rscg_examples/TypedPaths/src/FolderToCode/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/TypedPaths/src/FolderToCode/FolderToCode.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/TypedPaths/src/FolderToCode/obj/GX/TypedPaths.Generator/TypedPaths.Generator.Generator/TypedPathsAttribute.g.cs",
+        "description": "Generated File 2  from 2 : TypedPathsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TypedPaths/src/FolderToCode/obj/GX/TypedPaths.Generator/TypedPaths.Generator.Generator/TypedPaths.Src.g.cs",
+        "description": "Generated File 1  from 2 : TypedPaths.Src.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 258 RSCG list by category
-description: 258 RSCG list by category
+title: 259 RSCG list by category
+description: 259 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -879,7 +879,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:17</summary>
+  <summary>Expand FilesToCode =>examples:18</summary>
         
 
 
@@ -964,6 +964,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [kli.Localize](/docs/kli.Localize)
+
+        
+
+
+[TypedPaths](/docs/TypedPaths)
 
 </details>
     
@@ -1942,6 +1947,8 @@ flowchart LR;
     FilesToCode--> NFH.FileEmbed((NFH.FileEmbed))
 
     FilesToCode--> kli.Localize((kli.Localize))
+
+    FilesToCode--> TypedPaths((TypedPaths))
 
     FunctionalProgramming--> dunet((dunet))
 

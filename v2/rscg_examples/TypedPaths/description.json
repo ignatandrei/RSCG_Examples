@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TypedPaths",
+      "nuget":[
+         "https://www.nuget.org/packages/TypedPaths.Generator/"
+      ],
+      "link":"https://github.com/AlexChim1231/TypedPaths/",
+      "author":"Alex Chim",
+      "source":"https://github.com/AlexChim1231/TypedPaths/"
+   },
+   "data":{
+      "goodFor":["Generating strongly-typed paths for file system operations in C# projects."],
+      "csprojDemo":"FolderToCode.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
