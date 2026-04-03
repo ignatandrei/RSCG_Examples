@@ -49,7 +49,7 @@ Benjamin Abt
 ## Original Readme
 :::note
 
-# AssemblyMetadata
+### AssemblyMetadata
 
 <p align="center">
     <img src="res/assembly-metadata-logo-small.png" alt="AssemblyMetadata" width="160" />
@@ -58,7 +58,7 @@ Benjamin Abt
 [![Main Build](https://github.com/BenjaminAbt/AssemblyMetadata/actions/workflows/main-build.yml/badge.svg)](https://github.com/BenjaminAbt/AssemblyMetadata/actions/workflows/main-build.yml)
 [![NuGet](https://img.shields.io/nuget/v/AssemblyMetadata.svg?logo=nuget&label=AssemblyMetadata)](https://www.nuget.org/packages/AssemblyMetadata)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/AssemblyMetadata?logo=nuget&label=Downloads)](https://www.nuget.org/packages/AssemblyMetadata)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/BenjaminAbt/AssemblyMetadata/LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-8%20%7C%209%20%7C%2010%20%7C%2011-512BD4?logo=dotnet)](https://dotnet.microsoft.com)
 
 | Framework | .NET 10 | .NET 9 | .NET 8 | .NET Standard / 4.6.2+ |
@@ -71,7 +71,7 @@ Zero runtime overhead. No reflection. No configuration required.
 
 ---
 
-## Table of Contents
+###### Table of Contents
 
 - [Why AssemblyMetadata?](#why-assemblymetadata)
 - [Installation](#installation)
@@ -89,7 +89,7 @@ Zero runtime overhead. No reflection. No configuration required.
 
 ---
 
-## Why AssemblyMetadata?
+###### Why AssemblyMetadata?
 
 Knowing *when* an assembly was built is useful for diagnostics, "About" screens, deployment
 validation, and telemetry. The traditional approaches all have trade-offs:
@@ -112,7 +112,7 @@ AssemblyMetadata solves this differently:
 
 ---
 
-## Installation
+###### Installation
 
 Add the package to **any project** that needs build metadata:
 
@@ -129,7 +129,7 @@ Add the package to **any project** that needs build metadata:
 
 ---
 
-## Quick Start
+###### Quick Start
 
 After adding the package, the generated class `AssemblyMetadataInfo` is immediately available
 anywhere in your project under the `BenjaminAbt.AssemblyMetadata` namespace:
@@ -153,12 +153,12 @@ No additional configuration, properties, or attributes are required.
 
 ---
 
-## API Reference
+###### API Reference
 
 The generator produces a single file (`AssemblyMetadataInfo.gen.cs`) in the
 `BenjaminAbt.AssemblyMetadata` namespace. All members are `public const`.
 
-### `AssemblyMetadataInfo.BuildInfo`
+######### `AssemblyMetadataInfo.BuildInfo`
 
 | Member | Type | Description |
 |---|---|---|
@@ -173,9 +173,9 @@ The generator produces a single file (`AssemblyMetadataInfo.gen.cs`) in the
 
 ---
 
-## Usage Examples
+###### Usage Examples
 
-### Display Build Timestamp
+######### Display Build Timestamp
 
 ```csharp
 using BenjaminAbt.AssemblyMetadata;
@@ -184,7 +184,7 @@ Console.WriteLine(AssemblyMetadataInfo.BuildInfo.BuildTimestamp);
 // → 2026-03-02T14:35:07.1234567+00:00
 ```
 
-### Parse into DateTimeOffset
+######### Parse into DateTimeOffset
 
 Use the `"o"` round-trip format specifier to parse the stored constant back into a
 `DateTimeOffset` - the same format used by the generator:
@@ -199,7 +199,7 @@ DateTimeOffset buildOn = DateTimeOffset.ParseExact(
 Console.WriteLine($"Built {(DateTimeOffset.UtcNow - buildOn).Days} days ago.");
 ```
 
-### Reconstruct from FileTime (zero-allocation)
+######### Reconstruct from FileTime (zero-allocation)
 
 `BuildFileTimeUtc` lets you reconstruct a `DateTimeOffset` without any string parsing:
 
@@ -213,7 +213,7 @@ DateTimeOffset buildOn =
 
 This is the fastest way to get a `DateTimeOffset` representation of the build time.
 
-### Use Individual Components
+######### Use Individual Components
 
 The integer constants allow zero-allocation formatting and direct numeric comparison:
 
@@ -231,7 +231,7 @@ if (AssemblyMetadataInfo.BuildInfo.BuildDateYear < 2025)
     Console.WriteLine("Assembly was built before 2025.");
 ```
 
-### Build Age Check
+######### Build Age Check
 
 ```csharp
 using System;
@@ -244,7 +244,7 @@ if (age.TotalDays > 30)
     Console.WriteLine($"Warning: this build is {(int)age.TotalDays} days old.");
 ```
 
-### Health Endpoint
+######### Health Endpoint
 
 Expose the build timestamp in an ASP.NET Core health or info endpoint:
 
@@ -262,9 +262,9 @@ app.MapGet("/info", () => new
 
 ---
 
-## License
+###### License
 
-[MIT](LICENSE) © [BEN ABT](https://benjamin-abt.com/)
+[MIT](https://github.com/BenjaminAbt/AssemblyMetadata/LICENSE) © [BEN ABT](https://benjamin-abt.com/)
 
 Please donate - if possible - to institutions of your choice such as child cancer aid,
 children's hospices, etc. Thanks!
