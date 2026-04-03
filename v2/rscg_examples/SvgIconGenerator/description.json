@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"SvgIconGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/SvgIconGenerator/"
+      ],
+      "link":"https://github.com/helluvamatt/SvgIconGenerator",
+      "author":"Matt Schneeberger",
+      "source":"https://github.com/helluvamatt/SvgIconGenerator"
+   },
+   "data":{
+      "goodFor":["Generating classes from SVG icons to be used in C# projects."],
+      "csprojDemo":"DemoSvg.csproj",
+      "csFiles":["Program.cs","Icons.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

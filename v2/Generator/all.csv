@@ -260,3 +260,4 @@ Nr,Key,Source,Category
 259,TypedPaths, https://github.com/AlexChim1231/TypedPaths/,FilesToCode
 260,AssemblyMetadata, https://github.com/BenjaminAbt/AssemblyMetadata,EnhancementProject
 261,NLog.Extensions.ThisClass, https://github.com/trympet/ThisClass,EnhancementClass
+262,SvgIconGenerator, https://github.com/helluvamatt/SvgIconGenerator,FilesToCode

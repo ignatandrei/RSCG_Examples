@@ -1,10 +1,10 @@
-# RSCG - 261 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 262 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 261 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 262 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-04-03 => 03 April 2026
+## Latest Update : 2026-04-04 => 04 April 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 261 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 262 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 262. [SvgIconGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SvgIconGenerator) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2026-04-04 => 04 April 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Matt Schneeberger
+
+SVG icon source generator 
+
+Nuget: [https://www.nuget.org/packages/SvgIconGenerator/](https://www.nuget.org/packages/SvgIconGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SvgIconGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SvgIconGenerator)
+
+Source: [https://github.com/helluvamatt/SvgIconGenerator](https://github.com/helluvamatt/SvgIconGenerator)
+
+</details>
+
 ### 261. [NLog.Extensions.ThisClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NLog.Extensions.ThisClass) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
 
 Generated on : 2026-04-03 => 03 April 2026

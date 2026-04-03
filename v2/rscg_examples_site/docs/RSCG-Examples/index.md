@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 261 RSCG list by category
-description: 261 RSCG list by category
+title: 262 RSCG list by category
+description: 262 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -889,7 +889,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:18</summary>
+  <summary>Expand FilesToCode =>examples:19</summary>
         
 
 
@@ -979,6 +979,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TypedPaths](/docs/TypedPaths)
+
+        
+
+
+[SvgIconGenerator](/docs/SvgIconGenerator)
 
 </details>
     
@@ -1963,6 +1968,8 @@ flowchart LR;
     FilesToCode--> kli.Localize((kli.Localize))
 
     FilesToCode--> TypedPaths((TypedPaths))
+
+    FilesToCode--> SvgIconGenerator((SvgIconGenerator))
 
     FunctionalProgramming--> dunet((dunet))
 

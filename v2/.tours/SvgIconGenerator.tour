@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SvgIconGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/DemoSvg.csproj",
+      "description": "First, we add Nuget  [SvgIconGenerator](https://www.nuget.org/packages/SvgIconGenerator/) in csproj  ",
+      "pattern": "SvgIconGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/Icons.cs",
+        "description": "File Icons.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/DemoSvg.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/obj/GX/SvgIconGenerator/SvgIconGenerator.IconGenerator/MyIcons.g.cs",
+        "description": "Generated File 3  from 3 : MyIcons.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/obj/GX/SvgIconGenerator/SvgIconGenerator.IconGenerator/IconDto.g.cs",
+        "description": "Generated File 2  from 3 : IconDto.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/SvgIconGenerator/src/DemoSvg/DemoSvg/obj/GX/SvgIconGenerator/SvgIconGenerator.IconGenerator/GenerateIconsAttribute.g.cs",
+        "description": "Generated File 1  from 3 : GenerateIconsAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
