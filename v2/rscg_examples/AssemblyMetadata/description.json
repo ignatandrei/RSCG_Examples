@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AssemblyMetadata",
+      "nuget":[
+         "https://www.nuget.org/packages/AssemblyMetadata/"
+      ],
+      "link":"https://github.com/BenjaminAbt/AssemblyMetadata",
+      "author":"Benjamin Abt",
+      "source":"https://github.com/BenjaminAbt/AssemblyMetadata"
+   },
+   "data":{
+      "goodFor":["Generate date time based metadata for assemblies."],
+      "csprojDemo":"DemoMeta.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
