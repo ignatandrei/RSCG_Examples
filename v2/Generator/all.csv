@@ -259,3 +259,4 @@ Nr,Key,Source,Category
 258,REslava.ResultFlow, https://github.com/reslava/nuget-package-reslava-result/,Documentation
 259,TypedPaths, https://github.com/AlexChim1231/TypedPaths/,FilesToCode
 260,AssemblyMetadata, https://github.com/BenjaminAbt/AssemblyMetadata,EnhancementProject
+261,NLog.Extensions.ThisClass, https://github.com/trympet/ThisClass,EnhancementClass

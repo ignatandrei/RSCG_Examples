@@ -1576,5 +1576,11 @@
     "Category": 1,
     "dtStart": "2026-04-02T00:00:00",
     "show": true
+  },
+  {
+    "ID":"NLog.Extensions.ThisClass",
+    "Category": 5,
+    "dtStart": "2026-04-03T00:00:00",
+    "show": true
   }
 ]
