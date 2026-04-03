@@ -49,11 +49,11 @@ Matt Schneeberger
 ## Original Readme
 :::note
 
-# SVG Icon Generator
+### SVG Icon Generator
 
 A C# source generator that automatically creates strongly-typed icon properties from SVG files.
 
-## Installation
+###### Installation
 
 Install the NuGet package in your project:
 
@@ -61,9 +61,9 @@ Install the NuGet package in your project:
 dotnet add package SvgIconGenerator
 ```
 
-## Usage
+###### Usage
 
-### 1. Organize Your SVG Files
+######### 1. Organize Your SVG Files
 
 Place your SVG icon files in a folder within your project (e.g., `Icons/`):
 
@@ -76,7 +76,7 @@ YourProject/
 └── Program.cs
 ```
 
-### 2. Add SVG Files as AdditionalFiles
+######### 2. Add SVG Files as AdditionalFiles
 
 In your `.csproj` file, add the SVG files as `AdditionalFiles`:
 
@@ -88,7 +88,7 @@ In your `.csproj` file, add the SVG files as `AdditionalFiles`:
 
 **Important**: Adding files as `AdditionalFiles` ensures that changes to SVG files trigger regeneration during incremental compilation.
 
-### 3. Create an Icon Class
+######### 3. Create an Icon Class
 
 Create a `static partial` class and decorate it with the `[GenerateIcons]` attribute:
 
@@ -109,7 +109,7 @@ internal static partial class AllIcons;
 internal static partial class MyIcons;
 ```
 
-### 4. Access Generated Icons
+######### 4. Access Generated Icons
 
 The source generator will create properties for each SVG file. Property names are automatically converted from kebab-case to PascalCase:
 
@@ -122,7 +122,7 @@ Console.WriteLine($"ViewBox: {icon.DefaultAttributes["viewBox"]}");
 Console.WriteLine($"SVG content: {icon.InnerContent}");
 ```
 
-### 5. Render Icons
+######### 5. Render Icons
 
 The `IconDto` contains everything needed to render the icon:
 
@@ -155,11 +155,11 @@ string svg = RenderIcon(MyIcons.UserCircle, new Dictionary<string, string>
 });
 ```
 
-## Using with Popular Icon Libraries
+###### Using with Popular Icon Libraries
 
 You can use this generator with popular icon libraries installed via NPM, such as Bootstrap Icons, Lucide, Heroicons, or Feather Icons.
 
-### Example: Lucide Icons
+######### Example: Lucide Icons
 
 1. Install Lucide icons via NPM:
 
@@ -190,7 +190,7 @@ IconDto icon2 = LucideIcons.ShoppingCart;
 IconDto icon3 = LucideIcons.AlertTriangle;
 ```
 
-### Example: Bootstrap Icons
+######### Example: Bootstrap Icons
 
 ```bash
 npm install bootstrap-icons
@@ -207,7 +207,7 @@ npm install bootstrap-icons
 internal static partial class BootstrapIcons;
 ```
 
-### Example: Heroicons
+######### Example: Heroicons
 
 ```bash
 npm install heroicons
@@ -230,7 +230,7 @@ internal static partial class HeroiconsOutline;
 internal static partial class HeroiconsSolid;
 ```
 
-### Multiple Icon Sets
+######### Multiple Icon Sets
 
 You can create multiple icon classes in the same project to organize different icon sets:
 
@@ -253,7 +253,7 @@ internal static partial class CustomIcons;
 internal static partial class LogoIcons;
 ```
 
-## How It Works
+###### How It Works
 
 1. The source generator reads SVG files from `AdditionalFiles` in your project
 2. Files are optionally filtered by glob pattern (if specified in the attribute)
@@ -264,7 +264,7 @@ internal static partial class LogoIcons;
 4. Generates a partial class with `IconDto` properties for each icon
 5. **Incremental compilation**: Changes to SVG files automatically trigger regeneration
 
-## IconDto Structure
+###### IconDto Structure
 
 The generated `IconDto` record contains:
 
@@ -272,7 +272,7 @@ The generated `IconDto` record contains:
 - **DefaultAttributes** (`IReadOnlyDictionary<string, string>`): SVG root attributes like `viewBox`, `fill`, `stroke`, etc.
 - **InnerContent** (`string`): The inner HTML content (paths, circles, etc.)
 
-## Example SVG Input
+###### Example SVG Input
 
 Given an SVG file `Icons/user-circle.svg`:
 
@@ -303,12 +303,12 @@ public static readonly IconDto UserCircle = new IconDto(
     "<circle cx=\"12\" cy=\"12\" r=\"10\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/><path d=\"M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662\"/>");
 ```
 
-## Requirements
+###### Requirements
 
 - .NET Standard 2.0 or higher
 - C# 9.0 or higher (for record types)
 
-## License
+###### License
 
 See the repository for license information.
 
@@ -360,7 +360,7 @@ This is the CSharp Project that references **SvgIconGenerator**
 
 </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\DemoSvg\Program.cs" label="Program.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\Program.cs" label="Program.cs" >
 
   This is the use of **SvgIconGenerator** in *Program.cs*
 
@@ -374,7 +374,7 @@ Console.WriteLine(MyIcons.Rect.InnerContent);
 ```
   </TabItem>
 
-  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\DemoSvg\Icons.cs" label="Icons.cs" >
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\Icons.cs" label="Icons.cs" >
 
   This is the use of **SvgIconGenerator** in *Icons.cs*
 
@@ -400,7 +400,7 @@ Those are taken from $(BaseIntermediateOutputPath)\GX
 <Tabs>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\DemoSvg\obj\GX\SvgIconGenerator\SvgIconGenerator.IconGenerator\GenerateIconsAttribute.g.cs" label="GenerateIconsAttribute.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\obj\GX\SvgIconGenerator\SvgIconGenerator.IconGenerator\GenerateIconsAttribute.g.cs" label="GenerateIconsAttribute.g.cs" >
 ```csharp showLineNumbers 
 namespace SvgIconGenerator
 {
@@ -446,7 +446,7 @@ namespace SvgIconGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\DemoSvg\obj\GX\SvgIconGenerator\SvgIconGenerator.IconGenerator\IconDto.g.cs" label="IconDto.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\obj\GX\SvgIconGenerator\SvgIconGenerator.IconGenerator\IconDto.g.cs" label="IconDto.g.cs" >
 ```csharp showLineNumbers 
 namespace SvgIconGenerator
 {
@@ -464,7 +464,7 @@ namespace SvgIconGenerator
   </TabItem>
 
 
-<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\DemoSvg\obj\GX\SvgIconGenerator\SvgIconGenerator.IconGenerator\MyIcons.g.cs" label="MyIcons.g.cs" >
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\SvgIconGenerator\src\DemoSvg\obj\GX\SvgIconGenerator\SvgIconGenerator.IconGenerator\MyIcons.g.cs" label="MyIcons.g.cs" >
 ```csharp showLineNumbers 
 //------------------------------------------------------------------------------
 // <auto-generated>
