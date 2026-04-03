@@ -2089,6 +2089,14 @@
       "Source": "https://github.com/trympet/ThisClass",
       "Category": "EnhancementClass",
       "AddedOn": "2026-04-03T00:00:00"
+    },
+    {
+      "Name": "SvgIconGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SvgIconGenerator",
+      "NuGet": "https://www.nuget.org/packages/SvgIconGenerator/",
+      "Source": "https://github.com/helluvamatt/SvgIconGenerator",
+      "Category": "FilesToCode",
+      "AddedOn": "2026-04-04T00:00:00"
     }
   ]
 }

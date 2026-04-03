@@ -1582,5 +1582,11 @@
     "Category": 5,
     "dtStart": "2026-04-03T00:00:00",
     "show": true
+  },
+  {
+    "ID":"SvgIconGenerator",
+    "Category": 8,
+    "dtStart": "2026-04-04T00:00:00",
+    "show": true
   }
 ]
