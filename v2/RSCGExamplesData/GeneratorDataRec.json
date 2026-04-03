@@ -1588,5 +1588,11 @@
     "Category": 8,
     "dtStart": "2026-04-04T00:00:00",
     "show": true
+  },
+  {
+    "ID":"TaggedEnum",
+    "Category": 19,
+    "dtStart": "2026-04-05T00:00:00",
+    "show": true
   }
 ]

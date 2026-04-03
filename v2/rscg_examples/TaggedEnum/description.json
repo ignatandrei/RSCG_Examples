@@ -1,0 +1,25 @@
+{
+   "generator":{
+      "name":"TaggedEnum",
+      "nuget":[
+         "https://www.nuget.org/packages/TaggedEnum/"
+      ],
+      "link":"https://github.com/al0rid4l/SixTatami",
+      "author":"Alor'idal",
+      "source":"https://github.com/al0rid4l/SixTatami"
+   },
+   "data":{
+      "goodFor":["Generate dictionary from enum",
+            "Also retrieved enum by value or name.",
+         "And an extension method JSON serializer for enum."
+   ],
+      "csprojDemo":"TaggedEnumDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
