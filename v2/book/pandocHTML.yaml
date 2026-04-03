@@ -274,6 +274,7 @@ input-files:
 - examples/REslava.ResultFlow.html
 - examples/TypedPaths.html
 - examples/AssemblyMetadata.html
+- examples/NLog.Extensions.ThisClass.html
 
 # or you may use input-file: with a single value
 # defaults:

@@ -2081,6 +2081,14 @@
       "Source": "https://github.com/BenjaminAbt/AssemblyMetadata",
       "Category": "EnhancementProject",
       "AddedOn": "2026-04-02T00:00:00"
+    },
+    {
+      "Name": "NLog.Extensions.ThisClass",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NLog.Extensions.ThisClass",
+      "NuGet": "https://www.nuget.org/packages/NLog.Extensions.ThisClass/",
+      "Source": "https://github.com/trympet/ThisClass",
+      "Category": "EnhancementClass",
+      "AddedOn": "2026-04-03T00:00:00"
     }
   ]
 }

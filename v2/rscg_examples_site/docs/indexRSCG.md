@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 260 RSCG with examples in descending chronological order
+## 261 RSCG with examples in descending chronological order
 
-This is the list of 260 ( 16 from Microsoft) RSCG with examples 
+This is the list of 261 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 260 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|261| [NLog.Extensions.ThisClass by Trym Pet ](/docs/NLog.Extensions.ThisClass)|2026-04-03 => 03 April 2026 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |260| [AssemblyMetadata by Benjamin Abt ](/docs/AssemblyMetadata)|2026-04-02 => 02 April 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |259| [TypedPaths by Alex Chim ](/docs/TypedPaths)|2026-04-01 => 01 April 2026 | [FilesToCode](/docs/Categories/FilesToCode) |
 |258| [REslava.ResultFlow by Rafa Eslava ](/docs/REslava.ResultFlow)|2026-03-18 => 18 March 2026 | [Documentation](/docs/Categories/Documentation) |

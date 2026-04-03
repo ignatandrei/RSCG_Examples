@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NLog.Extensions.ThisClass",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/LogDemo.csproj",
+      "description": "First, we add Nuget  [NLog.Extensions.ThisClass](https://www.nuget.org/packages/NLog.Extensions.ThisClass/) in csproj  ",
+      "pattern": "NLog.Extensions.ThisClass"
+    }
+
+        ,{
+        "file": "rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/LogDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/obj/GX/NLog.Extensions.ThisClass/NLog.Extensions.ThisClass.ThisClassNLogGenerator/Person_ClassLoggerLazy.g.cs",
+        "description": "Generated File 3  from 3 : Person_ClassLoggerLazy.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/obj/GX/NLog.Extensions.ThisClass/NLog.Extensions.ThisClass.ThisClassNLogGenerator/ClassLoggerLazyAttribute.g.cs",
+        "description": "Generated File 2  from 3 : ClassLoggerLazyAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/NLog.Extensions.ThisClass/src/LogDemo/obj/GX/NLog.Extensions.ThisClass/NLog.Extensions.ThisClass.ThisClassNLogGenerator/ClassLoggerAttribute.g.cs",
+        "description": "Generated File 1  from 3 : ClassLoggerAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
