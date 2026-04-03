@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 262 RSCG list by category
-description: 262 RSCG list by category
+title: 263 RSCG list by category
+description: 263 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -800,7 +800,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:12</summary>
+  <summary>Expand Enum =>examples:13</summary>
         
 
 
@@ -860,6 +860,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [RapidEnum](/docs/RapidEnum)
+
+        
+
+
+[TaggedEnum](/docs/TaggedEnum)
 
 </details>
     
@@ -1926,6 +1931,8 @@ flowchart LR;
     Enum--> requiredenum((requiredenum))
 
     Enum--> RapidEnum((RapidEnum))
+
+    Enum--> TaggedEnum((TaggedEnum))
 
     Equals--> GeneratorEquals((GeneratorEquals))
 

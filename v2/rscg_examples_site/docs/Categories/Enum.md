@@ -1,6 +1,6 @@
 <h1>Enum</h1>
 
-Number RSCG: 12
+Number RSCG: 13
 
         1 [CredFetoEnum](/docs/CredFetoEnum) [![Nuget](https://img.shields.io/nuget/dt/Credfeto.Enumeration.Source.Generation?label=Credfeto.Enumeration.Source.Generation)](https://www.nuget.org/packages/Credfeto.Enumeration.Source.Generation/) ![GitHub Repo stars](https://img.shields.io/github/stars/credfeto/credfeto-enum-source-generation?style=social) 2023-10-12
     
@@ -25,4 +25,6 @@ Number RSCG: 12
         11 [RapidEnum](/docs/RapidEnum) [![Nuget](https://img.shields.io/nuget/dt/RapidEnum?label=RapidEnum)](https://www.nuget.org/packages/RapidEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/hanachiru/RapidEnum?style=social) 2025-10-04
     
         12 [requiredenum](/docs/requiredenum) [![Nuget](https://img.shields.io/nuget/dt/requiredenum?label=requiredenum)](https://www.nuget.org/packages/requiredenum/) ![GitHub Repo stars](https://img.shields.io/github/stars/emptycoder/RequiredEnum?style=social) 2025-08-14
+    
+        13 [TaggedEnum](/docs/TaggedEnum) [![Nuget](https://img.shields.io/nuget/dt/TaggedEnum?label=TaggedEnum)](https://www.nuget.org/packages/TaggedEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/al0rid4l/SixTatami?style=social) 2026-04-05
         

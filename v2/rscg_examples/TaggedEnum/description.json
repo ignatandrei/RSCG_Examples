@@ -13,8 +13,8 @@
             "Also retrieved enum by value or name.",
          "And an extension method JSON serializer for enum."
    ],
-      "csprojDemo":"TaggedEnumDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

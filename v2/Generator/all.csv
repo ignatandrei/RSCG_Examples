@@ -261,3 +261,4 @@ Nr,Key,Source,Category
 260,AssemblyMetadata, https://github.com/BenjaminAbt/AssemblyMetadata,EnhancementProject
 261,NLog.Extensions.ThisClass, https://github.com/trympet/ThisClass,EnhancementClass
 262,SvgIconGenerator, https://github.com/helluvamatt/SvgIconGenerator,FilesToCode
+263,TaggedEnum, https://github.com/al0rid4l/SixTatami,Enum

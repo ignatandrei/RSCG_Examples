@@ -2097,6 +2097,14 @@
       "Source": "https://github.com/helluvamatt/SvgIconGenerator",
       "Category": "FilesToCode",
       "AddedOn": "2026-04-04T00:00:00"
+    },
+    {
+      "Name": "TaggedEnum",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TaggedEnum",
+      "NuGet": "https://www.nuget.org/packages/TaggedEnum/",
+      "Source": "https://github.com/al0rid4l/SixTatami",
+      "Category": "Enum",
+      "AddedOn": "2026-04-05T00:00:00"
     }
   ]
 }

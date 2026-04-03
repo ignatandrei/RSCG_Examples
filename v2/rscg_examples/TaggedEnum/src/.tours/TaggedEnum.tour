@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TaggedEnum",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [TaggedEnum](https://www.nuget.org/packages/TaggedEnum/) in csproj  ",
+      "pattern": "TaggedEnum"
+    }
+
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/TaggedEnum/TaggedEnum.TaggedEnumSourceGenerator/TaggedEnumAttribute.g.cs",
+        "description": "Generated File 2  from 2 : TaggedEnumAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/TaggedEnum/TaggedEnum.TaggedEnumSourceGenerator/EnumDemoEnumDemo.CarTypesTaggedEnum.g.cs",
+        "description": "Generated File 1  from 2 : EnumDemoEnumDemo.CarTypesTaggedEnum.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
