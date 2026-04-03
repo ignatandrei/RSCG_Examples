@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"NLog.Extensions.ThisClass",
+      "nuget":[
+         "https://www.nuget.org/packages/NLog.Extensions.ThisClass/"
+      ],
+      "link":"https://github.com/trympet/ThisClass",
+      "author":"Trym Pet",
+      "source":"https://github.com/trympet/ThisClass"
+   },
+   "data":{
+      "goodFor":["Generate the NLog register for a class."],
+      "csprojDemo":"LogDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
