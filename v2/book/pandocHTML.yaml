@@ -276,6 +276,7 @@ input-files:
 - examples/AssemblyMetadata.html
 - examples/NLog.Extensions.ThisClass.html
 - examples/SvgIconGenerator.html
+- examples/TaggedEnum.html
 
 # or you may use input-file: with a single value
 # defaults:
