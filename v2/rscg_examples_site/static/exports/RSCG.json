@@ -2073,6 +2073,14 @@
       "Source": "https://github.com/AlexChim1231/TypedPaths/",
       "Category": "FilesToCode",
       "AddedOn": "2026-04-01T00:00:00"
+    },
+    {
+      "Name": "AssemblyMetadata",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyMetadata",
+      "NuGet": "https://www.nuget.org/packages/AssemblyMetadata/",
+      "Source": "https://github.com/BenjaminAbt/AssemblyMetadata",
+      "Category": "EnhancementProject",
+      "AddedOn": "2026-04-02T00:00:00"
     }
   ]
 }

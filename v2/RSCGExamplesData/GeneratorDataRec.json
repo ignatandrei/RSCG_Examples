@@ -1570,5 +1570,11 @@
     "Category": 8,
     "dtStart": "2026-04-01T00:00:00",
     "show": true
+  },
+  {
+    "ID":"AssemblyMetadata",
+    "Category": 1,
+    "dtStart": "2026-04-02T00:00:00",
+    "show": true
   }
 ]

@@ -1,0 +1,1 @@
+﻿Console.WriteLine(BenjaminAbt.AssemblyMetadata.AssemblyMetadataInfo.BuildInfo.BuildDateYear);
