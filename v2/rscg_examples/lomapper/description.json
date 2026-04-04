@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generate mapping code at compile time using source generators."],
       "csprojDemo":"mapperDemo.csproj",
-      "csFiles":["Program.cs","Person.cs","PersonDto.cs"],
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

@@ -286,7 +286,7 @@ Tested on Intel Core i7-10870H, .NET 8.0.23, Windows 11 using BenchmarkDotNet v0
 
 The generated code produces clean IL that the JIT compiler can optimize effectively. Zero allocations beyond the mapped objects themselves.
 
-[Full Results](BenchmarkDotNet.Artifacts/results/)
+[Full Results](https://github.com/jdtoon/lomapper/BenchmarkDotNet.Artifacts/results/)
 </details>
 ```bash
 cd benchmarks/LoMapper.Benchmarks
