@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Aigamo.MatchGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Aigamo.MatchGenerator/"
+      ],
+      "link":"https://github.com/ycanardeau/MatchGenerator",
+      "author":"Aigamo",
+      "source":"https://github.com/ycanardeau/MatchGenerator"
+   },
+   "data":{
+      "goodFor":["Transform enums into tagged unions -with error in Match !"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
