@@ -49,7 +49,7 @@ Junaid Desai
 ## Original Readme
 :::note
 
-# LoMapper
+### LoMapper
 
 **A tiny, focused object mapper** — Generate mapping code at compile time using Roslyn Source Generators.
 
@@ -60,7 +60,7 @@ Junaid Desai
 [![.NET](https://img.shields.io/badge/.NET-Standard%202.0+-purple.svg)](https://dotnet.microsoft.com/)
 [![GitHub Stars](https://img.shields.io/github/stars/jdtoon/lomapper?style=social)](https://github.com/jdtoon/lomapper)
 
-## What is LoMapper?
+###### What is LoMapper?
 
 LoMapper is a small library that generates mapping code at compile time, saving you from writing repetitive property-by-property assignments by hand.
 
@@ -71,15 +71,15 @@ LoMapper is a small library that generates mapping code at compile time, saving 
 - ✅ **Debuggable** — F12 into generated code like it's your own
 - ✅ **Simple** — Just add attributes to partial classes
 
-## Quick Start
+###### Quick Start
 
-### Installation
+######### Installation
 
 ```bash
 dotnet add package LoMapper
 ```
 
-### Basic Usage
+######### Basic Usage
 
 ```csharp
 using LoMapper;
@@ -113,9 +113,9 @@ var dto = mapper.Map(entity);
 
 That's it! The `Map` method is generated at compile time with property-by-property assignment.
 
-## Features
+###### Features
 
-### Property Mapping
+######### Property Mapping
 Properties are matched by name (case-insensitive):
 
 ```csharp
@@ -123,7 +123,7 @@ public class Source \{ public int ID \{ get; set; \} }
 public class Target \{ public int Id \{ get; set; \} }  // ✅ Matched
 ```
 
-### Custom Property Mapping
+######### Custom Property Mapping
 Rename properties or apply transforms:
 
 ```csharp
@@ -139,7 +139,7 @@ public partial class UserMapper
 }
 ```
 
-### Ignore Properties
+######### Ignore Properties
 Skip properties you don't want mapped:
 
 ```csharp
@@ -152,7 +152,7 @@ public partial class UserMapper
 }
 ```
 
-### Flatten Properties
+######### Flatten Properties
 Map nested object properties to flat target properties:
 
 ```csharp
@@ -172,7 +172,7 @@ Features:
 - ✅ Works with both reference and value types
 - ✅ Combine with `[MapProperty]` and `[MapIgnore]`
 
-### Lifecycle Hooks (BeforeMap / AfterMap)
+######### Lifecycle Hooks (BeforeMap / AfterMap)
 Run code before or after mapping to validate inputs, set defaults, or audit results:
 
 ```csharp
@@ -194,7 +194,7 @@ public partial class UserMapper
 
 Hooks execute in order: `BeforeMap` runs before object creation and property assignments; `AfterMap` runs after the target is fully constructed (including constructor-based mappings).
 
-### Nested Objects
+######### Nested Objects
 For nested objects, declare explicit mapper methods:
 
 ```csharp
@@ -207,7 +207,7 @@ public partial class OrderMapper
 }
 ```
 
-### Collections
+######### Collections
 Full support for collections — `List<T>`, `IEnumerable<T>`, `Dictionary<K,V>`, `HashSet<T>`, and arrays:
 
 ```csharp
@@ -215,7 +215,7 @@ public class Source \{ public List<ItemEntity> Items \{ get; set; \} }
 public class Target \{ public List<ItemDto> Items \{ get; set; \} }  // ✅ Auto-mapped
 ```
 
-### Circular Reference Detection
+######### Circular Reference Detection
 LoMapper detects mapper graphs that contain cycles and stops the build with diagnostic `LOM010` so you can break the loop early.
 
 ```csharp
@@ -235,7 +235,7 @@ public class TargetB \{ public TargetA? Parent \{ get; set; \} }
 
 Mapping these types produces LOM010 describing the cycle. Break one side (e.g., ignore a property or change the DTO shape) to proceed.
 
-## Compile-Time Diagnostics
+###### Compile-Time Diagnostics
 
 LoMapper catches mapping issues **before your code runs**:
 
@@ -260,7 +260,7 @@ public class Target \{ public int Id \{ get; set; \} public string Extra \{ get;
 // ⚠️ LOM001: Target property 'Extra' has no matching source property
 ```
 
-## Benchmarks
+###### Benchmarks
 
 **Performance**
 
@@ -293,7 +293,7 @@ cd benchmarks/LoMapper.Benchmarks
 dotnet run -c Release
 ```
 
-## View Generated Code
+###### View Generated Code
 
 Enable generated file output in your `.csproj`:
 
@@ -305,7 +305,7 @@ Enable generated file output in your `.csproj`:
 
 Find generated files in: `obj/GeneratedFiles/LoMapper.Generator/`
 
-## Comparison
+###### Comparison
 
 | Feature | LoMapper | Manual Code |
 |---------|:--------:|:-----------:|
@@ -321,7 +321,7 @@ Find generated files in: `obj/GeneratedFiles/LoMapper.Generator/`
 | Flattening/unflattening | ✅ v0.3 | Manual |
 | Projection (IQueryable) | 🔜 v1.0 | Manual |
 
-## Why Use LoMapper?
+###### Why Use LoMapper?
 
 **vs Writing Mappings Manually:**
 - Less repetitive code to write and maintain
@@ -341,18 +341,18 @@ Find generated files in: `obj/GeneratedFiles/LoMapper.Generator/`
 
 LoMapper is a focused tool that does one thing well: generate simple, efficient mapping code. It's meant to complement your toolkit, not replace everything else.
 
-## Requirements
+###### Requirements
 
 - .NET Standard 2.0+ (runs on .NET Core 3.1+, .NET 5+, .NET Framework 4.7.2+)
 - C# 9.0+ (for partial methods)
 
-## Contributing
+###### Contributing
 
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) first.
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/jdtoon/lomapper/CONTRIBUTING.md) first.
 
-## License
+###### License
 
-MIT License - see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](https://github.com/jdtoon/lomapper/LICENSE) for details.
 
 ---
 
