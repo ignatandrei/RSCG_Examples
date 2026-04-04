@@ -279,6 +279,7 @@ input-files:
 - examples/TaggedEnum.html
 - examples/Najlot.Audit.SourceGenerator.html
 - examples/lomapper.html
+- examples/Aigamo.MatchGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:

@@ -1588,5 +1588,11 @@
     "category": "Mapper",
     "href": "/RSCG_Examples/v2/docs/lomapper/",
     "body": "LoMapper - Lightweight Object Mapper using compile-time source generation. Zero runtime reflection."
+  },
+  {
+    "title": "Aigamo.MatchGenerator",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/Aigamo.MatchGenerator/",
+    "body": "Package Description"
   }
 ]
