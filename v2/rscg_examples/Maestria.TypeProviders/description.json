@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Maestria.TypeProviders",
+      "nuget":[
+         "https://www.nuget.org/packages/Maestria.TypeProviders/"
+      ],
+      "link":"https://github.com/MaestriaNet/TypeProviders",
+      "author":"Fábio Monteiro Naspolini",
+      "source":"https://github.com/MaestriaNet/TypeProviders"
+   },
+   "data":{
+      "goodFor":["Generating strong typed code from Excel."],
+      "csprojDemo":"DemoExcel.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
