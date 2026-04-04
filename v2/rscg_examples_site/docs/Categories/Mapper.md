@@ -1,6 +1,6 @@
 <h1>Mapper</h1>
 
-Number RSCG: 9
+Number RSCG: 10
 
         1 [AutoDTO](/docs/AutoDTO) [![Nuget](https://img.shields.io/nuget/dt/AutoDTO?label=AutoDTO)](https://www.nuget.org/packages/AutoDTO/) ![GitHub Repo stars](https://img.shields.io/github/stars/Ohorodnikov/AutoDto?style=social) 2023-08-24
     
@@ -12,11 +12,13 @@ Number RSCG: 9
     
         5 [LightweightObjectMapper](/docs/LightweightObjectMapper) [![Nuget](https://img.shields.io/nuget/dt/LightweightObjectMapper?label=LightweightObjectMapper)](https://www.nuget.org/packages/LightweightObjectMapper/) ![GitHub Repo stars](https://img.shields.io/github/stars/stratosblue/LightweightObjectMapper?style=social) 2024-09-18
     
-        6 [MagicMap](/docs/MagicMap) [![Nuget](https://img.shields.io/nuget/dt/MagicMap?label=MagicMap)](https://www.nuget.org/packages/MagicMap/) ![GitHub Repo stars](https://img.shields.io/github/stars/bramerdaniel/MagicMap?style=social) 2023-10-08
+        6 [lomapper](/docs/lomapper) [![Nuget](https://img.shields.io/nuget/dt/lomapper?label=lomapper)](https://www.nuget.org/packages/lomapper/) ![GitHub Repo stars](https://img.shields.io/github/stars/jdtoon/lomapper?style=social) 2026-04-07
     
-        7 [mapperly](/docs/mapperly) [![Nuget](https://img.shields.io/nuget/dt/Riok.Mapperly?label=Riok.Mapperly)](https://www.nuget.org/packages/Riok.Mapperly/) ![GitHub Repo stars](https://img.shields.io/github/stars/riok/mapperly?style=social) 2023-04-16
+        7 [MagicMap](/docs/MagicMap) [![Nuget](https://img.shields.io/nuget/dt/MagicMap?label=MagicMap)](https://www.nuget.org/packages/MagicMap/) ![GitHub Repo stars](https://img.shields.io/github/stars/bramerdaniel/MagicMap?style=social) 2023-10-08
     
-        8 [MapTo](/docs/MapTo) [![Nuget](https://img.shields.io/nuget/dt/MapTo?label=MapTo)](https://www.nuget.org/packages/MapTo/) ![GitHub Repo stars](https://img.shields.io/github/stars/mrtaikandi/MapTo?style=social) 2023-10-05
+        8 [mapperly](/docs/mapperly) [![Nuget](https://img.shields.io/nuget/dt/Riok.Mapperly?label=Riok.Mapperly)](https://www.nuget.org/packages/Riok.Mapperly/) ![GitHub Repo stars](https://img.shields.io/github/stars/riok/mapperly?style=social) 2023-04-16
     
-        9 [NextGenMapper](/docs/NextGenMapper) [![Nuget](https://img.shields.io/nuget/dt/NextGenMapper?label=NextGenMapper)](https://www.nuget.org/packages/NextGenMapper/) ![GitHub Repo stars](https://img.shields.io/github/stars/DedAnton/NextGenMapper?style=social) 2023-08-16
+        9 [MapTo](/docs/MapTo) [![Nuget](https://img.shields.io/nuget/dt/MapTo?label=MapTo)](https://www.nuget.org/packages/MapTo/) ![GitHub Repo stars](https://img.shields.io/github/stars/mrtaikandi/MapTo?style=social) 2023-10-05
+    
+        10 [NextGenMapper](/docs/NextGenMapper) [![Nuget](https://img.shields.io/nuget/dt/NextGenMapper?label=NextGenMapper)](https://www.nuget.org/packages/NextGenMapper/) ![GitHub Repo stars](https://img.shields.io/github/stars/DedAnton/NextGenMapper?style=social) 2023-08-16
         

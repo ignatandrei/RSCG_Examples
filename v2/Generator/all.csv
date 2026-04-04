@@ -263,3 +263,4 @@ Nr,Key,Source,Category
 262,SvgIconGenerator, https://github.com/helluvamatt/SvgIconGenerator,FilesToCode
 263,TaggedEnum, https://github.com/al0rid4l/SixTatami,Enum
 264,Najlot.Audit.SourceGenerator, https://github.com/najlot/Audit,Audit
+265,loMapper, https://github.com/jdtoon/lomapper,Mapper

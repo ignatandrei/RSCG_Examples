@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"lomapper",
+      "nuget":[
+         "https://www.nuget.org/packages/lomapper/"
+      ],
+      "link":"https://github.com/jdtoon/lomapper",
+      "author":"Junaid Desai",
+      "source":"https://github.com/jdtoon/lomapper"
+   },
+   "data":{
+      "goodFor":["Generate mapping code at compile time using source generators."],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

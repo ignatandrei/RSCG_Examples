@@ -2113,6 +2113,14 @@
       "Source": "https://github.com/najlot/Audit",
       "Category": "Audit",
       "AddedOn": "2026-04-06T00:00:00"
+    },
+    {
+      "Name": "lomapper",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/loMapper",
+      "NuGet": "https://www.nuget.org/packages/lomapper/",
+      "Source": "https://github.com/jdtoon/lomapper",
+      "Category": "Mapper",
+      "AddedOn": "2026-04-07T00:00:00"
     }
   ]
 }

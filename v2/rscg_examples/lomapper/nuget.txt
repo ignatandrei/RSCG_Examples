@@ -1,0 +1,1 @@
+LoMapper - Lightweight Object Mapper using compile-time source generation. Zero runtime reflection.
