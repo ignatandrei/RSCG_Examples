@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 265 RSCG list by category
-description: 265 RSCG list by category
+title: 266 RSCG list by category
+description: 266 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -812,7 +812,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:13</summary>
+  <summary>Expand Enum =>examples:14</summary>
         
 
 
@@ -877,6 +877,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TaggedEnum](/docs/TaggedEnum)
+
+        
+
+
+[Aigamo.MatchGenerator](/docs/Aigamo.MatchGenerator)
 
 </details>
     
@@ -1952,6 +1957,8 @@ flowchart LR;
     Enum--> RapidEnum((RapidEnum))
 
     Enum--> TaggedEnum((TaggedEnum))
+
+    Enum--> Aigamo.MatchGenerator((Aigamo.MatchGenerator))
 
     Equals--> GeneratorEquals((GeneratorEquals))
 

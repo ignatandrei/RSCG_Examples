@@ -1606,5 +1606,11 @@
     "Category": 6,
     "dtStart": "2026-04-07T00:00:00",
     "show": true
+  } ,
+  {
+    "ID":"Aigamo.MatchGenerator",
+    "Category": 19,
+    "dtStart": "2026-04-05T00:00:00",
+    "show": true
   } 
 ]
