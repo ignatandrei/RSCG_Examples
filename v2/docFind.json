@@ -1,0 +1,1592 @@
+[
+  {
+    "title": "ThisAssembly",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/ThisAssembly/",
+    "body": "Meta-package that includes all ThisAssembly.* packages."
+  },
+  {
+    "title": "RSCG_TimeBombComment",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/RSCG_TimeBombComment/",
+    "body": "This package make a time bomb from comment."
+  },
+  {
+    "title": "System.Text.Json",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/System.Text.Json/",
+    "body": "A minimalistic and fast JSON parser/deserializer, for full .NET"
+  },
+  {
+    "title": "RSCG_Utils",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/RSCG_Utils/",
+    "body": "Additional files as strings"
+  },
+  {
+    "title": "System.Text.RegularExpressions",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/System.Text.RegularExpressions/",
+    "body": "Provides the System.Text.RegularExpressions.Regex class, an implementation of a regular expression engine.\r\n\r\nCommonly Used Types:\r\nSystem.Text.RegularExpressions.Regex\r\nSystem.Text.RegularExpressions.RegexOptions\r\nSystem.Text.RegularExpressions.Match\r\nSystem.Text.RegularExpressions.Group\r\nSystem.Text.RegularExpressions.Capture\r\nSystem.Text.RegularExpressions.MatchEvaluator"
+  },
+  {
+    "title": "SkinnyControllersCommon",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/SkinnyControllersCommon/",
+    "body": "** C# 9.0 ONLY **"
+  },
+  {
+    "title": "Microsoft.Extensions.Logging",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Microsoft.Extensions.Logging/",
+    "body": "Logging infrastructure."
+  },
+  {
+    "title": "RSCG_Static",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/RSCG_Static/",
+    "body": "This package make you an interface and  record from static properties / methods"
+  },
+  {
+    "title": "CommunityToolkit.Mvvm",
+    "category": "MVVM",
+    "href": "/RSCG_Examples/v2/docs/CommunityToolkit.Mvvm/",
+    "body": "This package includes a .NET Standard MVVM library with helpers such as:\r\n      - ObservableObject: a base class for objects implementing the INotifyPropertyChanged interface.\r\n      - ObservableRecipient: a base class for observable objects with support for the IMessenger service.\r\n      - ObservableValidator: a base class for objects implementing the INotifyDataErrorInfo interface.\r\n      - RelayCommand: a simple delegate command implementing the ICommand interface.\r\n      - AsyncRelayCommand: a delegate command supporting asynchronous operations and cancellation.\r\n      - WeakReferenceMessenger: a messaging system to exchange messages through different loosely-coupled objects.\r\n      - StrongReferenceMessenger: a high-performance messaging system that trades weak references for speed.\r\n      - Ioc: a helper class to configure dependency injection service containers."
+  },
+  {
+    "title": "RSCG_AMS",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/RSCG_AMS/",
+    "body": "This package lets you put record the commit , date , and more for your software ."
+  },
+  {
+    "title": "AutoDeconstruct",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/AutoDeconstruct/",
+    "body": "Generates deconstruction methods for type definitions."
+  },
+  {
+    "title": "System.Runtime.InteropServices",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/System.Runtime.InteropServices/",
+    "body": "Provides types that support COM interop and platform invoke services.\r\n\r\nCommonly Used Types:\r\nSystem.Runtime.InteropServices.GCHandle\r\nSystem.Runtime.InteropServices.GuidAttribute\r\nSystem.Runtime.InteropServices.COMException\r\nSystem.DllNotFoundException\r\nSystem.Runtime.InteropServices.DllImportAttribute"
+  },
+  {
+    "title": "QuickConstructor",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/QuickConstructor/",
+    "body": "Source generator that automatically creates a constructor from the fields and properties of a class."
+  },
+  {
+    "title": "AutoCtor",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/AutoCtor/",
+    "body": "Source Generator to automatically create a constructor with all the readonly fields set."
+  },
+  {
+    "title": "dunet",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/dunet/",
+    "body": "A simple source generator for discriminated unions in C#."
+  },
+  {
+    "title": "Vogen",
+    "category": "PrimitiveObsession",
+    "href": "/RSCG_Examples/v2/docs/Vogen/",
+    "body": "This package contains a Souce Generator which generates Value Objects that wrap simple primitives such as int, string, double etc.\r\n\r\n      A ValueObject is a strongly typed (strongly, not stringly) domain object that is immutable.\r\n\r\n      Instead of \u0060int customerId = 42;\u0060 we have \u0060var customerId = CustomerId.From(42);\u0060\r\n\r\n      To use, just create something like this:\r\n\r\n      \u0060\u0060\u0060csharp\r\n      [ValueObject(typeof(int))]\r\n      public partial struct CustomerId\r\n      {\r\n      }\r\n\r\n      var customerId = CustomerId.From(42);\r\n      \u0060\u0060\u0060\r\n\r\n      Validation is in just one place. You can\u0027t introduce bad objects into your domain, therefore you can assume that in your domain every ValueObject is valid."
+  },
+  {
+    "title": "RazorBlade",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/RazorBlade/",
+    "body": "Compile Razor templates at build-time without a dependency on ASP.NET."
+  },
+  {
+    "title": "PartiallyApplied",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/PartiallyApplied/",
+    "body": "A way to do partial function application in C#"
+  },
+  {
+    "title": "ApparatusAOT",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/ApparatusAOT/",
+    "body": "Apparatus.AOT.Reflection"
+  },
+  {
+    "title": "NetEscapades.EnumGenerators",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/NetEscapades.EnumGenerators/",
+    "body": "A source generator for creating helper extension methods on enums using a [EnumExtensions] attribute"
+  },
+  {
+    "title": "Microsoft.Interop.JavaScript.JSImportGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Microsoft.Interop.JavaScript.JSImportGenerator/",
+    "body": ""
+  },
+  {
+    "title": "RSCG_FunctionsWithDI",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/RSCG_FunctionsWithDI/",
+    "body": "Generate correct functions from  [FromServices]"
+  },
+  {
+    "title": "Microsoft.NET.Sdk.Razor.SourceGenerators",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/Microsoft.NET.Sdk.Razor.SourceGenerators/",
+    "body": ""
+  },
+  {
+    "title": "Rocks",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/Rocks/",
+    "body": "A mocking library based on the Compiler API."
+  },
+  {
+    "title": "mapperly",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/mapperly/",
+    "body": "A .NET source generator for generating object mappings.\r\n      Trimming save.\r\n      Inspired by MapStruct."
+  },
+  {
+    "title": "Podimo.ConstEmbed",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Podimo.ConstEmbed/",
+    "body": "A source generator that turns additional files into file constants in a generated namespace.\r\n            This is an alternative approach to embedding files in C# source manually,\r\n            or loading them manually as embedded resources via reflection.\r\n            With ConstEmbed, you will never have to see a runtime error because you mistyped the name,\r\n            as the constants are evaluated at compile-time."
+  },
+  {
+    "title": "EmbedResourceCSharp",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/EmbedResourceCSharp/",
+    "body": "SourceGenerator for resource file embedding with EmbedResourceCSharp."
+  },
+  {
+    "title": "Lombok.NET",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Lombok.NET/",
+    "body": "This library is to .NET what Lombok is to Java. It generates constructors and other fun stuff using Source Generators for those classes you specify special attributes for."
+  },
+  {
+    "title": "Gedaq",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/Gedaq/",
+    "body": "ORM Gedaq is roslyn generator of methods for obtaining data from databases."
+  },
+  {
+    "title": "Refit",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/Refit/",
+    "body": "The automatic type-safe REST library for Xamarin and .NET"
+  },
+  {
+    "title": "MorrisMoxy",
+    "category": "Mixin",
+    "href": "/RSCG_Examples/v2/docs/MorrisMoxy/",
+    "body": "A C# mix-in code generator"
+  },
+  {
+    "title": "Mediator",
+    "category": "Mediator",
+    "href": "/RSCG_Examples/v2/docs/Mediator/",
+    "body": "A high performance .NET Mediator pattern implemenation using source generation."
+  },
+  {
+    "title": "Matryoshki",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/Matryoshki/",
+    "body": "Metaprogramming framework based on C# source generators"
+  },
+  {
+    "title": "MemoryPack",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/MemoryPack/",
+    "body": "Package Description"
+  },
+  {
+    "title": "DeeDee",
+    "category": "Mediator",
+    "href": "/RSCG_Examples/v2/docs/DeeDee/",
+    "body": "Mediator pattern using source generation for .NET"
+  },
+  {
+    "title": "ProxyGen",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/ProxyGen/",
+    "body": ".NET proxy generator powered by Roslyn"
+  },
+  {
+    "title": "AutoRegisterInject",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/AutoRegisterInject/",
+    "body": "C# Source Generator to automatically register dependencies in Microsoft Dependency Injection Service Collection"
+  },
+  {
+    "title": "EnumClass",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/EnumClass/",
+    "body": "Inspired by kotlin\u0027s enum class, this package provides incremental generator that can create classes from enum declaration. \r\nAll you have to do is to add [EnumClass] attribute to your enum. \r\nFeatures:\r\n- Override default ToString\r\n- Add specific behaviour (methods) to each member\r\n- Polymorphic Switch implementation"
+  },
+  {
+    "title": "Breezy",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/Breezy/",
+    "body": "Breezy is a lightweight Object-Relational Mapping (ORM) library for mapping objects using Source Generator in C#.It provides seamless asynchronous operations for enhanced performance."
+  },
+  {
+    "title": "FastGenericNew",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/FastGenericNew/",
+    "body": "Configurable Source Generator of FastGenericNew\r\nMinimum required: .NET Standard 2.0 \u0026 C# 8.0\r\nThe ultimate fast alternative to Activator.CreateInstance\r\n\r\nUp to 50x faster than Activator.CreateInstance\r\nGeneric Parameters Support\r\nNon-Public Constructor Support\r\nNo Generic Constraints\r\nTryGetValue-like TryFastNew API\r\nLink Mode PublishTrimmed Support\r\nC# 8 Nullable Support\r\nC# 10 Parameterless struct constructors Support (Both invokes or not)"
+  },
+  {
+    "title": "GeneratorEquals",
+    "category": "Equals",
+    "href": "/RSCG_Examples/v2/docs/GeneratorEquals/",
+    "body": "A source code generator for automatically implementing IEquatable using only attributes."
+  },
+  {
+    "title": "Immutype",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Immutype/",
+    "body": "Immutable for .NET."
+  },
+  {
+    "title": "spreadcheetah",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/spreadcheetah/",
+    "body": "SpreadCheetah is a high-performance .NET library for generating spreadsheet (Microsoft Excel XLSX) files."
+  },
+  {
+    "title": "SyncMethodGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/SyncMethodGenerator/",
+    "body": "Sync Method Generator"
+  },
+  {
+    "title": "BenutomoAutomaticDisposeImplSourceGenerator",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/BenutomoAutomaticDisposeImplSourceGenerator/",
+    "body": "A Source Generator that automatically implements the Dispose method of IDisposable and the DisposeAsync method of IAsyncDisposable."
+  },
+  {
+    "title": "NextGenMapper",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/NextGenMapper/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Injectio",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/Injectio/",
+    "body": "Source generator that automatically registers discovered services in dependency injection"
+  },
+  {
+    "title": "PropertyChangedSourceGenerator",
+    "category": "MVVM",
+    "href": "/RSCG_Examples/v2/docs/PropertyChangedSourceGenerator/",
+    "body": "TODO"
+  },
+  {
+    "title": "Strongly",
+    "category": "PrimitiveObsession",
+    "href": "/RSCG_Examples/v2/docs/Strongly/",
+    "body": "A source generator for creating strongly-typed values by decorating with a [Strongly] attribute"
+  },
+  {
+    "title": "Ridge",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/Ridge/",
+    "body": "a html, json and xml parsing library."
+  },
+  {
+    "title": "OneOf",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/OneOf/",
+    "body": "This source generator automaticly implements OneOfBase hierarchies"
+  },
+  {
+    "title": "Gobie",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/Gobie/",
+    "body": "Package Description"
+  },
+  {
+    "title": "RSCG_WebAPIExports",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/RSCG_WebAPIExports/",
+    "body": "Add Excel export to your WebAPI"
+  },
+  {
+    "title": "AutoDTO",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/AutoDTO/",
+    "body": "Auto copy properties from bl mode to dto"
+  },
+  {
+    "title": "M31.FluentAPI",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/M31.FluentAPI/",
+    "body": "Generate fluent APIs in C#."
+  },
+  {
+    "title": "Roozie.AutoInterface",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/Roozie.AutoInterface/",
+    "body": "C# source generator to generate an interface for a class"
+  },
+  {
+    "title": "RSCG_Utils_Memo",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/RSCG_Utils_Memo/",
+    "body": "Additional files as strings"
+  },
+  {
+    "title": "ThisAssembly_Resources",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/ThisAssembly_Resources/",
+    "body": "** C# 9.0\u002B ONLY **\r\n      This package generates a static \u0060ThisAssembly.Resources\u0060 class with public\r\n      properties exposing \u0060string\u0060 and \u0060Stream\u0060 shortcuts to access embedded resources."
+  },
+  {
+    "title": "SourceGenerator.Helper.CopyCode",
+    "category": "CodeToString",
+    "href": "/RSCG_Examples/v2/docs/SourceGenerator.Helper.CopyCode/",
+    "body": "This Generator is intendede to generate text that a source generator can use to emit source to its generation. (See ReadMe)"
+  },
+  {
+    "title": "SafeRouting",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/SafeRouting/",
+    "body": "Generates strongly-typed route information for ASP.NET Core razor pages and MVC controllers."
+  },
+  {
+    "title": "ProtobufSourceGenerator",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/ProtobufSourceGenerator/",
+    "body": "A source generator that generates helper classes with properties attributes with ProtoMember attribute.\r\n\r\n"
+  },
+  {
+    "title": "RSCG_Decorator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/RSCG_Decorator/",
+    "body": "Roslyn Decorator for a class- intercept methods"
+  },
+  {
+    "title": "StringLiteral",
+    "category": "Optimizer",
+    "href": "/RSCG_Examples/v2/docs/StringLiteral/",
+    "body": "A C# Source Generator for optimizing UTF-8 binaries."
+  },
+  {
+    "title": "ResXGenerator",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/ResXGenerator/",
+    "body": "ResX Designer Source Generator."
+  },
+  {
+    "title": "Disposer",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/Disposer/",
+    "body": "A source generator for creating best-practice Disposing boilerplate using a [Disposable] attribute"
+  },
+  {
+    "title": "BuilderGenerator",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/BuilderGenerator/",
+    "body": "Generates builder classes for testing and/or seed data."
+  },
+  {
+    "title": "MapTo",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/MapTo/",
+    "body": "An object to object mapping generator using Roslyn source generator."
+  },
+  {
+    "title": "JsonPolymorphicGenerator",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/JsonPolymorphicGenerator/",
+    "body": "Source Code Generator for System.Text.Json JsonDerivedType attributes on polymorphic classes"
+  },
+  {
+    "title": "RSCG_Templating",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/RSCG_Templating/",
+    "body": "Roslyn Templating for all"
+  },
+  {
+    "title": "MagicMap",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/MagicMap/",
+    "body": "Helper utility for generating type mapper classes and more"
+  },
+  {
+    "title": "DisposableHelpers",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/DisposableHelpers/",
+    "body": "Disposable helpers for IDisposable and IAsyncDisposable."
+  },
+  {
+    "title": "Meziantou.Polyfill",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Meziantou.Polyfill/",
+    "body": "Source Generator to help multi-targeting projects."
+  },
+  {
+    "title": "IDisposableGenerator",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/IDisposableGenerator/",
+    "body": "Source Generator Generating the Dispose functions in Disposables."
+  },
+  {
+    "title": "CredFetoEnum",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/CredFetoEnum/",
+    "body": "Source code generator for Enums."
+  },
+  {
+    "title": "StaticReflection",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/StaticReflection/",
+    "body": "Use roslyn to make relection static, autogen code for type reflection"
+  },
+  {
+    "title": "UnitGenerator",
+    "category": "PrimitiveObsession",
+    "href": "/RSCG_Examples/v2/docs/UnitGenerator/",
+    "body": "C# Source Generator to create value-object, inspired by units of measure."
+  },
+  {
+    "title": "DynamicsMapper",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/DynamicsMapper/",
+    "body": "A .NET source generator for generating dynamics crm Enity mappings.\r\n      No runtime reflection."
+  },
+  {
+    "title": "MinimalApiBuilder",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/MinimalApiBuilder/",
+    "body": "Reflectionless, source-generated, thin abstraction layer over the ASP.NET Core Minimal APIs\r\n      interface"
+  },
+  {
+    "title": "DudNet",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/DudNet/",
+    "body": "Proxy-pattern source generator"
+  },
+  {
+    "title": "AutoConstructor",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/AutoConstructor/",
+    "body": "Source generator for automatic constructor generation."
+  },
+  {
+    "title": "N.SourceGenerators.UnionTypes",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/N.SourceGenerators.UnionTypes/",
+    "body": "Discriminated union type source generator"
+  },
+  {
+    "title": "jsonConverterSourceGenerator",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/jsonConverterSourceGenerator/",
+    "body": "Package Description"
+  },
+  {
+    "title": "PrimaryParameter",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/PrimaryParameter/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Biwen.AutoClassGen",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/Biwen.AutoClassGen/",
+    "body": "Biwen.AutoClassGen, CodeGEN"
+  },
+  {
+    "title": "Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Microsoft.Extensions.Options.Generators.OptionsValidatorGenerator/",
+    "body": "Microsoft.Extensions.Options"
+  },
+  {
+    "title": "Microsoft.Extensions.Configuration.Binder",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/Microsoft.Extensions.Configuration.Binder/",
+    "body": "Functionality to bind an object to data in configuration providers."
+  },
+  {
+    "title": "RDG",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/RDG/",
+    "body": "The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. The HttpClient factory provides extensibility to plug in DelegatingHandlers that address cross-cutting concerns such as service location, load balancing, and reliability. The default HttpClient factory provides built-in diagnostics and logging and manages the lifetimes of connections in a performant way.\r\n      Commonly used types:\r\n      System.Net.Http.IHttpClientFactory"
+  },
+  {
+    "title": "Com",
+    "category": "WinAPI",
+    "href": "/RSCG_Examples/v2/docs/Com/",
+    "body": "Provides types that support COM interop and platform invoke services.\r\n\r\nCommonly Used Types:\r\nSystem.Runtime.InteropServices.GCHandle\r\nSystem.Runtime.InteropServices.GuidAttribute\r\nSystem.Runtime.InteropServices.COMException\r\nSystem.DllNotFoundException\r\nSystem.Runtime.InteropServices.DllImportAttribute"
+  },
+  {
+    "title": "InterceptorTemplate",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/InterceptorTemplate/",
+    "body": "Package Description"
+  },
+  {
+    "title": "TelemetryLogging",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/TelemetryLogging/",
+    "body": "Common abstractions for high-level telemetry primitives."
+  },
+  {
+    "title": "Ling.Audit",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Ling.Audit/",
+    "body": "A source generator for audit properties."
+  },
+  {
+    "title": "RSCG_UtilityTypes",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/RSCG_UtilityTypes/",
+    "body": "Roslyn Utility Types - Pick, Omit"
+  },
+  {
+    "title": "mocklis",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/mocklis/",
+    "body": "Mocklis is a library and source code generator for .net, targeted at generating test doubles from interfaces. This package contains tools for writing tests using the generated code."
+  },
+  {
+    "title": "AspectGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/AspectGenerator/",
+    "body": "The Aspect Generator can help you easily create your own aspects."
+  },
+  {
+    "title": "CopyCat",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/CopyCat/",
+    "body": "Decorator pattert source generator with user-defined template"
+  },
+  {
+    "title": "HsuSgSync",
+    "category": "Async",
+    "href": "/RSCG_Examples/v2/docs/HsuSgSync/",
+    "body": "an async method to sync source generator."
+  },
+  {
+    "title": "DomainPrimitives",
+    "category": "PrimitiveObsession",
+    "href": "/RSCG_Examples/v2/docs/DomainPrimitives/",
+    "body": "Domain Primitives source generator for C#."
+  },
+  {
+    "title": "Funcky.DiscriminatedUnion",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/Funcky.DiscriminatedUnion/",
+    "body": "A source generator that generates \u0060Match\u0060 methods for all your discriminated unions needs. \u2728"
+  },
+  {
+    "title": "MakeInterface.Generator",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/MakeInterface.Generator/",
+    "body": "Generates interfaces for classes"
+  },
+  {
+    "title": "BuildInfo",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/BuildInfo/",
+    "body": "Exposes the following information for use directly from C# and VB:\r\n\r\n\t\t\tThe generated code contains only constants, so it can be used to construct your own assembly/file version attributes:\r\n\r\n\t\t\t[assembly: AssemblyVersion(\u00221.0.0.\u0022 \u002B ThisAssembly.BuildEnv.BuildId]\r\n\r\n\t\t\tInspired and best used with GitInfo."
+  },
+  {
+    "title": "Chorn.EmbeddedResourceAccessGenerator",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Chorn.EmbeddedResourceAccessGenerator/",
+    "body": "Generates strongly typed access methods for embedded resources."
+  },
+  {
+    "title": "Blazorators",
+    "category": "Blazor",
+    "href": "/RSCG_Examples/v2/docs/Blazorators/",
+    "body": "The source generator used to generate extension methods on the IJSInProcessRuntime type for WebAssembly JavaScript interop."
+  },
+  {
+    "title": "HangfireRecurringJob",
+    "category": "Hangfire",
+    "href": "/RSCG_Examples/v2/docs/HangfireRecurringJob/",
+    "body": "This is a package that automatically generates the hangfire recurring jobs AddOrUpdate code, using source generators."
+  },
+  {
+    "title": "NotNotAppSettings",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/NotNotAppSettings/",
+    "body": "Auto-generate strongly typed C# settings objects from your AppSettings.json."
+  },
+  {
+    "title": "Weave",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Weave/",
+    "body": "Weave is a text templating engine that is all about attention to detail.  Weave handles the tricky work of making your rendered text beautiful."
+  },
+  {
+    "title": "WhatIAmDoing",
+    "category": "AOP",
+    "href": "/RSCG_Examples/v2/docs/WhatIAmDoing/",
+    "body": "What I Am Doing - see what your software is doing. Add also RSCG_WhatIAmDoing_Common"
+  },
+  {
+    "title": "NetAutomaticInterface",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/NetAutomaticInterface/",
+    "body": "Source Generator to create an Interface from a class definition"
+  },
+  {
+    "title": "CommandLine",
+    "category": "CommandLine",
+    "href": "/RSCG_Examples/v2/docs/CommandLine/",
+    "body": "Declarative syntax for System.CommandLine via attributes for easy, fast, strongly-typed (no reflection) usage. Includes a source generator which automagically converts your classes to CLI commands and properties to CLI options or CLI arguments."
+  },
+  {
+    "title": "FunicularSwitch",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/FunicularSwitch/",
+    "body": "Source generator package to have result types like in F# with your custom error type"
+  },
+  {
+    "title": "jab",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/jab/",
+    "body": "Package Description"
+  },
+  {
+    "title": "cachesourcegenerator",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/cachesourcegenerator/",
+    "body": "A tool to wrap a method call with caching"
+  },
+  {
+    "title": "OptionToStringGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/OptionToStringGenerator/",
+    "body": "This library contains an incremental source generator for formatting configuration objects."
+  },
+  {
+    "title": "sourcedepend",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/sourcedepend/",
+    "body": "A source generator for C# that uses Roslyn (the C# compiler) to allow you to generate your constructor for injection during compile time."
+  },
+  {
+    "title": "corecraft",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/corecraft/",
+    "body": "A core library to build cross-platform and highly customizable domain models"
+  },
+  {
+    "title": "UnionsGenerator",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/UnionsGenerator/",
+    "body": "Generate hybrid (tagged/type) union types."
+  },
+  {
+    "title": "CopyTo",
+    "category": "Clone",
+    "href": "/RSCG_Examples/v2/docs/CopyTo/",
+    "body": "Generate a \u0060CopyTo\u0060 method for copying one instances property values to another."
+  },
+  {
+    "title": "PlantUmlClassDiagramGenerator",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/PlantUmlClassDiagramGenerator/",
+    "body": "This tool is designed to generate PlantUML class diagrams from C# source code. Leveraging SourceGenerator functionality, it analyzes the source code and produces PlantUML class diagrams."
+  },
+  {
+    "title": "RSCG_Wait",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/RSCG_Wait/",
+    "body": "This package wait for a time and put all global options into a cs file"
+  },
+  {
+    "title": "AutoGen",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/AutoGen/",
+    "body": "Auto generate anything you want"
+  },
+  {
+    "title": "LingoGen",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/LingoGen/",
+    "body": "A Roslyn source generator for statically typed string localization"
+  },
+  {
+    "title": "AutoSpectre",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/AutoSpectre/",
+    "body": "A quick and dirty tool to generate a form through with a source generator that can collect data"
+  },
+  {
+    "title": "RSCG_JSON2Class",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/RSCG_JSON2Class/",
+    "body": "This package transforms any json into a class"
+  },
+  {
+    "title": "CodeAnalysis",
+    "category": "CodeToString",
+    "href": "/RSCG_Examples/v2/docs/CodeAnalysis/",
+    "body": "Auto generate extensions for Microsoft.CodeAnalysis"
+  },
+  {
+    "title": "Architect.DomainModeling",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/Architect.DomainModeling/",
+    "body": "For Domain-Driven Design (DDD), this package provides tools for implementing domain models, such as base types and source generators."
+  },
+  {
+    "title": "AutoInvoke.Generator",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/AutoInvoke.Generator/",
+    "body": "A generator that invokes a specified Metohd for ever Type in your Project that sattisfis a defined constraint"
+  },
+  {
+    "title": "LinqGen.Generator",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/LinqGen.Generator/",
+    "body": "Package Description"
+  },
+  {
+    "title": "TypeUtilities",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/TypeUtilities/",
+    "body": "A set of type utilities to transform types.\r\n\t\t\tInclude utils like:\r\n\t\t\t\t- Pick\r\n\t\t\t\t- Omit"
+  },
+  {
+    "title": "Farskeptic.AutoCompose",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/Farskeptic.AutoCompose/",
+    "body": "A .NET source generator that enables composition without having to implement pass-thru code.\r\n            No runtime reflection."
+  },
+  {
+    "title": "CommonCodeGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/CommonCodeGenerator/",
+    "body": "Common code generator."
+  },
+  {
+    "title": "MSTest",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/MSTest/",
+    "body": "Microsoft.Testing is a set of platform, framework and protocol intended to make it possible to run any test on any target or device.\r\n\r\nThis package provides the C# source generators for MSTest test framework."
+  },
+  {
+    "title": "EnumUtilities",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/EnumUtilities/",
+    "body": "Provides generic enum functions such as bitwise operations, fast HasFlag, and others."
+  },
+  {
+    "title": "UnionGen",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/UnionGen/",
+    "body": "A source generator for creating C# union types via a generic marker attribute."
+  },
+  {
+    "title": "FusionReactor",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/FusionReactor/",
+    "body": "A C# incremental source generator to create extensions for an enum type.\r\n      The extensions should be very fast and without reflections."
+  },
+  {
+    "title": "StronglyTypedUid",
+    "category": "PrimitiveObsession",
+    "href": "/RSCG_Examples/v2/docs/StronglyTypedUid/",
+    "body": "Implementation of Strongly Typed Ids."
+  },
+  {
+    "title": "BitsKit",
+    "category": "Bitwise",
+    "href": "/RSCG_Examples/v2/docs/BitsKit/",
+    "body": "BitsKit is a library for efficient bit-level reading and writing also adding bit field support."
+  },
+  {
+    "title": "MinimalApis.Discovery",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/MinimalApis.Discovery/",
+    "body": "A utility library to allow for structuring Minimal APIs and registering them via source generator."
+  },
+  {
+    "title": "Minerals.AutoInterfaces",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/Minerals.AutoInterfaces/",
+    "body": "Package for automatic interface generation using incremental generator"
+  },
+  {
+    "title": "RossLean.StringificationGenerator",
+    "category": "CodeToString",
+    "href": "/RSCG_Examples/v2/docs/RossLean.StringificationGenerator/",
+    "body": "A Roslyn source generator for object construction string generation methods"
+  },
+  {
+    "title": "ThisClass",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/ThisClass/",
+    "body": "Exposes class and type information as constants in the ThisClass class using source generators powered by Roslyn, inspired by ThisAssembly."
+  },
+  {
+    "title": "Minerals.AutoMixins",
+    "category": "Mixin",
+    "href": "/RSCG_Examples/v2/docs/Minerals.AutoMixins/",
+    "body": "Package for automatic mixin design pattern generation using incremental generator"
+  },
+  {
+    "title": "ActorSrcGen",
+    "category": "Actor",
+    "href": "/RSCG_Examples/v2/docs/ActorSrcGen/",
+    "body": "A C# Source Generator to adapt a simple class to allow it to use TPL Dataflow for robust high performance computation"
+  },
+  {
+    "title": "TableStorage",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/TableStorage/",
+    "body": "Package Description"
+  },
+  {
+    "title": "FactoryGenerator",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/FactoryGenerator/",
+    "body": "Package Description"
+  },
+  {
+    "title": "depso",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/depso/",
+    "body": "Package Description"
+  },
+  {
+    "title": "DotnetYang",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/DotnetYang/",
+    "body": "Package Description"
+  },
+  {
+    "title": "RSCG_IFormattable",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/RSCG_IFormattable/",
+    "body": "Implement IFormattable for a class"
+  },
+  {
+    "title": "JKToolKit.TemplatePropertyGenerator",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/JKToolKit.TemplatePropertyGenerator/",
+    "body": "Generates strongly typed stringformatters based on stringformats."
+  },
+  {
+    "title": "ThisAssembly.Constants",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/ThisAssembly.Constants/",
+    "body": "** C# 9.0 ONLY **\r\nThis package generates a static \u0060ThisAssembly.Constants\u0060 class with public\r\nconstants for each Constant MSBuild item in the project.\r\n\r\nFor example:\r\n\r\n  \u003CItemGroup\u003E\r\n  \u003CConstant Include=\u0022Foo.Bar\u0022 Value=\u0022Baz\u0022 /\u003E\r\n  \u003C/ItemGroup\u003E\r\n\r\nResults in a corresponding \u0060ThisAssembly.Constants.Foo.Bar\u0060 constant with the value \u0060Baz\u0060:\r\n\r\nGenerated code:\r\nC#:\r\n\r\n  partial class ThisAssembly\r\n  {\r\n      public static partial class Constants\r\n      {\r\n          public static partial class Foo\r\n          {\r\n              public const string Bar = \u0022Baz\u0022;\r\n          }\r\n      }\r\n  }\r\n\r\n    \r\n\r\n        Built from https://github.com/kzu/ThisAssembly/tree/c7bb40af9"
+  },
+  {
+    "title": "Pekspro.BuildInformationGenerator",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/Pekspro.BuildInformationGenerator/",
+    "body": "A source generator for creating build information, like build time and commit id."
+  },
+  {
+    "title": "ThisAssembly.Metadata",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/ThisAssembly.Metadata/",
+    "body": "This package generates a static \u0060ThisAssembly.Metadata\u0060 with public \r\nconstants exposing each \u0060[System.Reflection.AssemblyMetadata(..)]\u0060 defined for the project, \r\nsuch as when using .NET 5.0\u002B support for \u0060\u0060 items.\r\n\r\nSo for an attribute like:\r\n\r\n  [assembly: System.Reflection.AssemblyMetadataAttribute(\u0022Foo\u0022, \u0022Bar\u0022)]\r\n\r\nA corresponding \u0060ThisAssembly.Metadata.Foo\u0060 constant with the value \u0060Bar\u0060 is provided. \r\nThe metadata attribute can alternatively be declared using MSBuild in the project \r\n(for .NET 5.0\u002B projects):\r\n\r\n    \u003CItemGroup\u003E\r\n      \u003CAssemblyMetadata Include=\u0022Foo\u0022 Value=\u0022Bar\u0022 /\u003E\r\n    \u003C/ItemGroup\u003E\r\n\r\nGenerated code:\r\nC#:\r\n\r\n  partial class ThisAssembly\r\n  {\r\n      public static partial class Metadata\r\n      {\r\n          public const string Foo = \u0022Bar\u0022;\r\n      }\r\n  }\r\n\r\n"
+  },
+  {
+    "title": "ThisAssembly.Strings",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/ThisAssembly.Strings/",
+    "body": "This package generates a static \u0060ThisAssembly.Strings\u0060 class with public \r\nconstants exposing string resources in .resx files or methods with the right number of \r\nparameters for strings that use formatting parameters. \r\n\r\nIn addition, it groups constants and methods in nested classes according to an optional \r\nunderscore separator to organize strings. For example, *User_InvalidCredentials* can be\r\naccessed with *ThisAssembly.Strings.User.InvalidCredentials* if it contains a simple string, \r\nor as a method with the right number of parametres if its value has a format string.\r\n\r\n\r\nBuilt from https://github.com/kzu/ThisAssembly/tree/f77a712b7"
+  },
+  {
+    "title": "ServiceScan.SourceGenerator",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/ServiceScan.SourceGenerator/",
+    "body": "Package Description"
+  },
+  {
+    "title": "RSCG_ExportDiagram",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/RSCG_ExportDiagram/",
+    "body": "Roslyn Diagram generator for external dependencies"
+  },
+  {
+    "title": "Fluentify",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/Fluentify/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Coplt.Dropping",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/Coplt.Dropping/",
+    "body": "Auto gen dispose pattern"
+  },
+  {
+    "title": "RSCG_NameGenerator",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/RSCG_NameGenerator/",
+    "body": "Generates uniqe names for release"
+  },
+  {
+    "title": "Sera.Union",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/Sera.Union/",
+    "body": "Tagged union for c#"
+  },
+  {
+    "title": "Enhanced.GetTypes",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Enhanced.GetTypes/",
+    "body": "Enhanced.GetTypes is a NuGet package for simplified types retrieval in .NET Core applications. It uses a source generator for explicit types retrieval without reflection."
+  },
+  {
+    "title": "LightweightObjectMapper",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/LightweightObjectMapper/",
+    "body": "A out of the box object mapper library based on \u0060SourceGenerator\u0060. \u57FA\u4E8E \u0060SourceGenerator\u0060 \u7684\u5F00\u7BB1\u5373\u7528\u5BF9\u8C61\u6620\u5C04\u5E93\u3002"
+  },
+  {
+    "title": "Dusharp",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/Dusharp/",
+    "body": "Dusharp is a C# source generator for creating discriminated unions."
+  },
+  {
+    "title": "Immediate.Handlers",
+    "category": "Mediator",
+    "href": "/RSCG_Examples/v2/docs/Immediate.Handlers/",
+    "body": "TBD"
+  },
+  {
+    "title": "MinimalHelpers.Routing.Analyzers",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/MinimalHelpers.Routing.Analyzers/",
+    "body": "A library that provides a Source Generator for automatic endpoints registration in Minimal API projects"
+  },
+  {
+    "title": "TypedSignalR.Client",
+    "category": "SignalR",
+    "href": "/RSCG_Examples/v2/docs/TypedSignalR.Client/",
+    "body": "C# Source Generator to create strongly typed SignalR Client."
+  },
+  {
+    "title": "RazorSlices",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/RazorSlices/",
+    "body": "Package Description"
+  },
+  {
+    "title": "rscg_queryables",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/rscg_queryables/",
+    "body": "Intercept method"
+  },
+  {
+    "title": "Datacute.EmbeddedResourcePropertyGenerator",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Datacute.EmbeddedResourcePropertyGenerator/",
+    "body": "This project generates properties for embedded resources in a project."
+  },
+  {
+    "title": "polytype",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/polytype/",
+    "body": "Practical Generic Programming for C#"
+  },
+  {
+    "title": "Credfeto.Version.Information.Generator",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/Credfeto.Version.Information.Generator/",
+    "body": "Source code generator for versioning."
+  },
+  {
+    "title": "GenPack",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/GenPack/",
+    "body": "Packet generation and serialization/deserialization library using the .NET Source Generator"
+  },
+  {
+    "title": "QueryStringGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/QueryStringGenerator/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Hsu.Sg.FluentMember",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/Hsu.Sg.FluentMember/",
+    "body": "a fluent member source generator."
+  },
+  {
+    "title": "GoLive.Generator.BlazorInterop",
+    "category": "Blazor",
+    "href": "/RSCG_Examples/v2/docs/GoLive.Generator.BlazorInterop/",
+    "body": "Generates strongly typed methods that interop into Javascript."
+  },
+  {
+    "title": "Microsoft.Windows.CsWin32",
+    "category": "WinAPI",
+    "href": "/RSCG_Examples/v2/docs/Microsoft.Windows.CsWin32/",
+    "body": "Microsoft Windows SDK Win32 API Source Generator"
+  },
+  {
+    "title": "Dapper.AOT",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/Dapper.AOT/",
+    "body": "Build time (AOT) tools for Dapper"
+  },
+  {
+    "title": "Dolly",
+    "category": "Clone",
+    "href": "/RSCG_Examples/v2/docs/Dolly/",
+    "body": "Clone .net objects using source generation"
+  },
+  {
+    "title": "Darp.BinaryObjects",
+    "category": "Bitwise",
+    "href": "/RSCG_Examples/v2/docs/Darp.BinaryObjects/",
+    "body": "A source generator to generate TryRead/Write Little/BigEndian methods for struct/class definitions for binary serialization."
+  },
+  {
+    "title": "Equatable.Generator",
+    "category": "Equals",
+    "href": "/RSCG_Examples/v2/docs/Equatable.Generator/",
+    "body": "Source generator for Equals and GetHashCode"
+  },
+  {
+    "title": "Valuify",
+    "category": "Equals",
+    "href": "/RSCG_Examples/v2/docs/Valuify/",
+    "body": "A .NET Roslyn source generator that enables record-like behavior for classes in projects using C# versions prior to 9.0."
+  },
+  {
+    "title": "ConstructorGenerator",
+    "category": "Constructor",
+    "href": "/RSCG_Examples/v2/docs/ConstructorGenerator/",
+    "body": "Generates constructors for you."
+  },
+  {
+    "title": "Pure.DI",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/Pure.DI/",
+    "body": ""
+  },
+  {
+    "title": "Larcanum.GitInfo",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/Larcanum.GitInfo/",
+    "body": "Package Description"
+  },
+  {
+    "title": "rscg_Interface_to_null_object",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/rscg_Interface_to_null_object/",
+    "body": "Interface to null object - common"
+  },
+  {
+    "title": "NTypewriter",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/NTypewriter/",
+    "body": "Package Description"
+  },
+  {
+    "title": "MockMe",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/MockMe/",
+    "body": "The concrete type mocking library for .NET"
+  },
+  {
+    "title": "DependencyModules.SourceGenerator",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/DependencyModules.SourceGenerator/",
+    "body": "Package Description"
+  },
+  {
+    "title": "RSCG_CompositeProvider",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/RSCG_CompositeProvider/",
+    "body": "Interface to null object - common"
+  },
+  {
+    "title": "EntityLengths.Generator",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/EntityLengths.Generator/",
+    "body": "A C# source generator that automatically generates string length constants from Entity Framework configurations and data annotations."
+  },
+  {
+    "title": "StepwiseBuilderGenerator",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/StepwiseBuilderGenerator/",
+    "body": "This package provides a Source Generator that creates strongly-typed, stepwise \u201Cfluent\u201D builders for your types. You simply annotate a class with [StepwiseBuilder] and specify the steps you need in the class\u2019s parameterless constructor. The source generator then produces a partial class containing builder interfaces and step methods."
+  },
+  {
+    "title": "MemberAccessor",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/MemberAccessor/",
+    "body": "Member accessor code generator."
+  },
+  {
+    "title": "PMart.Enumeration",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/PMart.Enumeration/",
+    "body": "Source code generator to easly create Enumeration classes."
+  },
+  {
+    "title": "rscg_demeter",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/rscg_demeter/",
+    "body": "Interface to null object - common"
+  },
+  {
+    "title": "immediate.apis",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/immediate.apis/",
+    "body": "An implementation of the mediator pattern in .NET using source-generation."
+  },
+  {
+    "title": "NativeObjects",
+    "category": "WinAPI",
+    "href": "/RSCG_Examples/v2/docs/NativeObjects/",
+    "body": "Source generator for native interop.\r\n      Generates implementation for interfaces to expose managed objects as COM-like, or call methods on COM-like native objects."
+  },
+  {
+    "title": "zlinq",
+    "category": "Linq",
+    "href": "/RSCG_Examples/v2/docs/zlinq/",
+    "body": "DropIn replacement Source Generator for ZLinq."
+  },
+  {
+    "title": "Comparison",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Comparison/",
+    "body": "A Source Generator package that generates the \u0060\u003E\u0060, \u0060\u003E=\u0060, \u0060\u003C\u0060, \u0060\u003C=\u0060 operators for a \u0060partial\u0060 type (\u0060class\u0060, \u0060struct\u0060 or \u0060record\u0060) which implements\u0060IComparable\u003CT\u003E\u0060."
+  },
+  {
+    "title": "ArgumentParsing",
+    "category": "CommandLine",
+    "href": "/RSCG_Examples/v2/docs/ArgumentParsing/",
+    "body": "Source generator based command line arguments parser"
+  },
+  {
+    "title": "BunnyTailServiceRegistration",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/BunnyTailServiceRegistration/",
+    "body": "Service registration source generator."
+  },
+  {
+    "title": "DimonSmart.BuilderGenerator",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/DimonSmart.BuilderGenerator/",
+    "body": "Generate builder classes via source generation. Simplifies object creation with Builder pattern."
+  },
+  {
+    "title": "SuperFluid",
+    "category": "StateMachine",
+    "href": "/RSCG_Examples/v2/docs/SuperFluid/",
+    "body": "An incremental source generator for fluent APIs with grammar"
+  },
+  {
+    "title": "Figgle",
+    "category": "Console",
+    "href": "/RSCG_Examples/v2/docs/Figgle/",
+    "body": "A source generator that produces ASCII banners at compile-time.\n\n      This package is a great choice if the strings you want to render\n      are static (i.e. string literals). If you want to render dynamic\n      strings, use the Figgle package directly instead. You can use both\n      at the same time."
+  },
+  {
+    "title": "Strings.ResourceGenerator",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Strings.ResourceGenerator/",
+    "body": "A Roslyn ISourceGenerator that reads string resources from various file formats and generates resource accessors"
+  },
+  {
+    "title": "jos.enumeration",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/jos.enumeration/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Tortuga.Shipwright",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/Tortuga.Shipwright/",
+    "body": "Package Description"
+  },
+  {
+    "title": "InlineComposition",
+    "category": "Templating",
+    "href": "/RSCG_Examples/v2/docs/InlineComposition/",
+    "body": "A source generator that merges the content of other classes into one class."
+  },
+  {
+    "title": "Flaggen",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/Flaggen/",
+    "body": "Package Description"
+  },
+  {
+    "title": "ShadowWriterBuilder",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/ShadowWriterBuilder/",
+    "body": "Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently."
+  },
+  {
+    "title": "AutoInterface",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/AutoInterface/",
+    "body": "AutoInterface is a source generator that generates an interface based on your class/struct. Basically, you write your class and get the corresponding interface for free."
+  },
+  {
+    "title": "AsyncIt",
+    "category": "Async",
+    "href": "/RSCG_Examples/v2/docs/AsyncIt/",
+    "body": "AsyncIt is a C# source generator (CodeAnalyzer) for automatic generation of async/sync versions of the type API."
+  },
+  {
+    "title": "ShadowWriterProjectInfo",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/ShadowWriterProjectInfo/",
+    "body": "Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently."
+  },
+  {
+    "title": "AssemblyVersionInfo",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/AssemblyVersionInfo/",
+    "body": "AssemblyVersionInfo is a very simple source generator that generates constant strings of your assembly name and version. The intended usage is for the System.CodeDom.Compiler.GeneratedCodeAttribute."
+  },
+  {
+    "title": "ShadowWriterNullobjects",
+    "category": "Interface",
+    "href": "/RSCG_Examples/v2/docs/ShadowWriterNullobjects/",
+    "body": "Leverage the capabilities of Roslyn source generators to help generate boilerplate code efficiently."
+  },
+  {
+    "title": "StackXML",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/StackXML/",
+    "body": "Stack based zero-allocation XML serializer and deserializer powered by C# 9 source generators"
+  },
+  {
+    "title": "Blazor.TSRuntime",
+    "category": "Blazor",
+    "href": "/RSCG_Examples/v2/docs/Blazor.TSRuntime/",
+    "body": "TSRuntime is an improved JSRuntime with automatic JS-module loading and caching, compile time errors instead of runtime errors and nice IntelliSense guidance."
+  },
+  {
+    "title": "Genbox.FastEnum",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/Genbox.FastEnum/",
+    "body": "Easy to use source generator for enums."
+  },
+  {
+    "title": "BadIdeas.Icons.FontAwesome",
+    "category": "Blazor",
+    "href": "/RSCG_Examples/v2/docs/BadIdeas.Icons.FontAwesome/",
+    "body": "Package Description"
+  },
+  {
+    "title": "SG4MVC",
+    "category": "MVC",
+    "href": "/RSCG_Examples/v2/docs/SG4MVC/",
+    "body": "Runtime helpers used by code generated by Sg4Mvc.Generator"
+  },
+  {
+    "title": "EnumsEnhanced",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/EnumsEnhanced/",
+    "body": "Source generator for generating common (extension) methods for enums without having the cost of the Reflection API."
+  },
+  {
+    "title": "Nino",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/Nino/",
+    "body": "High performance and low size binary serialization solution, especially for Unity."
+  },
+  {
+    "title": "SKPromptGenerator",
+    "category": "AI",
+    "href": "/RSCG_Examples/v2/docs/SKPromptGenerator/",
+    "body": "A source generator to automatically create classes from string prompts."
+  },
+  {
+    "title": "NFH.FileEmbed",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/NFH.FileEmbed/",
+    "body": "A source generator for embedding resource files directly into your assembly. Access them as a ReadOnlySpan\u003Cbyte\u003E, with no allocations or reflection needed."
+  },
+  {
+    "title": "RxSourceGenerator",
+    "category": "RX",
+    "href": "/RSCG_Examples/v2/docs/RxSourceGenerator/",
+    "body": "This package generates extension methods in the style of Reactive Extensions."
+  },
+  {
+    "title": "Finch.Generators",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/Finch.Generators/",
+    "body": "Package Description"
+  },
+  {
+    "title": "JinShil.MixinSourceGenerator",
+    "category": "Mixin",
+    "href": "/RSCG_Examples/v2/docs/JinShil.MixinSourceGenerator/",
+    "body": "A C# source generator for composing classes or structs from other classes or structs using mixins."
+  },
+  {
+    "title": "FactoryGenerator.Abstractions",
+    "category": "DependencyInjection",
+    "href": "/RSCG_Examples/v2/docs/FactoryGenerator.Abstractions/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Schema",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/Schema/",
+    "body": "Library for converting classes to and from binary. Provides a C# Roslyn generator that automatically implements conversion logic for simple classes."
+  },
+  {
+    "title": "requiredenum",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/requiredenum/",
+    "body": "RequiredEnum is an open-source analyzer that helps handle all enum values for switch."
+  },
+  {
+    "title": "UtilityVerse.Copy",
+    "category": "Clone",
+    "href": "/RSCG_Examples/v2/docs/UtilityVerse.Copy/",
+    "body": "A Roslyn source generator for generating shallow copy and deep copy for class,\n            records and structs"
+  },
+  {
+    "title": "mvvmgen",
+    "category": "MVVM",
+    "href": "/RSCG_Examples/v2/docs/mvvmgen/",
+    "body": "MvvmGen is a next generation MVVM library for XAML applications built with C# source generators. MvvmGen helps you to efficently build your WPF, WinUI, and MAUI apps with the Model-View-ViewModel pattern, as it generates all the boilerplate for you."
+  },
+  {
+    "title": "Facet",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/Facet/",
+    "body": "Generate lean DTOs, slim views, or faceted projections of your models with a single attribute."
+  },
+  {
+    "title": "Unflat",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/Unflat/",
+    "body": "AOT ORM \u0421ode generator for fast parsing DataReader into complex classes/structs with zero allocations"
+  },
+  {
+    "title": "kli.Localize",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/kli.Localize/",
+    "body": "Generates statically accessible code for .json files that serve as a source for localization (C# Source Generators)"
+  },
+  {
+    "title": "ConsoleAppFramework",
+    "category": "CommandLine",
+    "href": "/RSCG_Examples/v2/docs/ConsoleAppFramework/",
+    "body": "Micro-framework for console applications."
+  },
+  {
+    "title": "VYaml",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/VYaml/",
+    "body": "The extra fast YAML library for C#"
+  },
+  {
+    "title": "RapidEnum",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/RapidEnum/",
+    "body": "Enum utility with SourceGenerator for C#/.NET"
+  },
+  {
+    "title": "Csvcsharp",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/Csvcsharp/",
+    "body": "Fast CSV Serializer for .NET and Unity."
+  },
+  {
+    "title": "validly",
+    "category": "Validator",
+    "href": "/RSCG_Examples/v2/docs/validly/",
+    "body": "Powerful, efficient, and highly customizable validation library for .NET, leveraging the capabilities of C# Source Generators to provide compile-time validation logic generation."
+  },
+  {
+    "title": "Program",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Program/",
+    "body": "Provides APIs for annotating route handler endpoints in ASP.NET Core with OpenAPI annotations.\r\n\r\nThis package was built from the source code at https://github.com/dotnet/aspnetcore/tree/e77cb01b5529c137130757859f09f892dbdd2436"
+  },
+  {
+    "title": "TeCLI",
+    "category": "CommandLine",
+    "href": "/RSCG_Examples/v2/docs/TeCLI/",
+    "body": "C# CLI source generator tool"
+  },
+  {
+    "title": "TUnit",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/TUnit/",
+    "body": ""
+  },
+  {
+    "title": "XmlCommentGenerator",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/XmlCommentGenerator/",
+    "body": "Provides APIs for annotating route handler endpoints in ASP.NET Core with OpenAPI annotations.\r\n\r\nThis package was built from the source code at https://github.com/dotnet/aspnetcore/tree/e77cb01b5529c137130757859f09f892dbdd2436"
+  },
+  {
+    "title": "RSCG_MCP2OpenAPI",
+    "category": "MCP",
+    "href": "/RSCG_Examples/v2/docs/RSCG_MCP2OpenAPI/",
+    "body": "Generating Swagger/OpenAPI function from MCP tool."
+  },
+  {
+    "title": "DecoratorGenerator",
+    "category": "Decorator",
+    "href": "/RSCG_Examples/v2/docs/DecoratorGenerator/",
+    "body": "Source generator for decorator pattern boilerplate code in C#.\r\n\r\nWhen implementing the decorator pattern in C#, it requires adding boilerplate code for every interface that needs to support decorators, namely the abstract class. Boilerplate is tedious to write and error-prone. This source generator solves this problem by automatically generating the abstract class. It only needs to be told which interfaces it should generate the abstract class for."
+  },
+  {
+    "title": "RSCG_MCP2File",
+    "category": "MCP",
+    "href": "/RSCG_Examples/v2/docs/RSCG_MCP2File/",
+    "body": "Generating MCP tool function that exports to file the result of another MCP tool."
+  },
+  {
+    "title": "BoolParameterGenerator",
+    "category": "Bool",
+    "href": "/RSCG_Examples/v2/docs/BoolParameterGenerator/",
+    "body": "BoolParameterGenerator is a Roslyn analyzer and source generator that automatically creates replacement types for boolean parameters in C# code.\r\n      This improves code readability and maintainability by replacing ambiguous bools with descriptive types.\r\n      See the README for usage and examples."
+  },
+  {
+    "title": "Monify",
+    "category": "PrimitiveObsession",
+    "href": "/RSCG_Examples/v2/docs/Monify/",
+    "body": "Monify, a .NET Roslyn source generator, automates the creation of strongly-typed wrappers around single values, improving semantic clarity, type safety, and maintainability."
+  },
+  {
+    "title": "Imposter",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/Imposter/",
+    "body": "Imposter \u2014 Source-generated test doubles, zero runtime overhead. A high-performance Roslyn incremental source generator that produces imposters (mocks/stubs) for interfaces and overridable class members via GenerateImposterAttribute. Ships analyzer \u002B runtime in a single package."
+  },
+  {
+    "title": "BlazorOcticons",
+    "category": "Blazor",
+    "href": "/RSCG_Examples/v2/docs/BlazorOcticons/",
+    "body": "Package Description"
+  },
+  {
+    "title": "docopt.net",
+    "category": "CommandLine",
+    "href": "/RSCG_Examples/v2/docs/docopt.net/",
+    "body": "docopt.net is the .net version of the docopt python beautiful command line parser.  docopt.net helps you define an interface for your command-line app, and automatically generate a parser for it. docopt.net is based on conventions that have been used for decades in help messages and man pages for program interface description.  Interface description in docopt.net is such a help message, but formalized. Check out http://docopt.org for a more detailed explanation.\r\n         Quick example:  var arguments = new DocOpt().Apply(\u0022Usage: prog [-a] [-b] FILE\u0022, args); if (arguments[\u0022-a\u0022].IsTrue) { ... }\r\n          }"
+  },
+  {
+    "title": "Silhouette",
+    "category": "Profiler",
+    "href": "/RSCG_Examples/v2/docs/Silhouette/",
+    "body": "A library to build .NET profilers in .NET. No need for C\u002B\u002B anymore, just C#."
+  },
+  {
+    "title": "Facet.Search",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/Facet.Search/",
+    "body": "Compile-time faceted search generation - attributes and source generators"
+  },
+  {
+    "title": "OrderedBuildersGenerator",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/OrderedBuildersGenerator/",
+    "body": "Fluent, compile-safe step builders from simple annotated classes \u2014 powered by a Roslyn incremental source generator."
+  },
+  {
+    "title": "RSCG_idempotency",
+    "category": "Idempotency",
+    "href": "/RSCG_Examples/v2/docs/RSCG_idempotency/",
+    "body": "Automatic generating Idempotency for function parameters"
+  },
+  {
+    "title": "FastCloner",
+    "category": "Clone",
+    "href": "/RSCG_Examples/v2/docs/FastCloner/",
+    "body": "Fast deep cloning library for .NET 8\u002B. Supports both deep and shallow cloning. Extensively tested, focused on performance and stability even on complicated object graphs."
+  },
+  {
+    "title": "ErrorOrX",
+    "category": "API",
+    "href": "/RSCG_Examples/v2/docs/ErrorOrX/",
+    "body": "A discriminated union type for .NET with source-generated ASP.NET Core Minimal API integration. Zero boilerplate, full AOT support."
+  },
+  {
+    "title": "KnockOff",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/KnockOff/",
+    "body": "A Roslyn Source Generator for creating unit test stubs. Unlike Moq\u0027s fluent runtime configuration, KnockOff uses partial classes for compile-time setup\u2014trading flexibility for readability and performance."
+  },
+  {
+    "title": "Sundew.DiscriminatedUnions",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/Sundew.DiscriminatedUnions/",
+    "body": ""
+  },
+  {
+    "title": "Pekspro.DataAnnotationValuesExtractor",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/Pekspro.DataAnnotationValuesExtractor/",
+    "body": "A source generator for creating constants from data annotations."
+  },
+  {
+    "title": "REslava.ResultFlow",
+    "category": "Documentation",
+    "href": "/RSCG_Examples/v2/docs/REslava.ResultFlow/",
+    "body": "Source generator that auto-generates Mermaid pipeline diagrams at compile time for any Result library. Add [ResultFlow] to any fluent method and get a generated const string diagram \u2014 zero runtime overhead, zero manual maintenance."
+  },
+  {
+    "title": "TypedPaths",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/TypedPaths/",
+    "body": "A Roslyn source generator that turns a folder tree into strongly typed path constants at compile time."
+  },
+  {
+    "title": "AssemblyMetadata",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/AssemblyMetadata/",
+    "body": "Assembly Metadata Information"
+  },
+  {
+    "title": "NLog.Extensions.ThisClass",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/NLog.Extensions.ThisClass/",
+    "body": "Create class loggers using source generators powered by Roslyn."
+  },
+  {
+    "title": "SvgIconGenerator",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/SvgIconGenerator/",
+    "body": "SVG icon source generator"
+  },
+  {
+    "title": "TaggedEnum",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/TaggedEnum/",
+    "body": "Enum like tagged union"
+  },
+  {
+    "title": "Najlot.Audit.SourceGenerator",
+    "category": "Audit",
+    "href": "/RSCG_Examples/v2/docs/Najlot.Audit.SourceGenerator/",
+    "body": "Source generator for Najlot.Audit that provides property audit code generation."
+  },
+  {
+    "title": "lomapper",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/lomapper/",
+    "body": "LoMapper - Lightweight Object Mapper using compile-time source generation. Zero runtime reflection."
+  }
+]

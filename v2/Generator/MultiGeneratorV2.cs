@@ -1189,4 +1189,16 @@ public class MultiGeneratorV2
             Console.WriteLine($"1.error {ex.Message} for " + (it.Generator?.Name ?? "") + "-->" + ex.StackTrace);
         }
     }
+
+    internal async Task WroteDocFind()
+    {
+        var docFind = _AllDescriptions
+         .Select(it => new DocFindObject(it)).ToArray();
+
+        await File.WriteAllTextAsync(Path.Combine(rootPath, "docFind.json"), JsonSerializer.Serialize(docFind, new JsonSerializerOptions()
+        {
+            WriteIndented = true,
+        }));
+
+    }
 }     

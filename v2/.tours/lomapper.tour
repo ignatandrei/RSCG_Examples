@@ -5,62 +5,62 @@
   "steps": 
   [
     {
-      "file": "rscg_examples/loMapper/src/mapperDemo/mapperDemo.csproj",
+      "file": "rscg_examples/lomapper/src/mapperDemo/mapperDemo.csproj",
       "description": "First, we add Nuget  [lomapper](https://www.nuget.org/packages/lomapper/) in csproj  ",
       "pattern": "lomapper"
     }
 
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/PersonDTO.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/PersonDTO.cs",
         "description": "File PersonDTO.cs  ",
         "pattern": "this is the code"
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/Person.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/Person.cs",
         "description": "File Person.cs  ",
         "pattern": "this is the code"
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/Program.cs",
-        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/loMapper/src/mapperDemo/mapperDemo.csproj ",
+        "file": "rscg_examples/lomapper/src/mapperDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/lomapper/src/mapperDemo/mapperDemo.csproj ",
         "pattern": "this is the code"
         }
     
 
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/obj/GX/LoMapper.Generator/LoMapper.Generator.LoMapperGenerator/UserMapper.g.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/obj/GX/LoMapper.Generator/LoMapper.Generator.LoMapperGenerator/UserMapper.g.cs",
         "description": "Generated File 6  from 6 : UserMapper.g.cs ",
         "line": 1
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/PredefinedSpecialTypeMapping.Generated.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/PredefinedSpecialTypeMapping.Generated.cs",
         "description": "Generated File 5  from 6 : PredefinedSpecialTypeMapping.Generated.cs ",
         "line": 1
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LOMMapExtensions_mapperDemo_Person.g.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LOMMapExtensions_mapperDemo_Person.g.cs",
         "description": "Generated File 4  from 6 : LOMMapExtensions_mapperDemo_Person.g.cs ",
         "line": 1
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LightweightObjectMapper.PreCodes.PredefinedSpecialTypeMapping.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LightweightObjectMapper.PreCodes.PredefinedSpecialTypeMapping.cs",
         "description": "Generated File 3  from 6 : LightweightObjectMapper.PreCodes.PredefinedSpecialTypeMapping.cs ",
         "line": 1
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LightweightObjectMapper.PreCodes.LightweightObjectMapperPreCodes.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/LightweightObjectMapper.PreCodes.LightweightObjectMapperPreCodes.cs",
         "description": "Generated File 2  from 6 : LightweightObjectMapper.PreCodes.LightweightObjectMapperPreCodes.cs ",
         "line": 1
         }
     
         ,{
-        "file": "rscg_examples/loMapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/Extensions.Generated.cs",
+        "file": "rscg_examples/lomapper/src/mapperDemo/obj/GX/LightweightObjectMapper/LightweightObjectMapper.LightweightObjectMapperSourceGenerator/Extensions.Generated.cs",
         "description": "Generated File 1  from 6 : Extensions.Generated.cs ",
         "line": 1
         }

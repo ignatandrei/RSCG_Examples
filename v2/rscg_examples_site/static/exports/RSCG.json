@@ -2116,7 +2116,7 @@
     },
     {
       "Name": "lomapper",
-      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/loMapper",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/lomapper",
       "NuGet": "https://www.nuget.org/packages/lomapper/",
       "Source": "https://github.com/jdtoon/lomapper",
       "Category": "Mapper",

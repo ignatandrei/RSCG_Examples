@@ -21,7 +21,7 @@
 
 {"typeStep":"text","arg": "To use it ,you will put the Nuget lomapper into the csproj "},
 
-{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\loMapper\\src\\mapperDemo\\mapperDemo.csproj"},
+{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\lomapper\\src\\mapperDemo\\mapperDemo.csproj"},
 
 {"typeStep":"text","arg": "And now I will show you an example of using lomapper"},
 

@@ -20,6 +20,10 @@ function HomepageHeader() {
             to="/docs/List-of-RSCG">
             See examples 
           </Link>
+          <div>
+            Search for a component:
+            <input type="text" placeholder="Search..." />
+          </div>
         </div>
       </div>
     </header>

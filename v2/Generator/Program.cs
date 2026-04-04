@@ -174,6 +174,7 @@ $$"""
         await m.CreateImageFiles();
         await m.CreateHTMLBook();
         await m.WrotePDFs();
+        await m.WroteDocFind();
     }
     //var m = new MultiGenerator(folder);
 
