@@ -26,7 +26,7 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 Those are the 265 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
-### 265. [lomapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/lomapper) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+### 265. [lomapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/lomapper) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
 
 Generated on : 2026-04-07 => 07 April 2026
 

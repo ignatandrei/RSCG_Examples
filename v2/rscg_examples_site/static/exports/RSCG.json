@@ -2119,7 +2119,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/loMapper",
       "NuGet": "https://www.nuget.org/packages/lomapper/",
       "Source": "https://github.com/jdtoon/lomapper",
-      "Category": "Serializer",
+      "Category": "Mapper",
       "AddedOn": "2026-04-07T00:00:00"
     }
   ]

@@ -1213,7 +1213,7 @@ import DocCardList from '@theme/DocCardList';
 ## Mapper 
 <details>
     
-  <summary>Expand Mapper =>examples:9</summary>
+  <summary>Expand Mapper =>examples:10</summary>
         
 
 
@@ -1258,6 +1258,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Facet](/docs/Facet)
+
+        
+
+
+[lomapper](/docs/lomapper)
 
 </details>
     
@@ -1433,7 +1438,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:11</summary>
+  <summary>Expand Serializer =>examples:10</summary>
         
 
 
@@ -1483,11 +1488,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Csvcsharp](/docs/Csvcsharp)
-
-        
-
-
-[lomapper](/docs/lomapper)
 
 </details>
     
@@ -2083,6 +2083,8 @@ flowchart LR;
 
     Mapper--> Facet((Facet))
 
+    Mapper--> lomapper((lomapper))
+
     MCP--> RSCG_MCP2OpenAPI((RSCG_MCP2OpenAPI))
 
     MCP--> RSCG_MCP2File((RSCG_MCP2File))
@@ -2144,8 +2146,6 @@ flowchart LR;
     Serializer--> VYaml((VYaml))
 
     Serializer--> Csvcsharp((Csvcsharp))
-
-    Serializer--> lomapper((lomapper))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 

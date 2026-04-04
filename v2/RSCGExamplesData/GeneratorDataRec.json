@@ -1603,7 +1603,7 @@
   },
   {
     "ID":"loMapper",
-    "Category": 16,
+    "Category": 6,
     "dtStart": "2026-04-07T00:00:00",
     "show": true
   } 

@@ -7,7 +7,7 @@ slug: /lomapper
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import TOCInline from '@theme/TOCInline';
-import SameCategory from '../Categories/_PrimitiveSerializer.mdx';
+import SameCategory from '../Categories/_PrimitiveMapper.mdx';
 
 # lomapper  by Junaid Desai
 
