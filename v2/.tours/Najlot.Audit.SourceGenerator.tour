@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Najlot.Audit.SourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Najlot.Audit.SourceGenerator/src/AuditDemo/AuditDemo.csproj",
+      "description": "First, we add Nuget  [Najlot.Audit.SourceGenerator](https://www.nuget.org/packages/Najlot.Audit.SourceGenerator/) in csproj  ",
+      "pattern": "Najlot.Audit.SourceGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/Najlot.Audit.SourceGenerator/src/AuditDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Najlot.Audit.SourceGenerator/src/AuditDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Najlot.Audit.SourceGenerator/src/AuditDemo/AuditDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Najlot.Audit.SourceGenerator/src/AuditDemo/obj/GX/Najlot.Audit.SourceGenerator/Najlot.Audit.SourceGenerator.AuditRegistrationGenerator/AuditRegistrationExtensions_AuditDemo.g.cs",
+        "description": "Generated File 2  from 2 : AuditRegistrationExtensions_AuditDemo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Najlot.Audit.SourceGenerator/src/AuditDemo/obj/GX/Najlot.Audit.SourceGenerator/Najlot.Audit.SourceGenerator.AuditProviderGenerator/globalAuditDemoPersonAuditProvider_AuditProvider.g.cs",
+        "description": "Generated File 1  from 2 : globalAuditDemoPersonAuditProvider_AuditProvider.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

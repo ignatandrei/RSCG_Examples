@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Najlot.Audit.SourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Najlot.Audit.SourceGenerator/"
+      ],
+      "link":"https://github.com/najlot/Audit",
+      "author":"Najlot",
+      "source":"https://github.com/najlot/Audit"
+   },
+   "data":{
+      "goodFor":["Generating audit code for classes with properties."],
+      "csprojDemo":"AuditDemo.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

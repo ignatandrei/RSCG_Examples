@@ -1,0 +1,1 @@
+Source generator for Najlot.Audit that provides property audit code generation.

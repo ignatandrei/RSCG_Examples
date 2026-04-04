@@ -49,5 +49,6 @@ public enum Category
     Profiler=44,
     Idempotency=45,
     Documentation=46, 
+    Audit = 47,
 }
 

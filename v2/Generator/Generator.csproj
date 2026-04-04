@@ -83,6 +83,7 @@
 	  <Watch Include="**\*.cshtml" />
       <Watch Include="**\*.txt" />
 	  <Watch Remove="**\*.FileListAbsolute*.txt" />
+	  <Watch Include="..\RSCGExamplesData\*.json" />
   </ItemGroup>
   <ItemGroup>
     <Watch Remove="CategoryDisplay.cshtml" />
