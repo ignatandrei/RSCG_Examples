@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Aigamo.MatchGenerator",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [Aigamo.MatchGenerator](https://www.nuget.org/packages/Aigamo.MatchGenerator/) in csproj  ",
+      "pattern": "Aigamo.MatchGenerator"
+    }
+
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/TaggedEnum/TaggedEnum.TaggedEnumSourceGenerator/TaggedEnumAttribute.g.cs",
+        "description": "Generated File 5  from 5 : TaggedEnumAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/TaggedEnum/TaggedEnum.TaggedEnumSourceGenerator/EnumDemoEnumDemo.CarTypesTaggedEnum.g.cs",
+        "description": "Generated File 4  from 5 : EnumDemoEnumDemo.CarTypesTaggedEnum.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Aigamo.MatchGenerator/Aigamo.MatchGenerator.SourceGenerator/MaritalStatusMatchExtensions.g.cs",
+        "description": "Generated File 3  from 5 : MaritalStatusMatchExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Aigamo.MatchGenerator/Aigamo.MatchGenerator.SourceGenerator/GenerateMatchAttribute.g.cs",
+        "description": "Generated File 2  from 5 : GenerateMatchAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Aigamo.MatchGenerator/Aigamo.MatchGenerator.SourceGenerator/CarTypesMatchExtensions.g.cs",
+        "description": "Generated File 1  from 5 : CarTypesMatchExtensions.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

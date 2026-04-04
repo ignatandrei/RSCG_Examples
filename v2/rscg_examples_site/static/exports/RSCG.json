@@ -2121,6 +2121,14 @@
       "Source": "https://github.com/jdtoon/lomapper",
       "Category": "Mapper",
       "AddedOn": "2026-04-07T00:00:00"
+    },
+    {
+      "Name": "Aigamo.MatchGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Aigamo.MatchGenerator",
+      "NuGet": "https://www.nuget.org/packages/Aigamo.MatchGenerator/",
+      "Source": "https://github.com/ycanardeau/MatchGenerator",
+      "Category": "Enum",
+      "AddedOn": "2026-04-05T00:00:00"
     }
   ]
 }
