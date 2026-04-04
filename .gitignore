@@ -353,3 +353,4 @@ print/log.json
 .vscode/settings.json
 v2/book/log.json
 v2/book/pandoc.exe
+/.playwright-cli

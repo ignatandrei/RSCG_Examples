@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2640
 title: 264 - Najlot.Audit.SourceGenerator
-description: Generating audit code for classes with properties.
+description: Generates audit/change-tracking code at compile time — detects which properties changed between two snapshots of an object.
 slug: /Najlot.Audit.SourceGenerator
 ---
 import Tabs from '@theme/Tabs';
@@ -378,7 +378,100 @@ dotnet test Najlot.Audit.slnx
 ### About
 :::note
 
-Generating audit code for classes with properties.
+Generates audit/change-tracking code at compile time — detects which properties changed between two snapshots of an object.
+
+
+ How to use
+
+
+   1. Mark your entity and a partial provider with [AuditProvider]:
+
+
+```charp
+
+
+   [AuditProvider]
+
+
+   public partial class Person
+
+
+   {
+
+
+       public string FirstName \{ get; set; \} = string.Empty;
+
+
+       public string LastName \{ get; set; \} = string.Empty;
+
+
+       public int Id \{ get; set; }
+
+
+   }
+
+
+   
+
+
+   [AuditProvider]
+
+
+   public partial class PersonAuditProvider
+
+
+   {
+
+
+       [AuditIgnore(nameof(Person.Id))]       
+
+
+       public static partial IEnumerable<PropertyValue> GetPropertyValues(Person entity);
+
+
+   }
+
+
+```
+
+
+   2. Take a snapshot, mutate, then get changes:
+
+
+```charp
+
+
+   var audit = new Audit();
+
+
+   audit.RegisterProvider<PersonAuditProvider>();
+
+
+   var snapshot = audit.CreateSnapshot(p);
+
+
+   
+
+
+   p.LastName = "Ignat";
+
+
+   
+
+
+   foreach (var change in snapshot.GetChanges())
+
+
+       Console.WriteLine($"{change.Path}: {change.OldValue} → {change.NewValue}");
+
+
+```
+
+
+  You can use for  Property-level change tracking / audit logs at compile time. 
+
+
+  Supports [AuditIgnore] to exclude properties.
 
 
 :::

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2650
 title: 265 - lomapper
-description: Generate mapping code at compile time using source generators.
+description:  Generates object mapping code at compile time using source generators .
 slug: /lomapper
 ---
 import Tabs from '@theme/Tabs';
@@ -364,7 +364,64 @@ MIT License - see [LICENSE](https://github.com/jdtoon/lomapper/LICENSE) for deta
 ### About
 :::note
 
-Generate mapping code at compile time using source generators.
+ Generates object mapping code at compile time using source generators .
+
+
+ How to use
+
+
+
+
+
+ 1. Decorate a partial mapper class with [Mapper] and declare partial mapping methods:
+
+
+```charp
+
+
+ [Mapper]
+
+
+  public parial class UserMapper
+
+
+  {
+
+
+     [MapIgnore(nameof(Person.ID))]
+
+
+      public partial PersonDTO Map(Peron entity);
+
+
+  }
+
+
+```
+
+
+ 2. Call it — all mapping code generated at compile time:
+
+
+```charp
+
+
+ var p = new Person \{ FirstName = "Andrei", LastName = "Ignat" };
+
+
+  PersonDTO dto = new UserMapper().Map(p);
+
+
+  Console.WriteLine(dto.FullName); // "Andri Ignat"
+
+
+```
+
+
+ You can use for  Mapping between objects at compile time with no runtime overhead. Supports [MapIgnore] to skip specific properties.
+
+
+ 
 
 
 :::

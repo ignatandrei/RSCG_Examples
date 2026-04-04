@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present TypedPaths.Generator . Generating strongly-typed paths for file system operations in C# projects. ."},
+{"typeStep":"text","arg": "Today I will present TypedPaths.Generator .  Turns a folder tree into strongly-typed path constants at compile time — access file/folder paths as typed properties instead of magic strings.How to use 1. Declare which folder to scan in .csproj:```xml &lt;ItemGroup&gt;     &lt;PackageReference Include=&quot;TypedPaths.Generator&quot; Version=&quot;1.3.0&quot; /&gt; &lt;/ItemGroup&gt; &lt;ItemGroup&gt;     &lt;TypedPathsFolder Include=&quot;a&quot; ClassName=&quot;Src&quot; /&gt; &lt;/ItemGroup&gt;``` 2. Access generated typed path constants:```charp Console.WriteLine(TypedPaths.Src.Andrei.Value); // strongly-typed path to the &quot;Andrei&quot; entry under folder &quot;a&quot; (e.g. &quot;a/Andrei&quot; or &quot;a\Andrei&quot; depending on OS)   ```You can use for  Eliminating magic path strings for file system operations — folder/file paths become compile-time constants with IntelliSense and refactoring safety. ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/TypedPaths.Generator/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedPaths"},

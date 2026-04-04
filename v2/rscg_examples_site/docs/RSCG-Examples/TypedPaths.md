@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2590
 title: 259 - TypedPaths
-description: Generating strongly-typed paths for file system operations in C# projects.
+description:  Turns a folder tree into strongly-typed path constants at compile time — access file/folder paths as typed properties instead of magic strings.
 slug: /TypedPaths
 ---
 import Tabs from '@theme/Tabs';
@@ -259,7 +259,64 @@ See the repository for [license](https://github.com/AlexChim1231/TypedPaths//LIC
 ### About
 :::note
 
-Generating strongly-typed paths for file system operations in C# projects.
+ Turns a folder tree into strongly-typed path constants at compile time — access file/folder paths as typed properties instead of magic strings.
+
+
+
+
+
+How to use
+
+
+
+
+
+ 1. Declare which folder to scan in .csproj:
+
+
+```xml
+
+
+ <ItemGroup>
+
+
+     <PackageReference Include="TypedPaths.Generator" Version="1.3.0" />
+
+
+ </ItemGroup>
+
+
+ <ItemGroup>
+
+
+     <TypedPathsFolder Include="a" ClassName="Src" />
+
+
+ </ItemGroup>
+
+
+```
+
+
+ 2. Access generated typed path constants:
+
+
+```charp
+
+
+ Console.WriteLine(TypedPaths.Src.Andrei.Value);
+
+
+ // strongly-typed path to the "Andrei" entry under folder "a" (e.g. "a/Andrei" or "a\Andrei" depending on OS)   
+
+
+```
+
+
+You can use for  Eliminating magic path strings for file system operations — folder/file paths become compile-time constants with IntelliSense and refactoring safety.
+
+
+
 
 
 :::

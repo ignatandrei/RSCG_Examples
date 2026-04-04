@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present SvgIconGenerator . Generating classes from SVG icons to be used in C# projects. ."},
+{"typeStep":"text","arg": "Today I will present SvgIconGenerator .  Generates strongly-typed C# classes from SVG icon files at compile time — access SVG icons as typed properties with no runtime file I/O.How to use1. Add SVG files as AdditionalFiles in .csproj:```xml  &lt;ItemGroup&gt;      &lt;AdditionalFiles Include=&quot;Icons/*.svg&quot; /&gt;  &lt;/ItemGroup&gt;```  3. Declare a partial static class with [GenerateIcons]:```charp  [GenerateIcons()]  internal static partial class MyIcons;```  3. Access icons as typed members (one per SVG file):```charp  Console.WriteLine(MyIcons.Circle.Name);        // &quot;Circle&quot;  Console.WriteLine(MyIcons.Rect.InnerContent);  // SVG inner XML``` You can use for  Embedding SVG icons as compile-time constants with typed access — no file paths, no reflection, no runtime loading. ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/SvgIconGenerator/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/SvgIconGenerator"},

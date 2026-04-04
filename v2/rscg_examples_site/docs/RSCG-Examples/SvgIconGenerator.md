@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2620
 title: 262 - SvgIconGenerator
-description: Generating classes from SVG icons to be used in C# projects.
+description:  Generates strongly-typed C# classes from SVG icon files at compile time — access SVG icons as typed properties with no runtime file I/O.
 slug: /SvgIconGenerator
 ---
 import Tabs from '@theme/Tabs';
@@ -318,7 +318,67 @@ See the repository for license information.
 ### About
 :::note
 
-Generating classes from SVG icons to be used in C# projects.
+ Generates strongly-typed C# classes from SVG icon files at compile time — access SVG icons as typed properties with no runtime file I/O.
+
+
+
+
+
+How to use
+
+
+
+
+
+1. Add SVG files as AdditionalFiles in .csproj:
+
+
+```xml
+
+
+  <ItemGroup>
+
+
+      <AdditionalFiles Include="Icons/*.svg" />
+
+
+  </ItemGroup>
+
+
+```
+
+
+  3. Declare a partial static class with [GenerateIcons]:
+
+
+```charp
+
+
+  [GenerateIcons()]
+
+
+  internal static partial class MyIcons;
+
+
+```
+
+
+  3. Access icons as typed members (one per SVG file):
+
+
+```charp
+
+
+  Console.WriteLine(MyIcons.Circle.Name);        // "Circle"
+
+
+  Console.WriteLine(MyIcons.Rect.InnerContent);  // SVG inner XML
+
+
+```
+
+
+ You can use for  Embedding SVG icons as compile-time constants with typed access — no file paths, no reflection, no runtime loading.
 
 
 :::

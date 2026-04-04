@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2610
 title: 261 - NLog.Extensions.ThisClass
-description: Generate the NLog register for a class.
+description:  Generates a strongly-typed NLog Logger property per class at compile time — no manual LogManager.GetCurrentClassLogger() boilerplate.
 slug: /NLog.Extensions.ThisClass
 ---
 import Tabs from '@theme/Tabs';
@@ -169,7 +169,70 @@ namespace SampleApp.NLog
 ### About
 :::note
 
-Generate the NLog register for a class.
+ Generates a strongly-typed NLog Logger property per class at compile time — no manual LogManager.GetCurrentClassLogger() boilerplate.
+
+
+
+
+
+How to use
+
+
+
+
+
+ 1. Mark a partial class with [ClassLoggerLazy]:
+
+
+```charp
+
+
+ [ClassLoggerLazy]
+
+
+ partial class Person
+
+
+ {
+
+
+     public string Name()
+
+
+     {
+
+
+         Logger.Error("This is an error message from the Name method.");
+
+
+         return $"{FirstName} {LastName}";
+
+
+     }
+
+
+ }
+
+
+```
+
+
+ 2. The generated Logger is lazily initialized and scoped to the class — use it directly:
+
+
+```charp
+
+
+ var person = new Person \{ FirstName = "Andrei", LastName = "Ignat" };
+
+
+ Console.WriteLine(person.Name()); // logs error, returns "Andrei Ignat"
+
+
+```
+
+
+You can use for  Auto-wiring NLog class loggers at compile time with zero boilerplate.
 
 
 :::

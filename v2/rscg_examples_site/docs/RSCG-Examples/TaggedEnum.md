@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2630
 title: 263 - TaggedEnum
-description: Generate dictionary from enum
+description:  Generates dictionary-based lookup, fast string conversion, and name/value retrieval for enums with custom data tags — like tagged unions for enums.
 slug: /TaggedEnum
 ---
 import Tabs from '@theme/Tabs';
@@ -57,13 +57,67 @@ Al0rid4l's dog food.
 ### About
 :::note
 
-Generate dictionary from enum
+ Generates dictionary-based lookup, fast string conversion, and name/value retrieval for enums with custom data tags — like tagged unions for enums.
 
 
-Also retrieved enum by value or name.
+How to use
 
 
-And an extension method JSON serializer for enum.
+
+
+
+1. Decorate with Tagged and attach Data to each member:
+
+
+```csharp
+
+
+[Tagged]
+
+
+public enum CarTypes
+
+
+{
+
+
+    [Data("this is none")]    None,
+
+
+    [Data("this is dacia")]   Dacia,
+
+
+    [Data("this is bmw")]     BMW,
+
+
+    [Data("this is mercedes")]Mercedes,
+
+
+}
+
+
+```
+
+
+2 Use generated extensions:
+
+
+```charp
+
+
+CarTypes.None.ToStringFast();  // "None"
+
+
+CarTypes.None.Data;            // "this is none"
+
+
+EnumDemoCarTypesExtension.TryGetValueByName("None", out _); // true
+
+
+```
+
+
+You can use for  Fast ToString() without reflection, attaching metadata to enum values via [Data], name-based lookup, and JSON serializer extensions for enums.
 
 
 :::

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2600
 title: 260 - AssemblyMetadata
-description: Generate date time based metadata for assemblies.
+description:  Generates compile-time assembly metadata constants (build date, year, time, etc.) — access build info as typed properties without runtime reflection.
 slug: /AssemblyMetadata
 ---
 import Tabs from '@theme/Tabs';
@@ -275,7 +275,52 @@ children's hospices, etc. Thanks!
 ### About
 :::note
 
-Generate date time based metadata for assemblies.
+ Generates compile-time assembly metadata constants (build date, year, time, etc.) — access build info as typed properties without runtime reflection.
+
+
+
+
+
+How to use
+
+
+
+
+
+1. Add the package as an Analyzer (no runtime reference needed):
+
+
+```xml
+
+
+<PackageReference Include="AssemblyMetadata" Version="2.0.16" PrivateAssets="all"   
+
+
+    OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+
+
+```
+
+
+
+
+
+2. Use the generated AssemblyMetadataInfo class directly:
+
+
+```csharp
+
+
+Console.WriteLine(BenjaminAbt.AssemblyMetadata.AssemblyMetadataInfo.BuildInfo.BuildDateYear);
+
+
+```
+
+
+
+
+
+You can use for  Embedding build date/time metadata into assemblies as compile-time constants — useful for version screens, diagnostics, or 'built on' display info without runtime I/O or reflection.
 
 
 :::

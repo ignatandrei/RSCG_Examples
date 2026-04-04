@@ -425,8 +425,18 @@ public class MultiGeneratorV2
     private async Task<Description> GatherData(int nr, string generator, string rootFolder,DateTime generatedDate)
     {
         var folder = Path.Combine(rootFolder, generator);
-        var text = await File.ReadAllTextAsync(Path.Combine(folder, "description.json"));
-        var desc = JsonSerializer.Deserialize<Description>(text);
+        var descFile = Path.Combine(folder, "description.json");
+        var text = await File.ReadAllTextAsync(descFile);
+        Description? desc = null;
+        try
+        {
+            desc = JsonSerializer.Deserialize<Description>(text);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"{descFile} is not well formed for " + generator + " because " + ex.Message);
+            throw;
+        }
         ArgumentNullException.ThrowIfNull(desc);
         desc.Nr = nr;
         desc.GeneratorKey = generator;

@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present lomapper . Generate mapping code at compile time using source generators. ."},
+{"typeStep":"text","arg": "Today I will present lomapper .  Generates object mapping code at compile time using source generators . How to use 1. Decorate a partial mapper class with [Mapper] and declare partial mapping methods:```charp [Mapper]  public parial class UserMapper  {     [MapIgnore(nameof(Person.ID))]      public partial PersonDTO Map(Peron entity);  }``` 2. Call it — all mapping code generated at compile time:```charp var p = new Person { FirstName = &quot;Andrei&quot;, LastName = &quot;Ignat&quot; };  PersonDTO dto = new UserMapper().Map(p);  Console.WriteLine(dto.FullName); // &quot;Andri Ignat&quot;``` You can use for  Mapping between objects at compile time with no runtime overhead. Supports [MapIgnore] to skip specific properties.  ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/lomapper/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/lomapper"},

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2570
 title: 257 - Pekspro.DataAnnotationValuesExtractor
-description: Generating code to extract values from data annotations in C#.
+description:  Generates typed constants from DataAnnotations attributes ([Range], [StringLength], [Required], [Display]) 
 slug: /Pekspro.DataAnnotationValuesExtractor
 ---
 import Tabs from '@theme/Tabs';
@@ -400,7 +400,103 @@ for details.
 ### About
 :::note
 
-Generating code to extract values from data annotations in C#.
+ Generates typed constants from DataAnnotations attributes ([Range], [StringLength], [Required], [Display]) 
+
+
+
+
+
+at compile time — no reflection needed to read annotation values.
+
+
+
+
+
+How to use
+
+
+
+
+
+ 1. Decorate your model with standard DataAnnotations:
+
+
+```charp
+
+
+ partial class Person
+
+
+ {
+
+
+     [Display(Name = "First name")]
+
+
+     [StringLength(100, MinimumLength = 3)]
+
+
+     public string? FirstName \{ get; set; }
+
+
+ 
+
+
+     [Range(18, 200)]
+
+
+     public int Age \{ get; set; }
+
+
+ }
+
+
+```
+
+
+ 2. Declare a partial extractor class targeting the model:
+
+
+```charp
+
+
+ [DataAnnotationValuesOptions(StringLength = true, Range = true, Required = true, Display = true)]
+
+
+ [DataAnnotationValuesToGenerate(typeof(Person))]
+
+
+ partial class Values \{ }
+
+
+```
+
+
+ 3. Access generated constants:
+
+
+```charp
+
+
+ Console.WriteLine(Person.Annotations.Age.Minimum);             // 18
+
+
+ Console.WriteLine(Person.Annotations.FirstName.MinimumLength); // 3
+
+
+ Console.WriteLine(Person.Annotations.FirstName.MaximumLength); // 100
+
+
+```
+
+
+You can use for  Reusing DataAnnotation constraint values (min/max lengths, ranges) in UI or validation logic
+
+
+without duplicating magic numbers or using reflection.
+
+
+
 
 
 :::

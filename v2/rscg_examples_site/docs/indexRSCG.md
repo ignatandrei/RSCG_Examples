@@ -20,7 +20,7 @@ This is the list of 266 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|266| [Aigamo.MatchGenerator by Aigamo ](/docs/Aigamo.MatchGenerator)|2026-04-05 => 05 April 2026 | [Enum](/docs/Categories/Enum) |
+|266| [Aigamo.MatchGenerator by Aigamo ](/docs/Aigamo.MatchGenerator)|2026-04-08 => 08 April 2026 | [Enum](/docs/Categories/Enum) |
 |265| [lomapper by Junaid Desai ](/docs/lomapper)|2026-04-07 => 07 April 2026 | [Mapper](/docs/Categories/Mapper) |
 |264| [Najlot.Audit.SourceGenerator by Najlot ](/docs/Najlot.Audit.SourceGenerator)|2026-04-06 => 06 April 2026 | [Audit](/docs/Categories/Audit) |
 |263| [TaggedEnum by Alor'idal ](/docs/TaggedEnum)|2026-04-05 => 05 April 2026 | [Enum](/docs/Categories/Enum) |

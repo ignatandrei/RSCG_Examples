@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2580
 title: 258 - REslava.ResultFlow
-description: Functional Code as Mermaid diagrams
+description:  Generates Mermaid flowchart diagrams at compile time from fluent Result pipeline methods — visualize functional code flows as diagrams 
 slug: /REslava.ResultFlow
 ---
 import Tabs from '@theme/Tabs';
@@ -3462,7 +3462,79 @@ Made with ❤️ by [Rafa Eslava](https://github.com/reslava) for developers com
 ### About
 :::note
 
-Functional Code as Mermaid diagrams
+ Generates Mermaid flowchart diagrams at compile time from fluent Result pipeline methods — visualize functional code flows as diagrams 
+
+
+runtime overhead.
+
+
+
+
+
+How to use
+
+
+
+
+
+ 1. Decorate a fluent Result method with [ResultFlow]:
+
+
+```charp
+
+
+ [REslava.ResultFlow.ResultFlow]
+
+
+ public static Result<int> GetValueFromConsole()
+
+
+ {
+
+
+     return Result<string>.Ok(value)
+
+
+         .Ensure(s => !string.IsNullOrWhiteSpace(s), new Error("Input cannot be empty"))
+
+
+         .Map(s => s.ToUpper())
+
+
+         .Tap(s => Console.WriteLine($"Processed: {s}"))
+
+
+         .Ensure(s => int.TryParse(s, out _), new Error("Input must be a valid integer"))
+
+
+         .Map(s => int.Parse(s));
+
+
+ }
+
+
+```
+
+
+ 2. Access the generated Mermaid diagram as a compile-time const string:
+
+
+```charp
+
+
+ Console.WriteLine(Generated.ResultFlow.Helpers_Flows.GetValueFromConsole);
+
+
+ // outputs a Mermaid flowchart of the pipeline
+
+
+```
+
+
+You can use for  Auto-generating up-to-date Mermaid pipeline diagrams from functional Result code at compile time — ideal for documentation, design reviews, or visualizing complex flows without manual diagram maintenance.
+
+
+
 
 
 :::

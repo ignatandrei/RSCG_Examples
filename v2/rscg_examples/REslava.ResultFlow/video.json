@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present REslava.ResultFlow . Functional Code as Mermaid diagrams ."},
+{"typeStep":"text","arg": "Today I will present REslava.ResultFlow .  Generates Mermaid flowchart diagrams at compile time from fluent Result pipeline methods — visualize functional code flows as diagrams runtime overhead.How to use 1. Decorate a fluent Result method with [ResultFlow]:```charp [REslava.ResultFlow.ResultFlow] public static Result&lt;int&gt; GetValueFromConsole() {     return Result&lt;string&gt;.Ok(value)         .Ensure(s =&gt; !string.IsNullOrWhiteSpace(s), new Error(&quot;Input cannot be empty&quot;))         .Map(s =&gt; s.ToUpper())         .Tap(s =&gt; Console.WriteLine($&quot;Processed: {s}&quot;))         .Ensure(s =&gt; int.TryParse(s, out _), new Error(&quot;Input must be a valid integer&quot;))         .Map(s =&gt; int.Parse(s)); }``` 2. Access the generated Mermaid diagram as a compile-time const string:```charp Console.WriteLine(Generated.ResultFlow.Helpers_Flows.GetValueFromConsole); // outputs a Mermaid flowchart of the pipeline```You can use for  Auto-generating up-to-date Mermaid pipeline diagrams from functional Result code at compile time — ideal for documentation, design reviews, or visualizing complex flows without manual diagram maintenance. ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/REslava.ResultFlow/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/REslava.ResultFlow"},

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2660
 title: 266 - Aigamo.MatchGenerator
-description: Transform enums into tagged unions -with error in Match !
+description: Generates exhaustive Match() extension methods for enums and abstract record hierarchies (tagged unions), ensuring compile-time safety — all cases must be handled.
 slug: /Aigamo.MatchGenerator
 ---
 import Tabs from '@theme/Tabs';
@@ -251,7 +251,82 @@ internal static class MaritalStatusMatchExtensions
 ### About
 :::note
 
-Transform enums into tagged unions -with error in Match !
+Generates exhaustive Match() extension methods for enums and abstract record hierarchies (tagged unions), ensuring compile-time safety — all cases must be handled.
+
+
+How to use
+
+
+
+
+
+ 1. Add [GenerateMatch] attribute to an enum or abstract record:
+
+
+
+
+
+ [GenerateMatch]
+
+
+ public enum CarTypes \{ None, Dacia, Tesla, BMW, Mercedes }
+
+
+
+
+
+ [GenerateMatch]
+
+
+ abstract record MaritalStatus;
+
+
+ sealed record Single : MaritalStatus;
+
+
+ sealed record Married : MaritalStatus;
+
+
+
+
+
+ 2. Use the generated .Match() method — all cases required (compile error if any missing):
+
+
+
+
+
+ var msg = car.Match(
+
+
+     onBMW: () => "this is bmw",
+
+
+     onDacia: () => "this is dacia",
+
+
+     onMercedes: () => "this is mercedes",
+
+
+     onNone: () => "this is none",
+
+
+     onTesla: () => "this is tesla"
+
+
+ );
+
+
+
+
+
+You can use for  Transforming enums/records into exhaustive pattern matching (discriminated unions style). 
+
+
+If a case is missing in Match(), it's a compile-time error
+
+
+
 
 
 :::

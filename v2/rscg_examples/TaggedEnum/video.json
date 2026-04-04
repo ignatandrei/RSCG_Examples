@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present TaggedEnum . Generate dictionary from enumAlso retrieved enum by value or name.And an extension method JSON serializer for enum. ."},
+{"typeStep":"text","arg": "Today I will present TaggedEnum .  Generates dictionary-based lookup, fast string conversion, and name/value retrieval for enums with custom data tags — like tagged unions for enums.How to use1. Decorate with Tagged and attach Data to each member:```csharp[Tagged]public enum CarTypes{    [Data(&quot;this is none&quot;)]    None,    [Data(&quot;this is dacia&quot;)]   Dacia,    [Data(&quot;this is bmw&quot;)]     BMW,    [Data(&quot;this is mercedes&quot;)]Mercedes,}```2 Use generated extensions:```charpCarTypes.None.ToStringFast();  // &quot;None&quot;CarTypes.None.Data;            // &quot;this is none&quot;EnumDemoCarTypesExtension.TryGetValueByName(&quot;None&quot;, out _); // true```You can use for  Fast ToString() without reflection, attaching metadata to enum values via [Data], name-based lookup, and JSON serializer extensions for enums. ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/TaggedEnum/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/TaggedEnum"},

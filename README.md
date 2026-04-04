@@ -4,7 +4,7 @@ The RSCG_Examples repository is a comprehensive documentation system that automa
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-04-07 => 07 April 2026
+## Latest Update : 2026-04-08 => 08 April 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -28,7 +28,7 @@ Those are the 266 Roslyn Source Code Generators that I have tested you can see a
 ( including 16 from Microsoft )
 ### 266. [Aigamo.MatchGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Aigamo.MatchGenerator) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
-Generated on : 2026-04-05 => 05 April 2026
+Generated on : 2026-04-08 => 08 April 2026
 
 <details>
   <summary>Expand</summary>
