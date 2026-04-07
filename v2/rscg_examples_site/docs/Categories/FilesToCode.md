@@ -1,6 +1,6 @@
 <h1>FilesToCode</h1>
 
-Number RSCG: 19
+Number RSCG: 20
 
         1 [Chorn.EmbeddedResourceAccessGenerator](/docs/Chorn.EmbeddedResourceAccessGenerator) [![Nuget](https://img.shields.io/nuget/dt/Chorn.EmbeddedResourceAccessGenerator?label=Chorn.EmbeddedResourceAccessGenerator)](https://www.nuget.org/packages/Chorn.EmbeddedResourceAccessGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ChristophHornung/EmbeddedResourceGenerator?style=social) 2024-01-21
     
@@ -16,27 +16,29 @@ Number RSCG: 19
     
         7 [LingoGen](/docs/LingoGen) [![Nuget](https://img.shields.io/nuget/dt/RubenBroere.LingoGen?label=RubenBroere.LingoGen)](https://www.nuget.org/packages/RubenBroere.LingoGen/) ![GitHub Repo stars](https://img.shields.io/github/stars/RubenBroere/lingo-gen?style=social) 2024-02-23
     
-        8 [NFH.FileEmbed](/docs/NFH.FileEmbed) [![Nuget](https://img.shields.io/nuget/dt/NFH.FileEmbed?label=NFH.FileEmbed)](https://www.nuget.org/packages/NFH.FileEmbed/) ![GitHub Repo stars](https://img.shields.io/github/stars/SirCxyrtyx/FileEmbed?style=social) 2025-08-08
+        8 [Maestria.TypeProviders](/docs/Maestria.TypeProviders) [![Nuget](https://img.shields.io/nuget/dt/Maestria.TypeProviders?label=Maestria.TypeProviders)](https://www.nuget.org/packages/Maestria.TypeProviders/) ![GitHub Repo stars](https://img.shields.io/github/stars/MaestriaNet/TypeProviders?style=social) 2026-04-09
     
-        9 [NotNotAppSettings](/docs/NotNotAppSettings) [![Nuget](https://img.shields.io/nuget/dt/NotNot.AppSettings?label=NotNot.AppSettings)](https://www.nuget.org/packages/NotNot.AppSettings/) ![GitHub Repo stars](https://img.shields.io/github/stars/jasonswearingen/NotNot.AppSettings?style=social) 2024-01-26
+        9 [NFH.FileEmbed](/docs/NFH.FileEmbed) [![Nuget](https://img.shields.io/nuget/dt/NFH.FileEmbed?label=NFH.FileEmbed)](https://www.nuget.org/packages/NFH.FileEmbed/) ![GitHub Repo stars](https://img.shields.io/github/stars/SirCxyrtyx/FileEmbed?style=social) 2025-08-08
     
-        10 [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed) [![Nuget](https://img.shields.io/nuget/dt/Podimo.ConstEmbed?label=Podimo.ConstEmbed)](https://www.nuget.org/packages/Podimo.ConstEmbed/) ![GitHub Repo stars](https://img.shields.io/github/stars/podimo/Podimo.ConstEmbed?style=social) 2023-04-16
+        10 [NotNotAppSettings](/docs/NotNotAppSettings) [![Nuget](https://img.shields.io/nuget/dt/NotNot.AppSettings?label=NotNot.AppSettings)](https://www.nuget.org/packages/NotNot.AppSettings/) ![GitHub Repo stars](https://img.shields.io/github/stars/jasonswearingen/NotNot.AppSettings?style=social) 2024-01-26
     
-        11 [ResXGenerator](/docs/ResXGenerator) [![Nuget](https://img.shields.io/nuget/dt/Aigamo.ResXGenerator?label=Aigamo.ResXGenerator)](https://www.nuget.org/packages/Aigamo.ResXGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ycanardeau/ResXGenerator?style=social) 2023-10-02
+        11 [Podimo.ConstEmbed](/docs/Podimo.ConstEmbed) [![Nuget](https://img.shields.io/nuget/dt/Podimo.ConstEmbed?label=Podimo.ConstEmbed)](https://www.nuget.org/packages/Podimo.ConstEmbed/) ![GitHub Repo stars](https://img.shields.io/github/stars/podimo/Podimo.ConstEmbed?style=social) 2023-04-16
     
-        12 [RSCG_JSON2Class](/docs/RSCG_JSON2Class) [![Nuget](https://img.shields.io/nuget/dt/RSCG_JSON2Class?label=RSCG_JSON2Class)](https://www.nuget.org/packages/RSCG_JSON2Class/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_JSON2Class?style=social) 2024-02-29
+        12 [ResXGenerator](/docs/ResXGenerator) [![Nuget](https://img.shields.io/nuget/dt/Aigamo.ResXGenerator?label=Aigamo.ResXGenerator)](https://www.nuget.org/packages/Aigamo.ResXGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ycanardeau/ResXGenerator?style=social) 2023-10-02
     
-        13 [RSCG_Utils](/docs/RSCG_Utils) [![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social) 2023-04-16
+        13 [RSCG_JSON2Class](/docs/RSCG_JSON2Class) [![Nuget](https://img.shields.io/nuget/dt/RSCG_JSON2Class?label=RSCG_JSON2Class)](https://www.nuget.org/packages/RSCG_JSON2Class/) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_JSON2Class?style=social) 2024-02-29
     
-        14 [Strings.ResourceGenerator](/docs/Strings.ResourceGenerator) [![Nuget](https://img.shields.io/nuget/dt/Strings.ResourceGenerator?label=Strings.ResourceGenerator)](https://www.nuget.org/packages/Strings.ResourceGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/biggik/Strings.ResourceGenerator?style=social) 2025-07-06
+        14 [RSCG_Utils](/docs/RSCG_Utils) [![Nuget](https://img.shields.io/nuget/dt/rscgutils?label=rscgutils)](https://www.nuget.org/packages/rscgutils) ![GitHub Repo stars](https://img.shields.io/github/stars/ignatandrei/RSCG_Utils?style=social) 2023-04-16
     
-        15 [SvgIconGenerator](/docs/SvgIconGenerator) [![Nuget](https://img.shields.io/nuget/dt/SvgIconGenerator?label=SvgIconGenerator)](https://www.nuget.org/packages/SvgIconGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/helluvamatt/SvgIconGenerator?style=social) 2026-04-04
+        15 [Strings.ResourceGenerator](/docs/Strings.ResourceGenerator) [![Nuget](https://img.shields.io/nuget/dt/Strings.ResourceGenerator?label=Strings.ResourceGenerator)](https://www.nuget.org/packages/Strings.ResourceGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/biggik/Strings.ResourceGenerator?style=social) 2025-07-06
     
-        16 [ThisAssembly_Resources](/docs/ThisAssembly_Resources) [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Resources?label=ThisAssembly.Resources)](https://www.nuget.org/packages/ThisAssembly.Resources/) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social) 2023-09-16
+        16 [SvgIconGenerator](/docs/SvgIconGenerator) [![Nuget](https://img.shields.io/nuget/dt/SvgIconGenerator?label=SvgIconGenerator)](https://www.nuget.org/packages/SvgIconGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/helluvamatt/SvgIconGenerator?style=social) 2026-04-04
     
-        17 [ThisAssembly.Strings](/docs/ThisAssembly.Strings) [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Strings?label=ThisAssembly.Strings)](https://www.nuget.org/packages/ThisAssembly.Strings/) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social) 2024-07-21
+        17 [ThisAssembly_Resources](/docs/ThisAssembly_Resources) [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Resources?label=ThisAssembly.Resources)](https://www.nuget.org/packages/ThisAssembly.Resources/) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social) 2023-09-16
     
-        18 [TypedPaths](/docs/TypedPaths) [![Nuget](https://img.shields.io/nuget/dt/TypedPaths.Generator?label=TypedPaths.Generator)](https://www.nuget.org/packages/TypedPaths.Generator/) ![GitHub Repo stars](https://img.shields.io/github/stars/AlexChim1231/TypedPaths?style=social) 2026-04-01
+        18 [ThisAssembly.Strings](/docs/ThisAssembly.Strings) [![Nuget](https://img.shields.io/nuget/dt/ThisAssembly.Strings?label=ThisAssembly.Strings)](https://www.nuget.org/packages/ThisAssembly.Strings/) ![GitHub Repo stars](https://img.shields.io/github/stars/devlooped/ThisAssembly?style=social) 2024-07-21
     
-        19 [Weave](/docs/Weave) [![Nuget](https://img.shields.io/nuget/dt/Weave?label=Weave)](https://www.nuget.org/packages/Weave/) ![GitHub Repo stars](https://img.shields.io/github/stars/otac0n/Weave?style=social) 2024-01-27
+        19 [TypedPaths](/docs/TypedPaths) [![Nuget](https://img.shields.io/nuget/dt/TypedPaths.Generator?label=TypedPaths.Generator)](https://www.nuget.org/packages/TypedPaths.Generator/) ![GitHub Repo stars](https://img.shields.io/github/stars/AlexChim1231/TypedPaths?style=social) 2026-04-01
+    
+        20 [Weave](/docs/Weave) [![Nuget](https://img.shields.io/nuget/dt/Weave?label=Weave)](https://www.nuget.org/packages/Weave/) ![GitHub Repo stars](https://img.shields.io/github/stars/otac0n/Weave?style=social) 2024-01-27
         

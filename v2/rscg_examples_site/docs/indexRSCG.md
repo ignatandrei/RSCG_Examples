@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 266 RSCG with examples in descending chronological order
+## 267 RSCG with examples in descending chronological order
 
-This is the list of 266 ( 16 from Microsoft) RSCG with examples 
+This is the list of 267 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 266 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|267| [Maestria.TypeProviders by Fábio Monteiro Naspolini ](/docs/Maestria.TypeProviders)|2026-04-09 => 09 April 2026 | [FilesToCode](/docs/Categories/FilesToCode) |
 |266| [Aigamo.MatchGenerator by Aigamo ](/docs/Aigamo.MatchGenerator)|2026-04-08 => 08 April 2026 | [Enum](/docs/Categories/Enum) |
 |265| [lomapper by Junaid Desai ](/docs/lomapper)|2026-04-07 => 07 April 2026 | [Mapper](/docs/Categories/Mapper) |
 |264| [Najlot.Audit.SourceGenerator by Najlot ](/docs/Najlot.Audit.SourceGenerator)|2026-04-06 => 06 April 2026 | [Audit](/docs/Categories/Audit) |

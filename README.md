@@ -1,10 +1,10 @@
-# RSCG - 266 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 267 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 266 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 267 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-04-08 => 08 April 2026
+## Latest Update : 2026-04-09 => 09 April 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 266 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 267 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 267. [Maestria.TypeProviders](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Maestria.TypeProviders) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2026-04-09 => 09 April 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Fábio Monteiro Naspolini
+
+.NET 5 C# Source TypeProviders. 
+
+Nuget: [https://www.nuget.org/packages/Maestria.TypeProviders/](https://www.nuget.org/packages/Maestria.TypeProviders/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Maestria.TypeProviders](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Maestria.TypeProviders)
+
+Source: [https://github.com/MaestriaNet/TypeProviders](https://github.com/MaestriaNet/TypeProviders)
+
+</details>
+
 ### 266. [Aigamo.MatchGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Aigamo.MatchGenerator) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
 Generated on : 2026-04-08 => 08 April 2026

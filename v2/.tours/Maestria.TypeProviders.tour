@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Maestria.TypeProviders",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/DemoExcel.csproj",
+      "description": "First, we add Nuget  [Maestria.TypeProviders](https://www.nuget.org/packages/Maestria.TypeProviders/) in csproj  ",
+      "pattern": "Maestria.TypeProviders"
+    }
+
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/MyExcelPerson.cs",
+        "description": "File MyExcelPerson.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Maestria.TypeProviders/src/DemoExcel/DemoExcel.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/obj/GX/Maestria.TypeProviders/Maestria.TypeProviders.Excel.ExcelGenerator/ExcelProviderAttribute.g.cs",
+        "description": "Generated File 4  from 4 : ExcelProviderAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/obj/GX/Maestria.TypeProviders/Maestria.TypeProviders.Excel.ExcelGenerator/ExcelGeneratorException.g.cs",
+        "description": "Generated File 3  from 4 : ExcelGeneratorException.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/obj/GX/Maestria.TypeProviders/Maestria.TypeProviders.Excel.ExcelGenerator/ExcelExtensions.g.cs",
+        "description": "Generated File 2  from 4 : ExcelExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Maestria.TypeProviders/src/DemoExcel/obj/GX/Maestria.TypeProviders/Maestria.TypeProviders.Excel.ExcelGenerator/DemoExcel.MyExcelPerson.g.cs",
+        "description": "Generated File 1  from 4 : DemoExcel.MyExcelPerson.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

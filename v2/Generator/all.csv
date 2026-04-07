@@ -265,3 +265,4 @@ Nr,Key,Source,Category
 264,Najlot.Audit.SourceGenerator, https://github.com/najlot/Audit,Audit
 265,lomapper, https://github.com/jdtoon/lomapper,Mapper
 266,Aigamo.MatchGenerator, https://github.com/ycanardeau/MatchGenerator,Enum
+267,Maestria.TypeProviders, https://github.com/MaestriaNet/TypeProviders,FilesToCode

@@ -2129,6 +2129,14 @@
       "Source": "https://github.com/ycanardeau/MatchGenerator",
       "Category": "Enum",
       "AddedOn": "2026-04-08T00:00:00"
+    },
+    {
+      "Name": "Maestria.TypeProviders",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Maestria.TypeProviders",
+      "NuGet": "https://www.nuget.org/packages/Maestria.TypeProviders/",
+      "Source": "https://github.com/MaestriaNet/TypeProviders",
+      "Category": "FilesToCode",
+      "AddedOn": "2026-04-09T00:00:00"
     }
   ]
 }
