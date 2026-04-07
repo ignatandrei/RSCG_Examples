@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Generating strong typed code from Excel."],
       "csprojDemo":"DemoExcel.csproj",
-      "csFiles":["Program.cs"],
+      "csFiles":["Program.cs","MyExcelPerson.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },
