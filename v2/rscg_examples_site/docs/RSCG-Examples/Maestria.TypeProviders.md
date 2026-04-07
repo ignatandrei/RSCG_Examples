@@ -49,7 +49,7 @@ Fábio Monteiro Naspolini
 ## Original Readme
 :::note
 
-# Maestria.TypeProviders
+### Maestria.TypeProviders
 
 [![NuGet Version](https://img.shields.io/nuget/v/Maestria.TypeProviders)](https://www.nuget.org/packages/Maestria.TypeProviders/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Maestria.TypeProviders)](https://www.nuget.org/packages/Maestria.TypeProviders/)
@@ -66,11 +66,11 @@ If my contributions helped you, please help me buy a coffee :D
 
 ---
 
-## What is Maestria.Type.Providers?
+###### What is Maestria.Type.Providers?
 
 Source Generator pack to increase productivity and improve source code writing.
 
-## How install and configure package?
+###### How install and configure package?
 
 First, install [Maestria.Type.Providers](https://www.nuget.org/packages/Maestria.TypeProviders/) from the dotnet cli command line:
 
@@ -79,7 +79,7 @@ dotnet add package Maestria.TypeProviders
 dotnet add package ClosedXML
 ```
 
-## Providers x Dependencies
+###### Providers x Dependencies
 
 This package does not include dependencies references when installed on your project, its only generate source code files.  
 You need install thirds dependencies to compile your project according to the features used, bellow instructions of source generator providers:
@@ -87,11 +87,11 @@ You need install thirds dependencies to compile your project according to the fe
 - [ExcelProvider](#excelprovider): Generated strong data sctruct and factory class to load xls/xlsx data.
 - [OpenApiProvider](#openapiprovider): Generate HTTP client from OpenApi / Swagger specification.
 
-## ExcelProvider
+###### ExcelProvider
 
 Generate strong data struct and class factory to load excel data from xls/xlsx template.  
 
-**Attribute: [ExcelProvider](src/Excel/ExcelProviderAttribute.cs)**
+**Attribute: [ExcelProvider](https://github.com/MaestriaNet/TypeProviders/src/Excel/ExcelProviderAttribute.cs)**
 
 **Dependencies**
 - [ClosedXML](https://github.com/ClosedXML/ClosedXML): v0.105.0+
@@ -101,7 +101,7 @@ Generate strong data struct and class factory to load excel data from xls/xlsx t
 ```bash
 dotnet add package ClosedXML
 ```
-**[Source code sample](samples/ExcelSample/Program.cs#L12)**
+**[Source code sample](https://github.com/MaestriaNet/TypeProviders/samples/ExcelSample/Program.cs#L12)**
 
 **Use case sample**
 
@@ -142,7 +142,7 @@ foreach (var item in data)
 
 ----
 
-## OpenApiProvider
+###### OpenApiProvider
 
 Provider to generate source code HTTP client from OpenApi / Swagger specification.
 
@@ -153,7 +153,7 @@ It's planned used [NSwagStudio](https://github.com/RicoSuter/NSwag) engine with 
 
 ----
 
-## Troubleshooting
+###### Troubleshooting
 
 **Optional configuration in VS Code:** To view the automatically generated codes it is necessary to indicate to write it to disk with the configuration in the .`csproj` file.  
 On `CompilerGeneratedFilesOutputPath` property its configured with `/../generated/$(MSBuildProjectName)`. This folder is one level above of file project on this sample.  
@@ -190,14 +190,14 @@ On next build, if there was no change on yout source code used by generators, th
 ```
 
 ---
-## 4 devs
+###### 4 devs
 
 Restart build server to validate clean source generator build. 
 
 `dotnet build-server shutdown` 
 
 ---
-[Sample of .csproj file](samples/ExcelSample/ExcelSample.csproj#L4)
+[Sample of .csproj file](https://github.com/MaestriaNet/TypeProviders/samples/ExcelSample/ExcelSample.csproj#L4)
 
 ---
 

@@ -12,7 +12,7 @@ Nuget : <a href="https://www.nuget.org/packages/NLog.Extensions.ThisClass/" targ
 
 <h2>About</h2>
 
-Generate the NLog register for a class.
+ Generates a strongly-typed NLog Logger property per class at compile time — no manual LogManager.GetCurrentClassLogger() boilerplate.How to use 1. Mark a partial class with [ClassLoggerLazy]:```charp [ClassLoggerLazy] partial class Person {     public string Name()     {         Logger.Error(&quot;This is an error message from the Name method.&quot;);         return $&quot;{FirstName} {LastName}&quot;;     } }``` 2. The generated Logger is lazily initialized and scoped to the class — use it directly:```charp var person = new Person { FirstName = &quot;Andrei&quot;, LastName = &quot;Ignat&quot; }; Console.WriteLine(person.Name()); // logs error, returns &quot;Andrei Ignat&quot;```You can use for  Auto-wiring NLog class loggers at compile time with zero boilerplate.
 
 <h2>
     How to use
