@@ -10,7 +10,9 @@
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.105.0" />
     <PackageReference Include="Maestria.Extensions" Version="3.7.2.0" />
-    <PackageReference Include="Maestria.TypeProviders" Version="1.2.1">
+    <PackageReference Include="Maestria.TypeProviders" Version="1.3.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
   </ItemGroup>
 

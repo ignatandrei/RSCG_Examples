@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DemoExcel;
 
-[ExcelProvider(TemplatePath = @"Excel.xlsx")]
+[ExcelProvider(TemplatePath = @"MyExcel.xlsx")]
 public partial class MyExcelPerson
 {
 }
