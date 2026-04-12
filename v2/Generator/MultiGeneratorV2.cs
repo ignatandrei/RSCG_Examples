@@ -986,6 +986,8 @@ public class MultiGeneratorV2
         await File.WriteAllTextAsync(file, output);
         Process.Start("notepad.exe", file);
         //Console.WriteLine(output);
+        OpenLiveWriterPost.WritePost.GeneratePostFromHtml(it.Generator.Name ?? "", output);
+
         await Task.Delay(100);
         return true;
     }

@@ -1,9 +1,11 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
 	  <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
 	
   <PropertyGroup>
@@ -90,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GeneratorData\GeneratorData.csproj" />
+    <ProjectReference Include="..\OpenLiveWriterPost\OpenLiveWriterPost.csproj" />
   </ItemGroup>
   
   

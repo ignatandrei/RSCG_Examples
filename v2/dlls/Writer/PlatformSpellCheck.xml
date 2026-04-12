@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PlatformSpellCheck</name>
+    </assembly>
+    <members>
+        <member name="T:PlatformSpellCheck.RecommendedAction">
+            <summary>
+            Identifies the type of corrective action to be taken for a spelling error
+            </summary>
+        </member>
+        <member name="F:PlatformSpellCheck.RecommendedAction.None">
+            <summary>
+            There are no errors
+            </summary>
+        </member>
+        <member name="F:PlatformSpellCheck.RecommendedAction.GetSuggestions">
+            <summary>
+            The user should be prompted with a list of suggestions as returned by Suggestions
+            </summary>
+        </member>
+        <member name="F:PlatformSpellCheck.RecommendedAction.Replace">
+            <summary>
+            Replace the indicated erroneous text with the text provided in the suggestion. The user does not need to be prompted.
+            </summary>
+        </member>
+        <member name="F:PlatformSpellCheck.RecommendedAction.Delete">
+            <summary>
+            The user should be prompted to delete the indicated erroneous text
+            </summary>
+        </member>
+        <member name="T:PlatformSpellCheck.SpellChecker">
+            <summary>
+            The Spell Checking API permits developers to consume spell checker capability to check text, and get suggestions
+            </summary>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.#ctor">
+            <summary>
+            Creates a spell checker that supports the current UI language
+            </summary>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.#ctor(System.String)">
+            <summary>
+            Creates a spell checker that supports the specified language
+            </summary>
+            <remarks><see cref="M:PlatformSpellCheck.SpellChecker.IsLanguageSupported(System.String)"/> can be called to determine if languageTag is supported</remarks>
+            <exception cref="T:System.ArgumentException">languageTag is an empty string, or there is no spell checker available for languageTag</exception>
+            <param name="languageTag">A BCP47 language tag that identifies the language for the requested spell checker</param>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.IsPlatformSupported">
+            <summary>
+            Determines if the current operating system is supports the Windows Spell Checking API
+            </summary>
+            <returns>true if OS is supported, false otherwise</returns>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.IsLanguageSupported(System.String)">
+            <summary>
+            Determines if the specified language is supported by a registered spell checker
+            </summary>
+            <param name="languageTag">A BCP47 language tag that identifies the language for the requested spell checker</param>
+            <returns>true if supported, false otherwise</returns>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.Add(System.String)">
+            <summary>
+            Treats the provided word as though it were part of the original dictionary.
+            The word will no longer be considered misspelled, and will also be considered as a candidate for suggestions.
+            </summary>
+            <param name="word"></param>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.AutoCorrect(System.String,System.String)">
+            <summary>
+            Causes occurrences of one word to be replaced by another
+            </summary>
+            <param name="from">The incorrectly spelled word to be autocorrected</param>
+            <param name="to">The correctly spelled word that should replace from</param>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.Suggestions(System.String)">
+            <summary>
+            Retrieves spelling suggestions for the supplied text
+            </summary>
+            <param name="word">The word or phrase to get suggestions for</param>
+            <returns>The list of suggestions</returns>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.Check(System.String)">
+            <summary>
+            Checks the spelling of the supplied text and returns a collection of spelling errors
+            </summary>
+            <param name="text">The text to check</param>
+            <returns>The results of spell checking</returns>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.Ignore(System.String)">
+            <summary>
+            Ignores the provided word for the rest of this session
+            </summary>
+            <param name="word">The word to ignore</param>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.Dispose">
+            <summary>
+            Disposes resources used by SpellChecker
+            </summary>
+        </member>
+        <member name="M:PlatformSpellCheck.SpellChecker.Finalize">
+            <summary>
+            Disposes resources used by SpellChecker
+            </summary>
+        </member>
+        <member name="P:PlatformSpellCheck.SpellChecker.SupportedLanguages">
+            <summary>
+            Gets the set of BCP47 language tags supported by the spell checker
+            </summary>
+        </member>
+        <member name="P:PlatformSpellCheck.SpellChecker.LanguageTag">
+            <summary>
+            Gets the BCP47 language tag this instance of the spell checker supports
+            </summary>
+        </member>
+        <member name="T:PlatformSpellCheck.SpellingError">
+            <summary>
+            Provides information about a spelling error
+            </summary>
+        </member>
+        <member name="P:PlatformSpellCheck.SpellingError.StartIndex">
+            <summary>
+            Gets the position in the checked text where the error begins
+            </summary>
+        </member>
+        <member name="P:PlatformSpellCheck.SpellingError.Length">
+            <summary>
+            Gets the length of the erroneous text
+            </summary>
+        </member>
+        <member name="P:PlatformSpellCheck.SpellingError.RecommendedAction">
+            <summary>
+            Indicates which corrective action should be taken for the spelling error
+            </summary>
+        </member>
+        <member name="P:PlatformSpellCheck.SpellingError.RecommendedReplacement">
+            <summary>
+            Gets the text to use as replacement text when the corrective action is replace
+            </summary>
+        </member>
+        <member name="T:PlatformSpellCheck.UserDictionariesRegistrar">
+            <summary>
+            Manages the registration of user dictionaries
+            </summary>
+        </member>
+        <member name="M:PlatformSpellCheck.UserDictionariesRegistrar.#ctor">
+            <summary>
+            Maintains user dictionaries
+            </summary>
+        </member>
+        <member name="M:PlatformSpellCheck.UserDictionariesRegistrar.RegisterUserDictionary(System.String,System.String)">
+            <summary>
+            Registers a file to be used as a user dictionary for the current user, until unregistered
+            </summary>
+            <param name="dictionaryPath">The path of the dictionary file to be registered</param>
+            <param name="languageTag">The language for which this dictionary should be used. If left empty, it will be used for any language</param>
+        </member>
+        <member name="M:PlatformSpellCheck.UserDictionariesRegistrar.UnregisterUserDictionary(System.String,System.String)">
+            <summary>
+            Unregisters a previously registered user dictionary. The dictionary will no longer be used by the spell checking functionality.
+            </summary>
+            <param name="dictionaryPath">The path of the dictionary file to be unregistered</param>
+            <param name="languageTag">The language for which this dictionary was used. It must match the language passed to <see cref="M:PlatformSpellCheck.UserDictionariesRegistrar.RegisterUserDictionary(System.String,System.String)"/></param>
+        </member>
+        <member name="M:PlatformSpellCheck.UserDictionariesRegistrar.Dispose">
+            <summary>
+            Disposes resources used by UserDictionariesRegistrar
+            </summary>
+        </member>
+        <member name="M:PlatformSpellCheck.UserDictionariesRegistrar.Finalize">
+            <summary>
+            Disposes resources used by UserDictionariesRegistrar
+            </summary>
+        </member>
+    </members>
+</doc>
