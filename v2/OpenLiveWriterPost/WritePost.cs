@@ -23,7 +23,7 @@ public static class WritePost
         
         if(File.Exists(filePath1)) File.Delete(filePath1);
 
-        Console.WriteLine("Creating hardcoded blog post...");
+        Console.WriteLine($"Creating hardcoded blog post {filePath1}");
         
         OpenLiveWriterPostGenerator.SavePost(post1, filePath1);
 

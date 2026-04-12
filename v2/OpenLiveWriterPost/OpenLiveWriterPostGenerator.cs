@@ -8,10 +8,13 @@ namespace OpenLiveWriterPost;
 internal class OpenLiveWriterPostGenerator
 {
 
-
+    static object LockObject = new object();
     public static void SavePost(BlogPost post, string filePath)
     {
-        SavePostAsStructuredStorage(post, filePath);
+        lock (LockObject)
+        {
+            SavePostAsStructuredStorage(post, filePath);
+        }
     }
 
     private static void SavePostAsStructuredStorage(BlogPost post, string filePath)
