@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeneratorData", "GeneratorD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GV.Steps", "GV.Steps\GV.Steps.csproj", "{57236574-B2E4-4742-BDD3-0C72E2220676}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenLiveWriterPost", "OpenLiveWriterPost\OpenLiveWriterPost.csproj", "{DF7E2A72-9D51-4AC9-982D-5EDC36B5DA26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenLiveWriterPost", "OpenLiveWriterPost\OpenLiveWriterPost.csproj", "{DF7E2A72-9D51-4AC9-982D-5EDC36B5DA26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

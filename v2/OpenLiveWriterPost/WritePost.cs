@@ -16,10 +16,9 @@ public static class WritePost
             Contents = html,
             //Categories = [ "Programming", "C#", "Blogging" ],
         };
-        var x = ImageEmbedType.Linked;
-        if(name =="")x= ImageEmbedType.Embedded;
         // Save the post
-        var fileName1 = $"{post1.Title}.wpost";
+        var safeTitle = SanitizeFileName(post1.Title);
+        var fileName1 = $"{safeTitle}.wpost";
         var filePath1 = Path.Combine(draftsFolder1, fileName1);
         
         if(File.Exists(filePath1)) File.Delete(filePath1);
@@ -28,6 +27,16 @@ public static class WritePost
         
         OpenLiveWriterPostGenerator.SavePost(post1, filePath1);
 
+    }
+    static string SanitizeFileName(string? name)
+    {
+        var sanitizedName = (name ?? string.Empty).Trim();
+        foreach (var invalidChar in Path.GetInvalidFileNameChars())
+        {
+            sanitizedName = sanitizedName.Replace(invalidChar, '_');
+        }
+
+        return string.IsNullOrWhiteSpace(sanitizedName) ? "untitled" : sanitizedName;
     }
     static string GetOpenLiveWriterDraftsFolder()
     {
