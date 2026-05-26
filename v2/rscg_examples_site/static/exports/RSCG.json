@@ -2137,6 +2137,14 @@
       "Source": "https://github.com/MaestriaNet/TypeProviders",
       "Category": "FilesToCode",
       "AddedOn": "2026-04-09T00:00:00"
+    },
+    {
+      "Name": "GenerateDispose",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/GenerateDispose",
+      "NuGet": "https://www.nuget.org/packages/GenerateDispose/",
+      "Source": "https://github.com/ItaiTzur76/GenerateDispose",
+      "Category": "Disposer",
+      "AddedOn": "2026-05-13T00:00:00"
     }
   ]
 }

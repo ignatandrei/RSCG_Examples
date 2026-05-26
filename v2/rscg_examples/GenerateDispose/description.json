@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"GenerateDispose",
+      "nuget":[
+         "https://www.nuget.org/packages/GenerateDispose/"
+      ],
+      "link":"https://github.com/ItaiTzur76/GenerateDispose",
+      "author":"Itai Tzur",
+      "source":"https://github.com/ItaiTzur76/GenerateDispose"
+   },
+   "data":{
+      "goodFor":["Generating the Dispose method for a class that implements IDisposable."],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

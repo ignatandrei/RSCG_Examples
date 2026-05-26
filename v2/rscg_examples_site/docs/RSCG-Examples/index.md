@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 267 RSCG list by category
-description: 267 RSCG list by category
+title: 268 RSCG list by category
+description: 268 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -504,7 +504,7 @@ import DocCardList from '@theme/DocCardList';
 ## Disposer 
 <details>
     
-  <summary>Expand Disposer =>examples:5</summary>
+  <summary>Expand Disposer =>examples:6</summary>
         
 
 
@@ -529,6 +529,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Coplt.Dropping](/docs/Coplt.Dropping)
+
+        
+
+
+[GenerateDispose](/docs/GenerateDispose)
 
 </details>
     
@@ -1834,6 +1839,8 @@ flowchart LR;
     Disposer--> IDisposableGenerator((IDisposableGenerator))
 
     Disposer--> Coplt.Dropping((Coplt.Dropping))
+
+    Disposer--> GenerateDispose((GenerateDispose))
 
     Documentation--> REslava.ResultFlow((REslava.ResultFlow))
 
