@@ -1600,5 +1600,11 @@
     "category": "FilesToCode",
     "href": "/RSCG_Examples/v2/docs/Maestria.TypeProviders/",
     "body": ".NET 5 C# Source TypeProviders."
+  },
+  {
+    "title": "GenerateDispose",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/GenerateDispose/",
+    "body": "A Rosyln-powered generator for the Dispose-pattern\u0027s boilerplate code."
   }
 ]

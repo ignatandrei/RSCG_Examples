@@ -49,15 +49,15 @@ Itai Tzur
 ## Original Readme
 :::note
 
-# GenerateDispose for C#
+### GenerateDispose for C#
 ![GenerateDispose logo](https://raw.githubusercontent.com/ItaiTzur76/GenerateDispose/main/Logo.png)
-## Project Description
+###### Project Description
 **GenerateDispose** is a Rosyln-powered generator for the Dispose pattern's boilerplate code.
 
-## Motivation
+###### Motivation
 The purpose of this package is to allow C# developers to replace over 10 lines of boilerplate code with a single attribute when implementing the Dispose pattern, and also make the implemented pattern accommodate itself to future changes in the class modifiers.
 
-## Example
+###### Example
 Suppose you have a class like the following:
 ```cs
 public sealed class StreamOfConsciousness : IDisposable
@@ -135,10 +135,10 @@ And that's it. All the boilerplate code is generated and handled out of view, an
 
 If you want to see the members generated for the currently edited class – namely two `public void Dispose` methods and a `private int _isDisposed` field – you can find them (as grayed-out) in the member drop-down list of the navigation bar.
 
-## Requirements
+###### Requirements
 **SDK**: [.NET 10.0](https://dotnet.microsoft.com/download/dotnet/10.0) and up. (Use `dotnet --version`, `dotnet --info` or [any other way](https://learn.microsoft.com/en-us/dotnet/core/install/how-to-detect-installed-versions) to retrieve the .NET version you have installed.)
 
-## Install and Setup
+###### Install and Setup
 To use **GenerateDispose**, include its package in your C# project by either following the package installation command (for your tool of choice) in [the **GenerateDispose** NuGet package](https://www.NuGet.org/packages/GenerateDispose) page, or searching for (and installing) it via the _NuGet Package Manager_.
 
 It is recommended you [manage your packages centrally](https://DevBlogs.microsoft.com/dotnet/introducing-central-package-management), either manually or by following the package installation command for CPM in the NuGet package page. If you do that, you can make **GenerateDispose** available in all projects of your solution by adding the following to an `ItemGroup` element in [your Directory.Build.props file](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory) instead of in each project separately:
@@ -151,7 +151,7 @@ It is then also recommended you add the following to [your Directory.Build.props
   <Using Include="GenerateDispose.SourceGenerators" />
 </ItemGroup>
 ```
-## Acknowledgement
+###### Acknowledgement
 Special thanks go to [Yehuda Arkin Adar](https://GitHub.com/YudApps) without whose experience, professional advice and reviews this generator could not have been implemented with the quality it has today.
 
 The logo of this project was designed by the very skilled [@_duck_pie](https://www.instagram.com/_duck_pie).
