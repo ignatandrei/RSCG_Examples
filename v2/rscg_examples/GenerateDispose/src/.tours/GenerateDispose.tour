@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "GenerateDispose",
+  "steps": 
+  [
+    {
+      "file": "IDisp/IDisp.csproj",
+      "description": "First, we add Nuget  [GenerateDispose](https://www.nuget.org/packages/GenerateDispose/) in csproj  ",
+      "pattern": "GenerateDispose"
+    }
+
+        ,{
+        "file": "IDisp/ConnectionDB.cs",
+        "description": "File ConnectionDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/DALDB.cs",
+        "description": "File DALDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "IDisp/obj/GX/GenerateDispose.SourceGenerators/GenerateDispose.SourceGenerators.DisposeGenerator/Microsoft.CodeAnalysis.EmbeddedAttribute.cs",
+        "description": "Generated File 3  from 3 : Microsoft.CodeAnalysis.EmbeddedAttribute.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/GenerateDispose.SourceGenerators/GenerateDispose.SourceGenerators.DisposeGenerator/IDisposableGeneratorDemo.DALDB.g.cs",
+        "description": "Generated File 2  from 3 : IDisposableGeneratorDemo.DALDB.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/GenerateDispose.SourceGenerators/GenerateDispose.SourceGenerators.DisposeGenerator/GenerateDisposeAttribute.g.cs",
+        "description": "Generated File 1  from 3 : GenerateDisposeAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

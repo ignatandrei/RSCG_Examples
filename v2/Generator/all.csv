@@ -266,3 +266,4 @@ Nr,Key,Source,Category
 265,lomapper, https://github.com/jdtoon/lomapper,Mapper
 266,Aigamo.MatchGenerator, https://github.com/ycanardeau/MatchGenerator,Enum
 267,Maestria.TypeProviders, https://github.com/MaestriaNet/TypeProviders,FilesToCode
+268,GenerateDispose, https://github.com/ItaiTzur76/GenerateDispose,Disposer
