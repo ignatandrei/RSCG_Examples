@@ -1,0 +1,42 @@
+{
+   "generator":{
+      "name":"LinkDotNet.Enumeration",
+      "nuget":[
+         "https://www.nuget.org/packages/LinkDotNet.Enumeration/"
+      ],
+      "link":"https://github.com/linkdotnet/Enumeration",
+      "author":"Steven Giesel",
+      "source":"https://github.com/linkdotnet/Enumeration"
+   },
+   "data":{
+      "goodFor":["Good for replacing enum + switch patterns with string-based enumerations  with exhaustive pattern matching.",
+"",
+"### Purpose",
+"A source code generator that creates string-based enumerations (similar to Java enums / DDD value objects) with exhaustive pattern matching, replacing enum + switch patterns.",
+"",
+"### How to Define",
+"[Enumeration(Casing.Preserve, \"None\", \"Dacia\", \"Tesla\", \"BMW\", \"Mercedes\")]",
+"public sealed partial record CarTypes;",
+"",
+"### How to Use",
+"CarTypes.TryParse(\"BMW\", null, out var car);",
+"car.Match(onBMW: () => \"this is bmw\", onDacia: () => \"this is dacia\", ...);",
+"",
+"### Key Features",
+"- Exhaustive matching: Match() requires all values",
+"- Create / TryCreate: throws vs returns bool",
+"- IParsable: Minimal APIs & Model Binding",
+"- Implicit string conversion",
+"- CarTypes.All returns FrozenSet of CarTypes",
+"- JSON: GenerateJsonConverter = true"
+],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

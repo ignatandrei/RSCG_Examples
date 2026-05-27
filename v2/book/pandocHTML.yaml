@@ -282,6 +282,7 @@ input-files:
 - examples/Aigamo.MatchGenerator.html
 - examples/Maestria.TypeProviders.html
 - examples/GenerateDispose.html
+- examples/LinkDotNet.Enumeration.html
 
 # or you may use input-file: with a single value
 # defaults:

@@ -1606,5 +1606,11 @@
     "category": "Disposer",
     "href": "/RSCG_Examples/v2/docs/GenerateDispose/",
     "body": "A Rosyln-powered generator for the Dispose-pattern\u0027s boilerplate code."
+  },
+  {
+    "title": "LinkDotNet.Enumeration",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/LinkDotNet.Enumeration/",
+    "body": "Source code generated enumeration with completeness!"
   }
 ]
