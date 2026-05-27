@@ -246,13 +246,13 @@ car.Match(onBMW: () => "this is bmw", onDacia: () => "this is dacia", ...);
 - Create / TryCreate: throws vs returns bool
 
 
-- IParsable<T>: Minimal APIs & Model Binding
+- IParsable: Minimal APIs & Model Binding
 
 
 - Implicit string conversion
 
 
-- CarTypes.All returns FrozenSet<CarTypes>
+- CarTypes.All returns FrozenSet of CarTypes
 
 
 - JSON: GenerateJsonConverter = true

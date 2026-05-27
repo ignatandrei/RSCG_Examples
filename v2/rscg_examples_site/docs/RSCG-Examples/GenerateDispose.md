@@ -181,6 +181,9 @@ It also automatically adapts the generated pattern when the class modifiers chan
 ### How to Define
 
 
+```csharp showLineNumbers
+
+
 [GenerateDispose.SourceGenerators.GenerateDispose(nameof(Drop))]
 
 
@@ -235,6 +238,9 @@ partial class DALDB : IDisposable   // : IDisposable is optional!
 }
 
 
+```
+
+
 
 
 
@@ -265,6 +271,9 @@ partial class DALDB : IDisposable   // : IDisposable is optional!
 ### How to Use
 
 
+```csharp showLineNumbers
+
+
 using (var db = new DALDB())
 
 
@@ -278,6 +287,9 @@ using (var db = new DALDB())
 
 
 
+
+
+```
 
 
 ### Key Benefits
