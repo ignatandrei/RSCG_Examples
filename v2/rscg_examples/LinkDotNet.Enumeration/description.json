@@ -9,7 +9,7 @@
       "source":"https://github.com/linkdotnet/Enumeration"
    },
    "data":{
-      "goodFor":["## Summary: LinkDotNet.Enumeration",
+      "goodFor":["Good for replacing enum + switch patterns with string-based enumerations  with exhaustive pattern matching.",
 "",
 "### Purpose",
 "A source code generator that creates string-based enumerations (similar to Java enums / DDD value objects) with exhaustive pattern matching, replacing enum + switch patterns.",

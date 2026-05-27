@@ -9,7 +9,7 @@
       "source":"https://github.com/ItaiTzur76/GenerateDispose"
    },
    "data":{
-      "goodFor":["## Summary: GenerateDispose",
+      "goodFor":["GenerateDispose for boilerplate reduction for IDisposable pattern",
 "### Purpose",
 "A Roslyn source generator that replaces the 10+ lines of IDisposable boilerplate code with a single attribute.",
 "It also automatically adapts the generated pattern when the class modifiers change (e.g. sealed to non-sealed).",

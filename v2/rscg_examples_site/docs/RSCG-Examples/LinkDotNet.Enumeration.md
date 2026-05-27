@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2690
 title: 269 - LinkDotNet.Enumeration
-description: ## Summary: LinkDotNet.Enumeration
+description: Good for replacing enum + switch patterns with string-based enumerations  with exhaustive pattern matching.
 slug: /LinkDotNet.Enumeration
 ---
 import Tabs from '@theme/Tabs';
@@ -198,7 +198,7 @@ This will generate a `JsonConverter` that can be used with `System.Text.Json` to
 ### About
 :::note
 
-## Summary: LinkDotNet.Enumeration
+Good for replacing enum + switch patterns with string-based enumerations  with exhaustive pattern matching.
 
 
 

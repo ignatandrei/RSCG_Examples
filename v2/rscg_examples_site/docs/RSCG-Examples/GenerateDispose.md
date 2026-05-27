@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2680
 title: 268 - GenerateDispose
-description: ## Summary: GenerateDispose
+description: GenerateDispose for boilerplate reduction for IDisposable pattern
 slug: /GenerateDispose
 ---
 import Tabs from '@theme/Tabs';
@@ -163,7 +163,7 @@ Happy coding!
 ### About
 :::note
 
-## Summary: GenerateDispose
+GenerateDispose for boilerplate reduction for IDisposable pattern
 
 
 ### Purpose
