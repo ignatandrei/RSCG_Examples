@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2680
 title: 268 - GenerateDispose
-description: Generating the Dispose method for a class that implements IDisposable.
+description: ## Summary: GenerateDispose
 slug: /GenerateDispose
 ---
 import Tabs from '@theme/Tabs';
@@ -163,7 +163,136 @@ Happy coding!
 ### About
 :::note
 
-Generating the Dispose method for a class that implements IDisposable.
+## Summary: GenerateDispose
+
+
+### Purpose
+
+
+A Roslyn source generator that replaces the 10+ lines of IDisposable boilerplate code with a single attribute.
+
+
+It also automatically adapts the generated pattern when the class modifiers change (e.g. sealed to non-sealed).
+
+
+
+
+
+### How to Define
+
+
+[GenerateDispose.SourceGenerators.GenerateDispose(nameof(Drop))]
+
+
+partial class DALDB : IDisposable   // : IDisposable is optional!
+
+
+{
+
+
+    private ConnectionDB cn;
+
+
+    private ConnectionDB cn1;
+
+
+
+
+
+    public DALDB()
+
+
+    {
+
+
+        cn = new ConnectionDB();
+
+
+        cn1 = new ConnectionDB();
+
+
+    }
+
+
+
+
+
+    public void Drop()   // Your custom disposal logic
+
+
+    {
+
+
+        cn.Dispose();
+
+
+        cn1.Dispose();
+
+
+    }
+
+
+}
+
+
+
+
+
+- The class must be partial
+
+
+- Pass nameof(YourDisposeMethod) to the attribute - the method must be callable with no arguments
+
+
+
+
+
+### What Gets Generated
+
+
+- public void Dispose() (thread-safe, calls your method)
+
+
+- A private int _isDisposed field for double-dispose protection
+
+
+- Adapts to sealed vs non-sealed automatically (private vs protected virtual)
+
+
+
+
+
+### How to Use
+
+
+using (var db = new DALDB())
+
+
+{
+
+
+    // use db...
+
+
+}  // Dispose() called automatically
+
+
+
+
+
+### Key Benefits
+
+
+- 10+ lines of boilerplate replaced by 1 attribute
+
+
+- sealed changes auto-adapt the Dispose pattern
+
+
+- No manual IDisposable wiring needed
+
+
+
 
 
 :::

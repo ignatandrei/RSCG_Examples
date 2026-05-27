@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2690
 title: 269 - LinkDotNet.Enumeration
-description: Generating enumeration from classes in C#  with matching
+description: ## Summary: LinkDotNet.Enumeration
 slug: /LinkDotNet.Enumeration
 ---
 import Tabs from '@theme/Tabs';
@@ -49,7 +49,7 @@ Steven Giesel
 ## Original Readme
 :::note
 
-# Enumeration
+### Enumeration
 
 [![.NET](https://github.com/linkdotnet/Enumeration/actions/workflows/dotnet.yml/badge.svg)](https://github.com/linkdotnet/Enumeration/actions/workflows/dotnet.yml)
 [![Nuget](https://img.shields.io/nuget/dt/LinkDotNet.Enumeration)](https://www.nuget.org/packages/LinkDotNet.Enumeration/)
@@ -57,7 +57,7 @@ Steven Giesel
 
 Source code generated string Enumeration with completeness!
 
-## What is in the box?
+###### What is in the box?
 
 This source code generator let's you easily create string based enumerations with a lot of features.
 
@@ -75,7 +75,7 @@ var color = Color.Red;
 var color = Color.Create("Red");
 ```
 
-## Exhaustiveness
+###### Exhaustiveness
 
 The great benefit of the library is that you have support for exhaustiveness:
 
@@ -103,9 +103,9 @@ var colorCode = color.Match(
 );
 ```
 
-## More features!
+###### More features!
 
-### Controlling field names
+######### Controlling field names
 
 The `Enumeration` attribute accepts an optional first argument of type `Casing` to control how the static member names are derived from the string values. By default, the library uses `PascalCase` to convert string values into member names. If you want to preserve the original casing of the string values, you can set the `Casing` to `Preserve`.
 
@@ -127,7 +127,7 @@ public sealed partial class Color
 
 The default is `PascalCase` to feel "natural" to C# developers.
 
-### Creating from a string key
+######### Creating from a string key
 
 Two methods are exposed `Create` and `TryCreate` to create an instance of the enumeration from a string key. The `Create` method will throw an `ArgumentException` if the key is not valid, while the `TryCreate` method will return a boolean indicating whether the creation was successful and output the created value through an out parameter.
 
@@ -144,7 +144,7 @@ else
 }
 ```
 
-### Parsing (IParsable)
+######### Parsing (IParsable)
 
 The generated types implement `IParsable<T>` and `ISpanParsable<T>`, making them compatible with modern .NET features like Minimal APIs and Model Binding.
 
@@ -155,7 +155,7 @@ if (Color.TryParse("Red", null, out var color))
 }
 ```
 
-### Implicit/Explicit Conversions
+######### Implicit/Explicit Conversions
 
 Instances of the generated enumeration can be implicitly converted to strings (returns the `Key` property), and strings can be explicitly converted back to the enumeration type (calls `Create`).
 
@@ -164,7 +164,7 @@ string colorKey = Color.Red; // Implicit conversion
 var color = (Color)"Green"; // Explicit conversion
 ```
 
-### Equality and Comparison
+######### Equality and Comparison
 
 Records implement value-based equality by default. For classes, `IEquatable<T>` is automatically implemented, comparing the `Key` property.
 
@@ -173,11 +173,11 @@ var isRed = Color.Red == "Red"; // String comparison
 var areEqual = Color.Red.Equals(Color.Create("Red")); // Value equality
 ```
 
-### Getting all values
+######### Getting all values
 
 Calling `All` will return a collection of all possible values. This is implemented using a `FrozenSet` to ensure immutability and thread-safety.
 
-## `JsonConverter` Generation
+###### `JsonConverter` Generation
 
 The library allows via the `GenerateJsonConverter` property on the `Enumeration` attribute to generate a `JsonConverter` for the enumeration type. This converter will handle serialization and deserialization of the enumeration values as their string keys.
 
@@ -188,7 +188,7 @@ public sealed partial record Color;
 
 This will generate a `JsonConverter` that can be used with `System.Text.Json` to serialize and deserialize `Color` instances as their string keys. The generated converter is called `\{TypeName}\}JsonConverter`.
 
-### Limitations
+######### Limitations
 
 * Your code should run at least `net8.0` or later, as the library uses things like `FrozenSet`.
 
@@ -198,7 +198,64 @@ This will generate a `JsonConverter` that can be used with `System.Text.Json` to
 ### About
 :::note
 
-Generating enumeration from classes in C#  with matching
+## Summary: LinkDotNet.Enumeration
+
+
+
+
+
+### Purpose
+
+
+A source code generator that creates string-based enumerations (similar to Java enums / DDD value objects) with exhaustive pattern matching, replacing enum + switch patterns.
+
+
+
+
+
+### How to Define
+
+
+[Enumeration(Casing.Preserve, "None", "Dacia", "Tesla", "BMW", "Mercedes")]
+
+
+public sealed partial record CarTypes;
+
+
+
+
+
+### How to Use
+
+
+CarTypes.TryParse("BMW", null, out var car);
+
+
+car.Match(onBMW: () => "this is bmw", onDacia: () => "this is dacia", ...);
+
+
+
+
+
+### Key Features
+
+
+- Exhaustive matching: Match() requires all values
+
+
+- Create / TryCreate: throws vs returns bool
+
+
+- IParsable<T>: Minimal APIs & Model Binding
+
+
+- Implicit string conversion
+
+
+- CarTypes.All returns FrozenSet<CarTypes>
+
+
+- JSON: GenerateJsonConverter = true
 
 
 :::
