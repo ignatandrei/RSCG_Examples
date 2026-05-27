@@ -1,10 +1,10 @@
-# RSCG - 268 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 269 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 268 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 269 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-05-13 => 13 May 2026
+## Latest Update : 2026-05-14 => 14 May 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 268 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 269 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 269. [LinkDotNet.Enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinkDotNet.Enumeration) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
+
+Generated on : 2026-05-14 => 14 May 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Steven Giesel
+
+Source code generated enumeration with completeness! 
+
+Nuget: [https://www.nuget.org/packages/LinkDotNet.Enumeration/](https://www.nuget.org/packages/LinkDotNet.Enumeration/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinkDotNet.Enumeration](https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinkDotNet.Enumeration)
+
+Source: [https://github.com/linkdotnet/Enumeration](https://github.com/linkdotnet/Enumeration)
+
+</details>
+
 ### 268. [GenerateDispose](https://ignatandrei.github.io/RSCG_Examples/v2/docs/GenerateDispose) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
 
 Generated on : 2026-05-13 => 13 May 2026

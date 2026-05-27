@@ -2145,6 +2145,14 @@
       "Source": "https://github.com/ItaiTzur76/GenerateDispose",
       "Category": "Disposer",
       "AddedOn": "2026-05-13T00:00:00"
+    },
+    {
+      "Name": "LinkDotNet.Enumeration",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/LinkDotNet.Enumeration",
+      "NuGet": "https://www.nuget.org/packages/LinkDotNet.Enumeration/",
+      "Source": "https://github.com/linkdotnet/Enumeration",
+      "Category": "Enum",
+      "AddedOn": "2026-05-14T00:00:00"
     }
   ]
 }
