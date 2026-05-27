@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"LinkDotNet.Enumeration",
+      "nuget":[
+         "https://www.nuget.org/packages/LinkDotNet.Enumeration/"
+      ],
+      "link":"https://github.com/linkdotnet/Enumeration",
+      "author":"Steven Giesel",
+      "source":"https://github.com/linkdotnet/Enumeration"
+   },
+   "data":{
+      "goodFor":["Generating enumeration from classes in C#  with matching"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
