@@ -2153,6 +2153,14 @@
       "Source": "https://github.com/linkdotnet/Enumeration",
       "Category": "Enum",
       "AddedOn": "2026-05-14T00:00:00"
+    },
+    {
+      "Name": "AssemblyMetadata.Generators",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyMetadata.Generators",
+      "NuGet": "https://www.nuget.org/packages/AssemblyMetadata.Generators/",
+      "Source": "https://github.com/loresoft/AssemblyMetadata.Generators",
+      "Category": "EnhancementProject",
+      "AddedOn": "2026-04-02T00:00:00"
     }
   ]
 }
