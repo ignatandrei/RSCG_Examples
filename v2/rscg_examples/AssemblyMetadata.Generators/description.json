@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AssemblyMetadata.Generators",
+      "nuget":[
+         "https://www.nuget.org/packages/AssemblyMetadata.Generators/"
+      ],
+      "link":"https://github.com/loresoft/AssemblyMetadata.Generators",
+      "author":"LoreSoft",
+      "source":"https://github.com/loresoft/AssemblyMetadata.Generators"
+   },
+   "data":{
+      "goodFor":["Generating assembly metadata attributes at compile time."],
+     "csprojDemo":"DemoMeta.csproj",
+      "csFiles":["Program.cs"],
+       "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

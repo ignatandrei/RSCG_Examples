@@ -267,3 +267,5 @@ Nr,Key,Source,Category
 266,Aigamo.MatchGenerator, https://github.com/ycanardeau/MatchGenerator,Enum
 267,Maestria.TypeProviders, https://github.com/MaestriaNet/TypeProviders,FilesToCode
 268,GenerateDispose, https://github.com/ItaiTzur76/GenerateDispose,Disposer
+269,LinkDotNet.Enumeration, https://github.com/linkdotnet/Enumeration,Enum
+270,AssemblyMetadata.Generators, https://github.com/loresoft/AssemblyMetadata.Generators,EnhancementProject

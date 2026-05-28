@@ -1,0 +1,1 @@
+Source generator to expose assembly attributes as string constants
