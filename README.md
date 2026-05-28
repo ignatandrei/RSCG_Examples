@@ -35,7 +35,7 @@ Generated on : 2026-04-02 => 02 April 2026
 
 
 
-Author: Loresoft
+Author: LoreSoft
 
 Source generator to expose assembly attributes as string constants 
 
