@@ -20,7 +20,7 @@ This is the list of 270 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|270| [AssemblyMetadata.Generators by LoreSoft ](/docs/AssemblyMetadata.Generators)|2026-04-02 => 02 April 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
+|270| [AssemblyMetadata.Generators by LoreSoft ](/docs/AssemblyMetadata.Generators)|2026-05-15 => 15 May 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |269| [LinkDotNet.Enumeration by Steven Giesel ](/docs/LinkDotNet.Enumeration)|2026-05-14 => 14 May 2026 | [Enum](/docs/Categories/Enum) |
 |268| [GenerateDispose by Itai Tzur ](/docs/GenerateDispose)|2026-05-13 => 13 May 2026 | [Disposer](/docs/Categories/Disposer) |
 |267| [Maestria.TypeProviders by Fábio Monteiro Naspolini ](/docs/Maestria.TypeProviders)|2026-04-09 => 09 April 2026 | [FilesToCode](/docs/Categories/FilesToCode) |

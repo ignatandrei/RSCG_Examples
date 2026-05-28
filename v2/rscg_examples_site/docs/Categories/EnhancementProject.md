@@ -4,7 +4,7 @@ Number RSCG: 21
 
         1 [AssemblyMetadata](/docs/AssemblyMetadata) [![Nuget](https://img.shields.io/nuget/dt/AssemblyMetadata?label=AssemblyMetadata)](https://www.nuget.org/packages/AssemblyMetadata/) ![GitHub Repo stars](https://img.shields.io/github/stars/BenjaminAbt/AssemblyMetadata?style=social) 2026-04-02
     
-        2 [AssemblyMetadata.Generators](/docs/AssemblyMetadata.Generators) [![Nuget](https://img.shields.io/nuget/dt/AssemblyMetadata.Generators?label=AssemblyMetadata.Generators)](https://www.nuget.org/packages/AssemblyMetadata.Generators/) ![GitHub Repo stars](https://img.shields.io/github/stars/loresoft/AssemblyMetadata.Generators?style=social) 2026-04-02
+        2 [AssemblyMetadata.Generators](/docs/AssemblyMetadata.Generators) [![Nuget](https://img.shields.io/nuget/dt/AssemblyMetadata.Generators?label=AssemblyMetadata.Generators)](https://www.nuget.org/packages/AssemblyMetadata.Generators/) ![GitHub Repo stars](https://img.shields.io/github/stars/loresoft/AssemblyMetadata.Generators?style=social) 2026-05-15
     
         3 [AssemblyVersionInfo](/docs/AssemblyVersionInfo) [![Nuget](https://img.shields.io/nuget/dt/AssemblyVersionInfo?label=AssemblyVersionInfo)](https://www.nuget.org/packages/AssemblyVersionInfo/) ![GitHub Repo stars](https://img.shields.io/github/stars/BlackWhiteYoshi/AssemblyVersionInfo?style=social) 2025-07-28
     
