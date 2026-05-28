@@ -1612,5 +1612,11 @@
     "category": "Enum",
     "href": "/RSCG_Examples/v2/docs/LinkDotNet.Enumeration/",
     "body": "Source code generated enumeration with completeness!"
+  },
+  {
+    "title": "AssemblyMetadata.Generators",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/AssemblyMetadata.Generators/",
+    "body": "Source generator to expose assembly attributes as string constants"
   }
 ]

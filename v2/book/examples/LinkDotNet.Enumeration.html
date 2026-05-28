@@ -12,7 +12,7 @@ Nuget : <a href="https://www.nuget.org/packages/LinkDotNet.Enumeration/" target=
 
 <h2>About</h2>
 
-Generating enumeration from classes in C#  with matching
+Good for replacing enum + switch patterns with string-based enumerations  with exhaustive pattern matching.### PurposeA source code generator that creates string-based enumerations (similar to Java enums / DDD value objects) with exhaustive pattern matching, replacing enum + switch patterns.### How to Define[Enumeration(Casing.Preserve, &quot;None&quot;, &quot;Dacia&quot;, &quot;Tesla&quot;, &quot;BMW&quot;, &quot;Mercedes&quot;)]public sealed partial record CarTypes;### How to UseCarTypes.TryParse(&quot;BMW&quot;, null, out var car);car.Match(onBMW: () =&gt; &quot;this is bmw&quot;, onDacia: () =&gt; &quot;this is dacia&quot;, ...);### Key Features- Exhaustive matching: Match() requires all values- Create / TryCreate: throws vs returns bool- IParsable: Minimal APIs &amp; Model Binding- Implicit string conversion- CarTypes.All returns FrozenSet of CarTypes- JSON: GenerateJsonConverter = true
 
 <h2>
     How to use
