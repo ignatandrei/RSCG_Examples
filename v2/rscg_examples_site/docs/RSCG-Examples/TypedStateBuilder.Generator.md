@@ -49,7 +49,7 @@ Georgiy Petrov
 ## Original Readme
 :::note
 
-# TypedStateBuilder
+### TypedStateBuilder
 
 A Roslyn incremental source generator that makes **invalid builder usage impossible to compile**.
 
@@ -59,7 +59,7 @@ You define a normal builder class. The generator produces a fluent API where **i
 
 ---
 
-## Why
+###### Why
 
 Traditional builders rely on:
 
@@ -87,7 +87,7 @@ You write the builder once. The generator handles the rest.
 
 ---
 
-## What this solves
+###### What this solves
 
 TypedStateBuilder enforces correct builder usage while keeping the flexibility of a fluent API:
 
@@ -106,7 +106,7 @@ Result: **invalid builder usage becomes unrepresentable code**, instead of somet
 
 ---
 
-## Comparison
+###### Comparison
 
 | Feature                 | Simple Builder | Interface Step Builder | TypedStateBuilder |
 | ----------------------- | -------------- | ---------------------- | ----------------- |
@@ -122,9 +122,9 @@ Result: **invalid builder usage becomes unrepresentable code**, instead of somet
 
 ---
 
-## Example
+###### Example
 
-### Builder template
+######### Builder template
 
 ```csharp
 [TypedStateBuilder]
@@ -165,7 +165,7 @@ public class UserBuilder
 }
 ```
 
-### Usage
+######### Usage
 
 ```csharp
 var user = TypedStateBuilders
@@ -192,7 +192,7 @@ var invalid = TypedStateBuilders
 
 ---
 
-## What you write vs what you get
+###### What you write vs what you get
 
 You only write:
 
@@ -217,7 +217,7 @@ No interfaces, no manual state tracking, no boilerplate.
 
 ---
 
-## How it works
+###### How it works
 
 Each step is encoded as a **type-state transition**:
 
@@ -235,7 +235,7 @@ TypedBuilder<ValueUnset, ValueUnset, ValueUnset>
 
 A build method becomes available only when all required states for that build path are `ValueSet`.
 
-### Step semantics
+######### Step semantics
 
 Each step:
 
@@ -247,9 +247,9 @@ The underlying builder remains mutable, but repeated assignments are not express
 
 ---
 
-## Branching
+###### Branching
 
-### Mental model
+######### Mental model
 
 Think of branches like paths:
 
@@ -267,7 +267,7 @@ This keeps related steps together while preventing invalid combinations.
 
 ---
 
-### Example
+######### Example
 
 ```csharp
 [TypedStateBuilder]
@@ -306,9 +306,9 @@ public class VehicleBuilder
 
 ---
 
-### Branch semantics
+######### Branch semantics
 
-#### Build requirement
+########## Build requirement
 
 If any step uses branching, **all build methods must specify an explicit branch target**:
 
@@ -321,7 +321,7 @@ Unbranched `[Build]` methods are not allowed in branched builders.
 
 ---
 
-#### Step applicability
+########## Step applicability
 
 A step applies if:
 
@@ -331,7 +331,7 @@ A step applies if:
 
 ---
 
-#### Step compatibility
+########## Step compatibility
 
 Two steps are compatible if:
 
@@ -342,13 +342,13 @@ Sibling branches are incompatible.
 
 ---
 
-#### Ancestor requirement
+########## Ancestor requirement
 
 If a step belongs to a deeper branch, any declared ancestor steps must already be set before it is callable.
 
 ---
 
-## Step overloads
+###### Step overloads
 
 ```csharp
 [StepForValue]
@@ -368,14 +368,14 @@ builder.SetName("Alice", "Walker");
 
 ---
 
-## Optional values and defaults
+###### Optional values and defaults
 
 ```csharp
 [StepForValue(nameof(DefaultAge))]
 private int _age;
 ```
 
-### Behavior
+######### Behavior
 
 * step becomes optional
 * if unset, default runs during build
@@ -385,14 +385,14 @@ Defaults are applied before validation and build execution.
 
 ---
 
-## Validation
+###### Validation
 
 ```csharp
 [ValidateValue(nameof(ValidateName))]
 private string _name;
 ```
 
-### Behavior
+######### Behavior
 
 * runs automatically before build
 * runs only for steps applicable to the selected build path
@@ -402,7 +402,7 @@ private string _name;
 throw new AggregateException(...)
 ```
 
-### Execution details
+######### Execution details
 
 * defaults are applied first
 * validators run next
@@ -415,7 +415,7 @@ Note:
 
 ---
 
-## Build methods
+###### Build methods
 
 ```csharp
 [Build]
@@ -429,7 +429,7 @@ or:
 public Vehicle BuildCar()
 ```
 
-### Behavior
+######### Behavior
 
 A build method:
 
@@ -439,7 +439,7 @@ A build method:
 
 ---
 
-## What gets generated
+###### What gets generated
 
 For each builder:
 
@@ -452,7 +452,7 @@ For each builder:
 
 ---
 
-## Constructors
+###### Constructors
 
 Constructors are exposed via:
 
@@ -466,7 +466,7 @@ TypedStateBuilders.CreateMyBuilder(...)
 
 ---
 
-## Dependency Injection
+###### Dependency Injection
 
 Constructor dependencies can be used in:
 
@@ -477,7 +477,7 @@ Constructor dependencies can be used in:
 
 ---
 
-## Performance
+###### Performance
 
 * incremental generator (fast IDE experience)
 * no reflection
@@ -494,9 +494,9 @@ Notes:
 
 ---
 
-## Constraints and limitations
+###### Constraints and limitations
 
-### Builder
+######### Builder
 
 * class only
 * non-nested
@@ -504,30 +504,30 @@ Notes:
 * no inheritance
 * public or internal
 
-### Steps
+######### Steps
 
 * fields only
 * must be mutable
 * no static or readonly
 
-### Branching
+######### Branching
 
 * path-based, prefix matching
 * explicit build targets required when used
 
-### Step overloads
+######### Step overloads
 
 * must be non-generic
 * must return field type
 * must not collide
 
-### Validation
+######### Validation
 
 * only `void` or `Task` supported
 
 ---
 
-## Summary
+###### Summary
 
 TypedStateBuilder generates a builder API where:
 
