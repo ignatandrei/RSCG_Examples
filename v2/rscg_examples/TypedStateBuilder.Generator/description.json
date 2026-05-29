@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TypedStateBuilder.Generator",
+      "nuget":[
+         "https://www.nuget.org/packages/TypedStateBuilder.Generator/"
+      ],
+      "link":"https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator",
+      "author":"Georgiy Petrov",
+      "source":"https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator"
+   },
+   "data":{
+      "goodFor":["Generate strongly typed state builders for C# applications, improving code readability and maintainability."],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -269,3 +269,4 @@ Nr,Key,Source,Category
 268,GenerateDispose, https://github.com/ItaiTzur76/GenerateDispose,Disposer
 269,LinkDotNet.Enumeration, https://github.com/linkdotnet/Enumeration,Enum
 270,AssemblyMetadata.Generators, https://github.com/loresoft/AssemblyMetadata.Generators,EnhancementProject
+271,TypedStateBuilder.Generator, https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator,Builder

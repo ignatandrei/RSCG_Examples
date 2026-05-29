@@ -1,10 +1,10 @@
-# RSCG - 270 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 271 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 270 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 271 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-05-15 => 15 May 2026
+## Latest Update : 2026-05-16 => 16 May 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 270 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 271 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 271. [TypedStateBuilder.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedStateBuilder.Generator) , in the [Builder](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#builder) category 
+
+Generated on : 2026-05-16 => 16 May 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Georgiy Petrov
+
+A Roslyn source generator that produces **compile-time safe builders** using the *type-state pattern*. 
+
+Nuget: [https://www.nuget.org/packages/TypedStateBuilder.Generator/](https://www.nuget.org/packages/TypedStateBuilder.Generator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedStateBuilder.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedStateBuilder.Generator)
+
+Source: [https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator](https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator)
+
+</details>
+
 ### 270. [AssemblyMetadata.Generators](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AssemblyMetadata.Generators) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2026-05-15 => 15 May 2026
