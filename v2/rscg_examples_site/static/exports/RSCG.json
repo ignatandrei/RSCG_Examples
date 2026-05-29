@@ -2161,6 +2161,14 @@
       "Source": "https://github.com/loresoft/AssemblyMetadata.Generators",
       "Category": "EnhancementProject",
       "AddedOn": "2026-05-15T00:00:00"
+    },
+    {
+      "Name": "TypedStateBuilder.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TypedStateBuilder.Generator",
+      "NuGet": "https://www.nuget.org/packages/TypedStateBuilder.Generator/",
+      "Source": "https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator",
+      "Category": "Builder",
+      "AddedOn": "2026-05-16T00:00:00"
     }
   ]
 }

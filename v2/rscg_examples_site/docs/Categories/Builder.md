@@ -1,6 +1,6 @@
 <h1>Builder</h1>
 
-Number RSCG: 8
+Number RSCG: 9
 
         1 [Architect.DomainModeling](/docs/Architect.DomainModeling) [![Nuget](https://img.shields.io/nuget/dt/Architect.DomainModeling?label=Architect.DomainModeling)](https://www.nuget.org/packages/Architect.DomainModeling/) ![GitHub Repo stars](https://img.shields.io/github/stars/TheArchitectDev/Architect.DomainModeling?style=social) 2024-03-02
     
@@ -17,4 +17,6 @@ Number RSCG: 8
         7 [ShadowWriterBuilder](/docs/ShadowWriterBuilder) [![Nuget](https://img.shields.io/nuget/dt/ShadowWriter?label=ShadowWriter)](https://www.nuget.org/packages/ShadowWriter/) ![GitHub Repo stars](https://img.shields.io/github/stars/StefanStolz/ShadowWriter?style=social) 2025-07-24
     
         8 [StepwiseBuilderGenerator](/docs/StepwiseBuilderGenerator) [![Nuget](https://img.shields.io/nuget/dt/StepwiseBuilderGenerator?label=StepwiseBuilderGenerator)](https://www.nuget.org/packages/StepwiseBuilderGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/StepwiseBuilderGenerator?style=social) 2025-03-23
+    
+        9 [TypedStateBuilder.Generator](/docs/TypedStateBuilder.Generator) [![Nuget](https://img.shields.io/nuget/dt/TypedStateBuilder.Generator?label=TypedStateBuilder.Generator)](https://www.nuget.org/packages/TypedStateBuilder.Generator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Georgiy-Petrov/TypedStateBuilder.Generator?style=social) 2026-05-16
         

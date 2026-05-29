@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TypedStateBuilder.Generator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/TypedStateBuilder.Generator/src/Builder/Builder.csproj",
+      "description": "First, we add Nuget  [TypedStateBuilder.Generator](https://www.nuget.org/packages/TypedStateBuilder.Generator/) in csproj  ",
+      "pattern": "TypedStateBuilder.Generator"
+    }
+
+        ,{
+        "file": "rscg_examples/TypedStateBuilder.Generator/src/Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/TypedStateBuilder.Generator/src/Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/TypedStateBuilder.Generator/src/Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/TypedStateBuilder.Generator/src/Builder/obj/GX/TypedStateBuilder.Generator/TypedStateBuilder.Generator.TypedStateBuilderIncrementalGenerator/TypedStateBuilder.Attributes.g.cs",
+        "description": "Generated File 2  from 2 : TypedStateBuilder.Attributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/TypedStateBuilder.Generator/src/Builder/obj/GX/TypedStateBuilder.Generator/TypedStateBuilder.Generator.TypedStateBuilderIncrementalGenerator/global__Builder_PersonBuilder_7DB9C28B.TypedStateBuilder.g.cs",
+        "description": "Generated File 1  from 2 : global__Builder_PersonBuilder_7DB9C28B.TypedStateBuilder.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

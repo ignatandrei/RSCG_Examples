@@ -1,0 +1,1 @@
+A Roslyn source generator that produces **compile-time safe builders** using the *type-state pattern*.
