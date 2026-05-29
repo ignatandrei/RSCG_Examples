@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2710
 title: 271 - TypedStateBuilder.Generator
-description: Generate strongly typed state builders for C# applications, improving code readability and maintainability.
+description: Generate strongly typed state builders for C# applications, enforced at compile time
 slug: /TypedStateBuilder.Generator
 ---
 import Tabs from '@theme/Tabs';
@@ -544,7 +544,142 @@ You define a builder. The generator makes its correct usage explicit.
 ### About
 :::note
 
-Generate strongly typed state builders for C# applications, improving code readability and maintainability.
+Generate strongly typed state builders for C# applications, enforced at compile time
+
+
+**Summary of TypedStateBuilder.Generator**
+
+
+
+
+
+**Purpose:** Generates compile-time safe step-by-step builders using the *type-state pattern* — each required property must be set in order before Build() is available, enforced at compile time.
+
+
+
+
+
+**NuGet:** https://www.nuget.org/packages/TypedStateBuilder.Generator/
+
+
+**GitHub:** https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator
+
+
+**Author:** Georgiy Petrov
+
+
+
+
+
+**How to use:**
+
+
+
+
+
+1. Decorate a builder class with [TypedStateBuilder], mark each required step with [StepForValue], and optionally add [ValidateValue] for validation:
+
+
+```csharp
+
+
+[TypedStateBuilder]
+
+
+public class PersonBuilder
+
+
+{
+
+
+    [StepForValue]
+
+
+    [ValidateValue(nameof(ValidateName))]
+
+
+    private string lastName = string.Empty;
+
+
+
+
+
+    [StepForValue]
+
+
+    [ValidateValue(nameof(ValidateName))]
+
+
+    private string firstName = string.Empty;
+
+
+
+
+
+    public void ValidateName(string name)
+
+
+    {
+
+
+        if (string.IsNullOrWhiteSpace(name) || name.Length <= 1)
+
+
+            throw new ArgumentException("Name must be at least 2 characters long.");
+
+
+    }
+
+
+
+
+
+    [Build]
+
+
+    public Person Build() => new Person(firstName, lastName);
+
+
+}
+
+
+```
+
+
+
+
+
+2. Use the generated fluent builder — steps are enforced in order at compile time:
+
+
+```csharp
+
+
+var p = TypedStateBuilders
+
+
+    .CreatePersonBuilder()
+
+
+    .SetFirstName("Andrei")
+
+
+    .SetLastName("Ignat")
+
+
+    .Build();
+
+
+
+
+
+Console.WriteLine(p.FullName()); // "Andrei Ignat"
+
+
+```
+
+
+
 
 
 :::
