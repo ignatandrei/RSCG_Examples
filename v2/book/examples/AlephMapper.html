@@ -1,0 +1,70 @@
+
+<h1>RSCG nr 272 :  AlephMapper</h1>
+
+<h2>Info</h2>
+Nuget : <a href="https://www.nuget.org/packages/AlephMapper/" target="_blank">https://www.nuget.org/packages/AlephMapper/</a>
+
+<p>You can find more details at : <a href="https://github.com/Raffinert/AlephMapper" target="_blank"> https://github.com/Raffinert/AlephMapper</a></p>
+
+<p>Author :Yevhen Cherkes</p>
+
+<p>Source: <a href="https://github.com/Raffinert/AlephMapper" target="_blank">https://github.com/Raffinert/AlephMapper</a> </p>
+
+<h2>About</h2>
+
+AlephMapper helps you define LINQ-translatable object mappers for EF Core.It turns a normal C# mapping method into an expression that can be embedded in queries, so your entity-to-DTO projection can run inside the database query instead of after materialization.This is useful for cleaner projection code, avoiding hand-written select expressions, and keeping mapping logic reusable across queries.
+
+<h2>
+    How to use
+</h2>
+<h3>
+    Add reference to the  <a href="https://www.nuget.org/packages/AlephMapper/" target="_blank">AlephMapper</a> in the csproj
+</h3>
+<img src="images/AlephMapper/EntityDemo.csproj.png" width="580" height="580" />
+
+<h3>This was for me the <b>starting</b> code</h3>
+
+        <br />
+        I have <b>coded</b> the file Program.cs
+        <br />
+    <img src="images/AlephMapper/csFiles/Program.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file ProjectExtensions.cs
+        <br />
+    <img src="images/AlephMapper/csFiles/ProjectExtensions.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file ProjectDTO.cs
+        <br />
+    <img src="images/AlephMapper/csFiles/ProjectDTO.cs.png" width="580" height="580" />
+    <hr />
+    <h3>And here are the <i>generated</i> files</h3>
+
+        <br />
+        The file <i>generated</i> is AlephMapper.Attributes.g.cs
+        <br />
+    <img src="images/AlephMapper/generated/AlephMapper.Attributes.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is EntityDemo_ProjectExtensions_GeneratedMappings.g.cs
+        <br />
+    <img src="images/AlephMapper/generated/EntityDemo_ProjectExtensions_GeneratedMappings.g.cs.png" width="580" height="580" />
+    
+<p>
+    You can download the code and this page as pdf from
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/AlephMapper'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/AlephMapper
+    </a>
+</p>
+
+
+<p>
+    You can see the whole list at 
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+

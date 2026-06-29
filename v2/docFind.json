@@ -1624,5 +1624,11 @@
     "category": "Builder",
     "href": "/RSCG_Examples/v2/docs/TypedStateBuilder.Generator/",
     "body": "A Roslyn source generator that produces **compile-time safe builders** using the *type-state pattern*."
+  },
+  {
+    "title": "AlephMapper",
+    "category": "Database",
+    "href": "/RSCG_Examples/v2/docs/AlephMapper/",
+    "body": "Source generator for creating projectable companions"
   }
 ]
