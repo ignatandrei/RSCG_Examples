@@ -9,7 +9,10 @@
       "source":"https://github.com/Raffinert/AlephMapper"
    },
    "data":{
-      "goodFor":[""],
+      "goodFor":["AlephMapper helps you define LINQ-translatable object mappers for EF Core.",
+      "It turns a normal C# mapping method into an expression that can be embedded in queries, so your entity-to-DTO projection can run inside the database query instead of after materialization.",
+      "This is useful for cleaner projection code, avoiding hand-written select expressions, and keeping mapping logic reusable across queries."
+   ],
       "csprojDemo":"EntityDemo.csproj",
       "csFiles":["Program.cs","ProjectExtensions.cs","ProjectDTO.cs"],
       "excludeDirectoryGenerated":[""],
