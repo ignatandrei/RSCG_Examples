@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 271 RSCG with examples in descending chronological order
+## 272 RSCG with examples in descending chronological order
 
-This is the list of 271 ( 16 from Microsoft) RSCG with examples 
+This is the list of 272 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 271 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|272| [AlephMapper by Yevhen Cherkes ](/docs/AlephMapper)|2026-06-29 => 29 June 2026 | [Database](/docs/Categories/Database) |
 |271| [TypedStateBuilder.Generator by Georgiy Petrov ](/docs/TypedStateBuilder.Generator)|2026-05-16 => 16 May 2026 | [Builder](/docs/Categories/Builder) |
 |270| [AssemblyMetadata.Generators by LoreSoft ](/docs/AssemblyMetadata.Generators)|2026-05-15 => 15 May 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |269| [LinkDotNet.Enumeration by Steven Giesel ](/docs/LinkDotNet.Enumeration)|2026-05-14 => 14 May 2026 | [Enum](/docs/Categories/Enum) |

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 271 RSCG list by category
-description: 271 RSCG list by category
+title: 272 RSCG list by category
+description: 272 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -393,7 +393,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:8</summary>
+  <summary>Expand Database =>examples:9</summary>
         
 
 
@@ -433,6 +433,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Facet.Search](/docs/Facet.Search)
+
+        
+
+
+[AlephMapper](/docs/AlephMapper)
 
 </details>
     
@@ -1824,6 +1829,8 @@ flowchart LR;
     Database--> Unflat((Unflat))
 
     Database--> Facet.Search((Facet.Search))
+
+    Database--> AlephMapper((AlephMapper))
 
     Decorator--> DecoratorGenerator((DecoratorGenerator))
 
