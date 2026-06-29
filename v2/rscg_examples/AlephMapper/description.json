@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AlephMapper",
+      "nuget":[
+         "https://www.nuget.org/packages/AlephMapper/"
+      ],
+      "link":"https://github.com/Raffinert/AlephMapper",
+      "author":"Yevhen Cherkes",
+      "source":"https://github.com/Raffinert/AlephMapper"
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"EntityDemo.csproj",
+      "csFiles":["Program.cs","ProjectExtensions.cs","ProjectDTO.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
