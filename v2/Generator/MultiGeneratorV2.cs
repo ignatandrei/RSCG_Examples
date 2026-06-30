@@ -118,6 +118,9 @@ public class MultiGeneratorV2
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(examples/", $"({d.Generator!.Source}/examples/");
+            text = text.Replace("(tests/", $"({d.Generator!.Source}/tests/");
+
             text = text.Replace("(/.github/", $"({d.Generator!.Source}/.github/");
             text = text.Replace("(BenchmarkDotNet", $"({d.Generator!.Source}/BenchmarkDotNet"); 
             text = text.Replace("(./BoolParameterGenerator.Github.Example/", $"({d.Generator!.Source}/BoolParameterGenerator.Github.Example/");

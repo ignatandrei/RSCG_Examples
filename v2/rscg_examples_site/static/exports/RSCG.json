@@ -2169,6 +2169,14 @@
       "Source": "https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator",
       "Category": "Builder",
       "AddedOn": "2026-05-16T00:00:00"
+    },
+    {
+      "Name": "AlephMapper",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AlephMapper",
+      "NuGet": "https://www.nuget.org/packages/AlephMapper/",
+      "Source": "https://github.com/Raffinert/AlephMapper",
+      "Category": "Database",
+      "AddedOn": "2026-06-29T00:00:00"
     }
   ]
 }

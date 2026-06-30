@@ -270,3 +270,4 @@ Nr,Key,Source,Category
 269,LinkDotNet.Enumeration, https://github.com/linkdotnet/Enumeration,Enum
 270,AssemblyMetadata.Generators, https://github.com/loresoft/AssemblyMetadata.Generators,EnhancementProject
 271,TypedStateBuilder.Generator, https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator,Builder
+272,AlephMapper, https://github.com/Raffinert/AlephMapper,Database

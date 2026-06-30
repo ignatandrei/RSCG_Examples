@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AlephMapper",
+  "steps": 
+  [
+    {
+      "file": "EntityDemo/EntityDemo.csproj",
+      "description": "First, we add Nuget  [AlephMapper](https://www.nuget.org/packages/AlephMapper/) in csproj  ",
+      "pattern": "AlephMapper"
+    }
+
+        ,{
+        "file": "EntityDemo/ProjectDTO.cs",
+        "description": "File ProjectDTO.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EntityDemo/ProjectExtensions.cs",
+        "description": "File ProjectExtensions.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EntityDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EntityDemo/EntityDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EntityDemo/obj/GX/AlephMapper/AlephMapper.AlephSourceGenerator/EntityDemo_ProjectExtensions_GeneratedMappings.g.cs",
+        "description": "Generated File 2  from 2 : EntityDemo_ProjectExtensions_GeneratedMappings.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EntityDemo/obj/GX/AlephMapper/AlephMapper.AlephSourceGenerator/AlephMapper.Attributes.g.cs",
+        "description": "Generated File 1  from 2 : AlephMapper.Attributes.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
