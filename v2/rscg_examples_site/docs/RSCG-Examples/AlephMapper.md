@@ -322,8 +322,8 @@ Generated files are emitted under the compiler-generated files output directory 
 
 ###### Examples
 
-- [Sample app](examples/SampleApp) - richer mapping examples.
-- [Integration tests](tests/AlephMapper.IntegrationTests) - EF Core and generated behavior coverage.
+- [Sample app](https://github.com/Raffinert/AlephMapper/examples/SampleApp) - richer mapping examples.
+- [Integration tests](https://github.com/Raffinert/AlephMapper/tests/AlephMapper.IntegrationTests) - EF Core and generated behavior coverage.
 
 ###### Contributing
 
