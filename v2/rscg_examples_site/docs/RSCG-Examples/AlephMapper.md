@@ -51,7 +51,7 @@ Yevhen Cherkes
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)
 
-## Terms of use<sup>[?](https://github.com/Tyrrrz/.github/blob/master/docs/why-so-political.md)</sup>
+###### Terms of use<sup>[?](https://github.com/Tyrrrz/.github/blob/master/docs/why-so-political.md)</sup>
 
 By using this project or its source code, for any purpose and in any shape or form, you grant your **implicit agreement** to all the following statements:
 
@@ -62,17 +62,17 @@ By using this project or its source code, for any purpose and in any shape or fo
 
 To learn more about the war and how you can help, [click here](https://stand-with-ukraine.pp.ua). Glory to Ukraine!
 
-# AlephMapper
+### AlephMapper
 
 [![NuGet](https://img.shields.io/nuget/v/AlephMapper.svg)](https://www.nuget.org/packages/AlephMapper)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/AlephMapper.svg)](https://www.nuget.org/packages/AlephMapper)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Raffinert/AlephMapper/LICENSE)
 
 AlephMapper is a C# source generator for reusable manual mappings. Write one expression-bodied mapping method and generate companion methods for EF Core projections and optional update-in-place mapping from the same code.
 
 Use it when you want hand-written mapping logic without maintaining a separate `Expression<Func<...>>` for queries or a second method for updating existing objects.
 
-## Features
+###### Features
 
 - **Single-source mappings** - use one mapping method for runtime mapping, query projection, and update variants.
 - **EF Core-friendly projections** - generate `Expression<Func<TSource, TDestination>>` methods for `.Select(...)`.
@@ -80,7 +80,7 @@ Use it when you want hand-written mapping logic without maintaining a separate `
 - **Configurable null handling** - choose how null-conditional access (`?.`) is handled in generated expressions.
 - **Update-in-place mapping** - mutate existing destination instances, including EF Core tracked entities.
 
-## Install
+###### Install
 
 Using the .NET CLI:
 
@@ -120,11 +120,11 @@ When referencing AlephMapper directly from source, add it as an analyzer-only pr
 
 `PrivateAssets="all"` keeps AlephMapper from flowing transitively to consumers of your library, and `IncludeAssets` ensures the analyzer/source-generator assets are available at build time.
 
-## Requirements
+###### Requirements
 
 - Mapping methods must be `static`, expression-bodied, and declared in a `static partial` class.
 
-## Quick Start
+###### Quick Start
 
 Add `using AlephMapper;`, then mark a mapping method or mapper class with `[Expressive]`.
 
@@ -178,7 +178,7 @@ var employee = GetEmployee();
 var dto = PersonMapper.MapToPerson(employee);
 ```
 
-## Null Handling
+###### Null Handling
 
 C# null-conditional access (`?.`) is not directly supported in expression trees. AlephMapper lets you choose how to handle it.
 
@@ -205,7 +205,7 @@ Available policies:
 
 `Ignore` is the default. Use `Rewrite` when you want generated expressions to preserve null-safe behavior.
 
-## Update Existing Objects
+###### Update Existing Objects
 
 Mark a mapping with `[Updatable]` to generate an overload that writes into an existing destination instance.
 
@@ -246,7 +246,7 @@ public static Person MapToPerson(PersonUpdateDto dto) => new()
 };
 ```
 
-## How It Works
+###### How It Works
 
 For each `[Expressive]` method, AlephMapper generates a method named `<OriginalMethodName>Expression()` returning `Expression<Func<...>>`.
 
@@ -266,7 +266,7 @@ public static PersonDto MapToPerson(Employee employee, PersonDto target) => ...
 
 Helper methods in the same mapper class are inlined where possible.
 
-## Supported Mapping Shape
+###### Supported Mapping Shape
 
 Methods must be:
 
@@ -277,13 +277,13 @@ Methods must be:
 
 AlephMapper is best suited for object initializer mappings and small helper methods that can be inlined into generated expressions.
 
-## Troubleshooting
+###### Troubleshooting
 
-### Generated method is missing
+######### Generated method is missing
 
 Check that the mapper class is `static partial`, the method is expression-bodied, and the method or containing class has `[Expressive]` or `[Updatable]`.
 
-### NullReferenceException after using `?.`
+######### NullReferenceException after using `?.`
 
 The default null policy is `Ignore`, which removes null-conditional access in generated expressions. Use:
 
@@ -291,15 +291,15 @@ The default null policy is `Ignore`, which removes null-conditional access in ge
 [Expressive(NullConditionalRewrite = NullConditionalRewrite.Rewrite)]
 ```
 
-### Updatable mapping is skipped for value types
+######### Updatable mapping is skipped for value types
 
 `[Updatable]` is intended for reference-type destinations. Value types are copied by value, so update-in-place semantics are not useful.
 
-### Circular helper calls
+######### Circular helper calls
 
 Generation is skipped when AlephMapper detects circular references between mapping/helper methods. Break the cycle or keep part of the logic outside the generated mapping path.
 
-### Inspect generated code
+######### Inspect generated code
 
 Add this to your project file:
 
@@ -311,7 +311,7 @@ Add this to your project file:
 
 Generated files are emitted under the compiler-generated files output directory for your project.
 
-## Comparison
+###### Comparison
 
 | Tool | Main style | AlephMapper difference |
 | --- | --- | --- |
@@ -320,12 +320,12 @@ Generated files are emitted under the compiler-generated files output directory 
 | EntityFrameworkCore.Projectables | Projectable members for EF Core | AlephMapper targets mapping methods and update overloads. |
 | Expressionify | Expression expansion | AlephMapper is mapping-oriented and also supports update-in-place generation. |
 
-## Examples
+###### Examples
 
 - [Sample app](examples/SampleApp) - richer mapping examples.
 - [Integration tests](tests/AlephMapper.IntegrationTests) - EF Core and generated behavior coverage.
 
-## Contributing
+###### Contributing
 
 Contributions are welcome.
 
@@ -336,16 +336,16 @@ Contributions are welcome.
 5. Run the test suite.
 6. Open a pull request.
 
-## License
+###### License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](https://github.com/Raffinert/AlephMapper/LICENSE) for details.
 
-## Acknowledgments
+###### Acknowledgments
 
 - Inspired by [EntityFrameworkCore.Projectables](https://github.com/koenbeuk/EntityFrameworkCore.Projectables) and [Expressionify](https://github.com/ClaveConsulting/Expressionify).
 - Thanks to all [contributors](https://github.com/Raffinert/AlephMapper/graphs/contributors).
 
-## Related Projects
+###### Related Projects
 
 - [EntityFrameworkCore.Projectables](https://github.com/koenbeuk/EntityFrameworkCore.Projectables)
 - [Expressionify](https://github.com/ClaveConsulting/Expressionify)
