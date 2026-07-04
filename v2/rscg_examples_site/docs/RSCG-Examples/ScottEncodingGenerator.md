@@ -49,7 +49,7 @@ Georgiy Petrov
 ## Original Readme
 :::note
 
-# ScottEncodingGenerator
+### ScottEncodingGenerator
 
 `ScottEncodingGenerator` is a C# source generator for defining closed sets of nested case types and generating a `Match` API for them.
 
@@ -73,7 +73,7 @@ It does not support:
 
 [![NuGet](https://img.shields.io/nuget/v/ScottEncodingGenerator.svg?logo=nuget)](https://www.nuget.org/packages/ScottEncodingGenerator)
 
-## Purpose
+###### Purpose
 
 The generator is intended for code shaped like a discriminated union encoded with nested types.
 
@@ -86,9 +86,9 @@ Instead of manually writing:
 
 the generator derives those from the target type and its nested case declarations.
 
-## Example
+###### Example
 
-### Input
+######### Input
 
 ```csharp
 [ScottEncoding]
@@ -107,7 +107,7 @@ public abstract partial class Option<T>
 }
 ```
 
-### Generated shape
+######### Generated shape
 
 The generator adds a `Match` member to the target:
 
@@ -169,11 +169,11 @@ var text = x
     .IfNone(_ => "None");
 ```
 
-## Interface targets
+###### Interface targets
 
 The generator also supports interface targets.
 
-### Input
+######### Input
 
 ```csharp
 [ScottEncoding]
@@ -199,7 +199,7 @@ public partial interface Expr
 }
 ```
 
-### Generated shape
+######### Generated shape
 
 For interfaces, the generator emits:
 
@@ -224,7 +224,7 @@ var value = expr.Match(
                _ => 0));
 ```
 
-## Rules
+###### Rules
 
 A target type must:
 
@@ -255,7 +255,7 @@ For interface targets, a nested case may:
 
 A nested case must not specify an unrelated base type.
 
-## Factories
+###### Factories
 
 For each accessible constructor on each case, the generator emits a factory method in `<TargetName>Module`.
 
@@ -277,7 +277,7 @@ public static Result<T> Error<T>(string message) => new Result<T>.Error(message)
 
 If a case has multiple accessible constructors, additional factory methods are emitted with suffixes derived from constructor parameters or an index.
 
-## Matching API
+###### Matching API
 
 The generated `Match<TResult>(...)` method takes one delegate per case, in declaration order.
 
@@ -305,11 +305,11 @@ value
     .IfLoading(...);
 ```
 
-## Diagnostics
+###### Diagnostics
 
 The generator reports the following diagnostics.
 
-### `SCOTT001`
+######### `SCOTT001`
 
 Target is not valid.
 
@@ -319,13 +319,13 @@ Raised when the target is not:
 * an interface
 * or an abstract class
 
-### `SCOTT002`
+######### `SCOTT002`
 
 No valid cases were found.
 
 Raised when the target does not declare any usable nested case types.
 
-### `SCOTT003`
+######### `SCOTT003`
 
 A nested case has an invalid shape.
 
@@ -335,21 +335,21 @@ Raised when a case is not a:
 * non-generic class
 * non-abstract class
 
-### `SCOTT004`
+######### `SCOTT004`
 
 A nested case has no accessible instance constructor.
 
-### `SCOTT005`
+######### `SCOTT005`
 
 A nested case has an invalid relationship to the target.
 
 Raised when a case declares an unrelated base type.
 
-### `SCOTT006`
+######### `SCOTT006`
 
 The target already declares a conflicting `Match` method.
 
-## Generated files
+###### Generated files
 
 The generator emits:
 
@@ -362,7 +362,7 @@ The generated code enables nullable references with:
 #nullable enable
 ```
 
-## Notes
+###### Notes
 
 * Cases are processed in a stable order based on syntax location.
 * The helper type is named `<TargetName>Module`.
@@ -370,7 +370,7 @@ The generated code enables nullable references with:
 * Matching delegates use fully qualified type names in generated code.
 * The generated API preserves target type parameters and constraint clauses.
 
-## Minimal example
+###### Minimal example
 
 ```csharp
 [ScottEncoding]
