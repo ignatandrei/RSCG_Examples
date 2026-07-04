@@ -2177,6 +2177,14 @@
       "Source": "https://github.com/Raffinert/AlephMapper",
       "Category": "Database",
       "AddedOn": "2026-06-29T00:00:00"
+    },
+    {
+      "Name": "ScottEncodingGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator",
+      "NuGet": "https://www.nuget.org/packages/ScottEncodingGenerator/",
+      "Source": "https://github.com/Georgiy-Petrov/ScottEncodingGenerator",
+      "Category": "FunctionalProgramming",
+      "AddedOn": "2026-06-30T00:00:00"
     }
   ]
 }

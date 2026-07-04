@@ -1648,5 +1648,11 @@
     "Category": 14,
     "dtStart": "2026-06-29T00:00:00",
     "show": true
+  },
+  {
+    "ID":"ScottEncodingGenerator",
+    "Category": 10,
+    "dtStart": "2026-06-30T00:00:00",
+    "show": true
   }
 ]
