@@ -271,3 +271,4 @@ Nr,Key,Source,Category
 270,AssemblyMetadata.Generators, https://github.com/loresoft/AssemblyMetadata.Generators,EnhancementProject
 271,TypedStateBuilder.Generator, https://github.com/Georgiy-Petrov/TypedStateBuilder.Generator,Builder
 272,AlephMapper, https://github.com/Raffinert/AlephMapper,Database
+273,ScottEncodingGenerator, https://github.com/Georgiy-Petrov/ScottEncodingGenerator,FunctionalProgramming

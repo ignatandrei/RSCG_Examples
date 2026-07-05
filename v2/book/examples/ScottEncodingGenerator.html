@@ -1,0 +1,70 @@
+
+<h1>RSCG nr 273 :  ScottEncodingGenerator</h1>
+
+<h2>Info</h2>
+Nuget : <a href="https://www.nuget.org/packages/ScottEncodingGenerator/" target="_blank">https://www.nuget.org/packages/ScottEncodingGenerator/</a>
+
+<p>You can find more details at : <a href="https://github.com/Georgiy-Petrov/ScottEncodingGenerator" target="_blank"> https://github.com/Georgiy-Petrov/ScottEncodingGenerator</a></p>
+
+<p>Author :Georgiy Petrov</p>
+
+<p>Source: <a href="https://github.com/Georgiy-Petrov/ScottEncodingGenerator" target="_blank">https://github.com/Georgiy-Petrov/ScottEncodingGenerator</a> </p>
+
+<h2>About</h2>
+
+Usage 1. You declare a union-like type as an abstract partial class and annotate it with ScottEncoding.2. Inside it, you define each case as a sealed partial nested class (in this sample: Ok and None).3. Your business logic returns one of those cases (Ok when save succeeds, None when it does not).4. Consumer code can handle results either with normal C# pattern matching or with the generated functional matching API.2. What the generator adds1. A Match contract on the parent union type, plus per-case implementations that dispatch to the correct handler.2. A companion module with factory helpers to construct each case (Ok / None) without directly calling constructors.3. A fluent matching flow (IfOk(...).IfNone(...)) built on top of Match.4. A generated ScottEncodingAttribute definition, so the attribute is available at compile time.
+
+<h2>
+    How to use
+</h2>
+<h3>
+    Add reference to the  <a href="https://www.nuget.org/packages/ScottEncodingGenerator/" target="_blank">ScottEncodingGenerator</a> in the csproj
+</h3>
+<img src="images/ScottEncodingGenerator/UnionTypesDemo.csproj.png" width="580" height="580" />
+
+<h3>This was for me the <b>starting</b> code</h3>
+
+        <br />
+        I have <b>coded</b> the file Program.cs
+        <br />
+    <img src="images/ScottEncodingGenerator/csFiles/Program.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file ResultSave.cs
+        <br />
+    <img src="images/ScottEncodingGenerator/csFiles/ResultSave.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file SaveToDatabase.cs
+        <br />
+    <img src="images/ScottEncodingGenerator/csFiles/SaveToDatabase.cs.png" width="580" height="580" />
+    <hr />
+    <h3>And here are the <i>generated</i> files</h3>
+
+        <br />
+        The file <i>generated</i> is global__UnionTypesDemo_ResultSave_T_.ScottEncoding.g.cs
+        <br />
+    <img src="images/ScottEncodingGenerator/generated/global__UnionTypesDemo_ResultSave_T_.ScottEncoding.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is ScottEncodingAttribute.g.cs
+        <br />
+    <img src="images/ScottEncodingGenerator/generated/ScottEncodingAttribute.g.cs.png" width="580" height="580" />
+    
+<p>
+    You can download the code and this page as pdf from
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator
+    </a>
+</p>
+
+
+<p>
+    You can see the whole list at 
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+

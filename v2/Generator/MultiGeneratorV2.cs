@@ -433,7 +433,10 @@ public class MultiGeneratorV2
         Description? desc = null;
         try
         {
-            desc = JsonSerializer.Deserialize<Description>(text);
+            var opt = new JsonSerializerOptions(JsonSerializerOptions.Default);
+            opt.AllowTrailingCommas = true;
+
+            desc = JsonSerializer.Deserialize<Description>(text,opt);
         }
         catch (Exception ex)
         {

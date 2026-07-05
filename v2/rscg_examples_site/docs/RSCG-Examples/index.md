@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 272 RSCG list by category
-description: 272 RSCG list by category
+title: 273 RSCG list by category
+description: 273 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1043,7 +1043,7 @@ import DocCardList from '@theme/DocCardList';
 ## FunctionalProgramming 
 <details>
     
-  <summary>Expand FunctionalProgramming =>examples:17</summary>
+  <summary>Expand FunctionalProgramming =>examples:18</summary>
         
 
 
@@ -1128,6 +1128,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Sundew.DiscriminatedUnions](/docs/Sundew.DiscriminatedUnions)
+
+        
+
+
+[ScottEncodingGenerator](/docs/ScottEncodingGenerator)
 
 </details>
     
@@ -2079,6 +2084,8 @@ flowchart LR;
     FunctionalProgramming--> rscg_demeter((rscg_demeter))
 
     FunctionalProgramming--> Sundew.DiscriminatedUnions((Sundew.DiscriminatedUnions))
+
+    FunctionalProgramming--> ScottEncodingGenerator((ScottEncodingGenerator))
 
     Hangfire--> HangfireRecurringJob((HangfireRecurringJob))
 

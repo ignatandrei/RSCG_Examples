@@ -1,0 +1,33 @@
+{
+   "generator":{
+      "name":"ScottEncodingGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/ScottEncodingGenerator/"
+      ],
+      "link":"https://github.com/Georgiy-Petrov/ScottEncodingGenerator",
+      "author":"Georgiy Petrov", 
+      "source":"https://github.com/Georgiy-Petrov/ScottEncodingGenerator"
+   },
+   "data":{
+      "goodFor":["Usage ",
+"1. You declare a union-like type as an abstract partial class and annotate it with ScottEncoding.",
+"2. Inside it, you define each case as a sealed partial nested class (in this sample: Ok and None).",
+"3. Your business logic returns one of those cases (Ok when save succeeds, None when it does not).",
+"4. Consumer code can handle results either with normal C# pattern matching or with the generated functional matching API.",
+"",
+"2. What the generator adds",
+"1. A Match contract on the parent union type, plus per-case implementations that dispatch to the correct handler.",
+"2. A companion module with factory helpers to construct each case (Ok / None) without directly calling constructors.",
+"3. A fluent matching flow (IfOk(...).IfNone(...)) built on top of Match.",
+"4. A generated ScottEncodingAttribute definition, so the attribute is available at compile time."
+   ],
+      "csprojDemo":"UnionTypesDemo.csproj",
+      "csFiles":["Program.cs","ResultSave.cs","SaveToDatabase.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

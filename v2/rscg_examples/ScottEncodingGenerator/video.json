@@ -1,0 +1,39 @@
+{
+    "scriptName": "ScottEncodingGenerator",
+    "steps":
+[
+    {"typeStep":"exec","arg":"clipchamp.exe launch"},
+    {"typeStep":"text","arg": "Welcome to Roslyn Examples"},
+    {"typeStep":"text","arg":"If you want to see more examples , see  List Of RSCG"},
+    {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
+    {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
+
+{"typeStep":"text","arg": "Today I will present ScottEncodingGenerator . Usage 1. You declare a union-like type as an abstract partial class and annotate it with ScottEncoding.2. Inside it, you define each case as a sealed partial nested class (in this sample: Ok and None).3. Your business logic returns one of those cases (Ok when save succeeds, None when it does not).4. Consumer code can handle results either with normal C# pattern matching or with the generated functional matching API.2. What the generator adds1. A Match contract on the parent union type, plus per-case implementations that dispatch to the correct handler.2. A companion module with factory helpers to construct each case (Ok / None) without directly calling constructors.3. A fluent matching flow (IfOk(...).IfNone(...)) built on top of Match.4. A generated ScottEncodingAttribute definition, so the attribute is available at compile time. ."},
+{"typeStep":"browser","arg":"https://www.nuget.org/packages/ScottEncodingGenerator/"},
+{"typeStep":"text","arg": "The whole example is here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator"},
+{"typeStep":"text","arg": "You can download the code from here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator#download-example-net--c-"},
+{"typeStep":"text","arg":"Here is the code downloaded "},
+{"typeStep":"exec","arg":"explorer.exe /select,D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ScottEncodingGenerator\\src\\UnionTypesDemo.sln"},
+{"typeStep":"text","arg": "So , let's start the project with Visual Studio Code "},
+{"typeStep":"stepvscode","arg": "-n D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ScottEncodingGenerator\\src"},
+
+{"typeStep":"text","arg": "To use it ,you will put the Nuget ScottEncodingGenerator into the csproj "},
+
+{"typeStep":"stepvscode","arg": "-r -g D:\\gth\\RSCG_Examples\\v2\\rscg_examples\\ScottEncodingGenerator\\src\\UnionTypesDemo\\UnionTypesDemo.csproj"},
+
+{"typeStep":"text","arg": "And now I will show you an example of using ScottEncodingGenerator"},
+
+{"typeStep":"hide","arg": "now execute the tour in VSCode"},
+{"typeStep":"tour", "arg": "src/.tours/"},
+{"typeStep":"text","arg":" And I will execute the project"}, 
+{"typeStep":"showproj", "arg":"UnionTypesDemo.csproj"},
+{"typeStep":"text","arg":" This concludes the project"},
+{"typeStep":"waitseconds","arg":"30"},
+{"typeStep":"text","arg": "Remember, you can download the code from here"},
+{"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator#download-example-net--c-",
+SpeakTest=" "},
+{"typeStep":"waitseconds","arg":"30"},
+]
+}

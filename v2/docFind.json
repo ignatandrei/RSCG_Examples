@@ -1630,5 +1630,11 @@
     "category": "Database",
     "href": "/RSCG_Examples/v2/docs/AlephMapper/",
     "body": "Source generator for creating projectable companions"
+  },
+  {
+    "title": "ScottEncodingGenerator",
+    "category": "FunctionalProgramming",
+    "href": "/RSCG_Examples/v2/docs/ScottEncodingGenerator/",
+    "body": "Roslyn incremental source generator for partial interfaces and abstract partial classes that generates Match methods, nested case implementations, and companion module helpers for Scott-encoded types."
   }
 ]

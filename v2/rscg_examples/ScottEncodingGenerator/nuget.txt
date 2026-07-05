@@ -1,0 +1,1 @@
+Roslyn incremental source generator for partial interfaces and abstract partial classes that generates Match methods, nested case implementations, and companion module helpers for Scott-encoded types.

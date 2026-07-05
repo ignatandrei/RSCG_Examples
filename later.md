@@ -1,6 +1,6 @@
 # Just later
 
-## Latest Update : 2026-06-29 => 29 June 2026
+## Latest Update : 2026-06-30 => 30 June 2026
 
 
 
