@@ -2185,6 +2185,14 @@
       "Source": "https://github.com/Georgiy-Petrov/ScottEncodingGenerator",
       "Category": "FunctionalProgramming",
       "AddedOn": "2026-06-30T00:00:00"
+    },
+    {
+      "Name": "Dirge",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge",
+      "NuGet": "https://www.nuget.org/packages/Dirge/",
+      "Source": "https://github.com/IkuzakIkuzok/Dirge",
+      "Category": "Disposer",
+      "AddedOn": "2023-07-01T00:00:00"
     }
   ]
 }

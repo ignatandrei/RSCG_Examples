@@ -1,6 +1,6 @@
-# RSCG - 273 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 274 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 273 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 274 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 273 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 274 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 274. [Dirge](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2023-07-01 => 01 July 2023
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Kazuki Kohzuki
+
+Disposable Implementation Roslyn Generator Extension 
+
+Nuget: [https://www.nuget.org/packages/Dirge/](https://www.nuget.org/packages/Dirge/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge)
+
+Source: [https://github.com/IkuzakIkuzok/Dirge](https://github.com/IkuzakIkuzok/Dirge)
+
+</details>
+
 ### 273. [ScottEncodingGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ScottEncodingGenerator) , in the [FunctionalProgramming](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#functionalprogramming) category 
 
 Generated on : 2026-06-30 => 30 June 2026

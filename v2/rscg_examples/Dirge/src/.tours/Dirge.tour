@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Dirge",
+  "steps": 
+  [
+    {
+      "file": "IDisp/IDisp.csproj",
+      "description": "First, we add Nuget  [Dirge](https://www.nuget.org/packages/Dirge/) in csproj  ",
+      "pattern": "Dirge"
+    }
+
+        ,{
+        "file": "IDisp/ConnectionDB.cs",
+        "description": "File ConnectionDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/DALDB.cs",
+        "description": "File DALDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "IDisp/obj/GX/Dirge/Dirge.Generators.TypesGenerator/DoNotDisposeWhenAttribute.g.cs",
+        "description": "Generated File 4  from 4 : DoNotDisposeWhenAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Dirge/Dirge.Generators.TypesGenerator/DoNotDisposeAttribute.g.cs",
+        "description": "Generated File 3  from 4 : DoNotDisposeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Dirge/Dirge.Generators.TypesGenerator/AutoDisposeAttribute.g.cs",
+        "description": "Generated File 2  from 4 : AutoDisposeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "IDisp/obj/GX/Dirge/Dirge.Generators.DisposeGenerator/DALDB.GeneratedDispose.g.cs",
+        "description": "Generated File 1  from 4 : DALDB.GeneratedDispose.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

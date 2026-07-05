@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Dirge",
+      "nuget":[
+         "https://www.nuget.org/packages/Dirge/"
+      ],
+      "link":"https://github.com/IkuzakIkuzok/Dirge",
+      "author":"Kazuki Kohzuki",
+      "source":"https://github.com/IkuzakIkuzok/Dirge"
+   },
+   "data":{
+      "goodFor":["Generating disposable"],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
