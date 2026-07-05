@@ -1636,5 +1636,11 @@
     "category": "FunctionalProgramming",
     "href": "/RSCG_Examples/v2/docs/ScottEncodingGenerator/",
     "body": "Roslyn incremental source generator for partial interfaces and abstract partial classes that generates Match methods, nested case implementations, and companion module helpers for Scott-encoded types."
+  },
+  {
+    "title": "Dirge",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/Dirge/",
+    "body": "Disposable Implementation Roslyn Generator Extension"
   }
 ]
