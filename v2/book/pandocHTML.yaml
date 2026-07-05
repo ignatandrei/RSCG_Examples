@@ -287,6 +287,7 @@ input-files:
 - examples/TypedStateBuilder.Generator.html
 - examples/AlephMapper.html
 - examples/ScottEncodingGenerator.html
+- examples/Dirge.html
 
 # or you may use input-file: with a single value
 # defaults:

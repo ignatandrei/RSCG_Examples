@@ -1,0 +1,80 @@
+
+<h1>RSCG nr 274 :  Dirge</h1>
+
+<h2>Info</h2>
+Nuget : <a href="https://www.nuget.org/packages/Dirge/" target="_blank">https://www.nuget.org/packages/Dirge/</a>
+
+<p>You can find more details at : <a href="https://github.com/IkuzakIkuzok/Dirge" target="_blank"> https://github.com/IkuzakIkuzok/Dirge</a></p>
+
+<p>Author :Kazuki Kohzuki</p>
+
+<p>Source: <a href="https://github.com/IkuzakIkuzok/Dirge" target="_blank">https://github.com/IkuzakIkuzok/Dirge</a> </p>
+
+<h2>About</h2>
+
+**Dirge** is a Roslyn-based code generator that automatically implements the `IDisposable` pattern for C# classes.Key Features:1. **AutoDispose Attribute**: Mark any partial class with `[AutoDispose]` to automatically generate `Dispose()` and `Dispose(bool)` methods.2. **Automatic Field Disposal**: The generator detects all disposable fields and automatically calls `.Dispose()` on them in the correct order.
+
+<h2>
+    How to use
+</h2>
+<h3>
+    Add reference to the  <a href="https://www.nuget.org/packages/Dirge/" target="_blank">Dirge</a> in the csproj
+</h3>
+<img src="images/Dirge/IDisp.csproj.png" width="580" height="580" />
+
+<h3>This was for me the <b>starting</b> code</h3>
+
+        <br />
+        I have <b>coded</b> the file Program.cs
+        <br />
+    <img src="images/Dirge/csFiles/Program.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file DALDB.cs
+        <br />
+    <img src="images/Dirge/csFiles/DALDB.cs.png" width="580" height="580" />
+    <hr />
+    
+        <br />
+        I have <b>coded</b> the file ConnectionDB.cs
+        <br />
+    <img src="images/Dirge/csFiles/ConnectionDB.cs.png" width="580" height="580" />
+    <hr />
+    <h3>And here are the <i>generated</i> files</h3>
+
+        <br />
+        The file <i>generated</i> is DALDB.GeneratedDispose.g.cs
+        <br />
+    <img src="images/Dirge/generated/DALDB.GeneratedDispose.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is AutoDisposeAttribute.g.cs
+        <br />
+    <img src="images/Dirge/generated/AutoDisposeAttribute.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is DoNotDisposeAttribute.g.cs
+        <br />
+    <img src="images/Dirge/generated/DoNotDisposeAttribute.g.cs.png" width="580" height="580" />
+    
+        <br />
+        The file <i>generated</i> is DoNotDisposeWhenAttribute.g.cs
+        <br />
+    <img src="images/Dirge/generated/DoNotDisposeWhenAttribute.g.cs.png" width="580" height="580" />
+    
+<p>
+    You can download the code and this page as pdf from
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge
+    </a>
+</p>
+
+
+<p>
+    You can see the whole list at 
+    <a target="_blank" href='https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG'>
+        https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG
+    </a>
+</p>
+
