@@ -20,7 +20,7 @@ This is the list of 274 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|274| [Dirge by Kazuki Kohzuki ](/docs/Dirge)|2023-07-01 => 01 July 2023 | [Disposer](/docs/Categories/Disposer) |
+|274| [Dirge by Kazuki Kohzuki ](/docs/Dirge)|2026-07-01 => 01 July 2026 | [Disposer](/docs/Categories/Disposer) |
 |273| [ScottEncodingGenerator by Georgiy Petrov ](/docs/ScottEncodingGenerator)|2026-06-30 => 30 June 2026 | [FunctionalProgramming](/docs/Categories/FunctionalProgramming) |
 |272| [AlephMapper by Yevhen Cherkes ](/docs/AlephMapper)|2026-06-29 => 29 June 2026 | [Database](/docs/Categories/Database) |
 |271| [TypedStateBuilder.Generator by Georgiy Petrov ](/docs/TypedStateBuilder.Generator)|2026-05-16 => 16 May 2026 | [Builder](/docs/Categories/Builder) |

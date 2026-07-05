@@ -4,7 +4,7 @@ The RSCG_Examples repository is a comprehensive documentation system that automa
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-06-30 => 30 June 2026
+## Latest Update : 2026-07-01 => 01 July 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -28,7 +28,7 @@ Those are the 274 Roslyn Source Code Generators that I have tested you can see a
 ( including 16 from Microsoft )
 ### 274. [Dirge](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
 
-Generated on : 2023-07-01 => 01 July 2023
+Generated on : 2026-07-01 => 01 July 2026
 
 <details>
   <summary>Expand</summary>

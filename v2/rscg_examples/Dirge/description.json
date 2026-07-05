@@ -9,7 +9,17 @@
       "source":"https://github.com/IkuzakIkuzok/Dirge"
    },
    "data":{
-      "goodFor":["Generating disposable"],
+      "goodFor":["",
+"",
+"**Dirge** is a Roslyn-based code generator that automatically implements the `IDisposable` pattern for C# classes.",
+"",
+"Key Features:",
+"",
+"1. **AutoDispose Attribute**: Mark any partial class with `[AutoDispose]` to automatically generate `Dispose()` and `Dispose(bool)` methods.",
+"",
+"2. **Automatic Field Disposal**: The generator detects all disposable fields and automatically calls `.Dispose()` on them in the correct order.",
+""
+],
       "csprojDemo":"IDisp.csproj",
       "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"],
       "excludeDirectoryGenerated":[""],
