@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2740
 title: 274 - Dirge
-description: 
+description: Generating IDisposable automatically for any fields. 
 slug: /Dirge
 ---
 import Tabs from '@theme/Tabs';
