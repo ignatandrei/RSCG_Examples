@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2740
 title: 274 - Dirge
-description: Generating IDisposable automatically for any fields. 
+description: 
 slug: /Dirge
 ---
 import Tabs from '@theme/Tabs';
@@ -277,7 +277,7 @@ Properties and methods are not supported for the current version.
 
 
 
-**Dirge** is a Roslyn-based code generator that automatically implements the `IDisposable` pattern for C# classes.
+Dirge is a Roslyn-based code generator that automatically implements the `IDisposable` pattern for C# classes.
 
 
 
@@ -289,13 +289,13 @@ Key Features:
 
 
 
-1. **AutoDispose Attribute**: Mark any partial class with `[AutoDispose]` to automatically generate `Dispose()` and `Dispose(bool)` methods.
+1. AutoDispose Attribute: Mark any partial class with `[AutoDispose]` to automatically generate `Dispose()` and `Dispose(bool)` methods.
 
 
 
 
 
-2. **Automatic Field Disposal**: The generator detects all disposable fields and automatically calls `.Dispose()` on them in the correct order.
+2. Automatic Field Disposal: The generator detects all disposable fields and automatically calls `.Dispose()` on them in the correct order.
 
 
 

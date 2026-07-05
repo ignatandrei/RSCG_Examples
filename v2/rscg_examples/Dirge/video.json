@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present Dirge . **Dirge** is a Roslyn-based code generator that automatically implements the `IDisposable` pattern for C# classes.Key Features:1. **AutoDispose Attribute**: Mark any partial class with `[AutoDispose]` to automatically generate `Dispose()` and `Dispose(bool)` methods.2. **Automatic Field Disposal**: The generator detects all disposable fields and automatically calls `.Dispose()` on them in the correct order. ."},
+{"typeStep":"text","arg": "Today I will present Dirge . Dirge is a Roslyn-based code generator that automatically implements the `IDisposable` pattern for C# classes.Key Features:1. AutoDispose Attribute: Mark any partial class with `[AutoDispose]` to automatically generate `Dispose()` and `Dispose(bool)` methods.2. Automatic Field Disposal: The generator detects all disposable fields and automatically calls `.Dispose()` on them in the correct order. ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/Dirge/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Dirge"},
