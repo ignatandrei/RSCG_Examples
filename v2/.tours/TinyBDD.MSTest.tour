@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TinyBDD.MSTest",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/TinyBDD.MSTest/src/TestClock/TestClock.csproj",
+      "description": "First, we add Nuget  [TinyBDD.MSTest](https://www.nuget.org/packages/TinyBDD.MSTest/) in csproj  ",
+      "pattern": "TinyBDD.MSTest"
+    }
+
+        ,{
+        "file": "rscg_examples/TinyBDD.MSTest/src/TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/TinyBDD.MSTest/src/TestClock/obj/GX/TinyBDD.SourceGenerators/TinyBDD.SourceGenerators.TinyBddOptimizer/TestClock_TestData_TestMyClock_Optimized.g.cs",
+        "description": "Generated File 1  from 1 : TestClock_TestData_TestMyClock_Optimized.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
