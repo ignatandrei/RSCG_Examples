@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TinyBDD.MSTest",
+      "nuget":[
+         "https://www.nuget.org/packages/TinyBDD.MSTest/"
+      ],
+      "link":"https://github.com/JerrettDavis/TinyBDD",
+      "author":"Jerrett Davis",
+      "source":"https://github.com/JerrettDavis/TinyBDD"
+   },
+   "data":{
+      "goodFor":["Optimizing Test Code with BDD Style Testing"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["TestClock.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
