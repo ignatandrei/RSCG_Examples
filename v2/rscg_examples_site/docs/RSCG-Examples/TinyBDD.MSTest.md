@@ -49,12 +49,12 @@ Jerrett Davis
 ## Original Readme
 :::note
 
-# TinyBDD
+### TinyBDD
 
 [![CI](https://github.com/JerrettDavis/TinyBDD/actions/workflows/ci.yml/badge.svg)](https://github.com/JerrettDavis/TinyBDD/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/JerrettDavis/TinyBDD/branch/main/graph/badge.svg)](https://codecov.io/gh/JerrettDavis/TinyBDD)
 [![CodeQL](https://github.com/JerrettDavis/TinyBDD/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/JerrettDavis/TinyBDD/security/code-scanning)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/JerrettDavis/TinyBDD/LICENSE.md)
 ![.NET Versions](https://img.shields.io/badge/.NET%208.0%20%7C%209.0-blue)
 
 **NuGet Packages:**
@@ -88,9 +88,9 @@ Both approaches are designed to:
 
 ---
 
-## Features
+###### Features
 
-### Code-First Approach
+######### Code-First Approach
 
 - **Readable BDD syntax**:
   ```csharp
@@ -117,7 +117,7 @@ Both approaches are designed to:
   But != 11 [OK]
   ```
 
-### File-Based Approach
+######### File-Based Approach
 
 - **Gherkin .feature files**:
   ```gherkin
@@ -142,7 +142,7 @@ Both approaches are designed to:
 - **Scenario Outlines** with Examples tables for parameterized tests
 - **YAML format** as alternative to Gherkin for tooling integration
 
-### Framework Integration
+######### Framework Integration
 
 - **Test framework adapters**:
 
@@ -153,7 +153,7 @@ Both approaches are designed to:
 
 ---
 
-## Installation
+###### Installation
 
 Add TinyBDD via NuGet:
 
@@ -188,20 +188,20 @@ dotnet add package TinyBDD.Xunit.v3
 For Extensions:
 
 ```powershell
-# File-Based DSL (Gherkin and YAML)
+### File-Based DSL (Gherkin and YAML)
 dotnet add package TinyBDD.Extensions.FileBased
 
-# Dependency Injection
+### Dependency Injection
 dotnet add package TinyBDD.Extensions.DependencyInjection
 
-# Hosting (includes DI)
+### Hosting (includes DI)
 dotnet add package TinyBDD.Extensions.Hosting
 
-# JSON Reporting
+### JSON Reporting
 dotnet add package TinyBDD.Extensions.Reporting
 ```
 
-### ⚡ Performance Optimization (Automatic!)
+######### ⚡ Performance Optimization (Automatic!)
 
 TinyBDD includes a **Roslyn source generator** that **automatically optimizes ALL BDD tests at compile-time** starting in v1.1. No attributes needed, no configuration, no additional packages!
 
@@ -257,9 +257,9 @@ The generator transforms fluent chains into optimized procedural code while main
 
 ---
 
-## Basic Usage
+###### Basic Usage
 
-### MSTest Example
+######### MSTest Example
 
 ```csharp
 using TinyBDD.MSTest;
@@ -283,7 +283,7 @@ public class MathTests : TinyBddMsTestBase
 
 ---
 
-### NUnit Example
+######### NUnit Example
 
 ```csharp
 using TinyBDD.NUnit;
@@ -306,7 +306,7 @@ public class MathTests : TinyBddNUnitBase
 
 ---
 
-### xUnit Example
+######### xUnit Example
 
 ```csharp
 using TinyBDD.Xunit;
@@ -329,9 +329,9 @@ public class MathTests : TinyBddXunitBase
 
 ---
 
-## File-Based Usage
+###### File-Based Usage
 
-### Gherkin Feature File
+######### Gherkin Feature File
 
 Create `Features/Calculator.feature`:
 
@@ -355,7 +355,7 @@ Examples:
   | 4 | 5 | 20       |
 ```
 
-### Driver Implementation
+######### Driver Implementation
 
 ```csharp
 using TinyBDD.Extensions.FileBased.Core;
@@ -396,7 +396,7 @@ public class CalculatorDriver : IApplicationDriver
 }
 ```
 
-### Test Class
+######### Test Class
 
 ```csharp
 using TinyBDD.Extensions.FileBased;
@@ -432,7 +432,7 @@ Scenario Outline: Multiply numbers (Example 1: a=2, b=3, expected=6)
 
 ---
 
-## Step Types
+###### Step Types
 
 | Step    | Purpose                                     | Example                        |
 |---------|---------------------------------------------|--------------------------------|
@@ -446,7 +446,7 @@ All step types have **sync** and **async** overloads.
 
 ---
 
-## Cleanup with Finally
+###### Cleanup with Finally
 
 `Finally` registers cleanup handlers that execute after all steps complete, even if steps throw exceptions. This is useful for resource cleanup like disposing objects:
 
@@ -480,7 +480,7 @@ await Given("resource A", () => new ResourceA())
 
 ---
 
-## Tags
+###### Tags
 
 Tags can be added for reporting and filtering:
 
@@ -498,7 +498,7 @@ In xUnit, tags are logged to the test output:
 
 ---
 
-## Asserting Pass/Fail
+###### Asserting Pass/Fail
 
 TinyBDD tracks step results internally. At the end of the scenario, call one of the following methods:
 
@@ -523,7 +523,7 @@ This ensures that all steps passed and throws if any failed.
 
 ---
 
-## Philosophy
+###### Philosophy
 
 TinyBDD was created with a few guiding principles:
 
@@ -546,7 +546,7 @@ TinyBDD was created with a few guiding principles:
 
 ---
 
-## Gherkin-Style Output
+###### Gherkin-Style Output
 
 When running a scenario, TinyBDD prints structured step output similar to Gherkin formatting.  
 For example:
@@ -576,7 +576,7 @@ If a step fails, you’ll see exactly which step failed, how long it took, and t
 
 ---
 
-## Why Use TinyBDD?
+###### Why Use TinyBDD?
 
 TinyBDD offers flexibility that traditional BDD tools don't:
 
@@ -596,7 +596,7 @@ TinyBDD offers flexibility that traditional BDD tools don't:
 
 ---
 
-## Minimal Example
+###### Minimal Example
 
 For the smallest possible test:
 
@@ -617,7 +617,7 @@ Then equals two [OK]
 
 ---
 
-## Async Philosophy
+###### Async Philosophy
 
 In TinyBDD, sync and async steps are **equally first-class** citizens.
 
@@ -639,7 +639,7 @@ You can even mix sync and async steps freely in the same scenario.
 
 ---
 
-## Output Style
+###### Output Style
 
 TinyBDD always prints the BDD keyword for the step type (`Given`, `When`, `Then`, `And`, `But`), the step title, the
 result `[OK]` / `[FAIL]`, and the elapsed time in milliseconds.
@@ -654,7 +654,7 @@ Actual:   3
 
 ---
 
-## Recommended Usage
+###### Recommended Usage
 
 * One **scenario** per test method.
 * Keep each step **single-purpose**—avoid hiding multiple unrelated actions in one step.
@@ -664,9 +664,9 @@ Actual:   3
 
 ----
 
-## License
+###### License
 
-[MIT License](LICENSE)
+[MIT License](https://github.com/JerrettDavis/TinyBDD/LICENSE)
 
 
 :::

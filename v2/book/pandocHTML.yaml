@@ -289,6 +289,7 @@ input-files:
 - examples/ScottEncodingGenerator.html
 - examples/Dirge.html
 - examples/Porticle.Enumly.html
+- examples/TinyBDD.MSTest.html
 
 # or you may use input-file: with a single value
 # defaults:
