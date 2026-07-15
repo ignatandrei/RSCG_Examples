@@ -2193,6 +2193,14 @@
       "Source": "https://github.com/IkuzakIkuzok/Dirge",
       "Category": "Disposer",
       "AddedOn": "2026-07-01T00:00:00"
+    },
+    {
+      "Name": "Porticle.Enumly",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Porticle.Enumly",
+      "NuGet": "https://www.nuget.org/packages/Porticle.Enumly/",
+      "Source": "https://github.com/Machibuse/Porticle.Enumly",
+      "Category": "Enum",
+      "AddedOn": "2026-07-02T00:00:00"
     }
   ]
 }
