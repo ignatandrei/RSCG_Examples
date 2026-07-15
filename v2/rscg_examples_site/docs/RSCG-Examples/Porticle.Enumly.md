@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2750
 title: 275 - Porticle.Enumly
-description: Mapping enum to enum
+description: generate enum-to-enum mappings, so one enum values can be converted to another enum type with matching names or values
 slug: /Porticle.Enumly
 ---
 import Tabs from '@theme/Tabs';
@@ -261,7 +261,7 @@ MIT — see [LICENSE](https://github.com/Machibuse/Porticle.Enumly/LICENSE).
 ### About
 :::note
 
-Mapping enum to enum
+generate enum-to-enum mappings, so one enum values can be converted to another enum type with matching names or values
 
 
 :::

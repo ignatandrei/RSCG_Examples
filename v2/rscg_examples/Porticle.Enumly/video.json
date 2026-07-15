@@ -8,7 +8,7 @@
     {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG"},
     {"typeStep":"text","arg": "My name is Andrei Ignat and I am deeply fond of Roslyn Source Code Generator. "},
 
-{"typeStep":"text","arg": "Today I will present Porticle.Enumly . Mapping enum to enum ."},
+{"typeStep":"text","arg": "Today I will present Porticle.Enumly . generate enum-to-enum mappings, so one enum values can be converted to another enum type with matching names or values ."},
 {"typeStep":"browser","arg":"https://www.nuget.org/packages/Porticle.Enumly/"},
 {"typeStep":"text","arg": "The whole example is here"},
 {"typeStep":"browser","arg":"https://ignatandrei.github.io/RSCG_Examples/v2/docs/Porticle.Enumly"},

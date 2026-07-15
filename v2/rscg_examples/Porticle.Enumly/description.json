@@ -9,7 +9,7 @@
       "source":"https://github.com/Machibuse/Porticle.Enumly"
    },
    "data":{
-      "goodFor":["Mapping enum to enum"],
+      "goodFor":["generate enum-to-enum mappings, so one enum values can be converted to another enum type with matching names or values"],
       "csprojDemo":"EnumDemo.csproj",
       "csFiles":["Program.cs","CarTypes.cs","Mapper.cs"],
       "excludeDirectoryGenerated":[""],
