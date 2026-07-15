@@ -288,6 +288,7 @@ input-files:
 - examples/AlephMapper.html
 - examples/ScottEncodingGenerator.html
 - examples/Dirge.html
+- examples/Porticle.Enumly.html
 
 # or you may use input-file: with a single value
 # defaults:
