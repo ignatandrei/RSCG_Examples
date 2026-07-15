@@ -49,29 +49,29 @@ Carsten Jendro
 ## Original Readme
 :::note
 
-# Porticle.Enumly
+### Porticle.Enumly
 
 A Roslyn source generator for compile-time enum-to-enum mapping. Mark a partial class
 with `[EnumlyClass]` and partial methods with `[EnumlyMap]` and Porticle.Enumly fills
 in the implementation — by member name, with prefix stripping, nullable enum support,
 explicit value overrides and exhaustive coverage diagnostics.
 
-## Build State
+###### Build State
 
 [![Build and Release](https://github.com/Machibuse/Porticle.Enumly/actions/workflows/release.yaml/badge.svg)](https://github.com/Machibuse/Porticle.Enumly/actions/workflows/release.yaml)
 
-## NuGet
+###### NuGet
 
 [![NuGet Latest Version](https://img.shields.io/nuget/v/Porticle.Enumly.svg)](https://www.nuget.org/packages/Porticle.Enumly/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Porticle.Enumly.svg)](https://www.nuget.org/packages/Porticle.Enumly/)
 
-## Installation
+###### Installation
 
 ```powershell
 dotnet add package Porticle.Enumly
 ```
 
-## Quick start
+###### Quick start
 
 ```csharp
 using Porticle.Enumly;
@@ -94,9 +94,9 @@ The generator produces a switch-based implementation that maps members by name. 
 source value has no matching target, you get a compile-time error (`EM0001`) — no
 silent fallthroughs.
 
-## Features
+###### Features
 
-### By-name matching with prefix stripping
+######### By-name matching with prefix stripping
 
 If every member of an enum shares a common prefix that ends at a Pascal-case boundary,
 that prefix is ignored when matching against the other enum:
@@ -115,7 +115,7 @@ back to the last position where every member's next character is uppercase. Sour
 and target are analyzed independently, so prefix stripping works even when only one
 side has a prefix.
 
-### Nullable enum mappings
+######### Nullable enum mappings
 
 All four direction combinations work:
 
@@ -153,7 +153,7 @@ fails with `EM0011`.
 public static partial Foo ToFoo(Bar? value);   // T? -> U  (null -> throw)
 ```
 
-### Explicit value overrides
+######### Explicit value overrides
 
 For special cases where by-name matching can't reach (because the names don't line
 up even after prefix stripping), use `[EnumlyMapValue]`:
@@ -168,7 +168,7 @@ Explicit mappings override by-name matching for the given source value. The
 attribute can be applied multiple times per method. A source value covered by an
 `[EnumlyMapValue]` is exempt from the coverage diagnostic.
 
-### Ignoring unmapped values
+######### Ignoring unmapped values
 
 By default the generator enforces coverage in **both directions**:
 
@@ -196,7 +196,7 @@ public static partial Foo ToFoo(Bar value);
 Both attributes can be applied multiple times. The argument's enum type is
 verified at compile time (otherwise `EM0009`, error).
 
-## Diagnostics
+###### Diagnostics
 
 | ID     | Severity | Meaning                                                                                                                                                                               |
 |--------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -214,7 +214,7 @@ verified at compile time (otherwise `EM0009`, error).
 
 `NullTargetValue` and `IgnoreNullSource` on a non-nullable source are allowed and ignored — no diagnostic.
 
-## Example: full mapper class
+###### Example: full mapper class
 
 ```csharp
 using Porticle.Enumly;
@@ -251,9 +251,9 @@ public static partial Foo ToFoo(Bar value)
 }
 ```
 
-## License
+###### License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](https://github.com/Machibuse/Porticle.Enumly/LICENSE).
 
 
 :::
