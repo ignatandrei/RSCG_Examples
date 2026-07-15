@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Porticle.Enumly",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [Porticle.Enumly](https://www.nuget.org/packages/Porticle.Enumly/) in csproj  ",
+      "pattern": "Porticle.Enumly"
+    }
+
+        ,{
+        "file": "EnumDemo/Mapper.cs",
+        "description": "File Mapper.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/Porticle.Enumly/Porticle.Enumly.EnumlyGenerator/EnumMapperAttributes.g.cs",
+        "description": "Generated File 2  from 2 : EnumMapperAttributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Porticle.Enumly/Porticle.Enumly.EnumlyGenerator/EnumDemo.Mapper.EnumMapper.g.cs",
+        "description": "Generated File 1  from 2 : EnumDemo.Mapper.EnumMapper.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
