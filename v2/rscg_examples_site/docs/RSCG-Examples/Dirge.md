@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2740
 title: 274 - Dirge
-description: 
+description: Automatic IDisposable
 slug: /Dirge
 ---
 import Tabs from '@theme/Tabs';

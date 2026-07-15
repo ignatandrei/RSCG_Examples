@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Porticle.Enumly",
+      "nuget":[
+         "https://www.nuget.org/packages/Porticle.Enumly/"
+      ],
+      "link":"https://github.com/Machibuse/Porticle.Enumly",
+      "author":"Carsten Jendro",
+      "source":"https://github.com/Machibuse/Porticle.Enumly"
+   },
+   "data":{
+      "goodFor":["Mapping enum to enum"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs","Mapper.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
