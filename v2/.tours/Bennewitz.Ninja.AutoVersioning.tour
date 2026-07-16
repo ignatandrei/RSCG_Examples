@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Bennewitz.Ninja.AutoVersioning",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Bennewitz.Ninja.AutoVersioning/src/InfoPrj/InfoPrj.csproj",
+      "description": "First, we add Nuget  [Bennewitz.Ninja.AutoVersioning](https://www.nuget.org/packages/Bennewitz.Ninja.AutoVersioning/) in csproj  ",
+      "pattern": "Bennewitz.Ninja.AutoVersioning"
+    }
+
+        ,{
+        "file": "rscg_examples/Bennewitz.Ninja.AutoVersioning/src/InfoPrj/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Bennewitz.Ninja.AutoVersioning/src/InfoPrj/InfoPrj.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Bennewitz.Ninja.AutoVersioning/src/InfoPrj/obj/GX/Bennewitz.Ninja.AutoVersioning.SourceGenerators/Bennewitz.Ninja.AutoVersioning.SourceGenerators.AssemblyInfoGenerator/DirectoryBuildInfo.g.cs",
+        "description": "Generated File 2  from 2 : DirectoryBuildInfo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Bennewitz.Ninja.AutoVersioning/src/InfoPrj/obj/GX/Bennewitz.Ninja.AutoVersioning.SourceGenerators/Bennewitz.Ninja.AutoVersioning.SourceGenerators.AssemblyInfoGenerator/AutoVersionedAssemblyInfo.g.cs",
+        "description": "Generated File 1  from 2 : AutoVersionedAssemblyInfo.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
