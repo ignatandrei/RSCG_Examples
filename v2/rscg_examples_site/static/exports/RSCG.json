@@ -2209,6 +2209,14 @@
       "Source": "https://github.com/JerrettDavis/TinyBDD",
       "Category": "Tests",
       "AddedOn": "2026-07-03T00:00:00"
+    },
+    {
+      "Name": "Bennewitz.Ninja.AutoVersioning",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Bennewitz.Ninja.AutoVersioning",
+      "NuGet": "https://www.nuget.org/packages/Bennewitz.Ninja.AutoVersioning/",
+      "Source": "https://github.com/JanusMael/Bennewitz.Ninja.AutoVersioning",
+      "Category": "EnhancementProject",
+      "AddedOn": "2026-07-04T00:00:00"
     }
   ]
 }

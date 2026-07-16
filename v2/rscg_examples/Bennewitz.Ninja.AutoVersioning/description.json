@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Bennewitz.Ninja.AutoVersioning",
+      "nuget":[
+         "https://www.nuget.org/packages/Bennewitz.Ninja.AutoVersioning/"
+      ],
+      "link":"https://github.com/JanusMael/Bennewitz.Ninja.AutoVersioning",
+      "author":"Brian Bennewitz",
+      "source":"https://github.com/JanusMael/Bennewitz.Ninja.AutoVersioning"
+   },
+   "data":{
+      "goodFor":["Generating build version numbers for .NET projects"],
+      "csprojDemo":"InfoPrj.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

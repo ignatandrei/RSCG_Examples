@@ -118,6 +118,9 @@ public class MultiGeneratorV2
         if (File.Exists(nameFile))
         { 
             var text=await File.ReadAllTextAsync(nameFile);
+            text = text.Replace("(Directory.Build.props.template", $"({d.Generator!.Source}/Directory.Build.props.template");
+            text = text.Replace("(Build.ps1.template", $"({d.Generator!.Source}/Build.ps1.template");
+            text = text.Replace("(Build.sh.template", $"({d.Generator!.Source}/Build.sh.template");
             text = text.Replace("(examples/", $"({d.Generator!.Source}/examples/");
             text = text.Replace("(tests/", $"({d.Generator!.Source}/tests/");
 
