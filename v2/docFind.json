@@ -1117,7 +1117,7 @@
   },
   {
     "title": "EntityLengths.Generator",
-    "category": "Database",
+    "category": "EntityFramework",
     "href": "/RSCG_Examples/v2/docs/EntityLengths.Generator/",
     "body": "A C# source generator that automatically generates string length constants from Entity Framework configurations and data annotations."
   },
@@ -1653,6 +1653,18 @@
     "title": "TinyBDD.MSTest",
     "category": "Tests",
     "href": "/RSCG_Examples/v2/docs/TinyBDD.MSTest/",
+    "body": "Package Description"
+  },
+  {
+    "title": "Bennewitz.Ninja.AutoVersioning",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/Bennewitz.Ninja.AutoVersioning/",
+    "body": "Assembly info incremental source generator."
+  },
+  {
+    "title": "Atulin.AutoDbSet",
+    "category": "EntityFramework",
+    "href": "/RSCG_Examples/v2/docs/Atulin.AutoDbSet/",
     "body": "Package Description"
   }
 ]

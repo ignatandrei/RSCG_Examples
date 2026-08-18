@@ -4,7 +4,7 @@ The RSCG_Examples repository is a comprehensive documentation system that automa
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-07-04 => 04 July 2026
+## Latest Update : 2026-08-18 => 18 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -28,7 +28,7 @@ Those are the 278 Roslyn Source Code Generators that I have tested you can see a
 ( including 16 from Microsoft )
 ### 278. [Atulin.AutoDbSet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Atulin.AutoDbSet) , in the [EntityFramework](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#entityframework) category 
 
-Generated on : 2025-08-04 => 04 August 2025
+Generated on : 2026-08-18 => 18 August 2026
 
 <details>
   <summary>Expand</summary>
