@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 277 RSCG with examples in descending chronological order
+## 278 RSCG with examples in descending chronological order
 
-This is the list of 277 ( 16 from Microsoft) RSCG with examples 
+This is the list of 278 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 277 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|278| [Atulin.AutoDbSet by Angius Atulin ](/docs/Atulin.AutoDbSet)|2026-08-18 => 18 August 2026 | [EntityFramework](/docs/Categories/EntityFramework) |
 |277| [Bennewitz.Ninja.AutoVersioning by Brian Bennewitz ](/docs/Bennewitz.Ninja.AutoVersioning)|2026-07-04 => 04 July 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |276| [TinyBDD.MSTest by Jerrett Davis ](/docs/TinyBDD.MSTest)|2026-07-03 => 03 July 2026 | [Tests](/docs/Categories/Tests) |
 |275| [Porticle.Enumly by Carsten Jendro ](/docs/Porticle.Enumly)|2026-07-02 => 02 July 2026 | [Enum](/docs/Categories/Enum) |
@@ -110,7 +111,7 @@ This is the list of 277 ( 16 from Microsoft) RSCG with examples
 |190| [PMart.Enumeration by Martinho ](/docs/PMart.Enumeration)|2025-03-25 => 25 March 2025 | [Enum](/docs/Categories/Enum) |
 |189| [MemberAccessor by Yamaokuno ](/docs/MemberAccessor)|2025-03-24 => 24 March 2025 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |188| [StepwiseBuilderGenerator by Georgiy Petrov ](/docs/StepwiseBuilderGenerator)|2025-03-23 => 23 March 2025 | [Builder](/docs/Categories/Builder) |
-|187| [EntityLengths.Generator by Taras Kovalenko ](/docs/EntityLengths.Generator)|2025-02-19 => 19 February 2025 | [Database](/docs/Categories/Database) |
+|187| [EntityLengths.Generator by Taras Kovalenko ](/docs/EntityLengths.Generator)|2025-02-19 => 19 February 2025 | [EntityFramework](/docs/Categories/EntityFramework) |
 |186| [RSCG_CompositeProvider by Ignat Andrei ](/docs/RSCG_CompositeProvider)|2025-02-18 => 18 February 2025 | [Interface](/docs/Categories/Interface) |
 |185| [DependencyModules.SourceGenerator by Ian Johnson ](/docs/DependencyModules.SourceGenerator)|2025-02-16 => 16 February 2025 | [DependencyInjection](/docs/Categories/DependencyInjection) |
 |184| [MockMe by connorivy ](/docs/MockMe)|2025-02-10 => 10 February 2025 | [Tests](/docs/Categories/Tests) |

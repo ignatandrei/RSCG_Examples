@@ -1126,7 +1126,7 @@
   },
   {
     "ID":"EntityLengths.Generator",
-    "Category": 14,
+    "Category": 48,
     "dtStart": "2025-02-19T00:00:00",
     "show": true
   },
@@ -1677,6 +1677,12 @@
     "ID":"Bennewitz.Ninja.AutoVersioning",
     "Category": 1,
     "dtStart": "2026-07-04T00:00:00",
+    "show": true
+  },
+  {
+    "ID":"Atulin.AutoDbSet",
+    "Category": 48,
+    "dtStart": "2026-08-18T00:00:00",
     "show": true
   }
 ]

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 277 RSCG list by category
-description: 277 RSCG list by category
+title: 278 RSCG list by category
+description: 278 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -393,7 +393,7 @@ import DocCardList from '@theme/DocCardList';
 ## Database 
 <details>
     
-  <summary>Expand Database =>examples:9</summary>
+  <summary>Expand Database =>examples:8</summary>
         
 
 
@@ -413,11 +413,6 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Dapper.AOT](/docs/Dapper.AOT)
-
-        
-
-
-[EntityLengths.Generator](/docs/EntityLengths.Generator)
 
         
 
@@ -835,6 +830,23 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Bennewitz.Ninja.AutoVersioning](/docs/Bennewitz.Ninja.AutoVersioning)
+
+</details>
+    
+
+## EntityFramework 
+<details>
+    
+  <summary>Expand EntityFramework =>examples:2</summary>
+        
+
+
+[EntityLengths.Generator](/docs/EntityLengths.Generator)
+
+        
+
+
+[Atulin.AutoDbSet](/docs/Atulin.AutoDbSet)
 
 </details>
     
@@ -1847,8 +1859,6 @@ flowchart LR;
 
     Database--> Dapper.AOT((Dapper.AOT))
 
-    Database--> EntityLengths.Generator((EntityLengths.Generator))
-
     Database--> Finch.Generators((Finch.Generators))
 
     Database--> Unflat((Unflat))
@@ -1998,6 +2008,10 @@ flowchart LR;
     EnhancementProject--> AssemblyMetadata.Generators((AssemblyMetadata.Generators))
 
     EnhancementProject--> Bennewitz.Ninja.AutoVersioning((Bennewitz.Ninja.AutoVersioning))
+
+    EntityFramework--> EntityLengths.Generator((EntityLengths.Generator))
+
+    EntityFramework--> Atulin.AutoDbSet((Atulin.AutoDbSet))
 
     Enum--> NetEscapades.EnumGenerators((NetEscapades.EnumGenerators))
 
