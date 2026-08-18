@@ -1495,7 +1495,7 @@
       "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EntityLengths.Generator",
       "NuGet": "https://www.nuget.org/packages/EntityLengths.Generator/",
       "Source": "https://github.com/TarasKovalenko/EntityLengths.Generator/",
-      "Category": "Database",
+      "Category": "EntityFramework",
       "AddedOn": "2025-02-19T00:00:00"
     },
     {
@@ -2217,6 +2217,14 @@
       "Source": "https://github.com/JanusMael/Bennewitz.Ninja.AutoVersioning",
       "Category": "EnhancementProject",
       "AddedOn": "2026-07-04T00:00:00"
+    },
+    {
+      "Name": "Atulin.AutoDbSet",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Atulin.AutoDbSet",
+      "NuGet": "https://www.nuget.org/packages/Atulin.AutoDbSet/",
+      "Source": "https://github.com/Atulin/AutoDbSet",
+      "Category": "EntityFramework",
+      "AddedOn": "2025-08-04T00:00:00"
     }
   ]
 }

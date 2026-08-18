@@ -185,7 +185,7 @@ Nr,Key,Source,Category
 184,MockMe, https://github.com/connorivy/MockMe/,Tests
 185,DependencyModules.SourceGenerator, https://github.com/ipjohnson/DependencyModules,DependencyInjection
 186,RSCG_CompositeProvider, https://github.com/ignatandrei/RSCG_CompositeProvider,Interface
-187,EntityLengths.Generator, https://github.com/TarasKovalenko/EntityLengths.Generator/,Database
+187,EntityLengths.Generator, https://github.com/TarasKovalenko/EntityLengths.Generator/,EntityFramework
 188,StepwiseBuilderGenerator, https://github.com/Georgiy-Petrov/StepwiseBuilderGenerator,Builder
 189,MemberAccessor, https://github.com/usausa/member-accessor-generator,EnhancementClass
 190,PMart.Enumeration, https://github.com/p-martinho/Enumeration,Enum
@@ -276,3 +276,4 @@ Nr,Key,Source,Category
 275,Porticle.Enumly, https://github.com/Machibuse/Porticle.Enumly,Enum
 276,TinyBDD.MSTest, https://github.com/JerrettDavis/TinyBDD,Tests
 277,Bennewitz.Ninja.AutoVersioning, https://github.com/JanusMael/Bennewitz.Ninja.AutoVersioning,EnhancementProject
+278,Atulin.AutoDbSet, https://github.com/Atulin/AutoDbSet,EntityFramework

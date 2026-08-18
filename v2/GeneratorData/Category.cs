@@ -50,5 +50,6 @@ public enum Category
     Idempotency=45,
     Documentation=46, 
     Audit = 47,
+    EntityFramework = 48,
 }
 
