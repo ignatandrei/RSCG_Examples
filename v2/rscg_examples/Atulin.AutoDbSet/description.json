@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Atulin.AutoDbSet",
+      "nuget":[
+         "https://www.nuget.org/packages/Atulin.AutoDbSet/"
+      ],
+      "link":"https://github.com/Atulin/AutoDbSet",
+      "author":"Angius Atulin",
+      "source":"https://github.com/Atulin/AutoDbSet"
+   },
+   "data":{
+      "goodFor":["Generating DbSet properties for Entity Framework Core DbContext classes"],
+      "csprojDemo":"EntityDemo.csproj",
+      "csFiles":["Program.cs","Project.cs","DotNetStatsContext.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
