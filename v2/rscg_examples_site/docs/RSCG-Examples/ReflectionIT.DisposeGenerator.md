@@ -605,7 +605,7 @@ This is the CSharp Project that references **ReflectionIT.DisposeGenerator**
 
 ```csharp showLineNumbers 
 using IDisposableGeneratorDemo;
-//https://github.com/benutomo-dev/RoslynComponents
+// https://github.com/sonnemaf/ReflectionIT.DisposeGenerator
 using (var db = new DALDB())
 {
     Console.WriteLine("before releasing");
@@ -614,13 +614,39 @@ Console.WriteLine("after releasing");
 ```
   </TabItem>
 
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ReflectionIT.DisposeGenerator\src\IDisp\DALDB.cs" label="DALDB.cs" >
+
+  This is the use of **ReflectionIT.DisposeGenerator** in *DALDB.cs*
+
+```csharp showLineNumbers 
+using ReflectionIT.DisposeGenerator.Attributes;
+
+namespace IDisposableGeneratorDemo;
+
+[Disposable]
+partial class DALDB :IDisposable
+{
+    [Dispose]
+    private ConnectionDB cn;
+    [Dispose] 
+    private ConnectionDB cn1;
+
+    public DALDB()
+    {
+        cn = new ConnectionDB();
+        cn1=new ConnectionDB();
+    }
+
+}
+
+```
+  </TabItem>
+
   <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\ReflectionIT.DisposeGenerator\src\IDisp\ConnectionDB.cs" label="ConnectionDB.cs" >
 
   This is the use of **ReflectionIT.DisposeGenerator** in *ConnectionDB.cs*
 
 ```csharp showLineNumbers 
-using ReflectionIT.DisposeGenerator.Attributes;
-
 namespace IDisposableGeneratorDemo;
 class ConnectionDB : IDisposable
 {

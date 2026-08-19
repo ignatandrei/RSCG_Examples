@@ -1672,5 +1672,11 @@
     "category": "Disposer",
     "href": "/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator/",
     "body": "Package Description"
+  },
+  {
+    "title": "serde",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/serde/",
+    "body": "Package Description"
   }
 ]

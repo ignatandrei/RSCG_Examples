@@ -17,6 +17,12 @@
         }
     
         ,{
+        "file": "IDisp/DALDB.cs",
+        "description": "File DALDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
         "file": "IDisp/Program.cs",
         "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
         "pattern": "this is the code"
