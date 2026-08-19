@@ -49,7 +49,7 @@ Fons Sonnemans
 ## Original Readme
 :::note
 
-# ReflectionIT.DisposeGenerator
+### ReflectionIT.DisposeGenerator
 
 A source generator package that implements the dispose and async dispose patterns.
 
@@ -57,19 +57,19 @@ A source generator package that implements the dispose and async dispose pattern
 - https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose
 - https://learn.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-disposeasync
 
-## NuGet package
+###### NuGet package
 
 | Package | Version |
 | ------ | ------ |
 | ReflectionIT.DisposeGenerator | [![NuGet](https://img.shields.io/nuget/v/ReflectionIT.DisposeGenerator)](https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/) |
 
-## Installation
+###### Installation
 
 ```xml
 <PackageReference Include="ReflectionIT.DisposeGenerator" Version="*" />
 ```
 
-## Quick start
+###### Quick start
 
 Annotate a **partial** class or struct with the `Disposable` attribute and mark disposable fields or properties with `Dispose`.
 
@@ -95,7 +95,7 @@ public partial class LogWriter : IDisposable {
 
 The generator creates the dispose members for the annotated type, including `_isDisposed`, an `IsDisposed` property, and `ThrowIfDisposed()` by default.
 
-## Requirements and diagnostics
+###### Requirements and diagnostics
 
 - The annotated type must be `partial`.
 - `[Disposable]` can be applied to classes and structs.
@@ -103,13 +103,13 @@ The generator creates the dispose members for the annotated type, including `_is
 - The generator emits `RITDG001` when a type annotated with `[Disposable]` is not declared `partial`.
 - Members annotated with `[Dispose]` or `[AsyncDispose]` must support the generated dispose call pattern. Otherwise the generated code can produce compiler errors.
 
-### RITDG001
+######### RITDG001
 
 `RITDG001`: Type `'{typeName}'` is annotated with `[Disposable]` and must be declared partial for ReflectionIT.DisposeGenerator to generate code.
 
-## Attribute reference
+###### Attribute reference
 
-### `DisposableAttribute`
+######### `DisposableAttribute`
 
 | Property | Default | Description |
 | --- | --- | --- |
@@ -120,20 +120,20 @@ The generator creates the dispose members for the annotated type, including `_is
 | `IsThreadSafe` | `false` | Uses thread-safe disposal state transitions via `Interlocked.CompareExchange`. |
 | `HasUnmanagedResources` | `false` | Adds a finalizer and `ReleaseUnmanagedResources()` partial method support. |
 
-### `DisposeAttribute`
+######### `DisposeAttribute`
 
 | Property | Default | Description |
 | --- | --- | --- |
 | `SetToNull` | `false` | Sets the annotated field or property to `null` after disposal. |
 
-### `AsyncDisposeAttribute`
+######### `AsyncDisposeAttribute`
 
 | Property | Default | Description |
 | --- | --- | --- |
 | `SetToNull` | `false` | Sets the annotated field or property to `null` after asynchronous disposal. |
 | `ConfigureAwait` | `true` | Controls the `ConfigureAwait(...)` value used for generated async disposal calls. |
 
-## What gets generated
+###### What gets generated
 
 Depending on the options and the annotated members, the generator can create:
 
@@ -147,7 +147,7 @@ Depending on the options and the annotated members, the generator can create:
 - a finalizer
 - `ReleaseUnmanagedResources()`
 
-## Recommended use of `ThrowIfDisposed`
+###### Recommended use of `ThrowIfDisposed`
 
 Call `ThrowIfDisposed()` at the start of public instance members that depend on resources managed by the generated dispose pattern. The generated method uses the generated `IsDisposed` property, so derived types can customize disposed-state checks through `IsDisposed` instead of overriding `ThrowIfDisposed()`.
 
@@ -171,7 +171,7 @@ public partial class LogWriter : IDisposable {
 
 This helps fail fast with an `ObjectDisposedException` when the instance is used after it has been disposed.
 
-## `SetToNull` usage
+###### `SetToNull` usage
 
 Use `SetToNull` when the property or field should be set to `null` after disposal.
 
@@ -243,7 +243,7 @@ partial class LogWriter
 }
 ```
 
-## Async dispose
+###### Async dispose
 
 Use `AsyncDispose` for fields or properties that support `DisposeAsync()`.
 
@@ -316,7 +316,7 @@ partial class LogWriter
 }
 ```
 
-## Implement the dispose pattern for a derived class
+###### Implement the dispose pattern for a derived class
 
 A class derived from a class that already implements `IDisposable` should not implement `IDisposable` again, because the base implementation of `IDisposable.Dispose` is inherited by derived classes.
 
@@ -380,7 +380,7 @@ partial class SecondLogWriter
 }
 ```
 
-## Unmanaged resources
+###### Unmanaged resources
 
 Set `HasUnmanagedResources = true` to include unmanaged resource cleanup support.
 Then implement the partial method `ReleaseUnmanagedResources()`, which releases the unmanaged resource.
@@ -469,7 +469,7 @@ partial class LogWriterWithAnExtraIntPtr
 }
 ```
 
-## Thread-safe disposal
+###### Thread-safe disposal
 
 Use `IsThreadSafe = true` to ensure thread-safe disposal via `Interlocked.CompareExchange`.
 
@@ -534,17 +534,17 @@ partial class LogWriter
 }
 ```
 
-## Troubleshooting
+###### Troubleshooting
 
-### Why do I get `RITDG001`?
+######### Why do I get `RITDG001`?
 
 The type marked with `[Disposable]` is not declared `partial`. Add the `partial` keyword to the class or struct declaration.
 
-### Why do I get compiler errors for `Dispose()` or `DisposeAsync()` on an annotated member?
+######### Why do I get compiler errors for `Dispose()` or `DisposeAsync()` on an annotated member?
 
 The generator emits calls to `Dispose()` for `[Dispose]` members and `DisposeAsync()` for `[AsyncDispose]` members. Make sure the annotated member supports the corresponding API.
 
-### Why was no code generated?
+######### Why was no code generated?
 
 Common reasons:
 
@@ -552,9 +552,9 @@ Common reasons:
 - no fields or properties were annotated with `[Dispose]` or `[AsyncDispose]`
 - the type only has invalid attribute usage that prevents successful compilation
 
-## License
+###### License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/sonnemaf/ReflectionIT.DisposeGenerator/LICENSE.md) file for details.
 
 
 :::
