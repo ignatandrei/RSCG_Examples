@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ReflectionIT.DisposeGenerator",
+  "steps": 
+  [
+    {
+      "file": "IDisp/IDisp.csproj",
+      "description": "First, we add Nuget  [ReflectionIT.DisposeGenerator](https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/) in csproj  ",
+      "pattern": "ReflectionIT.DisposeGenerator"
+    }
+
+        ,{
+        "file": "IDisp/ConnectionDB.cs",
+        "description": "File ConnectionDB.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "IDisp/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project IDisp/IDisp.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "IDisp/obj/GX/ReflectionIT.DisposeGenerator/ReflectionIT.DisposeGenerator.SourceGenerator/IDisposableGeneratorDemo.DALDB.g.cs",
+        "description": "Generated File 1  from 1 : IDisposableGeneratorDemo.DALDB.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,6 +1,6 @@
 <h1>Disposer</h1>
 
-Number RSCG: 7
+Number RSCG: 8
 
         1 [BenutomoAutomaticDisposeImplSourceGenerator](/docs/BenutomoAutomaticDisposeImplSourceGenerator) [![Nuget](https://img.shields.io/nuget/dt/Benutomo.AutomaticDisposeImpl.SourceGenerator?label=Benutomo.AutomaticDisposeImpl.SourceGenerator)](https://www.nuget.org/packages/Benutomo.AutomaticDisposeImpl.SourceGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/benutomo-dev/RoslynComponents?style=social) 2023-08-15
     
@@ -15,4 +15,6 @@ Number RSCG: 7
         6 [GenerateDispose](/docs/GenerateDispose) [![Nuget](https://img.shields.io/nuget/dt/GenerateDispose?label=GenerateDispose)](https://www.nuget.org/packages/GenerateDispose/) ![GitHub Repo stars](https://img.shields.io/github/stars/ItaiTzur76/GenerateDispose?style=social) 2026-05-13
     
         7 [IDisposableGenerator](/docs/IDisposableGenerator) [![Nuget](https://img.shields.io/nuget/dt/IDisposableGenerator?label=IDisposableGenerator)](https://www.nuget.org/packages/IDisposableGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/Elskom/IDisposableGenerator?style=social) 2023-10-11
+    
+        8 [ReflectionIT.DisposeGenerator](/docs/ReflectionIT.DisposeGenerator) [![Nuget](https://img.shields.io/nuget/dt/ReflectionIT.DisposeGenerator?label=ReflectionIT.DisposeGenerator)](https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/sonnemaf/ReflectionIT.DisposeGenerator?style=social) 2026-08-19
         

@@ -1666,5 +1666,11 @@
     "category": "EntityFramework",
     "href": "/RSCG_Examples/v2/docs/Atulin.AutoDbSet/",
     "body": "Package Description"
+  },
+  {
+    "title": "ReflectionIT.DisposeGenerator",
+    "category": "Disposer",
+    "href": "/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator/",
+    "body": "Package Description"
   }
 ]

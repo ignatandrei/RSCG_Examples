@@ -2225,6 +2225,14 @@
       "Source": "https://github.com/Atulin/AutoDbSet",
       "Category": "EntityFramework",
       "AddedOn": "2026-08-18T00:00:00"
+    },
+    {
+      "Name": "ReflectionIT.DisposeGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator",
+      "NuGet": "https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/",
+      "Source": "https://github.com/sonnemaf/ReflectionIT.DisposeGenerator",
+      "Category": "Disposer",
+      "AddedOn": "2026-08-19T00:00:00"
     }
   ]
 }

@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ReflectionIT.DisposeGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/"
+      ],
+      "link":"https://github.com/sonnemaf/ReflectionIT.DisposeGenerator",
+      "author":"Fons Sonnemans",
+      "source":"https://github.com/sonnemaf/ReflectionIT.DisposeGenerator"
+   },
+   "data":{
+      "goodFor":["Automatically implements the IDisposable pattern for classes that contain disposable fields."],
+      "csprojDemo":"IDisp.csproj",
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
