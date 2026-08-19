@@ -1,10 +1,10 @@
-# RSCG - 278 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 279 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 278 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 279 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-08-18 => 18 August 2026
+## Latest Update : 2026-08-19 => 19 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 278 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 279 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 279. [ReflectionIT.DisposeGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
+
+Generated on : 2026-08-19 => 19 August 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Fons Sonnemans
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/](https://www.nuget.org/packages/ReflectionIT.DisposeGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator)
+
+Source: [https://github.com/sonnemaf/ReflectionIT.DisposeGenerator](https://github.com/sonnemaf/ReflectionIT.DisposeGenerator)
+
+</details>
+
 ### 278. [Atulin.AutoDbSet](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Atulin.AutoDbSet) , in the [EntityFramework](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#entityframework) category 
 
 Generated on : 2026-08-18 => 18 August 2026

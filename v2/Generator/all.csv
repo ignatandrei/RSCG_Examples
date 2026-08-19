@@ -277,3 +277,4 @@ Nr,Key,Source,Category
 276,TinyBDD.MSTest, https://github.com/JerrettDavis/TinyBDD,Tests
 277,Bennewitz.Ninja.AutoVersioning, https://github.com/JanusMael/Bennewitz.Ninja.AutoVersioning,EnhancementProject
 278,Atulin.AutoDbSet, https://github.com/Atulin/AutoDbSet,EntityFramework
+279,ReflectionIT.DisposeGenerator, https://github.com/sonnemaf/ReflectionIT.DisposeGenerator,Disposer

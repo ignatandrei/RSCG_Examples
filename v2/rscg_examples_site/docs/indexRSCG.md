@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 278 RSCG with examples in descending chronological order
+## 279 RSCG with examples in descending chronological order
 
-This is the list of 278 ( 16 from Microsoft) RSCG with examples 
+This is the list of 279 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 278 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|279| [ReflectionIT.DisposeGenerator by Fons Sonnemans ](/docs/ReflectionIT.DisposeGenerator)|2026-08-19 => 19 August 2026 | [Disposer](/docs/Categories/Disposer) |
 |278| [Atulin.AutoDbSet by Angius Atulin ](/docs/Atulin.AutoDbSet)|2026-08-18 => 18 August 2026 | [EntityFramework](/docs/Categories/EntityFramework) |
 |277| [Bennewitz.Ninja.AutoVersioning by Brian Bennewitz ](/docs/Bennewitz.Ninja.AutoVersioning)|2026-07-04 => 04 July 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |276| [TinyBDD.MSTest by Jerrett Davis ](/docs/TinyBDD.MSTest)|2026-07-03 => 03 July 2026 | [Tests](/docs/Categories/Tests) |
