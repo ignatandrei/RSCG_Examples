@@ -49,7 +49,7 @@ Andy Gocke
 ## Original Readme
 :::note
 
-# Serde.NET
+### Serde.NET
 
 Serde.NET is a port of the popular [serde.rs](https://serde.rs) Rust ***ser***ialization/***de***serialization
 library to .NET.
