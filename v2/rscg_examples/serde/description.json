@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"serde",
+      "nuget":[
+         "https://www.nuget.org/packages/serde/"
+      ],
+      "link":"https://github.com/serdedotnet/serde",
+      "author":"Andy Gocke",
+      "source":"https://github.com/serdedotnet/serde"
+   },
+   "data":{
+      "goodFor":["Serializing in SERDE format"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

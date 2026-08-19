@@ -2233,6 +2233,14 @@
       "Source": "https://github.com/sonnemaf/ReflectionIT.DisposeGenerator",
       "Category": "Disposer",
       "AddedOn": "2026-08-19T00:00:00"
+    },
+    {
+      "Name": "serde",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/serde",
+      "NuGet": "https://www.nuget.org/packages/serde/",
+      "Source": "https://github.com/serdedotnet/serde",
+      "Category": "Serializer",
+      "AddedOn": "2026-08-20T00:00:00"
     }
   ]
 }

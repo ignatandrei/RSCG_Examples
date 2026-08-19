@@ -1690,5 +1690,12 @@
     "Category": 18,
     "dtStart": "2026-08-19T00:00:00",
     "show": true
-  }
+  },
+
+{
+  "ID":"serde",
+  "Category":16,
+  "dtStart": "2026-08-20T00:00:00",
+  "show": true
+}
 ]

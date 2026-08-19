@@ -1,10 +1,10 @@
-# RSCG - 279 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 280 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 279 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 280 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-08-19 => 19 August 2026
+## Latest Update : 2026-08-20 => 20 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 279 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 280 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 280. [serde](https://ignatandrei.github.io/RSCG_Examples/v2/docs/serde) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2026-08-20 => 20 August 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Andy Gocke
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/serde/](https://www.nuget.org/packages/serde/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/serde](https://ignatandrei.github.io/RSCG_Examples/v2/docs/serde)
+
+Source: [https://github.com/serdedotnet/serde](https://github.com/serdedotnet/serde)
+
+</details>
+
 ### 279. [ReflectionIT.DisposeGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ReflectionIT.DisposeGenerator) , in the [Disposer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#disposer) category 
 
 Generated on : 2026-08-19 => 19 August 2026
