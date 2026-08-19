@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Salar.Bois.CodeGen",
+      "nuget":[
+         "https://www.nuget.org/packages/Salar.Bois.CodeGen/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"Salar.Bois.CodeGenDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
