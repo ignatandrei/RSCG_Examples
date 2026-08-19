@@ -11,7 +11,7 @@
    "data":{
       "goodFor":["Automatically implements the IDisposable pattern for classes that contain disposable fields."],
       "csprojDemo":"IDisp.csproj",
-      "csFiles":["Program.cs","ConnectionDB.cs"],
+      "csFiles":["Program.cs","DALDB.cs","ConnectionDB.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

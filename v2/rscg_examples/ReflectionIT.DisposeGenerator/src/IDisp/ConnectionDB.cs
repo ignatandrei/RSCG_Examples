@@ -1,5 +1,3 @@
-﻿using ReflectionIT.DisposeGenerator.Attributes;
-
 namespace IDisposableGeneratorDemo;
 class ConnectionDB : IDisposable
 {

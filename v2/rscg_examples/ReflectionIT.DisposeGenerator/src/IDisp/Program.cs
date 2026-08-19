@@ -1,5 +1,5 @@
 ﻿using IDisposableGeneratorDemo;
-//https://github.com/benutomo-dev/RoslynComponents
+// https://github.com/sonnemaf/ReflectionIT.DisposeGenerator
 using (var db = new DALDB())
 {
     Console.WriteLine("before releasing");
