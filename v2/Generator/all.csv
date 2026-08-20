@@ -280,3 +280,4 @@ Nr,Key,Source,Category
 279,ReflectionIT.DisposeGenerator, https://github.com/sonnemaf/ReflectionIT.DisposeGenerator,Disposer
 280,serde, https://github.com/serdedotnet/serde,Serializer
 281,EndpointHelpers, https://github.com/gumbarros/EndpointHelpers,MVC
+282,Clap.Net, https://github.com/simon-curtis/Clap.Net,CommandLine

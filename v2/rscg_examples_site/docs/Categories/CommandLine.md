@@ -1,14 +1,16 @@
 <h1>CommandLine</h1>
 
-Number RSCG: 5
+Number RSCG: 6
 
         1 [ArgumentParsing](/docs/ArgumentParsing) [![Nuget](https://img.shields.io/nuget/dt/ArgumentParsing?label=ArgumentParsing)](https://www.nuget.org/packages/ArgumentParsing/) ![GitHub Repo stars](https://img.shields.io/github/stars/DoctorKrolic/ArgumentParsing?style=social) 2025-07-01
     
-        2 [CommandLine](/docs/CommandLine) [![Nuget](https://img.shields.io/nuget/dt/DotMake.CommandLine?label=DotMake.CommandLine)](https://www.nuget.org/packages/DotMake.CommandLine/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotmake-build/command-line?style=social) 2024-02-11
+        2 [Clap.Net](/docs/Clap.Net) [![Nuget](https://img.shields.io/nuget/dt/Clap.Net?label=Clap.Net)](https://www.nuget.org/packages/Clap.Net/) ![GitHub Repo stars](https://img.shields.io/github/stars/simon-curtis/Clap.Net?style=social) 2026-08-22
     
-        3 [ConsoleAppFramework](/docs/ConsoleAppFramework) [![Nuget](https://img.shields.io/nuget/dt/ConsoleAppFramework?label=ConsoleAppFramework)](https://www.nuget.org/packages/ConsoleAppFramework/) ![GitHub Repo stars](https://img.shields.io/github/stars/Cysharp/ConsoleAppFramework?style=social) 2025-10-02
+        3 [CommandLine](/docs/CommandLine) [![Nuget](https://img.shields.io/nuget/dt/DotMake.CommandLine?label=DotMake.CommandLine)](https://www.nuget.org/packages/DotMake.CommandLine/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotmake-build/command-line?style=social) 2024-02-11
     
-        4 [docopt.net](/docs/docopt.net) [![Nuget](https://img.shields.io/nuget/dt/docopt.net?label=docopt.net)](https://www.nuget.org/packages/docopt.net/) ![GitHub Repo stars](https://img.shields.io/github/stars/docopt/docopt.net?style=social) 2025-12-15
+        4 [ConsoleAppFramework](/docs/ConsoleAppFramework) [![Nuget](https://img.shields.io/nuget/dt/ConsoleAppFramework?label=ConsoleAppFramework)](https://www.nuget.org/packages/ConsoleAppFramework/) ![GitHub Repo stars](https://img.shields.io/github/stars/Cysharp/ConsoleAppFramework?style=social) 2025-10-02
     
-        5 [TeCLI](/docs/TeCLI) [![Nuget](https://img.shields.io/nuget/dt/TeCLI?label=TeCLI)](https://www.nuget.org/packages/TeCLI/) ![GitHub Repo stars](https://img.shields.io/github/stars/tyevco/TeCLI?style=social) 2025-11-07
+        5 [docopt.net](/docs/docopt.net) [![Nuget](https://img.shields.io/nuget/dt/docopt.net?label=docopt.net)](https://www.nuget.org/packages/docopt.net/) ![GitHub Repo stars](https://img.shields.io/github/stars/docopt/docopt.net?style=social) 2025-12-15
+    
+        6 [TeCLI](/docs/TeCLI) [![Nuget](https://img.shields.io/nuget/dt/TeCLI?label=TeCLI)](https://www.nuget.org/packages/TeCLI/) ![GitHub Repo stars](https://img.shields.io/github/stars/tyevco/TeCLI?style=social) 2025-11-07
         
