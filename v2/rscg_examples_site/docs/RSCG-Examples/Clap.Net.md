@@ -49,13 +49,13 @@ Simon Curtis
 ## Original Readme
 :::note
 
-# Clap.Net
+### Clap.Net
 
 **A modern, type-safe command-line argument parser for .NET using source generation.**
 
 Clap.Net brings the power and elegance of Rust's [clap](https://github.com/clap-rs/clap) library to the .NET ecosystem. Define your CLI with attributes and properties, and let the source generator handle the rest—no reflection, no runtime overhead, just clean, fast, generated code.
 
-## Why Clap.Net?
+###### Why Clap.Net?
 
 **Zero Runtime Overhead**
 Source generators produce parsing code at compile time. No reflection, no performance penalties—just pure, optimized C# code.
@@ -69,15 +69,15 @@ Automatic help generation, version handling, environment variable fallback, subc
 **Developer Friendly**
 Leverage C# language features like `required` properties, nullable types, and pattern matching. Your CLI definition is just normal C# code with a few attributes.
 
-## Quick Start
+###### Quick Start
 
-### Installation
+######### Installation
 
 ```bash
 dotnet add package Clap.Net
 ```
 
-### Basic Example
+######### Basic Example
 
 Define a command with a simple attribute:
 
@@ -112,10 +112,10 @@ Hello, Alice!
 Verbose mode enabled.
 
 $ dotnet run -- --help
-# Displays auto-generated help text
+### Displays auto-generated help text
 ```
 
-## Complete Example with Subcommands
+###### Complete Example with Subcommands
 
 Clap.Net makes complex CLIs easy to build and maintain:
 
@@ -182,21 +182,21 @@ switch (app.Command)
 **Command-line usage:**
 
 ```bash
-# Basic conversion
+### Basic conversion
 $ dotnet run -- -v "~/Downloads/tree.png" "~/Downloads/tree.jpg"
 
-# With subcommand
+### With subcommand
 $ dotnet run -- "~/Downloads/tree.png" -e "jpg" publish "https://yourdomain.com/upload"
 
-# Get help for subcommands
+### Get help for subcommands
 $ dotnet run -- publish --help
 ```
 
-## Argument Validation
+###### Argument Validation
 
 Clap.Net supports the full `System.ComponentModel.DataAnnotations` validation framework, allowing you to validate argument values at parse time with clear error messages.
 
-### Built-in Validators
+######### Built-in Validators
 
 Use standard .NET validation attributes to enforce constraints:
 
@@ -232,7 +232,7 @@ public partial class ServerCommand
 - `[EmailAddress]`, `[Phone]`, `[Url]`, `[CreditCard]` - Format validators
 - Multiple validators can be combined on a single property
 
-### Custom Validators
+######### Custom Validators
 
 Create your own validators by inheriting from `ValidationAttribute`:
 
@@ -256,7 +256,7 @@ public partial class MyApp
 }
 ```
 
-### Handling Validation Errors
+######### Handling Validation Errors
 
 Validation failures return a `ParseError` with detailed messages:
 
@@ -274,11 +274,11 @@ var cmd = result.AsT0;
 // Use validated command...
 ```
 
-## Multi-Value Arguments
+###### Multi-Value Arguments
 
 Clap.Net provides flexible ways to accept multiple values for a single argument, with different behaviors depending on how you define your properties.
 
-### Array Arguments (Per-Flag Values)
+######### Array Arguments (Per-Flag Values)
 
 For **named arguments** with array types (`string[]`, `int[]`, etc.), each flag invocation captures **one value**. To collect multiple values, repeat the flag:
 
@@ -296,16 +296,16 @@ public partial class BenchmarkCommand
 
 **Usage:**
 ```bash
-# Single value - Tests gets ["unit"], Extensions gets ["py", "go"]
+### Single value - Tests gets ["unit"], Extensions gets ["py", "go"]
 $ app -t unit py go
 
-# Multiple values - repeat the flag for each value
+### Multiple values - repeat the flag for each value
 $ app -t unit -t integration py go
-# Tests gets ["unit", "integration"], Extensions gets ["py", "go"]
+### Tests gets ["unit", "integration"], Extensions gets ["py", "go"]
 
-# Without -t, all values go to positional
+### Without -t, all values go to positional
 $ app py go js
-# Tests is null/empty, Extensions gets ["py", "go", "js"]
+### Tests is null/empty, Extensions gets ["py", "go", "js"]
 ```
 
 **Key behavior:**
@@ -313,7 +313,7 @@ $ app py go js
 - Positional array arguments: **Greedy - consumes all remaining positional values**
 - This prevents named arrays from "stealing" values intended for positional arguments
 
-### Action.Append (Alternative Pattern)
+######### Action.Append (Alternative Pattern)
 
 For collection types with `Action.Append`, the behavior is similar but uses `IEnumerable<T>`:
 
@@ -329,10 +329,10 @@ public partial class TagCommand
 **Usage:**
 ```bash
 $ app -t "v1.0" -t "release" -t "stable"
-# Tags gets ["v1.0", "release", "stable"]
+### Tags gets ["v1.0", "release", "stable"]
 ```
 
-### When to Use Each
+######### When to Use Each
 
 | Pattern | Type | Behavior | Use Case |
 |---------|------|----------|----------|
@@ -340,7 +340,7 @@ $ app -t "v1.0" -t "release" -t "stable"
 | **Action.Append** | `IEnumerable<T>` | One value per flag | Named args only, more explicit about appending |
 | **Positional Array** | `string[]` | Greedy (all remaining) | Variadic trailing arguments (like `files...`) |
 
-### Examples
+######### Examples
 
 **File processor with filters and files:**
 ```csharp
@@ -376,7 +376,7 @@ $ app -t unit -t integration go rb
 // Extensions: ["go", "rb"]
 ```
 
-## Key Features
+###### Key Features
 
 **Strongly-Typed Parsing**
 Define your CLI interface using classes, properties, and attributes. Get compile-time safety and IntelliSense support.
@@ -396,7 +396,7 @@ Options can fallback to environment variables when not provided on the command l
 **Negatable Flags**
 Boolean flags can be negated with `--no-*` syntax for flexible configuration.
 
-## Debugging Generated Code
+###### Debugging Generated Code
 
 If you're troubleshooting source generation issues or want to inspect the generated parser code, add this to your `.csproj`:
 
@@ -409,11 +409,11 @@ If you're troubleshooting source generation issues or want to inspect the genera
 
 Generated files will be written to `bin/Generated/`, allowing you to step through the parser logic and understand how arguments are processed.
 
-## Feature Roadmap
+###### Feature Roadmap
 
 Clap.Net aims for near feature-parity with clap-rs. Here's what's implemented and what's coming:
 
-### Implemented
+######### Implemented
 
 - **Commands**
   - Root command definition with Name, About, and Version
@@ -441,13 +441,13 @@ Clap.Net aims for near feature-parity with clap-rs. Here's what's implemented an
   - Automatic `--version` handling
   - Custom help text from XML docs
 
-### Coming Soon
+######### Coming Soon
 
 - Argument value suggestions and completion
 - More flexible argument ordering
 - Improved error messages
 
-## Contributing
+###### Contributing
 
 Clap.Net is actively developed and there's plenty of work to do! Pull requests are welcome for:
 
@@ -456,11 +456,11 @@ Clap.Net is actively developed and there's plenty of work to do! Pull requests a
 - Documentation and examples
 - Test coverage
 
-Check out the [CLAUDE.md](./CLAUDE.md) file for architectural guidance and development patterns.
+Check out the [CLAUDE.md](https://github.com/simon-curtis/Clap.Net/CLAUDE.md) file for architectural guidance and development patterns.
 
-## License
+###### License
 
-MIT License - see [LICENSE](./LICENSE) for details
+MIT License - see [LICENSE](https://github.com/simon-curtis/Clap.Net/LICENSE) for details
 
 
 :::
