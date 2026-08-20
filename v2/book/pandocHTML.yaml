@@ -294,6 +294,7 @@ input-files:
 - examples/Atulin.AutoDbSet.html
 - examples/ReflectionIT.DisposeGenerator.html
 - examples/serde.html
+- examples/EndpointHelpers.html
 
 # or you may use input-file: with a single value
 # defaults:

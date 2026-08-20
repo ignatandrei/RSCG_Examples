@@ -1,10 +1,10 @@
-# RSCG - 280 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 281 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 280 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 281 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-08-20 => 20 August 2026
+## Latest Update : 2026-08-21 => 21 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 280 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 281 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 281. [EndpointHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EndpointHelpers) , in the [MVC](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mvc) category 
+
+Generated on : 2026-08-21 => 21 August 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Gustavo Mauricio de Barros
+
+Source generators that add strongly-typed UrlHelper and LinkGenerator APIs for ASP.NET Core MVC controllers. 
+
+Nuget: [https://www.nuget.org/packages/EndpointHelpers/](https://www.nuget.org/packages/EndpointHelpers/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/EndpointHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/EndpointHelpers)
+
+Source: [https://github.com/gumbarros/EndpointHelpers](https://github.com/gumbarros/EndpointHelpers)
+
+</details>
+
 ### 280. [serde](https://ignatandrei.github.io/RSCG_Examples/v2/docs/serde) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
 
 Generated on : 2026-08-20 => 20 August 2026

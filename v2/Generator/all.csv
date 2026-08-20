@@ -279,3 +279,4 @@ Nr,Key,Source,Category
 278,Atulin.AutoDbSet, https://github.com/Atulin/AutoDbSet,EntityFramework
 279,ReflectionIT.DisposeGenerator, https://github.com/sonnemaf/ReflectionIT.DisposeGenerator,Disposer
 280,serde, https://github.com/serdedotnet/serde,Serializer
+281,EndpointHelpers, https://github.com/gumbarros/EndpointHelpers,MVC

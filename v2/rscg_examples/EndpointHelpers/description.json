@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"EndpointHelpers",
+      "nuget":[
+         "https://www.nuget.org/packages/EndpointHelpers/"
+      ],
+      "link":"https://github.com/gumbarros/EndpointHelpers",
+      "author":"Gustavo Mauricio de Barros",
+      "source":"https://github.com/gumbarros/EndpointHelpers"
+   },
+   "data":{
+      "goodFor":["Generating endpoint helpers for ASP.NET Core MVC"],
+      "csprojDemo":"TestMVC.csproj",
+      "csFiles":["Program.cs","HomeController.cs","Privacy.cshtml"],
+      "excludeDirectoryGenerated":["Microsoft.AspNetCore.App.SourceGenerators","Microsoft.CodeAnalysis.Razor.Compiler"],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
