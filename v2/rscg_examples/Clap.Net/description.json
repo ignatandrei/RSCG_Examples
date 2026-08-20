@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Clap.Net",
+      "nuget":[
+         "https://www.nuget.org/packages/Clap.Net/"
+      ],
+      "link":"https://github.com/simon-curtis/Clap.Net",
+      "author":"Simon Curtis",
+      "source":"https://github.com/simon-curtis/Clap.Net"
+   },
+   "data":{
+      "goodFor":["Command line arguments parsing"],
+      "csprojDemo":"ConsoleDemo.csproj",
+      "csFiles":["Program.cs","CmdForSum.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

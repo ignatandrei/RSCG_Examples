@@ -1684,5 +1684,11 @@
     "category": "MVC",
     "href": "/RSCG_Examples/v2/docs/EndpointHelpers/",
     "body": "Source generators that add strongly-typed UrlHelper and LinkGenerator APIs for ASP.NET Core MVC controllers."
+  },
+  {
+    "title": "Clap.Net",
+    "category": "CommandLine",
+    "href": "/RSCG_Examples/v2/docs/Clap.Net/",
+    "body": "Package Description"
   }
 ]

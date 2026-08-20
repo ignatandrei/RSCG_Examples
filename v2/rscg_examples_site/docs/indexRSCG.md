@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 281 RSCG with examples in descending chronological order
+## 282 RSCG with examples in descending chronological order
 
-This is the list of 281 ( 16 from Microsoft) RSCG with examples 
+This is the list of 282 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 281 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|282| [Clap.Net by Simon Curtis ](/docs/Clap.Net)|2026-08-22 => 22 August 2026 | [CommandLine](/docs/Categories/CommandLine) |
 |281| [EndpointHelpers by Gustavo Mauricio de Barros ](/docs/EndpointHelpers)|2026-08-21 => 21 August 2026 | [MVC](/docs/Categories/MVC) |
 |280| [serde by Andy Gocke ](/docs/serde)|2026-08-20 => 20 August 2026 | [Serializer](/docs/Categories/Serializer) |
 |279| [ReflectionIT.DisposeGenerator by Fons Sonnemans ](/docs/ReflectionIT.DisposeGenerator)|2026-08-19 => 19 August 2026 | [Disposer](/docs/Categories/Disposer) |
