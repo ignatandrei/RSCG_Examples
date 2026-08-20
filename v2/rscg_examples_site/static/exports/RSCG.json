@@ -2241,6 +2241,14 @@
       "Source": "https://github.com/serdedotnet/serde",
       "Category": "Serializer",
       "AddedOn": "2026-08-20T00:00:00"
+    },
+    {
+      "Name": "EndpointHelpers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/EndpointHelpers",
+      "NuGet": "https://www.nuget.org/packages/EndpointHelpers/",
+      "Source": "https://github.com/gumbarros/EndpointHelpers",
+      "Category": "MVC",
+      "AddedOn": "2026-08-21T00:00:00"
     }
   ]
 }

@@ -1,0 +1,1 @@
+Source generators that add strongly-typed UrlHelper and LinkGenerator APIs for ASP.NET Core MVC controllers.

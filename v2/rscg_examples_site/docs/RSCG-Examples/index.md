@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 280 RSCG list by category
-description: 280 RSCG list by category
+title: 281 RSCG list by category
+description: 281 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1403,11 +1403,16 @@ import DocCardList from '@theme/DocCardList';
 ## MVC 
 <details>
     
-  <summary>Expand MVC =>examples:1</summary>
+  <summary>Expand MVC =>examples:2</summary>
         
 
 
 [SG4MVC](/docs/SG4MVC)
+
+        
+
+
+[EndpointHelpers](/docs/EndpointHelpers)
 
 </details>
     
@@ -2210,6 +2215,8 @@ flowchart LR;
     Mixin--> JinShil.MixinSourceGenerator((JinShil.MixinSourceGenerator))
 
     MVC--> SG4MVC((SG4MVC))
+
+    MVC--> EndpointHelpers((EndpointHelpers))
 
     MVVM--> CommunityToolkit.Mvvm((CommunityToolkit.Mvvm))
 
