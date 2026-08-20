@@ -49,7 +49,7 @@ Gustavo Mauricio de Barros
 ## Original Readme
 :::note
 
-# EndpointHelpers
+### EndpointHelpers
 
 EndpointHelpers is a Roslyn source generator that creates strongly-typed helpers for ASP.NET Core MVC controllers. It generates:
 
@@ -62,9 +62,9 @@ EndpointHelpers is a Roslyn source generator that creates strongly-typed helpers
 
 This package ships only a source generator and generated code. There is no runtime dependency.
 
-## Example
+###### Example
 
-### Without the generator
+######### Without the generator
 
 ```razorhtmldialect
 <a href='@Url.Action(action: "Details",controller: "Orders", values: new \{ orderId = 123, source = "dashboard" \} )'>
@@ -72,14 +72,14 @@ This package ships only a source generator and generated code. There is no runti
 </a>
 ```
 
-### With the generator enabled
+######### With the generator enabled
 ```razorhtmldialect
 <a href='@Url.Orders.Details(123, "dashboard")'>
     View order
 </a>
 ```
 
-## Install
+###### Install
 
 Add the NuGet package:
 
@@ -95,7 +95,7 @@ or
 dotnet add package EndpointHelpers
 ```
 
-## Requirements
+###### Requirements
 
 The generated code uses C# 14 extension members (`extension(...)` blocks), so consumers must compile with a C# 14 toolchain (the .NET 10 SDK or later).
 
@@ -107,9 +107,9 @@ Optional (for better IntelliSense in JetBrains IDEs):
 </ItemGroup>
 ```
 
-When `JetBrains.Annotations` is installed, generated MVC helper methods include ASP MVC annotations, and IntelliSense/navigation for views and model parameters works correctly when using R# or Rider.
+When `JetBrains.Annotations` is installed, generated MVC helper methods include ASP MVC annotations, and IntelliSense/navigation for views and model parameters works correctly when using R### or Rider.
 
-## Quick Start
+###### Quick Start
 
 Enable generation at the assembly level:
 
@@ -167,7 +167,7 @@ public partial class OrdersController : Controller
 }
 ```
 
-## Attributes and Scope
+###### Attributes and Scope
 
 Generation can be enabled at different scopes:
 
@@ -185,7 +185,7 @@ You can exclude methods using:
 - `[RedirectToActionIgnore]`
 - `[NonAction]` (standard ASP.NET Core MVC attribute)
 
-## Behavior
+###### Behavior
 
 - Controllers are discovered by name: non-abstract classes ending with `Controller`.
 - Only public, ordinary methods are included.
@@ -195,7 +195,7 @@ You can exclude methods using:
 - Controllers with `[Area("...")]` are grouped by area, so generated access becomes `Url.<Area>.<Controller>` and `Links.<Area>.<Controller>`.
 - Only route-value-compatible parameters are included: simple types (`int`, `string`, `Guid`, `DateTime`, enums, nullables, ...) or parameters marked `[FromRoute]`/`[FromQuery]`/`[FromHeader]`/`[FromForm]`. Body-bound parameters (complex types or `[FromBody]`) are excluded, and `CancellationToken`/`[FromServices]` parameters are always ignored.
 
-### Controller and action discovery
+######### Controller and action discovery
 ```csharp
 [GenerateUrlHelper]
 [GenerateLinkGenerator]
@@ -210,7 +210,7 @@ public partial class OrdersController : Controller
 
 
 
-### Optional Optimization
+######### Optional Optimization
 
 Caching controller helpers avoid repeated allocations. This is a micro-optimization and usually not necessary in most scenarios. It can make sense in hot views where you call the same helper many times (for example, in a loop), but the savings are typically negligible compared to database access, rendering, or network costs. If you don’t measure a problem, skip this.
 
@@ -226,7 +226,7 @@ Caching controller helpers avoid repeated allocations. This is a micro-optimizat
 }
 ```
 
-#### Generated surface
+########## Generated surface
 
 ```csharp
 // UrlHelperGenerator
@@ -248,11 +248,11 @@ RedirectToDetails(orderId: 123, source: "dashboard");
 RedirectToUsers();
 ```
 
-## Example Project
+###### Example Project
 
 See [`example/EndpointHelpers.Sample`](https://github.com/gumbarros/EndpointHelpers/tree/master/example/EndpointHelpers.Sample) for a minimal MVC app using all generators.
 
-## License
+###### License
 
 GNU General Public License
 
