@@ -1690,5 +1690,11 @@
     "category": "CommandLine",
     "href": "/RSCG_Examples/v2/docs/Clap.Net/",
     "body": "Package Description"
+  },
+  {
+    "title": "IncrementalSourceGenerator.BuilderPattern",
+    "category": "Builder",
+    "href": "/RSCG_Examples/v2/docs/IncrementalSourceGenerator.BuilderPattern/",
+    "body": "Incremental source generator that that reduces boilerplate in test object builders \n            by generating the repetitive structure, while enabling developers to focus on the \n            more meaningful, hand-crafted logic via partial classes"
   }
 ]
