@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"IncrementalSourceGenerator.BuilderPattern",
+      "nuget":[
+         "https://www.nuget.org/packages/IncrementalSourceGenerator.BuilderPattern/"
+      ],
+      "link":"https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern",
+      "author":"Martin Barrett Nielsen",
+      "source":"https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern"
+   },
+   "data":{
+      "goodFor":["Generate builder pattern code for classes with many properties"],
+      "csprojDemo":"IncrementalSourceGenerator.BuilderPatternDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
