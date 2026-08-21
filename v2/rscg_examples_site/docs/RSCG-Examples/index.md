@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 282 RSCG list by category
-description: 282 RSCG list by category
+title: 283 RSCG list by category
+description: 283 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -206,7 +206,7 @@ import DocCardList from '@theme/DocCardList';
 ## Builder 
 <details>
     
-  <summary>Expand Builder =>examples:9</summary>
+  <summary>Expand Builder =>examples:10</summary>
         
 
 
@@ -251,6 +251,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TypedStateBuilder.Generator](/docs/TypedStateBuilder.Generator)
+
+        
+
+
+[IncrementalSourceGenerator.BuilderPattern](/docs/IncrementalSourceGenerator.BuilderPattern)
 
 </details>
     
@@ -1830,6 +1835,8 @@ flowchart LR;
     Builder--> OrderedBuildersGenerator((OrderedBuildersGenerator))
 
     Builder--> TypedStateBuilder.Generator((TypedStateBuilder.Generator))
+
+    Builder--> IncrementalSourceGenerator.BuilderPattern((IncrementalSourceGenerator.BuilderPattern))
 
     Clone--> CopyTo((CopyTo))
 

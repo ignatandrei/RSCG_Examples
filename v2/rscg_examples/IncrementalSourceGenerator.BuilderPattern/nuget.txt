@@ -1,0 +1,3 @@
+Incremental source generator that that reduces boilerplate in test object builders 
+            by generating the repetitive structure, while enabling developers to focus on the 
+            more meaningful, hand-crafted logic via partial classes

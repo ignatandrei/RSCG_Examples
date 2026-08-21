@@ -1709,6 +1709,12 @@
     "Category":32,
     "dtStart": "2026-08-22T00:00:00",
     "show": true
+  },
+  {
+    "ID":"IncrementalSourceGenerator.BuilderPattern",
+    "Category": 4,
+    "dtStart": "2026-08-23T00:00:00",
+    "show": true
   }
   
 ]
