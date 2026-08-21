@@ -1,0 +1,54 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "IncrementalSourceGenerator.BuilderPattern",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/Builder.csproj",
+      "description": "First, we add Nuget  [IncrementalSourceGenerator.BuilderPattern](https://www.nuget.org/packages/IncrementalSourceGenerator.BuilderPattern/) in csproj  ",
+      "pattern": "IncrementalSourceGenerator.BuilderPattern"
+    }
+
+        ,{
+        "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/Builder.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/obj/GX/Generator/Generator.Generator/DomainAssertionExtensions.g.cs",
+        "description": "Generated File 4  from 4 : DomainAssertionExtensions.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/obj/GX/Generator/Generator.Generator/Builder_PersonBuilder.g.cs",
+        "description": "Generated File 3  from 4 : Builder_PersonBuilder.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/obj/GX/Generator/Generator.Generator/Builder_Person.g.cs",
+        "description": "Generated File 2  from 4 : Builder_Person.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/IncrementalSourceGenerator.BuilderPattern/src/Builder/obj/GX/Generator/Generator.Generator/BuilderAttribute.g.cs",
+        "description": "Generated File 1  from 4 : BuilderAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

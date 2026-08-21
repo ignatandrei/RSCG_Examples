@@ -2257,6 +2257,14 @@
       "Source": "https://github.com/simon-curtis/Clap.Net",
       "Category": "CommandLine",
       "AddedOn": "2026-08-22T00:00:00"
+    },
+    {
+      "Name": "IncrementalSourceGenerator.BuilderPattern",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/IncrementalSourceGenerator.BuilderPattern",
+      "NuGet": "https://www.nuget.org/packages/IncrementalSourceGenerator.BuilderPattern/",
+      "Source": "https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern",
+      "Category": "Builder",
+      "AddedOn": "2026-08-23T00:00:00"
     }
   ]
 }

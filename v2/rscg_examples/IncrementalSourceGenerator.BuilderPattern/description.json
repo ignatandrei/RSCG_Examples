@@ -10,8 +10,8 @@
    },
    "data":{
       "goodFor":["Generate builder pattern code for classes with many properties"],
-      "csprojDemo":"IncrementalSourceGenerator.BuilderPatternDemo.csproj",
-      "csFiles":["Program.cs"],
+      "csprojDemo":"Builder.csproj",
+      "csFiles":["Program.cs","Person.cs"],
       "excludeDirectoryGenerated":[""],
       "includeAdditionalFiles":[""]
    },

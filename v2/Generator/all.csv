@@ -281,3 +281,4 @@ Nr,Key,Source,Category
 280,serde, https://github.com/serdedotnet/serde,Serializer
 281,EndpointHelpers, https://github.com/gumbarros/EndpointHelpers,MVC
 282,Clap.Net, https://github.com/simon-curtis/Clap.Net,CommandLine
+283,IncrementalSourceGenerator.BuilderPattern, https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern,Builder
