@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"PropertyResolvers",
+      "nuget":[
+         "https://www.nuget.org/packages/PropertyResolvers/"
+      ],
+      "link":"https://github.com/tombiddulph/PropertyResolvers",
+      "author":"Tom Biddulph",
+      "source":"https://github.com/tombiddulph/PropertyResolvers"
+   },
+   "data":{
+      "goodFor":["Generating code for switch for property in C#"],
+      "csprojDemo":"PropSwitch.csproj",
+      "csFiles":["Data.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
