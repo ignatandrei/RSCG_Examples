@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Pinecone.TypedPath",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Pinecone.TypedPath/src/FolderToCode/FolderToCode.csproj",
+      "description": "First, we add Nuget  [Pinecone.TypedPath](https://www.nuget.org/packages/Pinecone.TypedPath/) in csproj  ",
+      "pattern": "Pinecone.TypedPath"
+    }
+
+        ,{
+        "file": "rscg_examples/Pinecone.TypedPath/src/FolderToCode/MyFolder.cs",
+        "description": "File MyFolder.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Pinecone.TypedPath/src/FolderToCode/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Pinecone.TypedPath/src/FolderToCode/FolderToCode.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Pinecone.TypedPath/src/FolderToCode/obj/GX/TypedPath.SourceGen/TypedPath.SourceGen.PathGenerator/TypedPathInterface.g.cs",
+        "description": "Generated File 3  from 3 : TypedPathInterface.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Pinecone.TypedPath/src/FolderToCode/obj/GX/TypedPath.SourceGen/TypedPath.SourceGen.PathGenerator/TypedPathAttribute.g.cs",
+        "description": "Generated File 2  from 3 : TypedPathAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Pinecone.TypedPath/src/FolderToCode/obj/GX/TypedPath.SourceGen/TypedPath.SourceGen.PathGenerator/TypedPath.MyFolder.g.cs",
+        "description": "Generated File 1  from 3 : TypedPath.MyFolder.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

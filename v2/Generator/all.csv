@@ -282,3 +282,4 @@ Nr,Key,Source,Category
 281,EndpointHelpers, https://github.com/gumbarros/EndpointHelpers,MVC
 282,Clap.Net, https://github.com/simon-curtis/Clap.Net,CommandLine
 283,IncrementalSourceGenerator.BuilderPattern, https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern,Builder
+284,Pinecone.TypedPath, https://github.com/nickpinecone/typed-path,FilesToCode

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 283 RSCG list by category
-description: 283 RSCG list by category
+title: 284 RSCG list by category
+description: 284 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -978,7 +978,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:20</summary>
+  <summary>Expand FilesToCode =>examples:21</summary>
         
 
 
@@ -1078,6 +1078,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Maestria.TypeProviders](/docs/Maestria.TypeProviders)
+
+        
+
+
+[Pinecone.TypedPath](/docs/Pinecone.TypedPath)
 
 </details>
     
@@ -2121,6 +2126,8 @@ flowchart LR;
     FilesToCode--> SvgIconGenerator((SvgIconGenerator))
 
     FilesToCode--> Maestria.TypeProviders((Maestria.TypeProviders))
+
+    FilesToCode--> Pinecone.TypedPath((Pinecone.TypedPath))
 
     FunctionalProgramming--> dunet((dunet))
 

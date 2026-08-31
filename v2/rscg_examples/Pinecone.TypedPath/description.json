@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Pinecone.TypedPath",
+      "nuget":[
+         "https://www.nuget.org/packages/Pinecone.TypedPath/"
+      ],
+      "link":"https://github.com/nickpinecone/typed-path",
+      "author":"Nick Pinecone",
+      "source":"https://github.com/nickpinecone/typed-path"
+   },
+   "data":{
+      "goodFor":["Generating typed paths for file system navigation and manipulation."],
+      "csprojDemo":"FolderToCode.csproj",
+      "csFiles":["Program.cs","MyFolder.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
