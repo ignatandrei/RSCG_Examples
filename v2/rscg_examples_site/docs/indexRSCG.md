@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 284 RSCG with examples in descending chronological order
+## 285 RSCG with examples in descending chronological order
 
-This is the list of 284 ( 16 from Microsoft) RSCG with examples 
+This is the list of 285 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 284 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|285| [PropertyResolvers by Tom Biddulph ](/docs/PropertyResolvers)|2026-08-26 => 26 August 2026 | [EnhancementProject](/docs/Categories/EnhancementProject) |
 |284| [Pinecone.TypedPath by Nick Pinecone ](/docs/Pinecone.TypedPath)|2026-08-24 => 24 August 2026 | [FilesToCode](/docs/Categories/FilesToCode) |
 |283| [IncrementalSourceGenerator.BuilderPattern by Martin Barrett Nielsen ](/docs/IncrementalSourceGenerator.BuilderPattern)|2026-08-23 => 23 August 2026 | [Builder](/docs/Categories/Builder) |
 |282| [Clap.Net by Simon Curtis ](/docs/Clap.Net)|2026-08-22 => 22 August 2026 | [CommandLine](/docs/Categories/CommandLine) |

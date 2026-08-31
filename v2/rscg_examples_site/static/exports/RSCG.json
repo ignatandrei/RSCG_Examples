@@ -2273,6 +2273,14 @@
       "Source": "https://github.com/nickpinecone/typed-path",
       "Category": "FilesToCode",
       "AddedOn": "2026-08-24T00:00:00"
+    },
+    {
+      "Name": "PropertyResolvers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyResolvers",
+      "NuGet": "https://www.nuget.org/packages/PropertyResolvers/",
+      "Source": "https://github.com/tombiddulph/PropertyResolvers",
+      "Category": "EnhancementProject",
+      "AddedOn": "2026-08-26T00:00:00"
     }
   ]
 }

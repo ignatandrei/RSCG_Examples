@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 284 RSCG list by category
-description: 284 RSCG list by category
+title: 285 RSCG list by category
+description: 285 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -735,7 +735,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementProject 
 <details>
     
-  <summary>Expand EnhancementProject =>examples:22</summary>
+  <summary>Expand EnhancementProject =>examples:23</summary>
         
 
 
@@ -845,6 +845,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Bennewitz.Ninja.AutoVersioning](/docs/Bennewitz.Ninja.AutoVersioning)
+
+        
+
+
+[PropertyResolvers](/docs/PropertyResolvers)
 
 </details>
     
@@ -2044,6 +2049,8 @@ flowchart LR;
     EnhancementProject--> AssemblyMetadata.Generators((AssemblyMetadata.Generators))
 
     EnhancementProject--> Bennewitz.Ninja.AutoVersioning((Bennewitz.Ninja.AutoVersioning))
+
+    EnhancementProject--> PropertyResolvers((PropertyResolvers))
 
     EntityFramework--> EntityLengths.Generator((EntityLengths.Generator))
 
