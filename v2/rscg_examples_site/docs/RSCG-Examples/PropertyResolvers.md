@@ -51,17 +51,17 @@ Tom Biddulph
 ## Original Readme
 :::note
 
-# PropertyResolvers
+### PropertyResolvers
 
 A C# source generator that creates type-safe property resolver classes. Instead of using reflection at runtime to extract property values from objects, PropertyResolvers generates compile-time switch expressions that efficiently resolve property values across multiple types.
 
-## Installation
+###### Installation
 
 ```bash
 dotnet add package PropertyResolvers
 ```
 
-## Quick Start
+###### Quick Start
 
 1. Add assembly-level attributes to specify which properties you want resolvers for:
 
@@ -100,22 +100,22 @@ var id2 = AccountIdResolver.GetAccountId(customer); // "ACC-456"
 var id3 = AccountIdResolver.GetAccountId(product);  // null
 ```
 
-## Use Cases
+###### Use Cases
 
 - **Multi-tenant applications**: Extract `TenantId` from any entity without reflection
 - **Audit logging**: Consistently retrieve identifier properties across different entity types
 - **Event sourcing**: Extract aggregate IDs from various event types
 - **API responses**: Normalize property access across different DTO types
 
-## Configuration Options
+###### Configuration Options
 
-### Basic Usage
+######### Basic Usage
 
 ```csharp
 [assembly: GeneratePropertyResolver("AccountId")]
 ```
 
-### Namespace Filtering
+######### Namespace Filtering
 
 Include only specific namespaces:
 
@@ -129,7 +129,7 @@ Exclude specific namespaces:
 [assembly: GeneratePropertyResolver("AccountId", ExcludeNamespaces = new[] \{ "System", "Microsoft" })]
 ```
 
-### Multiple Resolvers
+######### Multiple Resolvers
 
 You can generate resolvers for multiple properties:
 
@@ -139,9 +139,9 @@ You can generate resolvers for multiple properties:
 [assembly: GeneratePropertyResolver("EntityId", ExcludeNamespaces = new[] \{ "System", "Microsoft" })]
 ```
 
-## Attribute Reference
+###### Attribute Reference
 
-### `GeneratePropertyResolverAttribute`
+######### `GeneratePropertyResolverAttribute`
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
@@ -149,7 +149,7 @@ You can generate resolvers for multiple properties:
 | `IncludeNamespaces` | `string[]?` | Only include types from these namespaces (prefix match). |
 | `ExcludeNamespaces` | `string[]?` | Exclude types from these namespaces (prefix match). |
 
-## Analyzer
+###### Analyzer
 
 The package includes an analyzer that detects duplicate property resolver definitions:
 
@@ -161,24 +161,24 @@ The package includes an analyzer that detects duplicate property resolver defini
 
 Duplicate detection is case-insensitive, so `"AccountId"` and `"accountid"` are considered duplicates.
 
-## How It Works
+###### How It Works
 
 1. The generator scans all assembly-level `GeneratePropertyResolver` attributes
 2. For each attribute, it finds all classes and structs with a matching property name
 3. It generates a static resolver class with a switch expression that pattern-matches on the object type
 4. The generated code uses `global::` prefixes to avoid namespace conflicts
 
-## Generated Code Location
+###### Generated Code Location
 
 The generated resolver classes are placed in a namespace matching your assembly name. For example, if your assembly is `MyApp`, the resolvers will be in the `MyApp` namespace.
 
-## Requirements
+###### Requirements
 
 - .NET Standard 2.0 compatible (works with .NET Framework 4.7.2+ and .NET Core 2.0+)
 - C# 9.0 or later (for switch expressions in generated code)
 - Visual Studio 2022 17.0+ or compatible IDE with Roslyn 4.0+ support
 
-## License
+###### License
 
 MIT
 

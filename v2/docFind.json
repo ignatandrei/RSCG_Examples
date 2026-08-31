@@ -1702,5 +1702,11 @@
     "category": "FilesToCode",
     "href": "/RSCG_Examples/v2/docs/Pinecone.TypedPath/",
     "body": ".NET source generator for strongly typed file paths"
+  },
+  {
+    "title": "PropertyResolvers",
+    "category": "EnhancementProject",
+    "href": "/RSCG_Examples/v2/docs/PropertyResolvers/",
+    "body": "A source generator that creates property resolver classes for types with\n            matching properties. Use assembly-level attributes to generate resolvers that can\n            retrieve property values from objects at runtime."
   }
 ]
