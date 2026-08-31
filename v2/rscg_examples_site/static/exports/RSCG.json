@@ -2265,6 +2265,14 @@
       "Source": "https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern",
       "Category": "Builder",
       "AddedOn": "2026-08-23T00:00:00"
+    },
+    {
+      "Name": "Pinecone.TypedPath",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Pinecone.TypedPath",
+      "NuGet": "https://www.nuget.org/packages/Pinecone.TypedPath/",
+      "Source": "https://github.com/nickpinecone/typed-path",
+      "Category": "FilesToCode",
+      "AddedOn": "2026-08-24T00:00:00"
     }
   ]
 }
