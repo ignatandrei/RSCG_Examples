@@ -1707,6 +1707,12 @@
     "title": "PropertyResolvers",
     "category": "EnhancementProject",
     "href": "/RSCG_Examples/v2/docs/PropertyResolvers/",
-    "body": "A source generator that creates property resolver classes for types with\n            matching properties. Use assembly-level attributes to generate resolvers that can\n            retrieve property values from objects at runtime."
+    "body": "A source generator that creates property resolver classes for types with\r\n            matching properties. Use assembly-level attributes to generate resolvers that can\r\n            retrieve property values from objects at runtime."
+  },
+  {
+    "title": "SatorImaging.TDoubles",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/SatorImaging.TDoubles/",
+    "body": "Incremental source generator for creating mock wrapper classes."
   }
 ]

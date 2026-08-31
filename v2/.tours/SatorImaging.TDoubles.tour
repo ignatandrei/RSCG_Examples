@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SatorImaging.TDoubles",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/SatorImaging.TDoubles/src/TestClock/TestClock.csproj",
+      "description": "First, we add Nuget  [SatorImaging.TDoubles](https://www.nuget.org/packages/SatorImaging.TDoubles/) in csproj  ",
+      "pattern": "SatorImaging.TDoubles"
+    }
+
+        ,{
+        "file": "rscg_examples/SatorImaging.TDoubles/src/TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/SatorImaging.TDoubles/src/Mock/IMyClock.cs",
+        "description": "File IMyClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/SatorImaging.TDoubles/src/TestClock/obj/GX/SatorImaging.TDoubles/TDoubles.TDoublesSourceGenerator/_ TDoubles _ TDoublesException.g.cs",
+        "description": "Generated File 3  from 3 : _ TDoubles _ TDoublesException.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/SatorImaging.TDoubles/src/TestClock/obj/GX/SatorImaging.TDoubles/TDoubles.TDoublesSourceGenerator/_ TDoubles _ MockAttribute.g.cs",
+        "description": "Generated File 2  from 3 : _ TDoubles _ MockAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/SatorImaging.TDoubles/src/TestClock/obj/GX/SatorImaging.TDoubles/TDoubles.TDoublesSourceGenerator/TestClock.QuickStartRepoStub.g.cs",
+        "description": "Generated File 1  from 3 : TestClock.QuickStartRepoStub.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
