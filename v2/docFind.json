@@ -1695,6 +1695,12 @@
     "title": "IncrementalSourceGenerator.BuilderPattern",
     "category": "Builder",
     "href": "/RSCG_Examples/v2/docs/IncrementalSourceGenerator.BuilderPattern/",
-    "body": "Incremental source generator that that reduces boilerplate in test object builders \n            by generating the repetitive structure, while enabling developers to focus on the \n            more meaningful, hand-crafted logic via partial classes"
+    "body": "Incremental source generator that that reduces boilerplate in test object builders \r\n            by generating the repetitive structure, while enabling developers to focus on the \r\n            more meaningful, hand-crafted logic via partial classes"
+  },
+  {
+    "title": "Pinecone.TypedPath",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Pinecone.TypedPath/",
+    "body": ".NET source generator for strongly typed file paths"
   }
 ]
