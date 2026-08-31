@@ -2281,6 +2281,14 @@
       "Source": "https://github.com/tombiddulph/PropertyResolvers",
       "Category": "EnhancementProject",
       "AddedOn": "2026-08-26T00:00:00"
+    },
+    {
+      "Name": "SatorImaging.TDoubles",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/SatorImaging.TDoubles",
+      "NuGet": "https://www.nuget.org/packages/SatorImaging.TDoubles/",
+      "Source": "https://github.com/sator-imaging/TDoubles",
+      "Category": "Tests",
+      "AddedOn": "2026-08-27T00:00:00"
     }
   ]
 }

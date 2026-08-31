@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"SatorImaging.TDoubles",
+      "nuget":[
+         "https://www.nuget.org/packages/SatorImaging.TDoubles/"
+      ],
+      "link":"https://github.com/sator-imaging/TDoubles",
+      "author":"Sator Imaging",
+      "source":"https://github.com/sator-imaging/TDoubles"
+   },
+   "data":{
+      "goodFor":["Generating test stubs with mocking for interfaces"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["IMyClock.cs","TestClock.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

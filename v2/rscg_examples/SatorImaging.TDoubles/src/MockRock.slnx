@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Mock/MockData.csproj" />
+  <Project Path="TestClock/TestClock.csproj" />
+</Solution>

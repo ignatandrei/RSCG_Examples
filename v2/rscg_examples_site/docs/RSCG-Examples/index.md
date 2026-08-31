@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 285 RSCG list by category
-description: 285 RSCG list by category
+title: 286 RSCG list by category
+description: 286 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1688,7 +1688,7 @@ import DocCardList from '@theme/DocCardList';
 ## Tests 
 <details>
     
-  <summary>Expand Tests =>examples:9</summary>
+  <summary>Expand Tests =>examples:10</summary>
         
 
 
@@ -1733,6 +1733,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TinyBDD.MSTest](/docs/TinyBDD.MSTest)
+
+        
+
+
+[SatorImaging.TDoubles](/docs/SatorImaging.TDoubles)
 
 </details>
     
@@ -2337,6 +2342,8 @@ flowchart LR;
     Tests--> KnockOff((KnockOff))
 
     Tests--> TinyBDD.MSTest((TinyBDD.MSTest))
+
+    Tests--> SatorImaging.TDoubles((SatorImaging.TDoubles))
 
     Validator--> validly((validly))
 

@@ -1,10 +1,10 @@
-# RSCG - 285 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 286 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 285 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 286 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-08-26 => 26 August 2026
+## Latest Update : 2026-08-27 => 27 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 285 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 286 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 286. [SatorImaging.TDoubles](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SatorImaging.TDoubles) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
+
+Generated on : 2026-08-27 => 27 August 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Sator Imaging
+
+Incremental source generator for creating mock wrapper classes. 
+
+Nuget: [https://www.nuget.org/packages/SatorImaging.TDoubles/](https://www.nuget.org/packages/SatorImaging.TDoubles/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/SatorImaging.TDoubles](https://ignatandrei.github.io/RSCG_Examples/v2/docs/SatorImaging.TDoubles)
+
+Source: [https://github.com/sator-imaging/TDoubles](https://github.com/sator-imaging/TDoubles)
+
+</details>
+
 ### 285. [PropertyResolvers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/PropertyResolvers) , in the [EnhancementProject](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementproject) category 
 
 Generated on : 2026-08-26 => 26 August 2026

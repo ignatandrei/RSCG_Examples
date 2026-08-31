@@ -284,3 +284,4 @@ Nr,Key,Source,Category
 283,IncrementalSourceGenerator.BuilderPattern, https://github.com/MartinBarrettNielsen11/Incremental-source-generator-builder-pattern,Builder
 284,Pinecone.TypedPath, https://github.com/nickpinecone/typed-path,FilesToCode
 285,PropertyResolvers, https://github.com/tombiddulph/PropertyResolvers,EnhancementProject
+286,SatorImaging.TDoubles, https://github.com/sator-imaging/TDoubles,Tests
