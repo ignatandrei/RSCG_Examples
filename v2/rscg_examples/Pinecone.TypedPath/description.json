@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Pinecone.TypedPath",
+      "nuget":[
+         "https://www.nuget.org/packages/Pinecone.TypedPath/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":[""],
+      "csprojDemo":"Pinecone.TypedPathDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
