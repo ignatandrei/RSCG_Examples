@@ -54,11 +54,11 @@ Sator Imaging
 &nbsp;
 [![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sator-imaging/TDoubles)
 
-[🇺🇸 English](./README.md)
+[🇺🇸 English](https://github.com/sator-imaging/TDoubles/README.md)
 &nbsp; ❘ &nbsp;
-[🇯🇵 日本語版](./README.ja.md)
+[🇯🇵 日本語版](https://github.com/sator-imaging/TDoubles/README.ja.md)
 &nbsp; ❘ &nbsp;
-[🇨🇳 简体中文版](./README.zh-CN.md)
+[🇨🇳 简体中文版](https://github.com/sator-imaging/TDoubles/README.zh-CN.md)
 
 
 
@@ -70,7 +70,7 @@ Sator Imaging
 
 
 
-## ✨ Comparison with Traditional Mocking Frameworks
+###### ✨ Comparison with Traditional Mocking Frameworks
 
 | Feature | TDoubles | Traditional Frameworks (Moq, NSubstitute) |
 |---------|---------------------------|-------------------------------------------|
@@ -84,7 +84,7 @@ Sator Imaging
 
 
 
-# ⚡ Quick Start
+### ⚡ Quick Start
 
 Apply the `[Mock]` attribute to a partial class, and the generator handles the rest.
 
@@ -150,7 +150,7 @@ var fake = new FooFake(new ConcreteFoo());
 
 
 
-## Generic Type Support
+###### Generic Type Support
 
 `TDoubles` provides support for generic type mocking on both unbound and closed constructed generics.
 
@@ -165,7 +165,7 @@ partial class DictionaryMock<T, U> {}
 ```
 
 
-## Efficient Callback Support
+###### Efficient Callback Support
 
 There are efficient extension points to implement custom callback for each mock member call.
 
@@ -211,7 +211,7 @@ partial class ListSpy<T>  // 🕵 < Investigate suspects!
 ```
 
 
-## `Mock` Attribute Options
+###### `Mock` Attribute Options
 
 There are options to select generated mock members.
 
@@ -233,12 +233,12 @@ partial class FooMockWithoutToStringOverride
 
 
 
-# Introduction
+### Introduction
 
 The generator works by analyzing types marked with the `[Mock]` attribute and generating corresponding mock classes that delegate to the original implementation while providing override capabilities through a simple, strongly-typed API. This approach eliminates the performance overhead of reflection-based mocking while maintaining full type safety and IntelliSense support.
 
 
-## Key Benefits
+###### Key Benefits
 
 - **Zero Runtime Overhead**: Mock classes are generated at compile-time, eliminating reflection costs and improving test execution performance
 - **Full Type Safety**: Generated mocks provide complete IntelliSense support, compile-time checking, and refactoring safety
@@ -249,7 +249,7 @@ The generator works by analyzing types marked with the `[Mock]` attribute and ge
 - **Clean Generated Code**: Produces human-readable, debuggable mock implementations that integrate seamlessly with your codebase
 
 
-## Use Cases
+###### Use Cases
 
 TDoubles generator excels in scenarios where you need:
 
@@ -261,14 +261,14 @@ TDoubles generator excels in scenarios where you need:
 - **Internal API Testing**: Testing internal members without making them public
 
 
-## How It Works
+###### How It Works
 
 1. **Mark Target Types**: Apply the `[Mock(typeof(TargetType))]` attribute to a partial class
 2. **Compile-Time Generation**: The source generator analyzes your target type and creates a mock implementation
 3. **Delegate with Overrides**: Generated mocks delegate to the original instance while providing `MockOverrides` for custom behavior
 4. **Test with Confidence**: Use the generated mock in your tests with full type safety and performance
 
-### Delegation Logic
+######### Delegation Logic
 
 Here is pseudo code of delegation. Actual code is more complicated as need to support `ref` and `out` parameter modifiers.
 
@@ -282,7 +282,7 @@ public string GetData(int id)
 }
 ```
 
-### Generated Mock Structure
+######### Generated Mock Structure
 
 When you create a mock class, the generator adds several members:
 
@@ -317,23 +317,23 @@ partial class UserServiceMock
 
 
 
-# Installation
+### Installation
 
-## NuGet Package Installation
+###### NuGet Package Installation
 
-### Package Manager Console
+######### Package Manager Console
 
 ```powershell
 Install-Package SatorImaging.TDoubles
 ```
 
-### .NET CLI
+######### .NET CLI
 
 ```bash
 dotnet add package SatorImaging.TDoubles
 ```
 
-### PackageReference (Manual)
+######### PackageReference (Manual)
 
 Add the following to your project file (`.csproj`):
 
@@ -342,7 +342,7 @@ Add the following to your project file (`.csproj`):
 ```
 
 
-## System Requirements
+###### System Requirements
 
 - **.NET Framework**: .NET Standard 2.0 or higher
 - **C# Language Version**: C# 7.3 or later
@@ -353,19 +353,19 @@ Add the following to your project file (`.csproj`):
     - Unity 2022.3.12f1 or later
 
 
-## Setup and Configuration
+###### Setup and Configuration
 
-### Basic Setup
+######### Basic Setup
 
 1. Install the NuGet package using one of the methods above
 2. Rebuild your project to enable the source generator
 3. Create partial classes with the `[Mock]` attribute to generate mocks
 
-### Project Configuration
+######### Project Configuration
 
 No additional project configuration is required. The source generator automatically activates when the package is installed and will generate mock classes during compilation.
 
-### Verification
+######### Verification
 
 To verify the installation was successful:
 
@@ -388,7 +388,7 @@ To verify the installation was successful:
 3. Check that no compilation errors occur and the mock class is generated
 
 
-### IDE Support
+######### IDE Support
 - **Visual Studio**: Full IntelliSense support for generated mock classes
 - **Visual Studio Code**: Works with C# extension
 - **JetBrains Rider**: Full support with code completion
@@ -398,12 +398,12 @@ To verify the installation was successful:
 
 
 
-# Basic Usage
+### Basic Usage
 
 This section provides step-by-step examples to get you started with `TDoubles`. All examples are complete and ready to use in your projects.
 
 
-## Prerequisites
+###### Prerequisites
 
 Before using the TDoubles generator, ensure your mock classes meet these requirements:
 
@@ -413,11 +413,11 @@ Before using the TDoubles generator, ensure your mock classes meet these require
 4. **Visibility**: Use any visibility modifier (public, internal, etc.) - generated members will inherit the same visibility
 
 
-## Simple Interface Mocking
+###### Simple Interface Mocking
 
 The most common scenario is mocking interfaces for dependency injection testing.
 
-### Example: User Service Interface
+######### Example: User Service Interface
 
 ```csharp
 using TDoubles;
@@ -479,11 +479,11 @@ public class ConcreteUserService : IUserService
 ```
 
 
-## Class Mocking with Inheritance
+###### Class Mocking with Inheritance
 
 Mock concrete classes to test inheritance scenarios and virtual method overrides.
 
-### Example: Service Class with Virtual Methods
+######### Example: Service Class with Virtual Methods
 
 ```csharp
 using TDoubles;
@@ -542,11 +542,11 @@ class Program
 ```
 
 
-## Inheritance and Interface Implementation
+###### Inheritance and Interface Implementation
 
 Mock classes that both inherit from base classes and implement interfaces.
 
-### Example: Complex Service Hierarchy
+######### Example: Complex Service Hierarchy
 
 ```csharp
 using TDoubles;
@@ -621,19 +621,17 @@ class Program
 
 
 
-# Advanced Usage
+### Advanced Usage
 
-For advanced scenarios including generic types, static classes, records, structs, and internal member access, see the [Advanced Usage Guide](docs/advanced-usage.md).
-
-
+For advanced scenarios including generic types, static classes, records, structs, and internal member access, see the [Advanced Usage Guide](https://github.com/sator-imaging/TDoubles/docs/advanced-usage.md).
 
 
 
-# Testing Examples
-
-For comprehensive testing examples with MSTest, NUnit, and performance comparisons, see the [Testing Examples Guide](docs/testing-examples.md).
 
 
+### Testing Examples
+
+For comprehensive testing examples with MSTest, NUnit, and performance comparisons, see the [Testing Examples Guide](https://github.com/sator-imaging/TDoubles/docs/testing-examples.md).
 
 
 
@@ -642,9 +640,11 @@ For comprehensive testing examples with MSTest, NUnit, and performance compariso
 
 
 
-# Technical Note
 
-## `record` and `record struct`
+
+### Technical Note
+
+###### `record` and `record struct`
 
 - Always implements `IEquatable<MOCK_TARGET_RECORD>` and `MockOverrides.MockTargetRecord_Equals`
     - Note that it is *NOT* `IEquatable<GENERATED_MOCK>`
@@ -654,9 +654,9 @@ For comprehensive testing examples with MSTest, NUnit, and performance compariso
 
 
 
-# Known Limitations and Unsupported Scenarios
+### Known Limitations and Unsupported Scenarios
 
-## Type Parameters of Generic Method
+###### Type Parameters of Generic Method
 
 When method uses method-level type parameter instead of type-level parameter, `MockOverrides` will use `object` instead of method-level type parameter.
 
@@ -681,7 +681,7 @@ partial class Mock<T>
 > Generated mock method returns `TMethod` as mock target does. Internally, mock method will cast `object` result from override to `TMethod` when returning value.
 
 
-## Type System Limitations
+###### Type System Limitations
 
 **Unsupported Types:**
 - Enums (use wrapper classes instead)
@@ -692,25 +692,25 @@ partial class Mock<T>
 - `object`, `ValueType`, `Enum` and other special types such as `Span<T>`
 
 
-## Type Constraint Limitations
+###### Type Constraint Limitations
 
 **Unsupported Constraints:**
 - `where T : default`
 - `where T : allows ref struct`
 
 
-## Return Type Limitations
+###### Return Type Limitations
 
 **Unsupported Type:**
 - `ref` return type
 
 
-## Attribute Limitations
+###### Attribute Limitations
 
 Attributes on type, method, property or etc are not preserved in generated mock.
 
 
-## Method and Property Limitations
+###### Method and Property Limitations
 
 **Unsupported Members:**
 - `ref` and `out` parameters in some complex scenarios (?)
@@ -734,7 +734,7 @@ public interface IService
 ```
 
 
-## Generic Method Limitations
+###### Generic Method Limitations
 
 Some valid type constraint is not transformed correctly. We have no plan to support this edge case of type constraint.
 
@@ -753,7 +753,7 @@ public override (M t, N? u) TypeArgMappingNullable_Abstract<M, N>() \{ }
 
 
 
-## Inheritance and Interface Limitations
+###### Inheritance and Interface Limitations
 
 **Multiple Interface Implementation:**
 - ~~Supported, but explicit interface implementations may have naming conflicts~~
@@ -764,7 +764,7 @@ public override (M t, N? u) TypeArgMappingNullable_Abstract<M, N>() \{ }
 - `sealed` methods cannot be overridden (will delegate to original)
 
 
-## Platform and Framework Limitations
+###### Platform and Framework Limitations
 
 **Framework Support:**
 - Requires .NET Standard 2.0 or higher
@@ -780,17 +780,17 @@ public override (M t, N? u) TypeArgMappingNullable_Abstract<M, N>() \{ }
 
 
 
-# Contributing
+### Contributing
 
 We welcome and appreciate contributions from the community! Whether you're fixing bugs, adding features, improving documentation, or providing feedback, your contributions help make TDoubles better for everyone.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/sator-imaging/TDoubles/CONTRIBUTING.md)
 
 
 
 
 
-# Code of Conduct
+### Code of Conduct
 
 We are committed to providing a welcoming and inclusive environment for all contributors. Please be respectful and professional in all interactions.
 
@@ -798,9 +798,9 @@ We are committed to providing a welcoming and inclusive environment for all cont
 
 
 
-# Support and Community
+### Support and Community
 
-## Getting Help
+###### Getting Help
 
 If you encounter issues not covered in this troubleshooting guide:
 
@@ -814,7 +814,7 @@ If you encounter issues not covered in this troubleshooting guide:
 - [GitHub Issues](https://github.com/sator-imaging/TDoubles/issues) - Bug reports and feature requests
 
 
-## Reporting Security Issues
+###### Reporting Security Issues
 
 If you discover a security vulnerability, please report it privately by emailing the maintainers rather than creating a public issue. This allows us to address the issue before it becomes widely known.
 
@@ -822,9 +822,9 @@ If you discover a security vulnerability, please report it privately by emailing
 
 
 
-# Project Information
+### Project Information
 
-## TODO: Help Wanted
+###### TODO: Help Wanted
 
 - Missing Tests
     - `static` class mocking
@@ -857,23 +857,23 @@ If you discover a security vulnerability, please report it privately by emailing
         - Increment count by `Interlocked.Increment(ref ...)` method at the beginning of generated mock class member.
 
 
-## Author and Maintainer
+###### Author and Maintainer
 
 **Sator Imaging**
 - GitHub: [@sator-imaging](https://github.com/sator-imaging)
 - Project Repository: [sator-imaging/TDoubles](https://github.com/sator-imaging/TDoubles)
 
 
-## Acknowledgments
+###### Acknowledgments
 
 We thank all contributors who have helped improve this project through code contributions, bug reports, feature suggestions, and community support.
 
 
-## License
+###### License
 
 This project is licensed under the **MIT License**.
 
-### Third-Party Licenses
+######### Third-Party Licenses
 
 This project uses the following third-party packages:
 - **Microsoft.CodeAnalysis.CSharp** (MIT License)
