@@ -2289,6 +2289,14 @@
       "Source": "https://github.com/sator-imaging/TDoubles",
       "Category": "Tests",
       "AddedOn": "2026-08-27T00:00:00"
+    },
+    {
+      "Name": "TrimItEasy",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/TrimItEasy",
+      "NuGet": "https://www.nuget.org/packages/TrimItEasy/",
+      "Source": "https://github.com/phongnguyend/TrimItEasy",
+      "Category": "EnhancementClass",
+      "AddedOn": "2026-08-28T00:00:00"
     }
   ]
 }

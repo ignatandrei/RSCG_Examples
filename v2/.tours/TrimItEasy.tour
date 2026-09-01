@@ -1,0 +1,30 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "TrimItEasy",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/TrimItEasy/src/TrimDemo/TrimDemo.csproj",
+      "description": "First, we add Nuget  [TrimItEasy](https://www.nuget.org/packages/TrimItEasy/) in csproj  ",
+      "pattern": "TrimItEasy"
+    }
+
+        ,{
+        "file": "rscg_examples/TrimItEasy/src/TrimDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/TrimItEasy/src/TrimDemo/TrimDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/TrimItEasy/src/TrimDemo/obj/GX/TrimItEasy.Generators/TrimItEasy.Generators.TrimmerSourceGenerator/PersonExtensions_FastTrimStrings.g.cs",
+        "description": "Generated File 1  from 1 : PersonExtensions_FastTrimStrings.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
