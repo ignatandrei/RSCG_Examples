@@ -49,11 +49,11 @@ Phong Nguyen
 ## Original Readme
 :::note
 
-# TrimItEasy
+### TrimItEasy
 
 A simple and efficient .NET library for automatically trimming string properties in complex objects.
 
-## Installation
+###### Installation
 
 Install the package from NuGet:
 
@@ -66,9 +66,9 @@ Or using the NuGet Package Manager in Visual Studio:
 Install-Package TrimItEasy
 ```
 
-## Usage
+###### Usage
 
-### Basic Usage
+######### Basic Usage
 
 Simply call the `TrimStrings()` extension method on any complex object:
 
@@ -99,7 +99,7 @@ var person = new Person
 person.TrimStrings();
 ```
 
-### Skip Trimming Specific Properties
+######### Skip Trimming Specific Properties
 
 Use the `[NotTrimmed]` attribute to prevent trimming of specific properties:
 
@@ -121,7 +121,7 @@ var address = new Address
 address.TrimStrings();
 ```
 
-### Recursive Trimming
+######### Recursive Trimming
 
 By default, the library recursively trims all string properties in nested objects up to a maximum depth of 64 levels. You can customize this behavior using `TrimmingOptions`:
 
@@ -141,7 +141,7 @@ person.TrimStrings(new TrimmingOptions \{ MaxDepth = 0 });
 | `Recursive` | `bool` | `true`  | Whether to trim strings in nested objects. When `false`, only top-level string properties are trimmed.|
 | `MaxDepth`  | `int`  | `64`    | Maximum depth for recursive trimming. `0` trims only top-level properties, `1` includes one level of nested objects, and so on. |
 
-### Supported Types
+######### Supported Types
 
 The library works with:
 - Complex objects with string properties
@@ -149,16 +149,16 @@ The library works with:
 - Nested objects
 - Properties marked with `[NotTrimmed]` will be skipped
 
-### Limitations
+######### Limitations
 
 The library will throw an `ArgumentException` if you try to use it on:
 - String types (use `string.Trim()` instead)
 - Primitive types
 - Enum types
 
-## Examples
+###### Examples
 
-### Working with Collections
+######### Working with Collections
 
 ```csharp
 public class Company
@@ -193,7 +193,7 @@ company.TrimStrings();
 // - company.Employees[0].EmployeeId = "  E001  " (not trimmed due to [NotTrimmed])
 ```
 
-### Working with Nested Objects
+######### Working with Nested Objects
 
 ```csharp
 public class Order
@@ -231,11 +231,11 @@ order.TrimStrings();
 // All string properties will be trimmed except Customer.PhoneNumber
 ```
 
-### Source Generator (Zero Reflection)
+######### Source Generator (Zero Reflection)
 
 For maximum performance, TrimItEasy includes a source generator that produces optimized trimming code at compile time � no reflection at runtime.
 
-#### Installation
+########## Installation
 
 Install both the core library and the source generator package:
 
@@ -257,7 +257,7 @@ Install-Package TrimItEasy.Generators
 >                   ReferenceOutputAssembly="false" />
 > ```
 
-#### Usage
+########## Usage
 
 1. **Define a `static partial` extension method** that takes your target type as a `this` parameter and returns `void`.
 2. **Annotate it with `[GeneratedTrimming]`**.
@@ -320,7 +320,7 @@ person.FastTrimStrings();
 // All string properties are trimmed, including nested objects and collections
 ```
 
-#### How It Works
+########## How It Works
 
 - The source generator analyzes the target type's property graph at compile time.
 - It generates a dedicated trimming method that directly accesses each string property � no reflection involved.
@@ -328,11 +328,11 @@ person.FastTrimStrings();
 - Properties marked with `[NotTrimmed]` are respected and skipped.
 - Circular references are detected and handled safely using a visited set.
 
-## Contributing
+###### Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+###### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 

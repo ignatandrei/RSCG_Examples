@@ -1714,5 +1714,11 @@
     "category": "Tests",
     "href": "/RSCG_Examples/v2/docs/SatorImaging.TDoubles/",
     "body": "Incremental source generator for creating mock wrapper classes."
+  },
+  {
+    "title": "TrimItEasy",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/TrimItEasy/",
+    "body": "Package Description"
   }
 ]
