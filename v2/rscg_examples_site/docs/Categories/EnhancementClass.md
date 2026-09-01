@@ -1,6 +1,6 @@
 <h1>EnhancementClass</h1>
 
-Number RSCG: 30
+Number RSCG: 31
 
         1 [ApparatusAOT](/docs/ApparatusAOT) [![Nuget](https://img.shields.io/nuget/dt/Apparatus.AOT.Reflection?label=Apparatus.AOT.Reflection)](https://www.nuget.org/packages/Apparatus.AOT.Reflection/) ![GitHub Repo stars](https://img.shields.io/github/stars/byme8/Apparatus.AOT.Reflection?style=social) 2023-04-16
     
@@ -61,4 +61,6 @@ Number RSCG: 30
         29 [TelemetryLogging](/docs/TelemetryLogging) [![Nuget](https://img.shields.io/nuget/dt/Microsoft.Extensions.Telemetry.Abstractions?label=Microsoft.Extensions.Telemetry.Abstractions)](https://www.nuget.org/packages/Microsoft.Extensions.Telemetry.Abstractions/) ![GitHub Repo stars](https://img.shields.io/github/stars/dotnet/extensions?style=social) 2023-11-30
     
         30 [ThisClass](/docs/ThisClass) [![Nuget](https://img.shields.io/nuget/dt/ThisClass?label=ThisClass)](https://www.nuget.org/packages/ThisClass/) ![GitHub Repo stars](https://img.shields.io/github/stars/trympet/ThisClass?style=social) 2024-04-19
+    
+        31 [TrimItEasy](/docs/TrimItEasy) [![Nuget](https://img.shields.io/nuget/dt/TrimItEasy?label=TrimItEasy)](https://www.nuget.org/packages/TrimItEasy/) ![GitHub Repo stars](https://img.shields.io/github/stars/phongnguyend/TrimItEasy?style=social) 2026-08-28
         

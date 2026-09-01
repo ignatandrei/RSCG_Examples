@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"TrimItEasy",
+      "nuget":[
+         "https://www.nuget.org/packages/TrimItEasy/"
+      ],
+      "link":"https://github.com/phongnguyend/TrimItEasy",
+      "author":"Phong Nguyen",
+      "source":"https://github.com/phongnguyend/TrimItEasy"
+   },
+   "data":{
+      "goodFor":["trimming eacg string from a class properties"],
+      "csprojDemo":"TrimDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

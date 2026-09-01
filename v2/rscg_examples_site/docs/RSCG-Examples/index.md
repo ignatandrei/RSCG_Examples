@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 286 RSCG list by category
-description: 286 RSCG list by category
+title: 287 RSCG list by category
+description: 287 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -578,7 +578,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:30</summary>
+  <summary>Expand EnhancementClass =>examples:31</summary>
         
 
 
@@ -728,6 +728,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [NLog.Extensions.ThisClass](/docs/NLog.Extensions.ThisClass)
+
+        
+
+
+[TrimItEasy](/docs/TrimItEasy)
 
 </details>
     
@@ -2010,6 +2015,8 @@ flowchart LR;
     EnhancementClass--> Pekspro.DataAnnotationValuesExtractor((Pekspro.DataAnnotationValuesExtractor))
 
     EnhancementClass--> NLog.Extensions.ThisClass((NLog.Extensions.ThisClass))
+
+    EnhancementClass--> TrimItEasy((TrimItEasy))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
