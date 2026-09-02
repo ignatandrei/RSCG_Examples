@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 288 RSCG list by category
-description: 288 RSCG list by category
+title: 289 RSCG list by category
+description: 289 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -578,7 +578,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:31</summary>
+  <summary>Expand EnhancementClass =>examples:32</summary>
         
 
 
@@ -733,6 +733,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [TrimItEasy](/docs/TrimItEasy)
+
+        
+
+
+[AOP.Logging.SourceGenerator](/docs/AOP.Logging.SourceGenerator)
 
 </details>
     
@@ -2022,6 +2027,8 @@ flowchart LR;
     EnhancementClass--> NLog.Extensions.ThisClass((NLog.Extensions.ThisClass))
 
     EnhancementClass--> TrimItEasy((TrimItEasy))
+
+    EnhancementClass--> AOP.Logging.SourceGenerator((AOP.Logging.SourceGenerator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 

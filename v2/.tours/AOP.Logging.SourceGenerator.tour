@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "AOP.Logging.SourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/AOP.Logging.SourceGenerator/src/DemoLog/DemoLog.csproj",
+      "description": "First, we add Nuget  [AOP.Logging.SourceGenerator](https://www.nuget.org/packages/AOP.Logging.SourceGenerator/) in csproj  ",
+      "pattern": "AOP.Logging.SourceGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/AOP.Logging.SourceGenerator/src/DemoLog/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/AOP.Logging.SourceGenerator/src/DemoLog/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/AOP.Logging.SourceGenerator/src/DemoLog/DemoLog.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/AOP.Logging.SourceGenerator/src/DemoLog/obj/GX/AOP.Logging.SourceGenerator/AOP.Logging.SourceGenerator.LoggingSourceGenerator/Person_Logging.g.cs",
+        "description": "Generated File 1  from 1 : Person_Logging.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
