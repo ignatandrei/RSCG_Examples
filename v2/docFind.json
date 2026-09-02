@@ -1720,5 +1720,11 @@
     "category": "EnhancementClass",
     "href": "/RSCG_Examples/v2/docs/TrimItEasy/",
     "body": "Package Description"
+  },
+  {
+    "title": "Najlot.Map.SourceGenerator",
+    "category": "Mapper",
+    "href": "/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator/",
+    "body": "Source generator for Najlot.Map that provides automatic mapping code generation with high performance caching."
   }
 ]

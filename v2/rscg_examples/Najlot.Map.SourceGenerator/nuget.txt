@@ -1,0 +1,1 @@
+Source generator for Najlot.Map that provides automatic mapping code generation with high performance caching.

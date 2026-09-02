@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Najlot.Map.SourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Najlot.Map.SourceGenerator/"
+      ],
+      "link":"https://github.com/najlot/Map",
+      "author":"Najlot",
+      "source":"https://github.com/najlot/Map"
+   },
+   "data":{
+      "goodFor":[" Generates object mapping code at compile time using source generators"],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

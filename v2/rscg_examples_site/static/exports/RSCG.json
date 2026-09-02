@@ -2297,6 +2297,14 @@
       "Source": "https://github.com/phongnguyend/TrimItEasy",
       "Category": "EnhancementClass",
       "AddedOn": "2026-08-28T00:00:00"
+    },
+    {
+      "Name": "Najlot.Map.SourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/Najlot.Map.SourceGenerator/",
+      "Source": "https://github.com/najlot/Map",
+      "Category": "Mapper",
+      "AddedOn": "2026-08-29T00:00:00"
     }
   ]
 }
