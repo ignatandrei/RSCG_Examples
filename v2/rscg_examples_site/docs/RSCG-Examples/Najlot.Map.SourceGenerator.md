@@ -49,7 +49,7 @@ Najlot
 ## Original Readme
 :::note
 
-# ![M](https://github.com/najlot/Map/blob/main/images/icon.png) Najlot.Map
+### ![M](https://github.com/najlot/Map/blob/main/images/icon.png) Najlot.Map
 
 Najlot.Map is a high-performance object mapping library for .NET built around explicit mapping methods.
 Instead of convention-heavy auto-mapping, it keeps mapping logic in normal C# methods so behavior stays readable, predictable, and easy to review.
@@ -64,7 +64,7 @@ Najlot.Map is a good fit when you want:
 
 ---
 
-## Why Najlot.Map
+###### Why Najlot.Map
 
 * Unlike convention-based mappers, mapping behavior lives in regular C# methods you can read, debug, and review directly.
 * Unlike tools that rely on runtime magic, Najlot.Map keeps the hot path explicit and lets you add source generation only when it helps.
@@ -72,7 +72,7 @@ Najlot.Map is a good fit when you want:
 
 ---
 
-## What It Does
+###### What It Does
 
 * Explicit method-based mappings
 * Central `IMap` container
@@ -84,7 +84,7 @@ Najlot.Map is a good fit when you want:
 
 ---
 
-## Packages
+###### Packages
 
 Najlot.Map is distributed as two NuGet packages:
 
@@ -95,7 +95,7 @@ Najlot.Map is distributed as two NuGet packages:
 
 ---
 
-## Installation
+###### Installation
 
 Install the runtime package:
 
@@ -111,7 +111,7 @@ dotnet add package Najlot.Map.SourceGenerator
 
 ---
 
-## Core Model
+###### Core Model
 
 * Mappings are regular methods, not configuration files.
 * `IMap` is the single entry point for registration and execution.
@@ -121,9 +121,9 @@ dotnet add package Najlot.Map.SourceGenerator
 
 ---
 
-## Quick Start
+###### Quick Start
 
-### 1. Write mapping methods
+######### 1. Write mapping methods
 
 ```csharp
 using Najlot.Map;
@@ -156,7 +156,7 @@ internal class UserMappings
 }
 ```
 
-### 2. Register the mappings
+######### 2. Register the mappings
 
 ```csharp
 var map = new Map()
@@ -171,7 +171,7 @@ var map = new Map()
     .Register<UserMappings>();
 ```
 
-### 3. Map objects and collections
+######### 3. Map objects and collections
 
 ```csharp
 var user = map.From(userModel).To<User>();
@@ -180,9 +180,9 @@ var users = map.From(userModels).To<User>().ToList();
 
 ---
 
-## Registration Options
+###### Registration Options
 
-### Manual registration
+######### Manual registration
 
 Register a class and let Najlot.Map inspect its public methods:
 
@@ -201,7 +201,7 @@ TTo Map(IMap map, TFrom from)
 Expression<Func<TFrom, TTo>> Projection()
 ```
 
-### Generated registration
+######### Generated registration
 
 When using `Najlot.Map.SourceGenerator`, classes marked with `[Mapping]` get picked up and the generator emits an assembly-specific extension method named `Register{AssemblyName}Mappings()`.
 
@@ -214,7 +214,7 @@ If generated mapping classes need constructor injection, the same `RegisterFacto
 
 ---
 
-## Source Generator
+###### Source Generator
 
 The source generator keeps the same explicit programming model while removing repetitive mapping code.
 
@@ -245,7 +245,7 @@ Use the generator when you want to reduce boilerplate but still keep mappings ex
 
 ---
 
-## Validation
+###### Validation
 
 `Validate()` checks registered delegate-based mappings and throws `MapMissPropertiesException` when destination properties are left unmapped and not explicitly ignored.
 
@@ -266,7 +266,7 @@ Validation does not cover expression-based mappings used for `IQueryable<T>` pro
 
 ---
 
-## Queryable Projections
+###### Queryable Projections
 
 For `IQueryable<T>` scenarios such as Entity Framework Core, register an expression mapping so the provider can translate it.
 
@@ -296,7 +296,7 @@ Use expression mappings when the projection needs to stay provider-translatable.
 
 ---
 
-## Design Principles
+###### Design Principles
 
 Najlot.Map is intentionally not a convention-over-configuration auto-mapper.
 Its value is in making mappings obvious and controllable while still giving you enough tooling to keep the codebase fast and maintainable as it grows.
@@ -309,7 +309,7 @@ That means:
 
 ---
 
-## License
+###### License
 
 MIT License
 

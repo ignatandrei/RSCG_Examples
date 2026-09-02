@@ -301,6 +301,7 @@ input-files:
 - examples/PropertyResolvers.html
 - examples/SatorImaging.TDoubles.html
 - examples/TrimItEasy.html
+- examples/Najlot.Map.SourceGenerator.html
 
 # or you may use input-file: with a single value
 # defaults:
