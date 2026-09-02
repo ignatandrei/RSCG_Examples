@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"AOP.Logging.SourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/AOP.Logging.SourceGenerator/"
+      ],
+      "link":"https://github.com/dborgards/aop.logging.net",
+      "author":"Dietmar Borgards",
+      "source":"https://github.com/dborgards/aop.logging.net"
+   },
+   "data":{
+      "goodFor":["Logging methods by generating new ones"],
+      "csprojDemo":"DemoLog.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

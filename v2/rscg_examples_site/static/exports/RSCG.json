@@ -2305,6 +2305,14 @@
       "Source": "https://github.com/najlot/Map",
       "Category": "Mapper",
       "AddedOn": "2026-08-29T00:00:00"
+    },
+    {
+      "Name": "AOP.Logging.SourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/AOP.Logging.SourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/AOP.Logging.SourceGenerator/",
+      "Source": "https://github.com/dborgards/aop.logging.net",
+      "Category": "EnhancementClass",
+      "AddedOn": "2026-08-30T00:00:00"
     }
   ]
 }

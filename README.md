@@ -1,10 +1,10 @@
-# RSCG - 288 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 289 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 288 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 289 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-08-29 => 29 August 2026
+## Latest Update : 2026-08-30 => 30 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 288 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 289 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 289. [AOP.Logging.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AOP.Logging.SourceGenerator) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
+
+Generated on : 2026-08-30 => 30 August 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Dietmar Borgards
+
+Source generator for AOP.Logging framework that provides compile-time method interception and automatic logging code generation. 
+
+Nuget: [https://www.nuget.org/packages/AOP.Logging.SourceGenerator/](https://www.nuget.org/packages/AOP.Logging.SourceGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/AOP.Logging.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/AOP.Logging.SourceGenerator)
+
+Source: [https://github.com/dborgards/aop.logging.net](https://github.com/dborgards/aop.logging.net)
+
+</details>
+
 ### 288. [Najlot.Map.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
 
 Generated on : 2026-08-29 => 29 August 2026
