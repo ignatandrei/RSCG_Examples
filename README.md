@@ -1,10 +1,10 @@
-# RSCG - 287 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 288 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 287 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 288 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-08-28 => 28 August 2026
+## Latest Update : 2026-08-29 => 29 August 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 287 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 288 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 288. [Najlot.Map.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2026-08-29 => 29 August 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Najlot
+
+Source generator for Najlot.Map that provides automatic mapping code generation with high performance caching. 
+
+Nuget: [https://www.nuget.org/packages/Najlot.Map.SourceGenerator/](https://www.nuget.org/packages/Najlot.Map.SourceGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator)
+
+Source: [https://github.com/najlot/Map](https://github.com/najlot/Map)
+
+</details>
+
 ### 287. [TrimItEasy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/TrimItEasy) , in the [EnhancementClass](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enhancementclass) category 
 
 Generated on : 2026-08-28 => 28 August 2026

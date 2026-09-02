@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Najlot.Map.SourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/mapperDemo.csproj",
+      "description": "First, we add Nuget  [Najlot.Map.SourceGenerator](https://www.nuget.org/packages/Najlot.Map.SourceGenerator/) in csproj  ",
+      "pattern": "Najlot.Map.SourceGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/PersonDTO.cs",
+        "description": "File PersonDTO.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/mapperDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/obj/GX/Najlot.Map.SourceGenerator/Najlot.Map.SourceGenerator.RegistrationGenerator/MapRegistrationExtensions_mapperDemo.g.cs",
+        "description": "Generated File 2  from 2 : MapRegistrationExtensions_mapperDemo.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Najlot.Map.SourceGenerator/src/mapperDemo/obj/GX/Najlot.Map.SourceGenerator/Najlot.Map.SourceGenerator.MappingGenerator/mapperDemo_UserMapper.g.cs",
+        "description": "Generated File 1  from 2 : mapperDemo_UserMapper.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -286,3 +286,4 @@ Nr,Key,Source,Category
 285,PropertyResolvers, https://github.com/tombiddulph/PropertyResolvers,EnhancementProject
 286,SatorImaging.TDoubles, https://github.com/sator-imaging/TDoubles,Tests
 287,TrimItEasy, https://github.com/phongnguyend/TrimItEasy,EnhancementClass
+288,Najlot.Map.SourceGenerator, https://github.com/najlot/Map,Mapper

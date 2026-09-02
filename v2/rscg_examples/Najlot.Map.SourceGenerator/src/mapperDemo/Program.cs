@@ -1,0 +1,10 @@
+﻿using mapperDemo;
+using Najlot.Map;
+var map = new Map();
+map.RegistermapperDemoMappings();
+map.Validate();
+var p=new Person();
+p.FirstName = "Andrei";
+p.LastName = "Ignat";
+PersonDTO personDTO=map.From(p).To<PersonDTO>();
+Console.WriteLine(personDTO.FullName);
