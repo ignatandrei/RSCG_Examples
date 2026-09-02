@@ -1726,5 +1726,11 @@
     "category": "Mapper",
     "href": "/RSCG_Examples/v2/docs/Najlot.Map.SourceGenerator/",
     "body": "Source generator for Najlot.Map that provides automatic mapping code generation with high performance caching."
+  },
+  {
+    "title": "AOP.Logging.SourceGenerator",
+    "category": "EnhancementClass",
+    "href": "/RSCG_Examples/v2/docs/AOP.Logging.SourceGenerator/",
+    "body": "Source generator for AOP.Logging framework that provides compile-time method interception and automatic logging code generation."
   }
 ]

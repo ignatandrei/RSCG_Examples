@@ -49,7 +49,7 @@ Dietmar Borgards
 ## Original Readme
 :::note
 
-# AOP.Logging.NET
+### AOP.Logging.NET
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![.NET](https://img.shields.io/badge/.NET-8.0%20%7C%2010.0-512BD4)](https://dotnet.microsoft.com/)
@@ -58,7 +58,7 @@ Dietmar Borgards
 
 A powerful, attribute-based Aspect-Oriented Programming (AOP) logging framework for C# that provides seamless method interception and automatic logging using Source Generators.
 
-## Features
+###### Features
 
 - **Attribute-Based Logging**: Simple, declarative logging with `[LogClass]`, `[LogMethod]`, and related attributes
 - **Compile-Time Source Generation**: Zero runtime overhead with C# Source Generators
@@ -70,24 +70,24 @@ A powerful, attribute-based Aspect-Oriented Programming (AOP) logging framework 
 - **Dependency Injection**: First-class support for Microsoft.Extensions.DependencyInjection
 - **Performance Optimized**: Minimal overhead with intelligent logging decisions
 
-## Installation
+###### Installation
 
 Install the NuGet packages:
 
 ```bash
-# Core library with attributes
+### Core library with attributes
 dotnet add package AOP.Logging.Core
 
-# Source Generator (required for compile-time code generation)
+### Source Generator (required for compile-time code generation)
 dotnet add package AOP.Logging.SourceGenerator
 
-# Dependency Injection extensions
+### Dependency Injection extensions
 dotnet add package AOP.Logging.DependencyInjection
 ```
 
-## Quick Start
+###### Quick Start
 
-### 1. Configure Services
+######### 1. Configure Services
 
 ```csharp
 using AOP.Logging.DependencyInjection;
@@ -114,11 +114,11 @@ var host = Host.CreateDefaultBuilder(args)
 await host.RunAsync();
 ```
 
-### 2. Add Logging to Your Classes
+######### 2. Add Logging to Your Classes
 
 AOP.Logging supports **two patterns** for adding logging to your methods:
 
-#### Pattern 1: Core Suffix (Traditional - Backward Compatible)
+########## Pattern 1: Core Suffix (Traditional - Backward Compatible)
 
 ```csharp
 using AOP.Logging.Core.Attributes;
@@ -145,7 +145,7 @@ public partial class MyService : IMyService
 }
 ```
 
-#### Pattern 2: No Core Suffix (New - Flexible)
+########## Pattern 2: No Core Suffix (New - Flexible)
 
 ```csharp
 using AOP.Logging.Core.Attributes;
@@ -171,7 +171,7 @@ public partial class OrderService : IOrderService
 - **No Core Pattern**: Methods without `Core` generate wrappers with `Logged` suffix (e.g., `CreateOrder` → `CreateOrderLogged`)
 - Both patterns can be mixed in the same class for maximum flexibility!
 
-### 3. Run and See the Logs
+######### 3. Run and See the Logs
 
 ```
 info: MyService[0]
@@ -180,13 +180,13 @@ info: MyService[0]
       Exiting MyService.Add (took 0ms)
 ```
 
-## Usage Examples
+###### Usage Examples
 
 > **Note**: The examples below show the business logic implementation. You can use either pattern:
 > - **Core Suffix Pattern**: Implement methods as `private *Core` methods (e.g., `AddCore`, `ProcessDataCore`), and the generator creates wrappers without the suffix.
 > - **No Core Pattern**: Implement methods without the Core suffix, and the generator creates wrappers with `Logged` suffix (e.g., `CreateOrder` → `CreateOrderLogged`).
 
-### Basic Method Logging
+######### Basic Method Logging
 
 ```csharp
 [LogClass]
@@ -200,7 +200,7 @@ public partial class CalculatorService
 }
 ```
 
-### Custom Log Levels
+######### Custom Log Levels
 
 ```csharp
 [LogClass(LogLevel.Debug)]
@@ -214,7 +214,7 @@ public partial class DebugService
 }
 ```
 
-### Sensitive Data Protection
+######### Sensitive Data Protection
 
 ```csharp
 [LogClass]
@@ -231,7 +231,7 @@ public partial class UserService
 }
 ```
 
-### Exception Logging
+######### Exception Logging
 
 ```csharp
 [LogClass]
@@ -249,7 +249,7 @@ public partial class DataService
 }
 ```
 
-### Async Method Support
+######### Async Method Support
 
 ```csharp
 [LogClass]
@@ -270,7 +270,7 @@ public partial class ApiService
 }
 ```
 
-### Parameter Control
+######### Parameter Control
 
 ```csharp
 [LogClass]
@@ -288,7 +288,7 @@ public partial class ReportService
 }
 ```
 
-### Return Value Logging
+######### Return Value Logging
 
 ```csharp
 [LogClass]
@@ -309,7 +309,7 @@ public partial class CalculationService
 }
 ```
 
-### Selective Method Logging
+######### Selective Method Logging
 
 ```csharp
 [LogClass]
@@ -328,7 +328,7 @@ public partial class MixedService
 }
 ```
 
-### Mixed Pattern Usage (Core + No Core)
+######### Mixed Pattern Usage (Core + No Core)
 
 ```csharp
 [LogClass]
@@ -351,7 +351,7 @@ public partial class MixedPatternService
 }
 ```
 
-### Selective Logging Without [LogClass]
+######### Selective Logging Without [LogClass]
 
 ```csharp
 public partial class SelectiveService
@@ -373,9 +373,9 @@ public partial class SelectiveService
 }
 ```
 
-## Configuration
+###### Configuration
 
-### Global Options
+######### Global Options
 
 ```csharp
 services.AddAopLogging(options =>
@@ -415,7 +415,7 @@ services.AddAopLogging(options =>
 });
 ```
 
-### Message Format Placeholders
+######### Message Format Placeholders
 
 **Entry Messages**:
 - `{ClassName}` - The name of the class
@@ -435,9 +435,9 @@ services.AddAopLogging(options =>
 - `{ExceptionMessage}` - The exception message
 - `{ExecutionTime}` - Execution time before exception
 
-## Attributes Reference
+###### Attributes Reference
 
-### `[LogClass]`
+######### `[LogClass]`
 
 Marks a class for automatic logging of all public methods.
 
@@ -453,7 +453,7 @@ public partial class MyService \{ }
 - `LogReturnValue` - Log return values (default: true)
 - `LogExceptions` - Log exceptions (default: true)
 
-### `[LogMethod]`
+######### `[LogMethod]`
 
 Controls logging for a specific method, overriding class-level settings.
 
@@ -472,7 +472,7 @@ public void MyMethod() \{ }
 - `EntryMessage` - Custom entry message template
 - `ExitMessage` - Custom exit message template
 
-### `[LogParameter]`
+######### `[LogParameter]`
 
 Controls logging for a specific parameter.
 
@@ -485,7 +485,7 @@ public void MyMethod([LogParameter(Name = "UserId")] int id) \{ }
 - `Name` - Custom name in logs
 - `MaxLength` - Maximum length for string values
 
-### `[LogResult]`
+######### `[LogResult]`
 
 Controls logging for method return values.
 
@@ -499,7 +499,7 @@ public int Calculate() => 42;
 - `Name` - Custom name in logs
 - `MaxLength` - Maximum length for string values
 
-### `[LogException]`
+######### `[LogException]`
 
 Controls exception logging behavior.
 
@@ -514,7 +514,7 @@ public void RiskyOperation() \{ }
 - `Rethrow` - Rethrow the exception after logging (default: true)
 - `Message` - Custom exception message template
 
-### `[SensitiveData]`
+######### `[SensitiveData]`
 
 Marks data as sensitive, preventing it from being logged.
 
@@ -526,9 +526,9 @@ public void Login([SensitiveData] string password) \{ }
 - `MaskValue` - The mask to use (default: "***SENSITIVE***")
 - `ShowLength` - Show the length of sensitive data (default: false)
 
-## Dependency Injection Extensions
+###### Dependency Injection Extensions
 
-### Service Registration with Logging
+######### Service Registration with Logging
 
 ```csharp
 // Transient
@@ -543,7 +543,7 @@ services.AddSingletonWithLogging<IMyService, MyService>();
 
 These extension methods automatically inject the `IMethodLogger` into your services.
 
-## Best Practices
+###### Best Practices
 
 1. **Use `partial` classes**: Classes with logging attributes must be declared as `partial`
 2. **Protect sensitive data**: Always use `[SensitiveData]` for passwords, tokens, and PII
@@ -552,7 +552,7 @@ These extension methods automatically inject the `IMethodLogger` into your servi
 5. **Skip unnecessary logging**: Use `Skip = true` for methods that don't need logging
 6. **Use structured logging**: Enable `UseStructuredLogging` for better log analysis
 
-## Performance Considerations
+###### Performance Considerations
 
 - **Compile-time generation**: All logging code is generated at compile time, not runtime
 - **Zero reflection**: No reflection is used during logging execution
@@ -560,15 +560,15 @@ These extension methods automatically inject the `IMethodLogger` into your servi
 - **Minimal allocations**: Optimized for low memory allocation
 - **Async-friendly**: Async methods are properly handled without blocking
 
-## Requirements
+###### Requirements
 
 - .NET 8.0 or .NET 10.0
 - C# 11.0 or higher
 - Microsoft.Extensions.Logging 8.0+
 
-## Sample Project
+###### Sample Project
 
-Check out the [sample project](./samples/AOP.Logging.Sample) for complete working examples demonstrating all features.
+Check out the [sample project](https://github.com/dborgards/aop.logging.net/samples/AOP.Logging.Sample) for complete working examples demonstrating all features.
 
 To run the sample:
 
@@ -577,47 +577,47 @@ cd samples/AOP.Logging.Sample
 dotnet run
 ```
 
-## Versioning
+###### Versioning
 
 This project follows [Semantic Versioning](https://semver.org/) and uses [Conventional Commits](https://www.conventionalcommits.org/) for automated version management.
 
-### Release Process
+######### Release Process
 
 - **Automatic Versioning**: Versions are calculated automatically based on commit messages
 - **Conventional Commits**: All commits must follow the conventional commits specification
 - **semantic-release**: Automated version calculation and release management
 
-See [VERSIONING.md](docs/VERSIONING.md) for detailed information about our versioning strategy.
+See [VERSIONING.md](https://github.com/dborgards/aop.logging.net/docs/VERSIONING.md) for detailed information about our versioning strategy.
 
-### Commit Message Format
+######### Commit Message Format
 
 ```bash
-# Features (bumps MINOR version)
+### Features (bumps MINOR version)
 feat: add custom interceptor support
 
-# Bug fixes (bumps PATCH version)
+### Bug fixes (bumps PATCH version)
 fix: resolve null reference in logger
 
-# Breaking changes (bumps MAJOR version)
+### Breaking changes (bumps MAJOR version)
 breaking: redesign attribute API
 ```
 
-## Contributing
+###### Contributing
 
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/dborgards/aop.logging.net/CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
 **Important**: All commits must follow [Conventional Commits](https://www.conventionalcommits.org/) format for proper version management.
 
-## License
+###### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dborgards/aop.logging.net/LICENSE) file for details.
 
-## Support
+###### Support
 
 - **Issues**: [GitHub Issues](https://github.com/dborgards/aop.logging.net/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/dborgards/aop.logging.net/discussions)
 
-## Roadmap
+###### Roadmap
 
 - [ ] Custom interceptor support
 - [ ] Performance counters integration
