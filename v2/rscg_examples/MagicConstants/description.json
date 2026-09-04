@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MagicConstants",
+      "nuget":[
+         "https://www.nuget.org/packages/MagicConstants/"
+      ],
+      "link":"https://github.com/LieselThuriot/MagicConstants",
+      "author":"Liesel Thuriot",
+      "source":"https://github.com/LieselThuriot/MagicConstants"
+   },
+   "data":{
+      "goodFor":["Generates constants from files to return contents. It has extension for routes and more for ASP.NET projects."],
+      "csprojDemo":"FolderToCode.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

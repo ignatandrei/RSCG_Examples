@@ -1732,5 +1732,11 @@
     "category": "EnhancementClass",
     "href": "/RSCG_Examples/v2/docs/AOP.Logging.SourceGenerator/",
     "body": "Source generator for AOP.Logging framework that provides compile-time method interception and automatic logging code generation."
+  },
+  {
+    "title": "MagicConstants",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/MagicConstants/",
+    "body": "Package Description"
   }
 ]

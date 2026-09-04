@@ -2313,6 +2313,14 @@
       "Source": "https://github.com/dborgards/aop.logging.net",
       "Category": "EnhancementClass",
       "AddedOn": "2026-08-30T00:00:00"
+    },
+    {
+      "Name": "MagicConstants",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/MagicConstants",
+      "NuGet": "https://www.nuget.org/packages/MagicConstants/",
+      "Source": "https://github.com/LieselThuriot/MagicConstants",
+      "Category": "FilesToCode",
+      "AddedOn": "2026-09-04T00:00:00"
     }
   ]
 }
