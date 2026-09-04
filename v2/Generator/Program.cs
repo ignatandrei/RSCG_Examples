@@ -154,7 +154,7 @@ $$"""
 
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :" + nr);
-    var lastGenerator = "SatorImaging.TDoubles";
+    var lastGenerator = "AOP.Logging.SourceGenerator";
 
     await m.WrotePost(lastGenerator);     
     await m.WroteDocusaurusAll(lastGenerator);

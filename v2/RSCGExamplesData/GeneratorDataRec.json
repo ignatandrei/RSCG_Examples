@@ -1751,6 +1751,12 @@
     "Category": 5,
     "dtStart": "2026-08-30T00:00:00",
     "show": true
+  },
+  {
+    "ID":"MagicConstants",
+    "Category": 8,
+    "dtStart": "2026-09-04T00:00:00",
+    "show": true
   }
   
 ]

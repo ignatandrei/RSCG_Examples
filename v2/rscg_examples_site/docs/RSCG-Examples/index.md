@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 289 RSCG list by category
-description: 289 RSCG list by category
+title: 290 RSCG list by category
+description: 290 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -993,7 +993,7 @@ import DocCardList from '@theme/DocCardList';
 ## FilesToCode 
 <details>
     
-  <summary>Expand FilesToCode =>examples:21</summary>
+  <summary>Expand FilesToCode =>examples:22</summary>
         
 
 
@@ -1098,6 +1098,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Pinecone.TypedPath](/docs/Pinecone.TypedPath)
+
+        
+
+
+[MagicConstants](/docs/MagicConstants)
 
 </details>
     
@@ -2159,6 +2164,8 @@ flowchart LR;
     FilesToCode--> Maestria.TypeProviders((Maestria.TypeProviders))
 
     FilesToCode--> Pinecone.TypedPath((Pinecone.TypedPath))
+
+    FilesToCode--> MagicConstants((MagicConstants))
 
     FunctionalProgramming--> dunet((dunet))
 

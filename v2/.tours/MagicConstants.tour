@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "MagicConstants",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/MagicConstants/src/FolderToCode/FolderToCode.csproj",
+      "description": "First, we add Nuget  [MagicConstants](https://www.nuget.org/packages/MagicConstants/) in csproj  ",
+      "pattern": "MagicConstants"
+    }
+
+        ,{
+        "file": "rscg_examples/MagicConstants/src/FolderToCode/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/MagicConstants/src/FolderToCode/FolderToCode.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/MagicConstants/src/FolderToCode/obj/GX/MagicConstants/MagicConstants.Generator/Assets.MyFolderToShow_ro_a_json.g.cs",
+        "description": "Generated File 2  from 2 : Assets.MyFolderToShow_ro_a_json.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/MagicConstants/src/FolderToCode/obj/GX/MagicConstants/MagicConstants.Generator/Assets.MyFolderToShow_en_a_json.g.cs",
+        "description": "Generated File 1  from 2 : Assets.MyFolderToShow_en_a_json.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
