@@ -49,11 +49,11 @@ LayeredCraft
 ## Original Readme
 :::note
 
-# LayeredCraft.OptimizedEnums
+### LayeredCraft.OptimizedEnums
 
 **LayeredCraft.OptimizedEnums** is a modular C# .NET library providing high-performance, AOT-safe smart enum patterns using source generation. Inherit from a base class and the generator produces O(1) lookup tables, collection properties, and factory methods — all at compile time with zero reflection at runtime.
 
-## Key Features
+###### Key Features
 
 - **Zero reflection** — all lookup tables are source-generated at compile time
 - **AOT / trimming friendly** — compatible with NativeAOT, ReadyToRun, and Blazor WASM
@@ -62,7 +62,7 @@ LayeredCraft
 - **No allocations per call** — all collections are statically cached
 - **Inheritance-based triggering** — no attribute required, just inherit and go
 
-## 📦 Packages
+###### 📦 Packages
 
 | Package | NuGet | Downloads |
 |---------|-------|-----------|
@@ -74,7 +74,7 @@ LayeredCraft
 
 [![Build Status](https://github.com/LayeredCraft/optimized-enums/actions/workflows/build.yaml/badge.svg)](https://github.com/LayeredCraft/optimized-enums/actions/workflows/build.yaml)
 
-## Usage
+###### Usage
 
 ```csharp
 public sealed partial class OrderStatus : OptimizedEnum<OrderStatus, int>
@@ -122,7 +122,7 @@ IReadOnlyList<int>         values = OrderStatus.Values;
 int count = OrderStatus.Count;      // compile-time constant
 ```
 
-## Performance
+###### Performance
 
 Benchmarks run on Apple M3 Max, .NET 9.0.8, BenchmarkDotNet v0.14.0.
 
@@ -139,7 +139,7 @@ Benchmarks run on Apple M3 Max, .NET 9.0.8, BenchmarkDotNet v0.14.0.
 
 All lookups are O(1) via statically-cached dictionaries. `Count` is a compile-time constant.
 
-## JSON Serialization
+###### JSON Serialization
 
 Add `LayeredCraft.OptimizedEnums.SystemTextJson` for source-generated, zero-reflection `JsonConverter` support. One package is all you need — it pulls in the core package automatically:
 
@@ -170,7 +170,7 @@ public sealed partial class OrderStatus : OptimizedEnum<OrderStatus, int>
 
 Two strategies are available: `ByName` (serializes as the member name string) and `ByValue` (serializes as the underlying value). See the [JSON Serialization docs](https://layeredcraft.github.io/optimized-enums/usage/json-serialization/) for full details.
 
-## Entity Framework Core
+###### Entity Framework Core
 
 Add `LayeredCraft.OptimizedEnums.EFCore` for source-generated, zero-reflection EF Core value converter support. One package is all you need — it pulls in the core package automatically:
 
@@ -206,7 +206,7 @@ protected override void ConfigureConventions(ModelConfigurationBuilder builder)
 
 Two strategies are available: `ByValue` (stores the underlying value) and `ByName` (stores the member name string). See the [Entity Framework Core docs](https://layeredcraft.github.io/optimized-enums/usage/ef-core/) for full details.
 
-## Installation
+###### Installation
 
 ```bash
 dotnet add package LayeredCraft.OptimizedEnums
@@ -214,11 +214,11 @@ dotnet add package LayeredCraft.OptimizedEnums
 
 Supports **.NET 8.0**, **.NET 9.0**, **.NET 10.0**.
 
-## Documentation
+###### Documentation
 
 Full documentation is available at the [LayeredCraft.OptimizedEnums docs site](https://layeredcraft.github.io/optimized-enums).
 
-## License
+###### License
 
 MIT
 
