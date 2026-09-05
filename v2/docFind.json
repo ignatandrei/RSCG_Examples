@@ -1744,5 +1744,11 @@
     "category": "EnhancementClass",
     "href": "/RSCG_Examples/v2/docs/Tenekon.MethodOverloads.SourceGenerator/",
     "body": "C# source generator that creates extension method overloads by treating a parameter window as optional and emitting legal, unique subsequences."
+  },
+  {
+    "title": "LayeredCraft.OptimizedEnums",
+    "category": "Enum",
+    "href": "/RSCG_Examples/v2/docs/LayeredCraft.OptimizedEnums/",
+    "body": "High-performance alternative to SmartEnum using source generation. Provides zero-reflection, AOT-safe enum types with compile-time validation and O(1) lookup tables."
   }
 ]
