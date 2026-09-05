@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Tenekon.MethodOverloads.SourceGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/Tenekon.MethodOverloads.SourceGenerator/"
+      ],
+      "link":"https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator",
+      "author":"Tenekon",
+      "source":"https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator"
+   },
+   "data":{
+      "goodFor":["generate overloads of the same method"],
+      "csprojDemo":"overloadMethod.csproj",
+      "csFiles":["Person.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
