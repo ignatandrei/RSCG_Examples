@@ -1,0 +1,1 @@
+High-performance alternative to SmartEnum using source generation. Provides zero-reflection, AOT-safe enum types with compile-time validation and O(1) lookup tables.

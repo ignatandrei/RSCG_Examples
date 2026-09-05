@@ -2329,6 +2329,14 @@
       "Source": "https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator",
       "Category": "EnhancementClass",
       "AddedOn": "2026-09-05T00:00:00"
+    },
+    {
+      "Name": "LayeredCraft.OptimizedEnums",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/LayeredCraft.OptimizedEnums",
+      "NuGet": "https://www.nuget.org/packages/LayeredCraft.OptimizedEnums/",
+      "Source": "https://github.com/layeredcraft/optimized-enums",
+      "Category": "Enum",
+      "AddedOn": "2026-09-06T00:00:00"
     }
   ]
 }

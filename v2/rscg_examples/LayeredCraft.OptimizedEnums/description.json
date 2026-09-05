@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"LayeredCraft.OptimizedEnums",
+      "nuget":[
+         "https://www.nuget.org/packages/LayeredCraft.OptimizedEnums/"
+      ],
+      "link":"https://github.com/layeredcraft/optimized-enums",
+      "author":"LayeredCraft",
+      "source":"https://github.com/layeredcraft/optimized-enums"
+   },
+   "data":{
+      "goodFor":["A new way to define enums - and efficiently manage them"],
+      "csprojDemo":"EnumDemo.csproj",
+      "csFiles":["Program.cs","CarTypes.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

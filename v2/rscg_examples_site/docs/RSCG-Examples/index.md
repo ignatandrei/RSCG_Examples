@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 291 RSCG list by category
-description: 291 RSCG list by category
+title: 292 RSCG list by category
+description: 292 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -889,7 +889,7 @@ import DocCardList from '@theme/DocCardList';
 ## Enum 
 <details>
     
-  <summary>Expand Enum =>examples:16</summary>
+  <summary>Expand Enum =>examples:17</summary>
         
 
 
@@ -969,6 +969,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Porticle.Enumly](/docs/Porticle.Enumly)
+
+        
+
+
+[LayeredCraft.OptimizedEnums](/docs/LayeredCraft.OptimizedEnums)
 
 </details>
     
@@ -2123,6 +2128,8 @@ flowchart LR;
     Enum--> LinkDotNet.Enumeration((LinkDotNet.Enumeration))
 
     Enum--> Porticle.Enumly((Porticle.Enumly))
+
+    Enum--> LayeredCraft.OptimizedEnums((LayeredCraft.OptimizedEnums))
 
     Equals--> GeneratorEquals((GeneratorEquals))
 

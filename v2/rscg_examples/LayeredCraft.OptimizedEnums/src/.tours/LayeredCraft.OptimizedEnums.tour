@@ -1,0 +1,48 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "LayeredCraft.OptimizedEnums",
+  "steps": 
+  [
+    {
+      "file": "EnumDemo/EnumDemo.csproj",
+      "description": "First, we add Nuget  [LayeredCraft.OptimizedEnums](https://www.nuget.org/packages/LayeredCraft.OptimizedEnums/) in csproj  ",
+      "pattern": "LayeredCraft.OptimizedEnums"
+    }
+
+        ,{
+        "file": "EnumDemo/CarTypes.cs",
+        "description": "File CarTypes.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EnumDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EnumDemo/EnumDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EnumDemo/obj/GX/Porticle.Enumly/Porticle.Enumly.EnumlyGenerator/EnumMapperAttributes.g.cs",
+        "description": "Generated File 3  from 3 : EnumMapperAttributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/Porticle.Enumly/Porticle.Enumly.EnumlyGenerator/EnumDemo.Mapper.EnumMapper.g.cs",
+        "description": "Generated File 2  from 3 : EnumDemo.Mapper.EnumMapper.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EnumDemo/obj/GX/LayeredCraft.OptimizedEnums.Generator/LayeredCraft.OptimizedEnums.Generator.OptimizedEnumGenerator/EnumDemo.CarTypes.g.cs",
+        "description": "Generated File 1  from 3 : EnumDemo.CarTypes.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

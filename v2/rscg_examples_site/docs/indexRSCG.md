@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 291 RSCG with examples in descending chronological order
+## 292 RSCG with examples in descending chronological order
 
-This is the list of 291 ( 16 from Microsoft) RSCG with examples 
+This is the list of 292 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 291 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|292| [LayeredCraft.OptimizedEnums by LayeredCraft ](/docs/LayeredCraft.OptimizedEnums)|2026-09-06 => 06 September 2026 | [Enum](/docs/Categories/Enum) |
 |291| [Tenekon.MethodOverloads.SourceGenerator by Tenekon ](/docs/Tenekon.MethodOverloads.SourceGenerator)|2026-09-05 => 05 September 2026 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |290| [MagicConstants by Liesel Thuriot ](/docs/MagicConstants)|2026-09-04 => 04 September 2026 | [FilesToCode](/docs/Categories/FilesToCode) |
 |289| [AOP.Logging.SourceGenerator by Dietmar Borgards ](/docs/AOP.Logging.SourceGenerator)|2026-08-30 => 30 August 2026 | [EnhancementClass](/docs/Categories/EnhancementClass) |
