@@ -1763,5 +1763,11 @@
     "Category": 5,
     "dtStart": "2026-09-05T00:00:00",
     "show": true
-  }
+  },  
+  {
+    "ID": "LayeredCraft.OptimizedEnums",
+    "Category": 19,
+    "dtStart": "2026-09-06T00:00:00",
+    "show": true
+  } 
 ]

@@ -1,6 +1,6 @@
 <h1>Enum</h1>
 
-Number RSCG: 16
+Number RSCG: 17
 
         1 [Aigamo.MatchGenerator](/docs/Aigamo.MatchGenerator) [![Nuget](https://img.shields.io/nuget/dt/Aigamo.MatchGenerator?label=Aigamo.MatchGenerator)](https://www.nuget.org/packages/Aigamo.MatchGenerator/) ![GitHub Repo stars](https://img.shields.io/github/stars/ycanardeau/MatchGenerator?style=social) 2026-04-08
     
@@ -20,17 +20,19 @@ Number RSCG: 16
     
         9 [jos.enumeration](/docs/jos.enumeration) [![Nuget](https://img.shields.io/nuget/dt/jos.enumeration?label=jos.enumeration)](https://www.nuget.org/packages/jos.enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/joseftw/jos.enumeration?style=social) 2025-07-20
     
-        10 [LinkDotNet.Enumeration](/docs/LinkDotNet.Enumeration) [![Nuget](https://img.shields.io/nuget/dt/LinkDotNet.Enumeration?label=LinkDotNet.Enumeration)](https://www.nuget.org/packages/LinkDotNet.Enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/linkdotnet/Enumeration?style=social) 2026-05-14
+        10 [LayeredCraft.OptimizedEnums](/docs/LayeredCraft.OptimizedEnums) [![Nuget](https://img.shields.io/nuget/dt/LayeredCraft.OptimizedEnums?label=LayeredCraft.OptimizedEnums)](https://www.nuget.org/packages/LayeredCraft.OptimizedEnums/) ![GitHub Repo stars](https://img.shields.io/github/stars/layeredcraft/optimized-enums?style=social) 2026-09-06
     
-        11 [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators) [![Nuget](https://img.shields.io/nuget/dt/NetEscapades.EnumGenerators?label=NetEscapades.EnumGenerators)](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) ![GitHub Repo stars](https://img.shields.io/github/stars/andrewlock/NetEscapades.EnumGenerators?style=social) 2023-04-16
+        11 [LinkDotNet.Enumeration](/docs/LinkDotNet.Enumeration) [![Nuget](https://img.shields.io/nuget/dt/LinkDotNet.Enumeration?label=LinkDotNet.Enumeration)](https://www.nuget.org/packages/LinkDotNet.Enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/linkdotnet/Enumeration?style=social) 2026-05-14
     
-        12 [PMart.Enumeration](/docs/PMart.Enumeration) [![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration.Generator?label=PMart.Enumeration.Generator)](https://www.nuget.org/packages/PMart.Enumeration.Generator/)[![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration?label=PMart.Enumeration)](https://www.nuget.org/packages/PMart.Enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/p-martinho/Enumeration?style=social) 2025-03-25
+        12 [NetEscapades.EnumGenerators](/docs/NetEscapades.EnumGenerators) [![Nuget](https://img.shields.io/nuget/dt/NetEscapades.EnumGenerators?label=NetEscapades.EnumGenerators)](https://www.nuget.org/packages/NetEscapades.EnumGenerators/) ![GitHub Repo stars](https://img.shields.io/github/stars/andrewlock/NetEscapades.EnumGenerators?style=social) 2023-04-16
     
-        13 [Porticle.Enumly](/docs/Porticle.Enumly) [![Nuget](https://img.shields.io/nuget/dt/Porticle.Enumly?label=Porticle.Enumly)](https://www.nuget.org/packages/Porticle.Enumly/) ![GitHub Repo stars](https://img.shields.io/github/stars/Machibuse/Porticle.Enumly?style=social) 2026-07-02
+        13 [PMart.Enumeration](/docs/PMart.Enumeration) [![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration.Generator?label=PMart.Enumeration.Generator)](https://www.nuget.org/packages/PMart.Enumeration.Generator/)[![Nuget](https://img.shields.io/nuget/dt/PMart.Enumeration?label=PMart.Enumeration)](https://www.nuget.org/packages/PMart.Enumeration/) ![GitHub Repo stars](https://img.shields.io/github/stars/p-martinho/Enumeration?style=social) 2025-03-25
     
-        14 [RapidEnum](/docs/RapidEnum) [![Nuget](https://img.shields.io/nuget/dt/RapidEnum?label=RapidEnum)](https://www.nuget.org/packages/RapidEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/hanachiru/RapidEnum?style=social) 2025-10-04
+        14 [Porticle.Enumly](/docs/Porticle.Enumly) [![Nuget](https://img.shields.io/nuget/dt/Porticle.Enumly?label=Porticle.Enumly)](https://www.nuget.org/packages/Porticle.Enumly/) ![GitHub Repo stars](https://img.shields.io/github/stars/Machibuse/Porticle.Enumly?style=social) 2026-07-02
     
-        15 [requiredenum](/docs/requiredenum) [![Nuget](https://img.shields.io/nuget/dt/requiredenum?label=requiredenum)](https://www.nuget.org/packages/requiredenum/) ![GitHub Repo stars](https://img.shields.io/github/stars/emptycoder/RequiredEnum?style=social) 2025-08-14
+        15 [RapidEnum](/docs/RapidEnum) [![Nuget](https://img.shields.io/nuget/dt/RapidEnum?label=RapidEnum)](https://www.nuget.org/packages/RapidEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/hanachiru/RapidEnum?style=social) 2025-10-04
     
-        16 [TaggedEnum](/docs/TaggedEnum) [![Nuget](https://img.shields.io/nuget/dt/TaggedEnum?label=TaggedEnum)](https://www.nuget.org/packages/TaggedEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/al0rid4l/SixTatami?style=social) 2026-04-05
+        16 [requiredenum](/docs/requiredenum) [![Nuget](https://img.shields.io/nuget/dt/requiredenum?label=requiredenum)](https://www.nuget.org/packages/requiredenum/) ![GitHub Repo stars](https://img.shields.io/github/stars/emptycoder/RequiredEnum?style=social) 2025-08-14
+    
+        17 [TaggedEnum](/docs/TaggedEnum) [![Nuget](https://img.shields.io/nuget/dt/TaggedEnum?label=TaggedEnum)](https://www.nuget.org/packages/TaggedEnum/) ![GitHub Repo stars](https://img.shields.io/github/stars/al0rid4l/SixTatami?style=social) 2026-04-05
         

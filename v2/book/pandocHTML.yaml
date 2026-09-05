@@ -305,6 +305,7 @@ input-files:
 - examples/AOP.Logging.SourceGenerator.html
 - examples/MagicConstants.html
 - examples/Tenekon.MethodOverloads.SourceGenerator.html
+- examples/LayeredCraft.OptimizedEnums.html
 
 # or you may use input-file: with a single value
 # defaults:

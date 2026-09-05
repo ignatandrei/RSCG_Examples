@@ -290,3 +290,4 @@ Nr,Key,Source,Category
 289,AOP.Logging.SourceGenerator, https://github.com/dborgards/aop.logging.net,EnhancementClass
 290,MagicConstants, https://github.com/LieselThuriot/MagicConstants,FilesToCode
 291,Tenekon.MethodOverloads.SourceGenerator, https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator,EnhancementClass
+292,LayeredCraft.OptimizedEnums, https://github.com/layeredcraft/optimized-enums,Enum
