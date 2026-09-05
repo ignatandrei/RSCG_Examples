@@ -1,0 +1,655 @@
+---
+sidebar_position: 2910
+title: 291 - Tenekon.MethodOverloads.SourceGenerator
+description: generate overloads of the same method
+slug: /Tenekon.MethodOverloads.SourceGenerator
+---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import TOCInline from '@theme/TOCInline';
+import SameCategory from '../Categories/_PrimitiveEnhancementClass.mdx';
+
+# Tenekon.MethodOverloads.SourceGenerator  by Tenekon
+
+
+<TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
+
+## NuGet / site data
+[![Nuget](https://img.shields.io/nuget/dt/Tenekon.MethodOverloads.SourceGenerator?label=Tenekon.MethodOverloads.SourceGenerator)](https://www.nuget.org/packages/Tenekon.MethodOverloads.SourceGenerator/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/tenekon/Tenekon.MethodOverloads.SourceGenerator?label=updated)](https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator)
+![GitHub Repo stars](https://img.shields.io/github/stars/tenekon/Tenekon.MethodOverloads.SourceGenerator?style=social)
+
+## Details
+
+### Info
+:::info
+
+Name: **Tenekon.MethodOverloads.SourceGenerator**
+
+C# source generator that creates extension method overloads by treating a parameter window as optional and emitting legal, unique subsequences.
+
+Author: Tenekon
+
+NuGet: 
+*https://www.nuget.org/packages/Tenekon.MethodOverloads.SourceGenerator/*   
+
+
+You can find more details at https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator
+
+Source: https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator
+
+:::
+
+### Author
+:::note
+Tenekon 
+![Alt text](https://github.com/tenekon.png)
+:::
+
+## Original Readme
+:::note
+
+### Tenekon.MethodOverloads.SourceGenerator
+
+[![Build](https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator/actions/workflows/coverage.yml/badge.svg?branch=main)](https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator/actions/workflows/coverage.yml)
+[![NuGet](https://img.shields.io/nuget/v/Tenekon.MethodOverloads.SourceGenerator.svg)](https://www.nuget.org/packages/Tenekon.MethodOverloads.SourceGenerator)
+[![Codecov](https://codecov.io/gh/tenekon/Tenekon.MethodOverloads.SourceGenerator/branch/main/graph/badge.svg)](https://codecov.io/gh/tenekon/Tenekon.MethodOverloads.SourceGenerator)
+[![License](https://img.shields.io/github/license/tenekon/Tenekon.MethodOverloads.SourceGenerator.svg)](https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator/LICENSE)
+
+A C# source generator that creates extension overloads by treating a selected parameter window as optional and emitting legal, unique subsequences. It supports matchers, bucketized output, visibility overrides, subsequence strategies, and generic substitution via `SupplyParameterType`.
+
+###### Install
+
+```xml
+<ItemGroup>
+  <PackageReference Include="Tenekon.MethodOverloads.SourceGenerator" Version="x.y.z" PrivateAssets="all" />
+</ItemGroup>
+```
+
+###### Quickstart
+
+1. Add `[GenerateOverloads]` to a method, or `[GenerateMethodOverloads(Matchers = ...)]` to a type.
+2. (Optional) Add `[OverloadGenerationOptions(...)]` to control matching and output.
+3. Build. Generated code appears as `MethodOverloads_<Namespace>*.g.cs`.
+
+###### Core Concepts
+
+- **Window**: the parameter range that can be omitted to produce overloads.
+- **ExcludeAny**: a list of parameter names that must be omitted in every overload within the window.
+- **Matchers**: define windows on matcher methods and apply them to target methods.
+- **Bucketization**: route generated methods into a specific static partial class.
+- **SupplyParameterType**: substitute method type parameters with concrete types before generation.
+
+###### Examples
+
+######### 1) Basic Window
+
+Input:
+```csharp
+namespace Demo;
+
+using Tenekon.MethodOverloads;
+
+public sealed class OrderService
+{
+    [GenerateOverloads(Begin = nameof(tenantId))]
+    public void CreateOrder(string orderId, string tenantId, bool requireApproval) \{ }
+}
+```
+
+Output:
+```csharp
+namespace Demo;
+
+public static class MethodOverloads
+{
+    public static void CreateOrder(this OrderService source, string orderId) =>
+        source.CreateOrder(orderId, tenantId: default(string), requireApproval: default(bool));
+
+    public static void CreateOrder(this OrderService source, string orderId, string tenantId) =>
+        source.CreateOrder(orderId, tenantId, requireApproval: default(bool));
+
+    public static void CreateOrder(this OrderService source, string orderId, bool requireApproval) =>
+        source.CreateOrder(orderId, tenantId: default(string), requireApproval);
+}
+```
+
+######### 2) Window Variants
+
+Use `Begin`, `End`, `BeginExclusive`, `EndExclusive`, or the constructor `GenerateOverloads(string beginEnd)`.
+
+```csharp
+[GenerateOverloads(BeginExclusive = nameof(start), End = nameof(end))]
+public void Query(int start, int end, bool includeMetadata, string? tag) \{ }
+```
+
+######### 3) ExcludeAny (Forced Omissions)
+
+ExcludeAny forces specific parameters inside the window to be omitted in every generated overload.
+
+```csharp
+[GenerateOverloads(Begin = nameof(optionalA), End = nameof(optionalC), ExcludeAny = [nameof(optionalB)])]
+public void Configure(int required, string? optionalA, string? optionalB, string? optionalC) \{ }
+```
+
+Notes:
+- `ExcludeAny` cannot be combined with `Matchers` on the same attribute.
+- If ExcludeAny covers the whole window, no overloads are generated for that attribute.
+
+######### 4) Matcher-Based Generation (Method-Level)
+
+Input:
+```csharp
+namespace Demo;
+
+using Tenekon.MethodOverloads;
+
+public sealed class UserService
+{
+    [GenerateOverloads(Matchers = [typeof(UserMatchers)])]
+    public void UpdateUser(string id, string name, int level, bool active) \{ }
+}
+
+internal interface UserMatchers
+{
+    [GenerateOverloads(nameof(paramB))]
+    void UpdateUser(int paramA, bool paramB);
+}
+```
+
+Output:
+```csharp
+namespace Demo;
+
+public static class MethodOverloads
+{
+    public static void UpdateUser(this UserService source, string id, string name, int level) =>
+        source.UpdateUser(id, name, level, active: default(bool));
+}
+```
+
+######### 5) Matcher-Based Generation (Type-Level + Static Target)
+
+Input:
+```csharp
+namespace Demo;
+
+using Tenekon.MethodOverloads;
+
+[GenerateMethodOverloads(Matchers = [typeof(MathMatchers)])]
+public static class MathUtils
+{
+    public static void Multiply(int left, int right, bool checkedOverflow) \{ }
+}
+
+internal interface MathMatchers
+{
+    [GenerateOverloads(nameof(paramB))]
+    void Multiply(int paramA, bool paramB);
+}
+```
+
+Output:
+```csharp
+namespace Demo;
+
+public static class MethodOverloads
+{
+    extension(MathUtils)
+    {
+        public static void Multiply(int left, int right) =>
+            MathUtils.Multiply(left, right, checkedOverflow: default(bool));
+    }
+}
+```
+
+######### 6) Range Anchor Match Mode
+
+`RangeAnchorMatchMode.TypeOnly` (default) matches by type only.  
+`RangeAnchorMatchMode.TypeAndName` requires matching names as well.
+
+```csharp
+[OverloadGenerationOptions(RangeAnchorMatchMode = RangeAnchorMatchMode.TypeAndName)]
+[GenerateOverloads(Matchers = [typeof(ServiceMatchers)])]
+public void Call(string id, string name, bool active) \{ }
+```
+
+######### 7) Subsequence Strategy
+
+`OverloadSubsequenceStrategy.UniqueBySignature` (default) generates all unique overloads.  
+`OverloadSubsequenceStrategy.PrefixOnly` generates only prefix omissions.
+
+```csharp
+[OverloadGenerationOptions(SubsequenceStrategy = OverloadSubsequenceStrategy.PrefixOnly)]
+[GenerateOverloads(Begin = nameof(optionalA))]
+public void Configure(int required, string? optionalA, bool optionalB) \{ }
+```
+
+######### 8) Overload Visibility
+
+```csharp
+[OverloadGenerationOptions(OverloadVisibility = OverloadVisibility.Internal)]
+[GenerateOverloads(Begin = nameof(optionalA))]
+public void Configure(int required, string? optionalA, bool optionalB) \{ }
+```
+
+######### 9) Bucketization (Scoped Static Classes)
+
+Route generated overloads into a specific static partial class:
+
+```csharp
+public static partial class MyBucket
+{
+}
+
+[OverloadGenerationOptions(BucketType = typeof(MyBucket))]
+[GenerateOverloads(Begin = nameof(optionalA))]
+public void Configure(int required, string? optionalA, bool optionalB) \{ }
+```
+
+Output:
+```csharp
+public static partial class MyBucket
+{
+    public static void Configure(this /* target type */ source, int required) =>
+        source.Configure(required, optionalA: default(string), optionalB: default(bool));
+}
+```
+
+######### 10) SupplyParameterType (Generic Substitution)
+
+Replace method type parameters with concrete types in generated overloads and invocations.
+
+```csharp
+public sealed class Constraint \{ }
+
+public interface IService<T> \{ }
+
+public sealed class Api
+{
+    [GenerateOverloads(nameof(optionalObject))]
+    [SupplyParameterType(nameof(TConstraint), typeof(Constraint))]
+    public void Use<TConstraint>(IService<TConstraint>? service, object? optionalObject) \{ }
+}
+```
+
+Output:
+```csharp
+public static class MethodOverloads
+{
+    public static void Use(this Api source, IService<Constraint>? service) =>
+        source.Use<Constraint>(service, default(object?));
+}
+```
+
+If only some method type parameters are supplied, the overload stays generic for the remaining ones.
+
+######### 11) Generic Containing Types
+
+Containing type type parameters and constraints are preserved on generated overloads.
+
+```csharp
+public sealed class Container<T> where T : class, new()
+{
+    [GenerateOverloads(nameof(optionalObject))]
+    public void Create(T value, object? optionalObject) \{ }
+}
+```
+
+Generated overloads keep `T` and its constraints.
+
+###### MSBuild Options
+
+Emit attributes only (skip generation and diagnostics):
+```xml
+<PropertyGroup>
+  <TenekonMethodOverloadsSourceGeneratorAttributesOnly>true</TenekonMethodOverloadsSourceGeneratorAttributesOnly>
+</PropertyGroup>
+```
+
+###### Diagnostics
+
+Diagnostics are reported by the analyzer and surfaced during build:
+
+- `MOG001` Invalid window anchor.
+- `MOG002` Matcher has no subsequence match.
+- `MOG003` Defaults inside window.
+- `MOG004` Params outside window.
+- `MOG005` Ref/out/in omitted.
+- `MOG006` Duplicate signature skipped.
+- `MOG007` Conflicting window anchors (BeginEnd vs Begin/End).
+- `MOG008` Redundant Begin and End.
+- `MOG009` Begin and BeginExclusive conflict.
+- `MOG010` End and EndExclusive conflict.
+- `MOG011` Parameterless target method.
+- `MOG012` Matchers + window anchors conflict.
+- `MOG013` Invalid bucket type.
+- `MOG014` Invalid SupplyParameterType usage.
+- `MOG015` SupplyParameterType refers to missing type parameter.
+- `MOG016` Conflicting SupplyParameterType mappings.
+- `MOG017` Matchers + ExcludeAny conflict.
+- `MOG018` ExcludeAny refers to missing/out-of-window parameter.
+- `MOG019` ExcludeAny contains invalid entries.
+
+You can downgrade error-level diagnostics in `.globalconfig` if you need the project to compile with intentional violations.
+
+###### Generation Rules (Summary)
+
+- Only ordinary, non-private methods are eligible.
+- Window omissions cannot drop `ref/out/in` parameters.
+- `params` must be inside the optional window to be omitted.
+- Existing method signatures are not duplicated.
+- Defaults inside the window are not allowed.
+- Matcher usages are emitted only when the matcher type is at least `internal`.
+
+###### Docs
+
+See `docs/generator.md` for detailed behavior and `docs/acceptance-criterias.md` for the acceptance project structure.
+
+
+:::
+
+### About
+:::note
+
+generate overloads of the same method
+
+
+:::
+
+## How to use
+
+### Example (source csproj, source files)
+
+<Tabs>
+
+<TabItem value="csproj" label="CSharp Project">
+
+This is the CSharp Project that references **Tenekon.MethodOverloads.SourceGenerator**
+```xml showLineNumbers {11}
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tenekon.MethodOverloads.SourceGenerator" Version="0.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+
+</Project>
+
+```
+
+</TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\Person.cs" label="Person.cs" >
+
+  This is the use of **Tenekon.MethodOverloads.SourceGenerator** in *Person.cs*
+
+```csharp showLineNumbers 
+namespace overloadMethod;
+
+public class Person
+{
+    public string  FirstName \{ get; set; \} = string.Empty;
+    public string  LastName \{ get; set; \} = string.Empty;
+
+    [Tenekon.MethodOverloads.GenerateOverloads(Begin = nameof(MiddleName))]
+    public string FullName(string MiddleName, bool ToLowerCase)
+    {
+        var fullName = $"{FirstName} {MiddleName} {LastName}";
+        return ToLowerCase ? fullName.ToLower() : fullName;
+    }
+}
+
+```
+  </TabItem>
+
+  <TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\Program.cs" label="Program.cs" >
+
+  This is the use of **Tenekon.MethodOverloads.SourceGenerator** in *Program.cs*
+
+```csharp showLineNumbers 
+using overloadMethod;
+
+Person p = new();
+p.FirstName= "Andrei";
+p.LastName = "Ignat";
+
+Console.WriteLine(p.FullName());
+
+```
+  </TabItem>
+
+</Tabs>
+
+### Generated Files
+
+Those are taken from $(BaseIntermediateOutputPath)\GX
+<Tabs>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\EmbeddedAttribute.g.cs" label="EmbeddedAttribute.g.cs" >
+```csharp showLineNumbers 
+namespace Microsoft.CodeAnalysis;
+
+internal sealed partial class EmbeddedAttribute : global::System.Attribute;
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\GenerateMethodOverloadsAttribute.g.cs" label="GenerateMethodOverloadsAttribute.g.cs" >
+```csharp showLineNumbers 
+#nullable enable
+namespace Tenekon.MethodOverloads;
+
+[global::Microsoft.CodeAnalysis.Embedded]
+[global::System.AttributeUsage(
+    global::System.AttributeTargets.Class
+    | global::System.AttributeTargets.Struct
+    | global::System.AttributeTargets.Interface,
+    AllowMultiple = true)]
+internal sealed class GenerateMethodOverloadsAttribute : global::System.Attribute
+{
+    public global::System.Type[]? Matchers \{ get; set; }
+}
+
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\GenerateOverloadsAttribute.g.cs" label="GenerateOverloadsAttribute.g.cs" >
+```csharp showLineNumbers 
+#nullable enable
+namespace Tenekon.MethodOverloads;
+
+[global::Microsoft.CodeAnalysis.Embedded]
+[global::System.AttributeUsage(global::System.AttributeTargets.Method, AllowMultiple = true)]
+internal sealed class GenerateOverloadsAttribute : global::System.Attribute
+{
+    public GenerateOverloadsAttribute()
+    {
+    }
+
+    public GenerateOverloadsAttribute(string beginEnd)
+    {
+        Begin = beginEnd;
+        End = beginEnd;
+    }
+
+    /// <summary>
+    /// All parameters beginning from <see cref="Begin"/> (inclusive) are considered for optional or required.
+    /// </summary>
+    public string? Begin \{ get; set; }
+
+    /// <summary>
+    /// All parameters after <see cref="BeginExclusive"/> are considered for optional or required.
+    /// </summary>
+    public string? BeginExclusive \{ get; set; }
+
+    /// <summary>
+    /// All parameters before <see cref="EndExclusive"/> are considered for optional or required.
+    /// </summary>
+    public string? EndExclusive \{ get; set; }
+
+    /// <summary>
+    /// All parameters until <see cref="End"/> (inclusive) are considered for optional or required.
+    /// </summary>
+    public string? End \{ get; set; }
+
+    /// <summary>
+    /// Parameters listed here are always omitted from generated overloads within the resolved window.
+    /// </summary>
+    public string[]? ExcludeAny \{ get; set; }
+
+    public global::System.Type[]? Matchers \{ get; set; }
+}
+
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\MatcherUsageAttribute.g.cs" label="MatcherUsageAttribute.g.cs" >
+```csharp showLineNumbers 
+#nullable enable
+namespace Tenekon.MethodOverloads;
+
+[global::Microsoft.CodeAnalysis.Embedded]
+[global::System.AttributeUsage(global::System.AttributeTargets.Class, AllowMultiple = true)]
+internal sealed class MatcherUsageAttribute : global::System.Attribute
+{
+    public MatcherUsageAttribute(string methodName)
+    {
+    }
+}
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\MethodOverloads_overloadMethod.g.cs" label="MethodOverloads_overloadMethod.g.cs" >
+```csharp showLineNumbers 
+// <auto-generated/>
+#nullable enable
+
+namespace overloadMethod;
+
+public static class MethodOverloads
+{
+    public static string FullName(this global::overloadMethod.Person source, bool ToLowerCase) => source.FullName(default(string), ToLowerCase);
+    public static string FullName(this global::overloadMethod.Person source, string MiddleName) => source.FullName(MiddleName, default(bool));
+    public static string FullName(this global::overloadMethod.Person source) => source.FullName(default(string), default(bool));
+}
+
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\OverloadGenerationOptionsAttribute.g.cs" label="OverloadGenerationOptionsAttribute.g.cs" >
+```csharp showLineNumbers 
+#nullable enable
+namespace Tenekon.MethodOverloads;
+
+[global::Microsoft.CodeAnalysis.Embedded]
+internal enum RangeAnchorMatchMode
+{
+    TypeOnly,
+    TypeAndName
+}
+
+[global::Microsoft.CodeAnalysis.Embedded]
+internal enum OverloadSubsequenceStrategy
+{
+    PrefixOnly,
+    UniqueBySignature
+}
+
+[global::Microsoft.CodeAnalysis.Embedded]
+internal enum OverloadVisibility
+{
+    MatchTarget,
+    Public,
+    Internal,
+    Private
+}
+
+[global::Microsoft.CodeAnalysis.Embedded]
+[global::System.AttributeUsage(
+    global::System.AttributeTargets.Class | global::System.AttributeTargets.Struct
+    | global::System.AttributeTargets.Interface | global::System.AttributeTargets.Method)]
+internal sealed class OverloadGenerationOptionsAttribute : global::System.Attribute
+{
+    public RangeAnchorMatchMode RangeAnchorMatchMode \{ get; set; }
+    public OverloadSubsequenceStrategy SubsequenceStrategy \{ get; set; }
+    public OverloadVisibility OverloadVisibility \{ get; set; }
+    public global::System.Type? BucketType \{ get; set; }
+}
+```
+  </TabItem>
+
+
+<TabItem value="D:\gth\RSCG_Examples\v2\rscg_examples\Tenekon.MethodOverloads.SourceGenerator\src\overloadMethod\obj\GX\Tenekon.MethodOverloads.SourceGenerator\Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator\SupplyParameterTypeAttribute.g.cs" label="SupplyParameterTypeAttribute.g.cs" >
+```csharp showLineNumbers 
+#nullable enable
+namespace Tenekon.MethodOverloads;
+
+[global::Microsoft.CodeAnalysis.Embedded]
+[global::System.AttributeUsage(
+    global::System.AttributeTargets.Method
+    | global::System.AttributeTargets.Class
+    | global::System.AttributeTargets.Interface,
+    AllowMultiple = true)]
+internal sealed class SupplyParameterTypeAttribute : global::System.Attribute
+{
+    public SupplyParameterTypeAttribute(string typeParameterName, global::System.Type suppliedType)
+    {
+        TypeParameterName = typeParameterName;
+        SuppliedType = suppliedType;
+    }
+
+    public string TypeParameterName \{ get; }
+
+    public global::System.Type SuppliedType \{ get; }
+
+    public object? Group \{ get; set; }
+}
+
+```
+  </TabItem>
+
+
+</Tabs>
+## Useful
+
+### Download Example (.NET  C#)
+
+:::tip
+
+[Download Example project Tenekon.MethodOverloads.SourceGenerator ](/sources/Tenekon.MethodOverloads.SourceGenerator.zip)
+
+:::
+
+
+### Share Tenekon.MethodOverloads.SourceGenerator 
+
+<ul>
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FTenekon.MethodOverloads.SourceGenerator&quote=Tenekon.MethodOverloads.SourceGenerator" title="Share on Facebook" target="_blank">Share on Facebook</a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FTenekon.MethodOverloads.SourceGenerator&text=Tenekon.MethodOverloads.SourceGenerator:%20https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FTenekon.MethodOverloads.SourceGenerator" target="_blank" title="Tweet">Share in Twitter</a></li>
+  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FTenekon.MethodOverloads.SourceGenerator&title=Tenekon.MethodOverloads.SourceGenerator" target="_blank" title="Submit to Reddit">Share on Reddit</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FTenekon.MethodOverloads.SourceGenerator&title=Tenekon.MethodOverloads.SourceGenerator&summary=&source=https%3A%2F%2Fignatandrei.github.io%2FRSCG_Examples%2Fv2%2Fdocs%2FTenekon.MethodOverloads.SourceGenerator" target="_blank" title="Share on LinkedIn">Share on Linkedin</a></li>
+</ul>
+
+https://ignatandrei.github.io/RSCG_Examples/v2/docs/Tenekon.MethodOverloads.SourceGenerator
+
+<SameCategory />
+

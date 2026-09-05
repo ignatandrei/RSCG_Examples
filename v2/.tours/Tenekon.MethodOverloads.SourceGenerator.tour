@@ -1,0 +1,72 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Tenekon.MethodOverloads.SourceGenerator",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/overloadMethod.csproj",
+      "description": "First, we add Nuget  [Tenekon.MethodOverloads.SourceGenerator](https://www.nuget.org/packages/Tenekon.MethodOverloads.SourceGenerator/) in csproj  ",
+      "pattern": "Tenekon.MethodOverloads.SourceGenerator"
+    }
+
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/overloadMethod.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/SupplyParameterTypeAttribute.g.cs",
+        "description": "Generated File 7  from 7 : SupplyParameterTypeAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/OverloadGenerationOptionsAttribute.g.cs",
+        "description": "Generated File 6  from 7 : OverloadGenerationOptionsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/MethodOverloads_overloadMethod.g.cs",
+        "description": "Generated File 5  from 7 : MethodOverloads_overloadMethod.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/MatcherUsageAttribute.g.cs",
+        "description": "Generated File 4  from 7 : MatcherUsageAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/GenerateOverloadsAttribute.g.cs",
+        "description": "Generated File 3  from 7 : GenerateOverloadsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/GenerateMethodOverloadsAttribute.g.cs",
+        "description": "Generated File 2  from 7 : GenerateMethodOverloadsAttribute.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "rscg_examples/Tenekon.MethodOverloads.SourceGenerator/src/overloadMethod/obj/GX/Tenekon.MethodOverloads.SourceGenerator/Tenekon.MethodOverloads.SourceGenerator.MethodOverloadsGenerator/EmbeddedAttribute.g.cs",
+        "description": "Generated File 1  from 7 : EmbeddedAttribute.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1,0 +1,1 @@
+C# source generator that creates extension method overloads by treating a parameter window as optional and emitting legal, unique subsequences.

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 290 RSCG list by category
-description: 290 RSCG list by category
+title: 291 RSCG list by category
+description: 291 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -578,7 +578,7 @@ import DocCardList from '@theme/DocCardList';
 ## EnhancementClass 
 <details>
     
-  <summary>Expand EnhancementClass =>examples:32</summary>
+  <summary>Expand EnhancementClass =>examples:33</summary>
         
 
 
@@ -738,6 +738,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [AOP.Logging.SourceGenerator](/docs/AOP.Logging.SourceGenerator)
+
+        
+
+
+[Tenekon.MethodOverloads.SourceGenerator](/docs/Tenekon.MethodOverloads.SourceGenerator)
 
 </details>
     
@@ -2034,6 +2039,8 @@ flowchart LR;
     EnhancementClass--> TrimItEasy((TrimItEasy))
 
     EnhancementClass--> AOP.Logging.SourceGenerator((AOP.Logging.SourceGenerator))
+
+    EnhancementClass--> Tenekon.MethodOverloads.SourceGenerator((Tenekon.MethodOverloads.SourceGenerator))
 
     EnhancementProject--> ThisAssembly((ThisAssembly))
 
