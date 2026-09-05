@@ -2321,6 +2321,14 @@
       "Source": "https://github.com/LieselThuriot/MagicConstants",
       "Category": "FilesToCode",
       "AddedOn": "2026-09-04T00:00:00"
+    },
+    {
+      "Name": "Tenekon.MethodOverloads.SourceGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Tenekon.MethodOverloads.SourceGenerator",
+      "NuGet": "https://www.nuget.org/packages/Tenekon.MethodOverloads.SourceGenerator/",
+      "Source": "https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator",
+      "Category": "EnhancementClass",
+      "AddedOn": "2026-09-05T00:00:00"
     }
   ]
 }

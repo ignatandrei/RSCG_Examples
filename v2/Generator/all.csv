@@ -289,3 +289,4 @@ Nr,Key,Source,Category
 288,Najlot.Map.SourceGenerator, https://github.com/najlot/Map,Mapper
 289,AOP.Logging.SourceGenerator, https://github.com/dborgards/aop.logging.net,EnhancementClass
 290,MagicConstants, https://github.com/LieselThuriot/MagicConstants,FilesToCode
+291,Tenekon.MethodOverloads.SourceGenerator, https://github.com/tenekon/Tenekon.MethodOverloads.SourceGenerator,EnhancementClass
