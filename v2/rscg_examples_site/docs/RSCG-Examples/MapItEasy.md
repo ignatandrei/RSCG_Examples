@@ -49,15 +49,15 @@ Phong Nguyen
 ## Original Readme
 :::note
 
-# MapItEasy
+### MapItEasy
 
 Simple and fast object mapper (using Expression Trees API and Source Generators) to map data between 2 objects which have identical (or nearly identical) shapes.
 
-## Use Cases
+###### Use Cases
 - Cloning.
 - Data archiving (moving data from the active table to the archived table).
 
-## Installation
+###### Installation
 
 Install the package from NuGet:
 
@@ -70,9 +70,9 @@ Or using the NuGet Package Manager in Visual Studio:
 Install-Package MapItEasy
 ```
 
-## Getting Started
+###### Getting Started
 
-### Using `IMapper`
+######### Using `IMapper`
 
 ```csharp
 IMapper mapper = new ExpressionMapper();
@@ -80,14 +80,14 @@ IMapper mapper = new ExpressionMapper();
 IMapper mapper = new ReflectionMapper();
 ```
 
-#### Map all properties (return new object)
+########## Map all properties (return new object)
 ```csharp
 var source = new A \{ Id = 1, Name = "abc1", Description = "xyz1" };
 
 var target = mapper.Map<A, B>(source);
 ```
 
-#### Map all properties (existing object)
+########## Map all properties (existing object)
 ```csharp
 var source = new A \{ Id = 1, Name = "abc1", Description = "xyz1" };
 var target = new B();
@@ -95,7 +95,7 @@ var target = new B();
 mapper.Map(source, target);
 ```
 
-#### Map only selected properties
+########## Map only selected properties
 ```csharp
 var source = new A \{ Id = 1, Name = "abc1", Description = "xyz1" };
 var target = new B();
@@ -104,7 +104,7 @@ mapper.Map(source, target, new MappingOptions<A> \{ Include = x => new \{ x.Name
 // target.Id == 0, target.Name == "abc1", target.Description == null
 ```
 
-#### Map all properties except selected ones
+########## Map all properties except selected ones
 ```csharp
 var source = new A \{ Id = 1, Name = "abc1", Description = "xyz1" };
 var target = new B();
@@ -115,7 +115,7 @@ mapper.Map(source, target, new MappingOptions<A> \{ Exclude = x => new \{ x.Name
 
 > **Note:** `Include` and `Exclude` cannot be used together. Doing so will throw an `InvalidOperationException`.
 
-### Using Extension Methods
+######### Using Extension Methods
 
 `MapperExtensions` provides convenient extension methods using `ExpressionMapper` under the hood:
 
@@ -133,7 +133,7 @@ source.Map(target2);
 source.Map(target2, new MappingOptions<A> \{ Include = x => new \{ x.Name \} });
 ```
 
-## Source Generator
+###### Source Generator
 
 For **zero-reflection, compile-time mapping**, install the source generator package:
 
@@ -197,7 +197,7 @@ source.ToB(target3);
 var target4 = MappingExtensions.MapToB(source, new MappingOptions<A> \{ Include = x => new \{ x.Name \} });
 ```
 
-## License
+###### License
 **MapItEasy** is licensed under the [MIT](/LICENSE) license.
 
 
