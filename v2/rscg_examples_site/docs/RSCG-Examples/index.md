@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 292 RSCG list by category
-description: 292 RSCG list by category
+title: 293 RSCG list by category
+description: 293 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -133,11 +133,16 @@ import DocCardList from '@theme/DocCardList';
 ## Audit 
 <details>
     
-  <summary>Expand Audit =>examples:1</summary>
+  <summary>Expand Audit =>examples:2</summary>
         
 
 
 [Najlot.Audit.SourceGenerator](/docs/Najlot.Audit.SourceGenerator)
+
+        
+
+
+[MapItEasy](/docs/MapItEasy)
 
 </details>
     
@@ -1846,6 +1851,8 @@ flowchart LR;
     Async--> AsyncIt((AsyncIt))
 
     Audit--> Najlot.Audit.SourceGenerator((Najlot.Audit.SourceGenerator))
+
+    Audit--> MapItEasy((MapItEasy))
 
     Bitwise--> BitsKit((BitsKit))
 
