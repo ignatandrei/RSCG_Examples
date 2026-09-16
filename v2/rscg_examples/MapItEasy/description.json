@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"MapItEasy",
+      "nuget":[
+         "https://www.nuget.org/packages/MapItEasy/"
+      ],
+      "link":"https://github.com/phongnguyend/MapItEasy/",
+      "author":"Phong Nguyen",
+      "source":"https://github.com/phongnguyend/MapItEasy/"
+   },
+   "data":{
+      "goodFor":["Mapping from an object to another object"],
+      "csprojDemo":"mapperDemo.csproj",
+      "csFiles":["Program.cs","Person.cs","PersonDTO.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

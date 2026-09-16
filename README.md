@@ -1,10 +1,10 @@
-# RSCG - 292 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 293 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 292 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 293 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-09-06 => 06 September 2026
+## Latest Update : 2026-09-10 => 10 September 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 292 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 293 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 293. [MapItEasy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapItEasy) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2026-09-10 => 10 September 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Phong Nguyen
+
+Package Description 
+
+Nuget: [https://www.nuget.org/packages/MapItEasy/](https://www.nuget.org/packages/MapItEasy/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapItEasy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapItEasy)
+
+Source: [https://github.com/phongnguyend/MapItEasy/](https://github.com/phongnguyend/MapItEasy/)
+
+</details>
+
 ### 292. [LayeredCraft.OptimizedEnums](https://ignatandrei.github.io/RSCG_Examples/v2/docs/LayeredCraft.OptimizedEnums) , in the [Enum](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#enum) category 
 
 Generated on : 2026-09-06 => 06 September 2026
