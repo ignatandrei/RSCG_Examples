@@ -133,16 +133,11 @@ import DocCardList from '@theme/DocCardList';
 ## Audit 
 <details>
     
-  <summary>Expand Audit =>examples:2</summary>
+  <summary>Expand Audit =>examples:1</summary>
         
 
 
 [Najlot.Audit.SourceGenerator](/docs/Najlot.Audit.SourceGenerator)
-
-        
-
-
-[MapItEasy](/docs/MapItEasy)
 
 </details>
     
@@ -1335,7 +1330,7 @@ import DocCardList from '@theme/DocCardList';
 ## Mapper 
 <details>
     
-  <summary>Expand Mapper =>examples:11</summary>
+  <summary>Expand Mapper =>examples:12</summary>
         
 
 
@@ -1390,6 +1385,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [Najlot.Map.SourceGenerator](/docs/Najlot.Map.SourceGenerator)
+
+        
+
+
+[MapItEasy](/docs/MapItEasy)
 
 </details>
     
@@ -1852,8 +1852,6 @@ flowchart LR;
 
     Audit--> Najlot.Audit.SourceGenerator((Najlot.Audit.SourceGenerator))
 
-    Audit--> MapItEasy((MapItEasy))
-
     Bitwise--> BitsKit((BitsKit))
 
     Bitwise--> Darp.BinaryObjects((Darp.BinaryObjects))
@@ -2279,6 +2277,8 @@ flowchart LR;
     Mapper--> lomapper((lomapper))
 
     Mapper--> Najlot.Map.SourceGenerator((Najlot.Map.SourceGenerator))
+
+    Mapper--> MapItEasy((MapItEasy))
 
     MCP--> RSCG_MCP2OpenAPI((RSCG_MCP2OpenAPI))
 

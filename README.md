@@ -26,7 +26,7 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 Those are the 293 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
-### 293. [MapItEasy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapItEasy) , in the [Audit](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#audit) category 
+### 293. [MapItEasy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapItEasy) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
 
 Generated on : 2026-09-10 => 10 September 2026
 

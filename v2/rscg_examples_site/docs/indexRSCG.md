@@ -20,7 +20,7 @@ This is the list of 293 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
-|293| [MapItEasy by Phong Nguyen ](/docs/MapItEasy)|2026-09-10 => 10 September 2026 | [Audit](/docs/Categories/Audit) |
+|293| [MapItEasy by Phong Nguyen ](/docs/MapItEasy)|2026-09-10 => 10 September 2026 | [Mapper](/docs/Categories/Mapper) |
 |292| [LayeredCraft.OptimizedEnums by LayeredCraft ](/docs/LayeredCraft.OptimizedEnums)|2026-09-06 => 06 September 2026 | [Enum](/docs/Categories/Enum) |
 |291| [Tenekon.MethodOverloads.SourceGenerator by Tenekon ](/docs/Tenekon.MethodOverloads.SourceGenerator)|2026-09-05 => 05 September 2026 | [EnhancementClass](/docs/Categories/EnhancementClass) |
 |290| [MagicConstants by Liesel Thuriot ](/docs/MagicConstants)|2026-09-04 => 04 September 2026 | [FilesToCode](/docs/Categories/FilesToCode) |
