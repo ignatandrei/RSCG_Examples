@@ -198,7 +198,7 @@ var target4 = MappingExtensions.MapToB(source, new MappingOptions<A> \{ Include 
 ```
 
 ###### License
-**MapItEasy** is licensed under the [MIT](/LICENSE) license.
+**MapItEasy** is licensed under the [MIT](https://github.com/phongnguyend/MapItEasy/LICENSE) license.
 
 
 :::
