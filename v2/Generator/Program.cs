@@ -154,7 +154,7 @@ $$"""
 
     long nr = await m.GenerateMSFT();
     Console.WriteLine("RSCG used by MSFT :" + nr);
-    var lastGenerator = "AOP.Logging.SourceGenerator";
+    var lastGenerator = "LayeredCraft.OptimizedEnums";
 
     await m.WrotePost(lastGenerator);     
     await m.WroteDocusaurusAll(lastGenerator);
