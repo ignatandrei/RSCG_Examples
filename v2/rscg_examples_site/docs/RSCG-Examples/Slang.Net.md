@@ -520,7 +520,7 @@ Then use slang-gpt:
 slang gpt --target=en --api-key=<api-key>
 ```
 
-See more: [Documentation](Utilities/Gpt/README.md)
+See more: [Documentation](https://github.com/egorozh/Slang.NET/Utilities/Gpt/README.md
 
 ###### Additional Materials
 

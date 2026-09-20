@@ -206,6 +206,7 @@ public class MultiGeneratorV2
             text = text.Replace("(sg_example.png", $"({d.Generator!.Source}/sg_example.png");
             text = text.Replace("(Readme_md/", $"({d.Generator!.Source}Readme_md/");
             text = text.Replace("(README.md)", $"({d.Generator!.Source}README.md");
+            text = text.Replace("(Utilities/Gpt/README.md)", $"({d.Generator!.Source}Utilities/Gpt/README.md");
             text = text.Replace("(src/samples/ConsoleSample)", $"({d.Generator!.Source}src/samples/ConsoleSample");
             text = text.Replace("(src/Jab.Performance/)", $"({d.Generator!.Source}src/Jab.Performance/");
             text = text.Replace("(README.md#Unity-installation)", $"({d.Generator!.Source}/README.md#Unity-installation");
