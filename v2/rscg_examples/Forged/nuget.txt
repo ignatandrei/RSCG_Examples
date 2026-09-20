@@ -1,0 +1,1 @@
+A fast, strict, and strongly-typed data generator (faker) for C# powered by Source Generators.

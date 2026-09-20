@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Forged",
+      "nuget":[
+         "https://www.nuget.org/packages/Atulin.Forged/"
+      ],
+      "link":"https://github.com/Atulin/Forged",
+      "author":"Angius",
+      "source":"https://github.com/Atulin/Forged"
+   },
+   "data":{
+      "goodFor":["Generating faker data from class"],
+      "csprojDemo":"TestClock.csproj",
+      "csFiles":["IMyClock.cs","TestClock.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

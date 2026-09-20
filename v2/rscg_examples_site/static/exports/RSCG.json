@@ -2353,6 +2353,14 @@
       "Source": "https://github.com/egorozh/Slang.NET/",
       "Category": "FilesToCode",
       "AddedOn": "2026-09-11T00:00:00"
+    },
+    {
+      "Name": "Forged",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged",
+      "NuGet": "https://www.nuget.org/packages/Atulin.Forged/",
+      "Source": "https://github.com/Atulin/Forged",
+      "Category": "Tests",
+      "AddedOn": "2026-09-12T00:00:00"
     }
   ]
 }

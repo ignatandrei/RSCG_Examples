@@ -1,10 +1,10 @@
-# RSCG - 294 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 295 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 294 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 295 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-09-11 => 11 September 2026
+## Latest Update : 2026-09-12 => 12 September 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 294 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 295 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 295. [Forged](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
+
+Generated on : 2026-09-12 => 12 September 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Angius
+
+A fast, strict, and strongly-typed data generator (faker) for C# powered by Source Generators. 
+
+Nuget: [https://www.nuget.org/packages/Atulin.Forged/](https://www.nuget.org/packages/Atulin.Forged/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged)
+
+Source: [https://github.com/Atulin/Forged](https://github.com/Atulin/Forged)
+
+</details>
+
 ### 294. [Slang.Net](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Slang.Net) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
 
 Generated on : 2026-09-11 => 11 September 2026

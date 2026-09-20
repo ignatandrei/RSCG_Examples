@@ -1,0 +1,36 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Forged",
+  "steps": 
+  [
+    {
+      "file": "rscg_examples/Forged/src/TestClock/TestClock.csproj",
+      "description": "First, we add Nuget  [Atulin.Forged](https://www.nuget.org/packages/Atulin.Forged/) in csproj  ",
+      "pattern": "Atulin.Forged"
+    }
+
+        ,{
+        "file": "rscg_examples/Forged/src/TestClock/TestClock.cs",
+        "description": "File TestClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "rscg_examples/Forged/src/Mock/IMyClock.cs",
+        "description": "File IMyClock.cs  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "rscg_examples/Forged/src/TestClock/obj/GX/Forged.Generator/Forged.Generator.ForgedGenerator/QuickStartRepoStub.g.cs",
+        "description": "Generated File 1  from 1 : QuickStartRepoStub.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

@@ -1762,5 +1762,11 @@
     "category": "FilesToCode",
     "href": "/RSCG_Examples/v2/docs/Slang.Net/",
     "body": "Type-safe i18n for .NET"
+  },
+  {
+    "title": "Forged",
+    "category": "Tests",
+    "href": "/RSCG_Examples/v2/docs/Forged/",
+    "body": ""
   }
 ]
