@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ZodSharp",
+      "nuget":[
+         "https://www.nuget.org/packages/ZodSharp/"
+      ],
+      "link":"https://github.com/guinhx/ZodSharp/",
+      "author":"Diego Teles",
+      "source":"https://github.com/guinhx/ZodSharp/"
+   },
+   "data":{
+      "goodFor":["Zod like validation for C#"],
+      "csprojDemo":"ZodSharpDemo.csproj",
+      "csFiles":["Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
