@@ -7,9 +7,9 @@ slug: /List-of-RSCG
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
-## 294 RSCG with examples in descending chronological order
+## 295 RSCG with examples in descending chronological order
 
-This is the list of 294 ( 16 from Microsoft) RSCG with examples 
+This is the list of 295 ( 16 from Microsoft) RSCG with examples 
 
 [See by category](/docs/rscg-examples) [See as json](/exports/RSCG.json) [See as Excel](/exports/RSCG.xlsx)
 
@@ -20,6 +20,7 @@ This is the list of 294 ( 16 from Microsoft) RSCG with examples
 
 | No        | Name  | Date | Category |
 | --------- | ----- | ---- | -------- |  
+|295| [Forged by Angius ](/docs/Forged)|2026-09-12 => 12 September 2026 | [Tests](/docs/Categories/Tests) |
 |294| [Slang.Net by Egor Zheludkov ](/docs/Slang.Net)|2026-09-11 => 11 September 2026 | [FilesToCode](/docs/Categories/FilesToCode) |
 |293| [MapItEasy by Phong Nguyen ](/docs/MapItEasy)|2026-09-10 => 10 September 2026 | [Mapper](/docs/Categories/Mapper) |
 |292| [LayeredCraft.OptimizedEnums by LayeredCraft ](/docs/LayeredCraft.OptimizedEnums)|2026-09-06 => 06 September 2026 | [Enum](/docs/Categories/Enum) |
