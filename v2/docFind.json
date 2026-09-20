@@ -1753,8 +1753,14 @@
   },
   {
     "title": "MapItEasy",
-    "category": "Audit",
+    "category": "Mapper",
     "href": "/RSCG_Examples/v2/docs/MapItEasy/",
     "body": "Package Description"
+  },
+  {
+    "title": "Slang.Net",
+    "category": "FilesToCode",
+    "href": "/RSCG_Examples/v2/docs/Slang.Net/",
+    "body": "Type-safe i18n for .NET"
   }
 ]
