@@ -37,9 +37,9 @@ Generated on : 2026-09-12 => 12 September 2026
 
 Author: Angius
 
- 
+A fast, strict, and strongly-typed data generator (faker) for C# powered by Source Generators. 
 
-Nuget: [https://www.nuget.org/packages/Forged/](https://www.nuget.org/packages/Forged/) 
+Nuget: [https://www.nuget.org/packages/Atulin.Forged/](https://www.nuget.org/packages/Atulin.Forged/) 
 
 
 Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged)

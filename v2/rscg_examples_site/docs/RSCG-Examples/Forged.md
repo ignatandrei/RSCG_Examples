@@ -15,7 +15,7 @@ import SameCategory from '../Categories/_PrimitiveTests.mdx';
 <TOCInline toc={toc}  minHeadingLevel={2}  maxHeadingLevel={2} />
 
 ## NuGet / site data
-[![Nuget](https://img.shields.io/nuget/dt/Forged?label=Forged)](https://www.nuget.org/packages/Forged/)
+[![Nuget](https://img.shields.io/nuget/dt/Atulin.Forged?label=Atulin.Forged)](https://www.nuget.org/packages/Atulin.Forged/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Atulin/Forged?label=updated)](https://github.com/Atulin/Forged)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Atulin/Forged?style=social)
 
@@ -26,12 +26,12 @@ import SameCategory from '../Categories/_PrimitiveTests.mdx';
 
 Name: **Forged**
 
-
+A fast, strict, and strongly-typed data generator (faker) for C# powered by Source Generators.
 
 Author: Angius
 
 NuGet: 
-*https://www.nuget.org/packages/Forged/*   
+*https://www.nuget.org/packages/Atulin.Forged/*   
 
 
 You can find more details at https://github.com/Atulin/Forged
