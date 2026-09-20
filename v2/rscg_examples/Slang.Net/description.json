@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"Slang.Net",
+      "nuget":[
+         "https://www.nuget.org/packages/Slang.Net/"
+      ],
+      "link":"https://github.com/egorozh/Slang.NET/",
+      "author":"Egor Zheludkov",
+      "source":"https://github.com/egorozh/Slang.NET/"
+   },
+   "data":{
+      "goodFor":["Generate localization files from strings"],
+      "csprojDemo":"EmbedDemo.csproj",
+      "csFiles":["AllText.i18n.json","AllText_ro.i18n.json","Trans.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<PropertyGroup>
+		<EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+		<CompilerGeneratedFilesOutputPath>$(BaseIntermediateOutputPath)\GX</CompilerGeneratedFilesOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="i18n\*.i18n.json" />
+		<AdditionalFiles Remove="i18n\AllText_ro-Ro.i18n.json" />
+		<AdditionalFiles Include="slang.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Slang.Net" Version="10.1.1" />
+	</ItemGroup>	
+</Project>

@@ -1775,5 +1775,11 @@
     "Category": 6,
     "dtStart": "2026-09-10T00:00:00",
     "show": true
-  } 
+  } ,
+{
+  "ID":"Slang.Net",
+  "Category": 8,
+  "dtStart": "2026-09-11T00:00:00",
+  "show": true
+}
 ]
