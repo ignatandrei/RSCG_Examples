@@ -1,10 +1,10 @@
-# RSCG - 293 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 294 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 293 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 294 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-09-10 => 10 September 2026
+## Latest Update : 2026-09-11 => 11 September 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 293 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 294 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 294. [Slang.Net](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Slang.Net) , in the [FilesToCode](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#filestocode) category 
+
+Generated on : 2026-09-11 => 11 September 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Egor Zheludkov
+
+Type-safe i18n for .NET 
+
+Nuget: [https://www.nuget.org/packages/Slang.Net/](https://www.nuget.org/packages/Slang.Net/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Slang.Net](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Slang.Net)
+
+Source: [https://github.com/egorozh/Slang.NET/](https://github.com/egorozh/Slang.NET/)
+
+</details>
+
 ### 293. [MapItEasy](https://ignatandrei.github.io/RSCG_Examples/v2/docs/MapItEasy) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
 
 Generated on : 2026-09-10 => 10 September 2026

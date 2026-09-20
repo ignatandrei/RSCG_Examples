@@ -2345,6 +2345,14 @@
       "Source": "https://github.com/phongnguyend/MapItEasy/",
       "Category": "Mapper",
       "AddedOn": "2026-09-10T00:00:00"
+    },
+    {
+      "Name": "Slang.Net",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Slang.Net",
+      "NuGet": "https://www.nuget.org/packages/Slang.Net/",
+      "Source": "https://github.com/egorozh/Slang.NET/",
+      "Category": "FilesToCode",
+      "AddedOn": "2026-09-11T00:00:00"
     }
   ]
 }

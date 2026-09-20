@@ -1,0 +1,60 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Slang.Net",
+  "steps": 
+  [
+    {
+      "file": "EmbedDemo/EmbedDemo.csproj",
+      "description": "First, we add Nuget  [Slang.Net](https://www.nuget.org/packages/Slang.Net/) in csproj  ",
+      "pattern": "Slang.Net"
+    }
+
+        ,{
+        "file": "EmbedDemo/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project EmbedDemo/EmbedDemo.csproj ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/Trans.cs",
+        "description": "File Trans.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/i18n/AllText_ro.i18n.json",
+        "description": "File AllText_ro.i18n.json  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "EmbedDemo/i18n/AllText.i18n.json",
+        "description": "File AllText.i18n.json  ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "EmbedDemo/obj/GX/Slang.Generator/Slang.Generator.TranslateGenerator/TranslateAllText_ro.g.cs",
+        "description": "Generated File 3  from 3 : TranslateAllText_ro.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EmbedDemo/obj/GX/Slang.Generator/Slang.Generator.TranslateGenerator/TranslateAllText_en-US.g.cs",
+        "description": "Generated File 2  from 3 : TranslateAllText_en-US.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "EmbedDemo/obj/GX/Slang.Generator/Slang.Generator.TranslateGenerator/TranslateAllText.g.cs",
+        "description": "Generated File 1  from 3 : TranslateAllText.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}
