@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 295 RSCG list by category
-description: 295 RSCG list by category
+title: 296 RSCG list by category
+description: 296 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1575,7 +1575,7 @@ import DocCardList from '@theme/DocCardList';
 ## Serializer 
 <details>
     
-  <summary>Expand Serializer =>examples:11</summary>
+  <summary>Expand Serializer =>examples:12</summary>
         
 
 
@@ -1630,6 +1630,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [serde](/docs/serde)
+
+        
+
+
+[ModernLibs.FileHelpers](/docs/ModernLibs.FileHelpers)
 
 </details>
     
@@ -2357,6 +2362,8 @@ flowchart LR;
     Serializer--> Csvcsharp((Csvcsharp))
 
     Serializer--> serde((serde))
+
+    Serializer--> ModernLibs.FileHelpers((ModernLibs.FileHelpers))
 
     SignalR--> TypedSignalR.Client((TypedSignalR.Client))
 

@@ -1767,6 +1767,12 @@
     "title": "Forged",
     "category": "Tests",
     "href": "/RSCG_Examples/v2/docs/Forged/",
-    "body": ""
+    "body": "A fast, strict, and strongly-typed data generator (faker) for C# powered by Source Generators."
+  },
+  {
+    "title": "ModernLibs.FileHelpers",
+    "category": "Serializer",
+    "href": "/RSCG_Examples/v2/docs/ModernLibs.FileHelpers/",
+    "body": "Modern, AOT-ready rewrite of FileHelpers 3.x for .NET 10. Reads and writes delimited (CSV, TSV, ...) and fixed-length files. Record descriptors are created at compile time by a bundled source generator, so there is no runtime reflection and the library is trimming- and Native AOT-compatible. Reading record structs causes no per-record allocations by the engine (string field values still allocate their text). FileHelpers 3.x-style API (record attributes, engines, error modes); the migration guide lists the differences."
   }
 ]

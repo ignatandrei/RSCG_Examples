@@ -2361,6 +2361,14 @@
       "Source": "https://github.com/Atulin/Forged",
       "Category": "Tests",
       "AddedOn": "2026-09-12T00:00:00"
+    },
+    {
+      "Name": "ModernLibs.FileHelpers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ModernLibs.FileHelpers",
+      "NuGet": "https://www.nuget.org/packages/ModernLibs.FileHelpers/",
+      "Source": "https://github.com/ModernLibs/FileHelpers/",
+      "Category": "Serializer",
+      "AddedOn": "2026-10-01T00:00:00"
     }
   ]
 }

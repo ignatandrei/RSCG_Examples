@@ -294,3 +294,4 @@ Nr,Key,Source,Category
 293,MapItEasy, https://github.com/phongnguyend/MapItEasy/,Mapper
 294,Slang.Net, https://github.com/egorozh/Slang.NET/,FilesToCode
 295,Forged, https://github.com/Atulin/Forged,Tests
+296,ModernLibs.FileHelpers, https://github.com/ModernLibs/FileHelpers/,Serializer
