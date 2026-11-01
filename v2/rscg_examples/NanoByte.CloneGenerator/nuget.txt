@@ -1,0 +1,1 @@
+Roslyn source generator for deep Clone() methods. Annotate a partial class with [Cloneable] and the member-by-member copy is generated at compile time.

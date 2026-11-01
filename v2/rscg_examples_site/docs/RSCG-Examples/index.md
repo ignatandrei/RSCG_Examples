@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 296 RSCG list by category
-description: 296 RSCG list by category
+title: 297 RSCG list by category
+description: 297 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -263,7 +263,7 @@ import DocCardList from '@theme/DocCardList';
 ## Clone 
 <details>
     
-  <summary>Expand Clone =>examples:4</summary>
+  <summary>Expand Clone =>examples:5</summary>
         
 
 
@@ -283,6 +283,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [FastCloner](/docs/FastCloner)
+
+        
+
+
+[NanoByte.CloneGenerator](/docs/NanoByte.CloneGenerator)
 
 </details>
     
@@ -1910,6 +1915,8 @@ flowchart LR;
     Clone--> UtilityVerse.Copy((UtilityVerse.Copy))
 
     Clone--> FastCloner((FastCloner))
+
+    Clone--> NanoByte.CloneGenerator((NanoByte.CloneGenerator))
 
     CodeToString--> SourceGenerator.Helper.CopyCode((SourceGenerator.Helper.CopyCode))
 

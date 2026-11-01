@@ -1793,5 +1793,12 @@
     "Category":16,
     "dtStart": "2026-10-01T00:00:00",
     "show": true
-  }  
+  } ,
+  {
+
+    "ID":"NanoByte.CloneGenerator",
+    "Category":29,
+    "dtStart":"2026-10-02T00:00:00",
+    "show":true
+  },
 ]
