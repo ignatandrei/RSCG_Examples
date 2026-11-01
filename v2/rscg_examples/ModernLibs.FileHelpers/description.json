@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"ModernLibs.FileHelpers",
+      "nuget":[
+         "https://www.nuget.org/packages/ModernLibs.FileHelpers/"
+      ],
+      "link":"https://github.com/ModernLibs/FileHelpers/",
+      "author":"Piotr-Nawrot",
+      "source":"https://github.com/ModernLibs/FileHelpers/"
+   },
+   "data":{
+      "goodFor":["Read/write records based on fixed-width or delimited formats"],
+      "csprojDemo":"Serializer.csproj",
+      "csFiles":["Person.cs","Program.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}

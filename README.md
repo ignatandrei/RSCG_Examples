@@ -1,10 +1,10 @@
-# RSCG - 295 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 296 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 295 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 296 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-09-12 => 12 September 2026
+## Latest Update : 2026-10-01 => 01 October 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 295 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 296 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 296. [ModernLibs.FileHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ModernLibs.FileHelpers) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
+
+Generated on : 2026-10-01 => 01 October 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Piotr-Nawrot
+
+Modern, AOT-ready rewrite of FileHelpers 3.x for .NET 10. Reads and writes delimited (CSV, TSV, ...) and fixed-length files. Record descriptors are created at compile time by a bundled source generator, so there is no runtime reflection and the library is trimming- and Native AOT-compatible. Reading record structs causes no per-record allocations by the engine (string field values still allocate their text). FileHelpers 3.x-style API (record attributes, engines, error modes); the migration guide lists the differences. 
+
+Nuget: [https://www.nuget.org/packages/ModernLibs.FileHelpers/](https://www.nuget.org/packages/ModernLibs.FileHelpers/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/ModernLibs.FileHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ModernLibs.FileHelpers)
+
+Source: [https://github.com/ModernLibs/FileHelpers/](https://github.com/ModernLibs/FileHelpers/)
+
+</details>
+
 ### 295. [Forged](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Forged) , in the [Tests](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#tests) category 
 
 Generated on : 2026-09-12 => 12 September 2026
