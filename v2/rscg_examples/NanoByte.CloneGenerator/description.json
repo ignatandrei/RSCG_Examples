@@ -1,0 +1,22 @@
+{
+   "generator":{
+      "name":"NanoByte.CloneGenerator",
+      "nuget":[
+         "https://www.nuget.org/packages/NanoByte.CloneGenerator/"
+      ],
+      "link":"",
+      "author":"",
+      "source":""
+   },
+   "data":{
+      "goodFor":["Cloning objects"],
+      "csprojDemo":"CloneData.csproj",
+      "csFiles":["Program.cs","Person.cs"],
+      "excludeDirectoryGenerated":[""],
+      "includeAdditionalFiles":[""]
+   },
+   "links":{
+      "blog":"",
+      "video":""
+   }
+}
