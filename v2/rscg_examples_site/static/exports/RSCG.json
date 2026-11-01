@@ -2369,6 +2369,14 @@
       "Source": "https://github.com/ModernLibs/FileHelpers/",
       "Category": "Serializer",
       "AddedOn": "2026-10-01T00:00:00"
+    },
+    {
+      "Name": "NanoByte.CloneGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NanoByte.CloneGenerator",
+      "NuGet": "https://www.nuget.org/packages/NanoByte.CloneGenerator/",
+      "Source": "",
+      "Category": "Clone",
+      "AddedOn": "2026-10-02T00:00:00"
     }
   ]
 }

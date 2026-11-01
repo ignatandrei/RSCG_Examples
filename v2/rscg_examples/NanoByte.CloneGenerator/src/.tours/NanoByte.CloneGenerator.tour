@@ -1,0 +1,42 @@
+
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "NanoByte.CloneGenerator",
+  "steps": 
+  [
+    {
+      "file": "CloneData/CloneData.csproj",
+      "description": "First, we add Nuget  [NanoByte.CloneGenerator](https://www.nuget.org/packages/NanoByte.CloneGenerator/) in csproj  ",
+      "pattern": "NanoByte.CloneGenerator"
+    }
+
+        ,{
+        "file": "CloneData/Person.cs",
+        "description": "File Person.cs  ",
+        "pattern": "this is the code"
+        }
+    
+        ,{
+        "file": "CloneData/Program.cs",
+        "description": "File Program.cs \r\n>> dotnet run --project CloneData/CloneData.csproj ",
+        "pattern": "this is the code"
+        }
+    
+
+        ,{
+        "file": "CloneData/obj/GX/NanoByte.CloneGenerator/NanoByte.CloneGenerator.CloneSourceGenerator/CloneGeneratorAttributes.g.cs",
+        "description": "Generated File 2  from 2 : CloneGeneratorAttributes.g.cs ",
+        "line": 1
+        }
+    
+        ,{
+        "file": "CloneData/obj/GX/NanoByte.CloneGenerator/NanoByte.CloneGenerator.CloneSourceGenerator/CloneData.Person.Clone.g.cs",
+        "description": "Generated File 1  from 2 : CloneData.Person.Clone.g.cs ",
+        "line": 1
+        }
+    
+  ],
+
+  "ref": "main"
+
+}

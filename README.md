@@ -1,10 +1,10 @@
-# RSCG - 296 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 297 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 296 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 297 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-10-01 => 01 October 2026
+## Latest Update : 2026-10-02 => 02 October 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 296 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 297 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 297. [NanoByte.CloneGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NanoByte.CloneGenerator) , in the [Clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone) category 
+
+Generated on : 2026-10-02 => 02 October 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: 
+
+Roslyn source generator for deep Clone() methods. Annotate a partial class with [Cloneable] and the member-by-member copy is generated at compile time. 
+
+Nuget: [https://www.nuget.org/packages/NanoByte.CloneGenerator/](https://www.nuget.org/packages/NanoByte.CloneGenerator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/NanoByte.CloneGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NanoByte.CloneGenerator)
+
+Source: []()
+
+</details>
+
 ### 296. [ModernLibs.FileHelpers](https://ignatandrei.github.io/RSCG_Examples/v2/docs/ModernLibs.FileHelpers) , in the [Serializer](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#serializer) category 
 
 Generated on : 2026-10-01 => 01 October 2026
