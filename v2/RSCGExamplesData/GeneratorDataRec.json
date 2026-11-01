@@ -1799,5 +1799,11 @@
     "Category":29,
     "dtStart":"2026-10-02T00:00:00",
     "show":true
-  }
+  },
+  {
+    "ID":"Mappa.Generator",
+    "Category": 6,
+    "dtStart": "2026-10-03T00:00:00",
+    "show": true
+  } 
 ]
