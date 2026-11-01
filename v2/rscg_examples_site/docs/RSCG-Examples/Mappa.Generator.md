@@ -49,7 +49,7 @@ Stefano Anelli
 ## Original Readme
 :::note
 
-# 🗺️ Mappa
+### 🗺️ Mappa
 
 ![Build main](https://github.com/sanelli/Mappa/actions/workflows/merge-main.yml/badge.svg)
 ![Line Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fsanelli%2F7f4a85bc809328b4821b03125f9190cb%2Fraw%2FMAPPA-BADGE-LINE-COVERAGE.json)
@@ -57,7 +57,7 @@ Stefano Anelli
 ![Method Coverage](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fsanelli%2F7f4a85bc809328b4821b03125f9190cb%2Fraw%2FMAPPA-BADGE-METHOD-COVERAGE.json)
 
 Mappa (italian for _map_) is a source generator for `C#` that can generate code to allow the mapping between types, similarly to what [AutoMapper](https://www.nuget.org/packages/AutoMapper) (and other similar tools) does.
-See [Documentation](./Documentation/README.md) for more details.
+See [Documentation](https://github.com/sanelli/Mappa/Documentation/README.md) for more details.
 
 The main difference between Mappa and AutoMapper is that Mappa generates code at compile time while AutoMapper only at runtime;
 this has multiple benefits:
@@ -70,7 +70,7 @@ this has multiple benefits:
 - you do not need to specify every type that requires a mapping: if a mapping is missing Mappa will generate it for you;
 
 
-## 🧑‍🔬 A simple example
+###### 🧑‍🔬 A simple example
 Consider the following code snippet:
 ```csharp
 using Mappa;
@@ -151,41 +151,41 @@ public partial class Mapper
 }
 ```
 
-## 🧑🏻‍💻 How to use Mappa
+###### 🧑🏻‍💻 How to use Mappa
 The easiest way is to import the NuGet packages and apply the `[Mappa]` attribute on the partial classes that contain the partial methods that need to be generated.
 
-Please see the [tutorial](./Documentation/tutorial.md) in the [documentation](./Documentation/README.md) provided.
+Please see the [tutorial](https://github.com/sanelli/Mappa/Documentation/tutorial.md) in the [documentation](https://github.com/sanelli/Mappa/Documentation/README.md) provided.
 
 You can also find many examples in the [Mappa.Samples](Mappa.Samples) project.
 
-## 📦 NuGet packages
+###### 📦 NuGet packages
 - [Mappa](https://www.nuget.org/packages/Mappa/): attributes and `MappaContext` used to drive the source generator;
 - [Mappa source generator](https://www.nuget.org/packages/Mappa.Generator/): source generator that automatically generates mappings between classes and value types.
 
 Bson (`ObjectId`, `Decimal128`) and Protobuf (`Timestamp`, `Duration`, scalar wrappers) mappings are generated when you enable `BsonWellKnownTypes` / `ProtobufWellKnownTypes` and reference [MongoDB.Bson](https://www.nuget.org/packages/MongoDB.Bson/) or [Google.Protobuf](https://www.nuget.org/packages/Google.Protobuf/).
 
-# 📈 Code coverage history 
+### 📈 Code coverage history 
 - [Code Coverage gist](https://gist.github.com/sanelli/7f4a85bc809328b4821b03125f9190cb)
 - [Code Coverage history](https://gist.github.com/sanelli/7f4a85bc809328b4821b03125f9190cb#file-mappa-code-coverage-history-md)
 
 <img alt="Code coverage history" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-CODE-COVERAGE-HISTORY.svg" width="800" />
 
-# 🏎️ Benchmarks
+### 🏎️ Benchmarks
 Mappa is compared with AutoMapper, Mapster, and Mapperly on a shared set of mapping scenarios (collections, nested DTOs, IQueryable projection, and related cases). **Lower time and lower memory are better**. Details live in [Mappa.Benchmark/README.md](Mappa.Benchmark/README.md).
 
-### Latest run — winners
+######### Latest run — winners
 <img alt="Benchmark winners" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-BENCHMARK-COMPARISON.svg" width="800"/>
 
-### Latest run — mean time vs Mappa (%)
+######### Latest run — mean time vs Mappa (%)
 <img alt="Benchmark mean time percentages" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-BENCHMARK-TIME-PERCENTAGES.svg" width="800"/>
 
-### Latest run — allocated memory vs Mappa (%)
+######### Latest run — allocated memory vs Mappa (%)
 <img alt="Benchmark allocated memory percentages" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-BENCHMARK-MEMORY-PERCENTAGES.svg" width="800"/>
 
-### Latest run — mean time
+######### Latest run — mean time
 <img alt="Benchmark mean time" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-BENCHMARK-TIME.svg" width="800"/>
 
-### Latest run — allocated memory
+######### Latest run — allocated memory
 <img alt="Benchmark allocated memory" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-BENCHMARK-MEMORY.svg" width="800"/>
 
 :::
