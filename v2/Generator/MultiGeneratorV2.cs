@@ -293,7 +293,7 @@ public class MultiGeneratorV2
         response = await tryToGetMasterOrMain(httpClient, url + "ReadMe.md");
         if (!string.IsNullOrWhiteSpace(response)) return response;
 
-        response = await tryToGetMasterOrMain(httpClient, url + "blob/main/docs/ReadMe.md");
+        response = await tryToGetMasterOrMain(httpClient, url + "../refs/heads/main/docs/ReadMe.md");
         if (!string.IsNullOrWhiteSpace(response)) return response;
         
         Console.WriteLine("!!! not grab readme.md from "+source + " with url "+ url);
