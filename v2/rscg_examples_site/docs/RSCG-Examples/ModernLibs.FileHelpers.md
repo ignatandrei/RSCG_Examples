@@ -49,7 +49,7 @@ Piotr-Nawrot
 ## Original Readme
 :::note
 
-# ModernLibs.FileHelpers
+### ModernLibs.FileHelpers
 
 [![NuGet](https://img.shields.io/nuget/v/ModernLibs.FileHelpers.svg)](https://www.nuget.org/packages/ModernLibs.FileHelpers)
 [![CI](https://github.com/ModernLibs/FileHelpers/actions/workflows/ci.yml/badge.svg)](https://github.com/ModernLibs/FileHelpers/actions/workflows/ci.yml)
@@ -67,7 +67,7 @@ Marcos Meli and contributors. FileHelpers 3.x is the reference for its behaviour
 original project: please report problems with this library
 [here](https://github.com/ModernLibs/FileHelpers/issues), not upstream.
 
-## Install
+###### Install
 
 ```bash
 dotnet add package ModernLibs.FileHelpers
@@ -78,9 +78,9 @@ C# 14, so this only matters if your project pins an older `<LangVersion>`. The p
 dependencies. The source generator is included as an analyzer;
 there is nothing else to install.
 
-## Quick start
+###### Quick start
 
-### Delimited records
+######### Delimited records
 
 ```csharp
 using ModernLibs.FileHelpers;
@@ -113,7 +113,7 @@ engine.WriteFile("customers-copy.csv", customers);           // HeaderText is wr
 
 Fields are read in declaration order. Use `[FieldOrder(n)]` when you want the order to be explicit.
 
-### Fixed-length records
+######### Fixed-length records
 
 ```csharp
 [FixedLengthRecord]
@@ -146,7 +146,7 @@ string text = engine.WriteString(staff);   // writes the same layout back
 `[FixedLengthRecord(FixedMode.AllowLessChars)]` and the other `FixedMode` values control how lines
 that are shorter or longer than the layout are handled.
 
-### Record structs without per-record allocations
+######### Record structs without per-record allocations
 
 Records can be `struct` or `record struct` types. A struct whose fields are all value types (numbers,
 dates, `bool`, `Guid`, enums, ...) can be read through a callback or a streaming method without any
@@ -174,7 +174,7 @@ not allocate a result array or a per-line string. A `string` field still allocat
 the array-returning overloads still allocate the array. `ReadString` and `ReadSpan` also accept a
 `SpanRecordCallback<T>` that receives each record by reference.
 
-## Features
+###### Features
 
 - **Delimited and fixed-length records** described with FileHelpers-style attributes: `[DelimitedRecord]`,
   `[FixedLengthRecord]`, `[FieldOrder]`, `[FieldFixedLength]`, `[FieldQuoted]`, `[FieldTrim]`,
@@ -213,7 +213,7 @@ the array-returning overloads still allocate the array. `ReadString` and `ReadSp
   throws a `BadUsageException` that names the errors (see
   [suppressing diagnostics](https://github.com/ModernLibs/FileHelpers/blob/main/docs/diagnostics.md#suppressing-diagnostics)).
 
-## Error handling
+###### Error handling
 
 By default (`ErrorMode.ThrowException`) the first bad record stops the read with an exception that
 carries the line number:
@@ -247,7 +247,7 @@ foreach (ErrorInfo error in engine.ErrorManager.Errors)
     Console.WriteLine($"Line {error.LineNumber}, field {error.FieldName}: {error.ExceptionInfo?.Message}");
 ```
 
-## Streaming large files
+###### Streaming large files
 
 ```csharp
 await foreach (Customer c in engine.ReadAsync("big.csv", cancellationToken))
@@ -266,14 +266,14 @@ while (reader.ReadNext() is \{ \} customer)
 See [Opt-in features](https://github.com/ModernLibs/FileHelpers/blob/main/docs/OPT-IN-FEATURES.md) for
 callbacks, record recycling and parallel reads.
 
-## Native AOT and trimming
+###### Native AOT and trimming
 
 All parsing and formatting code is generated at compile time. The library uses no reflection,
 `Expression` compilation or `DynamicMethod`, and is built with `IsAotCompatible` and `IsTrimmable`
 enabled, so the trim and AOT analyzers check it on every build. Applications that use it can publish
 with `PublishAot=true`.
 
-## Performance
+###### Performance
 
 The read path works on `ReadOnlySpan<char>`: lines and fields are sliced, not copied, and numeric,
 date and other value-type fields are parsed straight from the span. Buffers are pooled. Struct records
@@ -296,7 +296,7 @@ Results depend on hardware and record shape; see
 [BENCHMARKS.md](https://github.com/ModernLibs/FileHelpers/blob/main/BENCHMARKS.md) to run the suite on
 your own hardware.
 
-## Migrating from FileHelpers 3.x
+###### Migrating from FileHelpers 3.x
 
 The API follows FileHelpers 3.x: the same attribute names, engine classes, events and exception types.
 Most code migrates by changing the namespace:
@@ -312,7 +312,7 @@ Some things are different. Runtime-reflection features (`ClassBuilder`, non-gene
 [migration guide](https://github.com/ModernLibs/FileHelpers/blob/main/docs/MIGRATION.md) lists every
 difference we know of.
 
-## Versioning
+###### Versioning
 
 4.x is a ground-up modern reimplementation that follows FileHelpers 3.x, so its major version
 continues after 3.x. Versions 4.0.0 to 4.7.0 were development milestones, published only as source
@@ -320,7 +320,7 @@ releases on GitHub. **4.8.0 is the first release on NuGet.** From 4.8.0 on, the 
 [Semantic Versioning](https://semver.org/). See the
 [changelog](https://github.com/ModernLibs/FileHelpers/blob/main/CHANGELOG.md).
 
-## Documentation
+###### Documentation
 
 - [Migration guide](https://github.com/ModernLibs/FileHelpers/blob/main/docs/MIGRATION.md) - every difference from FileHelpers 3.x
 - [Diagnostics reference](https://github.com/ModernLibs/FileHelpers/blob/main/docs/diagnostics.md) - `MLFH001`-`MLFH029`
@@ -330,13 +330,13 @@ releases on GitHub. **4.8.0 is the first release on NuGet.** From 4.8.0 on, the 
 - [Changelog](https://github.com/ModernLibs/FileHelpers/blob/main/CHANGELOG.md)
 - [Samples](https://github.com/ModernLibs/FileHelpers/tree/main/samples)
 
-## Contributing
+###### Contributing
 
 Issues and pull requests are welcome. See
 [CONTRIBUTING.md](https://github.com/ModernLibs/FileHelpers/blob/main/CONTRIBUTING.md) for how to
 build, test and submit changes.
 
-## License and credits
+###### License and credits
 
 MIT, see [LICENSE](https://github.com/ModernLibs/FileHelpers/blob/main/LICENSE).
 
