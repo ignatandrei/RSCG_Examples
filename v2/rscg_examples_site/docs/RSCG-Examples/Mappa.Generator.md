@@ -156,7 +156,7 @@ The easiest way is to import the NuGet packages and apply the `[Mappa]` attribut
 
 Please see the [tutorial](https://github.com/sanelli/Mappa/Documentation/tutorial.md) in the [documentation](https://github.com/sanelli/Mappa/Documentation/README.md) provided.
 
-You can also find many examples in the [Mappa.Samples](Mappa.Samples) project.
+You can also find many examples in the [Mappa.Samples](https://github.com/sanelli/Mappa/Mappa.Samples) project.
 
 ###### 📦 NuGet packages
 - [Mappa](https://www.nuget.org/packages/Mappa/): attributes and `MappaContext` used to drive the source generator;
@@ -171,7 +171,7 @@ Bson (`ObjectId`, `Decimal128`) and Protobuf (`Timestamp`, `Duration`, scalar wr
 <img alt="Code coverage history" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-CODE-COVERAGE-HISTORY.svg" width="800" />
 
 ### 🏎️ Benchmarks
-Mappa is compared with AutoMapper, Mapster, and Mapperly on a shared set of mapping scenarios (collections, nested DTOs, IQueryable projection, and related cases). **Lower time and lower memory are better**. Details live in [Mappa.Benchmark/README.md](Mappa.Benchmark/README.md).
+Mappa is compared with AutoMapper, Mapster, and Mapperly on a shared set of mapping scenarios (collections, nested DTOs, IQueryable projection, and related cases). **Lower time and lower memory are better**. Details live in [Mappa.Benchmark/README.md](https://github.com/sanelli/Mappa/Mappa.Benchmark/README.md).
 
 ######### Latest run — winners
 <img alt="Benchmark winners" src="https://gist.githubusercontent.com/sanelli/7f4a85bc809328b4821b03125f9190cb/raw/MAPPA-BENCHMARK-COMPARISON.svg" width="800"/>
