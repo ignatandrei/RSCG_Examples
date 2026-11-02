@@ -2361,6 +2361,30 @@
       "Source": "https://github.com/Atulin/Forged",
       "Category": "Tests",
       "AddedOn": "2026-09-12T00:00:00"
+    },
+    {
+      "Name": "ModernLibs.FileHelpers",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/ModernLibs.FileHelpers",
+      "NuGet": "https://www.nuget.org/packages/ModernLibs.FileHelpers/",
+      "Source": "https://github.com/ModernLibs/FileHelpers/",
+      "Category": "Serializer",
+      "AddedOn": "2026-10-01T00:00:00"
+    },
+    {
+      "Name": "NanoByte.CloneGenerator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/NanoByte.CloneGenerator",
+      "NuGet": "https://www.nuget.org/packages/NanoByte.CloneGenerator/",
+      "Source": "",
+      "Category": "Clone",
+      "AddedOn": "2026-10-02T00:00:00"
+    },
+    {
+      "Name": "Mappa.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mappa.Generator",
+      "NuGet": "https://www.nuget.org/packages/Mappa.Generator/",
+      "Source": "https://github.com/sanelli/Mappa",
+      "Category": "Mapper",
+      "AddedOn": "2026-10-03T00:00:00"
     }
   ]
 }
