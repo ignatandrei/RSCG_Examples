@@ -2377,6 +2377,14 @@
       "Source": "",
       "Category": "Clone",
       "AddedOn": "2026-10-02T00:00:00"
+    },
+    {
+      "Name": "Mappa.Generator",
+      "Link": "https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mappa.Generator",
+      "NuGet": "https://www.nuget.org/packages/Mappa.Generator/",
+      "Source": "https://github.com/sanelli/Mappa",
+      "Category": "Mapper",
+      "AddedOn": "2026-10-03T00:00:00"
     }
   ]
 }

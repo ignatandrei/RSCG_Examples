@@ -1,10 +1,10 @@
-# RSCG - 297 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
+# RSCG - 298 Examples of Roslyn Source Code Generators  / 16 created by Microsoft / 
 
-The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 297 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
+The RSCG_Examples repository is a comprehensive documentation system that automatically processes and showcases 298 Roslyn Source Code Generator (RSCG) examples. The system transforms individual RSCG projects into structured documentation with code examples and cross-referenced content with a searchable website  and code example  exports.
 
 This system serves as both a learning resource for .NET developers interested in source generators and an automated pipeline for maintaining up-to-date documentation about the RSCG ecosystem
 
-## Latest Update : 2026-10-02 => 02 October 2026
+## Latest Update : 2026-10-03 => 03 October 2026
 
 If you want to see examples with code, please click  ***[List V2](https://ignatandrei.github.io/RSCG_Examples/v2/docs/List-of-RSCG)***
 
@@ -24,8 +24,30 @@ If you want to be notified each time I add a new RSCG example , please click htt
 
 ## Content 
 
-Those are the 297 Roslyn Source Code Generators that I have tested you can see and download source code example.
+Those are the 298 Roslyn Source Code Generators that I have tested you can see and download source code example.
 ( including 16 from Microsoft )
+### 298. [Mappa.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mappa.Generator) , in the [Mapper](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#mapper) category 
+
+Generated on : 2026-10-03 => 03 October 2026
+
+<details>
+  <summary>Expand</summary>
+
+
+
+Author: Stefano Anelli
+
+Mappa source generator. 
+
+Nuget: [https://www.nuget.org/packages/Mappa.Generator/](https://www.nuget.org/packages/Mappa.Generator/) 
+
+
+Link: [https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mappa.Generator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/Mappa.Generator)
+
+Source: [https://github.com/sanelli/Mappa](https://github.com/sanelli/Mappa)
+
+</details>
+
 ### 297. [NanoByte.CloneGenerator](https://ignatandrei.github.io/RSCG_Examples/v2/docs/NanoByte.CloneGenerator) , in the [Clone](https://ignatandrei.github.io/RSCG_Examples/v2/docs/rscg-examples#clone) category 
 
 Generated on : 2026-10-02 => 02 October 2026

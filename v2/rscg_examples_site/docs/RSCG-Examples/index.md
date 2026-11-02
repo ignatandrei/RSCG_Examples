@@ -1,7 +1,7 @@
 ---
 sidebar_position: 30
-title: 297 RSCG list by category
-description: 297 RSCG list by category
+title: 298 RSCG list by category
+description: 298 RSCG list by category
 slug: /rscg-examples
 ---
 
@@ -1340,7 +1340,7 @@ import DocCardList from '@theme/DocCardList';
 ## Mapper 
 <details>
     
-  <summary>Expand Mapper =>examples:12</summary>
+  <summary>Expand Mapper =>examples:13</summary>
         
 
 
@@ -1400,6 +1400,11 @@ import DocCardList from '@theme/DocCardList';
 
 
 [MapItEasy](/docs/MapItEasy)
+
+        
+
+
+[Mappa.Generator](/docs/Mappa.Generator)
 
 </details>
     
@@ -2303,6 +2308,8 @@ flowchart LR;
     Mapper--> Najlot.Map.SourceGenerator((Najlot.Map.SourceGenerator))
 
     Mapper--> MapItEasy((MapItEasy))
+
+    Mapper--> Mappa.Generator((Mappa.Generator))
 
     MCP--> RSCG_MCP2OpenAPI((RSCG_MCP2OpenAPI))
 

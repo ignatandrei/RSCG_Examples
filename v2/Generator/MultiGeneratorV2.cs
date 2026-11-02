@@ -133,7 +133,9 @@ public class MultiGeneratorV2
             text = text.Replace("(README_IMAGE.png)", $"({d.Generator!.Source}/README_IMAGE.png)");
             text = text.Replace("[this]()", $"[this]({d.Generator!.Source})");
             text = text.Replace("(README", $"({d.Generator!.Source}/README");
-            
+
+            text = text.Replace("(Mappa.Samples", $"({d.Generator!.Source}/Mappa.Samples");
+            text = text.Replace("(Mappa.Benchmark", $"({d.Generator!.Source}/Mappa.Benchmark");
             text = text.Replace("(COVERAGE", $"({d.Generator!.Source}/COVERAGE");
             text = text.Replace("(TeCLI.", $"({d.Generator!.Source}/TeCLI.");
             

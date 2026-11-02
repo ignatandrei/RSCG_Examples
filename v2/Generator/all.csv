@@ -296,3 +296,4 @@ Nr,Key,Source,Category
 295,Forged, https://github.com/Atulin/Forged,Tests
 296,ModernLibs.FileHelpers, https://github.com/ModernLibs/FileHelpers/,Serializer
 297,NanoByte.CloneGenerator, ,Clone
+298,Mappa.Generator, https://github.com/sanelli/Mappa,Mapper
